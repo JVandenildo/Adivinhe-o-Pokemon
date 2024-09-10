@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<title>Adivinhe o Pokémon</title>
+	</head>
+	<body>
+		<header><h1>Consegue adivinhar o Pokémon?</h1></header>
+		<main>
+			<strong>Por enquanto, só tem os 9 primeiros e o número 151.</strong>
+			<section id="usuario">
+				<button onclick="novaTentativa()" id="btnTentativa">
+					nova tentativa
+				</button>
+				<input
+					type="text"
+					translate="no"
+					placeholder="Digite o palpite aqui"
+					id="campoPalpite"
+				/>
+				<button onclick="darPalpite()" id="btnPalpite">dar palpite</button>
+			</section>
+			<section id="maquina"></section>
+		</main>
+		<footer>
+			A franquia Pokémon é uma franquia internacional, visite
+			<a href="https://www.pokemon.com/" target="_blank">pokemon.com</a> para
+			mais informações.
+		</footer>
+		<script src="scripts/dadosPKMN.js"></script>
+		<script src="scripts/app.js"></script>
+	</body>
+</html>
