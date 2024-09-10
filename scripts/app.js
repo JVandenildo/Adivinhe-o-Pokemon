@@ -38,7 +38,7 @@ function darPalpite() {
 			return ganhou(palpites + 1);
 
 		default:
-			if (palpites > listaDiscas.length) {
+			if (palpites >= listaDiscas.length) {
 				return perdeu();
 			} else {
 				campoDicas.insertAdjacentHTML(
@@ -66,11 +66,13 @@ function resetar() {
 }
 
 /**
- * Função que lida na situação de acerto do jogador
+ * Lida com o acerto do jogador
  * @param {number} palpites quantidade de vezes que o jogador tentou um nome
  * @returns nada
  */
 function ganhou(palpites) {
+	document.getElementById("btnPalpite").onclick = null;
+
 	if (palpites === 1) {
 		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!\nEra ${escolhido.nome}!</p><img src="${escolhido.sprite}" />`;
 
@@ -82,10 +84,12 @@ function ganhou(palpites) {
 	}
 }
 /**
- * Função que lida na situação de derrota do jogador
+ * Lida com a derrota do jogador
  * @returns nada
  */
 function perdeu() {
 	ultimato.innerHTML = `<p>Você errou! Era ${escolhido.nome}!</p><img src="${escolhido.sprite}" />`;
+	document.getElementById("btnPalpite").onclick = null;
+
 	return;
 }
