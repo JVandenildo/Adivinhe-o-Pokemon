@@ -11,7 +11,7 @@ function novaTentativa() {
 	const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
 
 	escolhido = primeiraGeracao[ticket];
-	console.log(escolhido.nome, escolhido.massa);
+	// console.log(escolhido.nome, escolhido.massa);
 	campoDicas.insertAdjacentHTML(
 		"beforeend",
 		`<p>${escolhido.massa}kg e ${escolhido.altura}m</p>`
