@@ -14,7 +14,7 @@ function novaTentativa() {
 	// console.log(escolhido.nome, escolhido.massa);
 	campoDicas.insertAdjacentHTML(
 		"beforeend",
-		`<p>${escolhido.massa}kg e ${escolhido.altura}m</p>`
+		`<p>${escolhido.massa}kg e ${escolhido.altura}m de altura</p>`
 	);
 
 	return escolhido;
