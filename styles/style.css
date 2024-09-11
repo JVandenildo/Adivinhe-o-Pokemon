@@ -129,7 +129,12 @@ button {
 	justify-items: start;
 	text-align: center;
 }
+#campoDicas img {
+	height: 10rem;
+	width: 10rem;
+	filter: contrast(1%) opacity(99%);
+}
 #ultimato img {
-	height: 12rem;
-	width: 12rem;
+	height: 13rem;
+	width: 13rem;
 }

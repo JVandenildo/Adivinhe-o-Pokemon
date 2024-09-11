@@ -16,7 +16,7 @@ function novaTentativa() {
 	const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
 
 	escolhido = primeiraGeracao[ticket];
-	console.log(escolhido.nome, escolhido.massa);
+	console.info("Somente testes:", escolhido.nome);
 	campoDicas.insertAdjacentHTML(
 		"beforeend",
 		`<p>${escolhido.massa}kg e ${escolhido.altura}m de altura</p>`
@@ -35,7 +35,7 @@ function darPalpite() {
 		escolhido.categoria,
 		escolhido.local,
 		escolhido.descricao,
-		escolhido.link,
+		`<img src="${escolhido.sprite}" />`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -93,11 +93,11 @@ function ganhou(palpites) {
 	btnPalpite.removeEventListener("click", darPalpite);
 
 	if (palpites === 1) {
-		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!<br><a href="${escolhido.link}">Mais informações sobre</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
+		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!<br><a href="${escolhido.link}">Mais informações</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
 
 		return;
 	} else {
-		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpites!<br><a href="${escolhido.link}">Mais informações sobre</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
+		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpites!<br><a href="${escolhido.link}">Mais informações</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
 
 		return;
 	}
@@ -107,7 +107,7 @@ function ganhou(palpites) {
  * @returns nada
  */
 function perdeu() {
-	ultimato.innerHTML = `<p>Você errou! Era ${escolhido.nome}!<br><a href="${escolhido.link}">Mais informações sobre.</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
+	ultimato.innerHTML = `<p>Você errou! Era ${escolhido.nome}!<br><a href="${escolhido.link}">Mais informações.</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
 	btnPalpite.removeEventListener("click", darPalpite);
 
 	return;
