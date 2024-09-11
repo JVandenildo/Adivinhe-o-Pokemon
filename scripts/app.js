@@ -2,6 +2,7 @@ const campoPalpite = document.getElementById("campoPalpite");
 const ultimosPalpites = document.getElementById("ultimosPalpites");
 const campoDicas = document.getElementById("campoDicas");
 const ultimato = document.getElementById("ultimato");
+const btnPalpite = document.getElementById("btnPalpite");
 let escolhido = {};
 let palpites = 0;
 
@@ -34,6 +35,7 @@ function darPalpite() {
 		escolhido.categoria,
 		escolhido.local,
 		escolhido.descricao,
+		escolhido.link,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -77,6 +79,7 @@ function resetar() {
 	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
 	campoDicas.innerHTML = "";
 	ultimato.innerHTML = "";
+	btnPalpite.addEventListener("click", darPalpite);
 
 	return true;
 }
@@ -87,14 +90,14 @@ function resetar() {
  * @returns nada
  */
 function ganhou(palpites) {
-	document.getElementById("btnPalpite").onclick = null;
+	btnPalpite.removeEventListener("click", darPalpite);
 
 	if (palpites === 1) {
-		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!\nEra ${escolhido.nome}!</p><img src="${escolhido.sprite}" />`;
+		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!<br><a href="${escolhido.link}">Mais informações sobre</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
 
 		return;
 	} else {
-		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpites!\nEra ${escolhido.nome}!</p><img src="${escolhido.sprite}" />`;
+		ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpites!<br><a href="${escolhido.link}">Mais informações sobre</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
 
 		return;
 	}
@@ -104,8 +107,8 @@ function ganhou(palpites) {
  * @returns nada
  */
 function perdeu() {
-	ultimato.innerHTML = `<p>Você errou! Era ${escolhido.nome}!</p><img src="${escolhido.sprite}" />`;
-	document.getElementById("btnPalpite").onclick = null;
+	ultimato.innerHTML = `<p>Você errou! Era ${escolhido.nome}!<br><a href="${escolhido.link}">Mais informações sobre.</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
+	btnPalpite.removeEventListener("click", darPalpite);
 
 	return;
 }
