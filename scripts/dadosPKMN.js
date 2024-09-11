@@ -249,7 +249,7 @@ const primeiraGeracao = [
 			"Há muito considerado um Pokémon mítico até que, recentemente, foi descoberta uma colônia vivendo debaixo da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		lendario: false,
-		local: "Caverna de Cerulean",
+		local: "Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0147Dratini.png/375px-0147Dratini.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)",
