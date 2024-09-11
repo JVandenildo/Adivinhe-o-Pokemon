@@ -5,13 +5,17 @@ const ultimato = document.getElementById("ultimato");
 let escolhido = {};
 let palpites = 0;
 
+/**
+ * Gera um novo PKMN para começar um novo jogo.
+ * @returns Retorna um novo PKMN.
+ */
 function novaTentativa() {
 	resetar();
 	const data = new Date();
 	const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
 
 	escolhido = primeiraGeracao[ticket];
-	// console.log(escolhido.nome, escolhido.massa);
+	console.log(escolhido.nome, escolhido.massa);
 	campoDicas.insertAdjacentHTML(
 		"beforeend",
 		`<p>${escolhido.massa}kg e ${escolhido.altura}m de altura</p>`
@@ -20,6 +24,10 @@ function novaTentativa() {
 	return escolhido;
 }
 
+/**
+ * Verifica se o palpite do usuário está correto.
+ * @returns Retorna algo caso seja definitivo.
+ */
 function darPalpite() {
 	const listaDiscas = [
 		escolhido.tipo,
@@ -32,14 +40,18 @@ function darPalpite() {
 		case "":
 			alert("Calma lá! Tente algum nome!");
 
-			return;
+			break;
 
 		case escolhido.nome.toLowerCase():
-			return ganhou(palpites + 1);
+			ganhou(palpites + 1);
+
+			break;
 
 		default:
 			if (palpites >= listaDiscas.length) {
-				return perdeu();
+				perdeu();
+
+				break;
 			} else {
 				campoDicas.insertAdjacentHTML(
 					"beforeend",
@@ -54,6 +66,10 @@ function darPalpite() {
 
 			break;
 	}
+
+	campoPalpite.value = "";
+
+	return;
 }
 
 function resetar() {
