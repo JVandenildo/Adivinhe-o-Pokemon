@@ -3,7 +3,19 @@ const ultimosPalpites = document.getElementById("ultimosPalpites");
 const campoDicas = document.getElementById("campoDicas");
 const ultimato = document.getElementById("ultimato");
 const btnPalpite = document.getElementById("btnPalpite");
-let escolhido = {};
+let escolhido = {
+	nome: "MissingNo.",
+	numero: 0,
+	tipo: ["Void"],
+	altura: 0,
+	massa: 0,
+	descricao: "Algo de errado, não está certo.",
+	categoria: "Pokémon Perdido",
+	lendario: true,
+	local: "Memoria",
+	sprite: "https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
+	link: "https://bulbapedia.bulbagarden.net/wiki/MissingNo.",
+};
 let palpites = 0;
 
 /**
