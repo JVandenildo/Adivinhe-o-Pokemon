@@ -127,7 +127,7 @@ const primeiraGeracao = [
 		altura: 2.0, // em metros
 		descricao:
 			"Um Pokémon brutal com jatos de água pressurizada em seu casco. São usados em investidas de alta velocidade.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Marisco",
+		categoria: "Pokémon Casco",
 		lendario: false,
 		local: "Por evolução",
 		sprite:
@@ -162,7 +162,7 @@ const segundaGeracao = [
 			"Adora aproveitar a luz do sol. Usa a folha na cabeça para procurar lugares quentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
 		lendario: false,
-		local: "Laboratório Professor Elm",
+		local: "Laboratório Prof. Elm",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0152Chikorita.png/375px-0152Chikorita.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chikorita_(Pok%C3%A9mon)",
@@ -207,7 +207,7 @@ const segundaGeracao = [
 			"Geralmente fica curvado. Quando está com raiva ou surpreso, atira chamas de suas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato de Fogo",
 		lendario: false,
-		local: "Laboratório Professor Elm",
+		local: "Laboratório Prof. Elm",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0155Cyndaquil.png/375px-0155Cyndaquil.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cyndaquil_(Pok%C3%A9mon)",
@@ -297,7 +297,7 @@ const segundaGeracao = [
 			"Este Pokémon vaga pelo tempo. A grama e as árvores floresce nas florestas em que apareceu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viajante do Tempo",
 		lendario: true,
-		local: "Laboratório Professor Elm",
+		local: "Somente evento",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0251Celebi.png/375px-0251Celebi.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)",
@@ -321,6 +321,126 @@ const terceiraGeracao = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Treecko_(Pok%C3%A9mon)",
 	},
 	{
+		nome: "Grovyle",
+		numero: 253, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 21.6, // em kg
+		altura: 0.9, // em metros
+		descricao:
+			"As folhas crescendo em seu corpo são convenientes para se camuflar de inimigos na floresta. É um mestre em escalar árvores na floresta.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lagartixa de Madeira",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0253Grovyle.png/375px-0253Grovyle.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Grovyle_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Sceptile",
+		numero: 254, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 52.2, // em kg
+		altura: 1.7, // em metros
+		descricao:
+			"As folhas que crescem em seu corpo são muito afiadas. Sendo muito ágil consegue saltar pelos galhos das árvores e saltar em seu oponente por cima ou por trás.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Floresta",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0254Sceptile.png/375px-0254Sceptile.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Sceptile_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Torchic",
+		numero: 255, // considerando a national dex
+		tipo: ["Fogo"],
+		massa: 2.5, // em kg
+		altura: 0.4, // em metros
+		descricao:
+			"Possui um lugar dentro de seu corpo onde mantém suas chamas.É coberto por uma pelagem fofa de penugem.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pinto",
+		lendario: false,
+		local: "Rota 101",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/7d/0255Torchic.png/375px-0255Torchic.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Combusken",
+		numero: 256, // considerando a national dex
+		tipo: ["Fogo", "Lutador"],
+		massa: 19.5, // em kg
+		altura: 0.9, // em metros
+		descricao:
+			"Batalha com as chamas intensamente quentes que expele de seu bico e com chutes excepcionalmente destrutíveis. Seu grito é muito alto e perturbador.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Frango",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/78/0256Combusken.png/375px-0256Combusken.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Combusken_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Blaziken",
+		numero: 257, // considerando a national dex
+		tipo: ["Fogo", "Lutador"],
+		massa: 52.0, // em kg
+		altura: 1.9, // em metros
+		descricao:
+			"Em batalha, sopra chamas intensas de seus punhos e ataca os oponentes corajosamente. Quanto mais forte o oponente, mais intensamente as chamas de seu punho queimam.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Chamas",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0257Blaziken.png/375px-0257Blaziken.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Blaziken_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mudkip",
+		numero: 258, // considerando a national dex
+		tipo: ["Água"],
+		massa: 7.6, // em kg
+		altura: 0.4, // em metros
+		descricao:
+			"A barbatana em sua cabeça age como um radar altamente sensível. Usando essa barbatana para sentir os movimentos da água e do ar, consegue determinar o que está acontecendo ao seu redor sem usar os olhos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Peixe de Lama",
+		lendario: false,
+		local: "Rota 101",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/26/0258Mudkip.png/375px-0258Mudkip.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Marshtomp",
+		numero: 259, // considerando a national dex
+		tipo: ["Água", "Terra"],
+		massa: 28.0, // em kg
+		altura: 0.7, // em metros
+		descricao:
+			"É muito mais rápido na lama do que nadando. Seus membros inferiores exibem desenvolvimento óbvio, dando a habilidade de andar apenas com as patas traseiras.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Peixe de Lama",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0259Marshtomp.png/375px-0259Marshtomp.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Marshtomp_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Swampert",
+		numero: 260, // considerando a national dex
+		tipo: ["Água", "Terra"],
+		massa: 81.9, // em kg
+		altura: 1.5, // em metros
+		descricao:
+			"É tão forte que consegue arrastar facilmente uma rocha pesando mais de uma tonelada. Também possui uma ótima visão, podendo enxergar pela água turva.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Peixe de Lama",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/34/0260Swampert.png/375px-0260Swampert.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon)",
+	},
+	{
 		nome: "Deoxys",
 		numero: 386, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -330,7 +450,7 @@ const terceiraGeracao = [
 			"Um Pokémon que evoluiu de um vírus extraterrestre exposto a um rio laser.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
 		lendario: true,
-		local: "Ilha da Origem ou por evento, dependendo da versão",
+		local: "Somente evento",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d7/0386Deoxys.png/375px-0386Deoxys.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
@@ -354,6 +474,126 @@ const quartaGeracao = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)",
 	},
 	{
+		nome: "Grotle",
+		numero: 388, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 97.0, // em kg
+		altura: 1.1, // em metros
+		descricao:
+			"Vive próximo a água em florestas. Durante o dia, deixa a floresta para tomar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bosque",
+		lendario: false,
+		local: "Por evolução.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0388Grotle.png/375px-0388Grotle.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Torterra",
+		numero: 389, // considerando a national dex
+		tipo: ["Planta", "Terra"],
+		massa: 310.0, // em kg
+		altura: 2.2, // em metros
+		descricao:
+			"Ocasionalmente, pequenos Pokémon se reúnem em suas costas para construir seus ninhos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Continente",
+		lendario: false,
+		local: "Por evolução.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0389Torterra.png/375px-0389Torterra.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Chimchar",
+		numero: 390, // considerando a national dex
+		tipo: ["Fogo"],
+		massa: 6.2, // em kg
+		altura: 0.5, // em metros
+		descricao:
+			"É muito ágil. Antes de dormir, extingue a chama de sua calda para prevenir incêndios.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Chimpanzé",
+		lendario: false,
+		local: "Rota 201 ou Lago Verdade, dependendo da versão.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0390Chimchar.png/375px-0390Chimchar.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Monferno",
+		numero: 391, // considerando a national dex
+		tipo: ["Fogo", "Lutador"],
+		massa: 22.0, // em kg
+		altura: 0.9, // em metros
+		descricao:
+			"Para se defender, estica o fogo em sua calda para parecer ser maior.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Brincalhão",
+		lendario: false,
+		local: "Por evolução.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/52/0391Monferno.png/375px-0391Monferno.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Monferno_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Infernape",
+		numero: 389, // considerando a national dex
+		tipo: ["Fogo", "Lutador"],
+		massa: 55.0, // em kg
+		altura: 1.2, // em metros
+		descricao:
+			"Usa um tipo especial de artes marciais envolvendo todos os seus membros. Seu fogo nunca se extingue.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Chamas",
+		lendario: false,
+		local: "Por evolução.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0392Infernape.png/375px-0392Infernape.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Piplup",
+		numero: 393, // considerando a national dex
+		tipo: ["Água"],
+		massa: 5.2, // em kg
+		altura: 0.4, // em metros
+		descricao:
+			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem grossa o protege do frio.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Penguin",
+		lendario: false,
+		local: "Rota 201 ou Lago Verdade, dependendo da versão.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0393Piplup.png/375px-0393Piplup.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Prinplup",
+		numero: 388, // considerando a national dex
+		tipo: ["Água"],
+		massa: 23.0, // em kg
+		altura: 0.8, // em metros
+		descricao:
+			"Vive sozinho, longe de outros. Aparentemente, todos de sua espécie acredita ser o mais importante.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Penguin",
+		lendario: false,
+		local: "Por evolução.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0394Prinplup.png/375px-0394Prinplup.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Empoleon",
+		numero: 395, // considerando a national dex
+		tipo: ["Água", "Metal"],
+		massa: 84.5, // em kg
+		altura: 1.7, // em metros
+		descricao:
+			"Nada tão rápido quanto uma lancha. As bordas de suas asas são afiadas e podem cortar blocos de gelo à deriva.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Imperador",
+		lendario: false,
+		local: "Por evolução.",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0395Empoleon.png/375px-0395Empoleon.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)",
+	},
+	{
 		nome: "Arceus",
 		numero: 493, // considerando a national dex
 		tipo: ["Normal"],
@@ -370,8 +610,14 @@ const quartaGeracao = [
 	},
 ];
 
-const todasGeracoes =
-	primeiraGeracao + segundaGeracao + terceiraGeracao + quartaGeracao;
+const todasGeracoes = [
+	primeiraGeracao,
+	segundaGeracao,
+	terceiraGeracao,
+	quartaGeracao,
+];
+// console.log("Todas gerações:", todasGeracoes);
+
 const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
 const nomesSegunda = segundaGeracao.map((x) => x.nome);
 const nomesTerceira = terceiraGeracao.map((x) => x.nome);
