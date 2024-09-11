@@ -135,6 +135,171 @@ const primeiraGeracao = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)",
 	},
 	{
+		nome: "Omanyte",
+		numero: 138, // considerando a national dex
+		tipo: ["Rocha", "Água"],
+		massa: 7.5, // em kg
+		altura: 0.4, // em metros
+		descricao:
+			"Mesmo há muito extinto, em casos raros, pode ser ressuscitado a partir de fósseis.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espiral",
+		lendario: false,
+		local: "Revivido a partir do Fóssil Espiral na Ilha Cinnabar",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/e6/0138Omanyte.png/375px-0138Omanyte.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Omanyte_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Omastar",
+		numero: 139, // considerando a national dex
+		tipo: ["Rocha", "Água"],
+		massa: 35.0, // em kg
+		altura: 1.0, // em metros
+		descricao:
+			"Um Pokémon pré-histórico que morreu quando sua pesada carapaça tornou impossível de caçar suas presas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Por evolução",
+		lendario: false,
+		local: "Usina Elétrica Abandonada",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/6/66/0139Omastar.png/375px-0139Omastar.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Omastar_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Kabuto",
+		numero: 140, // considerando a national dex
+		tipo: ["Rocha", "Água"],
+		massa: 11.5, // em kg
+		altura: 0.5, // em metros
+		descricao:
+			"Um Pokémon que foi ressuscitado a partir de um fóssil encontrado no que já foi o fundo do oceano, eras atrás.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Casco",
+		lendario: false,
+		local: "Revivido a partir do Fóssil Domo na Ilha Cinnabar",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0140Kabuto.png/375px-0140Kabuto.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Kabuto_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Kabutops",
+		numero: 141, // considerando a national dex
+		tipo: ["Rocha", "Água"],
+		massa: 40.5, // em kg
+		altura: 1.3, // em metros
+		descricao:
+			"Seu formato peculiar é perfeito para nadar. Fatia sua presa com suas garras e drena os fluidos corporais.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Casco",
+		lendario: false,
+		local: "Por Evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/4/41/0141Kabutops.png/375px-0141Kabutops.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Articuno",
+		numero: 145, // considerando a national dex
+		tipo: ["Gelo", "Voador"],
+		massa: 55.4, // em kg
+		altura: 1.7, // em metros
+		descricao:
+			"Um Pokémon pássaro lendário que supostamente aparece a pessoas condenadas que estão perdidas em montanhas geladas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Congelante",
+		lendario: true,
+		local: "Ilhas Espuma",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/d/d0/0144Articuno.png/375px-0144Articuno.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Zapdos",
+		numero: 145, // considerando a national dex
+		tipo: ["Elétrico", "Voador"],
+		massa: 52.6, // em kg
+		altura: 1.6, // em metros
+		descricao:
+			"Um Pokémon pássaro lendário que supostamente surge das nuvens enquanto solta raios enormes.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Elétrico",
+		lendario: true,
+		local: "Usina Elétrica Abandonada",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c6/0145Zapdos.png/375px-0145Zapdos.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Moltres",
+		numero: 146, // considerando a national dex
+		tipo: ["Fogo", "Voador"],
+		massa: 60.0, // em kg
+		altura: 2.0, // em metros
+		descricao:
+			"Conhecido como o pássaro lendário de fogo. Cada bater de suas asas cria um deslumbrante clarão de chamas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon de Chamas",
+		lendario: true,
+		local: "Estrada da Vitória",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/21/0146Moltres.png/375px-0146Moltres.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dratini",
+		numero: 147, // considerando a national dex
+		tipo: ["Dragão"],
+		massa: 3.3, // em kg
+		altura: 1.8, // em metros
+		descricao:
+			"Há muito considerado um Pokémon mítico até que, recentemente, foi descoberta uma colônia vivendo debaixo da água.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dragão",
+		lendario: false,
+		local: "Caverna de Cerulean",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0147Dratini.png/375px-0147Dratini.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dragonair",
+		numero: 148, // considerando a national dex
+		tipo: ["Dragão"],
+		massa: 16.5, // em kg
+		altura: 4.0, // em metros
+		descricao:
+			"Um Pokémon místico que exala uma aura gentil. Possui a habilidade de mudar condições climáticas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dragão",
+		lendario: false,
+		local: "Zona Safari",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0148Dragonair.png/375px-0148Dragonair.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dragonite",
+		numero: 149, // considerando a national dex
+		tipo: ["Dragão", "Voador"],
+		massa: 210.0, // em kg
+		altura: 2.2, // em metros
+		descricao:
+			"Um Pokémon marinho raramente visto. É dito que sua inteligência é comparada a de seres humanos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dragão",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/1c/0149Dragonite.png/375px-0149Dragonite.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mewtwo",
+		numero: 150, // considerando a national dex
+		tipo: ["Psíquico"],
+		massa: 122.0, // em kg
+		altura: 2.0, // em metros
+		descricao:
+			"Foi criado por um cientista depois anos de experimentos de engenharia genética.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Genético",
+		lendario: true,
+		local: "Caverna de Cerulean",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0150Mewtwo.png/375px-0150Mewtwo.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)",
+	},
+	{
 		nome: "Mew",
 		numero: 151, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -468,7 +633,7 @@ const quartaGeracao = [
 			"Feito de solo, a carapaça nas suas costas endurece quando bebe água. Vive perto de lagos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pequena Folha",
 		lendario: false,
-		local: "Rota 201 ou Lago Verdade, dependendo da versão.",
+		local: "Rota 201 ou Lago Verdade, dependendo da versão",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/68/0387Turtwig.png/375px-0387Turtwig.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)",
@@ -483,7 +648,7 @@ const quartaGeracao = [
 			"Vive próximo a água em florestas. Durante o dia, deixa a floresta para tomar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bosque",
 		lendario: false,
-		local: "Por evolução.",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0388Grotle.png/375px-0388Grotle.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon)",
@@ -498,7 +663,7 @@ const quartaGeracao = [
 			"Ocasionalmente, pequenos Pokémon se reúnem em suas costas para construir seus ninhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Continente",
 		lendario: false,
-		local: "Por evolução.",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0389Torterra.png/375px-0389Torterra.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)",
@@ -513,7 +678,7 @@ const quartaGeracao = [
 			"É muito ágil. Antes de dormir, extingue a chama de sua calda para prevenir incêndios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chimpanzé",
 		lendario: false,
-		local: "Rota 201 ou Lago Verdade, dependendo da versão.",
+		local: "Rota 201 ou Lago Verdade, dependendo da versão",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0390Chimchar.png/375px-0390Chimchar.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon)",
@@ -528,7 +693,7 @@ const quartaGeracao = [
 			"Para se defender, estica o fogo em sua calda para parecer ser maior.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brincalhão",
 		lendario: false,
-		local: "Por evolução.",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/5/52/0391Monferno.png/375px-0391Monferno.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Monferno_(Pok%C3%A9mon)",
@@ -543,7 +708,7 @@ const quartaGeracao = [
 			"Usa um tipo especial de artes marciais envolvendo todos os seus membros. Seu fogo nunca se extingue.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
 		lendario: false,
-		local: "Por evolução.",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0392Infernape.png/375px-0392Infernape.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon)",
@@ -558,7 +723,7 @@ const quartaGeracao = [
 			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem grossa o protege do frio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Penguin",
 		lendario: false,
-		local: "Rota 201 ou Lago Verdade, dependendo da versão.",
+		local: "Rota 201 ou Lago Verdade, dependendo da versão",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0393Piplup.png/375px-0393Piplup.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon)",
@@ -573,7 +738,7 @@ const quartaGeracao = [
 			"Vive sozinho, longe de outros. Aparentemente, todos de sua espécie acredita ser o mais importante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Penguin",
 		lendario: false,
-		local: "Por evolução.",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0394Prinplup.png/375px-0394Prinplup.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pok%C3%A9mon)",
@@ -588,7 +753,7 @@ const quartaGeracao = [
 			"Nada tão rápido quanto uma lancha. As bordas de suas asas são afiadas e podem cortar blocos de gelo à deriva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Imperador",
 		lendario: false,
-		local: "Por evolução.",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0395Empoleon.png/375px-0395Empoleon.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)",
