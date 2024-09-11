@@ -79,6 +79,7 @@ function resetar() {
 	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
 	campoDicas.innerHTML = "";
 	ultimato.innerHTML = "";
+	palpites = 0;
 	btnPalpite.addEventListener("click", darPalpite);
 
 	return true;
