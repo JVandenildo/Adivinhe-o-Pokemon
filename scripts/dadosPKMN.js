@@ -219,7 +219,7 @@ const primeiraGeracao = [
 			"Voa em alta velocidade e ataca usando seus ferrões venenosos localizados nas patas dianteiras e cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abelha Venenosa",
 		lendario: false,
-		local: "Floresta de Viridiana",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0015Beedrill.png/375px-0015Beedrill.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon)",
@@ -247,9 +247,9 @@ const primeiraGeracao = [
 		altura: 1.0, // em metros
 		descricao:
 			"Um Pokémon pré-histórico que morreu quando sua pesada carapaça tornou impossível de caçar suas presas.", // considerando a dex da primeira geração que apareceu
-		categoria: "Por evolução",
+		categoria: "Pokémon Espiral",
 		lendario: false,
-		local: "Usina Elétrica Abandonada",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/66/0139Omastar.png/375px-0139Omastar.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omastar_(Pok%C3%A9mon)",
@@ -262,7 +262,7 @@ const primeiraGeracao = [
 		altura: 0.5, // em metros
 		descricao:
 			"Um Pokémon que foi ressuscitado a partir de um fóssil encontrado no que já foi o fundo do oceano, eras atrás.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Casco",
+		categoria: "Pokémon Marisco",
 		lendario: false,
 		local: "Revivido a partir do Fóssil Domo na Ilha Cinnabar",
 		sprite:
@@ -277,7 +277,7 @@ const primeiraGeracao = [
 		altura: 1.3, // em metros
 		descricao:
 			"Seu formato peculiar é perfeito para nadar. Fatia sua presa com suas garras e drena os fluidos corporais.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Casco",
+		categoria: "Pokémon Marisco",
 		lendario: false,
 		local: "Por Evolução",
 		sprite:
