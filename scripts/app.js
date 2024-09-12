@@ -30,12 +30,11 @@ function novaTentativa() {
 	escolhido = primeiraGeracao[ticket];
 
 	console.info(
-		"Somente testes:",
-		escolhido.nome,
+		`Somente testes: ${escolhido.nome}`,
 		"\n",
-		"Avanço:",
-		primeiraGeracao.length,
-		"/ 151"
+		`Avanço: ${primeiraGeracao.length}/151`,
+		"\n",
+		`${Math.round((primeiraGeracao.length / 151) * 100)}%`
 	);
 
 	campoDicas.insertAdjacentHTML(

@@ -59,7 +59,7 @@ main {
 
 footer {
 	background-color: goldenrod;
-	padding: 1rem;
+	padding: 0.5rem;
 	margin-top: 1rem;
 	height: fit-content;
 	right: 0px;
@@ -81,33 +81,44 @@ footer img {
 }
 
 button {
+	line-height: 1.2rem;
+	height: 1.2rem;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button,
+input {
+	border: none !important;
+	outline: none !important;
+	border: none !important;
 }
 
 #usuario {
 	width: fit-content;
-	height: 2rem;
+	height: fit-content;
 	margin: 1rem auto;
-	text-align: center;
+	border: solid 1px black;
+	border-radius: 80px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	line-height: normal;
 }
 #btnTentativa {
 	border-radius: 80px 0 0 80px;
-	margin: 0 !important;
 	background-color: red;
 	color: whitesmoke;
+	width: 8rem;
 }
 #btnPalpite {
 	border-radius: 0 80px 80px 0;
-	margin: 0 !important;
 	background-color: whitesmoke;
+	width: 5rem;
 }
 #campoPalpite {
-	height: fit-content;
+	height: 1.2rem;
 	width: fit-content;
 }
 
