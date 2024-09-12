@@ -6,7 +6,7 @@ const btnPalpite = document.getElementById("btnPalpite");
 let escolhido = {
 	nome: "MissingNo.",
 	numero: 0,
-	tipo: ["Void"],
+	tipo: ["Normal"],
 	altura: 0,
 	massa: 0,
 	descricao: "Algo de errado, não está certo.",
@@ -28,7 +28,16 @@ function novaTentativa() {
 	const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
 
 	escolhido = primeiraGeracao[ticket];
-	console.info("Somente testes:", escolhido.nome);
+
+	console.info(
+		"Somente testes:",
+		escolhido.nome,
+		"\n",
+		"Avanço:",
+		primeiraGeracao.length,
+		"/ 151"
+	);
+
 	campoDicas.insertAdjacentHTML(
 		"beforeend",
 		`<p>${escolhido.massa}kg e ${escolhido.altura}m de altura</p>`
@@ -39,7 +48,7 @@ function novaTentativa() {
 
 /**
  * Verifica se o palpite do usuário está correto.
- * @returns Retorna algo caso seja definitivo.
+ * @returns Retorna nada.
  */
 function darPalpite() {
 	const listaDiscas = [
@@ -98,9 +107,9 @@ function resetar() {
 }
 
 /**
- * Lida com o acerto do jogador
- * @param {number} palpites quantidade de vezes que o jogador tentou um nome
- * @returns nada
+ * Lida com o acerto do jogador.
+ * @param {number} palpites quantidade de vezes que o jogador fez um palpite.
+ * @returns nada.
  */
 function ganhou(palpites) {
 	btnPalpite.removeEventListener("click", darPalpite);
@@ -116,8 +125,8 @@ function ganhou(palpites) {
 	}
 }
 /**
- * Lida com a derrota do jogador
- * @returns nada
+ * Lida com a derrota do jogador.
+ * @returns nada.
  */
 function perdeu() {
 	ultimato.innerHTML = `<p>Você errou! Era ${escolhido.nome}!<br><a href="${escolhido.link}">Mais informações.</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;

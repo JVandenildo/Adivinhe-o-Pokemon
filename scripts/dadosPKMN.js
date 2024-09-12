@@ -2,7 +2,7 @@ const primeiraGeracao = [
 	{
 		nome: "Bulbasaur",
 		numero: 1, // considerando a national dex
-		tipo: ["Planta", "Venenoso"],
+		tipo: ["Planta", "Veneno"],
 		massa: 6.9, // em kg
 		altura: 0.7, // em metros
 		descricao:
@@ -17,7 +17,7 @@ const primeiraGeracao = [
 	{
 		nome: "Ivysaur",
 		numero: 2, // considerando a national dex
-		tipo: ["Planta", "Venenoso"],
+		tipo: ["Planta", "Veneno"],
 		massa: 13.0, // em kg
 		altura: 1.0, // em metros
 		descricao:
@@ -32,7 +32,7 @@ const primeiraGeracao = [
 	{
 		nome: "Venusaur",
 		numero: 3, // considerando a national dex
-		tipo: ["Planta", "Venenoso"],
+		tipo: ["Planta", "Veneno"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
 		descricao:
@@ -97,7 +97,7 @@ const primeiraGeracao = [
 		altura: 0.5, // em metros
 		descricao:
 			"Após seu nascimento, suas costas incham e endurecem em uma carapaça. Espalha poderosamente uma espuma de sua boca.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Pequena Tartaruga",
+		categoria: "Pokémon Tartaruguinha",
 		lendario: false,
 		local: "Laboratório Prof. Carvalho",
 		sprite:
@@ -122,17 +122,107 @@ const primeiraGeracao = [
 	{
 		nome: "Blastoise",
 		numero: 9, // considerando a national dex
-		tipo: ["Planta", "Venenoso"],
+		tipo: ["Água"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
 		descricao:
 			"Um Pokémon brutal com jatos de água pressurizada em seu casco. São usados em investidas de alta velocidade.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Casco",
+		categoria: "Pokémon Marisco",
 		lendario: false,
 		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/0a/0009Blastoise.png/375px-0009Blastoise.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Caterpie",
+		numero: 10, // considerando a national dex
+		tipo: ["Inseto"],
+		massa: 2.9, // em kg
+		altura: 0.3, // em metros
+		descricao:
+			"Seus pés curtos são dotados de ventosas que lhe permitem escalar encostas e paredes sem cansar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Minhoca",
+		lendario: false,
+		local: "Floresta de Viridiana",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/5e/0010Caterpie.png/375px-0010Caterpie.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Metapod",
+		numero: 11, // considerando a national dex
+		tipo: ["Inseto"],
+		massa: 9.9, // em kg
+		altura: 0.7, // em metros
+		descricao:
+			"É vulnerável a ataques enquanto seu casulo está mole, expondo seu corpo fraco e frágil.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Casulo",
+		lendario: false,
+		local: "Floresta de Viridiana",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/d/da/0011Metapod.png/375px-0011Metapod.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Butterfree",
+		numero: 12, // considerando a national dex
+		tipo: ["Inseto", "Voador"],
+		massa: 32.0, // em kg
+		altura: 1.1, // em metros
+		descricao:
+			"Em batalha, bate suas asas em alta velocidade para liberar poeira altamente tóxico no ar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Borboleta",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0012Butterfree.png/375px-0012Butterfree.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Butterfree_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Weedle",
+		numero: 13, // considerando a national dex
+		tipo: ["Inseto"],
+		massa: 3.2, // em kg
+		altura: 0.3, // em metros
+		descricao:
+			"Comumente encontrado em florestas, comendo restos. Possui um ferrão afiado e venenoso em sua cabeça.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Inseto Peludo",
+		lendario: false,
+		local: "Floresta de Viridiana",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/36/0013Weedle.png/375px-0013Weedle.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Kakuna",
+		numero: 14, // considerando a national dex
+		tipo: ["Inseto"],
+		massa: 10.0, // em kg
+		altura: 0.6, // em metros
+		descricao:
+			"Quase incapaz de se mover, este Pokémon consegue só endurecer seu casulo para proteger a si mesmo de predadores.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Casulo",
+		lendario: false,
+		local: "Floresta de Viridiana",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f3/0014Kakuna.png/375px-0014Kakuna.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Beedrill",
+		numero: 15, // considerando a national dex
+		tipo: ["Inseto", "Veneno"],
+		massa: 29.5, // em kg
+		altura: 1.0, // em metros
+		descricao:
+			"Voa em alta velocidade e ataca usando seus ferrões venenosos localizados nas patas dianteiras e cauda.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Abelha Venenosa",
+		lendario: false,
+		local: "Floresta de Viridiana",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0015Beedrill.png/375px-0015Beedrill.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Omanyte",
@@ -195,8 +285,38 @@ const primeiraGeracao = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon)",
 	},
 	{
+		nome: "Aerodactyl",
+		numero: 142, // considerando a national dex
+		tipo: ["Rocha", "Voador"],
+		massa: 59.0, // em kg
+		altura: 1.8, // em metros
+		descricao:
+			"Um Pokémon pré-histórico feroz que morreu em tempos antigos. Foi ressuscitado usando DNA pego de âmbar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fóssil",
+		lendario: false,
+		local: "Revivido a partir do Âmbar Antigo na Ilha Cinnabar",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0142Aerodactyl.png/375px-0142Aerodactyl.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Snorlax",
+		numero: 143, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 460.0, // em kg
+		altura: 2.1, // em metros
+		descricao:
+			"Muito preguiçoso. Só come e dorme. À medida que seu corpo redondo aumenta, se torna cada vez mais preguiçoso.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dorminhoco",
+		lendario: false,
+		local: "Rotas 12 e 16",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0143Snorlax.png/375px-0143Snorlax.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)",
+	},
+	{
 		nome: "Articuno",
-		numero: 145, // considerando a national dex
+		numero: 144, // considerando a national dex
 		tipo: ["Gelo", "Voador"],
 		massa: 55.4, // em kg
 		altura: 1.7, // em metros
@@ -232,7 +352,7 @@ const primeiraGeracao = [
 		altura: 2.0, // em metros
 		descricao:
 			"Conhecido como o pássaro lendário de fogo. Cada bater de suas asas cria um deslumbrante clarão de chamas.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon de Chamas",
+		categoria: "Pokémon Chamas",
 		lendario: true,
 		local: "Estrada da Vitória",
 		sprite:
