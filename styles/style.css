@@ -107,8 +107,8 @@ input {
 }
 
 #usuario {
-	width: fit-content;
-	height: fit-content;
+	width: 23.5rem;
+	height: 1.8rem;
 	margin: 1rem auto;
 	border: solid 1px var(--filling-color);
 	background-color: var(--filling-color);
@@ -122,34 +122,33 @@ input {
 	border-radius: 20px 0 0 20px;
 	background-color: var(--second-bg);
 	color: var(--second-font-color);
+	height: 1.5rem;
 	width: 8rem;
 }
 #btnPalpite {
 	border-radius: 0 20px 20px 0;
 	background-color: var(--second-bg);
 	color: var(--second-font-color);
+	height: 1.5rem;
 	width: 5rem;
-}
-#campoPalpite {
-	height: 1.2rem;
-	width: inherit;
-	background-color: var(--second-bg);
 }
 
 .nomesGeral {
 	border-radius: inherit;
-	/* border: 1vh solid #1e1e1e;
-	background: var(--new-paper); */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 16rem;
-	height: fit-content;
+	width: 10rem;
+	height: 1.3rem;
 }
 .nomesGeralShow {
 	border-radius: inherit;
 }
-
+#campoPalpite {
+	height: inherit;
+	width: inherit;
+	background-color: var(--second-bg);
+}
 .opcoesNomes {
 	border: inherit;
 	display: none;
