@@ -132,7 +132,55 @@ input {
 }
 #campoPalpite {
 	height: 1.2rem;
-	width: fit-content;
+	width: inherit;
+	background-color: var(--second-bg);
+}
+
+.nomesGeral {
+	border-radius: inherit;
+	/* border: 1vh solid #1e1e1e;
+	background: var(--new-paper); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 16rem;
+	height: fit-content;
+}
+.nomesGeralShow {
+	border-radius: inherit;
+}
+
+.opcoesNomes {
+	border: inherit;
+	display: none;
+	position: absolute;
+	padding: inherit;
+	z-index: 1;
+	max-height: 10rem;
+	overflow-y: scroll;
+	width: inherit;
+	margin: 0.6vh;
+	padding: 0.6vh;
+	border-radius: 0px 0px 20px 20px;
+}
+.opcoesNomesShow {
+	display: block;
+	background-color: var(--second-bg);
+	color: var(--second-font-color);
+	position: absolute;
+	top: 9rem;
+}
+.nomePalpite {
+	padding: inherit;
+	cursor: pointer;
+	font-weight: 295;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.nomePalpite:hover {
+	background-color: var(--second-bg);
+	font-weight: 590;
 }
 
 #ultimosPalpites {

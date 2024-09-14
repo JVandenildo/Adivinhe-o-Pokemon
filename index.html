@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="styles/style.css" />
 		<title>Adivinhe o Pokémon</title>
 	</head>
-	<body>
+	<body onload="resetar()">
 		<header><h1>Consegue adivinhar o Pokémon?</h1></header>
 		<main>
 			<strong>Por enquanto, tem alguns Pokémon da primeira geração.</strong>
@@ -14,12 +14,19 @@
 				<button onclick="novaTentativa()" id="btnTentativa">
 					NOVA TENTATIVA
 				</button>
-				<input
-					type="text"
-					translate="no"
-					placeholder="Digite o palpite aqui"
-					id="campoPalpite"
-				/>
+				<div class="nomesGeral">
+					<div class="opcoesNomes"></div>
+					<input
+						type="text"
+						translate="no"
+						placeholder="Digite o palpite aqui"
+						id="campoPalpite"
+						translate="no"
+						spellcheck="false"
+						oninput="procurarNomes()"
+					/>
+				</div>
+				<div id="sugestoesPalpites"></div>
 				<button id="btnPalpite">PALPITAR</button>
 			</section>
 			<section id="maquina">
