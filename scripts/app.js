@@ -5,6 +5,8 @@ const ultimato = document.getElementById("ultimato");
 const btnPalpite = document.getElementById("btnPalpite");
 const nomesGeral = document.querySelector(".nomesGeral");
 const opcoesNomes = document.querySelector(".opcoesNomes");
+const checkPrimeira = document.querySelector("#checkPrimeira");
+const checkSegunda = document.querySelector("#checkSegunda");
 
 let escolhido = {
 	nome: "MissingNo.",
@@ -36,21 +38,30 @@ let palpites = 0;
 function novaTentativa() {
 	resetar();
 	const data = new Date();
-	const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
 
-	escolhido = primeiraGeracao[ticket];
+	if (!checkSegunda.checked) {
+		const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
+		escolhido = primeiraGeracao[ticket];
+	} else if (!checkPrimeira.checked) {
+		const ticket = Math.floor(Math.random(data) * segundaGeracao.length);
+		escolhido = segundaGeracao[ticket];
+	} else {
+		const ticket = Math.floor(
+			Math.random(data) * (primeiraGeracao.length + segundaGeracao.length)
+		);
 
-	// console.info(
-	// 	`Somente testes: ${escolhido.nome}`,
-	// 	"\n",
-	// 	`Avanço: ${primeiraGeracao.length}/151`,
-	// 	"\n",
-	// 	`${Math.round((primeiraGeracao.length / 151) * 100)}%`
-	// );
+		if (ticket > primeiraGeracao.length) {
+			escolhido = segundaGeracao[ticket - primeiraGeracao.length + 1];
+		} else {
+			escolhido = primeiraGeracao[ticket];
+		}
+	}
+
+	// console.info(`Escolhido: ${escolhido.nome}`);
 
 	campoDicas.insertAdjacentHTML(
 		"beforeend",
-		`<p>${escolhido.massa}kg e ${escolhido.altura}m de altura</p>`
+		`<p>${escolhido.massa} kg e ${escolhido.altura} m de altura</p>`
 	);
 
 	return escolhido;
@@ -74,6 +85,7 @@ function darPalpite() {
 		Atq. Esp.:  ${escolhido.estatistica[3]}<br>
 		Def. Esp.:  ${escolhido.estatistica[4]}<br>
 		Vel.:       ${escolhido.estatistica[5]}<br>`, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		escolhido.numero,
 		escolhido.descricao,
 		`<img src="${escolhido.sprite}" />`,
 	];

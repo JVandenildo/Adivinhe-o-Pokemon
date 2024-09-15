@@ -9,9 +9,23 @@
 	<body onload="resetar()">
 		<header><h1>Consegue adivinhar o Pokémon?</h1></header>
 		<main>
-			<strong>Só os Pokémon da primeira geração estão disponíveis.</strong>
+			<section id="geracao">
+				Qual geração estará dentro?
+				<input
+					type="checkbox"
+					id="checkPrimeira"
+					class="checkbox"
+					value="primeiraGeracao"
+				/><label for="primeiraGeracao">Primeira Geração</label>
+				<input
+					type="checkbox"
+					id="checkSegunda"
+					class="checkbox"
+					value="segundaGeracao"
+				/><label for="segundaGeracao">Segunda Geração</label>
+			</section>
 			<section id="usuario">
-				<button onclick="novaTentativa()" id="btnTentativa">
+				<button id="btnTentativa" onclick="novaTentativa()">
 					NOVA TENTATIVA
 				</button>
 				<div class="nomesGeral">

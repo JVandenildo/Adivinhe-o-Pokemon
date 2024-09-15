@@ -167,7 +167,7 @@ input {
 	background-color: var(--second-bg);
 	color: var(--second-font-color);
 	position: absolute;
-	top: 9rem;
+	top: 9.2rem;
 }
 .nomePalpite {
 	padding: inherit;
