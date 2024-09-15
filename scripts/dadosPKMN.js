@@ -82,7 +82,7 @@ const primeiraGeracao = [
 	{
 		nome: "Charizard",
 		numero: 6, // considerando a national dex
-		tipo: ["Fogo"],
+		tipo: ["Fogo", "Voador"],
 		massa: 90.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: [78, 84, 78, 109, 85, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
