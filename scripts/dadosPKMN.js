@@ -2425,6 +2425,7 @@ const segundaGeracao = [
 		tipo: ["Planta"],
 		massa: 6.4, // em kg
 		altura: 0.9, // em metros
+		estatistica: [45, 49, 65, 49, 65, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Adora aproveitar a luz do sol. Usa a folha na cabeça para procurar lugares quentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
@@ -2440,6 +2441,7 @@ const segundaGeracao = [
 		tipo: ["Planta"],
 		massa: 15.8, // em kg
 		altura: 1.2, // em metros
+		estatistica: [60, 62, 80, 63, 80, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Um aroma picante emana de seu pescoço. O aroma age como um estimulante para restaurar saúde.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
@@ -2455,6 +2457,7 @@ const segundaGeracao = [
 		tipo: ["Planta"],
 		massa: 100.5, // em kg
 		altura: 1.8, // em metros
+		estatistica: [80, 82, 100, 83, 100, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"O aroma que surge de suas pétalas contém uma substância que acalma sentimentos agressivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva",
@@ -2470,6 +2473,7 @@ const segundaGeracao = [
 		tipo: ["Fogo"],
 		massa: 7.9, // em kg
 		altura: 0.5, // em metros
+		estatistica: [39, 52, 43, 60, 50, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Geralmente fica curvado. Quando está com raiva ou surpreso, atira chamas de suas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato de Fogo",
@@ -2485,6 +2489,7 @@ const segundaGeracao = [
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 0.9, // em metros
+		estatistica: [58, 64, 58, 80, 65, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"É coberto totalmente por pelo não inflamável. Consegue aguentar qualquer tipo de ataque de fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
@@ -2500,6 +2505,7 @@ const segundaGeracao = [
 		tipo: ["Fogo"],
 		massa: 79.5, // em kg
 		altura: 1.7, // em metros
+		estatistica: [78, 84, 78, 109, 85, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Quando sua raiva atinge seu ápice, fica tão quente que qualquer coisa que toque imediatamente pega fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
@@ -2515,6 +2521,7 @@ const segundaGeracao = [
 		tipo: ["Água"],
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
+		estatistica: [50, 65, 64, 44, 48, 43], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"As mandíbulas bem desenvolvidas são poderosas e capazes de esmagar qualquer coisa. Mesmo seu treinador deve ter cuidado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandíbula Grande",
@@ -2530,6 +2537,7 @@ const segundaGeracao = [
 		tipo: ["Água"],
 		massa: 25.0, // em kg
 		altura: 1.1, // em metros
+		estatistica: [65, 80, 80, 59, 63, 58], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Quando perde uma presa, uma nova cresce em seu lugar. Sempre há 48 presas revestindo na boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandíbula Grande",
@@ -2545,6 +2553,7 @@ const segundaGeracao = [
 		tipo: ["Água"],
 		massa: 88.8, // em kg
 		altura: 2.3, // em metros
+		estatistica: [85, 105, 100, 79, 83, 78], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Quando morde com as mandíbulas grandes e poderosas, balança sua cabeça e estraçalha sua vítima com selvageria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandíbula Grande",
@@ -2560,6 +2569,7 @@ const segundaGeracao = [
 		tipo: ["Psíquico", "Grama"],
 		massa: 0.6, // em kg
 		altura: 5.0, // em metros
+		estatistica: [100, 100, 100, 100, 100, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Este Pokémon vaga pelo tempo. A grama e as árvores floresce nas florestas em que apareceu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viajante do Tempo",
@@ -2578,6 +2588,7 @@ const terceiraGeracao = [
 		tipo: ["Planta"],
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
+		estatistica: [40, 45, 35, 65, 55, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Faz seu ninho em uma árvore gigante na floresta. Guarda-o ferozmente contra qualquer coisa que chegue perto de seu território. É dito ser o protetor das árvores das florestas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagartixa de Madeira",
@@ -2593,6 +2604,7 @@ const terceiraGeracao = [
 		tipo: ["Planta"],
 		massa: 21.6, // em kg
 		altura: 0.9, // em metros
+		estatistica: [50, 65, 45, 85, 65, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"As folhas crescendo em seu corpo são convenientes para se camuflar de inimigos na floresta. É um mestre em escalar árvores na floresta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagartixa de Madeira",
@@ -2608,6 +2620,7 @@ const terceiraGeracao = [
 		tipo: ["Planta"],
 		massa: 52.2, // em kg
 		altura: 1.7, // em metros
+		estatistica: [70, 85, 65, 105, 85, 120], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"As folhas que crescem em seu corpo são muito afiadas. Sendo muito ágil consegue saltar pelos galhos das árvores e saltar em seu oponente por cima ou por trás.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Floresta",
@@ -2623,9 +2636,10 @@ const terceiraGeracao = [
 		tipo: ["Fogo"],
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
+		estatistica: [45, 60, 40, 70, 50, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Possui um lugar dentro de seu corpo onde mantém suas chamas.É coberto por uma pelagem fofa de penugem.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Pinto",
+		categoria: "Pokémon Pintinho",
 		lendario: false,
 		local: "Rota 101",
 		sprite:
@@ -2638,9 +2652,10 @@ const terceiraGeracao = [
 		tipo: ["Fogo", "Lutador"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
+		estatistica: [60, 85, 60, 85, 60, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Batalha com as chamas intensamente quentes que expele de seu bico e com chutes excepcionalmente destrutíveis. Seu grito é muito alto e perturbador.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Frango",
+		categoria: "Pokémon Ave Jovem",
 		lendario: false,
 		local: "Por evolução",
 		sprite:
@@ -2653,9 +2668,10 @@ const terceiraGeracao = [
 		tipo: ["Fogo", "Lutador"],
 		massa: 52.0, // em kg
 		altura: 1.9, // em metros
+		estatistica: [80, 120, 70, 110, 70, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Em batalha, sopra chamas intensas de seus punhos e ataca os oponentes corajosamente. Quanto mais forte o oponente, mais intensamente as chamas de seu punho queimam.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chamas",
+		categoria: "Pokémon Labareda",
 		lendario: false,
 		local: "Por evolução",
 		sprite:
@@ -2668,6 +2684,7 @@ const terceiraGeracao = [
 		tipo: ["Água"],
 		massa: 7.6, // em kg
 		altura: 0.4, // em metros
+		estatistica: [50, 70, 50, 50, 50, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"A barbatana em sua cabeça age como um radar altamente sensível. Usando essa barbatana para sentir os movimentos da água e do ar, consegue determinar o que está acontecendo ao seu redor sem usar os olhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
@@ -2683,6 +2700,7 @@ const terceiraGeracao = [
 		tipo: ["Água", "Terra"],
 		massa: 28.0, // em kg
 		altura: 0.7, // em metros
+		estatistica: [70, 85, 70, 60, 70, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"É muito mais rápido na lama do que nadando. Seus membros inferiores exibem desenvolvimento óbvio, dando a habilidade de andar apenas com as patas traseiras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
@@ -2698,6 +2716,7 @@ const terceiraGeracao = [
 		tipo: ["Água", "Terra"],
 		massa: 81.9, // em kg
 		altura: 1.5, // em metros
+		estatistica: [100, 110, 90, 85, 90, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"É tão forte que consegue arrastar facilmente uma rocha pesando mais de uma tonelada. Também possui uma ótima visão, podendo enxergar pela água turva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
@@ -2713,6 +2732,7 @@ const terceiraGeracao = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		estatistica: [50, 150, 50, 150, 50, 150], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Um Pokémon que evoluiu de um vírus extraterrestre exposto a um rio laser.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
@@ -2731,9 +2751,10 @@ const quartaGeracao = [
 		tipo: ["Planta"],
 		massa: 10.2, // em kg
 		altura: 0.4, // em metros
+		estatistica: [55, 68, 64, 45, 55, 31], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Feito de solo, a carapaça nas suas costas endurece quando bebe água. Vive perto de lagos.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Pequena Folha",
+		categoria: "Pokémon Folhinha",
 		lendario: false,
 		local: "Rota 201 ou Lago Verdade, dependendo da versão",
 		sprite:
@@ -2746,6 +2767,7 @@ const quartaGeracao = [
 		tipo: ["Planta"],
 		massa: 97.0, // em kg
 		altura: 1.1, // em metros
+		estatistica: [75, 89, 85, 55, 65, 36], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Vive próximo a água em florestas. Durante o dia, deixa a floresta para tomar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bosque",
@@ -2761,6 +2783,7 @@ const quartaGeracao = [
 		tipo: ["Planta", "Terra"],
 		massa: 310.0, // em kg
 		altura: 2.2, // em metros
+		estatistica: [95, 109, 105, 75, 85, 56], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Ocasionalmente, pequenos Pokémon se reúnem em suas costas para construir seus ninhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Continente",
@@ -2776,6 +2799,7 @@ const quartaGeracao = [
 		tipo: ["Fogo"],
 		massa: 6.2, // em kg
 		altura: 0.5, // em metros
+		estatistica: [44, 58, 44, 58, 44, 61], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"É muito ágil. Antes de dormir, extingue a chama de sua calda para prevenir incêndios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chimpanzé",
@@ -2791,6 +2815,7 @@ const quartaGeracao = [
 		tipo: ["Fogo", "Lutador"],
 		massa: 22.0, // em kg
 		altura: 0.9, // em metros
+		estatistica: [64, 78, 52, 78, 52, 81], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Para se defender, estica o fogo em sua calda para parecer ser maior.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brincalhão",
@@ -2806,6 +2831,7 @@ const quartaGeracao = [
 		tipo: ["Fogo", "Lutador"],
 		massa: 55.0, // em kg
 		altura: 1.2, // em metros
+		estatistica: [76, 104, 71, 104, 71, 108], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Usa um tipo especial de artes marciais envolvendo todos os seus membros. Seu fogo nunca se extingue.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
@@ -2821,9 +2847,10 @@ const quartaGeracao = [
 		tipo: ["Água"],
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
+		estatistica: [53, 51, 53, 61, 56, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem grossa o protege do frio.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Penguin",
+		categoria: "Pokémon Pinguim",
 		lendario: false,
 		local: "Rota 201 ou Lago Verdade, dependendo da versão",
 		sprite:
@@ -2836,9 +2863,10 @@ const quartaGeracao = [
 		tipo: ["Água"],
 		massa: 23.0, // em kg
 		altura: 0.8, // em metros
+		estatistica: [64, 66, 68, 81, 76, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Vive sozinho, longe de outros. Aparentemente, todos de sua espécie acredita ser o mais importante.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Penguin",
+		categoria: "Pokémon Pinguim",
 		lendario: false,
 		local: "Por evolução",
 		sprite:
@@ -2851,6 +2879,7 @@ const quartaGeracao = [
 		tipo: ["Água", "Metal"],
 		massa: 84.5, // em kg
 		altura: 1.7, // em metros
+		estatistica: [84, 86, 88, 111, 101, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Nada tão rápido quanto uma lancha. As bordas de suas asas são afiadas e podem cortar blocos de gelo à deriva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Imperador",
@@ -2866,6 +2895,7 @@ const quartaGeracao = [
 		tipo: ["Normal"],
 		massa: 320.0, // em kg
 		altura: 3.2, // em metros
+		estatistica: [120, 120, 120, 120, 120, 120], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"É descrito na mitologia como o Pokémon que moldou o universo com seus 1'000 braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Alpha",
