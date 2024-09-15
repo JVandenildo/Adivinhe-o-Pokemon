@@ -2564,6 +2564,134 @@ const segundaGeracao = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)",
 	},
 	{
+		nome: "Raikou",
+		numero: 243, // considerando a national dex
+		tipo: ["Elétrico"],
+		massa: 178.0, // em kg
+		altura: 1.9, // em metros
+		estatistica: [90, 85, 75, 115, 100, 115], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"As nuvens carregadas que carrega permitem que dispare raios à vontade. É dito que descendeu com raio.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Trovão",
+		lendario: true,
+		local: "Vagando por Johto",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/4/48/0243Raikou.png/375px-0243Raikou.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Entei",
+		numero: 244, // considerando a national dex
+		tipo: ["Fogo"],
+		massa: 198.0, // em kg
+		altura: 2.1, // em metros
+		estatistica: [115, 115, 85, 90, 75, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Vulcões entram em erupção quando late. Incapaz de restringir seu extremo poder, corre pela terra.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Vulcão",
+		lendario: true,
+		local: "Vagando por Johto",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/0244Entei.png/375px-0244Entei.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Entei_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Suicune",
+		numero: 245, // considerando a national dex
+		tipo: ["Água"],
+		massa: 187.0, // em kg
+		altura: 2.0, // em metros
+		estatistica: [100, 75, 115, 90, 115, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Rumores dizem ser a reincarnação dos ventos do norte, consegue instantaneamente purificar águas sujas e turvas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Aurora",
+		lendario: true,
+		local: "Torre dos Sinos ou vagando por Johto",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/d/dc/0245Suicune.png/375px-0245Suicune.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Larvitar",
+		numero: 246, // considerando a national dex
+		tipo: ["Rocha", "Terra"],
+		massa: 72.0, // em kg
+		altura: 0.6, // em metros
+		estatistica: [50, 64, 50, 45, 50, 41], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sua alimentação vem do solo. Depois de ter comido uma grande montanha, cairá em um sono para conseguir crescer.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pele de Rocha",
+		lendario: false,
+		local: "Monte Prata",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/9/95/0246Larvitar.png/375px-0246Larvitar.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Larvitar_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Pupitar",
+		numero: 247, // considerando a national dex
+		tipo: ["Rocha", "Terra"],
+		massa: 152.0, // em kg
+		altura: 1.2, // em metros
+		estatistica: [70, 84, 70, 65, 70, 51], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sua casca é tão dura quanto um pedaço de rocha, e também é muito forte. Consegue derrubar uma montanha.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Casco Duro",
+		lendario: false,
+		local: "Caverna do Monte Prata",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/8/88/0247Pupitar.png/375px-0247Pupitar.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Pupitar_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tyranitar",
+		numero: 248, // considerando a national dex
+		tipo: ["Rocha", "Noturno"],
+		massa: 202.0, // em kg
+		altura: 2.0, // em metros
+		estatistica: [100, 134, 110, 95, 100, 61], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Seu corpo não pode ser machucado por nenhum tipo de ataque, por isso é muito ansioso para fazer desafios contra inimigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Armadura",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0248Tyranitar.png/375px-0248Tyranitar.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Lugia",
+		numero: 249, // considerando a national dex
+		tipo: ["Psíquico", "Voador"],
+		massa: 216.0, // em kg
+		altura: 5.2, // em metros
+		estatistica: [106, 90, 130, 90, 154, 110], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Rumores dizem que passa silenciosamente seu tempo nas profundezas do mar por seus poderes sem muito fortes.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Mergulho",
+		lendario: true,
+		local: "Ilhas Redemoinho",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/e2/0249Lugia.png/375px-0249Lugia.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ho-Oh",
+		numero: 250, // considerando a national dex
+		tipo: ["Fogo", "Voador"],
+		massa: 199.0, // em kg
+		altura: 3.8, // em metros
+		estatistica: [106, 130, 90, 110, 154, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Segundas as lendas, este Pokémon voa pelos céus do planeta continuamente em suas magnificas asas de sete cores.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Arco-íris",
+		lendario: true,
+		local: "Torre dos Sinos",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/02/0250Ho-Oh.png/375px-0250Ho-Oh.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)",
+	},
+	{
 		nome: "Celebi",
 		numero: 251, // considerando a national dex
 		tipo: ["Psíquico", "Grama"],
@@ -2574,7 +2702,7 @@ const segundaGeracao = [
 			"Este Pokémon vaga pelo tempo. A grama e as árvores floresce nas florestas em que apareceu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viajante do Tempo",
 		lendario: true,
-		local: "Somente evento",
+		local: "Floresta de Ilex",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0251Celebi.png/375px-0251Celebi.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)",
