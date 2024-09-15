@@ -38,26 +38,11 @@ let palpites = 0;
 function novaTentativa() {
 	resetar();
 	const data = new Date();
+	const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
 
-	if (!checkSegunda.checked) {
-		const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
-		escolhido = primeiraGeracao[ticket];
-	} else if (!checkPrimeira.checked) {
-		const ticket = Math.floor(Math.random(data) * segundaGeracao.length);
-		escolhido = segundaGeracao[ticket];
-	} else {
-		const ticket = Math.floor(
-			Math.random(data) * (primeiraGeracao.length + segundaGeracao.length)
-		);
+	escolhido = primeiraGeracao[ticket];
 
-		if (ticket > primeiraGeracao.length) {
-			escolhido = segundaGeracao[ticket - primeiraGeracao.length + 1];
-		} else {
-			escolhido = primeiraGeracao[ticket];
-		}
-	}
-
-	// console.info(`Escolhido: ${escolhido.nome}`);
+	console.info(`Ticket: ${ticket}`, `\nEscolhido: ${escolhido.nome}`);
 
 	campoDicas.insertAdjacentHTML(
 		"beforeend",
