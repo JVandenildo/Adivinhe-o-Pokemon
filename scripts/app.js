@@ -157,7 +157,7 @@ function darPalpite() {
 			<td>${escolhido[0].numero}</td>
 		</tr></table>`,
 		`<table><tr>
-			<td><img src="${escolhido[0].sprite}" /></td>
+			<td><img src="${escolhido[0].sprite}" alt="Sprite dica" loading="lazy" /></td>
 		</tr></table>`,
 	];
 
@@ -258,11 +258,11 @@ function ganhou(palpites) {
 
 	switch (palpites) {
 		case 1:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="lazy" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 			return true;
 		default:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="lazy" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 			return true;
 	}
@@ -273,7 +273,7 @@ function ganhou(palpites) {
  */
 function perdeu() {
 	btnPalpite.removeEventListener("click", darPalpite);
-	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações.</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" /></a>`;
+	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações.</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="lazy" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 	return false;
 }
