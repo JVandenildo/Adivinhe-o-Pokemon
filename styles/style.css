@@ -167,13 +167,9 @@ input {
 	background-color: var(--second-bg);
 	color: var(--second-font-color);
 	position: absolute;
-	top: 23.7%;
+	top: 11.9rem;
 }
-@media (max-width: 768px) {
-	.opcoesNomesShow {
-		top: 10.3rem;
-	}
-}
+
 .nomePalpite {
 	padding: inherit;
 	cursor: pointer;
