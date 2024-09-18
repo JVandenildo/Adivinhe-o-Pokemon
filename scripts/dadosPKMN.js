@@ -565,7 +565,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 40.0, // em kg
 		altura: 1.3, // em metros
-		estatistica: [96, 70, 73, 85, 90, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [95, 70, 73, 85, 90, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Um Pokémon Fada tímido que é raramente visto. Corre e se esconde no momento que sente uma pessoa por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
@@ -586,7 +586,7 @@ const pkmnDisponiveis = [
 			"No momento do nascimento, só possui uma cauda. A cauda se divide a partir da ponta a medida que envelhece.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
 		lendario: false,
-		local: "Rotas 7 e 8, e a Mansão Pokémon",
+		local: "Rotas 7 e 8; e a Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/06/0037Vulpix.png/375px-0037Vulpix.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
@@ -599,7 +599,7 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		estatistica: [73, 76, 75, 81, 100, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Bastante inteligente e vingativo. Agarrar uma de suas várias caldas poderia resultar um uma maldição de 1'000 anos.", // considerando a dex da primeira geração que apareceu
+			"Muito inteligente e vingativo. Agarrar uma de suas várias caldas poderia resultar um uma maldição de 1'000 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
 		lendario: false,
 		local: "Por evolução",
@@ -618,7 +618,7 @@ const pkmnDisponiveis = [
 			"Quando seus grandes olhos se iluminam, canta uma melodia misteriosamente suave que embala seus inimigos para dormir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		lendario: false,
-		local: "Rota 3",
+		local: "Rotas 3, 5, 6 e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3a/0039Jigglypuff.png/375px-0039Jigglypuff.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon)",
@@ -650,7 +650,7 @@ const pkmnDisponiveis = [
 			"Forma colônias em lugares escuros. Usa ondas ultrassônicas para identificar e se aproximar de alvos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
 		lendario: false,
-		local: "Monte da Lua, Túnel de Rocha, Ilhas Espuma e Estrada da Vitória",
+		local: "Monte da Lua; Túnel de Rocha; Ilhas Espuma; e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0041Zubat.png/375px-0041Zubat.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zubat_(Pok%C3%A9mon)",
@@ -666,7 +666,7 @@ const pkmnDisponiveis = [
 			"Uma vez que ataca, não para de drenar a energia de suas vítimas mesmo que fique pesado demais para voar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
 		lendario: false,
-		local: "Ilhas Espuma, Estrada da Vitória e Caverna de Cerulean",
+		local: "Ilhas Espuma; Estrada da Vitória; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/7/76/0042Golbat.png/375px-0042Golbat.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)",
@@ -682,7 +682,7 @@ const pkmnDisponiveis = [
 			"Durante o dia, mantém seu rosto enterrado no chão. Durante a noite, vagueia semeando suas sementes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
 		lendario: false,
-		local: "Rota 5 e outras rotas",
+		local: "Rota 5, 6, 7, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0043Oddish.png/375px-0043Oddish.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Oddish_(Pok%C3%A9mon)",
@@ -698,7 +698,7 @@ const pkmnDisponiveis = [
 			"O fluido que escorre de sua boca não é baba. É um néctar usado para atrair suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
 		lendario: false,
-		local: "Rota 12 e outras rotas",
+		local: "Rota 12, 13, 14 e outras; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e0/0044Gloom.png/375px-0044Gloom.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon)",
@@ -711,7 +711,7 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		estatistica: [75, 80, 85, 100, 90, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Quanto maior suas pétalas, mais tóxico é seu polem. Sua cabeça grande é pesada e difícil de segurar.", // considerando a dex da primeira geração que apareceu
+			"Quanto maior suas pétalas, mais pólen tóxico contém. Sua cabeça grande é pesada e difícil de segurar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
 		lendario: false,
 		local: "Por evolução",
@@ -727,10 +727,10 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		estatistica: [35, 70, 55, 45, 55, 25], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Escava para se alimentar de raízes. Os cogumelos em suas costas crescem extraindo nutrientes do hospedeiro inseto.", // considerando a dex da primeira geração que apareceu
+			"Escava para se alimentar de raízes. Os cogumelos em suas costas crescem extraindo nutrientes do inseto hospedeiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
 		lendario: false,
-		local: "Monte da Lua e Zona Safari",
+		local: "Monte da Lua; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/8a/0046Paras.png/375px-0046Paras.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)",
@@ -743,10 +743,10 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		estatistica: [60, 95, 80, 60, 80, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Um par parasita-hospedeiro no qual o cogumelo parasita assumiu o controle do inseto hospedeiro. Prefere lugares úmidos.", // considerando a dex da primeira geração que apareceu
+			"Um par hospedeiro-parasita no qual o cogumelo parasita assumiu o controle do inseto hospedeiro. Prefere lugares úmidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
 		lendario: false,
-		local: "Zona Safari e Caverna de Cerulean",
+		local: "Zona Safari; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/7/7b/0047Parasect.png/375px-0047Parasect.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)",
@@ -762,7 +762,7 @@ const pkmnDisponiveis = [
 			"Vive nas sombras de árvores altas onde come insetos. É atraído por luzes durante a noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto",
 		lendario: false,
-		local: "Zona Safari e outras zonas",
+		local: "Rotas 12, 13, 14 e outra; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0049Venomoth.png/375px-0049Venomoth.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)",
@@ -778,7 +778,7 @@ const pkmnDisponiveis = [
 			"As escamas semelhantes a poeira que cobrem suas asas são codificadas por cor para indicar os tipos de veneno que possui.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa Venenosa",
 		lendario: false,
-		local: "Zona Safari, Estrada da Vitória e Caverna de Cerulean",
+		local: "Zona Safari; Estrada da Vitória; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0049Venomoth.png/375px-0049Venomoth.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)",
@@ -823,9 +823,9 @@ const pkmnDisponiveis = [
 		estatistica: [40, 45, 35, 40, 40, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Gosta de objetos redondos. Vaga pelas ruas todas as noites procurando por trocados.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Gato Arranhador",
+		categoria: "Pokémon Arranha Gato",
 		lendario: false,
-		local: "Rota 5 e outras rotas",
+		local: "Rota 5, 6, 7 e outra",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d6/0052Meowth.png/375px-0052Meowth.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
@@ -836,7 +836,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
-		estatistica: [35, 80, 50, 50, 70, 120], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [65, 70, 60, 65, 65, 115], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Apesar de seu pelo possuir muitos admiradores, é difícil de criar como animal de estimação por sua maldade inconstante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato de Luxo",
@@ -857,7 +857,7 @@ const pkmnDisponiveis = [
 			"Enquanto engana seus oponentes com seu olhar distraído, este astuto Pokémon usa seus poderes psicocinéticos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
 		lendario: false,
-		local: "Ilhas Espuma, rotas 24 e 25, Zona Safari",
+		local: "Ilhas Espuma; rotas 6, 24 e 25; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0054Psyduck.png/375px-0054Psyduck.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)",
@@ -870,10 +870,10 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		estatistica: [80, 82, 78, 95, 80, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Frequentemente é visto nadando elegantemente às marges de lagos. Muitas vezes confundido com a criatura japonesa, Kappa.", // considerando a dex da primeira geração que apareceu
+			"Frequentemente visto nadando elegantemente às marges de lagos. Muitas vezes confundido com a criatura japonesa, Kappa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
 		lendario: false,
-		local: "Ilhas Espuma",
+		local: "Ilhas Espuma; e rota 6",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0055Golduck.png/375px-0055Golduck.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon)",
@@ -886,10 +886,10 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		estatistica: [40, 80, 35, 35, 45, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Extremamente rápido para se irritar. Pode ser dócil em um momento e logo depois se debater.", // considerando a dex da primeira geração que apareceu
+			"Extremamente rápido em se irritar. Pode ser dócil em um momento e logo depois se debater.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Porco",
 		lendario: false,
-		local: "Rota 5 e outras rotas",
+		local: "Rotas 3, 4, 5 e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/fa/0056Mankey.png/375px-0056Mankey.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mankey_(Pok%C3%A9mon)",
@@ -902,7 +902,7 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		estatistica: [65, 105, 60, 60, 70, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Só deixar de estar raivoso quando mais ninguém está por perto. Não deixará de perseguir sua presa até que seja pega.", // considerando a dex da primeira geração que apareceu
+			"Só deixa de estar raivoso quando mais ninguém está por perto. Não deixará de perseguir sua presa até que seja pega.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Porco",
 		lendario: false,
 		local: "Rota 23",
@@ -914,14 +914,14 @@ const pkmnDisponiveis = [
 		nome: "Growlithe",
 		numero: 58, // considerando a national dex
 		tipo: ["Fogo"],
-		massa: 18.0, // em kg
+		massa: 19.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: [55, 70, 45, 70, 50, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Muito protetor de seu território. Late e morde para repelir invasores de seu espaço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
 		lendario: false,
-		local: "Rotas 7 e 8, Mansão Pokémon",
+		local: "Rotas 7 e 8; e Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/6a/0058Growlithe.png/375px-0058Growlithe.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
@@ -953,7 +953,8 @@ const pkmnDisponiveis = [
 			"Suas pernas recém crescidas o previnem de correr. Aparenta preferir nadar a tentar ficar de pé.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
 		lendario: false,
-		local: "Rota 6 e outras rotas, Zona Safari, Ilhas Espuma",
+		local:
+			"Rota 6, 10, 11 e outras; Caverna de Cerulean; Zona Safari; Ilhas Espuma; e Planalto Índigo",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0060Poliwag.png/375px-0060Poliwag.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon)",
@@ -969,7 +970,7 @@ const pkmnDisponiveis = [
 			"Capaz de viver dentro e fora d'água. Quando está fora da água, transpira para manter seu corpo viscoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
 		lendario: false,
-		local: "Rota 10 (pesca)",
+		local: "Rotas 10, 22 e 23",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/fd/0061Poliwhirl.png/375px-0061Poliwhirl.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwhirl_(Pok%C3%A9mon)",
@@ -1001,7 +1002,7 @@ const pkmnDisponiveis = [
 			"Usando sua habilidade de ler mentes, identifica o perigo iminente e teleporta para um local seguro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
 		lendario: false,
-		local: "Rotas 24 e 25",
+		local: "Rotas 5, 6, 7 e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/bd/0063Abra.png/375px-0063Abra.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Abra_(Pok%C3%A9mon)",
@@ -1017,7 +1018,7 @@ const pkmnDisponiveis = [
 			"Emite ondas alfas especiais de seu corpo que induzem dores de cabeça apenas por estar por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
 		lendario: false,
-		local: "Caverna de Cerulean",
+		local: "Rota 8; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/af/0064Kadabra.png/375px-0064Kadabra.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kadabra_(Pok%C3%A9mon)",
@@ -1049,7 +1050,7 @@ const pkmnDisponiveis = [
 			"Adora de construir seu músculos. Treina em todos os estilos de artes marciais para se tornar mais forte.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
 		lendario: false,
-		local: "Túnel de Rocha e Estrada da Vitória",
+		local: "Rota 10; Túnel de Rocha; e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/02/0066Machop.png/375px-0066Machop.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machop_(Pok%C3%A9mon)",
@@ -1063,7 +1064,7 @@ const pkmnDisponiveis = [
 		estatistica: [80, 100, 70, 50, 60, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Seu corpo musculoso é tão poderoso, deve usar um cinto regulador de energia para.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Superpoderoso",
+		categoria: "Pokémon Superpoder",
 		lendario: false,
 		local: "Estrada da Vitória",
 		sprite:
@@ -1079,7 +1080,7 @@ const pkmnDisponiveis = [
 		estatistica: [90, 130, 80, 65, 85, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Usando seus pesados músculos, lança poderosos socos que conseguem mandar a vítima para o horizonte.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Superpoderoso",
+		categoria: "Pokémon Superpoder",
 		lendario: false,
 		local: "Por evolução",
 		sprite:
@@ -1097,7 +1098,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon carnívoro que prende e come insetos. Usa seus pés raiz para sugar a umidade necessária.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
 		lendario: false,
-		local: "Rota 5 e outras rotas",
+		local: "Rotas 5, 6, 7 e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/66/0069Bellsprout.png/375px-0069Bellsprout.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellsprout_(Pok%C3%A9mon)",
@@ -1113,7 +1114,7 @@ const pkmnDisponiveis = [
 			"Expele Pó de Veneno para imobilizar seu adversário e então finaliza com um spray de Ácido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mata-Moscas",
 		lendario: false,
-		local: "Rota 12 e outras rotas",
+		local: "Rota 12, 13, 14, e outras; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/c/c1/0070Weepinbell.png/375px-0070Weepinbell.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weepinbell_(Pok%C3%A9mon)",
@@ -1145,7 +1146,7 @@ const pkmnDisponiveis = [
 			"Deriva em mares rasos. Pescadores que os fisgam por acidente são frequentemente punidos por seu Ácido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Água-Viva",
 		lendario: false,
-		local: "Rotas 19, 20 e 21",
+		local: "Rotas 11, 12, 13, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/6e/0072Tentacool.png/375px-0072Tentacool.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacool_(Pok%C3%A9mon)",
@@ -1177,7 +1178,7 @@ const pkmnDisponiveis = [
 			"Encontrado em campos e montanhas. Pessoas, por confundi-los com pedras, pisam ou tropeçam neles.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
 		lendario: false,
-		local: "Monte da Lua, Túnel de Rocha e Estrada da Vitória",
+		local: "Monte da Lua; Túnel de Rocha; e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0074Geodude.png/375px-0074Geodude.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
@@ -1193,7 +1194,7 @@ const pkmnDisponiveis = [
 			"Rola para se mover. Rola sobre qualquer obstáculo sem diminuir a velocidade ou muda sua direção", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
 		lendario: false,
-		local: "Estrada da Vitória",
+		local: "Estrada da Vitória e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d4/0075Graveler.png/375px-0075Graveler.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
@@ -1225,7 +1226,7 @@ const pkmnDisponiveis = [
 			"Seus cascos são dez vezes mais duros que diamantes. Consegue atropelar qualquer coisa completamente plana em pouco tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo de Fogo",
 		lendario: false,
-		local: "Rota 17 ou Mansão Pokémon",
+		local: "Rota 17 e Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0077Ponyta.png/375px-0077Ponyta.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
@@ -1257,7 +1258,7 @@ const pkmnDisponiveis = [
 			"Incrivelmente lento. Demora cinco segundos para sentir dor quando atacado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atordoado",
 		lendario: false,
-		local: "Ilhas Espuma e Rota 10",
+		local: "Ilhas Espuma; rotas 10, 12, e 13; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0079Slowpoke.png/375px-0079Slowpoke.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
@@ -1273,7 +1274,7 @@ const pkmnDisponiveis = [
 			"É dito que o Shellder que está preso à sua cauda se alimenta dos restos que sobraram do hospedeiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo Eremita",
 		lendario: false,
-		local: "Rota 23, Caverna de Cerulean e Ilhas Espuma",
+		local: "Rotas 12, 13, e 23; Caverna de Cerulean; e Ilhas Espuma",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/a3/0080Slowbro.png/375px-0080Slowbro.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
@@ -1289,7 +1290,7 @@ const pkmnDisponiveis = [
 			"Usa anti-gravidade para permanecer suspenso. Aparece sem qualquer aviso e usa Onda-Trovão e movimentos similares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Magnético",
 		lendario: false,
-		local: "Usina Elétrica Abandonada",
+		local: "Rota 10; e Usina Elétrica Abandonada",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/a2/0081Magnemite.png/375px-0081Magnemite.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon)",
@@ -1305,7 +1306,7 @@ const pkmnDisponiveis = [
 			"Gera estranhas ondas de rádio. Aumenta a temperatura em dois graus Célsius dentro de um quilômetro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Magnético",
 		lendario: false,
-		local: "Usina Elétrica Abandonada e Caverna de Cerulean",
+		local: "Usina Elétrica Abandonada; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0082Magneton.png/375px-0082Magneton.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)",
@@ -1318,10 +1319,10 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		estatistica: [52, 65, 55, 58, 62, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"O Raminho de cebolinha que segura é sua arma. É usado como uma espada de metal.", // considerando a dex da primeira geração que apareceu
+			"O ramo de cebolinha que segura é sua arma. É usado como uma espada de metal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato Selvagem",
 		lendario: false,
-		local: "Rotas 12 e 13",
+		local: "Rotas 12, e 13",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/99/0083Farfetch%27d.png/375px-0083Farfetch%27d.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
@@ -1337,7 +1338,7 @@ const pkmnDisponiveis = [
 			"Um pássaro que compensa por seu vôo ruim com sua alta velocidade de patas. Deixa pegadas gigantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Gêmeo",
 		lendario: false,
-		local: "Zona Safari, rotas 16, 17 e 18",
+		local: "Rotas 16, 17, e 18; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0084Doduo.png/375px-0084Doduo.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon)",
@@ -1353,7 +1354,7 @@ const pkmnDisponiveis = [
 			"Usa seus três cérebros para executar planos complexos. Enquanto duas cabeças dormem, uma cabeça permanece acordada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Triplo",
 		lendario: false,
-		local: "Caverna de Cerulean e rota 17",
+		local: "Caverna de Cerulean; e rota 17",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0085Dodrio.png/375px-0085Dodrio.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)",
@@ -1382,7 +1383,7 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		estatistica: [90, 70, 80, 70, 95, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Guarda calor em seu corpo. Nada a 8 nós constantes, mesmo em águas intensamente frias.", // considerando a dex da primeira geração que apareceu
+			"Armazena calor em seu corpo. Nada a 8 nós constantes, mesmo em águas intensamente frias.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leão Marinho",
 		lendario: false,
 		local: "Ilhas Espuma",
@@ -1401,7 +1402,7 @@ const pkmnDisponiveis = [
 			"Aparece em áreas imundas. Prospera consumindo lodo poluído que é bombeado para fora das fábricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
 		lendario: false,
-		local: "Mansão Pokémon e Usina Elétrica Abandonada",
+		local: "Mansão Pokémon; e Usina Elétrica Abandonada",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0088Grimer.png/375px-0088Grimer.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon)",
@@ -1417,7 +1418,7 @@ const pkmnDisponiveis = [
 			"Coberto por uma camada grossa de lama imunda e vil. É tão tóxico, mesmo suas pegadas contém veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
 		lendario: false,
-		local: "Mansão Pokémon e Usina Elétrica Abandonada",
+		local: "Mansão Pokémon; e Usina Elétrica Abandonada",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/4/41/0089Muk.png/375px-0089Muk.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon)",
@@ -1433,7 +1434,7 @@ const pkmnDisponiveis = [
 			"Sua carapaça dura repele qualquer tipo de ataque. É vulnerável somente quando abre sua carapaça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
 		lendario: false,
-		local: "Ilhas Espuma, rota 6 e outras rotas",
+		local: "Ilhas Espuma; rotas 6, 11, 19, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3e/0090Shellder.png/375px-0090Shellder.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon)",
@@ -1478,7 +1479,7 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		estatistica: [45, 50, 45, 115, 55, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Por causa de sua habilidade de atravessar parede, é dito ser de outra dimensão.", // considerando a dex da primeira geração que apareceu
+			"Por causa de sua habilidade de atravessar paredes, é dito ser de outra dimensão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás",
 		lendario: false,
 		local: "Torre Pokémon",
@@ -1513,7 +1514,7 @@ const pkmnDisponiveis = [
 			"A medida que cresce, as porções de rocha de seu corpo endurecem para se tornarem semelhante a diamante, mas de cor preta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Pedra",
 		lendario: false,
-		local: "Túnel de Rocha e Estrada da Vitória",
+		local: "Túnel de Rocha; e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0095Onix.png/375px-0095Onix.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon)",
@@ -1526,7 +1527,7 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		estatistica: [60, 48, 45, 43, 90, 42], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Põe os adversários para dormir para comer seus sonhos. Ocasionalmente fica doente por comer sonhos ruins.", // considerando a dex da primeira geração que apareceu
+			"Põe os adversários para dormir então come seus sonhos. Ocasionalmente fica doente por comer sonhos ruins.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hipnose",
 		lendario: false,
 		local: "Rota 11",
@@ -1561,7 +1562,7 @@ const pkmnDisponiveis = [
 			"Suas pinças não são só poderosas armas, são usadas para equilíbrio quando está andando de lado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo de Rio",
 		lendario: false,
-		local: "Zona Safari, rota 6 e outras rotas",
+		local: "Rotas 6, 11, 12, e outras; Zona Safari; e Ilhas Espuma",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0098Krabby.png/375px-0098Krabby.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Krabby_(Pok%C3%A9mon)",
@@ -1577,7 +1578,7 @@ const pkmnDisponiveis = [
 			"A pinça maior possui 10'000 cv em poder de esmagamento. Contudo, seu tamanho o torna difícil de usar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinça",
 		lendario: false,
-		local: "Rota 23 e Caverna de Cerulean",
+		local: "Rotas 10, 23, e 25; Caverna de Cerulean; e Ilhas Espuma",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0099Kingler.png/375px-0099Kingler.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)",
@@ -1593,7 +1594,7 @@ const pkmnDisponiveis = [
 			"Normalmente encontrado em usinas elétricas. Facilmente confundido com uma Poké Bola, já eletrocutaram muitas pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola",
 		lendario: false,
-		local: "Rota 10 e Usina Elétrica Abandonada",
+		local: "Rota 10; e Usina Elétrica Abandonada",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0100Voltorb.png/375px-0100Voltorb.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
@@ -1602,14 +1603,14 @@ const pkmnDisponiveis = [
 		nome: "Electrode",
 		numero: 101, // considerando a national dex
 		tipo: ["Elétrico"],
-		massa: 60.0, // em kg
-		altura: 1.3, // em metros
-		estatistica: [55, 130, 115, 50, 50, 75], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		massa: 66.6, // em kg
+		altura: 1.2, // em metros
+		estatistica: [60, 50, 70, 80, 80, 140], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Armazena energia elétrica sob pressão muito alta. Geralmente explode com pouca ou nenhuma provocação.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola",
 		lendario: false,
-		local: "Usina Elétrica Abandonada e Caverna de Cerulean",
+		local: "Usina Elétrica Abandonada; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/db/0101Electrode.png/375px-0101Electrode.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
@@ -1657,7 +1658,7 @@ const pkmnDisponiveis = [
 			"Por nunca remover seu capacete, ninguém nunca viu o real rosto deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Solitário",
 		lendario: false,
-		local: "Torre Pokémon",
+		local: "Torre Pokémon; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0104Cubone.png/375px-0104Cubone.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cubone_(Pok%C3%A9mon)",
@@ -1673,7 +1674,7 @@ const pkmnDisponiveis = [
 			"O osso que segura é sua arma principal. Lança o osso com destreza como um boomerang para nocautear os alvos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Acumulador de Ossos",
 		lendario: false,
-		local: "Zona Safari, Estrada da Vitória e Caverna de Cerulean",
+		local: "Zona Safari; Estrada da Vitória; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/a1/0105Marowak.png/375px-0105Marowak.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
@@ -1721,7 +1722,7 @@ const pkmnDisponiveis = [
 			"Sua língua pode ser estendida como a de um camaleão. Deixa uma sensação de formigamento quando lambe inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lambedor",
 		lendario: false,
-		local: "Zona Safari",
+		local: "Zona Safari; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0108Lickitung.png/375px-0108Lickitung.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lickitung_(Pok%C3%A9mon)",
@@ -1769,7 +1770,7 @@ const pkmnDisponiveis = [
 			"Seus ossos maciços são 1'000 vezes mais duros que os ossos de humanos. Consegue facilmente mandar um trailer voando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espigão",
 		lendario: false,
-		local: "Zona Safari",
+		local: "Zona Safari; e Caverna Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0111Rhyhorn.png/375px-0111Rhyhorn.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhyhorn_(Pok%C3%A9mon)",
@@ -1801,7 +1802,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon raro e indescritível que dizem trazer felicidade àqueles que conseguem obtê-la.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ovo",
 		lendario: false,
-		local: "Zona Safari e Caverna de Cerulean",
+		local: "Zona Safari; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0113Chansey.png/375px-0113Chansey.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)",
@@ -1817,7 +1818,7 @@ const pkmnDisponiveis = [
 			"Todo seu corpo é coberto por trepadeiras largas que são semelhantes a algas marinhas. Suas vinhas tremem enquanto caminha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trepadeira",
 		lendario: false,
-		local: "Rota 21",
+		local: "Rota 21; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0114Tangela.png/375px-0114Tangela.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon)",
@@ -1849,7 +1850,7 @@ const pkmnDisponiveis = [
 			"Conhecido por abater insetos voadores com jatos de tintas precisos da superfície da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		lendario: false,
-		local: "Ilhas Espuma; rotas 19, 20 e 21",
+		local: "Ilhas Espuma; rotas 10, 11, 12, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/1/14/0116Horsea.png/375px-0116Horsea.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Horsea_(Pok%C3%A9mon)",
@@ -1858,14 +1859,14 @@ const pkmnDisponiveis = [
 		nome: "Seadra",
 		numero: 117, // considerando a national dex
 		tipo: ["Água"],
-		massa: 35.0, // em kg
-		altura: 1.0, // em metros
+		massa: 25.0, // em kg
+		altura: 1.2, // em metros
 		estatistica: [55, 65, 95, 95, 45, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Capaz de nadar para trás, batendo rapidamente a cauda robusta e suas barbatanas peitorais em forma de asa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		lendario: false,
-		local: "Ilhas Espuma, Rota 23 e Caverna de Cerulean",
+		local: "Ilhas Espuma; rota 12, 13, e 23; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0117Seadra.png/375px-0117Seadra.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)",
@@ -1882,7 +1883,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Peixe Dourado",
 		lendario: false,
 		local:
-			"Rota 6 e outras rotas; Zona Safari; Ilhas Espuma; Planalto Índigo e Caverna de Cerulean",
+			"Rotas 6, 10, 11, e outras; Zona Safari; Ilhas Espuma; Planalto Índigo e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/0118Goldeen.png/375px-0118Goldeen.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)",
@@ -1898,7 +1899,7 @@ const pkmnDisponiveis = [
 			"Na temporada de desova de outono, podem ser vistos nadando majestosamente em rios e riachos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Dourado",
 		lendario: false,
-		local: "Rota 23 e Caverna de Cerulean",
+		local: "Rota 23; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/7/76/0119Seaking.png/375px-0119Seaking.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon)",
@@ -1914,7 +1915,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon enigmático que regenera sem esforço qualquer apêndice que perca em batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Estrelada",
 		lendario: false,
-		local: "Ilhas Espuma; Rotas 19, 20 e 21",
+		local: "Ilhas Espuma; e rotas 19, 20, e 21",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0120Staryu.png/375px-0120Staryu.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staryu_(Pok%C3%A9mon)",
@@ -1973,7 +1974,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", "Psíquico"],
 		massa: 40.6, // em kg
 		altura: 1.4, // em metros
-		estatistica: [40, 45, 65, 100, 120, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [65, 50, 35, 115, 95, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Mexe os quadris de maneira sedutora enquanto caminha. Pode fazer as pessoas dançarem em uníssono.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Humana",
@@ -2037,7 +2038,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 88.4, // em kg
 		altura: 1.4, // em metros
-		estatistica: [75, 100, 95, 40, 70, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [75, 100, 95, 40, 70, 110], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Quando mira em um inimigo, investe furiosamente enquanto chicoteia seu corpo com suas  longas caudas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Touro Selvagem",
@@ -2059,7 +2060,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Peixe",
 		lendario: false,
 		local:
-			"Rotas 4, 6 e outras rotas; Zona Safari; Ilhas Espuma; Caverna de Cerulean; Planalto Índigo",
+			"Rotas 6, 10, 11, e outras; Zona Safari; Ilhas Espuma; Caverna de Cerulean; e Planalto Índigo",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d1/0129Magikarp.png/375px-0129Magikarp.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)",
@@ -2070,12 +2071,12 @@ const pkmnDisponiveis = [
 		tipo: ["Água", "Voador"],
 		massa: 235.0, // em kg
 		altura: 6.5, // em metros
-		estatistica: [75, 100, 95, 40, 70, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [95, 125, 79, 60, 100, 81], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Raramente é visto na natureza. Enorme e cruel, é capaz de destruir cidades inteiras em um ataque de raiva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atrocidade",
 		lendario: false,
-		local: "Zona Safari",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0130Gyarados.png/375px-0130Gyarados.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)",
@@ -2107,7 +2108,8 @@ const pkmnDisponiveis = [
 			"Capaz de copiar o código genético do oponente para instantaneamente si transformar em uma duplicada do oponente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Transformação",
 		lendario: false,
-		local: "Rotas 13 e outras rotas e Caverna de Cerulean",
+		local:
+			"Rotas 13, 14, 15, e outras; Túnel de Rocha; Mansão Pokémon; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/25/0132Ditto.png/375px-0132Ditto.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)",
@@ -2187,7 +2189,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que consiste inteiramente de código de programação. Capaz de se mover livremente no espaço cibernético.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
 		lendario: false,
-		local: "Casino Rocket",
+		local: "Casino da Cidade de Celadon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/8e/0137Porygon.png/375px-0137Porygon.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon_(Pok%C3%A9mon)",
@@ -2198,12 +2200,12 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", "Água"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
-		estatistica: [35, 40, 100, 90, 55, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [35, 40, 100, 90, 55, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Mesmo há muito extinto, em casos raros, pode ser ressuscitado a partir de fósseis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espiral",
 		lendario: false,
-		local: "Revivido a partir do Fóssil Espiral na Ilha Cinnabar",
+		local: "Revivido a partir de fóssil",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e6/0138Omanyte.png/375px-0138Omanyte.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omanyte_(Pok%C3%A9mon)",
@@ -2214,7 +2216,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", "Água"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
-		estatistica: [70, 60, 120, 115, 70, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [70, 60, 125, 115, 70, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Um Pokémon pré-histórico que morreu quando sua pesada carapaça tornou impossível de caçar suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espiral",
@@ -2235,7 +2237,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que foi ressuscitado a partir de um fóssil encontrado no que já foi o fundo do oceano, eras atrás.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
 		lendario: false,
-		local: "Revivido a partir do Fóssil Domo na Ilha Cinnabar",
+		local: "Revivido a partir de fóssil",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0140Kabuto.png/375px-0140Kabuto.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabuto_(Pok%C3%A9mon)",
@@ -2251,7 +2253,7 @@ const pkmnDisponiveis = [
 			"Seu formato peculiar é perfeito para nadar. Fatia sua presa com suas garras e drena os fluidos corporais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
 		lendario: false,
-		local: "Por Evolução",
+		local: "Por evolução",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/4/41/0141Kabutops.png/375px-0141Kabutops.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon)",
@@ -2267,7 +2269,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon pré-histórico feroz que morreu em tempos antigos. Foi ressuscitado usando DNA pego de âmbar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fóssil",
 		lendario: false,
-		local: "Revivido a partir do Âmbar Antigo na Ilha Cinnabar",
+		local: "Revivido a partir do Âmbar Antigo",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0142Aerodactyl.png/375px-0142Aerodactyl.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon)",
@@ -2283,7 +2285,7 @@ const pkmnDisponiveis = [
 			"Muito preguiçoso. Só come e dorme. À medida que seu corpo redondo aumenta, se torna cada vez mais preguiçoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dorminhoco",
 		lendario: false,
-		local: "Rotas 12 e 16",
+		local: "Rotas 12, e 16",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0143Snorlax.png/375px-0143Snorlax.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)",
@@ -2296,8 +2298,8 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		estatistica: [90, 85, 100, 95, 125, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Um Pokémon pássaro lendário que supostamente aparece a pessoas condenadas que estão perdidas em montanhas geladas.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Congelante",
+			"Um pássaro lendário que supostamente aparece a pessoas condenadas que estão perdidas em montanhas geladas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Congelamento",
 		lendario: true,
 		local: "Ilhas Espuma",
 		sprite:
@@ -2312,7 +2314,7 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		estatistica: [90, 90, 85, 125, 90, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Um Pokémon pássaro lendário que supostamente surge das nuvens enquanto solta raios enormes.", // considerando a dex da primeira geração que apareceu
+			"Um pássaro lendário que supostamente surge das nuvens enquanto solta raios enormes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétrico",
 		lendario: true,
 		local: "Usina Elétrica Abandonada",
@@ -2409,9 +2411,9 @@ const pkmnDisponiveis = [
 		estatistica: [100, 100, 100, 100, 100, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"É tão raro que ainda é dito ser uma miragem por vários especialistas. Somente algumas pessoas o viram ao redor do mundo.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Novo Espécime",
+		categoria: "Pokémon Nova Espécie",
 		lendario: true,
-		local: "Somente evento",
+		local: "Por evento",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/9a/0151Mew.png/375px-0151Mew.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)",
