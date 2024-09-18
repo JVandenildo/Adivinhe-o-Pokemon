@@ -94,18 +94,54 @@ function darPalpite() {
 	nomesGeral.classList.remove("nomesGeralShow");
 
 	const listaDiscas = [
-		`<b>Tipo(s):</b> ${escolhido[0].tipo}`,
-		`<b>Categoria:</b> ${escolhido[0].categoria}`,
-		`<b>Obtenção:</b> ${escolhido[0].local}`,
-		`<b>HP:</b>        ${escolhido[0].estatistica[0]}<br>
-		<b>Atq.:</b>       ${escolhido[0].estatistica[1]}<br>
-		<b>Def.:</b>       ${escolhido[0].estatistica[2]}<br>
-		<b>Atq. Esp.:</b>  ${escolhido[0].estatistica[3]}<br>
-		<b>Def. Esp.:</b>  ${escolhido[0].estatistica[4]}<br>
-		<b>Vel.:</b>       ${escolhido[0].estatistica[5]}<br>`, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		`<b>Descrição:</b> "${escolhido[0].descricao}"`,
-		`<b>Número:</b> ${escolhido[0].numero}`,
-		`<img src="${escolhido[0].sprite}" />`,
+		`<table><tr>
+			<th>Tipo(s)</th>
+			<td>${escolhido[0].tipo}</td>
+		</tr></table>`,
+		`<table><tr>
+			<th>Categoria</th>
+			<td>${escolhido[0].categoria}</td>
+		</tr></table>`,
+		`<table><tr>
+			<th>Obtenção</th>
+			<td>${escolhido[0].local}</td>
+		</tr></table>`,
+		`<table>
+		<tr>
+			<th>HP</th>
+			<td>${escolhido[0].estatistica[0]}</td>
+		</tr>
+		<tr>
+			<th>Ataque</th>
+			<td>${escolhido[0].estatistica[1]}</td>
+		</tr>
+		<tr>
+			<th>Defesa</th>
+			<td>${escolhido[0].estatistica[2]}</td>
+		</tr>
+		<tr>
+			<th>Ataque Especial</th>
+			<td>${escolhido[0].estatistica[3]}</td>
+		</tr>
+		<tr>
+			<th>Defesa Especial</th>
+			<td>${escolhido[0].estatistica[4]}</td>
+		</tr>
+		<tr>
+			<th>Velocidade</th>
+			<td>${escolhido[0].estatistica[5]}</td>
+		</table>`,
+		`<table><tr>
+			<th>Descrição</th>
+			<td>${escolhido[0].descricao}</td>
+		</tr></table>`,
+		`<table><tr>
+			<th>Número</th>
+			<td>${escolhido[0].numero}</td>
+		</tr></table>`,
+		`<table><tr>
+			<td><img src="${escolhido[0].sprite}" /></td>
+		</tr></table>`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -211,11 +247,11 @@ function ganhou(palpites) {
 
 	switch (palpites) {
 		case 1:
-			ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" /></a>`;
 
 			return true;
 		default:
-			ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" /></a>`;
 
 			return true;
 	}

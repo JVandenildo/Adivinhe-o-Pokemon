@@ -206,7 +206,9 @@ input {
 	margin: 0.2rem;
 	flex-direction: column;
 	align-items: center;
+	align-content: center;
 	justify-items: start;
+	justify-content: start;
 	text-align: center;
 }
 #campoDicas img {
@@ -214,6 +216,11 @@ input {
 	width: 10rem;
 	filter: contrast(1%) opacity(99%);
 }
+#campoDicas table {
+	margin: auto;
+	text-align: left !important;
+}
+
 #ultimato img {
 	height: 13rem;
 	width: 13rem;

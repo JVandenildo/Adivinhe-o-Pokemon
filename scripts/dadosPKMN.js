@@ -2,7 +2,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Bulbasaur",
 		numero: 1, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 6.9, // em kg
 		altura: 0.7, // em metros
 		estatistica: [45, 49, 49, 65, 65, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -18,7 +18,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Ivysaur",
 		numero: 2, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 13.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: [60, 62, 63, 80, 80, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -34,7 +34,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Venusaur",
 		numero: 3, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: [80, 82, 83, 100, 100, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -82,7 +82,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Charizard",
 		numero: 6, // considerando a national dex
-		tipo: ["Fogo", "Voador"],
+		tipo: ["Fogo", " Voador"],
 		massa: 90.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: [78, 84, 78, 109, 85, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -154,7 +154,7 @@ const pkmnDisponiveis = [
 			"Seus pés curtos são dotados de ventosas que lhe permitem escalar encostas e paredes sem cansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca",
 		lendario: false,
-		local: "Rotas 2, 24 e 25; e Floresta de Viridiana",
+		local: "Rotas 2, 24, e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/5/5e/0010Caterpie.png/375px-0010Caterpie.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)",
@@ -170,7 +170,7 @@ const pkmnDisponiveis = [
 			"É vulnerável a ataques enquanto seu casulo está mole, expondo seu corpo fraco e frágil.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
 		lendario: false,
-		local: "Rotas 24 e 25; e Floresta de Viridiana",
+		local: "Rotas 24, e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/da/0011Metapod.png/375px-0011Metapod.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon)",
@@ -178,7 +178,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Butterfree",
 		numero: 12, // considerando a national dex
-		tipo: ["Inseto", "Voador"],
+		tipo: ["Inseto", " Voador"],
 		massa: 32.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: [60, 45, 50, 80, 80, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -194,7 +194,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Weedle",
 		numero: 13, // considerando a national dex
-		tipo: ["Inseto", "Veneno"],
+		tipo: ["Inseto", " Veneno"],
 		massa: 3.2, // em kg
 		altura: 0.3, // em metros
 		estatistica: [40, 35, 30, 20, 20, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -202,7 +202,7 @@ const pkmnDisponiveis = [
 			"Comumente encontrado em florestas, comendo folhas. Possui um ferrão afiado e venenoso em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto Peludo",
 		lendario: false,
-		local: "Rotas 2, 24 e 25; e Floresta de Viridiana",
+		local: "Rotas 2, 24, e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/36/0013Weedle.png/375px-0013Weedle.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon)",
@@ -210,7 +210,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Kakuna",
 		numero: 14, // considerando a national dex
-		tipo: ["Inseto", "Veneno"],
+		tipo: ["Inseto", " Veneno"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: [45, 25, 50, 25, 25, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -218,7 +218,7 @@ const pkmnDisponiveis = [
 			"Quase incapaz de se mover, este Pokémon consegue só endurecer seu casulo para proteger a si mesmo de predadores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
 		lendario: false,
-		local: "Rotas 24 e 25; e Floresta de Viridiana",
+		local: "Rotas 24, e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/f3/0014Kakuna.png/375px-0014Kakuna.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon)",
@@ -226,7 +226,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Beedrill",
 		numero: 15, // considerando a national dex
-		tipo: ["Inseto", "Veneno"],
+		tipo: ["Inseto", " Veneno"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: [65, 80, 40, 45, 80, 75], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -242,7 +242,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Pidgey",
 		numero: 16, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
 		estatistica: [40, 45, 40, 35, 35, 56], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -250,7 +250,7 @@ const pkmnDisponiveis = [
 			"Comum ser visto em florestas e bosques. Bate as asas próximo ao chão para levantar poeira ofuscante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
 		lendario: false,
-		local: "Rotas 1, 2, 3 e outras; e Floresta de Viridiana",
+		local: "Rotas 1, 2, 3, e outras; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/0c/0016Pidgey.png/375px-0016Pidgey.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)",
@@ -258,7 +258,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Pidgeotto",
 		numero: 17, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: [63, 60, 55, 50, 50, 71], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -266,7 +266,7 @@ const pkmnDisponiveis = [
 			"Muito protetor de sua extensa área territorial, este Pokémon irá bicar ferozmente qualquer intruso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro",
 		lendario: false,
-		local: "Rotas 5, 6, 7 e outras; e Floresta de Viridiana",
+		local: "Rotas 5, 6, 7, e outras; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0017Pidgeotto.png/375px-0017Pidgeotto.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)",
@@ -274,7 +274,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Pidgeot",
 		numero: 18, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 39.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: [83, 80, 75, 70, 70, 91], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -298,7 +298,7 @@ const pkmnDisponiveis = [
 			"Morde qualquer coisa quando ataca. Pequeno e muito rápido, é comum ser visto em vários lugares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Rotas 1, 2, 3 e outras; e Mansão Pokémon",
+		local: "Rotas 1, 2, 3, e outras; e Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/aa/0019Rattata.png/375px-0019Rattata.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
@@ -314,7 +314,7 @@ const pkmnDisponiveis = [
 			"Usa seus bigodes para manter o equilíbrio. Aparentemente fica mais lento quando são cortados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Rotas 9, 10, 11 e outras; Mansão Pokémon e Caverna de Cerulean",
+		local: "Rotas 9, 10, 11, e outras; Mansão Pokémon e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0020Raticate.png/375px-0020Raticate.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
@@ -322,7 +322,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Spearow",
 		numero: 21, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: [40, 60, 30, 31, 31, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -330,7 +330,7 @@ const pkmnDisponiveis = [
 			"Come insetos em áreas gramadas. Tem que bater suas curtas asas em alta velocidade para se manter no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
 		lendario: false,
-		local: "Rotas 3, 4, 9 e outras",
+		local: "Rotas 3, 4, 9, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0021Spearow.png/375px-0021Spearow.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)",
@@ -338,7 +338,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Fearow",
 		numero: 22, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: [65, 90, 65, 61, 61, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -346,7 +346,7 @@ const pkmnDisponiveis = [
 			"Com suas imensas e magnificas asas, consegue permanecer no ar sem pousar para descansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bico",
 		lendario: false,
-		local: "Rotas 9, 16, 17 e outras",
+		local: "Rotas 9, 16, 17, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/92/0022Fearow.png/375px-0022Fearow.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)",
@@ -362,7 +362,7 @@ const pkmnDisponiveis = [
 			"Move-se de maneira silenciosa e furtiva. Come ovos de pássaros, como Pidgey e Spearow.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente",
 		lendario: false,
-		local: "Rotas 4, 8, 9 e outras",
+		local: "Rotas 4, 8, 9, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/375px-0023Ekans.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)",
@@ -378,7 +378,7 @@ const pkmnDisponiveis = [
 			"Rumores dizem que as marcas de sua barriga mudam de área para área.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cobra",
 		lendario: false,
-		local: "Rotas 23 e Caverna de Cerulean",
+		local: "Rotas 23; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/5/51/0024Arbok.png/375px-0024Arbok.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)",
@@ -394,7 +394,7 @@ const pkmnDisponiveis = [
 			"Quando vários Pokémon dessa espécie se reúnem, sua eletricidade poderia aumentar e causar tempestades elétricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Floresta de Viridiana e Usina Elétrica Abandonada",
+		local: "Floresta de Viridiana; e Usina Elétrica Abandonada",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/375px-0025Pikachu.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)",
@@ -410,7 +410,7 @@ const pkmnDisponiveis = [
 			"Sua longa cauda serve como um fio-terra que o protege de sua própria potência elétrica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Usina Elétrica Abadona e Caverna de Cerulean",
+		local: "Usina Elétrica Abadona; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0026Raichu.png/375px-0026Raichu.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
@@ -426,7 +426,7 @@ const pkmnDisponiveis = [
 			"Escava profundamente na terra em lugares áridos e distantes de água. Só sai para caçar comida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Rotas 3, 4, 8 e outras; e Monte da Lua",
+		local: "Rotas 3, 4, 8, e outras; e Monte da Lua",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e9/0027Sandshrew.png/375px-0027Sandshrew.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
@@ -442,7 +442,7 @@ const pkmnDisponiveis = [
 			"Enrola-se em uma bola espinhosa quando se sente ameaçado. Pode rolar para atacar ou escapar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Rota 23 e Caverna de Cerulean",
+		local: "Rota 23; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/a4/0028Sandslash.png/375px-0028Sandslash.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
@@ -458,7 +458,7 @@ const pkmnDisponiveis = [
 			"Apesar de pequenos, seus espinhos venenosos tornam este Pokémon perigoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Rotas 2, 9, 10 e outra; e Zona Safari",
+		local: "Rotas 2, 9, 10, e outra; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b2/0029Nidoran.png/375px-0029Nidoran.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%80_(Pok%C3%A9mon)",
@@ -474,7 +474,7 @@ const pkmnDisponiveis = [
 			"O chifre da fêmea desenvolve devagar. Prefere ataques físicos como mordida e patadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Rotas 9 e 23; e Zona Safari",
+		local: "Rotas 9, e 23; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/ea/0030Nidorina.png/375px-0030Nidorina.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorina_(Pok%C3%A9mon)",
@@ -482,7 +482,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Nidoqueen",
 		numero: 31, // considerando a national dex
-		tipo: ["Veneno", "Terra"],
+		tipo: ["Veneno", " Terra"],
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: [90, 82, 87, 75, 85, 76], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -506,7 +506,7 @@ const pkmnDisponiveis = [
 			"Enrijece suas orelhas para sentir perigo. Quanto maior seus chifres, mais poderoso é seu veneno secretado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Rotas 2, 9, 10 e outra; e Zona Safari",
+		local: "Rotas 2, 9, 10, e outra; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/8c/0032Nidoran.png/375px-0032Nidoran.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%82_(Pok%C3%A9mon)",
@@ -522,7 +522,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon agressivo que é rápido para atacar. O chifre em sua cabeça secreta um poderoso veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Rotas 9 e 23; e Zona Safari",
+		local: "Rotas 9, e 23; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/1/1e/0033Nidorino.png/375px-0033Nidorino.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorino_(Pok%C3%A9mon)",
@@ -530,7 +530,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Nidoking",
 		numero: 34, // considerando a national dex
-		tipo: ["Veneno", "Terra"],
+		tipo: ["Veneno", " Terra"],
 		massa: 62.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: [81, 92, 77, 85, 75, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -554,7 +554,7 @@ const pkmnDisponiveis = [
 			"Sua aparência mágica e fofa possui muitos admiradores. É raro e encontrado somente em certas áreas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
 		lendario: false,
-		local: "Monte da Lua e Caverna de Cerulean",
+		local: "Monte da Lua; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0035Clefairy.png/375px-0035Clefairy.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)",
@@ -586,7 +586,7 @@ const pkmnDisponiveis = [
 			"No momento do nascimento, só possui uma cauda. A cauda se divide a partir da ponta a medida que envelhece.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
 		lendario: false,
-		local: "Rotas 7 e 8; e a Mansão Pokémon",
+		local: "Rotas 7, e 8; e a Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/06/0037Vulpix.png/375px-0037Vulpix.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
@@ -610,7 +610,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Jigglypuff",
 		numero: 39, // considerando a national dex
-		tipo: ["Normal", "Fada"],
+		tipo: ["Normal", " Fada"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: [115, 45, 20, 45, 25, 20], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -618,7 +618,7 @@ const pkmnDisponiveis = [
 			"Quando seus grandes olhos se iluminam, canta uma melodia misteriosamente suave que embala seus inimigos para dormir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		lendario: false,
-		local: "Rotas 3, 5, 6 e outras",
+		local: "Rotas 3, 5, 6, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3a/0039Jigglypuff.png/375px-0039Jigglypuff.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon)",
@@ -626,7 +626,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Wigglytuff",
 		numero: 40, // considerando a national dex
-		tipo: ["Normal", "Fada"],
+		tipo: ["Normal", " Fada"],
 		massa: 12.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: [140, 70, 45, 75, 50, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -642,7 +642,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Zubat",
 		numero: 41, // considerando a national dex
-		tipo: ["Veneno", "Voador"],
+		tipo: ["Veneno", " Voador"],
 		massa: 7.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: [40, 45, 35, 30, 40, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -658,7 +658,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Golbat",
 		numero: 42, // considerando a national dex
-		tipo: ["Veneno", "Voador"],
+		tipo: ["Veneno", " Voador"],
 		massa: 55.0, // em kg
 		altura: 1.6, // em metros
 		estatistica: [75, 80, 70, 65, 75, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -674,7 +674,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Oddish",
 		numero: 43, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 5.4, // em kg
 		altura: 0.5, // em metros
 		estatistica: [45, 50, 55, 75, 65, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -690,7 +690,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Gloom",
 		numero: 44, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 8.6, // em kg
 		altura: 0.8, // em metros
 		estatistica: [60, 65, 70, 85, 75, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -698,7 +698,7 @@ const pkmnDisponiveis = [
 			"O fluido que escorre de sua boca não é baba. É um néctar usado para atrair suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
 		lendario: false,
-		local: "Rota 12, 13, 14 e outras; e Caverna de Cerulean",
+		local: "Rota 12, 13, 14, e outras; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e0/0044Gloom.png/375px-0044Gloom.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon)",
@@ -706,7 +706,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Vileplume",
 		numero: 45, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 18.6, // em kg
 		altura: 1.2, // em metros
 		estatistica: [75, 80, 85, 100, 90, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -722,7 +722,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Paras",
 		numero: 46, // considerando a national dex
-		tipo: ["Inseto", "Planta"],
+		tipo: ["Inseto", " Planta"],
 		massa: 5.4, // em kg
 		altura: 0.3, // em metros
 		estatistica: [35, 70, 55, 45, 55, 25], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -738,7 +738,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Parasect",
 		numero: 47, // considerando a national dex
-		tipo: ["Inseto", "Planta"],
+		tipo: ["Inseto", " Planta"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: [60, 95, 80, 60, 80, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -754,7 +754,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Venonat",
 		numero: 48, // considerando a national dex
-		tipo: ["Inseto", "Veneno"],
+		tipo: ["Inseto", " Veneno"],
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: [60, 55, 50, 40, 55, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -762,7 +762,7 @@ const pkmnDisponiveis = [
 			"Vive nas sombras de árvores altas onde come insetos. É atraído por luzes durante a noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto",
 		lendario: false,
-		local: "Rotas 12, 13, 14 e outra; e Zona Safari",
+		local: "Rotas 12, 13, 14, e outra; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0049Venomoth.png/375px-0049Venomoth.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)",
@@ -770,7 +770,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Venomoth",
 		numero: 49, // considerando a national dex
-		tipo: ["Inseto", "Veneno"],
+		tipo: ["Inseto", " Veneno"],
 		massa: 12.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: [70, 65, 60, 90, 75, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -825,7 +825,7 @@ const pkmnDisponiveis = [
 			"Gosta de objetos redondos. Vaga pelas ruas todas as noites procurando por trocados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arranha Gato",
 		lendario: false,
-		local: "Rota 5, 6, 7 e outra",
+		local: "Rota 5, 6, 7, e outra",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d6/0052Meowth.png/375px-0052Meowth.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
@@ -857,7 +857,7 @@ const pkmnDisponiveis = [
 			"Enquanto engana seus oponentes com seu olhar distraído, este astuto Pokémon usa seus poderes psicocinéticos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
 		lendario: false,
-		local: "Ilhas Espuma; rotas 6, 24 e 25; e Zona Safari",
+		local: "Ilhas Espuma; rotas 6, 24, e 25; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0054Psyduck.png/375px-0054Psyduck.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)",
@@ -889,7 +889,7 @@ const pkmnDisponiveis = [
 			"Extremamente rápido em se irritar. Pode ser dócil em um momento e logo depois se debater.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Porco",
 		lendario: false,
-		local: "Rotas 3, 4, 5 e outras",
+		local: "Rotas 3, 4, 5, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/fa/0056Mankey.png/375px-0056Mankey.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mankey_(Pok%C3%A9mon)",
@@ -921,7 +921,7 @@ const pkmnDisponiveis = [
 			"Muito protetor de seu território. Late e morde para repelir invasores de seu espaço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
 		lendario: false,
-		local: "Rotas 7 e 8; e Mansão Pokémon",
+		local: "Rotas 7, e 8; e Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/6a/0058Growlithe.png/375px-0058Growlithe.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
@@ -954,7 +954,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Girino",
 		lendario: false,
 		local:
-			"Rota 6, 10, 11 e outras; Caverna de Cerulean; Zona Safari; Ilhas Espuma; e Planalto Índigo",
+			"Rota 6, 10, 11, e outras; Caverna de Cerulean; Zona Safari; Ilhas Espuma; e Planalto Índigo",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0060Poliwag.png/375px-0060Poliwag.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon)",
@@ -970,7 +970,7 @@ const pkmnDisponiveis = [
 			"Capaz de viver dentro e fora d'água. Quando está fora da água, transpira para manter seu corpo viscoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
 		lendario: false,
-		local: "Rotas 10, 22 e 23",
+		local: "Rotas 10, 22, e 23",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/fd/0061Poliwhirl.png/375px-0061Poliwhirl.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwhirl_(Pok%C3%A9mon)",
@@ -978,7 +978,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Poliwrath",
 		numero: 62, // considerando a national dex
-		tipo: ["Água", "Lutador"],
+		tipo: ["Água", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: [90, 85, 95, 70, 90, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1002,7 +1002,7 @@ const pkmnDisponiveis = [
 			"Usando sua habilidade de ler mentes, identifica o perigo iminente e teleporta para um local seguro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
 		lendario: false,
-		local: "Rotas 5, 6, 7 e outras",
+		local: "Rotas 5, 6, 7, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/bd/0063Abra.png/375px-0063Abra.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Abra_(Pok%C3%A9mon)",
@@ -1090,7 +1090,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Bellsprout",
 		numero: 69, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 4.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: [50, 75, 35, 70, 30, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1098,7 +1098,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon carnívoro que prende e come insetos. Usa seus pés raiz para sugar a umidade necessária.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
 		lendario: false,
-		local: "Rotas 5, 6, 7 e outras",
+		local: "Rotas 5, 6, 7, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/66/0069Bellsprout.png/375px-0069Bellsprout.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellsprout_(Pok%C3%A9mon)",
@@ -1106,7 +1106,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Weepinbell",
 		numero: 70, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 6.4, // em kg
 		altura: 1.0, // em metros
 		estatistica: [65, 90, 50, 85, 45, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1122,7 +1122,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Victreebel",
 		numero: 71, // considerando a national dex
-		tipo: ["Planta", "Veneno"],
+		tipo: ["Planta", " Veneno"],
 		massa: 15.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: [80, 105, 65, 100, 60, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1138,7 +1138,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Tentacool",
 		numero: 72, // considerando a national dex
-		tipo: ["Água", "Veneno"],
+		tipo: ["Água", " Veneno"],
 		massa: 45.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: [40, 40, 35, 50, 100, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1154,7 +1154,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Tentacruel",
 		numero: 73, // considerando a national dex
-		tipo: ["Água", "Veneno"],
+		tipo: ["Água", " Veneno"],
 		massa: 55.5, // em kg
 		altura: 1.6, // em metros
 		estatistica: [80, 70, 65, 80, 120, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1162,7 +1162,7 @@ const pkmnDisponiveis = [
 			"Os tentáculos são normalmente mantidos curtos. Nas caçadas, os tentáculos são estendidos para enredar e imobilizar presas", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Água-Viva",
 		lendario: false,
-		local: "Rotas 19, 20 e 21",
+		local: "Rotas 19, 20, e 21",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/c/cb/0073Tentacruel.png/375px-0073Tentacruel.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacruel_(Pok%C3%A9mon)",
@@ -1170,7 +1170,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Geodude",
 		numero: 74, // considerando a national dex
-		tipo: ["Rocha", "Terra"],
+		tipo: ["Rocha", " Terra"],
 		massa: 20.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: [40, 80, 100, 30, 30, 20], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1186,7 +1186,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Graveler",
 		numero: 75, // considerando a national dex
-		tipo: ["Rocha", "Terra"],
+		tipo: ["Rocha", " Terra"],
 		massa: 105.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: [55, 95, 115, 45, 45, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1194,7 +1194,7 @@ const pkmnDisponiveis = [
 			"Rola para se mover. Rola sobre qualquer obstáculo sem diminuir a velocidade ou muda sua direção", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
 		lendario: false,
-		local: "Estrada da Vitória e Caverna de Cerulean",
+		local: "Estrada da Vitória; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d4/0075Graveler.png/375px-0075Graveler.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
@@ -1202,7 +1202,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Golem",
 		numero: 76, // considerando a national dex
-		tipo: ["Rocha", "Terra"],
+		tipo: ["Rocha", " Terra"],
 		massa: 300.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: [80, 110, 130, 55, 65, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1226,7 +1226,7 @@ const pkmnDisponiveis = [
 			"Seus cascos são dez vezes mais duros que diamantes. Consegue atropelar qualquer coisa completamente plana em pouco tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo de Fogo",
 		lendario: false,
-		local: "Rota 17 e Mansão Pokémon",
+		local: "Rota 17; e Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0077Ponyta.png/375px-0077Ponyta.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
@@ -1250,7 +1250,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Slowpoke",
 		numero: 79, // considerando a national dex
-		tipo: ["Água", "Psíquico"],
+		tipo: ["Água", " Psíquico"],
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: [90, 65, 65, 40, 40, 15], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1266,7 +1266,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Slowbro",
 		numero: 80, // considerando a national dex
-		tipo: ["Água", "Psíquico"],
+		tipo: ["Água", " Psíquico"],
 		massa: 78.5, // em kg
 		altura: 1.6, // em metros
 		estatistica: [95, 75, 110, 100, 80, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1282,7 +1282,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Magnemite",
 		numero: 81, // considerando a national dex
-		tipo: ["Elétrico", "Metal"],
+		tipo: ["Elétrico", " Metal"],
 		massa: 6.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: [25, 35, 70, 95, 55, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1298,7 +1298,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Magneton",
 		numero: 82, // considerando a national dex
-		tipo: ["Elétrico", "Metal"],
+		tipo: ["Elétrico", " Metal"],
 		massa: 60.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: [50, 60, 95, 120, 70, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1314,7 +1314,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Farfetch'd",
 		numero: 83, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: [52, 65, 55, 58, 62, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1330,7 +1330,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Doduo",
 		numero: 84, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 39.2, // em kg
 		altura: 1.4, // em metros
 		estatistica: [35, 85, 45, 35, 35, 75], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1346,7 +1346,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Dodrio",
 		numero: 85, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 85.2, // em kg
 		altura: 1.8, // em metros
 		estatistica: [60, 110, 70, 60, 60, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1378,7 +1378,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Dewgong",
 		numero: 87, // considerando a national dex
-		tipo: ["Água", "Gelo"],
+		tipo: ["Água", " Gelo"],
 		massa: 120.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: [90, 70, 80, 70, 95, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1434,7 +1434,7 @@ const pkmnDisponiveis = [
 			"Sua carapaça dura repele qualquer tipo de ataque. É vulnerável somente quando abre sua carapaça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
 		lendario: false,
-		local: "Ilhas Espuma; rotas 6, 11, 19, e outras",
+		local: "Ilhas Espuma; e rotas 6, 11, 19, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3e/0090Shellder.png/375px-0090Shellder.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon)",
@@ -1442,7 +1442,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Cloyster",
 		numero: 91, // considerando a national dex
-		tipo: ["Água", "Gelo"],
+		tipo: ["Água", " Gelo"],
 		massa: 132.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: [50, 95, 180, 85, 45, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1458,7 +1458,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Gastly",
 		numero: 92, // considerando a national dex
-		tipo: ["Fantasma", "Veneno"],
+		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.3, // em metros
 		estatistica: [30, 35, 30, 100, 35, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1474,7 +1474,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Haunter",
 		numero: 93, // considerando a national dex
-		tipo: ["Fantasma", "Veneno"],
+		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.6, // em metros
 		estatistica: [45, 50, 45, 115, 55, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1490,7 +1490,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Gengar",
 		numero: 94, // considerando a national dex
-		tipo: ["Fantasma", "Veneno"],
+		tipo: ["Fantasma", " Veneno"],
 		massa: 40.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: [60, 65, 60, 130, 75, 110], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1506,7 +1506,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Onix",
 		numero: 95, // considerando a national dex
-		tipo: ["Rocha", "Terra"],
+		tipo: ["Rocha", " Terra"],
 		massa: 210.0, // em kg
 		altura: 8.8, // em metros
 		estatistica: [35, 45, 160, 30, 45, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1618,7 +1618,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Exeggcute",
 		numero: 102, // considerando a national dex
-		tipo: ["Planta", "Psíquico"],
+		tipo: ["Planta", " Psíquico"],
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: [60, 40, 80, 60, 45, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1634,7 +1634,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Exeggutor",
 		numero: 103, // considerando a national dex
-		tipo: ["Planta", "Psíquico"],
+		tipo: ["Planta", " Psíquico"],
 		massa: 120.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: [95, 95, 85, 125, 65, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1762,7 +1762,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Rhyhorn",
 		numero: 111, // considerando a national dex
-		tipo: ["Terra", "Rocha"],
+		tipo: ["Terra", " Rocha"],
 		massa: 115.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: [80, 85, 95, 30, 30, 25], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1778,7 +1778,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Rhydon",
 		numero: 112, // considerando a national dex
-		tipo: ["Terra", "Rocha"],
+		tipo: ["Terra", " Rocha"],
 		massa: 120.0, // em kg
 		altura: 1.9, // em metros
 		estatistica: [105, 130, 120, 45, 45, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1850,7 +1850,7 @@ const pkmnDisponiveis = [
 			"Conhecido por abater insetos voadores com jatos de tintas precisos da superfície da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		lendario: false,
-		local: "Ilhas Espuma; rotas 10, 11, 12, e outras",
+		local: "Rotas 10, 11, 12, e outras; e Ilhas Espuma",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/1/14/0116Horsea.png/375px-0116Horsea.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Horsea_(Pok%C3%A9mon)",
@@ -1866,7 +1866,7 @@ const pkmnDisponiveis = [
 			"Capaz de nadar para trás, batendo rapidamente a cauda robusta e suas barbatanas peitorais em forma de asa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		lendario: false,
-		local: "Ilhas Espuma; rota 12, 13, e 23; e Caverna de Cerulean",
+		local: "Ilhas Espuma; rotas 12, 13, e 23; e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0117Seadra.png/375px-0117Seadra.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)",
@@ -1923,7 +1923,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Starmie",
 		numero: 121, // considerando a national dex
-		tipo: ["Água", "Psíquico"],
+		tipo: ["Água", " Psíquico"],
 		massa: 80.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: [60, 75, 85, 100, 85, 115], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1939,7 +1939,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Mr. Mime",
 		numero: 122, // considerando a national dex
-		tipo: ["Psíquico", "Fada"],
+		tipo: ["Psíquico", " Fada"],
 		massa: 54.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: [40, 45, 65, 100, 120, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1955,7 +1955,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Scyther",
 		numero: 123, // considerando a national dex
-		tipo: ["Inseto", "Voador"],
+		tipo: ["Inseto", " Voador"],
 		massa: 56.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: [70, 110, 80, 55, 80, 105], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -1971,7 +1971,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Jynx",
 		numero: 124, // considerando a national dex
-		tipo: ["Gelo", "Psíquico"],
+		tipo: ["Gelo", " Psíquico"],
 		massa: 40.6, // em kg
 		altura: 1.4, // em metros
 		estatistica: [65, 50, 35, 115, 95, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2068,7 +2068,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Gyarados",
 		numero: 130, // considerando a national dex
-		tipo: ["Água", "Voador"],
+		tipo: ["Água", " Voador"],
 		massa: 235.0, // em kg
 		altura: 6.5, // em metros
 		estatistica: [95, 125, 79, 60, 100, 81], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2084,7 +2084,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Lapras",
 		numero: 131, // considerando a national dex
-		tipo: ["Água", "Gelo"],
+		tipo: ["Água", " Gelo"],
 		massa: 220.0, // em kg
 		altura: 2.5, // em metros
 		estatistica: [130, 85, 80, 85, 95, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2197,7 +2197,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Omanyte",
 		numero: 138, // considerando a national dex
-		tipo: ["Rocha", "Água"],
+		tipo: ["Rocha", " Água"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: [35, 40, 100, 90, 55, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2213,7 +2213,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Omastar",
 		numero: 139, // considerando a national dex
-		tipo: ["Rocha", "Água"],
+		tipo: ["Rocha", " Água"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: [70, 60, 125, 115, 70, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2229,7 +2229,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Kabuto",
 		numero: 140, // considerando a national dex
-		tipo: ["Rocha", "Água"],
+		tipo: ["Rocha", " Água"],
 		massa: 11.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: [30, 80, 90, 55, 45, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2245,7 +2245,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Kabutops",
 		numero: 141, // considerando a national dex
-		tipo: ["Rocha", "Água"],
+		tipo: ["Rocha", " Água"],
 		massa: 40.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: [60, 115, 105, 65, 70, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2261,7 +2261,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Aerodactyl",
 		numero: 142, // considerando a national dex
-		tipo: ["Rocha", "Voador"],
+		tipo: ["Rocha", " Voador"],
 		massa: 59.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: [80, 105, 65, 60, 75, 130], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2293,7 +2293,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Articuno",
 		numero: 144, // considerando a national dex
-		tipo: ["Gelo", "Voador"],
+		tipo: ["Gelo", " Voador"],
 		massa: 55.4, // em kg
 		altura: 1.7, // em metros
 		estatistica: [90, 85, 100, 95, 125, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2309,7 +2309,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Zapdos",
 		numero: 145, // considerando a national dex
-		tipo: ["Elétrico", "Voador"],
+		tipo: ["Elétrico", " Voador"],
 		massa: 52.6, // em kg
 		altura: 1.6, // em metros
 		estatistica: [90, 90, 85, 125, 90, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2325,7 +2325,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Moltres",
 		numero: 146, // considerando a national dex
-		tipo: ["Fogo", "Voador"],
+		tipo: ["Fogo", " Voador"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: [90, 100, 90, 125, 85, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2373,7 +2373,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Dragonite",
 		numero: 149, // considerando a national dex
-		tipo: ["Dragão", "Voador"],
+		tipo: ["Dragão", " Voador"],
 		massa: 210.0, // em kg
 		altura: 2.2, // em metros
 		estatistica: [91, 134, 95, 100, 100, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2597,7 +2597,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Hoothoot",
 		numero: 163, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 21.2, // em kg
 		altura: 0.7, // em metros
 		estatistica: [60, 30, 30, 36, 56, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2614,7 +2614,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Noctowl",
 		numero: 164, // considerando a national dex
-		tipo: ["Normal", "Voador"],
+		tipo: ["Normal", " Voador"],
 		massa: 40.8, // em kg
 		altura: 1.6, // em metros
 		estatistica: [100, 50, 50, 76, 96, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2630,7 +2630,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Ledyba",
 		numero: 165, // considerando a national dex
-		tipo: ["Inseto", "Voador"],
+		tipo: ["Inseto", " Voador"],
 		massa: 10.8, // em kg
 		altura: 1.0, // em metros
 		estatistica: [40, 20, 30, 40, 80, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2646,7 +2646,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Ledian",
 		numero: 166, // considerando a national dex
-		tipo: ["Inseto", "Voador"],
+		tipo: ["Inseto", " Voador"],
 		massa: 35.6, // em kg
 		altura: 1.4, // em metros
 		estatistica: [55, 35, 50, 55, 110, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2662,7 +2662,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Spinarak",
 		numero: 167, // considerando a national dex
-		tipo: ["Inseto", "Veneno"],
+		tipo: ["Inseto", " Veneno"],
 		massa: 8.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: [40, 60, 40, 40, 40, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2678,7 +2678,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Ariados",
 		numero: 168, // considerando a national dex
-		tipo: ["Inseto", "Veneno"],
+		tipo: ["Inseto", " Veneno"],
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
 		estatistica: [70, 90, 70, 60, 60, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2694,7 +2694,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Crobat",
 		numero: 169, // considerando a national dex
-		tipo: ["Veneno", "Voador"],
+		tipo: ["Veneno", " Voador"],
 		massa: 75.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: [85, 90, 80, 70, 80, 130], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2710,7 +2710,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Chinchou",
 		numero: 170, // considerando a national dex
-		tipo: ["Água", "Elétrico"],
+		tipo: ["Água", " Elétrico"],
 		massa: 12.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: [75, 38, 38, 56, 56, 67], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2726,7 +2726,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Lanturn",
 		numero: 171, // considerando a national dex
-		tipo: ["Água", "Elétrico"],
+		tipo: ["Água", " Elétrico"],
 		massa: 22.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: [125, 58, 58, 76, 76, 67], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2774,7 +2774,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Igglybuff",
 		numero: 174, // considerando a national dex
-		tipo: ["Normal", "Fada"],
+		tipo: ["Normal", " Fada"],
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: [90, 30, 15, 40, 20, 15], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2806,7 +2806,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Togetic",
 		numero: 176, // considerando a national dex
-		tipo: ["Fada", "Voador"],
+		tipo: ["Fada", " Voador"],
 		massa: 3.2, // em kg
 		altura: 0.6, // em metros
 		estatistica: [55, 40, 85, 80, 105, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2822,7 +2822,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Natu",
 		numero: 177, // considerando a national dex
-		tipo: ["Psíquico", "Voador"],
+		tipo: ["Psíquico", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
 		estatistica: [40, 50, 45, 70, 45, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2838,7 +2838,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Xatu",
 		numero: 178, // considerando a national dex
-		tipo: ["Psíquico", "Voador"],
+		tipo: ["Psíquico", " Voador"],
 		massa: 15.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: [65, 75, 70, 95, 70, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2918,7 +2918,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Marill",
 		numero: 183, // considerando a national dex
-		tipo: ["Água", "Fada"],
+		tipo: ["Água", " Fada"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: [70, 20, 50, 20, 50, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2934,7 +2934,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Azumarill",
 		numero: 184, // considerando a national dex
-		tipo: ["Água", "Fada"],
+		tipo: ["Água", " Fada"],
 		massa: 28.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: [100, 50, 80, 50, 80, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2982,7 +2982,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Hoppip",
 		numero: 187, // considerando a national dex
-		tipo: ["Planta", "Voador"],
+		tipo: ["Planta", " Voador"],
 		massa: 0.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: [35, 35, 40, 35, 55, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -2998,7 +2998,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Skiploom",
 		numero: 188, // considerando a national dex
-		tipo: ["Planta", "Voador"],
+		tipo: ["Planta", " Voador"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: [55, 45, 50, 45, 65, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3014,7 +3014,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Jumpluff",
 		numero: 189, // considerando a national dex
-		tipo: ["Planta", "Voador"],
+		tipo: ["Planta", " Voador"],
 		massa: 3.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: [75, 55, 70, 55, 85, 110], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3078,7 +3078,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Yanma",
 		numero: 193, // considerando a national dex
-		tipo: ["Inseto", "Voador"],
+		tipo: ["Inseto", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: [65, 65, 45, 75, 45, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3094,7 +3094,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Wooper",
 		numero: 194, // considerando a national dex
-		tipo: ["Água", "Terra"],
+		tipo: ["Água", " Terra"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: [55, 45, 45, 25, 25, 15], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3110,7 +3110,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Quagsire",
 		numero: 195, // considerando a national dex
-		tipo: ["Água", "Terra"],
+		tipo: ["Água", " Terra"],
 		massa: 75.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: [95, 85, 85, 65, 65, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3159,7 +3159,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Murkrow",
 		numero: 198, // considerando a national dex
-		tipo: ["Noturno", "Voador"],
+		tipo: ["Noturno", " Voador"],
 		massa: 2.1, // em kg
 		altura: 0.5, // em metros
 		estatistica: [60, 85, 42, 85, 42, 91], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3175,7 +3175,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Slowking",
 		numero: 199, // considerando a national dex
-		tipo: ["Água", "Psíquico"],
+		tipo: ["Água", " Psíquico"],
 		massa: 79.5, // em kg
 		altura: 2.0, // em metros
 		estatistica: [95, 75, 80, 100, 110, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3239,7 +3239,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Girafarig",
 		numero: 203, // considerando a national dex
-		tipo: ["Normal", "Psíquico"],
+		tipo: ["Normal", " Psíquico"],
 		massa: 41.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: [70, 80, 65, 90, 65, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3271,7 +3271,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Forretress",
 		numero: 205, // considerando a national dex
-		tipo: ["Inseto", "Metal"],
+		tipo: ["Inseto", " Metal"],
 		massa: 125.8, // em kg
 		altura: 1.2, // em metros
 		estatistica: [75, 90, 140, 60, 60, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3303,7 +3303,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Gligar",
 		numero: 207, // considerando a national dex
-		tipo: ["Terra", "Voador"],
+		tipo: ["Terra", " Voador"],
 		massa: 64.8, // em kg
 		altura: 1.1, // em metros
 		estatistica: [65, 75, 105, 35, 65, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3319,7 +3319,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Steelix",
 		numero: 208, // considerando a national dex
-		tipo: ["Metal", "Terra"],
+		tipo: ["Metal", " Terra"],
 		massa: 400.0, // em kg
 		altura: 9.2, // em metros
 		estatistica: [75, 85, 200, 55, 65, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3367,7 +3367,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Qwilfish",
 		numero: 211, // considerando a national dex
-		tipo: ["Água", "Veneno"],
+		tipo: ["Água", " Veneno"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
 		estatistica: [65, 95, 75, 55, 55, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3383,7 +3383,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Scizor",
 		numero: 212, // considerando a national dex
-		tipo: ["Inseto", "Metal"],
+		tipo: ["Inseto", " Metal"],
 		massa: 118.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: [70, 130, 100, 55, 80, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3399,7 +3399,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Shuckle",
 		numero: 213, // considerando a national dex
-		tipo: ["Inseto", "Rocha"],
+		tipo: ["Inseto", " Rocha"],
 		massa: 20.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: [20, 10, 230, 10, 230, 5], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3415,7 +3415,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Heracross",
 		numero: 214, // considerando a national dex
-		tipo: ["Inseto", "Lutador"],
+		tipo: ["Inseto", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: [80, 125, 75, 40, 95, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3431,7 +3431,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Sneasel",
 		numero: 215, // considerando a national dex
-		tipo: ["Noturno", "Gelo"],
+		tipo: ["Noturno", " Gelo"],
 		massa: 28.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: [55, 95, 55, 35, 75, 115], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3496,7 +3496,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Magcargo",
 		numero: 219, // considerando a national dex
-		tipo: ["Fogo", "Rocha"],
+		tipo: ["Fogo", " Rocha"],
 		massa: 55.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: [50, 50, 120, 80, 80, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3512,7 +3512,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Swinub",
 		numero: 220, // considerando a national dex
-		tipo: ["Gelo", "Terra"],
+		tipo: ["Gelo", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: [50, 50, 40, 30, 30, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3528,7 +3528,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Piloswine",
 		numero: 221, // considerando a national dex
-		tipo: ["Gelo", "Terra"],
+		tipo: ["Gelo", " Terra"],
 		massa: 55.8, // em kg
 		altura: 1.1, // em metros
 		estatistica: [100, 100, 80, 60, 60, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3544,7 +3544,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Corsola",
 		numero: 222, // considerando a national dex
-		tipo: ["Água", "Rocha"],
+		tipo: ["Água", " Rocha"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: [55, 55, 85, 65, 85, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3592,7 +3592,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Delibird",
 		numero: 225, // considerando a national dex
-		tipo: ["Gelo", "Voador"],
+		tipo: ["Gelo", " Voador"],
 		massa: 16.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: [45, 55, 45, 65, 45, 75], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3608,7 +3608,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Mantine",
 		numero: 226, // considerando a national dex
-		tipo: ["Água", "Voador"],
+		tipo: ["Água", " Voador"],
 		massa: 220.0, // em kg
 		altura: 2.1, // em metros
 		estatistica: [65, 40, 70, 80, 140, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3624,7 +3624,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Skarmory",
 		numero: 227, // considerando a national dex
-		tipo: ["Metal", "Voador"],
+		tipo: ["Metal", " Voador"],
 		massa: 50.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: [65, 80, 140, 40, 70, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3640,7 +3640,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Houndour",
 		numero: 228, // considerando a national dex
-		tipo: ["Noturno", "Fogo"],
+		tipo: ["Noturno", " Fogo"],
 		massa: 10.8, // em kg
 		altura: 0.6, // em metros
 		estatistica: [45, 60, 30, 80, 50, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3656,7 +3656,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Houndoom",
 		numero: 229, // considerando a national dex
-		tipo: ["Noturno", "Fogo"],
+		tipo: ["Noturno", " Fogo"],
 		massa: 35.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: [75, 90, 50, 110, 80, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3672,7 +3672,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Kingdra",
 		numero: 230, // considerando a national dex
-		tipo: ["Água", "Dragão"],
+		tipo: ["Água", " Dragão"],
 		massa: 152.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: [75, 95, 95, 95, 95, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3801,7 +3801,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Smoochum",
 		numero: 238, // considerando a national dex
-		tipo: ["Gelo", "Psíquico"],
+		tipo: ["Gelo", " Psíquico"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: [45, 30, 15, 85, 65, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3929,7 +3929,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Larvitar",
 		numero: 246, // considerando a national dex
-		tipo: ["Rocha", "Terra"],
+		tipo: ["Rocha", " Terra"],
 		massa: 72.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: [50, 64, 50, 45, 50, 41], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3945,7 +3945,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Pupitar",
 		numero: 247, // considerando a national dex
-		tipo: ["Rocha", "Terra"],
+		tipo: ["Rocha", " Terra"],
 		massa: 152.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: [70, 84, 70, 65, 70, 51], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3961,7 +3961,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Tyranitar",
 		numero: 248, // considerando a national dex
-		tipo: ["Rocha", "Noturno"],
+		tipo: ["Rocha", " Noturno"],
 		massa: 202.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: [100, 134, 110, 95, 100, 61], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3977,7 +3977,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Lugia",
 		numero: 249, // considerando a national dex
-		tipo: ["Psíquico", "Voador"],
+		tipo: ["Psíquico", " Voador"],
 		massa: 216.0, // em kg
 		altura: 5.2, // em metros
 		estatistica: [106, 90, 130, 90, 154, 110], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -3993,7 +3993,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Ho-Oh",
 		numero: 250, // considerando a national dex
-		tipo: ["Fogo", "Voador"],
+		tipo: ["Fogo", " Voador"],
 		massa: 199.0, // em kg
 		altura: 3.8, // em metros
 		estatistica: [106, 130, 90, 110, 154, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -4009,7 +4009,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Celebi",
 		numero: 251, // considerando a national dex
-		tipo: ["Psíquico", "Planta"],
+		tipo: ["Psíquico", " Planta"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: [100, 100, 100, 100, 100, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
