@@ -116,10 +116,6 @@ function darPalpite() {
 			<td>${escolhido[0].tipo}</td>
 		</tr></table>`,
 		`<table><tr>
-			<th>Categoria</th>
-			<td>${escolhido[0].categoria}</td>
-		</tr></table>`,
-		`<table><tr>
 			<th>Obtenção</th>
 			<td>${escolhido[0].obtencao}</td>
 		</tr></table>`,
@@ -151,6 +147,10 @@ function darPalpite() {
 		`<table><tr>
 			<th>Descrição</th>
 			<td>${escolhido[0].descricao}</td>
+		</tr></table>`,
+		`<table><tr>
+			<th>Categoria</th>
+			<td>${escolhido[0].categoria}</td>
 		</tr></table>`,
 		`<table><tr>
 			<th>Número</th>
