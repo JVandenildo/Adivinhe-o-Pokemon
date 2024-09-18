@@ -169,6 +169,11 @@ input {
 	position: absolute;
 	top: 23.7%;
 }
+@media (max-width: 768px) {
+	.opcoesNomesShow {
+		top: 10.3rem;
+	}
+}
 .nomePalpite {
 	padding: inherit;
 	cursor: pointer;
