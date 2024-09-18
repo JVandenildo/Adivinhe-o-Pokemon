@@ -33,23 +33,56 @@ let palpites = 0;
 
 /**
  * Gera um novo PKMN para começar um novo jogo.
- * @returns Retorna um novo PKMN.
+ * @implements quando novas gerações forem adicionadas adicionar o verificadores de seleção para as novas gerações.
+ * @returns Retorna um array contendo o objeto que será usado na nova sessão.
  */
 function novaTentativa() {
-	resetar();
-	const data = new Date();
-	const ticket = Math.floor(Math.random(data) * primeiraGeracao.length);
+	if (!checkPrimeira.checked && !checkSegunda.checked) {
+		resetar();
 
-	escolhido = primeiraGeracao[ticket];
+		return alert("Escolha alguma geração antes!");
+	} else {
+		resetar();
+		const data = new Date();
+		const ticket = Math.floor(
+			Math.random(data) *
+				(checkPrimeira.checked * primeiraGeracao.length +
+					checkSegunda.checked * segundaGeracao.length)
+		);
 
-	console.info(`Ticket: ${ticket}`, `\nEscolhido: ${escolhido.nome}`);
+		escolhido = pkmnDisponiveis.filter(
+			(x) => x.numero == selecaoGeracao(ticket)
+		);
 
-	campoDicas.insertAdjacentHTML(
-		"beforeend",
-		`<p>${escolhido.massa} kg e ${escolhido.altura} m de altura</p>`
-	);
+		// console.info(
+		// 	`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
+		// 	`${segundaGeracao.length}/100`
+		// );
 
-	return escolhido;
+		campoDicas.insertAdjacentHTML(
+			"beforeend",
+			`<p>${escolhido[0].massa} kg e ${escolhido[0].altura} m de altura</p>`
+		);
+
+		return escolhido;
+	}
+}
+
+/**
+ * @param {number} numero Número qualquer.
+ * @returns {number} Número da PokéDex que representa o número aleatório dentro das gerações selecionadas.
+ */
+function selecaoGeracao(numero) {
+	let numerosDisponiveis = [];
+
+	if (checkPrimeira.checked) {
+		numerosPrimeira.forEach((x) => numerosDisponiveis.push(x));
+	}
+	if (checkSegunda.checked) {
+		numerosSegunda.forEach((x) => numerosDisponiveis.push(x));
+	}
+
+	return numerosDisponiveis[numero];
 }
 
 /**
@@ -61,18 +94,18 @@ function darPalpite() {
 	nomesGeral.classList.remove("nomesGeralShow");
 
 	const listaDiscas = [
-		escolhido.tipo,
-		escolhido.categoria,
-		escolhido.local,
-		`HP:        ${escolhido.estatistica[0]}<br>
-		Atq.:       ${escolhido.estatistica[1]}<br>
-		Def.:       ${escolhido.estatistica[2]}<br>
-		Atq. Esp.:  ${escolhido.estatistica[3]}<br>
-		Def. Esp.:  ${escolhido.estatistica[4]}<br>
-		Vel.:       ${escolhido.estatistica[5]}<br>`, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		escolhido.numero,
-		escolhido.descricao,
-		`<img src="${escolhido.sprite}" />`,
+		escolhido[0].tipo,
+		escolhido[0].categoria,
+		escolhido[0].local,
+		`HP:        ${escolhido[0].estatistica[0]}<br>
+		Atq.:       ${escolhido[0].estatistica[1]}<br>
+		Def.:       ${escolhido[0].estatistica[2]}<br>
+		Atq. Esp.:  ${escolhido[0].estatistica[3]}<br>
+		Def. Esp.:  ${escolhido[0].estatistica[4]}<br>
+		Vel.:       ${escolhido[0].estatistica[5]}<br>`, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		escolhido[0].numero,
+		escolhido[0].descricao,
+		`<img src="${escolhido[0].sprite}" />`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -81,7 +114,7 @@ function darPalpite() {
 
 			break;
 
-		case escolhido.nome.toLowerCase():
+		case escolhido[0].nome.toLowerCase():
 			ganhou(palpites + 1);
 
 			break;
@@ -111,19 +144,6 @@ function darPalpite() {
 	return;
 }
 
-function resetar() {
-	campoPalpite.value = "";
-	opcoesNomes.classList.remove("opcoesNomesShow");
-	nomesGeral.classList.remove("nomesGeralShow");
-	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
-	campoDicas.innerHTML = "";
-	ultimato.innerHTML = "";
-	palpites = 0;
-	btnPalpite.addEventListener("click", darPalpite);
-
-	return true;
-}
-
 function procurarNomes() {
 	switch (campoPalpite.value) {
 		case "":
@@ -136,7 +156,7 @@ function procurarNomes() {
 			opcoesNomes.classList.add("opcoesNomesShow");
 			nomesGeral.classList.add("nomesGeralShow");
 
-			const nomes = nomesPrimeira.filter(
+			const nomes = nomesDisponiveis.filter(
 				/**
 				 * @param {string} nome
 				 * @returns {string}
@@ -168,6 +188,19 @@ function selecaoPalpite(palpite) {
 	return console.log(palpite);
 }
 
+function resetar() {
+	campoPalpite.value = "";
+	opcoesNomes.classList.remove("opcoesNomesShow");
+	nomesGeral.classList.remove("nomesGeralShow");
+	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
+	campoDicas.innerHTML = "";
+	ultimato.innerHTML = "";
+	palpites = 0;
+	btnPalpite.addEventListener("click", darPalpite);
+
+	return true;
+}
+
 /**
  * Lida com o acerto do jogador.
  * @param {number} palpites quantidade de vezes que o jogador fez um palpite.
@@ -178,11 +211,11 @@ function ganhou(palpites) {
 
 	switch (palpites) {
 		case 1:
-			ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!<br><a href="${escolhido.link}">Mais informações</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpite!<br><a href="${escolhido[0].link}">Mais informações</a>.</p><a href="${escolhido[0].link}"><img src="${escolhido[0].sprite}" /></a>`;
 
 			return true;
 		default:
-			ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpites!<br><a href="${escolhido.link}">Mais informações</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou depois de ${palpites} palpites!<br><a href="${escolhido[0].link}">Mais informações</a>.</p><a href="${escolhido[0].link}"><img src="${escolhido[0].sprite}" /></a>`;
 
 			return true;
 	}
@@ -193,7 +226,7 @@ function ganhou(palpites) {
  */
 function perdeu() {
 	btnPalpite.removeEventListener("click", darPalpite);
-	ultimato.innerHTML = `<p>Você errou! Era ${escolhido.nome}!<br><a href="${escolhido.link}">Mais informações.</a>.</p><a href="${escolhido.link}"><img src="${escolhido.sprite}" /></a>`;
+	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}">Mais informações.</a>.</p><a href="${escolhido[0].link}"><img src="${escolhido[0].sprite}" /></a>`;
 
 	return false;
 }

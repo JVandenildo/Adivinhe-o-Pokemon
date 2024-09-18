@@ -1,4 +1,4 @@
-const primeiraGeracao = [
+const pkmnDisponiveis = [
 	{
 		nome: "Bulbasaur",
 		numero: 1, // considerando a national dex
@@ -131,8 +131,8 @@ const primeiraGeracao = [
 		nome: "Blastoise",
 		numero: 9, // considerando a national dex
 		tipo: ["Água"],
-		massa: 100.0, // em kg
-		altura: 2.0, // em metros
+		massa: 85.5, // em kg
+		altura: 1.6, // em metros
 		estatistica: [79, 83, 100, 85, 105, 78], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Um Pokémon brutal com jatos de água pressurizada em seu casco. São usados em investidas de alta velocidade.", // considerando a dex da primeira geração que apareceu
@@ -154,7 +154,7 @@ const primeiraGeracao = [
 			"Seus pés curtos são dotados de ventosas que lhe permitem escalar encostas e paredes sem cansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca",
 		lendario: false,
-		local: "Floresta de Viridiana",
+		local: "Rotas 2, 24 e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/5/5e/0010Caterpie.png/375px-0010Caterpie.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)",
@@ -170,7 +170,7 @@ const primeiraGeracao = [
 			"É vulnerável a ataques enquanto seu casulo está mole, expondo seu corpo fraco e frágil.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
 		lendario: false,
-		local: "Floresta de Viridiana",
+		local: "Rotas 24 e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/da/0011Metapod.png/375px-0011Metapod.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon)",
@@ -194,15 +194,15 @@ const primeiraGeracao = [
 	{
 		nome: "Weedle",
 		numero: 13, // considerando a national dex
-		tipo: ["Inseto"],
+		tipo: ["Inseto", "Veneno"],
 		massa: 3.2, // em kg
 		altura: 0.3, // em metros
 		estatistica: [40, 35, 30, 20, 20, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Comumente encontrado em florestas, comendo restos. Possui um ferrão afiado e venenoso em sua cabeça.", // considerando a dex da primeira geração que apareceu
+			"Comumente encontrado em florestas, comendo folhas. Possui um ferrão afiado e venenoso em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto Peludo",
 		lendario: false,
-		local: "Floresta de Viridiana",
+		local: "Rotas 2, 24 e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/36/0013Weedle.png/375px-0013Weedle.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon)",
@@ -210,7 +210,7 @@ const primeiraGeracao = [
 	{
 		nome: "Kakuna",
 		numero: 14, // considerando a national dex
-		tipo: ["Inseto"],
+		tipo: ["Inseto", "Veneno"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: [45, 25, 50, 25, 25, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -218,7 +218,7 @@ const primeiraGeracao = [
 			"Quase incapaz de se mover, este Pokémon consegue só endurecer seu casulo para proteger a si mesmo de predadores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
 		lendario: false,
-		local: "Floresta de Viridiana",
+		local: "Rotas 24 e 25; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/f/f3/0014Kakuna.png/375px-0014Kakuna.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon)",
@@ -250,7 +250,7 @@ const primeiraGeracao = [
 			"Comum ser visto em florestas e bosques. Bate as asas próximo ao chão para levantar poeira ofuscante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
 		lendario: false,
-		local: "Rota 1, além de outras rotas",
+		local: "Rotas 1, 2, 3 e outras; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/0/0c/0016Pidgey.png/375px-0016Pidgey.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)",
@@ -266,7 +266,7 @@ const primeiraGeracao = [
 			"Muito protetor de sua extensa área territorial, este Pokémon irá bicar ferozmente qualquer intruso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro",
 		lendario: false,
-		local: "Rotas 14, 15 e 21",
+		local: "Rotas 5, 6, 7 e outras; e Floresta de Viridiana",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0017Pidgeotto.png/375px-0017Pidgeotto.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)",
@@ -298,7 +298,7 @@ const primeiraGeracao = [
 			"Morde qualquer coisa quando ataca. Pequeno e muito rápido, é comum ser visto em vários lugares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Rota 1 e outras rotas",
+		local: "Rotas 1, 2, 3 e outras; e Mansão Pokémon",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/aa/0019Rattata.png/375px-0019Rattata.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
@@ -314,7 +314,7 @@ const primeiraGeracao = [
 			"Usa seus bigodes para manter o equilíbrio. Aparentemente fica mais lento quando são cortados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Rota 16 e outras rotas",
+		local: "Rotas 9, 10, 11 e outras; Mansão Pokémon e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0020Raticate.png/375px-0020Raticate.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
@@ -330,7 +330,7 @@ const primeiraGeracao = [
 			"Come insetos em áreas gramadas. Tem que bater suas curtas asas em alta velocidade para se manter no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
 		lendario: false,
-		local: "Rota 3 e outras rotas",
+		local: "Rotas 3, 4, 9 e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0021Spearow.png/375px-0021Spearow.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)",
@@ -346,7 +346,7 @@ const primeiraGeracao = [
 			"Com suas imensas e magnificas asas, consegue permanecer no ar sem pousar para descansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bico",
 		lendario: false,
-		local: "Rotas 17, 18 e 23",
+		local: "Rotas 9, 16, 17 e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/92/0022Fearow.png/375px-0022Fearow.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)",
@@ -362,7 +362,7 @@ const primeiraGeracao = [
 			"Move-se de maneira silenciosa e furtiva. Come ovos de pássaros, como Pidgey e Spearow.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente",
 		lendario: false,
-		local: "Rota 3 e outras rotas",
+		local: "Rotas 4, 8, 9 e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/375px-0023Ekans.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)",
@@ -391,7 +391,7 @@ const primeiraGeracao = [
 		altura: 0.4, // em metros
 		estatistica: [35, 55, 30, 50, 40, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Quando vários Pokémon dessa espécie se unem, sua eletricidade poderia aumentar e causar tempestades elétricas.", // considerando a dex da primeira geração que apareceu
+			"Quando vários Pokémon dessa espécie se reúnem, sua eletricidade poderia aumentar e causar tempestades elétricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
 		local: "Floresta de Viridiana e Usina Elétrica Abandonada",
@@ -410,7 +410,7 @@ const primeiraGeracao = [
 			"Sua longa cauda serve como um fio-terra que o protege de sua própria potência elétrica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Caverna de Cerulean e Usina Elétrica Abadona",
+		local: "Usina Elétrica Abadona e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0026Raichu.png/375px-0026Raichu.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
@@ -426,7 +426,7 @@ const primeiraGeracao = [
 			"Escava profundamente na terra em lugares áridos e distantes de água. Só sai para caçar comida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		lendario: false,
-		local: "Rota 4 e outras rotas",
+		local: "Rotas 3, 4, 8 e outras; e Monte da Lua",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e9/0027Sandshrew.png/375px-0027Sandshrew.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
@@ -455,10 +455,10 @@ const primeiraGeracao = [
 		altura: 0.4, // em metros
 		estatistica: [55, 47, 52, 40, 40, 41], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Apesar de pequenas, seus espinhos venenosos tornam este Pokémon perigoso.", // considerando a dex da primeira geração que apareceu
+			"Apesar de pequenos, seus espinhos venenosos tornam este Pokémon perigoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Rota 22 e Zona Safari",
+		local: "Rotas 2, 9, 10 e outra; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b2/0029Nidoran.png/375px-0029Nidoran.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%80_(Pok%C3%A9mon)",
@@ -474,7 +474,7 @@ const primeiraGeracao = [
 			"O chifre da fêmea desenvolve devagar. Prefere ataques físicos como mordida e patadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Zona Safari",
+		local: "Rotas 9 e 23; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/ea/0030Nidorina.png/375px-0030Nidorina.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorina_(Pok%C3%A9mon)",
@@ -506,7 +506,7 @@ const primeiraGeracao = [
 			"Enrijece suas orelhas para sentir perigo. Quanto maior seus chifres, mais poderoso é seu veneno secretado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Rota 22 e Zona Safari",
+		local: "Rotas 2, 9, 10 e outra; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/8c/0032Nidoran.png/375px-0032Nidoran.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%82_(Pok%C3%A9mon)",
@@ -522,7 +522,7 @@ const primeiraGeracao = [
 			"Um Pokémon agressivo que é rápido para atacar. O chifre em sua cabeça secreta um poderoso veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		lendario: false,
-		local: "Zona Safari",
+		local: "Rotas 9 e 23; e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/1/1e/0033Nidorino.png/375px-0033Nidorino.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorino_(Pok%C3%A9mon)",
@@ -535,7 +535,7 @@ const primeiraGeracao = [
 		altura: 1.4, // em metros
 		estatistica: [81, 92, 77, 85, 75, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Usa sua poderosa cauda para esmagar, imobilizar, e então quebrar os ossos de sua presa.", // considerando a dex da primeira geração que apareceu
+			"Usa sua poderosa cauda para golpear, imobilizar, e então quebrar os ossos de sua presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
 		lendario: false,
 		local: "Por evolução",
@@ -551,10 +551,10 @@ const primeiraGeracao = [
 		altura: 0.6, // em metros
 		estatistica: [70, 45, 48, 60, 65, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Seu apelo mágico e fofo possui muitos admiradores. É raro e encontrado somente em certas áreas.", // considerando a dex da primeira geração que apareceu
+			"Sua aparência mágica e fofa possui muitos admiradores. É raro e encontrado somente em certas áreas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
 		lendario: false,
-		local: "Monte Lua",
+		local: "Monte da Lua e Caverna de Cerulean",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0035Clefairy.png/375px-0035Clefairy.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)",
@@ -650,7 +650,7 @@ const primeiraGeracao = [
 			"Forma colônias em lugares escuros. Usa ondas ultrassônicas para identificar e se aproximar de alvos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
 		lendario: false,
-		local: "Monte Lua, Túnel de Rocha, Ilhas Espuma e Estrada da Vitória",
+		local: "Monte da Lua, Túnel de Rocha, Ilhas Espuma e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0041Zubat.png/375px-0041Zubat.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zubat_(Pok%C3%A9mon)",
@@ -730,7 +730,7 @@ const primeiraGeracao = [
 			"Escava para se alimentar de raízes. Os cogumelos em suas costas crescem extraindo nutrientes do hospedeiro inseto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
 		lendario: false,
-		local: "Monte Lua e Zona Safari",
+		local: "Monte da Lua e Zona Safari",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/8/8a/0046Paras.png/375px-0046Paras.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)",
@@ -1177,7 +1177,7 @@ const primeiraGeracao = [
 			"Encontrado em campos e montanhas. Pessoas, por confundi-los com pedras, pisam ou tropeçam neles.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
 		lendario: false,
-		local: "Monte Lua, Túnel de Rocha e Estrada da Vitória",
+		local: "Monte da Lua, Túnel de Rocha e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0074Geodude.png/375px-0074Geodude.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
@@ -2416,9 +2416,6 @@ const primeiraGeracao = [
 			"https://archives.bulbagarden.net/media/upload/thumb/9/9a/0151Mew.png/375px-0151Mew.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)",
 	},
-];
-
-const segundaGeracao = [
 	{
 		nome: "Chikorita",
 		numero: 152, // considerando a national dex
@@ -2562,6 +2559,1322 @@ const segundaGeracao = [
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/2/29/0160Feraligatr.png/375px-0160Feraligatr.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Sentret",
+		numero: 161, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 6.0, // em kg
+		altura: 0.8, // em metros
+		estatistica: [35, 46, 34, 35, 45, 20], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Um Pokémon muito precativo, se levanta usando sua cauda para conseguir uma melhor visão de seus arredores.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escoteiro",
+		lendario: false,
+		local: "Rotas 1, 29 e 43",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/34/0161Sentret.png/375px-0161Sentret.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Sentret_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Furret",
+		numero: 162, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 32.5, // em kg
+		altura: 1.8, // em metros
+		estatistica: [85, 76, 64, 45, 55, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Constrói um ninho para caber seu corpo longo e esguio. O ninho é impossível de se entrar para outros Pokémon entrarem.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Corpo-longo",
+		lendario: false,
+		local: "Rotas 1 e 43",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/0162Furret.png/375px-0162Furret.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Furret_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Hoothoot",
+		numero: 163, // considerando a national dex
+		tipo: ["Normal", "Voador"],
+		massa: 21.2, // em kg
+		altura: 0.7, // em metros
+		estatistica: [60, 30, 30, 36, 56, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sempre fica em um pé só. Muda de pé tão rápido, o movimento raramente é visto.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Coruja",
+		lendario: false,
+		local:
+			"Rotas 1 e outras rotas; Parque National; Floresta de Ilex e Lago da Fúria",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0163Hoothoot.png/375px-0163Hoothoot.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Noctowl",
+		numero: 164, // considerando a national dex
+		tipo: ["Normal", "Voador"],
+		massa: 40.8, // em kg
+		altura: 1.6, // em metros
+		estatistica: [100, 50, 50, 76, 96, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Seus olhos são especialmente adaptados. Concentram mesmo até mesmo a luz fraca e permitem que veja no escuro.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Coruja",
+		lendario: false,
+		local: "Rotas 2 e outras rotas; e Floresta de Ilex",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/14/0164Noctowl.png/375px-0164Noctowl.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Noctowl_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ledyba",
+		numero: 165, // considerando a national dex
+		tipo: ["Inseto", "Voador"],
+		massa: 10.8, // em kg
+		altura: 1.0, // em metros
+		estatistica: [40, 20, 30, 40, 80, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"É muito tímido. Tem medo de se mover caso esteja sozinho. Mas será ativo caso esteja em grupo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Cinco Estrelas",
+		lendario: false,
+		local: "Rotas 2 e outras rotas; Parque National",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0165Ledyba.png/375px-0165Ledyba.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Ledyba_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ledian",
+		numero: 166, // considerando a national dex
+		tipo: ["Inseto", "Voador"],
+		massa: 35.6, // em kg
+		altura: 1.4, // em metros
+		estatistica: [55, 35, 50, 55, 110, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Quando as estrelas piscam no céu noturno, esvoaça e espalha um pó brilhante.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Cinco Estrelas",
+		lendario: false,
+		local: "Rotas 2 e 37",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/4/4f/0166Ledian.png/375px-0166Ledian.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Ledian_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Spinarak",
+		numero: 167, // considerando a national dex
+		tipo: ["Inseto", "Veneno"],
+		massa: 8.5, // em kg
+		altura: 0.5, // em metros
+		estatistica: [40, 60, 40, 40, 40, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Permanece parado na mesma pose por dias em sua teia, esperando que sua presa desavisada se aproxime.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fio de Saliva",
+		lendario: false,
+		local: "Rotas 2, 30, 31 e outras rotas; Parque National",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/0167Spinarak.png/375px-0167Spinarak.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Spinarak_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ariados",
+		numero: 168, // considerando a national dex
+		tipo: ["Inseto", "Veneno"],
+		massa: 33.5, // em kg
+		altura: 1.1, // em metros
+		estatistica: [70, 90, 70, 60, 60, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Tece seus fios não apenas por trás, mas também pela boca. É difícil dizer qual parte é qual.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Perna-longa",
+		lendario: false,
+		local: "Rotas 2 e 37",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0168Ariados.png/375px-0168Ariados.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Ariados_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Crobat",
+		numero: 169, // considerando a national dex
+		tipo: ["Veneno", "Voador"],
+		massa: 75.0, // em kg
+		altura: 1.8, // em metros
+		estatistica: [85, 90, 80, 70, 80, 130], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Seu vôo na escuridão é tão silencioso que pode não ser notado mesmo quando está próximo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Morcego",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/35/0169Crobat.png/375px-0169Crobat.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Crobat_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Chinchou",
+		numero: 170, // considerando a national dex
+		tipo: ["Água", "Elétrico"],
+		massa: 12.0, // em kg
+		altura: 0.5, // em metros
+		estatistica: [75, 38, 38, 56, 56, 67], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Na escuridão do chão oceânico, sua única maneira de comunicação é piscar suas luzes constantemente.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pescador",
+		lendario: false,
+		local: "Rotas 20, 21,26 e outras rotas",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/ca/0170Chinchou.png/375px-0170Chinchou.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Chinchou_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Lanturn",
+		numero: 171, // considerando a national dex
+		tipo: ["Água", "Elétrico"],
+		massa: 22.5, // em kg
+		altura: 1.2, // em metros
+		estatistica: [125, 58, 58, 76, 76, 67], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"A luz que emite é tão brilhante que consegue iluminar a superfície do mar de uma profundidade maior que cinco quilômetros.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Luz",
+		lendario: false,
+		local: "Rotas 20, 21, 26 e outras rotas",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0171Lanturn.png/375px-0171Lanturn.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Lanturn_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Pichu",
+		numero: 172, // considerando a national dex
+		tipo: ["Elétrico"],
+		massa: 2.0, // em kg
+		altura: 0.3, // em metros
+		estatistica: [20, 40, 15, 35, 35, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Ainda não é capaz de armazenar eletricidade. Consegue soltar uma faísca se for assustado ou divertido.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Ratinho",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f3/0172Pichu.png/375px-0172Pichu.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Pichu_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Cleffa",
+		numero: 173, // considerando a national dex
+		tipo: ["Fada"],
+		massa: 3.0, // em kg
+		altura: 0.3, // em metros
+		estatistica: [50, 25, 28, 45, 55, 15], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Por sua silhueta incomum, semelhante a uma estrela, pessoas acreditam que veio de um meteoro.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Forma Estrelada",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/73/0173Cleffa.png/375px-0173Cleffa.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Cleffa_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Igglybuff",
+		numero: 174, // considerando a national dex
+		tipo: ["Normal", "Fada"],
+		massa: 1.0, // em kg
+		altura: 0.3, // em metros
+		estatistica: [90, 30, 15, 40, 20, 15], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Tem um corpo macio. Quando começa a rola, irá saltar por toda parte e será impossível parar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Balão",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/06/0174Igglybuff.png/375px-0174Igglybuff.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Togepi",
+		numero: 175, // considerando a national dex
+		tipo: ["Normal", "Fada"],
+		massa: 1.5, // em kg
+		altura: 0.3, // em metros
+		estatistica: [35, 20, 65, 40, 65, 20], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"A casca aparenta estar cheia de alegria. É dito que compartilhará boa sorte quando tratado com gentileza.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bola de Espinhos",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/01/0175Togepi.png/375px-0175Togepi.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Togepi_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Togetic",
+		numero: 176, // considerando a national dex
+		tipo: ["Fada", "Voador"],
+		massa: 3.2, // em kg
+		altura: 0.6, // em metros
+		estatistica: [55, 40, 85, 80, 105, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"É dito que irá aparecer diante de pessoas carinhosas, de bom coração e as cobrirá de felicidade.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Felicidade",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/3b/0176Togetic.png/375px-0176Togetic.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Togetic_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Natu",
+		numero: 177, // considerando a national dex
+		tipo: ["Psíquico", "Voador"],
+		massa: 2.0, // em kg
+		altura: 0.2, // em metros
+		estatistica: [40, 50, 45, 70, 45, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Por suas asas não estarem completamente crescidas, tem que pular para se locomover. Sempre está encarando algo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Passarinho",
+		lendario: false,
+		local: "Ruínas de Alfa",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/71/0177Natu.png/375px-0177Natu.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Natu_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Xatu",
+		numero: 178, // considerando a national dex
+		tipo: ["Psíquico", "Voador"],
+		massa: 15.0, // em kg
+		altura: 1.5, // em metros
+		estatistica: [65, 75, 70, 95, 70, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"É dito que permanece parado e quieto por ver o passado e o futuro ao mesmo tempo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Místico",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c3/0178Xatu.png/375px-0178Xatu.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Xatu_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mareep",
+		numero: 179, // considerando a national dex
+		tipo: ["Psíquico", "Voador"],
+		massa: 7.8, // em kg
+		altura: 0.6, // em metros
+		estatistica: [55, 40, 40, 65, 45, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Caso a eletricidade estática acumula em seu corpo, seu velo dobra de volume. Tocá-lo causa um choque elétrico em quem tocou.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lã",
+		lendario: false,
+		local: "Rotas 32, 42 e 43",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0179Mareep.png/375px-0179Mareep.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mareep_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Flaaffy",
+		numero: 180, // considerando a national dex
+		tipo: ["Elétrico"],
+		massa: 13.3, // em kg
+		altura: 0.8, // em metros
+		estatistica: [70, 55, 55, 80, 60, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Como resultado de armazena muita eletricidade, desenvolveu manchas onde nem mesmo a lã felpuda cresce.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lã",
+		lendario: false,
+		local: "Rotas 42 e 43",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0180Flaaffy.png/375px-0180Flaaffy.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Flaaffy_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ampharos",
+		numero: 181, // considerando a national dex
+		tipo: ["Elétrico"],
+		massa: 61.5, // em kg
+		altura: 1.4, // em metros
+		estatistica: [90, 75, 75, 115, 90, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"A ponta de sua cauda brilha intensamente e pode ser ser vista de longe. Atua como um farol para pessoas perdidas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Luz",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c2/0181Ampharos.png/375px-0181Ampharos.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Ampharos_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Bellossom",
+		numero: 182, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 5.8, // em kg
+		altura: 0.4, // em metros
+		estatistica: [75, 80, 85, 90, 100, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Abundante nos trópicos. Quando dança, suas pétalas se esfregam e emitem um som agradável de toque.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Flor",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/51/0182Bellossom.png/375px-0182Bellossom.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Bellossom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Marill",
+		numero: 183, // considerando a national dex
+		tipo: ["Água", "Fada"],
+		massa: 8.5, // em kg
+		altura: 0.4, // em metros
+		estatistica: [70, 20, 50, 20, 50, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"A ponta de sua cauda, que contém óleo mais leve que água, o permite nadar sem se afogar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Rato de Água",
+		lendario: false,
+		local: "Rota 42 e Monte Mortar",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/8/8e/0183Marill.png/375px-0183Marill.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Marill_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Azumarill",
+		numero: 184, // considerando a national dex
+		tipo: ["Água", "Fada"],
+		massa: 28.5, // em kg
+		altura: 0.8, // em metros
+		estatistica: [100, 50, 80, 50, 80, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Quando está quieto e ouvindo atentamente, consegue dizer o que está em rios turbulentos e rápidos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Coelho de Água",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0184Azumarill.png/375px-0184Azumarill.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Azumarill_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Sudowoodo",
+		numero: 185, // considerando a national dex
+		tipo: ["Rocha"],
+		massa: 38.0, // em kg
+		altura: 1.2, // em metros
+		estatistica: [70, 100, 115, 30, 65, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Apesar de sempre fingir ser uma árvore, sua composição aparenta se aproximar mais a de uma rocha do que a de uma árvore.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Imitação",
+		lendario: false,
+		local: "Rota 36",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/2f/0185Sudowoodo.png/375px-0185Sudowoodo.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Politoed",
+		numero: 186, // considerando a national dex
+		tipo: ["Água"],
+		massa: 33.9, // em kg
+		altura: 1.1, // em metros
+		estatistica: [90, 75, 75, 90, 100, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sempre que três ou mais deles se reúnem, cantam em alto volume e acaba soando como um grito.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Sapo",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/9/9b/0186Politoed.png/375px-0186Politoed.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Politoed_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Hoppip",
+		numero: 187, // considerando a national dex
+		tipo: ["Grama", "Voador"],
+		massa: 0.5, // em kg
+		altura: 0.4, // em metros
+		estatistica: [35, 35, 40, 35, 55, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Para evitar que seja levado pelo vento, se reúne em grupos. Gostam de brizas leves, no entanto.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Algodão",
+		lendario: false,
+		local: "Rotas 11, 13, 14 e outras rotas",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c9/0187Hoppip.png/375px-0187Hoppip.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Hoppip_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Skiploom",
+		numero: 188, // considerando a national dex
+		tipo: ["Grama", "Voador"],
+		massa: 1.0, // em kg
+		altura: 0.6, // em metros
+		estatistica: [55, 45, 50, 45, 65, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"A flor no topo de sua cabeça abre e fecha à medida que a temperatura aumenta ou diminui.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Algodão",
+		lendario: false,
+		local: "Rota 14",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0188Skiploom.png/375px-0188Skiploom.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Skiploom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Jumpluff",
+		numero: 189, // considerando a national dex
+		tipo: ["Grama", "Voador"],
+		massa: 3.0, // em kg
+		altura: 0.8, // em metros
+		estatistica: [90, 75, 75, 90, 100, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Uma vez que pega o vento, habilmente controla seus esporos de algodão para flutuar, mesmo ao redor do mundo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Algodão",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/6/64/0189Jumpluff.png/375px-0189Jumpluff.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Jumpluff_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Aipom",
+		numero: 190, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 11.5, // em kg
+		altura: 0.8, // em metros
+		estatistica: [55, 70, 55, 40, 55, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sua cauda é tão poderosa que consegue usá-la para agarrar um galho de árvore e se manter no ar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Cauda Longa",
+		lendario: false,
+		local: "Rotas 29, 30, 31 e outras rotas",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0190Aipom.png/375px-0190Aipom.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Aipom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Sunkern",
+		numero: 191, // considerando a national dex
+		tipo: ["Grama"],
+		massa: 1.8, // em kg
+		altura: 0.3, // em metros
+		estatistica: [30, 30, 30, 30, 30, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Pode cair do céu repentinamente. Quando atacado por um Spearow, balança violentamente suas folhas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Semente",
+		lendario: false,
+		local: "Rota 24 e Parque Nacional",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0191Sunkern.png/375px-0191Sunkern.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Sunkern_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Sunflora",
+		numero: 192, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 8.5, // em kg
+		altura: 0.8, // em metros
+		estatistica: [75, 75, 55, 105, 85, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Converte luz solar em energia. Na escuridão depois do por-do-sol, fecha suas pétalas e permanece parado.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Sol",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0192Sunflora.png/375px-0192Sunflora.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Sunflora_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Yanma",
+		numero: 193, // considerando a national dex
+		tipo: ["Inseto", "Voador"],
+		massa: 38.0, // em kg
+		altura: 1.2, // em metros
+		estatistica: [65, 65, 45, 75, 45, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Quando bate suas asas muito rápido, consegue gerar ondas de choque que quebrarão janelas próximas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Asa Clara",
+		lendario: false,
+		local: "Rota 35",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0193Yanma.png/375px-0193Yanma.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Yanma_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Wooper",
+		numero: 194, // considerando a national dex
+		tipo: ["Água", "Terra"],
+		massa: 8.5, // em kg
+		altura: 0.4, // em metros
+		estatistica: [55, 45, 45, 25, 25, 15], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Este Pokémon vive em água fria. Deixa a água para procurar comida quando fica frio do lado de fora.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Peixe de Água",
+		lendario: false,
+		local: "Rota 32; Ruínas de Alfa e Caverna da União",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0194Wooper.png/375px-0194Wooper.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Quagsire",
+		numero: 195, // considerando a national dex
+		tipo: ["Água", "Terra"],
+		massa: 75.0, // em kg
+		altura: 1.4, // em metros
+		estatistica: [95, 85, 85, 65, 65, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Este Pokémon despreocupado tem uma natureza descontraída. Enquanto nada, sempre esbarra nos cascos dos barcos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Peixe de Água",
+		lendario: false,
+		local:
+			"Rota 10, 13, 14 e outras rotas; Caverna do Monte Prata; Ruínas de Alfa e Caverna da União",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/01/0195Quagsire.png/375px-0195Quagsire.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Quagsire_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Espeon",
+		numero: 196, // considerando a national dex
+		tipo: ["Psíquico"],
+		massa: 26.5, // em kg
+		altura: 0.9, // em metros
+		estatistica: [65, 65, 60, 130, 95, 110], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Usa o fino cabelo que cobre seu corpo para sentir correntes de ar e prever as ações de seu oponente.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Sol",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0196Espeon.png/375px-0196Espeon.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Umbreon",
+		numero: 197, // considerando a national dex
+		tipo: ["Noturno"],
+		massa: 27.0, // em kg
+		altura: 1.0, // em metros
+		estatistica: [95, 65, 110, 60, 130, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Quando a escuridão cai, os anéis em seu corpo começam a brilhar, causando medo no coração de qualquer um próximo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Luar",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/e1/0197Umbreon.png/375px-0197Umbreon.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Murkrow",
+		numero: 198, // considerando a national dex
+		tipo: ["Noturno", "Voador"],
+		massa: 2.1, // em kg
+		altura: 0.5, // em metros
+		estatistica: [60, 85, 42, 85, 42, 91], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Temido e odiado por muitos, acredita-se que traga infortúnio a todos aqueles que o veem à noite.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escuridão",
+		lendario: false,
+		local: "Rotas 7 e 16",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/e7/0198Murkrow.png/375px-0198Murkrow.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Slowking",
+		numero: 199, // considerando a national dex
+		tipo: ["Água", "Psíquico"],
+		massa: 79.5, // em kg
+		altura: 2.0, // em metros
+		estatistica: [95, 75, 80, 100, 110, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Possui inteligência e intuição incríveis. Seja qual for a situação, permanece calmo e controlado.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Real",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0199Slowking.png/375px-0199Slowking.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Misdreavus",
+		numero: 200, // considerando a national dex
+		tipo: ["Fantasma"],
+		massa: 1.0, // em kg
+		altura: 0.7, // em metros
+		estatistica: [60, 60, 60, 85, 85, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Gosta de aplicar trotes travessos, como gritar e lamentar para assustar as pessoas à noite.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pio",
+		lendario: false,
+		local: "Caverna do Monte Prata",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/0200Misdreavus.png/375px-0200Misdreavus.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Misdreavus_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Unown",
+		numero: 201, // considerando a national dex
+		tipo: ["Psíquico"],
+		massa: 5.0, // em kg
+		altura: 0.5, // em metros
+		estatistica: [48, 72, 48, 72, 48, 48], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Seu corpo plano e fino está sempre preso em paredes. Seu formato aparenta ter algum significado.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Símbolo",
+		lendario: false,
+		local: "Dentro das Ruínas de Alfa",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/b/b4/0201Unown.png/375px-0201Unown.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Wobboffet",
+		numero: 202, // considerando a national dex
+		tipo: ["Psíquico"],
+		massa: 28.5, // em kg
+		altura: 1.3, // em metros
+		estatistica: [190, 33, 58, 33, 58, 33], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Odeia luz e choque. Quando atacado, infla seu corpo para aumentar seu contra-ataque.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Paciente",
+		lendario: false,
+		local: "Caverna Escura",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/7d/0202Wobbuffet.png/375px-0202Wobbuffet.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Girafarig",
+		numero: 203, // considerando a national dex
+		tipo: ["Normal", "Psíquico"],
+		massa: 41.5, // em kg
+		altura: 1.5, // em metros
+		estatistica: [70, 80, 65, 90, 65, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sua cauda possui um pequeno cérebro próprio. Caso alguém se aproxime, pode reagir ao cheiro e morder.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pescoço Longo",
+		lendario: false,
+		local: "Rota 43",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/6/65/0203Girafarig.png/375px-0203Girafarig.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Pineco",
+		numero: 204, // considerando a national dex
+		tipo: ["Inseto"],
+		massa: 7.2, // em kg
+		altura: 0.6, // em metros
+		estatistica: [50, 65, 90, 35, 35, 15], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Gosta de fazer sua casca mais espessa adicionando camadas de casca de árvores. O peso adicional não lhe incomoda.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bicho-de-cesto",
+		lendario: false,
+		local: "Rotas 26, 27, 34 e outras rotas; Floresta de Ilex e Lago da Fúria",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/7a/0204Pineco.png/375px-0204Pineco.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Pineco_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Forretress",
+		numero: 205, // considerando a national dex
+		tipo: ["Inseto", "Metal"],
+		massa: 125.8, // em kg
+		altura: 1.2, // em metros
+		estatistica: [75, 90, 140, 60, 60, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Seu corpo inteiro é protegido por uma concha tão dura quanto aço. O que se esconde dentro da armadura é um total mistério.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bicho-de-cesto",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/4/45/0205Forretress.png/375px-0205Forretress.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Forretress_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dunsparce",
+		numero: 206, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 14.0, // em kg
+		altura: 1.5, // em metros
+		estatistica: [100, 70, 70, 65, 65, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Quando avistado, este Pokémon escapa para trás perfurando furiosamente o chão com sua cauda.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Serpente de Terra",
+		lendario: false,
+		local: "Caverna Escura",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0206Dunsparce.png/375px-0206Dunsparce.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Dunsparce_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Gligar",
+		numero: 207, // considerando a national dex
+		tipo: ["Terra", "Voador"],
+		massa: 64.8, // em kg
+		altura: 1.1, // em metros
+		estatistica: [65, 75, 105, 35, 65, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Voa direto ao rosto do alvo e depois agarra a vítima assustada para injetar veneno.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escorpião Voador",
+		lendario: false,
+		local: "Rota 45",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/4/49/0207Gligar.png/375px-0207Gligar.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Gligar_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Steelix",
+		numero: 208, // considerando a national dex
+		tipo: ["Metal", "Terra"],
+		massa: 400.0, // em kg
+		altura: 9.2, // em metros
+		estatistica: [75, 85, 200, 55, 65, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Seu corpo tem sido comprimido profundamente sob o solo. Como resultado, é mais duro do que um diamante.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Serpente de Ferro",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/2a/0208Steelix.png/375px-0208Steelix.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Snubbull",
+		numero: 209, // considerando a national dex
+		tipo: ["Fada"],
+		massa: 7.8, // em kg
+		altura: 0.6, // em metros
+		estatistica: [60, 80, 50, 40, 40, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Apesar de parecer assustador, é, na verdade, bondoso e afetuoso. É muito popular entre mulheres.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fada",
+		lendario: false,
+		local: "Rota 5, 6, 7 e outras rotas",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/2/24/0209Snubbull.png/375px-0209Snubbull.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Snubbull_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Granbull",
+		numero: 210, // considerando a national dex
+		tipo: ["Fada"],
+		massa: 48.7, // em kg
+		altura: 1.4, // em metros
+		estatistica: [90, 120, 75, 60, 60, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Na verdade, é tímido e facilmente assustado. Quando atacado, se agita para afastar seu agressor.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fada",
+		lendario: false,
+		local: "Rota 6",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0210Granbull.png/375px-0210Granbull.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Granbull_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Qwilfish",
+		numero: 211, // considerando a national dex
+		tipo: ["Água", "Veneno"],
+		massa: 3.9, // em kg
+		altura: 0.5, // em metros
+		estatistica: [65, 95, 75, 55, 55, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Para disparar seus espinhos venenosos, deve inflar seu corpo bebendo mais de 10 litros de água de uma vez.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Balão",
+		lendario: false,
+		local: "Rotas 12, 13 e 32",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0211Qwilfish.png/375px-0211Qwilfish.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Scizor",
+		numero: 212, // considerando a national dex
+		tipo: ["Inseto", "Metal"],
+		massa: 118.0, // em kg
+		altura: 1.8, // em metros
+		estatistica: [70, 130, 100, 55, 80, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Balança suas pinças com padrão de olho para assustar seus inimigos. Isso faz com que pareça que tenha três cabeças.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pinça",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/39/0212Scizor.png/375px-0212Scizor.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Shuckle",
+		numero: 213, // considerando a national dex
+		tipo: ["Inseto", "Rocha"],
+		massa: 20.5, // em kg
+		altura: 0.6, // em metros
+		estatistica: [20, 10, 230, 10, 230, 5], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"As frutas que armazena em sua concha semelhante a um caso, se decompõem e se tornam um líquido pegajoso.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Mofo",
+		lendario: false,
+		local: "Rota 40 e Caverna Escura",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/59/0213Shuckle.png/375px-0213Shuckle.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Heracross",
+		numero: 214, // considerando a national dex
+		tipo: ["Inseto", "Lutador"],
+		massa: 54.0, // em kg
+		altura: 1.5, // em metros
+		estatistica: [80, 125, 75, 40, 95, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Este poderoso Pokémon empurra seu chifre premiado sob a barriga de seus inimigos, depois os levanta e os joga.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Unicórnio",
+		lendario: false,
+		local: "Rotas 29, 30, 31 e outras rotas",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/75/0214Heracross.png/375px-0214Heracross.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Sneasel",
+		numero: 215, // considerando a national dex
+		tipo: ["Noturno", "Gelo"],
+		massa: 28.0, // em kg
+		altura: 0.9, // em metros
+		estatistica: [55, 95, 55, 35, 75, 115], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Suas patas escondem garras afiadas. Se atacado, de repente estende as garras e assusta seu inimigo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Garra Afiada",
+		lendario: false,
+		local: "Rota 28; Monte Prata e Caminho Gelado",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/d/d4/0215Sneasel.png/375px-0215Sneasel.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Teddiursa",
+		numero: 216, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 8.8, // em kg
+		altura: 0.6, // em metros
+		estatistica: [60, 80, 50, 50, 50, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Caso encontre mel, sua marca crescente brilha. Sempre lambe suas patas por sempre estarem encharcadas com mel.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Ursinho",
+		lendario: false,
+		local: "Rota 45 e Caverna Escura",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/11/0216Teddiursa.png/375px-0216Teddiursa.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ursaring",
+		numero: 217, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 125.8, // em kg
+		altura: 1.8, // em metros
+		estatistica: [90, 130, 75, 75, 75, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Apesar de ser um bom escalador, prefere quebrar árvores com suas patas dianteiras e comer Frutas caídas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Hibernador",
+		lendario: false,
+		local:
+			"Rota 28; Caverna Escura; Estrada da Vitória; Monte Prata e Caverna do Monte Prata",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/d/d7/0217Ursaring.png/375px-0217Ursaring.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Ursaring_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Slugma",
+		numero: 218, // considerando a national dex
+		tipo: ["Fogo"],
+		massa: 35.0, // em kg
+		altura: 0.7, // em metros
+		estatistica: [40, 40, 40, 70, 40, 20], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Nunca dorme. Tem que continuar em movimento porque, se parar, seu corpo de magma esfriaria e endureceria.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lava",
+		lendario: false,
+		local: "Rota 16, 17 e 18",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0218Slugma.png/375px-0218Slugma.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Magcargo",
+		numero: 219, // considerando a national dex
+		tipo: ["Fogo", "Rocha"],
+		massa: 55.0, // em kg
+		altura: 0.8, // em metros
+		estatistica: [50, 50, 120, 80, 80, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"A concha em suas costas é apenas pele que esfriou e endureceu. Quebra facilmente com um leve toque.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lava",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0219Magcargo.png/375px-0219Magcargo.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Swinub",
+		numero: 220, // considerando a national dex
+		tipo: ["Gelo", "Terra"],
+		massa: 6.5, // em kg
+		altura: 0.4, // em metros
+		estatistica: [50, 50, 40, 30, 30, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Esfrega o focinho no chão para encontrar e desenterrar comida. Às vezes, descobre fonte termal.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Porco",
+		lendario: false,
+		local: "Caminho Gelado",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0220Swinub.png/375px-0220Swinub.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Swinub_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Piloswine",
+		numero: 221, // considerando a national dex
+		tipo: ["Gelo", "Terra"],
+		massa: 55.8, // em kg
+		altura: 1.1, // em metros
+		estatistica: [100, 100, 80, 60, 60, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Por causa de seu longo pelo por todo corpo obscurecer sua visão, continua investindo repetidamente.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Suíno",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/3/3e/0221Piloswine.png/375px-0221Piloswine.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Piloswine_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Corsola",
+		numero: 222, // considerando a national dex
+		tipo: ["Água", "Rocha"],
+		massa: 5.0, // em kg
+		altura: 0.6, // em metros
+		estatistica: [55, 55, 85, 65, 85, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Muda de pele e cresce continuamente. A ponta de sua cabeça é valorizada como um tesouro por sua beleza.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Coral",
+		lendario: false,
+		local: "Rotas 19, 34, 40 e outras; Caverna da União",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0222Corsola.png/375px-0222Corsola.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Remoraid",
+		numero: 223, // considerando a national dex
+		tipo: ["Água"],
+		massa: 12.0, // em kg
+		altura: 0.6, // em metros
+		estatistica: [35, 65, 35, 65, 35, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Possui uma precisão soberba. A água que atira pode atingir até mesmo presa em movimento a mais de cem metros.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Jato",
+		lendario: false,
+		local: "Rota 44",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0223Remoraid.png/375px-0223Remoraid.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Remoraid_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Octillery",
+		numero: 224, // considerando a national dex
+		tipo: ["Água"],
+		massa: 28.5, // em kg
+		altura: 0.9, // em metros
+		estatistica: [75, 105, 75, 105, 75, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Prende seus inimigos com seus tentáculos com ventosas depois esmaga-os com sua cabeça dura como rocha.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Jato",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0224Octillery.png/375px-0224Octillery.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Octillery_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Delibird",
+		numero: 225, // considerando a national dex
+		tipo: ["Gelo", "Voador"],
+		massa: 16.0, // em kg
+		altura: 0.9, // em metros
+		estatistica: [45, 55, 45, 65, 45, 75], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Carrega comida o dia todo. Há contos sobre pessoas perdidas que foram salvas pela comida que tinha.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Entrega",
+		lendario: false,
+		local: "Caminho Gelo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0225Delibird.png/375px-0225Delibird.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mantine",
+		numero: 226, // considerando a national dex
+		tipo: ["Água", "Voador"],
+		massa: 220.0, // em kg
+		altura: 2.1, // em metros
+		estatistica: [65, 40, 70, 80, 140, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Enquanto nada livremente em mares abertos, pode voar fora da água e sobre as ondas se conseguir velocidade o suficiente.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pipa",
+		lendario: false,
+		local: "Rota 41",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/4/49/0226Mantine.png/375px-0226Mantine.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mantine_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Skarmory",
+		numero: 227, // considerando a national dex
+		tipo: ["Metal", "Voador"],
+		massa: 50.5, // em kg
+		altura: 1.7, // em metros
+		estatistica: [65, 80, 140, 40, 70, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Suas asas resistentes parecem pesadas, mas são ocas e leves, permitindo que voe livremente no céu.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pássaro com Armadura",
+		lendario: false,
+		local: "Rota 45",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/a/a9/0227Skarmory.png/375px-0227Skarmory.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Houndour",
+		numero: 228, // considerando a national dex
+		tipo: ["Noturno", "Fogo"],
+		massa: 10.8, // em kg
+		altura: 0.6, // em metros
+		estatistica: [45, 60, 30, 80, 50, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Usa diferentes tipos de sons para se comunicar com outros de sua espécie e perseguir sua presa.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escuro",
+		lendario: false,
+		local: "Rota 7",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0228Houndour.png/375px-0228Houndour.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Houndour_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Houndoom",
+		numero: 229, // considerando a national dex
+		tipo: ["Noturno", "Fogo"],
+		massa: 35.0, // em kg
+		altura: 1.4, // em metros
+		estatistica: [75, 90, 50, 110, 80, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Caso você seja queimado pelas chamas que este Pokémon lança pela boca, a dor nunca irá embora.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escuro",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/05/0229Houndoom.png/375px-0229Houndoom.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Kingdra",
+		numero: 230, // considerando a national dex
+		tipo: ["Água", "Dragão"],
+		massa: 152.0, // em kg
+		altura: 1.8, // em metros
+		estatistica: [75, 95, 95, 95, 95, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Dizem que este Pokémon se esconde em cavernas subaquáticas. Consegue criar redemoinhos ao bocejar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dragão",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/0230Kingdra.png/375px-0230Kingdra.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Kingdra_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Phanpy",
+		numero: 231, // considerando a national dex
+		tipo: ["Terra"],
+		massa: 33.5, // em kg
+		altura: 0.5, // em metros
+		estatistica: [90, 60, 60, 40, 40, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Balança seu longo focinho alegremente por aí, mas, por ser muito forte, isso pode ser perigoso.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Nariz Longo",
+		lendario: false,
+		local: "Rotas 45 e 46",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/1e/0231Phanpy.png/375px-0231Phanpy.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Phanpy_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dophan",
+		numero: 232, // considerando a national dex
+		tipo: ["Terra"],
+		massa: 120.0, // em kg
+		altura: 1.1, // em metros
+		estatistica: [90, 120, 120, 60, 60, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Possui presas duras, afiadas e um couro áspero. Sua Investida é forte o suficiente para derrubar uma casa.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Armadura",
+		lendario: false,
+		local:
+			"Rotas 28 e 45; Monte Prata; Caverna do Monte Prata e Estrada da Vitória",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/4/44/0232Donphan.png/375px-0232Donphan.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Donphan_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Porygon2",
+		numero: 233, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 32.5, // em kg
+		altura: 0.6, // em metros
+		estatistica: [85, 80, 90, 105, 95, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Pesquisas posteriores aperfeiçoaram suas habilidades. Algumas vezes, pode exibir movimentos que não foram programados.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Virtual",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/b/b8/0233Porygon2.png/375px-0233Porygon2.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon2_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Stantler",
+		numero: 234, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 71.2, // em kg
+		altura: 1.4, // em metros
+		estatistica: [73, 95, 62, 85, 65, 85], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Os chifres curvos mudam sutilmente o fluxo de ar para criar um espaço estranho onde a realidade é distorcida.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Chifrudo",
+		lendario: false,
+		local: "Rotas 36 e 37",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c4/0234Stantler.png/375px-0234Stantler.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Stantler_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Smeargle",
+		numero: 235, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 58.0, // em kg
+		altura: 1.2, // em metros
+		estatistica: [55, 20, 35, 20, 45, 75], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Uma vez que se torna adulto, tem a tendencia de deixar seus companheiros marcarem suas costas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pintor",
+		lendario: false,
+		local: "Ruínas de Alfa",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0235Smeargle.png/375px-0235Smeargle.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tyrogue",
+		numero: 236, // considerando a national dex
+		tipo: ["Lutador"],
+		massa: 21.0, // em kg
+		altura: 0.7, // em metros
+		estatistica: [35, 35, 35, 35, 35, 35], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sempre está explodindo de energia. Para se tornar mais forte, continua lutando mesmo se perder.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Briga",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/e/e5/0236Tyrogue.png/375px-0236Tyrogue.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tyrogue_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Hitmontop",
+		numero: 237, // considerando a national dex
+		tipo: ["Lutador"],
+		massa: 48.0, // em kg
+		altura: 1.4, // em metros
+		estatistica: [50, 95, 95, 35, 110, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Lança seus chutes enquanto gira. Se girar em alta velocidade, pode perfurar o chão.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Parada de Mão",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/1/13/0237Hitmontop.png/375px-0237Hitmontop.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmontop_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Smoochum",
+		numero: 238, // considerando a national dex
+		tipo: ["Gelo", "Psíquico"],
+		massa: 6.0, // em kg
+		altura: 0.4, // em metros
+		estatistica: [45, 30, 15, 85, 65, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Sempre balança a cabeça lentamente para frente e para trás como se estivesse tentando beijar alguém.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Beijo",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/c/c9/0238Smoochum.png/375px-0238Smoochum.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Smoochum_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Elekid",
+		numero: 239, // considerando a national dex
+		tipo: ["Elétrico"],
+		massa: 23.5, // em kg
+		altura: 0.6, // em metros
+		estatistica: [45, 63, 37, 65, 55, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Gira seus braços para gerar eletricidade, mas se cansa rapidamente, então carrega apenas um pouco.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Elétrico",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/9/93/0239Elekid.png/375px-0239Elekid.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Elekid_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Magby",
+		numero: 240, // considerando a national dex
+		tipo: ["Fogo"],
+		massa: 21.4, // em kg
+		altura: 0.7, // em metros
+		estatistica: [45, 75, 37, 70, 55, 83], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Cada e toda vez que inspira e expira, brasas quentes pingam de sua boca e narinas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Carvão Vivo",
+		lendario: false,
+		local: "Por ovo",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/0/00/0240Magby.png/375px-0240Magby.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Magby_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Miltank",
+		numero: 241, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 75.5, // em kg
+		altura: 1.2, // em metros
+		estatistica: [95, 80, 105, 40, 70, 100], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Seu leite é rico em nutrientes, tornando-o a bebida ideal para os doentes ou cansados.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Vaca Leiteira",
+		lendario: false,
+		local: "Rotas 38 e 39",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/d/d5/0241Miltank.png/375px-0241Miltank.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Miltank_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Blissey",
+		numero: 242, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 45.8, // em kg
+		altura: 1.5, // em metros
+		estatistica: [255, 10, 10, 75, 135, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Tem uma natureza compassiva. Caso veja um Pokémon doente, irá cuidar do indivíduo até que fique saudável.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Felicidade",
+		lendario: false,
+		local: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/5/54/0242Blissey.png/375px-0242Blissey.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Blissey_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Raikou",
@@ -2709,341 +4022,10 @@ const segundaGeracao = [
 	},
 ];
 
-const terceiraGeracao = [
-	{
-		nome: "Treecko",
-		numero: 252, // considerando a national dex
-		tipo: ["Planta"],
-		massa: 5.0, // em kg
-		altura: 0.5, // em metros
-		estatistica: [40, 45, 35, 65, 55, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Faz seu ninho em uma árvore gigante na floresta. Guarda-o ferozmente contra qualquer coisa que chegue perto de seu território. É dito ser o protetor das árvores das florestas.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Lagartixa de Madeira",
-		lendario: false,
-		local: "Rota 101",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/9/90/0252Treecko.png/375px-0252Treecko.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Treecko_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Grovyle",
-		numero: 253, // considerando a national dex
-		tipo: ["Planta"],
-		massa: 21.6, // em kg
-		altura: 0.9, // em metros
-		estatistica: [50, 65, 45, 85, 65, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"As folhas crescendo em seu corpo são convenientes para se camuflar de inimigos na floresta. É um mestre em escalar árvores na floresta.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Lagartixa de Madeira",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0253Grovyle.png/375px-0253Grovyle.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Grovyle_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Sceptile",
-		numero: 254, // considerando a national dex
-		tipo: ["Planta"],
-		massa: 52.2, // em kg
-		altura: 1.7, // em metros
-		estatistica: [70, 85, 65, 105, 85, 120], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"As folhas que crescem em seu corpo são muito afiadas. Sendo muito ágil consegue saltar pelos galhos das árvores e saltar em seu oponente por cima ou por trás.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Floresta",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0254Sceptile.png/375px-0254Sceptile.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Sceptile_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Torchic",
-		numero: 255, // considerando a national dex
-		tipo: ["Fogo"],
-		massa: 2.5, // em kg
-		altura: 0.4, // em metros
-		estatistica: [45, 60, 40, 70, 50, 45], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Possui um lugar dentro de seu corpo onde mantém suas chamas.É coberto por uma pelagem fofa de penugem.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Pintinho",
-		lendario: false,
-		local: "Rota 101",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7d/0255Torchic.png/375px-0255Torchic.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Combusken",
-		numero: 256, // considerando a national dex
-		tipo: ["Fogo", "Lutador"],
-		massa: 19.5, // em kg
-		altura: 0.9, // em metros
-		estatistica: [60, 85, 60, 85, 60, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Batalha com as chamas intensamente quentes que expele de seu bico e com chutes excepcionalmente destrutíveis. Seu grito é muito alto e perturbador.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Ave Jovem",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/7/78/0256Combusken.png/375px-0256Combusken.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Combusken_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Blaziken",
-		numero: 257, // considerando a national dex
-		tipo: ["Fogo", "Lutador"],
-		massa: 52.0, // em kg
-		altura: 1.9, // em metros
-		estatistica: [80, 120, 70, 110, 70, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Em batalha, sopra chamas intensas de seus punhos e ataca os oponentes corajosamente. Quanto mais forte o oponente, mais intensamente as chamas de seu punho queimam.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Labareda",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0257Blaziken.png/375px-0257Blaziken.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Blaziken_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Mudkip",
-		numero: 258, // considerando a national dex
-		tipo: ["Água"],
-		massa: 7.6, // em kg
-		altura: 0.4, // em metros
-		estatistica: [50, 70, 50, 50, 50, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"A barbatana em sua cabeça age como um radar altamente sensível. Usando essa barbatana para sentir os movimentos da água e do ar, consegue determinar o que está acontecendo ao seu redor sem usar os olhos.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Peixe de Lama",
-		lendario: false,
-		local: "Rota 101",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/2/26/0258Mudkip.png/375px-0258Mudkip.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Marshtomp",
-		numero: 259, // considerando a national dex
-		tipo: ["Água", "Terra"],
-		massa: 28.0, // em kg
-		altura: 0.7, // em metros
-		estatistica: [70, 85, 70, 60, 70, 55], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"É muito mais rápido na lama do que nadando. Seus membros inferiores exibem desenvolvimento óbvio, dando a habilidade de andar apenas com as patas traseiras.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Peixe de Lama",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0259Marshtomp.png/375px-0259Marshtomp.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Marshtomp_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Swampert",
-		numero: 260, // considerando a national dex
-		tipo: ["Água", "Terra"],
-		massa: 81.9, // em kg
-		altura: 1.5, // em metros
-		estatistica: [100, 110, 90, 85, 90, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"É tão forte que consegue arrastar facilmente uma rocha pesando mais de uma tonelada. Também possui uma ótima visão, podendo enxergar pela água turva.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Peixe de Lama",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/3/34/0260Swampert.png/375px-0260Swampert.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Deoxys",
-		numero: 386, // considerando a national dex
-		tipo: ["Psíquico"],
-		massa: 60.8, // em kg
-		altura: 1.7, // em metros
-		estatistica: [50, 150, 50, 150, 50, 150], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Um Pokémon que evoluiu de um vírus extraterrestre exposto a um rio laser.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon DNA",
-		lendario: true,
-		local: "Somente evento",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d7/0386Deoxys.png/375px-0386Deoxys.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
-	},
-];
+const nomesDisponiveis = pkmnDisponiveis.map((x) => x.nome);
 
-const quartaGeracao = [
-	{
-		nome: "Turtwig",
-		numero: 387, // considerando a national dex
-		tipo: ["Planta"],
-		massa: 10.2, // em kg
-		altura: 0.4, // em metros
-		estatistica: [55, 68, 64, 45, 55, 31], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Feito de solo, a carapaça nas suas costas endurece quando bebe água. Vive perto de lagos.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Folhinha",
-		lendario: false,
-		local: "Rota 201 ou Lago Verdade, dependendo da versão",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/6/68/0387Turtwig.png/375px-0387Turtwig.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Grotle",
-		numero: 388, // considerando a national dex
-		tipo: ["Planta"],
-		massa: 97.0, // em kg
-		altura: 1.1, // em metros
-		estatistica: [75, 89, 85, 55, 65, 36], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Vive próximo a água em florestas. Durante o dia, deixa a floresta para tomar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Bosque",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0388Grotle.png/375px-0388Grotle.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Torterra",
-		numero: 389, // considerando a national dex
-		tipo: ["Planta", "Terra"],
-		massa: 310.0, // em kg
-		altura: 2.2, // em metros
-		estatistica: [95, 109, 105, 75, 85, 56], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Ocasionalmente, pequenos Pokémon se reúnem em suas costas para construir seus ninhos.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Continente",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0389Torterra.png/375px-0389Torterra.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Chimchar",
-		numero: 390, // considerando a national dex
-		tipo: ["Fogo"],
-		massa: 6.2, // em kg
-		altura: 0.5, // em metros
-		estatistica: [44, 58, 44, 58, 44, 61], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"É muito ágil. Antes de dormir, extingue a chama de sua calda para prevenir incêndios.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chimpanzé",
-		lendario: false,
-		local: "Rota 201 ou Lago Verdade, dependendo da versão",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0390Chimchar.png/375px-0390Chimchar.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Monferno",
-		numero: 391, // considerando a national dex
-		tipo: ["Fogo", "Lutador"],
-		massa: 22.0, // em kg
-		altura: 0.9, // em metros
-		estatistica: [64, 78, 52, 78, 52, 81], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Para se defender, estica o fogo em sua calda para parecer ser maior.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Brincalhão",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/5/52/0391Monferno.png/375px-0391Monferno.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Monferno_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Infernape",
-		numero: 389, // considerando a national dex
-		tipo: ["Fogo", "Lutador"],
-		massa: 55.0, // em kg
-		altura: 1.2, // em metros
-		estatistica: [76, 104, 71, 104, 71, 108], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Usa um tipo especial de artes marciais envolvendo todos os seus membros. Seu fogo nunca se extingue.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chamas",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0392Infernape.png/375px-0392Infernape.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Piplup",
-		numero: 393, // considerando a national dex
-		tipo: ["Água"],
-		massa: 5.2, // em kg
-		altura: 0.4, // em metros
-		estatistica: [53, 51, 53, 61, 56, 40], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem grossa o protege do frio.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Pinguim",
-		lendario: false,
-		local: "Rota 201 ou Lago Verdade, dependendo da versão",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0393Piplup.png/375px-0393Piplup.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Prinplup",
-		numero: 388, // considerando a national dex
-		tipo: ["Água"],
-		massa: 23.0, // em kg
-		altura: 0.8, // em metros
-		estatistica: [64, 66, 68, 81, 76, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Vive sozinho, longe de outros. Aparentemente, todos de sua espécie acredita ser o mais importante.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Pinguim",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0394Prinplup.png/375px-0394Prinplup.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Empoleon",
-		numero: 395, // considerando a national dex
-		tipo: ["Água", "Metal"],
-		massa: 84.5, // em kg
-		altura: 1.7, // em metros
-		estatistica: [84, 86, 88, 111, 101, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"Nada tão rápido quanto uma lancha. As bordas de suas asas são afiadas e podem cortar blocos de gelo à deriva.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Imperador",
-		lendario: false,
-		local: "Por evolução",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0395Empoleon.png/375px-0395Empoleon.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Arceus",
-		numero: 493, // considerando a national dex
-		tipo: ["Normal"],
-		massa: 320.0, // em kg
-		altura: 3.2, // em metros
-		estatistica: [120, 120, 120, 120, 120, 120], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		descricao:
-			"É descrito na mitologia como o Pokémon que moldou o universo com seus 1'000 braços.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Alpha",
-		lendario: true,
-		local: "Salão da Origem",
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9e/0493Arceus.png/375px-0493Arceus.png",
-		link: "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
-	},
-];
+const primeiraGeracao = pkmnDisponiveis.filter((x) => x.numero <= 151);
+const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
 
-const todasGeracoes = [
-	primeiraGeracao,
-	segundaGeracao,
-	terceiraGeracao,
-	quartaGeracao,
-];
-// console.log(`Todas gerações: ${todasGeracoes}`);
-
-const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
-const nomesSegunda = segundaGeracao.map((x) => x.nome);
-const nomesTerceira = terceiraGeracao.map((x) => x.nome);
-const nomesQuarta = quartaGeracao.map((x) => x.nome);
+const segundaGeracao = pkmnDisponiveis.filter((x) => x.numero > 151);
+const numerosSegunda = segundaGeracao.map((X) => X.numero);
