@@ -94,8 +94,8 @@ function darPalpite() {
 	nomesGeral.classList.remove("nomesGeralShow");
 
 	const listaDiscas = [
-		escolhido[0].tipo,
-		escolhido[0].categoria,
+		`<b>Tipo(s):</b> ${escolhido[0].tipo}`,
+		`<b>Categoria:</b> ${escolhido[0].categoria}`,
 		`<b>Obtenção:</b> ${escolhido[0].local}`,
 		`<b>HP:</b>        ${escolhido[0].estatistica[0]}<br>
 		<b>Atq.:</b>       ${escolhido[0].estatistica[1]}<br>
@@ -103,8 +103,8 @@ function darPalpite() {
 		<b>Atq. Esp.:</b>  ${escolhido[0].estatistica[3]}<br>
 		<b>Def. Esp.:</b>  ${escolhido[0].estatistica[4]}<br>
 		<b>Vel.:</b>       ${escolhido[0].estatistica[5]}<br>`, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
-		escolhido[0].numero,
-		escolhido[0].descricao,
+		`<b>Descrição:</b> "${escolhido[0].descricao}"`,
+		`<b>Número:</b> ${escolhido[0].numero}`,
 		`<img src="${escolhido[0].sprite}" />`,
 	];
 
