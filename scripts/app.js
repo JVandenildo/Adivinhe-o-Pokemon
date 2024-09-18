@@ -7,6 +7,8 @@ const nomesGeral = document.querySelector(".nomesGeral");
 const opcoesNomes = document.querySelector(".opcoesNomes");
 const checkPrimeira = document.querySelector("#checkPrimeira");
 const checkSegunda = document.querySelector("#checkSegunda");
+// const checkTerceira = document.querySelector("#checkTerceira");
+// const checkQuarta = document.querySelector("#checkQuarta");
 
 let escolhido = {
 	nome: "MissingNo.",
@@ -37,7 +39,12 @@ let palpites = 0;
  * @returns Retorna um array contendo o objeto que será usado na nova sessão.
  */
 function novaTentativa() {
-	if (!checkPrimeira.checked && !checkSegunda.checked) {
+	if (
+		!checkPrimeira.checked &&
+		!checkSegunda.checked
+		// && !checkTerceira.checked
+		// && !checkQuarta.checked
+	) {
 		resetar();
 
 		return alert("Escolha alguma geração antes!");
@@ -48,6 +55,8 @@ function novaTentativa() {
 			Math.random(data) *
 				(checkPrimeira.checked * primeiraGeracao.length +
 					checkSegunda.checked * segundaGeracao.length)
+			//  + checkTerceira.checked * terceiraGeracao.length
+			// + checkQuarta.checked * quartaGeracao.length)
 		);
 
 		escolhido = pkmnDisponiveis.filter(
@@ -63,6 +72,8 @@ function novaTentativa() {
 			"beforeend",
 			`<p>${escolhido[0].massa} kg e ${escolhido[0].altura} m de altura</p>`
 		);
+
+		btnPalpite.addEventListener("click", darPalpite);
 
 		return escolhido;
 	}
@@ -81,6 +92,12 @@ function selecaoGeracao(numero) {
 	if (checkSegunda.checked) {
 		numerosSegunda.forEach((x) => numerosDisponiveis.push(x));
 	}
+	// if (checkTerceira.checked) {
+	// 	numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
+	// }
+	// if (checkQuarta.checked) {
+	// 	numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
+	// }
 
 	return numerosDisponiveis[numero];
 }
@@ -104,7 +121,7 @@ function darPalpite() {
 		</tr></table>`,
 		`<table><tr>
 			<th>Obtenção</th>
-			<td>${escolhido[0].local}</td>
+			<td>${escolhido[0].obtencao}</td>
 		</tr></table>`,
 		`<table>
 		<tr>
@@ -146,20 +163,17 @@ function darPalpite() {
 
 	switch (campoPalpite.value.toLowerCase()) {
 		case "":
-			alert("Calma lá! Tente algum nome!");
-
-			break;
+			return alert("Calma lá! Tente algum nome!");
 
 		case escolhido[0].nome.toLowerCase():
-			ganhou(palpites + 1);
+			campoPalpite.value = "";
 
-			break;
+			return ganhou(palpites + 1);
 
 		default:
+			campoPalpite.value = "";
 			if (palpites >= listaDiscas.length) {
-				perdeu();
-
-				break;
+				return perdeu();
 			} else {
 				campoDicas.insertAdjacentHTML(
 					"beforeend",
@@ -169,17 +183,15 @@ function darPalpite() {
 					"beforeend",
 					`<p>${campoPalpite.value}</p>`
 				);
-				palpites += 1;
+				return (palpites += 1);
 			}
-
-			break;
 	}
-
-	campoPalpite.value = "";
-
-	return;
 }
 
+/**
+ * Função para auxiliar o usuário no palpite, filtrando os nomes dos Pokémon
+ * @returns {void}
+ */
 function procurarNomes() {
 	switch (campoPalpite.value) {
 		case "":
@@ -212,7 +224,7 @@ function procurarNomes() {
 }
 
 /**
- * @param {string} Palpite escrito.
+ * @param {string} Palpite nome do Pokémon que será o palpite do usuário.
  * @returns {void}
  */
 function selecaoPalpite(palpite) {
@@ -221,7 +233,7 @@ function selecaoPalpite(palpite) {
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
 
-	return console.log(palpite);
+	return;
 }
 
 function resetar() {
@@ -232,7 +244,6 @@ function resetar() {
 	campoDicas.innerHTML = "";
 	ultimato.innerHTML = "";
 	palpites = 0;
-	btnPalpite.addEventListener("click", darPalpite);
 
 	return true;
 }
