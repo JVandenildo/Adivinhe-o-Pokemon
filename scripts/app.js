@@ -7,7 +7,7 @@ const nomesGeral = document.querySelector(".nomesGeral");
 const opcoesNomes = document.querySelector(".opcoesNomes");
 const checkPrimeira = document.querySelector("#checkPrimeira");
 const checkSegunda = document.querySelector("#checkSegunda");
-// const checkTerceira = document.querySelector("#checkTerceira");
+const checkTerceira = document.querySelector("#checkTerceira");
 // const checkQuarta = document.querySelector("#checkQuarta");
 
 let escolhido = {
@@ -41,8 +41,8 @@ let palpites = 0;
 function novaTentativa() {
 	if (
 		!checkPrimeira.checked &&
-		!checkSegunda.checked
-		// && !checkTerceira.checked
+		!checkSegunda.checked &&
+		!checkTerceira.checked
 		// && !checkQuarta.checked
 	) {
 		resetar();
@@ -54,8 +54,8 @@ function novaTentativa() {
 		const ticket = Math.floor(
 			Math.random(data) *
 				(checkPrimeira.checked * primeiraGeracao.length +
-					checkSegunda.checked * segundaGeracao.length)
-			//  + checkTerceira.checked * terceiraGeracao.length
+					checkSegunda.checked * segundaGeracao.length +
+					checkTerceira.checked * terceiraGeracao.length)
 			// + checkQuarta.checked * quartaGeracao.length)
 		);
 
@@ -92,9 +92,9 @@ function selecaoGeracao(numero) {
 	if (checkSegunda.checked) {
 		numerosSegunda.forEach((x) => numerosDisponiveis.push(x));
 	}
-	// if (checkTerceira.checked) {
-	// 	numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
-	// }
+	if (checkTerceira.checked) {
+		numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
+	}
 	// if (checkQuarta.checked) {
 	// 	numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
 	// }
@@ -157,7 +157,7 @@ function darPalpite() {
 			<td>${escolhido[0].numero}</td>
 		</tr></table>`,
 		`<table><tr>
-			<td><img src="${escolhido[0].sprite}" alt="Sprite dica" loading="lazy" /></td>
+			<td><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite dica" /></td>
 		</tr></table>`,
 	];
 
@@ -171,8 +171,9 @@ function darPalpite() {
 			return ganhou(palpites + 1);
 
 		default:
-			campoPalpite.value = "";
 			if (palpites >= listaDiscas.length) {
+				campoPalpite.value = "";
+
 				return perdeu();
 			} else {
 				campoDicas.insertAdjacentHTML(
@@ -183,6 +184,8 @@ function darPalpite() {
 					"beforeend",
 					`<p>${campoPalpite.value}</p>`
 				);
+				campoPalpite.value = "";
+
 				return (palpites += 1);
 			}
 	}
@@ -258,11 +261,11 @@ function ganhou(palpites) {
 
 	switch (palpites) {
 		case 1:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="lazy" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 			return true;
 		default:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="lazy" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 			return true;
 	}
@@ -273,7 +276,7 @@ function ganhou(palpites) {
  */
 function perdeu() {
 	btnPalpite.removeEventListener("click", darPalpite);
-	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações.</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="lazy" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações.</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 	return false;
 }

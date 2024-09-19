@@ -4067,10 +4067,10 @@ const segundaGeracao = pkmnDisponiveis.filter(
 );
 const numerosSegunda = segundaGeracao.map((X) => X.numero);
 
-// const terceiraGeracao = pkmnDisponiveis.filter(
-// 	(x) => x.numero > 251 && x.numero <= 386
-// );
-// const numerosTerceira = terceiraGeracao.map((x) => x.numero);
+const terceiraGeracao = pkmnDisponiveis.filter(
+	(x) => x.numero > 251 && x.numero <= 386
+);
+const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 
 // const quartaGeracao = pkmnDisponiveis.filter((x) => 386 < x.numero <= 493);
 // const numerosQuarta = quartaGeracao.map((x) => x.numero);

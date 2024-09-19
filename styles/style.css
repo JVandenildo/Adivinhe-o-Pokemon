@@ -166,7 +166,7 @@ input {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 10.6em;
+	top: 12rem;
 }
 
 .nomePalpite {
@@ -187,13 +187,13 @@ input {
 	right: 1rem;
 	top: 1rem;
 	margin: 0 !important;
+	padding: 0.5rem;
+	color: var(--second-font-color);
 	background-color: var(--second-bg);
 	border: solid 2px var(--filling-color);
 	border-radius: 20px;
 	width: 10rem;
 	height: fit-content;
-	color: var(--second-font-color);
-	padding: 0.5rem;
 }
 
 #geracoes {
