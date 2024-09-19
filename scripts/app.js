@@ -63,10 +63,10 @@ function novaTentativa() {
 			(x) => x.numero == selecaoGeracao(ticket)
 		);
 
-		// console.info(
-		// 	`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
-		// 	`${segundaGeracao.length}/100`
-		// );
+		console.info(
+			`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
+			`${terceiraGeracao.length}/386\n${(terceiraGeracao.length / 386) * 100}`
+		);
 
 		campoDicas.insertAdjacentHTML(
 			"beforeend",
@@ -157,7 +157,7 @@ function darPalpite() {
 			<td>${escolhido[0].numero}</td>
 		</tr></table>`,
 		`<table><tr>
-			<td><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite dica" /></td>
+			<td><img loading="eager" src="${escolhido[0].sprite}" alt="Dica da silhueta" /></td>
 		</tr></table>`,
 	];
 

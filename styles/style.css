@@ -217,8 +217,12 @@ input {
 	filter: contrast(1%) opacity(99%);
 }
 #campoDicas table {
-	margin: auto;
 	text-align: left !important;
+	margin: auto;
+}
+td {
+	max-width: 17rem !important;
+	hyphens: auto !important;
 }
 
 #ultimato img {
