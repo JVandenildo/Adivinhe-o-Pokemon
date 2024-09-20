@@ -63,12 +63,12 @@ function novaTentativa() {
 			(x) => x.numero == selecaoGeracao(ticket)
 		);
 
-		console.info(
-			`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
-			`\n${terceiraGeracao.length}/135\n${Math.floor(
-				(terceiraGeracao.length / 135) * 100
-			)}%`
-		);
+		// console.info(
+		// 	`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
+		// 	`\n${terceiraGeracao.length}/135\n${Math.floor(
+		// 		(terceiraGeracao.length / 135) * 100
+		// 	)}%`
+		// );
 
 		campoDicas.insertAdjacentHTML(
 			"beforeend",
@@ -169,23 +169,16 @@ function darPalpite() {
 
 		// caso vença
 		case escolhido[0].nome.toLowerCase():
+			palpites = palpites + 1;
 			campoPalpite.value = "";
 			btnPalpite.removeEventListener("click", darPalpite);
 
-			if (palpites === 1 || palpites + 1 === 1) {
-				ultimato.innerHTML = `<p>Você acertou com 1 palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+			if (palpites === 1) {
+				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return true;
 			} else {
-				ultimato.innerHTML = `<p>Você acertou com ${
-					palpites + 1
-				} palpites!<br><a href="${
-					escolhido[0].link
-				}" target="_blank">Mais informações</a>.</p><a href="${
-					escolhido[0].link
-				}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${
-					escolhido[0].nome
-				}" /></a>`;
+				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return true;
 			}
