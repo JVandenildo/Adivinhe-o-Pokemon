@@ -6204,6 +6204,22 @@ const pkmnDisponiveis = [
 			"https://archives.bulbagarden.net/media/upload/thumb/6/68/0387Turtwig.png/375px-0387Turtwig.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)",
 	},
+	{
+		nome: "Grotle",
+		numero: 388, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 97.0, // em kg
+		altura: 1.1, // em metros
+		estatistica: [75, 89, 85, 55, 65, 36], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		descricao:
+			"Vive próximo a fontes de água em florestas. Durante o dia, deixa a floresta para dar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bosque",
+		lendario: false,
+		obtencao: "Por evolução",
+		sprite:
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0388Grotle.png/375px-0388Grotle.png",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon)",
+	},
 ];
 
 const nomesDisponiveis = pkmnDisponiveis.map((x) => x.nome);

@@ -8,7 +8,7 @@ const opcoesNomes = document.querySelector(".opcoesNomes");
 const checkPrimeira = document.querySelector("#checkPrimeira");
 const checkSegunda = document.querySelector("#checkSegunda");
 const checkTerceira = document.querySelector("#checkTerceira");
-// const checkQuarta = document.querySelector("#checkQuarta");
+const checkQuarta = document.querySelector("#checkQuarta");
 
 let escolhido = {
 	nome: "MissingNo.",
@@ -42,8 +42,8 @@ function novaTentativa() {
 	if (
 		!checkPrimeira.checked &&
 		!checkSegunda.checked &&
-		!checkTerceira.checked
-		// && !checkQuarta.checked
+		!checkTerceira.checked &&
+		!checkQuarta.checked
 	) {
 		resetar();
 
@@ -55,20 +55,20 @@ function novaTentativa() {
 			Math.random(data) *
 				(checkPrimeira.checked * primeiraGeracao.length +
 					checkSegunda.checked * segundaGeracao.length +
-					checkTerceira.checked * terceiraGeracao.length)
-			// + checkQuarta.checked * quartaGeracao.length)
+					checkTerceira.checked * terceiraGeracao.length +
+					checkQuarta.checked * quartaGeracao.length)
 		);
 
 		escolhido = pkmnDisponiveis.filter(
 			(x) => x.numero == selecaoGeracao(ticket)
 		);
 
-		// console.info(
-		// 	`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
-		// 	`\n${terceiraGeracao.length}/135\n${Math.floor(
-		// 		(terceiraGeracao.length / 135) * 100
-		// 	)}%`
-		// );
+		console.info(
+			`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
+			`\n${quartaGeracao.length}/107\n${Math.floor(
+				(quartaGeracao.length / 107) * 100
+			)}%`
+		);
 
 		campoDicas.insertAdjacentHTML(
 			"beforeend",
@@ -97,9 +97,9 @@ function selecaoGeracao(numero) {
 	if (checkTerceira.checked) {
 		numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
 	}
-	// if (checkQuarta.checked) {
-	// 	numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
-	// }
+	if (checkQuarta.checked) {
+		numerosQuarta.forEach((x) => numerosDisponiveis.push(x));
+	}
 
 	return numerosDisponiveis[numero];
 }
