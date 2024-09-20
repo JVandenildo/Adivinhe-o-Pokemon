@@ -63,12 +63,12 @@ function novaTentativa() {
 			(x) => x.numero == selecaoGeracao(ticket)
 		);
 
-		// console.info(
-		// 	`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
-		// 	`\n${terceiraGeracao.length}/135\n${Math.floor(
-		// 		(terceiraGeracao.length / 135) * 100
-		// 	)}%`
-		// );
+		console.info(
+			`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
+			`\n${terceiraGeracao.length}/135\n${Math.floor(
+				(terceiraGeracao.length / 135) * 100
+			)}%`
+		);
 
 		campoDicas.insertAdjacentHTML(
 			"beforeend",
@@ -167,16 +167,40 @@ function darPalpite() {
 		case "":
 			return alert("Calma lá! Tente algum nome!");
 
+		// caso vença
 		case escolhido[0].nome.toLowerCase():
 			campoPalpite.value = "";
+			btnPalpite.removeEventListener("click", darPalpite);
 
-			return ganhou(palpites + 1);
+			if (palpites === 1 || palpites + 1 === 1) {
+				ultimato.innerHTML = `<p>Você acertou com 1 palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+				return true;
+			} else {
+				ultimato.innerHTML = `<p>Você acertou com ${
+					palpites + 1
+				} palpites!<br><a href="${
+					escolhido[0].link
+				}" target="_blank">Mais informações</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${
+					escolhido[0].nome
+				}" /></a>`;
+
+				return true;
+			}
 
 		default:
+			// este primeiro é caso perca
 			if (palpites >= listaDiscas.length) {
 				campoPalpite.value = "";
 
-				return perdeu();
+				btnPalpite.removeEventListener("click", darPalpite);
+				ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+				return false;
+
+				// este segundo o jogo continua
 			} else {
 				campoDicas.insertAdjacentHTML(
 					"beforeend",
@@ -187,8 +211,9 @@ function darPalpite() {
 					`<p>${campoPalpite.value}</p>`
 				);
 				campoPalpite.value = "";
+				palpites = palpites + 1;
 
-				return (palpites += 1);
+				return false;
 			}
 	}
 }
@@ -251,34 +276,4 @@ function resetar() {
 	palpites = 0;
 
 	return true;
-}
-
-/**
- * Lida com o acerto do jogador.
- * @param {number} palpites quantidade de vezes que o jogador fez um palpite.
- * @returns nada.
- */
-function ganhou(palpites) {
-	btnPalpite.removeEventListener("click", darPalpite);
-
-	switch (palpites) {
-		case 1:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
-
-			return true;
-		default:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
-
-			return true;
-	}
-}
-/**
- * Lida com a derrota do jogador.
- * @returns nada.
- */
-function perdeu() {
-	btnPalpite.removeEventListener("click", darPalpite);
-	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações.</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
-
-	return false;
 }

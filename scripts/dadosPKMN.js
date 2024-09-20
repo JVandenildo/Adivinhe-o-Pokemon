@@ -4383,7 +4383,7 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		estatistica: [70, 70, 40, 60, 40, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Vivem em florestas densamente cobertas de vegetação. Ocasionalmente se aventuram para fora da floresta para assustar as pessoas. Este Pokémon não gosta que seu nariz logo seja beliscado.", // considerando a dex da primeira geração que apareceu
+			"Vive em florestas densamente cobertas de vegetação. Ocasionalmente se aventuram para fora da floresta para assustar as pessoas. Este Pokémon não gosta que seu nariz logo seja beliscado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ardiloso",
 		lendario: false,
 		obtencao: "Rota 114",
@@ -4399,7 +4399,7 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		estatistica: [90, 100, 60, 90, 60, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Dizem que ele chega em ventos frios e invernais. Temido desde muito tempo como o guardião das florestas, este Pokémon vive em uma floresta profunda onde as pessoas não se aventuram.", // considerando a dex da primeira geração que apareceu
+			"Dizem que chega em ventos frios e invernais. Temido desde muito tempo como o guardião das florestas, este Pokémon vive em uma floresta profunda onde as pessoas não se aventuram.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Malvado",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -4509,7 +4509,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 48.4, // em kg
 		altura: 1.6, // em metros
-		estatistica: [68, 68, 65, 125, 115, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [68, 65, 65, 125, 115, 80], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Possui a habilidade de ver o futuro. Caso sinta perigo iminente ao seu treinador, diz-se que este Pokémon libera sua energia psicocinética com força total.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abraço",
@@ -4589,7 +4589,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 24.0, // em kg
 		altura: 0.8, // em metros
-		estatistica: [50, 60, 60, 35, 35, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [60, 60, 60, 35, 35, 30], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Dorme praticamente o dia todo e a noite toda. Não muda seu ninho sua vida inteira, mas algumas vezes viaja grandes distâncias nadando em rios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandrião",
@@ -4690,7 +4690,8 @@ const pkmnDisponiveis = [
 			"Normalmente, sua voz é muito baixa, é quase inaudível mesmo se estiver prestando bastante atenção. Contudo, caso pressinta perigo, começa a chorar em um volume ensurdecedor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sussurro",
 		lendario: false,
-		obtencao: "Rota 116; Túnel Rusturf; e Estrada da Vitória",
+		obtencao:
+			"Rota 116; Grutas do Deserto; Túnel Rusturf; e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0293Whismur.png/375px-0293Whismur.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whismur_(Pok%C3%A9mon)",
@@ -4835,7 +4836,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Escuridão",
 		lendario: false,
 		obtencao:
-			"Caverna de Granito; Cavern da Origem; Pilar Celeste; e Estrada da Vitória",
+			"Caverna de Granito; Caverna da Origem; Pilar Celeste; e Estrada da Vitória",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/9/98/0302Sableye.png/375px-0302Sableye.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)",
@@ -4844,7 +4845,7 @@ const pkmnDisponiveis = [
 		nome: "Mawile",
 		numero: 303, // considerando a national dex
 		tipo: ["Metal", " Fada"],
-		massa: 11.0, // em kg
+		massa: 11.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: [50, 85, 85, 55, 55, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
@@ -4897,7 +4898,7 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		estatistica: [70, 110, 180, 60, 60, 50], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Reivindica uma montanha inteira com seu território. Bate impiedosamente em qualquer coisa que viole seu ambiente. Este Pokémon patrulha seu território todo o tempo.", // considerando a dex da primeira geração que apareceu
+			"Reivindica uma montanha inteira como seu território. Bate impiedosamente em qualquer coisa que viole seu ambiente. Este Pokémon patrulha seu território todo o tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura de Ferro",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -4954,7 +4955,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrike_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Medicham",
+		nome: "Manectric",
 		numero: 310, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 40.2, // em kg
@@ -4980,7 +4981,7 @@ const pkmnDisponiveis = [
 			"Sempre age como um torcedor para seus companheiros. Toda vez que um companheiro de equipe faz um bom esforço na batalha, este Pokémon dá um curto-circuito em seu corpo para criar ruídos de faíscas para mostrar sua alegria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aplausos",
 		lendario: false,
-		obtencao: "Rotas 110",
+		obtencao: "Rota 110",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3b/0311Plusle.png/375px-0311Plusle.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Plusle_(Pok%C3%A9mon)",
@@ -5012,7 +5013,7 @@ const pkmnDisponiveis = [
 			"Com a chegada da noite, emite luz de sua cauda. Sua comunicação com outros se baseia em ajustar a intensidade e o piscar de sua luz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vaga-lume",
 		lendario: false,
-		obtencao: "Rotas 117",
+		obtencao: "Rota 117",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0313Volbeat.png/375px-0313Volbeat.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
@@ -5039,7 +5040,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
-		estatistica: [50, 67, 45, 100, 80, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [50, 60, 45, 100, 80, 65], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Atira espinhos afiados como projéteis em qualquer oponente que tente roubar as flores em seus braços. O aroma deste Pokémon traz serenidade aos vivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho",
@@ -5092,7 +5093,7 @@ const pkmnDisponiveis = [
 			"Suas mandíbulas fortemente desenvolvidas e suas pontiagudas e afiadas têm o poder destrutivo de arrancar cascos de barcos. Muitos barcos foram atacados e afundados por este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Selvagem",
 		lendario: false,
-		obtencao: "Rotas 103, 118, 122, e outras",
+		obtencao: "Rotas 118, e 119",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e1/0318Carvanha.png/375px-0318Carvanha.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carvanha_(Pok%C3%A9mon)",
@@ -5108,7 +5109,7 @@ const pkmnDisponiveis = [
 			"Apelidado de 'o valentão dos mares', este Pokémon é amplamente temido. Suas cruéis presas crescem de volta imediatamente após quebrarem. Apenas um desses Pokémon pode destruir completamente um superpetroleiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brutal",
 		lendario: false,
-		obtencao: "Por evolução",
+		obtencao: "Rotas 103, 118, 122, e outras",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/0319Sharpedo.png/375px-0319Sharpedo.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon)",
@@ -5138,7 +5139,7 @@ const pkmnDisponiveis = [
 		altura: 14.5, // em metros
 		estatistica: [170, 90, 45, 90, 45, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"É o maior Pokémon já identificado até agora. Este Pokémon gigante nada languidamente no vasto mar aberto, comendo quantidades gigantescas de comida de uma vez com sua boca enorme.", // considerando a dex da primeira geração que apareceu
+			"É o maior de todos Pokémon identificados. Este Pokémon gigante nada languidamente no vasto mar aberto, comendo quantidades gigantescas de comida de uma vez com sua boca enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baleia Flutuante",
 		lendario: false,
 		obtencao: "Rota 129",
@@ -5333,7 +5334,7 @@ const pkmnDisponiveis = [
 			"Possui asas leves e fofas que são como nuvens de algodão. Este Pokémon não se assusta com pessoas. Aterrissa em cabeças de pessoas e senta como um chapéu de algodão fofo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro de Algodão",
 		lendario: false,
-		obtencao: "Rota 114, e 115",
+		obtencao: "Rotas 114, e 115",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/c/cd/0333Swablu.png/375px-0333Swablu.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon)",
@@ -5410,7 +5411,7 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		estatistica: [70, 95, 85, 55, 65, 70], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"É uma nova espécie de Pokémon que é dito ter caído do espaço. Flutua no ar e se move silenciosamente. Em batalha, este Pokémon libera luz que brilha intensamente.", // considerando a dex da primeira geração que apareceu
+			"É uma nova espécie de Pokémon que dizem ter caído do espaço. Flutua no ar e se move silenciosamente. Em batalha, este Pokémon libera luz que brilha intensamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meteorito",
 		lendario: false,
 		obtencao: "Cachoeira do Meteoro",
@@ -5421,10 +5422,10 @@ const pkmnDisponiveis = [
 	{
 		nome: "Barboach",
 		numero: 339, // considerando a national dex
-		tipo: ["Água", " Elétrico"],
+		tipo: ["Água", " Terra"],
 		massa: 1.9, // em kg
 		altura: 0.4, // em metros
-		estatistica: [50, 48, 433, 46, 41, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [50, 48, 43, 46, 41, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Seus bigodes sensíveis servem como um excelente sistema de radar. Esse Pokémon se esconde em lama, deixando somente seus dois bigodes expostos enquanto espera pela presa chegar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bigodudo",
@@ -5438,7 +5439,7 @@ const pkmnDisponiveis = [
 	{
 		nome: "Whishcash",
 		numero: 340, // considerando a national dex
-		tipo: ["Terra", " Água"],
+		tipo: ["Água", " Terra"],
 		massa: 23.6, // em kg
 		altura: 0.9, // em metros
 		estatistica: [110, 78, 73, 76, 71, 60], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
@@ -5494,7 +5495,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon se move enquanto gira em seu único pé. Pinturas de parede primitivas retratando este Pokémon vivendo entre as pessoas foram descobertas em algumas ruínas antigas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boneco de Argila",
 		lendario: false,
-		obtencao: "Rotas 111",
+		obtencao: "Rota 111",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/6/62/0343Baltoy.png/375px-0343Baltoy.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Baltoy_(Pok%C3%A9mon)",
@@ -5601,9 +5602,9 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 162.0, // em kg
 		altura: 6.2, // em metros
-		estatistica: [95, 60, 79, 125, 125, 81], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		estatistica: [95, 60, 79, 100, 125, 81], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Dizem que ser um dos Pokémon mais bonitos que existe. Possui o poder de acalmar emoções como raiva e hostilidade para reprimir rixas amargas.", // considerando a dex da primeira geração que apareceu
+			"Dizem ser um dos Pokémon mais bonitos que existe. Possui o poder de acalmar emoções como raiva e hostilidade para reprimir rixas amargas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meigo",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -5683,7 +5684,7 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		estatistica: [20, 40, 90, 30, 90, 25], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Consegue atravessa qualquer parede não importando quão grossa possa ser. Uma vez que escolhe um alvo, persegue obstinadamente a vítima até o amanhecer.", // considerando a dex da primeira geração que apareceu
+			"Consegue atravessar qualquer parede não importando quão grossa possa ser. Uma vez que escolhe um alvo, persegue obstinadamente a vítima até o amanhecer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Réquiem",
 		lendario: false,
 		obtencao: "Rotas 121, e 123; e Monta da Pira",
@@ -5766,7 +5767,7 @@ const pkmnDisponiveis = [
 			"Sempre pode visto com um grande sorriso feliz no rosto. Olhe para a cauda determinar se está bravo. Quando bravo, este Pokémon baterá no chão com sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brilhante",
 		lendario: false,
-		obtencao: "Por ovo; e rota 130",
+		obtencao: "Por ovo; e Ilha Miragem",
 		sprite:
 			"https://archives.bulbagarden.net/media/upload/thumb/b/be/0360Wynaut.png/375px-0360Wynaut.png",
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon)",
@@ -6115,7 +6116,7 @@ const pkmnDisponiveis = [
 		altura: 4.5, // em metros
 		estatistica: [100, 100, 90, 150, 140, 90], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
-			"Tem o poder de criar nuvens de chuva gigantes que cobrem inteiramente o céu e trás precipitações torrenciais. Este Pokémon salvou pessoas que sofriam de secas.", // considerando a dex da primeira geração que apareceu
+			"Tem o poder de criar enormes nuvens de chuva que cobrem inteiramente o céu e provocam precipitações torrenciais. Este Pokémon salvou pessoas que sofriam de secas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bacia Marinha",
 		lendario: true,
 		obtencao: "Caverna da Origem; ou Caverna Marinha",
@@ -6143,8 +6144,8 @@ const pkmnDisponiveis = [
 		nome: "Rayquaza",
 		numero: 384, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
-		massa: 352.0, // em kg
-		altura: 4.5, // em metros
+		massa: 206.5, // em kg
+		altura: 7.0, // em metros
 		estatistica: [105, 150, 90, 150, 90, 95], // HP, ataque, defesa, ataque esp., defesa esp., veloc.
 		descricao:
 			"Viveu por centenas de milhões de anos na camada de ozônio da Terra, nunca descendo para o chão. Sua existência tem sido completamente desconhecida por viver tão alto no céu.", // considerando a dex da primeira geração que apareceu
