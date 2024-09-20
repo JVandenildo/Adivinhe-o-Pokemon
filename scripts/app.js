@@ -63,10 +63,12 @@ function novaTentativa() {
 			(x) => x.numero == selecaoGeracao(ticket)
 		);
 
-		console.info(
-			`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
-			`${terceiraGeracao.length}/386\n${(terceiraGeracao.length / 386) * 100}`
-		);
+		// console.info(
+		// 	`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
+		// 	`\n${terceiraGeracao.length}/135\n${Math.floor(
+		// 		(terceiraGeracao.length / 135) * 100
+		// 	)}%`
+		// );
 
 		campoDicas.insertAdjacentHTML(
 			"beforeend",
@@ -157,7 +159,7 @@ function darPalpite() {
 			<td>${escolhido[0].numero}</td>
 		</tr></table>`,
 		`<table><tr>
-			<td><img loading="eager" src="${escolhido[0].sprite}" alt="Dica da silhueta" /></td>
+			<td><img src="${escolhido[0].sprite}" alt="Dica da silhueta" /></td>
 		</tr></table>`,
 	];
 
@@ -261,11 +263,11 @@ function ganhou(palpites) {
 
 	switch (palpites) {
 		case 1:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 			return true;
 		default:
-			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+			ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 			return true;
 	}
@@ -276,7 +278,7 @@ function ganhou(palpites) {
  */
 function perdeu() {
 	btnPalpite.removeEventListener("click", darPalpite);
-	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações.</a>.</p><a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+	ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações.</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 	return false;
 }
