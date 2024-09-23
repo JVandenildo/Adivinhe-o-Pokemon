@@ -11,34 +11,43 @@
 		<main>
 			<section id="geracoes">
 				Qual geração estará dentro?<br />
-				<input
-					type="checkbox"
-					id="checkPrimeira"
-					class="checkbox"
-					value="primeiraGeracao"
-					name="geracao"
-				/><label for="primeiraGeracao">Primeira Geração</label>
-				<input
-					type="checkbox"
-					id="checkSegunda"
-					class="checkbox"
-					value="segundaGeracao"
-					name="geracao"
-				/><label for="segundaGeracao">Segunda Geração</label><br />
-				<input
-					type="checkbox"
-					id="checkTerceira"
-					class="checkbox"
-					value="terceiraGeracao"
-					name="geracao"
-				/><label for="terceiraGeracao">Terceira Geração</label>
-				<input
-					type="checkbox"
-					id="checkQuarta"
-					class="checkbox"
-					value="quartaGeracao"
-					name="geracao"
-				/><label for="quartaGeracao">Quarta Geração</label>
+				<div>
+					<input
+						type="checkbox"
+						id="checkPrimeira"
+						class="checkbox"
+						value="primeiraGeracao"
+						name="geracao"
+					/><label for="primeiraGeracao">Primeira Geração</label>
+					<input
+						type="checkbox"
+						id="checkSegunda"
+						class="checkbox"
+						value="segundaGeracao"
+						name="geracao"
+					/><label for="segundaGeracao">Segunda Geração</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						id="checkTerceira"
+						class="checkbox"
+						value="terceiraGeracao"
+						name="geracao"
+					/><label for="terceiraGeracao">Terceira Geração</label>
+					<input
+						type="checkbox"
+						id="checkQuarta"
+						class="checkbox"
+						value="quartaGeracao"
+						name="geracao"
+					/><label for="quartaGeracao">Quarta Geração</label>
+				</div>
+				<article style="font-size: small; max-width: 16rem">
+					Cada geração segue a descrição e a obtenção dos jogos em que foi
+					lançada; por exemplo: a terceira geração segue esses dados dos jogos
+					Ruby, Sapphire, e Emerald.
+				</article>
 			</section>
 			<section id="usuario">
 				<button id="btnTentativa" onclick="novaTentativa()">
