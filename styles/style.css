@@ -234,6 +234,6 @@ td {
 }
 
 #ultimato img {
-	height: 13rem;
-	width: 13rem;
+	max-height: 150px;
+	max-width: 150px;
 }

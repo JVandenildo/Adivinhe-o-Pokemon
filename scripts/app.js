@@ -14,21 +14,19 @@ let escolhido = {
 	nome: "MissingNo.",
 	numero: 0, // considerando a national dex
 	tipo: ["Normal"],
-	massa: 0, // em kg
-	altura: 0, // em metros
-	estatistica: {
-		hp: 178,
-		atq: 136,
-		def: 11,
-		atq_esp: 23,
-		def_esp: 23,
-		vel: 29,
-	},
-	descricao: "Algo de errado, não está certo.", // considerando a dex da primeira geração que apareceu
-	categoria: "Pokémon Perdido",
+	massa: 1590.8, // em kg
+	altura: 3.3, // em metros
+	estatistica: [
+		{ hp: 178, atq: 136, def: 11, atq_esp: 23, def_esp: 23, vel: 29 },
+	],
+	descricao: "   ", // considerando a dex da primeira geração que apareceu
+	categoria: "Pokémon ???",
 	lendario: true,
-	local: "Memoria",
-	sprite: "https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
+	obtencao: "Glitch",
+	sprite: [
+		"https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
+		"https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png",
+	],
 	link: "https://bulbapedia.bulbagarden.net/wiki/MissingNo.",
 };
 let palpites = 0;
@@ -50,6 +48,7 @@ function novaTentativa() {
 		return alert("Escolha alguma geração antes!");
 	} else {
 		resetar();
+
 		const data = new Date();
 		const ticket = Math.floor(
 			Math.random(data) *
@@ -58,13 +57,12 @@ function novaTentativa() {
 					checkTerceira.checked * terceiraGeracao.length +
 					checkQuarta.checked * quartaGeracao.length)
 		);
-
 		escolhido = pkmnDisponiveis.filter(
 			(x) => x.numero == selecaoGeracao(ticket)
 		);
 
 		console.info(
-			`Ticket: ${ticket}\nEscolhido: ${escolhido[0].nome}\nNumero: ${escolhido[0].numero}`,
+			`Ticket: ${ticket}\n${escolhido[0].sprite}`,
 			`\n${quartaGeracao.length}/107\n${Math.floor(
 				(quartaGeracao.length / 107) * 100
 			)}%`
@@ -106,7 +104,7 @@ function selecaoGeracao(numero) {
 
 /**
  * Verifica se o palpite do usuário está correto.
- * @returns Retorna nada.
+ * @returns {boolean} Retorna nada.
  */
 function darPalpite() {
 	opcoesNomes.classList.remove("opcoesNomesShow");
@@ -124,27 +122,27 @@ function darPalpite() {
 		`<table>
 		<tr>
 			<th>HP</th>
-			<td>${escolhido[0].estatistica[0]}</td>
+			<td>${escolhido[0].estatistica.hp}</td>
 		</tr>
 		<tr>
 			<th>Ataque</th>
-			<td>${escolhido[0].estatistica[1]}</td>
+			<td>${escolhido[0].estatistica.atq}</td>
 		</tr>
 		<tr>
 			<th>Defesa</th>
-			<td>${escolhido[0].estatistica[2]}</td>
+			<td>${escolhido[0].estatistica.def}</td>
 		</tr>
 		<tr>
 			<th>Ataque Especial</th>
-			<td>${escolhido[0].estatistica[3]}</td>
+			<td>${escolhido[0].estatistica.atq_esp}</td>
 		</tr>
 		<tr>
 			<th>Defesa Especial</th>
-			<td>${escolhido[0].estatistica[4]}</td>
+			<td>${escolhido[0].estatistica.def_esp}</td>
 		</tr>
 		<tr>
 			<th>Velocidade</th>
-			<td>${escolhido[0].estatistica[5]}</td>
+			<td>${escolhido[0].estatistica.vel}</td>
 		</table>`,
 		`<table><tr>
 			<th>Descrição</th>
@@ -156,45 +154,70 @@ function darPalpite() {
 		</tr></table>`,
 		`<table><tr>
 			<th>Número</th>
-			<td>${escolhido[0].numero}</td>
+			<td>${Math.floor(escolhido[0].numero)}</td>
 		</tr></table>`,
 		`<table><tr>
-			<td><img src="${escolhido[0].sprite}" alt="Dica da silhueta" /></td>
+			<td><img src="${
+				escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+			}" alt="Dica silhueta" /></td>
 		</tr></table>`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
 		case "":
-			return alert("Calma lá! Tente algum nome!");
+			// caso não tenha palpite
+			alert("Calma lá! Tente algum nome!");
 
-		// caso vença
+			return false;
+
 		case escolhido[0].nome.toLowerCase():
+			// caso acerte o nome do Pokémon
 			palpites = palpites + 1;
 			campoPalpite.value = "";
 			btnPalpite.removeEventListener("click", darPalpite);
 
 			if (palpites === 1) {
-				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${
+					escolhido[0].link
+				}" target="_blank">Mais informações</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img src="${
+					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return true;
 			} else {
-				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${
+					escolhido[0].link
+				}" target="_blank">Mais informações</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img src="${
+					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return true;
 			}
 
 		default:
-			// este primeiro é caso perca
+			// caso erre o nome do Pokémon
 			if (palpites >= listaDiscas.length) {
+				// este primeiro é caso perca
 				campoPalpite.value = "";
 
 				btnPalpite.removeEventListener("click", darPalpite);
-				ultimato.innerHTML = `<p>Você errou! Era ${escolhido[0].nome}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${escolhido[0].sprite}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+				ultimato.innerHTML = `<p>Você errou! Era ${
+					escolhido[0].nome
+				}!<br><a href="${
+					escolhido[0].link
+				}" target="_blank">Mais informações</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img src="${
+					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return false;
-
-				// este segundo o jogo continua
 			} else {
+				// este segundo o jogo continua
 				campoDicas.insertAdjacentHTML(
 					"beforeend",
 					`<p>${listaDiscas[palpites]}</p>`
@@ -247,8 +270,8 @@ function procurarNomes() {
 }
 
 /**
- * @param {string} Palpite nome do Pokémon que será o palpite do usuário.
- * @returns {void}
+ * @param {string} palpite nome do Pokémon que será o palpite do usuário.
+ * @returns {string}
  */
 function selecaoPalpite(palpite) {
 	campoPalpite.value = palpite;
@@ -256,9 +279,13 @@ function selecaoPalpite(palpite) {
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
 
-	return;
+	return palpite;
 }
 
+/**
+ * Deixa o jogo como deveria estar no começo.
+ * @returns nada.
+ */
 function resetar() {
 	campoPalpite.value = "";
 	opcoesNomes.classList.remove("opcoesNomesShow");
@@ -269,4 +296,14 @@ function resetar() {
 	palpites = 0;
 
 	return true;
+}
+
+/**
+ * @param {[]} array
+ * @returns Retorna um índice aleatório do parâmetro.
+ */
+function numeroAleatorio(array) {
+	const data = new Date();
+
+	return Math.floor(Math.random(data) * array.length);
 }
