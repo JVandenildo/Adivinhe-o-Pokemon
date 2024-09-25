@@ -179,7 +179,7 @@ function darPalpite() {
 			return false;
 
 		case escolhido[0].nome.toLowerCase():
-			// caso acerte o nome do Pokémon
+			// caso acerte o nome do Pokémon //
 			palpites = palpites + 1;
 			campoPalpite.value = "";
 			btnPalpite.removeEventListener("click", darPalpite);
@@ -187,9 +187,9 @@ function darPalpite() {
 			if (palpites === 1) {
 				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${
 					escolhido[0].link
-				}" target="_blank">Mais informações</a>.</p><a href="${
-					escolhido[0].link
-				}" target="_blank"><img src="${
+				}" target="_blank">Mais informações sobre ${
+					escolhido[0].nome
+				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
 					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
 				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
@@ -197,9 +197,9 @@ function darPalpite() {
 			} else {
 				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${
 					escolhido[0].link
-				}" target="_blank">Mais informações</a>.</p><a href="${
-					escolhido[0].link
-				}" target="_blank"><img src="${
+				}" target="_blank">Mais informações sobre ${
+					escolhido[0].nome
+				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
 					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
 				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
@@ -207,9 +207,9 @@ function darPalpite() {
 			}
 
 		default:
-			// caso erre o nome do Pokémon
+			// caso erre o nome do Pokémon //
 			if (palpites >= listaDiscas.length) {
-				// este primeiro é caso perca
+				// este primeiro é caso as dicas esgotem //
 				campoPalpite.value = "";
 
 				btnPalpite.removeEventListener("click", darPalpite);
@@ -225,7 +225,7 @@ function darPalpite() {
 
 				return false;
 			} else {
-				// este segundo o jogo continua
+				// este segundo o jogo continua //
 				campoDicas.insertAdjacentHTML(
 					"beforeend",
 					`<p>${listaDiscas[palpites]}</p>`
@@ -292,7 +292,7 @@ function selecaoPalpite(palpite) {
 
 /**
  * Deixa o jogo como deveria estar no começo.
- * @returns nada.
+ * @returns {boolean} nada.
  */
 function resetar() {
 	campoPalpite.value = "";
@@ -308,7 +308,7 @@ function resetar() {
 
 /**
  * @param {[]} array
- * @returns Retorna um índice aleatório do parâmetro.
+ * @returns {number} Retorna um índice aleatório do parâmetro.
  */
 function numeroAleatorio(array) {
 	const data = new Date();

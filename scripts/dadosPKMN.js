@@ -3645,7 +3645,7 @@ const pkmnDisponiveis = [
 			"Adora aproveitar a luz do sol. Usa a folha na cabeça para procurar lugares quentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
 		lendario: false,
-		obtencao: "Laboratório Prof. Elm",
+		obtencao: "Laboratório do Prof. Elm",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0152Chikorita.png/375px-0152Chikorita.png",
 		],
@@ -3717,7 +3717,7 @@ const pkmnDisponiveis = [
 			"Geralmente fica curvado. Quando está com raiva ou surpreso, atira chamas de suas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato de Fogo",
 		lendario: false,
-		obtencao: "Laboratório Prof. Elm",
+		obtencao: "Laboratório do Prof. Elm",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0155Cyndaquil.png/375px-0155Cyndaquil.png",
 		],
@@ -3786,10 +3786,10 @@ const pkmnDisponiveis = [
 			vel: 43,
 		},
 		descricao:
-			"As mandíbulas bem desenvolvidas são poderosas e capazes de esmagar qualquer coisa. Mesmo seu treinador deve ter cuidado.", // considerando a dex da primeira geração que apareceu
+			"Suas presas bem desenvolvidas são poderosas e capazes de esmagar qualquer coisa. Mesmo seu treinador deve ter cuidado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Grande",
 		lendario: false,
-		obtencao: "Laboratório Prof. Elm",
+		obtencao: "Laboratório do Prof. Elm",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0158Totodile.png/375px-0158Totodile.png",
 		],
@@ -3858,7 +3858,7 @@ const pkmnDisponiveis = [
 			vel: 20,
 		},
 		descricao:
-			"Um Pokémon muito precativo, se levanta usando sua cauda para conseguir uma melhor visão de seus arredores.", // considerando a dex da primeira geração que apareceu
+			"Um Pokémon muito precavido, se levanta usando sua cauda para conseguir uma melhor visão de seus arredores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escoteiro",
 		lendario: false,
 		obtencao: "Rotas 1, 29, e 43",
@@ -3958,7 +3958,7 @@ const pkmnDisponiveis = [
 			"É muito tímido. Tem medo de se mover caso esteja sozinho. Mas será ativo caso esteja em grupo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cinco Estrelas",
 		lendario: false,
-		obtencao: "Rotas 2, 30, 31, e outras; e Parque National",
+		obtencao: "Rotas 2, 29, 30, e outras; e Parque National",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0165Ledyba.png/375px-0165Ledyba.png",
 		],
@@ -4006,7 +4006,7 @@ const pkmnDisponiveis = [
 			"Permanece parado na mesma pose por dias em sua teia, esperando que sua presa desavisada se aproxime.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fio de Saliva",
 		lendario: false,
-		obtencao: "Rotas 2, 30, 31, e outras rotas; e Parque National",
+		obtencao: "Rotas 2, 29, 30, e outras; e Parque National",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/0167Spinarak.png/375px-0167Spinarak.png",
 		],
@@ -4102,7 +4102,7 @@ const pkmnDisponiveis = [
 			"A luz que emite é tão brilhante que consegue iluminar a superfície do mar de uma profundidade maior que cinco quilômetros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luz",
 		lendario: false,
-		obtencao: "Rotas 20, 21, 26, e outras rotas",
+		obtencao: "Rotas 20, 21, 26, e outras",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0171Lanturn.png/375px-0171Lanturn.png",
 		],
@@ -4171,7 +4171,7 @@ const pkmnDisponiveis = [
 			vel: 15,
 		},
 		descricao:
-			"Tem um corp muito macio. Quando começa a rola, irá saltar por toda parte e será impossível parar.", // considerando a dex da primeira geração que apareceu
+			"Tem um corpo muito macio. Quando começa a rolar, irá saltar por toda parte e será impossível parar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		lendario: false,
 		obtencao: "Por ovo",
@@ -4579,7 +4579,7 @@ const pkmnDisponiveis = [
 			vel: 30,
 		},
 		descricao:
-			"Pode cair do céu repentinamente. Quando atacado por um Spearow, balança violentamente suas folhas.", // considerando a dex da primeira geração que apareceu
+			"Vive bebendo apenas gotas de orvalho debaixo das plantas. Dizem que não come nada além disso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
 		lendario: false,
 		obtencao: "Rota 24; e Parque Nacional",
@@ -4922,7 +4922,7 @@ const pkmnDisponiveis = [
 			"Gosta de fazer sua casca mais espessa adicionando camadas de casca de árvores. O peso adicional não lhe incomoda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
 		lendario: false,
-		obtencao: "Rotas 26, 27, 34, e outras; Floresta de Ilex; e Lago da Fúria",
+		obtencao: "Rotas 26, 27, 29, e outras; Floresta de Ilex; e Lago da Fúria",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/7/7a/0204Pineco.png/375px-0204Pineco.png",
 		],
@@ -5042,7 +5042,7 @@ const pkmnDisponiveis = [
 			"Apesar de parecer assustador, é, na verdade, bondoso e afetuoso. É muito popular entre mulheres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
 		lendario: false,
-		obtencao: "Rota 5, 6, 7, e outras",
+		obtencao: "Rotas 5, 6, 7, e outras",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/2/24/0209Snubbull.png/375px-0209Snubbull.png",
 		],
@@ -5259,7 +5259,7 @@ const pkmnDisponiveis = [
 			"Nunca dorme. Tem que continuar em movimento porque, se parar, seu corpo de magma esfriaria e endureceria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lava",
 		lendario: false,
-		obtencao: "Rota 16, 17, e 18",
+		obtencao: "Rotas 16, 17, e 18",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0218Slugma.png/375px-0218Slugma.png",
 		],
@@ -5352,7 +5352,7 @@ const pkmnDisponiveis = [
 			vel: 35,
 		},
 		descricao:
-			"Muda de pele e cresce continuamente. A ponta de sua cabeça é valorizada como um tesouro por sua beleza.", // considerando a dex da primeira geração que apareceu
+			"Em uma nação dos mares do sul, as pessoas vivem em comunidades construídas em grupos desses Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coral",
 		lendario: false,
 		obtencao: "Rotas 19, 34, e 40; e Caverna da União",
@@ -5689,7 +5689,7 @@ const pkmnDisponiveis = [
 			vel: 35,
 		},
 		descricao:
-			"Sempre está explodindo de energia. Para se tornar mais forte, continua lutando mesmo se perder.", // considerando a dex da primeira geração que apareceu
+			"Mesmo sendo pequeno, não pode ser ignorado, pois pode atingir qualquer alvo próximo sem aviso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Briga",
 		lendario: false,
 		obtencao: "Recebido no Monte Mortar",
@@ -6007,6 +6007,7 @@ const pkmnDisponiveis = [
 		obtencao: "Ilhas Redemoinho",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e2/0249Lugia.png/375px-0249Lugia.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/7/71/249Lugia-Shadow_XD_2.png/180px-249Lugia-Shadow_XD_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
 	},
@@ -6025,7 +6026,7 @@ const pkmnDisponiveis = [
 			vel: 90,
 		},
 		descricao:
-			"Segundas as lendas, este Pokémon voa pelos céus do planeta continuamente em suas magnificas asas de sete cores.", // considerando a dex da primeira geração que apareceu
+			"Segundo as lendas, este Pokémon voa pelos céus do planeta continuamente em suas magnificas asas de sete cores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arco-Íris",
 		lendario: true,
 		obtencao: "Torre dos Sinos",
