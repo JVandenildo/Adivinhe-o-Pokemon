@@ -229,10 +229,13 @@ input {
 	margin: auto;
 }
 td {
-	max-width: 17rem !important;
+	max-width: 17.5rem !important;
 	hyphens: auto !important;
 }
-
+td,
+th {
+	padding: 0rem 0.5rem;
+}
 #ultimato img {
 	max-height: 150px;
 	max-width: 150px;

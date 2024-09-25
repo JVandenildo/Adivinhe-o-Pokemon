@@ -16,9 +16,15 @@ let escolhido = {
 	tipo: ["Normal"],
 	massa: 1590.8, // em kg
 	altura: 3.3, // em metros
-	estatistica: [
-		{ hp: 178, atq: 136, def: 11, atq_esp: 23, def_esp: 23, vel: 29 },
-	],
+	estatistica: {
+		ps: 178,
+		atq: 136,
+		def: 11,
+		atq_esp: 23,
+		def_esp: 23,
+		vel: 29,
+	},
+
 	descricao: "   ", // considerando a dex da primeira geração que apareceu
 	categoria: "Pokémon ???",
 	lendario: true,
@@ -61,12 +67,7 @@ function novaTentativa() {
 			(x) => x.numero == selecaoGeracao(ticket)
 		);
 
-		console.info(
-			`Ticket: ${ticket}\n${escolhido[0].sprite}`,
-			`\n${quartaGeracao.length}/107\n${Math.floor(
-				(quartaGeracao.length / 107) * 100
-			)}%`
-		);
+		// console.info(`Ticket: ${ticket}\n${escolhido[0].nome}`);
 
 		campoDicas.insertAdjacentHTML(
 			"beforeend",
@@ -111,18 +112,21 @@ function darPalpite() {
 	nomesGeral.classList.remove("nomesGeralShow");
 
 	const listaDiscas = [
+		// primeira dica //
 		`<table><tr>
 			<th>Tipo(s)</th>
 			<td>${escolhido[0].tipo}</td>
 		</tr></table>`,
+		// segunda dica //
 		`<table><tr>
 			<th>Obtenção</th>
 			<td>${escolhido[0].obtencao}</td>
 		</tr></table>`,
+		// terceira diga //
 		`<table>
 		<tr>
 			<th>HP</th>
-			<td>${escolhido[0].estatistica.hp}</td>
+			<td>${escolhido[0].estatistica.ps}</td>
 		</tr>
 		<tr>
 			<th>Ataque</th>
@@ -144,18 +148,22 @@ function darPalpite() {
 			<th>Velocidade</th>
 			<td>${escolhido[0].estatistica.vel}</td>
 		</table>`,
+		// quarta dica //
 		`<table><tr>
 			<th>Descrição</th>
 			<td>${escolhido[0].descricao}</td>
 		</tr></table>`,
+		// quinta dica //
 		`<table><tr>
 			<th>Categoria</th>
 			<td>${escolhido[0].categoria}</td>
 		</tr></table>`,
+		// sexta dica //
 		`<table><tr>
 			<th>Número</th>
 			<td>${Math.floor(escolhido[0].numero)}</td>
 		</tr></table>`,
+		// sétima e última dica //
 		`<table><tr>
 			<td><img src="${
 				escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]

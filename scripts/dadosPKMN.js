@@ -6,7 +6,7 @@ const pkmnDisponiveis = [
 		massa: 6.9, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 49,
 			def: 49,
 			atq_esp: 65,
@@ -17,7 +17,7 @@ const pkmnDisponiveis = [
 			"Uma semente estranha foi plantada nas suas costas em seu nascimento. A planta brota e cresce com esse Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
 		lendario: false,
-		obtencao: "Laboratório Prof. Carvalho",
+		obtencao: "Laboratório do Prof. Carvalho",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/375px-0001Bulbasaur.png",
 		],
@@ -30,7 +30,7 @@ const pkmnDisponiveis = [
 		massa: 13.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 62,
 			def: 63,
 			atq_esp: 80,
@@ -54,7 +54,7 @@ const pkmnDisponiveis = [
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 82,
 			def: 83,
 			atq_esp: 100,
@@ -78,7 +78,7 @@ const pkmnDisponiveis = [
 		massa: 8.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 39,
+			ps: 39,
 			atq: 52,
 			def: 43,
 			atq_esp: 60,
@@ -89,7 +89,7 @@ const pkmnDisponiveis = [
 			"Obviamente prefere lugares quentes. Dizem que quando chove, sai vapor da ponta de sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagarto",
 		lendario: false,
-		obtencao: "Laboratório Prof. Carvalho",
+		obtencao: "Laboratório do Prof. Carvalho",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/375px-0004Charmander.png",
 		],
@@ -102,7 +102,7 @@ const pkmnDisponiveis = [
 		massa: 19.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 58,
+			ps: 58,
 			atq: 64,
 			def: 58,
 			atq_esp: 80,
@@ -126,7 +126,7 @@ const pkmnDisponiveis = [
 		massa: 90.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 78,
+			ps: 78,
 			atq: 84,
 			def: 78,
 			atq_esp: 109,
@@ -150,7 +150,7 @@ const pkmnDisponiveis = [
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 44,
+			ps: 44,
 			atq: 48,
 			def: 65,
 			atq_esp: 50,
@@ -161,7 +161,7 @@ const pkmnDisponiveis = [
 			"Após seu nascimento, suas costas incham e endurecem em uma carapaça. Espalha poderosamente uma espuma de sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tartaruguinha",
 		lendario: false,
-		obtencao: "Laboratório Prof. Carvalho",
+		obtencao: "Laboratório do Prof. Carvalho",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/5/54/0007Squirtle.png/375px-0007Squirtle.png",
 		],
@@ -174,7 +174,7 @@ const pkmnDisponiveis = [
 		massa: 22.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 59,
+			ps: 59,
 			atq: 63,
 			def: 80,
 			atq_esp: 65,
@@ -198,13 +198,13 @@ const pkmnDisponiveis = [
 		massa: 85.5, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 79,
+			ps: 79,
 			atq: 83,
 			def: 100,
 			atq_esp: 85,
 			def_esp: 105,
 			vel: 78,
-		}, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		},
 		descricao:
 			"Um Pokémon brutal com jatos de água pressurizada em seu casco. São usados em investidas de alta velocidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
@@ -222,7 +222,7 @@ const pkmnDisponiveis = [
 		massa: 2.9, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 30,
 			def: 35,
 			atq_esp: 20,
@@ -246,7 +246,7 @@ const pkmnDisponiveis = [
 		massa: 9.9, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 20,
 			def: 55,
 			atq_esp: 25,
@@ -270,7 +270,7 @@ const pkmnDisponiveis = [
 		massa: 32.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 45,
 			def: 50,
 			atq_esp: 80,
@@ -294,7 +294,7 @@ const pkmnDisponiveis = [
 		massa: 3.2, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 35,
 			def: 30,
 			atq_esp: 20,
@@ -318,7 +318,7 @@ const pkmnDisponiveis = [
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 25,
 			def: 50,
 			atq_esp: 25,
@@ -342,7 +342,7 @@ const pkmnDisponiveis = [
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 80,
 			def: 40,
 			atq_esp: 45,
@@ -366,7 +366,7 @@ const pkmnDisponiveis = [
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 45,
 			def: 40,
 			atq_esp: 35,
@@ -390,7 +390,7 @@ const pkmnDisponiveis = [
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 63,
+			ps: 63,
 			atq: 60,
 			def: 55,
 			atq_esp: 50,
@@ -414,7 +414,7 @@ const pkmnDisponiveis = [
 		massa: 39.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 83,
+			ps: 83,
 			atq: 80,
 			def: 75,
 			atq_esp: 70,
@@ -422,7 +422,7 @@ const pkmnDisponiveis = [
 			vel: 91,
 		},
 		descricao:
-			"Quando caça, desliza na superfície da água em alta velocidade para pegar presas desavisadas, como Magikarp.", // considerando a dex da primeira geração que apareceu
+			"Quando caça, desliza na superfície da água em alta velocidade para pegar presas desavisadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -438,7 +438,7 @@ const pkmnDisponiveis = [
 		massa: 3.5, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 56,
 			def: 35,
 			atq_esp: 25,
@@ -462,7 +462,7 @@ const pkmnDisponiveis = [
 		massa: 18.5, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 81,
 			def: 60,
 			atq_esp: 50,
@@ -486,7 +486,7 @@ const pkmnDisponiveis = [
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 60,
 			def: 30,
 			atq_esp: 31,
@@ -510,7 +510,7 @@ const pkmnDisponiveis = [
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 90,
 			def: 65,
 			atq_esp: 61,
@@ -534,7 +534,7 @@ const pkmnDisponiveis = [
 		massa: 6.9, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 60,
 			def: 44,
 			atq_esp: 40,
@@ -558,7 +558,7 @@ const pkmnDisponiveis = [
 		massa: 65.0, // em kg
 		altura: 3.5, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 85,
 			def: 69,
 			atq_esp: 65,
@@ -569,7 +569,7 @@ const pkmnDisponiveis = [
 			"Rumores dizem que as marcas de sua barriga mudam de área para área.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cobra",
 		lendario: false,
-		obtencao: "Rotas 23; e Caverna de Cerulean",
+		obtencao: "Rota 23; e Caverna de Cerulean",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/5/51/0024Arbok.png/375px-0024Arbok.png",
 		],
@@ -582,7 +582,7 @@ const pkmnDisponiveis = [
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 55,
 			def: 30,
 			atq_esp: 50,
@@ -606,7 +606,7 @@ const pkmnDisponiveis = [
 		massa: 30.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 90,
 			def: 55,
 			atq_esp: 90,
@@ -630,7 +630,7 @@ const pkmnDisponiveis = [
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 75,
 			def: 85,
 			atq_esp: 20,
@@ -654,7 +654,7 @@ const pkmnDisponiveis = [
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 100,
 			def: 110,
 			atq_esp: 45,
@@ -678,7 +678,7 @@ const pkmnDisponiveis = [
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 47,
 			def: 52,
 			atq_esp: 40,
@@ -702,7 +702,7 @@ const pkmnDisponiveis = [
 		massa: 20.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 62,
 			def: 67,
 			atq_esp: 55,
@@ -726,7 +726,7 @@ const pkmnDisponiveis = [
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 82,
 			def: 87,
 			atq_esp: 75,
@@ -750,7 +750,7 @@ const pkmnDisponiveis = [
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 46,
+			ps: 46,
 			atq: 57,
 			def: 40,
 			atq_esp: 40,
@@ -774,7 +774,7 @@ const pkmnDisponiveis = [
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 61,
+			ps: 61,
 			atq: 72,
 			def: 57,
 			atq_esp: 55,
@@ -798,7 +798,7 @@ const pkmnDisponiveis = [
 		massa: 62.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 81,
+			ps: 81,
 			atq: 92,
 			def: 77,
 			atq_esp: 85,
@@ -822,7 +822,7 @@ const pkmnDisponiveis = [
 		massa: 7.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 45,
 			def: 48,
 			atq_esp: 60,
@@ -846,7 +846,7 @@ const pkmnDisponiveis = [
 		massa: 40.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 70,
 			def: 73,
 			atq_esp: 85,
@@ -854,7 +854,7 @@ const pkmnDisponiveis = [
 			vel: 60,
 		},
 		descricao:
-			"Um Pokémon Fada tímido que é raramente visto. Corre e se esconde no momento que sente uma pessoa por perto.", // considerando a dex da primeira geração que apareceu
+			"Um Pokémon fada tímido que é raramente visto. Corre e se esconde no momento que sente uma pessoa por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -870,7 +870,7 @@ const pkmnDisponiveis = [
 		massa: 9.9, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 38,
+			ps: 38,
 			atq: 41,
 			def: 40,
 			atq_esp: 50,
@@ -894,7 +894,7 @@ const pkmnDisponiveis = [
 		massa: 19.9, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 73,
+			ps: 73,
 			atq: 76,
 			def: 75,
 			atq_esp: 81,
@@ -918,7 +918,7 @@ const pkmnDisponiveis = [
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 115,
+			ps: 115,
 			atq: 45,
 			def: 20,
 			atq_esp: 45,
@@ -942,7 +942,7 @@ const pkmnDisponiveis = [
 		massa: 12.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 140,
+			ps: 140,
 			atq: 70,
 			def: 45,
 			atq_esp: 75,
@@ -966,7 +966,7 @@ const pkmnDisponiveis = [
 		massa: 7.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 45,
 			def: 35,
 			atq_esp: 30,
@@ -991,7 +991,7 @@ const pkmnDisponiveis = [
 		massa: 55.0, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 80,
 			def: 70,
 			atq_esp: 65,
@@ -1015,7 +1015,7 @@ const pkmnDisponiveis = [
 		massa: 5.4, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 50,
 			def: 55,
 			atq_esp: 75,
@@ -1026,7 +1026,7 @@ const pkmnDisponiveis = [
 			"Durante o dia, mantém seu rosto enterrado no chão. Durante a noite, vagueia semeando suas sementes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
 		lendario: false,
-		obtencao: "Rota 5, 6, 7, e outras",
+		obtencao: "Rotas 5, 6, 7, e outras",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0043Oddish.png/375px-0043Oddish.png",
 		],
@@ -1039,7 +1039,7 @@ const pkmnDisponiveis = [
 		massa: 8.6, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 65,
 			def: 70,
 			atq_esp: 85,
@@ -1050,7 +1050,7 @@ const pkmnDisponiveis = [
 			"O fluido que escorre de sua boca não é baba. É um néctar usado para atrair suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
 		lendario: false,
-		obtencao: "Rota 12, 13, 14, e outras; e Caverna de Cerulean",
+		obtencao: "Rotas 12, 13, 14, e outra; e Caverna de Cerulean",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e0/0044Gloom.png/375px-0044Gloom.png",
 		],
@@ -1063,7 +1063,7 @@ const pkmnDisponiveis = [
 		massa: 18.6, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 80,
 			def: 85,
 			atq_esp: 100,
@@ -1087,7 +1087,7 @@ const pkmnDisponiveis = [
 		massa: 5.4, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 70,
 			def: 55,
 			atq_esp: 45,
@@ -1111,7 +1111,7 @@ const pkmnDisponiveis = [
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 95,
 			def: 80,
 			atq_esp: 60,
@@ -1135,7 +1135,7 @@ const pkmnDisponiveis = [
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 55,
 			def: 50,
 			def_esp: 40,
@@ -1146,7 +1146,7 @@ const pkmnDisponiveis = [
 			"Vive nas sombras de árvores altas onde come insetos. É atraído por luzes durante a noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto",
 		lendario: false,
-		obtencao: "Rotas 12, 13, 14, e outra; e Zona Safari",
+		obtencao: "Rotas 12, 13, 14, e outras; e Zona Safari",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0049Venomoth.png/375px-0049Venomoth.png",
 		],
@@ -1159,7 +1159,7 @@ const pkmnDisponiveis = [
 		massa: 12.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 65,
 			def: 60,
 			atq_esp: 90,
@@ -1183,7 +1183,7 @@ const pkmnDisponiveis = [
 		massa: 0.8, // em kg
 		altura: 0.2, // em metros
 		estatistica: {
-			hp: 10,
+			ps: 10,
 			atq: 55,
 			def: 25,
 			atq_esp: 35,
@@ -1207,7 +1207,7 @@ const pkmnDisponiveis = [
 		massa: 33.3, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 80,
 			def: 50,
 			atq_esp: 50,
@@ -1230,7 +1230,7 @@ const pkmnDisponiveis = [
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 45,
 			def: 35,
 			atq_esp: 40,
@@ -1241,7 +1241,7 @@ const pkmnDisponiveis = [
 			"Gosta de objetos redondos. Vaga pelas ruas todas as noites procurando por trocados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arranha Gato",
 		lendario: false,
-		obtencao: "Rota 5, 6, 7, e outra",
+		obtencao: "Rotas 5, 6, 7, e outra",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/d/d6/0052Meowth.png/375px-0052Meowth.png",
 		],
@@ -1254,7 +1254,7 @@ const pkmnDisponiveis = [
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 70,
 			def: 60,
 			atq_esp: 65,
@@ -1278,7 +1278,7 @@ const pkmnDisponiveis = [
 		massa: 19.6, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 52,
 			def: 48,
 			atq_esp: 65,
@@ -1289,7 +1289,7 @@ const pkmnDisponiveis = [
 			"Enquanto engana seus oponentes com seu olhar distraído, este astuto Pokémon usa seus poderes psicocinéticos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
 		lendario: false,
-		obtencao: "Ilhas Espuma; rotas 6, 24, e 25; e Zona Safari",
+		obtencao: "Rotas 6, 24, e 25; Ilhas Espuma; e Zona Safari",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0054Psyduck.png/375px-0054Psyduck.png",
 		],
@@ -1302,7 +1302,7 @@ const pkmnDisponiveis = [
 		massa: 76.6, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 82,
 			def: 78,
 			atq_esp: 95,
@@ -1313,7 +1313,7 @@ const pkmnDisponiveis = [
 			"Frequentemente visto nadando elegantemente às marges de lagos. Muitas vezes confundido com a criatura japonesa, Kappa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
 		lendario: false,
-		obtencao: "Ilhas Espuma; e rota 6",
+		obtencao: "Rota 6; e Ilhas Espuma",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0055Golduck.png/375px-0055Golduck.png",
 		],
@@ -1326,7 +1326,7 @@ const pkmnDisponiveis = [
 		massa: 28.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 80,
 			def: 35,
 			atq_esp: 35,
@@ -1350,7 +1350,7 @@ const pkmnDisponiveis = [
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 105,
 			def: 60,
 			atq_esp: 60,
@@ -1374,7 +1374,7 @@ const pkmnDisponiveis = [
 		massa: 19.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 70,
 			def: 45,
 			atq_esp: 70,
@@ -1398,13 +1398,13 @@ const pkmnDisponiveis = [
 		massa: 155.0, // em kg
 		altura: 1.9, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 110,
 			def: 80,
 			atq_esp: 100,
 			def_esp: 80,
 			vel: 95,
-		}, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		},
 		descricao:
 			"Um Pokémon que tem sido admirado por sua beleza. Corre com agilidade como se tivesse asas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lendário",
@@ -1422,7 +1422,7 @@ const pkmnDisponiveis = [
 		massa: 12.4, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 50,
 			def: 40,
 			atq_esp: 40,
@@ -1434,7 +1434,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Girino",
 		lendario: false,
 		obtencao:
-			"Rota 6, 10, 11, e outras; Caverna de Cerulean; Zona Safari; Ilhas Espuma; e Planalto Índigo",
+			"Rotas 6, 10, 11, e outras; Caverna de Cerulean; Zona Safari; Ilhas Espuma; e Planalto Índigo",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0060Poliwag.png/375px-0060Poliwag.png",
 		],
@@ -1447,7 +1447,7 @@ const pkmnDisponiveis = [
 		massa: 20.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 65,
 			def: 65,
 			atq_esp: 50,
@@ -1471,7 +1471,7 @@ const pkmnDisponiveis = [
 		massa: 54.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 85,
 			def: 95,
 			atq_esp: 70,
@@ -1495,7 +1495,7 @@ const pkmnDisponiveis = [
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 25,
+			ps: 25,
 			atq: 20,
 			def: 15,
 			atq_esp: 105,
@@ -1519,7 +1519,7 @@ const pkmnDisponiveis = [
 		massa: 56.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 35,
 			def: 30,
 			atq_esp: 120,
@@ -1543,7 +1543,7 @@ const pkmnDisponiveis = [
 		massa: 48.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 50,
 			def: 45,
 			atq_esp: 135,
@@ -1567,7 +1567,7 @@ const pkmnDisponiveis = [
 		massa: 19.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 80,
 			def: 50,
 			atq_esp: 35,
@@ -1575,7 +1575,7 @@ const pkmnDisponiveis = [
 			vel: 35,
 		},
 		descricao:
-			"Adora de construir seu músculos. Treina em todos os estilos de artes marciais para se tornar mais forte.", // considerando a dex da primeira geração que apareceu
+			"Gosta de construir seu músculos. Treina em todos os estilos de artes marciais para se tornar mais forte.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
 		lendario: false,
 		obtencao: "Rota 10; Túnel de Rocha; e Estrada da Vitória",
@@ -1591,7 +1591,7 @@ const pkmnDisponiveis = [
 		massa: 70.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 100,
 			def: 70,
 			atq_esp: 50,
@@ -1615,7 +1615,7 @@ const pkmnDisponiveis = [
 		massa: 130.0, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 130,
 			def: 80,
 			atq_esp: 65,
@@ -1639,7 +1639,7 @@ const pkmnDisponiveis = [
 		massa: 4.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 75,
 			def: 35,
 			atq_esp: 70,
@@ -1663,7 +1663,7 @@ const pkmnDisponiveis = [
 		massa: 6.4, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 90,
 			def: 50,
 			atq_esp: 85,
@@ -1674,7 +1674,7 @@ const pkmnDisponiveis = [
 			"Expele Pó de Veneno para imobilizar seu adversário e então finaliza com um spray de Ácido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mata-Moscas",
 		lendario: false,
-		obtencao: "Rota 12, 13, 14, e outras; e Caverna de Cerulean",
+		obtencao: "Rotas 12, 13, 14, e outra; e Caverna de Cerulean",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/c/c1/0070Weepinbell.png/375px-0070Weepinbell.png",
 		],
@@ -1687,7 +1687,7 @@ const pkmnDisponiveis = [
 		massa: 15.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 105,
 			def: 65,
 			atq_esp: 100,
@@ -1711,7 +1711,7 @@ const pkmnDisponiveis = [
 		massa: 45.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 40,
 			def: 35,
 			atq_esp: 50,
@@ -1735,7 +1735,7 @@ const pkmnDisponiveis = [
 		massa: 55.5, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 70,
 			def: 65,
 			atq_esp: 80,
@@ -1743,7 +1743,7 @@ const pkmnDisponiveis = [
 			vel: 100,
 		},
 		descricao:
-			"Os tentáculos são normalmente mantidos curtos. Nas caçadas, os tentáculos são estendidos para enredar e imobilizar presas", // considerando a dex da primeira geração que apareceu
+			"Os tentáculos são normalmente mantidos curtos. Nas caçadas, os tentáculos são estendidos para enredar e imobilizar presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Água-Viva",
 		lendario: false,
 		obtencao: "Rotas 19, 20, e 21",
@@ -1759,7 +1759,7 @@ const pkmnDisponiveis = [
 		massa: 20.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 80,
 			def: 100,
 			atq_esp: 30,
@@ -1783,7 +1783,7 @@ const pkmnDisponiveis = [
 		massa: 105.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 95,
 			def: 115,
 			atq_esp: 45,
@@ -1791,7 +1791,7 @@ const pkmnDisponiveis = [
 			vel: 35,
 		},
 		descricao:
-			"Rola para se mover. Rola sobre qualquer obstáculo sem diminuir a velocidade ou muda sua direção", // considerando a dex da primeira geração que apareceu
+			"Rola para se mover. Rola sobre qualquer obstáculo sem diminuir a velocidade ou muda sua direção.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
 		lendario: false,
 		obtencao: "Estrada da Vitória; e Caverna de Cerulean",
@@ -1807,7 +1807,7 @@ const pkmnDisponiveis = [
 		massa: 300.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 110,
 			def: 130,
 			atq_esp: 55,
@@ -1831,7 +1831,7 @@ const pkmnDisponiveis = [
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 85,
 			def: 55,
 			atq_esp: 65,
@@ -1855,7 +1855,7 @@ const pkmnDisponiveis = [
 		massa: 95.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 100,
 			def: 70,
 			atq_esp: 80,
@@ -1879,7 +1879,7 @@ const pkmnDisponiveis = [
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 65,
 			def: 65,
 			atq_esp: 40,
@@ -1890,7 +1890,7 @@ const pkmnDisponiveis = [
 			"Incrivelmente lento. Demora cinco segundos para sentir dor quando atacado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atordoado",
 		lendario: false,
-		obtencao: "Ilhas Espuma; rotas 10, 12, e 13; e Zona Safari",
+		obtencao: "Rotas 10, 12, e 13; Ilhas Espuma; e Zona Safari",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0079Slowpoke.png/375px-0079Slowpoke.png",
 		],
@@ -1903,7 +1903,7 @@ const pkmnDisponiveis = [
 		massa: 78.5, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 75,
 			def: 110,
 			atq_esp: 100,
@@ -1927,7 +1927,7 @@ const pkmnDisponiveis = [
 		massa: 6.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 25,
+			ps: 25,
 			atq: 35,
 			def: 70,
 			atq_esp: 95,
@@ -1951,7 +1951,7 @@ const pkmnDisponiveis = [
 		massa: 60.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 60,
 			def: 95,
 			atq_esp: 120,
@@ -1975,7 +1975,7 @@ const pkmnDisponiveis = [
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 52,
+			ps: 52,
 			atq: 65,
 			def: 55,
 			atq_esp: 58,
@@ -1999,7 +1999,7 @@ const pkmnDisponiveis = [
 		massa: 39.2, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 85,
 			def: 45,
 			atq_esp: 35,
@@ -2023,7 +2023,7 @@ const pkmnDisponiveis = [
 		massa: 85.2, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 110,
 			def: 70,
 			atq_esp: 60,
@@ -2034,7 +2034,7 @@ const pkmnDisponiveis = [
 			"Usa seus três cérebros para executar planos complexos. Enquanto duas cabeças dormem, uma cabeça permanece acordada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Triplo",
 		lendario: false,
-		obtencao: "Caverna de Cerulean; e rota 17",
+		obtencao: "Rota 17; e Caverna de Cerulean",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0085Dodrio.png/375px-0085Dodrio.png",
 		],
@@ -2047,7 +2047,7 @@ const pkmnDisponiveis = [
 		massa: 90.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 45,
 			def: 55,
 			atq_esp: 45,
@@ -2071,7 +2071,7 @@ const pkmnDisponiveis = [
 		massa: 120.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 70,
 			def: 80,
 			atq_esp: 70,
@@ -2095,7 +2095,7 @@ const pkmnDisponiveis = [
 		massa: 30.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 80,
 			def: 50,
 			atq_esp: 40,
@@ -2119,7 +2119,7 @@ const pkmnDisponiveis = [
 		massa: 30.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 105,
+			ps: 105,
 			atq: 105,
 			def: 75,
 			atq_esp: 65,
@@ -2143,7 +2143,7 @@ const pkmnDisponiveis = [
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 65,
 			def: 100,
 			atq_esp: 45,
@@ -2167,7 +2167,7 @@ const pkmnDisponiveis = [
 		massa: 132.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 95,
 			def: 180,
 			atq_esp: 85,
@@ -2191,12 +2191,12 @@ const pkmnDisponiveis = [
 		massa: 0.1, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 35,
 			def: 30,
 			atq_esp: 100,
 			def_esp: 35,
-			vel: 70,
+			vel: 80,
 		},
 		descricao:
 			"Quase invisível, este Pokémon gasoso envolve o alvo e o põe para dormir sem que perceba.", // considerando a dex da primeira geração que apareceu
@@ -2215,7 +2215,7 @@ const pkmnDisponiveis = [
 		massa: 0.1, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 50,
 			def: 45,
 			atq_esp: 115,
@@ -2239,7 +2239,7 @@ const pkmnDisponiveis = [
 		massa: 40.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 65,
 			def: 60,
 			atq_esp: 130,
@@ -2263,13 +2263,13 @@ const pkmnDisponiveis = [
 		massa: 210.0, // em kg
 		altura: 8.8, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 45,
 			def: 160,
 			atq_esp: 30,
 			def_esp: 45,
 			vel: 70,
-		}, // HP, ataque, defesa, ataque esp., defesa esp., veloc.
+		},
 		descricao:
 			"A medida que cresce, as porções de rocha de seu corpo endurecem para se tornarem semelhante a diamante, mas de cor preta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Pedra",
@@ -2287,7 +2287,7 @@ const pkmnDisponiveis = [
 		massa: 32.4, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 48,
 			def: 45,
 			atq_esp: 43,
@@ -2311,7 +2311,7 @@ const pkmnDisponiveis = [
 		massa: 75.6, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 73,
 			def: 70,
 			atq_esp: 73,
@@ -2335,7 +2335,7 @@ const pkmnDisponiveis = [
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 105,
 			def: 90,
 			atq_esp: 25,
@@ -2346,7 +2346,7 @@ const pkmnDisponiveis = [
 			"Suas pinças não são só poderosas armas, são usadas para equilíbrio quando está andando de lado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo de Rio",
 		lendario: false,
-		obtencao: "Rotas 6, 11, 12, e outras; Zona Safari; e Ilhas Espuma",
+		obtencao: "Rotas 6, 10, 11, e outras; Zona Safari; e Ilhas Espuma",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0098Krabby.png/375px-0098Krabby.png",
 		],
@@ -2359,7 +2359,7 @@ const pkmnDisponiveis = [
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 130,
 			def: 115,
 			atq_esp: 50,
@@ -2383,7 +2383,7 @@ const pkmnDisponiveis = [
 		massa: 10.4, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 30,
 			def: 50,
 			atq_esp: 55,
@@ -2407,7 +2407,7 @@ const pkmnDisponiveis = [
 		massa: 66.6, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 50,
 			def: 70,
 			atq_esp: 80,
@@ -2431,7 +2431,7 @@ const pkmnDisponiveis = [
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 40,
 			def: 80,
 			atq_esp: 60,
@@ -2455,7 +2455,7 @@ const pkmnDisponiveis = [
 		massa: 120.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 95,
 			def: 85,
 			atq_esp: 125,
@@ -2479,7 +2479,7 @@ const pkmnDisponiveis = [
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 50,
 			def: 95,
 			atq_esp: 40,
@@ -2503,7 +2503,7 @@ const pkmnDisponiveis = [
 		massa: 45.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 80,
 			def: 110,
 			atq_esp: 50,
@@ -2527,7 +2527,7 @@ const pkmnDisponiveis = [
 		massa: 49.8, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 120,
 			def: 53,
 			atq_esp: 35,
@@ -2551,7 +2551,7 @@ const pkmnDisponiveis = [
 		massa: 50.2, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 105,
 			def: 79,
 			atq_esp: 35,
@@ -2575,7 +2575,7 @@ const pkmnDisponiveis = [
 		massa: 65.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 55,
 			def: 75,
 			atq_esp: 60,
@@ -2599,7 +2599,7 @@ const pkmnDisponiveis = [
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 65,
 			def: 95,
 			atq_esp: 60,
@@ -2623,7 +2623,7 @@ const pkmnDisponiveis = [
 		massa: 9.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 90,
 			def: 120,
 			atq_esp: 85,
@@ -2647,7 +2647,7 @@ const pkmnDisponiveis = [
 		massa: 115.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 85,
 			def: 95,
 			atq_esp: 30,
@@ -2671,7 +2671,7 @@ const pkmnDisponiveis = [
 		massa: 120.0, // em kg
 		altura: 1.9, // em metros
 		estatistica: {
-			hp: 105,
+			ps: 105,
 			atq: 130,
 			def: 120,
 			atq_esp: 45,
@@ -2695,7 +2695,7 @@ const pkmnDisponiveis = [
 		massa: 34.6, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 250,
+			ps: 250,
 			atq: 5,
 			def: 5,
 			atq_esp: 35,
@@ -2719,7 +2719,7 @@ const pkmnDisponiveis = [
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 55,
 			def: 115,
 			atq_esp: 100,
@@ -2743,7 +2743,7 @@ const pkmnDisponiveis = [
 		massa: 80.0, // em kg
 		altura: 2.2, // em metros
 		estatistica: {
-			hp: 105,
+			ps: 105,
 			atq: 95,
 			def: 80,
 			atq_esp: 40,
@@ -2767,7 +2767,7 @@ const pkmnDisponiveis = [
 		massa: 8.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 40,
 			def: 70,
 			atq_esp: 70,
@@ -2791,7 +2791,7 @@ const pkmnDisponiveis = [
 		massa: 25.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 65,
 			def: 95,
 			atq_esp: 95,
@@ -2802,7 +2802,7 @@ const pkmnDisponiveis = [
 			"Capaz de nadar para trás, batendo rapidamente a cauda robusta e suas barbatanas peitorais em forma de asa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		lendario: false,
-		obtencao: "Ilhas Espuma; rotas 12, 13, e 23; e Caverna de Cerulean",
+		obtencao: "Rotas 12, 13, e 23; Ilhas Espuma; e Caverna de Cerulean",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0117Seadra.png/375px-0117Seadra.png",
 		],
@@ -2815,7 +2815,7 @@ const pkmnDisponiveis = [
 		massa: 15.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 67,
 			def: 60,
 			atq_esp: 35,
@@ -2840,7 +2840,7 @@ const pkmnDisponiveis = [
 		massa: 39.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 92,
 			def: 65,
 			atq_esp: 65,
@@ -2864,7 +2864,7 @@ const pkmnDisponiveis = [
 		massa: 34.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 45,
 			def: 55,
 			atq_esp: 70,
@@ -2875,7 +2875,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon enigmático que regenera sem esforço qualquer apêndice que perca em batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Estrelada",
 		lendario: false,
-		obtencao: "Ilhas Espuma; e rotas 19, 20, e 21",
+		obtencao: "Rotas 19, 20, e 21; e Ilhas Espuma",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0120Staryu.png/375px-0120Staryu.png",
 		],
@@ -2888,7 +2888,7 @@ const pkmnDisponiveis = [
 		massa: 80.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 75,
 			def: 85,
 			atq_esp: 100,
@@ -2912,7 +2912,7 @@ const pkmnDisponiveis = [
 		massa: 54.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 45,
 			def: 65,
 			atq_esp: 100,
@@ -2936,7 +2936,7 @@ const pkmnDisponiveis = [
 		massa: 56.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 110,
 			def: 80,
 			atq_esp: 55,
@@ -2960,7 +2960,7 @@ const pkmnDisponiveis = [
 		massa: 40.6, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 50,
 			def: 35,
 			atq_esp: 115,
@@ -2984,7 +2984,7 @@ const pkmnDisponiveis = [
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 83,
 			def: 57,
 			atq_esp: 95,
@@ -3008,7 +3008,7 @@ const pkmnDisponiveis = [
 		massa: 44.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 95,
 			def: 57,
 			atq_esp: 100,
@@ -3032,7 +3032,7 @@ const pkmnDisponiveis = [
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 125,
 			def: 100,
 			atq_esp: 55,
@@ -3056,7 +3056,7 @@ const pkmnDisponiveis = [
 		massa: 88.4, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 100,
 			def: 95,
 			atq_esp: 40,
@@ -3064,7 +3064,7 @@ const pkmnDisponiveis = [
 			vel: 110,
 		},
 		descricao:
-			"Quando mira em um inimigo, investe furiosamente enquanto chicoteia seu corpo com suas  longas caudas.", // considerando a dex da primeira geração que apareceu
+			"Quando mira em um inimigo, investe furiosamente enquanto chicoteia seu corpo com suas longas caudas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Touro Selvagem",
 		lendario: false,
 		obtencao: "Zona Safari",
@@ -3080,7 +3080,7 @@ const pkmnDisponiveis = [
 		massa: 10.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 20,
+			ps: 20,
 			atq: 10,
 			def: 55,
 			atq_esp: 15,
@@ -3105,7 +3105,7 @@ const pkmnDisponiveis = [
 		massa: 235.0, // em kg
 		altura: 6.5, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 125,
 			def: 79,
 			atq_esp: 60,
@@ -3113,7 +3113,7 @@ const pkmnDisponiveis = [
 			vel: 81,
 		},
 		descricao:
-			"Raramente é visto na natureza. Enorme e cruel, é capaz de destruir cidades inteiras em um ataque de raiva.", // considerando a dex da primeira geração que apareceu
+			"Raramente visto na natureza. Enorme e cruel, é capaz de destruir cidades inteiras em um ataque de raiva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atrocidade",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -3129,7 +3129,7 @@ const pkmnDisponiveis = [
 		massa: 220.0, // em kg
 		altura: 2.5, // em metros
 		estatistica: {
-			hp: 130,
+			ps: 130,
 			atq: 85,
 			def: 80,
 			atq_esp: 85,
@@ -3153,7 +3153,7 @@ const pkmnDisponiveis = [
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 48,
+			ps: 48,
 			atq: 48,
 			def: 48,
 			atq_esp: 48,
@@ -3165,7 +3165,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Transformação",
 		lendario: false,
 		obtencao:
-			"Rotas 13, 14, 15, e outras; Túnel de Rocha; Mansão Pokémon; e Caverna de Cerulean",
+			"Rotas 13, 14, 15, e outra; Túnel de Rocha; Mansão Pokémon; e Caverna de Cerulean",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/2/25/0132Ditto.png/375px-0132Ditto.png",
 		],
@@ -3178,7 +3178,7 @@ const pkmnDisponiveis = [
 		massa: 6.5, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 55,
 			def: 50,
 			atq_esp: 45,
@@ -3189,7 +3189,7 @@ const pkmnDisponiveis = [
 			"Seu código genético é irregular. Pode sofrer mutação caso seja exposto a radiação de Pedras elementais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Evolução",
 		lendario: false,
-		obtencao: "Recebido de uma pessoa na Mansão Celadon",
+		obtencao: "Recebido na Mansão Celadon",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0133Eevee.png/375px-0133Eevee.png",
 		],
@@ -3202,7 +3202,7 @@ const pkmnDisponiveis = [
 		massa: 29.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 130,
+			ps: 130,
 			atq: 65,
 			def: 60,
 			atq_esp: 110,
@@ -3226,7 +3226,7 @@ const pkmnDisponiveis = [
 		massa: 24.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 65,
 			def: 60,
 			atq_esp: 110,
@@ -3250,7 +3250,7 @@ const pkmnDisponiveis = [
 		massa: 25.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 130,
 			def: 60,
 			atq_esp: 95,
@@ -3274,7 +3274,7 @@ const pkmnDisponiveis = [
 		massa: 36.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 60,
 			def: 70,
 			atq_esp: 85,
@@ -3285,7 +3285,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que consiste inteiramente de código de programação. Capaz de se mover livremente no espaço cibernético.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
 		lendario: false,
-		obtencao: "Casino da Cidade de Celadon",
+		obtencao: "Casino Rocket",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/8/8e/0137Porygon.png/375px-0137Porygon.png",
 		],
@@ -3298,7 +3298,7 @@ const pkmnDisponiveis = [
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 40,
 			def: 100,
 			atq_esp: 90,
@@ -3322,7 +3322,7 @@ const pkmnDisponiveis = [
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 60,
 			def: 125,
 			atq_esp: 115,
@@ -3346,7 +3346,7 @@ const pkmnDisponiveis = [
 		massa: 11.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 80,
 			def: 90,
 			atq_esp: 55,
@@ -3370,7 +3370,7 @@ const pkmnDisponiveis = [
 		massa: 40.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 115,
 			def: 105,
 			atq_esp: 65,
@@ -3394,7 +3394,7 @@ const pkmnDisponiveis = [
 		massa: 59.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 105,
 			def: 65,
 			atq_esp: 60,
@@ -3418,7 +3418,7 @@ const pkmnDisponiveis = [
 		massa: 460.0, // em kg
 		altura: 2.1, // em metros
 		estatistica: {
-			hp: 160,
+			ps: 160,
 			atq: 110,
 			def: 65,
 			atq_esp: 65,
@@ -3442,7 +3442,7 @@ const pkmnDisponiveis = [
 		massa: 55.4, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 85,
 			def: 100,
 			atq_esp: 95,
@@ -3466,7 +3466,7 @@ const pkmnDisponiveis = [
 		massa: 52.6, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 90,
 			def: 85,
 			atq_esp: 125,
@@ -3490,7 +3490,7 @@ const pkmnDisponiveis = [
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 100,
 			def: 90,
 			atq_esp: 125,
@@ -3514,7 +3514,7 @@ const pkmnDisponiveis = [
 		massa: 3.3, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 41,
+			ps: 41,
 			atq: 64,
 			def: 45,
 			atq_esp: 50,
@@ -3538,7 +3538,7 @@ const pkmnDisponiveis = [
 		massa: 16.5, // em kg
 		altura: 4.0, // em metros
 		estatistica: {
-			hp: 61,
+			ps: 61,
 			atq: 84,
 			def: 65,
 			atq_esp: 70,
@@ -3562,7 +3562,7 @@ const pkmnDisponiveis = [
 		massa: 210.0, // em kg
 		altura: 2.2, // em metros
 		estatistica: {
-			hp: 91,
+			ps: 91,
 			atq: 134,
 			def: 95,
 			atq_esp: 100,
@@ -3586,7 +3586,7 @@ const pkmnDisponiveis = [
 		massa: 122.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 106,
+			ps: 106,
 			atq: 110,
 			def: 90,
 			atq_esp: 154,
@@ -3610,7 +3610,7 @@ const pkmnDisponiveis = [
 		massa: 4.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 100,
 			atq_esp: 100,
@@ -3634,7 +3634,7 @@ const pkmnDisponiveis = [
 		massa: 6.4, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 49,
 			def: 65,
 			atq_esp: 49,
@@ -3658,7 +3658,7 @@ const pkmnDisponiveis = [
 		massa: 15.8, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 62,
 			def: 80,
 			atq_esp: 63,
@@ -3682,7 +3682,7 @@ const pkmnDisponiveis = [
 		massa: 100.5, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 82,
 			def: 100,
 			atq_esp: 83,
@@ -3706,7 +3706,7 @@ const pkmnDisponiveis = [
 		massa: 7.9, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 39,
+			ps: 39,
 			atq: 52,
 			def: 43,
 			atq_esp: 60,
@@ -3730,7 +3730,7 @@ const pkmnDisponiveis = [
 		massa: 19.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 58,
+			ps: 58,
 			atq: 64,
 			def: 58,
 			atq_esp: 80,
@@ -3754,7 +3754,7 @@ const pkmnDisponiveis = [
 		massa: 79.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 78,
+			ps: 78,
 			atq: 84,
 			def: 78,
 			atq_esp: 109,
@@ -3778,7 +3778,7 @@ const pkmnDisponiveis = [
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 65,
 			def: 64,
 			atq_esp: 44,
@@ -3802,7 +3802,7 @@ const pkmnDisponiveis = [
 		massa: 25.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 80,
 			def: 80,
 			atq_esp: 59,
@@ -3826,7 +3826,7 @@ const pkmnDisponiveis = [
 		massa: 88.8, // em kg
 		altura: 2.3, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 105,
 			def: 100,
 			atq_esp: 79,
@@ -3850,7 +3850,7 @@ const pkmnDisponiveis = [
 		massa: 6.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 46,
 			def: 34,
 			atq_esp: 35,
@@ -3874,7 +3874,7 @@ const pkmnDisponiveis = [
 		massa: 32.5, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 76,
 			def: 64,
 			atq_esp: 45,
@@ -3898,7 +3898,7 @@ const pkmnDisponiveis = [
 		massa: 21.2, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 30,
 			def: 30,
 			atq_esp: 36,
@@ -3923,7 +3923,7 @@ const pkmnDisponiveis = [
 		massa: 40.8, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 50,
 			def: 50,
 			atq_esp: 76,
@@ -3947,7 +3947,7 @@ const pkmnDisponiveis = [
 		massa: 10.8, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 20,
 			def: 30,
 			atq_esp: 40,
@@ -3971,7 +3971,7 @@ const pkmnDisponiveis = [
 		massa: 35.6, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 35,
 			def: 50,
 			atq_esp: 55,
@@ -3995,7 +3995,7 @@ const pkmnDisponiveis = [
 		massa: 8.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 60,
 			def: 40,
 			atq_esp: 40,
@@ -4019,7 +4019,7 @@ const pkmnDisponiveis = [
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 90,
 			def: 70,
 			atq_esp: 60,
@@ -4043,7 +4043,7 @@ const pkmnDisponiveis = [
 		massa: 75.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 90,
 			def: 80,
 			atq_esp: 70,
@@ -4067,7 +4067,7 @@ const pkmnDisponiveis = [
 		massa: 12.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 38,
 			def: 38,
 			atq_esp: 56,
@@ -4091,7 +4091,7 @@ const pkmnDisponiveis = [
 		massa: 22.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 125,
+			ps: 125,
 			atq: 58,
 			def: 58,
 			atq_esp: 76,
@@ -4115,7 +4115,7 @@ const pkmnDisponiveis = [
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 20,
+			ps: 20,
 			atq: 40,
 			def: 15,
 			atq_esp: 35,
@@ -4139,7 +4139,7 @@ const pkmnDisponiveis = [
 		massa: 3.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 25,
 			def: 28,
 			atq_esp: 45,
@@ -4163,7 +4163,7 @@ const pkmnDisponiveis = [
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 30,
 			def: 15,
 			atq_esp: 40,
@@ -4187,7 +4187,7 @@ const pkmnDisponiveis = [
 		massa: 1.5, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 20,
 			def: 65,
 			atq_esp: 40,
@@ -4211,7 +4211,7 @@ const pkmnDisponiveis = [
 		massa: 3.2, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 40,
 			def: 85,
 			atq_esp: 80,
@@ -4235,7 +4235,7 @@ const pkmnDisponiveis = [
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 50,
 			def: 45,
 			atq_esp: 70,
@@ -4259,7 +4259,7 @@ const pkmnDisponiveis = [
 		massa: 15.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 75,
 			def: 70,
 			atq_esp: 95,
@@ -4283,7 +4283,7 @@ const pkmnDisponiveis = [
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 40,
 			def: 40,
 			atq_esp: 65,
@@ -4307,7 +4307,7 @@ const pkmnDisponiveis = [
 		massa: 13.3, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 55,
 			def: 55,
 			atq_esp: 80,
@@ -4331,7 +4331,7 @@ const pkmnDisponiveis = [
 		massa: 61.5, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 75,
 			def: 75,
 			atq_esp: 115,
@@ -4355,7 +4355,7 @@ const pkmnDisponiveis = [
 		massa: 5.8, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 80,
 			def: 85,
 			atq_esp: 90,
@@ -4379,7 +4379,7 @@ const pkmnDisponiveis = [
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 20,
 			def: 50,
 			atq_esp: 20,
@@ -4403,7 +4403,7 @@ const pkmnDisponiveis = [
 		massa: 28.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 50,
 			def: 80,
 			atq_esp: 50,
@@ -4427,7 +4427,7 @@ const pkmnDisponiveis = [
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 100,
 			def: 115,
 			atq_esp: 30,
@@ -4451,7 +4451,7 @@ const pkmnDisponiveis = [
 		massa: 33.9, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 75,
 			def: 75,
 			atq_esp: 90,
@@ -4475,7 +4475,7 @@ const pkmnDisponiveis = [
 		massa: 0.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 35,
 			def: 40,
 			atq_esp: 35,
@@ -4499,7 +4499,7 @@ const pkmnDisponiveis = [
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 45,
 			def: 50,
 			atq_esp: 45,
@@ -4523,7 +4523,7 @@ const pkmnDisponiveis = [
 		massa: 3.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 55,
 			def: 70,
 			atq_esp: 55,
@@ -4547,7 +4547,7 @@ const pkmnDisponiveis = [
 		massa: 11.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 70,
 			def: 55,
 			atq_esp: 40,
@@ -4571,7 +4571,7 @@ const pkmnDisponiveis = [
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 30,
 			def: 30,
 			atq_esp: 30,
@@ -4595,7 +4595,7 @@ const pkmnDisponiveis = [
 		massa: 8.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 75,
 			def: 55,
 			atq_esp: 105,
@@ -4619,7 +4619,7 @@ const pkmnDisponiveis = [
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 65,
 			def: 45,
 			atq_esp: 75,
@@ -4643,7 +4643,7 @@ const pkmnDisponiveis = [
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 45,
 			def: 45,
 			atq_esp: 25,
@@ -4667,7 +4667,7 @@ const pkmnDisponiveis = [
 		massa: 75.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 85,
 			def: 85,
 			atq_esp: 65,
@@ -4692,7 +4692,7 @@ const pkmnDisponiveis = [
 		massa: 26.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 65,
 			def: 60,
 			atq_esp: 130,
@@ -4716,7 +4716,7 @@ const pkmnDisponiveis = [
 		massa: 27.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 65,
 			def: 110,
 			atq_esp: 60,
@@ -4740,7 +4740,7 @@ const pkmnDisponiveis = [
 		massa: 2.1, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 85,
 			def: 42,
 			atq_esp: 85,
@@ -4764,7 +4764,7 @@ const pkmnDisponiveis = [
 		massa: 79.5, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 75,
 			def: 80,
 			atq_esp: 100,
@@ -4788,7 +4788,7 @@ const pkmnDisponiveis = [
 		massa: 1.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 60,
 			def: 60,
 			atq_esp: 85,
@@ -4812,7 +4812,7 @@ const pkmnDisponiveis = [
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 48,
+			ps: 48,
 			atq: 72,
 			def: 48,
 			atq_esp: 72,
@@ -4863,7 +4863,7 @@ const pkmnDisponiveis = [
 		massa: 28.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 190,
+			ps: 190,
 			atq: 33,
 			def: 58,
 			atq_esp: 33,
@@ -4887,7 +4887,7 @@ const pkmnDisponiveis = [
 		massa: 41.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 80,
 			def: 65,
 			atq_esp: 90,
@@ -4911,7 +4911,7 @@ const pkmnDisponiveis = [
 		massa: 7.2, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 65,
 			def: 90,
 			atq_esp: 35,
@@ -4935,7 +4935,7 @@ const pkmnDisponiveis = [
 		massa: 125.8, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 90,
 			def: 140,
 			atq_esp: 60,
@@ -4959,7 +4959,7 @@ const pkmnDisponiveis = [
 		massa: 14.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 70,
 			def: 70,
 			atq_esp: 65,
@@ -4983,7 +4983,7 @@ const pkmnDisponiveis = [
 		massa: 64.8, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 75,
 			def: 105,
 			atq_esp: 35,
@@ -5007,7 +5007,7 @@ const pkmnDisponiveis = [
 		massa: 400.0, // em kg
 		altura: 9.2, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 85,
 			def: 200,
 			atq_esp: 55,
@@ -5031,7 +5031,7 @@ const pkmnDisponiveis = [
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 80,
 			def: 50,
 			atq_esp: 40,
@@ -5055,7 +5055,7 @@ const pkmnDisponiveis = [
 		massa: 48.7, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 120,
 			def: 75,
 			atq_esp: 60,
@@ -5079,7 +5079,7 @@ const pkmnDisponiveis = [
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 95,
 			def: 75,
 			atq_esp: 55,
@@ -5103,7 +5103,7 @@ const pkmnDisponiveis = [
 		massa: 118.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 130,
 			def: 100,
 			atq_esp: 55,
@@ -5127,7 +5127,7 @@ const pkmnDisponiveis = [
 		massa: 20.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 20,
+			ps: 20,
 			atq: 10,
 			def: 230,
 			atq_esp: 10,
@@ -5151,7 +5151,7 @@ const pkmnDisponiveis = [
 		massa: 54.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 125,
 			def: 75,
 			atq_esp: 40,
@@ -5175,7 +5175,7 @@ const pkmnDisponiveis = [
 		massa: 28.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 95,
 			def: 55,
 			atq_esp: 35,
@@ -5199,7 +5199,7 @@ const pkmnDisponiveis = [
 		massa: 8.8, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 80,
 			def: 50,
 			atq_esp: 50,
@@ -5223,7 +5223,7 @@ const pkmnDisponiveis = [
 		massa: 125.8, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 130,
 			def: 75,
 			atq_esp: 75,
@@ -5248,7 +5248,7 @@ const pkmnDisponiveis = [
 		massa: 35.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 40,
 			def: 40,
 			atq_esp: 70,
@@ -5272,7 +5272,7 @@ const pkmnDisponiveis = [
 		massa: 55.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 50,
 			def: 120,
 			atq_esp: 80,
@@ -5296,7 +5296,7 @@ const pkmnDisponiveis = [
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 50,
 			def: 40,
 			atq_esp: 30,
@@ -5320,7 +5320,7 @@ const pkmnDisponiveis = [
 		massa: 55.8, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 80,
 			atq_esp: 60,
@@ -5344,7 +5344,7 @@ const pkmnDisponiveis = [
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 55,
 			def: 85,
 			atq_esp: 65,
@@ -5368,7 +5368,7 @@ const pkmnDisponiveis = [
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 65,
 			def: 35,
 			atq_esp: 65,
@@ -5392,7 +5392,7 @@ const pkmnDisponiveis = [
 		massa: 28.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 105,
 			def: 75,
 			atq_esp: 105,
@@ -5416,7 +5416,7 @@ const pkmnDisponiveis = [
 		massa: 16.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 55,
 			def: 45,
 			atq_esp: 65,
@@ -5440,7 +5440,7 @@ const pkmnDisponiveis = [
 		massa: 220.0, // em kg
 		altura: 2.1, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 40,
 			def: 70,
 			atq_esp: 80,
@@ -5464,7 +5464,7 @@ const pkmnDisponiveis = [
 		massa: 50.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 80,
 			def: 140,
 			atq_esp: 40,
@@ -5488,7 +5488,7 @@ const pkmnDisponiveis = [
 		massa: 10.8, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 60,
 			def: 30,
 			atq_esp: 80,
@@ -5512,7 +5512,7 @@ const pkmnDisponiveis = [
 		massa: 35.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 90,
 			def: 50,
 			atq_esp: 110,
@@ -5536,7 +5536,7 @@ const pkmnDisponiveis = [
 		massa: 152.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 95,
 			def: 95,
 			atq_esp: 95,
@@ -5560,7 +5560,7 @@ const pkmnDisponiveis = [
 		massa: 33.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 60,
 			def: 60,
 			atq_esp: 40,
@@ -5584,7 +5584,7 @@ const pkmnDisponiveis = [
 		massa: 120.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 120,
 			def: 120,
 			atq_esp: 60,
@@ -5609,7 +5609,7 @@ const pkmnDisponiveis = [
 		massa: 32.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 80,
 			def: 90,
 			atq_esp: 105,
@@ -5633,7 +5633,7 @@ const pkmnDisponiveis = [
 		massa: 71.2, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 73,
+			ps: 73,
 			atq: 95,
 			def: 62,
 			atq_esp: 85,
@@ -5657,7 +5657,7 @@ const pkmnDisponiveis = [
 		massa: 58.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 20,
 			def: 35,
 			atq_esp: 20,
@@ -5681,7 +5681,7 @@ const pkmnDisponiveis = [
 		massa: 21.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 35,
 			def: 35,
 			atq_esp: 35,
@@ -5705,7 +5705,7 @@ const pkmnDisponiveis = [
 		massa: 48.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 95,
 			def: 95,
 			atq_esp: 35,
@@ -5729,7 +5729,7 @@ const pkmnDisponiveis = [
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 30,
 			def: 15,
 			atq_esp: 85,
@@ -5753,7 +5753,7 @@ const pkmnDisponiveis = [
 		massa: 23.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 63,
 			def: 37,
 			atq_esp: 65,
@@ -5777,7 +5777,7 @@ const pkmnDisponiveis = [
 		massa: 21.4, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 75,
 			def: 37,
 			atq_esp: 70,
@@ -5801,7 +5801,7 @@ const pkmnDisponiveis = [
 		massa: 75.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 80,
 			def: 105,
 			atq_esp: 40,
@@ -5825,7 +5825,7 @@ const pkmnDisponiveis = [
 		massa: 46.8, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 255,
+			ps: 255,
 			atq: 10,
 			def: 10,
 			atq_esp: 75,
@@ -5849,7 +5849,7 @@ const pkmnDisponiveis = [
 		massa: 178.0, // em kg
 		altura: 1.9, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 85,
 			def: 75,
 			atq_esp: 115,
@@ -5873,7 +5873,7 @@ const pkmnDisponiveis = [
 		massa: 198.0, // em kg
 		altura: 2.1, // em metros
 		estatistica: {
-			hp: 115,
+			ps: 115,
 			atq: 115,
 			def: 85,
 			atq_esp: 90,
@@ -5897,7 +5897,7 @@ const pkmnDisponiveis = [
 		massa: 187.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 75,
 			def: 115,
 			atq_esp: 90,
@@ -5921,7 +5921,7 @@ const pkmnDisponiveis = [
 		massa: 72.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 64,
 			def: 50,
 			atq_esp: 45,
@@ -5945,7 +5945,7 @@ const pkmnDisponiveis = [
 		massa: 152.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 84,
 			def: 70,
 			atq_esp: 65,
@@ -5969,7 +5969,7 @@ const pkmnDisponiveis = [
 		massa: 202.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 134,
 			def: 110,
 			atq_esp: 95,
@@ -5993,7 +5993,7 @@ const pkmnDisponiveis = [
 		massa: 216.0, // em kg
 		altura: 5.2, // em metros
 		estatistica: {
-			hp: 106,
+			ps: 106,
 			atq: 90,
 			def: 130,
 			atq_esp: 90,
@@ -6017,7 +6017,7 @@ const pkmnDisponiveis = [
 		massa: 199.0, // em kg
 		altura: 3.8, // em metros
 		estatistica: {
-			hp: 106,
+			ps: 106,
 			atq: 130,
 			def: 90,
 			atq_esp: 110,
@@ -6041,7 +6041,7 @@ const pkmnDisponiveis = [
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 100,
 			atq_esp: 100,
@@ -6065,7 +6065,7 @@ const pkmnDisponiveis = [
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 45,
 			def: 35,
 			atq_esp: 65,
@@ -6089,7 +6089,7 @@ const pkmnDisponiveis = [
 		massa: 21.6, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 65,
 			def: 45,
 			atq_esp: 85,
@@ -6113,7 +6113,7 @@ const pkmnDisponiveis = [
 		massa: 52.2, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 85,
 			def: 65,
 			atq_esp: 105,
@@ -6137,7 +6137,7 @@ const pkmnDisponiveis = [
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 60,
 			def: 40,
 			atq_esp: 70,
@@ -6161,7 +6161,7 @@ const pkmnDisponiveis = [
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 85,
 			def: 60,
 			atq_esp: 85,
@@ -6185,7 +6185,7 @@ const pkmnDisponiveis = [
 		massa: 52.0, // em kg
 		altura: 1.9, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 120,
 			def: 70,
 			atq_esp: 110,
@@ -6209,7 +6209,7 @@ const pkmnDisponiveis = [
 		massa: 7.6, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 70,
 			def: 50,
 			atq_esp: 50,
@@ -6233,7 +6233,7 @@ const pkmnDisponiveis = [
 		massa: 28.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 85,
 			def: 70,
 			atq_esp: 60,
@@ -6257,7 +6257,7 @@ const pkmnDisponiveis = [
 		massa: 81.9, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 110,
 			def: 90,
 			atq_esp: 85,
@@ -6281,7 +6281,7 @@ const pkmnDisponiveis = [
 		massa: 13.6, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 55,
 			def: 35,
 			atq_esp: 30,
@@ -6305,7 +6305,7 @@ const pkmnDisponiveis = [
 		massa: 37.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 90,
 			def: 70,
 			atq_esp: 60,
@@ -6329,7 +6329,7 @@ const pkmnDisponiveis = [
 		massa: 17.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 38,
+			ps: 38,
 			atq: 30,
 			def: 41,
 			atq_esp: 30,
@@ -6353,7 +6353,7 @@ const pkmnDisponiveis = [
 		massa: 32.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 78,
+			ps: 78,
 			atq: 70,
 			def: 61,
 			atq_esp: 50,
@@ -6377,7 +6377,7 @@ const pkmnDisponiveis = [
 		massa: 3.6, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 45,
 			def: 35,
 			atq_esp: 20,
@@ -6401,7 +6401,7 @@ const pkmnDisponiveis = [
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 35,
 			def: 55,
 			atq_esp: 25,
@@ -6425,7 +6425,7 @@ const pkmnDisponiveis = [
 		massa: 28.4, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 70,
 			def: 50,
 			atq_esp: 90,
@@ -6449,7 +6449,7 @@ const pkmnDisponiveis = [
 		massa: 11.5, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 35,
 			def: 55,
 			atq_esp: 25,
@@ -6473,7 +6473,7 @@ const pkmnDisponiveis = [
 		massa: 31.6, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 50,
 			def: 70,
 			atq_esp: 50,
@@ -6497,7 +6497,7 @@ const pkmnDisponiveis = [
 		massa: 2.6, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 30,
 			def: 30,
 			atq_esp: 40,
@@ -6521,7 +6521,7 @@ const pkmnDisponiveis = [
 		massa: 32.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 50,
 			def: 50,
 			atq_esp: 60,
@@ -6545,7 +6545,7 @@ const pkmnDisponiveis = [
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 70,
 			def: 70,
 			atq_esp: 90,
@@ -6569,7 +6569,7 @@ const pkmnDisponiveis = [
 		massa: 4.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 40,
 			def: 50,
 			atq_esp: 30,
@@ -6593,7 +6593,7 @@ const pkmnDisponiveis = [
 		massa: 28.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 70,
 			def: 40,
 			atq_esp: 60,
@@ -6617,7 +6617,7 @@ const pkmnDisponiveis = [
 		massa: 59.6, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 100,
 			def: 60,
 			atq_esp: 90,
@@ -6641,7 +6641,7 @@ const pkmnDisponiveis = [
 		massa: 2.3, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 55,
 			def: 30,
 			atq_esp: 30,
@@ -6665,7 +6665,7 @@ const pkmnDisponiveis = [
 		massa: 19.8, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 85,
 			def: 60,
 			atq_esp: 50,
@@ -6689,7 +6689,7 @@ const pkmnDisponiveis = [
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 30,
 			def: 30,
 			atq_esp: 55,
@@ -6713,7 +6713,7 @@ const pkmnDisponiveis = [
 		massa: 28.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 50,
 			def: 100,
 			atq_esp: 85,
@@ -6737,7 +6737,7 @@ const pkmnDisponiveis = [
 		massa: 6.6, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 28,
+			ps: 28,
 			atq: 25,
 			def: 25,
 			atq_esp: 45,
@@ -6761,7 +6761,7 @@ const pkmnDisponiveis = [
 		massa: 20.2, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 38,
+			ps: 38,
 			atq: 35,
 			def: 35,
 			atq_esp: 65,
@@ -6785,7 +6785,7 @@ const pkmnDisponiveis = [
 		massa: 48.4, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 68,
+			ps: 68,
 			atq: 65,
 			def: 65,
 			atq_esp: 125,
@@ -6809,7 +6809,7 @@ const pkmnDisponiveis = [
 		massa: 1.7, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 30,
 			def: 32,
 			atq_esp: 50,
@@ -6833,7 +6833,7 @@ const pkmnDisponiveis = [
 		massa: 3.6, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 60,
 			def: 62,
 			atq_esp: 80,
@@ -6857,7 +6857,7 @@ const pkmnDisponiveis = [
 		massa: 4.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 40,
 			def: 60,
 			atq_esp: 40,
@@ -6877,11 +6877,11 @@ const pkmnDisponiveis = [
 	{
 		nome: "Breloom",
 		numero: 286, // considerando a national dex
-		tipo: ["Grama", " Lutador"],
+		tipo: ["Planta", " Lutador"],
 		massa: 39.2, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 130,
 			def: 80,
 			atq_esp: 60,
@@ -6905,7 +6905,7 @@ const pkmnDisponiveis = [
 		massa: 24.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 60,
 			def: 60,
 			atq_esp: 35,
@@ -6929,7 +6929,7 @@ const pkmnDisponiveis = [
 		massa: 46.5, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 80,
 			def: 80,
 			atq_esp: 55,
@@ -6953,7 +6953,7 @@ const pkmnDisponiveis = [
 		massa: 130.5, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 150,
+			ps: 150,
 			atq: 160,
 			def: 100,
 			atq_esp: 95,
@@ -6977,7 +6977,7 @@ const pkmnDisponiveis = [
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 31,
+			ps: 31,
 			atq: 45,
 			def: 90,
 			atq_esp: 30,
@@ -7001,7 +7001,7 @@ const pkmnDisponiveis = [
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 61,
+			ps: 61,
 			atq: 90,
 			def: 45,
 			atq_esp: 50,
@@ -7024,7 +7024,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fantasma"],
 		massa: 1.2, // em kg
 		altura: 0.8, // em metros
-		estatistica: { hp: 1, atq: 90, def: 45, atq_esp: 30, def_esp: 30, vel: 40 },
+		estatistica: { ps: 1, atq: 90, def: 45, atq_esp: 30, def_esp: 30, vel: 40 },
 		descricao:
 			"Seu corpo duro não move, nem mesmo um tique. Na verdade, seu corpo aparenta ser meramente uma casca vazia. Acredita-se que este Pokémon roubará o espírito de qualquer um que espie seu corpo oco pelas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tosado",
@@ -7042,7 +7042,7 @@ const pkmnDisponiveis = [
 		massa: 16.3, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 64,
+			ps: 64,
 			atq: 51,
 			def: 23,
 			atq_esp: 51,
@@ -7067,7 +7067,7 @@ const pkmnDisponiveis = [
 		massa: 40.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 84,
+			ps: 84,
 			atq: 71,
 			def: 43,
 			atq_esp: 71,
@@ -7091,7 +7091,7 @@ const pkmnDisponiveis = [
 		massa: 84.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 104,
+			ps: 104,
 			atq: 91,
 			def: 63,
 			atq_esp: 91,
@@ -7115,7 +7115,7 @@ const pkmnDisponiveis = [
 		massa: 86.4, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 72,
+			ps: 72,
 			atq: 60,
 			def: 30,
 			atq_esp: 20,
@@ -7138,7 +7138,7 @@ const pkmnDisponiveis = [
 		massa: 253.8, // em kg
 		altura: 2.3, // em metros
 		estatistica: {
-			hp: 144,
+			ps: 144,
 			atq: 120,
 			def: 60,
 			atq_esp: 40,
@@ -7162,7 +7162,7 @@ const pkmnDisponiveis = [
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 20,
 			def: 40,
 			atq_esp: 20,
@@ -7186,7 +7186,7 @@ const pkmnDisponiveis = [
 		massa: 97.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 45,
 			def: 135,
 			atq_esp: 45,
@@ -7210,7 +7210,7 @@ const pkmnDisponiveis = [
 		massa: 11.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 45,
 			def: 45,
 			atq_esp: 35,
@@ -7234,7 +7234,7 @@ const pkmnDisponiveis = [
 		massa: 32.6, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 65,
 			def: 65,
 			atq_esp: 55,
@@ -7258,7 +7258,7 @@ const pkmnDisponiveis = [
 		massa: 11.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 75,
 			def: 75,
 			atq_esp: 65,
@@ -7283,7 +7283,7 @@ const pkmnDisponiveis = [
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 85,
 			def: 85,
 			atq_esp: 55,
@@ -7308,7 +7308,7 @@ const pkmnDisponiveis = [
 		massa: 60.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 70,
 			def: 100,
 			atq_esp: 40,
@@ -7332,7 +7332,7 @@ const pkmnDisponiveis = [
 		massa: 120.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 90,
 			def: 140,
 			atq_esp: 50,
@@ -7356,7 +7356,7 @@ const pkmnDisponiveis = [
 		massa: 360.0, // em kg
 		altura: 2.1, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 110,
 			def: 180,
 			atq_esp: 60,
@@ -7380,7 +7380,7 @@ const pkmnDisponiveis = [
 		massa: 11.2, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 40,
 			def: 55,
 			atq_esp: 40,
@@ -7404,7 +7404,7 @@ const pkmnDisponiveis = [
 		massa: 31.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 60,
 			def: 75,
 			atq_esp: 60,
@@ -7428,7 +7428,7 @@ const pkmnDisponiveis = [
 		massa: 15.2, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 45,
 			def: 40,
 			atq_esp: 65,
@@ -7452,7 +7452,7 @@ const pkmnDisponiveis = [
 		massa: 40.2, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 75,
 			def: 60,
 			atq_esp: 105,
@@ -7476,7 +7476,7 @@ const pkmnDisponiveis = [
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 50,
 			def: 40,
 			atq_esp: 85,
@@ -7500,7 +7500,7 @@ const pkmnDisponiveis = [
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 40,
 			def: 50,
 			atq_esp: 75,
@@ -7524,7 +7524,7 @@ const pkmnDisponiveis = [
 		massa: 17.7, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 73,
 			def: 55,
 			atq_esp: 47,
@@ -7548,7 +7548,7 @@ const pkmnDisponiveis = [
 		massa: 17.7, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 47,
 			def: 55,
 			atq_esp: 73,
@@ -7572,7 +7572,7 @@ const pkmnDisponiveis = [
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 60,
 			def: 45,
 			atq_esp: 100,
@@ -7596,7 +7596,7 @@ const pkmnDisponiveis = [
 		massa: 10.3, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 43,
 			def: 53,
 			atq_esp: 43,
@@ -7620,7 +7620,7 @@ const pkmnDisponiveis = [
 		massa: 80.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hq: 100,
+			ps: 100,
 			atq: 73,
 			def: 83,
 			atq_esp: 73,
@@ -7644,7 +7644,7 @@ const pkmnDisponiveis = [
 		massa: 20.8, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 90,
 			def: 20,
 			atq_esp: 65,
@@ -7668,7 +7668,7 @@ const pkmnDisponiveis = [
 		massa: 88.8, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 120,
 			def: 40,
 			atq_esp: 95,
@@ -7692,7 +7692,7 @@ const pkmnDisponiveis = [
 		massa: 130.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 130,
+			ps: 130,
 			atq: 70,
 			def: 35,
 			atq_esp: 70,
@@ -7717,7 +7717,7 @@ const pkmnDisponiveis = [
 		massa: 398.0, // em kg
 		altura: 14.5, // em metros
 		estatistica: {
-			hp: 170,
+			ps: 170,
 			atq: 90,
 			def: 45,
 			atq_esp: 90,
@@ -7741,7 +7741,7 @@ const pkmnDisponiveis = [
 		massa: 24.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 60,
 			def: 40,
 			atq_esp: 65,
@@ -7765,7 +7765,7 @@ const pkmnDisponiveis = [
 		massa: 220.0, // em kg
 		altura: 1.9, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 100,
 			def: 70,
 			atq_esp: 105,
@@ -7789,7 +7789,7 @@ const pkmnDisponiveis = [
 		massa: 80.4, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 85,
 			def: 140,
 			atq_esp: 85,
@@ -7813,7 +7813,7 @@ const pkmnDisponiveis = [
 		massa: 30.6, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 25,
 			def: 35,
 			atq_esp: 70,
@@ -7837,7 +7837,7 @@ const pkmnDisponiveis = [
 		massa: 71.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 45,
 			def: 65,
 			atq_esp: 90,
@@ -7861,7 +7861,7 @@ const pkmnDisponiveis = [
 		massa: 5.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 60,
 			def: 60,
 			atq_esp: 60,
@@ -7885,7 +7885,7 @@ const pkmnDisponiveis = [
 		massa: 15.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 100,
 			def: 45,
 			atq_esp: 45,
@@ -7909,7 +7909,7 @@ const pkmnDisponiveis = [
 		massa: 15.3, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 70,
 			def: 50,
 			atq_esp: 50,
@@ -7933,7 +7933,7 @@ const pkmnDisponiveis = [
 		massa: 82.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 100,
 			def: 80,
 			atq_esp: 80,
@@ -7957,7 +7957,7 @@ const pkmnDisponiveis = [
 		massa: 51.3, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 85,
 			def: 40,
 			atq_esp: 85,
@@ -7981,7 +7981,7 @@ const pkmnDisponiveis = [
 		massa: 77.4, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 115,
 			def: 60,
 			atq_esp: 115,
@@ -8005,7 +8005,7 @@ const pkmnDisponiveis = [
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 40,
 			def: 60,
 			atq_esp: 40,
@@ -8029,7 +8029,7 @@ const pkmnDisponiveis = [
 		massa: 20.6, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 70,
 			def: 90,
 			atq_esp: 70,
@@ -8053,7 +8053,7 @@ const pkmnDisponiveis = [
 		massa: 40.3, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 73,
+			ps: 73,
 			atq: 115,
 			def: 60,
 			atq_esp: 60,
@@ -8077,7 +8077,7 @@ const pkmnDisponiveis = [
 		massa: 52.5, // em kg
 		altura: 2.7, // em metros
 		estatistica: {
-			hp: 73,
+			ps: 73,
 			atq: 100,
 			def: 60,
 			atq_esp: 100,
@@ -8101,7 +8101,7 @@ const pkmnDisponiveis = [
 		massa: 168.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 55,
 			def: 65,
 			atq_esp: 95,
@@ -8125,7 +8125,7 @@ const pkmnDisponiveis = [
 		massa: 154.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 95,
 			def: 85,
 			atq_esp: 55,
@@ -8149,7 +8149,7 @@ const pkmnDisponiveis = [
 		massa: 1.9, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 48,
 			def: 43,
 			atq_esp: 46,
@@ -8174,7 +8174,7 @@ const pkmnDisponiveis = [
 		massa: 23.6, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 110,
+			ps: 110,
 			atq: 78,
 			def: 73,
 			atq_esp: 76,
@@ -8198,7 +8198,7 @@ const pkmnDisponiveis = [
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 43,
+			ps: 43,
 			atq: 80,
 			def: 65,
 			atq_esp: 50,
@@ -8222,7 +8222,7 @@ const pkmnDisponiveis = [
 		massa: 32.8, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 63,
+			ps: 63,
 			atq: 120,
 			def: 85,
 			atq_esp: 90,
@@ -8246,7 +8246,7 @@ const pkmnDisponiveis = [
 		massa: 21.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 40,
 			def: 55,
 			atq_esp: 40,
@@ -8270,7 +8270,7 @@ const pkmnDisponiveis = [
 		massa: 108.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 70,
 			def: 105,
 			atq_esp: 70,
@@ -8294,7 +8294,7 @@ const pkmnDisponiveis = [
 		massa: 23.8, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 66,
+			ps: 66,
 			atq: 41,
 			def: 77,
 			atq_esp: 61,
@@ -8318,7 +8318,7 @@ const pkmnDisponiveis = [
 		massa: 60.4, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 86,
+			ps: 86,
 			atq: 81,
 			def: 97,
 			atq_esp: 81,
@@ -8342,7 +8342,7 @@ const pkmnDisponiveis = [
 		massa: 12.5, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 95,
 			def: 50,
 			atq_esp: 40,
@@ -8366,7 +8366,7 @@ const pkmnDisponiveis = [
 		massa: 68.2, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 125,
 			def: 100,
 			atq_esp: 70,
@@ -8390,7 +8390,7 @@ const pkmnDisponiveis = [
 		massa: 7.4, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 20,
+			ps: 20,
 			atq: 15,
 			def: 20,
 			atq_esp: 10,
@@ -8414,7 +8414,7 @@ const pkmnDisponiveis = [
 		massa: 162.0, // em kg
 		altura: 6.2, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 60,
 			def: 79,
 			atq_esp: 100,
@@ -8438,7 +8438,7 @@ const pkmnDisponiveis = [
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 70,
 			def: 70,
 			atq_esp: 70,
@@ -8462,7 +8462,7 @@ const pkmnDisponiveis = [
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 70,
 			def: 70,
 			atq_esp: 70,
@@ -8486,7 +8486,7 @@ const pkmnDisponiveis = [
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 70,
 			def: 70,
 			atq_esp: 70,
@@ -8510,7 +8510,7 @@ const pkmnDisponiveis = [
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 70,
 			def: 70,
 			atq_esp: 70,
@@ -8534,7 +8534,7 @@ const pkmnDisponiveis = [
 		massa: 22.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 90,
 			def: 70,
 			atq_esp: 60,
@@ -8558,7 +8558,7 @@ const pkmnDisponiveis = [
 		massa: 2.3, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 44,
+			ps: 44,
 			atq: 75,
 			def: 35,
 			atq_esp: 63,
@@ -8582,7 +8582,7 @@ const pkmnDisponiveis = [
 		massa: 12.5, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 64,
+			ps: 64,
 			atq: 115,
 			def: 65,
 			atq_esp: 83,
@@ -8606,7 +8606,7 @@ const pkmnDisponiveis = [
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 20,
+			ps: 20,
 			atq: 40,
 			def: 90,
 			atq_esp: 30,
@@ -8630,7 +8630,7 @@ const pkmnDisponiveis = [
 		massa: 30.6, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 70,
 			def: 130,
 			atq_esp: 60,
@@ -8654,7 +8654,7 @@ const pkmnDisponiveis = [
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 99,
+			ps: 99,
 			atq: 68,
 			def: 83,
 			atq_esp: 72,
@@ -8678,7 +8678,7 @@ const pkmnDisponiveis = [
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 50,
 			def: 70,
 			atq_esp: 95,
@@ -8702,7 +8702,7 @@ const pkmnDisponiveis = [
 		massa: 47.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 130,
 			def: 60,
 			atq_esp: 75,
@@ -8726,7 +8726,7 @@ const pkmnDisponiveis = [
 		massa: 14.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 23,
 			def: 48,
 			atq_esp: 23,
@@ -8750,7 +8750,7 @@ const pkmnDisponiveis = [
 		massa: 16.8, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 50,
 			def: 50,
 			atq_esp: 50,
@@ -8774,7 +8774,7 @@ const pkmnDisponiveis = [
 		massa: 256.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 80,
 			def: 80,
 			atq_esp: 80,
@@ -8798,7 +8798,7 @@ const pkmnDisponiveis = [
 		massa: 39.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 40,
 			def: 50,
 			atq_esp: 55,
@@ -8822,7 +8822,7 @@ const pkmnDisponiveis = [
 		massa: 87.6, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 60,
 			def: 70,
 			atq_esp: 75,
@@ -8846,7 +8846,7 @@ const pkmnDisponiveis = [
 		massa: 150.6, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 110,
+			ps: 110,
 			atq: 80,
 			def: 90,
 			atq_esp: 95,
@@ -8870,7 +8870,7 @@ const pkmnDisponiveis = [
 		massa: 52.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 35,
+			ps: 35,
 			atq: 64,
 			def: 85,
 			atq_esp: 74,
@@ -8894,7 +8894,7 @@ const pkmnDisponiveis = [
 		massa: 27.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 104,
 			def: 105,
 			atq_esp: 94,
@@ -8918,7 +8918,7 @@ const pkmnDisponiveis = [
 		massa: 22.6, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 84,
 			def: 105,
 			atq_esp: 114,
@@ -8942,7 +8942,7 @@ const pkmnDisponiveis = [
 		massa: 23.4, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 90,
 			def: 130,
 			atq_esp: 45,
@@ -8966,7 +8966,7 @@ const pkmnDisponiveis = [
 		massa: 8.7, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 43,
+			ps: 43,
 			atq: 30,
 			def: 55,
 			atq_esp: 40,
@@ -8990,7 +8990,7 @@ const pkmnDisponiveis = [
 		massa: 42.1, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 75,
 			def: 60,
 			atq_esp: 40,
@@ -9014,7 +9014,7 @@ const pkmnDisponiveis = [
 		massa: 110.5, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 95,
 			def: 100,
 			atq_esp: 60,
@@ -9038,7 +9038,7 @@ const pkmnDisponiveis = [
 		massa: 102.6, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 135,
 			def: 80,
 			atq_esp: 110,
@@ -9062,7 +9062,7 @@ const pkmnDisponiveis = [
 		massa: 95.2, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 55,
 			def: 80,
 			atq_esp: 35,
@@ -9086,7 +9086,7 @@ const pkmnDisponiveis = [
 		massa: 202.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 75,
 			def: 100,
 			atq_esp: 55,
@@ -9110,7 +9110,7 @@ const pkmnDisponiveis = [
 		massa: 550.0, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 135,
 			def: 130,
 			atq_esp: 95,
@@ -9134,7 +9134,7 @@ const pkmnDisponiveis = [
 		massa: 230.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 100,
 			def: 200,
 			atq_esp: 50,
@@ -9158,7 +9158,7 @@ const pkmnDisponiveis = [
 		massa: 175.0, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 50,
 			def: 100,
 			atq_esp: 100,
@@ -9182,7 +9182,7 @@ const pkmnDisponiveis = [
 		massa: 205.0, // em kg
 		altura: 1.9, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 75,
 			def: 150,
 			atq_esp: 75,
@@ -9206,7 +9206,7 @@ const pkmnDisponiveis = [
 		massa: 40.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 80,
 			def: 90,
 			atq_esp: 110,
@@ -9230,7 +9230,7 @@ const pkmnDisponiveis = [
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 90,
 			def: 80,
 			atq_esp: 130,
@@ -9254,7 +9254,7 @@ const pkmnDisponiveis = [
 		massa: 352.0, // em kg
 		altura: 4.5, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 90,
 			atq_esp: 150,
@@ -9278,7 +9278,7 @@ const pkmnDisponiveis = [
 		massa: 950.0, // em kg
 		altura: 3.5, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 150,
 			def: 140,
 			atq_esp: 100,
@@ -9302,7 +9302,7 @@ const pkmnDisponiveis = [
 		massa: 206.5, // em kg
 		altura: 7.0, // em metros
 		estatistica: {
-			hp: 105,
+			ps: 105,
 			atq: 150,
 			def: 90,
 			atq_esp: 150,
@@ -9326,7 +9326,7 @@ const pkmnDisponiveis = [
 		massa: 1.1, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 100,
 			atq_esp: 100,
@@ -9350,7 +9350,7 @@ const pkmnDisponiveis = [
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 150,
 			def: 50,
 			atq_esp: 150,
@@ -9374,7 +9374,7 @@ const pkmnDisponiveis = [
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 180,
 			def: 20,
 			atq_esp: 180,
@@ -9398,7 +9398,7 @@ const pkmnDisponiveis = [
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 70,
 			def: 160,
 			atq_esp: 70,
@@ -9422,7 +9422,7 @@ const pkmnDisponiveis = [
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 95,
 			def: 90,
 			atq_esp: 95,
@@ -9446,7 +9446,7 @@ const pkmnDisponiveis = [
 		massa: 10.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 68,
 			def: 64,
 			atq_esp: 45,
@@ -9470,7 +9470,7 @@ const pkmnDisponiveis = [
 		massa: 97.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 89,
 			def: 85,
 			atq_esp: 55,
@@ -9494,7 +9494,7 @@ const pkmnDisponiveis = [
 		massa: 310.0, // em kg
 		altura: 2.2, // em metros
 		estatistica: {
-			hp: 95,
+			ps: 95,
 			atq: 109,
 			def: 105,
 			atq_esp: 75,
@@ -9518,7 +9518,7 @@ const pkmnDisponiveis = [
 		massa: 6.2, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 44,
+			ps: 44,
 			atq: 58,
 			def: 44,
 			atq_esp: 58,
@@ -9542,7 +9542,7 @@ const pkmnDisponiveis = [
 		massa: 22.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 64,
+			ps: 64,
 			atq: 78,
 			def: 52,
 			atq_esp: 78,
@@ -9566,7 +9566,7 @@ const pkmnDisponiveis = [
 		massa: 55.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 76,
+			ps: 76,
 			atq: 104,
 			def: 71,
 			atq_esp: 104,
@@ -9590,7 +9590,7 @@ const pkmnDisponiveis = [
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 53,
+			ps: 53,
 			atq: 51,
 			def: 53,
 			atq_esp: 61,
@@ -9614,7 +9614,7 @@ const pkmnDisponiveis = [
 		massa: 23.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 64,
+			ps: 64,
 			atq: 66,
 			def: 68,
 			atq_esp: 81,
@@ -9638,7 +9638,7 @@ const pkmnDisponiveis = [
 		massa: 84.5, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 84,
+			ps: 84,
 			atq: 86,
 			def: 88,
 			atq_esp: 111,
@@ -9662,7 +9662,7 @@ const pkmnDisponiveis = [
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 55,
 			def: 30,
 			atq_esp: 30,
@@ -9686,7 +9686,7 @@ const pkmnDisponiveis = [
 		massa: 15.5, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 75,
 			def: 50,
 			atq_esp: 40,
@@ -9711,7 +9711,7 @@ const pkmnDisponiveis = [
 		massa: 24.9, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 120,
 			def: 70,
 			atq_esp: 50,
@@ -9735,7 +9735,7 @@ const pkmnDisponiveis = [
 		massa: 20.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 59,
+			ps: 59,
 			atq: 45,
 			def: 40,
 			atq_esp: 35,
@@ -9760,7 +9760,7 @@ const pkmnDisponiveis = [
 		massa: 31.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 79,
+			ps: 79,
 			atq: 85,
 			def: 60,
 			atq_esp: 55,
@@ -9785,7 +9785,7 @@ const pkmnDisponiveis = [
 		massa: 2.2, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 37,
+			ps: 37,
 			atq: 25,
 			def: 41,
 			atq_esp: 25,
@@ -9809,7 +9809,7 @@ const pkmnDisponiveis = [
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 77,
+			ps: 77,
 			atq: 85,
 			def: 51,
 			atq_esp: 55,
@@ -9834,7 +9834,7 @@ const pkmnDisponiveis = [
 		massa: 9.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 65,
 			def: 34,
 			atq_esp: 40,
@@ -9858,7 +9858,7 @@ const pkmnDisponiveis = [
 		massa: 30.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 85,
 			def: 49,
 			atq_esp: 60,
@@ -9882,7 +9882,7 @@ const pkmnDisponiveis = [
 		massa: 42.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 120,
 			def: 79,
 			atq_esp: 95,
@@ -9906,7 +9906,7 @@ const pkmnDisponiveis = [
 		massa: 1.2, // em kg
 		altura: 0.2, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 30,
 			def: 35,
 			atq_esp: 50,
@@ -9930,7 +9930,7 @@ const pkmnDisponiveis = [
 		massa: 14.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 70,
 			def: 55,
 			atq_esp: 125,
@@ -9954,7 +9954,7 @@ const pkmnDisponiveis = [
 		massa: 31.5, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 67,
+			ps: 67,
 			atq: 125,
 			def: 40,
 			atq_esp: 30,
@@ -9978,7 +9978,7 @@ const pkmnDisponiveis = [
 		massa: 102.5, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 97,
+			ps: 97,
 			atq: 165,
 			def: 60,
 			atq_esp: 65,
@@ -10002,7 +10002,7 @@ const pkmnDisponiveis = [
 		massa: 57.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 42,
 			def: 118,
 			atq_esp: 42,
@@ -10026,7 +10026,7 @@ const pkmnDisponiveis = [
 		massa: 149.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 52,
 			def: 168,
 			atq_esp: 47,
@@ -10050,7 +10050,7 @@ const pkmnDisponiveis = [
 		massa: 3.4, // em kg
 		altura: 0.2, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 29,
 			def: 45,
 			atq_esp: 29,
@@ -10078,7 +10078,7 @@ const pkmnDisponiveis = [
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 59,
 			def: 85,
 			atq_esp: 79,
@@ -10103,7 +10103,7 @@ const pkmnDisponiveis = [
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 79,
 			def: 105,
 			atq_esp: 59,
@@ -10128,7 +10128,7 @@ const pkmnDisponiveis = [
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 69,
 			def: 95,
 			atq_esp: 69,
@@ -10153,7 +10153,7 @@ const pkmnDisponiveis = [
 		massa: 23.3, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 94,
 			def: 50,
 			atq_esp: 94,
@@ -10177,7 +10177,7 @@ const pkmnDisponiveis = [
 		massa: 5.5, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 30,
+			ps: 30,
 			atq: 30,
 			def: 42,
 			atq_esp: 30,
@@ -10202,7 +10202,7 @@ const pkmnDisponiveis = [
 		massa: 38.5, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 80,
 			def: 102,
 			atq_esp: 80,
@@ -10226,7 +10226,7 @@ const pkmnDisponiveis = [
 		massa: 3.9, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 45,
 			def: 70,
 			atq_esp: 45,
@@ -10250,7 +10250,7 @@ const pkmnDisponiveis = [
 		massa: 29.5, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 65,
 			def: 35,
 			atq_esp: 60,
@@ -10274,7 +10274,7 @@ const pkmnDisponiveis = [
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 105,
 			def: 55,
 			atq_esp: 85,
@@ -10299,7 +10299,7 @@ const pkmnDisponiveis = [
 		massa: 3.3, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 35,
 			def: 45,
 			atq_esp: 62,
@@ -10323,7 +10323,7 @@ const pkmnDisponiveis = [
 		massa: 9.3, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 60,
 			def: 70,
 			atq_esp: 87,
@@ -10348,7 +10348,7 @@ const pkmnDisponiveis = [
 		massa: 6.3, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 76,
+			ps: 76,
 			atq: 48,
 			def: 48,
 			atq_esp: 57,
@@ -10373,7 +10373,7 @@ const pkmnDisponiveis = [
 		massa: 29.9, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 111,
+			ps: 111,
 			atq: 83,
 			def: 68,
 			atq_esp: 82,
@@ -10398,7 +10398,7 @@ const pkmnDisponiveis = [
 		massa: 20.3, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 100,
 			def: 66,
 			atq_esp: 60,
@@ -10422,7 +10422,7 @@ const pkmnDisponiveis = [
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 50,
 			def: 34,
 			atq_esp: 60,
@@ -10446,7 +10446,7 @@ const pkmnDisponiveis = [
 		massa: 15.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 150,
+			ps: 150,
 			atq: 80,
 			def: 44,
 			atq_esp: 90,
@@ -10470,7 +10470,7 @@ const pkmnDisponiveis = [
 		massa: 5.5, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 55,
+			ps: 55,
 			atq: 66,
 			def: 44,
 			atq_esp: 44,
@@ -10494,7 +10494,7 @@ const pkmnDisponiveis = [
 		massa: 33.3, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 136,
 			def: 94,
 			atq_esp: 54,
@@ -10518,7 +10518,7 @@ const pkmnDisponiveis = [
 		massa: 4.4, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 60,
 			def: 60,
 			atq_esp: 105,
@@ -10542,7 +10542,7 @@ const pkmnDisponiveis = [
 		massa: 27.3, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 125,
 			def: 52,
 			atq_esp: 105,
@@ -10566,7 +10566,7 @@ const pkmnDisponiveis = [
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 49,
+			ps: 49,
 			atq: 55,
 			def: 42,
 			atq_esp: 42,
@@ -10590,7 +10590,7 @@ const pkmnDisponiveis = [
 		massa: 43.8, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 71,
+			ps: 71,
 			atq: 82,
 			def: 64,
 			atq_esp: 64,
@@ -10614,7 +10614,7 @@ const pkmnDisponiveis = [
 		massa: 0.6, // em kg
 		altura: 0.2, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 30,
 			def: 50,
 			atq_esp: 65,
@@ -10639,7 +10639,7 @@ const pkmnDisponiveis = [
 		massa: 19.2, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 63,
+			ps: 63,
 			atq: 63,
 			def: 47,
 			atq_esp: 41,
@@ -10663,7 +10663,7 @@ const pkmnDisponiveis = [
 		massa: 38.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 103,
+			ps: 103,
 			atq: 93,
 			def: 67,
 			atq_esp: 71,
@@ -10687,7 +10687,7 @@ const pkmnDisponiveis = [
 		massa: 60.5, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 57,
+			ps: 57,
 			atq: 24,
 			def: 86,
 			atq_esp: 24,
@@ -10712,7 +10712,7 @@ const pkmnDisponiveis = [
 		massa: 187.0, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 67,
+			ps: 67,
 			atq: 89,
 			def: 116,
 			atq_esp: 79,
@@ -10736,7 +10736,7 @@ const pkmnDisponiveis = [
 		massa: 15.0, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 80,
 			def: 95,
 			atq_esp: 10,
@@ -10760,7 +10760,7 @@ const pkmnDisponiveis = [
 		massa: 13.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 20,
+			ps: 20,
 			atq: 25,
 			def: 45,
 			atq_esp: 70,
@@ -10784,7 +10784,7 @@ const pkmnDisponiveis = [
 		massa: 24.4, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 5,
 			def: 5,
 			atq_esp: 75,
@@ -10808,7 +10808,7 @@ const pkmnDisponiveis = [
 		massa: 1.9, // em kg
 		altura: 0.5, // em metros
 		estatistica: {
-			hp: 76,
+			ps: 76,
 			atq: 65,
 			def: 45,
 			atq_esp: 92,
@@ -10832,7 +10832,7 @@ const pkmnDisponiveis = [
 		massa: 108.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 92,
 			def: 108,
 			atq_esp: 92,
@@ -10856,7 +10856,7 @@ const pkmnDisponiveis = [
 		massa: 20.5, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 58,
+			ps: 58,
 			atq: 70,
 			def: 45,
 			atq_esp: 40,
@@ -10880,7 +10880,7 @@ const pkmnDisponiveis = [
 		massa: 56.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 68,
+			ps: 68,
 			atq: 90,
 			def: 65,
 			atq_esp: 50,
@@ -10904,7 +10904,7 @@ const pkmnDisponiveis = [
 		massa: 108.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 108,
+			ps: 108,
 			atq: 130,
 			def: 95,
 			atq_esp: 80,
@@ -10928,7 +10928,7 @@ const pkmnDisponiveis = [
 		massa: 105.0, // em kg
 		altura: 0.6, // em metros
 		estatistica: {
-			hp: 135,
+			ps: 135,
 			atq: 85,
 			def: 40,
 			atq_esp: 40,
@@ -10953,7 +10953,7 @@ const pkmnDisponiveis = [
 		massa: 20.2, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 70,
 			def: 40,
 			atq_esp: 35,
@@ -10977,7 +10977,7 @@ const pkmnDisponiveis = [
 		massa: 54.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 110,
 			def: 70,
 			atq_esp: 115,
@@ -11001,7 +11001,7 @@ const pkmnDisponiveis = [
 		massa: 49.5, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 68,
+			ps: 68,
 			atq: 72,
 			def: 78,
 			atq_esp: 38,
@@ -11025,7 +11025,7 @@ const pkmnDisponiveis = [
 		massa: 300.0, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 108,
+			ps: 108,
 			atq: 112,
 			def: 118,
 			atq_esp: 68,
@@ -11049,7 +11049,7 @@ const pkmnDisponiveis = [
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 40,
+			ps: 40,
 			atq: 50,
 			def: 90,
 			atq_esp: 30,
@@ -11073,7 +11073,7 @@ const pkmnDisponiveis = [
 		massa: 61.5, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 90,
 			def: 110,
 			atq_esp: 60,
@@ -11097,7 +11097,7 @@ const pkmnDisponiveis = [
 		massa: 23.0, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			hp: 48,
+			ps: 48,
 			atq: 61,
 			def: 40,
 			atq_esp: 61,
@@ -11121,7 +11121,7 @@ const pkmnDisponiveis = [
 		massa: 44.4, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 83,
+			ps: 83,
 			atq: 106,
 			def: 65,
 			atq_esp: 86,
@@ -11145,7 +11145,7 @@ const pkmnDisponiveis = [
 		massa: 27.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 74,
+			ps: 74,
 			atq: 100,
 			def: 72,
 			atq_esp: 90,
@@ -11169,7 +11169,7 @@ const pkmnDisponiveis = [
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 49,
+			ps: 49,
 			atq: 49,
 			def: 56,
 			atq_esp: 49,
@@ -11194,7 +11194,7 @@ const pkmnDisponiveis = [
 		massa: 24.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 69,
+			ps: 69,
 			atq: 69,
 			def: 76,
 			atq_esp: 69,
@@ -11219,7 +11219,7 @@ const pkmnDisponiveis = [
 		massa: 65.0, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 20,
 			def: 50,
 			atq_esp: 60,
@@ -11243,7 +11243,7 @@ const pkmnDisponiveis = [
 		massa: 50.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 62,
 			def: 50,
 			atq_esp: 62,
@@ -11268,7 +11268,7 @@ const pkmnDisponiveis = [
 		massa: 135.5, // em kg
 		altura: 2.2, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 92,
 			def: 75,
 			atq_esp: 92,
@@ -11292,7 +11292,7 @@ const pkmnDisponiveis = [
 		massa: 34.0, // em kg
 		altura: 1.1, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 120,
 			def: 65,
 			atq_esp: 45,
@@ -11316,7 +11316,7 @@ const pkmnDisponiveis = [
 		massa: 180.0, // em kg
 		altura: 1.2, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 70,
 			def: 115,
 			atq_esp: 130,
@@ -11340,7 +11340,7 @@ const pkmnDisponiveis = [
 		massa: 140.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 110,
+			ps: 110,
 			atq: 85,
 			def: 95,
 			atq_esp: 80,
@@ -11364,7 +11364,7 @@ const pkmnDisponiveis = [
 		massa: 282.8, // em kg
 		altura: 2.4, // em metros
 		estatistica: {
-			hp: 115,
+			ps: 115,
 			atq: 140,
 			def: 130,
 			atq_esp: 55,
@@ -11388,7 +11388,7 @@ const pkmnDisponiveis = [
 		massa: 128.6, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 125,
 			atq_esp: 110,
@@ -11412,7 +11412,7 @@ const pkmnDisponiveis = [
 		massa: 138.6, // em kg
 		altura: 1.8, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 123,
 			def: 67,
 			atq_esp: 95,
@@ -11436,7 +11436,7 @@ const pkmnDisponiveis = [
 		massa: 68.0, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 95,
 			def: 67,
 			atq_esp: 125,
@@ -11460,7 +11460,7 @@ const pkmnDisponiveis = [
 		massa: 38.0, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 50,
 			def: 95,
 			atq_esp: 125,
@@ -11484,7 +11484,7 @@ const pkmnDisponiveis = [
 		massa: 51.5, // em kg
 		altura: 1.9, // em metros
 		estatistica: {
-			hp: 86,
+			ps: 86,
 			atq: 76,
 			def: 86,
 			atq_esp: 116,
@@ -11508,7 +11508,7 @@ const pkmnDisponiveis = [
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 110,
 			def: 130,
 			atq_esp: 60,
@@ -11532,7 +11532,7 @@ const pkmnDisponiveis = [
 		massa: 25.9, // em kg
 		altura: 0.8, // em metros
 		estatistica: {
-			hp: 65,
+			ps: 65,
 			atq: 60,
 			def: 110,
 			atq_esp: 130,
@@ -11556,7 +11556,7 @@ const pkmnDisponiveis = [
 		massa: 42.5, // em kg
 		altura: 2.0, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 95,
 			def: 125,
 			atq_esp: 45,
@@ -11564,7 +11564,7 @@ const pkmnDisponiveis = [
 			vel: 95,
 		},
 		descricao:
-			"Observa presa enquanto está de cabeça para baixo em galhos. Quando a chance se apresenta, ataca!", // considerando a dex da primeira geração que apareceu
+			"Observa presa enquanto está de cabeça para baixo em galhos. Quando a chance se apresenta, ataca!.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião com Presas",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -11580,7 +11580,7 @@ const pkmnDisponiveis = [
 		massa: 291.0, // em kg
 		altura: 2.5, // em metros
 		estatistica: {
-			hp: 110,
+			ps: 110,
 			atq: 130,
 			def: 80,
 			atq_esp: 70,
@@ -11604,7 +11604,7 @@ const pkmnDisponiveis = [
 		massa: 34.0, // em kg
 		altura: 0.9, // em metros
 		estatistica: {
-			hp: 85,
+			ps: 85,
 			atq: 80,
 			def: 70,
 			atq_esp: 135,
@@ -11628,7 +11628,7 @@ const pkmnDisponiveis = [
 		massa: 52.0, // em kg
 		altura: 1.6, // em metros
 		estatistica: {
-			hp: 68,
+			ps: 68,
 			atq: 125,
 			def: 65,
 			atq_esp: 65,
@@ -11652,7 +11652,7 @@ const pkmnDisponiveis = [
 		massa: 340.0, // em kg
 		altura: 1.4, // em metros
 		estatistica: {
-			hp: 60,
+			ps: 60,
 			atq: 55,
 			def: 145,
 			atq_esp: 75,
@@ -11676,7 +11676,7 @@ const pkmnDisponiveis = [
 		massa: 106.6, // em kg
 		altura: 2.2, // em metros
 		estatistica: {
-			hp: 45,
+			ps: 45,
 			atq: 100,
 			def: 135,
 			atq_esp: 65,
@@ -11700,7 +11700,7 @@ const pkmnDisponiveis = [
 		massa: 26.6, // em kg
 		altura: 1.3, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 80,
 			def: 70,
 			atq_esp: 80,
@@ -11724,7 +11724,7 @@ const pkmnDisponiveis = [
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 50,
+			ps: 50,
 			atq: 50,
 			def: 77,
 			atq_esp: 95,
@@ -11748,7 +11748,7 @@ const pkmnDisponiveis = [
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 75,
 			def: 130,
 			atq_esp: 75,
@@ -11772,7 +11772,7 @@ const pkmnDisponiveis = [
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 105,
 			def: 105,
 			atq_esp: 105,
@@ -11796,7 +11796,7 @@ const pkmnDisponiveis = [
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 75,
+			ps: 75,
 			atq: 125,
 			def: 70,
 			atq_esp: 125,
@@ -11820,7 +11820,7 @@ const pkmnDisponiveis = [
 		massa: 683.0, // em kg
 		altura: 5.4, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 120,
 			def: 120,
 			atq_esp: 150,
@@ -11844,7 +11844,7 @@ const pkmnDisponiveis = [
 		massa: 336.0, // em kg
 		altura: 4.2, // em metros
 		estatistica: {
-			hp: 90,
+			ps: 90,
 			atq: 120,
 			def: 100,
 			atq_esp: 150,
@@ -11868,7 +11868,7 @@ const pkmnDisponiveis = [
 		massa: 430.0, // em kg
 		altura: 1.7, // em metros
 		estatistica: {
-			hp: 91,
+			ps: 91,
 			atq: 90,
 			def: 106,
 			atq_esp: 130,
@@ -11892,7 +11892,7 @@ const pkmnDisponiveis = [
 		massa: 420.0, // em kg
 		altura: 3.7, // em metros
 		estatistica: {
-			hp: 110,
+			ps: 110,
 			atq: 160,
 			def: 110,
 			atq_esp: 80,
@@ -11916,7 +11916,7 @@ const pkmnDisponiveis = [
 		massa: 750.0, // em kg
 		altura: 4.5, // em metros
 		estatistica: {
-			hp: 150,
+			ps: 150,
 			atq: 100,
 			def: 120,
 			atq_esp: 100,
@@ -11941,7 +11941,7 @@ const pkmnDisponiveis = [
 		massa: 85.6, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 120,
+			ps: 120,
 			atq: 70,
 			def: 120,
 			atq_esp: 75,
@@ -11965,7 +11965,7 @@ const pkmnDisponiveis = [
 		massa: 3.1, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 80,
+			ps: 80,
 			atq: 80,
 			def: 80,
 			atq_esp: 80,
@@ -11989,7 +11989,7 @@ const pkmnDisponiveis = [
 		massa: 1.4, // em kg
 		altura: 0.3, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 100,
 			atq_esp: 100,
@@ -12013,7 +12013,7 @@ const pkmnDisponiveis = [
 		massa: 50.5, // em kg
 		altura: 1.5, // em metros
 		estatistica: {
-			hp: 70,
+			ps: 70,
 			atq: 90,
 			def: 90,
 			atq_esp: 135,
@@ -12037,7 +12037,7 @@ const pkmnDisponiveis = [
 		massa: 2.1, // em kg
 		altura: 0.2, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 100,
 			atq_esp: 100,
@@ -12061,7 +12061,7 @@ const pkmnDisponiveis = [
 		massa: 320.0, // em kg
 		altura: 3.2, // em metros
 		estatistica: {
-			hp: 120,
+			ps: 120,
 			atq: 120,
 			def: 120,
 			atq_esp: 120,
@@ -12085,7 +12085,7 @@ const pkmnDisponiveis = [
 		massa: 4.0, // em kg
 		altura: 0.4, // em metros
 		estatistica: {
-			hp: 100,
+			ps: 100,
 			atq: 100,
 			def: 100,
 			atq_esp: 100,
