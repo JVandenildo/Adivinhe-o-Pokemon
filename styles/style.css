@@ -190,8 +190,6 @@ input {
 #geracoes {
 	text-align: center;
 	max-width: inherit;
-	background-color: var(--dark-bg);
-	box-shadow: 2px 2px 2px var(--dark-bg2), 2px 2px 2px var(--dark-bg2) inset;
 	border-radius: 10px;
 	padding: 2px;
 	display: flex;
