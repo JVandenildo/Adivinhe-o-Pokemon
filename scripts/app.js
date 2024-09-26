@@ -24,11 +24,12 @@ let escolhido = {
 		def_esp: 23,
 		vel: 29,
 	},
-
 	descricao: "   ", // considerando a dex da primeira geração que apareceu
 	categoria: "Pokémon ???",
-	lendario: true,
 	obtencao: "Glitch",
+	geracao: 1, // considerando em qual geração foi introduzido
+	variante: false,
+	lendario: true,
 	sprite: [
 		"https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
 		"https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png",
