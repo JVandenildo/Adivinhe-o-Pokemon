@@ -6450,7 +6450,7 @@ const pkmnDisponiveis = [
 		massa: 11.5, // em kg
 		altura: 0.7, // em metros
 		estatistica: {
-			ps: 55,
+			ps: 50,
 			atq: 35,
 			def: 55,
 			atq_esp: 25,
@@ -6701,7 +6701,7 @@ const pkmnDisponiveis = [
 			"Constrói seu ninho em penhasco íngreme na beira do mar. Tem dificuldade em manter suas asas batendo durante o voo. Em vez disso, ele plana em correntes de ar ascendentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gaivota",
 		lendario: false,
-		obtencao: "Rotas 103, 104, 110, e outras; e lado de fora do Monte da Pira",
+		obtencao: "Rotas 103, 104, 105, e outras; e lado de fora do Monte da Pira",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0278Wingull.png/375px-0278Wingull.png",
 		],
@@ -6938,7 +6938,7 @@ const pkmnDisponiveis = [
 			vel: 90,
 		},
 		descricao:
-			"Sempre está coçando e agitado para entrar em fúria. Simplesmente não consegue tolerar ficar parado nem por um minuto. O nível de estresse deste Pokémon aumenta se ele não puder se mover constantemente.", // considerando a dex da primeira geração que apareceu
+			"É simplesmente incapaz de permanecer parado. Mesmo quando tenta dormir, o sangue suas veias se agita, obrigando este Pokémon a correr solto pela selva antes que possa se acalmar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Selvagem",
 		lendario: false,
 		obtencao: "Por evolução",
@@ -7025,7 +7025,14 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fantasma"],
 		massa: 1.2, // em kg
 		altura: 0.8, // em metros
-		estatistica: { ps: 1, atq: 90, def: 45, atq_esp: 30, def_esp: 30, vel: 40 },
+		estatistica: {
+			ps: 1,
+			atq: 90,
+			def: 45,
+			atq_esp: 30,
+			def_esp: 30,
+			vel: 40,
+		},
 		descricao:
 			"Seu corpo duro não move, nem mesmo um tique. Na verdade, seu corpo aparenta ser meramente uma casca vazia. Acredita-se que este Pokémon roubará o espírito de qualquer um que espie seu corpo oco pelas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tosado",
@@ -7054,8 +7061,7 @@ const pkmnDisponiveis = [
 			"Normalmente, sua voz é muito baixa, é quase inaudível mesmo se estiver prestando bastante atenção. Contudo, caso pressinta perigo, começa a chorar em um volume ensurdecedor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sussurro",
 		lendario: false,
-		obtencao:
-			"Rota 116; Grutas do Deserto; Túnel Rusturf; e Estrada da Vitória",
+		obtencao: "Rota 116; Gruta do Deserto; Túnel Rusturf; e Estrada da Vitória",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0293Whismur.png/375px-0293Whismur.png",
 		],
@@ -7514,7 +7520,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		obtencao: "Rota 110",
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a9/0312Minun.png/375px-0312Minun.png",
+			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/312.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Minun_(Pok%C3%A9mon)",
 	},
@@ -7538,7 +7544,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		obtencao: "Rota 117",
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0313Volbeat.png/375px-0313Volbeat.png",
+			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/313.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
 	},
@@ -7562,7 +7568,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		obtencao: "Rota 117",
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6f/0314Illumise.png/375px-0314Illumise.png",
+			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/314.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Illumise_(Pok%C3%A9mon)",
 	},
@@ -7726,7 +7732,7 @@ const pkmnDisponiveis = [
 			vel: 60,
 		},
 		descricao:
-			"É o maior de todos Pokémon identificados. Este Pokémon gigante nada languidamente no vasto mar aberto, comendo quantidades gigantescas de comida de uma vez com sua boca enorme.", // considerando a dex da primeira geração que apareceu
+			"É o maior de todos Pokémon identificados até agora. Este Pokémon gigante nada languidamente no vasto mar aberto, comendo quantidades gigantescas de comida de uma vez com sua boca enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baleia Flutuante",
 		lendario: false,
 		obtencao: "Rota 129",
@@ -7753,7 +7759,7 @@ const pkmnDisponiveis = [
 			"Armazena magma de quase 1'200° Celsius dentro de seu corpo. Caso se molhe, o magma esfria e endurece. Nesse caso, o corpo do Pokémon aumenta de peso e seus movimentos se tornam lentos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dormente",
 		lendario: false,
-		obtencao: "Rotas 112; Caminho Ardente; e Passo Pontudo",
+		obtencao: "Rota 112; Caminho Ardente; e Passo Pontudo",
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/d/da/0322Numel.png/375px-0322Numel.png",
 		],

@@ -1,6 +1,6 @@
 const campoPalpite = document.getElementById("campoPalpite");
 const ultimosPalpites = document.getElementById("ultimosPalpites");
-const campoDicas = document.getElementById("campoDicas");
+const dicas = document.getElementById("dicas");
 const ultimato = document.getElementById("ultimato");
 const btnPalpite = document.getElementById("btnPalpite");
 const nomesGeral = document.querySelector(".nomesGeral");
@@ -69,7 +69,7 @@ function novaTentativa() {
 
 		// console.info(`Ticket: ${ticket}\n${escolhido[0].nome}`);
 
-		campoDicas.insertAdjacentHTML(
+		dicas.insertAdjacentHTML(
 			"beforeend",
 			`<p>${escolhido[0].massa} kg e ${escolhido[0].altura} m de altura</p>`
 		);
@@ -217,16 +217,16 @@ function darPalpite() {
 					escolhido[0].nome
 				}!<br><a href="${
 					escolhido[0].link
-				}" target="_blank">Mais informações</a>.</p><a href="${
-					escolhido[0].link
-				}" target="_blank"><img src="${
+				}" target="_blank">Mais informações sobre ${
+					escolhido[0].nome
+				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
 					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
 				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return false;
 			} else {
 				// este segundo o jogo continua //
-				campoDicas.insertAdjacentHTML(
+				dicas.insertAdjacentHTML(
 					"beforeend",
 					`<p>${listaDiscas[palpites]}</p>`
 				);
@@ -299,7 +299,7 @@ function resetar() {
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
 	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
-	campoDicas.innerHTML = "";
+	dicas.innerHTML = "";
 	ultimato.innerHTML = "";
 	palpites = 0;
 
