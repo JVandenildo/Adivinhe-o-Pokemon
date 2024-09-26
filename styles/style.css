@@ -171,7 +171,7 @@ input {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 17rem;
+	top: 15.7rem;
 }
 
 .nomePalpite {
@@ -199,6 +199,9 @@ input {
 	align-items: center;
 }
 
+#campoDicas {
+	display: flex;
+}
 #campoDicas p,
 #maquina {
 	margin: 0.2rem;
@@ -214,9 +217,10 @@ input {
 	max-width: 100px;
 	filter: contrast(1%) opacity(99%);
 }
-#dicas table {
+#dicas {
 	text-align: left !important;
 	margin: auto;
+	width: 17rem;
 }
 td {
 	max-width: 15rem !important;
@@ -227,10 +231,6 @@ th {
 	padding: 0rem 0.5rem;
 }
 
-#campoDicas {
-	display: flex;
-	justify-content: space-around;
-}
 #ultimosPalpites {
 	color: var(--dark-font-color);
 	font-size: smaller !important;
@@ -239,10 +239,10 @@ th {
 	border-radius: 10px;
 	width: 9rem;
 	height: fit-content;
-	margin: 0.5rem auto;
 }
 #ultimosPalpites p {
 	margin: 0.5rem;
+	text-align: left !important;
 }
 #ultimato img {
 	max-height: 150px;
