@@ -728,7 +728,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Nidoran♀",
+		nome: "Nidoran F.",
 		numero: 29, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 7.0, // em kg
@@ -806,7 +806,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoqueen_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Nidoran♂",
+		nome: "Nidoran M.",
 		numero: 32, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 9.0, // em kg
@@ -1244,9 +1244,9 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0049Venomoth.png/375px-0049Venomoth.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0048Venonat.png/375px-0048Venonat.png",
 		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Venonat_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Venomoth",
@@ -2856,9 +2856,9 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0109Koffing.png/375px-0109Koffing.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0110Weezing.png/375px-0110Weezing.png",
 		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Koffing_(Pok%C3%A9mon)",
+		link: "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rhyhorn",
@@ -7285,7 +7285,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0277Swellow.png/375px-0277Swellow.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/a/af/0279Pelipper.png/375px-0279Pelipper.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon)",
 	},
@@ -8144,7 +8144,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/312.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/a/a9/0312Minun.png/375px-0312Minun.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Minun_(Pok%C3%A9mon)",
 	},
@@ -8170,7 +8170,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/313.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0313Volbeat.png/375px-0313Volbeat.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
 	},
@@ -8196,7 +8196,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/314.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/6/6f/0314Illumise.png/375px-0314Illumise.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Illumise_(Pok%C3%A9mon)",
 	},
@@ -8431,7 +8431,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0321Wailord.png/375px-0321Wailord.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/5/5d/0323Camerupt.png/375px-0323Camerupt.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Camerupt_(Pok%C3%A9mon)",
 	},
@@ -9082,7 +9082,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ee/0346Cradily.png/375px-0346Cradily.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/1/15/0348Armaldo.png/375px-0348Armaldo.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Armaldo_(Pok%C3%A9mon)",
 	},
@@ -9394,7 +9394,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0356Dusclops.png/375px-0356Dusclops.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/3/3c/0357Tropius.png/375px-0357Tropius.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon)",
 	},
@@ -10070,7 +10070,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0381Latios.png/375px-0381Latios.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/2/28/0383Groudon.png/375px-0383Groudon.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)",
 	},
@@ -10829,7 +10829,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0407Roserade.png/375px-0407Roserade.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/0409Rampardos.png/375px-0409Rampardos.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rampardos_(Pok%C3%A9mon)",
 	},
@@ -11909,7 +11909,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/57/0446Munchlax.png/375px-0446Munchlax.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0448Lucario.png/375px-0448Lucario.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)",
 	},
@@ -12666,7 +12666,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0476Probopass.png/375px-0476Probopass.png",
+			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0477Dusknoir.png/375px-0477Dusknoir.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dusknoir_(Pok%C3%A9mon)",
 	},
