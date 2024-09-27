@@ -13179,3 +13179,18 @@ const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
+
+const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
+const numerosQuinta = quintaGeracao.map((x) => x.numero);
+
+const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
+const numerosSexta = sextaGeracao.map((x) => x.numero);
+
+const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
+const numerosSetima = setimaGeracao.map((x) => x.numero);
+
+const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
+const numerosOitava = oitavaGeracao.map((x) => x.numero);
+
+const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
+const numerosNona = nonaGeracao.map((x) => x.numero);

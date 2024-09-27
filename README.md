@@ -6,5 +6,6 @@
 As informações dos Pokémon são traduzidas dos sites abaixo.
 
 - [bulbapedia.bulbagarden.net](https://bulbapedia.bulbagarden.net/);
+- [pokemon.com](https://www.pokemon.com);
 - [serebii.net](https://serebii.net/);
 - [pokemondb.net](https://pokemondb.net/).

@@ -72,10 +72,22 @@ function novaTentativa() {
 
 		dicas.insertAdjacentHTML(
 			"beforeend",
-			`<p>${escolhido[0].massa} kg e ${escolhido[0].altura} m de altura</p>`
+			`<table>
+				<tr>
+				<th>Massa</th>
+				<td>${escolhido[0].massa} kg</td>
+				<th>Altura</th>
+				<td>${escolhido[0].altura} m</td>
+				</tr>
+			</table>`
 		);
 
-		btnPalpite.addEventListener("click", darPalpite);
+		btnPalpite.addEventListener("click", palpitar);
+		document.addEventListener("keypress", function (e) {
+			if (e.key === "Enter") {
+				btnPalpite.click();
+			}
+		});
 
 		return escolhido;
 	}
@@ -108,7 +120,7 @@ function selecaoGeracao(numero) {
  * Verifica se o palpite do usuário está correto.
  * @returns {boolean} Retorna nada.
  */
-function darPalpite() {
+function palpitar() {
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
 
@@ -183,7 +195,12 @@ function darPalpite() {
 			// caso acerte o nome do Pokémon //
 			palpites = palpites + 1;
 			campoPalpite.value = "";
-			btnPalpite.removeEventListener("click", darPalpite);
+			btnPalpite.removeEventListener("click", palpitar);
+			document.removeEventListener("keypress", function (e) {
+				if (e.key === "Enter") {
+					btnPalpite.click();
+				}
+			});
 
 			if (palpites === 1) {
 				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${
@@ -213,7 +230,12 @@ function darPalpite() {
 				// este primeiro é caso as dicas esgotem //
 				campoPalpite.value = "";
 
-				btnPalpite.removeEventListener("click", darPalpite);
+				btnPalpite.removeEventListener("click", palpitar);
+				document.removeEventListener("keypress", function (e) {
+					if (e.key === "Enter") {
+						btnPalpite.click();
+					}
+				});
 				ultimato.innerHTML = `<p>Você errou! Era ${
 					escolhido[0].nome
 				}!<br><a href="${
@@ -299,7 +321,6 @@ function resetar() {
 	campoPalpite.value = "";
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
-	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
 	dicas.innerHTML = "";
 	ultimato.innerHTML = "";
 	palpites = 0;
