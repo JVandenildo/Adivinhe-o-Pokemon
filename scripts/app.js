@@ -321,6 +321,7 @@ function resetar() {
 	campoPalpite.value = "";
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
+	ultimosPalpites.innerHTML = "";
 	dicas.innerHTML = "";
 	ultimato.innerHTML = "";
 	palpites = 0;

@@ -10128,7 +10128,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys",
-		numero: 386.1, // considerando a national dex e ser a variante normal
+		numero: 386.1, // considerando a national dex e por ser uma variante
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
@@ -10154,7 +10154,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys",
-		numero: 386.2, // considerando a national dex e ser a variante ofensiva
+		numero: 386.2, // considerando a national dex e por ser uma variante
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
@@ -10180,7 +10180,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys",
-		numero: 386.3, // considerando a national dex e ser variante defensiva
+		numero: 386.3, // considerando a national dex e por ser uma variante
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
@@ -10206,7 +10206,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys",
-		numero: 386.4, // considerando a national dex e ser a variante veloz
+		numero: 386.4, // considerando a national dex e por ser uma variante
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
@@ -10916,7 +10916,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam",
-		numero: 413.1, // considerando a national dex e por ser a primeira variante que aparece
+		numero: 413.1, // considerando a national dex e por ser uma variante
 		tipo: ["Inseto", " Planta"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
@@ -10942,7 +10942,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam",
-		numero: 413.2, // considerando a national dex e por ser a segunda variante que aparece
+		numero: 413.2, // considerando a national dex e por ser uma variante
 		tipo: ["Inseto", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
@@ -10969,7 +10969,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam",
-		numero: 413.3, // considerando a national dex e por ser a terceira variante que aparece
+		numero: 413.3, // considerando a national dex e por ser uma variante
 		tipo: ["Inseto", " Metal"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
