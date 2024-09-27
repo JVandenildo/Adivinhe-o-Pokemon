@@ -2,6 +2,7 @@ const campoPalpite = document.getElementById("campoPalpite");
 const ultimosPalpites = document.getElementById("ultimosPalpites");
 const dicas = document.getElementById("dicas");
 const ultimato = document.getElementById("ultimato");
+const btnTentativa = document.getElementById("btnTentativa");
 const btnPalpite = document.getElementById("btnPalpite");
 const nomesGeral = document.querySelector(".nomesGeral");
 const opcoesNomes = document.querySelector(".opcoesNomes");
@@ -50,11 +51,10 @@ function novaTentativa() {
 		!checkTerceira.checked &&
 		!checkQuarta.checked
 	) {
-		resetar();
-
 		return alert("Escolha alguma geração antes!");
 	} else {
 		resetar();
+		btnPalpite.addEventListener("click", palpitar);
 
 		const data = new Date();
 		const ticket = Math.floor(
@@ -81,13 +81,6 @@ function novaTentativa() {
 				</tr>
 			</table>`
 		);
-
-		btnPalpite.addEventListener("click", palpitar);
-		document.addEventListener("keypress", function (e) {
-			if (e.key === "Enter") {
-				btnPalpite.click();
-			}
-		});
 
 		return escolhido;
 	}
@@ -178,6 +171,7 @@ function palpitar() {
 		</tr></table>`,
 		// sétima e última dica //
 		`<table><tr>
+			<th>Silhueta</th>
 			<td><img src="${
 				escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
 			}" alt="Dica silhueta" /></td>
@@ -194,13 +188,8 @@ function palpitar() {
 		case escolhido[0].nome.toLowerCase():
 			// caso acerte o nome do Pokémon //
 			palpites = palpites + 1;
-			campoPalpite.value = "";
 			btnPalpite.removeEventListener("click", palpitar);
-			document.removeEventListener("keypress", function (e) {
-				if (e.key === "Enter") {
-					btnPalpite.click();
-				}
-			});
+			campoPalpite.value = "";
 
 			if (palpites === 1) {
 				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${
@@ -227,15 +216,9 @@ function palpitar() {
 		default:
 			// caso erre o nome do Pokémon //
 			if (palpites >= listaDiscas.length) {
-				// este primeiro é caso as dicas esgotem //
-				campoPalpite.value = "";
-
+				// caso as dicas esgotem //
 				btnPalpite.removeEventListener("click", palpitar);
-				document.removeEventListener("keypress", function (e) {
-					if (e.key === "Enter") {
-						btnPalpite.click();
-					}
-				});
+				campoPalpite.value = "";
 				ultimato.innerHTML = `<p>Você errou! Era ${
 					escolhido[0].nome
 				}!<br><a href="${
@@ -248,7 +231,7 @@ function palpitar() {
 
 				return false;
 			} else {
-				// este segundo o jogo continua //
+				// ainda existem dicas //
 				dicas.insertAdjacentHTML(
 					"beforeend",
 					`<p>${listaDiscas[palpites]}</p>`
@@ -314,14 +297,14 @@ function selecaoPalpite(palpite) {
 }
 
 /**
- * Deixa o jogo como deveria estar no começo.
+ * Coloca propriedades relevantes para os valores iniciais.
  * @returns {boolean} nada.
  */
 function resetar() {
 	campoPalpite.value = "";
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
-	ultimosPalpites.innerHTML = "";
+	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
 	dicas.innerHTML = "";
 	ultimato.innerHTML = "";
 	palpites = 0;

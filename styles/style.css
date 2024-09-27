@@ -210,15 +210,16 @@ input {
 	justify-content: start;
 	text-align: center;
 }
+#dicas {
+	text-align: left !important;
+	margin: auto;
+	margin-top: 0px !important;
+	width: 20rem;
+}
 #dicas img {
 	max-height: 100px;
 	max-width: 100px;
 	filter: contrast(1%) opacity(99%);
-}
-#dicas {
-	text-align: left !important;
-	margin: auto;
-	width: 20rem;
 }
 td {
 	max-width: 15rem !important;
