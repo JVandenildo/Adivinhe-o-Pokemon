@@ -1,10 +1,11 @@
 :root {
 	--dark-bg: #121314;
 	--dark-bg2: #323334;
-	--light-bg: whitesmoke;
+	--light-bg: rgb(245, 245, 245);
+	--light-bg2: rgb(200, 200, 200);
 	--footer-bg: goldenrod;
 
-	--light-font-color: whitesmoke;
+	--light-font-color: rgb(245, 245, 245);
 	--dark-font-color: #121314;
 
 	--filling-color: red;
@@ -99,15 +100,25 @@ th {
 	border: none !important;
 	outline: none !important;
 	border: none !important;
-	line-height: normal;
 }
 button {
-	line-height: 1.2rem !important;
-	height: 1.2rem;
+	line-height: 1.5rem !important;
+	height: 1.5rem;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	background-color: var(--light-bg);
+	color: var(--dark-font-color);
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#geracoes {
+	text-align: center;
+	max-width: 19rem;
+	padding: 2px;
+	margin: 0.5rem auto;
 }
 
 #usuario {
@@ -122,46 +133,30 @@ button {
 	align-items: center;
 	justify-content: center;
 }
-#btnTentativa {
-	border-radius: 10px 0 0 10px;
-	background-color: var(--light-bg);
-	color: var(--dark-font-color);
-	word-spacing: 5px;
-	letter-spacing: 1px;
-	height: 1.5rem !important;
-	width: 11rem;
-}
-#btnPalpite {
-	border-radius: 0 10px 10px 0;
-	background-color: var(--light-bg);
-	color: var(--dark-font-color);
-	word-spacing: 5px;
-	letter-spacing: 1px;
-	height: 1.5rem !important;
-	width: 10rem;
-}
+
 #btnDesistencia {
 	border: solid 2px var(--dark-bg2) !important;
 	border-radius: calc(10px + 0.3rem);
 	background-color: var(--filling-color);
 	color: var(--light-font-color);
-	word-spacing: 5px;
-	letter-spacing: 1px;
-	height: 1.5rem !important;
-	width: fit-content;
-	margin: 1rem auto 0rem;
+	margin: 0rem auto;
+	padding: 1rem !important;
+}
+#btnTentativa {
+	border-radius: 10px 0 0 10px;
+	width: 11rem;
+}
+#btnPalpite {
+	border-radius: 0 10px 10px 0;
+	width: 10rem;
 }
 
 .nomesGeral {
-	border-radius: inherit;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 10rem;
 	height: 1.3rem;
-}
-.nomesGeralShow {
-	border-radius: inherit;
 }
 #campoPalpite {
 	word-spacing: 5px;
@@ -174,49 +169,37 @@ button {
 	border: inherit;
 	display: none;
 	position: absolute;
-	padding: inherit;
 	z-index: 1;
 	max-height: 10rem;
 	overflow-y: scroll;
 	width: inherit;
-	border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px calc(10px + 0.3rem) calc(10px + 0.3rem);
 	background-color: var(--light-bg);
 	color: var(--dark-font-color);
 }
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 18.3rem;
+	top: 19rem;
 }
 
 .nomePalpite {
-	padding: inherit;
+	padding: auto 1rem !important;
 	cursor: pointer;
 	font-weight: 295;
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	margin: 0.5rem;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0.1rem 0.5rem;
 }
 .nomePalpite:hover {
-	background-color: var(--light-bg);
+	background-color: var(--light-bg2);
 	font-weight: 590;
-}
-
-#geracoes {
-	text-align: center;
-	max-width: inherit;
-	border-radius: 10px;
-	padding: 2px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 #campoDicas {
 	display: flex;
 }
-#campoDicas p,
+
 #maquina {
 	margin: 0.2rem;
 	flex-direction: column;
@@ -267,7 +250,6 @@ table {
 }
 #ultimosPalpites p {
 	margin: 0.5rem;
-	text-align: left !important;
 }
 
 #ultimato {

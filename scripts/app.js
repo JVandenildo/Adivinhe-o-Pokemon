@@ -257,10 +257,7 @@ function palpitar() {
 				return false;
 			} else {
 				// ainda existem dicas //
-				dicas.insertAdjacentHTML(
-					"beforeend",
-					`<p>${listaDiscas[palpites]}</p>`
-				);
+				dicas.insertAdjacentHTML("beforeend", `${listaDiscas[palpites]}`);
 				ultimosPalpites.insertAdjacentHTML(
 					"beforeend",
 					`<p>${campoPalpite.value}</p>`

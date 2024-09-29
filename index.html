@@ -48,7 +48,7 @@
 						name="geracao"
 					/><label for="quartaGeracao">Quarta Geração</label>
 				</div>
-				<article style="font-size: small; max-width: 19rem">
+				<article style="font-size: small">
 					Cada geração segue alguns dados dos jogos em que foi lançada; por
 					exemplo: a terceira geração segue alguns dados dos jogos Ruby,
 					Sapphire, e Emerald.
@@ -59,6 +59,7 @@
 				<button id="btnTentativa" onclick="novaTentativa()">
 					NOVA TENTATIVA
 				</button>
+				<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
 				<div class="nomesGeral">
 					<div class="opcoesNomes"></div>
 					<input
@@ -71,13 +72,13 @@
 						oninput="procurarNomes()"
 					/>
 				</div>
-				<div id="sugestoesPalpites"></div>
+				<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
 				<button id="btnPalpite">PALPITAR</button>
 			</section>
 			<section id="maquina">
 				<section id="campoDicas">
-					<section id="dicas"></section>
-					<section id="ultimosPalpites"><h4>Últimos Palpites</h4></section>
+					<div id="dicas"></div>
+					<div id="ultimosPalpites"><h4>Últimos Palpites</h4></div>
 				</section>
 				<section id="ultimato"></section>
 			</section>
