@@ -44,19 +44,30 @@ let palpites = 0;
 
 function desistencia() {
 	campoPalpite.value = "";
-
-	ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites! Era ${
-		escolhido[0].nome
-	}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações sobre ${
-		escolhido[0].nome
-	}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
-		escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
-	}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
-
 	btnPalpite.removeEventListener("click", palpitar);
 	btnDesistencia.removeEventListener("click", desistencia);
 
-	return false;
+	if (palpites === 1) {
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite!<br><a href="${
+			escolhido[0].link
+		}" target="_blank">Mais informações sobre ${
+			escolhido[0].nome
+		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+			escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+		}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+		return false;
+	} else {
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites!<br><a href="${
+			escolhido[0].link
+		}" target="_blank">Mais informações sobre ${
+			escolhido[0].nome
+		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+			escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+		}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+		return false;
+	}
 }
 
 /**
