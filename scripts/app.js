@@ -93,14 +93,14 @@ function novaTentativa() {
 
 		dicas.insertAdjacentHTML(
 			"beforeend",
-			`<table>
+			`<table id="tabelaDicas">
 				<tr>
 					<th scope="col">Massa</th>
 					<th scope="col">Altura</th>
 				</tr>
 				<tr>
-					<td>${escolhido[0].massa} kg</td>
-					<td>${escolhido[0].altura} m</td>
+					<td style="text-align:center !important">${escolhido[0].massa} kg</td>
+					<td style="text-align:center !important">${escolhido[0].altura} m</td>
 				</tr>
 			</table>`
 		);
@@ -137,68 +137,54 @@ function selecaoGeracao(numero) {
  * @returns {boolean} Retorna nada.
  */
 function palpitar() {
+	const tabelaDicas = document.querySelector("#tabelaDicas");
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
 
 	const listaDiscas = [
-		// primeira dica //
-		`<table>
-			<tr><th scope="col">Pegada</th></tr>
-			<tr><td class="pegada"><img loading="eager" src="${escolhido[0].pegada}" alt="Dica pegada" /></td></tr>
-		</table>`,
-		// segunda dica //
-		`<table>
-			<tr><th scope="col">Tipo(s)</th></tr>
-			<tr><td>${escolhido[0].tipo}</td></tr>
-		</table>`,
-		// terceira dica //
-		`<table>
-			<tr><th scope="col">Obtenção</th></tr>
-			<tr><td>${escolhido[0].obtencao}</td></tr>
-		</table>`,
-		// quarta diga //
-		`<table id="estatistica">
-				<tr><th scope="col" colspan="2" style="text-align:center !important">Estatísticas</th></tr>
-				<tr><th scope="row">PS</th>
-				<td>${escolhido[0].estatistica.ps}</td></tr>
-				
-				<tr><th scope="row">Ataque</th>
-				<td>${escolhido[0].estatistica.atq}</td></tr>
-				
-				<tr><th scope="row">Defesa</th>
-				<td>${escolhido[0].estatistica.def}</td></tr>
+		/* primeira dica */
+		`<tr><th scope="col">Pegada</th></tr>
+		<tr><td class="pegada"><img loading="eager" src="${escolhido[0].pegada}" alt="Dica pegada" /></td></tr>`,
+		/* segunda dica */
+		`<tr><th scope="col">Tipo(s)</th></tr>
+		<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>`,
+		/* terceira dica */
+		`<tr><th scope="col">Obtenção</th></tr>
+		<tr><td>${escolhido[0].obtencao}</td></tr>`,
+		/* quarta diga */
+		`<tr><th scope="col" colspan="2">Estatísticas</th></tr>
+
+		<tr><th scope="row" style="text-align:left !important">PS</th>
+		<td>${escolhido[0].estatistica.ps}</td></tr>
 			
-				<tr><th scope="row">Ataque Especial</th>
-				<td>${escolhido[0].estatistica.atq_esp}</td></tr>
+		<tr><th scope="row" style="text-align:left !important">Ataque</th>
+		<td>${escolhido[0].estatistica.atq}</td></tr>
 			
-				<tr><th scope="row">Defesa Especial</th>
-				<td>${escolhido[0].estatistica.def_esp}</td></tr>
-			
-				<tr><th scope="row">Velocidade</th>
-				<td>${escolhido[0].estatistica.vel}</td></tr>
-		</table>`,
-		// quinta dica //
-		`<table id="descricao">
-			<tr><th scope="col">Descrição</th></tr>
-			<tr><td>${escolhido[0].descricao}</td></tr>
-		</table>`,
-		// sexta dica //
-		`<table>
-			<tr><th scope="col">Categoria</th></tr>
-			<tr><td>${escolhido[0].categoria}</td></tr>
-		</table>`,
-		// sétima dica //
-		`<table>
-			<tr><th scope="col">Número</th></tr>
-			<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
-		</table>`,
-		// oitava e última dica //
-		`<table>
-			<tr><th scope="col">Silhueta</th></tr>
-			<tr><td><img loading="eager" src="${
-				escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
-			}" alt="Dica silhueta" /></td></tr>
-		</table>`,
+		<tr><th scope="row" style="text-align:left !important">Defesa</th>
+		<td>${escolhido[0].estatistica.def}</td></tr>
+		
+		<tr><th scope="row" style="text-align:left !important">Ataque Especial</th>
+		<td>${escolhido[0].estatistica.atq_esp}</td></tr>
+		
+		<tr><th scope="row" style="text-align:left !important">Defesa Especial</th>
+		<td>${escolhido[0].estatistica.def_esp}</td></tr>
+		
+		<tr><th scope="row" style="text-align:left !important">Velocidade</th>
+		<td>${escolhido[0].estatistica.vel}</td></tr>`,
+		/* quinta dica */
+		`<tr><th scope="col">Descrição</th></tr>
+			<tr><td>${escolhido[0].descricao}</td></tr>`,
+		/* sexta dica */
+		`<tr><th scope="col">Categoria</th></tr>
+		<tr><td>${escolhido[0].categoria}</td></tr>`,
+		/* sétima dica */
+		`<tr><th scope="col">Número</th></tr>
+		<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>`,
+		/* oitava e última dica */
+		`<tr><th scope="col">Silhueta</th></tr>
+		<tr><td><img loading="eager" src="${
+			escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+		}" alt="Dica silhueta" /></td></tr>`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -209,7 +195,7 @@ function palpitar() {
 			return false;
 
 		case escolhido[0].nome.toLowerCase():
-			// caso acerte o nome do Pokémon //
+			/* caso acerte o nome do Pokémon */
 			palpites = palpites + 1;
 			btnPalpite.removeEventListener("click", palpitar);
 			btnDesistencia.removeEventListener("click", desistencia);
@@ -238,9 +224,10 @@ function palpitar() {
 			}
 
 		default:
-			// caso erre o nome do Pokémon //
+			/* caso erre o nome do Pokémon */
 			if (palpites >= listaDiscas.length) {
-				// caso as dicas esgotem //
+				/* caso as dicas esgotem */
+
 				btnPalpite.removeEventListener("click", palpitar);
 				btnDesistencia.removeEventListener("click", desistencia);
 				campoPalpite.value = "";
@@ -256,8 +243,9 @@ function palpitar() {
 
 				return false;
 			} else {
-				// ainda existem dicas //
-				dicas.insertAdjacentHTML("beforeend", `${listaDiscas[palpites]}`);
+				/* ainda existem dicas */
+
+				tabelaDicas.insertAdjacentHTML("beforeend", `${listaDiscas[palpites]}`);
 				ultimosPalpites.insertAdjacentHTML(
 					"beforeend",
 					`<p>${campoPalpite.value}</p>`
