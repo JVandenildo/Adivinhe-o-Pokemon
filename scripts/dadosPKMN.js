@@ -5,6 +5,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 6.9, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0001.png",
 		estatistica: {
 			ps: 45,
 			atq: 49,
@@ -17,6 +18,7 @@ const pkmnDisponiveis = [
 			"Uma semente estranha foi plantada nas suas costas em seu nascimento. A planta brota e cresce com esse Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
 		obtencao: "Laboratório do Prof. Carvalho",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -31,6 +33,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 13.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0002.png",
 		estatistica: {
 			ps: 60,
 			atq: 62,
@@ -43,6 +46,7 @@ const pkmnDisponiveis = [
 			"Quando o bulbo nas suas costas cresce, aparenta perder a capacidade de ficar em pé nas patas traseiras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -57,6 +61,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0003.png",
 		estatistica: {
 			ps: 80,
 			atq: 82,
@@ -69,6 +74,7 @@ const pkmnDisponiveis = [
 			"A planta floresce quando absorve energia solar. Permanece se movimentando em busca de luz solar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -83,6 +89,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 8.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8c/F0004.png",
 		estatistica: {
 			ps: 39,
 			atq: 52,
@@ -95,6 +102,7 @@ const pkmnDisponiveis = [
 			"Obviamente prefere lugares quentes. Dizem que quando chove, sai vapor da ponta de sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagarto",
 		obtencao: "Laboratório do Prof. Carvalho",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -109,6 +117,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0005.png",
 		estatistica: {
 			ps: 58,
 			atq: 64,
@@ -121,6 +130,7 @@ const pkmnDisponiveis = [
 			"Quando balança sua cauda em chamas, a temperatura é elevada a níveis insuportavelmente altos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -135,6 +145,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 90.5, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/05/F0006.png",
 		estatistica: {
 			ps: 78,
 			atq: 84,
@@ -147,6 +158,7 @@ const pkmnDisponiveis = [
 			"Cospe fogo quente o suficiente para derreter rochas. É conhecido por causar incêndio florestal não intencionalmente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -161,6 +173,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0007.png",
 		estatistica: {
 			ps: 44,
 			atq: 48,
@@ -173,6 +186,7 @@ const pkmnDisponiveis = [
 			"Após seu nascimento, suas costas incham e endurecem em uma carapaça. Espalha poderosamente uma espuma de sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tartaruguinha",
 		obtencao: "Laboratório do Prof. Carvalho",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -187,6 +201,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 22.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0008.png",
 		estatistica: {
 			ps: 59,
 			atq: 63,
@@ -199,6 +214,7 @@ const pkmnDisponiveis = [
 			"Comumente esconde-se na água para perseguir presa desavisada. Para um nado rápido, movimenta suas orelhas para manter estabilidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tartaruga",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -213,6 +229,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 85.5, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0009.png",
 		estatistica: {
 			ps: 79,
 			atq: 83,
@@ -225,6 +242,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon brutal com jatos de água pressurizada em seu casco. São usados em investidas de alta velocidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -239,6 +257,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 2.9, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0010.png",
 		estatistica: {
 			ps: 45,
 			atq: 30,
@@ -251,6 +270,7 @@ const pkmnDisponiveis = [
 			"Seus pés curtos são dotados de ventosas que lhe permitem escalar encostas e paredes sem cansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca",
 		obtencao: "Rotas 2, 24, e 25; e Floresta de Viridiana",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -265,6 +285,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 9.9, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0011.png",
 		estatistica: {
 			ps: 50,
 			atq: 20,
@@ -276,7 +297,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"É vulnerável a ataques enquanto seu casulo está mole, expondo seu corpo fraco e frágil.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Rotas 24, e 25; e Floresta de Viridiana",
+		obtencao: "Rotas 24, e 25; Floresta de Viridiana; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -291,6 +313,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 32.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0012.png",
 		estatistica: {
 			ps: 60,
 			atq: 45,
@@ -303,6 +326,7 @@ const pkmnDisponiveis = [
 			"Em batalha, bate suas asas em alta velocidade para liberar poeira altamente tóxico no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Borboleta",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -317,6 +341,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 3.2, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0013.png",
 		estatistica: {
 			ps: 40,
 			atq: 35,
@@ -329,6 +354,7 @@ const pkmnDisponiveis = [
 			"Comumente encontrado em florestas, comendo folhas. Possui um ferrão afiado e venenoso em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto Peludo",
 		obtencao: "Rotas 2, 24, e 25; e Floresta de Viridiana",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -343,6 +369,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0014.png",
 		estatistica: {
 			ps: 45,
 			atq: 25,
@@ -354,7 +381,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quase incapaz de se mover, este Pokémon consegue só endurecer seu casulo para proteger a si mesmo de predadores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Rotas 24, e 25; e Floresta de Viridiana",
+		obtencao: "Rotas 24, e 25; Floresta de Viridiana; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -369,6 +397,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/cc/F0015.png",
 		estatistica: {
 			ps: 65,
 			atq: 80,
@@ -381,6 +410,7 @@ const pkmnDisponiveis = [
 			"Voa em alta velocidade e ataca usando seus ferrões venenosos localizados nas patas dianteiras e cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abelha Venenosa",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -395,6 +425,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0016.png",
 		estatistica: {
 			ps: 40,
 			atq: 45,
@@ -407,6 +438,7 @@ const pkmnDisponiveis = [
 			"Comum ser visto em florestas e bosques. Bate as asas próximo ao chão para levantar poeira ofuscante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
 		obtencao: "Rotas 1, 2, 3, e outras; e Floresta de Viridiana",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -421,6 +453,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0017.png",
 		estatistica: {
 			ps: 63,
 			atq: 60,
@@ -432,7 +465,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Muito protetor de sua extensa área territorial, este Pokémon irá bicar ferozmente qualquer intruso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro",
-		obtencao: "Rotas 5, 6, 7, e outras; e Floresta de Viridiana",
+		obtencao: "Rotas 5, 6, 7, e outras; Floresta de Viridiana; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -447,6 +481,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 39.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b7/F0018.png",
 		estatistica: {
 			ps: 83,
 			atq: 80,
@@ -459,6 +494,7 @@ const pkmnDisponiveis = [
 			"Quando caça, desliza na superfície da água em alta velocidade para pegar presas desavisadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -473,6 +509,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 3.5, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0019.png",
 		estatistica: {
 			ps: 30,
 			atq: 56,
@@ -485,6 +522,7 @@ const pkmnDisponiveis = [
 			"Morde qualquer coisa quando ataca. Pequeno e muito rápido, é comum ser visto em vários lugares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao: "Rotas 1, 2, 3, e outras; e Mansão Pokémon",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -499,6 +537,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 18.5, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0020.png",
 		estatistica: {
 			ps: 55,
 			atq: 81,
@@ -510,7 +549,9 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa seus bigodes para manter o equilíbrio. Aparentemente fica mais lento quando são cortados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Rotas 9, 10, 11, e outras; Mansão Pokémon e Caverna de Cerulean",
+		obtencao:
+			"Rotas 9, 10, 11, e outras; Mansão Pokémon; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -525,6 +566,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0021.png",
 		estatistica: {
 			ps: 40,
 			atq: 60,
@@ -537,6 +579,7 @@ const pkmnDisponiveis = [
 			"Come insetos em áreas gramadas. Tem que bater suas curtas asas em alta velocidade para se manter no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
 		obtencao: "Rotas 3, 4, 9, e outras",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -551,6 +594,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0022.png",
 		estatistica: {
 			ps: 65,
 			atq: 90,
@@ -562,7 +606,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com suas imensas e magnificas asas, consegue permanecer no ar sem pousar para descansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bico",
-		obtencao: "Rotas 9, 16, 17, e outras",
+		obtencao: "Rotas 9, 16, 17, e outras; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -577,6 +622,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 6.9, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0023.png",
 		estatistica: {
 			ps: 35,
 			atq: 60,
@@ -589,6 +635,7 @@ const pkmnDisponiveis = [
 			"Move-se de maneira silenciosa e furtiva. Come ovos de pássaros, como Pidgey e Spearow.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente",
 		obtencao: "Rotas 4, 8, 9, e outras",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -603,6 +650,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 65.0, // em kg
 		altura: 3.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0024.png",
 		estatistica: {
 			ps: 60,
 			atq: 85,
@@ -614,7 +662,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rumores dizem que as marcas de sua barriga mudam de área para área.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cobra",
-		obtencao: "Rota 23; e Caverna de Cerulean",
+		obtencao: "Rota 23; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -629,6 +678,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c4/F0025.png",
 		estatistica: {
 			ps: 35,
 			atq: 55,
@@ -641,6 +691,7 @@ const pkmnDisponiveis = [
 			"Quando vários Pokémon dessa espécie se reúnem, sua eletricidade poderia aumentar e causar tempestades elétricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao: "Floresta de Viridiana; e Usina Elétrica Abandonada",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -655,6 +706,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0026.png",
 		estatistica: {
 			ps: 60,
 			atq: 90,
@@ -666,7 +718,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua longa cauda serve como um fio-terra que o protege de sua própria potência elétrica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Usina Elétrica Abadona; e Caverna de Cerulean",
+		obtencao: "Usina Elétrica Abadona; Caverna de Cerulean; e por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -681,6 +734,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0027.png",
 		estatistica: {
 			ps: 50,
 			atq: 75,
@@ -693,6 +747,7 @@ const pkmnDisponiveis = [
 			"Escava profundamente na terra em lugares áridos e distantes de água. Só sai para caçar comida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao: "Rotas 3, 4, 8, e outras; e Monte da Lua",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -707,6 +762,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0028.png",
 		estatistica: {
 			ps: 75,
 			atq: 100,
@@ -718,7 +774,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enrola-se em uma bola espinhosa quando se sente ameaçado. Pode rolar para atacar ou escapar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Rota 23; e Caverna de Cerulean",
+		obtencao: "Rota 23; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -728,11 +785,12 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Nidoran F.",
+		nome: "Nidoran♀",
 		numero: 29, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0029.png",
 		estatistica: {
 			ps: 55,
 			atq: 47,
@@ -745,6 +803,7 @@ const pkmnDisponiveis = [
 			"Apesar de pequenos, seus espinhos venenosos tornam este Pokémon perigoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		obtencao: "Rotas 2, 9, 10, e outra; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -759,6 +818,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 20.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0030.png",
 		estatistica: {
 			ps: 70,
 			atq: 62,
@@ -770,7 +830,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"O chifre da fêmea desenvolve devagar. Prefere ataques físicos como mordida e patadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Rotas 9, e 23; e Zona Safari",
+		obtencao: "Rotas 9, e 23; Zona Safari; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -785,6 +846,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Terra"],
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0031.png",
 		estatistica: {
 			ps: 90,
 			atq: 82,
@@ -797,6 +859,7 @@ const pkmnDisponiveis = [
 			"Suas duras escamas lhe dão uma forte proteção. Usa seu grande volume para executar ataques poderosos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -806,11 +869,12 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoqueen_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Nidoran M.",
+		nome: "Nidoran♂",
 		numero: 32, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0032.png",
 		estatistica: {
 			ps: 46,
 			atq: 57,
@@ -823,6 +887,7 @@ const pkmnDisponiveis = [
 			"Enrijece suas orelhas para sentir perigo. Quanto maior seus chifres, mais poderoso é seu veneno secretado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
 		obtencao: "Rotas 2, 9, 10, e outra; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -837,6 +902,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/20/F0033.png",
 		estatistica: {
 			ps: 61,
 			atq: 72,
@@ -848,7 +914,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon agressivo que é rápido para atacar. O chifre em sua cabeça secreta um poderoso veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Rotas 9, e 23; e Zona Safari",
+		obtencao: "Rotas 9, e 23; Zona Safari; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -863,6 +930,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Terra"],
 		massa: 62.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0034.png",
 		estatistica: {
 			ps: 81,
 			atq: 92,
@@ -875,6 +943,7 @@ const pkmnDisponiveis = [
 			"Usa sua poderosa cauda para golpear, imobilizar, e então quebrar os ossos de sua presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -889,6 +958,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 7.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0035.png",
 		estatistica: {
 			ps: 70,
 			atq: 45,
@@ -901,6 +971,7 @@ const pkmnDisponiveis = [
 			"Sua aparência mágica e fofa possui muitos admiradores. É raro e encontrado somente em certas áreas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
 		obtencao: "Monte da Lua; e Caverna de Cerulean",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -915,6 +986,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 40.0, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0036.png",
 		estatistica: {
 			ps: 95,
 			atq: 70,
@@ -927,6 +999,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon fada tímido que é raramente visto. Corre e se esconde no momento que sente uma pessoa por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -941,6 +1014,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 9.9, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0037.png",
 		estatistica: {
 			ps: 38,
 			atq: 41,
@@ -952,7 +1026,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"No momento do nascimento, só possui uma cauda. A cauda se divide a partir da ponta a medida que envelhece.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Rotas 7, e 8; e a Mansão Pokémon",
+		obtencao: "Rotas 7, e 8; e Mansão Pokémon",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -967,6 +1042,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.9, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0038.png",
 		estatistica: {
 			ps: 73,
 			atq: 76,
@@ -979,6 +1055,7 @@ const pkmnDisponiveis = [
 			"Muito inteligente e vingativo. Agarrar uma de suas várias caldas poderia resultar um uma maldição de 1'000 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -993,6 +1070,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0039.png",
 		estatistica: {
 			ps: 115,
 			atq: 45,
@@ -1005,6 +1083,7 @@ const pkmnDisponiveis = [
 			"Quando seus grandes olhos se iluminam, canta uma melodia misteriosamente suave que embala seus inimigos para dormir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		obtencao: "Rotas 3, 5, 6, e outras",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1019,6 +1098,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 12.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0040.png",
 		estatistica: {
 			ps: 140,
 			atq: 70,
@@ -1030,7 +1110,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é macio e emborrachado. Quando atiçado, suga ar e infla-se a um tamanho enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
-		obtencao: "Caverna de Cerulean",
+		obtencao: "Caverna de Cerulean; e por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1045,6 +1126,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Voador"],
 		massa: 7.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6d/F0041.png",
 		estatistica: {
 			ps: 40,
 			atq: 45,
@@ -1058,6 +1140,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Morcego",
 		obtencao:
 			"Monte da Lua; Túnel de Rocha; Ilhas Espuma; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1072,6 +1155,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Voador"],
 		massa: 55.0, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0042.png",
 		estatistica: {
 			ps: 75,
 			atq: 80,
@@ -1083,7 +1167,9 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma vez que ataca, não para de drenar a energia de suas vítimas mesmo que fique pesado demais para voar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
-		obtencao: "Ilhas Espuma; Estrada da Vitória; e Caverna de Cerulean",
+		obtencao:
+			"Ilhas Espuma; Estrada da Vitória; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1098,6 +1184,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 5.4, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0043.png",
 		estatistica: {
 			ps: 45,
 			atq: 50,
@@ -1110,6 +1197,7 @@ const pkmnDisponiveis = [
 			"Durante o dia, mantém seu rosto enterrado no chão. Durante a noite, vagueia semeando suas sementes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
 		obtencao: "Rotas 5, 6, 7, e outras",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1124,6 +1212,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 8.6, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0044.png",
 		estatistica: {
 			ps: 60,
 			atq: 65,
@@ -1135,7 +1224,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"O fluido que escorre de sua boca não é baba. É um néctar usado para atrair suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
-		obtencao: "Rotas 12, 13, 14, e outra; e Caverna de Cerulean",
+		obtencao: "Rotas 12, 13, 14, e outra; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1150,6 +1240,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 18.6, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0045.png",
 		estatistica: {
 			ps: 75,
 			atq: 80,
@@ -1162,6 +1253,7 @@ const pkmnDisponiveis = [
 			"Quanto maior suas pétalas, mais pólen tóxico contém. Sua cabeça grande é pesada e difícil de segurar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1176,6 +1268,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 5.4, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0046.png",
 		estatistica: {
 			ps: 35,
 			atq: 70,
@@ -1188,6 +1281,7 @@ const pkmnDisponiveis = [
 			"Escava para se alimentar de raízes. Os cogumelos em suas costas crescem extraindo nutrientes do inseto hospedeiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
 		obtencao: "Monte da Lua; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1202,6 +1296,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0047.png",
 		estatistica: {
 			ps: 60,
 			atq: 95,
@@ -1213,7 +1308,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um par hospedeiro-parasita no qual o cogumelo parasita assumiu o controle do inseto hospedeiro. Prefere lugares úmidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
-		obtencao: "Zona Safari; e Caverna de Cerulean",
+		obtencao: "Zona Safari; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1228,6 +1324,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0048.png",
 		estatistica: {
 			ps: 60,
 			atq: 55,
@@ -1240,6 +1337,7 @@ const pkmnDisponiveis = [
 			"Vive nas sombras de árvores altas onde come insetos. É atraído por luzes durante a noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto",
 		obtencao: "Rotas 12, 13, 14, e outras; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1254,6 +1352,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 12.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0049.png",
 		estatistica: {
 			ps: 70,
 			atq: 65,
@@ -1265,7 +1364,9 @@ const pkmnDisponiveis = [
 		descricao:
 			"As escamas semelhantes a poeira que cobrem suas asas são codificadas por cor para indicar os tipos de veneno que possui.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa Venenosa",
-		obtencao: "Zona Safari; Estrada da Vitória; e Caverna de Cerulean",
+		obtencao:
+			"Zona Safari; Estrada da Vitória; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1280,6 +1381,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 0.8, // em kg
 		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0050.png",
 		estatistica: {
 			ps: 10,
 			atq: 55,
@@ -1292,6 +1394,7 @@ const pkmnDisponiveis = [
 			"Vive em torno de um metro abaixo da superfície onde se alimente de raízes. Aparece ocasionalmente acima da superfície.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
 		obtencao: "Túnel dos Diglett",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1306,6 +1409,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 33.3, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0051.png",
 		estatistica: {
 			ps: 35,
 			atq: 80,
@@ -1316,7 +1420,8 @@ const pkmnDisponiveis = [
 		},
 		descricao: "Desencadeia grandes terremotos ao cavar 100km no subsolo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
-		obtencao: "Túnel dos Diglett",
+		obtencao: "Túnel dos Diglett; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1331,6 +1436,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
 			ps: 40,
 			atq: 45,
@@ -1343,6 +1449,7 @@ const pkmnDisponiveis = [
 			"Gosta de objetos redondos. Vaga pelas ruas todas as noites procurando por trocados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arranha Gato",
 		obtencao: "Rotas 5, 6, 7, e outra",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1357,6 +1464,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0053.png",
 		estatistica: {
 			ps: 65,
 			atq: 70,
@@ -1369,6 +1477,7 @@ const pkmnDisponiveis = [
 			"Apesar de seu pelo possuir muitos admiradores, é difícil de criar como animal de estimação por sua maldade inconstante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato de Luxo",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1383,6 +1492,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 19.6, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0054.png",
 		estatistica: {
 			ps: 50,
 			atq: 52,
@@ -1395,6 +1505,7 @@ const pkmnDisponiveis = [
 			"Enquanto engana seus oponentes com seu olhar distraído, este astuto Pokémon usa seus poderes psicocinéticos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
 		obtencao: "Rotas 6, 24, e 25; Ilhas Espuma; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1409,6 +1520,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 76.6, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0055.png",
 		estatistica: {
 			ps: 80,
 			atq: 82,
@@ -1420,7 +1532,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Frequentemente visto nadando elegantemente às marges de lagos. Muitas vezes confundido com a criatura japonesa, Kappa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
-		obtencao: "Rota 6; e Ilhas Espuma",
+		obtencao: "Rota 6; Ilhas Espuma; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1435,6 +1548,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 28.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0056.png",
 		estatistica: {
 			ps: 40,
 			atq: 80,
@@ -1447,6 +1561,7 @@ const pkmnDisponiveis = [
 			"Extremamente rápido em se irritar. Pode ser dócil em um momento e logo depois se debater.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Porco",
 		obtencao: "Rotas 3, 4, 5, e outras",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1461,6 +1576,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0057.png",
 		estatistica: {
 			ps: 65,
 			atq: 105,
@@ -1472,7 +1588,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Só deixa de estar raivoso quando mais ninguém está por perto. Não deixará de perseguir sua presa até que seja pega.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Porco",
-		obtencao: "Rota 23",
+		obtencao: "Rota 23; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1487,6 +1604,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0058.png",
 		estatistica: {
 			ps: 55,
 			atq: 70,
@@ -1499,6 +1617,7 @@ const pkmnDisponiveis = [
 			"Muito protetor de seu território. Late e morde para repelir invasores de seu espaço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
 		obtencao: "Rotas 7, e 8; e Mansão Pokémon",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1513,6 +1632,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 155.0, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0059.png",
 		estatistica: {
 			ps: 90,
 			atq: 110,
@@ -1525,6 +1645,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que tem sido admirado por sua beleza. Corre com agilidade como se tivesse asas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lendário",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1539,6 +1660,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 12.4, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0060.png",
 		estatistica: {
 			ps: 40,
 			atq: 50,
@@ -1552,6 +1674,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Girino",
 		obtencao:
 			"Rotas 6, 10, 11, e outras; Caverna de Cerulean; Zona Safari; Ilhas Espuma; e Planalto Índigo",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1566,6 +1689,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 20.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0061.png",
 		estatistica: {
 			ps: 65,
 			atq: 65,
@@ -1577,7 +1701,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Capaz de viver dentro e fora d'água. Quando está fora da água, transpira para manter seu corpo viscoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
-		obtencao: "Rotas 10, 22, e 23",
+		obtencao: "Rotas 10, 22, e 23; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1592,6 +1717,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0062.png",
 		estatistica: {
 			ps: 90,
 			atq: 85,
@@ -1604,6 +1730,7 @@ const pkmnDisponiveis = [
 			"Um hábil nadador dos nado crawl e nado peito. Facilmente ultrapassa os melhores nadadores humanos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1618,6 +1745,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0063.png",
 		estatistica: {
 			ps: 25,
 			atq: 20,
@@ -1630,6 +1758,7 @@ const pkmnDisponiveis = [
 			"Usando sua habilidade de ler mentes, identifica o perigo iminente e teleporta para um local seguro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
 		obtencao: "Rotas 5, 6, 7, e outras",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1644,6 +1773,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 56.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0064.png",
 		estatistica: {
 			ps: 40,
 			atq: 35,
@@ -1655,7 +1785,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Emite ondas alfas especiais de seu corpo que induzem dores de cabeça apenas por estar por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
-		obtencao: "Rota 8; e Caverna de Cerulean",
+		obtencao: "Rota 8; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1670,6 +1801,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 48.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0065.png",
 		estatistica: {
 			ps: 55,
 			atq: 50,
@@ -1682,6 +1814,7 @@ const pkmnDisponiveis = [
 			"Seu cérebro consegue superar um super-computador. É dito que seu QI é de 5'000.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1696,6 +1829,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 19.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/F0066.png",
 		estatistica: {
 			ps: 70,
 			atq: 80,
@@ -1708,6 +1842,7 @@ const pkmnDisponiveis = [
 			"Gosta de construir seu músculos. Treina em todos os estilos de artes marciais para se tornar mais forte.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
 		obtencao: "Rota 10; Túnel de Rocha; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1722,6 +1857,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 70.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0067.png",
 		estatistica: {
 			ps: 80,
 			atq: 100,
@@ -1733,7 +1869,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo musculoso é tão poderoso, deve usar um cinto regulador de energia para.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
-		obtencao: "Estrada da Vitória",
+		obtencao: "Estrada da Vitória; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1748,6 +1885,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 130.0, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0068.png",
 		estatistica: {
 			ps: 90,
 			atq: 130,
@@ -1760,6 +1898,7 @@ const pkmnDisponiveis = [
 			"Usando seus pesados músculos, lança poderosos socos que conseguem mandar a vítima para o horizonte.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1774,6 +1913,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 4.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0069.png",
 		estatistica: {
 			ps: 50,
 			atq: 75,
@@ -1786,6 +1926,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon carnívoro que prende e come insetos. Usa seus pés raiz para sugar a umidade necessária.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
 		obtencao: "Rotas 5, 6, 7, e outras",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1800,6 +1941,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 6.4, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a1/F0070.png",
 		estatistica: {
 			ps: 65,
 			atq: 90,
@@ -1811,7 +1953,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Expele Pó de Veneno para imobilizar seu adversário e então finaliza com um spray de Ácido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mata-Moscas",
-		obtencao: "Rotas 12, 13, 14, e outra; e Caverna de Cerulean",
+		obtencao: "Rotas 12, 13, 14, e outra; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1826,6 +1969,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 15.5, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0071.png",
 		estatistica: {
 			ps: 80,
 			atq: 105,
@@ -1838,6 +1982,7 @@ const pkmnDisponiveis = [
 			"É dito viver em grandes colônias nas profundezas das selvas, embora ninguém tenha retornando de lá.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mata-Moscas",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1852,6 +1997,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Veneno"],
 		massa: 45.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0072.png",
 		estatistica: {
 			ps: 40,
 			atq: 40,
@@ -1864,6 +2010,7 @@ const pkmnDisponiveis = [
 			"Deriva em mares rasos. Pescadores que os fisgam por acidente são frequentemente punidos por seu Ácido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Água-Viva",
 		obtencao: "Rotas 11, 12, 13, e outras",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1878,6 +2025,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Veneno"],
 		massa: 55.5, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0073.png",
 		estatistica: {
 			ps: 80,
 			atq: 70,
@@ -1889,7 +2037,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os tentáculos são normalmente mantidos curtos. Nas caçadas, os tentáculos são estendidos para enredar e imobilizar presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Água-Viva",
-		obtencao: "Rotas 19, 20, e 21",
+		obtencao: "Rotas 19, 20, e 21; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1904,6 +2053,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 20.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0074.png",
 		estatistica: {
 			ps: 40,
 			atq: 80,
@@ -1916,6 +2066,7 @@ const pkmnDisponiveis = [
 			"Encontrado em campos e montanhas. Pessoas, por confundi-los com pedras, pisam ou tropeçam neles.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
 		obtencao: "Monte da Lua; Túnel de Rocha; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1930,6 +2081,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 105.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0075.png",
 		estatistica: {
 			ps: 55,
 			atq: 95,
@@ -1941,7 +2093,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rola para se mover. Rola sobre qualquer obstáculo sem diminuir a velocidade ou muda sua direção.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
-		obtencao: "Estrada da Vitória; e Caverna de Cerulean",
+		obtencao: "Estrada da Vitória; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1956,6 +2109,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 300.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/11/F0076.png",
 		estatistica: {
 			ps: 80,
 			atq: 110,
@@ -1968,6 +2122,7 @@ const pkmnDisponiveis = [
 			"Seu corpo semelhante a uma pedra é extremamente duro. Consegue facilmente aguentar explosões de dinamite sem dano algum.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Megaton",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -1982,6 +2137,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0077.png",
 		estatistica: {
 			ps: 50,
 			atq: 85,
@@ -1994,6 +2150,7 @@ const pkmnDisponiveis = [
 			"Seus cascos são dez vezes mais duros que diamantes. Consegue atropelar qualquer coisa completamente plana em pouco tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo de Fogo",
 		obtencao: "Rota 17; e Mansão Pokémon",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2008,6 +2165,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 95.0, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0078.png",
 		estatistica: {
 			ps: 65,
 			atq: 100,
@@ -2019,7 +2177,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Muito competitivo, este Pokémon persegue qualquer coisa que se mova rápido na esperança de competir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo de Fogo",
-		obtencao: "Caverna de Cerulean",
+		obtencao: "Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2034,6 +2193,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0079.png",
 		estatistica: {
 			ps: 90,
 			atq: 65,
@@ -2046,6 +2206,7 @@ const pkmnDisponiveis = [
 			"Incrivelmente lento. Demora cinco segundos para sentir dor quando atacado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atordoado",
 		obtencao: "Rotas 10, 12, e 13; Ilhas Espuma; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2060,6 +2221,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 78.5, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0080.png",
 		estatistica: {
 			ps: 95,
 			atq: 75,
@@ -2071,7 +2233,9 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito que o Shellder que está preso à sua cauda se alimenta dos restos que sobraram do hospedeiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo Eremita",
-		obtencao: "Rotas 12, 13, e 23; Caverna de Cerulean; e Ilhas Espuma",
+		obtencao:
+			"Rotas 12, 13, e 23; Caverna de Cerulean; Ilhas Espuma; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2086,6 +2250,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Metal"],
 		massa: 6.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0081.png",
 		estatistica: {
 			ps: 25,
 			atq: 35,
@@ -2098,6 +2263,7 @@ const pkmnDisponiveis = [
 			"Usa anti-gravidade para permanecer suspenso. Aparece sem qualquer aviso e usa Onda-Trovão e movimentos similares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Magnético",
 		obtencao: "Rota 10; e Usina Elétrica Abandonada",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2112,6 +2278,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Metal"],
 		massa: 60.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0082.png",
 		estatistica: {
 			ps: 50,
 			atq: 60,
@@ -2123,7 +2290,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gera estranhas ondas de rádio. Aumenta a temperatura em dois graus Célsius dentro de um quilômetro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Magnético",
-		obtencao: "Usina Elétrica Abandonada; e Caverna de Cerulean",
+		obtencao: "Usina Elétrica Abandonada; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2138,6 +2306,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0083.png",
 		estatistica: {
 			ps: 52,
 			atq: 65,
@@ -2150,6 +2319,7 @@ const pkmnDisponiveis = [
 			"O ramo de cebolinha que segura é sua arma. É usado como uma espada de metal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato Selvagem",
 		obtencao: "Rotas 12, e 13",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2164,6 +2334,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 39.2, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0084.png",
 		estatistica: {
 			ps: 35,
 			atq: 85,
@@ -2176,6 +2347,7 @@ const pkmnDisponiveis = [
 			"Um pássaro que compensa por seu vôo ruim com sua alta velocidade de patas. Deixa pegadas gigantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Gêmeo",
 		obtencao: "Rotas 16, 17, e 18; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2190,6 +2362,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 85.2, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0085.png",
 		estatistica: {
 			ps: 60,
 			atq: 110,
@@ -2201,7 +2374,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa seus três cérebros para executar planos complexos. Enquanto duas cabeças dormem, uma cabeça permanece acordada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Triplo",
-		obtencao: "Rota 17; e Caverna de Cerulean",
+		obtencao: "Rota 17; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2216,6 +2390,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 90.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0086.png",
 		estatistica: {
 			ps: 65,
 			atq: 45,
@@ -2228,6 +2403,7 @@ const pkmnDisponiveis = [
 			"O chifre protuberante em sua cabeça é muito duro. É usado para bater em gelo espesso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leão Marinho",
 		obtencao: "Ilhas Espuma",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2242,6 +2418,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Gelo"],
 		massa: 120.0, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0087.png",
 		estatistica: {
 			ps: 90,
 			atq: 70,
@@ -2253,7 +2430,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena calor em seu corpo. Nada a 8 nós constantes, mesmo em águas intensamente frias.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leão Marinho",
-		obtencao: "Ilhas Espuma",
+		obtencao: "Ilhas Espuma; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2268,6 +2446,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0088.png",
 		estatistica: {
 			ps: 80,
 			atq: 80,
@@ -2280,6 +2459,7 @@ const pkmnDisponiveis = [
 			"Aparece em áreas imundas. Prospera consumindo lodo poluído que é bombeado para fora das fábricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
 		obtencao: "Mansão Pokémon; e Usina Elétrica Abandonada",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2294,6 +2474,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0089.png",
 		estatistica: {
 			ps: 105,
 			atq: 105,
@@ -2305,7 +2486,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Coberto por uma camada grossa de lama imunda e vil. É tão tóxico, mesmo suas pegadas contém veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
-		obtencao: "Mansão Pokémon; e Usina Elétrica Abandonada",
+		obtencao: "Mansão Pokémon; Usina Elétrica Abandonada; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2320,6 +2502,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0090.png",
 		estatistica: {
 			ps: 30,
 			atq: 65,
@@ -2332,6 +2515,7 @@ const pkmnDisponiveis = [
 			"Sua carapaça dura repele qualquer tipo de ataque. É vulnerável somente quando abre sua carapaça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
 		obtencao: "Rotas 6, 11, 19, e outras; e Ilhas Espuma",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2346,6 +2530,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Gelo"],
 		massa: 132.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0091.png",
 		estatistica: {
 			ps: 50,
 			atq: 95,
@@ -2358,6 +2543,7 @@ const pkmnDisponiveis = [
 			"Quando atacado, lança seus chifres em voleios rápidos. Seu interior nunca foi visto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2372,6 +2558,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0092.png",
 		estatistica: {
 			ps: 30,
 			atq: 35,
@@ -2384,6 +2571,7 @@ const pkmnDisponiveis = [
 			"Quase invisível, este Pokémon gasoso envolve o alvo e o põe para dormir sem que perceba.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás",
 		obtencao: "Torre Pokémon",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2398,6 +2586,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0093.png",
 		estatistica: {
 			ps: 45,
 			atq: 50,
@@ -2409,7 +2598,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por causa de sua habilidade de atravessar paredes, é dito ser de outra dimensão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás",
-		obtencao: "Torre Pokémon",
+		obtencao: "Torre Pokémon; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2424,6 +2614,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Veneno"],
 		massa: 40.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0094.png",
 		estatistica: {
 			ps: 60,
 			atq: 65,
@@ -2436,6 +2627,7 @@ const pkmnDisponiveis = [
 			"Sob a lua cheia, este Pokémon imita as sombras das pessoas e ri do medo delas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sombra",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2450,6 +2642,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 210.0, // em kg
 		altura: 8.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0095.png",
 		estatistica: {
 			ps: 35,
 			atq: 45,
@@ -2462,6 +2655,7 @@ const pkmnDisponiveis = [
 			"A medida que cresce, as porções de rocha de seu corpo endurecem para se tornarem semelhante a diamante, mas de cor preta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Pedra",
 		obtencao: "Túnel de Rocha; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2476,6 +2670,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 32.4, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0096.png",
 		estatistica: {
 			ps: 60,
 			atq: 48,
@@ -2488,6 +2683,7 @@ const pkmnDisponiveis = [
 			"Põe os adversários para dormir então come seus sonhos. Ocasionalmente fica doente por comer sonhos ruins.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hipnose",
 		obtencao: "Rota 11",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2502,6 +2698,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 75.6, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0097.png",
 		estatistica: {
 			ps: 85,
 			atq: 73,
@@ -2513,7 +2710,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando trava os olhos em um oponente, usa uma mistura de movimentos psíquicos, como Hipnose e Confusão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hipnose",
-		obtencao: "Caverna de Cerulean",
+		obtencao: "Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2528,6 +2726,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0098.png",
 		estatistica: {
 			ps: 30,
 			atq: 105,
@@ -2540,6 +2739,7 @@ const pkmnDisponiveis = [
 			"Suas pinças não são só poderosas armas, são usadas para equilíbrio quando está andando de lado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo de Rio",
 		obtencao: "Rotas 6, 10, 11, e outras; Zona Safari; e Ilhas Espuma",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2554,6 +2754,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0099.png",
 		estatistica: {
 			ps: 55,
 			atq: 130,
@@ -2565,7 +2766,9 @@ const pkmnDisponiveis = [
 		descricao:
 			"A pinça maior possui 10'000 cv em poder de esmagamento. Contudo, seu tamanho o torna difícil de usar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinça",
-		obtencao: "Rotas 10, 23, e 25; Caverna de Cerulean; e Ilhas Espuma",
+		obtencao:
+			"Rotas 10, 23, e 25; Caverna de Cerulean; Ilhas Espuma; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2580,6 +2783,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 10.4, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0100.png",
 		estatistica: {
 			ps: 40,
 			atq: 30,
@@ -2592,6 +2796,7 @@ const pkmnDisponiveis = [
 			"Normalmente encontrado em usinas elétricas. Facilmente confundido com uma Poké Bola, já eletrocutaram muitas pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola",
 		obtencao: "Rota 10; e Usina Elétrica Abandonada",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2606,6 +2811,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 66.6, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0101.png",
 		estatistica: {
 			ps: 60,
 			atq: 50,
@@ -2617,7 +2823,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena energia elétrica sob pressão muito alta. Geralmente explode com pouca ou nenhuma provocação.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola",
-		obtencao: "Usina Elétrica Abandonada; e Caverna de Cerulean",
+		obtencao: "Usina Elétrica Abandonada; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2632,6 +2839,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Psíquico"],
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0102.png",
 		estatistica: {
 			ps: 60,
 			atq: 40,
@@ -2644,6 +2852,7 @@ const pkmnDisponiveis = [
 			"Comumente confundido por ovos. Quando perturbados, rapidamente se reúnem e atacam em bando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ovo",
 		obtencao: "Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2658,6 +2867,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Psíquico"],
 		massa: 120.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0103.png",
 		estatistica: {
 			ps: 95,
 			atq: 95,
@@ -2669,7 +2879,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus gritos são muito barulhentos. Isso ocorre porque cada uma das três cabeças pensa no que quiser.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coco",
-		obtencao: "Por evolução",
+		obtencao: "Por evolução; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2684,6 +2895,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0104.png",
 		estatistica: {
 			ps: 50,
 			atq: 50,
@@ -2696,6 +2908,7 @@ const pkmnDisponiveis = [
 			"Por nunca remover seu capacete, ninguém nunca viu o real rosto deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Solitário",
 		obtencao: "Torre Pokémon; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2710,6 +2923,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 45.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0105.png",
 		estatistica: {
 			ps: 60,
 			atq: 80,
@@ -2721,7 +2935,9 @@ const pkmnDisponiveis = [
 		descricao:
 			"O osso que segura é sua arma principal. Lança o osso com destreza como um boomerang para nocautear os alvos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Acumulador de Ossos",
-		obtencao: "Zona Safari; Estrada da Vitória; e Caverna de Cerulean",
+		obtencao:
+			"Zona Safari; Estrada da Vitória; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2736,6 +2952,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 49.8, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0106.png",
 		estatistica: {
 			ps: 50,
 			atq: 120,
@@ -2748,6 +2965,7 @@ const pkmnDisponiveis = [
 			"Quando está com pressa, o comprimento de suas pernas aumenta progressivamente. Corre suavemente com passadas longas e inclinadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chutador",
 		obtencao: "Dojo de tipo Lutador",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2762,6 +2980,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 50.2, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/13/F0107.png",
 		estatistica: {
 			ps: 50,
 			atq: 105,
@@ -2774,6 +2993,7 @@ const pkmnDisponiveis = [
 			"Embora aparente fazer nada, dispara socos em voleios rápidos impossíveis de ver.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Socador",
 		obtencao: "Dojo de tipo Lutador",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2788,6 +3008,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 65.5, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/74/F0108.png",
 		estatistica: {
 			ps: 90,
 			atq: 55,
@@ -2800,6 +3021,7 @@ const pkmnDisponiveis = [
 			"Sua língua pode ser estendida como a de um camaleão. Deixa uma sensação de formigamento quando lambe inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lambedor",
 		obtencao: "Zona Safari; e Caverna de Cerulean",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2814,6 +3036,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0109.png",
 		estatistica: {
 			ps: 40,
 			atq: 65,
@@ -2826,6 +3049,7 @@ const pkmnDisponiveis = [
 			"Por armazenar vários tipos de gases tóxicos em seu corpo, é propenso a explodir sem aviso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás Venenoso",
 		obtencao: "Mansão Pokémon",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2840,6 +3064,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 9.5, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0110.png",
 		estatistica: {
 			ps: 65,
 			atq: 90,
@@ -2851,7 +3076,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive e cresce absorvendo poeira, germes e gases venenosos contidos em resíduos tóxicos e lixo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás Venenoso",
-		obtencao: "Mansão Pokémon",
+		obtencao: "Mansão Pokémon; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2866,6 +3092,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Rocha"],
 		massa: 115.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0111.png",
 		estatistica: {
 			ps: 80,
 			atq: 85,
@@ -2878,6 +3105,7 @@ const pkmnDisponiveis = [
 			"Seus ossos maciços são 1'000 vezes mais duros que os ossos de humanos. Consegue facilmente mandar um trailer voando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espigão",
 		obtencao: "Zona Safari; e Caverna Cerulean",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2892,6 +3120,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Rocha"],
 		massa: 120.0, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0112.png",
 		estatistica: {
 			ps: 105,
 			atq: 130,
@@ -2903,7 +3132,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Protegido por um couro semelhante a uma armadura, é capaz de viver em lava derretida de 2'000° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
-		obtencao: "Caverna de Cerulean",
+		obtencao: "Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2918,6 +3148,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 34.6, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0113.png",
 		estatistica: {
 			ps: 250,
 			atq: 5,
@@ -2930,6 +3161,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon raro e indescritível que dizem trazer felicidade àqueles que conseguem obtê-la.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ovo",
 		obtencao: "Zona Safari; e Caverna de Cerulean",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2944,6 +3176,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0114.png",
 		estatistica: {
 			ps: 65,
 			atq: 55,
@@ -2956,6 +3189,7 @@ const pkmnDisponiveis = [
 			"Todo seu corpo é coberto por trepadeiras largas que são semelhantes a algas marinhas. Suas vinhas tremem enquanto caminha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trepadeira",
 		obtencao: "Rota 21; e Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2970,6 +3204,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 80.0, // em kg
 		altura: 2.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0115.png",
 		estatistica: {
 			ps: 105,
 			atq: 95,
@@ -2982,6 +3217,7 @@ const pkmnDisponiveis = [
 			"A criança raramente sai da bolsa protetora da mãe antes dos três anos de idade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Materno",
 		obtencao: "Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -2996,6 +3232,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 8.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0116.png",
 		estatistica: {
 			ps: 30,
 			atq: 40,
@@ -3008,6 +3245,7 @@ const pkmnDisponiveis = [
 			"Conhecido por abater insetos voadores com jatos de tintas precisos da superfície da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		obtencao: "Rotas 10, 11, 12, e outras; e Ilhas Espuma",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3022,6 +3260,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 25.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0117.png",
 		estatistica: {
 			ps: 55,
 			atq: 65,
@@ -3033,7 +3272,9 @@ const pkmnDisponiveis = [
 		descricao:
 			"Capaz de nadar para trás, batendo rapidamente a cauda robusta e suas barbatanas peitorais em forma de asa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Rotas 12, 13, e 23; Ilhas Espuma; e Caverna de Cerulean",
+		obtencao:
+			"Rotas 12, 13, e 23; Ilhas Espuma; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3048,6 +3289,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 15.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0118.png",
 		estatistica: {
 			ps: 45,
 			atq: 67,
@@ -3061,6 +3303,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Peixe Dourado",
 		obtencao:
 			"Rotas 6, 10, 11, e outras; Zona Safari; Ilhas Espuma; Planalto Índigo e Caverna de Cerulean",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3075,6 +3318,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 39.0, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0119.png",
 		estatistica: {
 			ps: 80,
 			atq: 92,
@@ -3086,7 +3330,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Na temporada de desova de outono, podem ser vistos nadando majestosamente em rios e riachos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Dourado",
-		obtencao: "Rota 23; e Caverna de Cerulean",
+		obtencao: "Rota 23; Caverna de Cerulean; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3101,6 +3346,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 34.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0120.png",
 		estatistica: {
 			ps: 30,
 			atq: 45,
@@ -3113,6 +3359,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon enigmático que regenera sem esforço qualquer apêndice que perca em batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Estrelada",
 		obtencao: "Rotas 19, 20, e 21; e Ilhas Espuma",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3127,6 +3374,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 80.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0121.png",
 		estatistica: {
 			ps: 60,
 			atq: 75,
@@ -3139,6 +3387,7 @@ const pkmnDisponiveis = [
 			"Seu núcleo central brilha com as sete cores do arco-íris. Algumas pessoas valorizam o núcleo como uma gema.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Misterioso",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3153,6 +3402,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 54.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0122.png",
 		estatistica: {
 			ps: 40,
 			atq: 45,
@@ -3165,6 +3415,7 @@ const pkmnDisponiveis = [
 			"Caso seja interrompido enquanto faz sua mímica, dá um tapa em quem interrompeu com suas mão abertas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Barreira",
 		obtencao: "Por troca na rota 2",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3179,6 +3430,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 56.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/49/F0123.png",
 		estatistica: {
 			ps: 70,
 			atq: 110,
@@ -3191,6 +3443,7 @@ const pkmnDisponiveis = [
 			"Com agilidade e velocidade semelhantes a de um ninja, consegue criar a ilusão de que há mais de um.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mantídeo",
 		obtencao: "Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3205,6 +3458,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Psíquico"],
 		massa: 40.6, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0124.png",
 		estatistica: {
 			ps: 65,
 			atq: 50,
@@ -3217,6 +3471,7 @@ const pkmnDisponiveis = [
 			"Mexe os quadris de maneira sedutora enquanto caminha. Pode fazer as pessoas dançarem em uníssono.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Humana",
 		obtencao: "Ilhas Espuma",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3231,6 +3486,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0125.png",
 		estatistica: {
 			ps: 65,
 			atq: 83,
@@ -3243,6 +3499,7 @@ const pkmnDisponiveis = [
 			"Normalmente encontrado próximo a usinas de energia, podem se afastar e causar grandes apagões nas cidades.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétrico",
 		obtencao: "Usina Elétrica Abandonada",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3257,6 +3514,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 44.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0126.png",
 		estatistica: {
 			ps: 65,
 			atq: 95,
@@ -3269,6 +3527,7 @@ const pkmnDisponiveis = [
 			"Seu corpo sempre queima com um brilho laranja que o permite se esconder em meio a chamas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cospe-fogo",
 		obtencao: "Mansão Pokémon",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3283,6 +3542,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/62/F0127.png",
 		estatistica: {
 			ps: 65,
 			atq: 125,
@@ -3295,6 +3555,7 @@ const pkmnDisponiveis = [
 			"Caso falhe em esmagar sua vítima com suas pinças, balança e joga a vítima com força.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lucanídeo",
 		obtencao: "Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3305,10 +3566,11 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros",
-		numero: 128, // considerando a national dex
+		numero: 128.1, // considerando a national dex e por ser uma variante
 		tipo: ["Normal"],
 		massa: 88.4, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps: 75,
 			atq: 100,
@@ -3321,6 +3583,7 @@ const pkmnDisponiveis = [
 			"Quando mira em um inimigo, investe furiosamente enquanto chicoteia seu corpo com suas longas caudas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Touro Selvagem",
 		obtencao: "Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3330,11 +3593,99 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
 	{
+		nome: "Tauros",
+		numero: 128.2, // considerando a national dex e por ser uma variante
+		tipo: ["Lutador"],
+		massa: 115.0, // em kg
+		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
+		estatistica: {
+			ps: 75,
+			atq: 110,
+			def: 105,
+			atq_esp: 30,
+			def_esp: 70,
+			vel: 100,
+		},
+		descricao:
+			"Este Pokémon possui um corpo musculoso e se desta em comate corpo a corpo. Usa seus chifres curtos para atacar os pontos fracos do oponente.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Touro Selvagem",
+		obtencao:
+			"Província do Leste: Área Um, e Área Dois; e Província do Oeste: Área Dois",
+		estagio: 1,
+		geracao: 9, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/thumb/2/25/0128Tauros-Paldea_Combat.png/165px-0128Tauros-Paldea_Combat.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tauros",
+		numero: 128.3, // considerando a national dex
+		tipo: ["Lutador", " Fogo"],
+		massa: 85.0, // em kg
+		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
+		estatistica: {
+			ps: 75,
+			atq: 110,
+			def: 105,
+			atq_esp: 30,
+			def_esp: 70,
+			vel: 100,
+		},
+		descricao:
+			"Quando está aquecido pela energia do fogo, seus chifres podem chegar a mais de 1'000° Celsius. Aqueles que forem chifrados por eles sofrerão ferimentos e queimaduras.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Touro Selvagem",
+		obtencao:
+			"Província do Leste: Área Um, e Área Dois; e Província do Oeste: Área Dois",
+		estagio: 1,
+		geracao: 9, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/thumb/f/f5/0128Tauros-Paldea_Blaze.png/165px-0128Tauros-Paldea_Blaze.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tauros",
+		numero: 128.4, // considerando a national dex
+		tipo: ["Lutador", " Água"],
+		massa: 110.0, // em kg
+		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
+		estatistica: {
+			ps: 75,
+			atq: 110,
+			def: 105,
+			atq_esp: 30,
+			def_esp: 70,
+			vel: 100,
+		},
+		descricao:
+			"Este Pokémon lança água de buracos nas pontas de seus chifres, os jatos de alta pressão perfuram seus inimigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Touro Selvagem",
+		obtencao:
+			"Província do Leste: Área Um, e Área Dois; e Província do Oeste: Área Dois",
+		estagio: 1,
+		geracao: 9, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0128Tauros-Paldea_Aqua.png/165px-0128Tauros-Paldea_Aqua.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
+	},
+	{
 		nome: "Magikarp",
 		numero: 129, // considerando a national dex
 		tipo: ["Água"],
 		massa: 10.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0129.png",
 		estatistica: {
 			ps: 20,
 			atq: 10,
@@ -3348,6 +3699,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Peixe",
 		obtencao:
 			"Rotas 6, 10, 11, e outras; Zona Safari; Ilhas Espuma; Caverna de Cerulean; e Planalto Índigo",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3362,6 +3714,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 235.0, // em kg
 		altura: 6.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0130.png",
 		estatistica: {
 			ps: 95,
 			atq: 125,
@@ -3374,6 +3727,7 @@ const pkmnDisponiveis = [
 			"Raramente visto na natureza. Enorme e cruel, é capaz de destruir cidades inteiras em um ataque de raiva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atrocidade",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3388,6 +3742,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Gelo"],
 		massa: 220.0, // em kg
 		altura: 2.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0131.png",
 		estatistica: {
 			ps: 130,
 			atq: 85,
@@ -3400,6 +3755,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que tem sido caçado até a quase extinção. Consegue transportar pessoas através de água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Transporte",
 		obtencao: "Recebido na Companhia Silph",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3414,6 +3770,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/ff/F0132.png",
 		estatistica: {
 			ps: 48,
 			atq: 48,
@@ -3427,6 +3784,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Transformação",
 		obtencao:
 			"Rotas 13, 14, 15, e outra; Túnel de Rocha; Mansão Pokémon; e Caverna de Cerulean",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3441,6 +3799,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.5, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0133.png",
 		estatistica: {
 			ps: 55,
 			atq: 55,
@@ -3453,6 +3812,7 @@ const pkmnDisponiveis = [
 			"Seu código genético é irregular. Pode sofrer mutação caso seja exposto a radiação de Pedras elementais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Evolução",
 		obtencao: "Recebido na Mansão Celadon",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3467,6 +3827,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 29.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0134.png",
 		estatistica: {
 			ps: 130,
 			atq: 65,
@@ -3479,6 +3840,7 @@ const pkmnDisponiveis = [
 			"Vive próximo a água. Sua longa cauda é estriada com uma barbatana que muitas vezes confundida com a de uma sereia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jato de Bolha",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3493,6 +3855,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 24.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0135.png",
 		estatistica: {
 			ps: 65,
 			atq: 65,
@@ -3505,6 +3868,7 @@ const pkmnDisponiveis = [
 			"Acumula íons negativos na atmosfera para lançar raios de 10'000 volts.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raios",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3519,6 +3883,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 25.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0136.png",
 		estatistica: {
 			ps: 65,
 			atq: 130,
@@ -3531,6 +3896,7 @@ const pkmnDisponiveis = [
 			"Quando armazena energia térmica em seu corpo, sua temperatura poderia superar os 900° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3545,6 +3911,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 36.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d4/F0137.png",
 		estatistica: {
 			ps: 65,
 			atq: 60,
@@ -3557,6 +3924,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que consiste inteiramente de código de programação. Capaz de se mover livremente no espaço cibernético.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
 		obtencao: "Casino Rocket",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3571,6 +3939,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0138.png",
 		estatistica: {
 			ps: 35,
 			atq: 40,
@@ -3583,6 +3952,7 @@ const pkmnDisponiveis = [
 			"Mesmo há muito extinto, em casos raros, pode ser ressuscitado a partir de fósseis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espiral",
 		obtencao: "Revivido a partir de fóssil",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3597,6 +3967,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0139.png",
 		estatistica: {
 			ps: 70,
 			atq: 60,
@@ -3609,6 +3980,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon pré-histórico que morreu quando sua pesada carapaça tornou impossível de caçar suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espiral",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3623,6 +3995,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 11.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0140.png",
 		estatistica: {
 			ps: 30,
 			atq: 80,
@@ -3635,6 +4008,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que foi ressuscitado a partir de um fóssil encontrado no que já foi o fundo do oceano, eras atrás.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
 		obtencao: "Revivido a partir de fóssil",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3649,6 +4023,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 40.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0141.png",
 		estatistica: {
 			ps: 60,
 			atq: 115,
@@ -3661,6 +4036,7 @@ const pkmnDisponiveis = [
 			"Seu formato peculiar é perfeito para nadar. Fatia sua presa com suas garras e drena os fluidos corporais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3675,6 +4051,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Voador"],
 		massa: 59.0, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0142.png",
 		estatistica: {
 			ps: 80,
 			atq: 105,
@@ -3687,6 +4064,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon pré-histórico feroz que morreu em tempos antigos. Foi ressuscitado usando DNA pego de âmbar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fóssil",
 		obtencao: "Revivido a partir do Âmbar Antigo",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3701,6 +4079,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 460.0, // em kg
 		altura: 2.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0143.png",
 		estatistica: {
 			ps: 160,
 			atq: 110,
@@ -3713,6 +4092,7 @@ const pkmnDisponiveis = [
 			"Muito preguiçoso. Só come e dorme. À medida que seu corpo redondo aumenta, se torna cada vez mais preguiçoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dorminhoco",
 		obtencao: "Rotas 12, e 16",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3727,6 +4107,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Voador"],
 		massa: 55.4, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0144.png",
 		estatistica: {
 			ps: 90,
 			atq: 85,
@@ -3739,6 +4120,7 @@ const pkmnDisponiveis = [
 			"Um pássaro lendário que supostamente aparece a pessoas condenadas que estão perdidas em montanhas geladas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Congelamento",
 		obtencao: "Ilhas Espuma",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -3753,6 +4135,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 52.6, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/36/F0145.png",
 		estatistica: {
 			ps: 90,
 			atq: 90,
@@ -3765,6 +4148,7 @@ const pkmnDisponiveis = [
 			"Um pássaro lendário que supostamente surge das nuvens enquanto solta raios enormes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétrico",
 		obtencao: "Usina Elétrica Abandonada",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -3779,6 +4163,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0146.png",
 		estatistica: {
 			ps: 90,
 			atq: 100,
@@ -3791,6 +4176,7 @@ const pkmnDisponiveis = [
 			"Conhecido como o pássaro lendário de fogo. Cada bater de suas asas cria um deslumbrante clarão de chamas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
 		obtencao: "Estrada da Vitória",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -3805,6 +4191,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 3.3, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0147.png",
 		estatistica: {
 			ps: 41,
 			atq: 64,
@@ -3817,6 +4204,7 @@ const pkmnDisponiveis = [
 			"Há muito considerado um Pokémon mítico até que, recentemente, foi descoberta uma colônia vivendo debaixo da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		obtencao: "Zona Safari",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3831,6 +4219,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 16.5, // em kg
 		altura: 4.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0148.png",
 		estatistica: {
 			ps: 61,
 			atq: 84,
@@ -3842,7 +4231,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon místico que exala uma aura gentil. Possui a habilidade de mudar condições climáticas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Zona Safari",
+		obtencao: "Zona Safari; e por evolução",
+		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3857,6 +4247,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 210.0, // em kg
 		altura: 2.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0149.png",
 		estatistica: {
 			ps: 91,
 			atq: 134,
@@ -3869,6 +4260,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon marinho raramente visto. É dito que sua inteligência é comparada a de seres humanos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3883,6 +4275,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 122.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0150.png",
 		estatistica: {
 			ps: 106,
 			atq: 110,
@@ -3895,6 +4288,7 @@ const pkmnDisponiveis = [
 			"Foi criado por um cientista depois anos de experimentos de engenharia genética.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Genético",
 		obtencao: "Caverna de Cerulean",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -3909,6 +4303,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 4.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ad/F0151.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -3921,6 +4316,7 @@ const pkmnDisponiveis = [
 			"É tão raro que ainda é dito ser uma miragem por vários especialistas. Somente algumas pessoas o viram ao redor do mundo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nova Espécie",
 		obtencao: "Por evento",
+		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -3935,6 +4331,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 6.4, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0152.png",
 		estatistica: {
 			ps: 45,
 			atq: 49,
@@ -3947,6 +4344,7 @@ const pkmnDisponiveis = [
 			"Adora aproveitar a luz do sol. Usa a folha na cabeça para procurar lugares quentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
 		obtencao: "Laboratório do Prof. Elm",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3961,6 +4359,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 15.8, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5c/F0153.png",
 		estatistica: {
 			ps: 60,
 			atq: 62,
@@ -3973,6 +4372,7 @@ const pkmnDisponiveis = [
 			"Um aroma picante emana de seu pescoço. O aroma age como um estimulante para restaurar saúde.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -3987,6 +4387,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 100.5, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0154.png",
 		estatistica: {
 			ps: 80,
 			atq: 82,
@@ -3999,6 +4400,7 @@ const pkmnDisponiveis = [
 			"O aroma que sobe de suas pétalas contém uma substância que acalma sentimentos agressivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4013,6 +4415,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 7.9, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0155.png",
 		estatistica: {
 			ps: 39,
 			atq: 52,
@@ -4025,6 +4428,7 @@ const pkmnDisponiveis = [
 			"Geralmente fica curvado. Quando está com raiva ou surpreso, atira chamas de suas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato de Fogo",
 		obtencao: "Laboratório do Prof. Elm",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4039,6 +4443,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/88/F0156.png",
 		estatistica: {
 			ps: 58,
 			atq: 64,
@@ -4051,6 +4456,7 @@ const pkmnDisponiveis = [
 			"É coberto totalmente por pelo não inflamável. Consegue aguentar qualquer tipo de ataque de fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4065,6 +4471,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 79.5, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/19/F0157.png",
 		estatistica: {
 			ps: 78,
 			atq: 84,
@@ -4077,6 +4484,7 @@ const pkmnDisponiveis = [
 			"Quando sua raiva atinge seu ápice, fica tão quente que qualquer coisa que toque imediatamente pega fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4091,6 +4499,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0158.png",
 		estatistica: {
 			ps: 50,
 			atq: 65,
@@ -4103,6 +4512,7 @@ const pkmnDisponiveis = [
 			"Suas presas bem desenvolvidas são poderosas e capazes de esmagar qualquer coisa. Mesmo seu treinador deve ter cuidado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Grande",
 		obtencao: "Laboratório do Prof. Elm",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4117,6 +4527,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 25.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
 			ps: 65,
 			atq: 80,
@@ -4129,6 +4540,7 @@ const pkmnDisponiveis = [
 			"Quando perde uma presa, uma nova cresce em seu lugar. Sempre há 48 presas revestindo na boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Grande",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4143,6 +4555,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 88.8, // em kg
 		altura: 2.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
 			ps: 85,
 			atq: 105,
@@ -4155,6 +4568,7 @@ const pkmnDisponiveis = [
 			"Quando morde com suas mandíbulas grandes e poderosas, balança sua cabeça e estraçalha sua vítima com selvageria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Grande",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4169,6 +4583,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c8/F0161.png",
 		estatistica: {
 			ps: 35,
 			atq: 46,
@@ -4181,6 +4596,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon muito precavido, se levanta usando sua cauda para conseguir uma melhor visão de seus arredores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escoteiro",
 		obtencao: "Rotas 1, 29, e 43",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4195,6 +4611,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0162.png",
 		estatistica: {
 			ps: 85,
 			atq: 76,
@@ -4206,7 +4623,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Constrói um ninho para caber seu corpo longo e esguio. O ninho é impossível de se entrar para outros Pokémon entrarem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Corpo-longo",
-		obtencao: "Rotas 1, e 43",
+		obtencao: "Rotas 1, e 43; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4221,6 +4639,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 21.2, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0163.png",
 		estatistica: {
 			ps: 60,
 			atq: 30,
@@ -4234,6 +4653,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Coruja",
 		obtencao:
 			"Rotas 1, 2, 5, e outras; Floresta de Ilex; Parque National; e Lago da Fúria",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4248,6 +4668,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 40.8, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0164.png",
 		estatistica: {
 			ps: 100,
 			atq: 50,
@@ -4259,7 +4680,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus olhos são especialmente adaptados. Concentram mesmo até mesmo a luz fraca e permitem que veja no escuro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coruja",
-		obtencao: "Rotas 2, 8, 13, e outras; e Floresta de Ilex",
+		obtencao: "Rotas 2, 8, 13, e outras; Floresta de Ilex; e por Evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4274,6 +4696,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 10.8, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0165.png",
 		estatistica: {
 			ps: 40,
 			atq: 20,
@@ -4286,6 +4709,7 @@ const pkmnDisponiveis = [
 			"É muito tímido. Tem medo de se mover caso esteja sozinho. Mas será ativo caso esteja em grupo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cinco Estrelas",
 		obtencao: "Rotas 2, 29, 30, e outras; e Parque National",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4300,6 +4724,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 35.6, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0166.png",
 		estatistica: {
 			ps: 55,
 			atq: 35,
@@ -4311,7 +4736,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando as estrelas piscam no céu noturno, esvoaça e espalha um pó brilhante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cinco Estrelas",
-		obtencao: "Rotas 2, e 37",
+		obtencao: "Rotas 2, e 37; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4326,6 +4752,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 8.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0167.png",
 		estatistica: {
 			ps: 40,
 			atq: 60,
@@ -4338,6 +4765,7 @@ const pkmnDisponiveis = [
 			"Permanece parado na mesma pose por dias em sua teia, esperando que sua presa desavisada se aproxime.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fio de Saliva",
 		obtencao: "Rotas 2, 29, 30, e outras; e Parque National",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4352,6 +4780,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0168.png",
 		estatistica: {
 			ps: 70,
 			atq: 90,
@@ -4363,7 +4792,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tece seus fios não apenas por trás, mas também pela boca. É difícil dizer qual parte é qual.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perna-longa",
-		obtencao: "Rotas 2, e 37",
+		obtencao: "Rotas 2, e 37; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4378,6 +4808,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Voador"],
 		massa: 75.0, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0169.png",
 		estatistica: {
 			ps: 85,
 			atq: 90,
@@ -4390,6 +4821,7 @@ const pkmnDisponiveis = [
 			"Seu vôo na escuridão é tão silencioso que pode não ser notado mesmo quando está próximo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4404,6 +4836,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Elétrico"],
 		massa: 12.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0170.png",
 		estatistica: {
 			ps: 75,
 			atq: 38,
@@ -4416,6 +4849,7 @@ const pkmnDisponiveis = [
 			"Na escuridão do chão oceânico, sua única maneira de comunicação é piscar suas luzes constantemente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pescador",
 		obtencao: "Rotas 20, 21, 26, e outras",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4430,6 +4864,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Elétrico"],
 		massa: 22.5, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0171.png",
 		estatistica: {
 			ps: 125,
 			atq: 58,
@@ -4441,7 +4876,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"A luz que emite é tão brilhante que consegue iluminar a superfície do mar de uma profundidade maior que cinco quilômetros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luz",
-		obtencao: "Rotas 20, 21, 26, e outras",
+		obtencao: "Rotas 20, 21, 26, e outras; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4456,6 +4892,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0172.png",
 		estatistica: {
 			ps: 20,
 			atq: 40,
@@ -4468,6 +4905,7 @@ const pkmnDisponiveis = [
 			"Ainda não é capaz de armazenar eletricidade. Consegue soltar uma faísca se for assustado ou divertido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ratinho",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4482,6 +4920,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 3.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0173.png",
 		estatistica: {
 			ps: 50,
 			atq: 25,
@@ -4494,6 +4933,7 @@ const pkmnDisponiveis = [
 			"Por sua silhueta incomum, semelhante a uma estrela, pessoas acreditam que veio de um meteoro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Estrelada",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4508,6 +4948,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0174.png",
 		estatistica: {
 			ps: 90,
 			atq: 30,
@@ -4520,6 +4961,7 @@ const pkmnDisponiveis = [
 			"Tem um corpo muito macio. Quando começa a rolar, irá saltar por toda parte e será impossível parar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4534,6 +4976,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 1.5, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0175.png",
 		estatistica: {
 			ps: 35,
 			atq: 20,
@@ -4546,6 +4989,7 @@ const pkmnDisponiveis = [
 			"A casca aparenta estar cheia de alegria. É dito que compartilhará boa sorte quando tratado com gentileza.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola de Espinhos",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4560,6 +5004,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Voador"],
 		massa: 3.2, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0176.png",
 		estatistica: {
 			ps: 55,
 			atq: 40,
@@ -4572,6 +5017,7 @@ const pkmnDisponiveis = [
 			"É dito que aparece diante de pessoas carinhosas, de bom coração e as cobrirá de felicidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Felicidade",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4586,6 +5032,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0177.png",
 		estatistica: {
 			ps: 40,
 			atq: 50,
@@ -4598,6 +5045,7 @@ const pkmnDisponiveis = [
 			"Por suas asas não estarem completamente crescidas, tem que pular para se locomover. Sempre está encarando algo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
 		obtencao: "Ruínas de Alfa",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4612,6 +5060,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 15.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0178.png",
 		estatistica: {
 			ps: 65,
 			atq: 75,
@@ -4624,6 +5073,7 @@ const pkmnDisponiveis = [
 			"É dito que permanece parado e quieto por ver o passado e o futuro ao mesmo tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Místico",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4638,6 +5088,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1f/F0179.png",
 		estatistica: {
 			ps: 55,
 			atq: 40,
@@ -4650,6 +5101,7 @@ const pkmnDisponiveis = [
 			"Caso a eletricidade estática acumule em seu corpo, seu velo dobra de volume. Tocá-lo causa um choque elétrico em quem tocou.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lã",
 		obtencao: "Rotas 32, 42, e 43",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4664,6 +5116,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 13.3, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0180.png",
 		estatistica: {
 			ps: 70,
 			atq: 55,
@@ -4675,7 +5128,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Como resultado de armazenar muita eletricidade, desenvolveu manchas onde nem mesmo a lã felpuda cresce.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lã",
-		obtencao: "Rotas 42, e 43",
+		obtencao: "Rotas 42, e 43; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4690,6 +5144,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 61.5, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0181.png",
 		estatistica: {
 			ps: 90,
 			atq: 75,
@@ -4702,6 +5157,7 @@ const pkmnDisponiveis = [
 			"A ponta de sua cauda brilha intensamente e pode ser ser vista de longe. Atua como um farol para pessoas perdidas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luz",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4716,6 +5172,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 5.8, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0182.png",
 		estatistica: {
 			ps: 75,
 			atq: 80,
@@ -4728,6 +5185,7 @@ const pkmnDisponiveis = [
 			"Abundante nos trópicos. Quando dança, suas pétalas se esfregam e emitem um som agradável de toque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4742,6 +5200,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fada"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0183.png",
 		estatistica: {
 			ps: 70,
 			atq: 20,
@@ -4754,6 +5213,7 @@ const pkmnDisponiveis = [
 			"A ponta de sua cauda, que contém óleo mais leve que água, o permite nadar sem se afogar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato de Água",
 		obtencao: "Rota 42; e Monte Mortar",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4768,6 +5228,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fada"],
 		massa: 28.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0184.png",
 		estatistica: {
 			ps: 100,
 			atq: 50,
@@ -4780,6 +5241,7 @@ const pkmnDisponiveis = [
 			"Quando está quieto e ouvindo atentamente, consegue dizer o que está em rios turbulentos e rápidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho de Água",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4794,6 +5256,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0185.png",
 		estatistica: {
 			ps: 70,
 			atq: 100,
@@ -4806,6 +5269,7 @@ const pkmnDisponiveis = [
 			"Apesar de sempre fingir ser uma árvore, sua composição aparenta se aproximar mais a de uma rocha do que a de uma árvore.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Imitação",
 		obtencao: "Rota 36",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4820,6 +5284,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 33.9, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0186.png",
 		estatistica: {
 			ps: 90,
 			atq: 75,
@@ -4832,6 +5297,7 @@ const pkmnDisponiveis = [
 			"Sempre que três ou mais deles se reúnem, cantam em alto volume e acaba soando como um grito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sapo",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4846,6 +5312,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 0.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0187.png",
 		estatistica: {
 			ps: 35,
 			atq: 35,
@@ -4858,6 +5325,7 @@ const pkmnDisponiveis = [
 			"Para evitar que seja levado pelo vento, se reúne em grupos. Gostam de brizas leves, no entanto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Algodão",
 		obtencao: "Rotas 11, 13, 14, e outras",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4872,6 +5340,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0188.png",
 		estatistica: {
 			ps: 55,
 			atq: 45,
@@ -4883,7 +5352,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"A flor no topo de sua cabeça abre e fecha à medida que a temperatura aumenta ou diminui.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Algodão",
-		obtencao: "Rota 14",
+		obtencao: "Rota 14; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4898,6 +5368,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 3.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0189.png",
 		estatistica: {
 			ps: 75,
 			atq: 55,
@@ -4910,6 +5381,7 @@ const pkmnDisponiveis = [
 			"Uma vez que pega o vento, habilmente controla seus esporos de algodão para flutuar, mesmo ao redor do mundo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Algodão",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4924,6 +5396,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 11.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0190.png",
 		estatistica: {
 			ps: 55,
 			atq: 70,
@@ -4936,6 +5409,7 @@ const pkmnDisponiveis = [
 			"Sua cauda é tão poderosa que consegue usá-la para agarrar um galho de árvore e se manter no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cauda Longa",
 		obtencao: "Rotas 29, 30, 31, e outras",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4950,6 +5424,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a3/F0191.png",
 		estatistica: {
 			ps: 30,
 			atq: 30,
@@ -4962,6 +5437,7 @@ const pkmnDisponiveis = [
 			"Vive bebendo apenas gotas de orvalho debaixo das plantas. Dizem que não come nada além disso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
 		obtencao: "Rota 24; e Parque Nacional",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -4976,6 +5452,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 8.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0192.png",
 		estatistica: {
 			ps: 75,
 			atq: 75,
@@ -4988,6 +5465,7 @@ const pkmnDisponiveis = [
 			"Converte luz solar em energia. Na escuridão depois do por-do-sol, fecha suas pétalas e permanece parado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sol",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5002,6 +5480,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0193.png",
 		estatistica: {
 			ps: 65,
 			atq: 65,
@@ -5014,6 +5493,7 @@ const pkmnDisponiveis = [
 			"Quando bate suas asas muito rápido, consegue gerar ondas de choque que quebrarão janelas próximas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Asa Clara",
 		obtencao: "Rota 35",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5028,6 +5508,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0194.png",
 		estatistica: {
 			ps: 55,
 			atq: 45,
@@ -5040,6 +5521,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon vive em água fria. Deixa a água para procurar comida quando fica frio do lado de fora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Água",
 		obtencao: "Rota 32; Ruínas de Alfa; e Caverna da União",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5054,6 +5536,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 75.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0195.png",
 		estatistica: {
 			ps: 95,
 			atq: 85,
@@ -5066,7 +5549,8 @@ const pkmnDisponiveis = [
 			"Este Pokémon despreocupado tem uma natureza descontraída. Enquanto nada, sempre esbarra nos cascos dos barcos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Água",
 		obtencao:
-			"Rota 10, 12, 13, e outras; Caverna do Monte Prata; Ruínas de Alfa; e Caverna da União",
+			"Rota 10, 12, 13, e outras; Caverna do Monte Prata; Ruínas de Alfa; Caverna da União; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5081,6 +5565,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 26.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0196.png",
 		estatistica: {
 			ps: 65,
 			atq: 65,
@@ -5093,6 +5578,7 @@ const pkmnDisponiveis = [
 			"Usa o fino cabelo que cobre seu corpo para sentir correntes de ar e prever as ações de seu oponente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sol",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5107,6 +5593,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 27.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0197.png",
 		estatistica: {
 			ps: 95,
 			atq: 65,
@@ -5119,6 +5606,7 @@ const pkmnDisponiveis = [
 			"Quando a escuridão cai, os anéis em seu corpo começam a brilhar, causando medo no coração de qualquer um próximo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luar",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5133,6 +5621,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 2.1, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0198.png",
 		estatistica: {
 			ps: 60,
 			atq: 85,
@@ -5145,6 +5634,7 @@ const pkmnDisponiveis = [
 			"Temido e odiado por muitos, acredita-se que traga infortúnio a todos aqueles que o veem à noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuridão",
 		obtencao: "Rotas 7, e 16",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5159,6 +5649,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 79.5, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/28/F0199.png",
 		estatistica: {
 			ps: 95,
 			atq: 75,
@@ -5171,6 +5662,7 @@ const pkmnDisponiveis = [
 			"Possui inteligência e intuição incríveis. Seja qual for a situação, permanece calmo e controlado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Real",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5185,6 +5677,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 1.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0200.png",
 		estatistica: {
 			ps: 60,
 			atq: 60,
@@ -5197,6 +5690,7 @@ const pkmnDisponiveis = [
 			"Gosta de aplicar trotes travessos, como gritar e lamentar para assustar as pessoas à noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pio",
 		obtencao: "Caverna do Monte Prata",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5211,6 +5705,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0201.png",
 		estatistica: {
 			ps: 48,
 			atq: 72,
@@ -5223,6 +5718,7 @@ const pkmnDisponiveis = [
 			"Seu corpo plano e fino está sempre preso em paredes. Seu formato aparenta ter algum significado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Símbolo",
 		obtencao: "Dentro das Ruínas de Alfa",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5264,6 +5760,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 28.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0202.png",
 		estatistica: {
 			ps: 190,
 			atq: 33,
@@ -5276,6 +5773,7 @@ const pkmnDisponiveis = [
 			"Odeia luz e choque. Quando atacado, infla seu corpo para aumentar seu contra-ataque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paciente",
 		obtencao: "Caverna Escura",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5290,6 +5788,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Psíquico"],
 		massa: 41.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0203.png",
 		estatistica: {
 			ps: 70,
 			atq: 80,
@@ -5302,6 +5801,7 @@ const pkmnDisponiveis = [
 			"Sua cauda possui um pequeno cérebro próprio. Caso alguém se aproxime, pode reagir ao cheiro e morder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pescoço Longo",
 		obtencao: "Rota 43",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5316,6 +5816,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 7.2, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0204.png",
 		estatistica: {
 			ps: 50,
 			atq: 65,
@@ -5328,6 +5829,7 @@ const pkmnDisponiveis = [
 			"Gosta de fazer sua casca mais espessa adicionando camadas de casca de árvores. O peso adicional não lhe incomoda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
 		obtencao: "Rotas 26, 27, 29, e outras; Floresta de Ilex; e Lago da Fúria",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5342,6 +5844,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 125.8, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0205.png",
 		estatistica: {
 			ps: 75,
 			atq: 90,
@@ -5354,6 +5857,7 @@ const pkmnDisponiveis = [
 			"Seu corpo inteiro é protegido por uma concha tão dura quanto aço. O que se esconde dentro da armadura é um total mistério.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5368,6 +5872,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 14.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/91/F0206.png",
 		estatistica: {
 			ps: 100,
 			atq: 70,
@@ -5380,6 +5885,7 @@ const pkmnDisponiveis = [
 			"Quando avistado, este Pokémon escapa para trás perfurando furiosamente o chão com sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Terra",
 		obtencao: "Caverna Escura",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5394,6 +5900,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Voador"],
 		massa: 64.8, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0207.png",
 		estatistica: {
 			ps: 65,
 			atq: 75,
@@ -5406,6 +5913,7 @@ const pkmnDisponiveis = [
 			"Voa direto ao rosto do alvo e depois agarra a vítima assustada para injetar veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião Voador",
 		obtencao: "Rota 45",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5420,6 +5928,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Terra"],
 		massa: 400.0, // em kg
 		altura: 9.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0208.png",
 		estatistica: {
 			ps: 75,
 			atq: 85,
@@ -5432,6 +5941,7 @@ const pkmnDisponiveis = [
 			"Seu corpo tem sido comprimido profundamente sob o solo. Como resultado, é mais duro do que um diamante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Ferro",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5446,6 +5956,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0209.png",
 		estatistica: {
 			ps: 60,
 			atq: 80,
@@ -5458,6 +5969,7 @@ const pkmnDisponiveis = [
 			"Apesar de parecer assustador, é, na verdade, bondoso e afetuoso. É muito popular entre mulheres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
 		obtencao: "Rotas 5, 6, 7, e outras",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5472,6 +5984,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 48.7, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e3/F0210.png",
 		estatistica: {
 			ps: 90,
 			atq: 120,
@@ -5483,7 +5996,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Na verdade, é tímido e facilmente assustado. Quando atacado, se agita para afastar seu agressor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
-		obtencao: "Rota 6",
+		obtencao: "Rota 6; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5498,6 +6012,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Veneno"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0211.png",
 		estatistica: {
 			ps: 65,
 			atq: 95,
@@ -5510,6 +6025,7 @@ const pkmnDisponiveis = [
 			"Para disparar seus espinhos venenosos, deve inflar seu corpo bebendo mais de 10 litros de água de uma vez.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		obtencao: "Rotas 12, 13, e 32",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5524,6 +6040,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 118.0, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0212.png",
 		estatistica: {
 			ps: 70,
 			atq: 130,
@@ -5536,6 +6053,7 @@ const pkmnDisponiveis = [
 			"Balança suas pinças com padrão de olho para assustar seus inimigos. Isso faz com que pareça que tenha três cabeças.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinça",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5550,6 +6068,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Rocha"],
 		massa: 20.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0213.png",
 		estatistica: {
 			ps: 20,
 			atq: 10,
@@ -5562,6 +6081,7 @@ const pkmnDisponiveis = [
 			"As frutas que armazena em sua concha semelhante a um caso, se decompõem e se tornam um líquido pegajoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mofo",
 		obtencao: "Rota 40; Torre Queimada; e Caverna Escura",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5576,6 +6096,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0214.png",
 		estatistica: {
 			ps: 80,
 			atq: 125,
@@ -5588,6 +6109,7 @@ const pkmnDisponiveis = [
 			"Este poderoso Pokémon empurra seu chifre premiado sob a barriga de seus inimigos, depois os levanta e os joga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Unicórnio",
 		obtencao: "Rotas 29, 30, 31, e outras",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5602,6 +6124,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Gelo"],
 		massa: 28.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0215.png",
 		estatistica: {
 			ps: 55,
 			atq: 95,
@@ -5614,6 +6137,7 @@ const pkmnDisponiveis = [
 			"Suas patas escondem garras afiadas. Se atacado, de repente estende as garras e assusta seu inimigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Garra Afiada",
 		obtencao: "Rota 28; Monte Prata; e Caminho Gelado",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5628,6 +6152,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 8.8, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b5/F0216.png",
 		estatistica: {
 			ps: 60,
 			atq: 80,
@@ -5640,6 +6165,7 @@ const pkmnDisponiveis = [
 			"Caso encontre mel, sua marca crescente brilha. Sempre lambe suas patas por sempre estarem encharcadas com mel.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ursinho",
 		obtencao: "Rota 45; e Caverna Escura",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5654,6 +6180,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 125.8, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0217.png",
 		estatistica: {
 			ps: 90,
 			atq: 130,
@@ -5666,7 +6193,8 @@ const pkmnDisponiveis = [
 			"Apesar de ser um bom escalador, prefere quebrar árvores com suas patas dianteiras e comer Frutas caídas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hibernador",
 		obtencao:
-			"Rota 28; Caverna Escura; Estrada da Vitória; Monte Prata; e Caverna do Monte Prata",
+			"Rota 28; Caverna Escura; Estrada da Vitória; Monte Prata; Caverna do Monte Prata; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5681,6 +6209,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 35.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0218.png",
 		estatistica: {
 			ps: 40,
 			atq: 40,
@@ -5693,6 +6222,7 @@ const pkmnDisponiveis = [
 			"Nunca dorme. Tem que continuar em movimento porque, se parar, seu corpo de magma esfriaria e endureceria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lava",
 		obtencao: "Rotas 16, 17, e 18",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5707,6 +6237,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Rocha"],
 		massa: 55.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0219.png",
 		estatistica: {
 			ps: 50,
 			atq: 50,
@@ -5719,6 +6250,7 @@ const pkmnDisponiveis = [
 			"A concha em suas costas é apenas pele que esfriou e endureceu. Quebra facilmente com um leve toque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lava",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5733,6 +6265,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0220.png",
 		estatistica: {
 			ps: 50,
 			atq: 50,
@@ -5745,6 +6278,7 @@ const pkmnDisponiveis = [
 			"Esfrega o focinho no chão para encontrar e desenterrar comida. Às vezes, descobre fonte termal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Porco",
 		obtencao: "Caminho Gelado",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5759,6 +6293,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Terra"],
 		massa: 55.8, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0221.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -5771,6 +6306,7 @@ const pkmnDisponiveis = [
 			"Por causa de seu longo pelo por todo corpo obscurecer sua visão, continua investindo repetidamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Suíno",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5785,6 +6321,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Rocha"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0222.png",
 		estatistica: {
 			ps: 55,
 			atq: 55,
@@ -5797,6 +6334,7 @@ const pkmnDisponiveis = [
 			"Em uma nação dos mares do sul, as pessoas vivem em comunidades construídas em grupos desses Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coral",
 		obtencao: "Rotas 19, 34, e 40; e Caverna da União",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5811,6 +6349,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0223.png",
 		estatistica: {
 			ps: 35,
 			atq: 65,
@@ -5823,6 +6362,7 @@ const pkmnDisponiveis = [
 			"Possui uma precisão soberba. A água que atira pode atingir até mesmo presa em movimento a mais de cem metros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jato",
 		obtencao: "Rota 44",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5837,6 +6377,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 28.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0224.png",
 		estatistica: {
 			ps: 75,
 			atq: 105,
@@ -5849,6 +6390,7 @@ const pkmnDisponiveis = [
 			"Prende seus inimigos com seus tentáculos com ventosas depois esmaga-os com sua cabeça dura como rocha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jato",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5863,6 +6405,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Voador"],
 		massa: 16.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0225.png",
 		estatistica: {
 			ps: 45,
 			atq: 55,
@@ -5875,6 +6418,7 @@ const pkmnDisponiveis = [
 			"Carrega comida o dia todo. Há contos sobre pessoas perdidas que foram salvas pela comida que tinha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Entrega",
 		obtencao: "Caminho Gelado",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5889,6 +6433,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 220.0, // em kg
 		altura: 2.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0226.png",
 		estatistica: {
 			ps: 65,
 			atq: 40,
@@ -5901,6 +6446,7 @@ const pkmnDisponiveis = [
 			"Enquanto nada livremente em mares abertos, pode voar fora da água e sobre as ondas se conseguir velocidade o suficiente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pipa",
 		obtencao: "Rota 41",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5915,6 +6461,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Voador"],
 		massa: 50.5, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0227.png",
 		estatistica: {
 			ps: 65,
 			atq: 80,
@@ -5927,6 +6474,7 @@ const pkmnDisponiveis = [
 			"Suas asas resistentes parecem pesadas, mas são ocas e leves, permitindo que voe livremente no céu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro com Armadura",
 		obtencao: "Rota 45",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5941,6 +6489,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fogo"],
 		massa: 10.8, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0228.png",
 		estatistica: {
 			ps: 45,
 			atq: 60,
@@ -5953,6 +6502,7 @@ const pkmnDisponiveis = [
 			"Usa diferentes tipos de sons para se comunicar com outros de sua espécie e perseguir sua presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuro",
 		obtencao: "Rota 7",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5967,6 +6517,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fogo"],
 		massa: 35.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0229.png",
 		estatistica: {
 			ps: 75,
 			atq: 90,
@@ -5979,6 +6530,7 @@ const pkmnDisponiveis = [
 			"Caso você seja queimado pelas chamas que este Pokémon lança pela boca, a dor nunca irá embora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuro",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -5993,6 +6545,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Dragão"],
 		massa: 152.0, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0230.png",
 		estatistica: {
 			ps: 75,
 			atq: 95,
@@ -6005,6 +6558,7 @@ const pkmnDisponiveis = [
 			"Dizem que este Pokémon se esconde em cavernas subaquáticas. Consegue criar redemoinhos ao bocejar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6019,6 +6573,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 33.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0231.png",
 		estatistica: {
 			ps: 90,
 			atq: 60,
@@ -6031,6 +6586,7 @@ const pkmnDisponiveis = [
 			"Balança seu longo focinho alegremente por aí, mas, por ser muito forte, isso pode ser perigoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nariz Longo",
 		obtencao: "Rotas 45, e 46",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6045,6 +6601,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 120.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0232.png",
 		estatistica: {
 			ps: 90,
 			atq: 120,
@@ -6057,7 +6614,8 @@ const pkmnDisponiveis = [
 			"Possui presas duras, afiadas e um couro áspero. Sua Investida é forte o suficiente para derrubar uma casa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura",
 		obtencao:
-			"Rotas 28, e 45; Monte Prata; Caverna do Monte Prata; e Estrada da Vitória",
+			"Rotas 28, e 45; Monte Prata; Caverna do Monte Prata; Estrada da Vitória; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6072,6 +6630,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6a/F0233.png",
 		estatistica: {
 			ps: 85,
 			atq: 80,
@@ -6084,6 +6643,7 @@ const pkmnDisponiveis = [
 			"Pesquisas posteriores aperfeiçoaram suas habilidades. Algumas vezes, pode exibir movimentos que não foram programados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6098,6 +6658,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 71.2, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0234.png",
 		estatistica: {
 			ps: 73,
 			atq: 95,
@@ -6110,6 +6671,7 @@ const pkmnDisponiveis = [
 			"Os chifres curvos mudam sutilmente o fluxo de ar para criar um espaço estranho onde a realidade é distorcida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chifrudo",
 		obtencao: "Rotas 36, e 37",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6124,6 +6686,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 58.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0235.png",
 		estatistica: {
 			ps: 55,
 			atq: 20,
@@ -6136,6 +6699,7 @@ const pkmnDisponiveis = [
 			"Uma vez que se torna adulto, tem a tendencia de deixar seus companheiros marcarem suas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pintor",
 		obtencao: "Ruínas de Alfa",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6150,6 +6714,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 21.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0236.png",
 		estatistica: {
 			ps: 35,
 			atq: 35,
@@ -6162,6 +6727,7 @@ const pkmnDisponiveis = [
 			"Mesmo sendo pequeno, não pode ser ignorado, pois pode atingir qualquer alvo próximo sem aviso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Briga",
 		obtencao: "Recebido no Monte Mortar",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6176,6 +6742,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 48.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0237.png",
 		estatistica: {
 			ps: 50,
 			atq: 95,
@@ -6188,6 +6755,7 @@ const pkmnDisponiveis = [
 			"Lança seus chutes enquanto gira. Se girar em alta velocidade, pode perfurar o chão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Parada de Mão",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6202,6 +6770,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Psíquico"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/7c/F0238.png",
 		estatistica: {
 			ps: 45,
 			atq: 30,
@@ -6214,6 +6783,7 @@ const pkmnDisponiveis = [
 			"Sempre balança a cabeça lentamente para frente e para trás como se estivesse tentando beijar alguém.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Beijo",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6228,6 +6798,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 23.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8a/F0239.png",
 		estatistica: {
 			ps: 45,
 			atq: 63,
@@ -6240,6 +6811,7 @@ const pkmnDisponiveis = [
 			"Gira seus braços para gerar eletricidade, mas se cansa rapidamente, então carrega apenas um pouco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétrico",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6254,6 +6826,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 21.4, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0240.png",
 		estatistica: {
 			ps: 45,
 			atq: 75,
@@ -6266,6 +6839,7 @@ const pkmnDisponiveis = [
 			"Cada e toda vez que inspira e expira, brasas quentes pingam de sua boca e narinas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carvão Vivo",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6280,6 +6854,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 75.5, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0241.png",
 		estatistica: {
 			ps: 95,
 			atq: 80,
@@ -6292,6 +6867,7 @@ const pkmnDisponiveis = [
 			"Seu leite é rico em nutrientes, tornando-o a bebida ideal para os doentes ou cansados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vaca Leiteira",
 		obtencao: "Rotas 38, e 39",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6306,6 +6882,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 46.8, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0242.png",
 		estatistica: {
 			ps: 255,
 			atq: 10,
@@ -6318,6 +6895,7 @@ const pkmnDisponiveis = [
 			"Tem uma natureza compassiva. Caso veja um Pokémon doente, irá cuidar do indivíduo até que fique saudável.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Felicidade",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6332,6 +6910,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 178.0, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0243.png",
 		estatistica: {
 			ps: 90,
 			atq: 85,
@@ -6344,6 +6923,7 @@ const pkmnDisponiveis = [
 			"As nuvens de chuva que carrega permitem que dispare raios à vontade. É dito que descendeu com raio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trovão",
 		obtencao: "Vagando por Johto",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -6358,6 +6938,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 198.0, // em kg
 		altura: 2.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0244.png",
 		estatistica: {
 			ps: 115,
 			atq: 115,
@@ -6370,6 +6951,7 @@ const pkmnDisponiveis = [
 			"Vulcões entram em erupção quando late. Incapaz de restringir seu extremo poder, corre pela terra.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
 		obtencao: "Vagando por Johto",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -6384,6 +6966,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 187.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0245.png",
 		estatistica: {
 			ps: 100,
 			atq: 75,
@@ -6396,6 +6979,7 @@ const pkmnDisponiveis = [
 			"Rumores dizem ser a reincarnação dos ventos do norte, consegue instantaneamente purificar águas sujas e turvas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aurora",
 		obtencao: "Torre dos Sinos; ou vagando por Johto",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -6410,6 +6994,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 72.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0246.png",
 		estatistica: {
 			ps: 50,
 			atq: 64,
@@ -6422,6 +7007,7 @@ const pkmnDisponiveis = [
 			"Sua alimentação vem do solo. Depois de ter comido uma grande montanha, cairá em um sono para conseguir crescer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pele de Rocha",
 		obtencao: "Caverna do Monte Prata",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6436,6 +7022,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 152.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/80/F0247.png",
 		estatistica: {
 			ps: 70,
 			atq: 84,
@@ -6447,7 +7034,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua casca é tão dura quanto um pedaço de rocha, e também é muito forte. Consegue derrubar uma montanha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casco Duro",
-		obtencao: "Caverna do Monte Prata",
+		obtencao: "Caverna do Monte Prata; e por evolução",
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6462,6 +7050,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Noturno"],
 		massa: 202.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0248.png",
 		estatistica: {
 			ps: 100,
 			atq: 134,
@@ -6474,6 +7063,7 @@ const pkmnDisponiveis = [
 			"Seu corpo não pode ser machucado por nenhum tipo de ataque, por isso é muito ansioso para fazer desafios contra inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6488,6 +7078,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 216.0, // em kg
 		altura: 5.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0249.png",
 		estatistica: {
 			ps: 106,
 			atq: 90,
@@ -6500,6 +7091,7 @@ const pkmnDisponiveis = [
 			"Rumores dizem que passa seu tempo silenciosamente nas profundezas do mar por seus poderes sem muito fortes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mergulho",
 		obtencao: "Ilhas Redemoinho",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -6515,6 +7107,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 199.0, // em kg
 		altura: 3.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0250.png",
 		estatistica: {
 			ps: 106,
 			atq: 130,
@@ -6527,6 +7120,7 @@ const pkmnDisponiveis = [
 			"Segundo as lendas, este Pokémon voa pelos céus do planeta continuamente em suas magnificas asas de sete cores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arco-Íris",
 		obtencao: "Torre dos Sinos",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -6541,6 +7135,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Planta"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0251.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -6553,6 +7148,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon vaga pelo tempo. A grama e as árvores floresce nas florestas em que apareceu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viagem no Tempo",
 		obtencao: "Floresta de Ilex",
+		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -6567,6 +7163,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0252.png",
 		estatistica: {
 			ps: 40,
 			atq: 45,
@@ -6579,6 +7176,7 @@ const pkmnDisponiveis = [
 			"Possui pequenos ganchos na sola de suas patas que o permite escalar paredes verticais. Este Pokémon ataca batendo nos inimigos com sua cauda grossa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagartixa de Madeira",
 		obtencao: "Rota 101",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6593,6 +7191,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 21.6, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/69/F0253.png",
 		estatistica: {
 			ps: 50,
 			atq: 65,
@@ -6605,6 +7204,7 @@ const pkmnDisponiveis = [
 			"As folhas que crescem em seu corpo são convenientes para camuflá-lo de seus inimigos em florestas. Este Pokémon é um mestre em escalar árvores em selvas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagartixa de Madeira",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6619,6 +7219,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 52.2, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0254.png",
 		estatistica: {
 			ps: 70,
 			atq: 85,
@@ -6631,6 +7232,7 @@ const pkmnDisponiveis = [
 			"As folhas que crescem em seu corpo são muito afiadas nas pontas. Este Pokémon é muito ágil, salta sobre os galhos das árvores e ataca seus inimigos por cima ou por trás.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Floresta",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6645,6 +7247,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0255.png",
 		estatistica: {
 			ps: 45,
 			atq: 60,
@@ -6657,6 +7260,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon possui um local dentro de seu corpo onde mantém sua chama. É todo coberto por uma pelagem fofa de plumas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pintinho",
 		obtencao: "Rota 101",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6671,6 +7275,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0256.png",
 		estatistica: {
 			ps: 60,
 			atq: 85,
@@ -6683,6 +7288,7 @@ const pkmnDisponiveis = [
 			"Batalha com as chamas intensamente quentes que cospe de seu bico e com chutes excepcionalmente destrutivos. O som deste Pokémon é muito alto e perturbador.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ave Jovem",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6697,6 +7303,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 52.0, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a7/F0257.png",
 		estatistica: {
 			ps: 80,
 			atq: 120,
@@ -6709,6 +7316,7 @@ const pkmnDisponiveis = [
 			"Possui pernas incrivelmente forte, pode facilmente passar por um prédio de trina andares em único salto. Os socos flamejantes deste Pokémon deixam seus inimigos queimados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Labareda",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6723,6 +7331,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.6, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0258.png",
 		estatistica: {
 			ps: 50,
 			atq: 70,
@@ -6735,6 +7344,7 @@ const pkmnDisponiveis = [
 			"A barbatana em sua cabeça age como um radar altamente sensível. Usando esta barbatana para sentir os movimentos da água e do ar, este Pokémon consegue determinar o que está acontecendo ao seu redor sem usar os olhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
 		obtencao: "Rota 101",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6749,6 +7359,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 28.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/ee/F0259.png",
 		estatistica: {
 			ps: 70,
 			atq: 85,
@@ -6761,6 +7372,7 @@ const pkmnDisponiveis = [
 			"É mais rápido viajando pela lama do que nadando. Os membros inferiores deste Pokémon exibem óbvio desenvolvimento, dando uma habilidade de andar com as patas traseiras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6775,6 +7387,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 81.9, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0260.png",
 		estatistica: {
 			ps: 100,
 			atq: 110,
@@ -6787,6 +7400,7 @@ const pkmnDisponiveis = [
 			"Consegue prever tempestades sentindo mudanças sutis nas ondas sonoras e ventos de maré com suas barbatanas. Caso uma tempestade esteja se aproximando, empilha pedras para se proteger.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6801,6 +7415,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 13.6, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0261.png",
 		estatistica: {
 			ps: 35,
 			atq: 55,
@@ -6813,6 +7428,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon é onívoro, come qualquer coisa. Uma característica distinta é quão grande são suas presas comparadas a seu corpo. Este Pokémon tenta intimidar seus inimigos fazendo os pelos de sua cauda se arrepiarem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mordida",
 		obtencao: "Rotas 101, 102, 103, e outras; e Floresta de Petalburg",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6827,6 +7443,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 37.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e5/F0262.png",
 		estatistica: {
 			ps: 70,
 			atq: 90,
@@ -6838,7 +7455,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dá sinais óbvios quando está se preparando para atacar. Começa a rosnar profundamente e então achata seu corpo. Este Pokémon morderá selvagemente com usas presas afiadas e pontudas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mordida",
-		obtencao: "Rotas 120, 121, e 123",
+		obtencao: "Rotas 120, 121, e 123; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6853,6 +7471,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 17.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/50/F0263.png",
 		estatistica: {
 			ps: 38,
 			atq: 30,
@@ -6865,6 +7484,7 @@ const pkmnDisponiveis = [
 			"Vagueia incansavelmente por todos lugar o tempo todo. Este Pokémon faz isso por ser muito curioso. Ele se interessa por qualquer coisa que veja.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guaxinim",
 		obtencao: "Rotas 101, 102, 103, e outras; e Floresta de Petalburg",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6879,6 +7499,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0264.png",
 		estatistica: {
 			ps: 78,
 			atq: 70,
@@ -6890,7 +7511,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sempre corre a toda velocidade e apenas em linhas retas. Quando estiver diante de um obstáculo, faz uma curva em ângulo reto para evitá-lo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Apressado",
-		obtencao: "Rotas 118, 119, 120, e outras",
+		obtencao: "Rotas 118, 119, 120, e outras; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6905,6 +7527,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 3.6, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1c/F0265.png",
 		estatistica: {
 			ps: 45,
 			atq: 45,
@@ -6917,6 +7540,7 @@ const pkmnDisponiveis = [
 			"Gruda em galhos de árvores e come folhas. O fio que cospe de sua boca, que fica pegajoso ao tocar o ar, retarda o movimento de seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca",
 		obtencao: "Rotas 101, 102, e 104; e Floresta de Petalburg",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6931,6 +7555,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0266.png",
 		estatistica: {
 			ps: 50,
 			atq: 35,
@@ -6942,7 +7567,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Acreditava-se que suportava a fome e não consumia nada. No tentando, agora acredita-se que este Pokémon sacia sede bebendo água da chuva que se acumula em sua seda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Floresta de Petalburg",
+		obtencao: "Floresta de Petalburg; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6957,6 +7583,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 28.4, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0267.png",
 		estatistica: {
 			ps: 60,
 			atq: 70,
@@ -6969,6 +7596,7 @@ const pkmnDisponiveis = [
 			"Sua comida favorita é o doce pólen das flores. Caso queira ver este Pokémon, deixe uma flor em vaso perto de uma janela aberta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Borboleta",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6983,6 +7611,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 11.5, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0268.png",
 		estatistica: {
 			ps: 50,
 			atq: 35,
@@ -6994,7 +7623,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso seja atacado, permanece imóvel, independente do quão grave esteja ferido. Não esquece a dor que suportou.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Floresta de Petalburg",
+		obtencao: "Floresta de Petalburg; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7009,6 +7639,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 31.6, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0269.png",
 		estatistica: {
 			ps: 60,
 			atq: 50,
@@ -7021,6 +7652,7 @@ const pkmnDisponiveis = [
 			"Quando bate suas asas, um pó fino é espalhado. Esse pó é, na verdade, um poderoso veneno que fará até mesmo um lutador profissional doente. Este Pokémon procura por comida usando suas antenas como um radar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa Venenosa",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7035,6 +7667,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Planta"],
 		massa: 2.6, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0270.png",
 		estatistica: {
 			ps: 40,
 			atq: 30,
@@ -7047,6 +7680,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon vive em lagoas com água limpa. É conhecido por transportar pequenos Pokémon através de lagoas carregando-os na folha larga em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva de Água",
 		obtencao: "Rotas 102, e 114",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7061,6 +7695,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Planta"],
 		massa: 32.5, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0271.png",
 		estatistica: {
 			ps: 60,
 			atq: 50,
@@ -7072,7 +7707,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"À noite, tem grande prazer em sair dos rios e assustar as pessoas. Se alimenta de musgo aquático que cresce nas pedras do leito do rio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Contente",
-		obtencao: "Rota 114",
+		obtencao: "Rota 114; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7087,6 +7723,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Planta"],
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0272.png",
 		estatistica: {
 			ps: 80,
 			atq: 70,
@@ -7099,6 +7736,7 @@ const pkmnDisponiveis = [
 			"Ao ouvir um ritmo alegre e otimista, as células de seu corpo se tornam muito energéticas e ativas. Mesmo em batalha, este Pokémon exibirá uma quantidade incrível de poder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Descuidado",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7113,6 +7751,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 4.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/22/F0273.png",
 		estatistica: {
 			ps: 40,
 			atq: 40,
@@ -7125,6 +7764,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon se pendura em galho e absorve nutrientes. Quando termina de comer, seu corpo fica tão pesado que ele cai no chão com um baque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bolota",
 		obtencao: "Rotas 102, 114, 117, e outra",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7139,6 +7779,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 28.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0274.png",
 		estatistica: {
 			ps: 70,
 			atq: 70,
@@ -7150,7 +7791,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em florestas densamente cobertas de vegetação. Ocasionalmente se aventuram para fora da floresta para assustar as pessoas. Este Pokémon não gosta que seu nariz logo seja beliscado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ardiloso",
-		obtencao: "Rota 114",
+		obtencao: "Rota 114; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7165,6 +7807,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 59.6, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0275.png",
 		estatistica: {
 			ps: 90,
 			atq: 100,
@@ -7177,6 +7820,7 @@ const pkmnDisponiveis = [
 			"Dizem que chega em ventos frios e invernais. Temido desde muito tempo como o guardião das florestas, este Pokémon vive em uma floresta profunda onde as pessoas não se aventuram.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Malvado",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7191,6 +7835,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.3, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0276.png",
 		estatistica: {
 			ps: 40,
 			atq: 55,
@@ -7203,6 +7848,7 @@ const pkmnDisponiveis = [
 			"Apesar de ser pequeno, é muito corajoso. Encara Skarmory maiores em pé de igualdade. Contudo, enfraquece quando está com fome.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pequena Andorinha",
 		obtencao: "Rotas 104, 115, e 116; e Floresta de Petalburg",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7217,6 +7863,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 19.8, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0277.png",
 		estatistica: {
 			ps: 60,
 			atq: 85,
@@ -7228,7 +7875,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mergulha em cima de uma presa de muito alto. Nunca erra seus alvos. Sobe aos céus em busca de terras com clima quente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gaivota",
-		obtencao: "Rota 115",
+		obtencao: "Rota 115; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7243,6 +7891,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0278.png",
 		estatistica: {
 			ps: 40,
 			atq: 30,
@@ -7255,6 +7904,7 @@ const pkmnDisponiveis = [
 			"Constrói seu ninho em penhasco íngreme na beira do mar. Tem dificuldade em manter suas asas batendo durante o voo. Em vez disso, ele plana em correntes de ar ascendentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gaivota",
 		obtencao: "Rotas 103, 104, 105, e outras; e lado de fora do Monte da Pira",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7269,6 +7919,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 28.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0279.png",
 		estatistica: {
 			ps: 60,
 			atq: 50,
@@ -7280,7 +7931,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Desliza sobre o topo das ondas enquanto voa. Quando avista uma presa, usa seu bico grande paa pegar a vítima com água. Protege seus ovos em seu bico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro de Água",
-		obtencao: "Rotas 103, 104, 105, e outras",
+		obtencao: "Rotas 103, 104, 105, e outras; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7295,6 +7947,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 6.6, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0280.png",
 		estatistica: {
 			ps: 28,
 			atq: 25,
@@ -7307,6 +7960,7 @@ const pkmnDisponiveis = [
 			"Sente as emoções das pessoas usando os chifres em sua cabeça. Este Pokémon raramente aparece para pessoas. Mas quando aparece, se aproxima caso sinta que a pessoa tem uma energia positiva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sentimento",
 		obtencao: "Rota 102",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7321,6 +7975,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 20.2, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0281.png",
 		estatistica: {
 			ps: 38,
 			atq: 35,
@@ -7333,6 +7988,7 @@ const pkmnDisponiveis = [
 			"Usa os chifres em sua cabeça para amplificar seu poder psicocinético. Quando usa seu poder, o ar em sua volta se torna distorcido, criando miragens de cenários não existentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emoção",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7347,6 +8003,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 48.4, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0282.png",
 		estatistica: {
 			ps: 68,
 			atq: 65,
@@ -7359,6 +8016,7 @@ const pkmnDisponiveis = [
 			"Possui a habilidade de ver o futuro. Caso sinta perigo iminente ao seu treinador, diz-se que este Pokémon libera sua energia psicocinética com força total.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abraço",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7373,6 +8031,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Água"],
 		massa: 1.7, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e7/F0283.png",
 		estatistica: {
 			ps: 40,
 			atq: 30,
@@ -7385,6 +8044,7 @@ const pkmnDisponiveis = [
 			"Das pontas de suas patas, secreta um óleo que o permite andar sobre água como se estivesse patinando. Este Pokémon se alimenta de organismos microscópicos em lagoas e lagos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Patinador",
 		obtencao: "Rotas 102, 111, 114, e outras",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7399,6 +8059,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 3.6, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0284.png",
 		estatistica: {
 			ps: 70,
 			atq: 60,
@@ -7411,6 +8072,7 @@ const pkmnDisponiveis = [
 			"Intimida inimigos com os padrões semelhantes a olhos em suas antenas. Este Pokémon bate suas quatro asas para voar livremente em qualquer direção, até mesmo para os lados e para trás, como se fosse um helicóptero.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Globo Ocular",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7425,6 +8087,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 4.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0285.png",
 		estatistica: {
 			ps: 60,
 			atq: 40,
@@ -7437,6 +8100,7 @@ const pkmnDisponiveis = [
 			"Vive em solo úmido nas profundezas escuras de florestas. São frequentemente encontrados parados sob folhas caídas. Este Pokémon se alimenta de composto feito de folhas caídas e podres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
 		obtencao: "Floresta de Petalburg",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7451,6 +8115,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Lutador"],
 		massa: 39.2, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0286.png",
 		estatistica: {
 			ps: 60,
 			atq: 130,
@@ -7463,6 +8128,7 @@ const pkmnDisponiveis = [
 			"Espalha esporos de buracos no chapéu em sua cabeça. Ama climas quentes e úmidos. Se alimenta de árvores e plantas em campos e florestas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7477,6 +8143,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 24.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0287.png",
 		estatistica: {
 			ps: 60,
 			atq: 60,
@@ -7489,6 +8156,7 @@ const pkmnDisponiveis = [
 			"Dorme praticamente o dia todo e a noite toda. Não muda seu ninho sua vida inteira, mas algumas vezes viaja grandes distâncias nadando em rios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandrião",
 		obtencao: "Floresta de Petalburg",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7503,6 +8171,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 46.5, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0288.png",
 		estatistica: {
 			ps: 80,
 			atq: 80,
@@ -7515,6 +8184,7 @@ const pkmnDisponiveis = [
 			"É simplesmente incapaz de permanecer parado. Mesmo quando tenta dormir, o sangue suas veias se agita, obrigando este Pokémon a correr solto pela selva antes que possa se acalmar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Selvagem",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7529,6 +8199,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 130.5, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0289.png",
 		estatistica: {
 			ps: 150,
 			atq: 160,
@@ -7541,6 +8212,7 @@ const pkmnDisponiveis = [
 			"Passa todo o dia deitado e relaxando. Come a grama que cresce ao seu alcance. Caso coma toda a grama que puder alcançar, relutantemente se move para outro lugar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Preguiçoso",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7555,6 +8227,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Terra"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0290.png",
 		estatistica: {
 			ps: 31,
 			atq: 45,
@@ -7567,6 +8240,7 @@ const pkmnDisponiveis = [
 			"Vive no subsolo por muitos anos em completa escuridão. Este Pokémon absorbe nutrientes das raízes de árvores. Permanece parado como se esperasse por algo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estagiário",
 		obtencao: "Rota 116",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7581,6 +8255,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0291.png",
 		estatistica: {
 			ps: 61,
 			atq: 90,
@@ -7593,6 +8268,7 @@ const pkmnDisponiveis = [
 			"Caso não seja treinado adequadamente, recusará obedecer o treinado e chora continuamente. Por causa disso, é dito que este Pokémon coloca as habilidades do treinador a teste.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ninja",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7607,6 +8283,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fantasma"],
 		massa: 1.2, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0292.png",
 		estatistica: {
 			ps: 1,
 			atq: 90,
@@ -7619,6 +8296,7 @@ const pkmnDisponiveis = [
 			"Seu corpo duro não move, nem mesmo um tique. Na verdade, seu corpo aparenta ser meramente uma casca vazia. Acredita-se que este Pokémon roubará o espírito de qualquer um que espie seu corpo oco pelas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tosado",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7633,6 +8311,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 16.3, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0293.png",
 		estatistica: {
 			ps: 64,
 			atq: 51,
@@ -7645,6 +8324,7 @@ const pkmnDisponiveis = [
 			"Normalmente, sua voz é muito baixa, é quase inaudível mesmo se estiver prestando bastante atenção. Contudo, caso pressinta perigo, começa a chorar em um volume ensurdecedor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sussurro",
 		obtencao: "Rota 116; Gruta do Deserto; Túnel Rusturf; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7659,6 +8339,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 40.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0294.png",
 		estatistica: {
 			ps: 84,
 			atq: 71,
@@ -7670,7 +8351,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu berro pode dizimar completamente uma casa de madeira. Ele usa sua voz para punir seus inimigos. As orelhas redondas deste Pokémon servem como alto-falantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vozeirão",
-		obtencao: "Estrada da Vitória; e Gruta do Deserto",
+		obtencao: "Estrada da Vitória; Gruta do Deserto; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7685,6 +8367,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 84.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/73/F0295.png",
 		estatistica: {
 			ps: 104,
 			atq: 91,
@@ -7697,6 +8380,7 @@ const pkmnDisponiveis = [
 			"Desencadeia terremotos com os tremores que cria ao berrar. Caso este Pokémon inalar violentamente pelas aberturas em seu corpo, é um sinal de que está se preparando para soltar um enorme berro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Barulhão",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7711,6 +8395,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 86.4, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0296.png",
 		estatistica: {
 			ps: 72,
 			atq: 60,
@@ -7723,6 +8408,7 @@ const pkmnDisponiveis = [
 			"Continuará se levantando e atacando seu inimigo, não importa quantas vezes seja derrubado. Toda vez que se levanta, este Pokémon armazena mais energia em seu corpo para evoluir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bravura",
 		obtencao: "Caverna de Granito; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7736,6 +8422,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 253.8, // em kg
 		altura: 2.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0297.png",
 		estatistica: {
 			ps: 144,
 			atq: 120,
@@ -7747,7 +8434,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo grosso pode parecer gordo, mas na verdade é um pedaço de músculo sólido. Caso se esforce para contrais todos os seus músculos, seu corpo se torna duro como uma rocha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Propulsão de Braço",
-		obtencao: "Estrada da Vitória",
+		obtencao: "Estrada da Vitória; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7762,6 +8450,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0298.png",
 		estatistica: {
 			ps: 50,
 			atq: 20,
@@ -7774,6 +8463,7 @@ const pkmnDisponiveis = [
 			"Gira sua cauda como se fosse um laço, então a arremessa para longe. O impulso do arremesso também faz seu corpo voar. Usando essa única ação, um desses Pokémon conseguiu se arremessar a uma distância recorde de 10 metros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Poá",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7788,6 +8478,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 97.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f0/F0299.png",
 		estatistica: {
 			ps: 30,
 			atq: 45,
@@ -7800,6 +8491,7 @@ const pkmnDisponiveis = [
 			"Seu nariz magnético está sempre apontando para o norte. Caso dois desses Pokémon se encontrem, não poderão virar o rostos para o outro quando estiverem próximos porque seus narizes magnéticos se repelem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bússola",
 		obtencao: "Caverna de Granito",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7814,6 +8506,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 11.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0300.png",
 		estatistica: {
 			ps: 50,
 			atq: 45,
@@ -7826,6 +8519,7 @@ const pkmnDisponiveis = [
 			"Possui o hábito de se fascinar por objetos em movimento e persegui-los. Este Pokémon é conhecido por perseguir sua própria cauda e ficar tonto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bichano",
 		obtencao: "Rota 116",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7840,6 +8534,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.6, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0301.png",
 		estatistica: {
 			ps: 70,
 			atq: 65,
@@ -7852,6 +8547,7 @@ const pkmnDisponiveis = [
 			"Prefere viver uma existência irrestrita por conseguir fazer o lhe agrada no seu próprio tempo. Por comer e dormir quando decide, suas rotinas diárias são completamente randômicas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prim",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7866,6 +8562,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fantasma"],
 		massa: 11.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0302.png",
 		estatistica: {
 			ps: 50,
 			atq: 75,
@@ -7879,6 +8576,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Escuridão",
 		obtencao:
 			"Caverna de Granito; Caverna da Origem; Pilar Celeste; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7893,6 +8591,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fada"],
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0303.png",
 		estatistica: {
 			ps: 50,
 			atq: 85,
@@ -7906,6 +8605,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Enganador",
 		obtencao:
 			"Caverna de Granito; Caverna da Origem; Estrada da Vitória; e Pilar Celeste",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7920,6 +8620,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Rocha"],
 		massa: 60.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0304.png",
 		estatistica: {
 			ps: 50,
 			atq: 70,
@@ -7932,6 +8633,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon possui um corpo de metal. Para construir seu corpo, se alimenta de minério de ferro que escava das montanhas. Ocasionalmente, causa problemas por comer pontes e trilhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura de Ferro",
 		obtencao: "Caverna de Granito; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7946,6 +8648,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Rocha"],
 		massa: 120.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0305.png",
 		estatistica: {
 			ps: 60,
 			atq: 90,
@@ -7957,7 +8660,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tempera seu corpo metálico bebendo água mineral altamente nutritiva de nascente até ficar inchado. Este Pokémon faz seu ninho perto de fontes de água deliciosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura de Ferro",
-		obtencao: "Estrada da Vitória",
+		obtencao: "Estrada da Vitória; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7972,6 +8676,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Rocha"],
 		massa: 360.0, // em kg
 		altura: 2.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0306.png",
 		estatistica: {
 			ps: 70,
 			atq: 110,
@@ -7984,6 +8689,7 @@ const pkmnDisponiveis = [
 			"Reivindica uma montanha inteira como seu território. Bate impiedosamente em qualquer coisa que viole seu ambiente. Este Pokémon patrulha seu território todo o tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura de Ferro",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -7998,6 +8704,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Psíquico"],
 		massa: 11.2, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0307.png",
 		estatistica: {
 			ps: 30,
 			atq: 40,
@@ -8010,6 +8717,7 @@ const pkmnDisponiveis = [
 			"Realiza um treinamento mental rigoroso nas profundezas das montanhas. No entanto, sempre que medita, sempre perde sua concentração e foco. Como resultado, seu treinamento nunca termina.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meditação",
 		obtencao: "Monte da Pira; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8024,6 +8732,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Psíquico"],
 		massa: 31.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a9/F0308.png",
 		estatistica: {
 			ps: 60,
 			atq: 60,
@@ -8036,6 +8745,7 @@ const pkmnDisponiveis = [
 			"Dizem que, por meio de meditação, este Pokémon aumenta a energia dentro de seu corpo e afia seu sexto sentido. Esconde sua presença unindo a si próprio com campos e montanhas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meditação",
 		obtencao: "Estrada da Vitória",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8050,6 +8760,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 15.2, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0309.png",
 		estatistica: {
 			ps: 40,
 			atq: 45,
@@ -8062,6 +8773,7 @@ const pkmnDisponiveis = [
 			"Armazena eletricidade em seu longo pelo corporal. Este Pokémon estimula seu músculo das pernas com cargas elétricas. Esses choques dão às suas pernas um desempenho de aceleração explosivo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raios",
 		obtencao: "Rotas 110, e 118",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8076,6 +8788,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 40.2, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0310.png",
 		estatistica: {
 			ps: 70,
 			atq: 75,
@@ -8087,7 +8800,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Descarrega eletricidade constantemente de sua juba. Algumas vezes, as faíscas iniciam incêndios florestais. Quando entra em uma batalha, cria nuvens de tempestade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Descarga",
-		obtencao: "Rota 118",
+		obtencao: "Rota 118; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8102,6 +8816,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0311.png",
 		estatistica: {
 			ps: 60,
 			atq: 50,
@@ -8114,6 +8829,7 @@ const pkmnDisponiveis = [
 			"Sempre age como um torcedor para seus companheiros. Toda vez que um companheiro de equipe faz um bom esforço na batalha, este Pokémon dá um curto-circuito em seu corpo para criar ruídos de faíscas para mostrar sua alegria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aplausos",
 		obtencao: "Rota 110",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8128,6 +8844,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0312.png",
 		estatistica: {
 			ps: 60,
 			atq: 40,
@@ -8140,6 +8857,7 @@ const pkmnDisponiveis = [
 			"Está mais preocupado em torcer para seus companheiros do que em sua própria segurança. Este Pokémon dá um curto-circuito em seu corpo para criar faíscas brilhantes torcer por seu companheiros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aplausos",
 		obtencao: "Rota 110",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8154,6 +8872,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0313.png",
 		estatistica: {
 			ps: 65,
 			atq: 73,
@@ -8166,6 +8885,7 @@ const pkmnDisponiveis = [
 			"Com a chegada da noite, emite luz de sua cauda. Sua comunicação com outros se baseia em ajustar a intensidade e o piscar de sua luz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vaga-lume",
 		obtencao: "Rota 117",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8180,6 +8900,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/31/F0314.png",
 		estatistica: {
 			ps: 65,
 			atq: 47,
@@ -8192,6 +8913,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon noturno que se torna ativo ao cair da noite. Lidera um enxame que desenha padrões no céu escuro. Mais de 200 padrões escuros foram confirmados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vaga-lume",
 		obtencao: "Rota 117",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8206,6 +8928,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0315.png",
 		estatistica: {
 			ps: 50,
 			atq: 60,
@@ -8218,6 +8941,7 @@ const pkmnDisponiveis = [
 			"Atira espinhos afiados como projéteis em qualquer oponente que tente roubar as flores em seus braços. O aroma deste Pokémon traz serenidade aos vivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho",
 		obtencao: "Rota 117",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8232,6 +8956,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 10.3, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0316.png",
 		estatistica: {
 			ps: 70,
 			atq: 43,
@@ -8244,6 +8969,7 @@ const pkmnDisponiveis = [
 			"Teoricamente, todo seu corpo é seu estomago. Como resultado, consegue engolir algo de seu próprio tamanho. O estomago deste Pokémon contém um fluido especial que digere qualquer coisa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estômago",
 		obtencao: "Rota 110",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8258,6 +8984,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 80.0, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0317.png",
 		estatistica: {
 			ps: 100,
 			atq: 73,
@@ -8270,6 +8997,7 @@ const pkmnDisponiveis = [
 			"Quando localiza uma presa, expele um fluido terrivelmente tóxico de seus poros e pulveriza o alvo. Uma vez que a presa tenha enfraquecido, este Pokémon a engole inteira com sua boca cavernosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Saco de Veneno",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8284,6 +9012,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 20.8, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0318.png",
 		estatistica: {
 			ps: 45,
 			atq: 90,
@@ -8296,6 +9025,7 @@ const pkmnDisponiveis = [
 			"Suas mandíbulas fortemente desenvolvidas e suas pontiagudas e afiadas têm o poder destrutivo de arrancar cascos de barcos. Muitos barcos foram atacados e afundados por este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Selvagem",
 		obtencao: "Rotas 118, e 119",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8310,6 +9040,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 88.8, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0319.png",
 		estatistica: {
 			ps: 70,
 			atq: 120,
@@ -8322,6 +9053,7 @@ const pkmnDisponiveis = [
 			"Apelidado de 'o valentão dos mares', este Pokémon é amplamente temido. Suas cruéis presas crescem de volta imediatamente após quebrarem. Apenas um desses Pokémon pode destruir completamente um superpetroleiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brutal",
 		obtencao: "Rotas 103, 118, 122, e outras",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8336,6 +9068,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 130.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6c/F0320.png",
 		estatistica: {
 			ps: 130,
 			atq: 70,
@@ -8349,6 +9082,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Baleia Esférica",
 		obtencao:
 			"Rotas 103, 105, 106, e outras; Caverna do Fundo do Mar; e Gruta Cardume",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8363,6 +9097,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 398.0, // em kg
 		altura: 14.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0321.png",
 		estatistica: {
 			ps: 170,
 			atq: 90,
@@ -8374,7 +9109,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"É o maior de todos Pokémon identificados até agora. Este Pokémon gigante nada languidamente no vasto mar aberto, comendo quantidades gigantescas de comida de uma vez com sua boca enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baleia Flutuante",
-		obtencao: "Rota 129",
+		obtencao: "Rota 129; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8389,6 +9125,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Terra"],
 		massa: 24.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/2c/F0322.png",
 		estatistica: {
 			ps: 60,
 			atq: 60,
@@ -8401,6 +9138,7 @@ const pkmnDisponiveis = [
 			"Armazena magma de quase 1'200° Celsius dentro de seu corpo. Caso se molhe, o magma esfria e endurece. Nesse caso, o corpo do Pokémon aumenta de peso e seus movimentos se tornam lentos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dormente",
 		obtencao: "Rota 112; Caminho Ardente; e Passo Pontudo",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8415,6 +9153,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Terra"],
 		massa: 220.0, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0323.png",
 		estatistica: {
 			ps: 70,
 			atq: 100,
@@ -8427,6 +9166,7 @@ const pkmnDisponiveis = [
 			"Possui um vulcão dentro de seu corpo. Magma de 10'000° Celsius percorre seu corpo. Ocasionalmente, as saliências em suas costas entram em erupção, expelindo magma superaquecido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erupção",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8441,6 +9181,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 80.4, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0324.png",
 		estatistica: {
 			ps: 70,
 			atq: 85,
@@ -8453,6 +9194,7 @@ const pkmnDisponiveis = [
 			"Cava pelas montanhas em procura de carvão. Caso encontre algum, preenche o espaço oco em seu casco com carvão e o queima. Caso seja atacado, este Pokémon solta uma fumaça preta e espessa para bater em retirada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carvão",
 		obtencao: "Caminho Ardente; e Esconderijo Magma",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8467,6 +9209,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 30.6, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0325.png",
 		estatistica: {
 			ps: 60,
 			atq: 25,
@@ -8479,6 +9222,7 @@ const pkmnDisponiveis = [
 			"Mantém uma pérola no topo de sua cabeça. A pérola tem o propósito de amplificar os poderes psicocinéticos deste Pokémon. Portanto, está em procura constante por uma pérola maior.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ricochete",
 		obtencao: "Passo Pontudo",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8493,6 +9237,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 71.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0326.png",
 		estatistica: {
 			ps: 80,
 			atq: 45,
@@ -8505,6 +9250,7 @@ const pkmnDisponiveis = [
 			"Usa as pérolas negras em seu corpo para amplificar suas ondas psíquicas e obter controle total sobre seu inimigo. Quando usa seu poder especial, sua respiração ofegante torna-se difícil.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Manipulação",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8519,6 +9265,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 5.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0327.png",
 		estatistica: {
 			ps: 60,
 			atq: 60,
@@ -8531,6 +9278,7 @@ const pkmnDisponiveis = [
 			"É dito que cada indivíduo de sua espécie possui padrões de manchas totalmente únicos. Os passos trêmulos e cambaleantes deste Pokémon dão a ele aparência de uma dança.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Panda Manchado",
 		obtencao: "Rota 113",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8545,6 +9293,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 15.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0328.png",
 		estatistica: {
 			ps: 45,
 			atq: 100,
@@ -8557,6 +9306,7 @@ const pkmnDisponiveis = [
 			"É um caçador paciente. Cava um buraco inescapável em um deserto e espera que sua presa caia. Pode passar uma semana inteira sem acesso a água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Formigueiro",
 		obtencao: "Rota 111; e Torre Miragem",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8571,6 +9321,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Dragão"],
 		massa: 15.3, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0329.png",
 		estatistica: {
 			ps: 50,
 			atq: 70,
@@ -8583,6 +9334,7 @@ const pkmnDisponiveis = [
 			"Suas asas ainda não completaram o processo de crescimento. Ao invés de voar longas distâncias, são mais úteis criando ondas ultrassônicas pela vibração.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vibração",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8597,6 +9349,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Dragão"],
 		massa: 82.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0330.png",
 		estatistica: {
 			ps: 80,
 			atq: 100,
@@ -8609,6 +9362,7 @@ const pkmnDisponiveis = [
 			"É apelidado de 'o espírito elemental do deserto'. Como suas asas batendo levantam uma nuvem de areia, este Pokémon está sempre envolto em uma tempestade areia enquanto voa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Místico",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8623,6 +9377,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 51.3, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0331.png",
 		estatistica: {
 			ps: 50,
 			atq: 85,
@@ -8635,6 +9390,7 @@ const pkmnDisponiveis = [
 			"Vive em locais áridos como desertos. Libera um forte aroma de sua flor para atrair presa. Quando a presa se aproxima, este Pokémon atira espinhos afiados de seu corpo para abater a vítima.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cacto",
 		obtencao: "Rota 111",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8649,6 +9405,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 77.4, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0332.png",
 		estatistica: {
 			ps: 70,
 			atq: 115,
@@ -8661,6 +9418,7 @@ const pkmnDisponiveis = [
 			"Durante o dia, este Pokémon permanece imóvel para que não perca umidade para o forte sol do deserto. Este Pokémon se torna ativo durante a noite quando a temperatura cai.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espantalho",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8675,6 +9433,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0333.png",
 		estatistica: {
 			ps: 45,
 			atq: 40,
@@ -8687,6 +9446,7 @@ const pkmnDisponiveis = [
 			"Possui asas leves e fofas que são como nuvens de algodão. Este Pokémon não se assusta com pessoas. Aterrissa em cabeças de pessoas e senta como um chapéu de algodão fofo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro de Algodão",
 		obtencao: "Rotas 114, e 115",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8701,6 +9461,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 20.6, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/89/F0334.png",
 		estatistica: {
 			ps: 75,
 			atq: 70,
@@ -8712,7 +9473,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dança e gira pelo céu entre nuvens ondulantes, como algodão. Ao cantar melodias com sua voz cristalina, este Pokémon faz seus ouvintes experimentarem maravilhas oníricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Canto",
-		obtencao: "Pilar Celeste",
+		obtencao: "Pilar Celeste; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8727,6 +9489,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 40.3, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0335.png",
 		estatistica: {
 			ps: 73,
 			atq: 115,
@@ -8739,6 +9502,7 @@ const pkmnDisponiveis = [
 			"Quando batalha, fica em pé sobre as patas traseiras e ataca com as patas dianteiras com garras afiadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Furão",
 		obtencao: "Rota 114",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8753,6 +9517,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 52.5, // em kg
 		altura: 2.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0336.png",
 		estatistica: {
 			ps: 73,
 			atq: 100,
@@ -8765,6 +9530,7 @@ const pkmnDisponiveis = [
 			"Sua cauda em forma de espada serve a dois propósitos, corta os inimigos e os encharca com veneno secretado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente com Presas",
 		obtencao: "Rota 114",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8779,6 +9545,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Psíquico"],
 		massa: 168.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0337.png",
 		estatistica: {
 			ps: 70,
 			atq: 55,
@@ -8791,6 +9558,7 @@ const pkmnDisponiveis = [
 			"Foi descoberto em um local onde um meteorito caiu. Como resultado, algumas pessoas teorizam que esse Pokémon veio do espaço. Contudo, ninguém conseguiu provar essa teoria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meteorito",
 		obtencao: "Cachoeira do Meteoro",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8805,6 +9573,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Psíquico"],
 		massa: 154.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0338.png",
 		estatistica: {
 			ps: 70,
 			atq: 95,
@@ -8817,6 +9586,7 @@ const pkmnDisponiveis = [
 			"É uma nova espécie de Pokémon que dizem ter caído do espaço. Flutua no ar e se move silenciosamente. Em batalha, este Pokémon libera luz que brilha intensamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meteorito",
 		obtencao: "Cachoeira do Meteoro",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8831,6 +9601,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 1.9, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/da/F0339.png",
 		estatistica: {
 			ps: 50,
 			atq: 48,
@@ -8844,6 +9615,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Bigodudo",
 		obtencao:
 			"Rotas 111, 114, e 120; Cachoeira do Meteoro; e Estrada da Vitória",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8858,6 +9630,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 23.6, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6b/F0340.png",
 		estatistica: {
 			ps: 110,
 			atq: 78,
@@ -8869,7 +9642,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"É extremamente territorialista. Só um destes Pokémon reivindicará um grande lago como seu território exclusivo. Se um inimigo se aproxima, se debate e desencadeia um grade terremoto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bigodudo",
-		obtencao: "Cachoeira do Meteoro; e Estrada da Vitória",
+		obtencao: "Cachoeira do Meteoro; Estrada da Vitória; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8884,6 +9658,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0341.png",
 		estatistica: {
 			ps: 43,
 			atq: 80,
@@ -8896,6 +9671,7 @@ const pkmnDisponiveis = [
 			"Era originalmente um Pokémon estrangeiro que foi importado como animal doméstico. Acabaram aparecendo na natureza. Este Pokémon é muito resistente e aumentou muito sua população.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baderneiro",
 		obtencao: "Rotas 102, e 117",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8910,6 +9686,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 32.8, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0342.png",
 		estatistica: {
 			ps: 63,
 			atq: 120,
@@ -8922,6 +9699,7 @@ const pkmnDisponiveis = [
 			"Possui uma natureza extremamente violenta que o obriga a desafiar outros seres vivos para batalha. Outras formas de vida se recusam a viver em lagoas habitadas por este Pokémon, tornando-as lugares desolados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Patife",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8936,6 +9714,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Psíquico"],
 		massa: 21.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0343.png",
 		estatistica: {
 			ps: 40,
 			atq: 40,
@@ -8948,6 +9727,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon se move enquanto gira em seu único pé. Pinturas de parede primitivas retratando este Pokémon vivendo entre as pessoas foram descobertas em algumas ruínas antigas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boneco de Argila",
 		obtencao: "Rota 111",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8962,6 +9742,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Psíquico"],
 		massa: 108.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0344.png",
 		estatistica: {
 			ps: 60,
 			atq: 70,
@@ -8973,7 +9754,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rumores dizem que são bonecas de lama feitas por humanos primitivos e trazidos a vida pela exposição a um raio misterioso. Este Pokémon se move enquanto levita.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boneco de Argila",
-		obtencao: "Pilar Celeste",
+		obtencao: "Pilar Celeste; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -8988,6 +9770,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Planta"],
 		massa: 23.8, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0345.png",
 		estatistica: {
 			ps: 66,
 			atq: 41,
@@ -9000,6 +9783,7 @@ const pkmnDisponiveis = [
 			"É um Pokémon antigo que foi regenerado a partir de um fóssil. Permanece permanentemente ancorado a uma rocha. De seu poleira imóvel, este Pokémon procura atentamente por presas com seus dois olhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lírio-do-Mar",
 		obtencao: "Revivido a partir de fóssil",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9014,6 +9798,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Planta"],
 		massa: 60.4, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0346.png",
 		estatistica: {
 			ps: 86,
 			atq: 81,
@@ -9026,6 +9811,7 @@ const pkmnDisponiveis = [
 			"Vagueia pelo fundo do oceano a procura de comida. Este Pokémon estende livremente seu pescoço semelhante a um tronco de árvore e captura presas incautos usando seus oito tentáculos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Percevejo",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9040,6 +9826,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Inseto"],
 		massa: 12.5, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0347.png",
 		estatistica: {
 			ps: 45,
 			atq: 95,
@@ -9052,6 +9839,7 @@ const pkmnDisponiveis = [
 			"É dito ser que é um tipo de predecessor de Pokémon, com oito asas nas laterais do corpo. Este Pokémon nadou no mar primordial ondulando essas oito asas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Camarão",
 		obtencao: "Revivido a partir de fóssil",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9066,6 +9854,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Inseto"],
 		massa: 68.2, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0348.png",
 		estatistica: {
 			ps: 75,
 			atq: 125,
@@ -9078,6 +9867,7 @@ const pkmnDisponiveis = [
 			"Sua armadura dura faz todos os ataques ricochetearem. As duas enormes garras deste Pokémon podem ser estendidas ou contraídas livremente. Tem o poder de perfurar uma laje de aço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carapaça",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9092,6 +9882,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.4, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0349.png",
 		estatistica: {
 			ps: 20,
 			atq: 15,
@@ -9104,6 +9895,7 @@ const pkmnDisponiveis = [
 			"Suas barbatanas são esfarrapadas desde o início de sua vida. Por causa de sua aparência de má qualidade, este Pokémon é amplamente ignorado. É capaz de viver tanto em mar quanto em rios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe",
 		obtencao: "Rota 119",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9118,6 +9910,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 162.0, // em kg
 		altura: 6.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0350.png",
 		estatistica: {
 			ps: 95,
 			atq: 60,
@@ -9130,6 +9923,7 @@ const pkmnDisponiveis = [
 			"Dizem ser um dos Pokémon mais bonitos que existe. Possui o poder de acalmar emoções como raiva e hostilidade para reprimir rixas amargas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meigo",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9144,6 +9938,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps: 70,
 			atq: 70,
@@ -9156,6 +9951,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao: "Laboratório de Meteorologia",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9170,6 +9966,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps: 70,
 			atq: 70,
@@ -9182,6 +9979,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao: "Laboratório de Meteorologia",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
@@ -9196,6 +9994,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps: 70,
 			atq: 70,
@@ -9208,6 +10007,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao: "Laboratório de Meteorologia",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
@@ -9222,6 +10022,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps: 70,
 			atq: 70,
@@ -9234,6 +10035,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao: "Laboratório de Meteorologia",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
@@ -9248,6 +10050,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 22.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0352.png",
 		estatistica: {
 			ps: 60,
 			atq: 90,
@@ -9260,6 +10063,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon é capaz de alterar a coloração de seu corpo à vontade para se misturar com os ambiente. Existe uma exceção, não consegue alterar o padrão zigue-zague em sua barriga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Troca-cor",
 		obtencao: "Rotas 118, 119, 120, e outras",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9274,6 +10078,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 2.3, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0353.png",
 		estatistica: {
 			ps: 44,
 			atq: 75,
@@ -9286,6 +10091,7 @@ const pkmnDisponiveis = [
 			"Cresce se alimentando de emoções negativas, como vingança e inveja, nos corações das pessoas. Vagueia pelas cidades a procura de rancores que mancham as pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fantoche",
 		obtencao: "Rotas 121, e 123; e Monta da Pira",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9300,6 +10106,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 12.5, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8b/F0354.png",
 		estatistica: {
 			ps: 64,
 			atq: 115,
@@ -9311,7 +10118,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma energia amaldiçoada permeou o enchimento de uma boneca de pelúcia descartada e esquecida, dando-lhe uma nova vida como este Pokémon. A energia do Pokémon escaparia caso abrisse a boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marionete",
-		obtencao: "Pilar Celeste",
+		obtencao: "Pilar Celeste; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9326,6 +10134,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0355.png",
 		estatistica: {
 			ps: 20,
 			atq: 40,
@@ -9338,6 +10147,7 @@ const pkmnDisponiveis = [
 			"Consegue atravessar qualquer parede não importando quão grossa possa ser. Uma vez que escolhe um alvo, persegue obstinadamente a vítima até o amanhecer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Réquiem",
 		obtencao: "Rotas 121, e 123; e Monta da Pira",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9352,6 +10162,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 30.6, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0356.png",
 		estatistica: {
 			ps: 40,
 			atq: 70,
@@ -9363,7 +10174,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é completamente oco, não há nada dentro. Dizem que seu corpo é como um buraco negro. Este Pokémon absorverá qualquer coisa em seu corpo, mas jamais retornará.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aceno",
-		obtencao: "Pilar Celeste",
+		obtencao: "Pilar Celeste; e por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9378,6 +10190,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0357.png",
 		estatistica: {
 			ps: 99,
 			atq: 68,
@@ -9390,6 +10203,7 @@ const pkmnDisponiveis = [
 			"Os cachos de frutas ao redor de seu pescoço são muito populares entre as crianças. Este Pokémon gosta de frutas, e come continuamente. Aparentemente, seu gosto por frutas resultou em seu próprio crescimento de frutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fruta",
 		obtencao: "Rota 119",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9404,6 +10218,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0358.png",
 		estatistica: {
 			ps: 65,
 			atq: 50,
@@ -9416,6 +10231,7 @@ const pkmnDisponiveis = [
 			"Faz seus sons ecoarem dentro de seu corpo oco. Quando este Pokémon fica enfurecido, seus sons resultam em ondas ultrassônicas que têm o poder de derrubar os inimigos voando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mensageiro dos Ventos",
 		obtencao: "Monte da Pira",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9430,6 +10246,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 47.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0359.png",
 		estatistica: {
 			ps: 65,
 			atq: 130,
@@ -9442,6 +10259,7 @@ const pkmnDisponiveis = [
 			"Toda vez que aparece diante das pessoas, é seguido por desastre como um terremoto ou um maremoto. Como resultado, veio a ser conhecido como o Pokémon desastre.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Desastre",
 		obtencao: "Rota 120",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9456,6 +10274,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 14.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0360.png",
 		estatistica: {
 			ps: 95,
 			atq: 23,
@@ -9468,6 +10287,7 @@ const pkmnDisponiveis = [
 			"Sempre pode visto com um grande sorriso feliz no rosto. Olhe para a cauda determinar se está bravo. Quando bravo, este Pokémon baterá no chão com sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brilhante",
 		obtencao: "Por ovo; e Ilha Miragem",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9482,6 +10302,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 16.8, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0361.png",
 		estatistica: {
 			ps: 50,
 			atq: 50,
@@ -9494,6 +10315,7 @@ const pkmnDisponiveis = [
 			"Vive em regiões com muita neve. Em estações sem neve, como primavera e verão, este Pokémon foge para viver silenciosamente entre estalactites e estalagmites nas profundezas de cavernas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gorro de Neve",
 		obtencao: "Gruta Cardume",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9508,6 +10330,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 256.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0362.png",
 		estatistica: {
 			ps: 80,
 			atq: 80,
@@ -9520,6 +10343,7 @@ const pkmnDisponiveis = [
 			"Possui um corpo feito de rocha, o qual endurece com uma armadura de gelo. Este Pokémon tem a habilidade de congelar umidade na atmosfera em qualquer formato que desejar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rosto",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9534,6 +10358,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Água"],
 		massa: 39.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0363.png",
 		estatistica: {
 			ps: 70,
 			atq: 40,
@@ -9546,6 +10371,7 @@ const pkmnDisponiveis = [
 			"É muito mais rápido rolando do que caminhando para se locomover. Quando grupos deste Pokémon comem, todos batem palma ao mesmo tempo para mostrar seu prazer. Por causa disso, suas refeições são barulhentas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bater Palmas",
 		obtencao: "Gruta Cardume",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9560,6 +10386,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Água"],
 		massa: 87.6, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0364.png",
 		estatistica: {
 			ps: 90,
 			atq: 60,
@@ -9572,6 +10399,7 @@ const pkmnDisponiveis = [
 			"Tem o hábito de sempre fazer malabarismos na ponta do nariz com qualquer coisa que vê pela primeira vez. Este Pokémon ocasionalmente se diverte equilibrando e rolando um Spheal no nariz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rolo Bola",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9586,6 +10414,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Água"],
 		massa: 150.6, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3c/F0365.png",
 		estatistica: {
 			ps: 110,
 			atq: 80,
@@ -9598,6 +10427,7 @@ const pkmnDisponiveis = [
 			"Suas duas presas massivamente desenvolvidas podem destruir totalmente blocos de gelo pesando dez toneladas com um golpe. A espessa camada de gordura deste Pokémon o isola de temperaturas abaixo de zero.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Quebra-gelo",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9612,6 +10442,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 52.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fc/F0366.png",
 		estatistica: {
 			ps: 35,
 			atq: 64,
@@ -9624,6 +10455,7 @@ const pkmnDisponiveis = [
 			"Sua concha resistente não é boa apenas para proteção, é usada também para prender e capturar presas. A concha deste Pokémon totalmente crescido será marcada com cortes e arranhões por todo o corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
 		obtencao: "Rotas submersas 124, e 126",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9638,6 +10470,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 27.0, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0367.png",
 		estatistica: {
 			ps: 55,
 			atq: 104,
@@ -9650,6 +10483,7 @@ const pkmnDisponiveis = [
 			"Sua presença passou despercebida pelas pessoas por um longo tempo por viver em profundidades extremas do mar. Os olhos deste Pokémon podem ver claramente até mesmo nas profundezas escuras e turvas do oceano.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fundo do Mar",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9664,6 +10498,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 22.6, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0368.png",
 		estatistica: {
 			ps: 55,
 			atq: 84,
@@ -9676,6 +10511,7 @@ const pkmnDisponiveis = [
 			"Vive nos mares do sul em profundezas extremas. Seu corpo é construído para suportar a enorme pressão exercida pela água em incríveis profundezas. Por isso, o corpo deste Pokémon não é afetado por ataques comuns.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mar do Sul",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9690,6 +10526,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Rocha"],
 		massa: 23.4, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0369.png",
 		estatistica: {
 			ps: 100,
 			atq: 90,
@@ -9702,6 +10539,7 @@ const pkmnDisponiveis = [
 			"Sua espécie viveu por cem milhões de anos sem mudar sua forma. Este antigo Pokémon se alimenta de organismos microscópico com sua boca sem dentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Longevidade",
 		obtencao: "Rotas submersas 124, e 126",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9716,6 +10554,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 8.7, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0370.png",
 		estatistica: {
 			ps: 43,
 			atq: 30,
@@ -9728,6 +10567,7 @@ const pkmnDisponiveis = [
 			"Seu corpo do formato de um coração é um símbolo de amor e romance. Dizem que qualquer casal que encontre este Pokémon terá a promessa de um relacionamento amoroso que nunca termina.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Encontro",
 		obtencao: "Rota 128",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9742,6 +10582,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 42.1, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0371.png",
 		estatistica: {
 			ps: 45,
 			atq: 75,
@@ -9754,6 +10595,7 @@ const pkmnDisponiveis = [
 			"Tem um sonho de algum dia voar alto no céu. Em seus esforços condenados de voo, este Pokémon se atira de penhascos. Como resultado de seus mergulhos sua cabeça ficou e tão resistente quanto aço temperado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cabeça de Pedra",
 		obtencao: "Cachoeira do Meteoro",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9768,6 +10610,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 110.5, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0372.png",
 		estatistica: {
 			ps: 65,
 			atq: 95,
@@ -9780,6 +10623,7 @@ const pkmnDisponiveis = [
 			"Dentro de seu casco, que se assemelha a uma armadura, células estão em meio à transformação ara criar um corpo inteiramente novo. O casco deste Pokémon é extremamente pesado, tornando seus movimentos lentos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Resistência",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9794,6 +10638,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 102.6, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0373.png",
 		estatistica: {
 			ps: 95,
 			atq: 135,
@@ -9806,6 +10651,7 @@ const pkmnDisponiveis = [
 			"Depois de vários anos, sua estrutura celular sofreu uma mutação repentina de crescimento de asas. Quando irritado, perde todo o raciocínio e o controle.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9820,6 +10666,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 95.2, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0374.png",
 		estatistica: {
 			ps: 40,
 			atq: 55,
@@ -9832,6 +10679,7 @@ const pkmnDisponiveis = [
 			"Ao invés de sangue, uma poderosa força magnética corre pelo seu corpo. Este Pokémon se comunica com outros enviando pulsos controlados de magnetismo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola de Ferro",
 		obtencao: "Recebido na Cidade de Mossdeep",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9846,6 +10694,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 202.5, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0375.png",
 		estatistica: {
 			ps: 60,
 			atq: 75,
@@ -9858,6 +10707,7 @@ const pkmnDisponiveis = [
 			"As garras que inclinam seus braços têm o poder destrutivo de rasgar grossas folhas de ferro como se fossem seda. Voa a mais de 100 quilômetros por hora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Garra de Ferro",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9872,6 +10722,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 550.0, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0376.png",
 		estatistica: {
 			ps: 80,
 			atq: 135,
@@ -9884,6 +10735,7 @@ const pkmnDisponiveis = [
 			"Possui quatro cérebros no total. Cominados, os quatro cérebros conseguem passar por cálculos difíceis mais rápido que um supercomputador. Este Pokémon consegue flutuar no ar dobrando suas quatro pernas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perna de Ferro",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -9898,6 +10750,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 230.0, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0377.png",
 		estatistica: {
 			ps: 80,
 			atq: 100,
@@ -9910,6 +10763,7 @@ const pkmnDisponiveis = [
 			"Foi selado por pessoas há muito tempo. É dito que, caso o corpo deste Pokémon seja danificado em batalha, buscará por rochas adequadas para se reparar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pico de Rocha",
 		obtencao: "Ruínas do Deserto",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -9924,6 +10778,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 175.0, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0378.png",
 		estatistica: {
 			ps: 80,
 			atq: 50,
@@ -9936,6 +10791,7 @@ const pkmnDisponiveis = [
 			"Seu corpo foi feito durante uma era glacial. O corpo profundamente congelado não pode ser derretido, nem mesmo por fogo. Este Pokémon controla ar gelado de -200° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Iceberg",
 		obtencao: "Gruta Insular",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -9950,6 +10806,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 205.0, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0379.png",
 		estatistica: {
 			ps: 80,
 			atq: 75,
@@ -9962,6 +10819,7 @@ const pkmnDisponiveis = [
 			"Possui um corpo mais duro que qualquer tipo de metal. Seu corpo é aparentemente oco. Ninguém tem ideia do que este Pokémon come.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ferro",
 		obtencao: "Tumba Antiga",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -9976,6 +10834,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Psíquico"],
 		massa: 40.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0380.png",
 		estatistica: {
 			ps: 80,
 			atq: 80,
@@ -9988,6 +10847,7 @@ const pkmnDisponiveis = [
 			"É altamente sensível às emoções de pessoas. Caso sinta qualquer hostilidade, este Pokémon eriça as penas de todo o corpo e grita estridentemente para intimidar o inimigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Eternidade",
 		obtencao: "Ilha Sul; ou Vagando por Hoenn",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -10002,6 +10862,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Psíquico"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0381.png",
 		estatistica: {
 			ps: 80,
 			atq: 90,
@@ -10014,6 +10875,7 @@ const pkmnDisponiveis = [
 			"Possui a habilidade de fazer seu oponente ver uma imagem do que tem visto ou imagina em sua cabeça. Este Pokémon é inteligente e entende a fala humana.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Eternidade",
 		obtencao: "Ilha Sul; ou Vagando por Hoenn",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -10028,6 +10890,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 352.0, // em kg
 		altura: 4.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0382.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -10040,6 +10903,7 @@ const pkmnDisponiveis = [
 			"Tem o poder de criar enormes nuvens de chuva que cobrem inteiramente o céu e provocam precipitações torrenciais. Este Pokémon salvou pessoas que sofriam de secas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bacia Marinha",
 		obtencao: "Caverna da Origem; ou Caverna Marinha",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -10054,6 +10918,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 950.0, // em kg
 		altura: 3.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0383.png",
 		estatistica: {
 			ps: 100,
 			atq: 150,
@@ -10066,6 +10931,7 @@ const pkmnDisponiveis = [
 			"Tem o poder de dispersar nuvens de chuva e fazer água evaporar com luz e calor. Veio como um salvador para as pessoas que estavam sofrendo de enchentes terríveis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Continente",
 		obtencao: "Caverna da Origem; ou Caverna Terrena",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -10080,6 +10946,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 206.5, // em kg
 		altura: 7.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0384.png",
 		estatistica: {
 			ps: 105,
 			atq: 150,
@@ -10092,6 +10959,7 @@ const pkmnDisponiveis = [
 			"Viveu por centenas de milhões de anos na camada de ozônio da Terra, nunca descendo para o chão. Sua existência tem sido completamente desconhecida por viver tão alto no céu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Celeste",
 		obtencao: "Pilar Celeste",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -10106,6 +10974,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 1.1, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0385.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -10118,6 +10987,7 @@ const pkmnDisponiveis = [
 			"Uma lenda afirma que este Pokémon realizará qualquer desejo escrito em notas presas à sua cabeça quando acordar. Caso este Pokémon sinta perigo, lutará sem acordar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Desejo",
 		obtencao: "Por evento",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -10132,6 +11002,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps: 50,
 			atq: 150,
@@ -10144,6 +11015,7 @@ const pkmnDisponiveis = [
 			"O DNA de um vírus espacial sofreu uma mutação repentina ao ser exposto a um raio laser e resultou neste Pokémon. O órgão cristalino no peito deste Pokémon aparenta ser seu cérebro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
 		obtencao: "Ilha da Origem",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -10158,6 +11030,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps: 50,
 			atq: 180,
@@ -10170,6 +11043,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon se transformou em seu disfarce agressivo. Pode enganar inimigos alterado sua aparência.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
 		obtencao: "Ilha da Origem",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
@@ -10184,6 +11058,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps: 50,
 			atq: 70,
@@ -10196,6 +11071,7 @@ const pkmnDisponiveis = [
 			"Quando muda de forma, uma aurora aparece. Absorve ataque alterando sua estrutura molecular.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
 		obtencao: "Ilha da Origem",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
@@ -10210,6 +11086,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps: 50,
 			atq: 95,
@@ -10222,6 +11099,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que sofreu mutação de um vírus extraterrestre exposto a um raio lase. Seu corpo é configurado para agilidade e velocidade superiores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
 		obtencao: "Ilha da Origem",
+		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
@@ -10236,6 +11114,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 10.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0387.png",
 		estatistica: {
 			ps: 55,
 			atq: 68,
@@ -10248,6 +11127,7 @@ const pkmnDisponiveis = [
 			"Feito de solo, o casco em suas costas endurece quando bebe água. Vive próximo a lagos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folhinha",
 		obtencao: "Rota 201; ou Lago Verdade",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10262,6 +11142,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 97.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0388.png",
 		estatistica: {
 			ps: 75,
 			atq: 89,
@@ -10274,6 +11155,7 @@ const pkmnDisponiveis = [
 			"Vive próximo a fontes de água em florestas. Durante o dia, deixa a floresta para dar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bosque",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10288,6 +11170,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Terra"],
 		massa: 310.0, // em kg
 		altura: 2.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0389.png",
 		estatistica: {
 			ps: 95,
 			atq: 109,
@@ -10300,6 +11183,7 @@ const pkmnDisponiveis = [
 			"Ocasionalmente, pequenos Pokémon se reúnem em suas costas para começar a construir seus ninhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Continente",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10314,6 +11198,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 6.2, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0390.png",
 		estatistica: {
 			ps: 44,
 			atq: 58,
@@ -10326,6 +11211,7 @@ const pkmnDisponiveis = [
 			"Sua traseira flamejante é alimentada por gás produzido em sua barriga. Nem chuva pode apagar o fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chimpanzé",
 		obtencao: "Rota 201; ou Lago Verdade",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10340,6 +11226,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 22.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/41/F0391.png",
 		estatistica: {
 			ps: 64,
 			atq: 78,
@@ -10352,6 +11239,7 @@ const pkmnDisponiveis = [
 			"Para intimidar agressores, estica o fogo em sua cauda para parecer maior.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brincalhão",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10366,6 +11254,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 55.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0392.png",
 		estatistica: {
 			ps: 76,
 			atq: 104,
@@ -10378,6 +11267,7 @@ const pkmnDisponiveis = [
 			"Usa um tipo diferente de arte marcial envolvendo todo os seus membros. Seu fogo nunca se apaga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10392,6 +11282,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0393.png",
 		estatistica: {
 			ps: 53,
 			atq: 51,
@@ -10404,6 +11295,7 @@ const pkmnDisponiveis = [
 			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem espessa protege do frio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinguim",
 		obtencao: "Rota 201; ou Lago Verdade",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10418,6 +11310,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 23.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0394.png",
 		estatistica: {
 			ps: 64,
 			atq: 66,
@@ -10430,6 +11323,7 @@ const pkmnDisponiveis = [
 			"Vive sozinho, longe de outros. Aparentemente, cada um de sua espécie acredita ser o mais importante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinguim",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10444,6 +11338,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Metal"],
 		massa: 84.5, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0395.png",
 		estatistica: {
 			ps: 84,
 			atq: 86,
@@ -10456,6 +11351,7 @@ const pkmnDisponiveis = [
 			"Os três chifres que se estendem de seu bico atestam seu poder. O líder possui os maiores chifres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Imperador",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10470,6 +11366,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0396.png",
 		estatistica: {
 			ps: 40,
 			atq: 55,
@@ -10482,6 +11379,7 @@ const pkmnDisponiveis = [
 			"Seus grupos são em grandes números. Embora pequenos, eles batem suas asas com grande poder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estorninho",
 		obtencao: "Rotas 201, 202, 203, e outras; Lago Verdade; e Grande Pântano",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10496,6 +11394,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 15.5, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0397.png",
 		estatistica: {
 			ps: 55,
 			atq: 75,
@@ -10508,7 +11407,8 @@ const pkmnDisponiveis = [
 			"Voa por a florestas e campos em procura de Pokémon insetos. Fica dentro de um bando enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estorninho",
 		obtencao:
-			"Rotas 209, 210, 212, e outra; Jardim Troféu; Lago Valor; Fonte da Despedida; Grande Pântano; e Arredores do Lago Valor",
+			"Rotas 209, 210, 212, e outra; Jardim Troféu; Lago Valor; Fonte da Despedida; Grande Pântano; Arredores do Lago Valor; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10523,6 +11423,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 24.9, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0398.png",
 		estatistica: {
 			ps: 85,
 			atq: 120,
@@ -10535,6 +11436,7 @@ const pkmnDisponiveis = [
 			"Possui uma natureza selvagem. Desafia corajosamente adversários muito maiores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Predador",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10549,6 +11451,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 20.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0399.png",
 		estatistica: {
 			ps: 59,
 			atq: 45,
@@ -10562,6 +11465,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Rato Gorducho",
 		obtencao:
 			"Rotas 201, 202, 203, e outras; Lago Verdade; Floresta de Eterna; Grande Pântano; e Usina do Vale.",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10576,6 +11480,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Água"],
 		massa: 31.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0400.png",
 		estatistica: {
 			ps: 79,
 			atq: 85,
@@ -10588,7 +11493,8 @@ const pkmnDisponiveis = [
 			"Constrói seu ninho represando riachos com casca e lama. É conhecido como um trabalhador industrial.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Castor",
 		obtencao:
-			"Rotas 208, 209, 210, e outra; Lago Valor; Fonte da Despedida; Grande Pântano; Lago Perspicácia; e Arredores do Lago Valor",
+			"Rotas 208, 209, 210, e outra; Lago Valor; Fonte da Despedida; Grande Pântano; Lago Perspicácia; Arredores do Lago Valor; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10603,6 +11509,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 2.2, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0401.png",
 		estatistica: {
 			ps: 37,
 			atq: 25,
@@ -10615,6 +11522,7 @@ const pkmnDisponiveis = [
 			"Balança a cabeça de trás para frente, fazendo com que suas antenas batam uma na outra e soem como um xilofone.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Grilo",
 		obtencao: "Rotas 202, 203, 204, e outras; e Floresta de Eterna",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10629,6 +11537,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0402.png",
 		estatistica: {
 			ps: 77,
 			atq: 85,
@@ -10641,7 +11550,8 @@ const pkmnDisponiveis = [
 			"Cruza seu braços semelhantes a uma faca na frente de seu peito quando emite sons. Consegue compor melodias no improviso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Grilo",
 		obtencao:
-			"Rotas 206, 210, 212, e outras; Jardim Troféu; e Arredores do Lago Valor",
+			"Rotas 206, 210, 212, e outras; Jardim Troféu; Arredores do Lago Valor; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10656,6 +11566,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 9.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0403.png",
 		estatistica: {
 			ps: 45,
 			atq: 65,
@@ -10668,6 +11579,7 @@ const pkmnDisponiveis = [
 			"Todo seu pelo deslumbra quando sente perigo. Foge enquanto o oponente está momentaneamente cego.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lampejante",
 		obtencao: "Rotas 202, 203, e 204; Usina do Vale; e Fuego de Ferro",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10682,6 +11594,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 30.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0404.png",
 		estatistica: {
 			ps: 60,
 			atq: 85,
@@ -10693,7 +11606,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas garras liberam eletricidade com amperagem o suficiente para causar desmaio. Vivem em pequenos grupos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fagulha",
-		obtencao: "Rota 222; e Fuego de Ferro",
+		obtencao: "Rota 222; Fuego de Ferro; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10708,6 +11622,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 42.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0405.png",
 		estatistica: {
 			ps: 80,
 			atq: 120,
@@ -10720,6 +11635,7 @@ const pkmnDisponiveis = [
 			"Quando seus olhos brilham dourados, consegue localizar presas escondidas, mesmo aquelas abrigadas atrás de uma parede.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Olhos Fulgurantes",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10734,6 +11650,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 1.2, // em kg
 		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0406.png",
 		estatistica: {
 			ps: 40,
 			atq: 30,
@@ -10747,6 +11664,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Broto",
 		obtencao:
 			"Rotas 204, 205, 208, e outra; Floresta de Eterna; e Grande Pântano",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10761,6 +11679,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 14.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0407.png",
 		estatistica: {
 			ps: 60,
 			atq: 70,
@@ -10773,6 +11692,7 @@ const pkmnDisponiveis = [
 			"Atrai a presa com um aroma adocicado para derruba-la com chicotes espinhosos escondidos em seus braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Buquê",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10787,6 +11707,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 31.5, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0408.png",
 		estatistica: {
 			ps: 67,
 			atq: 125,
@@ -10799,6 +11720,7 @@ const pkmnDisponiveis = [
 			"Viveu em selvas por volta de cem milhões de anos atrás. Seu crânio é tão duro quanto ferro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cabeçada",
 		obtencao: "Revivido a partir de um fóssil",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10813,6 +11735,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 102.5, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0409.png",
 		estatistica: {
 			ps: 97,
 			atq: 165,
@@ -10825,6 +11748,7 @@ const pkmnDisponiveis = [
 			"Sua poderosa cabeçada possui poder suficiente para quebrar até mesmo as coisas mais duráveis com o impacto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cabeçada",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10839,6 +11763,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Metal"],
 		massa: 57.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0410.png",
 		estatistica: {
 			ps: 30,
 			atq: 42,
@@ -10851,6 +11776,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que viveu nas selvas por volta de cem milhões de anos atrás. Seu couro facial é extremamente duro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escudo",
 		obtencao: "Revivido a partir de um fóssil",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10865,6 +11791,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Metal"],
 		massa: 149.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0411.png",
 		estatistica: {
 			ps: 60,
 			atq: 52,
@@ -10877,6 +11804,7 @@ const pkmnDisponiveis = [
 			"Qualquer ataque frontal é repelido. É um Pokémon dócil que se alimenta de grama e frutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escudo",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10891,6 +11819,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 3.4, // em kg
 		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0412.png",
 		estatistica: {
 			ps: 40,
 			atq: 29,
@@ -10904,6 +11833,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Bicho-de-cesto",
 		obtencao:
 			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; e Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10920,6 +11850,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps: 60,
 			atq: 59,
@@ -10932,6 +11863,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10946,6 +11878,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps: 60,
 			atq: 79,
@@ -10959,6 +11892,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -10973,6 +11907,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps: 60,
 			atq: 69,
@@ -10986,6 +11921,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11000,6 +11936,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 23.3, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/48/F0414.png",
 		estatistica: {
 			ps: 70,
 			atq: 94,
@@ -11012,6 +11949,7 @@ const pkmnDisponiveis = [
 			"Não mantém um ninho. Voa sobre campos e montanhas em procura constante de mel floral.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11026,6 +11964,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 5.5, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/95/F0415.png",
 		estatistica: {
 			ps: 30,
 			atq: 30,
@@ -11039,6 +11978,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Abelhinha",
 		obtencao:
 			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; e Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11053,6 +11993,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 38.5, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0416.png",
 		estatistica: {
 			ps: 70,
 			atq: 80,
@@ -11065,6 +12006,7 @@ const pkmnDisponiveis = [
 			"Quando ameaçadas, larvas de seu favo de mel de seis células revidam. Há apenas uma em uma colônia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Colmeia",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11079,6 +12021,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 3.9, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0417.png",
 		estatistica: {
 			ps: 60,
 			atq: 45,
@@ -11091,6 +12034,7 @@ const pkmnDisponiveis = [
 			"Faz bolas de pelo que estalam com eletricidade estática. As armazena com frutas em buracos de árvores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Esquilo Elétrico",
 		obtencao: "Rota 205; Fuego de Ferro; e Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11105,6 +12049,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 29.5, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0418.png",
 		estatistica: {
 			ps: 55,
 			atq: 65,
@@ -11117,6 +12062,7 @@ const pkmnDisponiveis = [
 			"Possui um saco de flutuação que se assemelha a uma coleira inflável. Flutua na água com a cabeça para fora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Doninha do Mar",
 		obtencao: "Rotas 205, 212, 213, e outra; e Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11131,6 +12077,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0419.png",
 		estatistica: {
 			ps: 85,
 			atq: 105,
@@ -11143,7 +12090,8 @@ const pkmnDisponiveis = [
 			"Flutua usando seus saco de flutuação bem desenvolvido. Auxilia no resgate de pessoas que estão se afogando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Doninha do Mar",
 		obtencao:
-			"Rotas 213, 218, 221, e outras; Fuego de Ferro; e Estrada da Vitória",
+			"Rotas 213, 218, 221, e outras; Fuego de Ferro; Estrada da Vitória; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11158,6 +12106,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 3.3, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0420.png",
 		estatistica: {
 			ps: 45,
 			atq: 35,
@@ -11171,6 +12120,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Cereja",
 		obtencao:
 			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11185,6 +12135,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 9.3, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0421.png",
 		estatistica: {
 			ps: 70,
 			atq: 60,
@@ -11197,6 +12148,7 @@ const pkmnDisponiveis = [
 			"Floresce em épocas de forte luz solar. Tenta compensar tudo o que suportou como broto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Floreado",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11212,6 +12164,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 6.3, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0422.png",
 		estatistica: {
 			ps: 76,
 			atq: 48,
@@ -11224,6 +12177,7 @@ const pkmnDisponiveis = [
 			"Suas cores e formas diferem de região para região. Na região de Sinnoh, estão confirmados dois tipos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma do Mar",
 		obtencao: "Rotas 205, 212, 213, e outras; Fuego de Ferro; e Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11239,6 +12193,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0423.png",
 		estatistica: {
 			ps: 111,
 			atq: 83,
@@ -11251,6 +12206,7 @@ const pkmnDisponiveis = [
 			"Possui um corpo flexível sem ossos. Caso qualquer parte de seu corpo for arrancada, ela cresce de volta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma do Mar",
 		obtencao: "Rotas 205, 213, 218, e outras; Fuego de Ferro; e Usina do Vale",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11266,6 +12222,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 20.3, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0424.png",
 		estatistica: {
 			ps: 75,
 			atq: 100,
@@ -11278,6 +12235,7 @@ const pkmnDisponiveis = [
 			"Para comer, habilmente descasca nozes com suas duas caudas. Raramente usa seus braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cauda Longa",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11292,6 +12250,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Voador"],
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0425.png",
 		estatistica: {
 			ps: 90,
 			atq: 50,
@@ -11304,6 +12263,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon formado por espíritos de pessoas e Pokémon. Gosta de estações úmidas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		obtencao: "Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11318,6 +12278,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Voador"],
 		massa: 15.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0426.png",
 		estatistica: {
 			ps: 150,
 			atq: 80,
@@ -11330,6 +12291,7 @@ const pkmnDisponiveis = [
 			"É sonolento durante o dia, voa à noite em grandes grupos. Ninguém sabe para onde vão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dirigível",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11344,6 +12306,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 5.5, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0427.png",
 		estatistica: {
 			ps: 55,
 			atq: 66,
@@ -11356,6 +12319,7 @@ const pkmnDisponiveis = [
 			"Bate em seus inimigos desenrolando bruscamente suas orelhas enroladas. Pica o suficiente para fazer um adulto chorar de dor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho",
 		obtencao: "Floresta de Eterna",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11370,6 +12334,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 33.3, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0428.png",
 		estatistica: {
 			ps: 65,
 			atq: 76,
@@ -11382,6 +12347,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon extremamente cauteloso. Cobre seu corpo com sua orelha fofa quando sente perigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11396,6 +12362,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 4.4, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0429.png",
 		estatistica: {
 			ps: 60,
 			atq: 60,
@@ -11408,6 +12375,7 @@ const pkmnDisponiveis = [
 			"Os sons que emite soam como encantações. Quem ouve são atormentados por dores de cabeça e alucinações.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mágico",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11422,6 +12390,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 27.3, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0430.png",
 		estatistica: {
 			ps: 100,
 			atq: 125,
@@ -11434,6 +12403,7 @@ const pkmnDisponiveis = [
 			"Caso algum soltar um grito profundo, vários subordinados reúnem-se rapidamente. Por isso, é chamado de 'Invocador da Noite'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chefão",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11448,6 +12418,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0431.png",
 		estatistica: {
 			ps: 49,
 			atq: 55,
@@ -11460,6 +12431,7 @@ const pkmnDisponiveis = [
 			"Arranha quando está insatisfeito e ronrona quando afetuoso. Sua inconstância é muito popular entre alguns.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vingativo",
 		obtencao: "Rotas 218, e 222",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11474,6 +12446,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 43.8, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0432.png",
 		estatistica: {
 			ps: 71,
 			atq: 82,
@@ -11485,7 +12458,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"É um bruto descarado que invade o ninho de outro Pokémon e o reivindica como seu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato-tigre",
-		obtencao: "Rotas 222, e 229",
+		obtencao: "Rotas 222, e 229; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11500,6 +12474,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.6, // em kg
 		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0433.png",
 		estatistica: {
 			ps: 45,
 			atq: 30,
@@ -11513,6 +12488,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Sino",
 		obtencao:
 			"Rota 211; Lago Valor; Monte Coronet; Lago da Perspicácia; Fonte da Despedida; e Caverna do Retorno",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11527,6 +12503,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 19.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0434.png",
 		estatistica: {
 			ps: 63,
 			atq: 63,
@@ -11539,6 +12516,7 @@ const pkmnDisponiveis = [
 			"Protege a si mesmo borrifando um fluido nocivo de sua parte traseira. O fedor permanece por 24 horas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gambá",
 		obtencao: "Rotas 206, 214, e 221",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11553,6 +12531,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 38.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0435.png",
 		estatistica: {
 			ps: 103,
 			atq: 93,
@@ -11564,7 +12543,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Borrifa um fluido de cheiro horrível da ponta da cauda para atacar. Seu alcance é de 50 metros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato-tigre",
-		obtencao: "Rotas 221, e 225",
+		obtencao: "Rotas 221, e 225; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11579,6 +12559,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 60.5, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0436.png",
 		estatistica: {
 			ps: 57,
 			atq: 24,
@@ -11592,6 +12573,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Bronze",
 		obtencao:
 			"Rotas 206, e 211; Caverna Extravio; Caverna do Retorno; e Monte Coronet",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11606,6 +12588,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 187.0, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c2/F0437.png",
 		estatistica: {
 			ps: 67,
 			atq: 89,
@@ -11617,7 +12600,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue invocar nuvens de chuva. Pessoas há muito tempo o reverenciavam como o portado de colheitas abundantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sino de Bronze",
-		obtencao: "Caverna do Retorno; e Monte Coronet",
+		obtencao: "Caverna do Retorno; Monte Coronet; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11632,6 +12616,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 15.0, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0438.png",
 		estatistica: {
 			ps: 50,
 			atq: 80,
@@ -11644,6 +12629,7 @@ const pkmnDisponiveis = [
 			"Aparenta sempre estar chorando. Na verdade, está ajustando os níveis de fluidos corporais eliminando o excesso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bonsai",
 		obtencao: "Rotas 209, e 210; e Jardim Troféu",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11658,6 +12644,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 13.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0439.png",
 		estatistica: {
 			ps: 20,
 			atq: 25,
@@ -11670,6 +12657,7 @@ const pkmnDisponiveis = [
 			"Habitualmente imita os inimigos. Uma vez imitado, o inimigo não consegue tirar os olhos deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mímico",
 		obtencao: "Rotas 209, e 210; e Jardim Troféu",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11684,6 +12672,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 24.4, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0440.png",
 		estatistica: {
 			ps: 100,
 			atq: 5,
@@ -11696,6 +12685,7 @@ const pkmnDisponiveis = [
 			"Gosta de carregar uma rocha pequena. Pode vagar pelos pés dos outros e fazê-los tropeçar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brincar de Casinha",
 		obtencao: "Jardim Troféu",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11710,6 +12700,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.9, // em kg
 		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/79/F0441.png",
 		estatistica: {
 			ps: 76,
 			atq: 65,
@@ -11722,6 +12713,7 @@ const pkmnDisponiveis = [
 			"Consegue aprender e falar palavras humanas. Quando se juntam, todos aprenderão o mesmo ditado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nota Musical",
 		obtencao: "Rotas 213, 218, 222, e outra",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11736,6 +12728,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Noturno"],
 		massa: 108.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0442.png",
 		estatistica: {
 			ps: 50,
 			atq: 92,
@@ -11748,6 +12741,7 @@ const pkmnDisponiveis = [
 			"Foi preso a uma fissura em uma pedra sagrada como punição por delitos cometidos há 500 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Proibido",
 		obtencao: "Torre Sagrada",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11762,6 +12756,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 20.5, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0443.png",
 		estatistica: {
 			ps: 58,
 			atq: 70,
@@ -11774,6 +12769,7 @@ const pkmnDisponiveis = [
 			"Nidifica em pequenos buracos horizontais nas paredes de cavernas. Ataca para capturar presas que se aproximam demais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tubarão Terrestre",
 		obtencao: "Caverna Extravio",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11788,6 +12784,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 56.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0444.png",
 		estatistica: {
 			ps: 68,
 			atq: 90,
@@ -11799,7 +12796,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Há uma crença antiga que remédios feitos com suas escamas curam até doenças incuráveis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gruta",
-		obtencao: "Estrada da Vitória",
+		obtencao: "Estrada da Vitória; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11814,6 +12812,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 95.0, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0445.png",
 		estatistica: {
 			ps: 108,
 			atq: 130,
@@ -11826,6 +12825,7 @@ const pkmnDisponiveis = [
 			"Quando curva seu corpo e estende suas asas, se assemelha a um jato. Voa em velocidade sônica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Supersônico",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11840,6 +12840,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 105.0, // em kg
 		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0446.png",
 		estatistica: {
 			ps: 135,
 			atq: 85,
@@ -11853,6 +12854,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Comilão",
 		obtencao:
 			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; e Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11867,6 +12869,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 20.2, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0447.png",
 		estatistica: {
 			ps: 40,
 			atq: 70,
@@ -11879,6 +12882,7 @@ const pkmnDisponiveis = [
 			"A aura que emana de seu corpo intensifica para alertar outros caso esteja assustado ou triste.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emanação",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11893,6 +12897,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Metal"],
 		massa: 54.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0448.png",
 		estatistica: {
 			ps: 70,
 			atq: 110,
@@ -11905,6 +12910,7 @@ const pkmnDisponiveis = [
 			"Possui a habilidade de sentir as auras de todas as coisas. Compreende a fala humana.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aura",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11919,6 +12925,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 49.5, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0449.png",
 		estatistica: {
 			ps: 68,
 			atq: 72,
@@ -11931,6 +12938,7 @@ const pkmnDisponiveis = [
 			"Vive em lugares áridos. Em vez de transpirar, expele areia granulada do corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hipopótamo",
 		obtencao: "Túnel do Maníaco",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11945,6 +12953,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 300.0, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0450.png",
 		estatistica: {
 			ps: 108,
 			atq: 112,
@@ -11956,7 +12965,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Expele areia que armazena internamente através de aberturas em seu corpo para criar um tornado gigante para ataque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peso Pesado",
-		obtencao: "Rota 228",
+		obtencao: "Rota 228; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11971,6 +12981,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Inseto"],
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0451.png",
 		estatistica: {
 			ps: 40,
 			atq: 50,
@@ -11983,6 +12994,7 @@ const pkmnDisponiveis = [
 			"Agarra a presa com suas garras da cauda e injeta veneno. Tenazmente se agarra até o veneno fazer efeito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião",
 		obtencao: "Grande Pântano",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11997,6 +13009,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 61.5, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0452.png",
 		estatistica: {
 			ps: 70,
 			atq: 90,
@@ -12008,7 +13021,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui força em suas garras para fazer sucata de um carro. As pontas de suas garras liberam veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião Ogro",
-		obtencao: "Grande Pântano",
+		obtencao: "Grande Pântano; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12023,6 +13037,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Lutador"],
 		massa: 23.0, // em kg
 		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0453.png",
 		estatistica: {
 			ps: 48,
 			atq: 61,
@@ -12035,6 +13050,7 @@ const pkmnDisponiveis = [
 			"Suas bochechas contêm sacos de veneno. Tenta pegar os inimigos desprevenidos para acertá-los com dedos tóxicos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boca Tóxica",
 		obtencao: "Rota 212; e Grande Pântano",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12049,6 +13065,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Lutador"],
 		massa: 44.4, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0454.png",
 		estatistica: {
 			ps: 83,
 			atq: 106,
@@ -12060,7 +13077,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas garras secretam uma toxina tão vil que até mesmo um arranhão pode ser fatal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boca Tóxica",
-		obtencao: "Grande Pântano",
+		obtencao: "Grande Pântano; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12075,6 +13093,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 27.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0455.png",
 		estatistica: {
 			ps: 74,
 			atq: 100,
@@ -12087,6 +13106,7 @@ const pkmnDisponiveis = [
 			"Atrai a presa com sua saliva de cheiro doce, então a mastiga. Demora um dia inteiro para comer a presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pegador de Insetos",
 		obtencao: "Grande Pântano",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12101,6 +13121,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0456.png",
 		estatistica: {
 			ps: 49,
 			atq: 49,
@@ -12114,6 +13135,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Peixe Alado",
 		obtencao:
 			"Rotas 205, 218, 219, e outras; Fuego de Ferro; Ilha Iron; e Usina do Vale",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12128,6 +13150,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 24.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0457.png",
 		estatistica: {
 			ps: 69,
 			atq: 69,
@@ -12140,7 +13163,8 @@ const pkmnDisponiveis = [
 			"Vive no fundo do mar profundo. Atrai presas exibindo os padrões em suas quatro nadadeiras caudais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Neon",
 		obtencao:
-			"Rotas 205, 218, 219, e outras; Fuego de Ferro; Ilha Iron; e Usina do Vale",
+			"Rotas 205, 218, 219, e outras; Fuego de Ferro; Ilha Iron; Usina do Vale; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12155,6 +13179,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 65.0, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/43/F0458.png",
 		estatistica: {
 			ps: 45,
 			atq: 20,
@@ -12167,6 +13192,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon amigável que captura fluxos sutis da água do mar usando suas duas antenas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pipa",
 		obtencao: "Rota 223",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12181,6 +13207,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Gelo"],
 		massa: 50.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0459.png",
 		estatistica: {
 			ps: 60,
 			atq: 62,
@@ -12194,6 +13221,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Árvore Congelante",
 		obtencao:
 			"Rotas 216, e 217; Arredores do Lago Perspicácia; Lago Perspicácia; e Monte Coronet",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12208,6 +13236,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Gelo"],
 		massa: 135.5, // em kg
 		altura: 2.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0460.png",
 		estatistica: {
 			ps: 90,
 			atq: 92,
@@ -12219,7 +13248,8 @@ const pkmnDisponiveis = [
 		descricao:
 			"Provoca nevascas em montanhas que estão sempre enterradas na neve. É o abominável homem das neves.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Árvore Congelante",
-		obtencao: "Monte Coronet",
+		obtencao: "Monte Coronet; e por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12234,6 +13264,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Gelo"],
 		massa: 34.0, // em kg
 		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0461.png",
 		estatistica: {
 			ps: 70,
 			atq: 120,
@@ -12246,6 +13277,7 @@ const pkmnDisponiveis = [
 			"Vivem em regiões frias, formando grupos de quatro ou cinco que caçam presas com coordenação impressionante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Garra Afiada",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12260,6 +13292,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Metal"],
 		massa: 180.0, // em kg
 		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0462.png",
 		estatistica: {
 			ps: 70,
 			atq: 70,
@@ -12272,6 +13305,7 @@ const pkmnDisponiveis = [
 			"Um grupo tentou usar meios científicos para fazê-lo evoluir, mas seus esforços fracassaram.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Área Magnética",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12286,6 +13320,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 140.0, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0463.png",
 		estatistica: {
 			ps: 110,
 			atq: 85,
@@ -12298,6 +13333,7 @@ const pkmnDisponiveis = [
 			"Envolve coisas com sua língua extensível. Chegar muito perto dele deixará você encharcado de baba.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lambedor",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12312,6 +13348,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Rocha"],
 		massa: 282.8, // em kg
 		altura: 2.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0464.png",
 		estatistica: {
 			ps: 115,
 			atq: 140,
@@ -12324,6 +13361,7 @@ const pkmnDisponiveis = [
 			"Consegue lançar uma rocha segurada na mão como um míssil, contraindo e expandido os músculos instantaneamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12338,6 +13376,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 128.6, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0465.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -12350,6 +13389,7 @@ const pkmnDisponiveis = [
 			"Seus braços são feitos de plantas que se prendem a coisas. Crescem de volta imediatamente se cortados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trepadeira",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12364,6 +13404,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 138.6, // em kg
 		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/ae/F0466.png",
 		estatistica: {
 			ps: 75,
 			atq: 123,
@@ -12376,6 +13417,7 @@ const pkmnDisponiveis = [
 			"Empurra a ponta de suas duas caudas contra o oponente, então libera mais de 20'000 volts de energia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Relâmpago",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12390,6 +13432,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 68.0, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0467.png",
 		estatistica: {
 			ps: 75,
 			atq: 95,
@@ -12402,6 +13445,7 @@ const pkmnDisponiveis = [
 			"Atira bolas de fogo de mais de 2'000° Celsius das pontas dos braços. Vive em crateras vulcânicas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Explosão",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12416,6 +13460,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c9/F0468.png",
 		estatistica: {
 			ps: 85,
 			atq: 50,
@@ -12428,6 +13473,7 @@ const pkmnDisponiveis = [
 			"Nunca aparece onde há conflito. Seus avistamentos se tornaram raros recentemente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jubileu",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12442,6 +13488,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 51.5, // em kg
 		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/9d/F0469.png",
 		estatistica: {
 			ps: 86,
 			atq: 76,
@@ -12454,6 +13501,7 @@ const pkmnDisponiveis = [
 			"Ao bater suas asas, cria ondas de choque que causam ferimentos internos críticos aos inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Libélula Ogro",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12468,6 +13516,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0470.png",
 		estatistica: {
 			ps: 65,
 			atq: 110,
@@ -12480,6 +13529,7 @@ const pkmnDisponiveis = [
 			"Assim como uma planta, realiza fotossíntese. Como resultado, está sempre envolta em ar limpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Verdejante",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12494,6 +13544,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 25.9, // em kg
 		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0471.png",
 		estatistica: {
 			ps: 65,
 			atq: 60,
@@ -12506,6 +13557,7 @@ const pkmnDisponiveis = [
 			"Como técnica protetiva, consegue congelar completamente seu pelo, fazendo com que seus pelos fiquem eriçados como agulhas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Neve Fresca",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12520,6 +13572,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Voador"],
 		massa: 42.5, // em kg
 		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0472.png",
 		estatistica: {
 			ps: 75,
 			atq: 95,
@@ -12532,6 +13585,7 @@ const pkmnDisponiveis = [
 			"Observa presa enquanto está de cabeça para baixo em galhos. Quando a chance se apresenta, ataca!.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião com Presas",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12546,6 +13600,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Terra"],
 		massa: 291.0, // em kg
 		altura: 2.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/04/F0473.png",
 		estatistica: {
 			ps: 110,
 			atq: 130,
@@ -12558,6 +13613,7 @@ const pkmnDisponiveis = [
 			"Suas presas impressionantes são feitas de gelo. A população diminuiu quando o clima esquentou após a era glacial.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Gêmea",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12572,6 +13628,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 34.0, // em kg
 		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0474.png",
 		estatistica: {
 			ps: 85,
 			atq: 80,
@@ -12584,6 +13641,7 @@ const pkmnDisponiveis = [
 			"Software adicional foi instalado para torna-lo um Pokémon melhor. No entanto, começou a agir de forma estranha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12598,6 +13656,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Lutador"],
 		massa: 52.0, // em kg
 		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0475.png",
 		estatistica: {
 			ps: 68,
 			atq: 125,
@@ -12610,6 +13669,7 @@ const pkmnDisponiveis = [
 			"Um mestre da cortesia e da esgrima, luta usando espadas extensíveis nos cotovelos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâmina",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12624,6 +13684,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Metal"],
 		massa: 340.0, // em kg
 		altura: 1.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0476.png",
 		estatistica: {
 			ps: 60,
 			atq: 55,
@@ -12636,6 +13697,7 @@ const pkmnDisponiveis = [
 			"Exala magnetismo forte de todo lugar. Controla três pequenas unidades chamadas 'Mini-Narizes'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bússola",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12650,6 +13712,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 106.6, // em kg
 		altura: 2.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0477.png",
 		estatistica: {
 			ps: 45,
 			atq: 100,
@@ -12662,6 +13725,7 @@ const pkmnDisponiveis = [
 			"A antena em sua cabeça captura ondas de rádio do mundo dos espíritos que lhe ordena levar pessoas até lá.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Agarrador",
 		obtencao: "Por evolução",
+		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12676,6 +13740,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Fantasma"],
 		massa: 26.6, // em kg
 		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0478.png",
 		estatistica: {
 			ps: 70,
 			atq: 80,
@@ -12688,6 +13753,7 @@ const pkmnDisponiveis = [
 			"Congela os inimigos com um sopro gelado de quase -50° Celsius. O que parece ser ser corpo é, na verdade, oco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Terra Gelada",
 		obtencao: "Por evolução",
+		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12702,6 +13768,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Fantasma"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps: 50,
 			atq: 50,
@@ -12714,6 +13781,7 @@ const pkmnDisponiveis = [
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
 		obtencao: "Mansão da Floresta",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -12728,6 +13796,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0480.png",
 		estatistica: {
 			ps: 75,
 			atq: 75,
@@ -12740,6 +13809,7 @@ const pkmnDisponiveis = [
 			"Rumores dizem que seu surgimento deu aos humanos a inteligência para melhorar sua qualidade de vida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Conhecimento",
 		obtencao: "Lago da Perspicácia",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12754,6 +13824,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0481.png",
 		estatistica: {
 			ps: 80,
 			atq: 105,
@@ -12766,6 +13837,7 @@ const pkmnDisponiveis = [
 			"Dorme no fundo de um lago. É dito que seu espírito deixa seu corpo para voar na superfície do lago.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emoção",
 		obtencao: "Vagando por Sinnoh",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12780,6 +13852,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0482.png",
 		estatistica: {
 			ps: 75,
 			atq: 125,
@@ -12792,6 +13865,7 @@ const pkmnDisponiveis = [
 			"Quando voou, as pessoas ganharam determinação para fazer as coisas. Foi o nascimento da força de vontade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Força de Vontade",
 		obtencao: "Lago Valor",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12806,6 +13880,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Dragão"],
 		massa: 683.0, // em kg
 		altura: 5.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0483.png",
 		estatistica: {
 			ps: 100,
 			atq: 120,
@@ -12818,6 +13893,7 @@ const pkmnDisponiveis = [
 			"Possui o poder de controlar o tempo. Aparece nos mitos da região de Sinnoh como uma deidade antiga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Temporal",
 		obtencao: "Pilar da Lança",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12832,6 +13908,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Dragão"],
 		massa: 336.0, // em kg
 		altura: 4.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0484.png",
 		estatistica: {
 			ps: 90,
 			atq: 120,
@@ -12844,6 +13921,7 @@ const pkmnDisponiveis = [
 			"Possui a habilidade de distorcer o espaço. É descrito como uma deidade na mitologia da região de Sinnoh.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espacial",
 		obtencao: "Pilar da Lança",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12858,6 +13936,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Metal"],
 		massa: 430.0, // em kg
 		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0485.png",
 		estatistica: {
 			ps: 91,
 			atq: 90,
@@ -12870,6 +13949,7 @@ const pkmnDisponiveis = [
 			"Habita cavernas vulcânicas. Cava com seus pés em forma de cruz para rastejar em tetos e paredes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casco de Lava",
 		obtencao: "Montanha Dura",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12884,6 +13964,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 420.0, // em kg
 		altura: 3.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0486.png",
 		estatistica: {
 			ps: 110,
 			atq: 160,
@@ -12896,6 +13977,7 @@ const pkmnDisponiveis = [
 			"Uma lenda antiga afirma que esse Pokémon rebocou continentes com cordas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Colossal",
 		obtencao: "Templo de Snowpoint",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12910,6 +13992,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Dragão"],
 		massa: 750.0, // em kg
 		altura: 4.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0487.png",
 		estatistica: {
 			ps: 150,
 			atq: 100,
@@ -12922,6 +14005,7 @@ const pkmnDisponiveis = [
 			"É dito que este Pokémon vive em um mundo reverso ao nosso. Aparece em um cemitério antigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Renegado",
 		obtencao: "Mundo Distorcido",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12936,6 +14020,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Dragão"],
 		massa: 650.0, // em kg
 		altura: 6.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0487O.png",
 		estatistica: {
 			ps: 150,
 			atq: 120,
@@ -12948,6 +14033,7 @@ const pkmnDisponiveis = [
 			"É dito que este Pokémon vive em um mundo reverso ao nosso. Aparece em um cemitério antigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Renegado",
 		obtencao: "Mundo Distorcido",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12962,6 +14048,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 85.6, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0488.png",
 		estatistica: {
 			ps: 120,
 			atq: 70,
@@ -12974,6 +14061,7 @@ const pkmnDisponiveis = [
 			"Partículas brilhantes são liberadas de suas asas como um véu. Dizem que representa a lua crescente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lua",
 		obtencao: "Vagando por Sinnoh",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -12988,6 +14076,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 3.1, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0489.png",
 		estatistica: {
 			ps: 80,
 			atq: 80,
@@ -13000,6 +14089,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon que vive em mares quentes. Infla o saco de flutuação em sua cabeça para flutuar e procurar comida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon À Deriva",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -13014,6 +14104,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 1.4, // em kg
 		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0490.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -13026,6 +14117,7 @@ const pkmnDisponiveis = [
 			"Nascido no frio chão marítimo, nadará grandes distâncias para retornar ao local de nascimento.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viagem Marítima",
 		obtencao: "Por ovo",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -13040,6 +14132,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 50.5, // em kg
 		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0491.png",
 		estatistica: {
 			ps: 70,
 			atq: 90,
@@ -13052,6 +14145,7 @@ const pkmnDisponiveis = [
 			"Consegue por pessoas a dormir e fazê-las sonhar. É ativo durante noites de lua cheia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuridão Total",
 		obtencao: "Ilha Lua Nova",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -13066,6 +14160,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 2.1, // em kg
 		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -13078,6 +14173,7 @@ const pkmnDisponiveis = [
 			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gratidão",
 		obtencao: "Paraíso das Flores",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -13092,6 +14188,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
 			ps: 100,
 			atq: 103,
@@ -13104,6 +14201,7 @@ const pkmnDisponiveis = [
 			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gratidão",
 		obtencao: "Paraíso das Flores",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -13118,6 +14216,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 320.0, // em kg
 		altura: 3.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0493.png",
 		estatistica: {
 			ps: 120,
 			atq: 120,
@@ -13130,6 +14229,7 @@ const pkmnDisponiveis = [
 			"É descrito na mitologia como o Pokémon que moldou o universo com seus 1'000 braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gratidão",
 		obtencao: "Salão da Origem",
+		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,
@@ -13144,6 +14244,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fogo"],
 		massa: 4.0, // em kg
 		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/c/c2/F0494.png",
 		estatistica: {
 			ps: 100,
 			atq: 100,
@@ -13156,6 +14257,7 @@ const pkmnDisponiveis = [
 			"Cria um suprimento ilimitado de energia dentro de seu corpo, o qual é compartilhado com àqueles que o tocam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vitória",
 		obtencao: "Jardim da Liberdade",
+		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: true,

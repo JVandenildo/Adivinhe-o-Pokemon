@@ -92,50 +92,64 @@ footer img {
 	filter: grayscale(99%);
 }
 
+button,
+input,
+td,
+th {
+	border: none !important;
+	outline: none !important;
+	border: none !important;
+	line-height: normal;
+}
 button {
-	line-height: 1.2rem;
+	line-height: 1.2rem !important;
 	height: 1.2rem;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-button,
-input {
-	border: none !important;
-	outline: none !important;
-	border: none !important;
-}
 
 #usuario {
 	width: 31.5rem;
 	height: 1.8rem;
 	margin: 1rem auto;
-	border: solid 1px var(--filling-color);
-	background-color: var(--filling-color);
-	border-radius: 20px;
+	border: solid 2px var(--filling-color);
+	background-color: var(--light-bg);
+	border-radius: calc(10px + 0.3rem);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 }
 #btnTentativa {
-	border-radius: 20px 0 0 20px;
+	border-radius: 10px 0 0 10px;
 	background-color: var(--light-bg);
 	color: var(--dark-font-color);
-	height: 1.5rem;
-	width: 11rem;
 	word-spacing: 5px;
 	letter-spacing: 1px;
+	height: 1.5rem !important;
+	width: 11rem;
 }
 #btnPalpite {
-	border-radius: 0 20px 20px 0;
+	border-radius: 0 10px 10px 0;
 	background-color: var(--light-bg);
 	color: var(--dark-font-color);
-	height: 1.5rem;
-	width: 10rem;
 	word-spacing: 5px;
 	letter-spacing: 1px;
+	height: 1.5rem !important;
+	width: 10rem;
+}
+#btnDesistencia {
+	border: solid 2px var(--dark-bg2) !important;
+	border-radius: calc(10px + 0.3rem);
+	background-color: var(--filling-color);
+	color: var(--light-font-color);
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	height: 1.5rem !important;
+	width: fit-content;
+	margin: 1rem auto 0rem;
 }
 
 .nomesGeral {
@@ -150,7 +164,9 @@ input {
 	border-radius: inherit;
 }
 #campoPalpite {
-	height: inherit;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	height: 1.5rem !important;
 	width: inherit;
 	background-color: var(--light-bg);
 }
@@ -163,7 +179,6 @@ input {
 	max-height: 10rem;
 	overflow-y: scroll;
 	width: inherit;
-	padding: 0.6vh;
 	border-radius: 0px 0px 20px 20px;
 	background-color: var(--light-bg);
 	color: var(--dark-font-color);
@@ -171,7 +186,7 @@ input {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 15.7rem;
+	top: 18.3rem;
 }
 
 .nomePalpite {
@@ -181,6 +196,7 @@ input {
 	display: flex;
 	justify-content: left;
 	align-items: center;
+	margin: 0.5rem;
 }
 .nomePalpite:hover {
 	background-color: var(--light-bg);
@@ -208,10 +224,8 @@ input {
 	align-content: center;
 	justify-items: start;
 	justify-content: start;
-	text-align: center;
 }
 #dicas {
-	text-align: left !important;
 	margin: auto;
 	margin-top: 0px !important;
 	width: 20rem;
@@ -219,15 +233,27 @@ input {
 #dicas img {
 	max-height: 100px;
 	max-width: 100px;
-	filter: contrast(1%) opacity(99%);
+	filter: contrast(1%) blur(5px);
 }
-td {
-	max-width: 15rem !important;
-	hyphens: auto !important;
+
+table {
+	border-radius: calc(10px);
+	border-spacing: 5px;
 }
-td,
-th {
-	padding: 0rem 0.5rem;
+#estatistica th {
+	text-align: left;
+}
+
+.pegada {
+	text-align: center;
+	min-width: 20px;
+	min-height: 20px;
+	border-radius: 2%;
+}
+.pegada img {
+	/* border: dashed 2px var(--dark-bg); */
+	border-radius: inherit;
+	filter: contrast(1%) brightness(1%) invert(99%) !important;
 }
 
 #ultimosPalpites {
@@ -235,7 +261,7 @@ th {
 	font-size: smaller !important;
 	background-color: var(--light-bg);
 	border: solid 2px var(--filling-color);
-	border-radius: 10px;
+	border-radius: calc(10px + 0.3rem);
 	width: 9rem;
 	height: fit-content;
 }
@@ -243,7 +269,11 @@ th {
 	margin: 0.5rem;
 	text-align: left !important;
 }
+
+#ultimato {
+	text-align: center;
+}
 #ultimato img {
-	max-height: 150px;
-	max-width: 150px;
+	max-height: 160px;
+	max-width: 160px;
 }

@@ -4,6 +4,7 @@ const dicas = document.getElementById("dicas");
 const ultimato = document.getElementById("ultimato");
 const btnTentativa = document.getElementById("btnTentativa");
 const btnPalpite = document.getElementById("btnPalpite");
+const btnDesistencia = document.querySelector("#btnDesistencia");
 const nomesGeral = document.querySelector(".nomesGeral");
 const opcoesNomes = document.querySelector(".opcoesNomes");
 const checkPrimeira = document.querySelector("#checkPrimeira");
@@ -17,6 +18,7 @@ let escolhido = {
 	tipo: ["Normal"],
 	massa: 1590.8, // em kg
 	altura: 3.3, // em metros
+	pegada: "",
 	estatistica: {
 		ps: 178,
 		atq: 136,
@@ -28,6 +30,7 @@ let escolhido = {
 	descricao: "   ", // considerando a dex da primeira geração que apareceu
 	categoria: "Pokémon ???",
 	obtencao: "Glitch",
+	estagio: 1,
 	geracao: 1, // considerando em qual geração foi introduzido
 	variante: false,
 	lendario: true,
@@ -38,6 +41,23 @@ let escolhido = {
 	link: "https://bulbapedia.bulbagarden.net/wiki/MissingNo.",
 };
 let palpites = 0;
+
+function desistencia() {
+	campoPalpite.value = "";
+
+	ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites! Era ${
+		escolhido[0].nome
+	}!<br><a href="${escolhido[0].link}" target="_blank">Mais informações sobre ${
+		escolhido[0].nome
+	}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+		escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+	}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+	btnPalpite.removeEventListener("click", palpitar);
+	btnDesistencia.removeEventListener("click", desistencia);
+
+	return false;
+}
 
 /**
  * Gera um novo PKMN para começar um novo jogo.
@@ -55,6 +75,7 @@ function novaTentativa() {
 	} else {
 		resetar();
 		btnPalpite.addEventListener("click", palpitar);
+		btnDesistencia.addEventListener("click", desistencia);
 
 		const data = new Date();
 		const ticket = Math.floor(
@@ -74,10 +95,12 @@ function novaTentativa() {
 			"beforeend",
 			`<table>
 				<tr>
-				<th>Massa</th>
-				<td>${escolhido[0].massa} kg</td>
-				<th>Altura</th>
-				<td>${escolhido[0].altura} m</td>
+					<th scope="col">Massa</th>
+					<th scope="col">Altura</th>
+				</tr>
+				<tr>
+					<td>${escolhido[0].massa} kg</td>
+					<td>${escolhido[0].altura} m</td>
 				</tr>
 			</table>`
 		);
@@ -119,63 +142,63 @@ function palpitar() {
 
 	const listaDiscas = [
 		// primeira dica //
-		`<table><tr>
-			<th>Tipo(s)</th>
-			<td>${escolhido[0].tipo}</td>
-		</tr></table>`,
-		// segunda dica //
-		`<table><tr>
-			<th>Obtenção</th>
-			<td>${escolhido[0].obtencao}</td>
-		</tr></table>`,
-		// terceira diga //
 		`<table>
-		<tr>
-			<th>HP</th>
-			<td>${escolhido[0].estatistica.ps}</td>
-		</tr>
-		<tr>
-			<th>Ataque</th>
-			<td>${escolhido[0].estatistica.atq}</td>
-		</tr>
-		<tr>
-			<th>Defesa</th>
-			<td>${escolhido[0].estatistica.def}</td>
-		</tr>
-		<tr>
-			<th>Ataque Especial</th>
-			<td>${escolhido[0].estatistica.atq_esp}</td>
-		</tr>
-		<tr>
-			<th>Defesa Especial</th>
-			<td>${escolhido[0].estatistica.def_esp}</td>
-		</tr>
-		<tr>
-			<th>Velocidade</th>
-			<td>${escolhido[0].estatistica.vel}</td>
+			<tr><th scope="col">Pegada</th></tr>
+			<tr><td class="pegada"><img loading="eager" src="${escolhido[0].pegada}" alt="Dica pegada" /></td></tr>
 		</table>`,
-		// quarta dica //
-		`<table><tr>
-			<th>Descrição</th>
-			<td>${escolhido[0].descricao}</td>
-		</tr></table>`,
+		// segunda dica //
+		`<table>
+			<tr><th scope="col">Tipo(s)</th></tr>
+			<tr><td>${escolhido[0].tipo}</td></tr>
+		</table>`,
+		// terceira dica //
+		`<table>
+			<tr><th scope="col">Obtenção</th></tr>
+			<tr><td>${escolhido[0].obtencao}</td></tr>
+		</table>`,
+		// quarta diga //
+		`<table id="estatistica">
+				<tr><th scope="col" colspan="2" style="text-align:center !important">Estatísticas</th></tr>
+				<tr><th scope="row">PS</th>
+				<td>${escolhido[0].estatistica.ps}</td></tr>
+				
+				<tr><th scope="row">Ataque</th>
+				<td>${escolhido[0].estatistica.atq}</td></tr>
+				
+				<tr><th scope="row">Defesa</th>
+				<td>${escolhido[0].estatistica.def}</td></tr>
+			
+				<tr><th scope="row">Ataque Especial</th>
+				<td>${escolhido[0].estatistica.atq_esp}</td></tr>
+			
+				<tr><th scope="row">Defesa Especial</th>
+				<td>${escolhido[0].estatistica.def_esp}</td></tr>
+			
+				<tr><th scope="row">Velocidade</th>
+				<td>${escolhido[0].estatistica.vel}</td></tr>
+		</table>`,
 		// quinta dica //
-		`<table><tr>
-			<th>Categoria</th>
-			<td>${escolhido[0].categoria}</td>
-		</tr></table>`,
+		`<table id="descricao">
+			<tr><th scope="col">Descrição</th></tr>
+			<tr><td>${escolhido[0].descricao}</td></tr>
+		</table>`,
 		// sexta dica //
-		`<table><tr>
-			<th>Número</th>
-			<td>${Math.floor(escolhido[0].numero)}</td>
-		</tr></table>`,
-		// sétima e última dica //
-		`<table><tr>
-			<th>Silhueta</th>
-			<td><img src="${
+		`<table>
+			<tr><th scope="col">Categoria</th></tr>
+			<tr><td>${escolhido[0].categoria}</td></tr>
+		</table>`,
+		// sétima dica //
+		`<table>
+			<tr><th scope="col">Número</th></tr>
+			<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
+		</table>`,
+		// oitava e última dica //
+		`<table>
+			<tr><th scope="col">Silhueta</th></tr>
+			<tr><td><img loading="eager" src="${
 				escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
-			}" alt="Dica silhueta" /></td>
-		</tr></table>`,
+			}" alt="Dica silhueta" /></td></tr>
+		</table>`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -189,6 +212,7 @@ function palpitar() {
 			// caso acerte o nome do Pokémon //
 			palpites = palpites + 1;
 			btnPalpite.removeEventListener("click", palpitar);
+			btnDesistencia.removeEventListener("click", desistencia);
 			campoPalpite.value = "";
 
 			if (palpites === 1) {
@@ -218,6 +242,7 @@ function palpitar() {
 			if (palpites >= listaDiscas.length) {
 				// caso as dicas esgotem //
 				btnPalpite.removeEventListener("click", palpitar);
+				btnDesistencia.removeEventListener("click", desistencia);
 				campoPalpite.value = "";
 				ultimato.innerHTML = `<p>Você errou! Era ${
 					escolhido[0].nome
