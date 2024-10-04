@@ -15463,7 +15463,7 @@ const pkmnDisponiveis = [
 			vel: 83,
 		},
 		descricao:
-			"Evitam ataques afundando-se nas sombras de folhagem espessa. Retaiam com técnicas magistrais de chicotadas.", // considerando a dex da primeira geração que apareceu
+			"Evitam ataques afundando-se nas sombras de folhagem espessa. Retaliam com técnicas magistrais de chicotadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Grama",
 		obtencao: "Por evolução",
 		estagio: 2,
@@ -15603,7 +15603,7 @@ const pkmnDisponiveis = [
 			vel: 45,
 		},
 		descricao:
-			"Luta usando a concha em seu estomago. Em resposta a um ataque, relalia imediatamente cortando.", // considerando a dex da primeira geração que apareceu
+			"Luta usando a concha em seu estomago. Em resposta a um ataque, retalia imediatamente cortando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lontra Marinha",
 		obtencao: "Laboratório da Professora Juniper",
 		estagio: 1,
@@ -15744,7 +15744,7 @@ const pkmnDisponiveis = [
 			vel: 77,
 		},
 		descricao:
-			"Quando avistam um inimigo, suas caudas ficam de erguidas, e cospem as sementes das frutas armazenadas nas bolsas de suas bochecas.", // considerando a dex da primeira geração que apareceu
+			"Quando avistam um inimigo, suas caudas ficam de erguidas, e cospem as sementes das frutas armazenadas nas bolsas de suas bochechas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vigia",
 		obtencao:
 			"Rotas 1, 2, 3, e outras; Jardim dos Sonhos; Laboratório P2; e por evolução",
@@ -16343,7 +16343,7 @@ const pkmnDisponiveis = [
 			vel: 25,
 		},
 		descricao:
-			"A energia solar absovida pelos cristais alaranjados de seu corpo é aumentada internamente e disparada por sua boca.", // considerando a dex da primeira geração que apareceu
+			"A energia solar absorvida pelos cristais alaranjados de seu corpo é aumentada internamente e disparada por sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Comprimido",
 		obtencao: "Por evolução",
 		estagio: 3,
@@ -16457,7 +16457,7 @@ const pkmnDisponiveis = [
 			vel: 88,
 		},
 		descricao:
-			"Pode ajudar em contrução de túneis. Sua broca evoluiu para aço forte o suficiente para perfurar placas de ferro.", // considerando a dex da primeira geração que apareceu
+			"Pode ajudar em construção de túneis. Sua broca evoluiu para aço forte o suficiente para perfurar placas de ferro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Subterrâneo",
 		obtencao:
 			"Challenger's Cave; Clay Tunnel; Montanha Trançada; Estrada da Vitória; Reversal Mountain; Wellspring Cave; Seaside Cave; Giant Chasm; Underground Ruins; e por evolução",
@@ -16543,7 +16543,7 @@ const pkmnDisponiveis = [
 			vel: 40,
 		},
 		descricao:
-			"Fortacele seus corpos carregando vigas de aço. Exibem seus grandes músculos para os amigos.", // considerando a dex da primeira geração que apareceu
+			"Fortalecem seus corpos carregando vigas de aço. Exibem seus grandes músculos para os amigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Muscular",
 		obtencao:
 			"Relic Passage; Montanha Trançada; Floresta Pinwheel; Estrada da Vitória; e por evolução",
@@ -16656,7 +16656,7 @@ const pkmnDisponiveis = [
 			vel: 74,
 		},
 		descricao:
-			"Atiram líquido paralizante das saliências de suas cabeças. Usam para machucar seus oponentes.", // considerando a dex da primeira geração que apareceu
+			"Atiram líquido paralisante das saliências de suas cabeças. Usam para machucar seus oponentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vibração",
 		obtencao: "Rota 8; Moor of Icirrus; Floresta de Pinwheel; e por evolução",
 		estagio: 3,
@@ -16770,7 +16770,7 @@ const pkmnDisponiveis = [
 			vel: 42,
 		},
 		descricao:
-			"Protege a si mesmo do frio se enrolando em folhs. Fica em movimento, comendo folhas em florestas.", // considerando a dex da primeira geração que apareceu
+			"Protege a si mesmo do frio se enrolando em folhas. Fica em movimento, comendo folhas em florestas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Embrulho de Folhas",
 		obtencao: "Rota 6; Lostlorn Forest; Floresta Pinwheel; e por evolução",
 		estagio: 2,
@@ -16826,7 +16826,7 @@ const pkmnDisponiveis = [
 			vel: 57,
 		},
 		descricao:
-			"Sua mordida injeta um veneno potente, suficiente para paralizar grandes pássaros que tentem fazê-lo de presa.", // considerando a dex da primeira geração que apareceu
+			"Sua mordida injeta um veneno potente, suficiente para paralisar grandes pássaros que tentem fazê-lo de presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Centípede",
 		obtencao: "Rota 20; Floresta de Pinwheel; e Lostlorn Forest",
 		estagio: 1,
@@ -17309,7 +17309,7 @@ const pkmnDisponiveis = [
 			vel: 135,
 		},
 		descricao:
-			"Raiva reacendeu seu saco de fogo atrofiado. Este Pokémon cospe fogo em todos os lugares equanto ataca indiscriminadamente.", // considerando a dex da primeira geração que apareceu
+			"Raiva reacendeu seu saco de fogo atrofiado. Este Pokémon cospe fogo em todos os lugares enquanto ataca indiscriminadamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flamejante",
 		obtencao: "Snowslide Slope; e por evolução",
 		estagio: 2,
