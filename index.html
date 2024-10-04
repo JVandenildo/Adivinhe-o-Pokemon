@@ -48,6 +48,48 @@
 						name="geracao"
 					/><label for="quartaGeracao">Quarta Geração</label>
 				</div>
+				<div>
+					<input
+						type="checkbox"
+						id="checkQuinta"
+						class="checkbox"
+						value="quintaGeracao"
+						name="geracao"
+					/><label for="quintaGeracao">Quinta Geração</label>
+				</div>
+				<!-- <input
+						type="checkbox"
+						id="checkQuinta"
+						class="checkbox"
+						value="sextaGeracao"
+						name="geracao"
+					/><label for="sextaGeracao">Sexta Geração</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						id="checkQuinta"
+						class="checkbox"
+						value="setimaGeracao"
+						name="geracao"
+					/><label for="setimaGeracao">Sétima Geração</label>
+					<input
+						type="checkbox"
+						id="checkQuinta"
+						class="checkbox"
+						value="oitavaGeracao"
+						name="geracao"
+					/><label for="oitavaGeracao">Oitava Geração</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						id="checkQuinta"
+						class="checkbox"
+						value="nonaGeracao"
+						name="geracao"
+					/><label for="nonaGeracao">Nona Geração</label>
+				</div> -->
 				<article style="font-size: small">
 					Cada geração segue alguns dados dos jogos em que foi lançada; por
 					exemplo: a terceira geração segue alguns dados dos jogos Ruby,
@@ -59,21 +101,24 @@
 				<button id="btnTentativa" onclick="novaTentativa()">
 					NOVA TENTATIVA
 				</button>
-				<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
-				<div class="nomesGeral">
-					<div class="opcoesNomes"></div>
-					<input
-						type="text"
-						translate="no"
-						placeholder="Digite o palpite aqui"
-						id="campoPalpite"
-						translate="no"
-						spellcheck="false"
-						oninput="procurarNomes()"
-					/>
-				</div>
-				<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
-				<button id="btnPalpite">PALPITAR</button>
+				<form>
+					<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
+					<div class="nomesGeral">
+						<div class="opcoesNomes"></div>
+						<input
+							type="text"
+							translate="no"
+							placeholder="Digite palpite aqui"
+							id="campoPalpite"
+							translate="no"
+							spellcheck="false"
+							oninput="procurarNomes()"
+							required
+						/>
+					</div>
+					<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
+					<input type="submit" id="btnPalpite" value="PALPITAR" />
+				</form>
 			</section>
 			<section id="maquina">
 				<section id="campoDicas">

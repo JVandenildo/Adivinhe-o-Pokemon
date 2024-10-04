@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
 :root {
 	--dark-bg: #121314;
 	--dark-bg2: #323334;
@@ -66,7 +68,7 @@ main {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	min-height: 79vh;
+	min-height: 80vh;
 	width: fit-content;
 }
 
@@ -122,8 +124,8 @@ button {
 }
 
 #usuario {
-	width: 31.5rem;
-	height: 1.8rem;
+	width: 36.5rem;
+	height: 1.8rem !important;
 	margin: 1rem auto;
 	border: solid 2px var(--filling-color);
 	background-color: var(--light-bg);
@@ -141,6 +143,10 @@ button {
 	color: var(--light-font-color);
 	margin: 0rem auto;
 	padding: 1rem !important;
+	cursor: not-allowed;
+}
+#btnDesistencia:active {
+	border: solid 2px var(--filling-color) !important;
 }
 #btnTentativa {
 	border-radius: 10px 0 0 10px;
@@ -149,19 +155,32 @@ button {
 #btnPalpite {
 	border-radius: 0 10px 10px 0;
 	width: 10rem;
+	cursor: not-allowed;
+	background-color: var(--light-bg);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	color: var(--dark-font-color);
+	font-weight: bolder;
+	line-height: 1.5rem !important;
+	height: 1.5rem;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .nomesGeral {
+	font-family: "Chakra Petch", monospace;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 10rem;
-	height: 1.3rem;
+	width: 15rem;
+	height: 1.3rem !important;
 }
 #campoPalpite {
-	word-spacing: 5px;
-	letter-spacing: 1px;
-	height: 1.5rem !important;
+	font-family: inherit;
+	height: 1rem !important;
 	width: inherit;
 	background-color: var(--light-bg);
 }
@@ -170,7 +189,7 @@ button {
 	display: none;
 	position: absolute;
 	z-index: 1;
-	max-height: 10rem;
+	max-height: 15rem;
 	overflow-y: scroll;
 	width: inherit;
 	border-radius: 0px 0px calc(10px + 0.3rem) calc(10px + 0.3rem);
@@ -180,22 +199,23 @@ button {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 19rem;
+	top: 20.2rem;
 }
 
 .nomePalpite {
 	padding: auto 1rem !important;
 	cursor: pointer;
-	font-weight: 295;
+	font-weight: 400;
 	text-align: left;
 	vertical-align: middle;
 	padding: 0.1rem 0.5rem;
 }
 .nomePalpite:hover {
 	background-color: var(--light-bg2);
-	font-weight: 590;
+	font-weight: bolder;
 }
 
+form,
 #campoDicas {
 	display: flex;
 }
@@ -238,6 +258,7 @@ table {
 
 #ultimosPalpites {
 	color: var(--dark-font-color);
+	font-family: "Chakra Petch", monospace;
 	font-size: smaller !important;
 	background-color: var(--light-bg);
 	border: solid 2px var(--filling-color);
@@ -253,6 +274,8 @@ table {
 	text-align: center;
 }
 #ultimato img {
-	max-height: 160px;
-	max-width: 160px;
+	/* não altere o tamanho das imagens
+	algumas chegam a exatamente 150px */
+	max-height: 150px;
+	max-width: 150px;
 }

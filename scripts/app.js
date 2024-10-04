@@ -11,6 +11,11 @@ const checkPrimeira = document.querySelector("#checkPrimeira");
 const checkSegunda = document.querySelector("#checkSegunda");
 const checkTerceira = document.querySelector("#checkTerceira");
 const checkQuarta = document.querySelector("#checkQuarta");
+const checkQuinta = document.querySelector("#checkQuinta");
+// const checkSexta = document.querySelector("#checkSexta");
+// const checkSetima = document.querySelector("#checkSetima");
+// const checkOitava = document.querySelector("#checkOitava");
+// const checkNona = document.querySelector("#checkNona");
 
 let escolhido = {
 	nome: "MissingNo.",
@@ -18,7 +23,7 @@ let escolhido = {
 	tipo: ["Normal"],
 	massa: 1590.8, // em kg
 	altura: 3.3, // em metros
-	pegada: "",
+	pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 	estatistica: {
 		ps: 178,
 		atq: 136,
@@ -27,7 +32,7 @@ let escolhido = {
 		def_esp: 23,
 		vel: 29,
 	},
-	descricao: "   ", // considerando a dex da primeira geração que apareceu
+	descricao: "???", // considerando a dex da primeira geração que apareceu
 	categoria: "Pokémon ???",
 	obtencao: "Glitch",
 	estagio: 1,
@@ -38,32 +43,41 @@ let escolhido = {
 		"https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
 		"https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png",
 	],
-	link: "https://bulbapedia.bulbagarden.net/wiki/MissingNo.",
+	link: "https://bulbapedia.bulbagarden.net/wiki/MissingNo",
 };
 let palpites = 0;
 
-function desistencia() {
+function desistir() {
 	campoPalpite.value = "";
+	opcoesNomes.classList.remove("opcoesNomesShow");
+	nomesGeral.classList.remove("nomesGeralShow");
 	btnPalpite.removeEventListener("click", palpitar);
-	btnDesistencia.removeEventListener("click", desistencia);
+	btnDesistencia.removeEventListener("click", desistir);
+	btnDesistencia.style.cursor = "not-allowed";
+	btnPalpite.removeEventListener("click", palpitar);
+	btnPalpite.style.cursor = "not-allowed";
 
 	if (palpites === 1) {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite!<br><a href="${
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era ${
+			escolhido[0].nome
+		}!<br><a href="${
 			escolhido[0].link
 		}" target="_blank">Mais informações sobre ${
 			escolhido[0].nome
 		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
-			escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 		}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 		return false;
 	} else {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites!<br><a href="${
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites! Era ${
+			escolhido[0].nome
+		}!<br><a href="${
 			escolhido[0].link
 		}" target="_blank">Mais informações sobre ${
 			escolhido[0].nome
 		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
-			escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 		}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 		return false;
@@ -80,13 +94,20 @@ function novaTentativa() {
 		!checkPrimeira.checked &&
 		!checkSegunda.checked &&
 		!checkTerceira.checked &&
-		!checkQuarta.checked
+		!checkQuarta.checked &&
+		!checkQuinta.checked
+		// && checkSexta.checked
+		// && checkSetima.checked
+		// && checkOitava.checked
+		// && checkNona.checked
 	) {
 		return alert("Escolha alguma geração antes!");
 	} else {
 		resetar();
 		btnPalpite.addEventListener("click", palpitar);
-		btnDesistencia.addEventListener("click", desistencia);
+		btnPalpite.style.cursor = "pointer";
+		btnDesistencia.addEventListener("click", desistir);
+		btnDesistencia.style.cursor = "pointer";
 
 		const data = new Date();
 		const ticket = Math.floor(
@@ -94,10 +115,11 @@ function novaTentativa() {
 				(checkPrimeira.checked * primeiraGeracao.length +
 					checkSegunda.checked * segundaGeracao.length +
 					checkTerceira.checked * terceiraGeracao.length +
-					checkQuarta.checked * quartaGeracao.length)
+					checkQuarta.checked * quartaGeracao.length +
+					checkQuinta.checked * quintaGeracao.length)
 		);
 		escolhido = pkmnDisponiveis.filter(
-			(x) => x.numero == selecaoGeracao(ticket)
+			(x) => x.numero === selecaoGeracao(ticket)
 		);
 
 		// console.info(`Ticket: ${ticket}\n${escolhido[0].nome}`);
@@ -121,7 +143,7 @@ function novaTentativa() {
 }
 
 /**
- * @param {number} numero Número qualquer.
+ * @param {number} numero Número aleatório.
  * @returns {number} Número da PokéDex que representa o número aleatório dentro das gerações selecionadas.
  */
 function selecaoGeracao(numero) {
@@ -139,6 +161,21 @@ function selecaoGeracao(numero) {
 	if (checkQuarta.checked) {
 		numerosQuarta.forEach((x) => numerosDisponiveis.push(x));
 	}
+	if (checkQuinta.checked) {
+		numerosQuinta.forEach((x) => numerosDisponiveis.push(x));
+	}
+	// if (checkSexta.checked) {
+	// 	numerosSexta.forEach((x) => numerosDisponiveis.push(x));
+	// }
+	// if (checkSetima.checked) {
+	// 	numerosSetima.forEach((x) => numerosDisponiveis.push(x));
+	// }
+	// if (checkOitava.checked) {
+	// 	numerosOitava.forEach((x) => numerosDisponiveis.push(x));
+	// }
+	// if (checkNona.checked) {
+	// 	numerosNona.forEach((x) => numerosDisponiveis.push(x));
+	// }
 
 	return numerosDisponiveis[numero];
 }
@@ -155,7 +192,7 @@ function palpitar() {
 	const listaDiscas = [
 		/* primeira dica */
 		`<tr><th scope="col">Pegada</th></tr>
-		<tr><td class="pegada"><img loading="eager" src="${escolhido[0].pegada}" alt="Dica pegada" /></td></tr>`,
+		<tr><td class="pegada"><img src="${escolhido[0].pegada}" alt="Dica pegada" /></td></tr>`,
 		/* segunda dica */
 		`<tr><th scope="col">Tipo(s)</th></tr>
 		<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>`,
@@ -193,24 +230,28 @@ function palpitar() {
 		<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>`,
 		/* oitava e última dica */
 		`<tr><th scope="col">Silhueta</th></tr>
-		<tr><td><img loading="eager" src="${
-			escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+		<tr><td><img src="${
+			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 		}" alt="Dica silhueta" /></td></tr>`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
 		case "":
-			// caso não tenha palpite
+			/* caso não tenha palpite */
+
 			alert("Calma lá! Tente algum nome!");
 
 			return false;
 
 		case escolhido[0].nome.toLowerCase():
 			/* caso acerte o nome do Pokémon */
+
 			palpites = palpites + 1;
-			btnPalpite.removeEventListener("click", palpitar);
-			btnDesistencia.removeEventListener("click", desistencia);
 			campoPalpite.value = "";
+			btnDesistencia.removeEventListener("click", desistir);
+			btnDesistencia.style.cursor = "not-allowed";
+			btnPalpite.removeEventListener("click", palpitar);
+			btnPalpite.style.cursor = "not-allowed";
 
 			if (palpites === 1) {
 				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${
@@ -218,7 +259,7 @@ function palpitar() {
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
 				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
-					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return true;
@@ -228,7 +269,7 @@ function palpitar() {
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
 				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
-					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return true;
@@ -239,9 +280,12 @@ function palpitar() {
 			if (palpites >= listaDiscas.length) {
 				/* caso as dicas esgotem */
 
-				btnPalpite.removeEventListener("click", palpitar);
-				btnDesistencia.removeEventListener("click", desistencia);
 				campoPalpite.value = "";
+				btnDesistencia.removeEventListener("click", desistir);
+				btnDesistencia.style.cursor = "not-allowed";
+				btnPalpite.removeEventListener("click", palpitar);
+				btnPalpite.style.cursor = "not-allowed";
+
 				ultimato.innerHTML = `<p>Você errou! Era ${
 					escolhido[0].nome
 				}!<br><a href="${
@@ -249,7 +293,7 @@ function palpitar() {
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
 				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
-					escolhido[0].sprite[numeroAleatorio(escolhido[0].sprite)]
+					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 				return false;
@@ -337,7 +381,7 @@ function resetar() {
  * @param {[]} array
  * @returns {number} Retorna um índice aleatório do parâmetro.
  */
-function numeroAleatorio(array) {
+function indiceAleatorio(array) {
 	const data = new Date();
 
 	return Math.floor(Math.random(data) * array.length);
