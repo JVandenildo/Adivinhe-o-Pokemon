@@ -23,7 +23,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/375px-0001Bulbasaur.png",
+			"https://archives.bulbagarden.net/media/upload/f/fb/001Bulbasaur_Dream_5.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)",
 	},
@@ -51,7 +51,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/81/0002Ivysaur.png/375px-0002Ivysaur.png",
+			"https://archives.bulbagarden.net/media/upload/3/36/002Ivysaur_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ivysaur_(Pok%C3%A9mon)",
 	},
@@ -79,7 +79,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6b/0003Venusaur.png/375px-0003Venusaur.png",
+			"https://archives.bulbagarden.net/media/upload/b/b2/003Venusaur_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pok%C3%A9mon)",
 	},
@@ -107,7 +107,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/375px-0004Charmander.png",
+			"https://archives.bulbagarden.net/media/upload/b/b9/004Charmander_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)",
 	},
@@ -135,7 +135,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/05/0005Charmeleon.png/375px-0005Charmeleon.png",
+			"https://archives.bulbagarden.net/media/upload/d/df/005Charmeleon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon)",
 	},
@@ -163,7 +163,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0006Charizard.png/375px-0006Charizard.png",
+			"https://archives.bulbagarden.net/media/upload/6/65/006Charizard_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)",
 	},
@@ -191,7 +191,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/54/0007Squirtle.png/375px-0007Squirtle.png",
+			"https://archives.bulbagarden.net/media/upload/9/9a/007Squirtle_Dream_7.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)",
 	},
@@ -219,7 +219,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0f/0008Wartortle.png/375px-0008Wartortle.png",
+			"https://archives.bulbagarden.net/media/upload/2/21/008Wartortle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon)",
 	},
@@ -247,7 +247,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0a/0009Blastoise.png/375px-0009Blastoise.png",
+			"https://archives.bulbagarden.net/media/upload/2/2e/009Blastoise_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)",
 	},
@@ -275,7 +275,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5e/0010Caterpie.png/375px-0010Caterpie.png",
+			"https://archives.bulbagarden.net/media/upload/8/89/010Caterpie_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)",
 	},
@@ -303,7 +303,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/da/0011Metapod.png/375px-0011Metapod.png",
+			"https://archives.bulbagarden.net/media/upload/8/8c/011Metapod_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon)",
 	},
@@ -331,7 +331,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0012Butterfree.png/375px-0012Butterfree.png",
+			"https://archives.bulbagarden.net/media/upload/6/6f/012Butterfree_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Butterfree_(Pok%C3%A9mon)",
 	},
@@ -359,7 +359,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/36/0013Weedle.png/375px-0013Weedle.png",
+			"https://archives.bulbagarden.net/media/upload/6/64/013Weedle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon)",
 	},
@@ -387,7 +387,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f3/0014Kakuna.png/375px-0014Kakuna.png",
+			"https://archives.bulbagarden.net/media/upload/0/07/014Kakuna_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon)",
 	},
@@ -415,7 +415,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0015Beedrill.png/375px-0015Beedrill.png",
+			"https://archives.bulbagarden.net/media/upload/a/ae/015Beedrill_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon)",
 	},
@@ -443,7 +443,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0c/0016Pidgey.png/375px-0016Pidgey.png",
+			"https://archives.bulbagarden.net/media/upload/0/05/016Pidgey_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)",
 	},
@@ -471,7 +471,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0017Pidgeotto.png/375px-0017Pidgeotto.png",
+			"https://archives.bulbagarden.net/media/upload/3/3c/017Pidgeotto_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)",
 	},
@@ -499,7 +499,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/73/0018Pidgeot.png/375px-0018Pidgeot.png",
+			"https://archives.bulbagarden.net/media/upload/e/ed/018Pidgeot_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeot_(Pok%C3%A9mon)",
 	},
@@ -527,7 +527,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/aa/0019Rattata.png/375px-0019Rattata.png",
+			"https://archives.bulbagarden.net/media/upload/2/2b/019Rattata_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
 	},
@@ -556,7 +556,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/be/0019Rattata-Alola.png/165px-0019Rattata-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/3/33/019Rattata_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
 	},
@@ -585,7 +585,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0020Raticate.png/375px-0020Raticate.png",
+			"https://archives.bulbagarden.net/media/upload/b/b1/020Raticate_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
 	},
@@ -614,7 +614,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ad/0020Raticate-Alola.png/165px-0020Raticate-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/2/2c/020Raticate_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
 	},
@@ -642,7 +642,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0021Spearow.png/375px-0021Spearow.png",
+			"https://archives.bulbagarden.net/media/upload/6/67/021Spearow_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)",
 	},
@@ -670,7 +670,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/92/0022Fearow.png/375px-0022Fearow.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/022Fearow_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)",
 	},
@@ -698,7 +698,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/375px-0023Ekans.png",
+			"https://archives.bulbagarden.net/media/upload/7/7e/023Ekans_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)",
 	},
@@ -726,7 +726,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/51/0024Arbok.png/375px-0024Arbok.png",
+			"https://archives.bulbagarden.net/media/upload/2/22/024Arbok_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)",
 	},
@@ -754,7 +754,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/375px-0025Pikachu.png",
+			"https://archives.bulbagarden.net/media/upload/4/4d/025Pikachu_Dream_3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)",
 	},
@@ -782,7 +782,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0026Raichu.png/375px-0026Raichu.png",
+			"https://archives.bulbagarden.net/media/upload/9/98/026Raichu_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
 	},
@@ -810,7 +810,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/65/0026Raichu-Alola.png/165px-0026Raichu-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/0/03/026Raichu_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
 	},
@@ -838,7 +838,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e9/0027Sandshrew.png/375px-0027Sandshrew.png",
+			"https://archives.bulbagarden.net/media/upload/8/81/027Sandshrew_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
 	},
@@ -866,7 +866,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f4/0027Sandshrew-Alola.png/165px-0027Sandshrew-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/e/e0/027Sandshrew_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
 	},
@@ -894,7 +894,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a4/0028Sandslash.png/375px-0028Sandslash.png",
+			"https://archives.bulbagarden.net/media/upload/e/eb/028Sandslash_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
@@ -922,7 +922,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e0/0028Sandslash-Alola.png/165px-0028Sandslash-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/0/01/028Sandslash_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
@@ -950,7 +950,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b2/0029Nidoran.png/375px-0029Nidoran.png",
+			"https://archives.bulbagarden.net/media/upload/5/5b/029Nidoran_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%80_(Pok%C3%A9mon)",
 	},
@@ -978,7 +978,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ea/0030Nidorina.png/375px-0030Nidorina.png",
+			"https://archives.bulbagarden.net/media/upload/e/ea/030Nidorina_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorina_(Pok%C3%A9mon)",
 	},
@@ -1006,7 +1006,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9d/0031Nidoqueen.png/375px-0031Nidoqueen.png",
+			"https://archives.bulbagarden.net/media/upload/1/1b/031Nidoqueen_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoqueen_(Pok%C3%A9mon)",
 	},
@@ -1034,7 +1034,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8c/0032Nidoran.png/375px-0032Nidoran.png",
+			"https://archives.bulbagarden.net/media/upload/1/15/032Nidoran_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%82_(Pok%C3%A9mon)",
 	},
@@ -1062,7 +1062,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1e/0033Nidorino.png/375px-0033Nidorino.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/033Nidorino_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorino_(Pok%C3%A9mon)",
 	},
@@ -1090,7 +1090,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/21/0034Nidoking.png/375px-0034Nidoking.png",
+			"https://archives.bulbagarden.net/media/upload/a/a3/034Nidoking_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoking_(Pok%C3%A9mon)",
 	},
@@ -1118,7 +1118,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0035Clefairy.png/375px-0035Clefairy.png",
+			"https://archives.bulbagarden.net/media/upload/e/e8/035Clefairy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)",
 	},
@@ -1146,7 +1146,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a4/0036Clefable.png/375px-0036Clefable.png",
+			"https://archives.bulbagarden.net/media/upload/f/fb/036Clefable_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefable_(Pok%C3%A9mon)",
 	},
@@ -1174,7 +1174,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/06/0037Vulpix.png/375px-0037Vulpix.png",
+			"https://archives.bulbagarden.net/media/upload/7/72/037Vulpix_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
 	},
@@ -1202,7 +1202,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6b/0037Vulpix-Alola.png/165px-0037Vulpix-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/c/c4/037Vulpix_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
 	},
@@ -1230,7 +1230,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3e/0038Ninetales.png/375px-0038Ninetales.png",
+			"https://archives.bulbagarden.net/media/upload/a/a4/038Ninetales_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
 	},
@@ -1258,7 +1258,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0038Ninetales-Alola.png/165px-0038Ninetales-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/c/cc/038Ninetales_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
 	},
@@ -1286,7 +1286,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3a/0039Jigglypuff.png/375px-0039Jigglypuff.png",
+			"https://archives.bulbagarden.net/media/upload/e/ed/039Jigglypuff_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon)",
 	},
@@ -1314,7 +1314,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e2/0040Wigglytuff.png/375px-0040Wigglytuff.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/040Wigglytuff_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wigglytuff_(Pok%C3%A9mon)",
 	},
@@ -1343,7 +1343,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0041Zubat.png/375px-0041Zubat.png",
+			"https://archives.bulbagarden.net/media/upload/d/d9/041Zubat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zubat_(Pok%C3%A9mon)",
 	},
@@ -1372,7 +1372,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/76/0042Golbat.png/375px-0042Golbat.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/042Golbat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)",
 	},
@@ -1400,7 +1400,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0043Oddish.png/375px-0043Oddish.png",
+			"https://archives.bulbagarden.net/media/upload/4/43/043Oddish_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Oddish_(Pok%C3%A9mon)",
 	},
@@ -1428,7 +1428,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e0/0044Gloom.png/375px-0044Gloom.png",
+			"https://archives.bulbagarden.net/media/upload/8/81/044Gloom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon)",
 	},
@@ -1456,7 +1456,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0045Vileplume.png/375px-0045Vileplume.png",
+			"https://archives.bulbagarden.net/media/upload/a/a7/045Vileplume_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vileplume_(Pok%C3%A9mon)",
 	},
@@ -1484,7 +1484,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8a/0046Paras.png/375px-0046Paras.png",
+			"https://archives.bulbagarden.net/media/upload/1/1c/046Paras_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)",
 	},
@@ -1512,7 +1512,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7b/0047Parasect.png/375px-0047Parasect.png",
+			"https://archives.bulbagarden.net/media/upload/0/0e/047Parasect_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)",
 	},
@@ -1540,7 +1540,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0048Venonat.png/375px-0048Venonat.png",
+			"https://archives.bulbagarden.net/media/upload/9/9f/048Venonat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venonat_(Pok%C3%A9mon)",
 	},
@@ -1569,7 +1569,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0049Venomoth.png/375px-0049Venomoth.png",
+			"https://archives.bulbagarden.net/media/upload/f/f3/049Venomoth_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)",
 	},
@@ -1597,7 +1597,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a6/0050Diglett.png/375px-0050Diglett.png",
+			"https://archives.bulbagarden.net/media/upload/a/a6/050Diglett_Dream_3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
 	},
@@ -1626,7 +1626,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/61/0050Diglett-Alola.png/165px-0050Diglett-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/8/80/050Diglett_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
 	},
@@ -1653,13 +1653,13 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/88/0051Dugtrio.png/375px-0051Dugtrio.png",
+			"https://archives.bulbagarden.net/media/upload/2/26/051Dugtrio_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Dugtrio de Alola",
-		numero: 51.1, // considerando a national dex
+		numero: 51.2, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 66.6, // em kg
 		altura: 0.7, // em metros
@@ -1682,7 +1682,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0051Dugtrio-Alola.png/165px-0051Dugtrio-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/7/7d/051Dugtrio_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)",
 	},
@@ -1710,7 +1710,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d6/0052Meowth.png/375px-0052Meowth.png",
+			"https://archives.bulbagarden.net/media/upload/8/84/052Meowth_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -1738,7 +1738,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/32/0052Meowth-Alola.png/165px-0052Meowth-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/a/a6/052Meowth_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -1766,7 +1766,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3d/0052Meowth-Galar.png/165px-0052Meowth-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/7/7d/052Meowth_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -1794,7 +1794,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0053Persian.png/375px-0053Persian.png",
+			"https://archives.bulbagarden.net/media/upload/6/65/053Persian_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon)",
 	},
@@ -1822,7 +1822,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8c/0053Persian-Alola.png/165px-0053Persian-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/9/95/053Persian_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon)",
 	},
@@ -1850,7 +1850,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0054Psyduck.png/375px-0054Psyduck.png",
+			"https://archives.bulbagarden.net/media/upload/7/72/054Psyduck_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)",
 	},
@@ -1878,7 +1878,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0055Golduck.png/375px-0055Golduck.png",
+			"https://archives.bulbagarden.net/media/upload/0/04/055Golduck_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon)",
 	},
@@ -1906,7 +1906,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fa/0056Mankey.png/375px-0056Mankey.png",
+			"https://archives.bulbagarden.net/media/upload/6/6f/056Mankey_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mankey_(Pok%C3%A9mon)",
 	},
@@ -1934,7 +1934,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0057Primeape.png/375px-0057Primeape.png",
+			"https://archives.bulbagarden.net/media/upload/2/24/057Primeape_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Primeape_(Pok%C3%A9mon)",
 	},
@@ -1962,7 +1962,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6a/0058Growlithe.png/375px-0058Growlithe.png",
+			"https://archives.bulbagarden.net/media/upload/b/b0/058Growlithe_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
 	},
@@ -1990,7 +1990,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3b/0058Growlithe-Hisui.png/165px-0058Growlithe-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/058Growlithe-Hisui_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
 	},
@@ -2018,7 +2018,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0059Arcanine.png/375px-0059Arcanine.png",
+			"https://archives.bulbagarden.net/media/upload/b/b5/059Arcanine_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon)",
 	},
@@ -2046,7 +2046,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/79/0059Arcanine-Hisui.png/165px-0059Arcanine-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/e/ee/059Arcanine_Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon)",
 	},
@@ -2075,7 +2075,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0060Poliwag.png/375px-0060Poliwag.png",
+			"https://archives.bulbagarden.net/media/upload/3/39/060Poliwag_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon)",
 	},
@@ -2103,7 +2103,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fd/0061Poliwhirl.png/375px-0061Poliwhirl.png",
+			"https://archives.bulbagarden.net/media/upload/d/d0/061Poliwhirl_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwhirl_(Pok%C3%A9mon)",
 	},
@@ -2131,7 +2131,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/80/0062Poliwrath.png/375px-0062Poliwrath.png",
+			"https://archives.bulbagarden.net/media/upload/f/f0/062Poliwrath_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwrath_(Pok%C3%A9mon)",
 	},
@@ -2159,7 +2159,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bd/0063Abra.png/375px-0063Abra.png",
+			"https://archives.bulbagarden.net/media/upload/d/d6/063Abra_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Abra_(Pok%C3%A9mon)",
 	},
@@ -2187,7 +2187,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/af/0064Kadabra.png/375px-0064Kadabra.png",
+			"https://archives.bulbagarden.net/media/upload/e/e9/064Kadabra_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kadabra_(Pok%C3%A9mon)",
 	},
@@ -2215,7 +2215,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0065Alakazam.png/375px-0065Alakazam.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/065Alakazam_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon)",
 	},
@@ -2243,7 +2243,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/02/0066Machop.png/375px-0066Machop.png",
+			"https://archives.bulbagarden.net/media/upload/8/87/066Machop_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machop_(Pok%C3%A9mon)",
 	},
@@ -2271,7 +2271,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0067Machoke.png/375px-0067Machoke.png",
+			"https://archives.bulbagarden.net/media/upload/4/47/067Machoke_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machoke_(Pok%C3%A9mon)",
 	},
@@ -2299,7 +2299,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0068Machamp.png/375px-0068Machamp.png",
+			"https://archives.bulbagarden.net/media/upload/7/77/068Machamp_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machamp_(Pok%C3%A9mon)",
 	},
@@ -2327,7 +2327,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/66/0069Bellsprout.png/375px-0069Bellsprout.png",
+			"https://archives.bulbagarden.net/media/upload/a/ac/069Bellsprout_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellsprout_(Pok%C3%A9mon)",
 	},
@@ -2355,7 +2355,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c1/0070Weepinbell.png/375px-0070Weepinbell.png",
+			"https://archives.bulbagarden.net/media/upload/1/1e/070Weepinbell_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weepinbell_(Pok%C3%A9mon)",
 	},
@@ -2383,7 +2383,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e9/0071Victreebel.png/375px-0071Victreebel.png",
+			"https://archives.bulbagarden.net/media/upload/2/22/071Victreebel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Victreebel_(Pok%C3%A9mon)",
 	},
@@ -2411,7 +2411,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6e/0072Tentacool.png/375px-0072Tentacool.png",
+			"https://archives.bulbagarden.net/media/upload/d/da/072Tentacool_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacool_(Pok%C3%A9mon)",
 	},
@@ -2439,7 +2439,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cb/0073Tentacruel.png/375px-0073Tentacruel.png",
+			"https://archives.bulbagarden.net/media/upload/f/f5/073Tentacruel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacruel_(Pok%C3%A9mon)",
 	},
@@ -2467,7 +2467,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0074Geodude.png/375px-0074Geodude.png",
+			"https://archives.bulbagarden.net/media/upload/5/5e/074Geodude_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
 	},
@@ -2495,7 +2495,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a4/0074Geodude-Alola.png/165px-0074Geodude-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/e/eb/074Geodude_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
 	},
@@ -2523,13 +2523,13 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d4/0075Graveler.png/375px-0075Graveler.png",
+			"https://archives.bulbagarden.net/media/upload/7/72/075Graveler_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Graveler de Alola",
-		numero: 75.1, // considerando a national dex
+		numero: 75.2, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 110.0, // em kg
 		altura: 1.0, // em metros
@@ -2551,7 +2551,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/05/0075Graveler-Alola.png/165px-0075Graveler-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/1/1d/075Graveler_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
 	},
@@ -2579,7 +2579,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0076Golem.png/375px-0076Golem.png",
+			"https://archives.bulbagarden.net/media/upload/b/be/076Golem_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)",
 	},
@@ -2607,7 +2607,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9e/0076Golem-Alola.png/165px-0076Golem-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/1/13/076Golem_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)",
 	},
@@ -2635,7 +2635,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0077Ponyta.png/375px-0077Ponyta.png",
+			"https://archives.bulbagarden.net/media/upload/d/da/077Ponyta_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
 	},
@@ -2663,7 +2663,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/93/0077Ponyta-Galar.png/165px-0077Ponyta-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/b/b2/077Ponyta_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
 	},
@@ -2691,7 +2691,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a9/0078Rapidash.png/375px-0078Rapidash.png",
+			"https://archives.bulbagarden.net/media/upload/d/d0/078Rapidash_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon)",
 	},
@@ -2719,7 +2719,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0078Rapidash-Galar.png/165px-0078Rapidash-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/c/c1/078Rapidash_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon)",
 	},
@@ -2747,7 +2747,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0079Slowpoke.png/375px-0079Slowpoke.png",
+			"https://archives.bulbagarden.net/media/upload/b/b7/079Slowpoke_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
 	},
@@ -2775,7 +2775,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e5/0079Slowpoke-Galar.png/165px-0079Slowpoke-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/a/a6/079Slowpoke_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
 	},
@@ -2804,7 +2804,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a3/0080Slowbro.png/375px-0080Slowbro.png",
+			"https://archives.bulbagarden.net/media/upload/e/ef/080Slowbro_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
 	},
@@ -2832,7 +2832,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b3/0080Slowbro-Galar.png/165px-0080Slowbro-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/e/ea/080Slowbro_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
 	},
@@ -2860,7 +2860,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a2/0081Magnemite.png/375px-0081Magnemite.png",
+			"https://archives.bulbagarden.net/media/upload/5/59/081Magnemite_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon)",
 	},
@@ -2888,7 +2888,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0082Magneton.png/375px-0082Magneton.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/082Magneton_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)",
 	},
@@ -2916,7 +2916,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/99/0083Farfetch%27d.png/375px-0083Farfetch%27d.png",
+			"https://archives.bulbagarden.net/media/upload/2/21/083Farfetch%27d_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
 	},
@@ -2944,7 +2944,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d1/0083Farfetch%27d-Galar.png/165px-0083Farfetch%27d-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/8/8b/083Farfetch%27d_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
 	},
@@ -2972,7 +2972,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0084Doduo.png/375px-0084Doduo.png",
+			"https://archives.bulbagarden.net/media/upload/8/88/084Doduo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon)",
 	},
@@ -3000,7 +3000,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0085Dodrio.png/375px-0085Dodrio.png",
+			"https://archives.bulbagarden.net/media/upload/f/f2/085Dodrio_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)",
 	},
@@ -3028,7 +3028,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0086Seel.png/375px-0086Seel.png",
+			"https://archives.bulbagarden.net/media/upload/0/0d/086Seel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seel_(Pok%C3%A9mon)",
 	},
@@ -3056,7 +3056,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/0087Dewgong.png/375px-0087Dewgong.png",
+			"https://archives.bulbagarden.net/media/upload/d/d2/087Dewgong_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dewgong_(Pok%C3%A9mon)",
 	},
@@ -3084,7 +3084,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0088Grimer.png/375px-0088Grimer.png",
+			"https://archives.bulbagarden.net/media/upload/0/0e/088Grimer_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon)",
 	},
@@ -3112,7 +3112,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/24/0088Grimer-Alola.png/165px-0088Grimer-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/f/fb/088Grimer_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon)",
 	},
@@ -3140,7 +3140,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/41/0089Muk.png/375px-0089Muk.png",
+			"https://archives.bulbagarden.net/media/upload/a/a0/089Muk_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon)",
 	},
@@ -3168,7 +3168,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8c/0089Muk-Alola.png/165px-0089Muk-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/d/d1/089Muk_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon)",
 	},
@@ -3196,7 +3196,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3e/0090Shellder.png/375px-0090Shellder.png",
+			"https://archives.bulbagarden.net/media/upload/6/62/090Shellder_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon)",
 	},
@@ -3224,7 +3224,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/90/0091Cloyster.png/375px-0091Cloyster.png",
+			"https://archives.bulbagarden.net/media/upload/5/5c/091Cloyster_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cloyster_(Pok%C3%A9mon)",
 	},
@@ -3252,7 +3252,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c2/0092Gastly.png/375px-0092Gastly.png",
+			"https://archives.bulbagarden.net/media/upload/a/aa/092Gastly_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gastly_(Pok%C3%A9mon)",
 	},
@@ -3280,7 +3280,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d1/0093Haunter.png/375px-0093Haunter.png",
+			"https://archives.bulbagarden.net/media/upload/d/d1/093Haunter_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)",
 	},
@@ -3308,7 +3308,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/47/0094Gengar.png/375px-0094Gengar.png",
+			"https://archives.bulbagarden.net/media/upload/e/ed/094Gengar_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)",
 	},
@@ -3336,7 +3336,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0095Onix.png/375px-0095Onix.png",
+			"https://archives.bulbagarden.net/media/upload/7/7a/095Onix_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon)",
 	},
@@ -3364,7 +3364,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0096Drowzee.png/375px-0096Drowzee.png",
+			"https://archives.bulbagarden.net/media/upload/2/2f/096Drowzee_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drowzee_(Pok%C3%A9mon)",
 	},
@@ -3392,7 +3392,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0097Hypno.png/375px-0097Hypno.png",
+			"https://archives.bulbagarden.net/media/upload/8/8d/097Hypno_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hypno_(Pok%C3%A9mon)",
 	},
@@ -3420,7 +3420,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0098Krabby.png/375px-0098Krabby.png",
+			"https://archives.bulbagarden.net/media/upload/c/cf/098Krabby_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Krabby_(Pok%C3%A9mon)",
 	},
@@ -3449,7 +3449,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0099Kingler.png/375px-0099Kingler.png",
+			"https://archives.bulbagarden.net/media/upload/1/1f/099Kingler_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)",
 	},
@@ -3477,7 +3477,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0100Voltorb.png/375px-0100Voltorb.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/100Voltorb_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
 	},
@@ -3505,7 +3505,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fc/0100Voltorb-Hisui.png/165px-0100Voltorb-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/4/4f/100Voltorb-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
 	},
@@ -3533,7 +3533,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/db/0101Electrode.png/375px-0101Electrode.png",
+			"https://archives.bulbagarden.net/media/upload/c/ca/101Electrode_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
 	},
@@ -3561,7 +3561,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/be/0101Electrode-Hisui.png/165px-0101Electrode-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/101Electrode-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
 	},
@@ -3589,7 +3589,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/60/0102Exeggcute.png/375px-0102Exeggcute.png",
+			"https://archives.bulbagarden.net/media/upload/7/74/102Exeggcute_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggcute_(Pok%C3%A9mon)",
 	},
@@ -3617,7 +3617,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0103Exeggutor.png/375px-0103Exeggutor.png",
+			"https://archives.bulbagarden.net/media/upload/7/7f/103Exeggutor_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)",
 	},
@@ -3645,7 +3645,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/94/0103Exeggutor-Alola.png/165px-0103Exeggutor-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/e/e3/103Exeggutor_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)",
 	},
@@ -3673,7 +3673,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0104Cubone.png/375px-0104Cubone.png",
+			"https://archives.bulbagarden.net/media/upload/3/3a/104Cubone_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cubone_(Pok%C3%A9mon)",
 	},
@@ -3702,7 +3702,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a1/0105Marowak.png/375px-0105Marowak.png",
+			"https://archives.bulbagarden.net/media/upload/c/c9/105Marowak_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
 	},
@@ -3730,7 +3730,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0105Marowak-Alola.png/165px-0105Marowak-Alola.png",
+			"https://archives.bulbagarden.net/media/upload/6/61/105Marowak_Alola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
 	},
@@ -3758,7 +3758,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/00/0106Hitmonlee.png/375px-0106Hitmonlee.png",
+			"https://archives.bulbagarden.net/media/upload/3/3c/106Hitmonlee_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmonlee_(Pok%C3%A9mon)",
 	},
@@ -3786,7 +3786,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0107Hitmonchan.png/375px-0107Hitmonchan.png",
+			"https://archives.bulbagarden.net/media/upload/b/b3/107Hitmonchan_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmonchan_(Pok%C3%A9mon)",
 	},
@@ -3814,7 +3814,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0108Lickitung.png/375px-0108Lickitung.png",
+			"https://archives.bulbagarden.net/media/upload/f/f5/108Lickitung_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lickitung_(Pok%C3%A9mon)",
 	},
@@ -3842,7 +3842,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0109Koffing.png/375px-0109Koffing.png",
+			"https://archives.bulbagarden.net/media/upload/8/89/109Koffing_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Koffing_(Pok%C3%A9mon)",
 	},
@@ -3870,7 +3870,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0110Weezing.png/375px-0110Weezing.png",
+			"https://archives.bulbagarden.net/media/upload/4/43/110Weezing_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)",
 	},
@@ -3899,7 +3899,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/32/0110Weezing-Galar.png/165px-0110Weezing-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/d/da/110Weezing_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)",
 	},
@@ -3927,7 +3927,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0111Rhyhorn.png/375px-0111Rhyhorn.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/111Rhyhorn_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhyhorn_(Pok%C3%A9mon)",
 	},
@@ -3955,7 +3955,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/79/0112Rhydon.png/375px-0112Rhydon.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/112Rhydon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon)",
 	},
@@ -3983,7 +3983,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0113Chansey.png/375px-0113Chansey.png",
+			"https://archives.bulbagarden.net/media/upload/2/2a/113Chansey_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)",
 	},
@@ -4011,7 +4011,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0114Tangela.png/375px-0114Tangela.png",
+			"https://archives.bulbagarden.net/media/upload/e/ef/114Tangela_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon)",
 	},
@@ -4039,7 +4039,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e5/0115Kangaskhan.png/375px-0115Kangaskhan.png",
+			"https://archives.bulbagarden.net/media/upload/3/3c/115Kangaskhan_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon)",
 	},
@@ -4067,7 +4067,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/14/0116Horsea.png/375px-0116Horsea.png",
+			"https://archives.bulbagarden.net/media/upload/d/de/116Horsea_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Horsea_(Pok%C3%A9mon)",
 	},
@@ -4096,7 +4096,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0117Seadra.png/375px-0117Seadra.png",
+			"https://archives.bulbagarden.net/media/upload/5/59/117Seadra_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)",
 	},
@@ -4125,7 +4125,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/0118Goldeen.png/375px-0118Goldeen.png",
+			"https://archives.bulbagarden.net/media/upload/a/af/118Goldeen_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)",
 	},
@@ -4153,7 +4153,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/76/0119Seaking.png/375px-0119Seaking.png",
+			"https://archives.bulbagarden.net/media/upload/c/c9/119Seaking_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon)",
 	},
@@ -4181,7 +4181,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0120Staryu.png/375px-0120Staryu.png",
+			"https://archives.bulbagarden.net/media/upload/1/10/120Staryu_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staryu_(Pok%C3%A9mon)",
 	},
@@ -4209,7 +4209,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/aa/0121Starmie.png/375px-0121Starmie.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/121Starmie_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon)",
 	},
@@ -4237,7 +4237,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fb/0122Mr._Mime.png/375px-0122Mr._Mime.png",
+			"https://archives.bulbagarden.net/media/upload/1/10/122Mr._Mime_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon)",
 	},
@@ -4265,7 +4265,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7c/0122Mr._Mime-Galar.png/165px-0122Mr._Mime-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/e/e0/122Mr._Mime_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon)",
 	},
@@ -4293,7 +4293,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/81/0123Scyther.png/375px-0123Scyther.png",
+			"https://archives.bulbagarden.net/media/upload/1/1f/123Scyther_Dream_3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scyther_(Pok%C3%A9mon)",
 	},
@@ -4321,7 +4321,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/07/0124Jynx.png/375px-0124Jynx.png",
+			"https://archives.bulbagarden.net/media/upload/e/e5/124Jynx_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jynx_(Pok%C3%A9mon)",
 	},
@@ -4349,7 +4349,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0125Electabuzz.png/375px-0125Electabuzz.png",
+			"https://archives.bulbagarden.net/media/upload/b/bf/125Electabuzz_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electabuzz_(Pok%C3%A9mon)",
 	},
@@ -4377,7 +4377,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0126Magmar.png/375px-0126Magmar.png",
+			"https://archives.bulbagarden.net/media/upload/5/52/126Magmar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magmar_(Pok%C3%A9mon)",
 	},
@@ -4405,7 +4405,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a9/0127Pinsir.png/375px-0127Pinsir.png",
+			"https://archives.bulbagarden.net/media/upload/c/c5/127Pinsir_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pinsir_(Pok%C3%A9mon)",
 	},
@@ -4433,7 +4433,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ad/0128Tauros.png/375px-0128Tauros.png",
+			"https://archives.bulbagarden.net/media/upload/9/99/128Tauros_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -4461,7 +4461,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/25/0128Tauros-Paldea_Combat.png/165px-0128Tauros-Paldea_Combat.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/0128Tauros-Paldea_Combat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -4489,7 +4489,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f5/0128Tauros-Paldea_Blaze.png/165px-0128Tauros-Paldea_Blaze.png",
+			"https://archives.bulbagarden.net/media/upload/c/cd/0128Tauros-Paldea_Blaze_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -4518,7 +4518,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0128Tauros-Paldea_Aqua.png/165px-0128Tauros-Paldea_Aqua.png",
+			"https://archives.bulbagarden.net/media/upload/2/2c/0128Tauros-Paldea_Aqua_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -4547,7 +4547,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d1/0129Magikarp.png/375px-0129Magikarp.png",
+			"https://archives.bulbagarden.net/media/upload/f/f7/129Magikarp_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)",
 	},
@@ -4575,7 +4575,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0130Gyarados.png/375px-0130Gyarados.png",
+			"https://archives.bulbagarden.net/media/upload/2/2a/130Gyarados_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)",
 	},
@@ -4603,7 +4603,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/99/0131Lapras.png/375px-0131Lapras.png",
+			"https://archives.bulbagarden.net/media/upload/7/74/131Lapras_Dream_6.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)",
 	},
@@ -4632,7 +4632,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/25/0132Ditto.png/375px-0132Ditto.png",
+			"https://archives.bulbagarden.net/media/upload/d/d1/132Ditto_Dream_6.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)",
 	},
@@ -4660,7 +4660,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0133Eevee.png/375px-0133Eevee.png",
+			"https://archives.bulbagarden.net/media/upload/b/b0/133Eevee_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)",
 	},
@@ -4688,7 +4688,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6d/0134Vaporeon.png/375px-0134Vaporeon.png",
+			"https://archives.bulbagarden.net/media/upload/9/93/134Vaporeon_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vaporeon_(Pok%C3%A9mon)",
 	},
@@ -4716,7 +4716,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e3/0135Jolteon.png/375px-0135Jolteon.png",
+			"https://archives.bulbagarden.net/media/upload/6/67/135Jolteon_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jolteon_(Pok%C3%A9mon)",
 	},
@@ -4744,7 +4744,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f1/0136Flareon.png/375px-0136Flareon.png",
+			"https://archives.bulbagarden.net/media/upload/e/ee/136Flareon_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flareon_(Pok%C3%A9mon)",
 	},
@@ -4772,7 +4772,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8e/0137Porygon.png/375px-0137Porygon.png",
+			"https://archives.bulbagarden.net/media/upload/6/60/137Porygon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon_(Pok%C3%A9mon)",
 	},
@@ -4800,7 +4800,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e6/0138Omanyte.png/375px-0138Omanyte.png",
+			"https://archives.bulbagarden.net/media/upload/9/95/138Omanyte_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omanyte_(Pok%C3%A9mon)",
 	},
@@ -4828,7 +4828,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/66/0139Omastar.png/375px-0139Omastar.png",
+			"https://archives.bulbagarden.net/media/upload/3/37/139Omastar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omastar_(Pok%C3%A9mon)",
 	},
@@ -4856,7 +4856,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0140Kabuto.png/375px-0140Kabuto.png",
+			"https://archives.bulbagarden.net/media/upload/8/88/140Kabuto_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabuto_(Pok%C3%A9mon)",
 	},
@@ -4884,7 +4884,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/41/0141Kabutops.png/375px-0141Kabutops.png",
+			"https://archives.bulbagarden.net/media/upload/8/83/141Kabutops_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon)",
 	},
@@ -4912,7 +4912,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0142Aerodactyl.png/375px-0142Aerodactyl.png",
+			"https://archives.bulbagarden.net/media/upload/c/c6/142Aerodactyl_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon)",
 	},
@@ -4940,7 +4940,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0143Snorlax.png/375px-0143Snorlax.png",
+			"https://archives.bulbagarden.net/media/upload/2/20/143Snorlax_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)",
 	},
@@ -4968,7 +4968,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d0/0144Articuno.png/375px-0144Articuno.png",
+			"https://archives.bulbagarden.net/media/upload/4/46/144Articuno_Dream_3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
 	},
@@ -4996,7 +4996,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5a/0144Articuno-Galar.png/165px-0144Articuno-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/9/93/144Articuno_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
 	},
@@ -5024,7 +5024,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c6/0145Zapdos.png/375px-0145Zapdos.png",
+			"https://archives.bulbagarden.net/media/upload/6/65/145Zapdos_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
 	},
@@ -5052,7 +5052,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/75/0145Zapdos-Galar.png/165px-0145Zapdos-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/9/96/145Zapdos_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
 	},
@@ -5080,7 +5080,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/21/0146Moltres.png/375px-0146Moltres.png",
+			"https://archives.bulbagarden.net/media/upload/1/10/146Moltres_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
 	},
@@ -5108,7 +5108,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0146Moltres-Galar.png/165px-0146Moltres-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/8/88/146Moltres_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
 	},
@@ -5136,7 +5136,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0147Dratini.png/375px-0147Dratini.png",
+			"https://archives.bulbagarden.net/media/upload/6/67/147Dratini_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)",
 	},
@@ -5164,7 +5164,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0148Dragonair.png/375px-0148Dragonair.png",
+			"https://archives.bulbagarden.net/media/upload/0/07/148Dragonair_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)",
 	},
@@ -5192,7 +5192,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1c/0149Dragonite.png/375px-0149Dragonite.png",
+			"https://archives.bulbagarden.net/media/upload/0/0c/149Dragonite_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)",
 	},
@@ -5220,7 +5220,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0150Mewtwo.png/375px-0150Mewtwo.png",
+			"https://archives.bulbagarden.net/media/upload/4/49/150Mewtwo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)",
 	},
@@ -5248,7 +5248,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9a/0151Mew.png/375px-0151Mew.png",
+			"https://archives.bulbagarden.net/media/upload/6/60/151Mew_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)",
 	},
@@ -5276,7 +5276,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0152Chikorita.png/375px-0152Chikorita.png",
+			"https://archives.bulbagarden.net/media/upload/5/52/152Chikorita_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chikorita_(Pok%C3%A9mon)",
 	},
@@ -5304,7 +5304,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/85/0153Bayleef.png/375px-0153Bayleef.png",
+			"https://archives.bulbagarden.net/media/upload/8/82/153Bayleef_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bayleef_(Pok%C3%A9mon)",
 	},
@@ -5332,7 +5332,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8b/0154Meganium.png/375px-0154Meganium.png",
+			"https://archives.bulbagarden.net/media/upload/e/e8/154Meganium_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meganium_(Pok%C3%A9mon)",
 	},
@@ -5360,7 +5360,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0155Cyndaquil.png/375px-0155Cyndaquil.png",
+			"https://archives.bulbagarden.net/media/upload/f/f0/155Cyndaquil_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cyndaquil_(Pok%C3%A9mon)",
 	},
@@ -5388,7 +5388,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0156Quilava.png/375px-0156Quilava.png",
+			"https://archives.bulbagarden.net/media/upload/3/31/156Quilava_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Quilava_(Pok%C3%A9mon)",
 	},
@@ -5416,7 +5416,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/13/0157Typhlosion.png/375px-0157Typhlosion.png",
+			"https://archives.bulbagarden.net/media/upload/6/65/157Typhlosion_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)",
 	},
@@ -5444,7 +5444,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7c/0157Typhlosion-Hisui.png/165px-0157Typhlosion-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/a/a2/157Typhlosion-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)",
 	},
@@ -5472,7 +5472,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0158Totodile.png/375px-0158Totodile.png",
+			"https://archives.bulbagarden.net/media/upload/4/47/158Totodile_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Totodile_(Pok%C3%A9mon)",
 	},
@@ -5500,7 +5500,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/03/0159Croconaw.png/375px-0159Croconaw.png",
+			"https://archives.bulbagarden.net/media/upload/2/22/159Croconaw_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Croconaw_(Pok%C3%A9mon)",
 	},
@@ -5528,7 +5528,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/29/0160Feraligatr.png/375px-0160Feraligatr.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/160Feraligatr_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)",
 	},
@@ -5556,7 +5556,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/34/0161Sentret.png/375px-0161Sentret.png",
+			"https://archives.bulbagarden.net/media/upload/5/55/161Sentret_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sentret_(Pok%C3%A9mon)",
 	},
@@ -5584,7 +5584,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/0162Furret.png/375px-0162Furret.png",
+			"https://archives.bulbagarden.net/media/upload/d/de/162Furret_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Furret_(Pok%C3%A9mon)",
 	},
@@ -5613,7 +5613,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0163Hoothoot.png/375px-0163Hoothoot.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/163Hoothoot_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)",
 	},
@@ -5641,7 +5641,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/14/0164Noctowl.png/375px-0164Noctowl.png",
+			"https://archives.bulbagarden.net/media/upload/d/da/164Noctowl_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Noctowl_(Pok%C3%A9mon)",
 	},
@@ -5669,7 +5669,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0165Ledyba.png/375px-0165Ledyba.png",
+			"https://archives.bulbagarden.net/media/upload/e/e6/165Ledyba_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ledyba_(Pok%C3%A9mon)",
 	},
@@ -5697,7 +5697,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4f/0166Ledian.png/375px-0166Ledian.png",
+			"https://archives.bulbagarden.net/media/upload/a/ad/166Ledian_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ledian_(Pok%C3%A9mon)",
 	},
@@ -5725,7 +5725,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/0167Spinarak.png/375px-0167Spinarak.png",
+			"https://archives.bulbagarden.net/media/upload/e/ed/167Spinarak_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spinarak_(Pok%C3%A9mon)",
 	},
@@ -5753,7 +5753,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0168Ariados.png/375px-0168Ariados.png",
+			"https://archives.bulbagarden.net/media/upload/d/db/168Ariados_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ariados_(Pok%C3%A9mon)",
 	},
@@ -5781,7 +5781,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/35/0169Crobat.png/375px-0169Crobat.png",
+			"https://archives.bulbagarden.net/media/upload/8/86/169Crobat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Crobat_(Pok%C3%A9mon)",
 	},
@@ -5809,7 +5809,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/ca/0170Chinchou.png/375px-0170Chinchou.png",
+			"https://archives.bulbagarden.net/media/upload/e/e1/170Chinchou_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chinchou_(Pok%C3%A9mon)",
 	},
@@ -5837,7 +5837,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0171Lanturn.png/375px-0171Lanturn.png",
+			"https://archives.bulbagarden.net/media/upload/0/0b/171Lanturn_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lanturn_(Pok%C3%A9mon)",
 	},
@@ -5865,7 +5865,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f3/0172Pichu.png/375px-0172Pichu.png",
+			"https://archives.bulbagarden.net/media/upload/7/79/172Pichu_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pichu_(Pok%C3%A9mon)",
 	},
@@ -5893,7 +5893,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/73/0173Cleffa.png/375px-0173Cleffa.png",
+			"https://archives.bulbagarden.net/media/upload/9/91/173Cleffa_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cleffa_(Pok%C3%A9mon)",
 	},
@@ -5921,7 +5921,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/06/0174Igglybuff.png/375px-0174Igglybuff.png",
+			"https://archives.bulbagarden.net/media/upload/d/df/174Igglybuff_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon)",
 	},
@@ -5949,7 +5949,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/01/0175Togepi.png/375px-0175Togepi.png",
+			"https://archives.bulbagarden.net/media/upload/8/87/175Togepi_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togepi_(Pok%C3%A9mon)",
 	},
@@ -5977,7 +5977,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3b/0176Togetic.png/375px-0176Togetic.png",
+			"https://archives.bulbagarden.net/media/upload/f/f8/176Togetic_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togetic_(Pok%C3%A9mon)",
 	},
@@ -6005,7 +6005,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/71/0177Natu.png/375px-0177Natu.png",
+			"https://archives.bulbagarden.net/media/upload/7/7e/177Natu_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Natu_(Pok%C3%A9mon)",
 	},
@@ -6033,7 +6033,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c3/0178Xatu.png/375px-0178Xatu.png",
+			"https://archives.bulbagarden.net/media/upload/c/c8/178Xatu_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Xatu_(Pok%C3%A9mon)",
 	},
@@ -6061,7 +6061,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0179Mareep.png/375px-0179Mareep.png",
+			"https://archives.bulbagarden.net/media/upload/5/5f/179Mareep_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mareep_(Pok%C3%A9mon)",
 	},
@@ -6089,7 +6089,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0180Flaaffy.png/375px-0180Flaaffy.png",
+			"https://archives.bulbagarden.net/media/upload/1/1e/180Flaaffy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flaaffy_(Pok%C3%A9mon)",
 	},
@@ -6117,7 +6117,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c2/0181Ampharos.png/375px-0181Ampharos.png",
+			"https://archives.bulbagarden.net/media/upload/6/61/181Ampharos_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ampharos_(Pok%C3%A9mon)",
 	},
@@ -6145,7 +6145,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/51/0182Bellossom.png/375px-0182Bellossom.png",
+			"https://archives.bulbagarden.net/media/upload/b/ba/182Bellossom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellossom_(Pok%C3%A9mon)",
 	},
@@ -6173,7 +6173,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8e/0183Marill.png/375px-0183Marill.png",
+			"https://archives.bulbagarden.net/media/upload/d/dd/183Marill_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marill_(Pok%C3%A9mon)",
 	},
@@ -6201,7 +6201,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0184Azumarill.png/375px-0184Azumarill.png",
+			"https://archives.bulbagarden.net/media/upload/5/5d/184Azumarill_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azumarill_(Pok%C3%A9mon)",
 	},
@@ -6229,7 +6229,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2f/0185Sudowoodo.png/375px-0185Sudowoodo.png",
+			"https://archives.bulbagarden.net/media/upload/0/0d/185Sudowoodo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)",
 	},
@@ -6257,7 +6257,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9b/0186Politoed.png/375px-0186Politoed.png",
+			"https://archives.bulbagarden.net/media/upload/3/3f/186Politoed_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Politoed_(Pok%C3%A9mon)",
 	},
@@ -6285,7 +6285,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c9/0187Hoppip.png/375px-0187Hoppip.png",
+			"https://archives.bulbagarden.net/media/upload/f/f4/187Hoppip_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoppip_(Pok%C3%A9mon)",
 	},
@@ -6313,7 +6313,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0188Skiploom.png/375px-0188Skiploom.png",
+			"https://archives.bulbagarden.net/media/upload/d/d4/188Skiploom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skiploom_(Pok%C3%A9mon)",
 	},
@@ -6341,7 +6341,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/64/0189Jumpluff.png/375px-0189Jumpluff.png",
+			"https://archives.bulbagarden.net/media/upload/9/95/189Jumpluff_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jumpluff_(Pok%C3%A9mon)",
 	},
@@ -6369,7 +6369,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0190Aipom.png/375px-0190Aipom.png",
+			"https://archives.bulbagarden.net/media/upload/c/ca/190Aipom_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aipom_(Pok%C3%A9mon)",
 	},
@@ -6397,7 +6397,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0191Sunkern.png/375px-0191Sunkern.png",
+			"https://archives.bulbagarden.net/media/upload/2/2f/191Sunkern_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sunkern_(Pok%C3%A9mon)",
 	},
@@ -6425,7 +6425,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0192Sunflora.png/375px-0192Sunflora.png",
+			"https://archives.bulbagarden.net/media/upload/7/71/192Sunflora_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sunflora_(Pok%C3%A9mon)",
 	},
@@ -6453,7 +6453,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0193Yanma.png/375px-0193Yanma.png",
+			"https://archives.bulbagarden.net/media/upload/7/70/193Yanma_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yanma_(Pok%C3%A9mon)",
 	},
@@ -6481,7 +6481,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0194Wooper.png/375px-0194Wooper.png",
+			"https://archives.bulbagarden.net/media/upload/d/d9/194Wooper_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon)",
 	},
@@ -6510,7 +6510,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0194Wooper-Paldea.png/165px-0194Wooper-Paldea.png",
+			"https://archives.bulbagarden.net/media/upload/7/70/194Wooper_Paldea_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon)",
 	},
@@ -6539,7 +6539,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/01/0195Quagsire.png/375px-0195Quagsire.png",
+			"https://archives.bulbagarden.net/media/upload/8/80/195Quagsire_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Quagsire_(Pok%C3%A9mon)",
 	},
@@ -6567,7 +6567,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0196Espeon.png/375px-0196Espeon.png",
+			"https://archives.bulbagarden.net/media/upload/5/53/196Espeon_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon)",
 	},
@@ -6595,7 +6595,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e1/0197Umbreon.png/375px-0197Umbreon.png",
+			"https://archives.bulbagarden.net/media/upload/4/4b/197Umbreon_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon)",
 	},
@@ -6623,7 +6623,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e7/0198Murkrow.png/375px-0198Murkrow.png",
+			"https://archives.bulbagarden.net/media/upload/7/7e/198Murkrow_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)",
 	},
@@ -6651,7 +6651,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0199Slowking.png/375px-0199Slowking.png",
+			"https://archives.bulbagarden.net/media/upload/1/1e/199Slowking_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)",
 	},
@@ -6679,7 +6679,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/06/0199Slowking-Galar.png/165px-0199Slowking-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/7/72/199Slowking_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)",
 	},
@@ -6707,7 +6707,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/0200Misdreavus.png/375px-0200Misdreavus.png",
+			"https://archives.bulbagarden.net/media/upload/9/94/200Misdreavus_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Misdreavus_(Pok%C3%A9mon)",
 	},
@@ -6735,34 +6735,34 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/ff/HOME0201.png/150px-HOME0201.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5e/HOME0201B.png/150px-HOME0201B.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8d/HOME0201C.png/150px-HOME0201C.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/9/92/HOME0201D.png/150px-HOME0201D.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/HOME0201E.png/150px-HOME0201E.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b4/HOME0201F.png/150px-HOME0201F.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/HOME0201G.png/150px-HOME0201G.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5d/HOME0201H.png/150px-HOME0201H.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/59/HOME0201I.png/150px-HOME0201I.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/9/92/HOME0201J.png/150px-HOME0201J.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8e/HOME0201K.png/150px-HOME0201K.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/HOME0201L.png/150px-HOME0201L.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9e/HOME0201M.png/150px-HOME0201M.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/50/HOME0201N.png/150px-HOME0201N.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/02/HOME0201O.png/150px-HOME0201O.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/06/HOME0201P.png/150px-HOME0201P.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/HOME0201Q.png/150px-HOME0201Q.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/69/HOME0201R.png/150px-HOME0201R.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e0/HOME0201S.png/150px-HOME0201S.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/d/db/HOME0201T.png/150px-HOME0201T.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/70/HOME0201U.png/150px-HOME0201U.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/03/HOME0201V.png/150px-HOME0201V.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8f/HOME0201W.png/150px-HOME0201W.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d5/HOME0201X.png/150px-HOME0201X.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/51/HOME0201Y.png/150px-HOME0201Y.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/77/HOME0201Z.png/150px-HOME0201Z.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/4/48/HOME0201EX.png/150px-HOME0201EX.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/2/23/HOME0201QU.png/150px-HOME0201QU.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/201Unown_A_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/0d/201Unown_B_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/f/fc/201Unown_C_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/4/44/201Unown_D_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/c/ce/201Unown_E_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/3/3b/201Unown_F_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/7/76/201Unown_G_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/2e/201Unown_H_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/7/72/201Unown_I_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/a/ad/201Unown_J_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/201Unown_K_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b3/201Unown_L_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/d/df/201Unown_M_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/0b/201Unown_N_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/3/3b/201Unown_O_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/9/9d/201Unown_P_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/d/de/201Unown_Q_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/2a/201Unown_R_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/7/7b/201Unown_S_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/08/201Unown_T_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/201Unown_U_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/3/3b/201Unown_V_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/05/201Unown_W_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/c/c6/201Unown_X_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/1/14/201Unown_Y_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/0e/201Unown_Z_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/a/a0/201Unown_Exclamation_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/0d/201Unown_Question_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon)",
 	},
@@ -6790,7 +6790,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7d/0202Wobbuffet.png/375px-0202Wobbuffet.png",
+			"https://archives.bulbagarden.net/media/upload/a/a9/202Wobbuffet_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pok%C3%A9mon)",
 	},
@@ -6818,7 +6818,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/65/0203Girafarig.png/375px-0203Girafarig.png",
+			"https://archives.bulbagarden.net/media/upload/9/91/203Girafarig_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon)",
 	},
@@ -6846,7 +6846,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7a/0204Pineco.png/375px-0204Pineco.png",
+			"https://archives.bulbagarden.net/media/upload/9/9d/204Pineco_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pineco_(Pok%C3%A9mon)",
 	},
@@ -6874,7 +6874,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/45/0205Forretress.png/375px-0205Forretress.png",
+			"https://archives.bulbagarden.net/media/upload/8/8b/205Forretress_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Forretress_(Pok%C3%A9mon)",
 	},
@@ -6902,7 +6902,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0206Dunsparce.png/375px-0206Dunsparce.png",
+			"https://archives.bulbagarden.net/media/upload/0/07/206Dunsparce_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dunsparce_(Pok%C3%A9mon)",
 	},
@@ -6930,7 +6930,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/49/0207Gligar.png/375px-0207Gligar.png",
+			"https://archives.bulbagarden.net/media/upload/f/f8/207Gligar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gligar_(Pok%C3%A9mon)",
 	},
@@ -6958,7 +6958,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2a/0208Steelix.png/375px-0208Steelix.png",
+			"https://archives.bulbagarden.net/media/upload/a/a5/208Steelix_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)",
 	},
@@ -6986,7 +6986,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/24/0209Snubbull.png/375px-0209Snubbull.png",
+			"https://archives.bulbagarden.net/media/upload/c/c2/209Snubbull_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snubbull_(Pok%C3%A9mon)",
 	},
@@ -7014,7 +7014,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0210Granbull.png/375px-0210Granbull.png",
+			"https://archives.bulbagarden.net/media/upload/e/ef/210Granbull_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Granbull_(Pok%C3%A9mon)",
 	},
@@ -7042,7 +7042,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0211Qwilfish.png/375px-0211Qwilfish.png",
+			"https://archives.bulbagarden.net/media/upload/b/b3/211Qwilfish_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)",
 	},
@@ -7071,7 +7071,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a5/0211Qwilfish-Hisui.png/180px-0211Qwilfish-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/1/19/211Qwilfish-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)",
 	},
@@ -7099,7 +7099,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/39/0212Scizor.png/375px-0212Scizor.png",
+			"https://archives.bulbagarden.net/media/upload/5/5e/212Scizor_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pok%C3%A9mon)",
 	},
@@ -7127,7 +7127,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/59/0213Shuckle.png/375px-0213Shuckle.png",
+			"https://archives.bulbagarden.net/media/upload/8/87/213Shuckle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)",
 	},
@@ -7155,7 +7155,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/75/0214Heracross.png/375px-0214Heracross.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/214Heracross_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon)",
 	},
@@ -7183,7 +7183,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d4/0215Sneasel.png/375px-0215Sneasel.png",
+			"https://archives.bulbagarden.net/media/upload/1/1e/215Sneasel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)",
 	},
@@ -7212,7 +7212,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/90/0215Sneasel-Hisui.png/180px-0215Sneasel-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/3/30/215Sneasel-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)",
 	},
@@ -7240,7 +7240,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/11/0216Teddiursa.png/375px-0216Teddiursa.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/216Teddiursa_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon)",
 	},
@@ -7269,7 +7269,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d7/0217Ursaring.png/375px-0217Ursaring.png",
+			"https://archives.bulbagarden.net/media/upload/1/12/217Ursaring_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ursaring_(Pok%C3%A9mon)",
 	},
@@ -7297,7 +7297,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0218Slugma.png/375px-0218Slugma.png",
+			"https://archives.bulbagarden.net/media/upload/5/5c/218Slugma_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)",
 	},
@@ -7325,7 +7325,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0219Magcargo.png/375px-0219Magcargo.png",
+			"https://archives.bulbagarden.net/media/upload/e/e3/219Magcargo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)",
 	},
@@ -7353,7 +7353,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0220Swinub.png/375px-0220Swinub.png",
+			"https://archives.bulbagarden.net/media/upload/2/2c/220Swinub_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swinub_(Pok%C3%A9mon)",
 	},
@@ -7381,7 +7381,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3e/0221Piloswine.png/375px-0221Piloswine.png",
+			"https://archives.bulbagarden.net/media/upload/5/5d/221Piloswine_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Piloswine_(Pok%C3%A9mon)",
 	},
@@ -7409,7 +7409,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0222Corsola.png/375px-0222Corsola.png",
+			"https://archives.bulbagarden.net/media/upload/c/c7/222Corsola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon)",
 	},
@@ -7437,7 +7437,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bf/0222Corsola-Galar.png/180px-0222Corsola-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/9/9f/222Corsola_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon)",
 	},
@@ -7465,7 +7465,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0223Remoraid.png/375px-0223Remoraid.png",
+			"https://archives.bulbagarden.net/media/upload/b/b7/223Remoraid_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Remoraid_(Pok%C3%A9mon)",
 	},
@@ -7493,7 +7493,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e4/0224Octillery.png/375px-0224Octillery.png",
+			"https://archives.bulbagarden.net/media/upload/6/6f/224Octillery_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Octillery_(Pok%C3%A9mon)",
 	},
@@ -7521,7 +7521,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0225Delibird.png/375px-0225Delibird.png",
+			"https://archives.bulbagarden.net/media/upload/4/40/225Delibird_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon)",
 	},
@@ -7549,7 +7549,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/49/0226Mantine.png/375px-0226Mantine.png",
+			"https://archives.bulbagarden.net/media/upload/2/2e/226Mantine_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mantine_(Pok%C3%A9mon)",
 	},
@@ -7577,7 +7577,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a9/0227Skarmory.png/375px-0227Skarmory.png",
+			"https://archives.bulbagarden.net/media/upload/2/2b/227Skarmory_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)",
 	},
@@ -7605,7 +7605,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0228Houndour.png/375px-0228Houndour.png",
+			"https://archives.bulbagarden.net/media/upload/4/4f/228Houndour_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Houndour_(Pok%C3%A9mon)",
 	},
@@ -7633,7 +7633,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/05/0229Houndoom.png/375px-0229Houndoom.png",
+			"https://archives.bulbagarden.net/media/upload/9/9a/229Houndoom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)",
 	},
@@ -7661,7 +7661,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/0230Kingdra.png/375px-0230Kingdra.png",
+			"https://archives.bulbagarden.net/media/upload/b/b1/230Kingdra_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kingdra_(Pok%C3%A9mon)",
 	},
@@ -7689,7 +7689,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1e/0231Phanpy.png/375px-0231Phanpy.png",
+			"https://archives.bulbagarden.net/media/upload/c/cd/231Phanpy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Phanpy_(Pok%C3%A9mon)",
 	},
@@ -7718,7 +7718,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/44/0232Donphan.png/375px-0232Donphan.png",
+			"https://archives.bulbagarden.net/media/upload/f/fd/232Donphan_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Donphan_(Pok%C3%A9mon)",
 	},
@@ -7746,7 +7746,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b8/0233Porygon2.png/375px-0233Porygon2.png",
+			"https://archives.bulbagarden.net/media/upload/3/31/233Porygon2_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon2_(Pok%C3%A9mon)",
 	},
@@ -7774,7 +7774,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c4/0234Stantler.png/375px-0234Stantler.png",
+			"https://archives.bulbagarden.net/media/upload/0/05/234Stantler_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stantler_(Pok%C3%A9mon)",
 	},
@@ -7802,7 +7802,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0235Smeargle.png/375px-0235Smeargle.png",
+			"https://archives.bulbagarden.net/media/upload/d/d1/235Smeargle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)",
 	},
@@ -7830,7 +7830,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e5/0236Tyrogue.png/375px-0236Tyrogue.png",
+			"https://archives.bulbagarden.net/media/upload/7/7e/236Tyrogue_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyrogue_(Pok%C3%A9mon)",
 	},
@@ -7858,7 +7858,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/13/0237Hitmontop.png/375px-0237Hitmontop.png",
+			"https://archives.bulbagarden.net/media/upload/7/73/237Hitmontop_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmontop_(Pok%C3%A9mon)",
 	},
@@ -7886,7 +7886,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c9/0238Smoochum.png/375px-0238Smoochum.png",
+			"https://archives.bulbagarden.net/media/upload/7/76/238Smoochum_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Smoochum_(Pok%C3%A9mon)",
 	},
@@ -7914,7 +7914,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/93/0239Elekid.png/375px-0239Elekid.png",
+			"https://archives.bulbagarden.net/media/upload/5/51/239Elekid_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Elekid_(Pok%C3%A9mon)",
 	},
@@ -7942,7 +7942,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/00/0240Magby.png/375px-0240Magby.png",
+			"https://archives.bulbagarden.net/media/upload/9/9a/240Magby_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magby_(Pok%C3%A9mon)",
 	},
@@ -7970,7 +7970,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d5/0241Miltank.png/375px-0241Miltank.png",
+			"https://archives.bulbagarden.net/media/upload/2/29/241Miltank_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Miltank_(Pok%C3%A9mon)",
 	},
@@ -7998,7 +7998,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/54/0242Blissey.png/375px-0242Blissey.png",
+			"https://archives.bulbagarden.net/media/upload/1/1d/242Blissey_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blissey_(Pok%C3%A9mon)",
 	},
@@ -8026,7 +8026,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/48/0243Raikou.png/375px-0243Raikou.png",
+			"https://archives.bulbagarden.net/media/upload/d/da/243Raikou_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pok%C3%A9mon)",
 	},
@@ -8054,7 +8054,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/0244Entei.png/375px-0244Entei.png",
+			"https://archives.bulbagarden.net/media/upload/c/ca/244Entei_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Entei_(Pok%C3%A9mon)",
 	},
@@ -8082,7 +8082,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/dc/0245Suicune.png/375px-0245Suicune.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/245Suicune_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)",
 	},
@@ -8110,7 +8110,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/95/0246Larvitar.png/375px-0246Larvitar.png",
+			"https://archives.bulbagarden.net/media/upload/b/b5/246Larvitar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Larvitar_(Pok%C3%A9mon)",
 	},
@@ -8138,7 +8138,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/88/0247Pupitar.png/375px-0247Pupitar.png",
+			"https://archives.bulbagarden.net/media/upload/b/be/247Pupitar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pupitar_(Pok%C3%A9mon)",
 	},
@@ -8166,7 +8166,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0248Tyranitar.png/375px-0248Tyranitar.png",
+			"https://archives.bulbagarden.net/media/upload/4/4b/248Tyranitar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon)",
 	},
@@ -8194,8 +8194,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e2/0249Lugia.png/375px-0249Lugia.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/71/249Lugia-Shadow_XD_2.png/180px-249Lugia-Shadow_XD_2.png",
+			"https://archives.bulbagarden.net/media/upload/b/bd/249Lugia_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
 	},
@@ -8223,7 +8222,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/02/0250Ho-Oh.png/375px-0250Ho-Oh.png",
+			"https://archives.bulbagarden.net/media/upload/5/5f/250Ho-Oh_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)",
 	},
@@ -8251,7 +8250,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3f/0251Celebi.png/375px-0251Celebi.png",
+			"https://archives.bulbagarden.net/media/upload/a/af/251Celebi_Dream_3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)",
 	},
@@ -8279,7 +8278,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/90/0252Treecko.png/375px-0252Treecko.png",
+			"https://archives.bulbagarden.net/media/upload/6/67/252Treecko_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Treecko_(Pok%C3%A9mon)",
 	},
@@ -8307,7 +8306,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0253Grovyle.png/375px-0253Grovyle.png",
+			"https://archives.bulbagarden.net/media/upload/4/4e/253Grovyle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grovyle_(Pok%C3%A9mon)",
 	},
@@ -8335,7 +8334,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0254Sceptile.png/375px-0254Sceptile.png",
+			"https://archives.bulbagarden.net/media/upload/6/6d/254Sceptile_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sceptile_(Pok%C3%A9mon)",
 	},
@@ -8363,7 +8362,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7d/0255Torchic.png/375px-0255Torchic.png",
+			"https://archives.bulbagarden.net/media/upload/5/54/255Torchic_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon)",
 	},
@@ -8391,7 +8390,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/78/0256Combusken.png/375px-0256Combusken.png",
+			"https://archives.bulbagarden.net/media/upload/c/ce/256Combusken_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Combusken_(Pok%C3%A9mon)",
 	},
@@ -8419,7 +8418,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0257Blaziken.png/375px-0257Blaziken.png",
+			"https://archives.bulbagarden.net/media/upload/1/1e/257Blaziken_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blaziken_(Pok%C3%A9mon)",
 	},
@@ -8447,7 +8446,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/26/0258Mudkip.png/375px-0258Mudkip.png",
+			"https://archives.bulbagarden.net/media/upload/7/70/258Mudkip_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pok%C3%A9mon)",
 	},
@@ -8475,7 +8474,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0259Marshtomp.png/375px-0259Marshtomp.png",
+			"https://archives.bulbagarden.net/media/upload/6/61/259Marshtomp_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marshtomp_(Pok%C3%A9mon)",
 	},
@@ -8503,7 +8502,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/34/0260Swampert.png/375px-0260Swampert.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/260Swampert_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon)",
 	},
@@ -8531,7 +8530,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/21/0261Poochyena.png/375px-0261Poochyena.png",
+			"https://archives.bulbagarden.net/media/upload/5/53/261Poochyena_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poochyena_(Pok%C3%A9mon)",
 	},
@@ -8559,7 +8558,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0262Mightyena.png/375px-0262Mightyena.png",
+			"https://archives.bulbagarden.net/media/upload/4/47/262Mightyena_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mightyena_(Pok%C3%A9mon)",
 	},
@@ -8587,7 +8586,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0263Zigzagoon.png/375px-0263Zigzagoon.png",
+			"https://archives.bulbagarden.net/media/upload/2/27/263Zigzagoon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zigzagoon_(Pok%C3%A9mon)",
 	},
@@ -8615,7 +8614,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/00/0263Zigzagoon-Galar.png/165px-0263Zigzagoon-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/8/86/263Zigzagoon_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zigzagoon_(Pok%C3%A9mon)",
 	},
@@ -8643,7 +8642,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bb/0264Linoone.png/375px-0264Linoone.png",
+			"https://archives.bulbagarden.net/media/upload/9/9e/264Linoone_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Linoone_(Pok%C3%A9mon)",
 	},
@@ -8672,7 +8671,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/37/0264Linoone-Galar.png/165px-0264Linoone-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/3/3d/264Linoone_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Linoone_(Pok%C3%A9mon)",
 	},
@@ -8700,7 +8699,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/34/0265Wurmple.png/375px-0265Wurmple.png",
+			"https://archives.bulbagarden.net/media/upload/e/ef/265Wurmple_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wurmple_(Pok%C3%A9mon)",
 	},
@@ -8728,7 +8727,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9d/0266Silcoon.png/375px-0266Silcoon.png",
+			"https://archives.bulbagarden.net/media/upload/b/bc/266Silcoon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Silcoon_(Pok%C3%A9mon)",
 	},
@@ -8756,7 +8755,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/73/0267Beautifly.png/375px-0267Beautifly.png",
+			"https://archives.bulbagarden.net/media/upload/a/a7/267Beautifly_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beautifly_(Pok%C3%A9mon)",
 	},
@@ -8784,7 +8783,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c6/0268Cascoon.png/375px-0268Cascoon.png",
+			"https://archives.bulbagarden.net/media/upload/5/5b/268Cascoon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cascoon_(Pok%C3%A9mon)",
 	},
@@ -8812,7 +8811,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/49/0269Dustox.png/375px-0269Dustox.png",
+			"https://archives.bulbagarden.net/media/upload/6/6a/269Dustox_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dustox_(Pok%C3%A9mon)",
 	},
@@ -8840,7 +8839,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5f/0270Lotad.png/375px-0270Lotad.png",
+			"https://archives.bulbagarden.net/media/upload/8/86/270Lotad_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lotad_(Pok%C3%A9mon)",
 	},
@@ -8868,7 +8867,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/0271Lombre.png/375px-0271Lombre.png",
+			"https://archives.bulbagarden.net/media/upload/e/e9/271Lombre_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lombre_(Pok%C3%A9mon)",
 	},
@@ -8896,7 +8895,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/63/0272Ludicolo.png/375px-0272Ludicolo.png",
+			"https://archives.bulbagarden.net/media/upload/3/30/272Ludicolo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ludicolo_(Pok%C3%A9mon)",
 	},
@@ -8924,7 +8923,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/13/0273Seedot.png/375px-0273Seedot.png",
+			"https://archives.bulbagarden.net/media/upload/c/c0/273Seedot_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seedot_(Pok%C3%A9mon)",
 	},
@@ -8952,7 +8951,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a3/0274Nuzleaf.png/375px-0274Nuzleaf.png",
+			"https://archives.bulbagarden.net/media/upload/b/bb/274Nuzleaf_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nuzleaf_(Pok%C3%A9mon)",
 	},
@@ -8980,7 +8979,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/43/0275Shiftry.png/375px-0275Shiftry.png",
+			"https://archives.bulbagarden.net/media/upload/2/22/275Shiftry_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shiftry_(Pok%C3%A9mon)",
 	},
@@ -9008,7 +9007,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/aa/0276Taillow.png/375px-0276Taillow.png",
+			"https://archives.bulbagarden.net/media/upload/2/2c/276Taillow_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Taillow_(Pok%C3%A9mon)",
 	},
@@ -9036,7 +9035,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0277Swellow.png/375px-0277Swellow.png",
+			"https://archives.bulbagarden.net/media/upload/5/50/277Swellow_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swellow_(Pok%C3%A9mon)",
 	},
@@ -9064,7 +9063,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0278Wingull.png/375px-0278Wingull.png",
+			"https://archives.bulbagarden.net/media/upload/1/10/278Wingull_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wingull_(Pok%C3%A9mon)",
 	},
@@ -9092,7 +9091,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/af/0279Pelipper.png/375px-0279Pelipper.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/279Pelipper_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon)",
 	},
@@ -9120,7 +9119,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0280Ralts.png/375px-0280Ralts.png",
+			"https://archives.bulbagarden.net/media/upload/5/53/280Ralts_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ralts_(Pok%C3%A9mon)",
 	},
@@ -9148,7 +9147,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/64/0281Kirlia.png/375px-0281Kirlia.png",
+			"https://archives.bulbagarden.net/media/upload/5/51/281Kirlia_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kirlia_(Pok%C3%A9mon)",
 	},
@@ -9176,7 +9175,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0282Gardevoir.png/375px-0282Gardevoir.png",
+			"https://archives.bulbagarden.net/media/upload/b/b6/282Gardevoir_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pok%C3%A9mon)",
 	},
@@ -9204,7 +9203,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c4/0283Surskit.png/375px-0283Surskit.png",
+			"https://archives.bulbagarden.net/media/upload/b/b8/283Surskit_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Surskit_(Pok%C3%A9mon)",
 	},
@@ -9232,7 +9231,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/68/0284Masquerain.png/375px-0284Masquerain.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/284Masquerain_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Masquerain_(Pok%C3%A9mon)",
 	},
@@ -9260,7 +9259,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0285Shroomish.png/375px-0285Shroomish.png",
+			"https://archives.bulbagarden.net/media/upload/0/02/285Shroomish_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shroomish_(Pok%C3%A9mon)",
 	},
@@ -9288,7 +9287,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ee/0286Breloom.png/375px-0286Breloom.png",
+			"https://archives.bulbagarden.net/media/upload/7/70/286Breloom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Breloom_(Pok%C3%A9mon)",
 	},
@@ -9316,7 +9315,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/61/0287Slakoth.png/375px-0287Slakoth.png",
+			"https://archives.bulbagarden.net/media/upload/c/c8/287Slakoth_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slakoth_(Pok%C3%A9mon)",
 	},
@@ -9344,7 +9343,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/76/0288Vigoroth.png/375px-0288Vigoroth.png",
+			"https://archives.bulbagarden.net/media/upload/9/9a/288Vigoroth_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vigoroth_(Pok%C3%A9mon)",
 	},
@@ -9372,7 +9371,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0289Slaking.png/375px-0289Slaking.png",
+			"https://archives.bulbagarden.net/media/upload/4/4e/289Slaking_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slaking_(Pok%C3%A9mon)",
 	},
@@ -9400,7 +9399,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5f/0290Nincada.png/375px-0290Nincada.png",
+			"https://archives.bulbagarden.net/media/upload/c/c4/290Nincada_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nincada_(Pok%C3%A9mon)",
 	},
@@ -9428,7 +9427,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0291Ninjask.png/375px-0291Ninjask.png",
+			"https://archives.bulbagarden.net/media/upload/e/ee/291Ninjask_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninjask_(Pok%C3%A9mon)",
 	},
@@ -9456,7 +9455,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ad/0292Shedinja.png/375px-0292Shedinja.png",
+			"https://archives.bulbagarden.net/media/upload/a/a7/292Shedinja_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon)",
 	},
@@ -9484,7 +9483,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0293Whismur.png/375px-0293Whismur.png",
+			"https://archives.bulbagarden.net/media/upload/d/df/293Whismur_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whismur_(Pok%C3%A9mon)",
 	},
@@ -9512,7 +9511,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b2/0294Loudred.png/375px-0294Loudred.png",
+			"https://archives.bulbagarden.net/media/upload/7/78/294Loudred_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Loudred_(Pok%C3%A9mon)",
 	},
@@ -9540,7 +9539,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a2/0295Exploud.png/375px-0295Exploud.png",
+			"https://archives.bulbagarden.net/media/upload/1/19/295Exploud_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exploud_(Pok%C3%A9mon)",
 	},
@@ -9567,8 +9566,9 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
-		sprite:
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ea/0296Makuhita.png/375px-0296Makuhita.png",
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/e4/296Makuhita_Dream_2.png",
+		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Makuhita_(Pok%C3%A9mon)",
 	},
 	{
@@ -9595,7 +9595,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/08/0297Hariyama.png/375px-0297Hariyama.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/297Hariyama_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hariyama_(Pok%C3%A9mon)",
 	},
@@ -9623,7 +9623,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/75/0298Azurill.png/375px-0298Azurill.png",
+			"https://archives.bulbagarden.net/media/upload/3/31/298Azurill_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azurill_(Pok%C3%A9mon)",
 	},
@@ -9651,7 +9651,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6c/0299Nosepass.png/375px-0299Nosepass.png",
+			"https://archives.bulbagarden.net/media/upload/5/5c/299Nosepass_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nosepass_(Pok%C3%A9mon)",
 	},
@@ -9679,7 +9679,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/75/0300Skitty.png/375px-0300Skitty.png",
+			"https://archives.bulbagarden.net/media/upload/3/37/300Skitty_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skitty_(Pok%C3%A9mon)",
 	},
@@ -9707,7 +9707,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d4/0301Delcatty.png/375px-0301Delcatty.png",
+			"https://archives.bulbagarden.net/media/upload/2/2a/301Delcatty_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Delcatty_(Pok%C3%A9mon)",
 	},
@@ -9736,7 +9736,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/98/0302Sableye.png/375px-0302Sableye.png",
+			"https://archives.bulbagarden.net/media/upload/e/ed/302Sableye_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)",
 	},
@@ -9765,7 +9765,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/77/0303Mawile.png/375px-0303Mawile.png",
+			"https://archives.bulbagarden.net/media/upload/3/3f/303Mawile_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mawile_(Pok%C3%A9mon)",
 	},
@@ -9793,7 +9793,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/38/0304Aron.png/375px-0304Aron.png",
+			"https://archives.bulbagarden.net/media/upload/1/13/304Aron_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aron_(Pok%C3%A9mon)",
 	},
@@ -9821,7 +9821,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/20/0305Lairon.png/375px-0305Lairon.png",
+			"https://archives.bulbagarden.net/media/upload/0/09/305Lairon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lairon_(Pok%C3%A9mon)",
 	},
@@ -9849,7 +9849,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1e/0306Aggron.png/375px-0306Aggron.png",
+			"https://archives.bulbagarden.net/media/upload/6/69/306Aggron_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aggron_(Pok%C3%A9mon)",
 	},
@@ -9877,7 +9877,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6e/0307Meditite.png/375px-0307Meditite.png",
+			"https://archives.bulbagarden.net/media/upload/a/a2/307Meditite_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meditite_(Pok%C3%A9mon)",
 	},
@@ -9905,7 +9905,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a6/0308Medicham.png/375px-0308Medicham.png",
+			"https://archives.bulbagarden.net/media/upload/e/e9/308Medicham_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Medicham_(Pok%C3%A9mon)",
 	},
@@ -9933,7 +9933,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/40/0309Electrike.png/375px-0309Electrike.png",
+			"https://archives.bulbagarden.net/media/upload/a/a7/309Electrike_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrike_(Pok%C3%A9mon)",
 	},
@@ -9961,7 +9961,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a0/0310Manectric.png/375px-0310Manectric.png",
+			"https://archives.bulbagarden.net/media/upload/b/bb/310Manectric_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Manectric_(Pok%C3%A9mon)",
 	},
@@ -9989,7 +9989,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3b/0311Plusle.png/375px-0311Plusle.png",
+			"https://archives.bulbagarden.net/media/upload/4/4a/311Plusle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Plusle_(Pok%C3%A9mon)",
 	},
@@ -10017,7 +10017,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a9/0312Minun.png/375px-0312Minun.png",
+			"https://archives.bulbagarden.net/media/upload/b/be/312Minun_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Minun_(Pok%C3%A9mon)",
 	},
@@ -10045,7 +10045,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0313Volbeat.png/375px-0313Volbeat.png",
+			"https://archives.bulbagarden.net/media/upload/0/0c/313Volbeat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
 	},
@@ -10073,7 +10073,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6f/0314Illumise.png/375px-0314Illumise.png",
+			"https://archives.bulbagarden.net/media/upload/7/71/314Illumise_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Illumise_(Pok%C3%A9mon)",
 	},
@@ -10101,7 +10101,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cf/0315Roselia.png/375px-0315Roselia.png",
+			"https://archives.bulbagarden.net/media/upload/8/87/315Roselia_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Roselia_(Pok%C3%A9mon)",
 	},
@@ -10129,7 +10129,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5c/0316Gulpin.png/375px-0316Gulpin.png",
+			"https://archives.bulbagarden.net/media/upload/8/8e/316Gulpin_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gulpin_(Pok%C3%A9mon)",
 	},
@@ -10157,7 +10157,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/79/0317Swalot.png/375px-0317Swalot.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/317Swalot_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swalot_(Pok%C3%A9mon)",
 	},
@@ -10185,7 +10185,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e1/0318Carvanha.png/375px-0318Carvanha.png",
+			"https://archives.bulbagarden.net/media/upload/5/50/318Carvanha_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carvanha_(Pok%C3%A9mon)",
 	},
@@ -10213,7 +10213,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/0319Sharpedo.png/375px-0319Sharpedo.png",
+			"https://archives.bulbagarden.net/media/upload/2/2f/319Sharpedo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon)",
 	},
@@ -10242,7 +10242,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0c/0320Wailmer.png/375px-0320Wailmer.png",
+			"https://archives.bulbagarden.net/media/upload/8/85/320Wailmer_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wailmer_(Pok%C3%A9mon)",
 	},
@@ -10270,7 +10270,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0321Wailord.png/375px-0321Wailord.png",
+			"https://archives.bulbagarden.net/media/upload/6/66/321Wailord_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wailord_(Pok%C3%A9mon)",
 	},
@@ -10298,7 +10298,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/da/0322Numel.png/375px-0322Numel.png",
+			"https://archives.bulbagarden.net/media/upload/4/4a/322Numel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Numel_(Pok%C3%A9mon)",
 	},
@@ -10326,7 +10326,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5d/0323Camerupt.png/375px-0323Camerupt.png",
+			"https://archives.bulbagarden.net/media/upload/0/0e/323Camerupt_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Camerupt_(Pok%C3%A9mon)",
 	},
@@ -10354,7 +10354,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0324Torkoal.png/375px-0324Torkoal.png",
+			"https://archives.bulbagarden.net/media/upload/1/15/324Torkoal_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torkoal_(Pok%C3%A9mon)",
 	},
@@ -10382,7 +10382,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2e/0325Spoink.png/375px-0325Spoink.png",
+			"https://archives.bulbagarden.net/media/upload/8/81/325Spoink_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)",
 	},
@@ -10410,7 +10410,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e5/0326Grumpig.png/375px-0326Grumpig.png",
+			"https://archives.bulbagarden.net/media/upload/8/8a/326Grumpig_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grumpig_(Pok%C3%A9mon)",
 	},
@@ -10438,7 +10438,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0327Spinda.png/375px-0327Spinda.png",
+			"https://archives.bulbagarden.net/media/upload/6/6b/327Spinda_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spinda_(Pok%C3%A9mon)",
 	},
@@ -10466,7 +10466,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0328Trapinch.png/375px-0328Trapinch.png",
+			"https://archives.bulbagarden.net/media/upload/a/ae/328Trapinch_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Trapinch_(Pok%C3%A9mon)",
 	},
@@ -10494,7 +10494,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4b/0329Vibrava.png/375px-0329Vibrava.png",
+			"https://archives.bulbagarden.net/media/upload/5/51/329Vibrava_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vibrava_(Pok%C3%A9mon)",
 	},
@@ -10522,7 +10522,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4a/0330Flygon.png/375px-0330Flygon.png",
+			"https://archives.bulbagarden.net/media/upload/a/a8/330Flygon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flygon_(Pok%C3%A9mon)",
 	},
@@ -10550,7 +10550,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/0331Cacnea.png/375px-0331Cacnea.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/331Cacnea_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cacnea_(Pok%C3%A9mon)",
 	},
@@ -10578,7 +10578,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0332Cacturne.png/375px-0332Cacturne.png",
+			"https://archives.bulbagarden.net/media/upload/2/26/332Cacturne_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cacturne_(Pok%C3%A9mon)",
 	},
@@ -10606,7 +10606,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cd/0333Swablu.png/375px-0333Swablu.png",
+			"https://archives.bulbagarden.net/media/upload/a/a1/333Swablu_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon)",
 	},
@@ -10634,7 +10634,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b2/0334Altaria.png/375px-0334Altaria.png",
+			"https://archives.bulbagarden.net/media/upload/e/e1/334Altaria_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)",
 	},
@@ -10662,7 +10662,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/93/0335Zangoose.png/375px-0335Zangoose.png",
+			"https://archives.bulbagarden.net/media/upload/0/03/335Zangoose_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zangoose_(Pok%C3%A9mon)",
 	},
@@ -10690,7 +10690,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0336Seviper.png/375px-0336Seviper.png",
+			"https://archives.bulbagarden.net/media/upload/0/03/336Seviper_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seviper_(Pok%C3%A9mon)",
 	},
@@ -10718,7 +10718,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0337Lunatone.png/375px-0337Lunatone.png",
+			"https://archives.bulbagarden.net/media/upload/1/10/337Lunatone_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lunatone_(Pok%C3%A9mon)",
 	},
@@ -10746,7 +10746,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/13/0338Solrock.png/375px-0338Solrock.png",
+			"https://archives.bulbagarden.net/media/upload/7/7f/338Solrock_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Solrock_(Pok%C3%A9mon)",
 	},
@@ -10775,7 +10775,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6f/0339Barboach.png/375px-0339Barboach.png",
+			"https://archives.bulbagarden.net/media/upload/0/00/339Barboach_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Barboach_(Pok%C3%A9mon)",
 	},
@@ -10803,7 +10803,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0340Whiscash.png/375px-0340Whiscash.png",
+			"https://archives.bulbagarden.net/media/upload/a/af/340Whiscash_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whiscash_(Pok%C3%A9mon)",
 	},
@@ -10831,7 +10831,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/93/0341Corphish.png/375px-0341Corphish.png",
+			"https://archives.bulbagarden.net/media/upload/4/43/341Corphish_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corphish_(Pok%C3%A9mon)",
 	},
@@ -10859,7 +10859,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/48/0342Crawdaunt.png/375px-0342Crawdaunt.png",
+			"https://archives.bulbagarden.net/media/upload/9/92/342Crawdaunt_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Crawdaunt_(Pok%C3%A9mon)",
 	},
@@ -10887,7 +10887,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/62/0343Baltoy.png/375px-0343Baltoy.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/343Baltoy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Baltoy_(Pok%C3%A9mon)",
 	},
@@ -10915,7 +10915,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/39/0344Claydol.png/375px-0344Claydol.png",
+			"https://archives.bulbagarden.net/media/upload/8/81/344Claydol_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Claydol_(Pok%C3%A9mon)",
 	},
@@ -10943,7 +10943,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/06/0345Lileep.png/375px-0345Lileep.png",
+			"https://archives.bulbagarden.net/media/upload/f/f6/345Lileep_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lileep_(Pok%C3%A9mon)",
 	},
@@ -10971,7 +10971,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ee/0346Cradily.png/375px-0346Cradily.png",
+			"https://archives.bulbagarden.net/media/upload/8/84/346Cradily_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cradily_(Pok%C3%A9mon)",
 	},
@@ -10999,7 +10999,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c8/0347Anorith.png/375px-0347Anorith.png",
+			"https://archives.bulbagarden.net/media/upload/3/3c/347Anorith_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Anorith_(Pok%C3%A9mon)",
 	},
@@ -11027,7 +11027,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/15/0348Armaldo.png/375px-0348Armaldo.png",
+			"https://archives.bulbagarden.net/media/upload/e/e3/348Armaldo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Armaldo_(Pok%C3%A9mon)",
 	},
@@ -11055,7 +11055,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/af/0349Feebas.png/375px-0349Feebas.png",
+			"https://archives.bulbagarden.net/media/upload/2/23/349Feebas_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)",
 	},
@@ -11083,7 +11083,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0350Milotic.png/375px-0350Milotic.png",
+			"https://archives.bulbagarden.net/media/upload/f/f8/350Milotic_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Milotic_(Pok%C3%A9mon)",
 	},
@@ -11105,13 +11105,14 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
-		obtencao: "Laboratório de Meteorologia",
+		obtencao:
+			"Laboratório de Meteorologia; e, durante a batalha, o tempo estar limpo, com neblina, com tempestade de areia, ou com shadowy aura",
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/ff/0351Castform.png/375px-0351Castform.png",
+			"https://archives.bulbagarden.net/media/upload/1/14/351Castform_Normal_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -11133,13 +11134,14 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
-		obtencao: "Laboratório de Meteorologia",
+		obtencao:
+			"Laboratório de Meteorologia; e, durante a batalha, o clima ser de sol forte",
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/90/0351Castform-Sunny.png",
+			"https://archives.bulbagarden.net/media/upload/7/7a/351Castform_Sunny_Form_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -11161,13 +11163,14 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
-		obtencao: "Laboratório de Meteorologia",
+		obtencao:
+			"Laboratório de Meteorologia; e, durante a batalha, estar chovendo",
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ab/0351Castform-Rainy.png/165px-0351Castform-Rainy.png",
+			"https://archives.bulbagarden.net/media/upload/b/b2/351Castform_Rainy_Form_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -11189,13 +11192,14 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
-		obtencao: "Laboratório de Meteorologia",
+		obtencao:
+			"Laboratório de Meteorologia; e, durante a batalha; estar chovendo granizo",
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/34/0351Castform-Snowy.png",
+			"https://archives.bulbagarden.net/media/upload/3/3d/351Castform_Snowy_Form_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -11223,7 +11227,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/0352Kecleon.png/375px-0352Kecleon.png",
+			"https://archives.bulbagarden.net/media/upload/8/80/352Kecleon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kecleon_(Pok%C3%A9mon)",
 	},
@@ -11245,13 +11249,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cresce se alimentando de emoções negativas, como vingança e inveja, nos corações das pessoas. Vagueia pelas cidades a procura de rancores que mancham as pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fantoche",
-		obtencao: "Rotas 121, e 123; e Monta da Pira",
+		obtencao: "Rotas 121, e 123; e Monte da Pira",
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5d/0353Shuppet.png/375px-0353Shuppet.png",
+			"https://archives.bulbagarden.net/media/upload/7/74/353Shuppet_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shuppet_(Pok%C3%A9mon)",
 	},
@@ -11279,7 +11283,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0354Banette.png/375px-0354Banette.png",
+			"https://archives.bulbagarden.net/media/upload/5/53/354Banette_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Banette_(Pok%C3%A9mon)",
 	},
@@ -11301,13 +11305,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue atravessar qualquer parede não importando quão grossa possa ser. Uma vez que escolhe um alvo, persegue obstinadamente a vítima até o amanhecer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Réquiem",
-		obtencao: "Rotas 121, e 123; e Monta da Pira",
+		obtencao: "Rotas 121, e 123; e Monte da Pira",
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f6/0355Duskull.png/375px-0355Duskull.png",
+			"https://archives.bulbagarden.net/media/upload/3/37/355Duskull_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Duskull_(Pok%C3%A9mon)",
 	},
@@ -11335,7 +11339,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0e/0356Dusclops.png/375px-0356Dusclops.png",
+			"https://archives.bulbagarden.net/media/upload/c/c2/356Dusclops_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dusclops_(Pok%C3%A9mon)",
 	},
@@ -11363,7 +11367,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3c/0357Tropius.png/375px-0357Tropius.png",
+			"https://archives.bulbagarden.net/media/upload/f/fe/357Tropius_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon)",
 	},
@@ -11391,7 +11395,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/55/0358Chimecho.png/375px-0358Chimecho.png",
+			"https://archives.bulbagarden.net/media/upload/f/f0/358Chimecho_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chimecho_(Pok%C3%A9mon)",
 	},
@@ -11419,7 +11423,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9b/0359Absol.png/375px-0359Absol.png",
+			"https://archives.bulbagarden.net/media/upload/a/aa/359Absol_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)",
 	},
@@ -11447,7 +11451,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/be/0360Wynaut.png/375px-0360Wynaut.png",
+			"https://archives.bulbagarden.net/media/upload/4/42/360Wynaut_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon)",
 	},
@@ -11475,7 +11479,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0c/0361Snorunt.png/375px-0361Snorunt.png",
+			"https://archives.bulbagarden.net/media/upload/8/88/361Snorunt_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snorunt_(Pok%C3%A9mon)",
 	},
@@ -11503,7 +11507,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/88/0362Glalie.png/375px-0362Glalie.png",
+			"https://archives.bulbagarden.net/media/upload/d/dc/362Glalie_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glalie_(Pok%C3%A9mon)",
 	},
@@ -11531,7 +11535,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6f/0363Spheal.png/375px-0363Spheal.png",
+			"https://archives.bulbagarden.net/media/upload/9/94/363Spheal_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spheal_(Pok%C3%A9mon)",
 	},
@@ -11559,7 +11563,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/36/0364Sealeo.png/375px-0364Sealeo.png",
+			"https://archives.bulbagarden.net/media/upload/7/7d/364Sealeo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sealeo_(Pok%C3%A9mon)",
 	},
@@ -11587,7 +11591,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0365Walrein.png/375px-0365Walrein.png",
+			"https://archives.bulbagarden.net/media/upload/8/83/365Walrein_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Walrein_(Pok%C3%A9mon)",
 	},
@@ -11615,7 +11619,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/af/0366Clamperl.png/375px-0366Clamperl.png",
+			"https://archives.bulbagarden.net/media/upload/d/d6/366Clamperl_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clamperl_(Pok%C3%A9mon)",
 	},
@@ -11643,7 +11647,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/0367Huntail.png/375px-0367Huntail.png",
+			"https://archives.bulbagarden.net/media/upload/0/05/367Huntail_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Huntail_(Pok%C3%A9mon)",
 	},
@@ -11671,7 +11675,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/87/0368Gorebyss.png/375px-0368Gorebyss.png",
+			"https://archives.bulbagarden.net/media/upload/6/6f/368Gorebyss_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gorebyss_(Pok%C3%A9mon)",
 	},
@@ -11699,7 +11703,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0369Relicanth.png/375px-0369Relicanth.png",
+			"https://archives.bulbagarden.net/media/upload/f/f2/369Relicanth_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Relicanth_(Pok%C3%A9mon)",
 	},
@@ -11727,7 +11731,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d4/0370Luvdisc.png/375px-0370Luvdisc.png",
+			"https://archives.bulbagarden.net/media/upload/c/c5/370Luvdisc_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Luvdisc_(Pok%C3%A9mon)",
 	},
@@ -11755,7 +11759,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4a/0371Bagon.png/375px-0371Bagon.png",
+			"https://archives.bulbagarden.net/media/upload/4/49/371Bagon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bagon_(Pok%C3%A9mon)",
 	},
@@ -11783,7 +11787,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cb/0372Shelgon.png/375px-0372Shelgon.png",
+			"https://archives.bulbagarden.net/media/upload/4/40/372Shelgon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shelgon_(Pok%C3%A9mon)",
 	},
@@ -11811,7 +11815,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8a/0373Salamence.png/375px-0373Salamence.png",
+			"https://archives.bulbagarden.net/media/upload/f/fb/373Salamence_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Salamence_(Pok%C3%A9mon)",
 	},
@@ -11839,7 +11843,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/aa/0374Beldum.png/375px-0374Beldum.png",
+			"https://archives.bulbagarden.net/media/upload/4/4e/374Beldum_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beldum_(Pok%C3%A9mon)",
 	},
@@ -11867,7 +11871,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/23/0375Metang.png/375px-0375Metang.png",
+			"https://archives.bulbagarden.net/media/upload/3/3a/375Metang_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metang_(Pok%C3%A9mon)",
 	},
@@ -11895,7 +11899,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fe/0376Metagross.png/375px-0376Metagross.png",
+			"https://archives.bulbagarden.net/media/upload/5/5c/376Metagross_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pok%C3%A9mon)",
 	},
@@ -11923,7 +11927,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9c/0377Regirock.png/375px-0377Regirock.png",
+			"https://archives.bulbagarden.net/media/upload/b/b2/377Regirock_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regirock_(Pok%C3%A9mon)",
 	},
@@ -11951,7 +11955,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1c/0378Regice.png/375px-0378Regice.png",
+			"https://archives.bulbagarden.net/media/upload/5/58/378Regice_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regice_(Pok%C3%A9mon)",
 	},
@@ -11979,7 +11983,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0379Registeel.png/375px-0379Registeel.png",
+			"https://archives.bulbagarden.net/media/upload/5/51/379Registeel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Registeel_(Pok%C3%A9mon)",
 	},
@@ -12007,7 +12011,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0380Latias.png/375px-0380Latias.png",
+			"https://archives.bulbagarden.net/media/upload/9/9f/380Latias_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Latias_(Pok%C3%A9mon)",
 	},
@@ -12035,7 +12039,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0381Latios.png/375px-0381Latios.png",
+			"https://archives.bulbagarden.net/media/upload/8/86/381Latios_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon)",
 	},
@@ -12063,7 +12067,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/51/0382Kyogre.png/375px-0382Kyogre.png",
+			"https://archives.bulbagarden.net/media/upload/d/dc/382Kyogre_Dream_5.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)",
 	},
@@ -12091,7 +12095,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/28/0383Groudon.png/375px-0383Groudon.png",
+			"https://archives.bulbagarden.net/media/upload/1/15/383Groudon_Dream_5.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)",
 	},
@@ -12119,7 +12123,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/80/0384Rayquaza.png/375px-0384Rayquaza.png",
+			"https://archives.bulbagarden.net/media/upload/b/b3/384Rayquaza_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)",
 	},
@@ -12147,7 +12151,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/61/0385Jirachi.png/375px-0385Jirachi.png",
+			"https://archives.bulbagarden.net/media/upload/f/fc/385Jirachi_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pok%C3%A9mon)",
 	},
@@ -12175,7 +12179,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d7/0386Deoxys.png/375px-0386Deoxys.png",
+			"https://archives.bulbagarden.net/media/upload/8/8b/386Deoxys_Normal_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -12203,7 +12207,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c6/0386Deoxys-Attack.png/165px-0386Deoxys-Attack.png",
+			"https://archives.bulbagarden.net/media/upload/1/1f/386Deoxys_Attack_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -12231,7 +12235,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/27/0386Deoxys-Defense.png/165px-0386Deoxys-Defense.png",
+			"https://archives.bulbagarden.net/media/upload/b/b9/386Deoxys_Defense_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -12259,7 +12263,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/17/0386Deoxys-Speed.png/165px-0386Deoxys-Speed.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/386Deoxys_Speed_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -12287,7 +12291,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/68/0387Turtwig.png/375px-0387Turtwig.png",
+			"https://archives.bulbagarden.net/media/upload/d/d5/387Turtwig_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)",
 	},
@@ -12315,7 +12319,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f8/0388Grotle.png/375px-0388Grotle.png",
+			"https://archives.bulbagarden.net/media/upload/4/40/388Grotle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon)",
 	},
@@ -12343,7 +12347,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0389Torterra.png/375px-0389Torterra.png",
+			"https://archives.bulbagarden.net/media/upload/c/cb/389Torterra_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)",
 	},
@@ -12371,7 +12375,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0390Chimchar.png/375px-0390Chimchar.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/390Chimchar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon)",
 	},
@@ -12399,7 +12403,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/52/0391Monferno.png/375px-0391Monferno.png",
+			"https://archives.bulbagarden.net/media/upload/c/c4/391Monferno_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Monferno_(Pok%C3%A9mon)",
 	},
@@ -12427,7 +12431,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0392Infernape.png/375px-0392Infernape.png",
+			"https://archives.bulbagarden.net/media/upload/3/3f/392Infernape_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon)",
 	},
@@ -12455,7 +12459,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0393Piplup.png/375px-0393Piplup.png",
+			"https://archives.bulbagarden.net/media/upload/3/3b/393Piplup_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon)",
 	},
@@ -12483,7 +12487,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0394Prinplup.png/375px-0394Prinplup.png",
+			"https://archives.bulbagarden.net/media/upload/9/9e/394Prinplup_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pok%C3%A9mon)",
 	},
@@ -12511,7 +12515,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0395Empoleon.png/375px-0395Empoleon.png",
+			"https://archives.bulbagarden.net/media/upload/a/a0/395Empoleon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)",
 	},
@@ -12539,7 +12543,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9b/0396Starly.png/375px-0396Starly.png",
+			"https://archives.bulbagarden.net/media/upload/e/e1/396Starly_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Starly_(Pok%C3%A9mon)",
 	},
@@ -12568,7 +12572,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/87/0397Staravia.png/375px-0397Staravia.png",
+			"https://archives.bulbagarden.net/media/upload/1/18/397Staravia_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staravia_(Pok%C3%A9mon)",
 	},
@@ -12596,7 +12600,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3c/0398Staraptor.png/375px-0398Staraptor.png",
+			"https://archives.bulbagarden.net/media/upload/e/e7/398Staraptor_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staraptor_(Pok%C3%A9mon)",
 	},
@@ -12625,7 +12629,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/70/0399Bidoof.png/375px-0399Bidoof.png",
+			"https://archives.bulbagarden.net/media/upload/8/8d/399Bidoof_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bidoof_(Pok%C3%A9mon)",
 	},
@@ -12654,7 +12658,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/dc/0400Bibarel.png/375px-0400Bibarel.png",
+			"https://archives.bulbagarden.net/media/upload/d/df/400Bibarel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bibarel_(Pok%C3%A9mon)",
 	},
@@ -12682,7 +12686,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0401Kricketot.png/375px-0401Kricketot.png",
+			"https://archives.bulbagarden.net/media/upload/4/4a/401Kricketot_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kricketot_(Pok%C3%A9mon)",
 	},
@@ -12711,7 +12715,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/11/0402Kricketune.png/375px-0402Kricketune.png",
+			"https://archives.bulbagarden.net/media/upload/d/df/402Kricketune_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kricketune_(Pok%C3%A9mon)",
 	},
@@ -12739,7 +12743,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/58/0403Shinx.png/375px-0403Shinx.png",
+			"https://archives.bulbagarden.net/media/upload/5/58/403Shinx_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shinx_(Pok%C3%A9mon)",
 	},
@@ -12767,7 +12771,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0f/0404Luxio.png/375px-0404Luxio.png",
+			"https://archives.bulbagarden.net/media/upload/6/66/404Luxio_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Luxio_(Pok%C3%A9mon)",
 	},
@@ -12795,7 +12799,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f4/0405Luxray.png/375px-0405Luxray.png",
+			"https://archives.bulbagarden.net/media/upload/1/1c/405Luxray_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Luxray_(Pok%C3%A9mon)",
 	},
@@ -12824,7 +12828,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f9/0406Budew.png/375px-0406Budew.png",
+			"https://archives.bulbagarden.net/media/upload/3/3f/406Budew_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Budew_(Pok%C3%A9mon)",
 	},
@@ -12852,7 +12856,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0407Roserade.png/375px-0407Roserade.png",
+			"https://archives.bulbagarden.net/media/upload/5/52/407Roserade_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Roserade_(Pok%C3%A9mon)",
 	},
@@ -12880,7 +12884,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/07/0408Cranidos.png/375px-0408Cranidos.png",
+			"https://archives.bulbagarden.net/media/upload/e/e3/408Cranidos_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cranidos_(Pok%C3%A9mon)",
 	},
@@ -12908,7 +12912,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/0409Rampardos.png/375px-0409Rampardos.png",
+			"https://archives.bulbagarden.net/media/upload/3/39/409Rampardos_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rampardos_(Pok%C3%A9mon)",
 	},
@@ -12936,7 +12940,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/11/0410Shieldon.png/375px-0410Shieldon.png",
+			"https://archives.bulbagarden.net/media/upload/5/52/410Shieldon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shieldon_(Pok%C3%A9mon)",
 	},
@@ -12964,7 +12968,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0411Bastiodon.png/375px-0411Bastiodon.png",
+			"https://archives.bulbagarden.net/media/upload/a/a8/411Bastiodon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bastiodon_(Pok%C3%A9mon)",
 	},
@@ -12993,9 +12997,9 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0412Burmy-Plant.png/375px-0412Burmy-Plant.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ee/0412Burmy-Sandy.png/165px-0412Burmy-Sandy.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0412Burmy-Trash.png/165px-0412Burmy-Trash.png",
+			"https://archives.bulbagarden.net/media/upload/3/3a/412Burmy_Plant_Cloak_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/60/412Burmy_Sandy_Cloak_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/5/51/412Burmy_Trash_Cloak_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon)",
 	},
@@ -13023,7 +13027,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ee/0413Wormadam-Plant.png/375px-0413Wormadam-Plant.png",
+			"https://archives.bulbagarden.net/media/upload/b/bb/413Wormadam_Plant_Cloak_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
 	},
@@ -13051,7 +13055,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0413Wormadam-Sandy.png/165px-0413Wormadam-Sandy.png",
+			"https://archives.bulbagarden.net/media/upload/b/bd/413Wormadam_Sandy_Cloak_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
 	},
@@ -13079,7 +13083,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/25/0413Wormadam-Trash.png/165px-0413Wormadam-Trash.png",
+			"https://archives.bulbagarden.net/media/upload/3/30/413Wormadam_Trash_Cloak_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
 	},
@@ -13107,7 +13111,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0414Mothim.png/375px-0414Mothim.png",
+			"https://archives.bulbagarden.net/media/upload/6/6d/414Mothim_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mothim_(Pok%C3%A9mon)",
 	},
@@ -13136,7 +13140,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/30/0415Combee.png/375px-0415Combee.png",
+			"https://archives.bulbagarden.net/media/upload/8/8c/415Combee_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Combee_(Pok%C3%A9mon)",
 	},
@@ -13164,7 +13168,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6c/0416Vespiquen.png/375px-0416Vespiquen.png",
+			"https://archives.bulbagarden.net/media/upload/1/1d/416Vespiquen_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vespiquen_(Pok%C3%A9mon)",
 	},
@@ -13192,7 +13196,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/92/0417Pachirisu.png/375px-0417Pachirisu.png",
+			"https://archives.bulbagarden.net/media/upload/7/7a/417Pachirisu_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pachirisu_(Pok%C3%A9mon)",
 	},
@@ -13220,7 +13224,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b3/0418Buizel.png/375px-0418Buizel.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/418Buizel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Buizel_(Pok%C3%A9mon)",
 	},
@@ -13249,7 +13253,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1c/0419Floatzel.png/375px-0419Floatzel.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/419Floatzel_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Floatzel_(Pok%C3%A9mon)",
 	},
@@ -13278,7 +13282,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/0420Cherubi.png/375px-0420Cherubi.png",
+			"https://archives.bulbagarden.net/media/upload/b/bb/420Cherubi_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cherubi_(Pok%C3%A9mon)",
 	},
@@ -13306,8 +13310,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/21/0421Cherrim.png/375px-0421Cherrim.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/9/90/0421Cherrim-Sunshine.png/165px-0421Cherrim-Sunshine.png",
+			"https://archives.bulbagarden.net/media/upload/1/1a/421Cherrim_Overcast_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/5/5f/421Cherrim_Sunshine_Form_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)",
 	},
@@ -13335,8 +13339,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/65/0422Shellos-West.png/150px-0422Shellos-West.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/d/db/0422Shellos-East.png/150px-0422Shellos-East.png",
+			"https://archives.bulbagarden.net/media/upload/d/d7/422Shellos_East_Sea_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/07/422Shellos_West_Sea_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
 	},
@@ -13364,8 +13368,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0423Gastrodon-West.png/150px-0423Gastrodon-West.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/57/0423Gastrodon-East.png/150px-0423Gastrodon-East.png",
+			"https://archives.bulbagarden.net/media/upload/d/d2/423Gastrodon_East_Sea_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/a/a2/423Gastrodon_West_Sea_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)",
 	},
@@ -13393,7 +13397,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9d/0424Ambipom.png/375px-0424Ambipom.png",
+			"https://archives.bulbagarden.net/media/upload/0/02/424Ambipom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ambipom_(Pok%C3%A9mon)",
 	},
@@ -13421,7 +13425,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/ff/0425Drifloon.png/375px-0425Drifloon.png",
+			"https://archives.bulbagarden.net/media/upload/4/45/425Drifloon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drifloon_(Pok%C3%A9mon)",
 	},
@@ -13449,7 +13453,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ea/0426Drifblim.png/375px-0426Drifblim.png",
+			"https://archives.bulbagarden.net/media/upload/0/0c/426Drifblim_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drifblim_(Pok%C3%A9mon)",
 	},
@@ -13477,7 +13481,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6c/0427Buneary.png/375px-0427Buneary.png",
+			"https://archives.bulbagarden.net/media/upload/a/ab/427Buneary_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Buneary_(Pok%C3%A9mon)",
 	},
@@ -13505,7 +13509,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4b/0428Lopunny.png/375px-0428Lopunny.png",
+			"https://archives.bulbagarden.net/media/upload/0/0a/428Lopunny_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon)",
 	},
@@ -13533,7 +13537,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a5/0429Mismagius.png/375px-0429Mismagius.png",
+			"https://archives.bulbagarden.net/media/upload/f/f9/429Mismagius_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mismagius_(Pok%C3%A9mon)",
 	},
@@ -13561,7 +13565,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c5/0430Honchkrow.png/375px-0430Honchkrow.png",
+			"https://archives.bulbagarden.net/media/upload/4/4a/430Honchkrow_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Honchkrow_(Pok%C3%A9mon)",
 	},
@@ -13589,7 +13593,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/0431Glameow.png/375px-0431Glameow.png",
+			"https://archives.bulbagarden.net/media/upload/a/ae/431Glameow_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glameow_(Pok%C3%A9mon)",
 	},
@@ -13617,7 +13621,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6a/0432Purugly.png/375px-0432Purugly.png",
+			"https://archives.bulbagarden.net/media/upload/c/c5/432Purugly_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Purugly_(Pok%C3%A9mon)",
 	},
@@ -13646,7 +13650,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2f/0433Chingling.png/375px-0433Chingling.png",
+			"https://archives.bulbagarden.net/media/upload/d/dc/433Chingling_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chingling_(Pok%C3%A9mon)",
 	},
@@ -13674,7 +13678,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/93/0434Stunky.png/375px-0434Stunky.png",
+			"https://archives.bulbagarden.net/media/upload/2/27/434Stunky_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stunky_(Pok%C3%A9mon)",
 	},
@@ -13702,7 +13706,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e6/0435Skuntank.png/375px-0435Skuntank.png",
+			"https://archives.bulbagarden.net/media/upload/f/fb/435Skuntank_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skuntank_(Pok%C3%A9mon)",
 	},
@@ -13731,7 +13735,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7d/0436Bronzor.png/375px-0436Bronzor.png",
+			"https://archives.bulbagarden.net/media/upload/a/af/436Bronzor_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bronzor_(Pok%C3%A9mon)",
 	},
@@ -13759,7 +13763,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/21/0437Bronzong.png/375px-0437Bronzong.png",
+			"https://archives.bulbagarden.net/media/upload/a/a5/437Bronzong_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bronzong_(Pok%C3%A9mon)",
 	},
@@ -13815,7 +13819,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2e/0439Mime_Jr.png/375px-0439Mime_Jr.png",
+			"https://archives.bulbagarden.net/media/upload/8/80/439Mime_Jr._Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mime_Jr._(Pok%C3%A9mon)",
 	},
@@ -13843,7 +13847,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/71/0440Happiny.png/375px-0440Happiny.png",
+			"https://archives.bulbagarden.net/media/upload/5/50/440Happiny_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Happiny_(Pok%C3%A9mon)",
 	},
@@ -13871,7 +13875,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b1/0441Chatot.png/375px-0441Chatot.png",
+			"https://archives.bulbagarden.net/media/upload/1/11/441Chatot_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chatot_(Pok%C3%A9mon)",
 	},
@@ -13899,7 +13903,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/39/0442Spiritomb.png/375px-0442Spiritomb.png",
+			"https://archives.bulbagarden.net/media/upload/8/84/442Spiritomb_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spiritomb_(Pok%C3%A9mon)",
 	},
@@ -13927,7 +13931,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/68/0443Gible.png/375px-0443Gible.png",
+			"https://archives.bulbagarden.net/media/upload/0/0d/443Gible_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gible_(Pok%C3%A9mon)",
 	},
@@ -13955,7 +13959,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0444Gabite.png/375px-0444Gabite.png",
+			"https://archives.bulbagarden.net/media/upload/a/a0/444Gabite_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gabite_(Pok%C3%A9mon)",
 	},
@@ -13983,7 +13987,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a8/0445Garchomp.png/375px-0445Garchomp.png",
+			"https://archives.bulbagarden.net/media/upload/5/58/445Garchomp_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Garchomp_(Pok%C3%A9mon)",
 	},
@@ -14012,7 +14016,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/57/0446Munchlax.png/375px-0446Munchlax.png",
+			"https://archives.bulbagarden.net/media/upload/5/53/446Munchlax_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Munchlax_(Pok%C3%A9mon)",
 	},
@@ -14040,7 +14044,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b2/0447Riolu.png/375px-0447Riolu.png",
+			"https://archives.bulbagarden.net/media/upload/d/d1/447Riolu_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Riolu_(Pok%C3%A9mon)",
 	},
@@ -14068,7 +14072,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0448Lucario.png/375px-0448Lucario.png",
+			"https://archives.bulbagarden.net/media/upload/4/44/448Lucario_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)",
 	},
@@ -14096,7 +14100,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d3/0449Hippopotas.png/375px-0449Hippopotas.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/449Hippopotas_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hippopotas_(Pok%C3%A9mon)",
 	},
@@ -14124,7 +14128,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/70/0450Hippowdon.png/375px-0450Hippowdon.png",
+			"https://archives.bulbagarden.net/media/upload/c/c8/450Hippowdon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hippowdon_(Pok%C3%A9mon)",
 	},
@@ -14152,7 +14156,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/35/0451Skorupi.png/375px-0451Skorupi.png",
+			"https://archives.bulbagarden.net/media/upload/0/0b/451Skorupi_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skorupi_(Pok%C3%A9mon)",
 	},
@@ -14180,7 +14184,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/11/0452Drapion.png/375px-0452Drapion.png",
+			"https://archives.bulbagarden.net/media/upload/7/78/452Drapion_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drapion_(Pok%C3%A9mon)",
 	},
@@ -14208,7 +14212,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ab/0453Croagunk.png/375px-0453Croagunk.png",
+			"https://archives.bulbagarden.net/media/upload/7/75/453Croagunk_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Croagunk_(Pok%C3%A9mon)",
 	},
@@ -14236,7 +14240,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/61/0454Toxicroak.png/375px-0454Toxicroak.png",
+			"https://archives.bulbagarden.net/media/upload/c/c4/454Toxicroak_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Toxicroak_(Pok%C3%A9mon)",
 	},
@@ -14264,7 +14268,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/85/0455Carnivine.png/375px-0455Carnivine.png",
+			"https://archives.bulbagarden.net/media/upload/5/5b/455Carnivine_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carnivine_(Pok%C3%A9mon)",
 	},
@@ -14293,7 +14297,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0456Finneon.png/375px-0456Finneon.png",
+			"https://archives.bulbagarden.net/media/upload/d/dc/456Finneon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Finneon_(Pok%C3%A9mon)",
 	},
@@ -14322,7 +14326,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8c/0457Lumineon.png/375px-0457Lumineon.png",
+			"https://archives.bulbagarden.net/media/upload/9/94/457Lumineon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lumineon_(Pok%C3%A9mon)",
 	},
@@ -14350,7 +14354,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/28/0458Mantyke.png/375px-0458Mantyke.png",
+			"https://archives.bulbagarden.net/media/upload/0/0d/458Mantyke_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mantyke_(Pok%C3%A9mon)",
 	},
@@ -14379,7 +14383,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f0/0459Snover.png/375px-0459Snover.png",
+			"https://archives.bulbagarden.net/media/upload/8/85/459Snover_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snover_(Pok%C3%A9mon)",
 	},
@@ -14407,7 +14411,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/14/0460Abomasnow.png/375px-0460Abomasnow.png",
+			"https://archives.bulbagarden.net/media/upload/7/77/460Abomasnow_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)",
 	},
@@ -14435,7 +14439,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f1/0461Weavile.png/375px-0461Weavile.png",
+			"https://archives.bulbagarden.net/media/upload/c/c6/461Weavile_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weavile_(Pok%C3%A9mon)",
 	},
@@ -14463,7 +14467,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f5/0462Magnezone.png/375px-0462Magnezone.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/462Magnezone_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magnezone_(Pok%C3%A9mon)",
 	},
@@ -14491,7 +14495,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a6/0463Lickilicky.png/375px-0463Lickilicky.png",
+			"https://archives.bulbagarden.net/media/upload/b/b8/463Lickilicky_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lickilicky_(Pok%C3%A9mon)",
 	},
@@ -14519,7 +14523,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f0/0464Rhyperior.png/375px-0464Rhyperior.png",
+			"https://archives.bulbagarden.net/media/upload/0/02/464Rhyperior_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhyperior_(Pok%C3%A9mon)",
 	},
@@ -14547,7 +14551,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/57/0465Tangrowth.png/375px-0465Tangrowth.png",
+			"https://archives.bulbagarden.net/media/upload/4/42/465Tangrowth_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tangrowth_(Pok%C3%A9mon)",
 	},
@@ -14575,7 +14579,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0466Electivire.png/375px-0466Electivire.png",
+			"https://archives.bulbagarden.net/media/upload/3/35/466Electivire_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electivire_(Pok%C3%A9mon)",
 	},
@@ -14603,7 +14607,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/82/0467Magmortar.png/375px-0467Magmortar.png",
+			"https://archives.bulbagarden.net/media/upload/8/8e/467Magmortar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magmortar_(Pok%C3%A9mon)",
 	},
@@ -14631,7 +14635,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8f/0468Togekiss.png/375px-0468Togekiss.png",
+			"https://archives.bulbagarden.net/media/upload/4/4b/468Togekiss_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togekiss_(Pok%C3%A9mon)",
 	},
@@ -14659,7 +14663,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/79/0469Yanmega.png/375px-0469Yanmega.png",
+			"https://archives.bulbagarden.net/media/upload/7/7a/469Yanmega_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yanmega_(Pok%C3%A9mon)",
 	},
@@ -14687,7 +14691,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/80/0470Leafeon.png/375px-0470Leafeon.png",
+			"https://archives.bulbagarden.net/media/upload/4/41/470Leafeon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Leafeon_(Pok%C3%A9mon)",
 	},
@@ -14715,7 +14719,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/91/0471Glaceon.png/375px-0471Glaceon.png",
+			"https://archives.bulbagarden.net/media/upload/2/24/471Glaceon_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)",
 	},
@@ -14743,7 +14747,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/94/0472Gliscor.png/375px-0472Gliscor.png",
+			"https://archives.bulbagarden.net/media/upload/2/2f/472Gliscor_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gliscor_(Pok%C3%A9mon)",
 	},
@@ -14771,7 +14775,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0473Mamoswine.png/375px-0473Mamoswine.png",
+			"https://archives.bulbagarden.net/media/upload/5/51/473Mamoswine_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mamoswine_(Pok%C3%A9mon)",
 	},
@@ -14799,7 +14803,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/61/0474Porygon-Z.png/375px-0474Porygon-Z.png",
+			"https://archives.bulbagarden.net/media/upload/8/8a/474Porygon-Z_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon-Z_(Pok%C3%A9mon)",
 	},
@@ -14827,7 +14831,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0475Gallade.png/375px-0475Gallade.png",
+			"https://archives.bulbagarden.net/media/upload/e/e1/475Gallade_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gallade_(Pok%C3%A9mon)",
 	},
@@ -14855,7 +14859,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ae/0476Probopass.png/375px-0476Probopass.png",
+			"https://archives.bulbagarden.net/media/upload/a/a5/476Probopass_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Probopass_(Pok%C3%A9mon)",
 	},
@@ -14883,7 +14887,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0477Dusknoir.png/375px-0477Dusknoir.png",
+			"https://archives.bulbagarden.net/media/upload/1/1a/477Dusknoir_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dusknoir_(Pok%C3%A9mon)",
 	},
@@ -14911,13 +14915,13 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/59/0478Froslass.png/375px-0478Froslass.png",
+			"https://archives.bulbagarden.net/media/upload/7/78/478Froslass_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rotom",
-		numero: 479, // considerando a national dex
+		numero: 479.1, // considerando a national dex
 		tipo: ["Elétrico", " Fantasma"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
@@ -14933,13 +14937,153 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
-		obtencao: "Mansão da Floresta",
+		obtencao: "Mansão da Floresta e possuir nada, ou uma lâmpada",
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/37/0479Rotom.png/375px-0479Rotom.png",
+			"https://archives.bulbagarden.net/media/upload/0/01/479Rotom_Normal_Forme_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Rotom Calor",
+		numero: 479.2, // considerando a national dex
+		tipo: ["Elétrico", " Fogo"],
+		massa: 0.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
+		estatistica: {
+			ps: 50,
+			atq: 65,
+			def: 107,
+			atq_esp: 105,
+			def_esp: 107,
+			vel: 86,
+		},
+		descricao:
+			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Plasma",
+		obtencao: "Mansão da Floresta e possuir um forno de micro-ondas",
+		estagio: 1,
+		geracao: 4, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/4/4a/479Rotom_Heat_Rotom_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Rotom Lavagem",
+		numero: 479.3, // considerando a national dex
+		tipo: ["Elétrico", " Água"],
+		massa: 0.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
+		estatistica: {
+			ps: 50,
+			atq: 65,
+			def: 107,
+			atq_esp: 105,
+			def_esp: 107,
+			vel: 86,
+		},
+		descricao:
+			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Plasma",
+		obtencao: "Mansão da Floresta e possuir uma máquina-de-lavar",
+		estagio: 1,
+		geracao: 4, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/5/52/479Rotom_Wash_Rotom_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Rotom Congelante",
+		numero: 479.4, // considerando a national dex
+		tipo: ["Elétrico", " Gelo"],
+		massa: 0.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
+		estatistica: {
+			ps: 50,
+			atq: 65,
+			def: 107,
+			atq_esp: 105,
+			def_esp: 107,
+			vel: 86,
+		},
+		descricao:
+			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Plasma",
+		obtencao: "Mansão da Floresta e possuir um refrigerador",
+		estagio: 1,
+		geracao: 4, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/a9/479Rotom_Frost_Rotom_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Rotom Ventilador",
+		numero: 479.5, // considerando a national dex
+		tipo: ["Elétrico", " Voador"],
+		massa: 0.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
+		estatistica: {
+			ps: 50,
+			atq: 65,
+			def: 107,
+			atq_esp: 105,
+			def_esp: 107,
+			vel: 86,
+		},
+		descricao:
+			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Plasma",
+		obtencao: "Mansão da Floresta e possuir um ventilador",
+		estagio: 1,
+		geracao: 4, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/9e/479Rotom_Fan_Rotom_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Rotom Corte",
+		numero: 479.6, // considerando a national dex
+		tipo: ["Elétrico", " Planta"],
+		massa: 0.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
+		estatistica: {
+			ps: 50,
+			atq: 65,
+			def: 107,
+			atq_esp: 105,
+			def_esp: 107,
+			vel: 86,
+		},
+		descricao:
+			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Plasma",
+		obtencao: "Mansão da Floresta e possuir um cortador de grama",
+		estagio: 1,
+		geracao: 4, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/0/06/479Rotom_Mow_Rotom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
 	},
@@ -14967,7 +15111,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/18/0480Uxie.png/375px-0480Uxie.png",
+			"https://archives.bulbagarden.net/media/upload/b/b2/480Uxie_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Uxie_(Pok%C3%A9mon)",
 	},
@@ -14995,7 +15139,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/24/0481Mesprit.png/375px-0481Mesprit.png",
+			"https://archives.bulbagarden.net/media/upload/0/04/481Mesprit_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mesprit_(Pok%C3%A9mon)",
 	},
@@ -15023,7 +15167,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ac/0482Azelf.png/375px-0482Azelf.png",
+			"https://archives.bulbagarden.net/media/upload/d/d5/482Azelf_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azelf_(Pok%C3%A9mon)",
 	},
@@ -15051,7 +15195,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/43/0483Dialga.png/375px-0483Dialga.png",
+			"https://archives.bulbagarden.net/media/upload/c/c9/483Dialga_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon)",
 	},
@@ -15079,7 +15223,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b7/0484Palkia.png/375px-0484Palkia.png",
+			"https://archives.bulbagarden.net/media/upload/4/43/484Palkia_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)",
 	},
@@ -15107,7 +15251,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/60/0485Heatran.png/375px-0485Heatran.png",
+			"https://archives.bulbagarden.net/media/upload/4/41/485Heatran_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)",
 	},
@@ -15135,7 +15279,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e3/0486Regigigas.png/375px-0486Regigigas.png",
+			"https://archives.bulbagarden.net/media/upload/e/eb/486Regigigas_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)",
 	},
@@ -15163,7 +15307,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/81/0487Giratina.png/375px-0487Giratina.png",
+			"https://archives.bulbagarden.net/media/upload/e/e9/487Giratina_Altered_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)",
 	},
@@ -15185,13 +15329,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito que este Pokémon vive em um mundo reverso ao nosso. Aparece em um cemitério antigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Renegado",
-		obtencao: "Mundo Distorcido",
+		obtencao: "Mundo Distorcido e segurar Griseous Orb",
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/61/0487Giratina-Origin.png/165px-0487Giratina-Origin.png",
+			"https://archives.bulbagarden.net/media/upload/9/9c/487Giratina_Origin_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)",
 	},
@@ -15219,7 +15363,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0488Cresselia.png/375px-0488Cresselia.png",
+			"https://archives.bulbagarden.net/media/upload/1/12/488Cresselia_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cresselia_(Pok%C3%A9mon)",
 	},
@@ -15247,7 +15391,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/eb/0489Phione.png/375px-0489Phione.png",
+			"https://archives.bulbagarden.net/media/upload/3/3c/489Phione_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Phione_(Pok%C3%A9mon)",
 	},
@@ -15275,7 +15419,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/08/0490Manaphy.png/375px-0490Manaphy.png",
+			"https://archives.bulbagarden.net/media/upload/9/95/490Manaphy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)",
 	},
@@ -15303,7 +15447,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/88/0491Darkrai.png/375px-0491Darkrai.png",
+			"https://archives.bulbagarden.net/media/upload/e/e5/491Darkrai_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon)",
 	},
@@ -15331,7 +15475,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0492Shaymin.png/375px-0492Shaymin.png",
+			"https://archives.bulbagarden.net/media/upload/6/6d/492Shaymin_Land_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
 	},
@@ -15359,7 +15503,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/05/0492Shaymin-Sky.png/165px-0492Shaymin-Sky.png",
+			"https://archives.bulbagarden.net/media/upload/b/bc/492Shaymin_Sky_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
 	},
@@ -15387,7 +15531,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9e/0493Arceus.png/375px-0493Arceus.png",
+			"https://archives.bulbagarden.net/media/upload/4/40/493Arceus_Normal_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
 	},
@@ -15415,7 +15559,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f6/0494Victini.png/375px-0494Victini.png",
+			"https://archives.bulbagarden.net/media/upload/b/be/494Victini_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Victini_(Pok%C3%A9mon)",
 	},
@@ -15443,7 +15587,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a5/0495Snivy.png/375px-0495Snivy.png",
+			"https://archives.bulbagarden.net/media/upload/e/ee/495Snivy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snivy_(Pok%C3%A9mon)",
 	},
@@ -15471,7 +15615,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/62/0496Servine.png/375px-0496Servine.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/496Servine_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Servine_(Pok%C3%A9mon)",
 	},
@@ -15499,7 +15643,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a7/0497Serperior.png/375px-0497Serperior.png",
+			"https://archives.bulbagarden.net/media/upload/a/a0/497Serperior_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Serperior_(Pok%C3%A9mon)",
 	},
@@ -15527,7 +15671,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/18/0498Tepig.png/375px-0498Tepig.png",
+			"https://archives.bulbagarden.net/media/upload/1/10/498Tepig_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tepig_(Pok%C3%A9mon)",
 	},
@@ -15555,7 +15699,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/10/0499Pignite.png/375px-0499Pignite.png",
+			"https://archives.bulbagarden.net/media/upload/7/72/499Pignite_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pignite_(Pok%C3%A9mon)",
 	},
@@ -15583,7 +15727,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/52/0500Emboar.png/375px-0500Emboar.png",
+			"https://archives.bulbagarden.net/media/upload/1/12/500Emboar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Emboar_(Pokémon)",
 	},
@@ -15611,7 +15755,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/90/0501Oshawott.png/375px-0501Oshawott.png",
+			"https://archives.bulbagarden.net/media/upload/e/e3/501Oshawott_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Oshawott_(Pok%C3%A9mon)",
 	},
@@ -15639,7 +15783,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0502Dewott.png/375px-0502Dewott.png",
+			"https://archives.bulbagarden.net/media/upload/9/9f/502Dewott_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dewott_(Pok%C3%A9mon)",
 	},
@@ -15667,7 +15811,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d8/0503Samurott.png/375px-0503Samurott.png",
+			"https://archives.bulbagarden.net/media/upload/7/7a/503Samurott_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Samurott_(Pok%C3%A9mon)",
 	},
@@ -15695,7 +15839,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2e/0503Samurott-Hisui.png/165px-0503Samurott-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/c/c5/503Samurott_Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Samurott_(Pok%C3%A9mon)",
 	},
@@ -15724,7 +15868,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c6/0504Patrat.png/375px-0504Patrat.png",
+			"https://archives.bulbagarden.net/media/upload/2/24/504Patrat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Patrat_(Pok%C3%A9mon)",
 	},
@@ -15753,7 +15897,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f9/0505Watchog.png/375px-0505Watchog.png",
+			"https://archives.bulbagarden.net/media/upload/3/33/505Watchog_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Watchog_(Pok%C3%A9mon)",
 	},
@@ -15781,7 +15925,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5d/0506Lillipup.png/375px-0506Lillipup.png",
+			"https://archives.bulbagarden.net/media/upload/5/58/506Lillipup_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lillipup_(Pok%C3%A9mon)",
 	},
@@ -15810,7 +15954,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/ce/0507Herdier.png/375px-0507Herdier.png",
+			"https://archives.bulbagarden.net/media/upload/4/49/507Herdier_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Herdier_(Pok%C3%A9mon)",
 	},
@@ -15839,7 +15983,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/41/0508Stoutland.png/375px-0508Stoutland.png",
+			"https://archives.bulbagarden.net/media/upload/e/e0/508Stoutland_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stoutland_(Pok%C3%A9mon)",
 	},
@@ -15867,7 +16011,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/31/0509Purrloin.png/375px-0509Purrloin.png",
+			"https://archives.bulbagarden.net/media/upload/4/4b/509Purrloin_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Purrloin_(Pok%C3%A9mon)",
 	},
@@ -15895,7 +16039,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/45/0510Liepard.png/375px-0510Liepard.png",
+			"https://archives.bulbagarden.net/media/upload/f/f8/510Liepard_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Liepard_(Pok%C3%A9mon)",
 	},
@@ -15924,7 +16068,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cd/0511Pansage.png/375px-0511Pansage.png",
+			"https://archives.bulbagarden.net/media/upload/2/2f/511Pansage_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pansage_(Pok%C3%A9mon)",
 	},
@@ -15952,7 +16096,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/93/0512Simisage.png/375px-0512Simisage.png",
+			"https://archives.bulbagarden.net/media/upload/1/18/512Simisage_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Simisage_(Pok%C3%A9mon)",
 	},
@@ -15981,7 +16125,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9a/0513Pansear.png/375px-0513Pansear.png",
+			"https://archives.bulbagarden.net/media/upload/a/a0/513Pansear_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pansear_(Pok%C3%A9mon)",
 	},
@@ -16009,7 +16153,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/73/0514Simisear.png/375px-0514Simisear.png",
+			"https://archives.bulbagarden.net/media/upload/3/3c/514Simisear_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Simisear_(Pok%C3%A9mon)",
 	},
@@ -16038,7 +16182,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c1/0515Panpour.png/375px-0515Panpour.png",
+			"https://archives.bulbagarden.net/media/upload/d/d0/515Panpour_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Panpour_(Pok%C3%A9mon)",
 	},
@@ -16066,7 +16210,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/08/0516Simipour.png/375px-0516Simipour.png",
+			"https://archives.bulbagarden.net/media/upload/1/10/516Simipour_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Simipour_(Pok%C3%A9mon)",
 	},
@@ -16094,7 +16238,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/54/0517Munna.png/375px-0517Munna.png",
+			"https://archives.bulbagarden.net/media/upload/f/f2/517Munna_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Munna_(Pok%C3%A9mon)",
 	},
@@ -16122,7 +16266,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1b/0518Musharna.png/375px-0518Musharna.png",
+			"https://archives.bulbagarden.net/media/upload/8/8e/518Musharna_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Musharna_(Pok%C3%A9mon)",
 	},
@@ -16151,7 +16295,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e1/0519Pidove.png/375px-0519Pidove.png",
+			"https://archives.bulbagarden.net/media/upload/9/9c/519Pidove_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidove_(Pok%C3%A9mon)",
 	},
@@ -16180,7 +16324,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/00/0520Tranquill.png/375px-0520Tranquill.png",
+			"https://archives.bulbagarden.net/media/upload/9/96/520Tranquill_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tranquill_(Pok%C3%A9mon)",
 	},
@@ -16209,8 +16353,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2e/0521Unfezant-Male.png/180px-0521Unfezant-Male.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0521Unfezant-Female.png/180px-0521Unfezant-Female.png",
+			"https://archives.bulbagarden.net/media/upload/2/2e/0521Unfezant-Male.png",
+			"https://archives.bulbagarden.net/media/upload/d/d9/0521Unfezant-Female.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Unfezant_(Pok%C3%A9mon)",
 	},
@@ -16238,7 +16382,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/08/0522Blitzle.png/375px-0522Blitzle.png",
+			"https://archives.bulbagarden.net/media/upload/1/1c/522Blitzle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blitzle_(Pok%C3%A9mon)",
 	},
@@ -16266,7 +16410,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/76/0523Zebstrika.png/375px-0523Zebstrika.png",
+			"https://archives.bulbagarden.net/media/upload/6/67/523Zebstrika_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zebstrika_(Pok%C3%A9mon)",
 	},
@@ -16294,7 +16438,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5f/0524Roggenrola.png/375px-0524Roggenrola.png",
+			"https://archives.bulbagarden.net/media/upload/9/92/524Roggenrola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Roggenrola_(Pok%C3%A9mon)",
 	},
@@ -16323,7 +16467,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/53/0525Boldore.png/375px-0525Boldore.png",
+			"https://archives.bulbagarden.net/media/upload/9/9d/525Boldore_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Boldore_(Pok%C3%A9mon)",
 	},
@@ -16351,7 +16495,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2b/0526Gigalith.png/375px-0526Gigalith.png",
+			"https://archives.bulbagarden.net/media/upload/5/5c/526Gigalith_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gigalith_(Pok%C3%A9mon)",
 	},
@@ -16380,7 +16524,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0527Woobat.png/375px-0527Woobat.png",
+			"https://archives.bulbagarden.net/media/upload/3/35/527Woobat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Woobat_(Pok%C3%A9mon)",
 	},
@@ -16408,7 +16552,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ad/0528Swoobat.png/375px-0528Swoobat.png",
+			"https://archives.bulbagarden.net/media/upload/3/36/528Swoobat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swoobat_(Pok%C3%A9mon)",
 	},
@@ -16437,7 +16581,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/77/0529Drilbur.png/375px-0529Drilbur.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/529Drilbur_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drilbur_(Pok%C3%A9mon)",
 	},
@@ -16466,7 +16610,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e3/0530Excadrill.png/375px-0530Excadrill.png",
+			"https://archives.bulbagarden.net/media/upload/7/78/530Excadrill_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Excadrill_(Pok%C3%A9mon)",
 	},
@@ -16495,7 +16639,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0531Audino.png/375px-0531Audino.png",
+			"https://archives.bulbagarden.net/media/upload/9/98/531Audino_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Audino_(Pok%C3%A9mon)",
 	},
@@ -16523,7 +16667,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/05/0532Timburr.png/375px-0532Timburr.png",
+			"https://archives.bulbagarden.net/media/upload/1/1a/532Timburr_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Timburr_(Pok%C3%A9mon)",
 	},
@@ -16552,7 +16696,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/94/0533Gurdurr.png/375px-0533Gurdurr.png",
+			"https://archives.bulbagarden.net/media/upload/4/46/533Gurdurr_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gurdurr_(Pok%C3%A9mon)",
 	},
@@ -16580,7 +16724,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9f/0534Conkeldurr.png/375px-0534Conkeldurr.png",
+			"https://archives.bulbagarden.net/media/upload/8/89/534Conkeldurr_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Conkeldurr_(Pok%C3%A9mon)",
 	},
@@ -16608,7 +16752,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c0/0535Tympole.png/375px-0535Tympole.png",
+			"https://archives.bulbagarden.net/media/upload/2/22/535Tympole_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tympole_(Pok%C3%A9mon)",
 	},
@@ -16636,7 +16780,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ea/0536Palpitoad.png/375px-0536Palpitoad.png",
+			"https://archives.bulbagarden.net/media/upload/4/47/536Palpitoad_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Palpitoad_(Pok%C3%A9mon)",
 	},
@@ -16664,7 +16808,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/be/0537Seismitoad.png/375px-0537Seismitoad.png",
+			"https://archives.bulbagarden.net/media/upload/a/af/537Seismitoad_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seismitoad_(Pok%C3%A9mon)",
 	},
@@ -16693,7 +16837,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/68/0538Throh.png/375px-0538Throh.png",
+			"https://archives.bulbagarden.net/media/upload/6/6d/538Throh_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Throh_(Pok%C3%A9mon)",
 	},
@@ -16722,7 +16866,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/77/0539Sawk.png/375px-0539Sawk.png",
+			"https://archives.bulbagarden.net/media/upload/9/93/539Sawk_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sawk_(Pok%C3%A9mon)",
 	},
@@ -16750,7 +16894,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0540Sewaddle.png/375px-0540Sewaddle.png",
+			"https://archives.bulbagarden.net/media/upload/b/b5/540Sewaddle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sewaddle_(Pok%C3%A9mon)",
 	},
@@ -16778,7 +16922,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9f/0541Swadloon.png/375px-0541Swadloon.png",
+			"https://archives.bulbagarden.net/media/upload/a/a3/541Swadloon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swadloon_(Pok%C3%A9mon)",
 	},
@@ -16806,7 +16950,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/86/0542Leavanny.png/375px-0542Leavanny.png",
+			"https://archives.bulbagarden.net/media/upload/5/5a/542Leavanny_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Leavanny_(Pok%C3%A9mon)",
 	},
@@ -16834,7 +16978,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0543Venipede.png/375px-0543Venipede.png",
+			"https://archives.bulbagarden.net/media/upload/2/25/543Venipede_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venipede_(Pok%C3%A9mon)",
 	},
@@ -16862,7 +17006,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0544Whirlipede.png/375px-0544Whirlipede.png",
+			"https://archives.bulbagarden.net/media/upload/c/c2/544Whirlipede_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whirlipede_(Pok%C3%A9mon)",
 	},
@@ -16890,7 +17034,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/0545Scolipede.png/375px-0545Scolipede.png",
+			"https://archives.bulbagarden.net/media/upload/0/09/545Scolipede_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scolipede_(Pok%C3%A9mon)",
 	},
@@ -16919,7 +17063,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6c/0546Cottonee.png/375px-0546Cottonee.png",
+			"https://archives.bulbagarden.net/media/upload/d/dc/546Cottonee_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cottonee_(Pok%C3%A9mon)",
 	},
@@ -16948,7 +17092,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0547Whimsicott.png/375px-0547Whimsicott.png",
+			"https://archives.bulbagarden.net/media/upload/e/e1/547Whimsicott_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whimsicott_(Pok%C3%A9mon)",
 	},
@@ -16977,7 +17121,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2f/0548Petilil.png/375px-0548Petilil.png",
+			"https://archives.bulbagarden.net/media/upload/b/b2/548Petilil_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Petilil_(Pok%C3%A9mon)",
 	},
@@ -17006,7 +17150,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c1/0549Lilligant.png/375px-0549Lilligant.png",
+			"https://archives.bulbagarden.net/media/upload/4/41/549Lilligant_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)",
 	},
@@ -17034,7 +17178,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0549Lilligant-Hisui.png/165px-0549Lilligant-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/1/1b/549Lilligant-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)",
 	},
@@ -17063,9 +17207,9 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/41/0550Basculin-Red.png/180px-0550Basculin-Red.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/2/27/0550Basculin-Blue.png/165px-0550Basculin-Blue.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/3/34/0550Basculin-White.png/165px-0550Basculin-White.png",
+			"https://archives.bulbagarden.net/media/upload/9/9c/550Basculin_Blue_Stripe_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/67/550Basculin_Red_Stripe_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/2c/550Basculin-White_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Basculin_(Pok%C3%A9mon)",
 	},
@@ -17093,7 +17237,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cb/0551Sandile.png/375px-0551Sandile.png",
+			"https://archives.bulbagarden.net/media/upload/5/5f/551Sandile_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandile_(Pok%C3%A9mon)",
 	},
@@ -17121,7 +17265,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0552Krokorok.png/375px-0552Krokorok.png",
+			"https://archives.bulbagarden.net/media/upload/e/e5/552Krokorok_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Krokorok_(Pok%C3%A9mon)",
 	},
@@ -17149,7 +17293,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0553Krookodile.png/375px-0553Krookodile.png",
+			"https://archives.bulbagarden.net/media/upload/d/d2/553Krookodile_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Krookodile_(Pok%C3%A9mon)",
 	},
@@ -17177,7 +17321,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/95/0554Darumaka.png/375px-0554Darumaka.png",
+			"https://archives.bulbagarden.net/media/upload/e/e1/554Darumaka_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darumaka_(Pok%C3%A9mon)",
 	},
@@ -17205,7 +17349,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1c/0554Darumaka-Galar.png/165px-0554Darumaka-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/b/bb/554Darumaka_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darumaka_(Pok%C3%A9mon)",
 	},
@@ -17233,7 +17377,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a3/0555Darmanitan.png/375px-0555Darmanitan.png",
+			"https://archives.bulbagarden.net/media/upload/0/07/555Darmanitan_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon)",
 	},
@@ -17255,13 +17399,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu fogo interno queima a 1'400° Celsius, gerando energia suficiente para destruir um caminhão de lixo com um só soco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flamejante",
-		obtencao: "Resort do Deserto; e por evolução",
+		obtencao: "Resort do Deserto; por evolução; e estar abaixo dos 50% de PS",
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/88/0555Darmanitan-Zen.png/165px-0555Darmanitan-Zen.png",
+			"https://archives.bulbagarden.net/media/upload/6/6b/555Darmanitan_Zen_Mode_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon)",
 	},
@@ -17289,7 +17433,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1a/0555Darmanitan-Galar.png/165px-0555Darmanitan-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/3/32/555Darmanitan_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon)",
 	},
@@ -17311,13 +17455,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Raiva reacendeu seu saco de fogo atrofiado. Este Pokémon cospe fogo em todos os lugares enquanto ataca indiscriminadamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flamejante",
-		obtencao: "Snowslide Slope; e por evolução",
+		obtencao: "Snowslide Slope; por evolução; e estar abaixo dos 50% de PS",
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0555Darmanitan-Galar_Zen.png/165px-0555Darmanitan-Galar_Zen.png",
+			"https://archives.bulbagarden.net/media/upload/8/88/555Darmanitan-Galar-Zen_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon)",
 	},
@@ -17345,7 +17489,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0556Maractus.png/375px-0556Maractus.png",
+			"https://archives.bulbagarden.net/media/upload/8/87/556Maractus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Maractus_(Pok%C3%A9mon)",
 	},
@@ -17373,7 +17517,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0557Dwebble.png/375px-0557Dwebble.png",
+			"https://archives.bulbagarden.net/media/upload/6/61/557Dwebble_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dwebble_(Pok%C3%A9mon)",
 	},
@@ -17401,7 +17545,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a2/0558Crustle.png/375px-0558Crustle.png",
+			"https://archives.bulbagarden.net/media/upload/1/1b/558Crustle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Crustle_(Pok%C3%A9mon)",
 	},
@@ -17429,7 +17573,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bd/0559Scraggy.png/375px-0559Scraggy.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/559Scraggy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scraggy_(Pok%C3%A9mon)",
 	},
@@ -17457,7 +17601,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/84/0560Scrafty.png/375px-0560Scrafty.png",
+			"https://archives.bulbagarden.net/media/upload/3/3c/560Scrafty_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scrafty_(Pok%C3%A9mon)",
 	},
@@ -17477,15 +17621,15 @@ const pkmnDisponiveis = [
 			vel: 97,
 		},
 		descricao:
-			"Nunca variam a rota que voam, porque suas memórias de guadar uma cidade antiga permanecem firmes.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Avianoide",
+			"Nunca variam a rota que voam, porque suas memórias de guardar uma cidade antiga permanecem firmes.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Avianóide",
 		obtencao: "Resort do Deserto",
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a5/0561Sigilyph.png/375px-0561Sigilyph.png",
+			"https://archives.bulbagarden.net/media/upload/6/61/561Sigilyph_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sigilyph_(Pok%C3%A9mon)",
 	},
@@ -17513,7 +17657,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8b/0562Yamask.png/375px-0562Yamask.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/562Yamask_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yamask_(Pok%C3%A9mon)",
 	},
@@ -17541,7 +17685,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/05/0562Yamask-Galar.png/165px-0562Yamask-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/c/cb/562Yamask_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yamask_(Pok%C3%A9mon)",
 	},
@@ -17569,7 +17713,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a0/0563Cofagrigus.png/375px-0563Cofagrigus.png",
+			"https://archives.bulbagarden.net/media/upload/b/b1/563Cofagrigus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cofagrigus_(Pok%C3%A9mon)",
 	},
@@ -17597,7 +17741,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cd/0564Tirtouga.png/375px-0564Tirtouga.png",
+			"https://archives.bulbagarden.net/media/upload/2/28/564Tirtouga_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tirtouga_(Pok%C3%A9mon)",
 	},
@@ -17617,7 +17761,7 @@ const pkmnDisponiveis = [
 			vel: 32,
 		},
 		descricao:
-			"Conseguem viver tanto no oceano quanto em terra. Um tapa seu é suficiente para abrir um burado no fundo de um navio-tanque.", // considerando a dex da primeira geração que apareceu
+			"Conseguem viver tanto no oceano quanto em terra. Um tapa seu é suficiente para abrir um buraco no fundo de um navio-tanque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prototartaruga",
 		obtencao: "Por evolução",
 		estagio: 2,
@@ -17625,7 +17769,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0565Carracosta.png/375px-0565Carracosta.png",
+			"https://archives.bulbagarden.net/media/upload/1/1b/565Carracosta_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carracosta_(Pok%C3%A9mon)",
 	},
@@ -17653,7 +17797,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6d/0566Archen.png/375px-0566Archen.png",
+			"https://archives.bulbagarden.net/media/upload/1/12/566Archen_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Archen_(Pok%C3%A9mon)",
 	},
@@ -17681,7 +17825,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c5/0567Archeops.png/375px-0567Archeops.png",
+			"https://archives.bulbagarden.net/media/upload/9/9f/567Archeops_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Archeops_(Pok%C3%A9mon)",
 	},
@@ -17709,7 +17853,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c4/0568Trubbish.png/375px-0568Trubbish.png",
+			"https://archives.bulbagarden.net/media/upload/e/e5/568Trubbish_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Trubbish_(Pok%C3%A9mon)",
 	},
@@ -17729,7 +17873,7 @@ const pkmnDisponiveis = [
 			vel: 75,
 		},
 		descricao:
-			"Agarra os oponentes com o braço esquerdo e os finaliza com um gás venenoso de ódos fétido expelido pela boca.", // considerando a dex da primeira geração que apareceu
+			"Agarra os oponentes com o braço esquerdo e os finaliza com um gás venenoso de odor fétido expelido pela boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Monte de Lixo",
 		obtencao: "Rota 9; e por evolução",
 		estagio: 2,
@@ -17737,7 +17881,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cf/0569Garbodor.png/375px-0569Garbodor.png",
+			"https://archives.bulbagarden.net/media/upload/8/85/569Garbodor_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Garbodor_(Pok%C3%A9mon)",
 	},
@@ -17765,7 +17909,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0d/0570Zorua.png/375px-0570Zorua.png",
+			"https://archives.bulbagarden.net/media/upload/e/ee/570Zorua_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zorua_(Pok%C3%A9mon)",
 	},
@@ -17794,7 +17938,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e9/0570Zorua-Hisui.png/165px-0570Zorua-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/2/2c/570Zorua_Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zorua_(Pok%C3%A9mon)",
 	},
@@ -17822,7 +17966,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/52/0571Zoroark.png/375px-0571Zoroark.png",
+			"https://archives.bulbagarden.net/media/upload/2/2c/571Zoroark_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zoroark_(Pok%C3%A9mon)",
 	},
@@ -17851,7 +17995,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b2/0571Zoroark-Hisui.png/165px-0571Zoroark-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/7/75/571Zoroark-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zoroark_(Pok%C3%A9mon)",
 	},
@@ -17879,7 +18023,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8b/0572Minccino.png/375px-0572Minccino.png",
+			"https://archives.bulbagarden.net/media/upload/d/d2/572Minccino_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Minccino_(Pok%C3%A9mon)",
 	},
@@ -17907,7 +18051,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/49/0573Cinccino.png/375px-0573Cinccino.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/573Cinccino_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cinccino_(Pok%C3%A9mon)",
 	},
@@ -17935,7 +18079,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ab/0574Gothita.png/375px-0574Gothita.png",
+			"https://archives.bulbagarden.net/media/upload/4/4f/574Gothita_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gothita_(Pok%C3%A9mon)",
 	},
@@ -17963,7 +18107,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/26/0575Gothorita.png/375px-0575Gothorita.png",
+			"https://archives.bulbagarden.net/media/upload/2/27/575Gothorita_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gothorita_(Pok%C3%A9mon)",
 	},
@@ -17991,7 +18135,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0576Gothitelle.png/375px-0576Gothitelle.png",
+			"https://archives.bulbagarden.net/media/upload/7/72/576Gothitelle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gothitelle_(Pok%C3%A9mon)",
 	},
@@ -18019,7 +18163,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/0577Solosis.png/375px-0577Solosis.png",
+			"https://archives.bulbagarden.net/media/upload/0/0f/577Solosis_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Solosis_(Pok%C3%A9mon)",
 	},
@@ -18047,7 +18191,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/10/0578Duosion.png/375px-0578Duosion.png",
+			"https://archives.bulbagarden.net/media/upload/c/c6/578Duosion_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Duosion_(Pok%C3%A9mon)",
 	},
@@ -18075,7 +18219,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1a/0579Reuniclus.png/375px-0579Reuniclus.png",
+			"https://archives.bulbagarden.net/media/upload/5/5a/579Reuniclus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Reuniclus_(Pok%C3%A9mon)",
 	},
@@ -18103,7 +18247,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2e/0580Ducklett.png/375px-0580Ducklett.png",
+			"https://archives.bulbagarden.net/media/upload/c/c7/580Ducklett_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ducklett_(Pok%C3%A9mon)",
 	},
@@ -18131,7 +18275,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0581Swanna.png/375px-0581Swanna.png",
+			"https://archives.bulbagarden.net/media/upload/7/70/581Swanna_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swanna_(Pok%C3%A9mon)",
 	},
@@ -18159,7 +18303,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1a/0582Vanillite.png/375px-0582Vanillite.png",
+			"https://archives.bulbagarden.net/media/upload/6/67/582Vanillite_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vanillite_(Pok%C3%A9mon)",
 	},
@@ -18187,7 +18331,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/66/0583Vanillish.png/375px-0583Vanillish.png",
+			"https://archives.bulbagarden.net/media/upload/4/47/583Vanillish_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vanillish_(Pok%C3%A9mon)",
 	},
@@ -18215,7 +18359,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0584Vanilluxe.png/375px-0584Vanilluxe.png",
+			"https://archives.bulbagarden.net/media/upload/d/d4/584Vanilluxe_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vanilluxe_(Pok%C3%A9mon)",
 	},
@@ -18243,10 +18387,10 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/ad/585Deerling_Autumn_WF.png/180px-585Deerling_Autumn_WF.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/65/585Deerling_Spring_WF.png/180px-585Deerling_Spring_WF.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/07/585Deerling_Summer_WF.png/180px-585Deerling_Summer_WF.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/9/92/585Deerling_Winter_WF.png/180px-585Deerling_Winter_WF.png",
+			"https://archives.bulbagarden.net/media/upload/f/fb/585Deerling_Autumn_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/be/585Deerling_Spring_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/05/585Deerling_Summer_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/a/a7/585Deerling_Winter_Form_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deerling_(Pok%C3%A9mon)",
 	},
@@ -18274,10 +18418,10 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/ba/0586Sawsbuck.png/375px-0586Sawsbuck.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0f/0586Sawsbuck-Summer.png/165px-0586Sawsbuck-Summer.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9f/0586Sawsbuck-Autumn.png/165px-0586Sawsbuck-Autumn.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/79/0586Sawsbuck-Winter.png/165px-0586Sawsbuck-Winter.png",
+			"https://archives.bulbagarden.net/media/upload/d/d5/586Sawsbuck_Autumn_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/a/a6/586Sawsbuck_Spring_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/4/4d/586Sawsbuck_Summer_Form_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b9/586Sawsbuck_Winter_Form_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sawsbuck_(Pok%C3%A9mon)",
 	},
@@ -18306,7 +18450,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/96/0587Emolga.png/375px-0587Emolga.png",
+			"https://archives.bulbagarden.net/media/upload/8/87/587Emolga_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Emolga_(Pok%C3%A9mon)",
 	},
@@ -18334,7 +18478,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6b/0588Karrablast.png/375px-0588Karrablast.png",
+			"https://archives.bulbagarden.net/media/upload/1/1b/588Karrablast_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Karrablast_(Pok%C3%A9mon)",
 	},
@@ -18362,7 +18506,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/26/0589Escavalier.png/375px-0589Escavalier.png",
+			"https://archives.bulbagarden.net/media/upload/c/c0/589Escavalier_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Escavalier_(Pok%C3%A9mon)",
 	},
@@ -18390,7 +18534,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bf/0590Foongus.png/375px-0590Foongus.png",
+			"https://archives.bulbagarden.net/media/upload/e/ea/590Foongus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Foongus_(Pok%C3%A9mon)",
 	},
@@ -18419,7 +18563,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/15/0591Amoonguss.png/375px-0591Amoonguss.png",
+			"https://archives.bulbagarden.net/media/upload/6/6d/591Amoonguss_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Amoonguss_(Pok%C3%A9mon)",
 	},
@@ -18448,8 +18592,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b6/592Frillish-Male_BW_anime.png/180px-592Frillish-Male_BW_anime.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f1/592Frillish-Female_BW_anime.png/180px-592Frillish-Female_BW_anime.png",
+			"https://archives.bulbagarden.net/media/upload/a/aa/592Frillish_Female_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/9/99/592Frillish_Male_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Frillish_(Pok%C3%A9mon)",
 	},
@@ -18478,8 +18622,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3c/0593Jellicent-Female.png/180px-0593Jellicent-Female.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/00/0593Jellicent-Male.png/180px-0593Jellicent-Male.png",
+			"https://archives.bulbagarden.net/media/upload/7/74/593Jellicent_Female_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/0c/593Jellicent_Male_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jellicent_(Pok%C3%A9mon)",
 	},
@@ -18507,7 +18651,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f7/0594Alomomola.png/375px-0594Alomomola.png",
+			"https://archives.bulbagarden.net/media/upload/5/5b/594Alomomola_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Alomomola_(Pok%C3%A9mon)",
 	},
@@ -18535,7 +18679,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e7/0595Joltik.png/375px-0595Joltik.png",
+			"https://archives.bulbagarden.net/media/upload/d/de/595Joltik_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Joltik_(Pok%C3%A9mon)",
 	},
@@ -18563,7 +18707,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0596Galvantula.png/375px-0596Galvantula.png",
+			"https://archives.bulbagarden.net/media/upload/d/d5/596Galvantula_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Galvantula_(Pok%C3%A9mon)",
 	},
@@ -18591,7 +18735,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0597Ferroseed.png/375px-0597Ferroseed.png",
+			"https://archives.bulbagarden.net/media/upload/9/9f/597Ferroseed_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ferroseed_(Pok%C3%A9mon)",
 	},
@@ -18619,7 +18763,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b1/0598Ferrothorn.png/375px-0598Ferrothorn.png",
+			"https://archives.bulbagarden.net/media/upload/d/dc/598Ferrothorn_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ferrothorn_(Pok%C3%A9mon)",
 	},
@@ -18647,7 +18791,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/21/0599Klink.png/375px-0599Klink.png",
+			"https://archives.bulbagarden.net/media/upload/2/23/599Klink_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Klink_(Pok%C3%A9mon)",
 	},
@@ -18675,7 +18819,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/62/0600Klang.png/375px-0600Klang.png",
+			"https://archives.bulbagarden.net/media/upload/a/a2/600Klang_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Klang_(Pok%C3%A9mon)",
 	},
@@ -18703,7 +18847,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/0601Klinklang.png/375px-0601Klinklang.png",
+			"https://archives.bulbagarden.net/media/upload/e/ed/601Klinklang_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Klinklang_(Pok%C3%A9mon)",
 	},
@@ -18731,7 +18875,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8a/0602Tynamo.png/375px-0602Tynamo.png",
+			"https://archives.bulbagarden.net/media/upload/c/c5/602Tynamo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tynamo_(Pok%C3%A9mon)",
 	},
@@ -18759,7 +18903,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/94/0603Eelektrik.png/375px-0603Eelektrik.png",
+			"https://archives.bulbagarden.net/media/upload/9/94/603Eelektrik_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Eelektrik_(Pok%C3%A9mon)",
 	},
@@ -18787,7 +18931,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1c/0604Eelektross.png/375px-0604Eelektross.png",
+			"https://archives.bulbagarden.net/media/upload/6/6a/604Eelektross_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Eelektross_(Pok%C3%A9mon)",
 	},
@@ -18815,7 +18959,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/77/0605Elgyem.png/375px-0605Elgyem.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/605Elgyem_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Elgyem_(Pok%C3%A9mon)",
 	},
@@ -18843,7 +18987,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/99/0606Beheeyem.png/375px-0606Beheeyem.png",
+			"https://archives.bulbagarden.net/media/upload/1/1d/606Beheeyem_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beheeyem_(Pok%C3%A9mon)",
 	},
@@ -18871,7 +19015,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cf/0607Litwick.png/375px-0607Litwick.png",
+			"https://archives.bulbagarden.net/media/upload/7/73/607Litwick_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Litwick_(Pok%C3%A9mon)",
 	},
@@ -18899,7 +19043,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c1/0608Lampent.png/375px-0608Lampent.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/608Lampent_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lampent_(Pok%C3%A9mon)",
 	},
@@ -18927,7 +19071,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/97/0609Chandelure.png/375px-0609Chandelure.png",
+			"https://archives.bulbagarden.net/media/upload/d/df/609Chandelure_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chandelure_(Pok%C3%A9mon)",
 	},
@@ -18955,7 +19099,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/00/0610Axew.png/375px-0610Axew.png",
+			"https://archives.bulbagarden.net/media/upload/a/a1/610Axew_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Axew_(Pok%C3%A9mon)",
 	},
@@ -18983,7 +19127,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2c/0611Fraxure.png/375px-0611Fraxure.png",
+			"https://archives.bulbagarden.net/media/upload/b/b0/611Fraxure_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fraxure_(Pok%C3%A9mon)",
 	},
@@ -19011,7 +19155,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bf/0612Haxorus.png/375px-0612Haxorus.png",
+			"https://archives.bulbagarden.net/media/upload/a/ac/612Haxorus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Haxorus_(Pok%C3%A9mon)",
 	},
@@ -19039,7 +19183,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fc/0613Cubchoo.png/375px-0613Cubchoo.png",
+			"https://archives.bulbagarden.net/media/upload/b/b3/613Cubchoo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cubchoo_(Pok%C3%A9mon)",
 	},
@@ -19067,7 +19211,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a6/0614Beartic.png/375px-0614Beartic.png",
+			"https://archives.bulbagarden.net/media/upload/e/eb/614Beartic_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beartic_(Pok%C3%A9mon)",
 	},
@@ -19095,7 +19239,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/84/0615Cryogonal.png/375px-0615Cryogonal.png",
+			"https://archives.bulbagarden.net/media/upload/5/5d/615Cryogonal_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cryogonal_(Pok%C3%A9mon)",
 	},
@@ -19123,7 +19267,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d6/0616Shelmet.png/375px-0616Shelmet.png",
+			"https://archives.bulbagarden.net/media/upload/a/af/616Shelmet_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shelmet_(Pok%C3%A9mon)",
 	},
@@ -19151,7 +19295,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"hhttps://archives.bulbagarden.net/media/upload/thumb/f/f4/0617Accelgor.png/375px-0617Accelgor.png",
+			"https://archives.bulbagarden.net/media/upload/0/0a/617Accelgor_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Accelgor_(Pok%C3%A9mon)",
 	},
@@ -19179,7 +19323,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7b/0618Stunfisk.png/375px-0618Stunfisk.png",
+			"https://archives.bulbagarden.net/media/upload/1/1c/618Stunfisk_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stunfisk_(Pok%C3%A9mon)",
 	},
@@ -19208,7 +19352,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/40/0618Stunfisk-Galar.png/165px-0618Stunfisk-Galar.png",
+			"https://archives.bulbagarden.net/media/upload/5/56/618Stunfisk_Galar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stunfisk_(Pok%C3%A9mon)",
 	},
@@ -19236,7 +19380,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/74/0619Mienfoo.png/375px-0619Mienfoo.png",
+			"https://archives.bulbagarden.net/media/upload/9/96/619Mienfoo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mienfoo_(Pok%C3%A9mon)",
 	},
@@ -19264,7 +19408,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f1/0620Mienshao.png/375px-0620Mienshao.png",
+			"https://archives.bulbagarden.net/media/upload/4/48/620Mienshao_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mienshao_(Pok%C3%A9mon)",
 	},
@@ -19292,7 +19436,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c5/0621Druddigon.png/375px-0621Druddigon.png",
+			"https://archives.bulbagarden.net/media/upload/9/9a/621Druddigon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Druddigon_(Pok%C3%A9mon)",
 	},
@@ -19320,7 +19464,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e1/0622Golett.png/375px-0622Golett.png",
+			"https://archives.bulbagarden.net/media/upload/5/5b/622Golett_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golett_(Pok%C3%A9mon)",
 	},
@@ -19348,7 +19492,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/de/0623Golurk.png/375px-0623Golurk.png",
+			"https://archives.bulbagarden.net/media/upload/c/cd/623Golurk_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golurk_(Pok%C3%A9mon)",
 	},
@@ -19376,7 +19520,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8c/0624Pawniard.png/375px-0624Pawniard.png",
+			"https://archives.bulbagarden.net/media/upload/2/20/624Pawniard_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pawniard_(Pok%C3%A9mon)",
 	},
@@ -19404,7 +19548,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6b/0625Bisharp.png/375px-0625Bisharp.png",
+			"https://archives.bulbagarden.net/media/upload/6/6e/625Bisharp_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bisharp_(Pok%C3%A9mon)",
 	},
@@ -19432,7 +19576,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0626Bouffalant.png/375px-0626Bouffalant.png",
+			"https://archives.bulbagarden.net/media/upload/5/50/626Bouffalant_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bouffalant_(Pok%C3%A9mon)",
 	},
@@ -19460,7 +19604,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0627Rufflet.png/375px-0627Rufflet.png",
+			"https://archives.bulbagarden.net/media/upload/6/62/627Rufflet_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rufflet_(Pok%C3%A9mon)",
 	},
@@ -19488,7 +19632,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/22/0628Braviary.png/375px-0628Braviary.png",
+			"https://archives.bulbagarden.net/media/upload/2/21/628Braviary_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Braviary_(Pok%C3%A9mon)",
 	},
@@ -19516,7 +19660,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0628Braviary-Hisui.png/165px-0628Braviary-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/a/a4/628Braviary-Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Braviary_(Pok%C3%A9mon)",
 	},
@@ -19544,7 +19688,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0629Vullaby.png/375px-0629Vullaby.png",
+			"https://archives.bulbagarden.net/media/upload/6/6c/629Vullaby_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vullaby_(Pok%C3%A9mon)",
 	},
@@ -19572,7 +19716,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f1/0630Mandibuzz.png/375px-0630Mandibuzz.png",
+			"https://archives.bulbagarden.net/media/upload/d/d1/630Mandibuzz_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mandibuzz_(Pok%C3%A9mon)",
 	},
@@ -19600,7 +19744,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/33/0631Heatmor.png/375px-0631Heatmor.png",
+			"https://archives.bulbagarden.net/media/upload/c/c8/631Heatmor_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Heatmor_(Pok%C3%A9mon)",
 	},
@@ -19629,7 +19773,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bd/0632Durant.png/375px-0632Durant.png",
+			"https://archives.bulbagarden.net/media/upload/e/ed/632Durant_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Durant_(Pok%C3%A9mon)",
 	},
@@ -19657,7 +19801,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/60/0633Deino.png/375px-0633Deino.png",
+			"https://archives.bulbagarden.net/media/upload/5/57/633Deino_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deino_(Pok%C3%A9mon)",
 	},
@@ -19685,7 +19829,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/74/0634Zweilous.png/375px-0634Zweilous.png",
+			"https://archives.bulbagarden.net/media/upload/6/6d/634Zweilous_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zweilous_(Pok%C3%A9mon)",
 	},
@@ -19713,7 +19857,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/92/0635Hydreigon.png/375px-0635Hydreigon.png",
+			"https://archives.bulbagarden.net/media/upload/2/2d/635Hydreigon_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hydreigon_(Pok%C3%A9mon)",
 	},
@@ -19741,7 +19885,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/33/0636Larvesta.png/375px-0636Larvesta.png",
+			"https://archives.bulbagarden.net/media/upload/e/e4/636Larvesta_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Larvesta_(Pok%C3%A9mon)",
 	},
@@ -19769,7 +19913,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0637Volcarona.png/375px-0637Volcarona.png",
+			"https://archives.bulbagarden.net/media/upload/6/62/637Volcarona_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volcarona_(Pok%C3%A9mon)",
 	},
@@ -19797,7 +19941,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9e/0638Cobalion.png/375px-0638Cobalion.png",
+			"https://archives.bulbagarden.net/media/upload/a/a9/638Cobalion_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cobalion_(Pok%C3%A9mon)",
 	},
@@ -19825,7 +19969,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6b/0639Terrakion.png/375px-0639Terrakion.png",
+			"https://archives.bulbagarden.net/media/upload/d/d2/639Terrakion_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Terrakion_(Pok%C3%A9mon)",
 	},
@@ -19853,7 +19997,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bf/0640Virizion.png/375px-0640Virizion.png",
+			"https://archives.bulbagarden.net/media/upload/0/04/640Virizion_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Virizion_(Pok%C3%A9mon)",
 	},
@@ -19881,7 +20025,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/12/0641Tornadus.png/375px-0641Tornadus.png",
+			"https://archives.bulbagarden.net/media/upload/9/94/641Tornadus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon)",
 	},
@@ -19903,13 +20047,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa em todas as direções, criando ventos tão poderosos que levam tudo para longe.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ciclone",
-		obtencao: "Vagando por Unova",
+		obtencao: "Vagando por Unova e ativar o Espelho Revelador",
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/53/0641Tornadus-Therian.png/165px-0641Tornadus-Therian.png",
+			"https://archives.bulbagarden.net/media/upload/3/30/641Tornadus_Therian_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon)",
 	},
@@ -19937,7 +20081,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/51/0642Thundurus.png/375px-0642Thundurus.png",
+			"https://archives.bulbagarden.net/media/upload/8/8d/642Thundurus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)",
 	},
@@ -19958,14 +20102,14 @@ const pkmnDisponiveis = [
 		},
 		descricao:
 			"Incontáveis restos carbonizados marcam a paisagem dos lugares por onde passou.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Ataque de Raio",
+		categoria: "Pokémon Ataque de Raio e ativar o Espelho Revelador",
 		obtencao: "Vagando por Unova",
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/53/0641Tornadus-Therian.png/165px-0641Tornadus-Therian.png",
+			"https://archives.bulbagarden.net/media/upload/c/c2/642Thundurus_Therian_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon)",
 	},
@@ -19993,7 +20137,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/56/0643Reshiram.png/375px-0643Reshiram.png",
+			"https://archives.bulbagarden.net/media/upload/4/4c/643Reshiram_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Reshiram_(Pok%C3%A9mon)",
 	},
@@ -20021,7 +20165,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/72/0644Zekrom.png/375px-0644Zekrom.png",
+			"https://archives.bulbagarden.net/media/upload/1/18/644Zekrom_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pok%C3%A9mon)",
 	},
@@ -20049,7 +20193,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/da/0645Landorus.png/375px-0645Landorus.png",
+			"https://archives.bulbagarden.net/media/upload/7/77/645Landorus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon)",
 	},
@@ -20071,13 +20215,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Terras visitadas por este Pokémon proporcionam colheitas tão abundantes que foi aclamado como 'O Guadião dos Campos'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abundância",
-		obtencao: "Abundant Shrine",
+		obtencao: "Abundant Shrine e ativar o Espelho Revelador",
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/44/0645Landorus-Therian.png/165px-0645Landorus-Therian.png",
+			"https://archives.bulbagarden.net/media/upload/b/b8/645Landorus_Therian_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon)",
 	},
@@ -20105,7 +20249,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/86/0646Kyurem.png/375px-0646Kyurem.png",
+			"https://archives.bulbagarden.net/media/upload/1/1a/646Kyurem_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)",
 	},
@@ -20127,13 +20271,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gera uma poderosa energia congelante dentro de si, mas seu corpo se torna congelado quando essa energia vaza.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fronteira",
-		obtencao: "Giant Chasm",
+		obtencao: "Giant Chasm e ativar Ponta de DNA com Reshiram",
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5d/0646Kyurem-White.png/180px-0646Kyurem-White.png",
+			"https://archives.bulbagarden.net/media/upload/e/e1/646Kyurem_White_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)",
 	},
@@ -20155,13 +20299,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gera uma poderosa energia congelante dentro de si, mas seu corpo se torna congelado quando essa energia vaza.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fronteira",
-		obtencao: "Giant Chasm",
+		obtencao: "Giant Chasm e ativar Ponta de DNA com Zekrom",
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0646Kyurem-Black.png/180px-0646Kyurem-Black.png",
+			"https://archives.bulbagarden.net/media/upload/d/dc/646Kyurem_Black_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)",
 	},
@@ -20189,8 +20333,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/92/0647Keldeo.png/375px-0647Keldeo.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cf/0647Keldeo-Resolute.png/180px-0647Keldeo-Resolute.png",
+			"https://archives.bulbagarden.net/media/upload/6/6f/647Keldeo_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/0f/647Keldeo_Resolute_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)",
 	},
@@ -20218,7 +20362,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0b/0648Meloetta.png/375px-0648Meloetta.png",
+			"https://archives.bulbagarden.net/media/upload/4/4e/648Meloetta_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)",
 	},
@@ -20240,13 +20384,14 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas melodias são cantadas com um método de vocalização especial que conseuge controlar os sentimentos daqueles que o escuta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Melodia",
-		obtencao: "Por evento",
+		obtencao:
+			"Por evento e, quando em batalha, usa o movimento Canção da Relíquia",
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f9/0648Meloetta-Pirouette.png/180px-0648Meloetta-Pirouette.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/648Meloetta_P_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)",
 	},
@@ -20274,7 +20419,11 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e3/0649Genesect.png/375px-0649Genesect.png",
+			"https://archives.bulbagarden.net/media/upload/f/f3/649Genesect_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/63/649Genesect_Shock_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b8/649Genesect_Burn_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b9/649Genesect_Chill_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/5/50/649Genesect_Douse_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon)",
 	},
@@ -20286,7 +20435,7 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
+			ps: 56,
 			atq: 61,
 			def: 65,
 			atq_esp: 48,
@@ -20294,7 +20443,7 @@ const pkmnDisponiveis = [
 			vel: 38,
 		},
 		descricao:
-			"As penas em sua cabeça são geralmente macias. Quandos as flexiona, as pontas se tornam tão duras e afiadas que podem perfurar uma rocha.", // considerando a dex da primeira geração que apareceu
+			"As penas em sua cabeça são geralmente macias. Quando as flexiona, as pontas se tornam tão duras e afiadas que podem perfurar uma rocha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Noz Espinhosa",
 		obtencao: "Aquacorde Town",
 		estagio: 1,
@@ -20302,7 +20451,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b0/0650Chespin.png/375px-0650Chespin.png",
+			"https://archives.bulbagarden.net/media/upload/c/c5/650Chespin_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chespin_(Pok%C3%A9mon)",
 	},
@@ -20330,7 +20479,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/24/0651Quilladin.png/375px-0651Quilladin.png",
+			"https://archives.bulbagarden.net/media/upload/7/79/651Quilladin_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Quilladin_(Pok%C3%A9mon)",
 	},
@@ -20358,7 +20507,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/db/0652Chesnaught.png/375px-0652Chesnaught.png",
+			"https://archives.bulbagarden.net/media/upload/d/d3/652Chesnaught_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chesnaught_(Pok%C3%A9mon)",
 	},
@@ -20386,7 +20535,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/46/0653Fennekin.png/375px-0653Fennekin.png",
+			"https://archives.bulbagarden.net/media/upload/1/1f/653Fennekin_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fennekin_(Pok%C3%A9mon)",
 	},
@@ -20414,7 +20563,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4b/0654Braixen.png/375px-0654Braixen.png",
+			"https://archives.bulbagarden.net/media/upload/a/ab/654Braixen_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Braixen_(Pok%C3%A9mon)",
 	},
@@ -20442,7 +20591,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/01/0655Delphox.png/375px-0655Delphox.png",
+			"https://archives.bulbagarden.net/media/upload/9/94/655Delphox_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Delphox_(Pok%C3%A9mon)",
 	},
@@ -20470,7 +20619,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/04/0656Froakie.png/375px-0656Froakie.png",
+			"https://archives.bulbagarden.net/media/upload/2/27/656Froakie_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Froakie_(Pok%C3%A9mon)",
 	},
@@ -20490,7 +20639,7 @@ const pkmnDisponiveis = [
 			vel: 97,
 		},
 		descricao:
-			"Consegue lançar pedras cobetas por bolhas com controle preciso, acertando latas vazias a até trinta metros de distância.", // considerando a dex da primeira geração que apareceu
+			"Consegue lançar pedras cobertas por bolhas com controle preciso, acertando latas vazias a até trinta metros de distância.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sapo Bolha",
 		obtencao: "Friend Safari; e por evolução",
 		estagio: 2,
@@ -20498,7 +20647,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8e/0657Frogadier.png/375px-0657Frogadier.png",
+			"https://archives.bulbagarden.net/media/upload/8/8f/657Frogadier_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Frogadier_(Pok%C3%A9mon)",
 	},
@@ -20526,7 +20675,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0658Greninja.png/375px-0658Greninja.png",
+			"https://archives.bulbagarden.net/media/upload/e/e0/658Greninja_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pok%C3%A9mon)",
 	},
@@ -20554,7 +20703,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d0/0659Bunnelby.png/375px-0659Bunnelby.png",
+			"https://archives.bulbagarden.net/media/upload/f/f3/659Bunnelby_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bunnelby_(Pok%C3%A9mon)",
 	},
@@ -20582,7 +20731,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/df/0660Diggersby.png/375px-0660Diggersby.png",
+			"https://archives.bulbagarden.net/media/upload/d/d9/660Diggersby_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diggersby_(Pok%C3%A9mon)",
 	},
@@ -20610,7 +20759,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fd/0661Fletchling.png/375px-0661Fletchling.png",
+			"https://archives.bulbagarden.net/media/upload/e/e4/661Fletchling_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fletchling_(Pok%C3%A9mon)",
 	},
@@ -20638,7 +20787,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/02/0662Fletchinder.png/375px-0662Fletchinder.png",
+			"https://archives.bulbagarden.net/media/upload/2/20/662Fletchinder_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fletchinder_(Pok%C3%A9mon)",
 	},
@@ -20666,7 +20815,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/12/0663Talonflame.png/375px-0663Talonflame.png",
+			"https://archives.bulbagarden.net/media/upload/f/f6/663Talonflame_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Talonflame_(Pok%C3%A9mon)",
 	},
@@ -20694,7 +20843,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/19/0664Scatterbug.png/375px-0664Scatterbug.png",
+			"https://archives.bulbagarden.net/media/upload/b/b3/664Scatterbug_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scatterbug_(Pok%C3%A9mon)",
 	},
@@ -20714,7 +20863,7 @@ const pkmnDisponiveis = [
 			vel: 29,
 		},
 		descricao:
-			"Vive escondido em sombras de arbutos. Quando predadores atacam, rapidamente eriça o pelo que cobre seu corpo em um esforço para ameaçá-los.", // considerando a dex da primeira geração que apareceu
+			"Vive escondido em sombras de arbustos. Quando predadores atacam, rapidamente eriça o pelo que cobre seu corpo em um esforço para ameaçá-los.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Poeira Dispersa",
 		obtencao: "Berry Fields; e por evolução",
 		estagio: 2,
@@ -20722,7 +20871,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/33/0665Spewpa.png/375px-0665Spewpa.png",
+			"https://archives.bulbagarden.net/media/upload/2/20/665Spewpa_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spewpa_(Pok%C3%A9mon)",
 	},
@@ -20750,26 +20899,26 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c2/0666Vivillon-Archipelago.png/180px-0666Vivillon-Archipelago.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a1/0666Vivillon-Continental.png/180px-0666Vivillon-Continental.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6c/0666Vivillon-Elegant.png/180px-0666Vivillon-Elegant.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/74/0666Vivillon-Fancy.png/180px-0666Vivillon-Fancy.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f1/0666Vivillon-Garden.png/180px-0666Vivillon-Garden.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/1/17/0666Vivillon-High_Plains.png/180px-0666Vivillon-High_Plains.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/8/87/0666Vivillon-Icy_Snow.png/180px-0666Vivillon-Icy_Snow.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/9/96/0666Vivillon-Jungle.png/180px-0666Vivillon-Jungle.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/50/0666Vivillon-Marine.png/180px-0666Vivillon-Marine.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0666Vivillon-Meadow.png/180px-0666Vivillon-Meadow.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/8/86/0666Vivillon-Modern.png/180px-0666Vivillon-Modern.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/70/0666Vivillon-Monsoon.png/180px-0666Vivillon-Monsoon.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/75/0666Vivillon-Ocean.png/180px-0666Vivillon-Ocean.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0666Vivillon-Pok%C3%A9_Ball.png/180px-0666Vivillon-Pok%C3%A9_Ball.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/8/8b/0666Vivillon-Polar.png/180px-0666Vivillon-Polar.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/2/23/0666Vivillon-River.png/180px-0666Vivillon-River.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/3/31/0666Vivillon-Sandstorm.png/180px-0666Vivillon-Sandstorm.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/67/0666Vivillon-Savanna.png/180px-0666Vivillon-Savanna.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c3/0666Vivillon-Sun.png/180px-0666Vivillon-Sun.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cb/0666Vivillon-Tundra.png/180px-0666Vivillon-Tundra.png",
+			"https://archives.bulbagarden.net/media/upload/0/02/666Vivillon_Archipelago_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/7/7d/666Vivillon_Continental_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/21/666Vivillon_Elegant_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/8/83/666Vivillon_Fancy_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/5/54/666Vivillon_Garden_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/e/e2/666Vivillon_High_Plains_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/6e/666Vivillon_Icy_Snow_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/2b/666Vivillon_Jungle_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/69/666Vivillon_Marine_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/3/37/666Vivillon_Meadow_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/2/2a/666Vivillon_Modern_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/02/666Vivillon_Monsoon_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/8/8e/666Vivillon_Ocean_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/1/13/666Vivillon_Pok%C3%A9_Ball_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/1/11/666Vivillon_Polar_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/f/fa/666Vivillon_River_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/1/1e/666Vivillon_Sandstorm_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b6/666Vivillon_Savannah_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/1/19/666Vivillon_Sun_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/f/f9/666Vivillon_Tundra_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vivillon_(Pok%C3%A9mon)",
 	},
@@ -20797,7 +20946,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/2d/0667Litleo.png/375px-0667Litleo.png",
+			"https://archives.bulbagarden.net/media/upload/a/a8/667Litleo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Litleo_(Pok%C3%A9mon)",
 	},
@@ -20825,8 +20974,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0c/0668Pyroar-Female.png/180px-0668Pyroar-Female.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d1/0668Pyroar-Male.png/180px-0668Pyroar-Male.png",
+			"https://archives.bulbagarden.net/media/upload/0/04/668Pyroar_Female_WF.png",
+			"https://archives.bulbagarden.net/media/upload/9/9d/668Pyroar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pyroar_(Pok%C3%A9mon)",
 	},
@@ -20854,11 +21003,11 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cb/669Flab%C3%A9b%C3%A9_Blue_Flower_Dream_3.png/178px-669Flab%C3%A9b%C3%A9_Blue_Flower_Dream_3.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7b/669Flab%C3%A9b%C3%A9_Orange_Flower_Dream_3.png/178px-669Flab%C3%A9b%C3%A9_Orange_Flower_Dream_3.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0a/669Flab%C3%A9b%C3%A9_Red_Flower_Dream_3.png/178px-669Flab%C3%A9b%C3%A9_Red_Flower_Dream_3.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/09/669Flab%C3%A9b%C3%A9_White_Flower_Dream_3.png/178px-669Flab%C3%A9b%C3%A9_White_Flower_Dream_3.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/65/669Flab%C3%A9b%C3%A9_Yellow_Flower_Dream_3.png/178px-669Flab%C3%A9b%C3%A9_Yellow_Flower_Dream_3.png",
+			"https://archives.bulbagarden.net/media/upload/3/39/669Flab%C3%A9b%C3%A9_Blue_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b9/669Flab%C3%A9b%C3%A9_Orange_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/9/9a/669Flab%C3%A9b%C3%A9_Red_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/7/78/669Flab%C3%A9b%C3%A9_White_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/0c/669Flab%C3%A9b%C3%A9_Yellow_Flower_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_(Pok%C3%A9mon)",
 	},
@@ -20886,11 +21035,11 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/70/670Floette_Blue_Flower_Dream.png/136px-670Floette_Blue_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/0/06/670Floette_Orange_Flower_Dream.png/136px-670Floette_Orange_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a3/670Floette_Red_Flower_Dream.png/136px-670Floette_Red_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a0/670Floette_White_Flower_Dream.png/136px-670Floette_White_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/670Floette_Yellow_Flower_Dream.png/136px-670Floette_Yellow_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/7/70/670Floette_Blue_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/06/670Floette_Orange_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/a/a3/670Floette_Red_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/a/a0/670Floette_White_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/1/1f/670Floette_Yellow_Flower_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Floette_(Pok%C3%A9mon)",
 	},
@@ -20918,11 +21067,11 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/bc/671Florges_Blue_Flower_Dream.png/142px-671Florges_Blue_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6f/671Florges_Orange_Flower_Dream.png/142px-671Florges_Orange_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/671Florges_Red_Flower_Dream.png/142px-671Florges_Red_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ea/671Florges_White_Flower_Dream.png/142px-671Florges_White_Flower_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5d/671Florges_Yellow_Flower_Dream.png/142px-671Florges_Yellow_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/bc/671Florges_Blue_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/6f/671Florges_Orange_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b9/671Florges_Red_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/e/ea/671Florges_White_Flower_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/5/5d/671Florges_Yellow_Flower_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon)",
 	},
@@ -20950,7 +21099,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0672Skiddo.png/375px-0672Skiddo.png",
+			"https://archives.bulbagarden.net/media/upload/8/89/672Skiddo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skiddo_(Pok%C3%A9mon)",
 	},
@@ -20970,7 +21119,7 @@ const pkmnDisponiveis = [
 			vel: 68,
 		},
 		descricao:
-			"Consegue diferenciar os sentimentos de seu Treinador pelas mudanças sutis na pegada de seus chifres. Esse senso empático permite que corram como se fosem um ser.", // considerando a dex da primeira geração que apareceu
+			"Consegue diferenciar os sentimentos de seu Treinador pelas mudanças sutis na pegada de seus chifres. Esse senso empático permite que corram como se fossem um ser.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Monte",
 		obtencao: "Friend Safari; e por evolução",
 		estagio: 2,
@@ -20978,7 +21127,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ec/0673Gogoat.png/375px-0673Gogoat.png",
+			"https://archives.bulbagarden.net/media/upload/0/07/673Gogoat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gogoat_(Pok%C3%A9mon)",
 	},
@@ -21006,7 +21155,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/8/89/0674Pancham.png/375px-0674Pancham.png",
+			"https://archives.bulbagarden.net/media/upload/4/4f/674Pancham_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pancham_(Pok%C3%A9mon)",
 	},
@@ -21034,7 +21183,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b8/0675Pangoro.png/375px-0675Pangoro.png",
+			"https://archives.bulbagarden.net/media/upload/f/fb/675Pangoro_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pangoro_(Pok%C3%A9mon)",
 	},
@@ -21062,7 +21211,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/2/29/0676Furfrou.png/375px-0676Furfrou.png",
+			"https://archives.bulbagarden.net/media/upload/1/1b/676Furfrou_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Furfrou_(Pok%C3%A9mon)",
 	},
@@ -21090,7 +21239,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1e/0677Espurr.png/375px-0677Espurr.png",
+			"https://archives.bulbagarden.net/media/upload/3/33/677Espurr_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Espurr_(Pok%C3%A9mon)",
 	},
@@ -21118,8 +21267,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1f/0678Meowstic-Female.png/180px-0678Meowstic-Female.png",
-			"https://archives.bulbagarden.net/media/upload/thumb/6/6d/0678Meowstic-Male.png/180px-0678Meowstic-Male.png",
+			"https://archives.bulbagarden.net/media/upload/6/6a/678Meowstic_Female_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/69/678Meowstic_Male_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowstic_(Pok%C3%A9mon)",
 	},
@@ -21139,7 +21288,7 @@ const pkmnDisponiveis = [
 			vel: 28,
 		},
 		descricao:
-			"Aparentemente, este Pokémon nasce quando um espírito que partiu habita uma espada. Este Pokémon se liga às pessoas e veve sua força vital.", // considerando a dex da primeira geração que apareceu
+			"Aparentemente, este Pokémon nasce quando um espírito que partiu habita uma espada. Este Pokémon se liga às pessoas e bebe sua força vital.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada",
 		obtencao: "Rota 6",
 		estagio: 1,
@@ -21147,7 +21296,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/48/0679Honedge.png/375px-0679Honedge.png",
+			"https://archives.bulbagarden.net/media/upload/7/78/679Honedge_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Honedge_(Pok%C3%A9mon)",
 	},
@@ -21175,7 +21324,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/de/0680Doublade.png/375px-0680Doublade.png",
+			"https://archives.bulbagarden.net/media/upload/3/32/680Doublade_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Doublade_(Pok%C3%A9mon)",
 	},
@@ -21203,7 +21352,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5a/0681Aegislash-Shield.png/180px-0681Aegislash-Shield.png",
+			"https://archives.bulbagarden.net/media/upload/5/5b/681Aegislash_Shield_Forme_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pok%C3%A9mon)",
 	},
@@ -21231,7 +21380,8 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/99/0681Aegislash-Blade.png/180px-0681Aegislash-Blade.png",
+			"https://archives.bulbagarden.net/media/upload/4/4e/681Aegislash_Blade_Forme_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/f/f7/681Aegislash_Blade_Forme_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pok%C3%A9mon)",
 	},
@@ -21259,7 +21409,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/58/0682Spritzee.png/375px-0682Spritzee.png",
+			"https://archives.bulbagarden.net/media/upload/5/5c/682Spritzee_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spritzee_(Pok%C3%A9mon)",
 	},
@@ -21287,7 +21437,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e3/0683Aromatisse.png/375px-0683Aromatisse.png",
+			"https://archives.bulbagarden.net/media/upload/8/81/683Aromatisse_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aromatisse_(Pok%C3%A9mon)",
 	},
@@ -21315,7 +21465,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/a/a7/0684Swirlix.png/375px-0684Swirlix.png",
+			"https://archives.bulbagarden.net/media/upload/f/f5/684Swirlix_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swirlix_(Pok%C3%A9mon)",
 	},
@@ -21343,7 +21493,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/c4/0685Slurpuff.png/375px-0685Slurpuff.png",
+			"https://archives.bulbagarden.net/media/upload/a/a1/685Slurpuff_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slurpuff_(Pok%C3%A9mon)",
 	},
@@ -21371,7 +21521,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/3d/0686Inkay.png/375px-0686Inkay.png",
+			"https://archives.bulbagarden.net/media/upload/d/d1/686Inkay_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Inkay_(Pok%C3%A9mon)",
 	},
@@ -21384,7 +21534,7 @@ const pkmnDisponiveis = [
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps: 86,
-			atq: 91,
+			atq: 92,
 			def: 88,
 			atq_esp: 68,
 			def_esp: 75,
@@ -21399,7 +21549,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/58/0687Malamar.png/375px-0687Malamar.png",
+			"https://archives.bulbagarden.net/media/upload/2/2b/687Malamar_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Malamar_(Pok%C3%A9mon)",
 	},
@@ -21427,7 +21577,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/90/0688Binacle.png/375px-0688Binacle.png",
+			"https://archives.bulbagarden.net/media/upload/5/51/688Binacle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Binacle_(Pok%C3%A9mon)",
 	},
@@ -21455,7 +21605,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/36/0689Barbaracle.png/375px-0689Barbaracle.png",
+			"https://archives.bulbagarden.net/media/upload/5/52/689Barbaracle_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Barbaracle_(Pok%C3%A9mon)",
 	},
@@ -21483,7 +21633,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e7/0690Skrelp.png/375px-0690Skrelp.png",
+			"https://archives.bulbagarden.net/media/upload/0/02/690Skrelp_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skrelp_(Pok%C3%A9mon)",
 	},
@@ -21511,7 +21661,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4c/0691Dragalge.png/375px-0691Dragalge.png",
+			"https://archives.bulbagarden.net/media/upload/3/39/691Dragalge_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dragalge_(Pok%C3%A9mon)",
 	},
@@ -21539,7 +21689,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/ff/0692Clauncher.png/375px-0692Clauncher.png",
+			"https://archives.bulbagarden.net/media/upload/3/30/692Clauncher_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clauncher_(Pok%C3%A9mon)",
 	},
@@ -21567,7 +21717,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f1/0693Clawitzer.png/375px-0693Clawitzer.png",
+			"https://archives.bulbagarden.net/media/upload/e/ec/693Clawitzer_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clawitzer_(Pok%C3%A9mon)",
 	},
@@ -21595,7 +21745,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cc/0694Helioptile.png/375px-0694Helioptile.png",
+			"https://archives.bulbagarden.net/media/upload/2/20/694Helioptile_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Helioptile_(Pok%C3%A9mon)",
 	},
@@ -21623,7 +21773,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/c/cc/0695Heliolisk.png/375px-0695Heliolisk.png",
+			"https://archives.bulbagarden.net/media/upload/c/cf/695Heliolisk_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Heliolisk_(Pok%C3%A9mon)",
 	},
@@ -21651,7 +21801,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1c/0696Tyrunt.png/375px-0696Tyrunt.png",
+			"https://archives.bulbagarden.net/media/upload/0/02/696Tyrunt_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyrunt_(Pok%C3%A9mon)",
 	},
@@ -21679,7 +21829,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/be/0697Tyrantrum.png/375px-0697Tyrantrum.png",
+			"https://archives.bulbagarden.net/media/upload/e/e0/697Tyrantrum_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyrantrum_(Pok%C3%A9mon)",
 	},
@@ -21707,7 +21857,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/09/0698Amaura.png/375px-0698Amaura.png",
+			"https://archives.bulbagarden.net/media/upload/e/ef/698Amaura_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Amaura_(Pok%C3%A9mon)",
 	},
@@ -21735,7 +21885,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/56/0699Aurorus.png/375px-0699Aurorus.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/699Aurorus_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aurorus_(Pok%C3%A9mon)",
 	},
@@ -21763,7 +21913,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d0/0700Sylveon.png/375px-0700Sylveon.png",
+			"https://archives.bulbagarden.net/media/upload/4/42/700Sylveon_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sylveon_(Pok%C3%A9mon)",
 	},
@@ -21791,7 +21941,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/69/0701Hawlucha.png/375px-0701Hawlucha.png",
+			"https://archives.bulbagarden.net/media/upload/9/95/701Hawlucha_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hawlucha_(Pok%C3%A9mon)",
 	},
@@ -21819,7 +21969,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4f/0702Dedenne.png/375px-0702Dedenne.png",
+			"https://archives.bulbagarden.net/media/upload/1/1b/702Dedenne_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dedenne_(Pok%C3%A9mon)",
 	},
@@ -21847,7 +21997,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/fb/0703Carbink.png/375px-0703Carbink.png",
+			"https://archives.bulbagarden.net/media/upload/e/ee/703Carbink_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carbink_(Pok%C3%A9mon)",
 	},
@@ -21875,7 +22025,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/16/0704Goomy.png/375px-0704Goomy.png",
+			"https://archives.bulbagarden.net/media/upload/1/17/704Goomy_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Goomy_(Pok%C3%A9mon)",
 	},
@@ -21903,7 +22053,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/42/0705Sliggoo.png/180px-0705Sliggoo.png",
+			"https://archives.bulbagarden.net/media/upload/3/34/705Sliggoo_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sliggoo_(Pok%C3%A9mon)",
 	},
@@ -21932,7 +22082,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/4b/0705Sliggoo-Hisui.png/180px-0705Sliggoo-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/9/97/705Sliggoo-Hisui_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sliggoo_(Pok%C3%A9mon)",
 	},
@@ -21960,7 +22110,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7b/0706Goodra.png/180px-0706Goodra.png",
+			"https://archives.bulbagarden.net/media/upload/a/a5/706Goodra_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Goodra_(Pok%C3%A9mon)",
 	},
@@ -21989,7 +22139,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b9/0706Goodra-Hisui.png/180px-0706Goodra-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/6/65/706Goodra_Hisui_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Goodra_(Pok%C3%A9mon)",
 	},
@@ -22017,7 +22167,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/e8/0707Klefki.png/375px-0707Klefki.png",
+			"https://archives.bulbagarden.net/media/upload/5/5c/707Klefki_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Klefki_(Pok%C3%A9mon)",
 	},
@@ -22045,7 +22195,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d8/0708Phantump.png/375px-0708Phantump.png",
+			"https://archives.bulbagarden.net/media/upload/b/b5/708Phantump_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Phantump_(Pok%C3%A9mon)",
 	},
@@ -22073,7 +22223,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d2/0709Trevenant.png/375px-0709Trevenant.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/709Trevenant_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Trevenant_(Pok%C3%A9mon)",
 	},
@@ -22325,7 +22475,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/6/60/0712Bergmite.png/375px-0712Bergmite.png",
+			"https://archives.bulbagarden.net/media/upload/2/27/712Bergmite_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bergmite_(Pok%C3%A9mon)",
 	},
@@ -22353,7 +22503,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ed/0713Avalugg.png/375px-0713Avalugg.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/713Avalugg_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Avalugg_(Pok%C3%A9mon)",
 	},
@@ -22381,7 +22531,8 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/e/ef/0713Avalugg-Hisui.png/165px-0713Avalugg-Hisui.png",
+			"https://archives.bulbagarden.net/media/upload/0/00/713Avalugg_Hisui_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/4/41/713Avalugg_Hisui_Dream_2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Avalugg_(Pok%C3%A9mon)",
 	},
@@ -22401,7 +22552,7 @@ const pkmnDisponiveis = [
 			vel: 55,
 		},
 		descricao:
-			"Vivem em caverna escuras como breu. Seus ouvidos enormes podem emitr ondas ultrassônicas de 200'000 hertz.", // considerando a dex da primeira geração que apareceu
+			"Vivem em caverna escuras como breu. Seus ouvidos enormes podem emitir ondas ultrassônicas de 200'000 hertz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Onda Sonora",
 		obtencao: "Caverna Terminus; Estrada da Vitória; e Friend Safari",
 		estagio: 1,
@@ -22409,7 +22560,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/5/5a/0714Noibat.png/375px-0714Noibat.png",
+			"https://archives.bulbagarden.net/media/upload/c/c2/714Noibat_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Noibat_(Pok%C3%A9mon)",
 	},
@@ -22437,7 +22588,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/7/7f/0715Noivern.png/375px-0715Noivern.png",
+			"https://archives.bulbagarden.net/media/upload/9/98/715Noivern_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Noivern_(Pok%C3%A9mon)",
 	},
@@ -22465,8 +22616,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a5/Menu_HOME_0716.png",
-			"https://archives.bulbagarden.net/media/upload/3/35/Menu_HOME_0716-Neutral.png",
+			"https://archives.bulbagarden.net/media/upload/7/70/716Xerneas_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon)",
 	},
@@ -22494,7 +22644,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/1d/0717Yveltal.png/375px-0717Yveltal.png",
+			"https://archives.bulbagarden.net/media/upload/9/98/717Yveltal_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yveltal_(Pok%C3%A9mon)",
 	},
@@ -22522,7 +22672,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/718Zygarde_10_Percent_Dream.png/180px-718Zygarde_10_Percent_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/f/f2/718Zygarde_10_Percent_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)",
 	},
@@ -22550,7 +22700,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/b/b1/718Zygarde_Dream.png/180px-718Zygarde_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b1/718Zygarde_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)",
 	},
@@ -22578,7 +22728,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/05/718Zygarde_Complete_Dream.png/180px-718Zygarde_Complete_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/0/05/718Zygarde_Complete_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)",
 	},
@@ -22606,7 +22756,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/3/37/0719Diancie.png/375px-0719Diancie.png",
+			"https://archives.bulbagarden.net/media/upload/c/cf/719Diancie_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diancie_(Pok%C3%A9mon)",
 	},
@@ -22634,7 +22784,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/9/9b/720Hoopa-Confined_Dream.png/180px-720Hoopa-Confined_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/9/9b/720Hoopa-Confined_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon)",
 	},
@@ -22662,7 +22812,7 @@ const pkmnDisponiveis = [
 		variante: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/f/f2/720Hoopa-Unbound_Dream.png/180px-720Hoopa-Unbound_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/f/f2/720Hoopa-Unbound_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon)",
 	},
@@ -22682,7 +22832,7 @@ const pkmnDisponiveis = [
 			vel: 70,
 		},
 		descricao:
-			"Solta nuvens de vapo e desaparece na névoa densa. Dizem que vive em montanhas onde os humanos não pisam.", // considerando a dex da primeira geração que apareceu
+			"Solta nuvens de vapor e desaparece na névoa densa. Dizem que vive em montanhas onde os humanos não pisam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vapor",
 		obtencao: "Por evento",
 		estagio: 1,
@@ -22690,7 +22840,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/13/0721Volcanion.png/375px-0721Volcanion.png",
+			"https://archives.bulbagarden.net/media/upload/2/21/721Volcanion_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volcanion_(Pok%C3%A9mon)",
 	},
@@ -22718,9 +22868,2798 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/0/0c/0722Rowlet.png/375px-0722Rowlet.png",
+			"https://archives.bulbagarden.net/media/upload/2/26/722Rowlet_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rowlet_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dartrix",
+		numero: 723, // considerando a national dex
+		tipo: ["Planta", " Voador"],
+		massa: 16.0, // em kg
+		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 78,
+			atq: 75,
+			def: 75,
+			atq_esp: 70,
+			def_esp: 70,
+			vel: 52,
+		},
+		descricao:
+			"Um pouco dândi, passa seu tempo livre alisando suas asas. Sua preocupação com qualquer sujeira em sua plumagem pode deixá-lo incapaz de lutar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lâmina de Pluma",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/e6/723Dartrix_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Dartrix_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Decidueye de Alola",
+		numero: 724.1, // considerando a national dex
+		tipo: ["Planta", " Fantasma"],
+		massa: 36.6, // em kg
+		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 78,
+			atq: 107,
+			def: 75,
+			atq_esp: 100,
+			def_esp: 100,
+			vel: 70,
+		},
+		descricao:
+			"Dispara flechas de suas asas com tanta precisão que elas podem perfurar uma pedra a distância de mais de noventa metros.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Flecha de Pluma",
+		obtencao: "Por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/f/f7/724Decidueye_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Decidueye_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Decidueye de Hisui",
+		numero: 724.2, // considerando a national dex
+		tipo: ["Planta", " Lutador"],
+		massa: 37.0, // em kg
+		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 88,
+			atq: 112,
+			def: 80,
+			atq_esp: 95,
+			def_esp: 95,
+			vel: 60,
+		},
+		descricao:
+			"O ar armazenado dentro das ráquis de suas penas isola o Pokémon contra o frio extremo da região.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Flecha de Pluma",
+		obtencao: "Coronet Highlands: Space-time distortions; e por evolução",
+		estagio: 3,
+		geracao: 8, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/4/40/724Decidueye-Hisui_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Decidueye_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Litten",
+		numero: 725, // considerando a national dex
+		tipo: ["Fogo"],
+		massa: 4.3, // em kg
+		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 45,
+			atq: 65,
+			def: 40,
+			atq_esp: 60,
+			def_esp: 40,
+			vel: 70,
+		},
+		descricao:
+			"Enquanto se limpa, acumula pelos dentro do estômago. Incendeia os pelos e cospe ataques de fogo, que mudam com base em como tosse.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Gato de Fogo",
+		obtencao: "Cidade de Iki; ou Rota 1",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/6/65/725Litten_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Litten_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Torracat",
+		numero: 726, // considerando a national dex
+		tipo: ["Fogo"],
+		massa: 25.0, // em kg
+		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 65,
+			atq: 85,
+			def: 50,
+			atq_esp: 80,
+			def_esp: 50,
+			vel: 90,
+		},
+		descricao:
+			"Em sua garganta, carrega um sino de fogo. O sino toca brilhantemente sempre que este Pokémon cospe fogo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Gato de Fogo",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/dd/726Torracat_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Torracat_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Incineroar",
+		numero: 727, // considerando a national dex
+		tipo: ["Fogo", " Noturno"],
+		massa: 83.0, // em kg
+		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 95,
+			atq: 115,
+			def: 90,
+			atq_esp: 80,
+			def_esp: 90,
+			vel: 60,
+		},
+		descricao:
+			"Este Pokémon tem uma disposição violenta e egoísta. Caso não esteja com vontade de ouvir, irá ignorar as ordens de seu Treinador com total indiferença.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Salto",
+		obtencao: "Por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/d2/727Incineroar_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Incineroar_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Popplio",
+		numero: 728, // considerando a national dex
+		tipo: ["Água"],
+		massa: 7.5, // em kg
+		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 50,
+			atq: 54,
+			def: 54,
+			atq_esp: 66,
+			def_esp: 56,
+			vel: 40,
+		},
+		descricao:
+			"Este Pokémon cheira fluidos corporais de seu nariz, soprando balões para esmagar seus inimigos. É famoso por ser um trabalhador esforçado.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Leão do Mar",
+		obtencao: "Cidade de Iki; ou Rota 1",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/0/0a/728Popplio_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Popplio_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Brionne",
+		numero: 729, // considerando a national dex
+		tipo: ["Água"],
+		massa: 17.5, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 60,
+			atq: 69,
+			def: 69,
+			atq_esp: 91,
+			def_esp: 81,
+			vel: 50,
+		},
+		descricao:
+			"Um dançarino habilidoso, este Pokémon cria uma sequência de balões de água enquanto dança, e bombardeia rapidamente seus inimigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Estrela do Pop",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/5/53/729Brionne_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Brionne_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Primarina",
+		numero: 730, // considerando a national dex
+		tipo: ["Água", " Fada"],
+		massa: 44.0, // em kg
+		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 80,
+			atq: 74,
+			def: 74,
+			atq_esp: 126,
+			def_esp: 116,
+			vel: 60,
+		},
+		descricao:
+			"Controla seus balões de água com música. A melodia é aprendida de outras de sua espécie e é transmitida de uma geração para a outra.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Solista",
+		obtencao: "Por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/ea/730Primarina_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Primarina_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Pikipek",
+		numero: 731, // considerando a national dex
+		tipo: ["Normal", " Voador"],
+		massa: 1.2, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 35,
+			atq: 75,
+			def: 30,
+			atq_esp: 30,
+			def_esp: 30,
+			vel: 65,
+		},
+		descricao:
+			"Consegue bicar a uma taxa de 16 vezes por segundo para perfurar buracos em árvores. Usa os buracos para armazenar comida e para ninhos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pica-pau",
+		obtencao: "Rotas 1, 4, 5, e outras; e Poké Pelago",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/a1/731Pikipek_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Pikipek_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Trumbeak",
+		numero: 732, // considerando a national dex
+		tipo: ["Normal", " Voador"],
+		massa: 14.8, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 55,
+			atq: 85,
+			def: 50,
+			atq_esp: 40,
+			def_esp: 50,
+			vel: 75,
+		},
+		descricao:
+			"Come frutas e armazena as sementes em seu bico. Quando encontra inimigos ou presas, dispara todas as sementes de uma só vez.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bico de Corneta",
+		obtencao:
+			"Rotas 5, 8, e 11; Selva Exuberante; Poni Grove; Poni Plains; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/9c/732Trumbeak_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Trumbeak_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Toucannon",
+		numero: 733, // considerando a national dex
+		tipo: ["Normal", " Voador"],
+		massa: 26.0, // em kg
+		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 80,
+			atq: 120,
+			def: 75,
+			atq_esp: 75,
+			def_esp: 75,
+			vel: 60,
+		},
+		descricao:
+			"Quando batalha, seu bico aquece. A temperatura pode facilmente exceder 100 graus Celsius, causando queimaduras severas quando atinge.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Canhão",
+		obtencao: "Rota 11; Poni Grove; Poni Plains; e por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/e6/733Toucannon_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Toucannon_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Yungoos",
+		numero: 734, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 6.0, // em kg
+		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 48,
+			atq: 70,
+			def: 30,
+			atq_esp: 30,
+			def_esp: 30,
+			vel: 45,
+		},
+		descricao:
+			"Vagueia em uma busca incessante por comida. Ao anoitecer, desmaia de exaustão e adormece no local.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Enrolão",
+		obtencao: "Rotas 1, 2, 3, e outras; Kala'e Bay; e Verdant Cavern",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/3/3d/734Yungoos_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Yungoos_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Gumshoos",
+		numero: 735, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 14.2, // em kg
+		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 88,
+			atq: 110,
+			def: 60,
+			atq_esp: 55,
+			def_esp: 60,
+			vel: 45,
+		},
+		descricao:
+			"Quando encontra um traço de sua presa, pacientemente vigia o local... mas está sempre cochilando ao cair da noite.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Vigilante",
+		obtencao:
+			"Rotas 10, 11, 15, e outras; Akala Outskirts; Ancient Poni Path; Poni Gauntlet; Poni Grove; Poni Plains; Poni Plains; Mount Lanakila; Tapu Village; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/b/b8/735Gumshoos_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Gumshoos_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Grubbin",
+		numero: 736, // considerando a national dex
+		tipo: ["Inseto"],
+		massa: 4.4, // em kg
+		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 47,
+			atq: 62,
+			def: 45,
+			atq_esp: 55,
+			def_esp: 45,
+			vel: 46,
+		},
+		descricao:
+			"Sua forte mandíbula permite este Pokémon raspe árvores e sorva a seiva. Normalmente vive no subsolo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Larva",
+		obtencao: "Rotas 1, 2, 3, e outra; e Blush Mountain",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/5/57/736Grubbin_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Grubbin_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Charjabug",
+		numero: 737, // considerando a national dex
+		tipo: ["Inseto", " Elétrico"],
+		massa: 10.5, // em kg
+		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 57,
+			atq: 82,
+			def: 95,
+			atq_esp: 55,
+			def_esp: 75,
+			vel: 36,
+		},
+		descricao:
+			"Seu corpo é capaz de armazenar eletricidade. Em acampamentos, pessoas ficam gratas por ter um por perto.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bateria",
+		obtencao: "Blush Mountain; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/3/35/737Charjabug_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Charjabug_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Vikavolt",
+		numero: 738, // considerando a national dex
+		tipo: ["Inseto", " Elétrico"],
+		massa: 45.0, // em kg
+		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 77,
+			atq: 70,
+			def: 90,
+			atq_esp: 145,
+			def_esp: 75,
+			vel: 43,
+		},
+		descricao:
+			"Produz eletricidade por meio de um órgão elétrico em seu abdomen. Sobrecarrega Pokémon pássaros com raios chocantes de energia elétrica.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lucanídeo",
+		obtencao: "Blush Mountain; e por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/d4/738Vikavolt_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Vikavolt_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Crabrawler",
+		numero: 739, // considerando a national dex
+		tipo: ["Lutador"],
+		massa: 7.0, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 47,
+			atq: 82,
+			def: 57,
+			atq_esp: 42,
+			def_esp: 47,
+			vel: 63,
+		},
+		descricao:
+			"Enquanto protege seus pontos fracos com suas pinças, procura por uma abertura e desfere socos. Quando perde, espuma pela boca e desmaia.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Boxeador",
+		obtencao:
+			"Rotas 2, 3, 4, e outras; Secluded Shore; Ula'ula Beach; Poni Wilds; e Poni Plains",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/91/739Crabrawler_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Crabrawler_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Crabominable",
+		numero: 740, // considerando a national dex
+		tipo: ["Lutador", " Gelo"],
+		massa: 180.0, // em kg
+		altura: 1.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 97,
+			atq: 132,
+			def: 77,
+			atq_esp: 62,
+			def_esp: 67,
+			vel: 43,
+		},
+		descricao:
+			"Mirou o topo, mas se perdeu e terminou em uma montanha nevada. Sendo forçado a resistir o frio, este Pokémon evoluiu e cresceu pelo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Caranguejo de Lã",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/3/37/740Crabominable_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Crabominable_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Oricorio (Estilo Flamenco)",
+		numero: 741.1, // considerando a national dex
+		tipo: ["Fogo", " Voador"],
+		massa: 3.4, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 70,
+			def: 70,
+			atq_esp: 98,
+			def_esp: 70,
+			vel: 93,
+		},
+		descricao:
+			"Bate suas asas para criar fogo. Conforme se move nos passos de sua linda dança, banha seus oponentes em chamas intensas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dançante",
+		obtencao: "Ula'ula Meadow",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/ee/741Oricorio_Baile_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Oricorio (Estilo Pompom)",
+		numero: 741.2, // considerando a national dex
+		tipo: ["Elétrico", " Voador"],
+		massa: 3.4, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 70,
+			def: 70,
+			atq_esp: 98,
+			def_esp: 70,
+			vel: 93,
+		},
+		descricao:
+			"Cria uma carga elétrica ao esfregar suas penas. Dança em direção aos seus inimigos e dá chocantes socos elétricos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dançante",
+		obtencao: "Jardim de Melemele",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/f/fc/741Oricorio_Pom-Pom_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Oricorio (Estilo Hula)",
+		numero: 741.3, // considerando a national dex
+		tipo: ["Psíquico", " Voador"],
+		massa: 3.4, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 70,
+			def: 70,
+			atq_esp: 98,
+			def_esp: 70,
+			vel: 93,
+		},
+		descricao:
+			"Este Pokémon relaxa balançando gentilmente. Isso aumenta sua energia psíquica, que então dispara em seus inimigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dançante",
+		obtencao: "Rota 6",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/e6/741Oricorio_Pa%27u_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Oricorio (Estilo Leque)",
+		numero: 741.4, // considerando a national dex
+		tipo: ["Fantasma", " Voador"],
+		massa: 3.4, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 70,
+			def: 70,
+			atq_esp: 98,
+			def_esp: 70,
+			vel: 93,
+		},
+		descricao:
+			"Convoca os mortos com sua dança sonhadora. De sua malícia, extrai poder com o qual amaldiçoa seus inimigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Dançante",
+		obtencao: "Poni Meadow",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/1/14/741Oricorio_Sensu_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Cutiefly",
+		numero: 742, // considerando a national dex
+		tipo: ["Inseto", " Fada"],
+		massa: 0.2, // em kg
+		altura: 0.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 40,
+			atq: 45,
+			def: 40,
+			atq_esp: 55,
+			def_esp: 40,
+			vel: 84,
+		},
+		descricao:
+			"Alimenta-se do néctar e do pólen das flores. Por ser capaz de sentir auras, consegue identificar quais flores estão próximas de florescer.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Abelha Voadora",
+		obtencao: "Rotas 2, e 3; Jardim de Melemele; e Poké Pelago",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/7/7f/742Cutiefly_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Cutiefly_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ribombee",
+		numero: 743, // considerando a national dex
+		tipo: ["Inseto", " Fada"],
+		massa: 0.5, // em kg
+		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 60,
+			atq: 55,
+			def: 60,
+			atq_esp: 95,
+			def_esp: 70,
+			vel: 124,
+		},
+		descricao:
+			"Enrola pólen em tufos. Produz muitas variedades diferentes, algumas usadas como alimento e outras usadas em batalha.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Abelha Voadora",
+		obtencao: "Ula'ula Meadow; Poni Meadow; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/f/fe/743Ribombee_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Ribombee_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Rockruff",
+		numero: 744, // considerando a national dex
+		tipo: ["Rocha"],
+		massa: 9.2, // em kg
+		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 45,
+			atq: 65,
+			def: 40,
+			atq_esp: 30,
+			def_esp: 40,
+			vel: 60,
+		},
+		descricao:
+			"É considerado ser um bom Pokémon para iniciantes por ser amigável, mas seu temperamento fica mais rude à medida que cresce.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Filhote",
+		obtencao: "Rota 1; e Colina Dez Quilates",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/f/f9/744Rockruff_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Rockruff_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Lycanroc (Forma Diurna)",
+		numero: 745.1, // considerando a national dex
+		tipo: ["Rocha"],
+		massa: 25.0, // em kg
+		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 115,
+			def: 65,
+			atq_esp: 55,
+			def_esp: 65,
+			vel: 112,
+		},
+		descricao:
+			"Seus movimentos rápidos confundem seus inimigos. Bem equipado com garras e presas, também usa as rochas afiadas em sua juba como armas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lobo",
+		obtencao: "Grande Cânion de Poni; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/f/f1/745Lycanroc_Midday_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Lycanroc (Forma Noturna)",
+		numero: 745.2, // considerando a national dex
+		tipo: ["Rocha"],
+		massa: 25.0, // em kg
+		altura: 1.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 85,
+			atq: 115,
+			def: 75,
+			atq_esp: 55,
+			def_esp: 75,
+			vel: 82,
+		},
+		descricao:
+			"Quanto mais intimidador for o oponente que enfrenta, mais o sangue deste Pokémon ferve. Atacará sem se importar com sua própria segurança.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lobo",
+		obtencao: "Grande Cânion de Poni; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/c/cf/745Lycanroc_Midnight_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Lycanroc (Forma Crepúsculo)",
+		numero: 745.3, // considerando a national dex
+		tipo: ["Rocha"],
+		massa: 25.0, // em kg
+		altura: 0.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 117,
+			def: 65,
+			atq_esp: 55,
+			def_esp: 65,
+			vel: 110,
+		},
+		descricao:
+			"Debaixo de sua calma aparente está um intenso espírito de luta.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lobo",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/5/5e/745Lycanroc_Dusk_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Wishiwashi (Forma Individual)",
+		numero: 746.1, // considerando a national dex
+		tipo: ["Água"],
+		massa: 0.3, // em kg
+		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 45,
+			atq: 20,
+			def: 20,
+			atq_esp: 25,
+			def_esp: 25,
+			vel: 40,
+		},
+		descricao:
+			"Quando está em perigo, seus olhos se umedecem e começam a brilhar. A luz do brilho atrai seus companheiros, e se unem contra seus inimigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Peixinho",
+		obtencao:
+			"Rotas 7, 8, 9, e outras; Melemele Sea; Kala'e Bay; Ladeira Brooklet; Akala Outskirts; Ula'ula Beach; e, durante batalhas, estar abaixo dos 25% de PS",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/7/75/746Wishiwashi_Solo_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Wishiwashi (Forma Cardume)",
+		numero: 746.2, // considerando a national dex
+		tipo: ["Água"],
+		massa: 78.6, // em kg
+		altura: 8.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 45,
+			atq: 140,
+			def: 130,
+			atq_esp: 140,
+			def_esp: 135,
+			vel: 30,
+		},
+		descricao:
+			"Com a aparição deles, até Pokémon grandes fugirão. Quando se unem para usar seu Revólver d'Água, seu poder excede o de Hidro-Bomba.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Peixinho",
+		obtencao:
+			"Rotas 7, 8, 9, e outras; Melemele Sea; Kala'e Bay; Ladeira Brooklet; Akala Outskirts; Ula'ula Beach; e, durante batalhas, estar acima dos 25% de PS",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/c/cd/746Wishiwashi_School_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mareanie",
+		numero: 747, // considerando a national dex
+		tipo: ["Veneno", " Água"],
+		massa: 8.0, // em kg
+		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 50,
+			atq: 53,
+			def: 62,
+			atq_esp: 43,
+			def_esp: 52,
+			vel: 45,
+		},
+		descricao:
+			"Mergulha o espinho de veneno em sua cabeça em sua presa. Quando a presa enfraquece, dá o golpe final com seus dez tentáculos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Estrela Brutal",
+		obtencao: "Rota 9; e Melemele Sea",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/97/747Mareanie_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mareanie_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Toxapex",
+		numero: 748, // considerando a national dex
+		tipo: ["Veneno", " Água"],
+		massa: 14.5, // em kg
+		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 50,
+			atq: 63,
+			def: 152,
+			atq_esp: 53,
+			def_esp: 142,
+			vel: 35,
+		},
+		descricao:
+			"Aqueles atacados pelo veneno deste Pokémon sofrerão dor intensa por três dias e três noites. Após a recuperação, haverá alguns efeitos colaterais.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Estrela Brutal",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/1/1b/748Toxapex_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Toxapex_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mudbray",
+		numero: 749, // considerando a national dex
+		tipo: ["Terra"],
+		massa: 110.0, // em kg
+		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 100,
+			def: 70,
+			atq_esp: 45,
+			def_esp: 55,
+			vel: 45,
+		},
+		descricao:
+			"A lama grudada em seus cascos melhora sua aderência e seu poderoso passo de corrida.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Teimoso",
+		obtencao: "Rotas 4, 6, e 12; Paniola Ranch; e Blush Mountain",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/6/6e/749Mudbray_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mudbray_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mudsdale",
+		numero: 750, // considerando a national dex
+		tipo: ["Terra"],
+		massa: 920.0, // em kg
+		altura: 2.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 100,
+			atq: 125,
+			def: 100,
+			atq_esp: 55,
+			def_esp: 85,
+			vel: 35,
+		},
+		descricao:
+			"Cospe uma lama que oferece resistência tanto ao vento quanto à chuva, por isso as paredes das casas antigas eram frequentemente cobertas com ela.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Cavalo de Tração",
+		obtencao: "Rota 12; Blush Mountain; Poni Plains; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/6/65/750Mudsdale_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mudsdale_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dewpider",
+		numero: 751, // considerando a national dex
+		tipo: ["Água", " Inseto"],
+		massa: 4.0, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 38,
+			atq: 40,
+			def: 52,
+			atq_esp: 40,
+			def_esp: 72,
+			vel: 27,
+		},
+		descricao:
+			"Quando se depara com inimigos ou presas em potencial, este Pokémon ataca-os com sua cabeça coberta de bolhas de água.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bolha de Água",
+		obtencao: "Ladeira Brooklet",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/f/fd/751Dewpider_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Dewpider_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Araquanid",
+		numero: 752, // considerando a national dex
+		tipo: ["Água", " Inseto"],
+		massa: 82.0, // em kg
+		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 68,
+			atq: 70,
+			def: 92,
+			atq_esp: 50,
+			def_esp: 132,
+			vel: 42,
+		},
+		descricao:
+			"Cabeceia com a bolha de água em sua cabeça. Pequenos Pokémon são sugados para sua bolha, onde se afogam.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Bolha de Água",
+		obtencao: "Jardim de Malie; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/8/84/752Araquanid_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Araquanid_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Fomantis",
+		numero: 753, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 1.5, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 40,
+			atq: 55,
+			def: 35,
+			atq_esp: 50,
+			def_esp: 35,
+			vel: 35,
+		},
+		descricao:
+			"Durante o dia, dorme e absorve luz. Quando a noite cai, anda por aí procurando um lugar mais seguro para dormir.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Foice de Folha",
+		obtencao: "Rota 5; e Selva exuberante",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/b/bf/753Fomantis_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Fomantis_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Lurantis",
+		numero: 754, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 18.5, // em kg
+		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 105,
+			def: 90,
+			atq_esp: 80,
+			def_esp: 90,
+			vel: 45,
+		},
+		descricao:
+			"É preciso muito esforço para manter suas cores vivas, mas alguns colecionadores gostam desse trabalho e o tratam como um hobby.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Foice Florescida",
+		obtencao: "Recebido em Heahea Beach; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/7/7b/754Lurantis_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Lurantis_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Morelull",
+		numero: 755, // considerando a national dex
+		tipo: ["Planta", " Fada"],
+		massa: 1.5, // em kg
+		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 40,
+			atq: 35,
+			def: 55,
+			atq_esp: 65,
+			def_esp: 75,
+			vel: 15,
+		},
+		descricao:
+			"Espalha esporos que piscam e brilham. Qualquer um que veja essas luzes cai em um sono profundo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Iluminador",
+		obtencao: "Rota 11; Ladeira Brooklet; e Selva exuberante",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/7/75/755Morelull_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Morelull_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Shiinotic",
+		numero: 756, // considerando a national dex
+		tipo: ["Planta", " Fada"],
+		massa: 11.5, // em kg
+		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 60,
+			atq: 45,
+			def: 80,
+			atq_esp: 90,
+			def_esp: 100,
+			vel: 30,
+		},
+		descricao:
+			"Florestas onde estes Pokémon vivem são traiçoeiras para entrar à noite. Pessoas confusas com suas luzes estranhas nunca mais conseguem encontrar o caminho de casa.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Iluminador",
+		obtencao: "Rota 11; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/0/0f/756Shiinotic_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Shiinotic_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Salandit",
+		numero: 757, // considerando a national dex
+		tipo: ["Veneno", " Fogo"],
+		massa: 4.8, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 48,
+			atq: 44,
+			def: 40,
+			atq_esp: 71,
+			def_esp: 40,
+			vel: 77,
+		},
+		descricao:
+			"Queima seu fluido corporal para criar um gás venenoso. Quando seus inimigos se tornam desorientados pelo gás inalado, este Pokémon os ataca.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lagarto Tóxico",
+		obtencao: "Rota 8; Vulcão Wela; e caverna da Selva exuberante",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/1/1b/757Salandit_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Salandit_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Salazzle",
+		numero: 758, // considerando a national dex
+		tipo: ["Veneno", " Fogo"],
+		massa: 22.2, // em kg
+		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 68,
+			atq: 64,
+			def: 60,
+			atq_esp: 111,
+			def_esp: 60,
+			vel: 117,
+		},
+		descricao:
+			"Cheia de feromônios, seu gás venenoso pode ser diluído para uso na produção de perfumes deliciosos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lagarto Tóxico",
+		obtencao:
+			"Vulcão Wela; Selva exuberante; recebido em Heahea Beach; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/4/44/758Salazzle_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Salazzle_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Stufful",
+		numero: 759, // considerando a national dex
+		tipo: ["Normal", " Lutador"],
+		massa: 6.8, // em kg
+		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 75,
+			def: 50,
+			atq_esp: 45,
+			def_esp: 50,
+			vel: 50,
+		},
+		descricao:
+			"Apesar de sua aparência adorável, quando fica bravo e se debate, seus braços e pernas poderiam derrubar um lutador profissional.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Agitado",
+		obtencao: "Rota 8; e Akala Outskirts",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/d9/759Stufful_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Stufful_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Bewear",
+		numero: 760, // considerando a national dex
+		tipo: ["Normal", " Lutador"],
+		massa: 135.0, // em kg
+		altura: 2.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 120,
+			atq: 125,
+			def: 80,
+			atq_esp: 55,
+			def_esp: 60,
+			vel: 60,
+		},
+		descricao:
+			"Este imensamente perigoso Pokémon possui uma força física avassaladora. Seu habitat é geralmente proibido.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Braço Forte",
+		obtencao: "Poni Gauntlet; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/a6/760Bewear_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Bewear_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Bounsweet",
+		numero: 761, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 3.2, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 42,
+			atq: 30,
+			def: 38,
+			atq_esp: 30,
+			def_esp: 38,
+			vel: 32,
+		},
+		descricao:
+			"Um aroma delicioso jorra de seu corpo. São frequentemente engolidos inteiros por Pokémon pássaros atraídos por aquela delícia flutuante.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fruta",
+		obtencao: "Selva exuberante",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/b/be/761Bounsweet_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Bounsweet_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Steenee",
+		numero: 762, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 8.2, // em kg
+		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 52,
+			atq: 40,
+			def: 48,
+			atq_esp: 40,
+			def_esp: 48,
+			vel: 62,
+		},
+		descricao:
+			"As sépalas em sua cabeça se desenvolveram para proteger seu corpo. São bem duras, então mesmo se bicadas por Pokémon pássaros, esse Pokémon fica totalmente bem.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fruta",
+		obtencao: "Selva exuberante; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/d4/762Steenee_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Steenee_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tsareena",
+		numero: 763, // considerando a national dex
+		tipo: ["Planta"],
+		massa: 21.4, // em kg
+		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 72,
+			atq: 120,
+			def: 98,
+			atq_esp: 50,
+			def_esp: 98,
+			vel: 72,
+		},
+		descricao:
+			"Sua pernas longas e marcantes não são apenas para exibição, mas para serem usadas para chutar com habilidade. Na vitória, se exibe chutando os derrotados, rindo ruidosamente.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fruta",
+		obtencao: "Por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/ac/763Tsareena_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tsareena_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Comfey",
+		numero: 764, // considerando a national dex
+		tipo: ["Fada"],
+		massa: 0.3, // em kg
+		altura: 0.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 51,
+			atq: 52,
+			def: 90,
+			atq_esp: 82,
+			def_esp: 110,
+			vel: 100,
+		},
+		descricao:
+			"Prende flores à sua videira altamente nutritiva. Isso revitaliza as flores, e elas exalam um cheiro aromático.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Colhedor de Flores",
+		obtencao: "Selva exuberante; e Poké Pelago",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/6/6f/764Comfey_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Comfey_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Oranguru",
+		numero: 765, // considerando a national dex
+		tipo: ["Normal", " Psíquico"],
+		massa: 76.0, // em kg
+		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 90,
+			atq: 60,
+			def: 80,
+			atq_esp: 90,
+			def_esp: 110,
+			vel: 60,
+		},
+		descricao:
+			"Conhecido por sua inteligência extrema, este Pokémon desprezará qualquer Treinador inexperientes, por isso é mais adequado para Treinadores veteranos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Sábio",
+		obtencao: "Selva exuberante",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/4/4c/765Oranguru_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Oranguru_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Passimian",
+		numero: 766, // considerando a national dex
+		tipo: ["Lutador"],
+		massa: 82.8, // em kg
+		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 100,
+			atq: 120,
+			def: 90,
+			atq_esp: 40,
+			def_esp: 60,
+			vel: 80,
+		},
+		descricao:
+			"Formam grupos de quase vinte indivíduos. O vínculo mútuo deles é notável, nunca decepcionam um camarada.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Trabalho em Equipe",
+		obtencao: "Selva exuberante",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/b/b7/766Passimian_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Passimian_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Wimpod",
+		numero: 767, // considerando a national dex
+		tipo: ["Inseto", " Água"],
+		massa: 12.0, // em kg
+		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 25,
+			atq: 35,
+			def: 40,
+			atq_esp: 20,
+			def_esp: 30,
+			vel: 80,
+		},
+		descricao:
+			"Este Pokémon é um covarde. Enquanto dispara em fuga desesperadamente, o bater de suas muitas pernas deixa um rastro limpo e brilhante em seu rastro.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escapada",
+		obtencao:
+			"Rota 8; Prado da Ilha Poni; Dividing Peak Tunnel; Poni Breaker Coast",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/7/78/767Wimpod_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Wimpod_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Golisopod",
+		numero: 768, // considerando a national dex
+		tipo: ["Inseto", " Água"],
+		massa: 108.0, // em kg
+		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 125,
+			def: 140,
+			atq_esp: 60,
+			def_esp: 90,
+			vel: 40,
+		},
+		descricao:
+			"Luta habilmente com seus seis braços, mas passa a maior parte de seu tempo meditando pacificamente em cavernas nas profundezas do mar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escama Dura",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/e7/768Golisopod_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Sandygast",
+		numero: 769, // considerando a national dex
+		tipo: ["Fantasma", " Terra"],
+		massa: 70.0, // em kg
+		altura: 0.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 55,
+			atq: 55,
+			def: 80,
+			atq_esp: 70,
+			def_esp: 45,
+			vel: 15,
+		},
+		descricao:
+			"Nascido de um monte de areia construído por uma criança, este Pokémon personifica os rancores dos que partiram.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Monte de Areia",
+		obtencao: "Rota 15; e Hano Beach",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/3/3d/769Sandygast_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Sandygast_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Palossand",
+		numero: 770, // considerando a national dex
+		tipo: ["Fantasma", " Terra"],
+		massa: 250.0, // em kg
+		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 85,
+			atq: 75,
+			def: 110,
+			atq_esp: 100,
+			def_esp: 75,
+			vel: 35,
+		},
+		descricao:
+			"Enterrado sob o castelo estão massas de ossos secos daqueles cuja vitalidade foi drenada.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Castelo de Areia",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/3/38/770Palossand_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Palossand_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Pyukumuku",
+		numero: 771, // considerando a national dex
+		tipo: ["Água"],
+		massa: 1.2, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 55,
+			atq: 60,
+			def: 130,
+			atq_esp: 30,
+			def_esp: 130,
+			vel: 5,
+		},
+		descricao:
+			"Vive em mares rasos, como áreas próximas a uma praia. Pode ejetar seus órgãos internos, que usa para engolir sua presa ou lutar contra inimigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Pepino-do-mar",
+		obtencao: "Rota 7; Hano Beach; e Poké Pelago",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/98/771Pyukumuku_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Pyukumuku_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Type: Null",
+		numero: 772, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 120.5, // em kg
+		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 95,
+			atq: 95,
+			def: 95,
+			atq_esp: 95,
+			def_esp: 95,
+			vel: 59,
+		},
+		descricao:
+			"Devido ao perigo que este Pokémon sintético pode causar descontrole, usa uma máscara de controle para restringir seu poder.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Sintético",
+		obtencao: "Recebido em Paraíso Aether",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/b/be/772Type_Null_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Type:_Null_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Silvally",
+		numero: 773, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 100.5, // em kg
+		altura: 2.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 95,
+			atq: 95,
+			def: 95,
+			atq_esp: 95,
+			def_esp: 95,
+			vel: 95,
+		},
+		descricao:
+			"Sua confiança em seu parceiro é o que o desperta. Este Pokémon é capaz de alterar sua tipagem, uma flexibilidade que é bem exibida em batalha.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Sintético",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/a7/773Silvally_Normal_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Silvally_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Minior (Forma Meteoro)",
+		numero: 774.1, // considerando a national dex
+		tipo: ["Rocha", " Voador"],
+		massa: 40.0, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 60,
+			atq: 60,
+			def: 100,
+			atq_esp: 60,
+			def_esp: 100,
+			vel: 60,
+		},
+		descricao:
+			"Originalmente criado na camada de ozônio, cai no chão quando a concha que envolve seu corpo fica muito pesada.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Meteoro",
+		obtencao: "Mount Hokulani",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/c/c5/774Minior_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Minior_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Minior (Forma Núcleo)",
+		numero: 774.2, // considerando a national dex
+		tipo: ["Rocha", " Voador"],
+		massa: 0.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 60,
+			atq: 100,
+			def: 60,
+			atq_esp: 100,
+			def_esp: 60,
+			vel: 120,
+		},
+		descricao:
+			"Come poeira na atmosfera. A composição da poeira determina a cor de seu núcleo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Meteoro",
+		obtencao: "Mount Hokulani e, durante a batalha, estar abaixo dos 50% de PS",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/8/81/774Minior_Blue_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/d/d8/774Minior_Green_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/9/91/774Minior_Indigo_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/b/b3/774Minior_Orange_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/f/ff/774Minior_Red_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/3/33/774Minior_Violet_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/d/dd/774Minior_Yellow_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Minior_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Komala",
+		numero: 775, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 19.9, // em kg
+		altura: 0.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 65,
+			atq: 115,
+			def: 65,
+			atq_esp: 75,
+			def_esp: 95,
+			vel: 65,
+		},
+		descricao:
+			"Nasce dormindo e morre dormindo. Todos seus movimentos, aparentemente, não são mais do que resultados dos movimentos em seus sonhos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Cochilando",
+		obtencao: "Rota 11",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/1/14/775Komala_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Komala_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Turtonator",
+		numero: 776, // considerando a national dex
+		tipo: ["Fogo", " Dragão"],
+		massa: 212.0, // em kg
+		altura: 2.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 60,
+			atq: 78,
+			def: 135,
+			atq_esp: 91,
+			def_esp: 85,
+			vel: 36,
+		},
+		descricao:
+			"O casco em suas costas é quimicamente instável e explode violentamente se golpeado. O buraco em seu estomago é seu ponto fraco.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Tartaruga Explosiva",
+		obtencao: "Blush Mountain",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/99/776Turtonator_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Turtonator_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Togedemaru",
+		numero: 777, // considerando a national dex
+		tipo: ["Elétrico", " Metal"],
+		massa: 3.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 65,
+			atq: 98,
+			def: 63,
+			atq_esp: 40,
+			def_esp: 73,
+			vel: 96,
+		},
+		descricao:
+			"Os longos pelos em suas costas agem como para-raios. Os raios que atrai são armazenados como energia em seu saco elétrico.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fofinho",
+		obtencao: "Blush Mountain",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/0/06/777Togedemaru_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Togedemaru_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mimikyu (Forma Disfarçada)",
+		numero: 778.1, // considerando a national dex
+		tipo: ["Fantasma", " Fada"],
+		massa: 0.7, // em kg
+		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 55,
+			atq: 90,
+			def: 80,
+			atq_esp: 50,
+			def_esp: 105,
+			vel: 96,
+		},
+		descricao:
+			"Sua verdadeira aparência é desconhecida. Um estudioso que viu o que havia sob o trapo ficou tomado de terror e morreu devido ao choque.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Disfarce",
+		obtencao: "Mercado Megabarato abandonado",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/2/2c/778Mimikyu_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Mimikyu (Forma Descoberta)",
+		numero: 778.2, // considerando a national dex
+		tipo: ["Fantasma", " Fada"],
+		massa: 0.7, // em kg
+		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 55,
+			atq: 90,
+			def: 80,
+			atq_esp: 50,
+			def_esp: 105,
+			vel: 96,
+		},
+		descricao:
+			"Depois de todo o esforço de se disfarçar, seu pescoço foi quebrado. O que quer que esteja dentro provavelmente está ileso, mas ainda está se sentindo triste.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Disfarce",
+		obtencao:
+			"Mercado Megabarato abandonado e, durante a batalha, receber dano",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/3/3a/778Mimikyu_Busted_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Bruxish",
+		numero: 779, // considerando a national dex
+		tipo: ["Água", " Psíquico"],
+		massa: 19.0, // em kg
+		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 68,
+			atq: 105,
+			def: 70,
+			atq_esp: 70,
+			def_esp: 70,
+			vel: 92,
+		},
+		descricao:
+			"Quando libera seu pode psíquico da protuberância em sua cabeça, o som áspero de dentes rangendo ecoa pela área.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Ranger Dentes",
+		obtencao: "Rotas 13, 14, e 15; e Secluded Shore",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/c/c4/779Bruxish_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Bruxish_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Drampa",
+		numero: 780, // considerando a national dex
+		tipo: ["Normal", " Dragão"],
+		massa: 185.0, // em kg
+		altura: 3.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 78,
+			atq: 60,
+			def: 85,
+			atq_esp: 135,
+			def_esp: 91,
+			vel: 36,
+		},
+		descricao:
+			"Possui uma personalidade compassiva, mas caso seja enfurecido, destrói completamente seus arredores com sua baforada intensa.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Plácido",
+		obtencao: "Mount Lanakila",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/5/59/780Drampa_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Dhelmise",
+		numero: 781, // considerando a national dex
+		tipo: ["Fantasma", " Planta"],
+		massa: 210.0, // em kg
+		altura: 3.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 131,
+			def: 100,
+			atq_esp: 86,
+			def_esp: 90,
+			vel: 40,
+		},
+		descricao:
+			"A alma das algas à deriva nas ondas renasceu como este Pokémon. Ela se mantém viva com novas infusões de detritos do fundo do mar e algas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Alga Sinistra",
+		obtencao: "Seafolk Village",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/1/14/781Dhelmise_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Dhelmise_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Jangmo-o",
+		numero: 782, // considerando a national dex
+		tipo: ["Dragão"],
+		massa: 29.7, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 45,
+			atq: 55,
+			def: 65,
+			atq_esp: 45,
+			def_esp: 45,
+			vel: 45,
+		},
+		descricao:
+			"Expressa seus sentimentos estalando suas escamas. Sons metálicos ecoam pelas altas montanhas onde este Pokémon vive.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escamoso",
+		obtencao: "Grande Cânion de Poni",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/0/03/782Jangmo-o_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Jangmo-o_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Hakamo-o",
+		numero: 783, // considerando a national dex
+		tipo: ["Dragão", " Lutador"],
+		massa: 47.0, // em kg
+		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 55,
+			atq: 75,
+			def: 90,
+			atq_esp: 65,
+			def_esp: 70,
+			vel: 65,
+		},
+		descricao:
+			"Salta sobre sua presa com um grito corajoso. Seus socos escamosos destroem seus oponentes em pedaços.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escamoso",
+		obtencao: "Grande Cânion de Poni; e por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/d4/783Hakamo-o_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Hakamo-o_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Kommo-o",
+		numero: 784, // considerando a national dex
+		tipo: ["Dragão", " Lutador"],
+		massa: 78.2, // em kg
+		altura: 1.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 75,
+			atq: 110,
+			def: 125,
+			atq_esp: 100,
+			def_esp: 105,
+			vel: 85,
+		},
+		descricao:
+			"Quando avista inimigos, ameaça-os balançando as escamas em sua cauda. Oponentes fracos irão rachar e fugir em pânico.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Escamoso",
+		obtencao: "Grande Cânion de Poni; e por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/8/8c/784Kommo-o_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Kommo-o_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tapu Koko",
+		numero: 785, // considerando a national dex
+		tipo: ["Elétrico", " Fada"],
+		massa: 20.5, // em kg
+		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 115,
+			def: 85,
+			atq_esp: 95,
+			def_esp: 75,
+			vel: 130,
+		},
+		descricao:
+			"Esta deidade guardiã de Melemele está cheia de curiosidade. Invoca nuvens de trovão e armazena seus raios dentro de seu corpo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espírito Nativo",
+		obtencao: "Ruínas do Conflito",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/e1/785Tapu_Koko_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tapu_Koko_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tapu Lele",
+		numero: 786, // considerando a national dex
+		tipo: ["Psíquico", " Fada"],
+		massa: 18.6, // em kg
+		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 85,
+			def: 75,
+			atq_esp: 130,
+			def_esp: 115,
+			vel: 95,
+		},
+		descricao:
+			"Esta deidade guardiã de Akala é cruelmente inocente. O aroma fragrante das flores é a fonte de sua energia.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espírito Nativo",
+		obtencao: "Ruins of Life",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/7/7d/786Tapu_Lele_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tapu_Lele_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tapu Bulu",
+		numero: 787, // considerando a national dex
+		tipo: ["Planta", " Fada"],
+		massa: 45.5, // em kg
+		altura: 1.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 130,
+			def: 115,
+			atq_esp: 85,
+			def_esp: 95,
+			vel: 75,
+		},
+		descricao:
+			"A deidade guardiã de Ula'ula é um Pokémon preguiçoso. Comanda plantas para imobilizar seu adversários e então lhes desfere um golpe violento com seus chifres.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espírito Nativo",
+		obtencao: "Ruínas da Abundância",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/ea/787Tapu_Bulu_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tapu_Bulu_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Tapu Fini",
+		numero: 788, // considerando a national dex
+		tipo: ["Água", " Fada"],
+		massa: 21.2, // em kg
+		altura: 1.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 70,
+			atq: 75,
+			def: 115,
+			atq_esp: 95,
+			def_esp: 130,
+			vel: 85,
+		},
+		descricao:
+			"A deidade guardiã de Poni, consegue controlar água. Pessoas dize que consegue criar água pura que limpará qualquer impureza.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espírito Nativo",
+		obtencao: "Ruínas da Esperança",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/d1/788Tapu_Fini_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Tapu_Fini_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Cosmog",
+		numero: 789, // considerando a national dex
+		tipo: ["Psíquico"],
+		massa: 0.1, // em kg
+		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 43,
+			atq: 29,
+			def: 31,
+			atq_esp: 29,
+			def_esp: 31,
+			vel: 37,
+		},
+		descricao:
+			"Seu corpo é gasoso e frágil. Cresce devagar enquanto coleta poeira da atmosfera.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Nebulosa",
+		obtencao: "Lake of the Sunne, ou Lake of the Moone",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/6/67/789Cosmog_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Cosmog_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Cosmoem",
+		numero: 790, // considerando a national dex
+		tipo: ["Psíquico"],
+		massa: 999.9, // em kg
+		altura: 0.1, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 43,
+			atq: 29,
+			def: 131,
+			atq_esp: 29,
+			def_esp: 131,
+			vel: 37,
+		},
+		descricao:
+			"Imóvel como se estivesse morto, seu corpo é levemente morno ao toque. No passado distante, era chamado de casulo das estrelas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Protoestrela",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/6/67/790Cosmoem_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Cosmoem_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Solgaleo",
+		numero: 791, // considerando a national dex
+		tipo: ["Psíquico", " Metal"],
+		massa: 230.0, // em kg
+		altura: 3.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 137,
+			atq: 137,
+			def: 107,
+			atq_esp: 113,
+			def_esp: 89,
+			vel: 97,
+		},
+		descricao:
+			"É dito que vive em outro mundo. A luz intensa que irradia da superfície de seu corpo pode tornar a mais escura das noites iluminar-se como o meio-dia.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Solar",
+		obtencao: "Altar Solar, ou Trilha Mahalo; e por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/92/791Solgaleo_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Solgaleo_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Lunala",
+		numero: 792, // considerando a national dex
+		tipo: ["Psíquico", " Fantasma"],
+		massa: 120.0, // em kg
+		altura: 4.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 137,
+			atq: 113,
+			def: 89,
+			atq_esp: 137,
+			def_esp: 107,
+			vel: 97,
+		},
+		descricao:
+			"É dito que vive em outro mundo, este Pokémon devora a luz, cobrindo o brilho do dia com o véu escuro e sem luar da noite.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lunar",
+		obtencao: "Altar Lunar, ou Trilha Mahalo; e por evolução",
+		estagio: 3,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/0/0a/792Lunala_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Lunala_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Nihilego",
+		numero: 793, // considerando a national dex
+		tipo: ["Rocha", " Veneno"],
+		massa: 55.5, // em kg
+		altura: 1.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 109,
+			atq: 53,
+			def: 47,
+			atq_esp: 127,
+			def_esp: 131,
+			vel: 103,
+		},
+		descricao:
+			"Uma de várias Ultracriaturas. Pessoas na rua relatam observar aqueles que estão infestados por este Pokémon repentinamente se tornarem violentos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Parasita",
+		obtencao: "Diglett's Tunnel, ou Vulcão Wela; e Ultra Deep Sea",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/3/3b/793Nihilego_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Nihilego_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Buzzwole",
+		numero: 794, // considerando a national dex
+		tipo: ["Inseto", " Lutador"],
+		massa: 333.6, // em kg
+		altura: 2.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 107,
+			atq: 139,
+			def: 139,
+			atq_esp: 53,
+			def_esp: 53,
+			vel: 79,
+		},
+		descricao:
+			"Esta Ultracriatura apareceu de outro mundo. Exibe seu corpo, mas não está claro se essa exibição é uma ostentação ou uma ameaça.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Inchado",
+		obtencao: "Jardim Melele; e Ultra Jungle",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/a5/794Buzzwole_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Buzzwole_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Pheromosa",
+		numero: 795, // considerando a national dex
+		tipo: ["Inseto", " Lutador"],
+		massa: 25.0, // em kg
+		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 71,
+			atq: 137,
+			def: 37,
+			atq_esp: 137,
+			def_esp: 37,
+			vel: 151,
+		},
+		descricao:
+			"Uma das perigosas Ultracriaturas, tem sido avistada correndo pela região em velocidades assustadoras.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Elegância",
+		obtencao: "Verdant Cavern; e Ultra Desert",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/a8/795Pheromosa_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Pheromosa_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Xurkitree",
+		numero: 796, // considerando a national dex
+		tipo: ["Elétrico"],
+		massa: 100.0, // em kg
+		altura: 3.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 83,
+			atq: 89,
+			def: 71,
+			atq_esp: 173,
+			def_esp: 71,
+			vel: 83,
+		},
+		descricao:
+			"Uma das misteriosas formas de vida conhecidas como Ultracriaturas. De acordo com testemunhas, choques elétricos surpreendentes emanam de todo o seu corpo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Cintilante",
+		obtencao: "Selva exuberante, ou Memorial Hill; e Ultra Plant",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/4/43/796Xurkitree_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Xurkitree_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Celesteela",
+		numero: 797, // considerando a national dex
+		tipo: ["Metal", " Voador"],
+		massa: 999.9, // em kg
+		altura: 9.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 97,
+			atq: 101,
+			def: 103,
+			atq_esp: 107,
+			def_esp: 101,
+			vel: 61,
+		},
+		descricao:
+			"Um tipo de Ultracriatura. Testemunhas a viram queimar uma floresta expelindo gás de seus dois braços.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lançamento",
+		obtencao: "Deserto de Haina, ou Jardim de Malie; e Ultra Crater",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/a/a8/797Celesteela_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Celesteela_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Kartana",
+		numero: 798, // considerando a national dex
+		tipo: ["Planta", " Metal"],
+		massa: 0.1, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 59,
+			atq: 181,
+			def: 131,
+			atq_esp: 59,
+			def_esp: 31,
+			vel: 109,
+		},
+		descricao:
+			"Uma das formas de vida conhecidas como Ultracriatura, foi observada cortando uma gigantesca torre de aço com um golpe de sua lâmina.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espada Sacada",
+		obtencao: "Rota 17, ou Jardim de Malie; e Ultra Forest",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/c/c5/798Kartana_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Kartana_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Guzzlord",
+		numero: 799, // considerando a national dex
+		tipo: ["Noturno", " Dragão"],
+		massa: 888.0, // em kg
+		altura: 5.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 223,
+			atq: 101,
+			def: 53,
+			atq_esp: 97,
+			def_esp: 53,
+			vel: 43,
+		},
+		descricao:
+			"Engoliu montanhas e prédios inteiros, segundo relatos. É uma das Ultracriaturas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Papa-porcaria",
+		obtencao: "Resolution Cave; e Ultra Ruin",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/0/0b/799Guzzlord_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Guzzlord_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Necrozma",
+		numero: 800.1, // considerando a national dex
+		tipo: ["Psíquico"],
+		massa: 230.0, // em kg
+		altura: 2.4, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 97,
+			atq: 107,
+			def: 101,
+			atq_esp: 127,
+			def_esp: 89,
+			vel: 79,
+		},
+		descricao:
+			"Lembrando as Ultracriaturas, acredita-se que essa forma de vida, aparentemente adormecida no subsolo, tenha vindo de outro mundo em tempos antigos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Prisma",
+		obtencao: "Colina Dez Quilates; e Mount Lanakila",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/ef/800Necrozma_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Necrozma Juba Crepúsculo",
+		numero: 800.2, // considerando a national dex
+		tipo: ["Psíquico", " Metal"],
+		massa: 460.0, // em kg
+		altura: 3.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 97,
+			atq: 157,
+			def: 127,
+			atq_esp: 113,
+			def_esp: 109,
+			vel: 77,
+		},
+		descricao:
+			"Esta é a sua forma enquanto devora a luz de Solgaleo. Ataca os inimigos e então os corta com as garras em seus quatro membros e costas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Prisma",
+		obtencao:
+			"Colina Dez Quilates; Mount Lanakila; e fundir com Solgaleo usando N-Solarizer",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/db/800Necrozma_Dusk_Mane_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Necrozma Asas Alvorada",
+		numero: 800.3, // considerando a national dex
+		tipo: ["Psíquico", " Fantasma"],
+		massa: 350.0, // em kg
+		altura: 4.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 97,
+			atq: 113,
+			def: 109,
+			atq_esp: 157,
+			def_esp: 127,
+			vel: 77,
+		},
+		descricao:
+			"Esta é sua forma enquanto devora a luz de Lunala. Agarra os inimigos com suas garras gigantes e os despedaça com força bruta.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Prisma",
+		obtencao:
+			"Colina Dez Quilates; Mount Lanakila; e fundir com Lunala usando N-Lunarizer",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/8/88/800Necrozma_Dawn_Wings_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Ultra Necrozma",
+		numero: 800.4, // considerando a national dex
+		tipo: ["Psíquico", " Dragão"],
+		massa: 230.0, // em kg
+		altura: 7.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 97,
+			atq: 167,
+			def: 97,
+			atq_esp: 167,
+			def_esp: 97,
+			vel: 129,
+		},
+		descricao:
+			"Esta é sua forma quando obsorve energia de luz avassaladora. Dispara raios laser de todo o corpo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Prisma",
+		obtencao:
+			"Colina Dez Quilates; Mount Lanakila; e quando Necrozma Juba Crepúsculo ou Necrozma Asas Alvorada está segurando Ultranecrozium Z e usa Ultraexplosão",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: true,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/ee/800Necrozma_Ultra_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Magearna",
+		numero: 801, // considerando a national dex
+		tipo: ["Metal", " Fada"],
+		massa: 80.5, // em kg
+		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 80,
+			atq: 95,
+			def: 115,
+			atq_esp: 130,
+			def_esp: 115,
+			vel: 65,
+		},
+		descricao:
+			"Este Pokémon artificial, construído há mais de 500 anos, consegue entender fala humana bas não consegue falar.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Artificial",
+		obtencao: "Hau'oli City",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/4/4e/801Magearna_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Marshadow",
+		numero: 802, // considerando a national dex
+		tipo: ["Lutador", " Fantasma"],
+		massa: 22.2, // em kg
+		altura: 0.7, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 90,
+			atq: 125,
+			def: 80,
+			atq_esp: 90,
+			def_esp: 90,
+			vel: 125,
+		},
+		descricao:
+			"Capaz de se esconder nas sombras, nunca aparece diante humanos, portanto sua própria existência era considerada um mito.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Morador das Sombras",
+		obtencao: "Por evento",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/d/d9/802Marshadow_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Marshadow_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Poipole",
+		numero: 803, // considerando a national dex
+		tipo: ["Veneno"],
+		massa: 1.8, // em kg
+		altura: 0.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 67,
+			atq: 73,
+			def: 67,
+			atq_esp: 73,
+			def_esp: 67,
+			vel: 73,
+		},
+		descricao:
+			"Esta Ultracriatura é querida o suficiente para ser escolhida como primeira parceira em seu próprio mundo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espinho Venenoso",
+		obtencao: "Recebido em Megalo Tower ou Ultra Megalopolis",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/6/60/803Poipole_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Poipole_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Naganadel",
+		numero: 804, // considerando a national dex
+		tipo: ["Veneno", " Dragão"],
+		massa: 150.0, // em kg
+		altura: 3.6, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 73,
+			atq: 73,
+			def: 73,
+			atq_esp: 127,
+			def_esp: 73,
+			vel: 121,
+		},
+		descricao:
+			"Armazena centenas de litros de líquido venenoso dentro de seu corpo. É um dos organismos conhecidos como Ultracriaturas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Espinho Venenoso",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/8/82/804Naganadel_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Naganadel_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Stakataka",
+		numero: 805, // considerando a national dex
+		tipo: ["Rocha", " Metal"],
+		massa: 820.0, // em kg
+		altura: 5.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 61,
+			atq: 131,
+			def: 211,
+			atq_esp: 53,
+			def_esp: 101,
+			vel: 13,
+		},
+		descricao:
+			"Quando paredes de pedra começaram a se mover e atacar, a verdadeira identidade do bruto era essa misteriosa forma de vida, que lembra uma Ultracriatura.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Muralha",
+		obtencao: "Poni Grove",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/9/97/805Stakataka_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Stakataka_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Blacephalon",
+		numero: 806, // considerando a national dex
+		tipo: ["Fogo", " Fantasma"],
+		massa: 13.0, // em kg
+		altura: 1.8, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 53,
+			atq: 127,
+			def: 53,
+			atq_esp: 151,
+			def_esp: 79,
+			vel: 107,
+		},
+		descricao:
+			"Desliza em direção às pessoas. Então, sem aviso, dispara a explosão de sua própria cabeça. Aparentemente, é um tipo de Ultracriatura.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Fogos de Artifício",
+		obtencao: "Poni Grove",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/e/e8/806Blacephalon_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Blacephalon_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Zeraora",
+		numero: 807, // considerando a national dex
+		tipo: ["Elétrico"],
+		massa: 44.5, // em kg
+		altura: 1.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 88,
+			atq: 112,
+			def: 75,
+			atq_esp: 102,
+			def_esp: 80,
+			vel: 143,
+		},
+		descricao:
+			"Este Pokémon se aproxima de seus inimigos na velocidade da luz, depois os despedaça membro a membro com suas garras afiadas.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Trovoada",
+		obtencao: "Por evento",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/2/25/807Zeraora_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Zeraora_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Meltan",
+		numero: 808, // considerando a national dex
+		tipo: ["Metal"],
+		massa: 8.0, // em kg
+		altura: 0.2, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 46,
+			atq: 65,
+			def: 65,
+			atq_esp: 55,
+			def_esp: 35,
+			vel: 34,
+		},
+		descricao:
+			"Derrete partículas de ferro e outros metais que encontra no subsolo, para que possa absorvê-los em seu corpo de aço fundido.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Porca",
+		obtencao: "Capturado em Pokémon GO",
+		estagio: 1,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/8/8f/808Meltan_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Melmetal",
+		numero: 809, // considerando a national dex
+		tipo: ["Metal"],
+		massa: 800.0, // em kg
+		altura: 2.5, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 135,
+			atq: 143,
+			def: 143,
+			atq_esp: 80,
+			def_esp: 65,
+			vel: 34,
+		},
+		descricao:
+			"Reverenciado há muito tempo por sua capacidade de criar ferro do nada, por alguma razão voltou à vida depois de 3'000 anos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Porca",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 7, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/f/f7/809Melmetal_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Melmetal_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Perrserker",
@@ -22746,9 +25685,37 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/1/10/0863Perrserker.png/375px-0863Perrserker.png",
+			"https://archives.bulbagarden.net/media/upload/c/cc/863Perrserker_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Perrserker_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Cursola",
+		numero: 864, // considerando a national dex
+		tipo: ["Fantasma"],
+		massa: 0.4, // em kg
+		altura: 1.0, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 60,
+			atq: 95,
+			def: 50,
+			atq_esp: 145,
+			def_esp: 130,
+			vel: 30,
+		},
+		descricao:
+			"Tenha cuidado com o corpo ectoplasmático que cerca a alma deste Pokémon. Você ficará duro como pedra se tocá-lo.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Coral",
+		obtencao: "Por evolução",
+		estagio: 2,
+		geracao: 8, // considerando em qual geração foi introduzido
+		variante: false,
+		lendario: false,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/7/7e/864Cursola_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Cursola_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sirfetch'd",
@@ -22774,7 +25741,7 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/d/d9/0865Sirfetch%27d.png/375px-0865Sirfetch%27d.png",
+			"https://archives.bulbagarden.net/media/upload/a/a4/865Sirfetch%27d_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pok%C3%A9mon)",
 	},
@@ -22786,97 +25753,101 @@ const nomesDisponiveis = [...new Set(pkmnDisponiveis.map((x) => x.nome))];
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
 const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
 const nomesPrimeira = [...new Set(primeiraGeracao.map((x) => x.nome))];
-console.info(
-	`Primeira geração: ${numerosPrimeira.length}/151; ${(
-		(numerosPrimeira.length / 151) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Johto; 152-251; 100 novos */
 const segundaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 2);
 const numerosSegunda = segundaGeracao.map((X) => X.numero);
 const nomesSegunda = [...new Set(segundaGeracao.map((x) => x.nome))];
-console.info(
-	`Segunda geração: ${numerosSegunda.length}/100; ${(
-		(numerosSegunda.length / 100) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Hoenn; 252-386; 135 novos */
 const terceiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 3);
 const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 const nomesTerceira = [...new Set(terceiraGeracao.map((x) => x.nome))];
-console.info(
-	`Terceira geração: ${numerosTerceira.length}/135; ${(
-		(numerosTerceira.length / 135) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Sinnoh; 387-493; 107 novos */
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
 const nomesQuarta = [...new Set(quartaGeracao.map((x) => x.nome))];
-console.info(
-	`Quarta geração: ${numerosQuarta.length}/107; ${(
-		(numerosQuarta.length / 107) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Unova; 494-649; 156 novos */
 const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
 const numerosQuinta = quintaGeracao.map((x) => x.numero);
 const nomesQuinta = [...new Set(quintaGeracao.map((x) => x.nome))];
-console.info(
-	`Quinta geração: ${numerosQuinta.length}/156; ${(
-		(numerosQuinta.length / 156) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Kalos; 650-721; 72 novos */
 const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
 const numerosSexta = sextaGeracao.map((x) => x.numero);
 const nomesSexta = [...new Set(sextaGeracao.map((x) => x.nome))];
-console.info(
-	`Sexta geração: ${numerosSexta.length}/72; ${(
-		(numerosSexta.length / 72) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Alola; 722-809; 88 novos */
 const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
 const numerosSetima = setimaGeracao.map((x) => x.numero);
 const nomesSetima = [...new Set(setimaGeracao.map((x) => x.nome))];
-console.info(
-	`Sétima geração: ${numerosSetima.length}/88; ${(
-		(numerosSetima.length / 88) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Galar e Hisui; 810-905; 96 novos */
 const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
 const numerosOitava = oitavaGeracao.map((x) => x.numero);
 const nomesOitava = [...new Set(oitavaGeracao.map((x) => x.nome))];
-console.info(
-	`Oitava geração: ${numerosOitava.length}/96; ${(
-		(numerosOitava.length / 96) *
-		100
-	).toFixed(2)}%`
-);
 
 /* geração de Paldea e Kikatami; 906-1025; 120 novos */
 const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
 const numerosNona = nonaGeracao.map((x) => x.numero);
 const nomesNona = [...new Set(nonaGeracao.map((x) => x.nome))];
+
 console.info(
-	`Nona geração: ${numerosNona.length}/120; ${(
-		(numerosNona.length / 120) *
+	"# GERAÇÕES #",
+	`\n##Primeira## ${
+		[...new Set(numerosPrimeira.map((x) => x.toFixed()))].length
+	}/151 | ${(
+		([...new Set(numerosPrimeira.map((x) => x.toFixed()))].length / 151) *
 		100
-	).toFixed(2)}%`
+	).toFixed(2)}%;`,
+	`\n##Segunda## ${
+		[...new Set(numerosSegunda.map((x) => x.toFixed()))].length
+	}/100 | ${(
+		([...new Set(numerosSegunda.map((x) => x.toFixed()))].length / 100) *
+		100
+	).toFixed(2)}%;`,
+	`\n##Terceira## ${
+		[...new Set(numerosTerceira.map((x) => x.toFixed()))].length
+	}/135 | ${(
+		([...new Set(numerosTerceira.map((x) => x.toFixed()))].length / 135) *
+		100
+	).toFixed(2)}%;`,
+	`\n##Quarta## ${
+		[...new Set(numerosQuarta.map((x) => x.toFixed()))].length
+	}/107 | ${(
+		([...new Set(numerosQuarta.map((x) => x.toFixed()))].length / 107) *
+		100
+	).toFixed(2)}%;`,
+	`\n##Quinta## ${
+		[...new Set(numerosQuinta.map((x) => x.toFixed()))].length
+	}/156 | ${(
+		([...new Set(numerosQuinta.map((x) => x.toFixed()))].length / 156) *
+		100
+	).toFixed(2)}%;`,
+	`\n##Sexta## ${
+		[...new Set(numerosSexta.map((x) => x.toFixed()))].length
+	}/72 | ${(
+		([...new Set(numerosSexta.map((x) => x.toFixed()))].length / 72) *
+		100
+	).toFixed(2)}%;`,
+	`\n##Sétima## ${
+		[...new Set(numerosSetima.map((x) => x.toFixed()))].length
+	}/88 | ${(
+		([...new Set(numerosSetima.map((x) => x.toFixed()))].length / 88) *
+		100
+	).toFixed(2)}%;`,
+	`\n##Oitava## ${
+		[...new Set(numerosOitava.map((x) => x.toFixed()))].length
+	}/96 | ${(
+		([...new Set(numerosOitava.map((x) => x.toFixed()))].length / 96) *
+		100
+	).toFixed(2)}%;`,
+	`\n##Nona## ${
+		[...new Set(numerosNona.map((x) => x.toFixed()))].length
+	}/120 | ${(
+		([...new Set(numerosNona.map((x) => x.toFixed()))].length / 120) *
+		100
+	).toFixed(2)}%.`
 );
