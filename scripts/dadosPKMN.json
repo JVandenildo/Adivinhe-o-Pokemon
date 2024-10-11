@@ -716,7 +716,7 @@
 			"def_esp": 40,
 			"vel": 90
 		},
-		"descricao": "Quando vários Pokémon dessa espécie se reúnem, sua eletricidade poderia aumentar e causar tempestades elétricas.",
+		"descricao": "Mantém sua cauda erguida para monitorar seus arredores. Caso você tente puxar o rabo, este Pokémon tentará mordê-lo.",
 		"categoria": "Pokémon Rato",
 		"obtencao": "Floresta de Viridiana; e Usina Elétrica Abandonada",
 		"estagio": 2,
@@ -743,7 +743,7 @@
 			"def_esp": 80,
 			"vel": 110
 		},
-		"descricao": "Sua longa cauda serve como um fio-terra que o protege de sua própria potência elétrica.",
+		"descricao": "Quando a eletricidade se acumula dentro de seu corpo, ela se torna agressiva. Este Pokémon também brilha no escuro.",
 		"categoria": "Pokémon Rato",
 		"obtencao": "Usina Elétrica Abadona; Caverna de Cerulean; e por evolução",
 		"estagio": 3,
@@ -2554,7 +2554,7 @@
 		},
 		"descricao": "Seu pequeno chifre esconde um poder de cura. Com algumas esfregadas do chifre deste Pokémon, qualquer ferimento leve que você tenha será curado.",
 		"categoria": "Pokémon Chifre Único",
-		"obtencao": "Glimwood Tangle; e Old Cemetery",
+		"obtencao": "Bosque Glimwood; e Cemitério Antigo",
 		"estagio": 1,
 		"geracao": 8,
 		"variante": true,
@@ -2608,7 +2608,7 @@
 		},
 		"descricao": "Corajoso e orgulhoso, este Pokémon corre velozmente pela floresta, com seus passos auxiliados pelo poder psíquico armazenado no pelo dos seus boletos.",
 		"categoria": "Pokémon Chifre Único",
-		"obtencao": "Old Cemetery",
+		"obtencao": "Cemitério Antigo",
 		"estagio": 2,
 		"geracao": 8,
 		"variante": true,
@@ -7763,7 +7763,7 @@
 			"def_esp": 115,
 			"vel": 85
 		},
-		"descricao": "Rumores dizem ser a reincarnação dos ventos do norte, consegue instantaneamente purificar águas sujas e turvas.",
+		"descricao": "Este Pokémon divino voa pelo mundo, sempre em busca de um reservatório puro.",
 		"categoria": "Pokémon Aurora",
 		"obtencao": "Torre dos Sinos; ou vagando por Johto",
 		"estagio": 1,
@@ -7871,7 +7871,7 @@
 			"def_esp": 154,
 			"vel": 110
 		},
-		"descricao": "Rumores dizem que passa seu tempo silenciosamente nas profundezas do mar por seus poderes sem muito fortes.",
+		"descricao": "Dizem que é o guardião dos mares. Há rumores de que foi visto na noite de uma tempestade.",
 		"categoria": "Pokémon Mergulho",
 		"obtencao": "Ilhas Redemoinho",
 		"estagio": 1,
@@ -11597,7 +11597,7 @@
 			"def_esp": 140,
 			"vel": 90
 		},
-		"descricao": "Tem o poder de criar enormes nuvens de chuva que cobrem inteiramente o céu e provocam precipitações torrenciais. Este Pokémon salvou pessoas que sofriam de secas.",
+		"descricao": "Este Pokémon é nomeado na mitologia como o Pokémon que expandiu o mar cobrindo a terra com chuvas torrenciais e ondas gigantescas. Este Pokémon adormeceu após uma batalha cataclísmica..",
 		"categoria": "Pokémon Bacia Marinha",
 		"obtencao": "Caverna da Origem; ou Caverna Marinha",
 		"estagio": 1,
@@ -11624,7 +11624,7 @@
 			"def_esp": 90,
 			"vel": 90
 		},
-		"descricao": "Tem o poder de dispersar nuvens de chuva e fazer água evaporar com luz e calor. Veio como um salvador para as pessoas que estavam sofrendo de enchentes terríveis.",
+		"descricao": "Este Pokémon é descrito há muito tempo na mitologia como o Pokémon que ergueu terras e expandiu continentes. Este Pokémon adormeceu após uma batalha cataclísmica.",
 		"categoria": "Pokémon Continente",
 		"obtencao": "Caverna da Origem; ou Caverna Terrena",
 		"estagio": 1,
@@ -14707,7 +14707,7 @@
 			"def_esp": 120,
 			"vel": 90
 		},
-		"descricao": "É dito que este Pokémon vive em um mundo reverso ao nosso. Aparece em um cemitério antigo.",
+		"descricao": "Foi banido por sua violência. Silenciosamente olhou para o velho mundo do Mundo Distorcido.",
 		"categoria": "Pokémon Renegado",
 		"obtencao": "Mundo Distorcido",
 		"estagio": 1,
@@ -14734,7 +14734,7 @@
 			"def_esp": 100,
 			"vel": 90
 		},
-		"descricao": "É dito que este Pokémon vive em um mundo reverso ao nosso. Aparece em um cemitério antigo.",
+		"descricao": "Foi banido por sua violência. Silenciosamente olhou para o velho mundo do Mundo Distorcido.",
 		"categoria": "Pokémon Renegado",
 		"obtencao": "Mundo Distorcido e segurar Griseous Orb",
 		"estagio": 1,
@@ -17194,7 +17194,7 @@
 			"def_esp": 40,
 			"vel": 65
 		},
-		"descricao": "Este Pokémon se transforma nas formas dos outros para surpreend-los. Aparentemente, frequentemente se transforma em uma criança silenciosa.",
+		"descricao": "Este Pokémon se transforma nas formas dos outros para surpreende-los. Aparentemente, frequentemente se transforma em uma criança silenciosa.",
 		"categoria": "Pokémon Raposa Ardilosa",
 		"obtencao": "Cidade de Castelia; ou recebido em Cidade de Driftveil",
 		"estagio": 1,
@@ -19443,7 +19443,7 @@
 			"def_esp": 90,
 			"vel": 95
 		},
-		"descricao": "Gera uma poderosa energia congelante dentro de si, mas seu corpo se torna congelado quando essa energia vaza.",
+		"descricao": "Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.",
 		"categoria": "Pokémon Fronteira",
 		"obtencao": "Giant Chasm",
 		"estagio": 1,
@@ -19470,7 +19470,7 @@
 			"def_esp": 100,
 			"vel": 95
 		},
-		"descricao": "Gera uma poderosa energia congelante dentro de si, mas seu corpo se torna congelado quando essa energia vaza.",
+		"descricao": "Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.",
 		"categoria": "Pokémon Fronteira",
 		"obtencao": "Giant Chasm e ativar Ponta de DNA com Reshiram",
 		"estagio": 1,
@@ -19497,7 +19497,7 @@
 			"def_esp": 90,
 			"vel": 95
 		},
-		"descricao": "Gera uma poderosa energia congelante dentro de si, mas seu corpo se torna congelado quando essa energia vaza.",
+		"descricao": "Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.",
 		"categoria": "Pokémon Fronteira",
 		"obtencao": "Giant Chasm e ativar Ponta de DNA com Zekrom",
 		"estagio": 1,
@@ -24658,6 +24658,1573 @@
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Melmetal_(Pok%C3%A9mon)"
 	},
+
+	{
+		"nome": "Grookey",
+		"numero": 810,
+		"tipo": ["Planta"],
+		"massa": 5.0,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 55,
+			"atq": 65,
+			"def": 50,
+			"atq_esp": 40,
+			"def_esp": 40,
+			"vel": 65
+		},
+		"descricao": "Quando usa seu graveto especial para fazer uma batida, as ondas sonoras produzidas carregam energia revitalizadora para as plantas e flores na área.",
+		"categoria": "Pokémon Chimpanzé",
+		"obtencao": "Postwick",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/2f/810Grookey_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Grookey_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Thwackey",
+		"numero": 811,
+		"tipo": ["Planta"],
+		"massa": 14.0,
+		"altura": 0.7,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 85,
+			"def": 70,
+			"atq_esp": 55,
+			"def_esp": 60,
+			"vel": 80
+		},
+		"descricao": "Quanto mais rápido este Pokémon consegue marcar um ritmo com sua duas baquetas, mais respeito ganha de seus pares.",
+		"categoria": "Pokémon Batida",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/36/811Thwackey_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Thwackey_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Rillaboom",
+		"numero": 812,
+		"tipo": ["Planta"],
+		"massa": 90.0,
+		"altura": 2.1,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 125,
+			"def": 90,
+			"atq_esp": 60,
+			"def_esp": 70,
+			"vel": 85
+		},
+		"descricao": "Ao tocar seu tambor, explora o poder de seu toco de árvore especial. As raízes do toco seguem sua direção na batalha.",
+		"categoria": "Pokémon Percussionista",
+		"obtencao": "Por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1c/812Rillaboom_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Rillaboom_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Scorbunny",
+		"numero": 813,
+		"tipo": ["Fogo"],
+		"massa": 4.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 50,
+			"atq": 71,
+			"def": 40,
+			"atq_esp": 40,
+			"def_esp": 40,
+			"vel": 69
+		},
+		"descricao": "Possui almofadas especiais nas costas dos pés e uma no nariz. Quando está ansioso para lutar, essas almofadas irradiam um calor tremendo.",
+		"categoria": "Pokémon Coelho",
+		"obtencao": "Postwick",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/a3/813Scorbunny_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Scorbunny_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Raboot",
+		"numero": 814,
+		"tipo": ["Fogo"],
+		"massa": 9.0,
+		"altura": 0.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 86,
+			"def": 60,
+			"atq_esp": 55,
+			"def_esp": 60,
+			"vel": 94
+		},
+		"descricao": "Chuta frutas dos galhos das árvores e depois as balança com os pés, praticando seu jogo de pés.",
+		"categoria": "Pokémon Coelho",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1e/814Raboot_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Raboot_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Cinderace",
+		"numero": 815,
+		"tipo": ["Fogo"],
+		"massa": 33.0,
+		"altura": 1.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 80,
+			"atq": 116,
+			"def": 75,
+			"atq_esp": 65,
+			"def_esp": 75,
+			"vel": 119
+		},
+		"descricao": "É habilidoso tanto no ataque quanto na defesa, e fica animado quando é aplaudido. Mas se começar a se exibir, pode se colocar em uma situação difícil.",
+		"categoria": "Pokémon Artilheiro",
+		"obtencao": "Por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/81/815Cinderace_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Cinderace_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Sobble",
+		"numero": 816,
+		"tipo": ["Água"],
+		"massa": 4.0,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 50,
+			"atq": 40,
+			"def": 40,
+			"atq_esp": 70,
+			"def_esp": 40,
+			"vel": 70
+		},
+		"descricao": "Quando assustado, este Pokémon chora. Suas lágrimas têm o impacto químico de cem cebolas, e agressores não conseguirão resistir ao choro.",
+		"categoria": "Pokémon Lagarto d'Água",
+		"obtencao": "Postwick",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/77/816Sobble_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Drizzile",
+		"numero": 817,
+		"tipo": ["Água"],
+		"massa": 11.5,
+		"altura": 0.7,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 55,
+			"atq_esp": 95,
+			"def_esp": 55,
+			"vel": 90
+		},
+		"descricao": "Um combatente astuto, este Pokémon batalha usando balões d'água criados com a umidade secretada de suas palmas.",
+		"categoria": "Pokémon Lagarto d'Água",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/d8/817Drizzile_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Drizzile_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Inteleon",
+		"numero": 818,
+		"tipo": ["Água"],
+		"massa": 45.2,
+		"altura": 1.9,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 85,
+			"def": 65,
+			"atq_esp": 125,
+			"def_esp": 65,
+			"vel": 120
+		},
+		"descricao": "Possui muitas capacidades escondidas, como as pontas dos dedos que atiram água e uma membrana nas costas que o possibilita planar no ar.",
+		"categoria": "Pokémon Agente Secreto",
+		"obtencao": "Por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/6/66/818Inteleon_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Inteleon_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Skwovet",
+		"numero": 819,
+		"tipo": ["Normal"],
+		"massa": 2.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 55,
+			"def": 55,
+			"atq_esp": 35,
+			"def_esp": 35,
+			"vel": 25
+		},
+		"descricao": "Come frutas sem parar, um hábito que o tornou mais resiliente do que parece. Aparecerá em fazendas procurando por mais frutas.",
+		"categoria": "Pokémon Sem-vergonha",
+		"obtencao": "Rotas 1, 2, 3, e outras; Arvoredo Adormecido; Rolling Fields; Motostoke Riverbank; North Lake Miloch; Dappled Grove; Watchtower Ruins; Stepping-Stone Sea; Ballimere Lake; Fields of Honor; Soothing Wetlands; Challenge Beach; Forest of Focus; Training Lowlands; Workout Sea; Loop Lagoon; Insular Sea; Slippery Slope; Frostpoint Field; Giant's Bed; e Giant's Foot",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/fc/819Skwovet_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Skwovet_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Greedent",
+		"numero": 820,
+		"tipo": ["Normal"],
+		"massa": 6.0,
+		"altura": 0.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 120,
+			"atq": 95,
+			"def": 95,
+			"atq_esp": 55,
+			"def_esp": 75,
+			"vel": 20
+		},
+		"descricao": "Armazena frutas em sua cauda, tantas frutas que elas caem constantemente. Mas este Pokémon é um pouco lento, então não percebe a perda.",
+		"categoria": "Pokémon Fominha",
+		"obtencao": "Rotas 6, 7, e 9; Axew's Eye; Bridge Field; Giant's Cap; Giant's Mirror; Giant's Seat; Hammerlocke Hills; Lake of Outrage; Motostoke Riverbank; Slippery Slope; Frostpoint Field; Giant's Bed; Giant's Foot; Ballimere Lake; Dyna Tree Hill; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/aa/820Greedent_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Greedent_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Rookidee",
+		"numero": 821,
+		"tipo": ["Voador"],
+		"massa": 1.8,
+		"altura": 0.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 38,
+			"atq": 47,
+			"def": 35,
+			"atq_esp": 33,
+			"def_esp": 35,
+			"vel": 57
+		},
+		"descricao": "Corajosamente desafiará qualquer oponente, não importa quão forte. Este Pokémon se beneficia de toda batalha, mesmo a derrota aumenta sua força um pouco.",
+		"categoria": "Pokémon Passarinho",
+		"obtencao": "Rotas 1, 2, e 3; Motostoke Riverbank; e Slumbering Weald",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/7a/821Rookidee_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Rookidee_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Corvisquire",
+		"numero": 822,
+		"tipo": ["Voador"],
+		"massa": 16.0,
+		"altura": 0.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 68,
+			"atq": 67,
+			"def": 55,
+			"atq_esp": 43,
+			"def_esp": 55,
+			"vel": 77
+		},
+		"descricao": "Inteligente o suficiente para usar ferramentas em batalha, esse Pokémon tem sido visto pegando rochas e atirando-as ou usando cordas para envolver inimigos.",
+		"categoria": "Pokémon Corvo",
+		"obtencao": "Rota 3; Giant's Mirror; Hammerlocke Hills; Motostoke Riverbank; Ballimere Lake; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/11/822Corvisquire_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Corvisquire_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Corviknight",
+		"numero": 823,
+		"tipo": ["Voador", " Metal"],
+		"massa": 75.0,
+		"altura": 2.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 98,
+			"atq": 87,
+			"def": 105,
+			"atq_esp": 53,
+			"def_esp": 85,
+			"vel": 67
+		},
+		"descricao": "Este Pokémon reina supremo nos céus da região. O brilho negro de seu corpo de aço poderia aterrorizar o coração de qualquer inimigo.",
+		"categoria": "Pokémon Corvo",
+		"obtencao": "Rota 7; Dusty Bowl; Lake of Outrage; Slumbering Weald; Giant's Cap; Hammerlocke Hills; Motostoke Riverbank; North Lake Miloch; Watchtower Ruins; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/4/41/823Corviknight_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Corviknight_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Blipbug",
+		"numero": 824,
+		"tipo": ["Inseto"],
+		"massa": 8.0,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 25,
+			"atq": 20,
+			"def": 20,
+			"atq_esp": 25,
+			"def_esp": 45,
+			"vel": 45
+		},
+		"descricao": "Um constante colecionador de informação, este Pokémon é muito inteligente. Muito forte e o que não é.",
+		"categoria": "Pokémon Larva",
+		"obtencao": "Rotas 1, e 2; Giant's Cap; Slumbering Weald; Fields of Honor; Challenge Beach; Training Lowlands; Challenge Road; Workout Sea; Loop Lagoon; Stepping-Stone Sea; Insular Sea; Honeycalm Island",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/10/824Blipbug_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Blipbug_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Dottler",
+		"numero": 825,
+		"tipo": ["Inseto", " Psíquico"],
+		"massa": 19.5,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 50,
+			"atq": 35,
+			"def": 80,
+			"atq_esp": 50,
+			"def_esp": 90,
+			"vel": 30
+		},
+		"descricao": "Este Pokémon mal se move, mas ainda está vivo. Esconder-se em sua concha sem comida ou água parece ter despertado seus poderes psíquicos.",
+		"categoria": "Pokémon Redoma",
+		"obtencao": "Rota 5; Giant's Cap; Giant's Mirror; Stony Wilderness; Fields of Honor; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/0/0d/825Dottler_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Dottler_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Orbeetle",
+		"numero": 826,
+		"tipo": ["Inseto", " Psíquico"],
+		"massa": 40.8,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 60,
+			"atq": 45,
+			"def": 110,
+			"atq_esp": 80,
+			"def_esp": 120,
+			"vel": 90
+		},
+		"descricao": "É famoso por seu alto nível de inteligência, e o grande tamanho de seu cérebro é prova que também possui imenso poder psíquico.",
+		"categoria": "Pokémon Sete Pintas",
+		"obtencao": "Giant's Cap; Lake of Outrage; Slumbering Weald; Dappled Grove; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/24/826Orbeetle_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Orbeetle_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Nickit",
+		"numero": 827,
+		"tipo": ["Noturno"],
+		"massa": 8.9,
+		"altura": 0.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 40,
+			"atq": 28,
+			"def": 28,
+			"atq_esp": 47,
+			"def_esp": 52,
+			"vel": 50
+		},
+		"descricao": "Auxiliado pelas almofadas macias em seus pés, silenciosamente ataca os estoques de comida de outros Pokémon. Sobrevive de ganhos ilícitos.",
+		"categoria": "Pokémon Raposa",
+		"obtencao": "Rotas 1, e 2; Dusty Bowl; Giant's Mirror; e Stony Wilderness",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/3f/827Nickit_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Nickit_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Thievul",
+		"numero": 828,
+		"tipo": ["Noturno"],
+		"massa": 19.9,
+		"altura": 1.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 58,
+			"def": 58,
+			"atq_esp": 87,
+			"def_esp": 92,
+			"vel": 90
+		},
+		"descricao": "Marca secretamente alvos em potencial com um aroma. Ao seguir esse aroma, persegue seu alvo e rouba algo quando menos espera.",
+		"categoria": "Pokémon Raposa",
+		"obtencao": "Rotas 7, e 9; Bridge Field; Hammerlocke Hills; Stony Wilderness; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/4/49/828Thievul_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Thievul_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Gossifleur",
+		"numero": 829,
+		"tipo": ["Planta"],
+		"massa": 2.2,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 40,
+			"atq": 40,
+			"def": 60,
+			"atq_esp": 40,
+			"def_esp": 60,
+			"vel": 10
+		},
+		"descricao": "Ancora a si mesmo ao chão com sua única perna, depois se aquece no sol. Após absorver luz solar suficiente, suas pétalas se espalham enquanto ela floresce brilhantemente.",
+		"categoria": "Pokémon Florescer",
+		"obtencao": "Rotas 2, e 3; e Motostoke Riverbank",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/23/829Gossifleur_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Gossifleur_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Eldegoss",
+		"numero": 830,
+		"tipo": ["Planta"],
+		"massa": 2.5,
+		"altura": 0.5,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 60,
+			"atq": 50,
+			"def": 90,
+			"atq_esp": 80,
+			"def_esp": 120,
+			"vel": 60
+		},
+		"descricao": "O algodão na cabeça deste Pokémon pode ser fiado em um fio brilhante e lindo, uma especialidade regional.",
+		"categoria": "Pokémon Florescimento de Algodão",
+		"obtencao": "Rota 5; Motostoke Riverbank; Dusty Bowl; Giant's Cap; Stony Wilderness; Ballimere Lake; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/5c/830Eldegoss_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Eldegoss_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Wooloo",
+		"numero": 831,
+		"tipo": ["Normal"],
+		"massa": 6.0,
+		"altura": 0.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 42,
+			"atq": 40,
+			"def": 55,
+			"atq_esp": 40,
+			"def_esp": 45,
+			"vel": 48
+		},
+		"descricao": "Seu pelo encaracolado é uma proteção tão eficaz que este Pokémon poderia cair de um penhasco e se levantar imediatamente, ileso.",
+		"categoria": "Pokémon Ovelha",
+		"obtencao": "Rotas 1, e 4; Motostoke Riverbank; Slippery Slope; Frostpoint Field; Giant's Bed; Snowslide Slope; e Three-Point Pass",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/bd/831Wooloo_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Wooloo_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Dubwool",
+		"numero": 832,
+		"tipo": ["Normal"],
+		"massa": 43.0,
+		"altura": 1.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 72,
+			"atq": 80,
+			"def": 100,
+			"atq_esp": 60,
+			"def_esp": 90,
+			"vel": 88
+		},
+		"descricao": "Teça um tapete com sua lã elástica, e você acabará com algo próximo de um trampolim. Você começará a pular no momento em que pisar nele.",
+		"categoria": "Pokémon Ovelha",
+		"obtencao": "Dusty Bowl; Hammerlocke Hills; Motostoke Riverbank; Rolling Fields; Slippery Slope; Frostpoint Field; Giant's Bed; Snowslide Slope; Three-Point Pass; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/3e/832Dubwool_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Dubwool_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Chewtle",
+		"numero": 833,
+		"tipo": ["Água"],
+		"massa": 8.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 50,
+			"atq": 64,
+			"def": 50,
+			"atq_esp": 38,
+			"def_esp": 38,
+			"vel": 44
+		},
+		"descricao": "Aparentemente, a coceira causada pela dentição o impede a estalar as mandíbulas em qualquer coisa que esteja na sua frente.",
+		"categoria": "Pokémon Mordedor",
+		"obtencao": "Rotas 2, 4, e 5; Galar Mine No. 2; Giant's Cap; Giant's Mirror; Motostoke Outskirts; Motostoke Riverbank; Courageous Cavern; e Soothing Wetlands",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1b/833Chewtle_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Chewtle_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Drednaw",
+		"numero": 834,
+		"tipo": ["Água", " Rocha"],
+		"massa": 115.5,
+		"altura": 1.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 90,
+			"atq": 115,
+			"def": 90,
+			"atq_esp": 48,
+			"def_esp": 68,
+			"vel": 74
+		},
+		"descricao": "Este Pokémon estende rapidamente seu pescoço retrátil para cravar suas presas afiadas em inimigos distantes e derrotá-los.",
+		"categoria": "Pokémon Mordida",
+		"obtencao": "Rotas 2, e 6; Bridge Field; Dusty Bowl; Giant's Cap; Giant's Mirror; Lake of Outrange; Galar Mine No. 2; Fields of Honor; Soothing Wetlands; Loop Lagoon; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/d9/834Drednaw_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Drednaw_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Yamper",
+		"numero": 835,
+		"tipo": ["Elétrico"],
+		"massa": 13.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 59,
+			"atq": 45,
+			"def": 50,
+			"atq_esp": 40,
+			"def_esp": 50,
+			"vel": 26
+		},
+		"descricao": "Este Pokémon glutão só ajuda as pessoas com o trabalho delas porque quer guloseimas. Enquanto corre, crepita com eletricidade.",
+		"categoria": "Pokémon Filhote",
+		"obtencao": "Rotas 2, e 4; Giant's Mirror; Motorstoke Riverbank; Stony Wilderness; e Ballimere Lake",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/56/835Yamper_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Yamper_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Boltund",
+		"numero": 836,
+		"tipo": ["Elétrico"],
+		"massa": 34.0,
+		"altura": 1.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 69,
+			"atq": 90,
+			"def": 60,
+			"atq_esp": 90,
+			"def_esp": 60,
+			"vel": 121
+		},
+		"descricao": "Envia eletricidade através de suas pernas para aumenta sua força. Correndo em velocidade máxima, facilmente ultrapassa 80 km/h.",
+		"categoria": "Pokémon Cão",
+		"obtencao": "Dusty Bowl; Lake of Outrage; Motostoke Riverbank; North Lake Miloch; Ballimere Lake; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/0/06/836Boltund_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Boltund_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Rolycoly",
+		"numero": 837,
+		"tipo": ["Rocha"],
+		"massa": 12.0,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 30,
+			"atq": 40,
+			"def": 50,
+			"atq_esp": 40,
+			"def_esp": 50,
+			"vel": 30
+		},
+		"descricao": "A maior parte de seu corpo possui a mesma composição do carvão. Apropriadamente, este Pokémon foi descoberto pela primeira vez em minas de carvão há cerca de 400 anos.",
+		"categoria": "Pokémon Carvão",
+		"obtencao": "Rota 3; Gala Mine; Giant's Cap; e Motostoke Riverbank",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/37/837Rolycoly_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Rolycoly_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Carkol",
+		"numero": 838,
+		"tipo": ["Rocha", " Fogo"],
+		"massa": 78.0,
+		"altura": 1.1,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 80,
+			"atq": 60,
+			"def": 90,
+			"atq_esp": 60,
+			"def_esp": 70,
+			"vel": 50
+		},
+		"descricao": "Ao girar rapidamente suas pernas, pode viajar a mais de 30 km/h. A temperatura as chamas que ele respira excede 1'000° Celsius.",
+		"categoria": "Pokémon Carvão",
+		"obtencao": "Bridge Field; Stony Wilderness; Giant's Cap; Galar Mine; Ballimere Lake; Lakeside Cave; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1c/838Carkol_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Carkol_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Coalossal",
+		"numero": 839,
+		"tipo": ["Rocha", " Fogo"],
+		"massa": 310.5,
+		"altura": 2.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 110,
+			"atq": 80,
+			"def": 120,
+			"atq_esp": 80,
+			"def_esp": 90,
+			"vel": 30
+		},
+		"descricao": "Enquanto estiver em batalha, sua montanha de carvão queimará em vermelho brilhante, soltando faíscas que queimarão a área ao redor.",
+		"categoria": "Pokémon Carvão",
+		"obtencao": "Dusty Bowl; Lake of Outrage; Giant's Cap; Ballimere Lake; Lakeside Cave; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/56/839Coalossal_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Coalossal_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Applin",
+		"numero": 840,
+		"tipo": ["Planta", " Dragão"],
+		"massa": 0.5,
+		"altura": 0.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 40,
+			"atq": 40,
+			"def": 80,
+			"atq_esp": 40,
+			"def_esp": 50,
+			"vel": 20
+		},
+		"descricao": "Passa toda sua vida dentro de uma maçã. Esconde-se de seus inimigos naturais, Pokémon pássaros, fingindo que é apenas uma maçã e nada mais.",
+		"categoria": "Pokémon Caroço de Maçã",
+		"obtencao": "Rota 5; Dusty Bowl; Giant's Mirror; Stony Wilderness; Fields of Honor; Soothing Wetlands; Challenge Beach; Forest of Focus; Trainig Lowlands; Workout Sea; Loop Lagoon; Stepping-Stone Sea; e Insular Sea",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/6/6d/840Applin_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Flapple",
+		"numero": 841,
+		"tipo": ["Planta", " Dragão"],
+		"massa": 1.0,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 110,
+			"def": 80,
+			"atq_esp": 95,
+			"def_esp": 60,
+			"vel": 70
+		},
+		"descricao": "Voa em asas de casca de maçã e cospe um ácido pooderoso. Também pode mudar sua forma para a de uma maçã.",
+		"categoria": "Pokémon Asa de Maçã",
+		"obtencao": "Stepping-Stone Sea; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/78/841Flapple_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Flapple_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Appletun",
+		"numero": 842,
+		"tipo": ["Planta", " Dragão"],
+		"massa": 13.0,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 110,
+			"atq": 85,
+			"def": 80,
+			"atq_esp": 100,
+			"def_esp": 80,
+			"vel": 30
+		},
+		"descricao": "Seu corpo é coberto por um doce néctar, e a casca em suas costas é especialmente saborosa. Crianças costumavam tê-lo como um lanche.",
+		"categoria": "Pokémon Néctar de Maçã",
+		"obtencao": "Stepping-Stone Sea; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/fe/0842Appletun.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Appletun_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Silicobra",
+		"numero": 843,
+		"tipo": ["Terra"],
+		"massa": 7.6,
+		"altura": 2.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 52,
+			"atq": 57,
+			"def": 75,
+			"atq_esp": 35,
+			"def_esp": 50,
+			"vel": 46
+		},
+		"descricao": "Enquanto cava, engole areia e armazena na bolsa de seu pescoço. A bolsa consegue armazenar até 8 kg de areia.",
+		"categoria": "Pokémon Serpente de Areia",
+		"obtencao": "Rota 6; Forest of Focus; Training Lowlands; Challenge road; e Potbottom Desert",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/c/c5/843Silicobra_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Silicobra_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Sandaconda",
+		"numero": 844,
+		"tipo": ["Terra"],
+		"massa": 65.5,
+		"altura": 3.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 72,
+			"atq": 107,
+			"def": 125,
+			"atq_esp": 65,
+			"def_esp": 70,
+			"vel": 71
+		},
+		"descricao": "Quando contrai seu corpo, mais de 100 kg de areia são espirrads de seu nariz. Caso fique sem areia, fica desanimado.",
+		"categoria": "Pokémon Serpente de Areia",
+		"obtencao": "Rota 8; Lake of Outrage; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/38/844Sandaconda_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Sandaconda_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Cramorant",
+		"numero": 845.1,
+		"tipo": ["Voador", " Água"],
+		"massa": 18.0,
+		"altura": 0.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 85,
+			"def": 55,
+			"atq_esp": 85,
+			"def_esp": 95,
+			"vel": 85
+		},
+		"descricao": "É tão forte que consegue nocautear alguns oponentes em um único golpe, mas também pode esquecer que está lutando durante a luta.",
+		"categoria": "Pokémon Engolir",
+		"obtencao": "Rota 9; Bridge Field; Lake of Outrage; Stony Wilderness; Axew's Eye; Challenge Beach; Forest of Focus; e Training Lowlands",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/bb/845Cramorant_Dream_3.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Cramorant (Forma Engolidora)",
+		"numero": 845.2,
+		"tipo": ["Voador", " Água"],
+		"massa": 18.0,
+		"altura": 0.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 85,
+			"def": 55,
+			"atq_esp": 85,
+			"def_esp": 95,
+			"vel": 85
+		},
+		"descricao": "Sua gula o levou a tentar engolir um Arrokuda inteiro, o que por sua vez fez com que ficasse com um Arrokuda preso na garganta.",
+		"categoria": "Pokémon Engolir",
+		"obtencao": "Rota 9; Bridge Field; Lake of Outrage; Stony Wilderness; Axew's Eye; Challenge Beach; Forest of Focus; Training Lowlands; e, quando usa Surfar ou Mergulho, estar acima dos 50% de PS",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/d7/0845Cramorant-Gulping.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Cramorant (Forma Devoradora)",
+		"numero": 845.3,
+		"tipo": ["Voador", " Água"],
+		"massa": 18.0,
+		"altura": 0.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 85,
+			"def": 55,
+			"atq_esp": 85,
+			"def_esp": 95,
+			"vel": 85
+		},
+		"descricao": "Este Pokémon acidentalmente prendeu um Pikachu em sua garganta. Está engasgando um pouco, mas não está realmente incomodado.",
+		"categoria": "Pokémon Engolir",
+		"obtencao": "Rota 9; Bridge Field; Lake of Outrage; Stony Wilderness; Axew's Eye; Challenge Beach; Forest of Focus; Training Lowlands; e, quando usa Surfar ou Mergulho, estar abaixo dos 50% de PS",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/78/0845Cramorant-Gorging.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Arrokuda",
+		"numero": 846,
+		"tipo": ["Água"],
+		"massa": 1.0,
+		"altura": 0.5,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 41,
+			"atq": 63,
+			"def": 40,
+			"atq_esp": 40,
+			"def_esp": 30,
+			"vel": 66
+		},
+		"descricao": "Caso veja qualquer movimento ao seu redor, este Pokémon ataca imediatamente, liderando com sua mandíbula pontiaguda. Tem muito orgulho dessa mandíbula.",
+		"categoria": "Pokémon Arremetida",
+		"obtencao": "Rota 2; Motostoke Riverbank; Challenge Beach; Forest of Focus; e Training Lowlands",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/b9/846Arrokuda_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Arrokuda_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Barraskewda",
+		"numero": 847,
+		"tipo": ["Água"],
+		"massa": 30.0,
+		"altura": 1.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 61,
+			"atq": 123,
+			"def": 60,
+			"atq_esp": 60,
+			"def_esp": 50,
+			"vel": 136
+		},
+		"descricao": "Este Pokémon tem uma mandíbula tão afiada quanto uma lança e tão forte quanto aço. Aparentemente, a carne deste Pokémon também é surpreendentemente saborosa.",
+		"categoria": "Pokémon Espeto",
+		"obtencao": "Rota 2; Motostoke Riverbank; Dusty Bowl; Lake of Outrage; Training Lowlands; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/9/95/847Barraskewda_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Barraskewda_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Toxel",
+		"numero": 848,
+		"tipo": ["Elétrico", " Veneno"],
+		"massa": 11.0,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 40,
+			"atq": 38,
+			"def": 35,
+			"atq_esp": 54,
+			"def_esp": 35,
+			"vel": 40
+		},
+		"descricao": "Armazena veneno em uma bolsa de veneno interna e secreta esse neno por sua pele. Caso toque este Pokémon, sentirá uma sensação de formigamento.",
+		"categoria": "Pokémon Bebê",
+		"obtencao": "Rota 7; Hammerlocke Hills; Giant's Cap; Stony Wilderness; Bridge Field; e Motostoke Roverbank",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/12/848Toxel_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Toxel_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Toxtricity (Forma Aguda)",
+		"numero": 849.1,
+		"tipo": ["Elétrico", " Veneno"],
+		"massa": 40.0,
+		"altura": 1.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 75,
+			"atq": 98,
+			"def": 70,
+			"atq_esp": 114,
+			"def_esp": 70,
+			"vel": 75
+		},
+		"descricao": "Quando este Pokémon soa como se estivesse dedilhando uma guitarra, na verdade está arranhando as saliências em seu peito para gerar eletricidade.",
+		"categoria": "Pokémon Punk",
+		"obtencao": "Por evolução e ser de uma das naturezas: Esforçada, Valente, Firme, Sapeca, Dócil, Rebelde, Negligente, Agitada, Alegre, Ingênua, Rabugenta, Atrevida, ou Peculiar",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/6/6e/849Toxtricity_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Toxtricity (Forma Grave)",
+		"numero": 849.2,
+		"tipo": ["Elétrico", " Veneno"],
+		"massa": 40.0,
+		"altura": 1.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 75,
+			"atq": 98,
+			"def": 70,
+			"atq_esp": 114,
+			"def_esp": 70,
+			"vel": 75
+		},
+		"descricao": "Capaz de gerar 15'000 volts de eletricidade, este Pokémon olha com desprezo para todos que o desafiariam.",
+		"categoria": "Pokémon Punk",
+		"obtencao": "Por evolução e ser de uma das naturezas: Carente, Audaciosa, Tranquila, Tímida, Séria, Modesta, Tranquila, Quieta, Tímida, Calma, Gentil, ou Cuidadosa",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/2d/849Toxtricity_Dream_-_Low_Key_Form.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Sizzlipede",
+		"numero": 850,
+		"tipo": ["Fogo", " Inseto"],
+		"massa": 1.0,
+		"altura": 0.7,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 50,
+			"atq": 65,
+			"def": 45,
+			"atq_esp": 50,
+			"def_esp": 50,
+			"vel": 45
+		},
+		"descricao": "Armazena gás inflamável em seu corpo e usa para gerar calor. As seções amarelas em sua barriga ficam particulamente quentes.",
+		"categoria": "Pokémon Radiador",
+		"obtencao": "Rota 3; Motostoke Stadium; e Giant's Foot",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/4/42/850Sizzlipede_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Sizzlipede_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Centiskorch",
+		"numero": 851,
+		"tipo": ["Fogo", " Inseto"],
+		"massa": 120.0,
+		"altura": 3.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 115,
+			"def": 65,
+			"atq_esp": 90,
+			"def_esp": 90,
+			"vel": 65
+		},
+		"descricao": "Quando aquece, sua temperatura corporal alcança em torno de 800° Celius. Chicoteia seu corpo como um chicote e lança a si mesmo em seus inimigos.",
+		"categoria": "Pokémon Radiador",
+		"obtencao": "Giant's Foot; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/c/c0/851Centiskorch_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Centiskorch_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Clobbopus",
+		"numero": 852,
+		"tipo": ["Lutador"],
+		"massa": 4.0,
+		"altura": 0.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 50,
+			"atq": 68,
+			"def": 60,
+			"atq_esp": 50,
+			"def_esp": 50,
+			"vel": 32
+		},
+		"descricao": "É muito curioso, mas seus meios de investigar coisas é tentar soca-las com seus tentáculos. A procura por comida é o que o traz a terra firme.",
+		"categoria": "Pokémon Birrento",
+		"obtencao": "Rota 9; Courageous Cavern; e Loop Lagoon",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/f4/852Clobbopus_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Clobbopus_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Grapploct",
+		"numero": 853,
+		"tipo": ["Lutador"],
+		"massa": 39.0,
+		"altura": 1.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 80,
+			"atq": 118,
+			"def": 90,
+			"atq_esp": 70,
+			"def_esp": 80,
+			"vel": 42
+		},
+		"descricao": "Um corpo feito apenas de músculos torna os movimentos de luta que este Pokémon realiza com seus tentáculos tremendamente poderosos.",
+		"categoria": "Pokémon Jiu-jitsu",
+		"obtencao": "Rota 9; Lake of Courage; West Lake Axewell; Loop Lagoon; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/22/853Grapploct_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Grapploct_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Sinistea (Forma Falsificada)",
+		"numero": 854.1,
+		"tipo": ["Fantasma"],
+		"massa": 0.2,
+		"altura": 0.1,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 40,
+			"atq": 45,
+			"def": 45,
+			"atq_esp": 74,
+			"def_esp": 54,
+			"vel": 50
+		},
+		"descricao": "Dizem que este Pokémon nasceu quando um espírito solitário possuiu os restos de uma xícara de chá frio.",
+		"categoria": "Pokémon Chá Preto",
+		"obtencao": "Bosque Glimwood; e Cemitério Antigo",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/bd/854Sinistea-Phony_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Sinistea_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Sinistea (Forma Autêntica)",
+		"numero": 854.2,
+		"tipo": ["Fantasma"],
+		"massa": 0.2,
+		"altura": 0.1,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 40,
+			"atq": 45,
+			"def": 45,
+			"atq_esp": 74,
+			"def_esp": 54,
+			"vel": 50
+		},
+		"descricao": "O padrão redemoinho no corpo deste Pokémon é sua fraqueza. Caso seja mexido, o redemoinho perde sua forma, e fica tonto.",
+		"categoria": "Pokémon Chá Preto",
+		"obtencao": "Bosque Glimwood; e Cemitério Antigo",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/71/854Sinistea-Antique_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Sinistea_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Polteageist (Forma Falsificada)",
+		"numero": 855.1,
+		"tipo": ["Fantasma"],
+		"massa": 0.4,
+		"altura": 0.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 60,
+			"atq": 65,
+			"def": 65,
+			"atq_esp": 134,
+			"def_esp": 114,
+			"vel": 70
+		},
+		"descricao": "Esta espécie vive em bules antigos. A maioria dos bules são falsificados, mas em raras ocasiões, uma obra autêntica é encontrada.",
+		"categoria": "Pokémon Chá Preto",
+		"obtencao": "Cemitério Antigo; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/d0/855Polteageist_Phony_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Polteageist_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Polteageist (Forma Autêntica)",
+		"numero": 855.2,
+		"tipo": ["Fantasma"],
+		"massa": 0.4,
+		"altura": 0.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 60,
+			"atq": 65,
+			"def": 65,
+			"atq_esp": 134,
+			"def_esp": 114,
+			"vel": 70
+		},
+		"descricao": "Os Treinadoes que este Pokémon confia serão permitidos a experimentar seu sabor e aroma diferenciados em primeira mão, experimentando apenas uma pequena quantidade de seu chá.",
+		"categoria": "Pokémon Chá Preto",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/71/855Polteageist-Antique_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Polteageist_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Hatenna",
+		"numero": 856,
+		"tipo": ["Psíquico"],
+		"massa": 3.4,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 42,
+			"atq": 30,
+			"def": 45,
+			"atq_esp": 56,
+			"def_esp": 53,
+			"vel": 39
+		},
+		"descricao": "Por meio da protrusão em sua cabeça, sente as emoções de outras criaturas. Caso você não tiver uma disposição calma, ela nunca se aquecerá com você.",
+		"categoria": "Pokémon Calmo",
+		"obtencao": "Hammerlocke Hill; Motostoke Outskirts; Stony Wilderness; Slippery Slope; Frostpoint Field; Giant's Bed; Cemitério Antigo; Giant's Foot; Frigid Sea; Three-Point Pass; e Ballimere Lake",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/b2/856Hatenna_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Hatenna_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Hattrem",
+		"numero": 857,
+		"tipo": ["Psíquico"],
+		"massa": 4.8,
+		"altura": 0.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 57,
+			"atq": 40,
+			"def": 65,
+			"atq_esp": 86,
+			"def_esp": 73,
+			"vel": 49
+		},
+		"descricao": "Não importa quem você seja, se trazer fortes emoções próximo a este Pokémon, você será silenciado violentamente.",
+		"categoria": "Pokémon Sereno",
+		"obtencao": "Dusty Bowl; Bosque Glimwood; Frostpoint Field; Giant's Bed; Cemitério Antigo; Giant's Foot; Frigid Sea; Three-Point Pass; Ballimere Lake; Slippery Slope; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/d4/857Hattrem_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Hattrem_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Hatterene",
+		"numero": 858,
+		"tipo": ["Psíquico", " Fada"],
+		"massa": 5.1,
+		"altura": 2.1,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 57,
+			"atq": 90,
+			"def": 95,
+			"atq_esp": 136,
+			"def_esp": 103,
+			"vel": 29
+		},
+		"descricao": "Emite poder psíquico forte o suficiente para causar dores de cabeça e impedir a aproximação de outras pessoas.",
+		"categoria": "Pokémon Silencioso",
+		"obtencao": "Lake of Outrage; Frostpoint Field; Giant's Bed; Frigid Sea; Ballimere Lake; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1e/858Hatterene_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Hatterene_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Impidimp",
+		"numero": 859,
+		"tipo": ["Noturno", " Fada"],
+		"massa": 5.5,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 45,
+			"atq": 45,
+			"def": 30,
+			"atq_esp": 55,
+			"def_esp": 40,
+			"vel": 50
+		},
+		"descricao": "Por seu nariz, suga as emanações produzidas por pessoas e Pokémon quando se sentem incomodados. Prospera dessa energia negativa.",
+		"categoria": "Pokémon Ardiloso",
+		"obtencao": "Giant's Mirror; Hammerlocke Hills; Motostoke Outskirts; Stony Wilderness; Bosque Glimwood; e Slippery Slope",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/c/cf/859Impidimp_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Impidimp_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Morgrem",
+		"numero": 860,
+		"tipo": ["Noturno", " Fada"],
+		"massa": 12.5,
+		"altura": 0.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 45,
+			"atq_esp": 75,
+			"def_esp": 55,
+			"vel": 70
+		},
+		"descricao": "Quando fica de quatro, como se implorasse por perdão, está tentando atrais os oponentes para conseguir esfaqueá-los com seu cabelo em forma de lança.",
+		"categoria": "Pokémon Malandro",
+		"obtencao": "Bosque Glimwood; Giant's Bed; Snowslie Slope; Giant's Foot; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/ab/860Morgrem_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Morgrem_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Grimmsnarl",
+		"numero": 861,
+		"tipo": ["Noturno", " Fada"],
+		"massa": 61.0,
+		"altura": 1.5,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 95,
+			"atq": 120,
+			"def": 65,
+			"atq_esp": 95,
+			"def_esp": 75,
+			"vel": 60
+		},
+		"descricao": "Seu cabeço funciona como fibras musculares. Quando se desenrolam, eles se prendem aos oponentes, enredando-os como tentáculos fariam.",
+		"categoria": "Pokémon Maromba",
+		"obtencao": "Lake of Outrage; Stony Wilderness; Slippery Slope; Giant's Bed; Snowslide Slope; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/f2/861Grimmsnarl_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Grimmsnarl_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Obstagoon",
+		"numero": 862,
+		"tipo": ["Noturno", " Normal"],
+		"massa": 46.0,
+		"altura": 1.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 93,
+			"atq": 90,
+			"def": 101,
+			"atq_esp": 60,
+			"def_esp": 81,
+			"vel": 95
+		},
+		"descricao": "Sua voz é impresionante em volume. Este Pokémon tem uma tendência a assumir uma postura amesaçadora e gritar.",
+		"categoria": "Pokémon Bloqueador",
+		"obtencao": "Rota 2; Lake of Outrage; Bridge Field; Giant's Bed; Ballimere Lake; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/5c/862Obstagoon_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Obstagoon_(Pok%C3%A9mon)"
+	},
 	{
 		"nome": "Perrserker",
 		"numero": 863,
@@ -24738,5 +26305,1625 @@
 			"https://archives.bulbagarden.net/media/upload/a/a4/865Sirfetch%27d_Dream.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Mr. Rime",
+		"numero": 866,
+		"tipo": ["Gelo", " Psíquico"],
+		"massa": 58.2,
+		"altura": 1.5,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 80,
+			"atq": 85,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 100,
+			"vel": 70
+		},
+		"descricao": "É altamente habilidoso em sapateado. Balança sua bengala de gelo em sincronia com seus movimentos graciosos.",
+		"categoria": "Pokémon Comediante",
+		"obtencao": "Por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/9/9d/866Mr._Rime_Dream_2.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Mr._Rime_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Runerigus",
+		"numero": 867,
+		"tipo": ["Terra", " Fantasma"],
+		"massa": 66.6,
+		"altura": 1.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 58,
+			"atq": 95,
+			"def": 145,
+			"atq_esp": 50,
+			"def_esp": 105,
+			"vel": 30
+		},
+		"descricao": "Nunca toque em seu corpo sombrio, ou você verá as memórias horríveis por trás da imagem esculpida nele.",
+		"categoria": "Pokémon Ressentimento",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/7a/867Runerigus_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Runerigus_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Milcery",
+		"numero": 868,
+		"tipo": ["Fada"],
+		"massa": 0.3,
+		"altura": 0.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 45,
+			"atq": 40,
+			"def": 40,
+			"atq_esp": 50,
+			"def_esp": 61,
+			"vel": 34
+		},
+		"descricao": "Este Pokémon nasceu de partículas de cheiro doce no ar. Seu corpo é feito de chantili.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Rota 4; Bridge Field; e Giant's Mirror",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/37/868Milcery_Dream_2.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Milcery_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Creme de Baunilha)",
+		"numero": 869.1,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "Quando confia em um Treinador, este Pokémon o presenteia com frutas decoradas com creme.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/6/67/869Alcremie_Dream_-_Vanilla_Cream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Creme Rubi)",
+		"numero": 869.2,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor doce e ácido.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/df/869Alcremie_Dream_-_Ruby_Cream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Creme de Chá Verde)",
+		"numero": 869.3,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor aromático.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/c/cd/869Alcremie_Dream_-_Matcha_Cream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Creme de Menta)",
+		"numero": 869.4,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor refrescante.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/0/0f/869Alcremie_Dream_-_Mint_Cream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Creme de Lima)",
+		"numero": 869.5,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor ácido.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/c/c6/869Alcremie_Dream_-_Lemon_Cream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Creme Salgado)",
+		"numero": 869.6,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor salgado.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/a3/869Alcremie_Dream_-_Salted_Cream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Mistura Rubi)",
+		"numero": 869.7,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor misto.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/0/0e/869Alcremie_Dream_-_Ruby_Swirl.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Mistura de Caramelo)",
+		"numero": 869.8,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor amargo.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/30/869Alcremie_Dream_-_Caramel_Swirl.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Alcremie (Mistura Tricolor)",
+		"numero": 869.9,
+		"tipo": ["Fada"],
+		"massa": 0.5,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 60,
+			"def": 75,
+			"atq_esp": 110,
+			"def_esp": 121,
+			"vel": 64
+		},
+		"descricao": "As células que compõem seu creme fluturam repentinamente, dado ao creme um sabor complexo.",
+		"categoria": "Pokémon Chantili",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/82/869Alcremie_Dream_-_Rainbow_Swirl.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Falinks",
+		"numero": 870,
+		"tipo": ["Lutador"],
+		"massa": 62.0,
+		"altura": 3.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 65,
+			"atq": 100,
+			"def": 100,
+			"atq_esp": 70,
+			"def_esp": 60,
+			"vel": 75
+		},
+		"descricao": "Cinco deles são soldados e um é o chefe. As ordens do chefe são absolutas.",
+		"categoria": "Pokémon Formação",
+		"obtencao": "Rota 8; e Lake of Outrage",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/24/870Falinks_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Falinks_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Pincurchin",
+		"numero": 871,
+		"tipo": ["Elétrico"],
+		"massa": 1.0,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 48,
+			"atq": 101,
+			"def": 95,
+			"atq_esp": 91,
+			"def_esp": 85,
+			"vel": 15
+		},
+		"descricao": "Este Pokémon se alimenta de algas marinhas, usando seus dentes para raspá-las de rochas. Corrente elétrica flui das pontas de seus espinhos.",
+		"categoria": "Pokémon Ouriço-do-mar",
+		"obtencao": "Rota 9; Courageous Cavern; Loop Lagoon; e Frigid Sea",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/57/871Pincurchin_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Pincurchin_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Snom",
+		"numero": 872,
+		"tipo": ["Gelo", " Inseto"],
+		"massa": 3.8,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 30,
+			"atq": 25,
+			"def": 35,
+			"atq_esp": 45,
+			"def_esp": 30,
+			"vel": 20
+		},
+		"descricao": "Cospe fios imbuídos de uma espécie de energia gélida e os usa para amarrar seu corpo aos galhos; disfarçando-se de pingente de gelo enquanto dorme.",
+		"categoria": "Pokémon Minhoca",
+		"obtencao": "Rotas 8, e 10; Lake of Outrage; Slippery Slope; Snowslide Slope; e Path to the Peak",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/56/872Snom_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Snom_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Frosmoth",
+		"numero": 873,
+		"tipo": ["Gelo", " Inseto"],
+		"massa": 42.0,
+		"altura": 1.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 65,
+			"def": 60,
+			"atq_esp": 125,
+			"def_esp": 90,
+			"vel": 65
+		},
+		"descricao": "Escamas geladas caem de suas asas como neve enquanto voa pelos campos e montanhas. A temperatura de suas asas são menores que -180° Celsius.",
+		"categoria": "Pokémon Mariposa de Gelo",
+		"obtencao": "Trilha para o Cume; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/f2/873Frosmoth_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Frosmoth_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Stonjourner",
+		"numero": 874,
+		"tipo": ["Rocha"],
+		"massa": 520.0,
+		"altura": 2.5,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 125,
+			"def": 135,
+			"atq_esp": 20,
+			"def_esp": 20,
+			"vel": 70
+		},
+		"descricao": "Uma vez por ano, em uma data e hora específicas, se reúnem do nada e formam um círculo.",
+		"categoria": "Pokémon Rocha Grande",
+		"obtencao": "Rota 10; Lake of Outrage; Giant's Bed; e Giant's Foot",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/3c/874Stonjourner_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Stonjourner_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Eiscue (Cara de Gelo)",
+		"numero": 875.1,
+		"tipo": ["Gelo"],
+		"massa": 89.0,
+		"altura": 1.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 75,
+			"atq": 80,
+			"def": 110,
+			"atq_esp": 65,
+			"def_esp": 90,
+			"vel": 50
+		},
+		"descricao": "Veio à deriva no fluxo das águas do oceaano de um lugar gelado. Mantém sua cabeça gelada constantemente para garantir que ela fique agradável e fria.",
+		"categoria": "Pokémon Pinguim",
+		"obtencao": "Rota 10; Lake of Outrage; e Frigid Sea",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/7d/875Eiscue_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Eiscue (Cara Degelada)",
+		"numero": 875.2,
+		"tipo": ["Gelo"],
+		"massa": 89.0,
+		"altura": 1.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 75,
+			"atq": 80,
+			"def": 70,
+			"atq_esp": 65,
+			"def_esp": 50,
+			"vel": 130
+		},
+		"descricao": "O gelo que cobria o rosto deste Pokémon se quebrou, revelando uma expressão levemente preocupada que encantou várias pessoas.",
+		"categoria": "Pokémon Pinguim",
+		"obtencao": "Rota 10; Lake of Outrage; e Frigid Sea",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/29/875Eiscue_Dream_-_Noice_2.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Indeedee Macho",
+		"numero": 876.1,
+		"tipo": ["Psíquico", " Normal"],
+		"massa": 28.0,
+		"altura": 0.9,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 60,
+			"atq": 65,
+			"def": 55,
+			"atq_esp": 105,
+			"def_esp": 95,
+			"vel": 95
+		},
+		"descricao": "Usa os chifres em sua cabeça para sentir as emoções dos outros. Os machos agirão como valetes para aqueles a quem servem, cuidando de todas as suas necessidades.",
+		"categoria": "Pokémon Emoção",
+		"obtencao": "Bosque Glimwood; Lake of Outrage; e Ballimere Lake",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/f3/876Indeedee_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Indeedee_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Indeedee Fêmea",
+		"numero": 876.2,
+		"tipo": ["Psíquico", " Normal"],
+		"massa": 28.0,
+		"altura": 0.9,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 55,
+			"def": 65,
+			"atq_esp": 95,
+			"def_esp": 105,
+			"vel": 85
+		},
+		"descricao": "Servem diligentemente pessoas e Pokémon para que possam reunis sentimentos de gratidão. As fêmeas são particulamente boas em cuidar de crianças.",
+		"categoria": "Pokémon Emoção",
+		"obtencao": "Bosque Glimwood; Lake of Outrage; e Ballimere Lake",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/7/7c/876Indeedee_Female_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Indeedee_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Morpeko (Forma Saciada)",
+		"numero": 877.1,
+		"tipo": ["Elétrico", " Noturno"],
+		"massa": 3.0,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 58,
+			"atq": 95,
+			"def": 58,
+			"atq_esp": 70,
+			"def_esp": 58,
+			"vel": 97
+		},
+		"descricao": "Ao comer as sementes armazenadas em suas bolsas semelhantes a bolsos, este Pokémon não está apenas satisfazendo sua fome constante. Também está gerando eletricidadade.",
+		"categoria": "Pokémon Bilateral",
+		"obtencao": "Rotas 7, e 9; Lake of Outrage; Challenge Beach; e Ballimere Lake",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/a0/877Morpeko_Full_Belly_Mode_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Morpeko_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Morpeko (Forma Voraz)",
+		"numero": 877.2,
+		"tipo": ["Elétrico", " Noturno"],
+		"massa": 3.0,
+		"altura": 0.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 58,
+			"atq": 95,
+			"def": 58,
+			"atq_esp": 70,
+			"def_esp": 58,
+			"vel": 97
+		},
+		"descricao": "A fome intensa o leva a extremos de violência, e a eletricidade em suas bochechas se converteu em energia do tipo Noturno.",
+		"categoria": "Pokémon Bilateral",
+		"obtencao": "Rotas 7, e 9; Lake of Outrage; Challenge Beach; e Ballimere Lake",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/d5/877Morpeko_Hangry_Mode_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Morpeko_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Cufant",
+		"numero": 878,
+		"tipo": ["Metal"],
+		"massa": 100.0,
+		"altura": 1.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 72,
+			"atq": 80,
+			"def": 49,
+			"atq_esp": 40,
+			"def_esp": 49,
+			"vel": 40
+		},
+		"descricao": "Escava o chão com sua tromba. Também é muito forte, sendo capaz de carregar cargas de mais de cinco toneladas sem problema algum.",
+		"categoria": "Pokémon Cobrederme",
+		"obtencao": "Bridge Field; e Giant's Foot",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/80/878Cufant_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Cufant_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Copperajah",
+		"numero": 879,
+		"tipo": ["Metal"],
+		"massa": 650.0,
+		"altura": 3.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 122,
+			"atq": 130,
+			"def": 69,
+			"atq_esp": 80,
+			"def_esp": 69,
+			"vel": 30
+		},
+		"descricao": "Vieram de outra região ha muito tempo e trabalharam junto com humanos. Sua pele escerdeada é resistente a água.",
+		"categoria": "Pokémon Cobrederme",
+		"obtencao": "Lake of Outrage; Hammerlocke Hills; Giant's Foot; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/8b/879Copperajah_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Copperajah_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Dracozolt",
+		"numero": 880,
+		"tipo": ["Elétrico", " Dragão"],
+		"massa": 190.0,
+		"altura": 1.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 90,
+			"atq": 100,
+			"def": 90,
+			"atq_esp": 80,
+			"def_esp": 70,
+			"vel": 75
+		},
+		"descricao": "Em tempos antigos, era imbatível graças à sua poderosa parte inferior do corpo, mas mesmo assim foi extinto depois de esgotar todas as suas fontes de alimento de origem vegetal.",
+		"categoria": "Pokémon Fóssil",
+		"obtencao": "Revivido a partir de um fóssil",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/a8/880Dracozolt_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Dracozolt_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Arctozolt",
+		"numero": 881,
+		"tipo": ["Elétrico", " Gelo"],
+		"massa": 150.0,
+		"altura": 2.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 90,
+			"atq": 100,
+			"def": 90,
+			"atq_esp": 90,
+			"def_esp": 80,
+			"vel": 55
+		},
+		"descricao": "O tremor de sua metade superior congelada é o que gera sua eletricidade. Tem dificuldade para andar por aí.",
+		"categoria": "Pokémon Fóssil",
+		"obtencao": "Revivido a partir de um fóssil",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/b3/881Arctozolt_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Arctozolt_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Dracovish",
+		"numero": 882,
+		"tipo": ["Água", " Dragão"],
+		"massa": 215.0,
+		"altura": 2.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 90,
+			"atq": 90,
+			"def": 100,
+			"atq_esp": 70,
+			"def_esp": 80,
+			"vel": 75
+		},
+		"descricao": "Pernas e mandíbulas poderosas fizeram este Pokémon o predador de ponta de seu tempo. Sua própria caça excessiva de suas presas foi o que o levou à extinção.",
+		"categoria": "Pokémon Fóssil",
+		"obtencao": "Revivido a partir de um fóssil",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/82/882Dracovish_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Dracovish_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Arctovish",
+		"numero": 883,
+		"tipo": ["Água", " Gelo"],
+		"massa": 175.0,
+		"altura": 2.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 90,
+			"atq": 90,
+			"def": 100,
+			"atq_esp": 80,
+			"def_esp": 90,
+			"vel": 55
+		},
+		"descricao": "Apesar de ser capaz de capturar presas congelando o ambiente ao redor, tem dificuldade de comê-las porque sua boca fica no topo da cabeça.",
+		"categoria": "Pokémon Fóssil",
+		"obtencao": "Revivido a partir de um fóssil",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/58/883Arctovish_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Arctovish_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Duraludon",
+		"numero": 884,
+		"tipo": ["Metal", " Dragão"],
+		"massa": 40.0,
+		"altura": 1.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 95,
+			"def": 115,
+			"atq_esp": 120,
+			"def_esp": 50,
+			"vel": 85
+		},
+		"descricao": "O metal especial que compõe seu corpo é muito leve, por isso este Pokémon possui agilidade considerável. Vive em cavernas por não gosta de chuva.",
+		"categoria": "Pokémon Liga Metálica",
+		"obtencao": "Rota 10; Giant's Seat; e Lake of Outrage",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/fe/884Duraludon_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Duraludon_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Dreepy",
+		"numero": 885,
+		"tipo": ["Dragão", " Fantasma"],
+		"massa": 2.0,
+		"altura": 0.5,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 28,
+			"atq": 60,
+			"def": 30,
+			"atq_esp": 40,
+			"def_esp": 30,
+			"vel": 82
+		},
+		"descricao": "Após renascer como um Pokémon fantasma, vaga pelas áreas que costumava habitar quando estava vivo nos mares pré-históricos.",
+		"categoria": "Pokémon Perdurante",
+		"obtencao": "Lake of Outrage",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/bf/885Dreepy_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Dreepy_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Drakloak",
+		"numero": 886,
+		"tipo": ["Dragão", " Fantasma"],
+		"massa": 11.0,
+		"altura": 1.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 68,
+			"atq": 80,
+			"def": 50,
+			"atq_esp": 60,
+			"def_esp": 50,
+			"vel": 102
+		},
+		"descricao": "É capaz de voar mais rápido que 200 km/h. Batalha ao lado de Dreepy e os mima até que eles evoluam com sucesso.",
+		"categoria": "Pokémon Cuidador",
+		"obtencao": "Lake of Outrage; Cemitério Antigo; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/34/886Drakloak_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Drakloak_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Dragapult",
+		"numero": 887,
+		"tipo": ["Dragão", " Fantasma"],
+		"massa": 50.0,
+		"altura": 3.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 88,
+			"atq": 120,
+			"def": 75,
+			"atq_esp": 100,
+			"def_esp": 75,
+			"vel": 142
+		},
+		"descricao": "Aparentemente, o Pokémon dentro dos chifres deste Pokémon espera ansiosamente para ser lançado em velocidades Mach.",
+		"categoria": "Pokémon Furtivo",
+		"obtencao": "Cemitério Antigo; Three-Point Pass; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/8e/887Dragapult_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Dragapult_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Zacian (Herói Veterano)",
+		"numero": 888.1,
+		"tipo": ["Fada"],
+		"massa": 110.0,
+		"altura": 2.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 92,
+			"atq": 120,
+			"def": 115,
+			"atq_esp": 80,
+			"def_esp": 115,
+			"vel": 138
+		},
+		"descricao": "Conhecido como um lendário herói, este Pokémon absorve partículas de metal, transformando-as em uma arma que usa para batalhar.",
+		"categoria": "Pokémon Guerreiro",
+		"obtencao": "Tower Summit",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/16/888Zacian_Hero_of_Many_Battles_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Zacian (Espada Coroada)",
+		"numero": 888.2,
+		"tipo": ["Fada", " Metal"],
+		"massa": 355.0,
+		"altura": 2.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 92,
+			"atq": 150,
+			"def": 115,
+			"atq_esp": 80,
+			"def_esp": 115,
+			"vel": 148
+		},
+		"descricao": "Agora armado com uma arma que usava em tempos antigos, este Pokémon precisa de um único golpe para derrubar até mesmo Pokémon Gigantamax.",
+		"categoria": "Pokémon Guerreiro",
+		"obtencao": "Tower Summit e segurando o item Espada Enferrujada",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/24/888Zacian_Crowned_Sword_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Zamazenta (Herói Veterano)",
+		"numero": 889.1,
+		"tipo": ["Lutador"],
+		"massa": 210.0,
+		"altura": 2.9,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 92,
+			"atq": 120,
+			"def": 115,
+			"atq_esp": 80,
+			"def_esp": 115,
+			"vel": 138
+		},
+		"descricao": "Este Pokémon dormiu por eras enquanto estava na forma de uma estátua. Dormiu por tanto tempo que as pessoas esqueceram que existiu.",
+		"categoria": "Pokémon Guerreiro",
+		"obtencao": "Tower Summit",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/c/c8/889Zamazenta_Hero_of_Many_Battles_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Zamazenta_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Zamazenta (Escudo Coroado)",
+		"numero": 889.2,
+		"tipo": ["Lutador", " Metal"],
+		"massa": 785.0,
+		"altura": 2.9,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 92,
+			"atq": 120,
+			"def": 140,
+			"atq_esp": 80,
+			"def_esp": 140,
+			"vel": 128
+		},
+		"descricao": "Agora que está equipado com seu escudo, consegue resistir a golpes impressionantes, incluindo os ataques de Pokémon Dynamax.",
+		"categoria": "Pokémon Guerreiro",
+		"obtencao": "Tower Summit e segurando o item Escudo Enferrujado",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/4/45/889Zamazenta_Crowned_Shield_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Zamazenta_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Eternatus",
+		"numero": 890,
+		"tipo": ["Veneno", " Dragão"],
+		"massa": 950.0,
+		"altura": 20.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 140,
+			"atq": 85,
+			"def": 95,
+			"atq_esp": 145,
+			"def_esp": 95,
+			"vel": 130
+		},
+		"descricao": "Estava dentro de um meteorito que caiu há 20'000 anos. Parece haver uma conexão entre este Pokémon e o fenômeno Dynamax.",
+		"categoria": "Pokémon Gigantesco",
+		"obtencao": "Tower Summit",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1c/890Eternatus_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Eternatus_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Kubfu",
+		"numero": 891,
+		"tipo": ["Lutador"],
+		"massa": 12.0,
+		"altura": 0.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 60,
+			"atq": 90,
+			"def": 60,
+			"atq_esp": 53,
+			"def_esp": 50,
+			"vel": 72
+		},
+		"descricao": "Este Pokémon treina duro para aperfeiçoar seus movimentos. Os movimentos que domina determinarão qual forma tomará quando evoluir.",
+		"categoria": "Pokémon Wushu",
+		"obtencao": "Recebido em Master Dojo",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/f5/891Kubfu_Dream_2.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Kubfu_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Urshifu (Estilo Golpe Decisivo)",
+		"numero": 892.1,
+		"tipo": ["Lutador", " Noturno"],
+		"massa": 105.0,
+		"altura": 1.9,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 130,
+			"def": 100,
+			"atq_esp": 63,
+			"def_esp": 60,
+			"vel": 97
+		},
+		"descricao": "Esta forma deste Pokémon acredita fortemente no nocaute de um golpe. Sua estratégia é salta para perto dos inimigos e desferir um golpe devastador com um punho endurecido.",
+		"categoria": "Pokémon Wushu",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/0/0d/892Urshifu_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Urshifu_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Urshifu (Estilo Golpe Fluido)",
+		"numero": 892.2,
+		"tipo": ["Lutador", " Água"],
+		"massa": 105.0,
+		"altura": 1.9,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 130,
+			"def": 100,
+			"atq_esp": 63,
+			"def_esp": 60,
+			"vel": 97
+		},
+		"descricao": "Esta forma deste Pokémon acredita fortemente em derrotar inimigos desferindo muitos golpes sobre eles. Seus golpes são ininterruptos, fluidos como um rio.",
+		"categoria": "Pokémon Wushu",
+		"obtencao": "Por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/4/4c/892Urshifu_Rapid_Strike_Style_WF.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Urshifu_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Zarude",
+		"numero": 893,
+		"tipo": ["Noturno", " Planta"],
+		"massa": 70.0,
+		"altura": 1.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 105,
+			"atq": 120,
+			"def": 105,
+			"atq_esp": 70,
+			"def_esp": 95,
+			"vel": 105
+		},
+		"descricao": "Dentro de florestas densas, este Pokémon vive em grupos com outros de sua espécie. É incrivelmente agressivo, e os outros Pokémon da floresta o teme.",
+		"categoria": "Pokémon Macaco Malandro",
+		"obtencao": "Por evento",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/df/893Zarude_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Zarude_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Regieleki",
+		"numero": 894,
+		"tipo": ["Elétrico"],
+		"massa": 145.0,
+		"altura": 1.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 80,
+			"atq": 100,
+			"def": 50,
+			"atq_esp": 100,
+			"def_esp": 50,
+			"vel": 200
+		},
+		"descricao": "Seu corpo inteiro é feito de um único órgão que gera energia elétrica. Este Pokémon é capaz de criar toda a eletricidade da região.",
+		"categoria": "Pokémon Elétron",
+		"obtencao": "Ruínas das Escolhas",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1a/894Regieleki_Dream_2.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Regieleki_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Regidrago",
+		"numero": 895,
+		"tipo": ["Dragão"],
+		"massa": 200.0,
+		"altura": 2.1,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 200,
+			"atq": 100,
+			"def": 50,
+			"atq_esp": 100,
+			"def_esp": 50,
+			"vel": 80
+		},
+		"descricao": "Seu corpo é composto de energia de dragão cristalizada. Dizem que este Pokémon tem os poderes de todos os Pokémon dragão.",
+		"categoria": "Pokémon Esfera de Dragão",
+		"obtencao": "Ruínas das Escolhas",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/4/42/895Regidrago_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Regidrago_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Glastrier",
+		"numero": 896,
+		"tipo": ["Gelo"],
+		"massa": 800.0,
+		"altura": 2.2,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 145,
+			"def": 130,
+			"atq_esp": 65,
+			"def_esp": 110,
+			"vel": 30
+		},
+		"descricao": "Emite frio intenso de seus cascos. Também é um Pokémon beligerante, pega à força tudo o que quer.",
+		"categoria": "Pokémon Cavalo Selvagem",
+		"obtencao": "Crown Shrine",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/6/63/896Glastrier_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Glastrier_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Spectrier",
+		"numero": 897,
+		"tipo": ["Fantasma"],
+		"massa": 44.5,
+		"altura": 2.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 65,
+			"def": 60,
+			"atq_esp": 145,
+			"def_esp": 80,
+			"vel": 130
+		},
+		"descricao": "Enquanto corre pela noite, este Pokémon absorve a força vital de criaturas adormecidas. Anseia por silêncio e solidão.",
+		"categoria": "Pokémon Cavalo Ligeiro",
+		"obtencao": "Crown Shrine",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/9/9e/897Spectrier_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Spectrier_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Calyrex",
+		"numero": 898.1,
+		"tipo": ["Psíquico", " Planta"],
+		"massa": 7.7,
+		"altura": 1.1,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 80,
+			"def": 80,
+			"atq_esp": 80,
+			"def_esp": 80,
+			"vel": 80
+		},
+		"descricao": "Este Pokémon conhecido nas lendas como um rei que reinou a região em tempos antigos. Possui o poder de fazer com que corações se curem e plantas brotem.",
+		"categoria": "Pokémon Rei",
+		"obtencao": "Crown Shrine",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/2/27/898Calyrex_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Calyrex (Cavaleiro Glacial)",
+		"numero": 898.2,
+		"tipo": ["Psíquico", " Gelo"],
+		"massa": 809.1,
+		"altura": 2.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 165,
+			"def": 150,
+			"atq_esp": 85,
+			"def_esp": 130,
+			"vel": 50
+		},
+		"descricao": "Dizem que este Pokémon uma vez moveu uma grande floresta, e todos os Pokémon vivendo lá, para um novo local da noite para o dia.",
+		"categoria": "Pokémon Rei Supremo",
+		"obtencao": "Crown Shrine",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/1/1c/898Calyrex_Dream_-_Glastrier.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Calyrex (Cavaleiro Espectral)",
+		"numero": 898.3,
+		"tipo": ["Psíquico", " Fantasma"],
+		"massa": 53.6,
+		"altura": 2.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 100,
+			"atq": 85,
+			"def": 80,
+			"atq_esp": 165,
+			"def_esp": 100,
+			"vel": 150
+		},
+		"descricao": "Lendas contam que ao usar seu poder para ver todos os eventos do passado e do futuro, este Pokémon salvou as criaturas de uma floresta da queda de um meteorito.",
+		"categoria": "Pokémon Rei Supremo",
+		"obtencao": "Crown Shrine",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/ab/898Calyrex_Dream_-_Spectrier.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Wyrdeer",
+		"numero": 899,
+		"tipo": ["Normal", " Psíquico"],
+		"massa": 95.1,
+		"altura": 1.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 103,
+			"atq": 105,
+			"def": 72,
+			"atq_esp": 105,
+			"def_esp": 75,
+			"vel": 65
+		},
+		"descricao": "Os orbes negros brilham com uma luz misteriosa quando o Pokémon está erguendo barreias invisíveis. O pelo que cai de sua barba retém bem o calor e é um material altamente útil pra roupas de inverno.",
+		"categoria": "Pokémon Chifrudo",
+		"obtencao": "Obsidian Fieldlands; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/d/d3/899Wyrdeer_Dream_2.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Wyrdeer_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Kleavor",
+		"numero": 900,
+		"tipo": ["Inseto", " Rocha"],
+		"massa": 89.0,
+		"altura": 1.8,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 70,
+			"atq": 135,
+			"def": 95,
+			"atq_esp": 45,
+			"def_esp": 70,
+			"vel": 85
+		},
+		"descricao": "Uma criatura violenta que derruba árvores altas com seus machados brutos e se protege com pedras duras. Caso alguém encontre esse Pokémon na natureza, seu único recurso é fugir.",
+		"categoria": "Pokémon Machado",
+		"obtencao": "Obsidian Fieldlands; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/85/900Kleavor_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Kleavor_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Ursaluna",
+		"numero": 901.1,
+		"tipo": ["Terra", " Normal"],
+		"massa": 290.0,
+		"altura": 2.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 130,
+			"atq": 140,
+			"def": 105,
+			"atq_esp": 45,
+			"def_esp": 80,
+			"vel": 50
+		},
+		"descricao": "Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.",
+		"categoria": "Pokémon Turfa",
+		"obtencao": "Crimson Mirelands; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/a0/901Ursaluna_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Ursaluna (Lua Sangrenta)",
+		"numero": 901.2,
+		"tipo": ["Terra", " Normal"],
+		"massa": 333.0,
+		"altura": 2.7,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 113,
+			"atq": 70,
+			"def": 120,
+			"atq_esp": 135,
+			"def_esp": 65,
+			"vel": 52
+		},
+		"descricao": "Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.",
+		"categoria": "Pokémon Turfa",
+		"obtencao": "Crimson Mirelands; e por evolução",
+		"estagio": 3,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/b8/901Ursaluna_Bloodmoon_Dream_2.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Basculegion Macho",
+		"numero": 902.1,
+		"tipo": ["Água", " Fantasma"],
+		"massa": 110.0,
+		"altura": 3.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 120,
+			"atq": 112,
+			"def": 65,
+			"atq_esp": 80,
+			"def_esp": 75,
+			"vel": 78
+		},
+		"descricao": "Veste-se com as almas de camaradas que pereceram antes de cumprir seus objetivos de jornada rio acima. Nenhuma outra espécie em todos os rios da região é igual a este Pokémon.",
+		"categoria": "Pokémon Peixe Grande",
+		"obtencao": "Cobalt Coastlands; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/5/5a/902Basculegion_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Basculegion_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Basculegion Fêmea",
+		"numero": 902.2,
+		"tipo": ["Água", " Fantasma"],
+		"massa": 110.0,
+		"altura": 3.0,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 120,
+			"atq": 92,
+			"def": 65,
+			"atq_esp": 100,
+			"def_esp": 75,
+			"vel": 78
+		},
+		"descricao": "Veste-se com as almas de camaradas que pereceram antes de cumprir seus objetivos de jornada rio acima. Nenhuma outra espécie em todos os rios da região é igual a este Pokémon.",
+		"categoria": "Pokémon Peixe Grande",
+		"obtencao": "Cobalt Coastlands; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/f/fe/902Basculegion_-_Female_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Basculegion_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Sneasler",
+		"numero": 903,
+		"tipo": ["Lutador", " Veneno"],
+		"massa": 43.0,
+		"altura": 1.3,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 80,
+			"atq": 130,
+			"def": 60,
+			"atq_esp": 40,
+			"def_esp": 80,
+			"vel": 120
+		},
+		"descricao": "Por causa de seu veneno virulento e de sua assustadora destreza física, nenhuma outra espécie poderia esperar superá-lo nas terras altas congeladas. Preferindo a solidão, esta espécia não forma matilhas.",
+		"categoria": "Pokémon Escalada",
+		"obtencao": "Coronet Highlands; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/a/a3/0903Sneasler.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Sneasler_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Overqwil",
+		"numero": 904,
+		"tipo": ["Noturno", " Veneno"],
+		"massa": 60.5,
+		"altura": 2.5,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 85,
+			"atq": 115,
+			"def": 95,
+			"atq_esp": 65,
+			"def_esp": 65,
+			"vel": 85
+		},
+		"descricao": "Seus espinhos lanceolados a lança e tempermento selvagem lhe renderam o apelido 'demônio do mar'. Sorve veneno para se nutrir.",
+		"categoria": "Pokémon Espinhoso",
+		"obtencao": "Crimson Mirelands; Cobalt Coastlands; e por evolução",
+		"estagio": 2,
+		"geracao": 8,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/0/02/0904Overqwil.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Enamorus (Forma Materializada)",
+		"numero": 905.1,
+		"tipo": ["Fada", " Voador"],
+		"massa": 48.0,
+		"altura": 1.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 74,
+			"atq": 115,
+			"def": 70,
+			"atq_esp": 135,
+			"def_esp": 80,
+			"vel": 106
+		},
+		"descricao": "Quando voa para esta terra do outro lado do mar, o inverno amargo chega ao fim. De acordo com a lenda, o amor deste Pokémon dá origem ao surgimento de uma vida nesta região.",
+		"categoria": "Pokémon Amor e Ódio",
+		"obtencao": "Crimson Mirelands",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/3/38/905Enamorus_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Enamorus (Forma Therian)",
+		"numero": 905.2,
+		"tipo": ["Fada", " Voador"],
+		"massa": 48.0,
+		"altura": 1.6,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 74,
+			"atq": 115,
+			"def": 110,
+			"atq_esp": 135,
+			"def_esp": 100,
+			"vel": 46
+		},
+		"descricao": "Uma aparência diferente de sua forma humanoide feminina. Das nuvens, desce sobre aqueles que tratam qualquer forma de vida com desrespeito e distribui punição irada e implacável.",
+		"categoria": "Pokémon Amor e Ódio",
+		"obtencao": "Crimson Mirelands e usar o item Espelho Revelador",
+		"estagio": 1,
+		"geracao": 8,
+		"variante": true,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/80/905Enamorus_-_Therian_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon)"
+	},
+	{
+		"nome": "Sprigatito",
+		"numero": 906,
+		"tipo": ["Planta"],
+		"massa": 4.1,
+		"altura": 0.4,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 40,
+			"atq": 61,
+			"def": 54,
+			"atq_esp": 45,
+			"def_esp": 45,
+			"vel": 65
+		},
+		"descricao": "Seu pelo fofo é semelhante em composição às plantas. Este Pokémon frequentemente lava seu rosto para evitar que resseque.",
+		"categoria": "Pokémon Gato-do-mato",
+		"obtencao": "Cabo Poco",
+		"estagio": 1,
+		"geracao": 9,
+		"variante": false,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/8e/906Sprigatito_Dream.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Sprigatito_(Pok%C3%A9mon)"
 	}
 ]
