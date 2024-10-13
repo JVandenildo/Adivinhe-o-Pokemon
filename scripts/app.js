@@ -12,10 +12,10 @@ const checkSegunda = document.querySelector("#checkSegunda");
 const checkTerceira = document.querySelector("#checkTerceira");
 const checkQuarta = document.querySelector("#checkQuarta");
 const checkQuinta = document.querySelector("#checkQuinta");
-// const checkSexta = document.querySelector("#checkSexta");
-// const checkSetima = document.querySelector("#checkSetima");
-// const checkOitava = document.querySelector("#checkOitava");
-// const checkNona = document.querySelector("#checkNona");
+const checkSexta = document.querySelector("#checkSexta");
+const checkSetima = document.querySelector("#checkSetima");
+const checkOitava = document.querySelector("#checkOitava");
+const checkNona = document.querySelector("#checkNona");
 
 let escolhido = {
 	nome: "MissingNo.",
@@ -58,27 +58,33 @@ function desistir() {
 	btnPalpite.style.cursor = "not-allowed";
 
 	if (palpites === 1) {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era ${
-			escolhido[0].nome
-		}!<br><a href="${
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite!<br />
+		Era ${escolhido[0].nome}!<br><a href="${
 			escolhido[0].link
 		}" target="_blank">Mais informações sobre ${
 			escolhido[0].nome
-		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+		}</a>.</p><a href="${
+			escolhido[0].link
+		}" target="_blank"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+		}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+			escolhido[0].nome
+		}" /></a>`;
 
 		return false;
 	} else {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites! Era ${
-			escolhido[0].nome
-		}!<br><a href="${
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites!<br />
+		Era ${escolhido[0].nome}!<br><a href="${
 			escolhido[0].link
 		}" target="_blank">Mais informações sobre ${
 			escolhido[0].nome
-		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+		}</a>.</p><a href="${
+			escolhido[0].link
+		}" target="_blank"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+		}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+			escolhido[0].nome
+		}" /></a>`;
 
 		return false;
 	}
@@ -95,11 +101,11 @@ function novaTentativa() {
 		!checkSegunda.checked &&
 		!checkTerceira.checked &&
 		!checkQuarta.checked &&
-		!checkQuinta.checked
-		// && checkSexta.checked
-		// && checkSetima.checked
-		// && checkOitava.checked
-		// && checkNona.checked
+		!checkQuinta.checked &&
+		!checkSexta.checked &&
+		!checkSetima.checked &&
+		!checkOitava.checked &&
+		!checkNona.checked
 	) {
 		return alert("Escolha alguma geração antes!");
 	} else {
@@ -116,7 +122,11 @@ function novaTentativa() {
 					checkSegunda.checked * segundaGeracao.length +
 					checkTerceira.checked * terceiraGeracao.length +
 					checkQuarta.checked * quartaGeracao.length +
-					checkQuinta.checked * quintaGeracao.length)
+					checkQuinta.checked * quintaGeracao.length +
+					checkSexta.checked * sextaGeracao.length +
+					checkSetima.checked * setimaGeracao.length +
+					checkOitava.checked * oitavaGeracao.length +
+					checkNona.checked * nonaGeracao.length)
 		);
 		escolhido = pkmnDisponiveis.filter(
 			(x) => x.numero === selecaoGeracao(ticket)
@@ -164,18 +174,18 @@ function selecaoGeracao(numero) {
 	if (checkQuinta.checked) {
 		numerosQuinta.forEach((x) => numerosDisponiveis.push(x));
 	}
-	// if (checkSexta.checked) {
-	// 	numerosSexta.forEach((x) => numerosDisponiveis.push(x));
-	// }
-	// if (checkSetima.checked) {
-	// 	numerosSetima.forEach((x) => numerosDisponiveis.push(x));
-	// }
-	// if (checkOitava.checked) {
-	// 	numerosOitava.forEach((x) => numerosDisponiveis.push(x));
-	// }
-	// if (checkNona.checked) {
-	// 	numerosNona.forEach((x) => numerosDisponiveis.push(x));
-	// }
+	if (checkSexta.checked) {
+		numerosSexta.forEach((x) => numerosDisponiveis.push(x));
+	}
+	if (checkSetima.checked) {
+		numerosSetima.forEach((x) => numerosDisponiveis.push(x));
+	}
+	if (checkOitava.checked) {
+		numerosOitava.forEach((x) => numerosDisponiveis.push(x));
+	}
+	if (checkNona.checked) {
+		numerosNona.forEach((x) => numerosDisponiveis.push(x));
+	}
 
 	return numerosDisponiveis[numero];
 }
@@ -191,16 +201,16 @@ function palpitar() {
 
 	const listaDiscas = [
 		/* primeira dica */
-		`<tr><th scope="col">Pegada</th></tr>
-		<tr><td class="pegada"><img src="${escolhido[0].pegada}" alt="Dica pegada" /></td></tr>`,
+		`<tr><th scope="col" colspan="1">Pegada</th></tr>
+		<tr><td><div class="pegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Dica pegada" /></div></td></tr>`,
 		/* segunda dica */
-		`<tr><th scope="col">Tipo(s)</th></tr>
+		`<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
 		<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>`,
 		/* terceira dica */
-		`<tr><th scope="col">Obtenção</th></tr>
+		`<tr><th scope="col" colspan="1">Obtenção</th></tr>
 		<tr><td>${escolhido[0].obtencao}</td></tr>`,
 		/* quarta diga */
-		`<tr><th scope="col" colspan="2">Estatísticas</th></tr>
+		`<tr><th scope="col" colspan="2">Estatísticas Base</th></tr>
 
 		<tr><th scope="row" style="text-align:left !important">PS</th>
 		<td>${escolhido[0].estatistica.ps}</td></tr>
@@ -220,19 +230,19 @@ function palpitar() {
 		<tr><th scope="row" style="text-align:left !important">Velocidade</th>
 		<td>${escolhido[0].estatistica.vel}</td></tr>`,
 		/* quinta dica */
-		`<tr><th scope="col">Descrição</th></tr>
+		`<tr><th scope="col" colspan="1">Descrição</th></tr>
 			<tr><td>${escolhido[0].descricao}</td></tr>`,
 		/* sexta dica */
-		`<tr><th scope="col">Categoria</th></tr>
+		`<tr><th scope="col" colspan="1">Categoria</th></tr>
 		<tr><td>${escolhido[0].categoria}</td></tr>`,
 		/* sétima dica */
-		`<tr><th scope="col">Número</th></tr>
+		`<tr><th scope="col" colspan="1">Número</th></tr>
 		<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>`,
 		/* oitava e última dica */
-		`<tr><th scope="col">Silhueta</th></tr>
-		<tr><td><img src="${
+		`<tr><th scope="col" colspan="1">Silhueta</th></tr>
+		<tr><td class="silhueta"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" alt="Dica silhueta" /></td></tr>`,
+		}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -258,9 +268,13 @@ function palpitar() {
 					escolhido[0].link
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
-				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+				}</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+					escolhido[0].nome
+				}" /></a>`;
 
 				return true;
 			} else {
@@ -268,9 +282,13 @@ function palpitar() {
 					escolhido[0].link
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
-				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+				}</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+					escolhido[0].nome
+				}" /></a>`;
 
 				return true;
 			}
@@ -286,15 +304,18 @@ function palpitar() {
 				btnPalpite.removeEventListener("click", palpitar);
 				btnPalpite.style.cursor = "not-allowed";
 
-				ultimato.innerHTML = `<p>Você errou! Era ${
-					escolhido[0].nome
-				}!<br><a href="${
+				ultimato.innerHTML = `<p>Você errou!<br />
+				Era ${escolhido[0].nome}!<br><a href="${
 					escolhido[0].link
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
-				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+				}</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+					escolhido[0].nome
+				}" /></a>`;
 
 				return false;
 			} else {
