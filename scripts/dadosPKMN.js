@@ -31999,7 +31999,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c1/1012Poltchageist_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/8/80/1012Poltchageist-Masterpiece_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/d/d3/1012Poltchageist-Unremarkable_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poltchageist_(Pok%C3%A9mon)",
 	},
@@ -32027,7 +32028,8 @@ const pkmnDisponiveis = [
 		variante: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8e/1013Sinistcha_Dream2.png",
+			"https://archives.bulbagarden.net/media/upload/1/1e/1013Sinistcha-Masterpiece_Dream.png",
+			"https://archives.bulbagarden.net/media/upload/6/6a/1013Sinistcha-Unremarkable_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sinistcha_(Pok%C3%A9mon)",
 	},
