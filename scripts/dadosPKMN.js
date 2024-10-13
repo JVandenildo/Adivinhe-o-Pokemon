@@ -26878,7 +26878,7 @@ const pkmnDisponiveis = [
 			vel: 75,
 		},
 		descricao:
-			"Capaz de gerar 15'000 volts de eletricidade, este Pokémon olha com desprezo para todos que o desafiariam.", // considerando a dex da primeira geração que apareceu
+			"Possui um órgão elétrico no peito. Enquanto gera eletricidade, preenche seus arredores com o que soa como o dedilha de um baixo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Punk",
 		obtencao: "Por evolução",
 		estagio: 2,
@@ -27487,8 +27487,8 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Milcery_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Alcremie (Creme de Baunilha)",
-		numero: 869.1, // considerando a national dex
+		nome: "Alcremie",
+		numero: 869, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 0.5, // em kg
 		altura: 0.3, // em metros
@@ -27507,233 +27507,17 @@ const pkmnDisponiveis = [
 		obtencao: "Por evolução",
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/869Alcremie_Dream_-_Vanilla_Cream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Creme Rubi)",
-		numero: 869.2, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor doce e ácido.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/869Alcremie_Dream_-_Ruby_Cream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Creme de Chá Verde)",
-		numero: 869.3, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor aromático.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cd/869Alcremie_Dream_-_Matcha_Cream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Creme de Menta)",
-		numero: 869.4, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor refrescante.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0f/869Alcremie_Dream_-_Mint_Cream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Creme de Lima)",
-		numero: 869.5, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor ácido.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c6/869Alcremie_Dream_-_Lemon_Cream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Creme Salgado)",
-		numero: 869.6, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor salgado.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a3/869Alcremie_Dream_-_Salted_Cream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Mistura Rubi)",
-		numero: 869.7, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor misto.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0e/869Alcremie_Dream_-_Ruby_Swirl.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Mistura de Caramelo)",
-		numero: 869.8, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor amargo.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/30/869Alcremie_Dream_-_Caramel_Swirl.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Alcremie (Mistura Tricolor)",
-		numero: 869.9, // considerando a national dex
-		tipo: ["Fada"],
-		massa: 0.5, // em kg
-		altura: 0.3, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
-		},
-		descricao:
-			"As células que compõem seu creme flutuaram repentinamente, dado ao creme um sabor complexo.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/82/869Alcremie_Dream_-_Rainbow_Swirl.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
