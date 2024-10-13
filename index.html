@@ -19,10 +19,24 @@
 				<div>
 					<input
 						type="checkbox"
+						id="checkTodas"
+						class="checkbox"
+						value="todasGeracoes"
+						name="geracao"
+						title="Atalho para todas gerações"
+						onclick="geracoesSelecionadas()"
+					/><label for="checkTodas" title="Atalho para todas gerações"
+						>Todas Gerações</label
+					>
+				</div>
+				<div>
+					<input
+						type="checkbox"
 						id="checkPrimeira"
 						class="checkbox"
 						value="primeiraGeracao"
 						name="geracao"
+						title="Geração da região de Kanto"
 					/><label for="checkPrimeira" title="Geração da região de Kanto"
 						>Primeira Geração</label
 					>
@@ -32,6 +46,7 @@
 						class="checkbox"
 						value="segundaGeracao"
 						name="geracao"
+						title="Geração da região de Johto"
 					/><label for="checkSegunda" title="Geração da região de Johto"
 						>Segunda Geração</label
 					>
@@ -41,6 +56,7 @@
 						class="checkbox"
 						value="terceiraGeracao"
 						name="geracao"
+						title="Geração da região de Hoenn"
 					/><label for="checkTerceira" title="Geração da região de Hoenn"
 						>Terceira Geração</label
 					>
@@ -52,6 +68,7 @@
 						class="checkbox"
 						value="quartaGeracao"
 						name="geracao"
+						title="Geração da região de Sinnoh"
 					/><label for="checkQuarta" title="Geração da região de Sinnoh"
 						>Quarta Geração</label
 					>
@@ -61,6 +78,7 @@
 						class="checkbox"
 						value="quintaGeracao"
 						name="geracao"
+						title="Geração da região de Unova"
 					/><label for="checkQuinta" title="Geração da região de Unova"
 						>Quinta Geração</label
 					>
@@ -70,6 +88,7 @@
 						class="checkbox"
 						value="sextaGeracao"
 						name="geracao"
+						title="Geração da região de Kalos"
 					/><label for="checkSexta" title="Geração da região de Kalos"
 						>Sexta Geração</label
 					>
@@ -81,6 +100,7 @@
 						class="checkbox"
 						value="setimaGeracao"
 						name="geracao"
+						title="Geração da região de Alola"
 					/><label for="checkSetima" title="Geração da região de Alola"
 						>Sétima Geração</label
 					>
@@ -90,6 +110,7 @@
 						class="checkbox"
 						value="oitavaGeracao"
 						name="geracao"
+						title="Geração das regiões de Galar e Hisui"
 					/><label
 						for="checkOitava"
 						title="Geração das regiões de Galar e Hisui"
@@ -101,22 +122,11 @@
 						class="checkbox"
 						value="nonaGeracao"
 						name="geracao"
+						title="Geração das regiões de Paldea e Kikatami"
 					/><label
 						for="checkNona"
 						title="Geração das regiões de Paldea e Kikatami"
 						>Nona Geração</label
-					>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						id="checkTodas"
-						class="checkbox"
-						value="todasGeracoes"
-						name="geracao"
-						onclick="geracoesSelecionadas()"
-					/><label for="checkTodas" title="Atalho para todas gerações"
-						>Todas Gerações</label
 					>
 				</div>
 				<article style="font-size: small">

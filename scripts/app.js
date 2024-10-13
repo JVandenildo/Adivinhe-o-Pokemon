@@ -18,6 +18,10 @@ const checkOitava = document.querySelector("#checkOitava");
 const checkNona = document.querySelector("#checkNona");
 const checkTodas = document.querySelector("#checkTodas");
 
+/**
+ * Função que lida com a escolha de todas gerações de uma vez.
+ * @returns boolean apenas para retornar algo.
+ */
 function geracoesSelecionadas() {
 	if (checkTodas.checked) {
 		checkPrimeira.checked = true;
