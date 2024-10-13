@@ -107,6 +107,18 @@
 						>Nona Geração</label
 					>
 				</div>
+				<div>
+					<input
+						type="checkbox"
+						id="checkTodas"
+						class="checkbox"
+						value="todasGeracoes"
+						name="geracao"
+						onchange="geracoesSelecionadas()"
+					/><label for="checkTodas" title="Atalho para todas gerações"
+						>Todas Gerações</label
+					>
+				</div>
 				<article style="font-size: small">
 					Cada geração segue alguns dados dos jogos em que foi lançada; por
 					exemplo: a terceira geração segue alguns dados dos jogos Ruby,
@@ -118,24 +130,21 @@
 				<button id="btnTentativa" onclick="novaTentativa()">
 					NOVA TENTATIVA
 				</button>
-				<form>
-					<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
-					<div class="nomesGeral">
-						<div class="opcoesNomes"></div>
-						<input
-							type="text"
-							translate="no"
-							placeholder="Digite palpite aqui"
-							id="campoPalpite"
-							translate="no"
-							spellcheck="false"
-							oninput="procurarNomes()"
-							required
-						/>
-					</div>
-					<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
-					<input type="submit" id="btnPalpite" value="PALPITAR" />
-				</form>
+				<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
+				<div class="nomesGeral">
+					<div class="opcoesNomes"></div>
+					<input
+						type="text"
+						translate="no"
+						placeholder="Digite palpite aqui"
+						id="campoPalpite"
+						translate="no"
+						spellcheck="false"
+						oninput="procurarNomes()"
+					/>
+				</div>
+				<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
+				<button id="btnPalpite">PALPITAR</button>
 			</section>
 			<section id="maquina">
 				<section id="campoDicas">
