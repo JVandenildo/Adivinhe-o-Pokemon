@@ -18,6 +18,34 @@ const checkOitava = document.querySelector("#checkOitava");
 const checkNona = document.querySelector("#checkNona");
 const checkTodas = document.querySelector("#checkTodas");
 
+function geracoesSelecionadas() {
+	if (checkTodas.checked) {
+		checkPrimeira.checked = true;
+		checkSegunda.checked = true;
+		checkTerceira.checked = true;
+		checkQuarta.checked = true;
+		checkQuinta.checked = true;
+		checkSexta.checked = true;
+		checkSetima.checked = true;
+		checkOitava.checked = true;
+		checkNona.checked = true;
+
+		return true;
+	} else {
+		checkPrimeira.checked = false;
+		checkSegunda.checked = false;
+		checkTerceira.checked = false;
+		checkQuarta.checked = false;
+		checkQuinta.checked = false;
+		checkSexta.checked = false;
+		checkSetima.checked = false;
+		checkOitava.checked = false;
+		checkNona.checked = false;
+
+		return false;
+	}
+}
+
 let escolhido = {
 	nome: "MissingNo.",
 	numero: 0, // considerando a national dex
@@ -397,32 +425,4 @@ function indiceAleatorio(array) {
 	const data = new Date();
 
 	return Math.floor(Math.random(data) * array.length);
-}
-
-function geracoesSelecionadas() {
-	if (checkTodas.checked) {
-		checkPrimeira.checked = true;
-		checkSegunda.checked = true;
-		checkTerceira.checked = true;
-		checkQuarta.checked = true;
-		checkQuinta.checked = true;
-		checkSexta.checked = true;
-		checkSetima.checked = true;
-		checkOitava.checked = true;
-		checkNona.checked = true;
-
-		return true;
-	} else {
-		checkPrimeira.checked = false;
-		checkSegunda.checked = false;
-		checkTerceira.checked = false;
-		checkQuarta.checked = false;
-		checkQuinta.checked = false;
-		checkSexta.checked = false;
-		checkSetima.checked = false;
-		checkOitava.checked = false;
-		checkNona.checked = false;
-
-		return false;
-	}
 }
