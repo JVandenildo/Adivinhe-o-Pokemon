@@ -1,0 +1,8 @@
+# controle de versão
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+# ignorar dados
+**/dadosPKMN.*

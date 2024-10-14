@@ -7,12 +7,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0001.png",
 		estatistica: {
-			ps: 45,
-			atq: 49,
-			def: 49,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	49,
+			def:	 	49,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		45,
 		},
 		descricao:
 			"Uma semente estranha foi plantada nas suas costas em seu nascimento. A planta brota e cresce com esse Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -35,12 +35,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0002.png",
 		estatistica: {
-			ps: 60,
-			atq: 62,
-			def: 63,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	62,
+			def:	 	63,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		60,
 		},
 		descricao:
 			"Quando o bulbo nas suas costas cresce, aparenta perder a capacidade de ficar em pé nas patas traseiras.", // considerando a dex da primeira geração que apareceu
@@ -63,12 +63,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0003.png",
 		estatistica: {
-			ps: 80,
-			atq: 82,
-			def: 83,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	82,
+			def:	 	83,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		80,
 		},
 		descricao:
 			"A planta floresce quando absorve energia solar. Permanece se movimentando em busca de luz solar.", // considerando a dex da primeira geração que apareceu
@@ -91,12 +91,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8c/F0004.png",
 		estatistica: {
-			ps: 39,
-			atq: 52,
-			def: 43,
-			atq_esp: 60,
-			def_esp: 50,
-			vel: 65,
+			ps:		 	39,
+			atq:	 	52,
+			def:	 	43,
+			atq_esp: 	60,
+			def_esp: 	50,
+			vel: 		65,
 		},
 		descricao:
 			"Obviamente prefere lugares quentes. Dizem que quando chove, sai vapor da ponta de sua cauda.", // considerando a dex da primeira geração que apareceu
@@ -119,12 +119,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0005.png",
 		estatistica: {
-			ps: 58,
-			atq: 64,
-			def: 58,
-			atq_esp: 80,
-			def_esp: 65,
-			vel: 80,
+			ps:		 	58,
+			atq:	 	64,
+			def:	 	58,
+			atq_esp: 	80,
+			def_esp: 	65,
+			vel: 		80,
 		},
 		descricao:
 			"Quando balança sua cauda em chamas, a temperatura é elevada a níveis insuportavelmente altos.", // considerando a dex da primeira geração que apareceu
@@ -147,12 +147,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/05/F0006.png",
 		estatistica: {
-			ps: 78,
-			atq: 84,
-			def: 78,
-			atq_esp: 109,
-			def_esp: 85,
-			vel: 100,
+			ps:		 	78,
+			atq:	 	84,
+			def:	 	78,
+			atq_esp: 	109,
+			def_esp: 	85,
+			vel: 		100,
 		},
 		descricao:
 			"Cospe fogo quente o suficiente para derreter rochas. É conhecido por causar incêndio florestal não intencionalmente.", // considerando a dex da primeira geração que apareceu
@@ -175,12 +175,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0007.png",
 		estatistica: {
-			ps: 44,
-			atq: 48,
-			def: 65,
-			atq_esp: 50,
-			def_esp: 64,
-			vel: 43,
+			ps:		 	44,
+			atq:	 	48,
+			def:	 	65,
+			atq_esp: 	50,
+			def_esp: 	64,
+			vel: 		43,
 		},
 		descricao:
 			"Após seu nascimento, suas costas incham e endurecem em uma carapaça. Espalha poderosamente uma espuma de sua boca.", // considerando a dex da primeira geração que apareceu
@@ -203,12 +203,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0008.png",
 		estatistica: {
-			ps: 59,
-			atq: 63,
-			def: 80,
-			atq_esp: 65,
-			def_esp: 80,
-			vel: 58,
+			ps:		 	59,
+			atq:	 	63,
+			def:	 	80,
+			atq_esp: 	65,
+			def_esp: 	80,
+			vel: 		58,
 		},
 		descricao:
 			"Comumente esconde-se na água para perseguir presa desavisada. Para um nado rápido, movimenta suas orelhas para manter estabilidade.", // considerando a dex da primeira geração que apareceu
@@ -231,12 +231,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0009.png",
 		estatistica: {
-			ps: 79,
-			atq: 83,
-			def: 100,
-			atq_esp: 85,
-			def_esp: 105,
-			vel: 78,
+			ps:		 	79,
+			atq:	 	83,
+			def:	 	100,
+			atq_esp: 	85,
+			def_esp: 	105,
+			vel: 		78,
 		},
 		descricao:
 			"Um Pokémon brutal com jatos de água pressurizada em seu casco. São usados em investidas de alta velocidade.", // considerando a dex da primeira geração que apareceu
@@ -259,12 +259,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0010.png",
 		estatistica: {
-			ps: 45,
-			atq: 30,
-			def: 35,
-			atq_esp: 20,
-			def_esp: 20,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	30,
+			def:	 	35,
+			atq_esp: 	20,
+			def_esp: 	20,
+			vel: 		45,
 		},
 		descricao:
 			"Seus pés curtos são dotados de ventosas que lhe permitem escalar encostas e paredes sem cansar.", // considerando a dex da primeira geração que apareceu
@@ -287,12 +287,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0011.png",
 		estatistica: {
-			ps: 50,
-			atq: 20,
-			def: 55,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 30,
+			ps:		 	50,
+			atq:	 	20,
+			def:	 	55,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		30,
 		},
 		descricao:
 			"É vulnerável a ataques enquanto seu casulo está mole, expondo seu corpo fraco e frágil.", // considerando a dex da primeira geração que apareceu
@@ -315,12 +315,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0012.png",
 		estatistica: {
-			ps: 60,
-			atq: 45,
-			def: 50,
-			atq_esp: 90,
-			def_esp: 80,
-			vel: 70,
+			ps:		 	60,
+			atq:	 	45,
+			def:	 	50,
+			atq_esp: 	90,
+			def_esp: 	80,
+			vel: 		70,
 		},
 		descricao:
 			"Em batalha, bate suas asas em alta velocidade para liberar poeira altamente tóxico no ar.", // considerando a dex da primeira geração que apareceu
@@ -343,12 +343,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0013.png",
 		estatistica: {
-			ps: 40,
-			atq: 35,
-			def: 30,
-			atq_esp: 20,
-			def_esp: 20,
-			vel: 50,
+			ps:		 	40,
+			atq:	 	35,
+			def:	 	30,
+			atq_esp: 	20,
+			def_esp: 	20,
+			vel: 		50,
 		},
 		descricao:
 			"Comumente encontrado em florestas, comendo folhas. Possui um ferrão afiado e venenoso em sua cabeça.", // considerando a dex da primeira geração que apareceu
@@ -371,12 +371,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0014.png",
 		estatistica: {
-			ps: 45,
-			atq: 25,
-			def: 50,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 35,
+			ps:		 	45,
+			atq:	 	25,
+			def:	 	50,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		35,
 		},
 		descricao:
 			"Quase incapaz de se mover, este Pokémon consegue só endurecer seu casulo para proteger a si mesmo de predadores.", // considerando a dex da primeira geração que apareceu
@@ -399,12 +399,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cc/F0015.png",
 		estatistica: {
-			ps: 65,
-			atq: 90,
-			def: 40,
-			atq_esp: 45,
-			def_esp: 80,
-			vel: 75,
+			ps:		 	65,
+			atq:	 	90,
+			def:	 	40,
+			atq_esp: 	45,
+			def_esp: 	80,
+			vel: 		75,
 		},
 		descricao:
 			"Voa em alta velocidade e ataca usando seus ferrões venenosos localizados nas patas dianteiras e cauda.", // considerando a dex da primeira geração que apareceu
@@ -427,12 +427,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0016.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 40,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 56,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	40,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		56,
 		},
 		descricao:
 			"Comum ser visto em florestas e bosques. Bate as asas próximo ao chão para levantar poeira ofuscante.", // considerando a dex da primeira geração que apareceu
@@ -455,12 +455,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0017.png",
 		estatistica: {
-			ps: 63,
-			atq: 60,
-			def: 55,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 71,
+			ps:		 	63,
+			atq:	 	60,
+			def:	 	55,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		71,
 		},
 		descricao:
 			"Muito protetor de sua extensa área territorial, este Pokémon irá bicar ferozmente qualquer intruso.", // considerando a dex da primeira geração que apareceu
@@ -483,12 +483,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b7/F0018.png",
 		estatistica: {
-			ps: 83,
-			atq: 80,
-			def: 75,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 101,
+			ps:		 	83,
+			atq:	 	80,
+			def:	 	75,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		101,
 		},
 		descricao:
 			"Quando caça, desliza na superfície da água em alta velocidade para pegar presas desavisadas.", // considerando a dex da primeira geração que apareceu
@@ -511,12 +511,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0019.png",
 		estatistica: {
-			ps: 30,
-			atq: 56,
-			def: 35,
-			atq_esp: 25,
-			def_esp: 35,
-			vel: 72,
+			ps:		 	30,
+			atq:	 	56,
+			def:	 	35,
+			atq_esp: 	25,
+			def_esp: 	35,
+			vel: 		72,
 		},
 		descricao:
 			"Morde qualquer coisa quando ataca. Pequeno e muito rápido, é comum ser visto em vários lugares.", // considerando a dex da primeira geração que apareceu
@@ -539,12 +539,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0019.png",
 		estatistica: {
-			ps: 30,
-			atq: 56,
-			def: 35,
-			atq_esp: 25,
-			def_esp: 35,
-			vel: 72,
+			ps:		 	30,
+			atq:	 	56,
+			def:	 	35,
+			atq_esp: 	25,
+			def_esp: 	35,
+			vel: 		72,
 		},
 		descricao:
 			"Quando o sol se põe, este Pokémon se torna ativo. Corre pela cidade a procura de boa comida para o líder de seu ninho.", // considerando a dex da primeira geração que apareceu
@@ -568,12 +568,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0020.png",
 		estatistica: {
-			ps: 55,
-			atq: 81,
-			def: 60,
-			atq_esp: 50,
-			def_esp: 70,
-			vel: 97,
+			ps:		 	55,
+			atq:	 	81,
+			def:	 	60,
+			atq_esp: 	50,
+			def_esp: 	70,
+			vel: 		97,
 		},
 		descricao:
 			"Usa seus bigodes para manter o equilíbrio. Aparentemente fica mais lento quando são cortados.", // considerando a dex da primeira geração que apareceu
@@ -597,12 +597,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0020.png",
 		estatistica: {
-			ps: 75,
-			atq: 71,
-			def: 70,
-			atq_esp: 40,
-			def_esp: 80,
-			vel: 77,
+			ps:		 	75,
+			atq:	 	71,
+			def:	 	70,
+			atq_esp: 	40,
+			def_esp: 	80,
+			vel: 		77,
 		},
 		descricao:
 			"Este Pokémon gourmet é exigente sobre o gosto e o frescor de sua comida. Restaurantes onde vive possui uma boa reputação.", // considerando a dex da primeira geração que apareceu
@@ -626,12 +626,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0021.png",
 		estatistica: {
-			ps: 40,
-			atq: 60,
-			def: 30,
-			atq_esp: 31,
-			def_esp: 31,
-			vel: 70,
+			ps:		 	40,
+			atq:	 	60,
+			def:	 	30,
+			atq_esp: 	31,
+			def_esp: 	31,
+			vel: 		70,
 		},
 		descricao:
 			"Come insetos em áreas gramadas. Tem que bater suas curtas asas em alta velocidade para se manter no ar.", // considerando a dex da primeira geração que apareceu
@@ -654,12 +654,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0022.png",
 		estatistica: {
-			ps: 65,
-			atq: 90,
-			def: 65,
-			atq_esp: 61,
-			def_esp: 61,
-			vel: 100,
+			ps:		 	65,
+			atq:	 	90,
+			def:	 	65,
+			atq_esp: 	61,
+			def_esp: 	61,
+			vel: 		100,
 		},
 		descricao:
 			"Com suas imensas e magnificas asas, consegue permanecer no ar sem pousar para descansar.", // considerando a dex da primeira geração que apareceu
@@ -682,12 +682,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0023.png",
 		estatistica: {
-			ps: 35,
-			atq: 60,
-			def: 44,
-			atq_esp: 40,
-			def_esp: 54,
-			vel: 55,
+			ps:		 	35,
+			atq:	 	60,
+			def:	 	44,
+			atq_esp: 	40,
+			def_esp: 	54,
+			vel: 		55,
 		},
 		descricao:
 			"Move-se de maneira silenciosa e furtiva. Come ovos de pássaros, como Pidgey e Spearow.", // considerando a dex da primeira geração que apareceu
@@ -710,12 +710,12 @@ const pkmnDisponiveis = [
 		altura: 3.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0024.png",
 		estatistica: {
-			ps: 60,
-			atq: 95,
-			def: 69,
-			atq_esp: 65,
-			def_esp: 79,
-			vel: 80,
+			ps:		 	60,
+			atq:	 	95,
+			def:	 	69,
+			atq_esp: 	65,
+			def_esp: 	79,
+			vel: 		80,
 		},
 		descricao:
 			"Rumores dizem que as marcas de sua barriga mudam de área para área.", // considerando a dex da primeira geração que apareceu
@@ -738,12 +738,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c4/F0025.png",
 		estatistica: {
-			ps: 35,
-			atq: 55,
-			def: 40,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 90,
+			ps:		 	35,
+			atq:	 	55,
+			def:	 	40,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		90,
 		},
 		descricao:
 			"Mantém sua cauda erguida para monitorar seus arredores. Caso você tente puxar o rabo, este Pokémon tentará mordê-lo.", // considerando a dex da primeira geração que apareceu
@@ -766,12 +766,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0026.png",
 		estatistica: {
-			ps: 60,
-			atq: 90,
-			def: 55,
-			atq_esp: 90,
-			def_esp: 80,
-			vel: 110,
+			ps:		 	60,
+			atq:	 	90,
+			def:	 	55,
+			atq_esp: 	90,
+			def_esp: 	80,
+			vel: 		110,
 		},
 		descricao:
 			"Quando a eletricidade se acumula dentro de seu corpo, ela se torna agressiva. Este Pokémon também brilha no escuro.", // considerando a dex da primeira geração que apareceu
@@ -794,12 +794,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0026.png",
 		estatistica: {
-			ps: 60,
-			atq: 85,
-			def: 50,
-			atq_esp: 95,
-			def_esp: 85,
-			vel: 110,
+			ps:		 	60,
+			atq:	 	85,
+			def:	 	50,
+			atq_esp: 	95,
+			def_esp: 	85,
+			vel: 		110,
 		},
 		descricao:
 			"Usa psicocinese para controlar eletricidade. Pula em sua própria cauda, usa poderes psíquicos para levantar a cauda e se mover enquanto a cavalga.", // considerando a dex da primeira geração que apareceu
@@ -822,12 +822,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0027.png",
 		estatistica: {
-			ps: 50,
-			atq: 75,
-			def: 85,
-			atq_esp: 20,
-			def_esp: 30,
-			vel: 40,
+			ps:		 	50,
+			atq:	 	75,
+			def:	 	85,
+			atq_esp: 	20,
+			def_esp: 	30,
+			vel: 		40,
 		},
 		descricao:
 			"Escava profundamente na terra em lugares áridos e distantes de água. Só sai para caçar comida.", // considerando a dex da primeira geração que apareceu
@@ -850,12 +850,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0027.png",
 		estatistica: {
-			ps: 50,
-			atq: 75,
-			def: 90,
-			atq_esp: 10,
-			def_esp: 35,
-			vel: 40,
+			ps:		 	50,
+			atq:	 	75,
+			def:	 	90,
+			atq_esp: 	10,
+			def_esp: 	35,
+			vel: 		40,
 		},
 		descricao:
 			"Vive em montanhas nevadas. Sua carapaça metálica é muito dura, tão dura que não consegue se enrolar em uma bola.", // considerando a dex da primeira geração que apareceu
@@ -878,12 +878,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0028.png",
 		estatistica: {
-			ps: 75,
-			atq: 100,
-			def: 110,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 65,
+			ps:		 	75,
+			atq:	 	100,
+			def:	 	110,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		65,
 		},
 		descricao:
 			"Enrola-se em uma bola espinhosa quando se sente ameaçado. Pode rolar para atacar ou escapar.", // considerando a dex da primeira geração que apareceu
@@ -906,12 +906,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0028.png",
 		estatistica: {
-			ps: 75,
-			atq: 100,
-			def: 120,
-			atq_esp: 25,
-			def_esp: 65,
-			vel: 65,
+			ps:		 	75,
+			atq:	 	100,
+			def:	 	120,
+			atq_esp: 	25,
+			def_esp: 	65,
+			vel: 		65,
 		},
 		descricao:
 			"Fugindo de uma erupção vulcânica, se estabeleceu em uma montanha nevada. Enquanto corre pelos campos de neve, envia um jato de neve.", // considerando a dex da primeira geração que apareceu
@@ -934,12 +934,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0029.png",
 		estatistica: {
-			ps: 55,
-			atq: 47,
-			def: 52,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 41,
+			ps:		 	55,
+			atq:	 	47,
+			def:	 	52,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		41,
 		},
 		descricao:
 			"Apesar de pequenos, seus espinhos venenosos tornam este Pokémon perigoso.", // considerando a dex da primeira geração que apareceu
@@ -962,12 +962,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0030.png",
 		estatistica: {
-			ps: 70,
-			atq: 62,
-			def: 67,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 56,
+			ps:		 	70,
+			atq:	 	62,
+			def:	 	67,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		56,
 		},
 		descricao:
 			"O chifre da fêmea desenvolve devagar. Prefere ataques físicos como mordida e patadas.", // considerando a dex da primeira geração que apareceu
@@ -990,12 +990,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0031.png",
 		estatistica: {
-			ps: 90,
-			atq: 92,
-			def: 87,
-			atq_esp: 75,
-			def_esp: 85,
-			vel: 76,
+			ps:		 	90,
+			atq:	 	92,
+			def:	 	87,
+			atq_esp: 	75,
+			def_esp: 	85,
+			vel: 		76,
 		},
 		descricao:
 			"Suas duras escamas lhe dão uma forte proteção. Usa seu grande volume para executar ataques poderosos.", // considerando a dex da primeira geração que apareceu
@@ -1018,12 +1018,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0032.png",
 		estatistica: {
-			ps: 46,
-			atq: 57,
-			def: 40,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 50,
+			ps:		 	46,
+			atq:	 	57,
+			def:	 	40,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		50,
 		},
 		descricao:
 			"Enrijece suas orelhas para sentir perigo. Quanto maior seus chifres, mais poderoso é seu veneno secretado.", // considerando a dex da primeira geração que apareceu
@@ -1046,12 +1046,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/20/F0033.png",
 		estatistica: {
-			ps: 61,
-			atq: 72,
-			def: 57,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 65,
+			ps:		 	61,
+			atq:	 	72,
+			def:	 	57,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		65,
 		},
 		descricao:
 			"Um Pokémon agressivo que é rápido para atacar. O chifre em sua cabeça secreta um poderoso veneno.", // considerando a dex da primeira geração que apareceu
@@ -1074,12 +1074,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0034.png",
 		estatistica: {
-			ps: 81,
-			atq: 102,
-			def: 77,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 85,
+			ps:		 	81,
+			atq:	 	102,
+			def:	 	77,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		85,
 		},
 		descricao:
 			"Usa sua poderosa cauda para golpear, imobilizar, e então quebrar os ossos de sua presa.", // considerando a dex da primeira geração que apareceu
@@ -1102,12 +1102,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0035.png",
 		estatistica: {
-			ps: 70,
-			atq: 45,
-			def: 48,
-			atq_esp: 60,
-			def_esp: 65,
-			vel: 35,
+			ps:		 	70,
+			atq:	 	45,
+			def:	 	48,
+			atq_esp: 	60,
+			def_esp: 	65,
+			vel: 		35,
 		},
 		descricao:
 			"Sua aparência mágica e fofa possui muitos admiradores. É raro e encontrado somente em certas áreas.", // considerando a dex da primeira geração que apareceu
@@ -1130,12 +1130,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0036.png",
 		estatistica: {
-			ps: 95,
-			atq: 70,
-			def: 73,
-			atq_esp: 95,
-			def_esp: 90,
-			vel: 60,
+			ps:		 	95,
+			atq:	 	70,
+			def:	 	73,
+			atq_esp: 	95,
+			def_esp: 	90,
+			vel: 		60,
 		},
 		descricao:
 			"Um Pokémon fada tímido que é raramente visto. Corre e se esconde no momento que sente uma pessoa por perto.", // considerando a dex da primeira geração que apareceu
@@ -1158,12 +1158,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0037.png",
 		estatistica: {
-			ps: 38,
-			atq: 41,
-			def: 40,
-			atq_esp: 50,
-			def_esp: 65,
-			vel: 65,
+			ps:		 	38,
+			atq:	 	41,
+			def:	 	40,
+			atq_esp: 	50,
+			def_esp: 	65,
+			vel: 		65,
 		},
 		descricao:
 			"No momento do nascimento, só possui uma cauda. A cauda se divide a partir da ponta a medida que envelhece.", // considerando a dex da primeira geração que apareceu
@@ -1186,12 +1186,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0037.png",
 		estatistica: {
-			ps: 38,
-			atq: 41,
-			def: 40,
-			atq_esp: 50,
-			def_esp: 65,
-			vel: 65,
+			ps:		 	38,
+			atq:	 	41,
+			def:	 	40,
+			atq_esp: 	50,
+			def_esp: 	65,
+			vel: 		65,
 		},
 		descricao:
 			"Em climas quentes, este Pokémon cria cacos de gelo com suas seis caudas e os espalha para se refrescar.", // considerando a dex da primeira geração que apareceu
@@ -1214,12 +1214,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0038.png",
 		estatistica: {
-			ps: 73,
-			atq: 76,
-			def: 75,
-			atq_esp: 81,
-			def_esp: 100,
-			vel: 100,
+			ps:		 	73,
+			atq:	 	76,
+			def:	 	75,
+			atq_esp: 	81,
+			def_esp: 	100,
+			vel: 		100,
 		},
 		descricao:
 			"Muito inteligente e vingativo. Agarrar uma de suas várias caldas poderia resultar um uma maldição de 1'000 anos.", // considerando a dex da primeira geração que apareceu
@@ -1242,12 +1242,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0038.png",
 		estatistica: {
-			ps: 73,
-			atq: 67,
-			def: 75,
-			atq_esp: 81,
-			def_esp: 100,
-			vel: 109,
+			ps:		 	73,
+			atq:	 	67,
+			def:	 	75,
+			atq_esp: 	81,
+			def_esp: 	100,
+			vel: 		109,
 		},
 		descricao:
 			"Cria gotas de gelo em seu pelo e as joga sobre seus inimigos. Qualquer um que o irrite ficará congelado em um instante.", // considerando a dex da primeira geração que apareceu
@@ -1270,12 +1270,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0039.png",
 		estatistica: {
-			ps: 115,
-			atq: 45,
-			def: 20,
-			atq_esp: 45,
-			def_esp: 25,
-			vel: 20,
+			ps:		 	115,
+			atq:	 	45,
+			def:	 	20,
+			atq_esp: 	45,
+			def_esp: 	25,
+			vel: 		20,
 		},
 		descricao:
 			"Quando seus grandes olhos se iluminam, canta uma melodia misteriosamente suave que embala seus inimigos para dormir.", // considerando a dex da primeira geração que apareceu
@@ -1298,12 +1298,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0040.png",
 		estatistica: {
-			ps: 140,
-			atq: 70,
-			def: 45,
-			atq_esp: 85,
-			def_esp: 50,
-			vel: 45,
+			ps:		 	140,
+			atq:	 	70,
+			def:	 	45,
+			atq_esp: 	85,
+			def_esp: 	50,
+			vel: 		45,
 		},
 		descricao:
 			"Seu corpo é macio e emborrachado. Quando atiçado, suga ar e infla-se a um tamanho enorme.", // considerando a dex da primeira geração que apareceu
@@ -1326,12 +1326,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6d/F0041.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 35,
-			atq_esp: 30,
-			def_esp: 40,
-			vel: 55,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	35,
+			atq_esp: 	30,
+			def_esp: 	40,
+			vel: 		55,
 		},
 		descricao:
 			"Forma colônias em lugares escuros. Usa ondas ultrassônicas para identificar e se aproximar de alvos.", // considerando a dex da primeira geração que apareceu
@@ -1355,12 +1355,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0042.png",
 		estatistica: {
-			ps: 75,
-			atq: 80,
-			def: 70,
-			atq_esp: 65,
-			def_esp: 75,
-			vel: 90,
+			ps:		 	75,
+			atq:	 	80,
+			def:	 	70,
+			atq_esp: 	65,
+			def_esp: 	75,
+			vel: 		90,
 		},
 		descricao:
 			"Uma vez que ataca, não para de drenar a energia de suas vítimas mesmo que fique pesado demais para voar.", // considerando a dex da primeira geração que apareceu
@@ -1384,12 +1384,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0043.png",
 		estatistica: {
-			ps: 45,
-			atq: 50,
-			def: 55,
-			atq_esp: 75,
-			def_esp: 65,
-			vel: 30,
+			ps:		 	45,
+			atq:	 	50,
+			def:	 	55,
+			atq_esp: 	75,
+			def_esp: 	65,
+			vel: 		30,
 		},
 		descricao:
 			"Durante o dia, mantém seu rosto enterrado no chão. Durante a noite, vagueia semeando suas sementes.", // considerando a dex da primeira geração que apareceu
@@ -1412,12 +1412,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0044.png",
 		estatistica: {
-			ps: 60,
-			atq: 65,
-			def: 70,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 40,
+			ps:		 	60,
+			atq:	 	65,
+			def:	 	70,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		40,
 		},
 		descricao:
 			"O fluido que escorre de sua boca não é baba. É um néctar usado para atrair suas presas.", // considerando a dex da primeira geração que apareceu
@@ -1440,12 +1440,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0045.png",
 		estatistica: {
-			ps: 75,
-			atq: 80,
-			def: 85,
-			atq_esp: 110,
-			def_esp: 90,
-			vel: 50,
+			ps:		 	75,
+			atq:	 	80,
+			def:	 	85,
+			atq_esp: 	110,
+			def_esp: 	90,
+			vel: 		50,
 		},
 		descricao:
 			"Quanto maior suas pétalas, mais pólen tóxico contém. Sua cabeça grande é pesada e difícil de segurar.", // considerando a dex da primeira geração que apareceu
@@ -1468,12 +1468,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0046.png",
 		estatistica: {
-			ps: 35,
-			atq: 70,
-			def: 55,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 25,
+			ps:		 	35,
+			atq:	 	70,
+			def:	 	55,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		25,
 		},
 		descricao:
 			"Escava para se alimentar de raízes. Os cogumelos em suas costas crescem extraindo nutrientes do inseto hospedeiro.", // considerando a dex da primeira geração que apareceu
@@ -1496,12 +1496,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0047.png",
 		estatistica: {
-			ps: 60,
-			atq: 95,
-			def: 80,
-			atq_esp: 60,
-			def_esp: 80,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	95,
+			def:	 	80,
+			atq_esp: 	60,
+			def_esp: 	80,
+			vel: 		30,
 		},
 		descricao:
 			"Um par hospedeiro-parasita no qual o cogumelo parasita assumiu o controle do inseto hospedeiro. Prefere lugares úmidos.", // considerando a dex da primeira geração que apareceu
@@ -1524,12 +1524,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0048.png",
 		estatistica: {
-			ps: 60,
-			atq: 55,
-			def: 50,
-			def_esp: 40,
-			atq_esp: 55,
-			vel: 45,
+			ps:		 	60,
+			atq:	 	55,
+			def:	 	50,
+			def_esp: 	40,
+			atq_esp: 	55,
+			vel: 		45,
 		},
 		descricao:
 			"Vive nas sombras de árvores altas onde come insetos. É atraído por luzes durante a noite.", // considerando a dex da primeira geração que apareceu
@@ -1552,12 +1552,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0049.png",
 		estatistica: {
-			ps: 70,
-			atq: 65,
-			def: 60,
-			atq_esp: 90,
-			def_esp: 75,
-			vel: 90,
+			ps:		 	70,
+			atq:	 	65,
+			def:	 	60,
+			atq_esp: 	90,
+			def_esp: 	75,
+			vel: 		90,
 		},
 		descricao:
 			"As escamas semelhantes a poeira que cobrem suas asas são codificadas por cor para indicar os tipos de veneno que possui.", // considerando a dex da primeira geração que apareceu
@@ -1581,12 +1581,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0050.png",
 		estatistica: {
-			ps: 10,
-			atq: 55,
-			def: 25,
-			atq_esp: 35,
-			def_esp: 45,
-			vel: 95,
+			ps:		 	10,
+			atq:	 	55,
+			def:	 	25,
+			atq_esp: 	35,
+			def_esp: 	45,
+			vel: 		95,
 		},
 		descricao:
 			"Vive em torno de um metro abaixo da superfície onde se alimente de raízes. Aparece ocasionalmente acima da superfície.", // considerando a dex da primeira geração que apareceu
@@ -1609,12 +1609,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0050.png",
 		estatistica: {
-			ps: 10,
-			atq: 55,
-			def: 30,
-			atq_esp: 35,
-			def_esp: 45,
-			vel: 90,
+			ps:		 	10,
+			atq:	 	55,
+			def:	 	30,
+			atq_esp: 	35,
+			def_esp: 	45,
+			vel: 		90,
 		},
 		descricao:
 			"Seus pelos dourados funcionam como sensores. Os coloca para fora de sua toca para monitorar os arredores.", // considerando a dex da primeira geração que apareceu
@@ -1638,12 +1638,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0051.png",
 		estatistica: {
-			ps: 35,
-			atq: 100,
-			def: 50,
-			atq_esp: 50,
-			def_esp: 70,
-			vel: 120,
+			ps:		 	35,
+			atq:	 	100,
+			def:	 	50,
+			atq_esp: 	50,
+			def_esp: 	70,
+			vel: 		120,
 		},
 		descricao: "Desencadeia grandes terremotos ao cavar 100km no subsolo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
@@ -1665,12 +1665,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0051.png",
 		estatistica: {
-			ps: 35,
-			atq: 100,
-			def: 60,
-			atq_esp: 50,
-			def_esp: 70,
-			vel: 110,
+			ps:		 	35,
+			atq:	 	100,
+			def:	 	60,
+			atq_esp: 	50,
+			def_esp: 	70,
+			vel: 		110,
 		},
 		descricao:
 			"Seus pelos dourados brilhantes lhe fornecem proteção. Dizem que guardar qualquer um de seu cabelo caído trará azar.", // considerando a dex da primeira geração que apareceu
@@ -1694,12 +1694,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 35,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 90,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	35,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		90,
 		},
 		descricao:
 			"Gosta de objetos redondos. Vaga pelas ruas todas as noites procurando por trocados.", // considerando a dex da primeira geração que apareceu
@@ -1722,12 +1722,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
-			ps: 40,
-			atq: 35,
-			def: 35,
-			atq_esp: 50,
-			def_esp: 40,
-			vel: 90,
+			ps:		 	40,
+			atq:	 	35,
+			def:	 	35,
+			atq_esp: 	50,
+			def_esp: 	40,
+			vel: 		90,
 		},
 		descricao:
 			"Quando seu delicado orgulho é ferido, ou quando a moeda dourada em sua testa é suja, corre em fúria histérica.", // considerando a dex da primeira geração que apareceu
@@ -1750,12 +1750,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 55,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 40,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	55,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		40,
 		},
 		descricao:
 			"Esses Pokémon ousados têm moedas em suas testas. Moedas mais escuras são mais duras, e moedas mais duras ganham mais respeito entre os de sua espécie.", // considerando a dex da primeira geração que apareceu
@@ -1778,12 +1778,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0053.png",
 		estatistica: {
-			ps: 65,
-			atq: 70,
-			def: 60,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 115,
+			ps:		 	65,
+			atq:	 	70,
+			def:	 	60,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		115,
 		},
 		descricao:
 			"Apesar de seu pelo possuir muitos admiradores, é difícil de criar como animal de estimação por sua maldade inconstante.", // considerando a dex da primeira geração que apareceu
@@ -1806,12 +1806,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0053.png",
 		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 60,
-			atq_esp: 75,
-			def_esp: 65,
-			vel: 115,
+			ps:		 	65,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	75,
+			def_esp: 	65,
+			vel: 		115,
 		},
 		descricao:
 			"Olha com desdém para todos, exceto para si. Suas táticas preferidas são socos e ataques surpresa.", // considerando a dex da primeira geração que apareceu
@@ -1834,12 +1834,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0054.png",
 		estatistica: {
-			ps: 50,
-			atq: 52,
-			def: 48,
-			atq_esp: 65,
-			def_esp: 50,
-			vel: 55,
+			ps:		 	50,
+			atq:	 	52,
+			def:	 	48,
+			atq_esp: 	65,
+			def_esp: 	50,
+			vel: 		55,
 		},
 		descricao:
 			"Enquanto engana seus oponentes com seu olhar distraído, este astuto Pokémon usa seus poderes psicocinéticos.", // considerando a dex da primeira geração que apareceu
@@ -1862,12 +1862,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0055.png",
 		estatistica: {
-			ps: 80,
-			atq: 82,
-			def: 78,
-			atq_esp: 95,
-			def_esp: 80,
-			vel: 85,
+			ps:		 	80,
+			atq:	 	82,
+			def:	 	78,
+			atq_esp: 	95,
+			def_esp: 	80,
+			vel: 		85,
 		},
 		descricao:
 			"Frequentemente visto nadando elegantemente às marges de lagos. Muitas vezes confundido com a criatura japonesa, Kappa.", // considerando a dex da primeira geração que apareceu
@@ -1890,12 +1890,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0056.png",
 		estatistica: {
-			ps: 40,
-			atq: 80,
-			def: 35,
-			atq_esp: 35,
-			def_esp: 45,
-			vel: 70,
+			ps:		 	40,
+			atq:	 	80,
+			def:	 	35,
+			atq_esp: 	35,
+			def_esp: 	45,
+			vel: 		70,
 		},
 		descricao:
 			"Extremamente rápido em se irritar. Pode ser dócil em um momento e logo depois se debater.", // considerando a dex da primeira geração que apareceu
@@ -1918,12 +1918,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0057.png",
 		estatistica: {
-			ps: 65,
-			atq: 105,
-			def: 60,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 95,
+			ps:		 	65,
+			atq:	 	105,
+			def:	 	60,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		95,
 		},
 		descricao:
 			"Só deixa de estar raivoso quando mais ninguém está por perto. Não deixará de perseguir sua presa até que seja pega.", // considerando a dex da primeira geração que apareceu
@@ -1946,12 +1946,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0058.png",
 		estatistica: {
-			ps: 55,
-			atq: 70,
-			def: 45,
-			atq_esp: 70,
-			def_esp: 50,
-			vel: 60,
+			ps:		 	55,
+			atq:	 	70,
+			def:	 	45,
+			atq_esp: 	70,
+			def_esp: 	50,
+			vel: 		60,
 		},
 		descricao:
 			"Muito protetor de seu território. Late e morde para repelir invasores de seu espaço.", // considerando a dex da primeira geração que apareceu
@@ -1974,12 +1974,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0058.png",
 		estatistica: {
-			ps: 60,
-			atq: 75,
-			def: 45,
-			atq_esp: 65,
-			def_esp: 50,
-			vel: 55,
+			ps:		 	60,
+			atq:	 	75,
+			def:	 	45,
+			atq_esp: 	65,
+			def_esp: 	50,
+			vel: 		55,
 		},
 		descricao:
 			"Patrulham seu território em pares. Acredito que os componentes de rocha ígnea no pelo desta espécie são o resultado de atividade vulcânica em seu habitat.", // considerando a dex da primeira geração que apareceu
@@ -2002,12 +2002,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0059.png",
 		estatistica: {
-			ps: 90,
-			atq: 110,
-			def: 80,
-			atq_esp: 100,
-			def_esp: 80,
-			vel: 95,
+			ps:		 	90,
+			atq:	 	110,
+			def:	 	80,
+			atq_esp: 	100,
+			def_esp: 	80,
+			vel: 		95,
 		},
 		descricao:
 			"Um Pokémon que tem sido admirado por sua beleza. Corre com agilidade como se tivesse asas.", // considerando a dex da primeira geração que apareceu
@@ -2030,12 +2030,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0059.png",
 		estatistica: {
-			ps: 95,
-			atq: 115,
-			def: 80,
-			atq_esp: 95,
-			def_esp: 80,
-			vel: 90,
+			ps:		 	95,
+			atq:	 	115,
+			def:	 	80,
+			atq_esp: 	95,
+			def_esp: 	80,
+			vel: 		90,
 		},
 		descricao:
 			"Ataca seus inimigos com presas envoltas em chamas ardentes. Apesar do tamanho, engana seus oponentes com movimentos rápidos em todas as direções, levando-os a uma perseguição enquanto dança ao redor deles.", // considerando a dex da primeira geração que apareceu
@@ -2058,12 +2058,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0060.png",
 		estatistica: {
-			ps: 40,
-			atq: 50,
-			def: 40,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 90,
+			ps:		 	40,
+			atq:	 	50,
+			def:	 	40,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		90,
 		},
 		descricao:
 			"Suas pernas recém crescidas o previnem de correr. Aparenta preferir nadar a tentar ficar de pé.", // considerando a dex da primeira geração que apareceu
@@ -2087,12 +2087,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0061.png",
 		estatistica: {
-			ps: 65,
-			atq: 65,
-			def: 65,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 90,
+			ps:		 	65,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		90,
 		},
 		descricao:
 			"Capaz de viver dentro e fora d'água. Quando está fora da água, transpira para manter seu corpo viscoso.", // considerando a dex da primeira geração que apareceu
@@ -2115,12 +2115,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0062.png",
 		estatistica: {
-			ps: 90,
-			atq: 95,
-			def: 95,
-			atq_esp: 70,
-			def_esp: 90,
-			vel: 70,
+			ps:		 	90,
+			atq:	 	95,
+			def:	 	95,
+			atq_esp: 	70,
+			def_esp: 	90,
+			vel: 		70,
 		},
 		descricao:
 			"Um hábil nadador dos nado crawl e nado peito. Facilmente ultrapassa os melhores nadadores humanos.", // considerando a dex da primeira geração que apareceu
@@ -2143,12 +2143,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0063.png",
 		estatistica: {
-			ps: 25,
-			atq: 20,
-			def: 15,
-			atq_esp: 105,
-			def_esp: 55,
-			vel: 90,
+			ps:		 	25,
+			atq:	 	20,
+			def:	 	15,
+			atq_esp: 	105,
+			def_esp: 	55,
+			vel: 		90,
 		},
 		descricao:
 			"Usando sua habilidade de ler mentes, identifica o perigo iminente e teleporta para um local seguro.", // considerando a dex da primeira geração que apareceu
@@ -2171,12 +2171,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0064.png",
 		estatistica: {
-			ps: 40,
-			atq: 35,
-			def: 30,
-			atq_esp: 120,
-			def_esp: 70,
-			vel: 105,
+			ps:		 	40,
+			atq:	 	35,
+			def:	 	30,
+			atq_esp: 	120,
+			def_esp: 	70,
+			vel: 		105,
 		},
 		descricao:
 			"Emite ondas alfas especiais de seu corpo que induzem dores de cabeça apenas por estar por perto.", // considerando a dex da primeira geração que apareceu
@@ -2199,12 +2199,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0065.png",
 		estatistica: {
-			ps: 55,
-			atq: 50,
-			def: 45,
-			atq_esp: 135,
-			def_esp: 95,
-			vel: 120,
+			ps:		 	55,
+			atq:	 	50,
+			def:	 	45,
+			atq_esp: 	135,
+			def_esp: 	95,
+			vel: 		120,
 		},
 		descricao:
 			"Seu cérebro consegue superar um super-computador. É dito que seu QI é de 5'000.", // considerando a dex da primeira geração que apareceu
@@ -2227,12 +2227,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/F0066.png",
 		estatistica: {
-			ps: 70,
-			atq: 80,
-			def: 50,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 35,
+			ps:		 	70,
+			atq:	 	80,
+			def:	 	50,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		35,
 		},
 		descricao:
 			"Gosta de construir seu músculos. Treina em todos os estilos de artes marciais para se tornar mais forte.", // considerando a dex da primeira geração que apareceu
@@ -2255,12 +2255,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0067.png",
 		estatistica: {
-			ps: 80,
-			atq: 100,
-			def: 70,
-			atq_esp: 50,
-			def_esp: 60,
-			vel: 45,
+			ps:		 	80,
+			atq:	 	100,
+			def:	 	70,
+			atq_esp: 	50,
+			def_esp: 	60,
+			vel: 		45,
 		},
 		descricao:
 			"Seu corpo musculoso é tão poderoso, deve usar um cinto regulador de energia para.", // considerando a dex da primeira geração que apareceu
@@ -2283,12 +2283,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0068.png",
 		estatistica: {
-			ps: 90,
-			atq: 130,
-			def: 80,
-			atq_esp: 65,
-			def_esp: 85,
-			vel: 55,
+			ps:		 	90,
+			atq:	 	130,
+			def:	 	80,
+			atq_esp: 	65,
+			def_esp: 	85,
+			vel: 		55,
 		},
 		descricao:
 			"Usando seus pesados músculos, lança poderosos socos que conseguem mandar a vítima para o horizonte.", // considerando a dex da primeira geração que apareceu
@@ -2311,12 +2311,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0069.png",
 		estatistica: {
-			ps: 50,
-			atq: 75,
-			def: 35,
-			atq_esp: 70,
-			def_esp: 30,
-			vel: 40,
+			ps:		 	50,
+			atq:	 	75,
+			def:	 	35,
+			atq_esp: 	70,
+			def_esp: 	30,
+			vel: 		40,
 		},
 		descricao:
 			"Um Pokémon carnívoro que prende e come insetos. Usa seus pés raiz para sugar a umidade necessária.", // considerando a dex da primeira geração que apareceu
@@ -2339,12 +2339,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a1/F0070.png",
 		estatistica: {
-			ps: 65,
-			atq: 90,
-			def: 50,
-			atq_esp: 85,
-			def_esp: 45,
-			vel: 55,
+			ps:		 	65,
+			atq:	 	90,
+			def:	 	50,
+			atq_esp: 	85,
+			def_esp: 	45,
+			vel: 		55,
 		},
 		descricao:
 			"Expele Pó de Veneno para imobilizar seu adversário e então finaliza com um spray de Ácido.", // considerando a dex da primeira geração que apareceu
@@ -2367,12 +2367,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0071.png",
 		estatistica: {
-			ps: 80,
-			atq: 105,
-			def: 65,
-			atq_esp: 100,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	80,
+			atq:	 	105,
+			def:	 	65,
+			atq_esp: 	100,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"É dito viver em grandes colônias nas profundezas das selvas, embora ninguém tenha retornando de lá.", // considerando a dex da primeira geração que apareceu
@@ -2395,12 +2395,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0072.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 35,
-			atq_esp: 50,
-			def_esp: 100,
-			vel: 70,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	35,
+			atq_esp: 	50,
+			def_esp: 	100,
+			vel: 		70,
 		},
 		descricao:
 			"Deriva em mares rasos. Pescadores que os fisgam por acidente são frequentemente punidos por seu Ácido.", // considerando a dex da primeira geração que apareceu
@@ -2423,12 +2423,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0073.png",
 		estatistica: {
-			ps: 80,
-			atq: 70,
-			def: 65,
-			atq_esp: 80,
-			def_esp: 120,
-			vel: 100,
+			ps:		 	80,
+			atq:	 	70,
+			def:	 	65,
+			atq_esp: 	80,
+			def_esp: 	120,
+			vel: 		100,
 		},
 		descricao:
 			"Os tentáculos são normalmente mantidos curtos. Nas caçadas, os tentáculos são estendidos para enredar e imobilizar presas.", // considerando a dex da primeira geração que apareceu
@@ -2451,12 +2451,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0074.png",
 		estatistica: {
-			ps: 40,
-			atq: 80,
-			def: 100,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 20,
+			ps:		 	40,
+			atq:	 	80,
+			def:	 	100,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		20,
 		},
 		descricao:
 			"Encontrado em campos e montanhas. Pessoas, por confundi-los com pedras, pisam ou tropeçam neles.", // considerando a dex da primeira geração que apareceu
@@ -2479,12 +2479,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0074.png",
 		estatistica: {
-			ps: 40,
-			atq: 80,
-			def: 100,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 20,
+			ps:		 	40,
+			atq:	 	80,
+			def:	 	100,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		20,
 		},
 		descricao:
 			"Seu corpo é uma rocha magnética. Areia de ferro se prende firmemente as partes de seu corpo que são particularmente magnéticas.", // considerando a dex da primeira geração que apareceu
@@ -2507,12 +2507,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0075.png",
 		estatistica: {
-			ps: 55,
-			atq: 95,
-			def: 115,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 35,
+			ps:		 	55,
+			atq:	 	95,
+			def:	 	115,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		35,
 		},
 		descricao:
 			"Rola para se mover. Rola sobre qualquer obstáculo sem diminuir a velocidade ou muda sua direção.", // considerando a dex da primeira geração que apareceu
@@ -2535,12 +2535,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0075.png",
 		estatistica: {
-			ps: 55,
-			atq: 95,
-			def: 115,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 35,
+			ps:		 	55,
+			atq:	 	95,
+			def:	 	115,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		35,
 		},
 		descricao:
 			"Sua comida preferida é dravita. Após ter comido esse mineral, cristais se formam dentro do Pokémon, subindo para a superfície de parte de seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -2563,12 +2563,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/11/F0076.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 130,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 45,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	130,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		45,
 		},
 		descricao:
 			"Seu corpo semelhante a uma pedra é extremamente duro. Consegue facilmente aguentar explosões de dinamite sem dano algum.", // considerando a dex da primeira geração que apareceu
@@ -2591,12 +2591,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/11/F0076.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 130,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 45,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	130,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		45,
 		},
 		descricao:
 			"Atira rochas carregas com eletricidade. Mesmo se a rocha não for atirada com tanta precisão, apenas arranhar o oponente causará dormência e desmaio.", // considerando a dex da primeira geração que apareceu
@@ -2619,12 +2619,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0077.png",
 		estatistica: {
-			ps: 50,
-			atq: 85,
-			def: 55,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 90,
+			ps:		 	50,
+			atq:	 	85,
+			def:	 	55,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		90,
 		},
 		descricao:
 			"Seus cascos são dez vezes mais duros que diamantes. Consegue atropelar qualquer coisa completamente plana em pouco tempo.", // considerando a dex da primeira geração que apareceu
@@ -2647,12 +2647,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0077.png",
 		estatistica: {
-			ps: 50,
-			atq: 85,
-			def: 55,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 90,
+			ps:		 	50,
+			atq:	 	85,
+			def:	 	55,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		90,
 		},
 		descricao:
 			"Seu pequeno chifre esconde um poder de cura. Com algumas esfregadas do chifre deste Pokémon, qualquer ferimento leve que você tenha será curado.", // considerando a dex da primeira geração que apareceu
@@ -2675,12 +2675,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0078.png",
 		estatistica: {
-			ps: 65,
-			atq: 100,
-			def: 70,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 105,
+			ps:		 	65,
+			atq:	 	100,
+			def:	 	70,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		105,
 		},
 		descricao:
 			"Muito competitivo, este Pokémon persegue qualquer coisa que se mova rápido na esperança de competir.", // considerando a dex da primeira geração que apareceu
@@ -2703,12 +2703,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0078.png",
 		estatistica: {
-			ps: 65,
-			atq: 100,
-			def: 70,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 105,
+			ps:		 	65,
+			atq:	 	100,
+			def:	 	70,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		105,
 		},
 		descricao:
 			"Corajoso e orgulhoso, este Pokémon corre velozmente pela floresta, com seus passos auxiliados pelo poder psíquico armazenado no pelo dos seus boletos.", // considerando a dex da primeira geração que apareceu
@@ -2731,12 +2731,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0079.png",
 		estatistica: {
-			ps: 90,
-			atq: 65,
-			def: 65,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 15,
+			ps:		 	90,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		15,
 		},
 		descricao:
 			"Incrivelmente lento. Demora cinco segundos para sentir dor quando atacado.", // considerando a dex da primeira geração que apareceu
@@ -2759,12 +2759,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0079.png",
 		estatistica: {
-			ps: 90,
-			atq: 65,
-			def: 65,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 15,
+			ps:		 	90,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		15,
 		},
 		descricao:
 			"Apesar de normalmente ser um Pokémon desorientado, sua expressão abruptamente se aguça dependendo da ocasião. A causa disso parece estar em sua dieta.", // considerando a dex da primeira geração que apareceu
@@ -2787,12 +2787,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0080.png",
 		estatistica: {
-			ps: 95,
-			atq: 75,
-			def: 110,
-			atq_esp: 100,
-			def_esp: 80,
-			vel: 30,
+			ps:		 	95,
+			atq:	 	75,
+			def:	 	110,
+			atq_esp: 	100,
+			def_esp: 	80,
+			vel: 		30,
 		},
 		descricao:
 			"É dito que o Shellder que está preso à sua cauda se alimenta dos restos que sobraram do hospedeiro.", // considerando a dex da primeira geração que apareceu
@@ -2816,12 +2816,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0080.png",
 		estatistica: {
-			ps: 95,
-			atq: 100,
-			def: 95,
-			atq_esp: 100,
-			def_esp: 70,
-			vel: 30,
+			ps:		 	95,
+			atq:	 	100,
+			def:	 	95,
+			atq_esp: 	100,
+			def_esp: 	70,
+			vel: 		30,
 		},
 		descricao:
 			"Uma mordida de Shellder desencadeou uma reação química com os temperos dentro de seu corpo, fazendo com que ele se tornasse um Pokémon do tipo Veneno.", // considerando a dex da primeira geração que apareceu
@@ -2844,12 +2844,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0081.png",
 		estatistica: {
-			ps: 25,
-			atq: 35,
-			def: 70,
-			atq_esp: 95,
-			def_esp: 55,
-			vel: 45,
+			ps:		 	25,
+			atq:	 	35,
+			def:	 	70,
+			atq_esp: 	95,
+			def_esp: 	55,
+			vel: 		45,
 		},
 		descricao:
 			"Usa anti-gravidade para permanecer suspenso. Aparece sem qualquer aviso e usa Onda-Trovão e movimentos similares.", // considerando a dex da primeira geração que apareceu
@@ -2872,12 +2872,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0082.png",
 		estatistica: {
-			ps: 50,
-			atq: 60,
-			def: 95,
-			atq_esp: 120,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	50,
+			atq:	 	60,
+			def:	 	95,
+			atq_esp: 	120,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Gera estranhas ondas de rádio. Aumenta a temperatura em dois graus Célsius dentro de um quilômetro.", // considerando a dex da primeira geração que apareceu
@@ -2900,12 +2900,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0083.png",
 		estatistica: {
-			ps: 52,
-			atq: 90,
-			def: 55,
-			atq_esp: 58,
-			def_esp: 62,
-			vel: 60,
+			ps:		 	52,
+			atq:	 	90,
+			def:	 	55,
+			atq_esp: 	58,
+			def_esp: 	62,
+			vel: 		60,
 		},
 		descricao:
 			"O ramo de cebolinha que segura é sua arma. É usado como uma espada de metal.", // considerando a dex da primeira geração que apareceu
@@ -2928,12 +2928,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0083.png",
 		estatistica: {
-			ps: 52,
-			atq: 95,
-			def: 55,
-			atq_esp: 58,
-			def_esp: 62,
-			vel: 55,
+			ps:		 	52,
+			atq:	 	95,
+			def:	 	55,
+			atq_esp: 	58,
+			def_esp: 	62,
+			vel: 		55,
 		},
 		descricao:
 			"São guerreiros corajosos e usam alhos-porós grossos e resistentes na batalha.", // considerando a dex da primeira geração que apareceu
@@ -2956,12 +2956,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0084.png",
 		estatistica: {
-			ps: 35,
-			atq: 85,
-			def: 45,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 75,
+			ps:		 	35,
+			atq:	 	85,
+			def:	 	45,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		75,
 		},
 		descricao:
 			"Um pássaro que compensa por seu vôo ruim com sua alta velocidade de patas. Deixa pegadas gigantes.", // considerando a dex da primeira geração que apareceu
@@ -2984,12 +2984,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0085.png",
 		estatistica: {
-			ps: 60,
-			atq: 110,
-			def: 70,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 110,
+			ps:		 	60,
+			atq:	 	110,
+			def:	 	70,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		110,
 		},
 		descricao:
 			"Usa seus três cérebros para executar planos complexos. Enquanto duas cabeças dormem, uma cabeça permanece acordada.", // considerando a dex da primeira geração que apareceu
@@ -3012,12 +3012,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0086.png",
 		estatistica: {
-			ps: 65,
-			atq: 45,
-			def: 55,
-			atq_esp: 45,
-			def_esp: 70,
-			vel: 45,
+			ps:		 	65,
+			atq:	 	45,
+			def:	 	55,
+			atq_esp: 	45,
+			def_esp: 	70,
+			vel: 		45,
 		},
 		descricao:
 			"O chifre protuberante em sua cabeça é muito duro. É usado para bater em gelo espesso.", // considerando a dex da primeira geração que apareceu
@@ -3040,12 +3040,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0087.png",
 		estatistica: {
-			ps: 90,
-			atq: 70,
-			def: 80,
-			atq_esp: 70,
-			def_esp: 95,
-			vel: 70,
+			ps:		 	90,
+			atq:	 	70,
+			def:	 	80,
+			atq_esp: 	70,
+			def_esp: 	95,
+			vel: 		70,
 		},
 		descricao:
 			"Armazena calor em seu corpo. Nada a 8 nós constantes, mesmo em águas intensamente frias.", // considerando a dex da primeira geração que apareceu
@@ -3068,12 +3068,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0088.png",
 		estatistica: {
-			ps: 80,
-			atq: 80,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 25,
+			ps:		 	80,
+			atq:	 	80,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		25,
 		},
 		descricao:
 			"Aparece em áreas imundas. Prospera consumindo lodo poluído que é bombeado para fora das fábricas.", // considerando a dex da primeira geração que apareceu
@@ -3096,12 +3096,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0088.png",
 		estatistica: {
-			ps: 80,
-			atq: 80,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 25,
+			ps:		 	80,
+			atq:	 	80,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		25,
 		},
 		descricao:
 			"Os cristais em seu corpo são pedaços de toxinas. Se um deles cair, venenos letais vazam.", // considerando a dex da primeira geração que apareceu
@@ -3124,12 +3124,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0089.png",
 		estatistica: {
-			ps: 105,
-			atq: 105,
-			def: 75,
-			atq_esp: 65,
-			def_esp: 100,
-			vel: 50,
+			ps:		 	105,
+			atq:	 	105,
+			def:	 	75,
+			atq_esp: 	65,
+			def_esp: 	100,
+			vel: 		50,
 		},
 		descricao:
 			"Coberto por uma camada grossa de lama imunda e vil. É tão tóxico, mesmo suas pegadas contém veneno.", // considerando a dex da primeira geração que apareceu
@@ -3152,12 +3152,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0089.png",
 		estatistica: {
-			ps: 105,
-			atq: 105,
-			def: 75,
-			atq_esp: 65,
-			def_esp: 100,
-			vel: 50,
+			ps:		 	105,
+			atq:	 	105,
+			def:	 	75,
+			atq_esp: 	65,
+			def_esp: 	100,
+			vel: 		50,
 		},
 		descricao:
 			"O lixo que come causa mudanças químicas constantes em seu corpo, o que produz sua coloração excessivamente vívida.", // considerando a dex da primeira geração que apareceu
@@ -3180,12 +3180,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0090.png",
 		estatistica: {
-			ps: 30,
-			atq: 65,
-			def: 100,
-			atq_esp: 45,
-			def_esp: 25,
-			vel: 40,
+			ps:		 	30,
+			atq:	 	65,
+			def:	 	100,
+			atq_esp: 	45,
+			def_esp: 	25,
+			vel: 		40,
 		},
 		descricao:
 			"Sua carapaça dura repele qualquer tipo de ataque. É vulnerável somente quando abre sua carapaça.", // considerando a dex da primeira geração que apareceu
@@ -3208,12 +3208,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0091.png",
 		estatistica: {
-			ps: 50,
-			atq: 95,
-			def: 180,
-			atq_esp: 85,
-			def_esp: 45,
-			vel: 70,
+			ps:		 	50,
+			atq:	 	95,
+			def:	 	180,
+			atq_esp: 	85,
+			def_esp: 	45,
+			vel: 		70,
 		},
 		descricao:
 			"Quando atacado, lança seus chifres em voleios rápidos. Seu interior nunca foi visto.", // considerando a dex da primeira geração que apareceu
@@ -3236,12 +3236,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0092.png",
 		estatistica: {
-			ps: 30,
-			atq: 35,
-			def: 30,
-			atq_esp: 100,
-			def_esp: 35,
-			vel: 80,
+			ps:		 	30,
+			atq:	 	35,
+			def:	 	30,
+			atq_esp: 	100,
+			def_esp: 	35,
+			vel: 		80,
 		},
 		descricao:
 			"Quase invisível, este Pokémon gasoso envolve o alvo e o põe para dormir sem que perceba.", // considerando a dex da primeira geração que apareceu
@@ -3264,12 +3264,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0093.png",
 		estatistica: {
-			ps: 45,
-			atq: 50,
-			def: 45,
-			atq_esp: 115,
-			def_esp: 55,
-			vel: 95,
+			ps:		 	45,
+			atq:	 	50,
+			def:	 	45,
+			atq_esp: 	115,
+			def_esp: 	55,
+			vel: 		95,
 		},
 		descricao:
 			"Por causa de sua habilidade de atravessar paredes, é dito ser de outra dimensão.", // considerando a dex da primeira geração que apareceu
@@ -3292,12 +3292,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0094.png",
 		estatistica: {
-			ps: 60,
-			atq: 65,
-			def: 60,
-			atq_esp: 130,
-			def_esp: 75,
-			vel: 110,
+			ps:		 	60,
+			atq:	 	65,
+			def:	 	60,
+			atq_esp: 	130,
+			def_esp: 	75,
+			vel: 		110,
 		},
 		descricao:
 			"Sob a lua cheia, este Pokémon imita as sombras das pessoas e ri do medo delas.", // considerando a dex da primeira geração que apareceu
@@ -3320,12 +3320,12 @@ const pkmnDisponiveis = [
 		altura: 8.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0095.png",
 		estatistica: {
-			ps: 35,
-			atq: 45,
-			def: 160,
-			atq_esp: 30,
-			def_esp: 45,
-			vel: 70,
+			ps:		 	35,
+			atq:	 	45,
+			def:	 	160,
+			atq_esp: 	30,
+			def_esp: 	45,
+			vel: 		70,
 		},
 		descricao:
 			"A medida que cresce, as porções de rocha de seu corpo endurecem para se tornarem semelhante a diamante, mas de cor preta.", // considerando a dex da primeira geração que apareceu
@@ -3348,12 +3348,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0096.png",
 		estatistica: {
-			ps: 60,
-			atq: 48,
-			def: 45,
-			atq_esp: 43,
-			def_esp: 90,
-			vel: 42,
+			ps:		 	60,
+			atq:	 	48,
+			def:	 	45,
+			atq_esp: 	43,
+			def_esp: 	90,
+			vel: 		42,
 		},
 		descricao:
 			"Põe os adversários para dormir então come seus sonhos. Ocasionalmente fica doente por comer sonhos ruins.", // considerando a dex da primeira geração que apareceu
@@ -3376,12 +3376,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0097.png",
 		estatistica: {
-			ps: 85,
-			atq: 73,
-			def: 70,
-			atq_esp: 73,
-			def_esp: 115,
-			vel: 67,
+			ps:		 	85,
+			atq:	 	73,
+			def:	 	70,
+			atq_esp: 	73,
+			def_esp: 	115,
+			vel: 		67,
 		},
 		descricao:
 			"Quando trava os olhos em um oponente, usa uma mistura de movimentos psíquicos, como Hipnose e Confusão.", // considerando a dex da primeira geração que apareceu
@@ -3404,12 +3404,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0098.png",
 		estatistica: {
-			ps: 30,
-			atq: 105,
-			def: 90,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 50,
+			ps:		 	30,
+			atq:	 	105,
+			def:	 	90,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		50,
 		},
 		descricao:
 			"Suas pinças não são só poderosas armas, são usadas para equilíbrio quando está andando de lado.", // considerando a dex da primeira geração que apareceu
@@ -3432,12 +3432,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0099.png",
 		estatistica: {
-			ps: 55,
-			atq: 130,
-			def: 115,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 75,
+			ps:		 	55,
+			atq:	 	130,
+			def:	 	115,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		75,
 		},
 		descricao:
 			"A pinça maior possui 10'000 cv em poder de esmagamento. Contudo, seu tamanho o torna difícil de usar.", // considerando a dex da primeira geração que apareceu
@@ -3461,12 +3461,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0100.png",
 		estatistica: {
-			ps: 40,
-			atq: 30,
-			def: 50,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 100,
+			ps:		 	40,
+			atq:	 	30,
+			def:	 	50,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		100,
 		},
 		descricao:
 			"Normalmente encontrado em usinas elétricas. Facilmente confundido com uma Poké Bola, já eletrocutaram muitas pessoas.", // considerando a dex da primeira geração que apareceu
@@ -3489,12 +3489,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0100.png",
 		estatistica: {
-			ps: 40,
-			atq: 30,
-			def: 50,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 100,
+			ps:		 	40,
+			atq:	 	30,
+			def:	 	50,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		100,
 		},
 		descricao:
 			"Um Pokémon enigmático que, por acaso, tem uma semelhança com uma Pokébola. Quando animado, descarrega a corrente elétrica que armazenou em sua barriga e então solta uma grande e estrondosa risada.", // considerando a dex da primeira geração que apareceu
@@ -3517,12 +3517,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0101.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 70,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 150,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	70,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		150,
 		},
 		descricao:
 			"Armazena energia elétrica sob pressão muito alta. Geralmente explode com pouca ou nenhuma provocação.", // considerando a dex da primeira geração que apareceu
@@ -3545,12 +3545,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0101.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 70,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 150,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	70,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		150,
 		},
 		descricao:
 			"O tecido na superfície de seu corpo é curiosamente semelhante a composição de uma Bolota. Quando irritado, este Pokémon libera uma corrente elétrica igual a 20 raios.", // considerando a dex da primeira geração que apareceu
@@ -3573,12 +3573,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0102.png",
 		estatistica: {
-			ps: 60,
-			atq: 40,
-			def: 80,
-			atq_esp: 60,
-			def_esp: 45,
-			vel: 40,
+			ps:		 	60,
+			atq:	 	40,
+			def:	 	80,
+			atq_esp: 	60,
+			def_esp: 	45,
+			vel: 		40,
 		},
 		descricao:
 			"Comumente confundido por ovos. Quando perturbados, rapidamente se reúnem e atacam em bando.", // considerando a dex da primeira geração que apareceu
@@ -3601,12 +3601,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0103.png",
 		estatistica: {
-			ps: 95,
-			atq: 95,
-			def: 85,
-			atq_esp: 125,
-			def_esp: 75,
-			vel: 55,
+			ps:		 	95,
+			atq:	 	95,
+			def:	 	85,
+			atq_esp: 	125,
+			def_esp: 	75,
+			vel: 		55,
 		},
 		descricao:
 			"Seus gritos são muito barulhentos. Isso ocorre porque cada uma das três cabeças pensa no que quiser.", // considerando a dex da primeira geração que apareceu
@@ -3629,12 +3629,12 @@ const pkmnDisponiveis = [
 		altura: 10.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0103.png",
 		estatistica: {
-			ps: 95,
-			atq: 105,
-			def: 85,
-			atq_esp: 125,
-			def_esp: 75,
-			vel: 45,
+			ps:		 	95,
+			atq:	 	105,
+			def:	 	85,
+			atq_esp: 	125,
+			def_esp: 	75,
+			vel: 		45,
 		},
 		descricao:
 			"À medida que crescia mais e mais, sua dependência de poderes psíquicos aumentava, enquanto dentro de si despertava o poder do dragão adormecido.", // considerando a dex da primeira geração que apareceu
@@ -3657,12 +3657,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0104.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 95,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 35,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	95,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		35,
 		},
 		descricao:
 			"Por nunca remover seu capacete, ninguém nunca viu o real rosto deste Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -3685,12 +3685,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0105.png",
 		estatistica: {
-			ps: 60,
-			atq: 80,
-			def: 110,
-			atq_esp: 50,
-			def_esp: 80,
-			vel: 45,
+			ps:		 	60,
+			atq:	 	80,
+			def:	 	110,
+			atq_esp: 	50,
+			def_esp: 	80,
+			vel: 		45,
 		},
 		descricao:
 			"O osso que segura é sua arma principal. Lança o osso com destreza como um boomerang para nocautear os alvos.", // considerando a dex da primeira geração que apareceu
@@ -3714,12 +3714,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0105.png",
 		estatistica: {
-			ps: 60,
-			atq: 80,
-			def: 110,
-			atq_esp: 50,
-			def_esp: 80,
-			vel: 45,
+			ps:		 	60,
+			atq:	 	80,
+			def:	 	110,
+			atq_esp: 	50,
+			def_esp: 	80,
+			vel: 		45,
 		},
 		descricao:
 			"Os ossos que possui já foram de sua mãe. Os arrependimentos de sua mãe se tornaram como um espírito vingativo protegendo este Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -3742,12 +3742,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0106.png",
 		estatistica: {
-			ps: 50,
-			atq: 120,
-			def: 53,
-			atq_esp: 35,
-			def_esp: 110,
-			vel: 87,
+			ps:		 	50,
+			atq:	 	120,
+			def:	 	53,
+			atq_esp: 	35,
+			def_esp: 	110,
+			vel: 		87,
 		},
 		descricao:
 			"Quando está com pressa, o comprimento de suas pernas aumenta progressivamente. Corre suavemente com passadas longas e inclinadas.", // considerando a dex da primeira geração que apareceu
@@ -3770,12 +3770,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/13/F0107.png",
 		estatistica: {
-			ps: 50,
-			atq: 105,
-			def: 79,
-			atq_esp: 35,
-			def_esp: 110,
-			vel: 76,
+			ps:		 	50,
+			atq:	 	105,
+			def:	 	79,
+			atq_esp: 	35,
+			def_esp: 	110,
+			vel: 		76,
 		},
 		descricao:
 			"Embora aparente fazer nada, dispara socos em voleios rápidos impossíveis de ver.", // considerando a dex da primeira geração que apareceu
@@ -3798,12 +3798,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/74/F0108.png",
 		estatistica: {
-			ps: 90,
-			atq: 55,
-			def: 75,
-			atq_esp: 60,
-			def_esp: 75,
-			vel: 30,
+			ps:		 	90,
+			atq:	 	55,
+			def:	 	75,
+			atq_esp: 	60,
+			def_esp: 	75,
+			vel: 		30,
 		},
 		descricao:
 			"Sua língua pode ser estendida como a de um camaleão. Deixa uma sensação de formigamento quando lambe inimigos.", // considerando a dex da primeira geração que apareceu
@@ -3826,12 +3826,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0109.png",
 		estatistica: {
-			ps: 40,
-			atq: 65,
-			def: 95,
-			atq_esp: 60,
-			def_esp: 45,
-			vel: 35,
+			ps:		 	40,
+			atq:	 	65,
+			def:	 	95,
+			atq_esp: 	60,
+			def_esp: 	45,
+			vel: 		35,
 		},
 		descricao:
 			"Por armazenar vários tipos de gases tóxicos em seu corpo, é propenso a explodir sem aviso.", // considerando a dex da primeira geração que apareceu
@@ -3854,12 +3854,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0110.png",
 		estatistica: {
-			ps: 65,
-			atq: 90,
-			def: 120,
-			atq_esp: 85,
-			def_esp: 70,
-			vel: 60,
+			ps:		 	65,
+			atq:	 	90,
+			def:	 	120,
+			atq_esp: 	85,
+			def_esp: 	70,
+			vel: 		60,
 		},
 		descricao:
 			"Vive e cresce absorvendo poeira, germes e gases venenosos contidos em resíduos tóxicos e lixo.", // considerando a dex da primeira geração que apareceu
@@ -3882,12 +3882,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0110.png",
 		estatistica: {
-			ps: 65,
-			atq: 90,
-			def: 120,
-			atq_esp: 85,
-			def_esp: 70,
-			vel: 60,
+			ps:		 	65,
+			atq:	 	90,
+			def:	 	120,
+			atq_esp: 	85,
+			def_esp: 	70,
+			vel: 		60,
 		},
 		descricao:
 			"Este Pokémon consome partículas que contaminam o ar. Em vez de deixar fezes, expele ar limpo.", // considerando a dex da primeira geração que apareceu
@@ -3911,12 +3911,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0111.png",
 		estatistica: {
-			ps: 80,
-			atq: 85,
-			def: 95,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 25,
+			ps:		 	80,
+			atq:	 	85,
+			def:	 	95,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		25,
 		},
 		descricao:
 			"Seus ossos maciços são 1'000 vezes mais duros que os ossos de humanos. Consegue facilmente mandar um trailer voando.", // considerando a dex da primeira geração que apareceu
@@ -3939,12 +3939,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0112.png",
 		estatistica: {
-			ps: 105,
-			atq: 130,
-			def: 120,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 40,
+			ps:		 	105,
+			atq:	 	130,
+			def:	 	120,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		40,
 		},
 		descricao:
 			"Protegido por um couro semelhante a uma armadura, é capaz de viver em lava derretida de 2'000° Celsius.", // considerando a dex da primeira geração que apareceu
@@ -3967,12 +3967,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0113.png",
 		estatistica: {
-			ps: 250,
-			atq: 5,
-			def: 5,
-			atq_esp: 35,
-			def_esp: 105,
-			vel: 50,
+			ps:		 	250,
+			atq:	 	5,
+			def:	 	5,
+			atq_esp: 	35,
+			def_esp: 	105,
+			vel: 		50,
 		},
 		descricao:
 			"Um Pokémon raro e indescritível que dizem trazer felicidade àqueles que conseguem obtê-la.", // considerando a dex da primeira geração que apareceu
@@ -3995,12 +3995,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0114.png",
 		estatistica: {
-			ps: 65,
-			atq: 55,
-			def: 115,
-			atq_esp: 100,
-			def_esp: 40,
-			vel: 60,
+			ps:		 	65,
+			atq:	 	55,
+			def:	 	115,
+			atq_esp: 	100,
+			def_esp: 	40,
+			vel: 		60,
 		},
 		descricao:
 			"Todo seu corpo é coberto por trepadeiras largas que são semelhantes a algas marinhas. Suas vinhas tremem enquanto caminha.", // considerando a dex da primeira geração que apareceu
@@ -4023,12 +4023,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0115.png",
 		estatistica: {
-			ps: 105,
-			atq: 95,
-			def: 80,
-			atq_esp: 40,
-			def_esp: 80,
-			vel: 90,
+			ps:		 	105,
+			atq:	 	95,
+			def:	 	80,
+			atq_esp: 	40,
+			def_esp: 	80,
+			vel: 		90,
 		},
 		descricao:
 			"A criança raramente sai da bolsa protetora da mãe antes dos três anos de idade.", // considerando a dex da primeira geração que apareceu
@@ -4051,12 +4051,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0116.png",
 		estatistica: {
-			ps: 30,
-			atq: 40,
-			def: 70,
-			atq_esp: 70,
-			def_esp: 25,
-			vel: 60,
+			ps:		 	30,
+			atq:	 	40,
+			def:	 	70,
+			atq_esp: 	70,
+			def_esp: 	25,
+			vel: 		60,
 		},
 		descricao:
 			"Conhecido por abater insetos voadores com jatos de tintas precisos da superfície da água.", // considerando a dex da primeira geração que apareceu
@@ -4079,12 +4079,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0117.png",
 		estatistica: {
-			ps: 55,
-			atq: 65,
-			def: 95,
-			atq_esp: 95,
-			def_esp: 45,
-			vel: 85,
+			ps:		 	55,
+			atq:	 	65,
+			def:	 	95,
+			atq_esp: 	95,
+			def_esp: 	45,
+			vel: 		85,
 		},
 		descricao:
 			"Capaz de nadar para trás, batendo rapidamente a cauda robusta e suas barbatanas peitorais em forma de asa.", // considerando a dex da primeira geração que apareceu
@@ -4108,12 +4108,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0118.png",
 		estatistica: {
-			ps: 45,
-			atq: 67,
-			def: 60,
-			atq_esp: 35,
-			def_esp: 50,
-			vel: 63,
+			ps:		 	45,
+			atq:	 	67,
+			def:	 	60,
+			atq_esp: 	35,
+			def_esp: 	50,
+			vel: 		63,
 		},
 		descricao:
 			"Sua barbatana caudal ondula como um elegante vestido de baile, dando-lhe o apelido de 'Rainha da Água'.", // considerando a dex da primeira geração que apareceu
@@ -4137,12 +4137,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0119.png",
 		estatistica: {
-			ps: 80,
-			atq: 92,
-			def: 65,
-			atq_esp: 65,
-			def_esp: 80,
-			vel: 68,
+			ps:		 	80,
+			atq:	 	92,
+			def:	 	65,
+			atq_esp: 	65,
+			def_esp: 	80,
+			vel: 		68,
 		},
 		descricao:
 			"Na temporada de desova de outono, podem ser vistos nadando majestosamente em rios e riachos.", // considerando a dex da primeira geração que apareceu
@@ -4165,12 +4165,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0120.png",
 		estatistica: {
-			ps: 30,
-			atq: 45,
-			def: 55,
-			atq_esp: 70,
-			def_esp: 55,
-			vel: 85,
+			ps:		 	30,
+			atq:	 	45,
+			def:	 	55,
+			atq_esp: 	70,
+			def_esp: 	55,
+			vel: 		85,
 		},
 		descricao:
 			"Um Pokémon enigmático que regenera sem esforço qualquer apêndice que perca em batalha.", // considerando a dex da primeira geração que apareceu
@@ -4193,12 +4193,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0121.png",
 		estatistica: {
-			ps: 60,
-			atq: 75,
-			def: 85,
-			atq_esp: 100,
-			def_esp: 85,
-			vel: 115,
+			ps:		 	60,
+			atq:	 	75,
+			def:	 	85,
+			atq_esp: 	100,
+			def_esp: 	85,
+			vel: 		115,
 		},
 		descricao:
 			"Seu núcleo central brilha com as sete cores do arco-íris. Algumas pessoas valorizam o núcleo como uma gema.", // considerando a dex da primeira geração que apareceu
@@ -4221,12 +4221,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0122.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 65,
-			atq_esp: 100,
-			def_esp: 120,
-			vel: 90,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	65,
+			atq_esp: 	100,
+			def_esp: 	120,
+			vel: 		90,
 		},
 		descricao:
 			"Caso seja interrompido enquanto faz sua mímica, dá um tapa em quem interrompeu com suas mão abertas.", // considerando a dex da primeira geração que apareceu
@@ -4249,12 +4249,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0122.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 65,
-			atq_esp: 90,
-			def_esp: 90,
-			vel: 100,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	90,
+			def_esp: 	90,
+			vel: 		100,
 		},
 		descricao:
 			"Seu talento é o sapateado. Consegue manipular temperaturas para criar um piso de gelo, que este Pokémon pode levantar para usar como barreira.", // considerando a dex da primeira geração que apareceu
@@ -4277,12 +4277,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/49/F0123.png",
 		estatistica: {
-			ps: 70,
-			atq: 110,
-			def: 80,
-			atq_esp: 55,
-			def_esp: 80,
-			vel: 105,
+			ps:		 	70,
+			atq:	 	110,
+			def:	 	80,
+			atq_esp: 	55,
+			def_esp: 	80,
+			vel: 		105,
 		},
 		descricao:
 			"Com agilidade e velocidade semelhantes a de um ninja, consegue criar a ilusão de que há mais de um.", // considerando a dex da primeira geração que apareceu
@@ -4305,12 +4305,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0124.png",
 		estatistica: {
-			ps: 65,
-			atq: 50,
-			def: 35,
-			atq_esp: 115,
-			def_esp: 95,
-			vel: 95,
+			ps:		 	65,
+			atq:	 	50,
+			def:	 	35,
+			atq_esp: 	115,
+			def_esp: 	95,
+			vel: 		95,
 		},
 		descricao:
 			"Mexe os quadris de maneira sedutora enquanto caminha. Pode fazer as pessoas dançarem em uníssono.", // considerando a dex da primeira geração que apareceu
@@ -4333,12 +4333,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0125.png",
 		estatistica: {
-			ps: 65,
-			atq: 83,
-			def: 57,
-			atq_esp: 95,
-			def_esp: 85,
-			vel: 105,
+			ps:		 	65,
+			atq:	 	83,
+			def:	 	57,
+			atq_esp: 	95,
+			def_esp: 	85,
+			vel: 		105,
 		},
 		descricao:
 			"Normalmente encontrado próximo a usinas de energia, podem se afastar e causar grandes apagões nas cidades.", // considerando a dex da primeira geração que apareceu
@@ -4361,12 +4361,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0126.png",
 		estatistica: {
-			ps: 65,
-			atq: 95,
-			def: 57,
-			atq_esp: 100,
-			def_esp: 85,
-			vel: 93,
+			ps:		 	65,
+			atq:	 	95,
+			def:	 	57,
+			atq_esp: 	100,
+			def_esp: 	85,
+			vel: 		93,
 		},
 		descricao:
 			"Seu corpo sempre queima com um brilho laranja que o permite se esconder em meio a chamas.", // considerando a dex da primeira geração que apareceu
@@ -4389,12 +4389,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/62/F0127.png",
 		estatistica: {
-			ps: 65,
-			atq: 125,
-			def: 100,
-			atq_esp: 55,
-			def_esp: 70,
-			vel: 85,
+			ps:		 	65,
+			atq:	 	125,
+			def:	 	100,
+			atq_esp: 	55,
+			def_esp: 	70,
+			vel: 		85,
 		},
 		descricao:
 			"Caso falhe em esmagar sua vítima com suas pinças, balança e joga a vítima com força.", // considerando a dex da primeira geração que apareceu
@@ -4417,12 +4417,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
-			ps: 75,
-			atq: 100,
-			def: 95,
-			atq_esp: 40,
-			def_esp: 70,
-			vel: 110,
+			ps:		 	75,
+			atq:	 	100,
+			def:	 	95,
+			atq_esp: 	40,
+			def_esp: 	70,
+			vel: 		110,
 		},
 		descricao:
 			"Quando mira em um inimigo, investe furiosamente enquanto chicoteia seu corpo com suas longas caudas.", // considerando a dex da primeira geração que apareceu
@@ -4445,12 +4445,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
-			ps: 75,
-			atq: 110,
-			def: 105,
-			atq_esp: 30,
-			def_esp: 70,
-			vel: 100,
+			ps:		 	75,
+			atq:	 	110,
+			def:	 	105,
+			atq_esp: 	30,
+			def_esp: 	70,
+			vel: 		100,
 		},
 		descricao:
 			"Este Pokémon possui um corpo musculoso e se desta em comate corpo a corpo. Usa seus chifres curtos para atacar os pontos fracos do oponente.", // considerando a dex da primeira geração que apareceu
@@ -4473,12 +4473,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
-			ps: 75,
-			atq: 110,
-			def: 105,
-			atq_esp: 30,
-			def_esp: 70,
-			vel: 100,
+			ps:		 	75,
+			atq:	 	110,
+			def:	 	105,
+			atq_esp: 	30,
+			def_esp: 	70,
+			vel: 		100,
 		},
 		descricao:
 			"Quando está aquecido pela energia do fogo, seus chifres podem chegar a mais de 1'000° Celsius. Aqueles que forem chifrados por eles sofrerão ferimentos e queimaduras.", // considerando a dex da primeira geração que apareceu
@@ -4502,12 +4502,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
-			ps: 75,
-			atq: 110,
-			def: 105,
-			atq_esp: 30,
-			def_esp: 70,
-			vel: 100,
+			ps:		 	75,
+			atq:	 	110,
+			def:	 	105,
+			atq_esp: 	30,
+			def_esp: 	70,
+			vel: 		100,
 		},
 		descricao:
 			"Este Pokémon lança água de buracos nas pontas de seus chifres, os jatos de alta pressão perfuram seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -4531,12 +4531,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0129.png",
 		estatistica: {
-			ps: 20,
-			atq: 10,
-			def: 55,
-			atq_esp: 15,
-			def_esp: 20,
-			vel: 80,
+			ps:		 	20,
+			atq:	 	10,
+			def:	 	55,
+			atq_esp: 	15,
+			def_esp: 	20,
+			vel: 		80,
 		},
 		descricao:
 			"Em um passado distante, de alguma maneira já foi mais forte que seus descendentes terrivelmente fracos que existem hoje.", // considerando a dex da primeira geração que apareceu
@@ -4560,12 +4560,12 @@ const pkmnDisponiveis = [
 		altura: 6.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0130.png",
 		estatistica: {
-			ps: 95,
-			atq: 125,
-			def: 79,
-			atq_esp: 60,
-			def_esp: 100,
-			vel: 81,
+			ps:		 	95,
+			atq:	 	125,
+			def:	 	79,
+			atq_esp: 	60,
+			def_esp: 	100,
+			vel: 		81,
 		},
 		descricao:
 			"Raramente visto na natureza. Enorme e cruel, é capaz de destruir cidades inteiras em um ataque de raiva.", // considerando a dex da primeira geração que apareceu
@@ -4588,12 +4588,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0131.png",
 		estatistica: {
-			ps: 130,
-			atq: 85,
-			def: 80,
-			atq_esp: 85,
-			def_esp: 95,
-			vel: 60,
+			ps:		 	130,
+			atq:	 	85,
+			def:	 	80,
+			atq_esp: 	85,
+			def_esp: 	95,
+			vel: 		60,
 		},
 		descricao:
 			"Um Pokémon que tem sido caçado até a quase extinção. Consegue transportar pessoas através de água.", // considerando a dex da primeira geração que apareceu
@@ -4616,12 +4616,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/ff/F0132.png",
 		estatistica: {
-			ps: 48,
-			atq: 48,
-			def: 48,
-			atq_esp: 48,
-			def_esp: 48,
-			vel: 48,
+			ps:		 	48,
+			atq:	 	48,
+			def:	 	48,
+			atq_esp: 	48,
+			def_esp: 	48,
+			vel: 		48,
 		},
 		descricao:
 			"Capaz de copiar o código genético do oponente para instantaneamente si transformar em uma duplicada do oponente.", // considerando a dex da primeira geração que apareceu
@@ -4645,12 +4645,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0133.png",
 		estatistica: {
-			ps: 55,
-			atq: 55,
-			def: 50,
-			atq_esp: 45,
-			def_esp: 65,
-			vel: 55,
+			ps:		 	55,
+			atq:	 	55,
+			def:	 	50,
+			atq_esp: 	45,
+			def_esp: 	65,
+			vel: 		55,
 		},
 		descricao:
 			"Seu código genético é irregular. Pode sofrer mutação caso seja exposto a radiação de Pedras elementais.", // considerando a dex da primeira geração que apareceu
@@ -4673,12 +4673,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0134.png",
 		estatistica: {
-			ps: 130,
-			atq: 65,
-			def: 60,
-			atq_esp: 110,
-			def_esp: 95,
-			vel: 65,
+			ps:		 	130,
+			atq:	 	65,
+			def:	 	60,
+			atq_esp: 	110,
+			def_esp: 	95,
+			vel: 		65,
 		},
 		descricao:
 			"Vive próximo a água. Sua longa cauda é estriada com uma barbatana que muitas vezes confundida com a de uma sereia.", // considerando a dex da primeira geração que apareceu
@@ -4701,12 +4701,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0135.png",
 		estatistica: {
-			ps: 65,
-			atq: 65,
-			def: 60,
-			atq_esp: 110,
-			def_esp: 95,
-			vel: 130,
+			ps:		 	65,
+			atq:	 	65,
+			def:	 	60,
+			atq_esp: 	110,
+			def_esp: 	95,
+			vel: 		130,
 		},
 		descricao:
 			"Acumula íons negativos na atmosfera para lançar raios de 10'000 volts.", // considerando a dex da primeira geração que apareceu
@@ -4729,12 +4729,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0136.png",
 		estatistica: {
-			ps: 65,
-			atq: 130,
-			def: 60,
-			atq_esp: 95,
-			def_esp: 110,
-			vel: 65,
+			ps:		 	65,
+			atq:	 	130,
+			def:	 	60,
+			atq_esp: 	95,
+			def_esp: 	110,
+			vel: 		65,
 		},
 		descricao:
 			"Quando armazena energia térmica em seu corpo, sua temperatura poderia superar os 900° Celsius.", // considerando a dex da primeira geração que apareceu
@@ -4757,12 +4757,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d4/F0137.png",
 		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 70,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 40,
+			ps:		 	65,
+			atq:	 	60,
+			def:	 	70,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		40,
 		},
 		descricao:
 			"Um Pokémon que consiste inteiramente de código de programação. Capaz de se mover livremente no espaço cibernético.", // considerando a dex da primeira geração que apareceu
@@ -4785,12 +4785,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0138.png",
 		estatistica: {
-			ps: 35,
-			atq: 40,
-			def: 100,
-			atq_esp: 90,
-			def_esp: 55,
-			vel: 35,
+			ps:		 	35,
+			atq:	 	40,
+			def:	 	100,
+			atq_esp: 	90,
+			def_esp: 	55,
+			vel: 		35,
 		},
 		descricao:
 			"Mesmo há muito extinto, em casos raros, pode ser ressuscitado a partir de fósseis.", // considerando a dex da primeira geração que apareceu
@@ -4813,12 +4813,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0139.png",
 		estatistica: {
-			ps: 70,
-			atq: 60,
-			def: 125,
-			atq_esp: 115,
-			def_esp: 70,
-			vel: 55,
+			ps:		 	70,
+			atq:	 	60,
+			def:	 	125,
+			atq_esp: 	115,
+			def_esp: 	70,
+			vel: 		55,
 		},
 		descricao:
 			"Um Pokémon pré-histórico que morreu quando sua pesada carapaça tornou impossível de caçar suas presas.", // considerando a dex da primeira geração que apareceu
@@ -4841,12 +4841,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0140.png",
 		estatistica: {
-			ps: 30,
-			atq: 80,
-			def: 90,
-			atq_esp: 55,
-			def_esp: 45,
-			vel: 55,
+			ps:		 	30,
+			atq:	 	80,
+			def:	 	90,
+			atq_esp: 	55,
+			def_esp: 	45,
+			vel: 		55,
 		},
 		descricao:
 			"Um Pokémon que foi ressuscitado a partir de um fóssil encontrado no que já foi o fundo do oceano, eras atrás.", // considerando a dex da primeira geração que apareceu
@@ -4869,12 +4869,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0141.png",
 		estatistica: {
-			ps: 60,
-			atq: 115,
-			def: 105,
-			atq_esp: 65,
-			def_esp: 70,
-			vel: 80,
+			ps:		 	60,
+			atq:	 	115,
+			def:	 	105,
+			atq_esp: 	65,
+			def_esp: 	70,
+			vel: 		80,
 		},
 		descricao:
 			"Seu formato peculiar é perfeito para nadar. Fatia sua presa com suas garras e drena os fluidos corporais.", // considerando a dex da primeira geração que apareceu
@@ -4897,12 +4897,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0142.png",
 		estatistica: {
-			ps: 80,
-			atq: 105,
-			def: 65,
-			atq_esp: 60,
-			def_esp: 75,
-			vel: 130,
+			ps:		 	80,
+			atq:	 	105,
+			def:	 	65,
+			atq_esp: 	60,
+			def_esp: 	75,
+			vel: 		130,
 		},
 		descricao:
 			"Um Pokémon pré-histórico feroz que morreu em tempos antigos. Foi ressuscitado usando DNA pego de âmbar.", // considerando a dex da primeira geração que apareceu
@@ -4925,12 +4925,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0143.png",
 		estatistica: {
-			ps: 160,
-			atq: 110,
-			def: 65,
-			atq_esp: 65,
-			def_esp: 110,
-			vel: 30,
+			ps:		 	160,
+			atq:	 	110,
+			def:	 	65,
+			atq_esp: 	65,
+			def_esp: 	110,
+			vel: 		30,
 		},
 		descricao:
 			"Muito preguiçoso. Só come e dorme. À medida que seu corpo redondo aumenta, se torna cada vez mais preguiçoso.", // considerando a dex da primeira geração que apareceu
@@ -4953,12 +4953,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0144.png",
 		estatistica: {
-			ps: 90,
-			atq: 85,
-			def: 100,
-			atq_esp: 95,
-			def_esp: 125,
-			vel: 85,
+			ps:		 	90,
+			atq:	 	85,
+			def:	 	100,
+			atq_esp: 	95,
+			def_esp: 	125,
+			vel: 		85,
 		},
 		descricao:
 			"Um pássaro lendário que supostamente aparece a pessoas condenadas que estão perdidas em montanhas geladas.", // considerando a dex da primeira geração que apareceu
@@ -4981,12 +4981,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0144.png",
 		estatistica: {
-			ps: 90,
-			atq: 85,
-			def: 85,
-			atq_esp: 125,
-			def_esp: 100,
-			vel: 95,
+			ps:		 	90,
+			atq:	 	85,
+			def:	 	85,
+			atq_esp: 	125,
+			def_esp: 	100,
+			vel: 		95,
 		},
 		descricao:
 			"Suas lâminas semelhantes a penas são compostas de energia psíquica e podem cortar grossas folhas de ferro como se fossem papel.", // considerando a dex da primeira geração que apareceu
@@ -5009,12 +5009,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/36/F0145.png",
 		estatistica: {
-			ps: 90,
-			atq: 90,
-			def: 85,
-			atq_esp: 125,
-			def_esp: 90,
-			vel: 100,
+			ps:		 	90,
+			atq:	 	90,
+			def:	 	85,
+			atq_esp: 	125,
+			def_esp: 	90,
+			vel: 		100,
 		},
 		descricao:
 			"Um pássaro lendário que supostamente surge das nuvens enquanto solta raios enormes.", // considerando a dex da primeira geração que apareceu
@@ -5037,12 +5037,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/36/F0145.png",
 		estatistica: {
-			ps: 90,
-			atq: 125,
-			def: 90,
-			atq_esp: 85,
-			def_esp: 90,
-			vel: 100,
+			ps:		 	90,
+			atq:	 	125,
+			def:	 	90,
+			atq_esp: 	85,
+			def_esp: 	90,
+			vel: 		100,
 		},
 		descricao:
 			"Um chute de suas pernas poderosas pulveriza um caminhão de lixo. Supostamente, corre pelas montanhas a mais de 300 km/h.", // considerando a dex da primeira geração que apareceu
@@ -5065,12 +5065,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0146.png",
 		estatistica: {
-			ps: 90,
-			atq: 100,
-			def: 90,
-			atq_esp: 125,
-			def_esp: 85,
-			vel: 90,
+			ps:		 	90,
+			atq:	 	100,
+			def:	 	90,
+			atq_esp: 	125,
+			def_esp: 	85,
+			vel: 		90,
 		},
 		descricao:
 			"Conhecido como o pássaro lendário de fogo. Cada bater de suas asas cria um deslumbrante clarão de chamas.", // considerando a dex da primeira geração que apareceu
@@ -5093,12 +5093,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0146.png",
 		estatistica: {
-			ps: 90,
-			atq: 85,
-			def: 90,
-			atq_esp: 100,
-			def_esp: 125,
-			vel: 90,
+			ps:		 	90,
+			atq:	 	85,
+			def:	 	90,
+			atq_esp: 	100,
+			def_esp: 	125,
+			vel: 		90,
 		},
 		descricao:
 			"A aura sinistra e flamejante deste Pokémon consumirá o espírito de qualquer criatura que atingir. As vítimas se tornam sombras queimadas de si mesmas.", // considerando a dex da primeira geração que apareceu
@@ -5121,12 +5121,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0147.png",
 		estatistica: {
-			ps: 41,
-			atq: 64,
-			def: 45,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 50,
+			ps:		 	41,
+			atq:	 	64,
+			def:	 	45,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		50,
 		},
 		descricao:
 			"Há muito considerado um Pokémon mítico até que, recentemente, foi descoberta uma colônia vivendo debaixo da água.", // considerando a dex da primeira geração que apareceu
@@ -5149,12 +5149,12 @@ const pkmnDisponiveis = [
 		altura: 4.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0148.png",
 		estatistica: {
-			ps: 61,
-			atq: 84,
-			def: 65,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	61,
+			atq:	 	84,
+			def:	 	65,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Um Pokémon místico que exala uma aura gentil. Possui a habilidade de mudar condições climáticas.", // considerando a dex da primeira geração que apareceu
@@ -5177,12 +5177,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0149.png",
 		estatistica: {
-			ps: 91,
-			atq: 134,
-			def: 95,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 80,
+			ps:		 	91,
+			atq:	 	134,
+			def:	 	95,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		80,
 		},
 		descricao:
 			"Um Pokémon marinho raramente visto. É dito que sua inteligência é comparada a de seres humanos.", // considerando a dex da primeira geração que apareceu
@@ -5205,12 +5205,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0150.png",
 		estatistica: {
-			ps: 106,
-			atq: 110,
-			def: 90,
-			atq_esp: 154,
-			def_esp: 90,
-			vel: 130,
+			ps:		 	106,
+			atq:	 	110,
+			def:	 	90,
+			atq_esp: 	154,
+			def_esp: 	90,
+			vel: 		130,
 		},
 		descricao:
 			"Foi criado por um cientista depois anos de experimentos de engenharia genética.", // considerando a dex da primeira geração que apareceu
@@ -5233,12 +5233,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ad/F0151.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 100,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		100,
 		},
 		descricao:
 			"É tão raro que ainda é dito ser uma miragem por vários especialistas. Somente algumas pessoas o viram ao redor do mundo.", // considerando a dex da primeira geração que apareceu
@@ -5261,12 +5261,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0152.png",
 		estatistica: {
-			ps: 45,
-			atq: 49,
-			def: 65,
-			atq_esp: 49,
-			def_esp: 65,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	49,
+			def:	 	65,
+			atq_esp: 	49,
+			def_esp: 	65,
+			vel: 		45,
 		},
 		descricao:
 			"Adora aproveitar a luz do sol. Usa a folha na cabeça para procurar lugares quentes.", // considerando a dex da primeira geração que apareceu
@@ -5289,12 +5289,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5c/F0153.png",
 		estatistica: {
-			ps: 60,
-			atq: 62,
-			def: 80,
-			atq_esp: 63,
-			def_esp: 80,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	62,
+			def:	 	80,
+			atq_esp: 	63,
+			def_esp: 	80,
+			vel: 		60,
 		},
 		descricao:
 			"Um aroma picante emana de seu pescoço. O aroma age como um estimulante para restaurar saúde.", // considerando a dex da primeira geração que apareceu
@@ -5317,12 +5317,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0154.png",
 		estatistica: {
-			ps: 80,
-			atq: 82,
-			def: 100,
-			atq_esp: 83,
-			def_esp: 100,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	82,
+			def:	 	100,
+			atq_esp: 	83,
+			def_esp: 	100,
+			vel: 		80,
 		},
 		descricao:
 			"O aroma que sobe de suas pétalas contém uma substância que acalma sentimentos agressivos.", // considerando a dex da primeira geração que apareceu
@@ -5345,12 +5345,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0155.png",
 		estatistica: {
-			ps: 39,
-			atq: 52,
-			def: 43,
-			atq_esp: 60,
-			def_esp: 50,
-			vel: 65,
+			ps:		 	39,
+			atq:	 	52,
+			def:	 	43,
+			atq_esp: 	60,
+			def_esp: 	50,
+			vel: 		65,
 		},
 		descricao:
 			"Geralmente fica curvado. Quando está com raiva ou surpreso, atira chamas de suas costas.", // considerando a dex da primeira geração que apareceu
@@ -5373,12 +5373,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/88/F0156.png",
 		estatistica: {
-			ps: 58,
-			atq: 64,
-			def: 58,
-			atq_esp: 80,
-			def_esp: 65,
-			vel: 80,
+			ps:		 	58,
+			atq:	 	64,
+			def:	 	58,
+			atq_esp: 	80,
+			def_esp: 	65,
+			vel: 		80,
 		},
 		descricao:
 			"É coberto totalmente por pelo não inflamável. Consegue aguentar qualquer tipo de ataque de fogo.", // considerando a dex da primeira geração que apareceu
@@ -5401,12 +5401,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/19/F0157.png",
 		estatistica: {
-			ps: 78,
-			atq: 84,
-			def: 78,
-			atq_esp: 109,
-			def_esp: 85,
-			vel: 100,
+			ps:		 	78,
+			atq:	 	84,
+			def:	 	78,
+			atq_esp: 	109,
+			def_esp: 	85,
+			vel: 		100,
 		},
 		descricao:
 			"Quando sua raiva atinge seu ápice, fica tão quente que qualquer coisa que toque imediatamente pega fogo.", // considerando a dex da primeira geração que apareceu
@@ -5429,12 +5429,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/19/F0157.png",
 		estatistica: {
-			ps: 73,
-			atq: 84,
-			def: 78,
-			atq_esp: 119,
-			def_esp: 85,
-			vel: 95,
+			ps:		 	73,
+			atq:	 	84,
+			def:	 	78,
+			atq_esp: 	119,
+			def_esp: 	85,
+			vel: 		95,
 		},
 		descricao:
 			"Dizem que purifica almas perdidas e abandonadas com suas chamas e as guias para a vida após a morte. Acredito que sua forma foi influenciada pela energia da montanha sagrada que se eleva no centro da região.", // considerando a dex da primeira geração que apareceu
@@ -5457,12 +5457,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0158.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 64,
-			atq_esp: 44,
-			def_esp: 48,
-			vel: 43,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	64,
+			atq_esp: 	44,
+			def_esp: 	48,
+			vel: 		43,
 		},
 		descricao:
 			"Suas presas bem desenvolvidas são poderosas e capazes de esmagar qualquer coisa. Mesmo seu treinador deve ter cuidado.", // considerando a dex da primeira geração que apareceu
@@ -5485,12 +5485,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
-			ps: 65,
-			atq: 80,
-			def: 80,
-			atq_esp: 59,
-			def_esp: 63,
-			vel: 58,
+			ps:		 	65,
+			atq:	 	80,
+			def:	 	80,
+			atq_esp: 	59,
+			def_esp: 	63,
+			vel: 		58,
 		},
 		descricao:
 			"Quando perde uma presa, uma nova cresce em seu lugar. Sempre há 48 presas revestindo na boca.", // considerando a dex da primeira geração que apareceu
@@ -5513,12 +5513,12 @@ const pkmnDisponiveis = [
 		altura: 2.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
-			ps: 85,
-			atq: 105,
-			def: 100,
-			atq_esp: 79,
-			def_esp: 83,
-			vel: 78,
+			ps:		 	85,
+			atq:	 	105,
+			def:	 	100,
+			atq_esp: 	79,
+			def_esp: 	83,
+			vel: 		78,
 		},
 		descricao:
 			"Quando morde com suas mandíbulas grandes e poderosas, balança sua cabeça e estraçalha sua vítima com selvageria.", // considerando a dex da primeira geração que apareceu
@@ -5541,12 +5541,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c8/F0161.png",
 		estatistica: {
-			ps: 35,
-			atq: 46,
-			def: 34,
-			atq_esp: 35,
-			def_esp: 45,
-			vel: 20,
+			ps:		 	35,
+			atq:	 	46,
+			def:	 	34,
+			atq_esp: 	35,
+			def_esp: 	45,
+			vel: 		20,
 		},
 		descricao:
 			"Um Pokémon muito precavido, se levanta usando sua cauda para conseguir uma melhor visão de seus arredores.", // considerando a dex da primeira geração que apareceu
@@ -5569,12 +5569,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0162.png",
 		estatistica: {
-			ps: 85,
-			atq: 76,
-			def: 64,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 90,
+			ps:		 	85,
+			atq:	 	76,
+			def:	 	64,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		90,
 		},
 		descricao:
 			"Constrói um ninho para caber seu corpo longo e esguio. O ninho é impossível de se entrar para outros Pokémon entrarem.", // considerando a dex da primeira geração que apareceu
@@ -5597,12 +5597,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0163.png",
 		estatistica: {
-			ps: 60,
-			atq: 30,
-			def: 30,
-			atq_esp: 36,
-			def_esp: 56,
-			vel: 50,
+			ps:		 	60,
+			atq:	 	30,
+			def:	 	30,
+			atq_esp: 	36,
+			def_esp: 	56,
+			vel: 		50,
 		},
 		descricao:
 			"Sempre fica em um pé só. Muda de pé tão rápido, o movimento raramente é visto.", // considerando a dex da primeira geração que apareceu
@@ -5626,12 +5626,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0164.png",
 		estatistica: {
-			ps: 100,
-			atq: 50,
-			def: 50,
-			atq_esp: 76,
-			def_esp: 96,
-			vel: 70,
+			ps:		 	100,
+			atq:	 	50,
+			def:	 	50,
+			atq_esp: 	86,
+			def_esp: 	96,
+			vel: 		70,
 		},
 		descricao:
 			"Seus olhos são especialmente adaptados. Concentram mesmo até mesmo a luz fraca e permitem que veja no escuro.", // considerando a dex da primeira geração que apareceu
@@ -5654,12 +5654,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0165.png",
 		estatistica: {
-			ps: 40,
-			atq: 20,
-			def: 30,
-			atq_esp: 40,
-			def_esp: 80,
-			vel: 55,
+			ps:		 	40,
+			atq:	 	20,
+			def:	 	30,
+			atq_esp: 	40,
+			def_esp: 	80,
+			vel: 		55,
 		},
 		descricao:
 			"É muito tímido. Tem medo de se mover caso esteja sozinho. Mas será ativo caso esteja em grupo.", // considerando a dex da primeira geração que apareceu
@@ -5682,12 +5682,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0166.png",
 		estatistica: {
-			ps: 55,
-			atq: 35,
-			def: 50,
-			atq_esp: 55,
-			def_esp: 110,
-			vel: 85,
+			ps:		 	55,
+			atq:	 	35,
+			def:	 	50,
+			atq_esp: 	55,
+			def_esp: 	110,
+			vel: 		85,
 		},
 		descricao:
 			"Quando as estrelas piscam no céu noturno, esvoaça e espalha um pó brilhante.", // considerando a dex da primeira geração que apareceu
@@ -5710,12 +5710,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0167.png",
 		estatistica: {
-			ps: 40,
-			atq: 60,
-			def: 40,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 30,
+			ps:		 	40,
+			atq:	 	60,
+			def:	 	40,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		30,
 		},
 		descricao:
 			"Permanece parado na mesma pose por dias em sua teia, esperando que sua presa desavisada se aproxime.", // considerando a dex da primeira geração que apareceu
@@ -5738,12 +5738,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0168.png",
 		estatistica: {
-			ps: 70,
-			atq: 90,
-			def: 70,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 40,
+			ps:		 	70,
+			atq:	 	90,
+			def:	 	70,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		40,
 		},
 		descricao:
 			"Tece seus fios não apenas por trás, mas também pela boca. É difícil dizer qual parte é qual.", // considerando a dex da primeira geração que apareceu
@@ -5766,12 +5766,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0169.png",
 		estatistica: {
-			ps: 85,
-			atq: 90,
-			def: 80,
-			atq_esp: 70,
-			def_esp: 80,
-			vel: 130,
+			ps:		 	85,
+			atq:	 	90,
+			def:	 	80,
+			atq_esp: 	70,
+			def_esp: 	80,
+			vel: 		130,
 		},
 		descricao:
 			"Seu vôo na escuridão é tão silencioso que pode não ser notado mesmo quando está próximo.", // considerando a dex da primeira geração que apareceu
@@ -5794,12 +5794,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0170.png",
 		estatistica: {
-			ps: 75,
-			atq: 38,
-			def: 38,
-			atq_esp: 56,
-			def_esp: 56,
-			vel: 67,
+			ps:		 	75,
+			atq:	 	38,
+			def:	 	38,
+			atq_esp: 	56,
+			def_esp: 	56,
+			vel: 		67,
 		},
 		descricao:
 			"Na escuridão do chão oceânico, sua única maneira de comunicação é piscar suas luzes constantemente.", // considerando a dex da primeira geração que apareceu
@@ -5822,12 +5822,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0171.png",
 		estatistica: {
-			ps: 125,
-			atq: 58,
-			def: 58,
-			atq_esp: 76,
-			def_esp: 76,
-			vel: 67,
+			ps:		 	125,
+			atq:	 	58,
+			def:	 	58,
+			atq_esp: 	76,
+			def_esp: 	76,
+			vel: 		67,
 		},
 		descricao:
 			"A luz que emite é tão brilhante que consegue iluminar a superfície do mar de uma profundidade maior que cinco quilômetros.", // considerando a dex da primeira geração que apareceu
@@ -5850,12 +5850,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0172.png",
 		estatistica: {
-			ps: 20,
-			atq: 40,
-			def: 15,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 60,
+			ps:		 	20,
+			atq:	 	40,
+			def:	 	15,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		60,
 		},
 		descricao:
 			"Ainda não é capaz de armazenar eletricidade. Consegue soltar uma faísca se for assustado ou divertido.", // considerando a dex da primeira geração que apareceu
@@ -5878,12 +5878,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0173.png",
 		estatistica: {
-			ps: 50,
-			atq: 25,
-			def: 28,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 15,
+			ps:		 	50,
+			atq:	 	25,
+			def:	 	28,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		15,
 		},
 		descricao:
 			"Por sua silhueta incomum, semelhante a uma estrela, pessoas acreditam que veio de um meteoro.", // considerando a dex da primeira geração que apareceu
@@ -5906,12 +5906,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0174.png",
 		estatistica: {
-			ps: 90,
-			atq: 30,
-			def: 15,
-			atq_esp: 40,
-			def_esp: 20,
-			vel: 15,
+			ps:		 	90,
+			atq:	 	30,
+			def:	 	15,
+			atq_esp: 	40,
+			def_esp: 	20,
+			vel: 		15,
 		},
 		descricao:
 			"Tem um corpo muito macio. Quando começa a rolar, irá saltar por toda parte e será impossível parar.", // considerando a dex da primeira geração que apareceu
@@ -5934,12 +5934,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0175.png",
 		estatistica: {
-			ps: 35,
-			atq: 20,
-			def: 65,
-			atq_esp: 40,
-			def_esp: 65,
-			vel: 20,
+			ps:		 	35,
+			atq:	 	20,
+			def:	 	65,
+			atq_esp: 	40,
+			def_esp: 	65,
+			vel: 		20,
 		},
 		descricao:
 			"A casca aparenta estar cheia de alegria. É dito que compartilhará boa sorte quando tratado com gentileza.", // considerando a dex da primeira geração que apareceu
@@ -5962,12 +5962,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0176.png",
 		estatistica: {
-			ps: 55,
-			atq: 40,
-			def: 85,
-			atq_esp: 80,
-			def_esp: 105,
-			vel: 40,
+			ps:		 	55,
+			atq:	 	40,
+			def:	 	85,
+			atq_esp: 	80,
+			def_esp: 	105,
+			vel: 		40,
 		},
 		descricao:
 			"É dito que aparece diante de pessoas carinhosas, de bom coração e as cobrirá de felicidade.", // considerando a dex da primeira geração que apareceu
@@ -5990,12 +5990,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0177.png",
 		estatistica: {
-			ps: 40,
-			atq: 50,
-			def: 45,
-			atq_esp: 70,
-			def_esp: 45,
-			vel: 70,
+			ps:		 	40,
+			atq:	 	50,
+			def:	 	45,
+			atq_esp: 	70,
+			def_esp: 	45,
+			vel: 		70,
 		},
 		descricao:
 			"Por suas asas não estarem completamente crescidas, tem que pular para se locomover. Sempre está encarando algo.", // considerando a dex da primeira geração que apareceu
@@ -6018,12 +6018,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0178.png",
 		estatistica: {
-			ps: 65,
-			atq: 75,
-			def: 70,
-			atq_esp: 95,
-			def_esp: 70,
-			vel: 95,
+			ps:		 	65,
+			atq:	 	75,
+			def:	 	70,
+			atq_esp: 	95,
+			def_esp: 	70,
+			vel: 		95,
 		},
 		descricao:
 			"É dito que permanece parado e quieto por ver o passado e o futuro ao mesmo tempo.", // considerando a dex da primeira geração que apareceu
@@ -6046,12 +6046,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1f/F0179.png",
 		estatistica: {
-			ps: 55,
-			atq: 40,
-			def: 40,
-			atq_esp: 65,
-			def_esp: 45,
-			vel: 35,
+			ps:		 	55,
+			atq:	 	40,
+			def:	 	40,
+			atq_esp: 	65,
+			def_esp: 	45,
+			vel: 		35,
 		},
 		descricao:
 			"Caso a eletricidade estática acumule em seu corpo, seu velo dobra de volume. Tocá-lo causa um choque elétrico em quem tocou.", // considerando a dex da primeira geração que apareceu
@@ -6074,12 +6074,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0180.png",
 		estatistica: {
-			ps: 70,
-			atq: 55,
-			def: 55,
-			atq_esp: 80,
-			def_esp: 60,
-			vel: 45,
+			ps:		 	70,
+			atq:	 	55,
+			def:	 	55,
+			atq_esp: 	80,
+			def_esp: 	60,
+			vel: 		45,
 		},
 		descricao:
 			"Como resultado de armazenar muita eletricidade, desenvolveu manchas onde nem mesmo a lã felpuda cresce.", // considerando a dex da primeira geração que apareceu
@@ -6102,12 +6102,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0181.png",
 		estatistica: {
-			ps: 90,
-			atq: 75,
-			def: 75,
-			atq_esp: 115,
-			def_esp: 90,
-			vel: 55,
+			ps:		 	90,
+			atq:	 	75,
+			def:	 	85,
+			atq_esp: 	115,
+			def_esp: 	90,
+			vel: 		55,
 		},
 		descricao:
 			"A ponta de sua cauda brilha intensamente e pode ser ser vista de longe. Atua como um farol para pessoas perdidas.", // considerando a dex da primeira geração que apareceu
@@ -6130,12 +6130,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0182.png",
 		estatistica: {
-			ps: 75,
-			atq: 80,
-			def: 85,
-			atq_esp: 90,
-			def_esp: 100,
-			vel: 50,
+			ps:		 	75,
+			atq:	 	80,
+			def:	 	95,
+			atq_esp: 	90,
+			def_esp: 	100,
+			vel: 		50,
 		},
 		descricao:
 			"Abundante nos trópicos. Quando dança, suas pétalas se esfregam e emitem um som agradável de toque.", // considerando a dex da primeira geração que apareceu
@@ -6158,12 +6158,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0183.png",
 		estatistica: {
-			ps: 70,
-			atq: 20,
-			def: 50,
-			atq_esp: 20,
-			def_esp: 50,
-			vel: 40,
+			ps:		 	70,
+			atq:	 	20,
+			def:	 	50,
+			atq_esp: 	20,
+			def_esp: 	50,
+			vel: 		40,
 		},
 		descricao:
 			"A ponta de sua cauda, que contém óleo mais leve que água, o permite nadar sem se afogar.", // considerando a dex da primeira geração que apareceu
@@ -6186,12 +6186,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0184.png",
 		estatistica: {
-			ps: 100,
-			atq: 50,
-			def: 80,
-			atq_esp: 50,
-			def_esp: 80,
-			vel: 50,
+			ps:		 	100,
+			atq:	 	50,
+			def:	 	80,
+			atq_esp: 	60,
+			def_esp: 	80,
+			vel: 		50,
 		},
 		descricao:
 			"Quando está quieto e ouvindo atentamente, consegue dizer o que está em rios turbulentos e rápidos.", // considerando a dex da primeira geração que apareceu
@@ -6214,12 +6214,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0185.png",
 		estatistica: {
-			ps: 70,
-			atq: 100,
-			def: 115,
-			atq_esp: 30,
-			def_esp: 65,
-			vel: 30,
+			ps:		 	70,
+			atq:	 	100,
+			def:	 	115,
+			atq_esp: 	30,
+			def_esp: 	65,
+			vel: 		30,
 		},
 		descricao:
 			"Apesar de sempre fingir ser uma árvore, sua composição aparenta se aproximar mais a de uma rocha do que a de uma árvore.", // considerando a dex da primeira geração que apareceu
@@ -6242,12 +6242,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0186.png",
 		estatistica: {
-			ps: 90,
-			atq: 75,
-			def: 75,
-			atq_esp: 90,
-			def_esp: 100,
-			vel: 70,
+			ps:		 	90,
+			atq:	 	75,
+			def:	 	75,
+			atq_esp: 	90,
+			def_esp: 	100,
+			vel: 		70,
 		},
 		descricao:
 			"Sempre que três ou mais deles se reúnem, cantam em alto volume e acaba soando como um grito.", // considerando a dex da primeira geração que apareceu
@@ -6270,12 +6270,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0187.png",
 		estatistica: {
-			ps: 35,
-			atq: 35,
-			def: 40,
-			atq_esp: 35,
-			def_esp: 55,
-			vel: 50,
+			ps:		 	35,
+			atq:	 	35,
+			def:	 	40,
+			atq_esp: 	35,
+			def_esp: 	55,
+			vel: 		50,
 		},
 		descricao:
 			"Para evitar que seja levado pelo vento, se reúne em grupos. Gostam de brizas leves, no entanto.", // considerando a dex da primeira geração que apareceu
@@ -6298,12 +6298,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0188.png",
 		estatistica: {
-			ps: 55,
-			atq: 45,
-			def: 50,
-			atq_esp: 45,
-			def_esp: 65,
-			vel: 80,
+			ps:		 	55,
+			atq:	 	45,
+			def:	 	50,
+			atq_esp: 	45,
+			def_esp: 	65,
+			vel: 		80,
 		},
 		descricao:
 			"A flor no topo de sua cabeça abre e fecha à medida que a temperatura aumenta ou diminui.", // considerando a dex da primeira geração que apareceu
@@ -6326,12 +6326,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0189.png",
 		estatistica: {
-			ps: 75,
-			atq: 55,
-			def: 70,
-			atq_esp: 55,
-			def_esp: 85,
-			vel: 110,
+			ps:		 	75,
+			atq:	 	55,
+			def:	 	70,
+			atq_esp: 	55,
+			def_esp: 	95,
+			vel: 		110,
 		},
 		descricao:
 			"Uma vez que pega o vento, habilmente controla seus esporos de algodão para flutuar, mesmo ao redor do mundo.", // considerando a dex da primeira geração que apareceu
@@ -6354,12 +6354,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0190.png",
 		estatistica: {
-			ps: 55,
-			atq: 70,
-			def: 55,
-			atq_esp: 40,
-			def_esp: 55,
-			vel: 85,
+			ps:		 	55,
+			atq:	 	70,
+			def:	 	55,
+			atq_esp: 	40,
+			def_esp: 	55,
+			vel: 		85,
 		},
 		descricao:
 			"Sua cauda é tão poderosa que consegue usá-la para agarrar um galho de árvore e se manter no ar.", // considerando a dex da primeira geração que apareceu
@@ -6382,12 +6382,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a3/F0191.png",
 		estatistica: {
-			ps: 30,
-			atq: 30,
-			def: 30,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 30,
+			ps:		 	30,
+			atq:	 	30,
+			def:	 	30,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		30,
 		},
 		descricao:
 			"Vive bebendo apenas gotas de orvalho debaixo das plantas. Dizem que não come nada além disso.", // considerando a dex da primeira geração que apareceu
@@ -6410,12 +6410,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0192.png",
 		estatistica: {
-			ps: 75,
-			atq: 75,
-			def: 55,
-			atq_esp: 105,
-			def_esp: 85,
-			vel: 30,
+			ps:		 	75,
+			atq:	 	75,
+			def:	 	55,
+			atq_esp: 	105,
+			def_esp: 	85,
+			vel: 		30,
 		},
 		descricao:
 			"Converte luz solar em energia. Na escuridão depois do por-do-sol, fecha suas pétalas e permanece parado.", // considerando a dex da primeira geração que apareceu
@@ -6438,12 +6438,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0193.png",
 		estatistica: {
-			ps: 65,
-			atq: 65,
-			def: 45,
-			atq_esp: 75,
-			def_esp: 45,
-			vel: 95,
+			ps:		 	65,
+			atq:	 	65,
+			def:	 	45,
+			atq_esp: 	75,
+			def_esp: 	45,
+			vel: 		95,
 		},
 		descricao:
 			"Quando bate suas asas muito rápido, consegue gerar ondas de choque que quebrarão janelas próximas.", // considerando a dex da primeira geração que apareceu
@@ -6466,12 +6466,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0194.png",
 		estatistica: {
-			ps: 55,
-			atq: 45,
-			def: 45,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 15,
+			ps:		 	55,
+			atq:	 	45,
+			def:	 	45,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		15,
 		},
 		descricao:
 			"Este Pokémon vive em água fria. Deixa a água para procurar comida quando fica frio do lado de fora.", // considerando a dex da primeira geração que apareceu
@@ -6494,12 +6494,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0194.png",
 		estatistica: {
-			ps: 55,
-			atq: 45,
-			def: 45,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 15,
+			ps:		 	55,
+			atq:	 	45,
+			def:	 	45,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		15,
 		},
 		descricao:
 			"Após perder uma disputa territorial, começou a viver em terra. O Pokémon mudou ao longo do tempo, desenvolvendo uma película venenosa para proteger seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -6523,12 +6523,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0195.png",
 		estatistica: {
-			ps: 95,
-			atq: 85,
-			def: 85,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 35,
+			ps:		 	95,
+			atq:	 	85,
+			def:	 	85,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		35,
 		},
 		descricao:
 			"Este Pokémon despreocupado tem uma natureza descontraída. Enquanto nada, sempre esbarra nos cascos dos barcos.", // considerando a dex da primeira geração que apareceu
@@ -6552,12 +6552,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0196.png",
 		estatistica: {
-			ps: 65,
-			atq: 65,
-			def: 60,
-			atq_esp: 130,
-			def_esp: 95,
-			vel: 110,
+			ps:		 	65,
+			atq:	 	65,
+			def:	 	60,
+			atq_esp: 	130,
+			def_esp: 	95,
+			vel: 		110,
 		},
 		descricao:
 			"Usa o fino cabelo que cobre seu corpo para sentir correntes de ar e prever as ações de seu oponente.", // considerando a dex da primeira geração que apareceu
@@ -6580,12 +6580,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0197.png",
 		estatistica: {
-			ps: 95,
-			atq: 65,
-			def: 110,
-			atq_esp: 60,
-			def_esp: 130,
-			vel: 65,
+			ps:		 	95,
+			atq:	 	65,
+			def:	 	110,
+			atq_esp: 	60,
+			def_esp: 	130,
+			vel: 		65,
 		},
 		descricao:
 			"Quando a escuridão cai, os anéis em seu corpo começam a brilhar, causando medo no coração de qualquer um próximo.", // considerando a dex da primeira geração que apareceu
@@ -6608,12 +6608,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0198.png",
 		estatistica: {
-			ps: 60,
-			atq: 85,
-			def: 42,
-			atq_esp: 85,
-			def_esp: 42,
-			vel: 91,
+			ps:		 	60,
+			atq:	 	85,
+			def:	 	42,
+			atq_esp: 	85,
+			def_esp: 	42,
+			vel: 		91,
 		},
 		descricao:
 			"Temido e odiado por muitos, acredita-se que traga infortúnio a todos aqueles que o veem à noite.", // considerando a dex da primeira geração que apareceu
@@ -6636,12 +6636,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/28/F0199.png",
 		estatistica: {
-			ps: 95,
-			atq: 75,
-			def: 80,
-			atq_esp: 100,
-			def_esp: 110,
-			vel: 30,
+			ps:		 	95,
+			atq:	 	75,
+			def:	 	80,
+			atq_esp: 	100,
+			def_esp: 	110,
+			vel: 		30,
 		},
 		descricao:
 			"Possui inteligência e intuição incríveis. Seja qual for a situação, permanece calmo e controlado.", // considerando a dex da primeira geração que apareceu
@@ -6664,12 +6664,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/28/F0199.png",
 		estatistica: {
-			ps: 95,
-			atq: 65,
-			def: 80,
-			atq_esp: 110,
-			def_esp: 110,
-			vel: 30,
+			ps:		 	95,
+			atq:	 	65,
+			def:	 	80,
+			atq_esp: 	110,
+			def_esp: 	110,
+			vel: 		30,
 		},
 		descricao:
 			"Enquanto entoa feitiços estranhos, este Pokémon combina suas toxinas internas com o que come, criando poções estranhas.", // considerando a dex da primeira geração que apareceu
@@ -6692,12 +6692,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0200.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 60,
-			atq_esp: 85,
-			def_esp: 85,
-			vel: 85,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	85,
+			def_esp: 	85,
+			vel: 		85,
 		},
 		descricao:
 			"Gosta de aplicar trotes travessos, como gritar e lamentar para assustar as pessoas à noite.", // considerando a dex da primeira geração que apareceu
@@ -6720,12 +6720,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0201.png",
 		estatistica: {
-			ps: 48,
-			atq: 72,
-			def: 48,
-			atq_esp: 72,
-			def_esp: 48,
-			vel: 48,
+			ps:		 	48,
+			atq:	 	72,
+			def:	 	48,
+			atq_esp: 	72,
+			def_esp: 	48,
+			vel: 		48,
 		},
 		descricao:
 			"Seu corpo plano e fino está sempre preso em paredes. Seu formato aparenta ter algum significado.", // considerando a dex da primeira geração que apareceu
@@ -6768,25 +6768,25 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Wobboffet",
+		nome: "Wobbuffet",
 		numero: 202, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 28.5, // em kg
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0202.png",
 		estatistica: {
-			ps: 190,
-			atq: 33,
-			def: 58,
-			atq_esp: 33,
-			def_esp: 58,
-			vel: 33,
+			ps:		 	190,
+			atq:	 	33,
+			def:	 	58,
+			atq_esp: 	33,
+			def_esp: 	58,
+			vel: 		33,
 		},
 		descricao:
 			"Odeia luz e choque. Quando atacado, infla seu corpo para aumentar seu contra-ataque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paciente",
 		obtencao: "Caverna Escura",
-		estagio: 1,
+		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -6803,12 +6803,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0203.png",
 		estatistica: {
-			ps: 70,
-			atq: 80,
-			def: 65,
-			atq_esp: 90,
-			def_esp: 65,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	80,
+			def:	 	65,
+			atq_esp: 	90,
+			def_esp: 	65,
+			vel: 		85,
 		},
 		descricao:
 			"Sua cauda possui um pequeno cérebro próprio. Caso alguém se aproxime, pode reagir ao cheiro e morder.", // considerando a dex da primeira geração que apareceu
@@ -6831,12 +6831,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0204.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 90,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 15,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	90,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		15,
 		},
 		descricao:
 			"Gosta de fazer sua casca mais espessa adicionando camadas de casca de árvores. O peso adicional não lhe incomoda.", // considerando a dex da primeira geração que apareceu
@@ -6859,12 +6859,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0205.png",
 		estatistica: {
-			ps: 75,
-			atq: 90,
-			def: 140,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 40,
+			ps:		 	75,
+			atq:	 	90,
+			def:	 	140,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		40,
 		},
 		descricao:
 			"Seu corpo inteiro é protegido por uma concha tão dura quanto aço. O que se esconde dentro da armadura é um total mistério.", // considerando a dex da primeira geração que apareceu
@@ -6887,12 +6887,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/91/F0206.png",
 		estatistica: {
-			ps: 100,
-			atq: 70,
-			def: 70,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 45,
+			ps:		 	100,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		45,
 		},
 		descricao:
 			"Quando avistado, este Pokémon escapa para trás perfurando furiosamente o chão com sua cauda.", // considerando a dex da primeira geração que apareceu
@@ -6915,12 +6915,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0207.png",
 		estatistica: {
-			ps: 65,
-			atq: 75,
-			def: 105,
-			atq_esp: 35,
-			def_esp: 65,
-			vel: 85,
+			ps:		 	65,
+			atq:	 	75,
+			def:	 	105,
+			atq_esp: 	35,
+			def_esp: 	65,
+			vel: 		85,
 		},
 		descricao:
 			"Voa direto ao rosto do alvo e depois agarra a vítima assustada para injetar veneno.", // considerando a dex da primeira geração que apareceu
@@ -6943,12 +6943,12 @@ const pkmnDisponiveis = [
 		altura: 9.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0208.png",
 		estatistica: {
-			ps: 75,
-			atq: 85,
-			def: 200,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 30,
+			ps:		 	75,
+			atq:	 	85,
+			def:	 	200,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		30,
 		},
 		descricao:
 			"Seu corpo tem sido comprimido profundamente sob o solo. Como resultado, é mais duro do que um diamante.", // considerando a dex da primeira geração que apareceu
@@ -6971,12 +6971,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0209.png",
 		estatistica: {
-			ps: 60,
-			atq: 80,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	80,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		30,
 		},
 		descricao:
 			"Apesar de parecer assustador, é, na verdade, bondoso e afetuoso. É muito popular entre mulheres.", // considerando a dex da primeira geração que apareceu
@@ -6999,12 +6999,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e3/F0210.png",
 		estatistica: {
-			ps: 90,
-			atq: 120,
-			def: 75,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 45,
+			ps:		 	90,
+			atq:	 	120,
+			def:	 	75,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		45,
 		},
 		descricao:
 			"Na verdade, é tímido e facilmente assustado. Quando atacado, se agita para afastar seu agressor.", // considerando a dex da primeira geração que apareceu
@@ -7027,12 +7027,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0211.png",
 		estatistica: {
-			ps: 65,
-			atq: 95,
-			def: 85,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 85,
+			ps:		 	65,
+			atq:	 	95,
+			def:	 	85,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		85,
 		},
 		descricao:
 			"Para disparar seus espinhos venenosos, deve inflar seu corpo bebendo mais de 10 litros de água de uma vez.", // considerando a dex da primeira geração que apareceu
@@ -7055,12 +7055,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0211.png",
 		estatistica: {
-			ps: 65,
-			atq: 95,
-			def: 85,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 85,
+			ps:		 	65,
+			atq:	 	95,
+			def:	 	85,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		85,
 		},
 		descricao:
 			"Pescadores detestam este Pokémon problemático por borrifar veneno de seus espinhos, pegando em todo lugar.", // considerando a dex da primeira geração que apareceu
@@ -7084,12 +7084,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0212.png",
 		estatistica: {
-			ps: 70,
-			atq: 130,
-			def: 100,
-			atq_esp: 55,
-			def_esp: 80,
-			vel: 65,
+			ps:		 	70,
+			atq:	 	130,
+			def:	 	100,
+			atq_esp: 	55,
+			def_esp: 	80,
+			vel: 		65,
 		},
 		descricao:
 			"Balança suas pinças com padrão de olho para assustar seus inimigos. Isso faz com que pareça que tenha três cabeças.", // considerando a dex da primeira geração que apareceu
@@ -7112,12 +7112,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0213.png",
 		estatistica: {
-			ps: 20,
-			atq: 10,
-			def: 230,
-			atq_esp: 10,
-			def_esp: 230,
-			vel: 5,
+			ps:		 	20,
+			atq:	 	10,
+			def:	 	230,
+			atq_esp: 	10,
+			def_esp: 	230,
+			vel: 		5,
 		},
 		descricao:
 			"As frutas que armazena em sua concha semelhante a um caso, se decompõem e se tornam um líquido pegajoso.", // considerando a dex da primeira geração que apareceu
@@ -7140,12 +7140,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0214.png",
 		estatistica: {
-			ps: 80,
-			atq: 125,
-			def: 75,
-			atq_esp: 40,
-			def_esp: 95,
-			vel: 85,
+			ps:		 	80,
+			atq:	 	125,
+			def:	 	75,
+			atq_esp: 	40,
+			def_esp: 	95,
+			vel: 		85,
 		},
 		descricao:
 			"Este poderoso Pokémon empurra seu chifre premiado sob a barriga de seus inimigos, depois os levanta e os joga.", // considerando a dex da primeira geração que apareceu
@@ -7168,12 +7168,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0215.png",
 		estatistica: {
-			ps: 55,
-			atq: 95,
-			def: 55,
-			atq_esp: 35,
-			def_esp: 75,
-			vel: 115,
+			ps:		 	55,
+			atq:	 	95,
+			def:	 	55,
+			atq_esp: 	35,
+			def_esp: 	75,
+			vel: 		115,
 		},
 		descricao:
 			"Suas patas escondem garras afiadas. Se atacado, de repente estende as garras e assusta seu inimigo.", // considerando a dex da primeira geração que apareceu
@@ -7196,12 +7196,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0215.png",
 		estatistica: {
-			ps: 55,
-			atq: 95,
-			def: 55,
-			atq_esp: 35,
-			def_esp: 75,
-			vel: 115,
+			ps:		 	55,
+			atq:	 	95,
+			def:	 	55,
+			atq_esp: 	35,
+			def_esp: 	75,
+			vel: 		115,
 		},
 		descricao:
 			"Suas garras robustas e curvas são ideais para atravessar penhascos íngremes. Das pontas dessas garras escorre um veneno que se infiltra nos nervos de qualquer presa capturada nas garras deste Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -7225,12 +7225,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b5/F0216.png",
 		estatistica: {
-			ps: 60,
-			atq: 80,
-			def: 50,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 40,
+			ps:		 	60,
+			atq:	 	80,
+			def:	 	50,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		40,
 		},
 		descricao:
 			"Caso encontre mel, sua marca crescente brilha. Sempre lambe suas patas por sempre estarem encharcadas com mel.", // considerando a dex da primeira geração que apareceu
@@ -7253,12 +7253,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0217.png",
 		estatistica: {
-			ps: 90,
-			atq: 130,
-			def: 75,
-			atq_esp: 75,
-			def_esp: 75,
-			vel: 55,
+			ps:		 	90,
+			atq:	 	130,
+			def:	 	75,
+			atq_esp: 	75,
+			def_esp: 	75,
+			vel: 		55,
 		},
 		descricao:
 			"Apesar de ser um bom escalador, prefere quebrar árvores com suas patas dianteiras e comer Frutas caídas.", // considerando a dex da primeira geração que apareceu
@@ -7282,12 +7282,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0218.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 40,
-			atq_esp: 70,
-			def_esp: 40,
-			vel: 20,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	40,
+			atq_esp: 	70,
+			def_esp: 	40,
+			vel: 		20,
 		},
 		descricao:
 			"Nunca dorme. Tem que continuar em movimento porque, se parar, seu corpo de magma esfriaria e endureceria.", // considerando a dex da primeira geração que apareceu
@@ -7310,12 +7310,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0219.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 120,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	120,
+			atq_esp: 	90,
+			def_esp: 	80,
+			vel: 		30,
 		},
 		descricao:
 			"A concha em suas costas é apenas pele que esfriou e endureceu. Quebra facilmente com um leve toque.", // considerando a dex da primeira geração que apareceu
@@ -7338,12 +7338,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0220.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 40,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	40,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		50,
 		},
 		descricao:
 			"Esfrega o focinho no chão para encontrar e desenterrar comida. Às vezes, descobre fonte termal.", // considerando a dex da primeira geração que apareceu
@@ -7366,12 +7366,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0221.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 80,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 50,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	80,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		50,
 		},
 		descricao:
 			"Por causa de seu longo pelo por todo corpo obscurecer sua visão, continua investindo repetidamente.", // considerando a dex da primeira geração que apareceu
@@ -7394,12 +7394,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0222.png",
 		estatistica: {
-			ps: 65,
-			atq: 55,
-			def: 95,
-			atq_esp: 65,
-			def_esp: 95,
-			vel: 35,
+			ps:		 	65,
+			atq:	 	55,
+			def:	 	95,
+			atq_esp: 	65,
+			def_esp: 	95,
+			vel: 		35,
 		},
 		descricao:
 			"Em uma nação dos mares do sul, as pessoas vivem em comunidades construídas em grupos desses Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -7422,12 +7422,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0222.png",
 		estatistica: {
-			ps: 60,
-			atq: 55,
-			def: 100,
-			atq_esp: 65,
-			def_esp: 100,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	55,
+			def:	 	100,
+			atq_esp: 	65,
+			def_esp: 	100,
+			vel: 		30,
 		},
 		descricao:
 			"Cuidado onde pisa ao vagar por áreas que os oceanos antes cobriam. O que parece uma pedra pode ser este Pokémon, e vai te amaldiçoar se você chutá-lo.", // considerando a dex da primeira geração que apareceu
@@ -7450,12 +7450,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0223.png",
 		estatistica: {
-			ps: 35,
-			atq: 65,
-			def: 35,
-			atq_esp: 65,
-			def_esp: 35,
-			vel: 65,
+			ps:		 	35,
+			atq:	 	65,
+			def:	 	35,
+			atq_esp: 	65,
+			def_esp: 	35,
+			vel: 		65,
 		},
 		descricao:
 			"Possui uma precisão soberba. A água que atira pode atingir até mesmo presa em movimento a mais de cem metros.", // considerando a dex da primeira geração que apareceu
@@ -7478,12 +7478,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0224.png",
 		estatistica: {
-			ps: 75,
-			atq: 105,
-			def: 75,
-			atq_esp: 105,
-			def_esp: 75,
-			vel: 45,
+			ps:		 	75,
+			atq:	 	105,
+			def:	 	75,
+			atq_esp: 	105,
+			def_esp: 	75,
+			vel: 		45,
 		},
 		descricao:
 			"Prende seus inimigos com seus tentáculos com ventosas depois esmaga-os com sua cabeça dura como rocha.", // considerando a dex da primeira geração que apareceu
@@ -7506,12 +7506,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0225.png",
 		estatistica: {
-			ps: 45,
-			atq: 55,
-			def: 45,
-			atq_esp: 65,
-			def_esp: 45,
-			vel: 75,
+			ps:		 	45,
+			atq:	 	55,
+			def:	 	45,
+			atq_esp: 	65,
+			def_esp: 	45,
+			vel: 		75,
 		},
 		descricao:
 			"Carrega comida o dia todo. Há contos sobre pessoas perdidas que foram salvas pela comida que tinha.", // considerando a dex da primeira geração que apareceu
@@ -7534,12 +7534,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0226.png",
 		estatistica: {
-			ps: 65,
-			atq: 40,
-			def: 70,
-			atq_esp: 80,
-			def_esp: 140,
-			vel: 70,
+			ps:		 	85,
+			atq:	 	40,
+			def:	 	70,
+			atq_esp: 	80,
+			def_esp: 	140,
+			vel: 		70,
 		},
 		descricao:
 			"Enquanto nada livremente em mares abertos, pode voar fora da água e sobre as ondas se conseguir velocidade o suficiente.", // considerando a dex da primeira geração que apareceu
@@ -7562,12 +7562,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0227.png",
 		estatistica: {
-			ps: 65,
-			atq: 80,
-			def: 140,
-			atq_esp: 40,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	65,
+			atq:	 	80,
+			def:	 	140,
+			atq_esp: 	40,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Suas asas resistentes parecem pesadas, mas são ocas e leves, permitindo que voe livremente no céu.", // considerando a dex da primeira geração que apareceu
@@ -7590,12 +7590,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0228.png",
 		estatistica: {
-			ps: 45,
-			atq: 60,
-			def: 30,
-			atq_esp: 80,
-			def_esp: 50,
-			vel: 65,
+			ps:		 	45,
+			atq:	 	60,
+			def:	 	30,
+			atq_esp: 	80,
+			def_esp: 	50,
+			vel: 		65,
 		},
 		descricao:
 			"Usa diferentes tipos de sons para se comunicar com outros de sua espécie e perseguir sua presa.", // considerando a dex da primeira geração que apareceu
@@ -7618,12 +7618,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0229.png",
 		estatistica: {
-			ps: 75,
-			atq: 90,
-			def: 50,
-			atq_esp: 110,
-			def_esp: 80,
-			vel: 95,
+			ps:		 	75,
+			atq:	 	90,
+			def:	 	50,
+			atq_esp: 	110,
+			def_esp: 	80,
+			vel: 		95,
 		},
 		descricao:
 			"Caso você seja queimado pelas chamas que este Pokémon lança pela boca, a dor nunca irá embora.", // considerando a dex da primeira geração que apareceu
@@ -7646,12 +7646,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0230.png",
 		estatistica: {
-			ps: 75,
-			atq: 95,
-			def: 95,
-			atq_esp: 95,
-			def_esp: 95,
-			vel: 85,
+			ps:		 	75,
+			atq:	 	95,
+			def:	 	95,
+			atq_esp: 	95,
+			def_esp: 	95,
+			vel: 		85,
 		},
 		descricao:
 			"Dizem que este Pokémon se esconde em cavernas subaquáticas. Consegue criar redemoinhos ao bocejar.", // considerando a dex da primeira geração que apareceu
@@ -7674,12 +7674,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0231.png",
 		estatistica: {
-			ps: 90,
-			atq: 60,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 40,
+			ps:		 	90,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		40,
 		},
 		descricao:
 			"Balança seu longo focinho alegremente por aí, mas, por ser muito forte, isso pode ser perigoso.", // considerando a dex da primeira geração que apareceu
@@ -7695,19 +7695,19 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Phanpy_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Dophan",
+		nome: "Donphan",
 		numero: 232, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 120.0, // em kg
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0232.png",
 		estatistica: {
-			ps: 90,
-			atq: 120,
-			def: 120,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 50,
+			ps:		 	90,
+			atq:	 	120,
+			def:	 	120,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		50,
 		},
 		descricao:
 			"Possui presas duras, afiadas e um couro áspero. Sua Investida é forte o suficiente para derrubar uma casa.", // considerando a dex da primeira geração que apareceu
@@ -7731,12 +7731,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6a/F0233.png",
 		estatistica: {
-			ps: 85,
-			atq: 80,
-			def: 90,
-			atq_esp: 105,
-			def_esp: 95,
-			vel: 60,
+			ps:		 	85,
+			atq:	 	80,
+			def:	 	90,
+			atq_esp: 	105,
+			def_esp: 	95,
+			vel: 		60,
 		},
 		descricao:
 			"Pesquisas posteriores aperfeiçoaram suas habilidades. Algumas vezes, pode exibir movimentos que não foram programados.", // considerando a dex da primeira geração que apareceu
@@ -7759,12 +7759,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0234.png",
 		estatistica: {
-			ps: 73,
-			atq: 95,
-			def: 62,
-			atq_esp: 85,
-			def_esp: 65,
-			vel: 85,
+			ps:		 	73,
+			atq:	 	95,
+			def:	 	62,
+			atq_esp: 	85,
+			def_esp: 	65,
+			vel: 		85,
 		},
 		descricao:
 			"Os chifres curvos mudam sutilmente o fluxo de ar para criar um espaço estranho onde a realidade é distorcida.", // considerando a dex da primeira geração que apareceu
@@ -7787,12 +7787,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0235.png",
 		estatistica: {
-			ps: 55,
-			atq: 20,
-			def: 35,
-			atq_esp: 20,
-			def_esp: 45,
-			vel: 75,
+			ps:		 	55,
+			atq:	 	20,
+			def:	 	35,
+			atq_esp: 	20,
+			def_esp: 	45,
+			vel: 		75,
 		},
 		descricao:
 			"Uma vez que se torna adulto, tem a tendencia de deixar seus companheiros marcarem suas costas.", // considerando a dex da primeira geração que apareceu
@@ -7815,12 +7815,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0236.png",
 		estatistica: {
-			ps: 35,
-			atq: 35,
-			def: 35,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 35,
+			ps:		 	35,
+			atq:	 	35,
+			def:	 	35,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		35,
 		},
 		descricao:
 			"Mesmo sendo pequeno, não pode ser ignorado, pois pode atingir qualquer alvo próximo sem aviso.", // considerando a dex da primeira geração que apareceu
@@ -7843,12 +7843,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0237.png",
 		estatistica: {
-			ps: 50,
-			atq: 95,
-			def: 95,
-			atq_esp: 35,
-			def_esp: 110,
-			vel: 70,
+			ps:		 	50,
+			atq:	 	95,
+			def:	 	95,
+			atq_esp: 	35,
+			def_esp: 	110,
+			vel: 		70,
 		},
 		descricao:
 			"Lança seus chutes enquanto gira. Se girar em alta velocidade, pode perfurar o chão.", // considerando a dex da primeira geração que apareceu
@@ -7871,12 +7871,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7c/F0238.png",
 		estatistica: {
-			ps: 45,
-			atq: 30,
-			def: 15,
-			atq_esp: 85,
-			def_esp: 65,
-			vel: 65,
+			ps:		 	45,
+			atq:	 	30,
+			def:	 	15,
+			atq_esp: 	85,
+			def_esp: 	65,
+			vel: 		65,
 		},
 		descricao:
 			"Sempre balança a cabeça lentamente para frente e para trás como se estivesse tentando beijar alguém.", // considerando a dex da primeira geração que apareceu
@@ -7899,12 +7899,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8a/F0239.png",
 		estatistica: {
-			ps: 45,
-			atq: 63,
-			def: 37,
-			atq_esp: 65,
-			def_esp: 55,
-			vel: 95,
+			ps:		 	45,
+			atq:	 	63,
+			def:	 	37,
+			atq_esp: 	65,
+			def_esp: 	55,
+			vel: 		95,
 		},
 		descricao:
 			"Gira seus braços para gerar eletricidade, mas se cansa rapidamente, então carrega apenas um pouco.", // considerando a dex da primeira geração que apareceu
@@ -7927,12 +7927,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0240.png",
 		estatistica: {
-			ps: 45,
-			atq: 75,
-			def: 37,
-			atq_esp: 70,
-			def_esp: 55,
-			vel: 83,
+			ps:		 	45,
+			atq:	 	75,
+			def:	 	37,
+			atq_esp: 	70,
+			def_esp: 	55,
+			vel: 		83,
 		},
 		descricao:
 			"Cada e toda vez que inspira e expira, brasas quentes pingam de sua boca e narinas.", // considerando a dex da primeira geração que apareceu
@@ -7955,12 +7955,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0241.png",
 		estatistica: {
-			ps: 95,
-			atq: 80,
-			def: 105,
-			atq_esp: 40,
-			def_esp: 70,
-			vel: 100,
+			ps:		 	95,
+			atq:	 	80,
+			def:	 	105,
+			atq_esp: 	40,
+			def_esp: 	70,
+			vel: 		100,
 		},
 		descricao:
 			"Seu leite é rico em nutrientes, tornando-o a bebida ideal para os doentes ou cansados.", // considerando a dex da primeira geração que apareceu
@@ -7983,12 +7983,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0242.png",
 		estatistica: {
-			ps: 255,
-			atq: 10,
-			def: 10,
-			atq_esp: 75,
-			def_esp: 135,
-			vel: 55,
+			ps:		 	255,
+			atq:	 	10,
+			def:	 	10,
+			atq_esp: 	75,
+			def_esp: 	135,
+			vel: 		55,
 		},
 		descricao:
 			"Tem uma natureza compassiva. Caso veja um Pokémon doente, irá cuidar do indivíduo até que fique saudável.", // considerando a dex da primeira geração que apareceu
@@ -8011,12 +8011,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0243.png",
 		estatistica: {
-			ps: 90,
-			atq: 85,
-			def: 75,
-			atq_esp: 115,
-			def_esp: 100,
-			vel: 115,
+			ps:		 	90,
+			atq:	 	85,
+			def:	 	75,
+			atq_esp: 	115,
+			def_esp: 	100,
+			vel: 		115,
 		},
 		descricao:
 			"As nuvens de chuva que carrega permitem que dispare raios à vontade. É dito que descendeu com raio.", // considerando a dex da primeira geração que apareceu
@@ -8039,12 +8039,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0244.png",
 		estatistica: {
-			ps: 115,
-			atq: 115,
-			def: 85,
-			atq_esp: 90,
-			def_esp: 75,
-			vel: 100,
+			ps:		 	115,
+			atq:	 	115,
+			def:	 	85,
+			atq_esp: 	90,
+			def_esp: 	75,
+			vel: 		100,
 		},
 		descricao:
 			"Vulcões entram em erupção quando late. Incapaz de restringir seu extremo poder, corre pela terra.", // considerando a dex da primeira geração que apareceu
@@ -8067,12 +8067,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0245.png",
 		estatistica: {
-			ps: 100,
-			atq: 75,
-			def: 115,
-			atq_esp: 90,
-			def_esp: 115,
-			vel: 85,
+			ps:		 	100,
+			atq:	 	75,
+			def:	 	115,
+			atq_esp: 	90,
+			def_esp: 	115,
+			vel: 		85,
 		},
 		descricao:
 			"Este Pokémon divino voa pelo mundo, sempre em busca de um reservatório puro.", // considerando a dex da primeira geração que apareceu
@@ -8095,12 +8095,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0246.png",
 		estatistica: {
-			ps: 50,
-			atq: 64,
-			def: 50,
-			atq_esp: 45,
-			def_esp: 50,
-			vel: 41,
+			ps:		 	50,
+			atq:	 	64,
+			def:	 	50,
+			atq_esp: 	45,
+			def_esp: 	50,
+			vel: 		41,
 		},
 		descricao:
 			"Sua alimentação vem do solo. Depois de ter comido uma grande montanha, cairá em um sono para conseguir crescer.", // considerando a dex da primeira geração que apareceu
@@ -8123,12 +8123,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/80/F0247.png",
 		estatistica: {
-			ps: 70,
-			atq: 84,
-			def: 70,
-			atq_esp: 65,
-			def_esp: 70,
-			vel: 51,
+			ps:		 	70,
+			atq:	 	84,
+			def:	 	70,
+			atq_esp: 	65,
+			def_esp: 	70,
+			vel: 		51,
 		},
 		descricao:
 			"Sua casca é tão dura quanto um pedaço de rocha, e também é muito forte. Consegue derrubar uma montanha.", // considerando a dex da primeira geração que apareceu
@@ -8151,12 +8151,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0248.png",
 		estatistica: {
-			ps: 100,
-			atq: 134,
-			def: 110,
-			atq_esp: 95,
-			def_esp: 100,
-			vel: 61,
+			ps:		 	100,
+			atq:	 	134,
+			def:	 	110,
+			atq_esp: 	95,
+			def_esp: 	100,
+			vel: 		61,
 		},
 		descricao:
 			"Seu corpo não pode ser machucado por nenhum tipo de ataque, por isso é muito ansioso para fazer desafios contra inimigos.", // considerando a dex da primeira geração que apareceu
@@ -8179,12 +8179,12 @@ const pkmnDisponiveis = [
 		altura: 5.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0249.png",
 		estatistica: {
-			ps: 106,
-			atq: 90,
-			def: 130,
-			atq_esp: 90,
-			def_esp: 154,
-			vel: 110,
+			ps:		 	106,
+			atq:	 	90,
+			def:	 	130,
+			atq_esp: 	90,
+			def_esp: 	154,
+			vel: 		110,
 		},
 		descricao:
 			"Dizem que é o guardião dos mares. Há rumores de que foi visto na noite de uma tempestade.", // considerando a dex da primeira geração que apareceu
@@ -8207,12 +8207,12 @@ const pkmnDisponiveis = [
 		altura: 3.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0250.png",
 		estatistica: {
-			ps: 106,
-			atq: 130,
-			def: 90,
-			atq_esp: 110,
-			def_esp: 154,
-			vel: 90,
+			ps:		 	106,
+			atq:	 	130,
+			def:	 	90,
+			atq_esp: 	110,
+			def_esp: 	154,
+			vel: 		90,
 		},
 		descricao:
 			"Segundo as lendas, este Pokémon voa pelos céus do planeta continuamente em suas magnificas asas de sete cores.", // considerando a dex da primeira geração que apareceu
@@ -8235,12 +8235,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0251.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 100,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		100,
 		},
 		descricao:
 			"Este Pokémon vaga pelo tempo. A grama e as árvores floresce nas florestas em que apareceu.", // considerando a dex da primeira geração que apareceu
@@ -8263,12 +8263,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0252.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 35,
-			atq_esp: 65,
-			def_esp: 55,
-			vel: 70,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	35,
+			atq_esp: 	65,
+			def_esp: 	55,
+			vel: 		70,
 		},
 		descricao:
 			"Possui pequenos ganchos na sola de suas patas que o permite escalar paredes verticais. Este Pokémon ataca batendo nos inimigos com sua cauda grossa.", // considerando a dex da primeira geração que apareceu
@@ -8291,12 +8291,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/69/F0253.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 45,
-			atq_esp: 85,
-			def_esp: 65,
-			vel: 95,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	45,
+			atq_esp: 	85,
+			def_esp: 	65,
+			vel: 		95,
 		},
 		descricao:
 			"As folhas que crescem em seu corpo são convenientes para camuflá-lo de seus inimigos em florestas. Este Pokémon é um mestre em escalar árvores em selvas.", // considerando a dex da primeira geração que apareceu
@@ -8319,12 +8319,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0254.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 65,
-			atq_esp: 105,
-			def_esp: 85,
-			vel: 120,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	65,
+			atq_esp: 	105,
+			def_esp: 	85,
+			vel: 		120,
 		},
 		descricao:
 			"As folhas que crescem em seu corpo são muito afiadas nas pontas. Este Pokémon é muito ágil, salta sobre os galhos das árvores e ataca seus inimigos por cima ou por trás.", // considerando a dex da primeira geração que apareceu
@@ -8347,12 +8347,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0255.png",
 		estatistica: {
-			ps: 45,
-			atq: 60,
-			def: 40,
-			atq_esp: 70,
-			def_esp: 50,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	60,
+			def:	 	40,
+			atq_esp: 	70,
+			def_esp: 	50,
+			vel: 		45,
 		},
 		descricao:
 			"Este Pokémon possui um local dentro de seu corpo onde mantém sua chama. É todo coberto por uma pelagem fofa de plumas.", // considerando a dex da primeira geração que apareceu
@@ -8375,12 +8375,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0256.png",
 		estatistica: {
-			ps: 60,
-			atq: 85,
-			def: 60,
-			atq_esp: 85,
-			def_esp: 60,
-			vel: 55,
+			ps:		 	60,
+			atq:	 	85,
+			def:	 	60,
+			atq_esp: 	85,
+			def_esp: 	60,
+			vel: 		55,
 		},
 		descricao:
 			"Batalha com as chamas intensamente quentes que cospe de seu bico e com chutes excepcionalmente destrutivos. O som deste Pokémon é muito alto e perturbador.", // considerando a dex da primeira geração que apareceu
@@ -8403,12 +8403,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a7/F0257.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 70,
-			atq_esp: 110,
-			def_esp: 70,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	70,
+			atq_esp: 	110,
+			def_esp: 	70,
+			vel: 		80,
 		},
 		descricao:
 			"Possui pernas incrivelmente forte, pode facilmente passar por um prédio de trina andares em único salto. Os socos flamejantes deste Pokémon deixam seus inimigos queimados.", // considerando a dex da primeira geração que apareceu
@@ -8431,12 +8431,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0258.png",
 		estatistica: {
-			ps: 50,
-			atq: 70,
-			def: 50,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 40,
+			ps:		 	50,
+			atq:	 	70,
+			def:	 	50,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		40,
 		},
 		descricao:
 			"A barbatana em sua cabeça age como um radar altamente sensível. Usando esta barbatana para sentir os movimentos da água e do ar, este Pokémon consegue determinar o que está acontecendo ao seu redor sem usar os olhos.", // considerando a dex da primeira geração que apareceu
@@ -8459,12 +8459,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ee/F0259.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 70,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 50,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	70,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		50,
 		},
 		descricao:
 			"É mais rápido viajando pela lama do que nadando. Os membros inferiores deste Pokémon exibem óbvio desenvolvimento, dando uma habilidade de andar com as patas traseiras.", // considerando a dex da primeira geração que apareceu
@@ -8487,12 +8487,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0260.png",
 		estatistica: {
-			ps: 100,
-			atq: 110,
-			def: 90,
-			atq_esp: 85,
-			def_esp: 90,
-			vel: 60,
+			ps:		 	100,
+			atq:	 	110,
+			def:	 	90,
+			atq_esp: 	85,
+			def_esp: 	90,
+			vel: 		60,
 		},
 		descricao:
 			"Consegue prever tempestades sentindo mudanças sutis nas ondas sonoras e ventos de maré com suas barbatanas. Caso uma tempestade esteja se aproximando, empilha pedras para se proteger.", // considerando a dex da primeira geração que apareceu
@@ -8515,12 +8515,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0261.png",
 		estatistica: {
-			ps: 35,
-			atq: 55,
-			def: 35,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 35,
+			ps:		 	35,
+			atq:	 	55,
+			def:	 	35,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		35,
 		},
 		descricao:
 			"Este Pokémon é onívoro, come qualquer coisa. Uma característica distinta é quão grande são suas presas comparadas a seu corpo. Este Pokémon tenta intimidar seus inimigos fazendo os pelos de sua cauda se arrepiarem.", // considerando a dex da primeira geração que apareceu
@@ -8543,12 +8543,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e5/F0262.png",
 		estatistica: {
-			ps: 70,
-			atq: 90,
-			def: 70,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 70,
+			ps:		 	70,
+			atq:	 	90,
+			def:	 	70,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		70,
 		},
 		descricao:
 			"Dá sinais óbvios quando está se preparando para atacar. Começa a rosnar profundamente e então achata seu corpo. Este Pokémon morderá selvagemente com usas presas afiadas e pontudas.", // considerando a dex da primeira geração que apareceu
@@ -8571,12 +8571,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/50/F0263.png",
 		estatistica: {
-			ps: 38,
-			atq: 30,
-			def: 41,
-			atq_esp: 30,
-			def_esp: 41,
-			vel: 60,
+			ps:		 	38,
+			atq:	 	30,
+			def:	 	41,
+			atq_esp: 	30,
+			def_esp: 	41,
+			vel: 		60,
 		},
 		descricao:
 			"Vagueia incansavelmente por todos lugar o tempo todo. Este Pokémon faz isso por ser muito curioso. Ele se interessa por qualquer coisa que veja.", // considerando a dex da primeira geração que apareceu
@@ -8599,12 +8599,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/50/F0263.png",
 		estatistica: {
-			ps: 38,
-			atq: 30,
-			def: 41,
-			atq_esp: 30,
-			def_esp: 41,
-			vel: 60,
+			ps:		 	38,
+			atq:	 	30,
+			def:	 	41,
+			atq_esp: 	30,
+			def_esp: 	41,
+			vel: 		60,
 		},
 		descricao:
 			"Sua inquietação o faz correr constantemente por aí. Se ele vir outro Pokémon, irá propositalmente correr para cima dele para começar uma briga.", // considerando a dex da primeira geração que apareceu
@@ -8627,12 +8627,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0264.png",
 		estatistica: {
-			ps: 78,
-			atq: 70,
-			def: 61,
-			atq_esp: 50,
-			def_esp: 61,
-			vel: 100,
+			ps:		 	78,
+			atq:	 	70,
+			def:	 	61,
+			atq_esp: 	50,
+			def_esp: 	61,
+			vel: 		100,
 		},
 		descricao:
 			"Sempre corre a toda velocidade e apenas em linhas retas. Quando estiver diante de um obstáculo, faz uma curva em ângulo reto para evitá-lo.", // considerando a dex da primeira geração que apareceu
@@ -8655,12 +8655,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0264.png",
 		estatistica: {
-			ps: 78,
-			atq: 70,
-			def: 61,
-			atq_esp: 50,
-			def_esp: 61,
-			vel: 100,
+			ps:		 	78,
+			atq:	 	70,
+			def:	 	61,
+			atq_esp: 	50,
+			def_esp: 	61,
+			vel: 		100,
 		},
 		descricao:
 			"Usa sua longa língua para provocar oponentes. Uma vez que a oposição esteja enfurecida, este Pokémon se arremessa contra o oponente, derrubado-o com força.", // considerando a dex da primeira geração que apareceu
@@ -8684,12 +8684,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1c/F0265.png",
 		estatistica: {
-			ps: 45,
-			atq: 45,
-			def: 35,
-			atq_esp: 20,
-			def_esp: 30,
-			vel: 20,
+			ps:		 	45,
+			atq:	 	45,
+			def:	 	35,
+			atq_esp: 	20,
+			def_esp: 	30,
+			vel: 		20,
 		},
 		descricao:
 			"Gruda em galhos de árvores e come folhas. O fio que cospe de sua boca, que fica pegajoso ao tocar o ar, retarda o movimento de seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -8712,12 +8712,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0266.png",
 		estatistica: {
-			ps: 50,
-			atq: 35,
-			def: 55,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 15,
+			ps:		 	50,
+			atq:	 	35,
+			def:	 	55,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		15,
 		},
 		descricao:
 			"Acreditava-se que suportava a fome e não consumia nada. No tentando, agora acredita-se que este Pokémon sacia sede bebendo água da chuva que se acumula em sua seda.", // considerando a dex da primeira geração que apareceu
@@ -8740,12 +8740,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0267.png",
 		estatistica: {
-			ps: 60,
-			atq: 70,
-			def: 50,
-			atq_esp: 90,
-			def_esp: 50,
-			vel: 65,
+			ps:		 	60,
+			atq:	 	70,
+			def:	 	50,
+			atq_esp: 	100,
+			def_esp: 	50,
+			vel: 		65,
 		},
 		descricao:
 			"Sua comida favorita é o doce pólen das flores. Caso queira ver este Pokémon, deixe uma flor em vaso perto de uma janela aberta.", // considerando a dex da primeira geração que apareceu
@@ -8768,12 +8768,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0268.png",
 		estatistica: {
-			ps: 50,
-			atq: 35,
-			def: 55,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 15,
+			ps:		 	50,
+			atq:	 	35,
+			def:	 	55,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		15,
 		},
 		descricao:
 			"Caso seja atacado, permanece imóvel, independente do quão grave esteja ferido. Não esquece a dor que suportou.", // considerando a dex da primeira geração que apareceu
@@ -8796,12 +8796,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0269.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 70,
-			atq_esp: 50,
-			def_esp: 90,
-			vel: 65,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	70,
+			atq_esp: 	50,
+			def_esp: 	90,
+			vel: 		65,
 		},
 		descricao:
 			"Quando bate suas asas, um pó fino é espalhado. Esse pó é, na verdade, um poderoso veneno que fará até mesmo um lutador profissional doente. Este Pokémon procura por comida usando suas antenas como um radar.", // considerando a dex da primeira geração que apareceu
@@ -8824,12 +8824,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0270.png",
 		estatistica: {
-			ps: 40,
-			atq: 30,
-			def: 30,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 30,
+			ps:		 	40,
+			atq:	 	30,
+			def:	 	30,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		30,
 		},
 		descricao:
 			"Este Pokémon vive em lagoas com água limpa. É conhecido por transportar pequenos Pokémon através de lagoas carregando-os na folha larga em sua cabeça.", // considerando a dex da primeira geração que apareceu
@@ -8852,12 +8852,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0271.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 50,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 50,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	50,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		50,
 		},
 		descricao:
 			"À noite, tem grande prazer em sair dos rios e assustar as pessoas. Se alimenta de musgo aquático que cresce nas pedras do leito do rio.", // considerando a dex da primeira geração que apareceu
@@ -8880,12 +8880,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0272.png",
 		estatistica: {
-			ps: 80,
-			atq: 70,
-			def: 70,
-			atq_esp: 90,
-			def_esp: 100,
-			vel: 70,
+			ps:		 	80,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	90,
+			def_esp: 	100,
+			vel: 		70,
 		},
 		descricao:
 			"Ao ouvir um ritmo alegre e otimista, as células de seu corpo se tornam muito energéticas e ativas. Mesmo em batalha, este Pokémon exibirá uma quantidade incrível de poder.", // considerando a dex da primeira geração que apareceu
@@ -8908,12 +8908,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/22/F0273.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 50,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 30,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	50,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		30,
 		},
 		descricao:
 			"Este Pokémon se pendura em galho e absorve nutrientes. Quando termina de comer, seu corpo fica tão pesado que ele cai no chão com um baque.", // considerando a dex da primeira geração que apareceu
@@ -8936,12 +8936,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0274.png",
 		estatistica: {
-			ps: 70,
-			atq: 70,
-			def: 40,
-			atq_esp: 60,
-			def_esp: 40,
-			vel: 60,
+			ps:		 	70,
+			atq:	 	70,
+			def:	 	40,
+			atq_esp: 	60,
+			def_esp: 	40,
+			vel: 		60,
 		},
 		descricao:
 			"Vive em florestas densamente cobertas de vegetação. Ocasionalmente se aventuram para fora da floresta para assustar as pessoas. Este Pokémon não gosta que seu nariz logo seja beliscado.", // considerando a dex da primeira geração que apareceu
@@ -8964,12 +8964,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0275.png",
 		estatistica: {
-			ps: 90,
-			atq: 100,
-			def: 60,
-			atq_esp: 90,
-			def_esp: 60,
-			vel: 80,
+			ps:		 	90,
+			atq:	 	100,
+			def:	 	60,
+			atq_esp: 	90,
+			def_esp: 	60,
+			vel: 		80,
 		},
 		descricao:
 			"Dizem que chega em ventos frios e invernais. Temido desde muito tempo como o guardião das florestas, este Pokémon vive em uma floresta profunda onde as pessoas não se aventuram.", // considerando a dex da primeira geração que apareceu
@@ -8992,12 +8992,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0276.png",
 		estatistica: {
-			ps: 40,
-			atq: 55,
-			def: 30,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 85,
+			ps:		 	40,
+			atq:	 	55,
+			def:	 	30,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		85,
 		},
 		descricao:
 			"Apesar de ser pequeno, é muito corajoso. Encara Skarmory maiores em pé de igualdade. Contudo, enfraquece quando está com fome.", // considerando a dex da primeira geração que apareceu
@@ -9020,12 +9020,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0277.png",
 		estatistica: {
-			ps: 60,
-			atq: 85,
-			def: 60,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 125,
+			ps:		 	60,
+			atq:	 	85,
+			def:	 	60,
+			atq_esp: 	75,
+			def_esp: 	50,
+			vel: 		125,
 		},
 		descricao:
 			"Mergulha em cima de uma presa de muito alto. Nunca erra seus alvos. Sobe aos céus em busca de terras com clima quente.", // considerando a dex da primeira geração que apareceu
@@ -9048,12 +9048,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0278.png",
 		estatistica: {
-			ps: 40,
-			atq: 30,
-			def: 30,
-			atq_esp: 55,
-			def_esp: 30,
-			vel: 85,
+			ps:		 	40,
+			atq:	 	30,
+			def:	 	30,
+			atq_esp: 	55,
+			def_esp: 	30,
+			vel: 		85,
 		},
 		descricao:
 			"Constrói seu ninho em penhasco íngreme na beira do mar. Tem dificuldade em manter suas asas batendo durante o voo. Em vez disso, ele plana em correntes de ar ascendentes.", // considerando a dex da primeira geração que apareceu
@@ -9076,12 +9076,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0279.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 100,
-			atq_esp: 85,
-			def_esp: 70,
-			vel: 65,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	100,
+			atq_esp: 	95,
+			def_esp: 	70,
+			vel: 		65,
 		},
 		descricao:
 			"Desliza sobre o topo das ondas enquanto voa. Quando avista uma presa, usa seu bico grande paa pegar a vítima com água. Protege seus ovos em seu bico.", // considerando a dex da primeira geração que apareceu
@@ -9104,12 +9104,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0280.png",
 		estatistica: {
-			ps: 28,
-			atq: 25,
-			def: 25,
-			atq_esp: 45,
-			def_esp: 35,
-			vel: 40,
+			ps:		 	28,
+			atq:	 	25,
+			def:	 	25,
+			atq_esp: 	45,
+			def_esp: 	35,
+			vel: 		40,
 		},
 		descricao:
 			"Sente as emoções das pessoas usando os chifres em sua cabeça. Este Pokémon raramente aparece para pessoas. Mas quando aparece, se aproxima caso sinta que a pessoa tem uma energia positiva.", // considerando a dex da primeira geração que apareceu
@@ -9132,12 +9132,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0281.png",
 		estatistica: {
-			ps: 38,
-			atq: 35,
-			def: 35,
-			atq_esp: 65,
-			def_esp: 55,
-			vel: 50,
+			ps:		 	38,
+			atq:	 	35,
+			def:	 	35,
+			atq_esp: 	65,
+			def_esp: 	55,
+			vel: 		50,
 		},
 		descricao:
 			"Usa os chifres em sua cabeça para amplificar seu poder psicocinético. Quando usa seu poder, o ar em sua volta se torna distorcido, criando miragens de cenários não existentes.", // considerando a dex da primeira geração que apareceu
@@ -9160,12 +9160,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0282.png",
 		estatistica: {
-			ps: 68,
-			atq: 65,
-			def: 65,
-			atq_esp: 125,
-			def_esp: 115,
-			vel: 80,
+			ps:		 	68,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	125,
+			def_esp: 	115,
+			vel: 		80,
 		},
 		descricao:
 			"Possui a habilidade de ver o futuro. Caso sinta perigo iminente ao seu treinador, diz-se que este Pokémon libera sua energia psicocinética com força total.", // considerando a dex da primeira geração que apareceu
@@ -9188,12 +9188,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e7/F0283.png",
 		estatistica: {
-			ps: 40,
-			atq: 30,
-			def: 32,
-			atq_esp: 50,
-			def_esp: 52,
-			vel: 65,
+			ps:		 	40,
+			atq:	 	30,
+			def:	 	32,
+			atq_esp: 	50,
+			def_esp: 	52,
+			vel: 		65,
 		},
 		descricao:
 			"Das pontas de suas patas, secreta um óleo que o permite andar sobre água como se estivesse patinando. Este Pokémon se alimenta de organismos microscópicos em lagoas e lagos.", // considerando a dex da primeira geração que apareceu
@@ -9216,12 +9216,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0284.png",
 		estatistica: {
-			ps: 70,
-			atq: 60,
-			def: 62,
-			atq_esp: 80,
-			def_esp: 82,
-			vel: 60,
+			ps:		 	70,
+			atq:	 	60,
+			def:	 	62,
+			atq_esp: 	100,
+			def_esp: 	82,
+			vel: 		80,
 		},
 		descricao:
 			"Intimida inimigos com os padrões semelhantes a olhos em suas antenas. Este Pokémon bate suas quatro asas para voar livremente em qualquer direção, até mesmo para os lados e para trás, como se fosse um helicóptero.", // considerando a dex da primeira geração que apareceu
@@ -9244,12 +9244,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0285.png",
 		estatistica: {
-			ps: 60,
-			atq: 40,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 60,
-			vel: 35,
+			ps:		 	60,
+			atq:	 	40,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	60,
+			vel: 		35,
 		},
 		descricao:
 			"Vive em solo úmido nas profundezas escuras de florestas. São frequentemente encontrados parados sob folhas caídas. Este Pokémon se alimenta de composto feito de folhas caídas e podres.", // considerando a dex da primeira geração que apareceu
@@ -9272,12 +9272,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0286.png",
 		estatistica: {
-			ps: 60,
-			atq: 130,
-			def: 80,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 70,
+			ps:		 	60,
+			atq:	 	130,
+			def:	 	80,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		70,
 		},
 		descricao:
 			"Espalha esporos de buracos no chapéu em sua cabeça. Ama climas quentes e úmidos. Se alimenta de árvores e plantas em campos e florestas.", // considerando a dex da primeira geração que apareceu
@@ -9300,12 +9300,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0287.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 60,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		30,
 		},
 		descricao:
 			"Dorme praticamente o dia todo e a noite toda. Não muda seu ninho sua vida inteira, mas algumas vezes viaja grandes distâncias nadando em rios.", // considerando a dex da primeira geração que apareceu
@@ -9328,12 +9328,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0288.png",
 		estatistica: {
-			ps: 80,
-			atq: 80,
-			def: 80,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 90,
+			ps:		 	80,
+			atq:	 	80,
+			def:	 	80,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		90,
 		},
 		descricao:
 			"É simplesmente incapaz de permanecer parado. Mesmo quando tenta dormir, o sangue suas veias se agita, obrigando este Pokémon a correr solto pela selva antes que possa se acalmar.", // considerando a dex da primeira geração que apareceu
@@ -9356,12 +9356,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0289.png",
 		estatistica: {
-			ps: 150,
-			atq: 160,
-			def: 100,
-			atq_esp: 95,
-			def_esp: 65,
-			vel: 100,
+			ps:		 	150,
+			atq:	 	160,
+			def:	 	100,
+			atq_esp: 	95,
+			def_esp: 	65,
+			vel: 		100,
 		},
 		descricao:
 			"Passa todo o dia deitado e relaxando. Come a grama que cresce ao seu alcance. Caso coma toda a grama que puder alcançar, relutantemente se move para outro lugar.", // considerando a dex da primeira geração que apareceu
@@ -9384,12 +9384,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0290.png",
 		estatistica: {
-			ps: 31,
-			atq: 45,
-			def: 90,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 40,
+			ps:		 	31,
+			atq:	 	45,
+			def:	 	90,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		40,
 		},
 		descricao:
 			"Vive no subsolo por muitos anos em completa escuridão. Este Pokémon absorbe nutrientes das raízes de árvores. Permanece parado como se esperasse por algo.", // considerando a dex da primeira geração que apareceu
@@ -9412,12 +9412,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0291.png",
 		estatistica: {
-			ps: 61,
-			atq: 90,
-			def: 45,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 160,
+			ps:		 	61,
+			atq:	 	90,
+			def:	 	45,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		160,
 		},
 		descricao:
 			"Caso não seja treinado adequadamente, recusará obedecer o treinado e chora continuamente. Por causa disso, é dito que este Pokémon coloca as habilidades do treinador a teste.", // considerando a dex da primeira geração que apareceu
@@ -9440,12 +9440,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0292.png",
 		estatistica: {
-			ps: 1,
-			atq: 90,
-			def: 45,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 40,
+			ps:		 	1,
+			atq:	 	90,
+			def:	 	45,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		40,
 		},
 		descricao:
 			"Seu corpo duro não move, nem mesmo um tique. Na verdade, seu corpo aparenta ser meramente uma casca vazia. Acredita-se que este Pokémon roubará o espírito de qualquer um que espie seu corpo oco pelas costas.", // considerando a dex da primeira geração que apareceu
@@ -9468,12 +9468,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0293.png",
 		estatistica: {
-			ps: 64,
-			atq: 51,
-			def: 23,
-			atq_esp: 51,
-			def_esp: 23,
-			vel: 28,
+			ps:		 	64,
+			atq:	 	51,
+			def:	 	23,
+			atq_esp: 	51,
+			def_esp: 	23,
+			vel: 		28,
 		},
 		descricao:
 			"Normalmente, sua voz é muito baixa, é quase inaudível mesmo se estiver prestando bastante atenção. Contudo, caso pressinta perigo, começa a chorar em um volume ensurdecedor.", // considerando a dex da primeira geração que apareceu
@@ -9496,12 +9496,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0294.png",
 		estatistica: {
-			ps: 84,
-			atq: 71,
-			def: 43,
-			atq_esp: 71,
-			def_esp: 43,
-			vel: 48,
+			ps:		 	84,
+			atq:	 	71,
+			def:	 	43,
+			atq_esp: 	71,
+			def_esp: 	43,
+			vel: 		48,
 		},
 		descricao:
 			"Seu berro pode dizimar completamente uma casa de madeira. Ele usa sua voz para punir seus inimigos. As orelhas redondas deste Pokémon servem como alto-falantes.", // considerando a dex da primeira geração que apareceu
@@ -9524,12 +9524,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/73/F0295.png",
 		estatistica: {
-			ps: 104,
-			atq: 91,
-			def: 63,
-			atq_esp: 91,
-			def_esp: 63,
-			vel: 68,
+			ps:		 	104,
+			atq:	 	91,
+			def:	 	63,
+			atq_esp: 	91,
+			def_esp: 	73,
+			vel: 		68,
 		},
 		descricao:
 			"Desencadeia terremotos com os tremores que cria ao berrar. Caso este Pokémon inalar violentamente pelas aberturas em seu corpo, é um sinal de que está se preparando para soltar um enorme berro.", // considerando a dex da primeira geração que apareceu
@@ -9552,12 +9552,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0296.png",
 		estatistica: {
-			ps: 72,
-			atq: 60,
-			def: 30,
-			atq_esp: 20,
-			def_esp: 30,
-			vel: 25,
+			ps:		 	72,
+			atq:	 	60,
+			def:	 	30,
+			atq_esp: 	20,
+			def_esp: 	30,
+			vel: 		25,
 		},
 		descricao:
 			"Continuará se levantando e atacando seu inimigo, não importa quantas vezes seja derrubado. Toda vez que se levanta, este Pokémon armazena mais energia em seu corpo para evoluir.", // considerando a dex da primeira geração que apareceu
@@ -9580,12 +9580,12 @@ const pkmnDisponiveis = [
 		altura: 2.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0297.png",
 		estatistica: {
-			ps: 144,
-			atq: 120,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 60,
-			vel: 50,
+			ps:		 	144,
+			atq:	 	120,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	60,
+			vel: 		50,
 		},
 		descricao:
 			"Seu corpo grosso pode parecer gordo, mas na verdade é um pedaço de músculo sólido. Caso se esforce para contrais todos os seus músculos, seu corpo se torna duro como uma rocha.", // considerando a dex da primeira geração que apareceu
@@ -9608,12 +9608,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0298.png",
 		estatistica: {
-			ps: 50,
-			atq: 20,
-			def: 40,
-			atq_esp: 20,
-			def_esp: 40,
-			vel: 20,
+			ps:		 	50,
+			atq:	 	20,
+			def:	 	40,
+			atq_esp: 	20,
+			def_esp: 	40,
+			vel: 		20,
 		},
 		descricao:
 			"Gira sua cauda como se fosse um laço, então a arremessa para longe. O impulso do arremesso também faz seu corpo voar. Usando essa única ação, um desses Pokémon conseguiu se arremessar a uma distância recorde de 10 metros.", // considerando a dex da primeira geração que apareceu
@@ -9636,12 +9636,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f0/F0299.png",
 		estatistica: {
-			ps: 30,
-			atq: 45,
-			def: 135,
-			atq_esp: 45,
-			def_esp: 90,
-			vel: 30,
+			ps:		 	30,
+			atq:	 	45,
+			def:	 	135,
+			atq_esp: 	45,
+			def_esp: 	90,
+			vel: 		30,
 		},
 		descricao:
 			"Seu nariz magnético está sempre apontando para o norte. Caso dois desses Pokémon se encontrem, não poderão virar o rostos para o outro quando estiverem próximos porque seus narizes magnéticos se repelem.", // considerando a dex da primeira geração que apareceu
@@ -9664,12 +9664,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0300.png",
 		estatistica: {
-			ps: 50,
-			atq: 45,
-			def: 45,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	45,
+			def:	 	45,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		50,
 		},
 		descricao:
 			"Possui o hábito de se fascinar por objetos em movimento e persegui-los. Este Pokémon é conhecido por perseguir sua própria cauda e ficar tonto.", // considerando a dex da primeira geração que apareceu
@@ -9692,12 +9692,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0301.png",
 		estatistica: {
-			ps: 70,
-			atq: 65,
-			def: 65,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 70,
+			ps:		 	70,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		90,
 		},
 		descricao:
 			"Prefere viver uma existência irrestrita por conseguir fazer o lhe agrada no seu próprio tempo. Por comer e dormir quando decide, suas rotinas diárias são completamente randômicas.", // considerando a dex da primeira geração que apareceu
@@ -9720,12 +9720,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0302.png",
 		estatistica: {
-			ps: 50,
-			atq: 75,
-			def: 75,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	75,
+			def:	 	75,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		50,
 		},
 		descricao:
 			"Levam suas vidas tranquilas nas profundezas das cavernas. São temidos, no entanto, porque acredita-se que roubam os espíritos das pessoas quando seus olhos queimam com um brilho sinistro na escuridão.", // considerando a dex da primeira geração que apareceu
@@ -9749,12 +9749,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0303.png",
 		estatistica: {
-			ps: 50,
-			atq: 85,
-			def: 85,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	85,
+			def:	 	85,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		50,
 		},
 		descricao:
 			"Não se engane pelo rosto fofo deste Pokémon, é muito perigoso. Este Pokémon engana o adversário para que baixe a guarda e então o morde com suas grandes presas. As presas metálicas são, na verdade, chifres que tem sido transformados.", // considerando a dex da primeira geração que apareceu
@@ -9778,12 +9778,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0304.png",
 		estatistica: {
-			ps: 50,
-			atq: 70,
-			def: 100,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 30,
+			ps:		 	50,
+			atq:	 	70,
+			def:	 	100,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		30,
 		},
 		descricao:
 			"Este Pokémon possui um corpo de metal. Para construir seu corpo, se alimenta de minério de ferro que escava das montanhas. Ocasionalmente, causa problemas por comer pontes e trilhos.", // considerando a dex da primeira geração que apareceu
@@ -9806,12 +9806,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0305.png",
 		estatistica: {
-			ps: 60,
-			atq: 90,
-			def: 140,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 40,
+			ps:		 	60,
+			atq:	 	90,
+			def:	 	140,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		40,
 		},
 		descricao:
 			"Tempera seu corpo metálico bebendo água mineral altamente nutritiva de nascente até ficar inchado. Este Pokémon faz seu ninho perto de fontes de água deliciosa.", // considerando a dex da primeira geração que apareceu
@@ -9834,12 +9834,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0306.png",
 		estatistica: {
-			ps: 70,
-			atq: 110,
-			def: 180,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 50,
+			ps:		 	70,
+			atq:	 	110,
+			def:	 	180,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		50,
 		},
 		descricao:
 			"Reivindica uma montanha inteira como seu território. Bate impiedosamente em qualquer coisa que viole seu ambiente. Este Pokémon patrulha seu território todo o tempo.", // considerando a dex da primeira geração que apareceu
@@ -9862,12 +9862,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0307.png",
 		estatistica: {
-			ps: 30,
-			atq: 40,
-			def: 55,
-			atq_esp: 40,
-			def_esp: 55,
-			vel: 60,
+			ps:		 	30,
+			atq:	 	40,
+			def:	 	55,
+			atq_esp: 	40,
+			def_esp: 	55,
+			vel: 		60,
 		},
 		descricao:
 			"Realiza um treinamento mental rigoroso nas profundezas das montanhas. No entanto, sempre que medita, sempre perde sua concentração e foco. Como resultado, seu treinamento nunca termina.", // considerando a dex da primeira geração que apareceu
@@ -9890,12 +9890,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a9/F0308.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 75,
-			atq_esp: 60,
-			def_esp: 75,
-			vel: 80,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	75,
+			atq_esp: 	60,
+			def_esp: 	75,
+			vel: 		80,
 		},
 		descricao:
 			"Dizem que, por meio de meditação, este Pokémon aumenta a energia dentro de seu corpo e afia seu sexto sentido. Esconde sua presença unindo a si próprio com campos e montanhas.", // considerando a dex da primeira geração que apareceu
@@ -9918,12 +9918,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0309.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 40,
-			atq_esp: 65,
-			def_esp: 40,
-			vel: 65,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	40,
+			atq_esp: 	65,
+			def_esp: 	40,
+			vel: 		65,
 		},
 		descricao:
 			"Armazena eletricidade em seu longo pelo corporal. Este Pokémon estimula seu músculo das pernas com cargas elétricas. Esses choques dão às suas pernas um desempenho de aceleração explosivo.", // considerando a dex da primeira geração que apareceu
@@ -9946,12 +9946,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0310.png",
 		estatistica: {
-			ps: 70,
-			atq: 75,
-			def: 60,
-			atq_esp: 105,
-			def_esp: 60,
-			vel: 105,
+			ps:		 	70,
+			atq:	 	75,
+			def:	 	60,
+			atq_esp: 	105,
+			def_esp: 	60,
+			vel: 		105,
 		},
 		descricao:
 			"Descarrega eletricidade constantemente de sua juba. Algumas vezes, as faíscas iniciam incêndios florestais. Quando entra em uma batalha, cria nuvens de tempestade.", // considerando a dex da primeira geração que apareceu
@@ -9974,12 +9974,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0311.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 40,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 95,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	40,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		95,
 		},
 		descricao:
 			"Sempre age como um torcedor para seus companheiros. Toda vez que um companheiro de equipe faz um bom esforço na batalha, este Pokémon dá um curto-circuito em seu corpo para criar ruídos de faíscas para mostrar sua alegria.", // considerando a dex da primeira geração que apareceu
@@ -10002,12 +10002,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0312.png",
 		estatistica: {
-			ps: 60,
-			atq: 40,
-			def: 50,
-			atq_esp: 75,
-			def_esp: 85,
-			vel: 95,
+			ps:		 	60,
+			atq:	 	40,
+			def:	 	50,
+			atq_esp: 	75,
+			def_esp: 	85,
+			vel: 		95,
 		},
 		descricao:
 			"Está mais preocupado em torcer para seus companheiros do que em sua própria segurança. Este Pokémon dá um curto-circuito em seu corpo para criar faíscas brilhantes torcer por seu companheiros.", // considerando a dex da primeira geração que apareceu
@@ -10030,12 +10030,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0313.png",
 		estatistica: {
-			ps: 65,
-			atq: 73,
-			def: 55,
-			atq_esp: 47,
-			def_esp: 75,
-			vel: 85,
+			ps:		 	65,
+			atq:	 	73,
+			def:	 	75,
+			atq_esp: 	47,
+			def_esp: 	85,
+			vel: 		85,
 		},
 		descricao:
 			"Com a chegada da noite, emite luz de sua cauda. Sua comunicação com outros se baseia em ajustar a intensidade e o piscar de sua luz.", // considerando a dex da primeira geração que apareceu
@@ -10058,12 +10058,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/31/F0314.png",
 		estatistica: {
-			ps: 65,
-			atq: 47,
-			def: 55,
-			atq_esp: 73,
-			def_esp: 75,
-			vel: 85,
+			ps:		 	65,
+			atq:	 	47,
+			def:	 	75,
+			atq_esp: 	73,
+			def_esp: 	85,
+			vel: 		85,
 		},
 		descricao:
 			"Um Pokémon noturno que se torna ativo ao cair da noite. Lidera um enxame que desenha padrões no céu escuro. Mais de 200 padrões escuros foram confirmados.", // considerando a dex da primeira geração que apareceu
@@ -10086,12 +10086,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0315.png",
 		estatistica: {
-			ps: 50,
-			atq: 60,
-			def: 45,
-			atq_esp: 100,
-			def_esp: 80,
-			vel: 65,
+			ps:		 	50,
+			atq:	 	60,
+			def:	 	45,
+			atq_esp: 	100,
+			def_esp: 	80,
+			vel: 		65,
 		},
 		descricao:
 			"Atira espinhos afiados como projéteis em qualquer oponente que tente roubar as flores em seus braços. O aroma deste Pokémon traz serenidade aos vivos.", // considerando a dex da primeira geração que apareceu
@@ -10114,12 +10114,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0316.png",
 		estatistica: {
-			ps: 70,
-			atq: 43,
-			def: 53,
-			atq_esp: 43,
-			def_esp: 53,
-			vel: 40,
+			ps:		 	70,
+			atq:	 	43,
+			def:	 	53,
+			atq_esp: 	43,
+			def_esp: 	53,
+			vel: 		40,
 		},
 		descricao:
 			"Teoricamente, todo seu corpo é seu estomago. Como resultado, consegue engolir algo de seu próprio tamanho. O estomago deste Pokémon contém um fluido especial que digere qualquer coisa.", // considerando a dex da primeira geração que apareceu
@@ -10142,12 +10142,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0317.png",
 		estatistica: {
-			ps: 100,
-			atq: 73,
-			def: 83,
-			atq_esp: 73,
-			def_esp: 83,
-			vel: 55,
+			ps:		 	100,
+			atq:	 	73,
+			def:	 	83,
+			atq_esp: 	73,
+			def_esp: 	83,
+			vel: 		55,
 		},
 		descricao:
 			"Quando localiza uma presa, expele um fluido terrivelmente tóxico de seus poros e pulveriza o alvo. Uma vez que a presa tenha enfraquecido, este Pokémon a engole inteira com sua boca cavernosa.", // considerando a dex da primeira geração que apareceu
@@ -10170,12 +10170,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0318.png",
 		estatistica: {
-			ps: 45,
-			atq: 90,
-			def: 20,
-			atq_esp: 65,
-			def_esp: 20,
-			vel: 65,
+			ps:		 	45,
+			atq:	 	90,
+			def:	 	20,
+			atq_esp: 	65,
+			def_esp: 	20,
+			vel: 		65,
 		},
 		descricao:
 			"Suas mandíbulas fortemente desenvolvidas e suas pontiagudas e afiadas têm o poder destrutivo de arrancar cascos de barcos. Muitos barcos foram atacados e afundados por este Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -10198,12 +10198,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0319.png",
 		estatistica: {
-			ps: 70,
-			atq: 120,
-			def: 40,
-			atq_esp: 95,
-			def_esp: 40,
-			vel: 95,
+			ps:		 	70,
+			atq:	 	120,
+			def:	 	40,
+			atq_esp: 	95,
+			def_esp: 	40,
+			vel: 		95,
 		},
 		descricao:
 			"Apelidado de 'o valentão dos mares', este Pokémon é amplamente temido. Suas cruéis presas crescem de volta imediatamente após quebrarem. Apenas um desses Pokémon pode destruir completamente um superpetroleiro.", // considerando a dex da primeira geração que apareceu
@@ -10226,12 +10226,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6c/F0320.png",
 		estatistica: {
-			ps: 130,
-			atq: 70,
-			def: 35,
-			atq_esp: 70,
-			def_esp: 35,
-			vel: 60,
+			ps:		 	130,
+			atq:	 	70,
+			def:	 	35,
+			atq_esp: 	70,
+			def_esp: 	35,
+			vel: 		60,
 		},
 		descricao:
 			"Suas narinas são localizadas acima de seus olhos. Este Pokémon brincalhão gosta de assustar as pessoas expelindo com força a água do mar que armazena dentro do corpo pelas narinas.", // considerando a dex da primeira geração que apareceu
@@ -10255,12 +10255,12 @@ const pkmnDisponiveis = [
 		altura: 14.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0321.png",
 		estatistica: {
-			ps: 170,
-			atq: 90,
-			def: 45,
-			atq_esp: 90,
-			def_esp: 45,
-			vel: 60,
+			ps:		 	170,
+			atq:	 	90,
+			def:	 	45,
+			atq_esp: 	90,
+			def_esp: 	45,
+			vel: 		60,
 		},
 		descricao:
 			"É o maior de todos Pokémon identificados até agora. Este Pokémon gigante nada languidamente no vasto mar aberto, comendo quantidades gigantescas de comida de uma vez com sua boca enorme.", // considerando a dex da primeira geração que apareceu
@@ -10283,12 +10283,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2c/F0322.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 40,
-			atq_esp: 65,
-			def_esp: 45,
-			vel: 35,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	40,
+			atq_esp: 	65,
+			def_esp: 	45,
+			vel: 		35,
 		},
 		descricao:
 			"Armazena magma de quase 1'200° Celsius dentro de seu corpo. Caso se molhe, o magma esfria e endurece. Nesse caso, o corpo do Pokémon aumenta de peso e seus movimentos se tornam lentos.", // considerando a dex da primeira geração que apareceu
@@ -10311,12 +10311,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0323.png",
 		estatistica: {
-			ps: 70,
-			atq: 100,
-			def: 70,
-			atq_esp: 105,
-			def_esp: 75,
-			vel: 40,
+			ps:		 	70,
+			atq:	 	100,
+			def:	 	70,
+			atq_esp: 	105,
+			def_esp: 	75,
+			vel: 		40,
 		},
 		descricao:
 			"Possui um vulcão dentro de seu corpo. Magma de 10'000° Celsius percorre seu corpo. Ocasionalmente, as saliências em suas costas entram em erupção, expelindo magma superaquecido.", // considerando a dex da primeira geração que apareceu
@@ -10339,12 +10339,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0324.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 140,
-			atq_esp: 85,
-			def_esp: 70,
-			vel: 20,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	140,
+			atq_esp: 	85,
+			def_esp: 	70,
+			vel: 		20,
 		},
 		descricao:
 			"Cava pelas montanhas em procura de carvão. Caso encontre algum, preenche o espaço oco em seu casco com carvão e o queima. Caso seja atacado, este Pokémon solta uma fumaça preta e espessa para bater em retirada.", // considerando a dex da primeira geração que apareceu
@@ -10367,12 +10367,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0325.png",
 		estatistica: {
-			ps: 60,
-			atq: 25,
-			def: 35,
-			atq_esp: 70,
-			def_esp: 80,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	25,
+			def:	 	35,
+			atq_esp: 	70,
+			def_esp: 	80,
+			vel: 		60,
 		},
 		descricao:
 			"Mantém uma pérola no topo de sua cabeça. A pérola tem o propósito de amplificar os poderes psicocinéticos deste Pokémon. Portanto, está em procura constante por uma pérola maior.", // considerando a dex da primeira geração que apareceu
@@ -10395,12 +10395,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0326.png",
 		estatistica: {
-			ps: 80,
-			atq: 45,
-			def: 65,
-			atq_esp: 90,
-			def_esp: 110,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	45,
+			def:	 	65,
+			atq_esp: 	90,
+			def_esp: 	110,
+			vel: 		80,
 		},
 		descricao:
 			"Usa as pérolas negras em seu corpo para amplificar suas ondas psíquicas e obter controle total sobre seu inimigo. Quando usa seu poder especial, sua respiração ofegante torna-se difícil.", // considerando a dex da primeira geração que apareceu
@@ -10423,12 +10423,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0327.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 60,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		60,
 		},
 		descricao:
 			"É dito que cada indivíduo de sua espécie possui padrões de manchas totalmente únicos. Os passos trêmulos e cambaleantes deste Pokémon dão a ele aparência de uma dança.", // considerando a dex da primeira geração que apareceu
@@ -10451,12 +10451,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0328.png",
 		estatistica: {
-			ps: 45,
-			atq: 100,
-			def: 45,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 10,
+			ps:		 	45,
+			atq:	 	100,
+			def:	 	45,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		10,
 		},
 		descricao:
 			"É um caçador paciente. Cava um buraco inescapável em um deserto e espera que sua presa caia. Pode passar uma semana inteira sem acesso a água.", // considerando a dex da primeira geração que apareceu
@@ -10479,12 +10479,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0329.png",
 		estatistica: {
-			ps: 50,
-			atq: 70,
-			def: 50,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 70,
+			ps:		 	50,
+			atq:	 	70,
+			def:	 	50,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		70,
 		},
 		descricao:
 			"Suas asas ainda não completaram o processo de crescimento. Ao invés de voar longas distâncias, são mais úteis criando ondas ultrassônicas pela vibração.", // considerando a dex da primeira geração que apareceu
@@ -10507,12 +10507,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0330.png",
 		estatistica: {
-			ps: 80,
-			atq: 100,
-			def: 80,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 100,
+			ps:		 	80,
+			atq:	 	100,
+			def:	 	80,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		100,
 		},
 		descricao:
 			"É apelidado de 'o espírito elemental do deserto'. Como suas asas batendo levantam uma nuvem de areia, este Pokémon está sempre envolto em uma tempestade areia enquanto voa.", // considerando a dex da primeira geração que apareceu
@@ -10535,12 +10535,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0331.png",
 		estatistica: {
-			ps: 50,
-			atq: 85,
-			def: 40,
-			atq_esp: 85,
-			def_esp: 40,
-			vel: 35,
+			ps:		 	50,
+			atq:	 	85,
+			def:	 	40,
+			atq_esp: 	85,
+			def_esp: 	40,
+			vel: 		35,
 		},
 		descricao:
 			"Vive em locais áridos como desertos. Libera um forte aroma de sua flor para atrair presa. Quando a presa se aproxima, este Pokémon atira espinhos afiados de seu corpo para abater a vítima.", // considerando a dex da primeira geração que apareceu
@@ -10563,12 +10563,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0332.png",
 		estatistica: {
-			ps: 70,
-			atq: 115,
-			def: 60,
-			atq_esp: 115,
-			def_esp: 60,
-			vel: 55,
+			ps:		 	70,
+			atq:	 	115,
+			def:	 	60,
+			atq_esp: 	115,
+			def_esp: 	60,
+			vel: 		55,
 		},
 		descricao:
 			"Durante o dia, este Pokémon permanece imóvel para que não perca umidade para o forte sol do deserto. Este Pokémon se torna ativo durante a noite quando a temperatura cai.", // considerando a dex da primeira geração que apareceu
@@ -10591,12 +10591,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0333.png",
 		estatistica: {
-			ps: 45,
-			atq: 40,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 75,
-			vel: 50,
+			ps:		 	45,
+			atq:	 	40,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	75,
+			vel: 		50,
 		},
 		descricao:
 			"Possui asas leves e fofas que são como nuvens de algodão. Este Pokémon não se assusta com pessoas. Aterrissa em cabeças de pessoas e senta como um chapéu de algodão fofo.", // considerando a dex da primeira geração que apareceu
@@ -10619,12 +10619,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/89/F0334.png",
 		estatistica: {
-			ps: 75,
-			atq: 70,
-			def: 90,
-			atq_esp: 70,
-			def_esp: 105,
-			vel: 80,
+			ps:		 	75,
+			atq:	 	70,
+			def:	 	90,
+			atq_esp: 	70,
+			def_esp: 	105,
+			vel: 		80,
 		},
 		descricao:
 			"Dança e gira pelo céu entre nuvens ondulantes, como algodão. Ao cantar melodias com sua voz cristalina, este Pokémon faz seus ouvintes experimentarem maravilhas oníricas.", // considerando a dex da primeira geração que apareceu
@@ -10647,12 +10647,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0335.png",
 		estatistica: {
-			ps: 73,
-			atq: 115,
-			def: 60,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 90,
+			ps:		 	73,
+			atq:	 	115,
+			def:	 	60,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		90,
 		},
 		descricao:
 			"Quando batalha, fica em pé sobre as patas traseiras e ataca com as patas dianteiras com garras afiadas.", // considerando a dex da primeira geração que apareceu
@@ -10675,12 +10675,12 @@ const pkmnDisponiveis = [
 		altura: 2.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0336.png",
 		estatistica: {
-			ps: 73,
-			atq: 100,
-			def: 60,
-			atq_esp: 100,
-			def_esp: 60,
-			vel: 65,
+			ps:		 	73,
+			atq:	 	100,
+			def:	 	60,
+			atq_esp: 	100,
+			def_esp: 	60,
+			vel: 		65,
 		},
 		descricao:
 			"Sua cauda em forma de espada serve a dois propósitos, corta os inimigos e os encharca com veneno secretado.", // considerando a dex da primeira geração que apareceu
@@ -10703,12 +10703,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0337.png",
 		estatistica: {
-			ps: 70,
-			atq: 55,
-			def: 65,
-			atq_esp: 95,
-			def_esp: 85,
-			vel: 70,
+			ps:		 	90,
+			atq:	 	55,
+			def:	 	65,
+			atq_esp: 	95,
+			def_esp: 	85,
+			vel: 		70,
 		},
 		descricao:
 			"Foi descoberto em um local onde um meteorito caiu. Como resultado, algumas pessoas teorizam que esse Pokémon veio do espaço. Contudo, ninguém conseguiu provar essa teoria.", // considerando a dex da primeira geração que apareceu
@@ -10731,12 +10731,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0338.png",
 		estatistica: {
-			ps: 70,
-			atq: 95,
-			def: 85,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 70,
+			ps:		 	90,
+			atq:	 	95,
+			def:	 	85,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		70,
 		},
 		descricao:
 			"É uma nova espécie de Pokémon que dizem ter caído do espaço. Flutua no ar e se move silenciosamente. Em batalha, este Pokémon libera luz que brilha intensamente.", // considerando a dex da primeira geração que apareceu
@@ -10759,12 +10759,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/da/F0339.png",
 		estatistica: {
-			ps: 50,
-			atq: 48,
-			def: 43,
-			atq_esp: 46,
-			def_esp: 41,
-			vel: 60,
+			ps:		 	50,
+			atq:	 	48,
+			def:	 	43,
+			atq_esp: 	46,
+			def_esp: 	41,
+			vel: 		60,
 		},
 		descricao:
 			"Seus bigodes sensíveis servem como um excelente sistema de radar. Esse Pokémon se esconde em lama, deixando somente seus dois bigodes expostos enquanto espera pela presa chegar.", // considerando a dex da primeira geração que apareceu
@@ -10788,12 +10788,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6b/F0340.png",
 		estatistica: {
-			ps: 110,
-			atq: 78,
-			def: 73,
-			atq_esp: 76,
-			def_esp: 71,
-			vel: 60,
+			ps:		 	110,
+			atq:	 	78,
+			def:	 	73,
+			atq_esp: 	76,
+			def_esp: 	71,
+			vel: 		60,
 		},
 		descricao:
 			"É extremamente territorialista. Só um destes Pokémon reivindicará um grande lago como seu território exclusivo. Se um inimigo se aproxima, se debate e desencadeia um grade terremoto.", // considerando a dex da primeira geração que apareceu
@@ -10816,12 +10816,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0341.png",
 		estatistica: {
-			ps: 43,
-			atq: 80,
-			def: 65,
-			atq_esp: 50,
-			def_esp: 35,
-			vel: 35,
+			ps:		 	43,
+			atq:	 	80,
+			def:	 	65,
+			atq_esp: 	50,
+			def_esp: 	35,
+			vel: 		35,
 		},
 		descricao:
 			"Era originalmente um Pokémon estrangeiro que foi importado como animal doméstico. Acabaram aparecendo na natureza. Este Pokémon é muito resistente e aumentou muito sua população.", // considerando a dex da primeira geração que apareceu
@@ -10844,12 +10844,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0342.png",
 		estatistica: {
-			ps: 63,
-			atq: 120,
-			def: 85,
-			atq_esp: 90,
-			def_esp: 55,
-			vel: 55,
+			ps:		 	63,
+			atq:	 	120,
+			def:	 	85,
+			atq_esp: 	90,
+			def_esp: 	55,
+			vel: 		55,
 		},
 		descricao:
 			"Possui uma natureza extremamente violenta que o obriga a desafiar outros seres vivos para batalha. Outras formas de vida se recusam a viver em lagoas habitadas por este Pokémon, tornando-as lugares desolados.", // considerando a dex da primeira geração que apareceu
@@ -10872,12 +10872,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0343.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 55,
-			atq_esp: 40,
-			def_esp: 70,
-			vel: 55,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	55,
+			atq_esp: 	40,
+			def_esp: 	70,
+			vel: 		55,
 		},
 		descricao:
 			"Este Pokémon se move enquanto gira em seu único pé. Pinturas de parede primitivas retratando este Pokémon vivendo entre as pessoas foram descobertas em algumas ruínas antigas.", // considerando a dex da primeira geração que apareceu
@@ -10900,12 +10900,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0344.png",
 		estatistica: {
-			ps: 60,
-			atq: 70,
-			def: 105,
-			atq_esp: 70,
-			def_esp: 120,
-			vel: 75,
+			ps:		 	60,
+			atq:	 	70,
+			def:	 	105,
+			atq_esp: 	70,
+			def_esp: 	120,
+			vel: 		75,
 		},
 		descricao:
 			"Rumores dizem que são bonecas de lama feitas por humanos primitivos e trazidos a vida pela exposição a um raio misterioso. Este Pokémon se move enquanto levita.", // considerando a dex da primeira geração que apareceu
@@ -10928,12 +10928,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0345.png",
 		estatistica: {
-			ps: 66,
-			atq: 41,
-			def: 77,
-			atq_esp: 61,
-			def_esp: 87,
-			vel: 23,
+			ps:		 	66,
+			atq:	 	41,
+			def:	 	77,
+			atq_esp: 	61,
+			def_esp: 	87,
+			vel: 		23,
 		},
 		descricao:
 			"É um Pokémon antigo que foi regenerado a partir de um fóssil. Permanece permanentemente ancorado a uma rocha. De seu poleira imóvel, este Pokémon procura atentamente por presas com seus dois olhos.", // considerando a dex da primeira geração que apareceu
@@ -10956,12 +10956,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0346.png",
 		estatistica: {
-			ps: 86,
-			atq: 81,
-			def: 97,
-			atq_esp: 81,
-			def_esp: 107,
-			vel: 43,
+			ps:		 	86,
+			atq:	 	81,
+			def:	 	97,
+			atq_esp: 	81,
+			def_esp: 	107,
+			vel: 		43,
 		},
 		descricao:
 			"Vagueia pelo fundo do oceano a procura de comida. Este Pokémon estende livremente seu pescoço semelhante a um tronco de árvore e captura presas incautos usando seus oito tentáculos.", // considerando a dex da primeira geração que apareceu
@@ -10984,12 +10984,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0347.png",
 		estatistica: {
-			ps: 45,
-			atq: 95,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 75,
+			ps:		 	45,
+			atq:	 	95,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		75,
 		},
 		descricao:
 			"É dito ser que é um tipo de predecessor de Pokémon, com oito asas nas laterais do corpo. Este Pokémon nadou no mar primordial ondulando essas oito asas.", // considerando a dex da primeira geração que apareceu
@@ -11012,12 +11012,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0348.png",
 		estatistica: {
-			ps: 75,
-			atq: 125,
-			def: 100,
-			atq_esp: 70,
-			def_esp: 80,
-			vel: 45,
+			ps:		 	75,
+			atq:	 	125,
+			def:	 	100,
+			atq_esp: 	70,
+			def_esp: 	80,
+			vel: 		45,
 		},
 		descricao:
 			"Sua armadura dura faz todos os ataques ricochetearem. As duas enormes garras deste Pokémon podem ser estendidas ou contraídas livremente. Tem o poder de perfurar uma laje de aço.", // considerando a dex da primeira geração que apareceu
@@ -11040,12 +11040,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0349.png",
 		estatistica: {
-			ps: 20,
-			atq: 15,
-			def: 20,
-			atq_esp: 10,
-			def_esp: 55,
-			vel: 80,
+			ps:		 	20,
+			atq:	 	15,
+			def:	 	20,
+			atq_esp: 	10,
+			def_esp: 	55,
+			vel: 		80,
 		},
 		descricao:
 			"Suas barbatanas são esfarrapadas desde o início de sua vida. Por causa de sua aparência de má qualidade, este Pokémon é amplamente ignorado. É capaz de viver tanto em mar quanto em rios.", // considerando a dex da primeira geração que apareceu
@@ -11068,12 +11068,12 @@ const pkmnDisponiveis = [
 		altura: 6.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0350.png",
 		estatistica: {
-			ps: 95,
-			atq: 60,
-			def: 79,
-			atq_esp: 100,
-			def_esp: 125,
-			vel: 81,
+			ps:		 	95,
+			atq:	 	60,
+			def:	 	79,
+			atq_esp: 	100,
+			def_esp: 	125,
+			vel: 		81,
 		},
 		descricao:
 			"Dizem ser um dos Pokémon mais bonitos que existe. Possui o poder de acalmar emoções como raiva e hostilidade para reprimir rixas amargas.", // considerando a dex da primeira geração que apareceu
@@ -11096,12 +11096,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
-			ps: 70,
-			atq: 70,
-			def: 70,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	70,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
@@ -11125,12 +11125,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
-			ps: 70,
-			atq: 70,
-			def: 70,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	70,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
@@ -11154,12 +11154,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
-			ps: 70,
-			atq: 70,
-			def: 70,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	70,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
@@ -11183,12 +11183,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
-			ps: 70,
-			atq: 70,
-			def: 70,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	70,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
@@ -11212,12 +11212,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0352.png",
 		estatistica: {
-			ps: 60,
-			atq: 90,
-			def: 70,
-			atq_esp: 60,
-			def_esp: 120,
-			vel: 40,
+			ps:		 	60,
+			atq:	 	90,
+			def:	 	70,
+			atq_esp: 	60,
+			def_esp: 	120,
+			vel: 		40,
 		},
 		descricao:
 			"Este Pokémon é capaz de alterar a coloração de seu corpo à vontade para se misturar com os ambiente. Existe uma exceção, não consegue alterar o padrão zigue-zague em sua barriga.", // considerando a dex da primeira geração que apareceu
@@ -11240,12 +11240,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0353.png",
 		estatistica: {
-			ps: 44,
-			atq: 75,
-			def: 35,
-			atq_esp: 63,
-			def_esp: 33,
-			vel: 45,
+			ps:		 	44,
+			atq:	 	75,
+			def:	 	35,
+			atq_esp: 	63,
+			def_esp: 	33,
+			vel: 		45,
 		},
 		descricao:
 			"Cresce se alimentando de emoções negativas, como vingança e inveja, nos corações das pessoas. Vagueia pelas cidades a procura de rancores que mancham as pessoas.", // considerando a dex da primeira geração que apareceu
@@ -11268,12 +11268,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8b/F0354.png",
 		estatistica: {
-			ps: 64,
-			atq: 115,
-			def: 65,
-			atq_esp: 83,
-			def_esp: 63,
-			vel: 65,
+			ps:		 	64,
+			atq:	 	115,
+			def:	 	65,
+			atq_esp: 	83,
+			def_esp: 	63,
+			vel: 		65,
 		},
 		descricao:
 			"Uma energia amaldiçoada permeou o enchimento de uma boneca de pelúcia descartada e esquecida, dando-lhe uma nova vida como este Pokémon. A energia do Pokémon escaparia caso abrisse a boca.", // considerando a dex da primeira geração que apareceu
@@ -11296,12 +11296,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0355.png",
 		estatistica: {
-			ps: 20,
-			atq: 40,
-			def: 90,
-			atq_esp: 30,
-			def_esp: 90,
-			vel: 25,
+			ps:		 	20,
+			atq:	 	40,
+			def:	 	90,
+			atq_esp: 	30,
+			def_esp: 	90,
+			vel: 		25,
 		},
 		descricao:
 			"Consegue atravessar qualquer parede não importando quão grossa possa ser. Uma vez que escolhe um alvo, persegue obstinadamente a vítima até o amanhecer.", // considerando a dex da primeira geração que apareceu
@@ -11324,12 +11324,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0356.png",
 		estatistica: {
-			ps: 40,
-			atq: 70,
-			def: 130,
-			atq_esp: 60,
-			def_esp: 130,
-			vel: 25,
+			ps:		 	40,
+			atq:	 	70,
+			def:	 	130,
+			atq_esp: 	60,
+			def_esp: 	130,
+			vel: 		25,
 		},
 		descricao:
 			"Seu corpo é completamente oco, não há nada dentro. Dizem que seu corpo é como um buraco negro. Este Pokémon absorverá qualquer coisa em seu corpo, mas jamais retornará.", // considerando a dex da primeira geração que apareceu
@@ -11352,12 +11352,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0357.png",
 		estatistica: {
-			ps: 99,
-			atq: 68,
-			def: 83,
-			atq_esp: 72,
-			def_esp: 87,
-			vel: 51,
+			ps:		 	99,
+			atq:	 	68,
+			def:	 	83,
+			atq_esp: 	72,
+			def_esp: 	87,
+			vel: 		51,
 		},
 		descricao:
 			"Os cachos de frutas ao redor de seu pescoço são muito populares entre as crianças. Este Pokémon gosta de frutas, e come continuamente. Aparentemente, seu gosto por frutas resultou em seu próprio crescimento de frutas.", // considerando a dex da primeira geração que apareceu
@@ -11380,18 +11380,18 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0358.png",
 		estatistica: {
-			ps: 65,
-			atq: 50,
-			def: 70,
-			atq_esp: 95,
-			def_esp: 80,
-			vel: 65,
+			ps:		 	75,
+			atq:	 	50,
+			def:	 	80,
+			atq_esp: 	95,
+			def_esp: 	90,
+			vel: 		65,
 		},
 		descricao:
 			"Faz seus sons ecoarem dentro de seu corpo oco. Quando este Pokémon fica enfurecido, seus sons resultam em ondas ultrassônicas que têm o poder de derrubar os inimigos voando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mensageiro dos Ventos",
 		obtencao: "Monte da Pira",
-		estagio: 1,
+		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
@@ -11408,12 +11408,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0359.png",
 		estatistica: {
-			ps: 65,
-			atq: 130,
-			def: 60,
-			atq_esp: 75,
-			def_esp: 60,
-			vel: 75,
+			ps:		 	65,
+			atq:	 	130,
+			def:	 	60,
+			atq_esp: 	75,
+			def_esp: 	60,
+			vel: 		75,
 		},
 		descricao:
 			"Toda vez que aparece diante das pessoas, é seguido por desastre como um terremoto ou um maremoto. Como resultado, veio a ser conhecido como o Pokémon desastre.", // considerando a dex da primeira geração que apareceu
@@ -11436,12 +11436,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0360.png",
 		estatistica: {
-			ps: 95,
-			atq: 23,
-			def: 48,
-			atq_esp: 23,
-			def_esp: 48,
-			vel: 23,
+			ps:		 	95,
+			atq:	 	23,
+			def:	 	48,
+			atq_esp: 	23,
+			def_esp: 	48,
+			vel: 		23,
 		},
 		descricao:
 			"Sempre pode visto com um grande sorriso feliz no rosto. Olhe para a cauda determinar se está bravo. Quando bravo, este Pokémon baterá no chão com sua cauda.", // considerando a dex da primeira geração que apareceu
@@ -11464,12 +11464,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0361.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 50,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	50,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		50,
 		},
 		descricao:
 			"Vive em regiões com muita neve. Em estações sem neve, como primavera e verão, este Pokémon foge para viver silenciosamente entre estalactites e estalagmites nas profundezas de cavernas.", // considerando a dex da primeira geração que apareceu
@@ -11492,12 +11492,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0362.png",
 		estatistica: {
-			ps: 80,
-			atq: 80,
-			def: 80,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	80,
+			def:	 	80,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		80,
 		},
 		descricao:
 			"Possui um corpo feito de rocha, o qual endurece com uma armadura de gelo. Este Pokémon tem a habilidade de congelar umidade na atmosfera em qualquer formato que desejar.", // considerando a dex da primeira geração que apareceu
@@ -11520,12 +11520,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0363.png",
 		estatistica: {
-			ps: 70,
-			atq: 40,
-			def: 50,
-			atq_esp: 55,
-			def_esp: 50,
-			vel: 25,
+			ps:		 	70,
+			atq:	 	40,
+			def:	 	50,
+			atq_esp: 	55,
+			def_esp: 	50,
+			vel: 		25,
 		},
 		descricao:
 			"É muito mais rápido rolando do que caminhando para se locomover. Quando grupos deste Pokémon comem, todos batem palma ao mesmo tempo para mostrar seu prazer. Por causa disso, suas refeições são barulhentas.", // considerando a dex da primeira geração que apareceu
@@ -11548,12 +11548,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0364.png",
 		estatistica: {
-			ps: 90,
-			atq: 60,
-			def: 70,
-			atq_esp: 75,
-			def_esp: 70,
-			vel: 45,
+			ps:		 	90,
+			atq:	 	60,
+			def:	 	70,
+			atq_esp: 	75,
+			def_esp: 	70,
+			vel: 		45,
 		},
 		descricao:
 			"Tem o hábito de sempre fazer malabarismos na ponta do nariz com qualquer coisa que vê pela primeira vez. Este Pokémon ocasionalmente se diverte equilibrando e rolando um Spheal no nariz.", // considerando a dex da primeira geração que apareceu
@@ -11576,12 +11576,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3c/F0365.png",
 		estatistica: {
-			ps: 110,
-			atq: 80,
-			def: 90,
-			atq_esp: 95,
-			def_esp: 90,
-			vel: 65,
+			ps:		 	110,
+			atq:	 	80,
+			def:	 	90,
+			atq_esp: 	95,
+			def_esp: 	90,
+			vel: 		65,
 		},
 		descricao:
 			"Suas duas presas massivamente desenvolvidas podem destruir totalmente blocos de gelo pesando dez toneladas com um golpe. A espessa camada de gordura deste Pokémon o isola de temperaturas abaixo de zero.", // considerando a dex da primeira geração que apareceu
@@ -11604,12 +11604,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fc/F0366.png",
 		estatistica: {
-			ps: 35,
-			atq: 64,
-			def: 85,
-			atq_esp: 74,
-			def_esp: 55,
-			vel: 32,
+			ps:		 	35,
+			atq:	 	64,
+			def:	 	85,
+			atq_esp: 	74,
+			def_esp: 	55,
+			vel: 		32,
 		},
 		descricao:
 			"Sua concha resistente não é boa apenas para proteção, é usada também para prender e capturar presas. A concha deste Pokémon totalmente crescido será marcada com cortes e arranhões por todo o corpo.", // considerando a dex da primeira geração que apareceu
@@ -11632,12 +11632,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0367.png",
 		estatistica: {
-			ps: 55,
-			atq: 104,
-			def: 105,
-			atq_esp: 94,
-			def_esp: 75,
-			vel: 52,
+			ps:		 	55,
+			atq:	 	104,
+			def:	 	105,
+			atq_esp: 	94,
+			def_esp: 	75,
+			vel: 		52,
 		},
 		descricao:
 			"Sua presença passou despercebida pelas pessoas por um longo tempo por viver em profundidades extremas do mar. Os olhos deste Pokémon podem ver claramente até mesmo nas profundezas escuras e turvas do oceano.", // considerando a dex da primeira geração que apareceu
@@ -11660,12 +11660,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0368.png",
 		estatistica: {
-			ps: 55,
-			atq: 84,
-			def: 105,
-			atq_esp: 114,
-			def_esp: 75,
-			vel: 52,
+			ps:		 	55,
+			atq:	 	84,
+			def:	 	105,
+			atq_esp: 	114,
+			def_esp: 	75,
+			vel: 		52,
 		},
 		descricao:
 			"Vive nos mares do sul em profundezas extremas. Seu corpo é construído para suportar a enorme pressão exercida pela água em incríveis profundezas. Por isso, o corpo deste Pokémon não é afetado por ataques comuns.", // considerando a dex da primeira geração que apareceu
@@ -11688,12 +11688,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0369.png",
 		estatistica: {
-			ps: 100,
-			atq: 90,
-			def: 130,
-			atq_esp: 45,
-			def_esp: 65,
-			vel: 55,
+			ps:		 	100,
+			atq:	 	90,
+			def:	 	130,
+			atq_esp: 	45,
+			def_esp: 	65,
+			vel: 		55,
 		},
 		descricao:
 			"Sua espécie viveu por cem milhões de anos sem mudar sua forma. Este antigo Pokémon se alimenta de organismos microscópico com sua boca sem dentes.", // considerando a dex da primeira geração que apareceu
@@ -11716,12 +11716,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0370.png",
 		estatistica: {
-			ps: 43,
-			atq: 30,
-			def: 55,
-			atq_esp: 40,
-			def_esp: 65,
-			vel: 97,
+			ps:		 	43,
+			atq:	 	30,
+			def:	 	55,
+			atq_esp: 	40,
+			def_esp: 	65,
+			vel: 		97,
 		},
 		descricao:
 			"Seu corpo do formato de um coração é um símbolo de amor e romance. Dizem que qualquer casal que encontre este Pokémon terá a promessa de um relacionamento amoroso que nunca termina.", // considerando a dex da primeira geração que apareceu
@@ -11744,12 +11744,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0371.png",
 		estatistica: {
-			ps: 45,
-			atq: 75,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 30,
-			vel: 50,
+			ps:		 	45,
+			atq:	 	75,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	30,
+			vel: 		50,
 		},
 		descricao:
 			"Tem um sonho de algum dia voar alto no céu. Em seus esforços condenados de voo, este Pokémon se atira de penhascos. Como resultado de seus mergulhos sua cabeça ficou e tão resistente quanto aço temperado.", // considerando a dex da primeira geração que apareceu
@@ -11772,12 +11772,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0372.png",
 		estatistica: {
-			ps: 65,
-			atq: 95,
-			def: 100,
-			atq_esp: 60,
-			def_esp: 50,
-			vel: 50,
+			ps:		 	65,
+			atq:	 	95,
+			def:	 	100,
+			atq_esp: 	60,
+			def_esp: 	50,
+			vel: 		50,
 		},
 		descricao:
 			"Dentro de seu casco, que se assemelha a uma armadura, células estão em meio à transformação ara criar um corpo inteiramente novo. O casco deste Pokémon é extremamente pesado, tornando seus movimentos lentos.", // considerando a dex da primeira geração que apareceu
@@ -11800,12 +11800,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0373.png",
 		estatistica: {
-			ps: 95,
-			atq: 135,
-			def: 80,
-			atq_esp: 110,
-			def_esp: 80,
-			vel: 100,
+			ps:		 	95,
+			atq:	 	135,
+			def:	 	80,
+			atq_esp: 	110,
+			def_esp: 	80,
+			vel: 		100,
 		},
 		descricao:
 			"Depois de vários anos, sua estrutura celular sofreu uma mutação repentina de crescimento de asas. Quando irritado, perde todo o raciocínio e o controle.", // considerando a dex da primeira geração que apareceu
@@ -11828,12 +11828,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0374.png",
 		estatistica: {
-			ps: 40,
-			atq: 55,
-			def: 80,
-			atq_esp: 35,
-			def_esp: 60,
-			vel: 30,
+			ps:		 	40,
+			atq:	 	55,
+			def:	 	80,
+			atq_esp: 	35,
+			def_esp: 	60,
+			vel: 		30,
 		},
 		descricao:
 			"Ao invés de sangue, uma poderosa força magnética corre pelo seu corpo. Este Pokémon se comunica com outros enviando pulsos controlados de magnetismo.", // considerando a dex da primeira geração que apareceu
@@ -11856,12 +11856,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0375.png",
 		estatistica: {
-			ps: 60,
-			atq: 75,
-			def: 100,
-			atq_esp: 55,
-			def_esp: 80,
-			vel: 50,
+			ps:		 	60,
+			atq:	 	75,
+			def:	 	100,
+			atq_esp: 	55,
+			def_esp: 	80,
+			vel: 		50,
 		},
 		descricao:
 			"As garras que inclinam seus braços têm o poder destrutivo de rasgar grossas folhas de ferro como se fossem seda. Voa a mais de 100 quilômetros por hora.", // considerando a dex da primeira geração que apareceu
@@ -11884,12 +11884,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0376.png",
 		estatistica: {
-			ps: 80,
-			atq: 135,
-			def: 130,
-			atq_esp: 95,
-			def_esp: 90,
-			vel: 70,
+			ps:		 	80,
+			atq:	 	135,
+			def:	 	130,
+			atq_esp: 	95,
+			def_esp: 	90,
+			vel: 		70,
 		},
 		descricao:
 			"Possui quatro cérebros no total. Cominados, os quatro cérebros conseguem passar por cálculos difíceis mais rápido que um supercomputador. Este Pokémon consegue flutuar no ar dobrando suas quatro pernas.", // considerando a dex da primeira geração que apareceu
@@ -11912,12 +11912,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0377.png",
 		estatistica: {
-			ps: 80,
-			atq: 100,
-			def: 200,
-			atq_esp: 50,
-			def_esp: 100,
-			vel: 50,
+			ps:		 	80,
+			atq:	 	100,
+			def:	 	200,
+			atq_esp: 	50,
+			def_esp: 	100,
+			vel: 		50,
 		},
 		descricao:
 			"Foi selado por pessoas há muito tempo. É dito que, caso o corpo deste Pokémon seja danificado em batalha, buscará por rochas adequadas para se reparar.", // considerando a dex da primeira geração que apareceu
@@ -11940,12 +11940,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0378.png",
 		estatistica: {
-			ps: 80,
-			atq: 50,
-			def: 100,
-			atq_esp: 100,
-			def_esp: 200,
-			vel: 50,
+			ps:		 	80,
+			atq:	 	50,
+			def:	 	100,
+			atq_esp: 	100,
+			def_esp: 	200,
+			vel: 		50,
 		},
 		descricao:
 			"Seu corpo foi feito durante uma era glacial. O corpo profundamente congelado não pode ser derretido, nem mesmo por fogo. Este Pokémon controla ar gelado de -200° Celsius.", // considerando a dex da primeira geração que apareceu
@@ -11968,12 +11968,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0379.png",
 		estatistica: {
-			ps: 80,
-			atq: 75,
-			def: 150,
-			atq_esp: 75,
-			def_esp: 150,
-			vel: 50,
+			ps:		 	80,
+			atq:	 	75,
+			def:	 	150,
+			atq_esp: 	75,
+			def_esp: 	150,
+			vel: 		50,
 		},
 		descricao:
 			"Possui um corpo mais duro que qualquer tipo de metal. Seu corpo é aparentemente oco. Ninguém tem ideia do que este Pokémon come.", // considerando a dex da primeira geração que apareceu
@@ -11996,12 +11996,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0380.png",
 		estatistica: {
-			ps: 80,
-			atq: 80,
-			def: 90,
-			atq_esp: 110,
-			def_esp: 130,
-			vel: 110,
+			ps:		 	80,
+			atq:	 	80,
+			def:	 	90,
+			atq_esp: 	110,
+			def_esp: 	130,
+			vel: 		110,
 		},
 		descricao:
 			"É altamente sensível às emoções de pessoas. Caso sinta qualquer hostilidade, este Pokémon eriça as penas de todo o corpo e grita estridentemente para intimidar o inimigo.", // considerando a dex da primeira geração que apareceu
@@ -12024,12 +12024,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0381.png",
 		estatistica: {
-			ps: 80,
-			atq: 90,
-			def: 80,
-			atq_esp: 130,
-			def_esp: 110,
-			vel: 110,
+			ps:		 	80,
+			atq:	 	90,
+			def:	 	80,
+			atq_esp: 	130,
+			def_esp: 	110,
+			vel: 		110,
 		},
 		descricao:
 			"Possui a habilidade de fazer seu oponente ver uma imagem do que tem visto ou imagina em sua cabeça. Este Pokémon é inteligente e entende a fala humana.", // considerando a dex da primeira geração que apareceu
@@ -12052,12 +12052,12 @@ const pkmnDisponiveis = [
 		altura: 4.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0382.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 90,
-			atq_esp: 150,
-			def_esp: 140,
-			vel: 90,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	90,
+			atq_esp: 	150,
+			def_esp: 	140,
+			vel: 		90,
 		},
 		descricao:
 			"Este Pokémon é nomeado na mitologia como o Pokémon que expandiu o mar cobrindo a terra com chuvas torrenciais e ondas gigantescas. Este Pokémon adormeceu após uma batalha cataclísmica..", // considerando a dex da primeira geração que apareceu
@@ -12080,12 +12080,12 @@ const pkmnDisponiveis = [
 		altura: 3.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0383.png",
 		estatistica: {
-			ps: 100,
-			atq: 150,
-			def: 140,
-			atq_esp: 100,
-			def_esp: 90,
-			vel: 90,
+			ps:		 	100,
+			atq:	 	150,
+			def:	 	140,
+			atq_esp: 	100,
+			def_esp: 	90,
+			vel: 		90,
 		},
 		descricao:
 			"Este Pokémon é descrito há muito tempo na mitologia como o Pokémon que ergueu terras e expandiu continentes. Este Pokémon adormeceu após uma batalha cataclísmica.", // considerando a dex da primeira geração que apareceu
@@ -12104,16 +12104,16 @@ const pkmnDisponiveis = [
 		nome: "Rayquaza",
 		numero: 384, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
-		massa: 206.5, // em kg
+		massa: 	206.5, // em kg
 		altura: 7.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0384.png",
 		estatistica: {
-			ps: 105,
-			atq: 150,
-			def: 90,
-			atq_esp: 150,
-			def_esp: 90,
-			vel: 95,
+			ps:		 	105,
+			atq:	 	150,
+			def:	 	90,
+			atq_esp: 	150,
+			def_esp: 	90,
+			vel: 		95,
 		},
 		descricao:
 			"Viveu por centenas de milhões de anos na camada de ozônio da Terra, nunca descendo para o chão. Sua existência tem sido completamente desconhecida por viver tão alto no céu.", // considerando a dex da primeira geração que apareceu
@@ -12136,12 +12136,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0385.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 100,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		100,
 		},
 		descricao:
 			"Uma lenda afirma que este Pokémon realizará qualquer desejo escrito em notas presas à sua cabeça quando acordar. Caso este Pokémon sinta perigo, lutará sem acordar.", // considerando a dex da primeira geração que apareceu
@@ -12164,12 +12164,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
-			ps: 50,
-			atq: 150,
-			def: 50,
-			atq_esp: 150,
-			def_esp: 50,
-			vel: 150,
+			ps:		 	50,
+			atq:	 	150,
+			def:	 	50,
+			atq_esp: 	150,
+			def_esp: 	50,
+			vel: 		150,
 		},
 		descricao:
 			"O DNA de um vírus espacial sofreu uma mutação repentina ao ser exposto a um raio laser e resultou neste Pokémon. O órgão cristalino no peito deste Pokémon aparenta ser seu cérebro.", // considerando a dex da primeira geração que apareceu
@@ -12192,12 +12192,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
-			ps: 50,
-			atq: 180,
-			def: 20,
-			atq_esp: 180,
-			def_esp: 20,
-			vel: 150,
+			ps:		 	50,
+			atq:	 	180,
+			def:	 	20,
+			atq_esp: 	180,
+			def_esp: 	20,
+			vel: 		150,
 		},
 		descricao:
 			"Este Pokémon se transformou em seu disfarce agressivo. Pode enganar inimigos alterado sua aparência.", // considerando a dex da primeira geração que apareceu
@@ -12220,12 +12220,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
-			ps: 50,
-			atq: 70,
-			def: 160,
-			atq_esp: 70,
-			def_esp: 160,
-			vel: 90,
+			ps:		 	50,
+			atq:	 	70,
+			def:	 	160,
+			atq_esp: 	70,
+			def_esp: 	160,
+			vel: 		90,
 		},
 		descricao:
 			"Quando muda de forma, uma aurora aparece. Absorve ataque alterando sua estrutura molecular.", // considerando a dex da primeira geração que apareceu
@@ -12248,12 +12248,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
-			ps: 50,
-			atq: 95,
-			def: 90,
-			atq_esp: 95,
-			def_esp: 90,
-			vel: 180,
+			ps:		 	50,
+			atq:	 	95,
+			def:	 	90,
+			atq_esp: 	95,
+			def_esp: 	90,
+			vel: 		180,
 		},
 		descricao:
 			"Um Pokémon que sofreu mutação de um vírus extraterrestre exposto a um raio lase. Seu corpo é configurado para agilidade e velocidade superiores.", // considerando a dex da primeira geração que apareceu
@@ -12276,12 +12276,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0387.png",
 		estatistica: {
-			ps: 55,
-			atq: 68,
-			def: 64,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 31,
+			ps:		 	55,
+			atq:	 	68,
+			def:	 	64,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		31,
 		},
 		descricao:
 			"Feito de solo, o casco em suas costas endurece quando bebe água. Vive próximo a lagos.", // considerando a dex da primeira geração que apareceu
@@ -12304,12 +12304,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0388.png",
 		estatistica: {
-			ps: 75,
-			atq: 89,
-			def: 85,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 36,
+			ps:		 	75,
+			atq:	 	89,
+			def:	 	85,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		36,
 		},
 		descricao:
 			"Vive próximo a fontes de água em florestas. Durante o dia, deixa a floresta para dar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
@@ -12332,12 +12332,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0389.png",
 		estatistica: {
-			ps: 95,
-			atq: 109,
-			def: 105,
-			atq_esp: 75,
-			def_esp: 85,
-			vel: 56,
+			ps:		 	95,
+			atq:	 	109,
+			def:	 	105,
+			atq_esp: 	75,
+			def_esp: 	85,
+			vel: 		56,
 		},
 		descricao:
 			"Ocasionalmente, pequenos Pokémon se reúnem em suas costas para começar a construir seus ninhos.", // considerando a dex da primeira geração que apareceu
@@ -12360,12 +12360,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0390.png",
 		estatistica: {
-			ps: 44,
-			atq: 58,
-			def: 44,
-			atq_esp: 58,
-			def_esp: 44,
-			vel: 61,
+			ps:		 	44,
+			atq:	 	58,
+			def:	 	44,
+			atq_esp: 	58,
+			def_esp: 	44,
+			vel: 		61,
 		},
 		descricao:
 			"Sua traseira flamejante é alimentada por gás produzido em sua barriga. Nem chuva pode apagar o fogo.", // considerando a dex da primeira geração que apareceu
@@ -12388,12 +12388,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/41/F0391.png",
 		estatistica: {
-			ps: 64,
-			atq: 78,
-			def: 52,
-			atq_esp: 78,
-			def_esp: 52,
-			vel: 81,
+			ps:		 	64,
+			atq:	 	78,
+			def:	 	52,
+			atq_esp: 	78,
+			def_esp: 	52,
+			vel: 		81,
 		},
 		descricao:
 			"Para intimidar agressores, estica o fogo em sua cauda para parecer maior.", // considerando a dex da primeira geração que apareceu
@@ -12416,12 +12416,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0392.png",
 		estatistica: {
-			ps: 76,
-			atq: 104,
-			def: 71,
-			atq_esp: 104,
-			def_esp: 71,
-			vel: 108,
+			ps:		 	76,
+			atq:	 	104,
+			def:	 	71,
+			atq_esp: 	104,
+			def_esp: 	71,
+			vel: 		108,
 		},
 		descricao:
 			"Usa um tipo diferente de arte marcial envolvendo todo os seus membros. Seu fogo nunca se apaga.", // considerando a dex da primeira geração que apareceu
@@ -12444,12 +12444,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0393.png",
 		estatistica: {
-			ps: 53,
-			atq: 51,
-			def: 53,
-			atq_esp: 61,
-			def_esp: 56,
-			vel: 40,
+			ps:		 	53,
+			atq:	 	51,
+			def:	 	53,
+			atq_esp: 	61,
+			def_esp: 	56,
+			vel: 		40,
 		},
 		descricao:
 			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem espessa protege do frio.", // considerando a dex da primeira geração que apareceu
@@ -12472,12 +12472,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0394.png",
 		estatistica: {
-			ps: 64,
-			atq: 66,
-			def: 68,
-			atq_esp: 81,
-			def_esp: 76,
-			vel: 50,
+			ps:		 	64,
+			atq:	 	66,
+			def:	 	68,
+			atq_esp: 	81,
+			def_esp: 	76,
+			vel: 		50,
 		},
 		descricao:
 			"Vive sozinho, longe de outros. Aparentemente, cada um de sua espécie acredita ser o mais importante.", // considerando a dex da primeira geração que apareceu
@@ -12500,12 +12500,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0395.png",
 		estatistica: {
-			ps: 84,
-			atq: 86,
-			def: 88,
-			atq_esp: 111,
-			def_esp: 101,
-			vel: 60,
+			ps:		 	84,
+			atq:	 	86,
+			def:	 	88,
+			atq_esp: 	111,
+			def_esp: 	101,
+			vel: 		60,
 		},
 		descricao:
 			"Os três chifres que se estendem de seu bico atestam seu poder. O líder possui os maiores chifres.", // considerando a dex da primeira geração que apareceu
@@ -12528,12 +12528,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0396.png",
 		estatistica: {
-			ps: 40,
-			atq: 55,
-			def: 30,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 60,
+			ps:		 	40,
+			atq:	 	55,
+			def:	 	30,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		60,
 		},
 		descricao:
 			"Seus grupos são em grandes números. Embora pequenos, eles batem suas asas com grande poder.", // considerando a dex da primeira geração que apareceu
@@ -12556,12 +12556,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0397.png",
 		estatistica: {
-			ps: 55,
-			atq: 75,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 80,
+			ps:		 	55,
+			atq:	 	75,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		80,
 		},
 		descricao:
 			"Voa por a florestas e campos em procura de Pokémon insetos. Fica dentro de um bando enorme.", // considerando a dex da primeira geração que apareceu
@@ -12585,12 +12585,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0398.png",
 		estatistica: {
-			ps: 85,
-			atq: 120,
-			def: 70,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 100,
+			ps:		 	85,
+			atq:	 	120,
+			def:	 	70,
+			atq_esp: 	50,
+			def_esp: 	60,
+			vel: 		100,
 		},
 		descricao:
 			"Possui uma natureza selvagem. Desafia corajosamente adversários muito maiores.", // considerando a dex da primeira geração que apareceu
@@ -12613,12 +12613,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0399.png",
 		estatistica: {
-			ps: 59,
-			atq: 45,
-			def: 40,
-			atq_esp: 35,
-			def_esp: 40,
-			vel: 31,
+			ps:		 	59,
+			atq:	 	45,
+			def:	 	40,
+			atq_esp: 	35,
+			def_esp: 	40,
+			vel: 		31,
 		},
 		descricao:
 			"Com nervos de aço, nada consegue perturbá-lo. Mais ágil e ativo do que parece.", // considerando a dex da primeira geração que apareceu
@@ -12642,12 +12642,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0400.png",
 		estatistica: {
-			ps: 79,
-			atq: 85,
-			def: 60,
-			atq_esp: 55,
-			def_esp: 60,
-			vel: 71,
+			ps:		 	79,
+			atq:	 	85,
+			def:	 	60,
+			atq_esp: 	55,
+			def_esp: 	60,
+			vel: 		71,
 		},
 		descricao:
 			"Constrói seu ninho represando riachos com casca e lama. É conhecido como um trabalhador industrial.", // considerando a dex da primeira geração que apareceu
@@ -12671,12 +12671,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0401.png",
 		estatistica: {
-			ps: 37,
-			atq: 25,
-			def: 41,
-			atq_esp: 25,
-			def_esp: 41,
-			vel: 25,
+			ps:		 	37,
+			atq:	 	25,
+			def:	 	41,
+			atq_esp: 	25,
+			def_esp: 	41,
+			vel: 		25,
 		},
 		descricao:
 			"Balança a cabeça de trás para frente, fazendo com que suas antenas batam uma na outra e soem como um xilofone.", // considerando a dex da primeira geração que apareceu
@@ -12699,12 +12699,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0402.png",
 		estatistica: {
-			ps: 77,
-			atq: 85,
-			def: 51,
-			atq_esp: 55,
-			def_esp: 51,
-			vel: 65,
+			ps:		 	77,
+			atq:	 	85,
+			def:	 	51,
+			atq_esp: 	55,
+			def_esp: 	51,
+			vel: 		65,
 		},
 		descricao:
 			"Cruza seu braços semelhantes a uma faca na frente de seu peito quando emite sons. Consegue compor melodias no improviso.", // considerando a dex da primeira geração que apareceu
@@ -12728,12 +12728,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0403.png",
 		estatistica: {
-			ps: 45,
-			atq: 65,
-			def: 34,
-			atq_esp: 40,
-			def_esp: 34,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	65,
+			def:	 	34,
+			atq_esp: 	40,
+			def_esp: 	34,
+			vel: 		45,
 		},
 		descricao:
 			"Todo seu pelo deslumbra quando sente perigo. Foge enquanto o oponente está momentaneamente cego.", // considerando a dex da primeira geração que apareceu
@@ -12756,12 +12756,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0404.png",
 		estatistica: {
-			ps: 60,
-			atq: 85,
-			def: 49,
-			atq_esp: 60,
-			def_esp: 49,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	85,
+			def:	 	49,
+			atq_esp: 	60,
+			def_esp: 	49,
+			vel: 		60,
 		},
 		descricao:
 			"Suas garras liberam eletricidade com amperagem o suficiente para causar desmaio. Vivem em pequenos grupos.", // considerando a dex da primeira geração que apareceu
@@ -12784,12 +12784,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0405.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 79,
-			atq_esp: 95,
-			def_esp: 79,
-			vel: 70,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	79,
+			atq_esp: 	95,
+			def_esp: 	79,
+			vel: 		70,
 		},
 		descricao:
 			"Quando seus olhos brilham dourados, consegue localizar presas escondidas, mesmo aquelas abrigadas atrás de uma parede.", // considerando a dex da primeira geração que apareceu
@@ -12812,12 +12812,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0406.png",
 		estatistica: {
-			ps: 40,
-			atq: 30,
-			def: 35,
-			atq_esp: 50,
-			def_esp: 70,
-			vel: 55,
+			ps:		 	40,
+			atq:	 	30,
+			def:	 	35,
+			atq_esp: 	50,
+			def_esp: 	70,
+			vel: 		55,
 		},
 		descricao:
 			"Durante o inverno, fecha o botão e perdura o frio. Na primavera, o botão se abre e libera pólen.", // considerando a dex da primeira geração que apareceu
@@ -12841,12 +12841,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0407.png",
 		estatistica: {
-			ps: 60,
-			atq: 70,
-			def: 55,
-			atq_esp: 125,
-			def_esp: 105,
-			vel: 90,
+			ps:		 	60,
+			atq:	 	70,
+			def:	 	65,
+			atq_esp: 	125,
+			def_esp: 	105,
+			vel: 		90,
 		},
 		descricao:
 			"Atrai a presa com um aroma adocicado para derruba-la com chicotes espinhosos escondidos em seus braços.", // considerando a dex da primeira geração que apareceu
@@ -12869,12 +12869,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0408.png",
 		estatistica: {
-			ps: 67,
-			atq: 125,
-			def: 40,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 58,
+			ps:		 	67,
+			atq:	 	125,
+			def:	 	40,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		58,
 		},
 		descricao:
 			"Viveu em selvas por volta de cem milhões de anos atrás. Seu crânio é tão duro quanto ferro.", // considerando a dex da primeira geração que apareceu
@@ -12897,12 +12897,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0409.png",
 		estatistica: {
-			ps: 97,
-			atq: 165,
-			def: 60,
-			atq_esp: 65,
-			def_esp: 50,
-			vel: 58,
+			ps:		 	97,
+			atq:	 	165,
+			def:	 	60,
+			atq_esp: 	65,
+			def_esp: 	50,
+			vel: 		58,
 		},
 		descricao:
 			"Sua poderosa cabeçada possui poder suficiente para quebrar até mesmo as coisas mais duráveis com o impacto.", // considerando a dex da primeira geração que apareceu
@@ -12925,12 +12925,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0410.png",
 		estatistica: {
-			ps: 30,
-			atq: 42,
-			def: 118,
-			atq_esp: 42,
-			def_esp: 88,
-			vel: 30,
+			ps:		 	30,
+			atq:	 	42,
+			def:	 	118,
+			atq_esp: 	42,
+			def_esp: 	88,
+			vel: 		30,
 		},
 		descricao:
 			"Um Pokémon que viveu nas selvas por volta de cem milhões de anos atrás. Seu couro facial é extremamente duro.", // considerando a dex da primeira geração que apareceu
@@ -12953,12 +12953,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0411.png",
 		estatistica: {
-			ps: 60,
-			atq: 52,
-			def: 168,
-			atq_esp: 47,
-			def_esp: 138,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	52,
+			def:	 	168,
+			atq_esp: 	47,
+			def_esp: 	138,
+			vel: 		30,
 		},
 		descricao:
 			"Qualquer ataque frontal é repelido. É um Pokémon dócil que se alimenta de grama e frutas.", // considerando a dex da primeira geração que apareceu
@@ -12981,12 +12981,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0412.png",
 		estatistica: {
-			ps: 40,
-			atq: 29,
-			def: 45,
-			atq_esp: 29,
-			def_esp: 45,
-			vel: 36,
+			ps:		 	40,
+			atq:	 	29,
+			def:	 	45,
+			atq_esp: 	29,
+			def_esp: 	45,
+			vel: 		36,
 		},
 		descricao:
 			"Para se proteger dos ventos frios do inverno, se cobre com uma capa feita de materiais como folhas, galhos, areia, e restos.", // considerando a dex da primeira geração que apareceu
@@ -13012,12 +13012,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
-			ps: 60,
-			atq: 59,
-			def: 85,
-			atq_esp: 79,
-			def_esp: 105,
-			vel: 36,
+			ps:		 	60,
+			atq:	 	59,
+			def:	 	85,
+			atq_esp: 	79,
+			def_esp: 	105,
+			vel: 		36,
 		},
 		descricao:
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -13040,12 +13040,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
-			ps: 60,
-			atq: 79,
-			def: 105,
-			atq_esp: 59,
-			def_esp: 85,
-			vel: 36,
+			ps:		 	60,
+			atq:	 	79,
+			def:	 	105,
+			atq_esp: 	59,
+			def_esp: 	85,
+			vel: 		36,
 		},
 		descricao:
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -13068,12 +13068,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
-			ps: 60,
-			atq: 69,
-			def: 95,
-			atq_esp: 69,
-			def_esp: 95,
-			vel: 36,
+			ps:		 	60,
+			atq:	 	69,
+			def:	 	95,
+			atq_esp: 	69,
+			def_esp: 	95,
+			vel: 		36,
 		},
 		descricao:
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -13096,12 +13096,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/48/F0414.png",
 		estatistica: {
-			ps: 70,
-			atq: 94,
-			def: 50,
-			atq_esp: 94,
-			def_esp: 50,
-			vel: 66,
+			ps:		 	70,
+			atq:	 	94,
+			def:	 	50,
+			atq_esp: 	94,
+			def_esp: 	50,
+			vel: 		66,
 		},
 		descricao:
 			"Não mantém um ninho. Voa sobre campos e montanhas em procura constante de mel floral.", // considerando a dex da primeira geração que apareceu
@@ -13124,12 +13124,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/95/F0415.png",
 		estatistica: {
-			ps: 30,
-			atq: 30,
-			def: 42,
-			atq_esp: 30,
-			def_esp: 42,
-			vel: 70,
+			ps:		 	30,
+			atq:	 	30,
+			def:	 	42,
+			atq_esp: 	30,
+			def_esp: 	42,
+			vel: 		70,
 		},
 		descricao:
 			"Coleta e entrega mel para sua colônia. À noite, se agrupam para formar uma colmeia e dormem.", // considerando a dex da primeira geração que apareceu
@@ -13153,12 +13153,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0416.png",
 		estatistica: {
-			ps: 70,
-			atq: 80,
-			def: 102,
-			atq_esp: 80,
-			def_esp: 102,
-			vel: 40,
+			ps:		 	70,
+			atq:	 	80,
+			def:	 	102,
+			atq_esp: 	80,
+			def_esp: 	102,
+			vel: 		40,
 		},
 		descricao:
 			"Quando ameaçadas, larvas de seu favo de mel de seis células revidam. Há apenas uma em uma colônia.", // considerando a dex da primeira geração que apareceu
@@ -13181,12 +13181,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0417.png",
 		estatistica: {
-			ps: 60,
-			atq: 45,
-			def: 70,
-			atq_esp: 45,
-			def_esp: 90,
-			vel: 95,
+			ps:		 	60,
+			atq:	 	45,
+			def:	 	70,
+			atq_esp: 	45,
+			def_esp: 	90,
+			vel: 		95,
 		},
 		descricao:
 			"Faz bolas de pelo que estalam com eletricidade estática. As armazena com frutas em buracos de árvores.", // considerando a dex da primeira geração que apareceu
@@ -13209,12 +13209,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0418.png",
 		estatistica: {
-			ps: 55,
-			atq: 65,
-			def: 35,
-			atq_esp: 60,
-			def_esp: 30,
-			vel: 85,
+			ps:		 	55,
+			atq:	 	65,
+			def:	 	35,
+			atq_esp: 	60,
+			def_esp: 	30,
+			vel: 		85,
 		},
 		descricao:
 			"Possui um saco de flutuação que se assemelha a uma coleira inflável. Flutua na água com a cabeça para fora.", // considerando a dex da primeira geração que apareceu
@@ -13237,12 +13237,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0419.png",
 		estatistica: {
-			ps: 85,
-			atq: 105,
-			def: 55,
-			atq_esp: 85,
-			def_esp: 50,
-			vel: 115,
+			ps:		 	85,
+			atq:	 	105,
+			def:	 	55,
+			atq_esp: 	85,
+			def_esp: 	50,
+			vel: 		115,
 		},
 		descricao:
 			"Flutua usando seus saco de flutuação bem desenvolvido. Auxilia no resgate de pessoas que estão se afogando.", // considerando a dex da primeira geração que apareceu
@@ -13266,12 +13266,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0420.png",
 		estatistica: {
-			ps: 45,
-			atq: 35,
-			def: 45,
-			atq_esp: 62,
-			def_esp: 53,
-			vel: 35,
+			ps:		 	45,
+			atq:	 	35,
+			def:	 	45,
+			atq_esp: 	62,
+			def_esp: 	53,
+			vel: 		35,
 		},
 		descricao:
 			"A bola pequena não é só cheia de nutrientes, também é saborosa.", // considerando a dex da primeira geração que apareceu
@@ -13295,12 +13295,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0421.png",
 		estatistica: {
-			ps: 70,
-			atq: 60,
-			def: 70,
-			atq_esp: 87,
-			def_esp: 78,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	60,
+			def:	 	70,
+			atq_esp: 	87,
+			def_esp: 	78,
+			vel: 		85,
 		},
 		descricao:
 			"Floresce em épocas de forte luz solar. Tenta compensar tudo o que suportou como broto.", // considerando a dex da primeira geração que apareceu
@@ -13324,12 +13324,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0422.png",
 		estatistica: {
-			ps: 76,
-			atq: 48,
-			def: 48,
-			atq_esp: 57,
-			def_esp: 62,
-			vel: 34,
+			ps:		 	76,
+			atq:	 	48,
+			def:	 	48,
+			atq_esp: 	57,
+			def_esp: 	62,
+			vel: 		34,
 		},
 		descricao:
 			"Suas cores e formas diferem de região para região. Na região de Sinnoh, estão confirmados dois tipos.", // considerando a dex da primeira geração que apareceu
@@ -13353,12 +13353,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0423.png",
 		estatistica: {
-			ps: 111,
-			atq: 83,
-			def: 68,
-			atq_esp: 92,
-			def_esp: 82,
-			vel: 39,
+			ps:		 	111,
+			atq:	 	83,
+			def:	 	68,
+			atq_esp: 	92,
+			def_esp: 	82,
+			vel: 		39,
 		},
 		descricao:
 			"Possui um corpo flexível sem ossos. Caso qualquer parte de seu corpo for arrancada, ela cresce de volta.", // considerando a dex da primeira geração que apareceu
@@ -13382,12 +13382,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0424.png",
 		estatistica: {
-			ps: 75,
-			atq: 100,
-			def: 66,
-			atq_esp: 60,
-			def_esp: 66,
-			vel: 115,
+			ps:		 	75,
+			atq:	 	100,
+			def:	 	66,
+			atq_esp: 	60,
+			def_esp: 	66,
+			vel: 		115,
 		},
 		descricao:
 			"Para comer, habilmente descasca nozes com suas duas caudas. Raramente usa seus braços.", // considerando a dex da primeira geração que apareceu
@@ -13410,12 +13410,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0425.png",
 		estatistica: {
-			ps: 90,
-			atq: 50,
-			def: 34,
-			atq_esp: 60,
-			def_esp: 44,
-			vel: 70,
+			ps:		 	90,
+			atq:	 	50,
+			def:	 	34,
+			atq_esp: 	60,
+			def_esp: 	44,
+			vel: 		70,
 		},
 		descricao:
 			"Um Pokémon formado por espíritos de pessoas e Pokémon. Gosta de estações úmidas.", // considerando a dex da primeira geração que apareceu
@@ -13438,12 +13438,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0426.png",
 		estatistica: {
-			ps: 150,
-			atq: 80,
-			def: 44,
-			atq_esp: 90,
-			def_esp: 54,
-			vel: 80,
+			ps:		 	150,
+			atq:	 	80,
+			def:	 	44,
+			atq_esp: 	90,
+			def_esp: 	54,
+			vel: 		80,
 		},
 		descricao:
 			"É sonolento durante o dia, voa à noite em grandes grupos. Ninguém sabe para onde vão.", // considerando a dex da primeira geração que apareceu
@@ -13466,12 +13466,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0427.png",
 		estatistica: {
-			ps: 55,
-			atq: 66,
-			def: 44,
-			atq_esp: 44,
-			def_esp: 56,
-			vel: 85,
+			ps:		 	55,
+			atq:	 	66,
+			def:	 	44,
+			atq_esp: 	44,
+			def_esp: 	56,
+			vel: 		85,
 		},
 		descricao:
 			"Bate em seus inimigos desenrolando bruscamente suas orelhas enroladas. Pica o suficiente para fazer um adulto chorar de dor.", // considerando a dex da primeira geração que apareceu
@@ -13494,12 +13494,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0428.png",
 		estatistica: {
-			ps: 65,
-			atq: 76,
-			def: 84,
-			atq_esp: 54,
-			def_esp: 96,
-			vel: 105,
+			ps:		 	65,
+			atq:	 	76,
+			def:	 	84,
+			atq_esp: 	54,
+			def_esp: 	96,
+			vel: 		105,
 		},
 		descricao:
 			"Um Pokémon extremamente cauteloso. Cobre seu corpo com sua orelha fofa quando sente perigo.", // considerando a dex da primeira geração que apareceu
@@ -13522,12 +13522,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0429.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 60,
-			atq_esp: 105,
-			def_esp: 105,
-			vel: 105,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	105,
+			def_esp: 	105,
+			vel: 		105,
 		},
 		descricao:
 			"Os sons que emite soam como encantações. Quem ouve são atormentados por dores de cabeça e alucinações.", // considerando a dex da primeira geração que apareceu
@@ -13550,12 +13550,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0430.png",
 		estatistica: {
-			ps: 100,
-			atq: 125,
-			def: 52,
-			atq_esp: 105,
-			def_esp: 52,
-			vel: 71,
+			ps:		 	100,
+			atq:	 	125,
+			def:	 	52,
+			atq_esp: 	105,
+			def_esp: 	52,
+			vel: 		71,
 		},
 		descricao:
 			"Caso algum soltar um grito profundo, vários subordinados reúnem-se rapidamente. Por isso, é chamado de 'Invocador da Noite'.", // considerando a dex da primeira geração que apareceu
@@ -13578,12 +13578,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0431.png",
 		estatistica: {
-			ps: 49,
-			atq: 55,
-			def: 42,
-			atq_esp: 42,
-			def_esp: 37,
-			vel: 85,
+			ps:		 	49,
+			atq:	 	55,
+			def:	 	42,
+			atq_esp: 	42,
+			def_esp: 	37,
+			vel: 		85,
 		},
 		descricao:
 			"Arranha quando está insatisfeito e ronrona quando afetuoso. Sua inconstância é muito popular entre alguns.", // considerando a dex da primeira geração que apareceu
@@ -13606,12 +13606,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0432.png",
 		estatistica: {
-			ps: 71,
-			atq: 82,
-			def: 64,
-			atq_esp: 64,
-			def_esp: 59,
-			vel: 112,
+			ps:		 	71,
+			atq:	 	82,
+			def:	 	64,
+			atq_esp: 	64,
+			def_esp: 	59,
+			vel: 		112,
 		},
 		descricao:
 			"É um bruto descarado que invade o ninho de outro Pokémon e o reivindica como seu.", // considerando a dex da primeira geração que apareceu
@@ -13634,12 +13634,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0433.png",
 		estatistica: {
-			ps: 45,
-			atq: 30,
-			def: 50,
-			atq_esp: 65,
-			def_esp: 50,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	30,
+			def:	 	50,
+			atq_esp: 	65,
+			def_esp: 	50,
+			vel: 		45,
 		},
 		descricao:
 			"Emite sons ao agitar uma orbe no fundo da gargante. Se move com pulos agitados.", // considerando a dex da primeira geração que apareceu
@@ -13663,12 +13663,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0434.png",
 		estatistica: {
-			ps: 63,
-			atq: 63,
-			def: 47,
-			atq_esp: 41,
-			def_esp: 41,
-			vel: 74,
+			ps:		 	63,
+			atq:	 	63,
+			def:	 	47,
+			atq_esp: 	41,
+			def_esp: 	41,
+			vel: 		74,
 		},
 		descricao:
 			"Protege a si mesmo borrifando um fluido nocivo de sua parte traseira. O fedor permanece por 24 horas.", // considerando a dex da primeira geração que apareceu
@@ -13691,12 +13691,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0435.png",
 		estatistica: {
-			ps: 103,
-			atq: 93,
-			def: 67,
-			atq_esp: 71,
-			def_esp: 61,
-			vel: 84,
+			ps:		 	103,
+			atq:	 	93,
+			def:	 	67,
+			atq_esp: 	71,
+			def_esp: 	61,
+			vel: 		84,
 		},
 		descricao:
 			"Borrifa um fluido de cheiro horrível da ponta da cauda para atacar. Seu alcance é de 50 metros.", // considerando a dex da primeira geração que apareceu
@@ -13719,12 +13719,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0436.png",
 		estatistica: {
-			ps: 57,
-			atq: 24,
-			def: 86,
-			atq_esp: 24,
-			def_esp: 86,
-			vel: 23,
+			ps:		 	57,
+			atq:	 	24,
+			def:	 	86,
+			atq_esp: 	24,
+			def_esp: 	86,
+			vel: 		23,
 		},
 		descricao:
 			"Fotos de raio-X foram tiradas para verificar a estrutura de seu corpo. Contudo, nada apareceu.", // considerando a dex da primeira geração que apareceu
@@ -13748,12 +13748,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c2/F0437.png",
 		estatistica: {
-			ps: 67,
-			atq: 89,
-			def: 116,
-			atq_esp: 79,
-			def_esp: 116,
-			vel: 33,
+			ps:		 	67,
+			atq:	 	89,
+			def:	 	116,
+			atq_esp: 	79,
+			def_esp: 	116,
+			vel: 		33,
 		},
 		descricao:
 			"Consegue invocar nuvens de chuva. Pessoas há muito tempo o reverenciavam como o portado de colheitas abundantes.", // considerando a dex da primeira geração que apareceu
@@ -13776,12 +13776,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0438.png",
 		estatistica: {
-			ps: 50,
-			atq: 80,
-			def: 95,
-			atq_esp: 10,
-			def_esp: 45,
-			vel: 10,
+			ps:		 	50,
+			atq:	 	80,
+			def:	 	95,
+			atq_esp: 	10,
+			def_esp: 	45,
+			vel: 		10,
 		},
 		descricao:
 			"Aparenta sempre estar chorando. Na verdade, está ajustando os níveis de fluidos corporais eliminando o excesso.", // considerando a dex da primeira geração que apareceu
@@ -13804,12 +13804,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0439.png",
 		estatistica: {
-			ps: 20,
-			atq: 25,
-			def: 45,
-			atq_esp: 70,
-			def_esp: 90,
-			vel: 60,
+			ps:		 	20,
+			atq:	 	25,
+			def:	 	45,
+			atq_esp: 	70,
+			def_esp: 	90,
+			vel: 		60,
 		},
 		descricao:
 			"Habitualmente imita os inimigos. Uma vez imitado, o inimigo não consegue tirar os olhos deste Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -13832,12 +13832,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0440.png",
 		estatistica: {
-			ps: 100,
-			atq: 5,
-			def: 5,
-			atq_esp: 75,
-			def_esp: 65,
-			vel: 30,
+			ps:		 	100,
+			atq:	 	5,
+			def:	 	5,
+			atq_esp: 	15,
+			def_esp: 	65,
+			vel: 		30,
 		},
 		descricao:
 			"Gosta de carregar uma rocha pequena. Pode vagar pelos pés dos outros e fazê-los tropeçar.", // considerando a dex da primeira geração que apareceu
@@ -13860,12 +13860,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/79/F0441.png",
 		estatistica: {
-			ps: 76,
-			atq: 65,
-			def: 45,
-			atq_esp: 92,
-			def_esp: 42,
-			vel: 91,
+			ps:		 	76,
+			atq:	 	65,
+			def:	 	45,
+			atq_esp: 	92,
+			def_esp: 	42,
+			vel: 		91,
 		},
 		descricao:
 			"Consegue aprender e falar palavras humanas. Quando se juntam, todos aprenderão o mesmo ditado.", // considerando a dex da primeira geração que apareceu
@@ -13888,12 +13888,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0442.png",
 		estatistica: {
-			ps: 50,
-			atq: 92,
-			def: 108,
-			atq_esp: 92,
-			def_esp: 108,
-			vel: 35,
+			ps:		 	50,
+			atq:	 	92,
+			def:	 	108,
+			atq_esp: 	92,
+			def_esp: 	108,
+			vel: 		35,
 		},
 		descricao:
 			"Foi preso a uma fissura em uma pedra sagrada como punição por delitos cometidos há 500 anos.", // considerando a dex da primeira geração que apareceu
@@ -13916,12 +13916,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0443.png",
 		estatistica: {
-			ps: 58,
-			atq: 70,
-			def: 45,
-			atq_esp: 40,
-			def_esp: 45,
-			vel: 42,
+			ps:		 	58,
+			atq:	 	70,
+			def:	 	45,
+			atq_esp: 	40,
+			def_esp: 	45,
+			vel: 		42,
 		},
 		descricao:
 			"Nidifica em pequenos buracos horizontais nas paredes de cavernas. Ataca para capturar presas que se aproximam demais.", // considerando a dex da primeira geração que apareceu
@@ -13944,12 +13944,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0444.png",
 		estatistica: {
-			ps: 68,
-			atq: 90,
-			def: 65,
-			atq_esp: 50,
-			def_esp: 55,
-			vel: 82,
+			ps:		 	68,
+			atq:	 	90,
+			def:	 	65,
+			atq_esp: 	50,
+			def_esp: 	55,
+			vel: 		82,
 		},
 		descricao:
 			"Há uma crença antiga que remédios feitos com suas escamas curam até doenças incuráveis.", // considerando a dex da primeira geração que apareceu
@@ -13972,12 +13972,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0445.png",
 		estatistica: {
-			ps: 108,
-			atq: 130,
-			def: 95,
-			atq_esp: 80,
-			def_esp: 85,
-			vel: 102,
+			ps:		 	108,
+			atq:	 	130,
+			def:	 	95,
+			atq_esp: 	80,
+			def_esp: 	85,
+			vel: 		102,
 		},
 		descricao:
 			"Quando curva seu corpo e estende suas asas, se assemelha a um jato. Voa em velocidade sônica.", // considerando a dex da primeira geração que apareceu
@@ -14000,12 +14000,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0446.png",
 		estatistica: {
-			ps: 135,
-			atq: 85,
-			def: 40,
-			atq_esp: 40,
-			def_esp: 85,
-			vel: 5,
+			ps:		 	135,
+			atq:	 	85,
+			def:	 	40,
+			atq_esp: 	40,
+			def_esp: 	85,
+			vel: 		5,
 		},
 		descricao:
 			"Devora seu peso em comida uma vez por dia, engolindo a comida inteira quase sem mastigar.", // considerando a dex da primeira geração que apareceu
@@ -14029,12 +14029,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0447.png",
 		estatistica: {
-			ps: 40,
-			atq: 70,
-			def: 40,
-			atq_esp: 35,
-			def_esp: 40,
-			vel: 60,
+			ps:		 	40,
+			atq:	 	70,
+			def:	 	40,
+			atq_esp: 	35,
+			def_esp: 	40,
+			vel: 		60,
 		},
 		descricao:
 			"A aura que emana de seu corpo intensifica para alertar outros caso esteja assustado ou triste.", // considerando a dex da primeira geração que apareceu
@@ -14057,12 +14057,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0448.png",
 		estatistica: {
-			ps: 70,
-			atq: 110,
-			def: 70,
-			atq_esp: 115,
-			def_esp: 70,
-			vel: 90,
+			ps:		 	70,
+			atq:	 	110,
+			def:	 	70,
+			atq_esp: 	115,
+			def_esp: 	70,
+			vel: 		90,
 		},
 		descricao:
 			"Possui a habilidade de sentir as auras de todas as coisas. Compreende a fala humana.", // considerando a dex da primeira geração que apareceu
@@ -14085,12 +14085,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0449.png",
 		estatistica: {
-			ps: 68,
-			atq: 72,
-			def: 78,
-			atq_esp: 38,
-			def_esp: 42,
-			vel: 32,
+			ps:		 	68,
+			atq:	 	72,
+			def:	 	78,
+			atq_esp: 	38,
+			def_esp: 	42,
+			vel: 		32,
 		},
 		descricao:
 			"Vive em lugares áridos. Em vez de transpirar, expele areia granulada do corpo.", // considerando a dex da primeira geração que apareceu
@@ -14113,12 +14113,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0450.png",
 		estatistica: {
-			ps: 108,
-			atq: 112,
-			def: 118,
-			atq_esp: 68,
-			def_esp: 72,
-			vel: 47,
+			ps:		 	108,
+			atq:	 	112,
+			def:	 	118,
+			atq_esp: 	68,
+			def_esp: 	72,
+			vel: 		47,
 		},
 		descricao:
 			"Expele areia que armazena internamente através de aberturas em seu corpo para criar um tornado gigante para ataque.", // considerando a dex da primeira geração que apareceu
@@ -14141,12 +14141,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0451.png",
 		estatistica: {
-			ps: 40,
-			atq: 50,
-			def: 90,
-			atq_esp: 30,
-			def_esp: 55,
-			vel: 65,
+			ps:		 	40,
+			atq:	 	50,
+			def:	 	90,
+			atq_esp: 	30,
+			def_esp: 	55,
+			vel: 		65,
 		},
 		descricao:
 			"Agarra a presa com suas garras da cauda e injeta veneno. Tenazmente se agarra até o veneno fazer efeito.", // considerando a dex da primeira geração que apareceu
@@ -14169,12 +14169,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0452.png",
 		estatistica: {
-			ps: 70,
-			atq: 90,
-			def: 110,
-			atq_esp: 60,
-			def_esp: 75,
-			vel: 95,
+			ps:		 	70,
+			atq:	 	90,
+			def:	 	110,
+			atq_esp: 	60,
+			def_esp: 	75,
+			vel: 		95,
 		},
 		descricao:
 			"Possui força em suas garras para fazer sucata de um carro. As pontas de suas garras liberam veneno.", // considerando a dex da primeira geração que apareceu
@@ -14197,12 +14197,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0453.png",
 		estatistica: {
-			ps: 48,
-			atq: 61,
-			def: 40,
-			atq_esp: 61,
-			def_esp: 40,
-			vel: 50,
+			ps:		 	48,
+			atq:	 	61,
+			def:	 	40,
+			atq_esp: 	61,
+			def_esp: 	40,
+			vel: 		50,
 		},
 		descricao:
 			"Suas bochechas contêm sacos de veneno. Tenta pegar os inimigos desprevenidos para acertá-los com dedos tóxicos.", // considerando a dex da primeira geração que apareceu
@@ -14225,12 +14225,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0454.png",
 		estatistica: {
-			ps: 83,
-			atq: 106,
-			def: 65,
-			atq_esp: 86,
-			def_esp: 65,
-			vel: 85,
+			ps:		 	83,
+			atq:	 	106,
+			def:	 	65,
+			atq_esp: 	86,
+			def_esp: 	65,
+			vel: 		85,
 		},
 		descricao:
 			"Suas garras secretam uma toxina tão vil que até mesmo um arranhão pode ser fatal.", // considerando a dex da primeira geração que apareceu
@@ -14253,12 +14253,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0455.png",
 		estatistica: {
-			ps: 74,
-			atq: 100,
-			def: 72,
-			atq_esp: 90,
-			def_esp: 72,
-			vel: 46,
+			ps:		 	74,
+			atq:	 	100,
+			def:	 	72,
+			atq_esp: 	90,
+			def_esp: 	72,
+			vel: 		46,
 		},
 		descricao:
 			"Atrai a presa com sua saliva de cheiro doce, então a mastiga. Demora um dia inteiro para comer a presa.", // considerando a dex da primeira geração que apareceu
@@ -14281,12 +14281,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0456.png",
 		estatistica: {
-			ps: 49,
-			atq: 49,
-			def: 56,
-			atq_esp: 49,
-			def_esp: 61,
-			vel: 66,
+			ps:		 	49,
+			atq:	 	49,
+			def:	 	56,
+			atq_esp: 	49,
+			def_esp: 	61,
+			vel: 		66,
 		},
 		descricao:
 			"Depois de uma longa exposição a luz solar, os padrões em sua barbatana caudal brilha vividamente quando chega a escuridão.", // considerando a dex da primeira geração que apareceu
@@ -14310,12 +14310,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0457.png",
 		estatistica: {
-			ps: 69,
-			atq: 69,
-			def: 76,
-			atq_esp: 69,
-			def_esp: 86,
-			vel: 91,
+			ps:		 	69,
+			atq:	 	69,
+			def:	 	76,
+			atq_esp: 	69,
+			def_esp: 	86,
+			vel: 		91,
 		},
 		descricao:
 			"Vive no fundo do mar profundo. Atrai presas exibindo os padrões em suas quatro nadadeiras caudais.", // considerando a dex da primeira geração que apareceu
@@ -14339,12 +14339,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/43/F0458.png",
 		estatistica: {
-			ps: 45,
-			atq: 20,
-			def: 50,
-			atq_esp: 60,
-			def_esp: 120,
-			vel: 50,
+			ps:		 	45,
+			atq:	 	20,
+			def:	 	50,
+			atq_esp: 	60,
+			def_esp: 	120,
+			vel: 		50,
 		},
 		descricao:
 			"Um Pokémon amigável que captura fluxos sutis da água do mar usando suas duas antenas.", // considerando a dex da primeira geração que apareceu
@@ -14367,12 +14367,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0459.png",
 		estatistica: {
-			ps: 60,
-			atq: 62,
-			def: 50,
-			atq_esp: 62,
-			def_esp: 60,
-			vel: 40,
+			ps:		 	60,
+			atq:	 	62,
+			def:	 	50,
+			atq_esp: 	62,
+			def_esp: 	60,
+			vel: 		40,
 		},
 		descricao:
 			"Vive em montanhas nevadas. Tendo tipo pouco contato com humanos, é ousadamente curioso.", // considerando a dex da primeira geração que apareceu
@@ -14396,12 +14396,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0460.png",
 		estatistica: {
-			ps: 90,
-			atq: 92,
-			def: 75,
-			atq_esp: 92,
-			def_esp: 85,
-			vel: 60,
+			ps:		 	90,
+			atq:	 	92,
+			def:	 	75,
+			atq_esp: 	92,
+			def_esp: 	85,
+			vel: 		60,
 		},
 		descricao:
 			"Provoca nevascas em montanhas que estão sempre enterradas na neve. É o abominável homem das neves.", // considerando a dex da primeira geração que apareceu
@@ -14424,12 +14424,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0461.png",
 		estatistica: {
-			ps: 70,
-			atq: 120,
-			def: 65,
-			atq_esp: 45,
-			def_esp: 85,
-			vel: 125,
+			ps:		 	70,
+			atq:	 	120,
+			def:	 	65,
+			atq_esp: 	45,
+			def_esp: 	85,
+			vel: 		125,
 		},
 		descricao:
 			"Vivem em regiões frias, formando grupos de quatro ou cinco que caçam presas com coordenação impressionante.", // considerando a dex da primeira geração que apareceu
@@ -14452,12 +14452,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0462.png",
 		estatistica: {
-			ps: 70,
-			atq: 70,
-			def: 115,
-			atq_esp: 130,
-			def_esp: 90,
-			vel: 60,
+			ps:		 	70,
+			atq:	 	70,
+			def:	 	115,
+			atq_esp: 	130,
+			def_esp: 	90,
+			vel: 		60,
 		},
 		descricao:
 			"Um grupo tentou usar meios científicos para fazê-lo evoluir, mas seus esforços fracassaram.", // considerando a dex da primeira geração que apareceu
@@ -14480,12 +14480,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0463.png",
 		estatistica: {
-			ps: 110,
-			atq: 85,
-			def: 95,
-			atq_esp: 80,
-			def_esp: 95,
-			vel: 50,
+			ps:		 	110,
+			atq:	 	85,
+			def:	 	95,
+			atq_esp: 	80,
+			def_esp: 	95,
+			vel: 		50,
 		},
 		descricao:
 			"Envolve coisas com sua língua extensível. Chegar muito perto dele deixará você encharcado de baba.", // considerando a dex da primeira geração que apareceu
@@ -14508,12 +14508,12 @@ const pkmnDisponiveis = [
 		altura: 2.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0464.png",
 		estatistica: {
-			ps: 115,
-			atq: 140,
-			def: 130,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 40,
+			ps:		 	115,
+			atq:	 	140,
+			def:	 	130,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		40,
 		},
 		descricao:
 			"Consegue lançar uma rocha segurada na mão como um míssil, contraindo e expandido os músculos instantaneamente.", // considerando a dex da primeira geração que apareceu
@@ -14536,12 +14536,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0465.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 125,
-			atq_esp: 110,
-			def_esp: 50,
-			vel: 50,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	125,
+			atq_esp: 	110,
+			def_esp: 	50,
+			vel: 		50,
 		},
 		descricao:
 			"Seus braços são feitos de plantas que se prendem a coisas. Crescem de volta imediatamente se cortados.", // considerando a dex da primeira geração que apareceu
@@ -14564,12 +14564,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ae/F0466.png",
 		estatistica: {
-			ps: 75,
-			atq: 123,
-			def: 67,
-			atq_esp: 95,
-			def_esp: 85,
-			vel: 95,
+			ps:		 	75,
+			atq:	 	123,
+			def:	 	67,
+			atq_esp: 	95,
+			def_esp: 	85,
+			vel: 		95,
 		},
 		descricao:
 			"Empurra a ponta de suas duas caudas contra o oponente, então libera mais de 20'000 volts de energia.", // considerando a dex da primeira geração que apareceu
@@ -14592,12 +14592,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0467.png",
 		estatistica: {
-			ps: 75,
-			atq: 95,
-			def: 67,
-			atq_esp: 125,
-			def_esp: 95,
-			vel: 83,
+			ps:		 	75,
+			atq:	 	95,
+			def:	 	67,
+			atq_esp: 	125,
+			def_esp: 	95,
+			vel: 		83,
 		},
 		descricao:
 			"Atira bolas de fogo de mais de 2'000° Celsius das pontas dos braços. Vive em crateras vulcânicas.", // considerando a dex da primeira geração que apareceu
@@ -14620,12 +14620,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c9/F0468.png",
 		estatistica: {
-			ps: 85,
-			atq: 50,
-			def: 95,
-			atq_esp: 125,
-			def_esp: 115,
-			vel: 80,
+			ps:		 	85,
+			atq:	 	50,
+			def:	 	95,
+			atq_esp: 	125,
+			def_esp: 	115,
+			vel: 		80,
 		},
 		descricao:
 			"Nunca aparece onde há conflito. Seus avistamentos se tornaram raros recentemente.", // considerando a dex da primeira geração que apareceu
@@ -14648,12 +14648,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9d/F0469.png",
 		estatistica: {
-			ps: 86,
-			atq: 76,
-			def: 86,
-			atq_esp: 116,
-			def_esp: 56,
-			vel: 95,
+			ps:		 	86,
+			atq:	 	76,
+			def:	 	86,
+			atq_esp: 	116,
+			def_esp: 	56,
+			vel: 		95,
 		},
 		descricao:
 			"Ao bater suas asas, cria ondas de choque que causam ferimentos internos críticos aos inimigos.", // considerando a dex da primeira geração que apareceu
@@ -14676,12 +14676,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0470.png",
 		estatistica: {
-			ps: 65,
-			atq: 110,
-			def: 130,
-			atq_esp: 60,
-			def_esp: 65,
-			vel: 95,
+			ps:		 	65,
+			atq:	 	110,
+			def:	 	130,
+			atq_esp: 	60,
+			def_esp: 	65,
+			vel: 		95,
 		},
 		descricao:
 			"Assim como uma planta, realiza fotossíntese. Como resultado, está sempre envolta em ar limpo.", // considerando a dex da primeira geração que apareceu
@@ -14704,12 +14704,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0471.png",
 		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 110,
-			atq_esp: 130,
-			def_esp: 95,
-			vel: 65,
+			ps:		 	65,
+			atq:	 	60,
+			def:	 	110,
+			atq_esp: 	130,
+			def_esp: 	95,
+			vel: 		65,
 		},
 		descricao:
 			"Como técnica protetiva, consegue congelar completamente seu pelo, fazendo com que seus pelos fiquem eriçados como agulhas.", // considerando a dex da primeira geração que apareceu
@@ -14732,12 +14732,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0472.png",
 		estatistica: {
-			ps: 75,
-			atq: 95,
-			def: 125,
-			atq_esp: 45,
-			def_esp: 75,
-			vel: 95,
+			ps:		 	75,
+			atq:	 	95,
+			def:	 	125,
+			atq_esp: 	45,
+			def_esp: 	75,
+			vel: 		95,
 		},
 		descricao:
 			"Observa presa enquanto está de cabeça para baixo em galhos. Quando a chance se apresenta, ataca!.", // considerando a dex da primeira geração que apareceu
@@ -14760,12 +14760,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/04/F0473.png",
 		estatistica: {
-			ps: 110,
-			atq: 130,
-			def: 80,
-			atq_esp: 70,
-			def_esp: 60,
-			vel: 80,
+			ps:		 	110,
+			atq:	 	130,
+			def:	 	80,
+			atq_esp: 	70,
+			def_esp: 	60,
+			vel: 		80,
 		},
 		descricao:
 			"Suas presas impressionantes são feitas de gelo. A população diminuiu quando o clima esquentou após a era glacial.", // considerando a dex da primeira geração que apareceu
@@ -14788,12 +14788,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0474.png",
 		estatistica: {
-			ps: 85,
-			atq: 80,
-			def: 70,
-			atq_esp: 135,
-			def_esp: 75,
-			vel: 90,
+			ps:		 	85,
+			atq:	 	80,
+			def:	 	70,
+			atq_esp: 	135,
+			def_esp: 	75,
+			vel: 		90,
 		},
 		descricao:
 			"Software adicional foi instalado para torna-lo um Pokémon melhor. No entanto, começou a agir de forma estranha.", // considerando a dex da primeira geração que apareceu
@@ -14816,12 +14816,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0475.png",
 		estatistica: {
-			ps: 68,
-			atq: 125,
-			def: 65,
-			atq_esp: 65,
-			def_esp: 115,
-			vel: 80,
+			ps:		 	68,
+			atq:	 	125,
+			def:	 	65,
+			atq_esp: 	65,
+			def_esp: 	115,
+			vel: 		80,
 		},
 		descricao:
 			"Um mestre da cortesia e da esgrima, luta usando espadas extensíveis nos cotovelos.", // considerando a dex da primeira geração que apareceu
@@ -14844,12 +14844,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0476.png",
 		estatistica: {
-			ps: 60,
-			atq: 55,
-			def: 145,
-			atq_esp: 75,
-			def_esp: 150,
-			vel: 40,
+			ps:		 	60,
+			atq:	 	55,
+			def:	 	145,
+			atq_esp: 	75,
+			def_esp: 	150,
+			vel: 		40,
 		},
 		descricao:
 			"Exala magnetismo forte de todo lugar. Controla três pequenas unidades chamadas 'Mini-Narizes'.", // considerando a dex da primeira geração que apareceu
@@ -14872,12 +14872,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0477.png",
 		estatistica: {
-			ps: 45,
-			atq: 100,
-			def: 135,
-			atq_esp: 65,
-			def_esp: 135,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	100,
+			def:	 	135,
+			atq_esp: 	65,
+			def_esp: 	135,
+			vel: 		45,
 		},
 		descricao:
 			"A antena em sua cabeça captura ondas de rádio do mundo dos espíritos que lhe ordena levar pessoas até lá.", // considerando a dex da primeira geração que apareceu
@@ -14900,12 +14900,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0478.png",
 		estatistica: {
-			ps: 70,
-			atq: 80,
-			def: 70,
-			atq_esp: 80,
-			def_esp: 70,
-			vel: 110,
+			ps:		 	70,
+			atq:	 	80,
+			def:	 	70,
+			atq_esp: 	80,
+			def_esp: 	70,
+			vel: 		110,
 		},
 		descricao:
 			"Congela os inimigos com um sopro gelado de quase -50° Celsius. O que parece ser ser corpo é, na verdade, oco.", // considerando a dex da primeira geração que apareceu
@@ -14928,12 +14928,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 77,
-			atq_esp: 95,
-			def_esp: 77,
-			vel: 91,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	77,
+			atq_esp: 	95,
+			def_esp: 	77,
+			vel: 		91,
 		},
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
@@ -14956,12 +14956,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 107,
-			atq_esp: 105,
-			def_esp: 107,
-			vel: 86,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	107,
+			atq_esp: 	105,
+			def_esp: 	107,
+			vel: 		86,
 		},
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
@@ -14984,12 +14984,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 107,
-			atq_esp: 105,
-			def_esp: 107,
-			vel: 86,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	107,
+			atq_esp: 	105,
+			def_esp: 	107,
+			vel: 		86,
 		},
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
@@ -15012,12 +15012,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 107,
-			atq_esp: 105,
-			def_esp: 107,
-			vel: 86,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	107,
+			atq_esp: 	105,
+			def_esp: 	107,
+			vel: 		86,
 		},
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
@@ -15040,12 +15040,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 107,
-			atq_esp: 105,
-			def_esp: 107,
-			vel: 86,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	107,
+			atq_esp: 	105,
+			def_esp: 	107,
+			vel: 		86,
 		},
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
@@ -15068,12 +15068,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 107,
-			atq_esp: 105,
-			def_esp: 107,
-			vel: 86,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	107,
+			atq_esp: 	105,
+			def_esp: 	107,
+			vel: 		86,
 		},
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
@@ -15096,12 +15096,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0480.png",
 		estatistica: {
-			ps: 75,
-			atq: 75,
-			def: 130,
-			atq_esp: 75,
-			def_esp: 130,
-			vel: 95,
+			ps:		 	75,
+			atq:	 	75,
+			def:	 	130,
+			atq_esp: 	75,
+			def_esp: 	130,
+			vel: 		95,
 		},
 		descricao:
 			"Rumores dizem que seu surgimento deu aos humanos a inteligência para melhorar sua qualidade de vida.", // considerando a dex da primeira geração que apareceu
@@ -15124,12 +15124,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0481.png",
 		estatistica: {
-			ps: 80,
-			atq: 105,
-			def: 105,
-			atq_esp: 105,
-			def_esp: 105,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	105,
+			def:	 	105,
+			atq_esp: 	105,
+			def_esp: 	105,
+			vel: 		80,
 		},
 		descricao:
 			"Dorme no fundo de um lago. É dito que seu espírito deixa seu corpo para voar na superfície do lago.", // considerando a dex da primeira geração que apareceu
@@ -15152,12 +15152,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0482.png",
 		estatistica: {
-			ps: 75,
-			atq: 125,
-			def: 70,
-			atq_esp: 125,
-			def_esp: 70,
-			vel: 115,
+			ps:		 	75,
+			atq:	 	125,
+			def:	 	70,
+			atq_esp: 	125,
+			def_esp: 	70,
+			vel: 		115,
 		},
 		descricao:
 			"Quando voou, as pessoas ganharam determinação para fazer as coisas. Foi o nascimento da força de vontade.", // considerando a dex da primeira geração que apareceu
@@ -15180,12 +15180,12 @@ const pkmnDisponiveis = [
 		altura: 5.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0483.png",
 		estatistica: {
-			ps: 100,
-			atq: 120,
-			def: 120,
-			atq_esp: 150,
-			def_esp: 100,
-			vel: 90,
+			ps:		 	100,
+			atq:	 	120,
+			def:	 	120,
+			atq_esp: 	150,
+			def_esp: 	100,
+			vel: 		90,
 		},
 		descricao:
 			"Possui o poder de controlar o tempo. Aparece nos mitos da região de Sinnoh como uma deidade antiga.", // considerando a dex da primeira geração que apareceu
@@ -15208,12 +15208,12 @@ const pkmnDisponiveis = [
 		altura: 4.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0484.png",
 		estatistica: {
-			ps: 90,
-			atq: 120,
-			def: 100,
-			atq_esp: 150,
-			def_esp: 120,
-			vel: 100,
+			ps:		 	90,
+			atq:	 	120,
+			def:	 	100,
+			atq_esp: 	150,
+			def_esp: 	120,
+			vel: 		100,
 		},
 		descricao:
 			"Possui a habilidade de distorcer o espaço. É descrito como uma deidade na mitologia da região de Sinnoh.", // considerando a dex da primeira geração que apareceu
@@ -15236,12 +15236,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0485.png",
 		estatistica: {
-			ps: 91,
-			atq: 90,
-			def: 106,
-			atq_esp: 130,
-			def_esp: 106,
-			vel: 77,
+			ps:		 	91,
+			atq:	 	90,
+			def:	 	106,
+			atq_esp: 	130,
+			def_esp: 	106,
+			vel: 		77,
 		},
 		descricao:
 			"Habita cavernas vulcânicas. Cava com seus pés em forma de cruz para rastejar em tetos e paredes.", // considerando a dex da primeira geração que apareceu
@@ -15264,12 +15264,12 @@ const pkmnDisponiveis = [
 		altura: 3.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0486.png",
 		estatistica: {
-			ps: 110,
-			atq: 160,
-			def: 110,
-			atq_esp: 80,
-			def_esp: 110,
-			vel: 100,
+			ps:		 	110,
+			atq:	 	160,
+			def:	 	110,
+			atq_esp: 	80,
+			def_esp: 	110,
+			vel: 		100,
 		},
 		descricao:
 			"Uma lenda antiga afirma que esse Pokémon rebocou continentes com cordas.", // considerando a dex da primeira geração que apareceu
@@ -15292,12 +15292,12 @@ const pkmnDisponiveis = [
 		altura: 4.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0487.png",
 		estatistica: {
-			ps: 150,
-			atq: 100,
-			def: 120,
-			atq_esp: 100,
-			def_esp: 120,
-			vel: 90,
+			ps:		 	150,
+			atq:	 	100,
+			def:	 	120,
+			atq_esp: 	100,
+			def_esp: 	120,
+			vel: 		90,
 		},
 		descricao:
 			"Foi banido por sua violência. Silenciosamente olhou para o velho mundo do Mundo Distorcido.", // considerando a dex da primeira geração que apareceu
@@ -15320,12 +15320,12 @@ const pkmnDisponiveis = [
 		altura: 6.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0487O.png",
 		estatistica: {
-			ps: 150,
-			atq: 120,
-			def: 100,
-			atq_esp: 120,
-			def_esp: 100,
-			vel: 90,
+			ps:		 	150,
+			atq:	 	120,
+			def:	 	100,
+			atq_esp: 	120,
+			def_esp: 	100,
+			vel: 		90,
 		},
 		descricao:
 			"Foi banido por sua violência. Silenciosamente olhou para o velho mundo do Mundo Distorcido.", // considerando a dex da primeira geração que apareceu
@@ -15348,12 +15348,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0488.png",
 		estatistica: {
-			ps: 120,
-			atq: 70,
-			def: 120,
-			atq_esp: 75,
-			def_esp: 130,
-			vel: 85,
+			ps:		 	120,
+			atq:	 	70,
+			def:	 	110,
+			atq_esp: 	75,
+			def_esp: 	120,
+			vel: 		85,
 		},
 		descricao:
 			"Partículas brilhantes são liberadas de suas asas como um véu. Dizem que representa a lua crescente.", // considerando a dex da primeira geração que apareceu
@@ -15376,12 +15376,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0489.png",
 		estatistica: {
-			ps: 80,
-			atq: 80,
-			def: 80,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	80,
+			def:	 	80,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		80,
 		},
 		descricao:
 			"Um Pokémon que vive em mares quentes. Infla o saco de flutuação em sua cabeça para flutuar e procurar comida.", // considerando a dex da primeira geração que apareceu
@@ -15404,12 +15404,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0490.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 100,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		100,
 		},
 		descricao:
 			"Nascido no frio chão marítimo, nadará grandes distâncias para retornar ao local de nascimento.", // considerando a dex da primeira geração que apareceu
@@ -15432,12 +15432,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0491.png",
 		estatistica: {
-			ps: 70,
-			atq: 90,
-			def: 90,
-			atq_esp: 135,
-			def_esp: 90,
-			vel: 125,
+			ps:		 	70,
+			atq:	 	90,
+			def:	 	90,
+			atq_esp: 	135,
+			def_esp: 	90,
+			vel: 		125,
 		},
 		descricao:
 			"Consegue por pessoas a dormir e fazê-las sonhar. É ativo durante noites de lua cheia.", // considerando a dex da primeira geração que apareceu
@@ -15460,12 +15460,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 100,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		100,
 		},
 		descricao:
 			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.", // considerando a dex da primeira geração que apareceu
@@ -15488,12 +15488,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
-			ps: 100,
-			atq: 103,
-			def: 75,
-			atq_esp: 120,
-			def_esp: 75,
-			vel: 127,
+			ps:		 	100,
+			atq:	 	103,
+			def:	 	75,
+			atq_esp: 	120,
+			def_esp: 	75,
+			vel: 		127,
 		},
 		descricao:
 			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.", // considerando a dex da primeira geração que apareceu
@@ -15516,12 +15516,12 @@ const pkmnDisponiveis = [
 		altura: 3.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0493.png",
 		estatistica: {
-			ps: 120,
-			atq: 120,
-			def: 120,
-			atq_esp: 120,
-			def_esp: 120,
-			vel: 120,
+			ps:		 	120,
+			atq:	 	120,
+			def:	 	120,
+			atq_esp: 	120,
+			def_esp: 	120,
+			vel: 		120,
 		},
 		descricao:
 			"É descrito na mitologia como o Pokémon que moldou o universo com seus 1'000 braços.", // considerando a dex da primeira geração que apareceu
@@ -15544,12 +15544,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c2/F0494.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 100,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		100,
 		},
 		descricao:
 			"Cria um suprimento ilimitado de energia dentro de seu corpo, o qual é compartilhado com àqueles que o tocam.", // considerando a dex da primeira geração que apareceu
@@ -15572,12 +15572,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0495.png",
 		estatistica: {
-			ps: 45,
-			atq: 45,
-			def: 55,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 63,
+			ps:		 	45,
+			atq:	 	45,
+			def:	 	55,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		63,
 		},
 		descricao:
 			"É muito inteligente e calmo. Ficar exposto a muita luz solar torna seus movimentos mais rápidos.", // considerando a dex da primeira geração que apareceu
@@ -15600,12 +15600,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0496.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 75,
-			atq_esp: 60,
-			def_esp: 75,
-			vel: 83,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	75,
+			atq_esp: 	60,
+			def_esp: 	75,
+			vel: 		83,
 		},
 		descricao:
 			"Evitam ataques afundando-se nas sombras de folhagem espessa. Retaliam com técnicas magistrais de chicotadas.", // considerando a dex da primeira geração que apareceu
@@ -15628,12 +15628,12 @@ const pkmnDisponiveis = [
 		altura: 3.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0497.png",
 		estatistica: {
-			ps: 75,
-			atq: 75,
-			def: 95,
-			atq_esp: 75,
-			def_esp: 95,
-			vel: 113,
+			ps:		 	75,
+			atq:	 	75,
+			def:	 	95,
+			atq_esp: 	75,
+			def_esp: 	95,
+			vel: 		113,
 		},
 		descricao:
 			"Consegue parar os movimentos de seus oponentes com apenas um olhar. Absorve energia solar e se impulsiona internamente.", // considerando a dex da primeira geração que apareceu
@@ -15656,12 +15656,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1d/F0498.png",
 		estatistica: {
-			ps: 65,
-			atq: 63,
-			def: 45,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 45,
+			ps:		 	65,
+			atq:	 	63,
+			def:	 	45,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		45,
 		},
 		descricao:
 			"Consegue desviar agilmente dos ataques de seu oponente enquanto dispara bolas de fogo de seu nariz. Tosta frutas antes de comê-las.", // considerando a dex da primeira geração que apareceu
@@ -15684,12 +15684,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0499.png",
 		estatistica: {
-			ps: 90,
-			atq: 93,
-			def: 55,
-			atq_esp: 70,
-			def_esp: 55,
-			vel: 55,
+			ps:		 	90,
+			atq:	 	93,
+			def:	 	55,
+			atq_esp: 	70,
+			def_esp: 	55,
+			vel: 		55,
 		},
 		descricao:
 			"Quando sua chama interna acende, seus movimentos ficam mais rápidos e precisos. Quando está em apuros, emite fumaça.", // considerando a dex da primeira geração que apareceu
@@ -15712,12 +15712,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0500.png",
 		estatistica: {
-			ps: 110,
-			atq: 123,
-			def: 65,
-			atq_esp: 100,
-			def_esp: 65,
-			vel: 65,
+			ps:		 	110,
+			atq:	 	123,
+			def:	 	65,
+			atq_esp: 	100,
+			def_esp: 	65,
+			vel: 		65,
 		},
 		descricao:
 			"Consegue dar socos de fogo incendiando seus punhos com seu queixo em chamas. Se preocupa profundamente com seus amigos.", // considerando a dex da primeira geração que apareceu
@@ -15740,12 +15740,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0501.png",
 		estatistica: {
-			ps: 55,
-			atq: 55,
-			def: 45,
-			atq_esp: 63,
-			def_esp: 45,
-			vel: 45,
+			ps:		 	55,
+			atq:	 	55,
+			def:	 	45,
+			atq_esp: 	63,
+			def_esp: 	45,
+			vel: 		45,
 		},
 		descricao:
 			"Luta usando a concha em seu estomago. Em resposta a um ataque, retalia imediatamente cortando.", // considerando a dex da primeira geração que apareceu
@@ -15768,12 +15768,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0502.png",
 		estatistica: {
-			ps: 75,
-			atq: 75,
-			def: 60,
-			atq_esp: 83,
-			def_esp: 60,
-			vel: 60,
+			ps:		 	75,
+			atq:	 	75,
+			def:	 	60,
+			atq_esp: 	83,
+			def_esp: 	60,
+			vel: 		60,
 		},
 		descricao:
 			"O treinamento rigoroso é como aprende suas técnicas com concha dupla.", // considerando a dex da primeira geração que apareceu
@@ -15796,12 +15796,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0503.png",
 		estatistica: {
-			ps: 95,
-			atq: 100,
-			def: 85,
-			atq_esp: 108,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	95,
+			atq:	 	100,
+			def:	 	85,
+			atq_esp: 	108,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Parte da armadura em suas patas anteriores se torna uma espada gigante. O som que emite sozinho é suficiente para intimidar a maior parte de seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -15824,12 +15824,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0503.png",
 		estatistica: {
-			ps: 90,
-			atq: 108,
-			def: 80,
-			atq_esp: 100,
-			def_esp: 65,
-			vel: 85,
+			ps:		 	90,
+			atq:	 	108,
+			def:	 	80,
+			atq_esp: 	100,
+			def_esp: 	65,
+			vel: 		85,
 		},
 		descricao:
 			"Duro de coração e hábil com a lâmina, este raro Pokémon é um produto de sua região. Seus golpes turbulentos atingem os inimigos como ondas incessantes.", // considerando a dex da primeira geração que apareceu
@@ -15852,12 +15852,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0504.png",
 		estatistica: {
-			ps: 45,
-			atq: 55,
-			def: 39,
-			atq_esp: 35,
-			def_esp: 39,
-			vel: 42,
+			ps:		 	45,
+			atq:	 	55,
+			def:	 	39,
+			atq_esp: 	35,
+			def_esp: 	39,
+			vel: 		42,
 		},
 		descricao:
 			"Usando comida armazenada nas bolsas das bochechas, consegue ficar de guarda por dias. Usa sua cauda para se comunicar com outros.", // considerando a dex da primeira geração que apareceu
@@ -15881,12 +15881,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0505.png",
 		estatistica: {
-			ps: 60,
-			atq: 85,
-			def: 69,
-			atq_esp: 60,
-			def_esp: 69,
-			vel: 77,
+			ps:		 	60,
+			atq:	 	85,
+			def:	 	69,
+			atq_esp: 	60,
+			def_esp: 	69,
+			vel: 		77,
 		},
 		descricao:
 			"Quando avistam um inimigo, suas caudas ficam de erguidas, e cospem as sementes das frutas armazenadas nas bolsas de suas bochechas.", // considerando a dex da primeira geração que apareceu
@@ -15910,12 +15910,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0506.png",
 		estatistica: {
-			ps: 45,
-			atq: 60,
-			def: 45,
-			atq_esp: 25,
-			def_esp: 45,
-			vel: 55,
+			ps:		 	45,
+			atq:	 	60,
+			def:	 	45,
+			atq_esp: 	25,
+			def_esp: 	45,
+			vel: 		55,
 		},
 		descricao:
 			"Encara fortes oponentes com grande coragem. Mas, quando em desvantagem em uma luta, este inteligente Pokémon foge.", // considerando a dex da primeira geração que apareceu
@@ -15938,12 +15938,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0507.png",
 		estatistica: {
-			ps: 65,
-			atq: 80,
-			def: 65,
-			atq_esp: 35,
-			def_esp: 65,
-			vel: 60,
+			ps:		 	65,
+			atq:	 	80,
+			def:	 	65,
+			atq_esp: 	35,
+			def_esp: 	65,
+			vel: 		60,
 		},
 		descricao:
 			"Possui um pelo preto, semelhante a uma capa que é muito duro e diminui a quantidade de dano que recebe.", // considerando a dex da primeira geração que apareceu
@@ -15967,12 +15967,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0508.png",
 		estatistica: {
-			ps: 85,
-			atq: 110,
-			def: 90,
-			atq_esp: 45,
-			def_esp: 90,
-			vel: 80,
+			ps:		 	85,
+			atq:	 	110,
+			def:	 	90,
+			atq_esp: 	45,
+			def_esp: 	90,
+			vel: 		80,
 		},
 		descricao:
 			"Resgata pessoas presas por nevascas nas montanhas. Sua pelagem peluda o protege do frio.", // considerando a dex da primeira geração que apareceu
@@ -15996,12 +15996,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0509.png",
 		estatistica: {
-			ps: 41,
-			atq: 50,
-			def: 37,
-			atq_esp: 50,
-			def_esp: 37,
-			vel: 66,
+			ps:		 	41,
+			atq:	 	50,
+			def:	 	37,
+			atq_esp: 	50,
+			def_esp: 	37,
+			vel: 		66,
 		},
 		descricao:
 			"Roubam de pessoas por diversão, mas suas vítimas não podem deixar de perdoá-los. Seu jeito fofo engana perfeitamente.", // considerando a dex da primeira geração que apareceu
@@ -16024,12 +16024,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0510.png",
 		estatistica: {
-			ps: 64,
-			atq: 88,
-			def: 50,
-			atq_esp: 88,
-			def_esp: 50,
-			vel: 106,
+			ps:		 	64,
+			atq:	 	88,
+			def:	 	50,
+			atq_esp: 	88,
+			def_esp: 	50,
+			vel: 		106,
 		},
 		descricao:
 			"Estes Pokémon desaparecem e aparecem inesperadamente. Muitos treinadores são atraídos por sua bela forma e pelo.", // considerando a dex da primeira geração que apareceu
@@ -16052,12 +16052,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0511.png",
 		estatistica: {
-			ps: 50,
-			atq: 53,
-			def: 48,
-			atq_esp: 53,
-			def_esp: 48,
-			vel: 64,
+			ps:		 	50,
+			atq:	 	53,
+			def:	 	48,
+			atq_esp: 	53,
+			def_esp: 	48,
+			vel: 		64,
 		},
 		descricao:
 			"Este Pokémon mora nas profundezas da floresta. Comer uma folha de sua cabeça afasta o cansaço como que por mágica.", // considerando a dex da primeira geração que apareceu
@@ -16081,12 +16081,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/da/F0512.png",
 		estatistica: {
-			ps: 75,
-			atq: 98,
-			def: 63,
-			atq_esp: 98,
-			def_esp: 63,
-			vel: 101,
+			ps:		 	75,
+			atq:	 	98,
+			def:	 	63,
+			atq_esp: 	98,
+			def_esp: 	63,
+			vel: 		101,
 		},
 		descricao:
 			"Mal-humorado, luta balançando sua cauda farpada descontroladamente. A folha que cresce em sua cabeça é muito amarga.", // considerando a dex da primeira geração que apareceu
@@ -16109,12 +16109,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0513.png",
 		estatistica: {
-			ps: 50,
-			atq: 53,
-			def: 48,
-			atq_esp: 53,
-			def_esp: 48,
-			vel: 64,
+			ps:		 	50,
+			atq:	 	53,
+			def:	 	48,
+			atq_esp: 	53,
+			def_esp: 	48,
+			vel: 		64,
 		},
 		descricao:
 			"Quando fica irritado, a temperatura do tufo da cabeça chega a 300° C. Usa seu tufo para assar frutas.", // considerando a dex da primeira geração que apareceu
@@ -16138,12 +16138,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0514.png",
 		estatistica: {
-			ps: 75,
-			atq: 98,
-			def: 63,
-			atq_esp: 98,
-			def_esp: 63,
-			vel: 101,
+			ps:		 	75,
+			atq:	 	98,
+			def:	 	63,
+			atq_esp: 	98,
+			def_esp: 	63,
+			vel: 		101,
 		},
 		descricao:
 			"Gosta de doces por se transformarem em energia para o fogo que queima dentro de seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -16166,12 +16166,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/22/F0515.png",
 		estatistica: {
-			ps: 50,
-			atq: 53,
-			def: 48,
-			atq_esp: 53,
-			def_esp: 48,
-			vel: 64,
+			ps:		 	50,
+			atq:	 	53,
+			def:	 	48,
+			atq_esp: 	53,
+			def_esp: 	48,
+			vel: 		64,
 		},
 		descricao:
 			"A água armazenada dentro do tufo em sua cabeça é cheia de nutrientes. Plantas que recebem sua água crescem muito.", // considerando a dex da primeira geração que apareceu
@@ -16195,12 +16195,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0516.png",
 		estatistica: {
-			ps: 75,
-			atq: 98,
-			def: 63,
-			atq_esp: 98,
-			def_esp: 63,
-			vel: 101,
+			ps:		 	75,
+			atq:	 	98,
+			def:	 	63,
+			atq_esp: 	98,
+			def_esp: 	63,
+			vel: 		101,
 		},
 		descricao:
 			"O tufo em sua cabeça retém água. Quando o nível está baixo, repõe o tufo sifonando água com sua cauda.", // considerando a dex da primeira geração que apareceu
@@ -16223,12 +16223,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0517.png",
 		estatistica: {
-			ps: 76,
-			atq: 25,
-			def: 45,
-			atq_esp: 67,
-			def_esp: 55,
-			vel: 24,
+			ps:		 	76,
+			atq:	 	25,
+			def:	 	45,
+			atq_esp: 	67,
+			def_esp: 	55,
+			vel: 		24,
 		},
 		descricao:
 			"Este Pokémon sempre flutua no ar. Pessoas cujos sonhos foram devorados por este Pokémon esquecem sobre o que o sonho era.", // considerando a dex da primeira geração que apareceu
@@ -16251,12 +16251,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/63/F0518.png",
 		estatistica: {
-			ps: 116,
-			atq: 55,
-			def: 85,
-			atq_esp: 107,
-			def_esp: 95,
-			vel: 29,
+			ps:		 	116,
+			atq:	 	55,
+			def:	 	85,
+			atq_esp: 	107,
+			def_esp: 	95,
+			vel: 		29,
 		},
 		descricao:
 			"A névoa que emana de sua testa está repleta de sonhos de pessoas e Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -16279,12 +16279,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0519.png",
 		estatistica: {
-			ps: 50,
-			atq: 55,
-			def: 50,
-			atq_esp: 36,
-			def_esp: 30,
-			vel: 43,
+			ps:		 	50,
+			atq:	 	55,
+			def:	 	50,
+			atq_esp: 	36,
+			def_esp: 	30,
+			vel: 		43,
 		},
 		descricao:
 			"Vivem em cidades. Estão acostumados com pessoas. Os bandos geralmente se reúnem em parques e praças.", // considerando a dex da primeira geração que apareceu
@@ -16308,12 +16308,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0520.png",
 		estatistica: {
-			ps: 62,
-			atq: 77,
-			def: 62,
-			atq_esp: 50,
-			def_esp: 42,
-			vel: 65,
+			ps:		 	62,
+			atq:	 	77,
+			def:	 	62,
+			atq_esp: 	50,
+			def_esp: 	42,
+			vel: 		65,
 		},
 		descricao:
 			"Consegue retornar à localização de seu treinador independente da distância que os separa.", // considerando a dex da primeira geração que apareceu
@@ -16337,12 +16337,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0521.png",
 		estatistica: {
-			ps: 80,
-			atq: 115,
-			def: 80,
-			atq_esp: 65,
-			def_esp: 55,
-			vel: 93,
+			ps:		 	80,
+			atq:	 	115,
+			def:	 	80,
+			atq_esp: 	65,
+			def_esp: 	55,
+			vel: 		93,
 		},
 		descricao:
 			"Os machos balançam a plumagem da cabeça para ameaçar os oponentes. As habilidades de voo das fêmeas superam as dos machos.", // considerando a dex da primeira geração que apareceu
@@ -16367,12 +16367,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0522.png",
 		estatistica: {
-			ps: 45,
-			atq: 60,
-			def: 32,
-			atq_esp: 50,
-			def_esp: 32,
-			vel: 76,
+			ps:		 	45,
+			atq:	 	60,
+			def:	 	32,
+			atq_esp: 	50,
+			def_esp: 	32,
+			vel: 		76,
 		},
 		descricao:
 			"Sua crina brilha quando descarrega eletricidade. Usa sua crina brilhante para se comunicar outros de sua espécie.", // considerando a dex da primeira geração que apareceu
@@ -16395,12 +16395,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0523.png",
 		estatistica: {
-			ps: 75,
-			atq: 100,
-			def: 63,
-			atq_esp: 80,
-			def_esp: 63,
-			vel: 116,
+			ps:		 	75,
+			atq:	 	100,
+			def:	 	63,
+			atq_esp: 	80,
+			def_esp: 	63,
+			vel: 		116,
 		},
 		descricao:
 			"Este Pokémon mal-humorado é perigoso por atirar raios de sua crina em todas as direções quando está irritado.", // considerando a dex da primeira geração que apareceu
@@ -16423,12 +16423,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a2/F0524.png",
 		estatistica: {
-			ps: 55,
-			atq: 75,
-			def: 85,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 15,
+			ps:		 	55,
+			atq:	 	75,
+			def:	 	85,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		15,
 		},
 		descricao:
 			"Foram descobertos cem anos atrás em uma fissura de terremoto. Dentro de cada um está um núcleo de energia.", // considerando a dex da primeira geração que apareceu
@@ -16451,12 +16451,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0525.png",
 		estatistica: {
-			ps: 70,
-			atq: 105,
-			def: 105,
-			atq_esp: 50,
-			def_esp: 40,
-			vel: 20,
+			ps:		 	70,
+			atq:	 	105,
+			def:	 	105,
+			atq_esp: 	50,
+			def_esp: 	40,
+			vel: 		20,
 		},
 		descricao:
 			"Sua energia era muito grande para ser contida, a energia vazou e formou cristais alaranjados.", // considerando a dex da primeira geração que apareceu
@@ -16480,12 +16480,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0526.png",
 		estatistica: {
-			ps: 85,
-			atq: 135,
-			def: 130,
-			atq_esp: 60,
-			def_esp: 80,
-			vel: 25,
+			ps:		 	85,
+			atq:	 	135,
+			def:	 	130,
+			atq_esp: 	60,
+			def_esp: 	80,
+			vel: 		25,
 		},
 		descricao:
 			"A energia solar absorvida pelos cristais alaranjados de seu corpo é aumentada internamente e disparada por sua boca.", // considerando a dex da primeira geração que apareceu
@@ -16508,12 +16508,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0527.png",
 		estatistica: {
-			ps: 65,
-			atq: 45,
-			def: 43,
-			atq_esp: 55,
-			def_esp: 43,
-			vel: 72,
+			ps:		 	65,
+			atq:	 	45,
+			def:	 	43,
+			atq_esp: 	55,
+			def_esp: 	43,
+			vel: 		72,
 		},
 		descricao:
 			"Seu habitat são florestas escuras e cavernas. Emite ondas ultrassônicas do nariz para aprender sobre os arredores.", // considerando a dex da primeira geração que apareceu
@@ -16537,12 +16537,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c9/F0528.png",
 		estatistica: {
-			ps: 67,
-			atq: 57,
-			def: 55,
-			atq_esp: 77,
-			def_esp: 55,
-			vel: 114,
+			ps:		 	67,
+			atq:	 	57,
+			def:	 	55,
+			atq_esp: 	77,
+			def_esp: 	55,
+			vel: 		114,
 		},
 		descricao:
 			"Emite ondas sonoras de várias frequências do seu nariz, incluindo algumas poderosas o suficiente para destruir rochas.", // considerando a dex da primeira geração que apareceu
@@ -16565,12 +16565,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0b/F0529.png",
 		estatistica: {
-			ps: 60,
-			atq: 85,
-			def: 40,
-			atq_esp: 30,
-			def_esp: 45,
-			vel: 68,
+			ps:		 	60,
+			atq:	 	85,
+			def:	 	40,
+			atq_esp: 	30,
+			def_esp: 	45,
+			vel: 		68,
 		},
 		descricao:
 			"Consegue cavar o chão a uma velocidade de 50 km/h. Poderia dar a um carro na superfície uma boa corrida.", // considerando a dex da primeira geração que apareceu
@@ -16594,12 +16594,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3a/F0530.png",
 		estatistica: {
-			ps: 110,
-			atq: 135,
-			def: 60,
-			atq_esp: 50,
-			def_esp: 65,
-			vel: 88,
+			ps:		 	110,
+			atq:	 	135,
+			def:	 	60,
+			atq_esp: 	50,
+			def_esp: 	65,
+			vel: 		88,
 		},
 		descricao:
 			"Pode ajudar em construção de túneis. Sua broca evoluiu para aço forte o suficiente para perfurar placas de ferro.", // considerando a dex da primeira geração que apareceu
@@ -16623,12 +16623,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0531.png",
 		estatistica: {
-			ps: 103,
-			atq: 60,
-			def: 86,
-			atq_esp: 60,
-			def_esp: 86,
-			vel: 50,
+			ps:		 	103,
+			atq:	 	60,
+			def:	 	86,
+			atq_esp: 	60,
+			def_esp: 	86,
+			vel: 		50,
 		},
 		descricao:
 			"Toca os outros com os sensores em suas orelhas, usando o som dos batimentos cardíacos para dizer como estão se sentindo.", // considerando a dex da primeira geração que apareceu
@@ -16652,12 +16652,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0532.png",
 		estatistica: {
-			ps: 75,
-			atq: 80,
-			def: 55,
-			atq_esp: 25,
-			def_esp: 35,
-			vel: 35,
+			ps:		 	75,
+			atq:	 	80,
+			def:	 	55,
+			atq_esp: 	25,
+			def_esp: 	35,
+			vel: 		35,
 		},
 		descricao:
 			"Esses Pokémon aparecem em canteiros de obras e ajudam na construção. Sempre carregam toras quadradas.", // considerando a dex da primeira geração que apareceu
@@ -16680,12 +16680,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0533.png",
 		estatistica: {
-			ps: 85,
-			atq: 105,
-			def: 85,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 40,
+			ps:		 	85,
+			atq:	 	105,
+			def:	 	85,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		40,
 		},
 		descricao:
 			"Fortalecem seus corpos carregando vigas de aço. Exibem seus grandes músculos para os amigos.", // considerando a dex da primeira geração que apareceu
@@ -16709,12 +16709,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0534.png",
 		estatistica: {
-			ps: 105,
-			atq: 140,
-			def: 95,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 45,
+			ps:		 	105,
+			atq:	 	140,
+			def:	 	95,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		45,
 		},
 		descricao:
 			"Usam pilares de concreto como bengalas. Conhecem movimentos que os permite balançar os pilares livremente em batalha.", // considerando a dex da primeira geração que apareceu
@@ -16737,12 +16737,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0b/F0535.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 40,
-			atq_esp: 50,
-			def_esp: 40,
-			vel: 64,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	40,
+			atq_esp: 	50,
+			def_esp: 	40,
+			vel: 		64,
 		},
 		descricao:
 			"Alertam outros do perigo vibrando suas bochechas para criar um som de alta frequência.", // considerando a dex da primeira geração que apareceu
@@ -16765,12 +16765,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0536.png",
 		estatistica: {
-			ps: 75,
-			atq: 65,
-			def: 55,
-			atq_esp: 65,
-			def_esp: 55,
-			vel: 69,
+			ps:		 	75,
+			atq:	 	65,
+			def:	 	55,
+			atq_esp: 	65,
+			def_esp: 	55,
+			vel: 		69,
 		},
 		descricao:
 			"Quando vibram as saliências em suas cabeças, podem fazer ondas na água ou vibrações semelhantes a terremotos na terra.", // considerando a dex da primeira geração que apareceu
@@ -16793,12 +16793,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0537.png",
 		estatistica: {
-			ps: 105,
-			atq: 95,
-			def: 75,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 74,
+			ps:		 	105,
+			atq:	 	95,
+			def:	 	75,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		74,
 		},
 		descricao:
 			"Atiram líquido paralisante das saliências de suas cabeças. Usam para machucar seus oponentes.", // considerando a dex da primeira geração que apareceu
@@ -16821,12 +16821,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0538.png",
 		estatistica: {
-			ps: 120,
-			atq: 100,
-			def: 85,
-			atq_esp: 30,
-			def_esp: 85,
-			vel: 45,
+			ps:		 	120,
+			atq:	 	100,
+			def:	 	85,
+			atq_esp: 	30,
+			def_esp: 	85,
+			vel: 		45,
 		},
 		descricao:
 			"Quando aperta seu cinto, se torna mais forte. Espécimes selvagens deste Pokémon usam videiras para tecer os próprios cintos.", // considerando a dex da primeira geração que apareceu
@@ -16850,12 +16850,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0539.png",
 		estatistica: {
-			ps: 75,
-			atq: 125,
-			def: 75,
-			atq_esp: 30,
-			def_esp: 75,
-			vel: 85,
+			ps:		 	75,
+			atq:	 	125,
+			def:	 	75,
+			atq_esp: 	30,
+			def_esp: 	75,
+			vel: 		85,
 		},
 		descricao:
 			"O som deste Pokémon socando rochas e árvores pode ser ouvido desde as montanhas onde treinam.", // considerando a dex da primeira geração que apareceu
@@ -16879,12 +16879,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0540.png",
 		estatistica: {
-			ps: 45,
-			atq: 53,
-			def: 70,
-			atq_esp: 40,
-			def_esp: 60,
-			vel: 42,
+			ps:		 	45,
+			atq:	 	53,
+			def:	 	70,
+			atq_esp: 	40,
+			def_esp: 	60,
+			vel: 		42,
 		},
 		descricao:
 			"Este Pokémon faz roupas para si mesmo. Mastiga folhas e as costura com linha pegajosa expelida de sua boca.", // considerando a dex da primeira geração que apareceu
@@ -16907,12 +16907,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b2/F0541.png",
 		estatistica: {
-			ps: 55,
-			atq: 63,
-			def: 90,
-			atq_esp: 50,
-			def_esp: 80,
-			vel: 42,
+			ps:		 	55,
+			atq:	 	63,
+			def:	 	90,
+			atq_esp: 	50,
+			def_esp: 	80,
+			vel: 		42,
 		},
 		descricao:
 			"Protege a si mesmo do frio se enrolando em folhas. Fica em movimento, comendo folhas em florestas.", // considerando a dex da primeira geração que apareceu
@@ -16935,12 +16935,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c7/F0542.png",
 		estatistica: {
-			ps: 75,
-			atq: 103,
-			def: 80,
-			atq_esp: 70,
-			def_esp: 80,
-			vel: 92,
+			ps:		 	75,
+			atq:	 	103,
+			def:	 	80,
+			atq_esp: 	70,
+			def_esp: 	80,
+			vel: 		92,
 		},
 		descricao:
 			"Ao encontrar um pequeno Pokémon, ece roupas para ele com folhas, usando os cortadores em seus braços e seda pegajosa.", // considerando a dex da primeira geração que apareceu
@@ -16963,12 +16963,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b2/F0543.png",
 		estatistica: {
-			ps: 30,
-			atq: 45,
-			def: 59,
-			atq_esp: 30,
-			def_esp: 39,
-			vel: 57,
+			ps:		 	30,
+			atq:	 	45,
+			def:	 	59,
+			atq_esp: 	30,
+			def_esp: 	39,
+			vel: 		57,
 		},
 		descricao:
 			"Sua mordida injeta um veneno potente, suficiente para paralisar grandes pássaros que tentem fazê-lo de presa.", // considerando a dex da primeira geração que apareceu
@@ -16991,12 +16991,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0544.png",
 		estatistica: {
-			ps: 40,
-			atq: 55,
-			def: 99,
-			atq_esp: 40,
-			def_esp: 79,
-			vel: 47,
+			ps:		 	40,
+			atq:	 	55,
+			def:	 	99,
+			atq_esp: 	40,
+			def_esp: 	79,
+			vel: 		47,
 		},
 		descricao:
 			"Protegido por uma carapaça dura, gira seu corpo como uma roda e colide furiosamente com seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -17019,12 +17019,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0545.png",
 		estatistica: {
-			ps: 60,
-			atq: 100,
-			def: 89,
-			atq_esp: 55,
-			def_esp: 69,
-			vel: 112,
+			ps:		 	60,
+			atq:	 	100,
+			def:	 	89,
+			atq_esp: 	55,
+			def_esp: 	69,
+			vel: 		112,
 		},
 		descricao:
 			"Com movimentos rápidos, persegue seus adversários, atacando implacavelmente com seus chifres até que prevaleça.", // considerando a dex da primeira geração que apareceu
@@ -17047,12 +17047,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ee/F0546.png",
 		estatistica: {
-			ps: 40,
-			atq: 27,
-			def: 60,
-			atq_esp: 37,
-			def_esp: 50,
-			vel: 66,
+			ps:		 	40,
+			atq:	 	27,
+			def:	 	60,
+			atq_esp: 	37,
+			def_esp: 	50,
+			vel: 		66,
 		},
 		descricao:
 			"Quando atacado, escapa atirando algodão de seu corpo. O algodão serve como uma distração para o atacante.", // considerando a dex da primeira geração que apareceu
@@ -17076,12 +17076,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0547.png",
 		estatistica: {
-			ps: 60,
-			atq: 67,
-			def: 85,
-			atq_esp: 77,
-			def_esp: 75,
-			vel: 116,
+			ps:		 	60,
+			atq:	 	67,
+			def:	 	85,
+			atq_esp: 	77,
+			def_esp: 	75,
+			vel: 		116,
 		},
 		descricao:
 			"Assim como o vento, consegue passar por qualquer brecha, não importa quão pequena. Deixa bolas de penugem branca para trás.", // considerando a dex da primeira geração que apareceu
@@ -17105,12 +17105,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0548.png",
 		estatistica: {
-			ps: 45,
-			atq: 35,
-			def: 50,
-			atq_esp: 70,
-			def_esp: 50,
-			vel: 30,
+			ps:		 	45,
+			atq:	 	35,
+			def:	 	50,
+			atq_esp: 	70,
+			def_esp: 	50,
+			vel: 		30,
 		},
 		descricao:
 			"As folhas em sua cabeça são muito amargas. É conhecido que comer uma dessas folhas por refrescar um corpo cansado.", // considerando a dex da primeira geração que apareceu
@@ -17134,12 +17134,12 @@ const pkmnDisponiveis = [
 		altura: 16.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0549.png",
 		estatistica: {
-			ps: 70,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 75,
-			vel: 90,
+			ps:		 	70,
+			atq:	 	60,
+			def:	 	75,
+			atq_esp: 	110,
+			def_esp: 	75,
+			vel: 		90,
 		},
 		descricao:
 			"Até mesmo treinadores veteranos enfrentam o desafio de fazer sua linda flor florescer. Este Pokémon é popular com celebridades.", // considerando a dex da primeira geração que apareceu
@@ -17163,12 +17163,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0549.png",
 		estatistica: {
-			ps: 70,
-			atq: 105,
-			def: 75,
-			atq_esp: 50,
-			def_esp: 75,
-			vel: 105,
+			ps:		 	70,
+			atq:	 	105,
+			def:	 	75,
+			atq_esp: 	50,
+			def_esp: 	75,
+			vel: 		105,
 		},
 		descricao:
 			"Suspeito que suas pernas bem desenvolvidas são o resultado de uma vida passada em montanhas cobertas de neve profunda. O perfume que exala de sua coroa de flores anima aqueles que estão por perto.", // considerando a dex da primeira geração que apareceu
@@ -17191,12 +17191,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/48/F0550.png",
 		estatistica: {
-			ps: 70,
-			atq: 92,
-			def: 65,
-			atq_esp: 80,
-			def_esp: 55,
-			vel: 98,
+			ps:		 	70,
+			atq:	 	92,
+			def:	 	65,
+			atq_esp: 	80,
+			def_esp: 	55,
+			vel: 		98,
 		},
 		descricao:
 			"Suas variações vermelha e azul se dão tão mal que começam a brigar imediatamente. Esses Pokemon são muito hostis.", // considerando a dex da primeira geração que apareceu
@@ -17222,12 +17222,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0551.png",
 		estatistica: {
-			ps: 50,
-			atq: 72,
-			def: 35,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 65,
+			ps:		 	50,
+			atq:	 	72,
+			def:	 	35,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		65,
 		},
 		descricao:
 			"Vivem enterrados em areias do deserto. As areias aquecidas pelo sol evitam que a temperatura de seus corpos de caia.", // considerando a dex da primeira geração que apareceu
@@ -17250,12 +17250,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0552.png",
 		estatistica: {
-			ps: 60,
-			atq: 82,
-			def: 45,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 74,
+			ps:		 	60,
+			atq:	 	82,
+			def:	 	45,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		74,
 		},
 		descricao:
 			"Vivem em grupos de alguns indivíduos. Membranas protetoras protegem seus olhos de tempestades de areia.", // considerando a dex da primeira geração que apareceu
@@ -17278,12 +17278,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0553.png",
 		estatistica: {
-			ps: 95,
-			atq: 117,
-			def: 80,
-			atq_esp: 65,
-			def_esp: 70,
-			vel: 92,
+			ps:		 	95,
+			atq:	 	117,
+			def:	 	80,
+			atq_esp: 	65,
+			def_esp: 	70,
+			vel: 		92,
 		},
 		descricao:
 			"Nunca permitem a presa que escape. Suas mandíbulas são tão poderosas que conseguem esmagar a carroceria de um automóvel.", // considerando a dex da primeira geração que apareceu
@@ -17306,12 +17306,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0554.png",
 		estatistica: {
-			ps: 70,
-			atq: 90,
-			def: 45,
-			atq_esp: 15,
-			def_esp: 45,
-			vel: 50,
+			ps:		 	70,
+			atq:	 	90,
+			def:	 	45,
+			atq_esp: 	15,
+			def_esp: 	45,
+			vel: 		50,
 		},
 		descricao:
 			"Quando seu fogo interno está queimando, não consegue se acalmar e corre por aí. Quando o fogo diminui, adormece.", // considerando a dex da primeira geração que apareceu
@@ -17334,12 +17334,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0554.png",
 		estatistica: {
-			ps: 70,
-			atq: 90,
-			def: 45,
-			atq_esp: 15,
-			def_esp: 45,
-			vel: 50,
+			ps:		 	70,
+			atq:	 	90,
+			def:	 	45,
+			atq_esp: 	15,
+			def_esp: 	45,
+			vel: 		50,
 		},
 		descricao:
 			"Viveu em áreas nevadas por tanto tempo que seu saco de fogo esfriou e atrofiou. Agora possui um órgão que gera frio no lugar.", // considerando a dex da primeira geração que apareceu
@@ -17362,12 +17362,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
-			ps: 105,
-			atq: 140,
-			def: 55,
-			atq_esp: 30,
-			def_esp: 55,
-			vel: 95,
+			ps:		 	105,
+			atq:	 	140,
+			def:	 	55,
+			atq_esp: 	30,
+			def_esp: 	55,
+			vel: 		95,
 		},
 		descricao:
 			"Seu fogo interno queima a 1'400° Celsius, gerando energia suficiente para destruir um caminhão de lixo com um só soco.", // considerando a dex da primeira geração que apareceu
@@ -17390,12 +17390,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
-			ps: 105,
-			atq: 30,
-			def: 105,
-			atq_esp: 140,
-			def_esp: 105,
-			vel: 55,
+			ps:		 	105,
+			atq:	 	30,
+			def:	 	105,
+			atq_esp: 	140,
+			def_esp: 	105,
+			vel: 		55,
 		},
 		descricao:
 			"Seu fogo interno queima a 1'400° Celsius, gerando energia suficiente para destruir um caminhão de lixo com um só soco.", // considerando a dex da primeira geração que apareceu
@@ -17418,12 +17418,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
-			ps: 105,
-			atq: 140,
-			def: 55,
-			atq_esp: 30,
-			def_esp: 55,
-			vel: 95,
+			ps:		 	105,
+			atq:	 	140,
+			def:	 	55,
+			atq_esp: 	30,
+			def_esp: 	55,
+			vel: 		95,
 		},
 		descricao:
 			"Em dias quando nevascas passam, tudo se resume a onde as pessoas vivem. Este Pokémon guarda comida na bola de neve em sua cabeça, levando-a para casa mais tarde.", // considerando a dex da primeira geração que apareceu
@@ -17446,12 +17446,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
-			ps: 105,
-			atq: 160,
-			def: 55,
-			atq_esp: 30,
-			def_esp: 55,
-			vel: 135,
+			ps:		 	105,
+			atq:	 	160,
+			def:	 	55,
+			atq_esp: 	30,
+			def_esp: 	55,
+			vel: 		135,
 		},
 		descricao:
 			"Raiva reacendeu seu saco de fogo atrofiado. Este Pokémon cospe fogo em todos os lugares enquanto ataca indiscriminadamente.", // considerando a dex da primeira geração que apareceu
@@ -17474,12 +17474,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0556.png",
 		estatistica: {
-			ps: 75,
-			atq: 86,
-			def: 67,
-			atq_esp: 106,
-			def_esp: 67,
-			vel: 60,
+			ps:		 	75,
+			atq:	 	86,
+			def:	 	67,
+			atq_esp: 	106,
+			def_esp: 	67,
+			vel: 		60,
 		},
 		descricao:
 			"Usa uma música acelerada e dança para afastar os Pokémon pássaros que atacam suas sementes de flores.", // considerando a dex da primeira geração que apareceu
@@ -17502,12 +17502,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/78/F0557.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 85,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 55,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	85,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		55,
 		},
 		descricao:
 			"Este Pokémon consegue facilmente derreter buracos em rochas duras com um líquido secretado de sua boca.", // considerando a dex da primeira geração que apareceu
@@ -17530,12 +17530,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0558.png",
 		estatistica: {
-			ps: 70,
-			atq: 105,
-			def: 125,
-			atq_esp: 65,
-			def_esp: 75,
-			vel: 45,
+			ps:		 	70,
+			atq:	 	105,
+			def:	 	125,
+			atq_esp: 	65,
+			def_esp: 	75,
+			vel: 		45,
 		},
 		descricao:
 			"Quando compete por território, este Pokémon luta ferozmente. Aquele cuja pedra é quebrada é o perdedor da batalha.", // considerando a dex da primeira geração que apareceu
@@ -17558,12 +17558,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/05/F0559.png",
 		estatistica: {
-			ps: 50,
-			atq: 75,
-			def: 70,
-			atq_esp: 35,
-			def_esp: 70,
-			vel: 48,
+			ps:		 	50,
+			atq:	 	75,
+			def:	 	70,
+			atq_esp: 	35,
+			def_esp: 	70,
+			vel: 		48,
 		},
 		descricao:
 			"Sua pele tem uma elasticidade emborrachada, por isso consegue reduzir os danos puxando defensivamente a pele até o pescoço.", // considerando a dex da primeira geração que apareceu
@@ -17586,12 +17586,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a7/F0560.png",
 		estatistica: {
-			ps: 65,
-			atq: 90,
-			def: 115,
-			atq_esp: 45,
-			def_esp: 115,
-			vel: 58,
+			ps:		 	65,
+			atq:	 	90,
+			def:	 	115,
+			atq_esp: 	45,
+			def_esp: 	115,
+			vel: 		58,
 		},
 		descricao:
 			"Grupos deste Pokémon batem em qualquer coisa que entre em seu território. Cada um consegue cuspir líquido ácido de sua boca.", // considerando a dex da primeira geração que apareceu
@@ -17614,12 +17614,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0561.png",
 		estatistica: {
-			ps: 72,
-			atq: 58,
-			def: 80,
-			atq_esp: 103,
-			def_esp: 80,
-			vel: 97,
+			ps:		 	72,
+			atq:	 	58,
+			def:	 	80,
+			atq_esp: 	103,
+			def_esp: 	80,
+			vel: 		97,
 		},
 		descricao:
 			"Nunca variam a rota que voam, porque suas memórias de guardar uma cidade antiga permanecem firmes.", // considerando a dex da primeira geração que apareceu
@@ -17642,12 +17642,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0562.png",
 		estatistica: {
-			ps: 38,
-			atq: 30,
-			def: 85,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 30,
+			ps:		 	38,
+			atq:	 	30,
+			def:	 	85,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		30,
 		},
 		descricao:
 			"Carrega uma máscara que costumava ser sua face quando era humano. Algumas vezes olham para ela e choram.", // considerando a dex da primeira geração que apareceu
@@ -17670,12 +17670,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0562.png",
 		estatistica: {
-			ps: 38,
-			atq: 55,
-			def: 85,
-			atq_esp: 30,
-			def_esp: 65,
-			vel: 30,
+			ps:		 	38,
+			atq:	 	55,
+			def:	 	85,
+			atq_esp: 	30,
+			def_esp: 	65,
+			vel: 		30,
 		},
 		descricao:
 			"Dizem que este Pokémon foi formado quando uma antiga tábua de argila foi atraída por um espírito vingativo.", // considerando a dex da primeira geração que apareceu
@@ -17698,12 +17698,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0563.png",
 		estatistica: {
-			ps: 58,
-			atq: 50,
-			def: 145,
-			atq_esp: 95,
-			def_esp: 105,
-			vel: 30,
+			ps:		 	58,
+			atq:	 	50,
+			def:	 	145,
+			atq_esp: 	95,
+			def_esp: 	105,
+			vel: 		30,
 		},
 		descricao:
 			"Dizem que engolem aqueles que chegam perto demais e os transforma em múmias. Gostam de comer pepitas de ouro.", // considerando a dex da primeira geração que apareceu
@@ -17726,12 +17726,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0564.png",
 		estatistica: {
-			ps: 54,
-			atq: 78,
-			def: 103,
-			atq_esp: 53,
-			def_esp: 45,
-			vel: 22,
+			ps:		 	54,
+			atq:	 	78,
+			def:	 	103,
+			atq_esp: 	53,
+			def_esp: 	45,
+			vel: 		22,
 		},
 		descricao:
 			"Restaurado de um fóssil, este Pokémon consegue mergulhar profundidades maiores que meio quilômetro.", // considerando a dex da primeira geração que apareceu
@@ -17754,12 +17754,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6c/F0565.png",
 		estatistica: {
-			ps: 74,
-			atq: 108,
-			def: 133,
-			atq_esp: 83,
-			def_esp: 65,
-			vel: 32,
+			ps:		 	74,
+			atq:	 	108,
+			def:	 	133,
+			atq_esp: 	83,
+			def_esp: 	65,
+			vel: 		32,
 		},
 		descricao:
 			"Conseguem viver tanto no oceano quanto em terra. Um tapa seu é suficiente para abrir um buraco no fundo de um navio-tanque.", // considerando a dex da primeira geração que apareceu
@@ -17782,12 +17782,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/34/F0566.png",
 		estatistica: {
-			ps: 55,
-			atq: 112,
-			def: 45,
-			atq_esp: 74,
-			def_esp: 45,
-			vel: 70,
+			ps:		 	55,
+			atq:	 	112,
+			def:	 	45,
+			atq_esp: 	74,
+			def_esp: 	45,
+			vel: 		70,
 		},
 		descricao:
 			"Revivido de um fóssil, acredita-se que este Pokémon seja o ancestral de todos Pokémon pássaros.", // considerando a dex da primeira geração que apareceu
@@ -17810,12 +17810,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0567.png",
 		estatistica: {
-			ps: 75,
-			atq: 140,
-			def: 65,
-			atq_esp: 112,
-			def_esp: 65,
-			vel: 110,
+			ps:		 	75,
+			atq:	 	140,
+			def:	 	65,
+			atq_esp: 	112,
+			def_esp: 	65,
+			vel: 		110,
 		},
 		descricao:
 			"São inteligentes e cooperam para capturar presas. Do chão, usam uma corrida inicial para alçar voo.", // considerando a dex da primeira geração que apareceu
@@ -17838,12 +17838,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1d/F0568.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 62,
-			atq_esp: 40,
-			def_esp: 62,
-			vel: 65,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	62,
+			atq_esp: 	40,
+			def_esp: 	62,
+			vel: 		65,
 		},
 		descricao:
 			"Inalar o gás que arrotam fará você dormir por uma semana. Preferem lugares insalubres.", // considerando a dex da primeira geração que apareceu
@@ -17866,12 +17866,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0569.png",
 		estatistica: {
-			ps: 80,
-			atq: 95,
-			def: 82,
-			atq_esp: 60,
-			def_esp: 82,
-			vel: 75,
+			ps:		 	80,
+			atq:	 	95,
+			def:	 	82,
+			atq_esp: 	60,
+			def_esp: 	82,
+			vel: 		75,
 		},
 		descricao:
 			"Agarra os oponentes com o braço esquerdo e os finaliza com um gás venenoso de odor fétido expelido pela boca.", // considerando a dex da primeira geração que apareceu
@@ -17894,12 +17894,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0570.png",
 		estatistica: {
-			ps: 40,
-			atq: 65,
-			def: 40,
-			atq_esp: 80,
-			def_esp: 40,
-			vel: 65,
+			ps:		 	40,
+			atq:	 	65,
+			def:	 	40,
+			atq_esp: 	80,
+			def_esp: 	40,
+			vel: 		65,
 		},
 		descricao:
 			"Este Pokémon se transforma nas formas dos outros para surpreende-los. Aparentemente, frequentemente se transforma em uma criança silenciosa.", // considerando a dex da primeira geração que apareceu
@@ -17922,12 +17922,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0570.png",
 		estatistica: {
-			ps: 35,
-			atq: 60,
-			def: 40,
-			atq_esp: 85,
-			def_esp: 40,
-			vel: 70,
+			ps:		 	35,
+			atq:	 	60,
+			def:	 	40,
+			atq_esp: 	85,
+			def_esp: 	40,
+			vel: 		70,
 		},
 		descricao:
 			"Uma alma que já partiu, retornou à vida. Deriva poder do ressentimento, que sobe como energia no topo de sua cabeça e assume as formas de inimigos. Dessa forma, este Pokémon desabafa malícia persistente.", // considerando a dex da primeira geração que apareceu
@@ -17951,12 +17951,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ea/F0571.png",
 		estatistica: {
-			ps: 60,
-			atq: 105,
-			def: 60,
-			atq_esp: 120,
-			def_esp: 60,
-			vel: 105,
+			ps:		 	60,
+			atq:	 	105,
+			def:	 	60,
+			atq_esp: 	120,
+			def_esp: 	60,
+			vel: 		105,
 		},
 		descricao:
 			"Os laços entre esses Pokémon são muito fortes. Protege a segurança de sua matilha enganando seus oponentes.", // considerando a dex da primeira geração que apareceu
@@ -17979,12 +17979,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ea/F0571.png",
 		estatistica: {
-			ps: 55,
-			atq: 100,
-			def: 60,
-			atq_esp: 125,
-			def_esp: 60,
-			vel: 110,
+			ps:		 	55,
+			atq:	 	100,
+			def:	 	60,
+			atq_esp: 	125,
+			def_esp: 	60,
+			vel: 		110,
 		},
 		descricao:
 			"Com seu pelo branco desgrenhado, parece uma personificação da morte. Descuidado com sua própria segurança. este Pokémon ataca seus inimigos com uma energia amarga tão intensa que dilacera o próprio corpo.", // considerando a dex da primeira geração que apareceu
@@ -18008,12 +18008,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0572.png",
 		estatistica: {
-			ps: 55,
-			atq: 50,
-			def: 40,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 75,
+			ps:		 	55,
+			atq:	 	50,
+			def:	 	40,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		75,
 		},
 		descricao:
 			"Cumprimentam-se esfregando-se com suas caudas, que estão sempre bem cuidadas e limpas.", // considerando a dex da primeira geração que apareceu
@@ -18036,12 +18036,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0573.png",
 		estatistica: {
-			ps: 75,
-			atq: 95,
-			def: 60,
-			atq_esp: 65,
-			def_esp: 60,
-			vel: 115,
+			ps:		 	75,
+			atq:	 	95,
+			def:	 	60,
+			atq_esp: 	65,
+			def_esp: 	60,
+			vel: 		115,
 		},
 		descricao:
 			"Seu pelo branco é revestido por um óleo especial que facilida a defesa contra ataques.", // considerando a dex da primeira geração que apareceu
@@ -18064,12 +18064,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0574.png",
 		estatistica: {
-			ps: 45,
-			atq: 30,
-			def: 50,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	30,
+			def:	 	50,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		45,
 		},
 		descricao:
 			"Suas antenas em forma de fitas aumentam seu poder psíquico. Estão sempre encarando alguma coisa ou alguém.", // considerando a dex da primeira geração que apareceu
@@ -18092,12 +18092,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0575.png",
 		estatistica: {
-			ps: 60,
-			atq: 45,
-			def: 70,
-			atq_esp: 75,
-			def_esp: 85,
-			vel: 55,
+			ps:		 	60,
+			atq:	 	45,
+			def:	 	70,
+			atq_esp: 	75,
+			def_esp: 	85,
+			vel: 		55,
 		},
 		descricao:
 			"Usam a hipnose para controlar pessoas e Pokémon. Contos sobre este Pokémon levando pessoas ao erro são contadas em todos os cantos.", // considerando a dex da primeira geração que apareceu
@@ -18120,12 +18120,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/aa/F0576.png",
 		estatistica: {
-			ps: 70,
-			atq: 55,
-			def: 95,
-			atq_esp: 95,
-			def_esp: 110,
-			vel: 65,
+			ps:		 	70,
+			atq:	 	55,
+			def:	 	95,
+			atq_esp: 	95,
+			def_esp: 	110,
+			vel: 		65,
 		},
 		descricao:
 			"Céus estrelados a milhares de anos-luz de distância são visíveis no espaço distorcido por seu intenso poder psíquico.", // considerando a dex da primeira geração que apareceu
@@ -18148,12 +18148,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d2/F0577.png",
 		estatistica: {
-			ps: 45,
-			atq: 30,
-			def: 40,
-			atq_esp: 105,
-			def_esp: 50,
-			vel: 20,
+			ps:		 	45,
+			atq:	 	30,
+			def:	 	40,
+			atq_esp: 	105,
+			def_esp: 	50,
+			vel: 		20,
 		},
 		descricao:
 			"Por seu corpo ser envelopado por um líquido especial, consegue sobreviver em qualquer ambiente.", // considerando a dex da primeira geração que apareceu
@@ -18176,12 +18176,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0578.png",
 		estatistica: {
-			ps: 65,
-			atq: 40,
-			def: 50,
-			atq_esp: 125,
-			def_esp: 60,
-			vel: 30,
+			ps:		 	65,
+			atq:	 	40,
+			def:	 	50,
+			atq_esp: 	125,
+			def_esp: 	60,
+			vel: 		30,
 		},
 		descricao:
 			"Por ter dois cérebros divididos, as vezes tentam, de repente, relizar duas ações diferentes ao mesmo tempo.", // considerando a dex da primeira geração que apareceu
@@ -18204,12 +18204,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/94/F0579.png",
 		estatistica: {
-			ps: 110,
-			atq: 65,
-			def: 75,
-			atq_esp: 125,
-			def_esp: 85,
-			vel: 30,
+			ps:		 	110,
+			atq:	 	65,
+			def:	 	75,
+			atq_esp: 	125,
+			def_esp: 	85,
+			vel: 		30,
 		},
 		descricao:
 			"Esses Pokémon notavelmente inteligentes lutam controlando braços que podem agarrar com força suficiente para esmagar rochas.", // considerando a dex da primeira geração que apareceu
@@ -18232,12 +18232,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e3/F0580.png",
 		estatistica: {
-			ps: 62,
-			atq: 44,
-			def: 50,
-			atq_esp: 44,
-			def_esp: 50,
-			vel: 55,
+			ps:		 	62,
+			atq:	 	44,
+			def:	 	50,
+			atq_esp: 	44,
+			def_esp: 	50,
+			vel: 		55,
 		},
 		descricao:
 			"Esse Pokémon é um excelente mergulhador. Nadam na água comendo sua comida favorita: turfa.", // considerando a dex da primeira geração que apareceu
@@ -18260,12 +18260,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0581.png",
 		estatistica: {
-			ps: 75,
-			atq: 87,
-			def: 63,
-			atq_esp: 87,
-			def_esp: 63,
-			vel: 98,
+			ps:		 	75,
+			atq:	 	87,
+			def:	 	63,
+			atq_esp: 	87,
+			def_esp: 	63,
+			vel: 		98,
 		},
 		descricao:
 			"Este Pokémon começa a dançar ao anoitecer. O que dança no meio é o líder do grupo.", // considerando a dex da primeira geração que apareceu
@@ -18288,12 +18288,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c0/F0582.png",
 		estatistica: {
-			ps: 36,
-			atq: 50,
-			def: 50,
-			atq_esp: 65,
-			def_esp: 60,
-			vel: 44,
+			ps:		 	36,
+			atq:	 	50,
+			def:	 	50,
+			atq_esp: 	65,
+			def_esp: 	60,
+			vel: 		44,
 		},
 		descricao:
 			"A temperatura da respiração deles é de -50° Celsius. Criam cristais de neve e fazem neve cair nas áreas ao redor deles.", // considerando a dex da primeira geração que apareceu
@@ -18316,12 +18316,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0583.png",
 		estatistica: {
-			ps: 51,
-			atq: 65,
-			def: 65,
-			atq_esp: 80,
-			def_esp: 75,
-			vel: 59,
+			ps:		 	51,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	80,
+			def_esp: 	75,
+			vel: 		59,
 		},
 		descricao:
 			"Montanhas nevadas são o habitat deste Pokémon. Durante uma antiga era glacial, se deslocaram para áreas ao sul.", // considerando a dex da primeira geração que apareceu
@@ -18344,12 +18344,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0584.png",
 		estatistica: {
-			ps: 71,
-			atq: 95,
-			def: 85,
-			atq_esp: 110,
-			def_esp: 95,
-			vel: 79,
+			ps:		 	71,
+			atq:	 	95,
+			def:	 	85,
+			atq_esp: 	110,
+			def_esp: 	95,
+			vel: 		79,
 		},
 		descricao:
 			"Ao engolir grandes quantidades de água, formam nuvens de neve dentro de seus corpos e atacam seus inimigos com nevascas violentas.", // considerando a dex da primeira geração que apareceu
@@ -18372,12 +18372,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0585.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 75,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		75,
 		},
 		descricao:
 			"A cor e o cheiro de seus pelos mudam para combinar com a grama da montanha. Quando sentem hostilidade, escondem-se na grama.", // considerando a dex da primeira geração que apareceu
@@ -18403,12 +18403,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0586.png",
 		estatistica: {
-			ps: 80,
-			atq: 100,
-			def: 70,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 95,
+			ps:		 	80,
+			atq:	 	100,
+			def:	 	70,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		95,
 		},
 		descricao:
 			"Migram de acordo com as estações do ano. Pessoas conseguem dizer a estação só olhando para os chifres deste Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -18434,12 +18434,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0587.png",
 		estatistica: {
-			ps: 55,
-			atq: 75,
-			def: 60,
-			atq_esp: 75,
-			def_esp: 60,
-			vel: 103,
+			ps:		 	55,
+			atq:	 	75,
+			def:	 	60,
+			atq_esp: 	75,
+			def_esp: 	60,
+			vel: 		103,
 		},
 		descricao:
 			"A energia gerada nas elétricas de suas bochechas é armazenada dentro de sua membrana e liberada enquanto está planando.", // considerando a dex da primeira geração que apareceu
@@ -18463,12 +18463,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/34/F0588.png",
 		estatistica: {
-			ps: 50,
-			atq: 75,
-			def: 45,
-			atq_esp: 40,
-			def_esp: 45,
-			vel: 60,
+			ps:		 	50,
+			atq:	 	75,
+			def:	 	45,
+			atq_esp: 	40,
+			def_esp: 	45,
+			vel: 		60,
 		},
 		descricao:
 			"Quando se sentem ameaçados, cospem um líquido ácido para afastar os agressores.", // considerando a dex da primeira geração que apareceu
@@ -18491,12 +18491,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/aa/F0589.png",
 		estatistica: {
-			ps: 70,
-			atq: 135,
-			def: 105,
-			atq_esp: 60,
-			def_esp: 105,
-			vel: 20,
+			ps:		 	70,
+			atq:	 	135,
+			def:	 	105,
+			atq_esp: 	60,
+			def_esp: 	105,
+			vel: 		20,
 		},
 		descricao:
 			"Voam em alta velocidade, atacando com suas lanças pontudas. Mesmo quando está em perigo, enfrentam os oponentes bravamente.", // considerando a dex da primeira geração que apareceu
@@ -18519,12 +18519,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/23/F0590.png",
 		estatistica: {
-			ps: 69,
-			atq: 55,
-			def: 45,
-			atq_esp: 55,
-			def_esp: 55,
-			vel: 15,
+			ps:		 	69,
+			atq:	 	55,
+			def:	 	45,
+			atq_esp: 	55,
+			def_esp: 	55,
+			vel: 		15,
 		},
 		descricao:
 			"Atrai pessoas com seu padrão de Pokébola, depois libera esporos venenosos. O motivo de parecer uma Pokébola é desconhecido.", // considerando a dex da primeira geração que apareceu
@@ -18547,12 +18547,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/54/F0591.png",
 		estatistica: {
-			ps: 114,
-			atq: 85,
-			def: 70,
-			atq_esp: 85,
-			def_esp: 80,
-			vel: 30,
+			ps:		 	114,
+			atq:	 	85,
+			def:	 	70,
+			atq_esp: 	85,
+			def_esp: 	80,
+			vel: 		30,
 		},
 		descricao:
 			"Atrai presas para perto dançando e balançando suas capas de braços, que lembram Pokébolas, em um movimento oscilante.", // considerando a dex da primeira geração que apareceu
@@ -18576,12 +18576,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0592.png",
 		estatistica: {
-			ps: 55,
-			atq: 40,
-			def: 50,
-			atq_esp: 65,
-			def_esp: 85,
-			vel: 40,
+			ps:		 	55,
+			atq:	 	40,
+			def:	 	50,
+			atq_esp: 	65,
+			def_esp: 	85,
+			vel: 		40,
 		},
 		descricao:
 			"Com seus braços finos, semelhantes a véus, envolvendo o corpo do oponente, afunda no fundo do oceano.", // considerando a dex da primeira geração que apareceu
@@ -18606,12 +18606,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0593.png",
 		estatistica: {
-			ps: 100,
-			atq: 60,
-			def: 70,
-			atq_esp: 85,
-			def_esp: 105,
-			vel: 60,
+			ps:		 	100,
+			atq:	 	60,
+			def:	 	70,
+			atq_esp: 	85,
+			def_esp: 	105,
+			vel: 		60,
 		},
 		descricao:
 			"O destino dos navios e da tribulação que vagam pelo habitat deste Pokémon: todos afundados, todos perdidos, todos desaparecidos.", // considerando a dex da primeira geração que apareceu
@@ -18636,12 +18636,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0594.png",
 		estatistica: {
-			ps: 165,
-			atq: 75,
-			def: 80,
-			atq_esp: 40,
-			def_esp: 45,
-			vel: 65,
+			ps:		 	165,
+			atq:	 	75,
+			def:	 	80,
+			atq_esp: 	40,
+			def_esp: 	45,
+			vel: 		65,
 		},
 		descricao:
 			"A membrana especial envolvendo este Pokémon tem a habilidade de curar feridas.", // considerando a dex da primeira geração que apareceu
@@ -18664,12 +18664,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0595.png",
 		estatistica: {
-			ps: 50,
-			atq: 47,
-			def: 50,
-			atq_esp: 57,
-			def_esp: 50,
-			vel: 65,
+			ps:		 	50,
+			atq:	 	47,
+			def:	 	50,
+			atq_esp: 	57,
+			def_esp: 	50,
+			vel: 		65,
 		},
 		descricao:
 			"Espécimes deste Pokémon que vivem em cidades, aprenderam uma técnica para sugar eletricidade das tomadas das casas.", // considerando a dex da primeira geração que apareceu
@@ -18692,12 +18692,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/42/F0596.png",
 		estatistica: {
-			ps: 70,
-			atq: 77,
-			def: 60,
-			atq_esp: 97,
-			def_esp: 60,
-			vel: 108,
+			ps:		 	70,
+			atq:	 	77,
+			def:	 	60,
+			atq_esp: 	97,
+			def_esp: 	60,
+			vel: 		108,
 		},
 		descricao:
 			"Quando atacados, criam uma barreira elétrica ao cuspir vários fios carregados eletricamente.", // considerando a dex da primeira geração que apareceu
@@ -18720,12 +18720,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0597.png",
 		estatistica: {
-			ps: 44,
-			atq: 50,
-			def: 91,
-			atq_esp: 24,
-			def_esp: 86,
-			vel: 10,
+			ps:		 	44,
+			atq:	 	50,
+			def:	 	91,
+			atq_esp: 	24,
+			def_esp: 	86,
+			vel: 		10,
 		},
 		descricao:
 			"Quando ameaçados, ataca atirando uma barragem de espinhos, o que lhe dá uma chance de escapar rolando.", // considerando a dex da primeira geração que apareceu
@@ -18748,12 +18748,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0598.png",
 		estatistica: {
-			ps: 74,
-			atq: 94,
-			def: 131,
-			atq_esp: 54,
-			def_esp: 116,
-			vel: 20,
+			ps:		 	74,
+			atq:	 	94,
+			def:	 	131,
+			atq_esp: 	54,
+			def_esp: 	116,
+			vel: 		20,
 		},
 		descricao:
 			"Luta balançando em torno de seus três tentáculos pontiagudos. Um golpe desses espinhos de aço pode reduzir uma rocha a escombros.", // considerando a dex da primeira geração que apareceu
@@ -18776,12 +18776,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0599.png",
 		estatistica: {
-			ps: 40,
-			atq: 55,
-			def: 70,
-			atq_esp: 45,
-			def_esp: 60,
-			vel: 30,
+			ps:		 	40,
+			atq:	 	55,
+			def:	 	70,
+			atq_esp: 	45,
+			def_esp: 	60,
+			vel: 		30,
 		},
 		descricao:
 			"Entrelaçar dois corpos e girar gera a energia de que precisam para viver.", // considerando a dex da primeira geração que apareceu
@@ -18804,12 +18804,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0600.png",
 		estatistica: {
-			ps: 60,
-			atq: 80,
-			def: 95,
-			atq_esp: 70,
-			def_esp: 85,
-			vel: 50,
+			ps:		 	60,
+			atq:	 	80,
+			def:	 	95,
+			atq_esp: 	70,
+			def_esp: 	85,
+			vel: 		50,
 		},
 		descricao:
 			"Ao mudar a direção em que gira, comunica seus sentidmentos aos outros. Quando está com raiva, gira mais rápido.", // considerando a dex da primeira geração que apareceu
@@ -18832,12 +18832,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0601.png",
 		estatistica: {
-			ps: 60,
-			atq: 100,
-			def: 115,
-			atq_esp: 70,
-			def_esp: 85,
-			vel: 90,
+			ps:		 	60,
+			atq:	 	100,
+			def:	 	115,
+			atq_esp: 	70,
+			def_esp: 	85,
+			vel: 		90,
 		},
 		descricao:
 			"Seu núcleo vermelho funciona como um tanque de energia. Dispara a energia carregada através de seus espinhos em uma área.", // considerando a dex da primeira geração que apareceu
@@ -18860,12 +18860,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0602.png",
 		estatistica: {
-			ps: 35,
-			atq: 55,
-			def: 40,
-			atq_esp: 45,
-			def_esp: 40,
-			vel: 60,
+			ps:		 	35,
+			atq:	 	55,
+			def:	 	40,
+			atq_esp: 	45,
+			def_esp: 	40,
+			vel: 		60,
 		},
 		descricao:
 			"Enquanto um sozinho não tem muito poder, vários espécimes em corrente pode ser tão poderosa quanto um raio.", // considerando a dex da primeira geração que apareceu
@@ -18888,12 +18888,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b5/F0603.png",
 		estatistica: {
-			ps: 65,
-			atq: 85,
-			def: 70,
-			atq_esp: 75,
-			def_esp: 70,
-			vel: 40,
+			ps:		 	65,
+			atq:	 	85,
+			def:	 	70,
+			atq_esp: 	75,
+			def_esp: 	70,
+			vel: 		40,
 		},
 		descricao:
 			"Possuem grande apetite. Quando avistam sua presa, atacam e paralizam o alvo com eletricidade.", // considerando a dex da primeira geração que apareceu
@@ -18916,12 +18916,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/86/F0604.png",
 		estatistica: {
-			ps: 85,
-			atq: 115,
-			def: 80,
-			atq_esp: 105,
-			def_esp: 80,
-			vel: 50,
+			ps:		 	85,
+			atq:	 	115,
+			def:	 	80,
+			atq_esp: 	105,
+			def_esp: 	80,
+			vel: 		50,
 		},
 		descricao:
 			"Rastejam para fora do oceano usando seus braços. Atacarão sua presa na costa e imediatamente a arrastarão para o oceano.", // considerando a dex da primeira geração que apareceu
@@ -18944,12 +18944,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0605.png",
 		estatistica: {
-			ps: 55,
-			atq: 55,
-			def: 55,
-			atq_esp: 85,
-			def_esp: 55,
-			vel: 30,
+			ps:		 	55,
+			atq:	 	55,
+			def:	 	55,
+			atq_esp: 	85,
+			def_esp: 	55,
+			vel: 		30,
 		},
 		descricao:
 			"Usa seu forte poder psíquico para apertar o cérebro de seu oponente, causando dores de cabeças insuportáveis.", // considerando a dex da primeira geração que apareceu
@@ -18972,12 +18972,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0606.png",
 		estatistica: {
-			ps: 75,
-			atq: 75,
-			def: 75,
-			atq_esp: 125,
-			def_esp: 95,
-			vel: 40,
+			ps:		 	75,
+			atq:	 	75,
+			def:	 	75,
+			atq_esp: 	125,
+			def_esp: 	95,
+			vel: 		40,
 		},
 		descricao:
 			"Consegue manipular uma memória do oponente. Aparentemente, se comunica piscando seus três dedos de cores diferentes.", // considerando a dex da primeira geração que apareceu
@@ -19000,12 +19000,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/89/F0607.png",
 		estatistica: {
-			ps: 50,
-			atq: 30,
-			def: 55,
-			atq_esp: 65,
-			def_esp: 55,
-			vel: 20,
+			ps:		 	50,
+			atq:	 	30,
+			def:	 	55,
+			atq_esp: 	65,
+			def_esp: 	55,
+			vel: 		20,
 		},
 		descricao:
 			"Emite uma luz que a energia vital de pessoas e Pokémon, que se torna o combustível que queima.", // considerando a dex da primeira geração que apareceu
@@ -19028,12 +19028,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0608.png",
 		estatistica: {
-			ps: 60,
-			atq: 40,
-			def: 60,
-			atq_esp: 95,
-			def_esp: 60,
-			vel: 55,
+			ps:		 	60,
+			atq:	 	40,
+			def:	 	60,
+			atq_esp: 	95,
+			def_esp: 	60,
+			vel: 		55,
 		},
 		descricao:
 			"Este Pokémon sinistro é temido. Pelas cidades, vagueia, procurando os espíritos dos caídos.", // considerando a dex da primeira geração que apareceu
@@ -19056,12 +19056,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/92/F0609.png",
 		estatistica: {
-			ps: 60,
-			atq: 55,
-			def: 90,
-			atq_esp: 145,
-			def_esp: 90,
-			vel: 80,
+			ps:		 	60,
+			atq:	 	55,
+			def:	 	90,
+			atq_esp: 	145,
+			def_esp: 	90,
+			vel: 		80,
 		},
 		descricao:
 			"Absorve um espírito, que então queima. Ao agitar as chamas em seu braços, coloca seus inimigos em um transe hipnótico.", // considerando a dex da primeira geração que apareceu
@@ -19084,12 +19084,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8a/F0610.png",
 		estatistica: {
-			ps: 46,
-			atq: 87,
-			def: 60,
-			atq_esp: 30,
-			def_esp: 40,
-			vel: 57,
+			ps:		 	46,
+			atq:	 	87,
+			def:	 	60,
+			atq_esp: 	30,
+			def_esp: 	40,
+			vel: 		57,
 		},
 		descricao:
 			"Usam suas presas para esmagar as frutas que comem. O crescimento repetido torna suas presas fortes e afiadas.", // considerando a dex da primeira geração que apareceu
@@ -19112,12 +19112,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0611.png",
 		estatistica: {
-			ps: 66,
-			atq: 117,
-			def: 70,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 67,
+			ps:		 	66,
+			atq:	 	117,
+			def:	 	70,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		67,
 		},
 		descricao:
 			"Como uma presa quebrada não volta a crescer, afia diligentemente suas presas nas rochas do rio depois de lutarem.", // considerando a dex da primeira geração que apareceu
@@ -19140,12 +19140,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fc/F0612.png",
 		estatistica: {
-			ps: 76,
-			atq: 147,
-			def: 90,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 97,
+			ps:		 	76,
+			atq:	 	147,
+			def:	 	90,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		97,
 		},
 		descricao:
 			"São gentis, mas podem ser implacáveis ao defender seu território. Desafiam os inimigos com presas que conseguem cortar aço.", // considerando a dex da primeira geração que apareceu
@@ -19168,12 +19168,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0613.png",
 		estatistica: {
-			ps: 55,
-			atq: 70,
-			def: 40,
-			atq_esp: 60,
-			def_esp: 40,
-			vel: 40,
+			ps:		 	55,
+			atq:	 	70,
+			def:	 	40,
+			atq_esp: 	60,
+			def_esp: 	40,
+			vel: 		40,
 		},
 		descricao:
 			"Quando não está se sentindo bem, seu muco fica aquoso e o poder de seus movimentos do tipo gelo diminui.", // considerando a dex da primeira geração que apareceu
@@ -19196,12 +19196,12 @@ const pkmnDisponiveis = [
 		altura: 2.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0614.png",
 		estatistica: {
-			ps: 95,
-			atq: 130,
-			def: 80,
-			atq_esp: 70,
-			def_esp: 80,
-			vel: 50,
+			ps:		 	95,
+			atq:	 	130,
+			def:	 	80,
+			atq_esp: 	70,
+			def_esp: 	80,
+			vel: 		50,
 		},
 		descricao:
 			"Consegue congelar sua respiração à vontade. Muito hávil na água, nada em mores do norte e captura presas.", // considerando a dex da primeira geração que apareceu
@@ -19224,12 +19224,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b7/F0615.png",
 		estatistica: {
-			ps: 80,
-			atq: 50,
-			def: 50,
-			atq_esp: 95,
-			def_esp: 135,
-			vel: 105,
+			ps:		 	80,
+			atq:	 	50,
+			def:	 	50,
+			atq_esp: 	95,
+			def_esp: 	135,
+			vel: 		105,
 		},
 		descricao:
 			"Quando a temperatura de seu corpo sobe, se transforma em vapor e some. Quando sua temperatura diminui, retorna ao gelo.", // considerando a dex da primeira geração que apareceu
@@ -19252,12 +19252,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0616.png",
 		estatistica: {
-			ps: 50,
-			atq: 40,
-			def: 85,
-			atq_esp: 40,
-			def_esp: 65,
-			vel: 25,
+			ps:		 	50,
+			atq:	 	40,
+			def:	 	85,
+			atq_esp: 	40,
+			def_esp: 	65,
+			vel: 		25,
 		},
 		descricao:
 			"Quando atacado, se defende fechando a tampa de sua concha. Pode cuspir um líquido pegajoso e venenoso.", // considerando a dex da primeira geração que apareceu
@@ -19280,12 +19280,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0617.png",
 		estatistica: {
-			ps: 80,
-			atq: 70,
-			def: 40,
-			atq_esp: 100,
-			def_esp: 60,
-			vel: 145,
+			ps:		 	80,
+			atq:	 	70,
+			def:	 	40,
+			atq_esp: 	100,
+			def_esp: 	60,
+			vel: 		145,
 		},
 		descricao:
 			"Quando seu corpo seca, enfraquece. Para prevenir a desidratação, se enrolaem várias camadas de membrana fina.", // considerando a dex da primeira geração que apareceu
@@ -19308,12 +19308,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0618.png",
 		estatistica: {
-			ps: 109,
-			atq: 66,
-			def: 84,
-			atq_esp: 81,
-			def_esp: 99,
-			vel: 32,
+			ps:		 	109,
+			atq:	 	66,
+			def:	 	84,
+			atq_esp: 	81,
+			def_esp: 	99,
+			vel: 		32,
 		},
 		descricao:
 			"Sua pele é muito dura, não se machuca mesmo quando pisado por lutadores de sumo. Sorri quando está transmitindo eletricidade.", // considerando a dex da primeira geração que apareceu
@@ -19336,12 +19336,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0618.png",
 		estatistica: {
-			ps: 109,
-			atq: 81,
-			def: 99,
-			atq_esp: 66,
-			def_esp: 84,
-			vel: 32,
+			ps:		 	109,
+			atq:	 	81,
+			def:	 	99,
+			atq_esp: 	66,
+			def_esp: 	84,
+			vel: 		32,
 		},
 		descricao:
 			"Viver na lama com um alto conteúdo de ferro deu a este Pokémon um corpo de metal forte.", // considerando a dex da primeira geração que apareceu
@@ -19365,12 +19365,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0619.png",
 		estatistica: {
-			ps: 45,
-			atq: 85,
-			def: 50,
-			atq_esp: 55,
-			def_esp: 50,
-			vel: 65,
+			ps:		 	45,
+			atq:	 	85,
+			def:	 	50,
+			atq_esp: 	55,
+			def_esp: 	50,
+			vel: 		65,
 		},
 		descricao:
 			"Em lutas, dominam com investidas de ataques contínuos e fluidos. Com suas garras afiadas, cortam os inimigos.", // considerando a dex da primeira geração que apareceu
@@ -19393,12 +19393,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0620.png",
 		estatistica: {
-			ps: 65,
-			atq: 125,
-			def: 60,
-			atq_esp: 95,
-			def_esp: 60,
-			vel: 105,
+			ps:		 	65,
+			atq:	 	125,
+			def:	 	60,
+			atq_esp: 	95,
+			def_esp: 	60,
+			vel: 		105,
 		},
 		descricao:
 			"Empunha a pele dos braços como um chicote. Seus ataques de braço vêm com tanta rapidez que nem podem ser vistos.", // considerando a dex da primeira geração que apareceu
@@ -19421,12 +19421,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5c/F0621.png",
 		estatistica: {
-			ps: 77,
-			atq: 120,
-			def: 90,
-			atq_esp: 60,
-			def_esp: 90,
-			vel: 48,
+			ps:		 	77,
+			atq:	 	120,
+			def:	 	90,
+			atq_esp: 	60,
+			def_esp: 	90,
+			vel: 		48,
 		},
 		descricao:
 			"Aquece seu corpo absorvendo luz solar com suas asas. Quando a temperatura de seu corpo cai, não consegue se mover.", // considerando a dex da primeira geração que apareceu
@@ -19449,12 +19449,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0622.png",
 		estatistica: {
-			ps: 59,
-			atq: 74,
-			def: 50,
-			atq_esp: 35,
-			def_esp: 50,
-			vel: 35,
+			ps:		 	59,
+			atq:	 	74,
+			def:	 	50,
+			atq_esp: 	35,
+			def_esp: 	50,
+			vel: 		35,
 		},
 		descricao:
 			"A energia que queima dentro o permite se locomover, mas ninguém foi capaz de identificar essa energia.", // considerando a dex da primeira geração que apareceu
@@ -19477,12 +19477,12 @@ const pkmnDisponiveis = [
 		altura: 2.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/1/17/F0623.png",
 		estatistica: {
-			ps: 89,
-			atq: 124,
-			def: 80,
-			atq_esp: 55,
-			def_esp: 80,
-			vel: 55,
+			ps:		 	89,
+			atq:	 	124,
+			def:	 	80,
+			atq_esp: 	55,
+			def_esp: 	80,
+			vel: 		55,
 		},
 		descricao:
 			"Voa pelo céu em velocidades Mach. Remover o selo em seu peito faz sua energia interna sair do controle.", // considerando a dex da primeira geração que apareceu
@@ -19505,12 +19505,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c5/F0624.png",
 		estatistica: {
-			ps: 45,
-			atq: 85,
-			def: 70,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 60,
+			ps:		 	45,
+			atq:	 	85,
+			def:	 	70,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		60,
 		},
 		descricao:
 			"Lâminas compõe o corpo inteiro deste Pokémon. Se batalhas deixam as lâminas cegas, são afiadas em pedras perto do rio.", // considerando a dex da primeira geração que apareceu
@@ -19533,12 +19533,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/94/F0625.png",
 		estatistica: {
-			ps: 65,
-			atq: 125,
-			def: 100,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 70,
+			ps:		 	65,
+			atq:	 	125,
+			def:	 	100,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		70,
 		},
 		descricao:
 			"Batalha para se tornar o chefe do grupo, mas será expulso do grupo se perder.", // considerando a dex da primeira geração que apareceu
@@ -19561,12 +19561,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/88/F0626.png",
 		estatistica: {
-			ps: 95,
-			atq: 110,
-			def: 95,
-			atq_esp: 40,
-			def_esp: 95,
-			vel: 55,
+			ps:		 	95,
+			atq:	 	110,
+			def:	 	95,
+			atq_esp: 	40,
+			def_esp: 	95,
+			vel: 		55,
 		},
 		descricao:
 			"Seu pelo fofo absorve dano, mesmo quando acertam os inimigos com uma cabeçada feroz.", // considerando a dex da primeira geração que apareceu
@@ -19589,12 +19589,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0627.png",
 		estatistica: {
-			ps: 70,
-			atq: 83,
-			def: 50,
-			atq_esp: 37,
-			def_esp: 50,
-			vel: 60,
+			ps:		 	70,
+			atq:	 	83,
+			def:	 	50,
+			atq_esp: 	37,
+			def_esp: 	50,
+			vel: 		60,
 		},
 		descricao:
 			"Esmagam frutas com suas garra. Corajosamente enfrentam qualquer oponente, não importa quão forte seja.", // considerando a dex da primeira geração que apareceu
@@ -19617,12 +19617,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0628.png",
 		estatistica: {
-			ps: 100,
-			atq: 123,
-			def: 75,
-			atq_esp: 57,
-			def_esp: 75,
-			vel: 80,
+			ps:		 	100,
+			atq:	 	123,
+			def:	 	75,
+			atq_esp: 	57,
+			def_esp: 	75,
+			vel: 		80,
 		},
 		descricao:
 			"Lutam por seus amigos sem pensar em perigo para si mesmos. Um indivíduo consegue carregar um carro enquanto está voando.", // considerando a dex da primeira geração que apareceu
@@ -19645,12 +19645,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0628.png",
 		estatistica: {
-			ps: 110,
-			atq: 83,
-			def: 70,
-			atq_esp: 112,
-			def_esp: 70,
-			vel: 65,
+			ps:		 	110,
+			atq:	 	83,
+			def:	 	70,
+			atq_esp: 	112,
+			def_esp: 	70,
+			vel: 		65,
 		},
 		descricao:
 			"Emitindo um grito de guerra de gelar o sangue, este enorme e feroz Pokémon pássaro sai para caçar. Explode lagos com ondas de choque e, em seguida, pega qualquer presa que fuluta na superfície da água.", // considerando a dex da primeira geração que apareceu
@@ -19673,12 +19673,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/80/F0629.png",
 		estatistica: {
-			ps: 70,
-			atq: 55,
-			def: 75,
-			atq_esp: 45,
-			def_esp: 65,
-			vel: 60,
+			ps:		 	70,
+			atq:	 	55,
+			def:	 	75,
+			atq_esp: 	45,
+			def_esp: 	65,
+			vel: 		60,
 		},
 		descricao:
 			"Tendem proteger seus membros posteriores com ossos adequados que encontram. Perseguem Pokémon fracos.", // considerando a dex da primeira geração que apareceu
@@ -19701,12 +19701,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c4/F0630.png",
 		estatistica: {
-			ps: 110,
-			atq: 65,
-			def: 105,
-			atq_esp: 55,
-			def_esp: 95,
-			vel: 80,
+			ps:		 	110,
+			atq:	 	65,
+			def:	 	105,
+			atq_esp: 	55,
+			def_esp: 	95,
+			vel: 		80,
 		},
 		descricao:
 			"Faz um ninho com os ossos que encontra. Agarra presas enfraquecidas em suas garras e as arrasta para seu ninho de ossos.", // considerando a dex da primeira geração que apareceu
@@ -19729,12 +19729,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0631.png",
 		estatistica: {
-			ps: 85,
-			atq: 97,
-			def: 66,
-			atq_esp: 105,
-			def_esp: 66,
-			vel: 65,
+			ps:		 	85,
+			atq:	 	97,
+			def:	 	66,
+			atq_esp: 	105,
+			def_esp: 	66,
+			vel: 		65,
 		},
 		descricao:
 			"Respira por um buraco na cauda enquanto queima com um fogo interno.", // considerando a dex da primeira geração que apareceu
@@ -19757,12 +19757,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0632.png",
 		estatistica: {
-			ps: 58,
-			atq: 109,
-			def: 112,
-			atq_esp: 48,
-			def_esp: 48,
-			vel: 109,
+			ps:		 	58,
+			atq:	 	109,
+			def:	 	112,
+			atq_esp: 	48,
+			def_esp: 	48,
+			vel: 		109,
 		},
 		descricao:
 			"Escava ninhos em montanhas. Constroem seus túneis complicados e interconectados em labirintos.", // considerando a dex da primeira geração que apareceu
@@ -19786,12 +19786,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0633.png",
 		estatistica: {
-			ps: 52,
-			atq: 65,
-			def: 50,
-			atq_esp: 45,
-			def_esp: 50,
-			vel: 38,
+			ps:		 	52,
+			atq:	 	65,
+			def:	 	50,
+			atq_esp: 	45,
+			def_esp: 	50,
+			vel: 		38,
 		},
 		descricao:
 			"Tende a morder tudo e não é um comedor exigente. Aproximar-se deste Pokémon descuidadamente é perigoso.", // considerando a dex da primeira geração que apareceu
@@ -19814,12 +19814,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bc/F0634.png",
 		estatistica: {
-			ps: 72,
-			atq: 85,
-			def: 70,
-			atq_esp: 65,
-			def_esp: 70,
-			vel: 58,
+			ps:		 	72,
+			atq:	 	85,
+			def:	 	70,
+			atq_esp: 	65,
+			def_esp: 	70,
+			vel: 		58,
 		},
 		descricao:
 			"Depois de ter comido toda a comida em seu território, se muda para outra área. Suas duas cabeças não se dão bem.", // considerando a dex da primeira geração que apareceu
@@ -19842,12 +19842,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0635.png",
 		estatistica: {
-			ps: 92,
-			atq: 105,
-			def: 90,
-			atq_esp: 125,
-			def_esp: 90,
-			vel: 98,
+			ps:		 	92,
+			atq:	 	105,
+			def:	 	90,
+			atq_esp: 	125,
+			def_esp: 	90,
+			vel: 		98,
 		},
 		descricao:
 			"Este Pokémon brutal viaja pelos céus em suas seis asas. Qualquer coisa que se mova parece um inimigo para este Pokémon, desencadeando seu ataque.", // considerando a dex da primeira geração que apareceu
@@ -19870,12 +19870,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0636.png",
 		estatistica: {
-			ps: 55,
-			atq: 85,
-			def: 55,
-			atq_esp: 50,
-			def_esp: 55,
-			vel: 60,
+			ps:		 	55,
+			atq:	 	85,
+			def:	 	55,
+			atq_esp: 	50,
+			def_esp: 	55,
+			vel: 		60,
 		},
 		descricao:
 			"A base de vulcões é onde fazem seus lares. Atiram fogo de seus cinco chifres para repelir ataques inimigos.", // considerando a dex da primeira geração que apareceu
@@ -19898,12 +19898,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/49/F0637.png",
 		estatistica: {
-			ps: 85,
-			atq: 60,
-			def: 65,
-			atq_esp: 135,
-			def_esp: 105,
-			vel: 100,
+			ps:		 	85,
+			atq:	 	60,
+			def:	 	65,
+			atq_esp: 	135,
+			def_esp: 	105,
+			vel: 		100,
 		},
 		descricao:
 			"Dizem que quando cinzas vulcânicas escureceram a atmosfera, o fogo deste Pokémon substituiu o sol.", // considerando a dex da primeira geração que apareceu
@@ -19926,12 +19926,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0638.png",
 		estatistica: {
-			ps: 91,
-			atq: 90,
-			def: 129,
-			atq_esp: 90,
-			def_esp: 72,
-			vel: 108,
+			ps:		 	91,
+			atq:	 	90,
+			def:	 	129,
+			atq_esp: 	90,
+			def_esp: 	72,
+			vel: 		108,
 		},
 		descricao:
 			"Este lendário Pokémon batalhou contra humanos para proteger Pokémon. Sua personalidade é calma e composta.", // considerando a dex da primeira geração que apareceu
@@ -19954,12 +19954,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c8/F0639.png",
 		estatistica: {
-			ps: 91,
-			atq: 129,
-			def: 90,
-			atq_esp: 72,
-			def_esp: 90,
-			vel: 108,
+			ps:		 	91,
+			atq:	 	129,
+			def:	 	90,
+			atq_esp: 	72,
+			def_esp: 	90,
+			vel: 		108,
 		},
 		descricao:
 			"Este Pokémon veio em defesa dos Pokémon que perderam seus lares em uma guerra entre humanos.", // considerando a dex da primeira geração que apareceu
@@ -19982,12 +19982,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7d/F0640.png",
 		estatistica: {
-			ps: 91,
-			atq: 90,
-			def: 72,
-			atq_esp: 90,
-			def_esp: 129,
-			vel: 108,
+			ps:		 	91,
+			atq:	 	90,
+			def:	 	72,
+			atq_esp: 	90,
+			def_esp: 	129,
+			vel: 		108,
 		},
 		descricao:
 			"Este Pokémon lutou contra humanos para proteger seus amigos. Lendas sobre isso continuam a ser contadas.", // considerando a dex da primeira geração que apareceu
@@ -20010,12 +20010,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/75/F0641.png",
 		estatistica: {
-			ps: 79,
-			atq: 115,
-			def: 70,
-			atq_esp: 125,
-			def_esp: 80,
-			vel: 111,
+			ps:		 	79,
+			atq:	 	115,
+			def:	 	70,
+			atq_esp: 	125,
+			def_esp: 	80,
+			vel: 		111,
 		},
 		descricao:
 			"Voa em todas as direções, criando ventos tão poderosos que levam tudo para longe.", // considerando a dex da primeira geração que apareceu
@@ -20038,12 +20038,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/7/75/F0641.png",
 		estatistica: {
-			ps: 79,
-			atq: 100,
-			def: 80,
-			atq_esp: 110,
-			def_esp: 90,
-			vel: 121,
+			ps:		 	79,
+			atq:	 	100,
+			def:	 	80,
+			atq_esp: 	110,
+			def_esp: 	90,
+			vel: 		121,
 		},
 		descricao:
 			"Voa em todas as direções, criando ventos tão poderosos que levam tudo para longe.", // considerando a dex da primeira geração que apareceu
@@ -20066,12 +20066,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0642.png",
 		estatistica: {
-			ps: 79,
-			atq: 115,
-			def: 70,
-			atq_esp: 125,
-			def_esp: 80,
-			vel: 111,
+			ps:		 	79,
+			atq:	 	115,
+			def:	 	70,
+			atq_esp: 	125,
+			def_esp: 	80,
+			vel: 		111,
 		},
 		descricao:
 			"Incontáveis restos carbonizados marcam a paisagem dos lugares por onde passou.", // considerando a dex da primeira geração que apareceu
@@ -20094,12 +20094,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0642.png",
 		estatistica: {
-			ps: 79,
-			atq: 105,
-			def: 70,
-			atq_esp: 145,
-			def_esp: 80,
-			vel: 101,
+			ps:		 	79,
+			atq:	 	105,
+			def:	 	70,
+			atq_esp: 	145,
+			def_esp: 	80,
+			vel: 		101,
 		},
 		descricao:
 			"Incontáveis restos carbonizados marcam a paisagem dos lugares por onde passou.", // considerando a dex da primeira geração que apareceu
@@ -20122,12 +20122,12 @@ const pkmnDisponiveis = [
 		altura: 3.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a3/F0643.png",
 		estatistica: {
-			ps: 100,
-			atq: 120,
-			def: 100,
-			atq_esp: 150,
-			def_esp: 120,
-			vel: 90,
+			ps:		 	100,
+			atq:	 	120,
+			def:	 	100,
+			atq_esp: 	150,
+			def_esp: 	120,
+			vel: 		90,
 		},
 		descricao:
 			"Este Pokémon aparece em lendas. Lança chamas no ar de sua cauda, queimando tudo ao redor.", // considerando a dex da primeira geração que apareceu
@@ -20150,12 +20150,12 @@ const pkmnDisponiveis = [
 		altura: 2.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ee/F0644.png",
 		estatistica: {
-			ps: 100,
-			atq: 150,
-			def: 120,
-			atq_esp: 120,
-			def_esp: 100,
-			vel: 90,
+			ps:		 	100,
+			atq:	 	150,
+			def:	 	120,
+			atq_esp: 	120,
+			def_esp: 	100,
+			vel: 		90,
 		},
 		descricao:
 			"Este Pokémon aparece em lendas. Em sua cauda, possui um gerador gigante que cria eletricidade.", // considerando a dex da primeira geração que apareceu
@@ -20178,12 +20178,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0645.png",
 		estatistica: {
-			ps: 89,
-			atq: 125,
-			def: 90,
-			atq_esp: 115,
-			def_esp: 80,
-			vel: 101,
+			ps:		 	89,
+			atq:	 	125,
+			def:	 	90,
+			atq_esp: 	115,
+			def_esp: 	80,
+			vel: 		101,
 		},
 		descricao:
 			"Terras visitadas por este Pokémon proporcionam colheitas tão abundantes que foi aclamado como 'O Guadião dos Campos'.", // considerando a dex da primeira geração que apareceu
@@ -20206,12 +20206,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0645.png",
 		estatistica: {
-			ps: 89,
-			atq: 145,
-			def: 90,
-			atq_esp: 105,
-			def_esp: 80,
-			vel: 91,
+			ps:		 	89,
+			atq:	 	145,
+			def:	 	90,
+			atq_esp: 	105,
+			def_esp: 	80,
+			vel: 		91,
 		},
 		descricao:
 			"Terras visitadas por este Pokémon proporcionam colheitas tão abundantes que foi aclamado como 'O Guadião dos Campos'.", // considerando a dex da primeira geração que apareceu
@@ -20234,12 +20234,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0646.png",
 		estatistica: {
-			ps: 125,
-			atq: 130,
-			def: 90,
-			atq_esp: 130,
-			def_esp: 90,
-			vel: 95,
+			ps:		 	125,
+			atq:	 	130,
+			def:	 	90,
+			atq_esp: 	130,
+			def_esp: 	90,
+			vel: 		95,
 		},
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
@@ -20262,12 +20262,12 @@ const pkmnDisponiveis = [
 		altura: 3.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0646.png",
 		estatistica: {
-			ps: 125,
-			atq: 120,
-			def: 90,
-			atq_esp: 170,
-			def_esp: 100,
-			vel: 95,
+			ps:		 	125,
+			atq:	 	120,
+			def:	 	90,
+			atq_esp: 	170,
+			def_esp: 	100,
+			vel: 		95,
 		},
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
@@ -20290,12 +20290,12 @@ const pkmnDisponiveis = [
 		altura: 3.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0646.png",
 		estatistica: {
-			ps: 125,
-			atq: 170,
-			def: 100,
-			atq_esp: 120,
-			def_esp: 90,
-			vel: 95,
+			ps:		 	125,
+			atq:	 	170,
+			def:	 	100,
+			atq_esp: 	120,
+			def_esp: 	90,
+			vel: 		95,
 		},
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
@@ -20318,12 +20318,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0647.png",
 		estatistica: {
-			ps: 91,
-			atq: 72,
-			def: 90,
-			atq_esp: 129,
-			def_esp: 90,
-			vel: 108,
+			ps:		 	91,
+			atq:	 	72,
+			def:	 	90,
+			atq_esp: 	129,
+			def_esp: 	90,
+			vel: 		108,
 		},
 		descricao:
 			"Ao lançar água de seus cascos, consegue deslizar pela água. Se destaca em usar movimentos de pernas enquanto luta.", // considerando a dex da primeira geração que apareceu
@@ -20347,12 +20347,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0648.png",
 		estatistica: {
-			ps: 100,
-			atq: 77,
-			def: 77,
-			atq_esp: 128,
-			def_esp: 128,
-			vel: 90,
+			ps:		 	100,
+			atq:	 	77,
+			def:	 	77,
+			atq_esp: 	128,
+			def_esp: 	128,
+			vel: 		90,
 		},
 		descricao:
 			"Suas melodias são cantadas com um método de vocalização especial que consegue controlar os sentimentos daqueles que o escuta.", // considerando a dex da primeira geração que apareceu
@@ -20375,12 +20375,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0648.png",
 		estatistica: {
-			ps: 100,
-			atq: 128,
-			def: 90,
-			atq_esp: 77,
-			def_esp: 77,
-			vel: 128,
+			ps:		 	100,
+			atq:	 	128,
+			def:	 	90,
+			atq_esp: 	77,
+			def_esp: 	77,
+			vel: 		128,
 		},
 		descricao:
 			"Suas melodias são cantadas com um método de vocalização especial que conseuge controlar os sentimentos daqueles que o escuta.", // considerando a dex da primeira geração que apareceu
@@ -20404,12 +20404,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0649.png",
 		estatistica: {
-			ps: 71,
-			atq: 120,
-			def: 95,
-			atq_esp: 120,
-			def_esp: 95,
-			vel: 99,
+			ps:		 	71,
+			atq:	 	120,
+			def:	 	95,
+			atq_esp: 	120,
+			def_esp: 	95,
+			vel: 		99,
 		},
 		descricao:
 			"Mais de trezentos milhões de anos atrás, era temido como o mais forte dos caçadores. Foi modificado pela Equipe Plasma.", // considerando a dex da primeira geração que apareceu
@@ -20436,12 +20436,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 56,
-			atq: 61,
-			def: 65,
-			atq_esp: 48,
-			def_esp: 45,
-			vel: 38,
+			ps:		 	56,
+			atq:	 	61,
+			def:	 	65,
+			atq_esp: 	48,
+			def_esp: 	45,
+			vel: 		38,
 		},
 		descricao:
 			"As penas em sua cabeça são geralmente macias. Quando as flexiona, as pontas se tornam tão duras e afiadas que podem perfurar uma rocha.", // considerando a dex da primeira geração que apareceu
@@ -20464,12 +20464,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 61,
-			atq: 78,
-			def: 95,
-			atq_esp: 56,
-			def_esp: 58,
-			vel: 57,
+			ps:		 	61,
+			atq:	 	78,
+			def:	 	95,
+			atq_esp: 	56,
+			def_esp: 	58,
+			vel: 		57,
 		},
 		descricao:
 			"Depende de seu casco robusto para desviar os ataques de predadores. Contra-ataca com seus penas afiadas.", // considerando a dex da primeira geração que apareceu
@@ -20492,12 +20492,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 107,
-			def: 122,
-			atq_esp: 74,
-			def_esp: 75,
-			vel: 64,
+			ps:		 	88,
+			atq:	 	107,
+			def:	 	122,
+			atq_esp: 	74,
+			def_esp: 	75,
+			vel: 		64,
 		},
 		descricao:
 			"Sua Investida é potente o suficiente para virar um tanque de cinquenta toneladas. Protege seus aliados do perigo com seu próprio corpo.", // considerando a dex da primeira geração que apareceu
@@ -20520,12 +20520,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 40,
-			atq_esp: 62,
-			def_esp: 60,
-			vel: 60,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	40,
+			atq_esp: 	62,
+			def_esp: 	60,
+			vel: 		60,
 		},
 		descricao:
 			"Comer um galho enche este Pokémon de energia, e suas orelhas espaçosas liberam ar com temperatura superior a 200° Celsius.", // considerando a dex da primeira geração que apareceu
@@ -20548,12 +20548,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 59,
-			atq: 59,
-			def: 58,
-			atq_esp: 90,
-			def_esp: 70,
-			vel: 73,
+			ps:		 	59,
+			atq:	 	59,
+			def:	 	58,
+			atq_esp: 	90,
+			def_esp: 	70,
+			vel: 		73,
 		},
 		descricao:
 			"Tem um galho preso na cauda. Com o atrito do pelo da cauda, incendeia o galho e se lança na batalha.", // considerando a dex da primeira geração que apareceu
@@ -20576,12 +20576,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 69,
-			def: 72,
-			atq_esp: 114,
-			def_esp: 100,
-			vel: 104,
+			ps:		 	75,
+			atq:	 	69,
+			def:	 	72,
+			atq_esp: 	114,
+			def_esp: 	100,
+			vel: 		104,
 		},
 		descricao:
 			"Olha fixamente a chama na ponta de seu galho para alcançar um estado de foco, o que lhe permite enxergar o futuro.", // considerando a dex da primeira geração que apareceu
@@ -20604,12 +20604,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 41,
-			atq: 56,
-			def: 40,
-			atq_esp: 62,
-			def_esp: 44,
-			vel: 71,
+			ps:		 	41,
+			atq:	 	56,
+			def:	 	40,
+			atq_esp: 	62,
+			def_esp: 	44,
+			vel: 		71,
 		},
 		descricao:
 			"Secreta bolha flexíveis de seu peito e das costas. As bolhas reduzem o dano que receberia quando atacado.", // considerando a dex da primeira geração que apareceu
@@ -20632,12 +20632,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 54,
-			atq: 63,
-			def: 52,
-			atq_esp: 83,
-			def_esp: 56,
-			vel: 97,
+			ps:		 	54,
+			atq:	 	63,
+			def:	 	52,
+			atq_esp: 	83,
+			def_esp: 	56,
+			vel: 		97,
 		},
 		descricao:
 			"Consegue lançar pedras cobertas por bolhas com controle preciso, acertando latas vazias a até trinta metros de distância.", // considerando a dex da primeira geração que apareceu
@@ -20660,12 +20660,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 72,
-			atq: 95,
-			def: 67,
-			atq_esp: 103,
-			def_esp: 71,
-			vel: 122,
+			ps:		 	72,
+			atq:	 	95,
+			def:	 	67,
+			atq_esp: 	103,
+			def_esp: 	71,
+			vel: 		122,
 		},
 		descricao:
 			"Cria estrelas de arremesso a partir de água comprimida. Quando as gira e as arremessa em alta velocidade, essas estrelas podem dividir metal em dois.", // considerando a dex da primeira geração que apareceu
@@ -20688,12 +20688,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 38,
-			atq: 36,
-			def: 38,
-			atq_esp: 32,
-			def_esp: 36,
-			vel: 57,
+			ps:		 	38,
+			atq:	 	36,
+			def:	 	38,
+			atq_esp: 	32,
+			def_esp: 	36,
+			vel: 		57,
 		},
 		descricao:
 			"Usam suas grandes orelhas para cavar tocas. Cavarão a noite toda.", // considerando a dex da primeira geração que apareceu
@@ -20716,12 +20716,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 56,
-			def: 77,
-			atq_esp: 50,
-			def_esp: 77,
-			vel: 78,
+			ps:		 	85,
+			atq:	 	56,
+			def:	 	77,
+			atq_esp: 	50,
+			def_esp: 	77,
+			vel: 		78,
 		},
 		descricao:
 			"Com suas poderosas orelhas, conseguem levantar rochas de uma tonelada ou mais pesadas com facilidade. Podem ser de grande ajuda em canteiros de obras.", // considerando a dex da primeira geração que apareceu
@@ -20744,12 +20744,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 50,
-			def: 43,
-			atq_esp: 40,
-			def_esp: 38,
-			vel: 62,
+			ps:		 	45,
+			atq:	 	50,
+			def:	 	43,
+			atq_esp: 	40,
+			def_esp: 	38,
+			vel: 		62,
 		},
 		descricao:
 			"Apesar da beleza de sua voz cadenciada, é implacável com intrusos que entram em seu território.", // considerando a dex da primeira geração que apareceu
@@ -20772,12 +20772,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 62,
-			atq: 73,
-			def: 55,
-			atq_esp: 56,
-			def_esp: 52,
-			vel: 84,
+			ps:		 	62,
+			atq:	 	73,
+			def:	 	55,
+			atq_esp: 	56,
+			def_esp: 	52,
+			vel: 		84,
 		},
 		descricao:
 			"Quanto mais quente a bolsa de chamas em sua barriga, mais rápido consegue voar, mas leva algum tempo para acender o fogo.", // considerando a dex da primeira geração que apareceu
@@ -20800,12 +20800,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 81,
-			def: 71,
-			atq_esp: 74,
-			def_esp: 69,
-			vel: 126,
+			ps:		 	78,
+			atq:	 	81,
+			def:	 	71,
+			atq_esp: 	74,
+			def_esp: 	69,
+			vel: 		126,
 		},
 		descricao:
 			"Quando ataca presas, pode alcançar velocidades de até 500 km/h. Finaliza sua presa com um poderoso chute.", // considerando a dex da primeira geração que apareceu
@@ -20828,12 +20828,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 38,
-			atq: 35,
-			def: 40,
-			atq_esp: 27,
-			def_esp: 25,
-			vel: 35,
+			ps:		 	38,
+			atq:	 	35,
+			def:	 	40,
+			atq_esp: 	27,
+			def_esp: 	25,
+			vel: 		35,
 		},
 		descricao:
 			"Quando está sob ataque de algum Pokémon pássaro, cospe um pó preto venenoso que causa paralisia no contato.", // considerando a dex da primeira geração que apareceu
@@ -20856,12 +20856,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 22,
-			def: 60,
-			atq_esp: 27,
-			def_esp: 30,
-			vel: 29,
+			ps:		 	45,
+			atq:	 	22,
+			def:	 	60,
+			atq_esp: 	27,
+			def_esp: 	30,
+			vel: 		29,
 		},
 		descricao:
 			"Vive escondido em sombras de arbustos. Quando predadores atacam, rapidamente eriça o pelo que cobre seu corpo em um esforço para ameaçá-los.", // considerando a dex da primeira geração que apareceu
@@ -20884,12 +20884,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 52,
-			def: 50,
-			atq_esp: 90,
-			def_esp: 50,
-			vel: 89,
+			ps:		 	80,
+			atq:	 	52,
+			def:	 	50,
+			atq_esp: 	90,
+			def_esp: 	50,
+			vel: 		89,
 		},
 		descricao:
 			"Os padrões nas asas deste Pokémon dependem do clima e da topografia de seu habitat. Espalha escamas coloridas.", // considerando a dex da primeira geração que apareceu
@@ -20931,12 +20931,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 62,
-			atq: 50,
-			def: 58,
-			atq_esp: 73,
-			def_esp: 54,
-			vel: 72,
+			ps:		 	62,
+			atq:	 	50,
+			def:	 	58,
+			atq_esp: 	73,
+			def_esp: 	54,
+			vel: 		72,
 		},
 		descricao:
 			"Quanto mais forte o oponente que enfrenta, mais calor surge de sua crina e mais poder fluirá por seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -20959,12 +20959,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 86,
-			atq: 68,
-			def: 72,
-			atq_esp: 109,
-			def_esp: 66,
-			vel: 106,
+			ps:		 	86,
+			atq:	 	68,
+			def:	 	72,
+			atq_esp: 	109,
+			def_esp: 	66,
+			vel: 		106,
 		},
 		descricao:
 			"Com um hálito ardente de mais de 6'000° Celsius, ameaçam ferozmente qualquer desafiante. As fêmeas protegem os filhotes do bando.", // considerando a dex da primeira geração que apareceu
@@ -20988,12 +20988,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 44,
-			atq: 38,
-			def: 39,
-			atq_esp: 61,
-			def_esp: 79,
-			vel: 42,
+			ps:		 	44,
+			atq:	 	38,
+			def:	 	39,
+			atq_esp: 	61,
+			def_esp: 	79,
+			vel: 		42,
 		},
 		descricao:
 			"Extrai e controla o poder oculto das flores. A flor que segura é provavelmente parte de seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -21020,12 +21020,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 54,
-			atq: 45,
-			def: 47,
-			atq_esp: 75,
-			def_esp: 98,
-			vel: 52,
+			ps:		 	54,
+			atq:	 	45,
+			def:	 	47,
+			atq_esp: 	75,
+			def_esp: 	98,
+			vel: 		52,
 		},
 		descricao:
 			"Voa em torno de campos de flores e cuida das flores que estão começando a murchar. Extrai o poder oculto das flores para a batalha.", // considerando a dex da primeira geração que apareceu
@@ -21052,12 +21052,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 65,
-			def: 68,
-			atq_esp: 112,
-			def_esp: 154,
-			vel: 75,
+			ps:		 	78,
+			atq:	 	65,
+			def:	 	68,
+			atq_esp: 	112,
+			def_esp: 	154,
+			vel: 		75,
 		},
 		descricao:
 			"Reivindica jardins floridos requintados como seu território e obtém poder ao se aquecer na energia emitida pelas plantas floridas.", // considerando a dex da primeira geração que apareceu
@@ -21084,12 +21084,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 66,
-			atq: 65,
-			def: 48,
-			atq_esp: 62,
-			def_esp: 57,
-			vel: 52,
+			ps:		 	66,
+			atq:	 	65,
+			def:	 	48,
+			atq_esp: 	62,
+			def_esp: 	57,
+			vel: 		52,
 		},
 		descricao:
 			"Considerado um dos primeiros Pokémon a viver em harmonia com os humanos, tem uma disposição plácida.", // considerando a dex da primeira geração que apareceu
@@ -21112,12 +21112,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 123,
-			atq: 100,
-			def: 62,
-			atq_esp: 97,
-			def_esp: 81,
-			vel: 68,
+			ps:		 	123,
+			atq:	 	100,
+			def:	 	62,
+			atq_esp: 	97,
+			def_esp: 	81,
+			vel: 		68,
 		},
 		descricao:
 			"Consegue diferenciar os sentimentos de seu Treinador pelas mudanças sutis na pegada de seus chifres. Esse senso empático permite que corram como se fossem um ser.", // considerando a dex da primeira geração que apareceu
@@ -21140,12 +21140,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 67,
-			atq: 82,
-			def: 62,
-			atq_esp: 46,
-			def_esp: 48,
-			vel: 43,
+			ps:		 	67,
+			atq:	 	82,
+			def:	 	62,
+			atq_esp: 	46,
+			def_esp: 	48,
+			vel: 		43,
 		},
 		descricao:
 			"Faz seu melhor para ser levado a sério por seus inimigos, mas seu olhar não é suficientemente intimidante. Mastigar uma folha é sua marca registrada.", // considerando a dex da primeira geração que apareceu
@@ -21168,12 +21168,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 124,
-			def: 78,
-			atq_esp: 69,
-			def_esp: 71,
-			vel: 58,
+			ps:		 	95,
+			atq:	 	124,
+			def:	 	78,
+			atq_esp: 	69,
+			def_esp: 	71,
+			vel: 		58,
 		},
 		descricao:
 			"Apesar de possuir um temperamento violento, não tolera o bullying. Usa a folha em sua boca para sentir os movimentos de seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -21196,12 +21196,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 80,
-			def: 60,
-			atq_esp: 65,
-			def_esp: 90,
-			vel: 102,
+			ps:		 	75,
+			atq:	 	80,
+			def:	 	60,
+			atq_esp: 	65,
+			def_esp: 	90,
+			vel: 		102,
 		},
 		descricao:
 			"Aparar seu pelo fofo não apenas o torna mais elegante, mas também aumenta a rapidez de seus movimentos.", // considerando a dex da primeira geração que apareceu
@@ -21224,12 +21224,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 62,
-			atq: 48,
-			def: 54,
-			atq_esp: 63,
-			def_esp: 60,
-			vel: 68,
+			ps:		 	62,
+			atq:	 	48,
+			def:	 	54,
+			atq_esp: 	63,
+			def_esp: 	60,
+			vel: 		68,
 		},
 		descricao:
 			"O órgão que emite seu intenso poder psíquico é protegido por seus ouvidos para evitar que o poder vaze.", // considerando a dex da primeira geração que apareceu
@@ -21252,12 +21252,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 74,
-			atq: 48,
-			def: 76,
-			atq_esp: 83,
-			def_esp: 81,
-			vel: 104,
+			ps:		 	74,
+			atq:	 	48,
+			def:	 	76,
+			atq_esp: 	83,
+			def_esp: 	81,
+			vel: 		104,
 		},
 		descricao:
 			"Quando está em perigo, ergue suas orelhas e libera poder psíquico suficiente para transformar um caminhão de dez toneladas em pó.", // considerando a dex da primeira geração que apareceu
@@ -21281,12 +21281,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 80,
-			def: 100,
-			atq_esp: 35,
-			def_esp: 37,
-			vel: 28,
+			ps:		 	45,
+			atq:	 	80,
+			def:	 	100,
+			atq_esp: 	35,
+			def_esp: 	37,
+			vel: 		28,
 		},
 		descricao:
 			"Aparentemente, este Pokémon nasce quando um espírito que partiu habita uma espada. Este Pokémon se liga às pessoas e bebe sua força vital.", // considerando a dex da primeira geração que apareceu
@@ -21309,12 +21309,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 59,
-			atq: 110,
-			def: 150,
-			atq_esp: 45,
-			def_esp: 49,
-			vel: 35,
+			ps:		 	59,
+			atq:	 	110,
+			def:	 	150,
+			atq_esp: 	45,
+			def_esp: 	49,
+			vel: 		35,
 		},
 		descricao:
 			"Os complexos padrões de ataque dessas duas espadas são imparáveis, mesmo para um oponente altamente versado em esgrima.", // considerando a dex da primeira geração que apareceu
@@ -21337,12 +21337,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 140,
-			atq_esp: 50,
-			def_esp: 140,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	140,
+			atq_esp: 	50,
+			def_esp: 	140,
+			vel: 		60,
 		},
 		descricao:
 			"Aparentemente, consegue detectar as qualidades inatas da liderança. De acordo com lendas, quer quer que reconheça está destinado a se tornar rei.", // considerando a dex da primeira geração que apareceu
@@ -21365,12 +21365,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 140,
-			def: 50,
-			atq_esp: 140,
-			def_esp: 50,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	140,
+			def:	 	50,
+			atq_esp: 	140,
+			def_esp: 	50,
+			vel: 		60,
 		},
 		descricao:
 			"Aparentemente, consegue detectar as qualidades inatas da liderança. De acordo com lendas, quer quer que reconheça está destinado a se tornar rei.", // considerando a dex da primeira geração que apareceu
@@ -21394,12 +21394,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 52,
-			def: 60,
-			atq_esp: 63,
-			def_esp: 65,
-			vel: 23,
+			ps:		 	78,
+			atq:	 	52,
+			def:	 	60,
+			atq_esp: 	63,
+			def_esp: 	65,
+			vel: 		23,
 		},
 		descricao:
 			"Emite um cheiro que arrebata aqueles que o cheiram. Esta fragrância muda dependendo do que comeu.", // considerando a dex da primeira geração que apareceu
@@ -21422,12 +21422,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 101,
-			atq: 72,
-			def: 72,
-			atq_esp: 99,
-			def_esp: 89,
-			vel: 29,
+			ps:		 	101,
+			atq:	 	72,
+			def:	 	72,
+			atq_esp: 	99,
+			def_esp: 	89,
+			vel: 		29,
 		},
 		descricao:
 			"Inventa vários aromas, agradáveis e desagradáveis, e emite aromas que seus inimigos não gostam para ganhar vantagem na batalha.", // considerando a dex da primeira geração que apareceu
@@ -21450,12 +21450,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 62,
-			atq: 48,
-			def: 66,
-			atq_esp: 59,
-			def_esp: 57,
-			vel: 49,
+			ps:		 	62,
+			atq:	 	48,
+			def:	 	66,
+			atq_esp: 	59,
+			def_esp: 	57,
+			vel: 		49,
 		},
 		descricao:
 			"Para enredar seus oponentes na batalha, extruda fios brancos tão doces e pegajosos quanto algodão doce.", // considerando a dex da primeira geração que apareceu
@@ -21478,12 +21478,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 82,
-			atq: 80,
-			def: 86,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 72,
+			ps:		 	82,
+			atq:	 	80,
+			def:	 	86,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		72,
 		},
 		descricao:
 			"Consegue distinguir o mais fraco dos cheiros. Coloca seu olfato sensível em uso, ajudando os confeiteiros em seu trabalho.", // considerando a dex da primeira geração que apareceu
@@ -21506,12 +21506,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 53,
-			atq: 54,
-			def: 53,
-			atq_esp: 37,
-			def_esp: 46,
-			vel: 45,
+			ps:		 	53,
+			atq:	 	54,
+			def:	 	53,
+			atq_esp: 	37,
+			def_esp: 	46,
+			vel: 		45,
 		},
 		descricao:
 			"Os oponentes que olham fixamente para o brilho dos pontos emissores de luz em seu corpo ficam atordoados e perdem a vontade de lutar.", // considerando a dex da primeira geração que apareceu
@@ -21534,12 +21534,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 86,
-			atq: 92,
-			def: 88,
-			atq_esp: 68,
-			def_esp: 75,
-			vel: 73,
+			ps:		 	86,
+			atq:	 	92,
+			def:	 	88,
+			atq_esp: 	68,
+			def_esp: 	75,
+			vel: 		73,
 		},
 		descricao:
 			"Atrai suas presas para perto com movimentos hipnóticos, depois envolve seus tentáculos ao redor dela antes de finalizá-la com fluidos digestivos.", // considerando a dex da primeira geração que apareceu
@@ -21562,12 +21562,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 42,
-			atq: 52,
-			def: 67,
-			atq_esp: 39,
-			def_esp: 56,
-			vel: 50,
+			ps:		 	42,
+			atq:	 	52,
+			def:	 	67,
+			atq_esp: 	39,
+			def_esp: 	56,
+			vel: 		50,
 		},
 		descricao:
 			"Esticam e depois contraem, puxando suas rochas junto em saltos ousados. Comem algas marinhas que aparecem na costa.", // considerando a dex da primeira geração que apareceu
@@ -21590,12 +21590,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 72,
-			atq: 105,
-			def: 115,
-			atq_esp: 54,
-			def_esp: 86,
-			vel: 68,
+			ps:		 	72,
+			atq:	 	105,
+			def:	 	115,
+			atq_esp: 	54,
+			def_esp: 	86,
+			vel: 		68,
 		},
 		descricao:
 			"As pernas e mãos deste Pokémon possuem mentes próprias, e se movem independentemente. Mas normalmente seguem as ordens da cabeça.", // considerando a dex da primeira geração que apareceu
@@ -21618,12 +21618,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 60,
-			def: 60,
-			atq_esp: 60,
-			def_esp: 60,
-			vel: 30,
+			ps:		 	50,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	60,
+			def_esp: 	60,
+			vel: 		30,
 		},
 		descricao:
 			"Camuflado como alga podre, este Pokémon borrifa veneno líquido na presa que se aproxima desprevenida e depois acabam com ela.", // considerando a dex da primeira geração que apareceu
@@ -21646,12 +21646,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 75,
-			def: 90,
-			atq_esp: 97,
-			def_esp: 123,
-			vel: 44,
+			ps:		 	65,
+			atq:	 	75,
+			def:	 	90,
+			atq_esp: 	97,
+			def_esp: 	123,
+			vel: 		44,
 		},
 		descricao:
 			"Seu veneno é forte o suficiente para comer o casco de um navio-tanque, e eles cospem indiscriminadamente em qualquer coisa que entre em seu território.", // considerando a dex da primeira geração que apareceu
@@ -21674,12 +21674,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 53,
-			def: 62,
-			atq_esp: 58,
-			def_esp: 63,
-			vel: 44,
+			ps:		 	50,
+			atq:	 	53,
+			def:	 	62,
+			atq_esp: 	58,
+			def_esp: 	63,
+			vel: 		44,
 		},
 		descricao:
 			"Abatem presas voadoras atirando água comprimida de suas grandes garras.", // considerando a dex da primeira geração que apareceu
@@ -21702,12 +21702,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 71,
-			atq: 73,
-			def: 88,
-			atq_esp: 120,
-			def_esp: 89,
-			vel: 59,
+			ps:		 	71,
+			atq:	 	73,
+			def:	 	88,
+			atq_esp: 	120,
+			def_esp: 	89,
+			vel: 		59,
 		},
 		descricao:
 			"Suas enormes garras lançam balas de canhão de água poderosas o suficiente para perfurar cascos de navio-tanque.", // considerando a dex da primeira geração que apareceu
@@ -21730,12 +21730,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 44,
-			atq: 38,
-			def: 33,
-			atq_esp: 61,
-			def_esp: 43,
-			vel: 70,
+			ps:		 	44,
+			atq:	 	38,
+			def:	 	33,
+			atq_esp: 	61,
+			def_esp: 	43,
+			vel: 		70,
 		},
 		descricao:
 			"Fazem seus lares em desertos. Conseguem gerar sua energia ao se aquecer ao sol, portanto, comer alimentos não é um requisito.", // considerando a dex da primeira geração que apareceu
@@ -21758,12 +21758,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 62,
-			atq: 55,
-			def: 52,
-			atq_esp: 109,
-			def_esp: 94,
-			vel: 109,
+			ps:		 	62,
+			atq:	 	55,
+			def:	 	52,
+			atq_esp: 	109,
+			def_esp: 	94,
+			vel: 		109,
 		},
 		descricao:
 			"Estimula seus músculos com eletricidade, aumentando a força em suas pernas e permitindo correr 90 metros em cinco segundos.", // considerando a dex da primeira geração que apareceu
@@ -21786,12 +21786,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 58,
-			atq: 89,
-			def: 77,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 48,
+			ps:		 	58,
+			atq:	 	89,
+			def:	 	77,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		48,
 		},
 		descricao:
 			"Este Pokémon foi restaurado a partir de um fóssil. Caso algo aconteça que não goste, faz birra e corre solto.", // considerando a dex da primeira geração que apareceu
@@ -21814,12 +21814,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 82,
-			atq: 121,
-			def: 119,
-			atq_esp: 69,
-			def_esp: 59,
-			vel: 71,
+			ps:		 	82,
+			atq:	 	121,
+			def:	 	119,
+			atq_esp: 	69,
+			def_esp: 	59,
+			vel: 		71,
 		},
 		descricao:
 			"Nada poderia parar este Pokémon cem milhões de anos atrás, portanto, se comportava como um rei.", // considerando a dex da primeira geração que apareceu
@@ -21842,12 +21842,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 77,
-			atq: 59,
-			def: 50,
-			atq_esp: 67,
-			def_esp: 63,
-			vel: 46,
+			ps:		 	77,
+			atq:	 	59,
+			def:	 	50,
+			atq_esp: 	67,
+			def_esp: 	63,
+			vel: 		46,
 		},
 		descricao:
 			"Este antigo Pokémon foi restaurado de parte de seu corpo que havia sido congelada no gelo por mais de cem milhões de anos.", // considerando a dex da primeira geração que apareceu
@@ -21870,12 +21870,12 @@ const pkmnDisponiveis = [
 		altura: 2.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 123,
-			atq: 77,
-			def: 72,
-			atq_esp: 99,
-			def_esp: 92,
-			vel: 58,
+			ps:		 	123,
+			atq:	 	77,
+			def:	 	72,
+			atq_esp: 	99,
+			def_esp: 	92,
+			vel: 		58,
 		},
 		descricao:
 			"Usando seus cristais do formato de diamante, consegue instantaneamente criar uma parede de gelo para bloquear um ataque do oponente.", // considerando a dex da primeira geração que apareceu
@@ -21898,12 +21898,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 65,
-			def: 65,
-			atq_esp: 110,
-			def_esp: 130,
-			vel: 60,
+			ps:		 	95,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	110,
+			def_esp: 	130,
+			vel: 		60,
 		},
 		descricao:
 			"Envia uma aura calmante de suas antenas semelhantes a fita para acalmar lutas.", // considerando a dex da primeira geração que apareceu
@@ -21926,12 +21926,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 92,
-			def: 75,
-			atq_esp: 74,
-			def_esp: 63,
-			vel: 118,
+			ps:		 	78,
+			atq:	 	92,
+			def:	 	75,
+			atq_esp: 	74,
+			def_esp: 	63,
+			vel: 		118,
 		},
 		descricao:
 			"Com suas asas, controla sua posição no ar. Gosta de ataca de cima, uma manobra difícil de ser defendida.", // considerando a dex da primeira geração que apareceu
@@ -21954,12 +21954,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 67,
-			atq: 58,
-			def: 57,
-			atq_esp: 81,
-			def_esp: 67,
-			vel: 101,
+			ps:		 	67,
+			atq:	 	58,
+			def:	 	57,
+			atq_esp: 	81,
+			def_esp: 	67,
+			vel: 		101,
 		},
 		descricao:
 			"Seus bigodes servem como antenas. Ao enviar e receber ondas elétricas, consegue se comunicar com outros a grandes distâncias.", // considerando a dex da primeira geração que apareceu
@@ -21982,12 +21982,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 150,
-			atq_esp: 50,
-			def_esp: 150,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	150,
+			atq_esp: 	50,
+			def_esp: 	150,
+			vel: 		50,
 		},
 		descricao:
 			"Nascido das temperaturas e pressões do subsolo, dispara raios da rocha em sua cabeça.", // considerando a dex da primeira geração que apareceu
@@ -22010,12 +22010,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 50,
-			def: 35,
-			atq_esp: 55,
-			def_esp: 75,
-			vel: 40,
+			ps:		 	45,
+			atq:	 	50,
+			def:	 	35,
+			atq_esp: 	55,
+			def_esp: 	75,
+			vel: 		40,
 		},
 		descricao:
 			"É coberto por uma membrana viscosa que faz com que qualquer soco ou chute deslize sem causar danos.", // considerando a dex da primeira geração que apareceu
@@ -22038,12 +22038,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 75,
-			def: 53,
-			atq_esp: 83,
-			def_esp: 113,
-			vel: 60,
+			ps:		 	68,
+			atq:	 	75,
+			def:	 	53,
+			atq_esp: 	83,
+			def_esp: 	113,
+			vel: 		60,
 		},
 		descricao:
 			"Foge dos oponentes excretando um líquido pegajoso que pode dissolver qualquer coisa. Seus olhos retrocederam, então não consegue ver nada.", // considerando a dex da primeira geração que apareceu
@@ -22066,12 +22066,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 58,
-			atq: 75,
-			def: 83,
-			atq_esp: 83,
-			def_esp: 113,
-			vel: 40,
+			ps:		 	58,
+			atq:	 	75,
+			def:	 	83,
+			atq_esp: 	83,
+			def_esp: 	113,
+			vel: 		40,
 		},
 		descricao:
 			"Uma criatura dada à melancolia. Suspeito que sua concha metálica desenvolveu como resultado do muco em sua pele reagindo com o ferro na água da região.", // considerando a dex da primeira geração que apareceu
@@ -22095,12 +22095,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 100,
-			def: 70,
-			atq_esp: 110,
-			def_esp: 150,
-			vel: 80,
+			ps:		 	90,
+			atq:	 	100,
+			def:	 	70,
+			atq_esp: 	110,
+			def_esp: 	150,
+			vel: 		80,
 		},
 		descricao:
 			"Ataca com chifres retráteis. Lança um soco que é o equivalente à força de uma centena de boxeadores profissionais.", // considerando a dex da primeira geração que apareceu
@@ -22123,12 +22123,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 100,
-			def: 100,
-			atq_esp: 110,
-			def_esp: 150,
-			vel: 60,
+			ps:		 	80,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	110,
+			def_esp: 	150,
+			vel: 		60,
 		},
 		descricao:
 			"Capaz de controlar livremente a dureza de sua concha metálica. Detesta a solidão e é extremamente pegajoso, vai fumegar e correr solto se aqueles mais queridos a ele um dia saírem do seu lado.", // considerando a dex da primeira geração que apareceu
@@ -22152,12 +22152,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 57,
-			atq: 80,
-			def: 91,
-			atq_esp: 80,
-			def_esp: 87,
-			vel: 75,
+			ps:		 	57,
+			atq:	 	80,
+			def:	 	91,
+			atq_esp: 	80,
+			def_esp: 	87,
+			vel: 		75,
 		},
 		descricao:
 			"Esses colecionadores de chave ameaçam qualquer invasor balançando suas chaves ferozmente para eles.", // considerando a dex da primeira geração que apareceu
@@ -22180,12 +22180,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 43,
-			atq: 70,
-			def: 48,
-			atq_esp: 50,
-			def_esp: 60,
-			vel: 38,
+			ps:		 	43,
+			atq:	 	70,
+			def:	 	48,
+			atq_esp: 	50,
+			def_esp: 	60,
+			vel: 		38,
 		},
 		descricao:
 			"São criados quando espíritos possuem tocos de árvores podres. Preferem viver em florestas abandonadas.", // considerando a dex da primeira geração que apareceu
@@ -22208,12 +22208,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 110,
-			def: 76,
-			atq_esp: 65,
-			def_esp: 82,
-			vel: 56,
+			ps:		 	85,
+			atq:	 	110,
+			def:	 	76,
+			atq_esp: 	65,
+			def_esp: 	82,
+			vel: 		56,
 		},
 		descricao:
 			"Pode controlar árvores à vontade. Irá capturar pessoas que danificam a floresta, para que nunca possam sair.", // considerando a dex da primeira geração que apareceu
@@ -22236,12 +22236,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 44,
-			atq: 66,
-			def: 70,
-			atq_esp: 44,
-			def_esp: 55,
-			vel: 56,
+			ps:		 	44,
+			atq:	 	66,
+			def:	 	70,
+			atq_esp: 	44,
+			def_esp: 	55,
+			vel: 		56,
 		},
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
@@ -22264,12 +22264,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 49,
-			atq: 66,
-			def: 70,
-			atq_esp: 44,
-			def_esp: 55,
-			vel: 51,
+			ps:		 	49,
+			atq:	 	66,
+			def:	 	70,
+			atq_esp: 	44,
+			def_esp: 	55,
+			vel: 		51,
 		},
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
@@ -22292,12 +22292,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 54,
-			atq: 66,
-			def: 70,
-			atq_esp: 44,
-			def_esp: 55,
-			vel: 46,
+			ps:		 	54,
+			atq:	 	66,
+			def:	 	70,
+			atq_esp: 	44,
+			def_esp: 	55,
+			vel: 		46,
 		},
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
@@ -22320,12 +22320,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 59,
-			atq: 66,
-			def: 70,
-			atq_esp: 44,
-			def_esp: 55,
-			vel: 41,
+			ps:		 	59,
+			atq:	 	66,
+			def:	 	70,
+			atq_esp: 	44,
+			def_esp: 	55,
+			vel: 		41,
 		},
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
@@ -22348,12 +22348,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 85,
-			def: 122,
-			atq_esp: 58,
-			def_esp: 75,
-			vel: 99,
+			ps:		 	55,
+			atq:	 	85,
+			def:	 	122,
+			atq_esp: 	58,
+			def_esp: 	75,
+			vel: 		99,
 		},
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
@@ -22376,12 +22376,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 90,
-			def: 122,
-			atq_esp: 58,
-			def_esp: 75,
-			vel: 84,
+			ps:		 	65,
+			atq:	 	90,
+			def:	 	122,
+			atq_esp: 	58,
+			def_esp: 	75,
+			vel: 		84,
 		},
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
@@ -22404,12 +22404,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 95,
-			def: 122,
-			atq_esp: 58,
-			def_esp: 75,
-			vel: 69,
+			ps:		 	75,
+			atq:	 	95,
+			def:	 	122,
+			atq_esp: 	58,
+			def_esp: 	75,
+			vel: 		69,
 		},
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
@@ -22432,12 +22432,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 100,
-			def: 122,
-			atq_esp: 58,
-			def_esp: 75,
-			vel: 54,
+			ps:		 	85,
+			atq:	 	100,
+			def:	 	122,
+			atq_esp: 	58,
+			def_esp: 	75,
+			vel: 		54,
 		},
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
@@ -22460,12 +22460,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 69,
-			def: 85,
-			atq_esp: 32,
-			def_esp: 35,
-			vel: 28,
+			ps:		 	55,
+			atq:	 	69,
+			def:	 	85,
+			atq_esp: 	32,
+			def_esp: 	35,
+			vel: 		28,
 		},
 		descricao:
 			"Bloqueia ataques do oponente com o gelo que protege seu corpo. Usa ar frio para consertar quaisquer rachaduras com novo gelo.", // considerando a dex da primeira geração que apareceu
@@ -22488,12 +22488,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 117,
-			def: 184,
-			atq_esp: 44,
-			def_esp: 46,
-			vel: 28,
+			ps:		 	95,
+			atq:	 	117,
+			def:	 	184,
+			atq_esp: 	44,
+			def_esp: 	46,
+			vel: 		28,
 		},
 		descricao:
 			"Seu corpo coberto de gelo é tão duro quanto aço. Sua estrutura pesada esmaga qualquer coisa que fique em seu caminho.", // considerando a dex da primeira geração que apareceu
@@ -22516,12 +22516,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 127,
-			def: 184,
-			atq_esp: 34,
-			def_esp: 36,
-			vel: 38,
+			ps:		 	95,
+			atq:	 	127,
+			def:	 	184,
+			atq_esp: 	34,
+			def_esp: 	36,
+			vel: 		38,
 		},
 		descricao:
 			"A armadura de gelo que cobre sua mandíbula inferior envergonha o aço e pode quebrar pedras com facilidade. Este Pokémon corre por trilhas íngremes nas montanhas, cortando a neve profunda.", // considerando a dex da primeira geração que apareceu
@@ -22544,12 +22544,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 30,
-			def: 35,
-			atq_esp: 45,
-			def_esp: 40,
-			vel: 55,
+			ps:		 	40,
+			atq:	 	30,
+			def:	 	35,
+			atq_esp: 	45,
+			def_esp: 	40,
+			vel: 		55,
 		},
 		descricao:
 			"Vivem em caverna escuras como breu. Seus ouvidos enormes podem emitir ondas ultrassônicas de 200'000 hertz.", // considerando a dex da primeira geração que apareceu
@@ -22572,12 +22572,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 70,
-			def: 80,
-			atq_esp: 97,
-			def_esp: 80,
-			vel: 123,
+			ps:		 	85,
+			atq:	 	70,
+			def:	 	80,
+			atq_esp: 	97,
+			def_esp: 	80,
+			vel: 		123,
 		},
 		descricao:
 			"Voam por aí em noites sem lua e atacam presas descuidadas. Nada pode vencê-los em uma batalha no escuro.", // considerando a dex da primeira geração que apareceu
@@ -22600,12 +22600,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 126,
-			atq: 131,
-			def: 95,
-			atq_esp: 131,
-			def_esp: 98,
-			vel: 99,
+			ps:		 	126,
+			atq:	 	131,
+			def:	 	95,
+			atq_esp: 	131,
+			def_esp: 	98,
+			vel: 		99,
 		},
 		descricao:
 			"Lendas contam que pode compartilhar vida eterna. Dormiu por mil anos na forma de uma árvore antes de seu renascimento.", // considerando a dex da primeira geração que apareceu
@@ -22628,12 +22628,12 @@ const pkmnDisponiveis = [
 		altura: 5.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 126,
-			atq: 131,
-			def: 95,
-			atq_esp: 131,
-			def_esp: 98,
-			vel: 99,
+			ps:		 	126,
+			atq:	 	131,
+			def:	 	95,
+			atq_esp: 	131,
+			def_esp: 	98,
+			vel: 		99,
 		},
 		descricao:
 			"Quando sua vida chega ao fim, absorve a energia vital de todas as coisa vivas e se transforma em um casulo novamente.", // considerando a dex da primeira geração que apareceu
@@ -22656,12 +22656,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 54,
-			atq: 100,
-			def: 71,
-			atq_esp: 61,
-			def_esp: 85,
-			vel: 115,
+			ps:		 	54,
+			atq:	 	100,
+			def:	 	71,
+			atq_esp: 	61,
+			def_esp: 	85,
+			vel: 		115,
 		},
 		descricao:
 			"Quando o ecossistema de sua região entra em desordem, aparece e revela seu poder secreto.", // considerando a dex da primeira geração que apareceu
@@ -22684,12 +22684,12 @@ const pkmnDisponiveis = [
 		altura: 5.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 108,
-			atq: 100,
-			def: 121,
-			atq_esp: 81,
-			def_esp: 95,
-			vel: 95,
+			ps:		 	108,
+			atq:	 	100,
+			def:	 	121,
+			atq_esp: 	81,
+			def_esp: 	95,
+			vel: 		95,
 		},
 		descricao:
 			"Quando o ecossistema de sua região entra em desordem, aparece e revela seu poder secreto.", // considerando a dex da primeira geração que apareceu
@@ -22712,12 +22712,12 @@ const pkmnDisponiveis = [
 		altura: 4.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 216,
-			atq: 100,
-			def: 121,
-			atq_esp: 91,
-			def_esp: 95,
-			vel: 85,
+			ps:		 	216,
+			atq:	 	100,
+			def:	 	121,
+			atq_esp: 	91,
+			def_esp: 	95,
+			vel: 		85,
 		},
 		descricao:
 			"Quando o ecossistema de sua região entra em desordem, aparece e revela seu poder secreto.", // considerando a dex da primeira geração que apareceu
@@ -22740,12 +22740,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 100,
-			def: 150,
-			atq_esp: 100,
-			def_esp: 150,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	100,
+			def:	 	150,
+			atq_esp: 	100,
+			def_esp: 	150,
+			vel: 		50,
 		},
 		descricao:
 			"Pode criar instantaneamente vários diamantes comprimindo o carbono no ar entre suas mãos.", // considerando a dex da primeira geração que apareceu
@@ -22768,12 +22768,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 110,
-			def: 60,
-			atq_esp: 150,
-			def_esp: 130,
-			vel: 70,
+			ps:		 	80,
+			atq:	 	110,
+			def:	 	60,
+			atq_esp: 	150,
+			def_esp: 	130,
+			vel: 		70,
 		},
 		descricao:
 			"Este encrenqueiro envia tudo e qualquer coisa para lugares distantes usando seu laço, o que pode distorcer o espaço.", // considerando a dex da primeira geração que apareceu
@@ -22796,12 +22796,12 @@ const pkmnDisponiveis = [
 		altura: 6.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 160,
-			def: 60,
-			atq_esp: 170,
-			def_esp: 130,
-			vel: 80,
+			ps:		 	80,
+			atq:	 	160,
+			def:	 	60,
+			atq_esp: 	170,
+			def_esp: 	130,
+			vel: 		80,
 		},
 		descricao:
 			"Este encrenqueiro envia tudo e qualquer coisa para lugares distantes usando seu laço, o que pode distorcer o espaço.", // considerando a dex da primeira geração que apareceu
@@ -22824,12 +22824,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 110,
-			def: 120,
-			atq_esp: 130,
-			def_esp: 90,
-			vel: 70,
+			ps:		 	80,
+			atq:	 	110,
+			def:	 	120,
+			atq_esp: 	130,
+			def_esp: 	90,
+			vel: 		70,
 		},
 		descricao:
 			"Solta nuvens de vapor e desaparece na névoa densa. Dizem que vive em montanhas onde os humanos não pisam.", // considerando a dex da primeira geração que apareceu
@@ -22852,12 +22852,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 55,
-			def: 55,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 42,
+			ps:		 	68,
+			atq:	 	55,
+			def:	 	55,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		42,
 		},
 		descricao:
 			"Este Pokémon cauteloso usa a fotossíntese para armazenar energia durante o dia, enquanto se torna ativo à noite.", // considerando a dex da primeira geração que apareceu
@@ -22880,12 +22880,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 75,
-			def: 75,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 52,
+			ps:		 	78,
+			atq:	 	75,
+			def:	 	75,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		52,
 		},
 		descricao:
 			"Um pouco dândi, passa seu tempo livre alisando suas asas. Sua preocupação com qualquer sujeira em sua plumagem pode deixá-lo incapaz de lutar.", // considerando a dex da primeira geração que apareceu
@@ -22908,12 +22908,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 107,
-			def: 75,
-			atq_esp: 100,
-			def_esp: 100,
-			vel: 70,
+			ps:		 	78,
+			atq:	 	107,
+			def:	 	75,
+			atq_esp: 	100,
+			def_esp: 	100,
+			vel: 		70,
 		},
 		descricao:
 			"Dispara flechas de suas asas com tanta precisão que elas podem perfurar uma pedra a distância de mais de noventa metros.", // considerando a dex da primeira geração que apareceu
@@ -22936,12 +22936,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 112,
-			def: 80,
-			atq_esp: 95,
-			def_esp: 95,
-			vel: 60,
+			ps:		 	88,
+			atq:	 	112,
+			def:	 	80,
+			atq_esp: 	95,
+			def_esp: 	95,
+			vel: 		60,
 		},
 		descricao:
 			"O ar armazenado dentro das ráquis de suas penas isola o Pokémon contra o frio extremo da região.", // considerando a dex da primeira geração que apareceu
@@ -22964,12 +22964,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 65,
-			def: 40,
-			atq_esp: 60,
-			def_esp: 40,
-			vel: 70,
+			ps:		 	45,
+			atq:	 	65,
+			def:	 	40,
+			atq_esp: 	60,
+			def_esp: 	40,
+			vel: 		70,
 		},
 		descricao:
 			"Enquanto se limpa, acumula pelos dentro do estômago. Incendeia os pelos e cospe ataques de fogo, que mudam com base em como tosse.", // considerando a dex da primeira geração que apareceu
@@ -22992,12 +22992,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 85,
-			def: 50,
-			atq_esp: 80,
-			def_esp: 50,
-			vel: 90,
+			ps:		 	65,
+			atq:	 	85,
+			def:	 	50,
+			atq_esp: 	80,
+			def_esp: 	50,
+			vel: 		90,
 		},
 		descricao:
 			"Em sua garganta, carrega um sino de fogo. O sino toca brilhantemente sempre que este Pokémon cospe fogo.", // considerando a dex da primeira geração que apareceu
@@ -23020,12 +23020,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 115,
-			def: 90,
-			atq_esp: 80,
-			def_esp: 90,
-			vel: 60,
+			ps:		 	95,
+			atq:	 	115,
+			def:	 	90,
+			atq_esp: 	80,
+			def_esp: 	90,
+			vel: 		60,
 		},
 		descricao:
 			"Este Pokémon tem uma disposição violenta e egoísta. Caso não esteja com vontade de ouvir, irá ignorar as ordens de seu Treinador com total indiferença.", // considerando a dex da primeira geração que apareceu
@@ -23048,12 +23048,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 54,
-			def: 54,
-			atq_esp: 66,
-			def_esp: 56,
-			vel: 40,
+			ps:		 	50,
+			atq:	 	54,
+			def:	 	54,
+			atq_esp: 	66,
+			def_esp: 	56,
+			vel: 		40,
 		},
 		descricao:
 			"Este Pokémon cheira fluidos corporais de seu nariz, soprando balões para esmagar seus inimigos. É famoso por ser um trabalhador esforçado.", // considerando a dex da primeira geração que apareceu
@@ -23076,12 +23076,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 69,
-			def: 69,
-			atq_esp: 91,
-			def_esp: 81,
-			vel: 50,
+			ps:		 	60,
+			atq:	 	69,
+			def:	 	69,
+			atq_esp: 	91,
+			def_esp: 	81,
+			vel: 		50,
 		},
 		descricao:
 			"Um dançarino habilidoso, este Pokémon cria uma sequência de balões de água enquanto dança, e bombardeia rapidamente seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -23104,12 +23104,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 74,
-			def: 74,
-			atq_esp: 126,
-			def_esp: 116,
-			vel: 60,
+			ps:		 	80,
+			atq:	 	74,
+			def:	 	74,
+			atq_esp: 	126,
+			def_esp: 	116,
+			vel: 		60,
 		},
 		descricao:
 			"Controla seus balões de água com música. A melodia é aprendida de outras de sua espécie e é transmitida de uma geração para a outra.", // considerando a dex da primeira geração que apareceu
@@ -23132,12 +23132,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 35,
-			atq: 75,
-			def: 30,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 65,
+			ps:		 	35,
+			atq:	 	75,
+			def:	 	30,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		65,
 		},
 		descricao:
 			"Consegue bicar a uma taxa de 16 vezes por segundo para perfurar buracos em árvores. Usa os buracos para armazenar comida e para ninhos.", // considerando a dex da primeira geração que apareceu
@@ -23160,12 +23160,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 85,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 75,
+			ps:		 	55,
+			atq:	 	85,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		75,
 		},
 		descricao:
 			"Come frutas e armazena as sementes em seu bico. Quando encontra inimigos ou presas, dispara todas as sementes de uma só vez.", // considerando a dex da primeira geração que apareceu
@@ -23189,12 +23189,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 75,
-			atq_esp: 75,
-			def_esp: 75,
-			vel: 60,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	75,
+			atq_esp: 	75,
+			def_esp: 	75,
+			vel: 		60,
 		},
 		descricao:
 			"Quando batalha, seu bico aquece. A temperatura pode facilmente exceder 100 graus Celsius, causando queimaduras severas quando atinge.", // considerando a dex da primeira geração que apareceu
@@ -23217,12 +23217,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 48,
-			atq: 70,
-			def: 30,
-			atq_esp: 30,
-			def_esp: 30,
-			vel: 45,
+			ps:		 	48,
+			atq:	 	70,
+			def:	 	30,
+			atq_esp: 	30,
+			def_esp: 	30,
+			vel: 		45,
 		},
 		descricao:
 			"Vagueia em uma busca incessante por comida. Ao anoitecer, desmaia de exaustão e adormece no local.", // considerando a dex da primeira geração que apareceu
@@ -23245,12 +23245,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 110,
-			def: 60,
-			atq_esp: 55,
-			def_esp: 60,
-			vel: 45,
+			ps:		 	88,
+			atq:	 	110,
+			def:	 	60,
+			atq_esp: 	55,
+			def_esp: 	60,
+			vel: 		45,
 		},
 		descricao:
 			"Quando encontra um traço de sua presa, pacientemente vigia o local... mas está sempre cochilando ao cair da noite.", // considerando a dex da primeira geração que apareceu
@@ -23274,12 +23274,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 47,
-			atq: 62,
-			def: 45,
-			atq_esp: 55,
-			def_esp: 45,
-			vel: 46,
+			ps:		 	47,
+			atq:	 	62,
+			def:	 	45,
+			atq_esp: 	55,
+			def_esp: 	45,
+			vel: 		46,
 		},
 		descricao:
 			"Sua forte mandíbula permite este Pokémon raspe árvores e sorva a seiva. Normalmente vive no subsolo.", // considerando a dex da primeira geração que apareceu
@@ -23302,12 +23302,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 57,
-			atq: 82,
-			def: 95,
-			atq_esp: 55,
-			def_esp: 75,
-			vel: 36,
+			ps:		 	57,
+			atq:	 	82,
+			def:	 	95,
+			atq_esp: 	55,
+			def_esp: 	75,
+			vel: 		36,
 		},
 		descricao:
 			"Seu corpo é capaz de armazenar eletricidade. Em acampamentos, pessoas ficam gratas por ter um por perto.", // considerando a dex da primeira geração que apareceu
@@ -23330,12 +23330,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 77,
-			atq: 70,
-			def: 90,
-			atq_esp: 145,
-			def_esp: 75,
-			vel: 43,
+			ps:		 	77,
+			atq:	 	70,
+			def:	 	90,
+			atq_esp: 	145,
+			def_esp: 	75,
+			vel: 		43,
 		},
 		descricao:
 			"Produz eletricidade por meio de um órgão elétrico em seu abdomen. Sobrecarrega Pokémon pássaros com raios chocantes de energia elétrica.", // considerando a dex da primeira geração que apareceu
@@ -23358,12 +23358,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 47,
-			atq: 82,
-			def: 57,
-			atq_esp: 42,
-			def_esp: 47,
-			vel: 63,
+			ps:		 	47,
+			atq:	 	82,
+			def:	 	57,
+			atq_esp: 	42,
+			def_esp: 	47,
+			vel: 		63,
 		},
 		descricao:
 			"Enquanto protege seus pontos fracos com suas pinças, procura por uma abertura e desfere socos. Quando perde, espuma pela boca e desmaia.", // considerando a dex da primeira geração que apareceu
@@ -23387,12 +23387,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 97,
-			atq: 132,
-			def: 77,
-			atq_esp: 62,
-			def_esp: 67,
-			vel: 43,
+			ps:		 	97,
+			atq:	 	132,
+			def:	 	77,
+			atq_esp: 	62,
+			def_esp: 	67,
+			vel: 		43,
 		},
 		descricao:
 			"Mirou o topo, mas se perdeu e terminou em uma montanha nevada. Sendo forçado a resistir o frio, este Pokémon evoluiu e cresceu pelo.", // considerando a dex da primeira geração que apareceu
@@ -23415,12 +23415,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 70,
-			def: 70,
-			atq_esp: 98,
-			def_esp: 70,
-			vel: 93,
+			ps:		 	75,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	98,
+			def_esp: 	70,
+			vel: 		93,
 		},
 		descricao:
 			"Bate suas asas para criar fogo. Conforme se move nos passos de sua linda dança, banha seus oponentes em chamas intensas.", // considerando a dex da primeira geração que apareceu
@@ -23443,12 +23443,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 70,
-			def: 70,
-			atq_esp: 98,
-			def_esp: 70,
-			vel: 93,
+			ps:		 	75,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	98,
+			def_esp: 	70,
+			vel: 		93,
 		},
 		descricao:
 			"Cria uma carga elétrica ao esfregar suas penas. Dança em direção aos seus inimigos e dá chocantes socos elétricos.", // considerando a dex da primeira geração que apareceu
@@ -23471,12 +23471,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 70,
-			def: 70,
-			atq_esp: 98,
-			def_esp: 70,
-			vel: 93,
+			ps:		 	75,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	98,
+			def_esp: 	70,
+			vel: 		93,
 		},
 		descricao:
 			"Este Pokémon relaxa balançando gentilmente. Isso aumenta sua energia psíquica, que então dispara em seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -23499,12 +23499,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 70,
-			def: 70,
-			atq_esp: 98,
-			def_esp: 70,
-			vel: 93,
+			ps:		 	75,
+			atq:	 	70,
+			def:	 	70,
+			atq_esp: 	98,
+			def_esp: 	70,
+			vel: 		93,
 		},
 		descricao:
 			"Convoca os mortos com sua dança sonhadora. De sua malícia, extrai poder com o qual amaldiçoa seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -23527,12 +23527,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 40,
-			atq_esp: 55,
-			def_esp: 40,
-			vel: 84,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	40,
+			atq_esp: 	55,
+			def_esp: 	40,
+			vel: 		84,
 		},
 		descricao:
 			"Alimenta-se do néctar e do pólen das flores. Por ser capaz de sentir auras, consegue identificar quais flores estão próximas de florescer.", // considerando a dex da primeira geração que apareceu
@@ -23555,12 +23555,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 55,
-			def: 60,
-			atq_esp: 95,
-			def_esp: 70,
-			vel: 124,
+			ps:		 	60,
+			atq:	 	55,
+			def:	 	60,
+			atq_esp: 	95,
+			def_esp: 	70,
+			vel: 		124,
 		},
 		descricao:
 			"Enrola pólen em tufos. Produz muitas variedades diferentes, algumas usadas como alimento e outras usadas em batalha.", // considerando a dex da primeira geração que apareceu
@@ -23583,12 +23583,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 65,
-			def: 40,
-			atq_esp: 30,
-			def_esp: 40,
-			vel: 60,
+			ps:		 	45,
+			atq:	 	65,
+			def:	 	40,
+			atq_esp: 	30,
+			def_esp: 	40,
+			vel: 		60,
 		},
 		descricao:
 			"É considerado ser um bom Pokémon para iniciantes por ser amigável, mas seu temperamento fica mais rude à medida que cresce.", // considerando a dex da primeira geração que apareceu
@@ -23611,12 +23611,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 115,
-			def: 65,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 112,
+			ps:		 	75,
+			atq:	 	115,
+			def:	 	65,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		112,
 		},
 		descricao:
 			"Seus movimentos rápidos confundem seus inimigos. Bem equipado com garras e presas, também usa as rochas afiadas em sua juba como armas.", // considerando a dex da primeira geração que apareceu
@@ -23639,12 +23639,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 115,
-			def: 75,
-			atq_esp: 55,
-			def_esp: 75,
-			vel: 82,
+			ps:		 	85,
+			atq:	 	115,
+			def:	 	75,
+			atq_esp: 	55,
+			def_esp: 	75,
+			vel: 		82,
 		},
 		descricao:
 			"Quanto mais intimidador for o oponente que enfrenta, mais o sangue deste Pokémon ferve. Atacará sem se importar com sua própria segurança.", // considerando a dex da primeira geração que apareceu
@@ -23667,12 +23667,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 117,
-			def: 65,
-			atq_esp: 55,
-			def_esp: 65,
-			vel: 110,
+			ps:		 	75,
+			atq:	 	117,
+			def:	 	65,
+			atq_esp: 	55,
+			def_esp: 	65,
+			vel: 		110,
 		},
 		descricao:
 			"Debaixo de sua calma aparente está um intenso espírito de luta.", // considerando a dex da primeira geração que apareceu
@@ -23695,12 +23695,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 20,
-			def: 20,
-			atq_esp: 25,
-			def_esp: 25,
-			vel: 40,
+			ps:		 	45,
+			atq:	 	20,
+			def:	 	20,
+			atq_esp: 	25,
+			def_esp: 	25,
+			vel: 		40,
 		},
 		descricao:
 			"Quando está em perigo, seus olhos se umedecem e começam a brilhar. A luz do brilho atrai seus companheiros, e se unem contra seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -23724,12 +23724,12 @@ const pkmnDisponiveis = [
 		altura: 8.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 140,
-			def: 130,
-			atq_esp: 140,
-			def_esp: 135,
-			vel: 30,
+			ps:		 	45,
+			atq:	 	140,
+			def:	 	130,
+			atq_esp: 	140,
+			def_esp: 	135,
+			vel: 		30,
 		},
 		descricao:
 			"Com a aparição deles, até Pokémon grandes fugirão. Quando se unem para usar seu Revólver d'Água, seu poder excede o de Hidro-Bomba.", // considerando a dex da primeira geração que apareceu
@@ -23753,12 +23753,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 53,
-			def: 62,
-			atq_esp: 43,
-			def_esp: 52,
-			vel: 45,
+			ps:		 	50,
+			atq:	 	53,
+			def:	 	62,
+			atq_esp: 	43,
+			def_esp: 	52,
+			vel: 		45,
 		},
 		descricao:
 			"Mergulha o espinho de veneno em sua cabeça em sua presa. Quando a presa enfraquece, dá o golpe final com seus dez tentáculos.", // considerando a dex da primeira geração que apareceu
@@ -23781,12 +23781,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 63,
-			def: 152,
-			atq_esp: 53,
-			def_esp: 142,
-			vel: 35,
+			ps:		 	50,
+			atq:	 	63,
+			def:	 	152,
+			atq_esp: 	53,
+			def_esp: 	142,
+			vel: 		35,
 		},
 		descricao:
 			"Aqueles atacados pelo veneno deste Pokémon sofrerão dor intensa por três dias e três noites. Após a recuperação, haverá alguns efeitos colaterais.", // considerando a dex da primeira geração que apareceu
@@ -23809,12 +23809,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 100,
-			def: 70,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 45,
+			ps:		 	70,
+			atq:	 	100,
+			def:	 	70,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		45,
 		},
 		descricao:
 			"A lama grudada em seus cascos melhora sua aderência e seu poderoso passo de corrida.", // considerando a dex da primeira geração que apareceu
@@ -23837,12 +23837,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 125,
-			def: 100,
-			atq_esp: 55,
-			def_esp: 85,
-			vel: 35,
+			ps:		 	100,
+			atq:	 	125,
+			def:	 	100,
+			atq_esp: 	55,
+			def_esp: 	85,
+			vel: 		35,
 		},
 		descricao:
 			"Cospe uma lama que oferece resistência tanto ao vento quanto à chuva, por isso as paredes das casas antigas eram frequentemente cobertas com ela.", // considerando a dex da primeira geração que apareceu
@@ -23865,12 +23865,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 38,
-			atq: 40,
-			def: 52,
-			atq_esp: 40,
-			def_esp: 72,
-			vel: 27,
+			ps:		 	38,
+			atq:	 	40,
+			def:	 	52,
+			atq_esp: 	40,
+			def_esp: 	72,
+			vel: 		27,
 		},
 		descricao:
 			"Quando se depara com inimigos ou presas em potencial, este Pokémon ataca-os com sua cabeça coberta de bolhas de água.", // considerando a dex da primeira geração que apareceu
@@ -23893,12 +23893,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 70,
-			def: 92,
-			atq_esp: 50,
-			def_esp: 132,
-			vel: 42,
+			ps:		 	68,
+			atq:	 	70,
+			def:	 	92,
+			atq_esp: 	50,
+			def_esp: 	132,
+			vel: 		42,
 		},
 		descricao:
 			"Cabeceia com a bolha de água em sua cabeça. Pequenos Pokémon são sugados para sua bolha, onde se afogam.", // considerando a dex da primeira geração que apareceu
@@ -23921,12 +23921,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 55,
-			def: 35,
-			atq_esp: 50,
-			def_esp: 35,
-			vel: 35,
+			ps:		 	40,
+			atq:	 	55,
+			def:	 	35,
+			atq_esp: 	50,
+			def_esp: 	35,
+			vel: 		35,
 		},
 		descricao:
 			"Durante o dia, dorme e absorve luz. Quando a noite cai, anda por aí procurando um lugar mais seguro para dormir.", // considerando a dex da primeira geração que apareceu
@@ -23949,12 +23949,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 105,
-			def: 90,
-			atq_esp: 80,
-			def_esp: 90,
-			vel: 45,
+			ps:		 	70,
+			atq:	 	105,
+			def:	 	90,
+			atq_esp: 	80,
+			def_esp: 	90,
+			vel: 		45,
 		},
 		descricao:
 			"É preciso muito esforço para manter suas cores vivas, mas alguns colecionadores gostam desse trabalho e o tratam como um hobby.", // considerando a dex da primeira geração que apareceu
@@ -23977,12 +23977,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 35,
-			def: 55,
-			atq_esp: 65,
-			def_esp: 75,
-			vel: 15,
+			ps:		 	40,
+			atq:	 	35,
+			def:	 	55,
+			atq_esp: 	65,
+			def_esp: 	75,
+			vel: 		15,
 		},
 		descricao:
 			"Espalha esporos que piscam e brilham. Qualquer um que veja essas luzes cai em um sono profundo.", // considerando a dex da primeira geração que apareceu
@@ -24005,12 +24005,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 45,
-			def: 80,
-			atq_esp: 90,
-			def_esp: 100,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	45,
+			def:	 	80,
+			atq_esp: 	90,
+			def_esp: 	100,
+			vel: 		30,
 		},
 		descricao:
 			"Florestas onde estes Pokémon vivem são traiçoeiras para entrar à noite. Pessoas confusas com suas luzes estranhas nunca mais conseguem encontrar o caminho de casa.", // considerando a dex da primeira geração que apareceu
@@ -24033,12 +24033,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 48,
-			atq: 44,
-			def: 40,
-			atq_esp: 71,
-			def_esp: 40,
-			vel: 77,
+			ps:		 	48,
+			atq:	 	44,
+			def:	 	40,
+			atq_esp: 	71,
+			def_esp: 	40,
+			vel: 		77,
 		},
 		descricao:
 			"Queima seu fluido corporal para criar um gás venenoso. Quando seus inimigos se tornam desorientados pelo gás inalado, este Pokémon os ataca.", // considerando a dex da primeira geração que apareceu
@@ -24061,12 +24061,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 64,
-			def: 60,
-			atq_esp: 111,
-			def_esp: 60,
-			vel: 117,
+			ps:		 	68,
+			atq:	 	64,
+			def:	 	60,
+			atq_esp: 	111,
+			def_esp: 	60,
+			vel: 		117,
 		},
 		descricao:
 			"Cheia de feromônios, seu gás venenoso pode ser diluído para uso na produção de perfumes deliciosos.", // considerando a dex da primeira geração que apareceu
@@ -24090,12 +24090,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 75,
-			def: 50,
-			atq_esp: 45,
-			def_esp: 50,
-			vel: 50,
+			ps:		 	70,
+			atq:	 	75,
+			def:	 	50,
+			atq_esp: 	45,
+			def_esp: 	50,
+			vel: 		50,
 		},
 		descricao:
 			"Apesar de sua aparência adorável, quando fica bravo e se debate, seus braços e pernas poderiam derrubar um lutador profissional.", // considerando a dex da primeira geração que apareceu
@@ -24118,12 +24118,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 120,
-			atq: 125,
-			def: 80,
-			atq_esp: 55,
-			def_esp: 60,
-			vel: 60,
+			ps:		 	120,
+			atq:	 	125,
+			def:	 	80,
+			atq_esp: 	55,
+			def_esp: 	60,
+			vel: 		60,
 		},
 		descricao:
 			"Este imensamente perigoso Pokémon possui uma força física avassaladora. Seu habitat é geralmente proibido.", // considerando a dex da primeira geração que apareceu
@@ -24146,12 +24146,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 42,
-			atq: 30,
-			def: 38,
-			atq_esp: 30,
-			def_esp: 38,
-			vel: 32,
+			ps:		 	42,
+			atq:	 	30,
+			def:	 	38,
+			atq_esp: 	30,
+			def_esp: 	38,
+			vel: 		32,
 		},
 		descricao:
 			"Um aroma delicioso jorra de seu corpo. São frequentemente engolidos inteiros por Pokémon pássaros atraídos por aquela delícia flutuante.", // considerando a dex da primeira geração que apareceu
@@ -24174,12 +24174,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 52,
-			atq: 40,
-			def: 48,
-			atq_esp: 40,
-			def_esp: 48,
-			vel: 62,
+			ps:		 	52,
+			atq:	 	40,
+			def:	 	48,
+			atq_esp: 	40,
+			def_esp: 	48,
+			vel: 		62,
 		},
 		descricao:
 			"As sépalas em sua cabeça se desenvolveram para proteger seu corpo. São bem duras, então mesmo se bicadas por Pokémon pássaros, esse Pokémon fica totalmente bem.", // considerando a dex da primeira geração que apareceu
@@ -24202,12 +24202,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 72,
-			atq: 120,
-			def: 98,
-			atq_esp: 50,
-			def_esp: 98,
-			vel: 72,
+			ps:		 	72,
+			atq:	 	120,
+			def:	 	98,
+			atq_esp: 	50,
+			def_esp: 	98,
+			vel: 		72,
 		},
 		descricao:
 			"Sua pernas longas e marcantes não são apenas para exibição, mas para serem usadas para chutar com habilidade. Na vitória, se exibe chutando os derrotados, rindo ruidosamente.", // considerando a dex da primeira geração que apareceu
@@ -24230,12 +24230,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 51,
-			atq: 52,
-			def: 90,
-			atq_esp: 82,
-			def_esp: 110,
-			vel: 100,
+			ps:		 	51,
+			atq:	 	52,
+			def:	 	90,
+			atq_esp: 	82,
+			def_esp: 	110,
+			vel: 		100,
 		},
 		descricao:
 			"Prende flores à sua videira altamente nutritiva. Isso revitaliza as flores, e elas exalam um cheiro aromático.", // considerando a dex da primeira geração que apareceu
@@ -24258,12 +24258,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 60,
-			def: 80,
-			atq_esp: 90,
-			def_esp: 110,
-			vel: 60,
+			ps:		 	90,
+			atq:	 	60,
+			def:	 	80,
+			atq_esp: 	90,
+			def_esp: 	110,
+			vel: 		60,
 		},
 		descricao:
 			"Conhecido por sua inteligência extrema, este Pokémon desprezará qualquer Treinador inexperientes, por isso é mais adequado para Treinadores veteranos.", // considerando a dex da primeira geração que apareceu
@@ -24286,12 +24286,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 120,
-			def: 90,
-			atq_esp: 40,
-			def_esp: 60,
-			vel: 80,
+			ps:		 	100,
+			atq:	 	120,
+			def:	 	90,
+			atq_esp: 	40,
+			def_esp: 	60,
+			vel: 		80,
 		},
 		descricao:
 			"Formam grupos de quase vinte indivíduos. O vínculo mútuo deles é notável, nunca decepcionam um camarada.", // considerando a dex da primeira geração que apareceu
@@ -24314,12 +24314,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 25,
-			atq: 35,
-			def: 40,
-			atq_esp: 20,
-			def_esp: 30,
-			vel: 80,
+			ps:		 	25,
+			atq:	 	35,
+			def:	 	40,
+			atq_esp: 	20,
+			def_esp: 	30,
+			vel: 		80,
 		},
 		descricao:
 			"Este Pokémon é um covarde. Enquanto dispara em fuga desesperadamente, o bater de suas muitas pernas deixa um rastro limpo e brilhante em seu rastro.", // considerando a dex da primeira geração que apareceu
@@ -24343,12 +24343,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 125,
-			def: 140,
-			atq_esp: 60,
-			def_esp: 90,
-			vel: 40,
+			ps:		 	75,
+			atq:	 	125,
+			def:	 	140,
+			atq_esp: 	60,
+			def_esp: 	90,
+			vel: 		40,
 		},
 		descricao:
 			"Luta habilmente com seus seis braços, mas passa a maior parte de seu tempo meditando pacificamente em cavernas nas profundezas do mar.", // considerando a dex da primeira geração que apareceu
@@ -24371,12 +24371,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 55,
-			def: 80,
-			atq_esp: 70,
-			def_esp: 45,
-			vel: 15,
+			ps:		 	55,
+			atq:	 	55,
+			def:	 	80,
+			atq_esp: 	70,
+			def_esp: 	45,
+			vel: 		15,
 		},
 		descricao:
 			"Nascido de um monte de areia construído por uma criança, este Pokémon personifica os rancores dos que partiram.", // considerando a dex da primeira geração que apareceu
@@ -24399,12 +24399,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 75,
-			def: 110,
-			atq_esp: 100,
-			def_esp: 75,
-			vel: 35,
+			ps:		 	85,
+			atq:	 	75,
+			def:	 	110,
+			atq_esp: 	100,
+			def_esp: 	75,
+			vel: 		35,
 		},
 		descricao:
 			"Enterrado sob o castelo estão massas de ossos secos daqueles cuja vitalidade foi drenada.", // considerando a dex da primeira geração que apareceu
@@ -24427,12 +24427,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 60,
-			def: 130,
-			atq_esp: 30,
-			def_esp: 130,
-			vel: 5,
+			ps:		 	55,
+			atq:	 	60,
+			def:	 	130,
+			atq_esp: 	30,
+			def_esp: 	130,
+			vel: 		5,
 		},
 		descricao:
 			"Vive em mares rasos, como áreas próximas a uma praia. Pode ejetar seus órgãos internos, que usa para engolir sua presa ou lutar contra inimigos.", // considerando a dex da primeira geração que apareceu
@@ -24455,12 +24455,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 95,
-			def: 95,
-			atq_esp: 95,
-			def_esp: 95,
-			vel: 59,
+			ps:		 	95,
+			atq:	 	95,
+			def:	 	95,
+			atq_esp: 	95,
+			def_esp: 	95,
+			vel: 		59,
 		},
 		descricao:
 			"Devido ao perigo que este Pokémon sintético pode causar descontrole, usa uma máscara de controle para restringir seu poder.", // considerando a dex da primeira geração que apareceu
@@ -24483,12 +24483,12 @@ const pkmnDisponiveis = [
 		altura: 2.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 95,
-			def: 95,
-			atq_esp: 95,
-			def_esp: 95,
-			vel: 95,
+			ps:		 	95,
+			atq:	 	95,
+			def:	 	95,
+			atq_esp: 	95,
+			def_esp: 	95,
+			vel: 		95,
 		},
 		descricao:
 			"Sua confiança em seu parceiro é o que o desperta. Este Pokémon é capaz de alterar sua tipagem, uma flexibilidade que é bem exibida em batalha.", // considerando a dex da primeira geração que apareceu
@@ -24511,12 +24511,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 100,
-			atq_esp: 60,
-			def_esp: 100,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	100,
+			atq_esp: 	60,
+			def_esp: 	100,
+			vel: 		60,
 		},
 		descricao:
 			"Originalmente criado na camada de ozônio, cai no chão quando a concha que envolve seu corpo fica muito pesada.", // considerando a dex da primeira geração que apareceu
@@ -24539,12 +24539,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 100,
-			def: 60,
-			atq_esp: 100,
-			def_esp: 60,
-			vel: 120,
+			ps:		 	60,
+			atq:	 	100,
+			def:	 	60,
+			atq_esp: 	100,
+			def_esp: 	60,
+			vel: 		120,
 		},
 		descricao:
 			"Come poeira na atmosfera. A composição da poeira determina a cor de seu núcleo.", // considerando a dex da primeira geração que apareceu
@@ -24573,12 +24573,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 115,
-			def: 65,
-			atq_esp: 75,
-			def_esp: 95,
-			vel: 65,
+			ps:		 	65,
+			atq:	 	115,
+			def:	 	65,
+			atq_esp: 	75,
+			def_esp: 	95,
+			vel: 		65,
 		},
 		descricao:
 			"Nasce dormindo e morre dormindo. Todos seus movimentos, aparentemente, não são mais do que resultados dos movimentos em seus sonhos.", // considerando a dex da primeira geração que apareceu
@@ -24601,12 +24601,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 78,
-			def: 135,
-			atq_esp: 91,
-			def_esp: 85,
-			vel: 36,
+			ps:		 	60,
+			atq:	 	78,
+			def:	 	135,
+			atq_esp: 	91,
+			def_esp: 	85,
+			vel: 		36,
 		},
 		descricao:
 			"O casco em suas costas é quimicamente instável e explode violentamente se golpeado. O buraco em seu estomago é seu ponto fraco.", // considerando a dex da primeira geração que apareceu
@@ -24629,12 +24629,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 98,
-			def: 63,
-			atq_esp: 40,
-			def_esp: 73,
-			vel: 96,
+			ps:		 	65,
+			atq:	 	98,
+			def:	 	63,
+			atq_esp: 	40,
+			def_esp: 	73,
+			vel: 		96,
 		},
 		descricao:
 			"Os longos pelos em suas costas agem como para-raios. Os raios que atrai são armazenados como energia em seu saco elétrico.", // considerando a dex da primeira geração que apareceu
@@ -24657,12 +24657,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 90,
-			def: 80,
-			atq_esp: 50,
-			def_esp: 105,
-			vel: 96,
+			ps:		 	55,
+			atq:	 	90,
+			def:	 	80,
+			atq_esp: 	50,
+			def_esp: 	105,
+			vel: 		96,
 		},
 		descricao:
 			"Sua verdadeira aparência é desconhecida. Um estudioso que viu o que havia sob o trapo ficou tomado de terror e morreu devido ao choque.", // considerando a dex da primeira geração que apareceu
@@ -24685,12 +24685,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 90,
-			def: 80,
-			atq_esp: 50,
-			def_esp: 105,
-			vel: 96,
+			ps:		 	55,
+			atq:	 	90,
+			def:	 	80,
+			atq_esp: 	50,
+			def_esp: 	105,
+			vel: 		96,
 		},
 		descricao:
 			"Depois de todo o esforço de se disfarçar, seu pescoço foi quebrado. O que quer que esteja dentro provavelmente está ileso, mas ainda está se sentindo triste.", // considerando a dex da primeira geração que apareceu
@@ -24714,12 +24714,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 105,
-			def: 70,
-			atq_esp: 70,
-			def_esp: 70,
-			vel: 92,
+			ps:		 	68,
+			atq:	 	105,
+			def:	 	70,
+			atq_esp: 	70,
+			def_esp: 	70,
+			vel: 		92,
 		},
 		descricao:
 			"Quando libera seu pode psíquico da protuberância em sua cabeça, o som áspero de dentes rangendo ecoa pela área.", // considerando a dex da primeira geração que apareceu
@@ -24742,12 +24742,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 60,
-			def: 85,
-			atq_esp: 135,
-			def_esp: 91,
-			vel: 36,
+			ps:		 	78,
+			atq:	 	60,
+			def:	 	85,
+			atq_esp: 	135,
+			def_esp: 	91,
+			vel: 		36,
 		},
 		descricao:
 			"Possui uma personalidade compassiva, mas caso seja enfurecido, destrói completamente seus arredores com sua baforada intensa.", // considerando a dex da primeira geração que apareceu
@@ -24770,12 +24770,12 @@ const pkmnDisponiveis = [
 		altura: 3.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 131,
-			def: 100,
-			atq_esp: 86,
-			def_esp: 90,
-			vel: 40,
+			ps:		 	70,
+			atq:	 	131,
+			def:	 	100,
+			atq_esp: 	86,
+			def_esp: 	90,
+			vel: 		40,
 		},
 		descricao:
 			"A alma das algas à deriva nas ondas renasceu como este Pokémon. Ela se mantém viva com novas infusões de detritos do fundo do mar e algas.", // considerando a dex da primeira geração que apareceu
@@ -24798,12 +24798,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 55,
-			def: 65,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 45,
+			ps:		 	45,
+			atq:	 	55,
+			def:	 	65,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		45,
 		},
 		descricao:
 			"Expressa seus sentimentos estalando suas escamas. Sons metálicos ecoam pelas altas montanhas onde este Pokémon vive.", // considerando a dex da primeira geração que apareceu
@@ -24826,12 +24826,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 75,
-			def: 90,
-			atq_esp: 65,
-			def_esp: 70,
-			vel: 65,
+			ps:		 	55,
+			atq:	 	75,
+			def:	 	90,
+			atq_esp: 	65,
+			def_esp: 	70,
+			vel: 		65,
 		},
 		descricao:
 			"Salta sobre sua presa com um grito corajoso. Seus socos escamosos destroem seus oponentes em pedaços.", // considerando a dex da primeira geração que apareceu
@@ -24854,12 +24854,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 110,
-			def: 125,
-			atq_esp: 100,
-			def_esp: 105,
-			vel: 85,
+			ps:		 	75,
+			atq:	 	110,
+			def:	 	125,
+			atq_esp: 	100,
+			def_esp: 	105,
+			vel: 		85,
 		},
 		descricao:
 			"Quando avista inimigos, ameaça-os balançando as escamas em sua cauda. Oponentes fracos irão rachar e fugir em pânico.", // considerando a dex da primeira geração que apareceu
@@ -24882,12 +24882,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 115,
-			def: 85,
-			atq_esp: 95,
-			def_esp: 75,
-			vel: 130,
+			ps:		 	70,
+			atq:	 	115,
+			def:	 	85,
+			atq_esp: 	95,
+			def_esp: 	75,
+			vel: 		130,
 		},
 		descricao:
 			"Esta deidade guardiã de Melemele está cheia de curiosidade. Invoca nuvens de trovão e armazena seus raios dentro de seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -24910,12 +24910,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 75,
-			atq_esp: 130,
-			def_esp: 115,
-			vel: 95,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	75,
+			atq_esp: 	130,
+			def_esp: 	115,
+			vel: 		95,
 		},
 		descricao:
 			"Esta deidade guardiã de Akala é cruelmente inocente. O aroma fragrante das flores é a fonte de sua energia.", // considerando a dex da primeira geração que apareceu
@@ -24938,12 +24938,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 130,
-			def: 115,
-			atq_esp: 85,
-			def_esp: 95,
-			vel: 75,
+			ps:		 	70,
+			atq:	 	130,
+			def:	 	115,
+			atq_esp: 	85,
+			def_esp: 	95,
+			vel: 		75,
 		},
 		descricao:
 			"A deidade guardiã de Ula'ula é um Pokémon preguiçoso. Comanda plantas para imobilizar seu adversários e então lhes desfere um golpe violento com seus chifres.", // considerando a dex da primeira geração que apareceu
@@ -24966,12 +24966,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 75,
-			def: 115,
-			atq_esp: 95,
-			def_esp: 130,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	75,
+			def:	 	115,
+			atq_esp: 	95,
+			def_esp: 	130,
+			vel: 		85,
 		},
 		descricao:
 			"A deidade guardiã de Poni, consegue controlar água. Pessoas dize que consegue criar água pura que limpará qualquer impureza.", // considerando a dex da primeira geração que apareceu
@@ -24994,12 +24994,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 43,
-			atq: 29,
-			def: 31,
-			atq_esp: 29,
-			def_esp: 31,
-			vel: 37,
+			ps:		 	43,
+			atq:	 	29,
+			def:	 	31,
+			atq_esp: 	29,
+			def_esp: 	31,
+			vel: 		37,
 		},
 		descricao:
 			"Seu corpo é gasoso e frágil. Cresce devagar enquanto coleta poeira da atmosfera.", // considerando a dex da primeira geração que apareceu
@@ -25022,12 +25022,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 43,
-			atq: 29,
-			def: 131,
-			atq_esp: 29,
-			def_esp: 131,
-			vel: 37,
+			ps:		 	43,
+			atq:	 	29,
+			def:	 	131,
+			atq_esp: 	29,
+			def_esp: 	131,
+			vel: 		37,
 		},
 		descricao:
 			"Imóvel como se estivesse morto, seu corpo é levemente morno ao toque. No passado distante, era chamado de casulo das estrelas.", // considerando a dex da primeira geração que apareceu
@@ -25050,12 +25050,12 @@ const pkmnDisponiveis = [
 		altura: 3.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 137,
-			atq: 137,
-			def: 107,
-			atq_esp: 113,
-			def_esp: 89,
-			vel: 97,
+			ps:		 	137,
+			atq:	 	137,
+			def:	 	107,
+			atq_esp: 	113,
+			def_esp: 	89,
+			vel: 		97,
 		},
 		descricao:
 			"É dito que vive em outro mundo. A luz intensa que irradia da superfície de seu corpo pode tornar a mais escura das noites iluminar-se como o meio-dia.", // considerando a dex da primeira geração que apareceu
@@ -25078,12 +25078,12 @@ const pkmnDisponiveis = [
 		altura: 4.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 137,
-			atq: 113,
-			def: 89,
-			atq_esp: 137,
-			def_esp: 107,
-			vel: 97,
+			ps:		 	137,
+			atq:	 	113,
+			def:	 	89,
+			atq_esp: 	137,
+			def_esp: 	107,
+			vel: 		97,
 		},
 		descricao:
 			"É dito que vive em outro mundo, este Pokémon devora a luz, cobrindo o brilho do dia com o véu escuro e sem luar da noite.", // considerando a dex da primeira geração que apareceu
@@ -25106,12 +25106,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 109,
-			atq: 53,
-			def: 47,
-			atq_esp: 127,
-			def_esp: 131,
-			vel: 103,
+			ps:		 	109,
+			atq:	 	53,
+			def:	 	47,
+			atq_esp: 	127,
+			def_esp: 	131,
+			vel: 		103,
 		},
 		descricao:
 			"Uma de várias Ultracriaturas. Pessoas na rua relatam observar aqueles que estão infestados por este Pokémon repentinamente se tornarem violentos.", // considerando a dex da primeira geração que apareceu
@@ -25134,12 +25134,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 107,
-			atq: 139,
-			def: 139,
-			atq_esp: 53,
-			def_esp: 53,
-			vel: 79,
+			ps:		 	107,
+			atq:	 	139,
+			def:	 	139,
+			atq_esp: 	53,
+			def_esp: 	53,
+			vel: 		79,
 		},
 		descricao:
 			"Esta Ultracriatura apareceu de outro mundo. Exibe seu corpo, mas não está claro se essa exibição é uma ostentação ou uma ameaça.", // considerando a dex da primeira geração que apareceu
@@ -25162,12 +25162,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 71,
-			atq: 137,
-			def: 37,
-			atq_esp: 137,
-			def_esp: 37,
-			vel: 151,
+			ps:		 	71,
+			atq:	 	137,
+			def:	 	37,
+			atq_esp: 	137,
+			def_esp: 	37,
+			vel: 		151,
 		},
 		descricao:
 			"Uma das perigosas Ultracriaturas, tem sido avistada correndo pela região em velocidades assustadoras.", // considerando a dex da primeira geração que apareceu
@@ -25190,12 +25190,12 @@ const pkmnDisponiveis = [
 		altura: 3.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 83,
-			atq: 89,
-			def: 71,
-			atq_esp: 173,
-			def_esp: 71,
-			vel: 83,
+			ps:		 	83,
+			atq:	 	89,
+			def:	 	71,
+			atq_esp: 	173,
+			def_esp: 	71,
+			vel: 		83,
 		},
 		descricao:
 			"Uma das misteriosas formas de vida conhecidas como Ultracriaturas. De acordo com testemunhas, choques elétricos surpreendentes emanam de todo o seu corpo.", // considerando a dex da primeira geração que apareceu
@@ -25218,12 +25218,12 @@ const pkmnDisponiveis = [
 		altura: 9.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 97,
-			atq: 101,
-			def: 103,
-			atq_esp: 107,
-			def_esp: 101,
-			vel: 61,
+			ps:		 	97,
+			atq:	 	101,
+			def:	 	103,
+			atq_esp: 	107,
+			def_esp: 	101,
+			vel: 		61,
 		},
 		descricao:
 			"Um tipo de Ultracriatura. Testemunhas a viram queimar uma floresta expelindo gás de seus dois braços.", // considerando a dex da primeira geração que apareceu
@@ -25246,12 +25246,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 59,
-			atq: 181,
-			def: 131,
-			atq_esp: 59,
-			def_esp: 31,
-			vel: 109,
+			ps:		 	59,
+			atq:	 	181,
+			def:	 	131,
+			atq_esp: 	59,
+			def_esp: 	31,
+			vel: 		109,
 		},
 		descricao:
 			"Uma das formas de vida conhecidas como Ultracriatura, foi observada cortando uma gigantesca torre de aço com um golpe de sua lâmina.", // considerando a dex da primeira geração que apareceu
@@ -25274,12 +25274,12 @@ const pkmnDisponiveis = [
 		altura: 5.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 223,
-			atq: 101,
-			def: 53,
-			atq_esp: 97,
-			def_esp: 53,
-			vel: 43,
+			ps:		 	223,
+			atq:	 	101,
+			def:	 	53,
+			atq_esp: 	97,
+			def_esp: 	53,
+			vel: 		43,
 		},
 		descricao:
 			"Engoliu montanhas e prédios inteiros, segundo relatos. É uma das Ultracriaturas.", // considerando a dex da primeira geração que apareceu
@@ -25302,12 +25302,12 @@ const pkmnDisponiveis = [
 		altura: 2.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 97,
-			atq: 107,
-			def: 101,
-			atq_esp: 127,
-			def_esp: 89,
-			vel: 79,
+			ps:		 	97,
+			atq:	 	107,
+			def:	 	101,
+			atq_esp: 	127,
+			def_esp: 	89,
+			vel: 		79,
 		},
 		descricao:
 			"Lembrando as Ultracriaturas, acredita-se que essa forma de vida, aparentemente adormecida no subsolo, tenha vindo de outro mundo em tempos antigos.", // considerando a dex da primeira geração que apareceu
@@ -25330,12 +25330,12 @@ const pkmnDisponiveis = [
 		altura: 3.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 97,
-			atq: 157,
-			def: 127,
-			atq_esp: 113,
-			def_esp: 109,
-			vel: 77,
+			ps:		 	97,
+			atq:	 	157,
+			def:	 	127,
+			atq_esp: 	113,
+			def_esp: 	109,
+			vel: 		77,
 		},
 		descricao:
 			"Esta é a sua forma enquanto devora a luz de Solgaleo. Ataca os inimigos e então os corta com as garras em seus quatro membros e costas.", // considerando a dex da primeira geração que apareceu
@@ -25359,12 +25359,12 @@ const pkmnDisponiveis = [
 		altura: 4.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 97,
-			atq: 113,
-			def: 109,
-			atq_esp: 157,
-			def_esp: 127,
-			vel: 77,
+			ps:		 	97,
+			atq:	 	113,
+			def:	 	109,
+			atq_esp: 	157,
+			def_esp: 	127,
+			vel: 		77,
 		},
 		descricao:
 			"Esta é sua forma enquanto devora a luz de Lunala. Agarra os inimigos com suas garras gigantes e os despedaça com força bruta.", // considerando a dex da primeira geração que apareceu
@@ -25388,12 +25388,12 @@ const pkmnDisponiveis = [
 		altura: 7.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 97,
-			atq: 167,
-			def: 97,
-			atq_esp: 167,
-			def_esp: 97,
-			vel: 129,
+			ps:		 	97,
+			atq:	 	167,
+			def:	 	97,
+			atq_esp: 	167,
+			def_esp: 	97,
+			vel: 		129,
 		},
 		descricao:
 			"Esta é sua forma quando absorve energia de luz avassaladora. Dispara raios laser de todo o corpo.", // considerando a dex da primeira geração que apareceu
@@ -25417,12 +25417,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 95,
-			def: 115,
-			atq_esp: 130,
-			def_esp: 115,
-			vel: 65,
+			ps:		 	80,
+			atq:	 	95,
+			def:	 	115,
+			atq_esp: 	130,
+			def_esp: 	115,
+			vel: 		65,
 		},
 		descricao:
 			"Este Pokémon artificial, construído há mais de 500 anos, consegue entender fala humana bas não consegue falar.", // considerando a dex da primeira geração que apareceu
@@ -25445,12 +25445,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 125,
-			def: 80,
-			atq_esp: 90,
-			def_esp: 90,
-			vel: 125,
+			ps:		 	90,
+			atq:	 	125,
+			def:	 	80,
+			atq_esp: 	90,
+			def_esp: 	90,
+			vel: 		125,
 		},
 		descricao:
 			"Capaz de se esconder nas sombras, nunca aparece diante humanos, portanto sua própria existência era considerada um mito.", // considerando a dex da primeira geração que apareceu
@@ -25473,12 +25473,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 67,
-			atq: 73,
-			def: 67,
-			atq_esp: 73,
-			def_esp: 67,
-			vel: 73,
+			ps:		 	67,
+			atq:	 	73,
+			def:	 	67,
+			atq_esp: 	73,
+			def_esp: 	67,
+			vel: 		73,
 		},
 		descricao:
 			"Esta Ultracriatura é querida o suficiente para ser escolhida como primeira parceira em seu próprio mundo.", // considerando a dex da primeira geração que apareceu
@@ -25501,12 +25501,12 @@ const pkmnDisponiveis = [
 		altura: 3.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 73,
-			atq: 73,
-			def: 73,
-			atq_esp: 127,
-			def_esp: 73,
-			vel: 121,
+			ps:		 	73,
+			atq:	 	73,
+			def:	 	73,
+			atq_esp: 	127,
+			def_esp: 	73,
+			vel: 		121,
 		},
 		descricao:
 			"Armazena centenas de litros de líquido venenoso dentro de seu corpo. É um dos organismos conhecidos como Ultracriaturas.", // considerando a dex da primeira geração que apareceu
@@ -25529,12 +25529,12 @@ const pkmnDisponiveis = [
 		altura: 5.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 61,
-			atq: 131,
-			def: 211,
-			atq_esp: 53,
-			def_esp: 101,
-			vel: 13,
+			ps:		 	61,
+			atq:	 	131,
+			def:	 	211,
+			atq_esp: 	53,
+			def_esp: 	101,
+			vel: 		13,
 		},
 		descricao:
 			"Quando paredes de pedra começaram a se mover e atacar, a verdadeira identidade do bruto era essa misteriosa forma de vida, que lembra uma Ultracriatura.", // considerando a dex da primeira geração que apareceu
@@ -25557,12 +25557,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 53,
-			atq: 127,
-			def: 53,
-			atq_esp: 151,
-			def_esp: 79,
-			vel: 107,
+			ps:		 	53,
+			atq:	 	127,
+			def:	 	53,
+			atq_esp: 	151,
+			def_esp: 	79,
+			vel: 		107,
 		},
 		descricao:
 			"Desliza em direção às pessoas. Então, sem aviso, dispara a explosão de sua própria cabeça. Aparentemente, é um tipo de Ultracriatura.", // considerando a dex da primeira geração que apareceu
@@ -25585,12 +25585,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 112,
-			def: 75,
-			atq_esp: 102,
-			def_esp: 80,
-			vel: 143,
+			ps:		 	88,
+			atq:	 	112,
+			def:	 	75,
+			atq_esp: 	102,
+			def_esp: 	80,
+			vel: 		143,
 		},
 		descricao:
 			"Este Pokémon se aproxima de seus inimigos na velocidade da luz, depois os despedaça membro a membro com suas garras afiadas.", // considerando a dex da primeira geração que apareceu
@@ -25613,12 +25613,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 46,
-			atq: 65,
-			def: 65,
-			atq_esp: 55,
-			def_esp: 35,
-			vel: 34,
+			ps:		 	46,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	55,
+			def_esp: 	35,
+			vel: 		34,
 		},
 		descricao:
 			"Derrete partículas de ferro e outros metais que encontra no subsolo, para que possa absorvê-los em seu corpo de aço fundido.", // considerando a dex da primeira geração que apareceu
@@ -25641,12 +25641,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 135,
-			atq: 143,
-			def: 143,
-			atq_esp: 80,
-			def_esp: 65,
-			vel: 34,
+			ps:		 	135,
+			atq:	 	143,
+			def:	 	143,
+			atq_esp: 	80,
+			def_esp: 	65,
+			vel: 		34,
 		},
 		descricao:
 			"Reverenciado há muito tempo por sua capacidade de criar ferro do nada, por alguma razão voltou à vida depois de 3'000 anos.", // considerando a dex da primeira geração que apareceu
@@ -25670,12 +25670,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 65,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 65,
+			ps:		 	55,
+			atq:	 	65,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		65,
 		},
 		descricao:
 			"Quando usa seu graveto especial para fazer uma batida, as ondas sonoras produzidas carregam energia revitalizadora para as plantas e flores na área.", // considerando a dex da primeira geração que apareceu
@@ -25698,12 +25698,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 70,
-			atq_esp: 55,
-			def_esp: 60,
-			vel: 80,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	70,
+			atq_esp: 	55,
+			def_esp: 	60,
+			vel: 		80,
 		},
 		descricao:
 			"Quanto mais rápido este Pokémon consegue marcar um ritmo com sua duas baquetas, mais respeito ganha de seus pares.", // considerando a dex da primeira geração que apareceu
@@ -25726,12 +25726,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 125,
-			def: 90,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 85,
+			ps:		 	100,
+			atq:	 	125,
+			def:	 	90,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		85,
 		},
 		descricao:
 			"Ao tocar seu tambor, explora o poder de seu toco de árvore especial. As raízes do toco seguem sua direção na batalha.", // considerando a dex da primeira geração que apareceu
@@ -25754,12 +25754,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 71,
-			def: 40,
-			atq_esp: 40,
-			def_esp: 40,
-			vel: 69,
+			ps:		 	50,
+			atq:	 	71,
+			def:	 	40,
+			atq_esp: 	40,
+			def_esp: 	40,
+			vel: 		69,
 		},
 		descricao:
 			"Possui almofadas especiais nas costas dos pés e uma no nariz. Quando está ansioso para lutar, essas almofadas irradiam um calor tremendo.", // considerando a dex da primeira geração que apareceu
@@ -25782,12 +25782,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 86,
-			def: 60,
-			atq_esp: 55,
-			def_esp: 60,
-			vel: 94,
+			ps:		 	65,
+			atq:	 	86,
+			def:	 	60,
+			atq_esp: 	55,
+			def_esp: 	60,
+			vel: 		94,
 		},
 		descricao:
 			"Chuta frutas dos galhos das árvores e depois as balança com os pés, praticando seu jogo de pés.", // considerando a dex da primeira geração que apareceu
@@ -25810,12 +25810,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 116,
-			def: 75,
-			atq_esp: 65,
-			def_esp: 75,
-			vel: 119,
+			ps:		 	80,
+			atq:	 	116,
+			def:	 	75,
+			atq_esp: 	65,
+			def_esp: 	75,
+			vel: 		119,
 		},
 		descricao:
 			"É habilidoso tanto no ataque quanto na defesa, e fica animado quando é aplaudido. Mas se começar a se exibir, pode se colocar em uma situação difícil.", // considerando a dex da primeira geração que apareceu
@@ -25838,12 +25838,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 40,
-			def: 40,
-			atq_esp: 70,
-			def_esp: 40,
-			vel: 70,
+			ps:		 	50,
+			atq:	 	40,
+			def:	 	40,
+			atq_esp: 	70,
+			def_esp: 	40,
+			vel: 		70,
 		},
 		descricao:
 			"Quando assustado, este Pokémon chora. Suas lágrimas têm o impacto químico de cem cebolas, e agressores não conseguirão resistir ao choro.", // considerando a dex da primeira geração que apareceu
@@ -25866,12 +25866,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 55,
-			atq_esp: 95,
-			def_esp: 55,
-			vel: 90,
+			ps:		 	65,
+			atq:	 	60,
+			def:	 	55,
+			atq_esp: 	95,
+			def_esp: 	55,
+			vel: 		90,
 		},
 		descricao:
 			"Um combatente astuto, este Pokémon batalha usando balões d'água criados com a umidade secretada de suas palmas.", // considerando a dex da primeira geração que apareceu
@@ -25894,12 +25894,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 65,
-			atq_esp: 125,
-			def_esp: 65,
-			vel: 120,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	65,
+			atq_esp: 	125,
+			def_esp: 	65,
+			vel: 		120,
 		},
 		descricao:
 			"Possui muitas capacidades escondidas, como as pontas dos dedos que atiram água e uma membrana nas costas que o possibilita planar no ar.", // considerando a dex da primeira geração que apareceu
@@ -25922,12 +25922,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 55,
-			def: 55,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 25,
+			ps:		 	70,
+			atq:	 	55,
+			def:	 	55,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		25,
 		},
 		descricao:
 			"Come frutas sem parar, um hábito que o tornou mais resiliente do que parece. Aparecerá em fazendas procurando por mais frutas.", // considerando a dex da primeira geração que apareceu
@@ -25951,12 +25951,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 120,
-			atq: 95,
-			def: 95,
-			atq_esp: 55,
-			def_esp: 75,
-			vel: 20,
+			ps:		 	120,
+			atq:	 	95,
+			def:	 	95,
+			atq_esp: 	55,
+			def_esp: 	75,
+			vel: 		20,
 		},
 		descricao:
 			"Armazena frutas em sua cauda, tantas frutas que elas caem constantemente. Mas este Pokémon é um pouco lento, então não percebe a perda.", // considerando a dex da primeira geração que apareceu
@@ -25980,12 +25980,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 38,
-			atq: 47,
-			def: 35,
-			atq_esp: 33,
-			def_esp: 35,
-			vel: 57,
+			ps:		 	38,
+			atq:	 	47,
+			def:	 	35,
+			atq_esp: 	33,
+			def_esp: 	35,
+			vel: 		57,
 		},
 		descricao:
 			"Corajosamente desafiará qualquer oponente, não importa quão forte. Este Pokémon se beneficia de toda batalha, mesmo a derrota aumenta sua força um pouco.", // considerando a dex da primeira geração que apareceu
@@ -26008,12 +26008,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 67,
-			def: 55,
-			atq_esp: 43,
-			def_esp: 55,
-			vel: 77,
+			ps:		 	68,
+			atq:	 	67,
+			def:	 	55,
+			atq_esp: 	43,
+			def_esp: 	55,
+			vel: 		77,
 		},
 		descricao:
 			"Inteligente o suficiente para usar ferramentas em batalha, esse Pokémon tem sido visto pegando rochas e atirando-as ou usando cordas para envolver inimigos.", // considerando a dex da primeira geração que apareceu
@@ -26037,12 +26037,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 98,
-			atq: 87,
-			def: 105,
-			atq_esp: 53,
-			def_esp: 85,
-			vel: 67,
+			ps:		 	98,
+			atq:	 	87,
+			def:	 	105,
+			atq_esp: 	53,
+			def_esp: 	85,
+			vel: 		67,
 		},
 		descricao:
 			"Este Pokémon reina supremo nos céus da região. O brilho negro de seu corpo de aço poderia aterrorizar o coração de qualquer inimigo.", // considerando a dex da primeira geração que apareceu
@@ -26066,12 +26066,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 25,
-			atq: 20,
-			def: 20,
-			atq_esp: 25,
-			def_esp: 45,
-			vel: 45,
+			ps:		 	25,
+			atq:	 	20,
+			def:	 	20,
+			atq_esp: 	25,
+			def_esp: 	45,
+			vel: 		45,
 		},
 		descricao:
 			"Um constante colecionador de informação, este Pokémon é muito inteligente. Muito forte e o que não é.", // considerando a dex da primeira geração que apareceu
@@ -26095,12 +26095,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 35,
-			def: 80,
-			atq_esp: 50,
-			def_esp: 90,
-			vel: 30,
+			ps:		 	50,
+			atq:	 	35,
+			def:	 	80,
+			atq_esp: 	50,
+			def_esp: 	90,
+			vel: 		30,
 		},
 		descricao:
 			"Este Pokémon mal se move, mas ainda está vivo. Esconder-se em sua concha sem comida ou água parece ter despertado seus poderes psíquicos.", // considerando a dex da primeira geração que apareceu
@@ -26124,12 +26124,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 45,
-			def: 110,
-			atq_esp: 80,
-			def_esp: 120,
-			vel: 90,
+			ps:		 	60,
+			atq:	 	45,
+			def:	 	110,
+			atq_esp: 	80,
+			def_esp: 	120,
+			vel: 		90,
 		},
 		descricao:
 			"É famoso por seu alto nível de inteligência, e o grande tamanho de seu cérebro é prova que também possui imenso poder psíquico.", // considerando a dex da primeira geração que apareceu
@@ -26153,12 +26153,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 28,
-			def: 28,
-			atq_esp: 47,
-			def_esp: 52,
-			vel: 50,
+			ps:		 	40,
+			atq:	 	28,
+			def:	 	28,
+			atq_esp: 	47,
+			def_esp: 	52,
+			vel: 		50,
 		},
 		descricao:
 			"Auxiliado pelas almofadas macias em seus pés, silenciosamente ataca os estoques de comida de outros Pokémon. Sobrevive de ganhos ilícitos.", // considerando a dex da primeira geração que apareceu
@@ -26181,12 +26181,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 58,
-			def: 58,
-			atq_esp: 87,
-			def_esp: 92,
-			vel: 90,
+			ps:		 	70,
+			atq:	 	58,
+			def:	 	58,
+			atq_esp: 	87,
+			def_esp: 	92,
+			vel: 		90,
 		},
 		descricao:
 			"Marca secretamente alvos em potencial com um aroma. Ao seguir esse aroma, persegue seu alvo e rouba algo quando menos espera.", // considerando a dex da primeira geração que apareceu
@@ -26210,12 +26210,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 60,
-			vel: 10,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	60,
+			vel: 		10,
 		},
 		descricao:
 			"Ancora a si mesmo ao chão com sua única perna, depois se aquece no sol. Após absorver luz solar suficiente, suas pétalas se espalham enquanto ela floresce brilhantemente.", // considerando a dex da primeira geração que apareceu
@@ -26238,12 +26238,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 50,
-			def: 90,
-			atq_esp: 80,
-			def_esp: 120,
-			vel: 60,
+			ps:		 	60,
+			atq:	 	50,
+			def:	 	90,
+			atq_esp: 	80,
+			def_esp: 	120,
+			vel: 		60,
 		},
 		descricao:
 			"O algodão na cabeça deste Pokémon pode ser fiado em um fio brilhante e lindo, uma especialidade regional.", // considerando a dex da primeira geração que apareceu
@@ -26267,12 +26267,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 42,
-			atq: 40,
-			def: 55,
-			atq_esp: 40,
-			def_esp: 45,
-			vel: 48,
+			ps:		 	42,
+			atq:	 	40,
+			def:	 	55,
+			atq_esp: 	40,
+			def_esp: 	45,
+			vel: 		48,
 		},
 		descricao:
 			"Seu pelo encaracolado é uma proteção tão eficaz que este Pokémon poderia cair de um penhasco e se levantar imediatamente, ileso.", // considerando a dex da primeira geração que apareceu
@@ -26296,12 +26296,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 72,
-			atq: 80,
-			def: 100,
-			atq_esp: 60,
-			def_esp: 90,
-			vel: 88,
+			ps:		 	72,
+			atq:	 	80,
+			def:	 	100,
+			atq_esp: 	60,
+			def_esp: 	90,
+			vel: 		88,
 		},
 		descricao:
 			"Teça um tapete com sua lã elástica, e você acabará com algo próximo de um trampolim. Você começará a pular no momento em que pisar nele.", // considerando a dex da primeira geração que apareceu
@@ -26325,12 +26325,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 64,
-			def: 50,
-			atq_esp: 38,
-			def_esp: 38,
-			vel: 44,
+			ps:		 	50,
+			atq:	 	64,
+			def:	 	50,
+			atq_esp: 	38,
+			def_esp: 	38,
+			vel: 		44,
 		},
 		descricao:
 			"Aparentemente, a coceira causada pela dentição o impede a estalar as mandíbulas em qualquer coisa que esteja na sua frente.", // considerando a dex da primeira geração que apareceu
@@ -26354,12 +26354,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 115,
-			def: 90,
-			atq_esp: 48,
-			def_esp: 68,
-			vel: 74,
+			ps:		 	90,
+			atq:	 	115,
+			def:	 	90,
+			atq_esp: 	48,
+			def_esp: 	68,
+			vel: 		74,
 		},
 		descricao:
 			"Este Pokémon estende rapidamente seu pescoço retrátil para cravar suas presas afiadas em inimigos distantes e derrotá-los.", // considerando a dex da primeira geração que apareceu
@@ -26383,12 +26383,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 59,
-			atq: 45,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 26,
+			ps:		 	59,
+			atq:	 	45,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		26,
 		},
 		descricao:
 			"Este Pokémon glutão só ajuda as pessoas com o trabalho delas porque quer guloseimas. Enquanto corre, crepita com eletricidade.", // considerando a dex da primeira geração que apareceu
@@ -26412,12 +26412,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 69,
-			atq: 90,
-			def: 60,
-			atq_esp: 90,
-			def_esp: 60,
-			vel: 121,
+			ps:		 	69,
+			atq:	 	90,
+			def:	 	60,
+			atq_esp: 	90,
+			def_esp: 	60,
+			vel: 		121,
 		},
 		descricao:
 			"Envia eletricidade através de suas pernas para aumenta sua força. Correndo em velocidade máxima, facilmente ultrapassa 80 km/h.", // considerando a dex da primeira geração que apareceu
@@ -26441,12 +26441,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 30,
-			atq: 40,
-			def: 50,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 30,
+			ps:		 	30,
+			atq:	 	40,
+			def:	 	50,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		30,
 		},
 		descricao:
 			"A maior parte de seu corpo possui a mesma composição do carvão. Apropriadamente, este Pokémon foi descoberto pela primeira vez em minas de carvão há cerca de 400 anos.", // considerando a dex da primeira geração que apareceu
@@ -26469,12 +26469,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 60,
-			def: 90,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 50,
+			ps:		 	80,
+			atq:	 	60,
+			def:	 	90,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		50,
 		},
 		descricao:
 			"Ao girar rapidamente suas pernas, pode viajar a mais de 30 km/h. A temperatura as chamas que ele respira excede 1'000° Celsius.", // considerando a dex da primeira geração que apareceu
@@ -26498,12 +26498,12 @@ const pkmnDisponiveis = [
 		altura: 2.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 110,
-			atq: 80,
-			def: 120,
-			atq_esp: 80,
-			def_esp: 90,
-			vel: 30,
+			ps:		 	110,
+			atq:	 	80,
+			def:	 	120,
+			atq_esp: 	80,
+			def_esp: 	90,
+			vel: 		30,
 		},
 		descricao:
 			"Enquanto estiver em batalha, sua montanha de carvão queimará em vermelho brilhante, soltando faíscas que queimarão a área ao redor.", // considerando a dex da primeira geração que apareceu
@@ -26527,12 +26527,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 80,
-			atq_esp: 40,
-			def_esp: 50,
-			vel: 20,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	80,
+			atq_esp: 	40,
+			def_esp: 	50,
+			vel: 		20,
 		},
 		descricao:
 			"Passa toda sua vida dentro de uma maçã. Esconde-se de seus inimigos naturais, Pokémon pássaros, fingindo que é apenas uma maçã e nada mais.", // considerando a dex da primeira geração que apareceu
@@ -26556,12 +26556,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 110,
-			def: 80,
-			atq_esp: 95,
-			def_esp: 60,
-			vel: 70,
+			ps:		 	70,
+			atq:	 	110,
+			def:	 	80,
+			atq_esp: 	95,
+			def_esp: 	60,
+			vel: 		70,
 		},
 		descricao:
 			"Voa em asas de casca de maçã e cospe um ácido poderoso. Também pode mudar sua forma para a de uma maçã.", // considerando a dex da primeira geração que apareceu
@@ -26584,12 +26584,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 110,
-			atq: 85,
-			def: 80,
-			atq_esp: 100,
-			def_esp: 80,
-			vel: 30,
+			ps:		 	110,
+			atq:	 	85,
+			def:	 	80,
+			atq_esp: 	100,
+			def_esp: 	80,
+			vel: 		30,
 		},
 		descricao:
 			"Seu corpo é coberto por um doce néctar, e a casca em suas costas é especialmente saborosa. Crianças costumavam tê-lo como um lanche.", // considerando a dex da primeira geração que apareceu
@@ -26612,12 +26612,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 52,
-			atq: 57,
-			def: 75,
-			atq_esp: 35,
-			def_esp: 50,
-			vel: 46,
+			ps:		 	52,
+			atq:	 	57,
+			def:	 	75,
+			atq_esp: 	35,
+			def_esp: 	50,
+			vel: 		46,
 		},
 		descricao:
 			"Enquanto cava, engole areia e armazena na bolsa de seu pescoço. A bolsa consegue armazenar até 8 kg de areia.", // considerando a dex da primeira geração que apareceu
@@ -26641,12 +26641,12 @@ const pkmnDisponiveis = [
 		altura: 3.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 72,
-			atq: 107,
-			def: 125,
-			atq_esp: 65,
-			def_esp: 70,
-			vel: 71,
+			ps:		 	72,
+			atq:	 	107,
+			def:	 	125,
+			atq_esp: 	65,
+			def_esp: 	70,
+			vel: 		71,
 		},
 		descricao:
 			"Quando contrai seu corpo, mais de 100 kg de areia são espirradas de seu nariz. Caso fique sem areia, fica desanimado.", // considerando a dex da primeira geração que apareceu
@@ -26669,12 +26669,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 55,
-			atq_esp: 85,
-			def_esp: 95,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	55,
+			atq_esp: 	85,
+			def_esp: 	95,
+			vel: 		85,
 		},
 		descricao:
 			"É tão forte que consegue nocautear alguns oponentes em um único golpe, mas também pode esquecer que está lutando durante a luta.", // considerando a dex da primeira geração que apareceu
@@ -26698,12 +26698,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 55,
-			atq_esp: 85,
-			def_esp: 95,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	55,
+			atq_esp: 	85,
+			def_esp: 	95,
+			vel: 		85,
 		},
 		descricao:
 			"Sua gula o levou a tentar engolir um Arrokuda inteiro, o que por sua vez fez com que ficasse com um Arrokuda preso na garganta.", // considerando a dex da primeira geração que apareceu
@@ -26727,12 +26727,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 55,
-			atq_esp: 85,
-			def_esp: 95,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	55,
+			atq_esp: 	85,
+			def_esp: 	95,
+			vel: 		85,
 		},
 		descricao:
 			"Este Pokémon acidentalmente prendeu um Pikachu em sua garganta. Está engasgando um pouco, mas não está realmente incomodado.", // considerando a dex da primeira geração que apareceu
@@ -26756,12 +26756,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 41,
-			atq: 63,
-			def: 40,
-			atq_esp: 40,
-			def_esp: 30,
-			vel: 66,
+			ps:		 	41,
+			atq:	 	63,
+			def:	 	40,
+			atq_esp: 	40,
+			def_esp: 	30,
+			vel: 		66,
 		},
 		descricao:
 			"Caso veja qualquer movimento ao seu redor, este Pokémon ataca imediatamente, liderando com sua mandíbula pontiaguda. Tem muito orgulho dessa mandíbula.", // considerando a dex da primeira geração que apareceu
@@ -26785,12 +26785,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 61,
-			atq: 123,
-			def: 60,
-			atq_esp: 60,
-			def_esp: 50,
-			vel: 136,
+			ps:		 	61,
+			atq:	 	123,
+			def:	 	60,
+			atq_esp: 	60,
+			def_esp: 	50,
+			vel: 		136,
 		},
 		descricao:
 			"Este Pokémon tem uma mandíbula tão afiada quanto uma lança e tão forte quanto aço. Aparentemente, a carne deste Pokémon também é surpreendentemente saborosa.", // considerando a dex da primeira geração que apareceu
@@ -26814,12 +26814,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 38,
-			def: 35,
-			atq_esp: 54,
-			def_esp: 35,
-			vel: 40,
+			ps:		 	40,
+			atq:	 	38,
+			def:	 	35,
+			atq_esp: 	54,
+			def_esp: 	35,
+			vel: 		40,
 		},
 		descricao:
 			"Armazena veneno em uma bolsa de veneno interna e secreta esse neno por sua pele. Caso toque este Pokémon, sentirá uma sensação de formigamento.", // considerando a dex da primeira geração que apareceu
@@ -26843,12 +26843,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 98,
-			def: 70,
-			atq_esp: 114,
-			def_esp: 70,
-			vel: 75,
+			ps:		 	75,
+			atq:	 	98,
+			def:	 	70,
+			atq_esp: 	114,
+			def_esp: 	70,
+			vel: 		75,
 		},
 		descricao:
 			"Quando este Pokémon soa como se estivesse dedilhando uma guitarra, na verdade está arranhando as saliências em seu peito para gerar eletricidade.", // considerando a dex da primeira geração que apareceu
@@ -26871,12 +26871,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 98,
-			def: 70,
-			atq_esp: 114,
-			def_esp: 70,
-			vel: 75,
+			ps:		 	75,
+			atq:	 	98,
+			def:	 	70,
+			atq_esp: 	114,
+			def_esp: 	70,
+			vel: 		75,
 		},
 		descricao:
 			"Possui um órgão elétrico no peito. Enquanto gera eletricidade, preenche seus arredores com o que soa como o dedilha de um baixo.", // considerando a dex da primeira geração que apareceu
@@ -26899,12 +26899,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 65,
-			def: 45,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 45,
+			ps:		 	50,
+			atq:	 	65,
+			def:	 	45,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		45,
 		},
 		descricao:
 			"Armazena gás inflamável em seu corpo e usa para gerar calor. As seções amarelas em sua barriga ficam particularmente quentes.", // considerando a dex da primeira geração que apareceu
@@ -26927,12 +26927,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 115,
-			def: 65,
-			atq_esp: 90,
-			def_esp: 90,
-			vel: 65,
+			ps:		 	100,
+			atq:	 	115,
+			def:	 	65,
+			atq_esp: 	90,
+			def_esp: 	90,
+			vel: 		65,
 		},
 		descricao:
 			"Quando aquece, sua temperatura corporal alcança em torno de 800° Celsius. Chicoteia seu corpo como um chicote e lança a si mesmo em seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -26955,12 +26955,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 68,
-			def: 60,
-			atq_esp: 50,
-			def_esp: 50,
-			vel: 32,
+			ps:		 	50,
+			atq:	 	68,
+			def:	 	60,
+			atq_esp: 	50,
+			def_esp: 	50,
+			vel: 		32,
 		},
 		descricao:
 			"É muito curioso, mas seus meios de investigar coisas é tentar soca-las com seus tentáculos. A procura por comida é o que o traz a terra firme.", // considerando a dex da primeira geração que apareceu
@@ -26983,12 +26983,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 118,
-			def: 90,
-			atq_esp: 70,
-			def_esp: 80,
-			vel: 42,
+			ps:		 	80,
+			atq:	 	118,
+			def:	 	90,
+			atq_esp: 	70,
+			def_esp: 	80,
+			vel: 		42,
 		},
 		descricao:
 			"Um corpo feito apenas de músculos torna os movimentos de luta que este Pokémon realiza com seus tentáculos tremendamente poderosos.", // considerando a dex da primeira geração que apareceu
@@ -27012,12 +27012,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 45,
-			atq_esp: 74,
-			def_esp: 54,
-			vel: 50,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	45,
+			atq_esp: 	74,
+			def_esp: 	54,
+			vel: 		50,
 		},
 		descricao:
 			"Dizem que este Pokémon nasceu quando um espírito solitário possuiu os restos de uma xícara de chá frio.", // considerando a dex da primeira geração que apareceu
@@ -27040,12 +27040,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 45,
-			atq_esp: 74,
-			def_esp: 54,
-			vel: 50,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	45,
+			atq_esp: 	74,
+			def_esp: 	54,
+			vel: 		50,
 		},
 		descricao:
 			"O padrão redemoinho no corpo deste Pokémon é sua fraqueza. Caso seja mexido, o redemoinho perde sua forma, e fica tonto.", // considerando a dex da primeira geração que apareceu
@@ -27068,12 +27068,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 65,
-			def: 65,
-			atq_esp: 134,
-			def_esp: 114,
-			vel: 70,
+			ps:		 	60,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	134,
+			def_esp: 	114,
+			vel: 		70,
 		},
 		descricao:
 			"Esta espécie vive em bules antigos. A maioria dos bules são falsificados, mas em raras ocasiões, uma obra autêntica é encontrada.", // considerando a dex da primeira geração que apareceu
@@ -27096,12 +27096,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 65,
-			def: 65,
-			atq_esp: 134,
-			def_esp: 114,
-			vel: 70,
+			ps:		 	60,
+			atq:	 	65,
+			def:	 	65,
+			atq_esp: 	134,
+			def_esp: 	114,
+			vel: 		70,
 		},
 		descricao:
 			"Os Treinadores que este Pokémon confia serão permitidos a experimentar seu sabor e aroma diferenciados em primeira mão, experimentando apenas uma pequena quantidade de seu chá.", // considerando a dex da primeira geração que apareceu
@@ -27124,12 +27124,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 42,
-			atq: 30,
-			def: 45,
-			atq_esp: 56,
-			def_esp: 53,
-			vel: 39,
+			ps:		 	42,
+			atq:	 	30,
+			def:	 	45,
+			atq_esp: 	56,
+			def_esp: 	53,
+			vel: 		39,
 		},
 		descricao:
 			"Por meio da protrusão em sua cabeça, sente as emoções de outras criaturas. Caso você não tiver uma disposição calma, ela nunca se aquecerá com você.", // considerando a dex da primeira geração que apareceu
@@ -27153,12 +27153,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 57,
-			atq: 40,
-			def: 65,
-			atq_esp: 86,
-			def_esp: 73,
-			vel: 49,
+			ps:		 	57,
+			atq:	 	40,
+			def:	 	65,
+			atq_esp: 	86,
+			def_esp: 	73,
+			vel: 		49,
 		},
 		descricao:
 			"Não importa quem você seja, se trazer fortes emoções próximo a este Pokémon, você será silenciado violentamente.", // considerando a dex da primeira geração que apareceu
@@ -27182,12 +27182,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 57,
-			atq: 90,
-			def: 95,
-			atq_esp: 136,
-			def_esp: 103,
-			vel: 29,
+			ps:		 	57,
+			atq:	 	90,
+			def:	 	95,
+			atq_esp: 	136,
+			def_esp: 	103,
+			vel: 		29,
 		},
 		descricao:
 			"Emite poder psíquico forte o suficiente para causar dores de cabeça e impedir a aproximação de outras pessoas.", // considerando a dex da primeira geração que apareceu
@@ -27211,12 +27211,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 45,
-			def: 30,
-			atq_esp: 55,
-			def_esp: 40,
-			vel: 50,
+			ps:		 	45,
+			atq:	 	45,
+			def:	 	30,
+			atq_esp: 	55,
+			def_esp: 	40,
+			vel: 		50,
 		},
 		descricao:
 			"Por seu nariz, suga as emanações produzidas por pessoas e Pokémon quando se sentem incomodados. Prospera dessa energia negativa.", // considerando a dex da primeira geração que apareceu
@@ -27240,12 +27240,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 45,
-			atq_esp: 75,
-			def_esp: 55,
-			vel: 70,
+			ps:		 	65,
+			atq:	 	60,
+			def:	 	45,
+			atq_esp: 	75,
+			def_esp: 	55,
+			vel: 		70,
 		},
 		descricao:
 			"Quando fica de quatro, como se implorasse por perdão, está tentando atrais os oponentes para conseguir esfaqueá-los com seu cabelo em forma de lança.", // considerando a dex da primeira geração que apareceu
@@ -27269,12 +27269,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 120,
-			def: 65,
-			atq_esp: 95,
-			def_esp: 75,
-			vel: 60,
+			ps:		 	95,
+			atq:	 	120,
+			def:	 	65,
+			atq_esp: 	95,
+			def_esp: 	75,
+			vel: 		60,
 		},
 		descricao:
 			"Seu cabelo funciona como fibras musculares. Quando se desenrolam, eles se prendem aos oponentes, enredando-os como tentáculos fariam.", // considerando a dex da primeira geração que apareceu
@@ -27298,12 +27298,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 93,
-			atq: 90,
-			def: 101,
-			atq_esp: 60,
-			def_esp: 81,
-			vel: 95,
+			ps:		 	93,
+			atq:	 	90,
+			def:	 	101,
+			atq_esp: 	60,
+			def_esp: 	81,
+			vel: 		95,
 		},
 		descricao:
 			"Sua voz é impressionante em volume. Este Pokémon tem uma tendência a assumir uma postura ameaçadora e gritar.", // considerando a dex da primeira geração que apareceu
@@ -27327,12 +27327,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 110,
-			def: 100,
-			atq_esp: 50,
-			def_esp: 60,
-			vel: 50,
+			ps:		 	70,
+			atq:	 	110,
+			def:	 	100,
+			atq_esp: 	50,
+			def_esp: 	60,
+			vel: 		50,
 		},
 		descricao:
 			"O que aparenta ser um capacete de ferro é na verdade seu pelo endurecido. Este Pokémon vive pela adrenalina da batalha.", // considerando a dex da primeira geração que apareceu
@@ -27355,12 +27355,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 95,
-			def: 50,
-			atq_esp: 145,
-			def_esp: 130,
-			vel: 30,
+			ps:		 	60,
+			atq:	 	95,
+			def:	 	50,
+			atq_esp: 	145,
+			def_esp: 	130,
+			vel: 		30,
 		},
 		descricao:
 			"Tenha cuidado com o corpo ectoplasmático que cerca a alma deste Pokémon. Você ficará duro como pedra se tocá-lo.", // considerando a dex da primeira geração que apareceu
@@ -27383,12 +27383,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 62,
-			atq: 135,
-			def: 95,
-			atq_esp: 68,
-			def_esp: 82,
-			vel: 65,
+			ps:		 	62,
+			atq:	 	135,
+			def:	 	95,
+			atq_esp: 	68,
+			def_esp: 	82,
+			vel: 		65,
 		},
 		descricao:
 			"Após desviar de ataques com seu escudo de folhas duras, contra-ataca com seu talo afiado de alho-poró. O talo de alho-poró é tanto arma quanto alimento.", // considerando a dex da primeira geração que apareceu
@@ -27411,12 +27411,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 85,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 100,
-			vel: 70,
+			ps:		 	80,
+			atq:	 	85,
+			def:	 	75,
+			atq_esp: 	110,
+			def_esp: 	100,
+			vel: 		70,
 		},
 		descricao:
 			"É altamente habilidoso em sapateado. Balança sua bengala de gelo em sincronia com seus movimentos graciosos.", // considerando a dex da primeira geração que apareceu
@@ -27439,12 +27439,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 58,
-			atq: 95,
-			def: 145,
-			atq_esp: 50,
-			def_esp: 105,
-			vel: 30,
+			ps:		 	58,
+			atq:	 	95,
+			def:	 	145,
+			atq_esp: 	50,
+			def_esp: 	105,
+			vel: 		30,
 		},
 		descricao:
 			"Nunca toque em seu corpo sombrio, ou você verá as memórias horríveis por trás da imagem esculpida nele.", // considerando a dex da primeira geração que apareceu
@@ -27467,12 +27467,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 40,
-			def: 40,
-			atq_esp: 50,
-			def_esp: 61,
-			vel: 34,
+			ps:		 	45,
+			atq:	 	40,
+			def:	 	40,
+			atq_esp: 	50,
+			def_esp: 	61,
+			vel: 		34,
 		},
 		descricao:
 			"Este Pokémon nasceu de partículas de cheiro doce no ar. Seu corpo é feito de chantili.", // considerando a dex da primeira geração que apareceu
@@ -27495,12 +27495,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 60,
-			def: 75,
-			atq_esp: 110,
-			def_esp: 121,
-			vel: 64,
+			ps:		 	65,
+			atq:	 	60,
+			def:	 	75,
+			atq_esp: 	110,
+			def_esp: 	121,
+			vel: 		64,
 		},
 		descricao:
 			"Quando confia em um Treinador, este Pokémon o presenteia com frutas decoradas com creme.", // considerando a dex da primeira geração que apareceu
@@ -27531,12 +27531,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 100,
-			def: 100,
-			atq_esp: 70,
-			def_esp: 60,
-			vel: 75,
+			ps:		 	65,
+			atq:	 	100,
+			def:	 	100,
+			atq_esp: 	70,
+			def_esp: 	60,
+			vel: 		75,
 		},
 		descricao:
 			"Cinco deles são soldados e um é o chefe. As ordens do chefe são absolutas.", // considerando a dex da primeira geração que apareceu
@@ -27559,12 +27559,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 48,
-			atq: 101,
-			def: 95,
-			atq_esp: 91,
-			def_esp: 85,
-			vel: 15,
+			ps:		 	48,
+			atq:	 	101,
+			def:	 	95,
+			atq_esp: 	91,
+			def_esp: 	85,
+			vel: 		15,
 		},
 		descricao:
 			"Este Pokémon se alimenta de algas marinhas, usando seus dentes para raspá-las de rochas. Corrente elétrica flui das pontas de seus espinhos.", // considerando a dex da primeira geração que apareceu
@@ -27587,12 +27587,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 30,
-			atq: 25,
-			def: 35,
-			atq_esp: 45,
-			def_esp: 30,
-			vel: 20,
+			ps:		 	30,
+			atq:	 	25,
+			def:	 	35,
+			atq_esp: 	45,
+			def_esp: 	30,
+			vel: 		20,
 		},
 		descricao:
 			"Cospe fios imbuídos de uma espécie de energia gélida e os usa para amarrar seu corpo aos galhos; disfarçando-se de pingente de gelo enquanto dorme.", // considerando a dex da primeira geração que apareceu
@@ -27616,12 +27616,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 65,
-			def: 60,
-			atq_esp: 125,
-			def_esp: 90,
-			vel: 65,
+			ps:		 	70,
+			atq:	 	65,
+			def:	 	60,
+			atq_esp: 	125,
+			def_esp: 	90,
+			vel: 		65,
 		},
 		descricao:
 			"Escamas geladas caem de suas asas como neve enquanto voa pelos campos e montanhas. A temperatura de suas asas são menores que -180° Celsius.", // considerando a dex da primeira geração que apareceu
@@ -27644,12 +27644,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 125,
-			def: 135,
-			atq_esp: 20,
-			def_esp: 20,
-			vel: 70,
+			ps:		 	100,
+			atq:	 	125,
+			def:	 	135,
+			atq_esp: 	20,
+			def_esp: 	20,
+			vel: 		70,
 		},
 		descricao:
 			"Uma vez por ano, em uma data e hora específicas, se reúnem do nada e formam um círculo.", // considerando a dex da primeira geração que apareceu
@@ -27672,12 +27672,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 80,
-			def: 110,
-			atq_esp: 65,
-			def_esp: 90,
-			vel: 50,
+			ps:		 	75,
+			atq:	 	80,
+			def:	 	110,
+			atq_esp: 	65,
+			def_esp: 	90,
+			vel: 		50,
 		},
 		descricao:
 			"Veio à deriva no fluxo das águas do oceano de um lugar gelado. Mantém sua cabeça gelada constantemente para garantir que ela fique agradável e fria.", // considerando a dex da primeira geração que apareceu
@@ -27700,12 +27700,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 80,
-			def: 70,
-			atq_esp: 65,
-			def_esp: 50,
-			vel: 130,
+			ps:		 	75,
+			atq:	 	80,
+			def:	 	70,
+			atq_esp: 	65,
+			def_esp: 	50,
+			vel: 		130,
 		},
 		descricao:
 			"O gelo que cobria o rosto deste Pokémon se quebrou, revelando uma expressão levemente preocupada que encantou várias pessoas.", // considerando a dex da primeira geração que apareceu
@@ -27728,12 +27728,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 65,
-			def: 55,
-			atq_esp: 105,
-			def_esp: 95,
-			vel: 95,
+			ps:		 	60,
+			atq:	 	65,
+			def:	 	55,
+			atq_esp: 	105,
+			def_esp: 	95,
+			vel: 		95,
 		},
 		descricao:
 			"Usa os chifres em sua cabeça para sentir as emoções dos outros. Os machos agirão como valetes para aqueles a quem servem, cuidando de todas as suas necessidades.", // considerando a dex da primeira geração que apareceu
@@ -27756,12 +27756,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 55,
-			def: 65,
-			atq_esp: 95,
-			def_esp: 105,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	55,
+			def:	 	65,
+			atq_esp: 	95,
+			def_esp: 	105,
+			vel: 		85,
 		},
 		descricao:
 			"Servem diligentemente pessoas e Pokémon para que possam reunis sentimentos de gratidão. As fêmeas são particularmente boas em cuidar de crianças.", // considerando a dex da primeira geração que apareceu
@@ -27784,12 +27784,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 58,
-			atq: 95,
-			def: 58,
-			atq_esp: 70,
-			def_esp: 58,
-			vel: 97,
+			ps:		 	58,
+			atq:	 	95,
+			def:	 	58,
+			atq_esp: 	70,
+			def_esp: 	58,
+			vel: 		97,
 		},
 		descricao:
 			"Ao comer as sementes armazenadas em suas bolsas semelhantes a bolsos, este Pokémon não está apenas satisfazendo sua fome constante. Também está gerando eletricidade.", // considerando a dex da primeira geração que apareceu
@@ -27813,12 +27813,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 58,
-			atq: 95,
-			def: 58,
-			atq_esp: 70,
-			def_esp: 58,
-			vel: 97,
+			ps:		 	58,
+			atq:	 	95,
+			def:	 	58,
+			atq_esp: 	70,
+			def_esp: 	58,
+			vel: 		97,
 		},
 		descricao:
 			"A fome intensa o leva a extremos de violência, e a eletricidade em suas bochechas se converteu em energia do tipo Noturno.", // considerando a dex da primeira geração que apareceu
@@ -27842,12 +27842,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 72,
-			atq: 80,
-			def: 49,
-			atq_esp: 40,
-			def_esp: 49,
-			vel: 40,
+			ps:		 	72,
+			atq:	 	80,
+			def:	 	49,
+			atq_esp: 	40,
+			def_esp: 	49,
+			vel: 		40,
 		},
 		descricao:
 			"Escava o chão com sua tromba. Também é muito forte, sendo capaz de carregar cargas de mais de cinco toneladas sem problema algum.", // considerando a dex da primeira geração que apareceu
@@ -27870,12 +27870,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 122,
-			atq: 130,
-			def: 69,
-			atq_esp: 80,
-			def_esp: 69,
-			vel: 30,
+			ps:		 	122,
+			atq:	 	130,
+			def:	 	69,
+			atq_esp: 	80,
+			def_esp: 	69,
+			vel: 		30,
 		},
 		descricao:
 			"Vieram de outra região ha muito tempo e trabalharam junto com humanos. Sua pele esverdeada é resistente a água.", // considerando a dex da primeira geração que apareceu
@@ -27899,12 +27899,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 100,
-			def: 90,
-			atq_esp: 80,
-			def_esp: 70,
-			vel: 75,
+			ps:		 	90,
+			atq:	 	100,
+			def:	 	90,
+			atq_esp: 	80,
+			def_esp: 	70,
+			vel: 		75,
 		},
 		descricao:
 			"Em tempos antigos, era imbatível graças à sua poderosa parte inferior do corpo, mas mesmo assim foi extinto depois de esgotar todas as suas fontes de alimento de origem vegetal.", // considerando a dex da primeira geração que apareceu
@@ -27927,12 +27927,12 @@ const pkmnDisponiveis = [
 		altura: 2.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 100,
-			def: 90,
-			atq_esp: 90,
-			def_esp: 80,
-			vel: 55,
+			ps:		 	90,
+			atq:	 	100,
+			def:	 	90,
+			atq_esp: 	90,
+			def_esp: 	80,
+			vel: 		55,
 		},
 		descricao:
 			"O tremor de sua metade superior congelada é o que gera sua eletricidade. Tem dificuldade para andar por aí.", // considerando a dex da primeira geração que apareceu
@@ -27955,12 +27955,12 @@ const pkmnDisponiveis = [
 		altura: 2.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 90,
-			def: 100,
-			atq_esp: 70,
-			def_esp: 80,
-			vel: 75,
+			ps:		 	90,
+			atq:	 	90,
+			def:	 	100,
+			atq_esp: 	70,
+			def_esp: 	80,
+			vel: 		75,
 		},
 		descricao:
 			"Pernas e mandíbulas poderosas fizeram este Pokémon o predador de ponta de seu tempo. Sua própria caça excessiva de suas presas foi o que o levou à extinção.", // considerando a dex da primeira geração que apareceu
@@ -27983,12 +27983,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 90,
-			def: 100,
-			atq_esp: 80,
-			def_esp: 90,
-			vel: 55,
+			ps:		 	90,
+			atq:	 	90,
+			def:	 	100,
+			atq_esp: 	80,
+			def_esp: 	90,
+			vel: 		55,
 		},
 		descricao:
 			"Apesar de ser capaz de capturar presas congelando o ambiente ao redor, tem dificuldade de comê-las porque sua boca fica no topo da cabeça.", // considerando a dex da primeira geração que apareceu
@@ -28011,12 +28011,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 95,
-			def: 115,
-			atq_esp: 120,
-			def_esp: 50,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	95,
+			def:	 	115,
+			atq_esp: 	120,
+			def_esp: 	50,
+			vel: 		85,
 		},
 		descricao:
 			"O metal especial que compõe seu corpo é muito leve, por isso este Pokémon possui agilidade considerável. Vive em cavernas por não gosta de chuva.", // considerando a dex da primeira geração que apareceu
@@ -28039,12 +28039,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 28,
-			atq: 60,
-			def: 30,
-			atq_esp: 40,
-			def_esp: 30,
-			vel: 82,
+			ps:		 	28,
+			atq:	 	60,
+			def:	 	30,
+			atq_esp: 	40,
+			def_esp: 	30,
+			vel: 		82,
 		},
 		descricao:
 			"Após renascer como um Pokémon fantasma, vaga pelas áreas que costumava habitar quando estava vivo nos mares pré-históricos.", // considerando a dex da primeira geração que apareceu
@@ -28067,12 +28067,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 80,
-			def: 50,
-			atq_esp: 60,
-			def_esp: 50,
-			vel: 102,
+			ps:		 	68,
+			atq:	 	80,
+			def:	 	50,
+			atq_esp: 	60,
+			def_esp: 	50,
+			vel: 		102,
 		},
 		descricao:
 			"É capaz de voar mais rápido que 200 km/h. Batalha ao lado de Dreepy e os mima até que eles evoluam com sucesso.", // considerando a dex da primeira geração que apareceu
@@ -28095,12 +28095,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 120,
-			def: 75,
-			atq_esp: 100,
-			def_esp: 75,
-			vel: 142,
+			ps:		 	88,
+			atq:	 	120,
+			def:	 	75,
+			atq_esp: 	100,
+			def_esp: 	75,
+			vel: 		142,
 		},
 		descricao:
 			"Aparentemente, o Pokémon dentro dos chifres deste Pokémon espera ansiosamente para ser lançado em velocidades Mach.", // considerando a dex da primeira geração que apareceu
@@ -28123,12 +28123,12 @@ const pkmnDisponiveis = [
 		altura: 2.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 92,
-			atq: 120,
-			def: 115,
-			atq_esp: 80,
-			def_esp: 115,
-			vel: 138,
+			ps:		 	92,
+			atq:	 	120,
+			def:	 	115,
+			atq_esp: 	80,
+			def_esp: 	115,
+			vel: 		138,
 		},
 		descricao:
 			"Conhecido como um lendário herói, este Pokémon absorve partículas de metal, transformando-as em uma arma que usa para batalhar.", // considerando a dex da primeira geração que apareceu
@@ -28151,12 +28151,12 @@ const pkmnDisponiveis = [
 		altura: 2.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 92,
-			atq: 150,
-			def: 115,
-			atq_esp: 80,
-			def_esp: 115,
-			vel: 148,
+			ps:		 	92,
+			atq:	 	150,
+			def:	 	115,
+			atq_esp: 	80,
+			def_esp: 	115,
+			vel: 		148,
 		},
 		descricao:
 			"Agora armado com uma arma que usava em tempos antigos, este Pokémon precisa de um único golpe para derrubar até mesmo Pokémon Gigamax.", // considerando a dex da primeira geração que apareceu
@@ -28179,12 +28179,12 @@ const pkmnDisponiveis = [
 		altura: 2.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 92,
-			atq: 120,
-			def: 115,
-			atq_esp: 80,
-			def_esp: 115,
-			vel: 138,
+			ps:		 	92,
+			atq:	 	120,
+			def:	 	115,
+			atq_esp: 	80,
+			def_esp: 	115,
+			vel: 		138,
 		},
 		descricao:
 			"Este Pokémon dormiu por eras enquanto estava na forma de uma estátua. Dormiu por tanto tempo que as pessoas esqueceram que existiu.", // considerando a dex da primeira geração que apareceu
@@ -28207,12 +28207,12 @@ const pkmnDisponiveis = [
 		altura: 2.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 92,
-			atq: 120,
-			def: 140,
-			atq_esp: 80,
-			def_esp: 140,
-			vel: 128,
+			ps:		 	92,
+			atq:	 	120,
+			def:	 	140,
+			atq_esp: 	80,
+			def_esp: 	140,
+			vel: 		128,
 		},
 		descricao:
 			"Agora que está equipado com seu escudo, consegue resistir a golpes impressionantes, incluindo os ataques de Pokémon Dinamax.", // considerando a dex da primeira geração que apareceu
@@ -28235,12 +28235,12 @@ const pkmnDisponiveis = [
 		altura: 20.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 140,
-			atq: 85,
-			def: 95,
-			atq_esp: 145,
-			def_esp: 95,
-			vel: 130,
+			ps:		 	140,
+			atq:	 	85,
+			def:	 	95,
+			atq_esp: 	145,
+			def_esp: 	95,
+			vel: 		130,
 		},
 		descricao:
 			"Estava dentro de um meteorito que caiu há 20'000 anos. Parece haver uma conexão entre este Pokémon e o fenômeno Dinamax.", // considerando a dex da primeira geração que apareceu
@@ -28263,12 +28263,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 90,
-			def: 60,
-			atq_esp: 53,
-			def_esp: 50,
-			vel: 72,
+			ps:		 	60,
+			atq:	 	90,
+			def:	 	60,
+			atq_esp: 	53,
+			def_esp: 	50,
+			vel: 		72,
 		},
 		descricao:
 			"Este Pokémon treina duro para aperfeiçoar seus movimentos. Os movimentos que domina determinarão qual forma tomará quando evoluir.", // considerando a dex da primeira geração que apareceu
@@ -28291,12 +28291,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 130,
-			def: 100,
-			atq_esp: 63,
-			def_esp: 60,
-			vel: 97,
+			ps:		 	100,
+			atq:	 	130,
+			def:	 	100,
+			atq_esp: 	63,
+			def_esp: 	60,
+			vel: 		97,
 		},
 		descricao:
 			"Esta forma deste Pokémon acredita fortemente no nocaute de um golpe. Sua estratégia é salta para perto dos inimigos e desferir um golpe devastador com um punho endurecido.", // considerando a dex da primeira geração que apareceu
@@ -28319,12 +28319,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 130,
-			def: 100,
-			atq_esp: 63,
-			def_esp: 60,
-			vel: 97,
+			ps:		 	100,
+			atq:	 	130,
+			def:	 	100,
+			atq_esp: 	63,
+			def_esp: 	60,
+			vel: 		97,
 		},
 		descricao:
 			"Esta forma deste Pokémon acredita fortemente em derrotar inimigos desferindo muitos golpes sobre eles. Seus golpes são ininterruptos, fluidos como um rio.", // considerando a dex da primeira geração que apareceu
@@ -28347,12 +28347,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 105,
-			atq: 120,
-			def: 105,
-			atq_esp: 70,
-			def_esp: 95,
-			vel: 105,
+			ps:		 	105,
+			atq:	 	120,
+			def:	 	105,
+			atq_esp: 	70,
+			def_esp: 	95,
+			vel: 		105,
 		},
 		descricao:
 			"Dentro de florestas densas, este Pokémon vive em grupos com outros de sua espécie. É incrivelmente agressivo, e os outros Pokémon da floresta o teme.", // considerando a dex da primeira geração que apareceu
@@ -28375,12 +28375,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 100,
-			def: 50,
-			atq_esp: 100,
-			def_esp: 50,
-			vel: 200,
+			ps:		 	80,
+			atq:	 	100,
+			def:	 	50,
+			atq_esp: 	100,
+			def_esp: 	50,
+			vel: 		200,
 		},
 		descricao:
 			"Seu corpo inteiro é feito de um único órgão que gera energia elétrica. Este Pokémon é capaz de criar toda a eletricidade da região.", // considerando a dex da primeira geração que apareceu
@@ -28403,12 +28403,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 200,
-			atq: 100,
-			def: 50,
-			atq_esp: 100,
-			def_esp: 50,
-			vel: 80,
+			ps:		 	200,
+			atq:	 	100,
+			def:	 	50,
+			atq_esp: 	100,
+			def_esp: 	50,
+			vel: 		80,
 		},
 		descricao:
 			"Seu corpo é composto de energia de dragão cristalizada. Dizem que este Pokémon tem os poderes de todos os Pokémon dragão.", // considerando a dex da primeira geração que apareceu
@@ -28431,12 +28431,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 145,
-			def: 130,
-			atq_esp: 65,
-			def_esp: 110,
-			vel: 30,
+			ps:		 	100,
+			atq:	 	145,
+			def:	 	130,
+			atq_esp: 	65,
+			def_esp: 	110,
+			vel: 		30,
 		},
 		descricao:
 			"Emite frio intenso de seus cascos. Também é um Pokémon beligerante, pega à força tudo o que quer.", // considerando a dex da primeira geração que apareceu
@@ -28459,12 +28459,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 65,
-			def: 60,
-			atq_esp: 145,
-			def_esp: 80,
-			vel: 130,
+			ps:		 	100,
+			atq:	 	65,
+			def:	 	60,
+			atq_esp: 	145,
+			def_esp: 	80,
+			vel: 		130,
 		},
 		descricao:
 			"Enquanto corre pela noite, este Pokémon absorve a força vital de criaturas adormecidas. Anseia por silêncio e solidão.", // considerando a dex da primeira geração que apareceu
@@ -28487,12 +28487,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 80,
-			def: 80,
-			atq_esp: 80,
-			def_esp: 80,
-			vel: 80,
+			ps:		 	100,
+			atq:	 	80,
+			def:	 	80,
+			atq_esp: 	80,
+			def_esp: 	80,
+			vel: 		80,
 		},
 		descricao:
 			"Este Pokémon conhecido nas lendas como um rei que reinou a região em tempos antigos. Possui o poder de fazer com que corações se curem e plantas brotem.", // considerando a dex da primeira geração que apareceu
@@ -28515,12 +28515,12 @@ const pkmnDisponiveis = [
 		altura: 2.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 165,
-			def: 150,
-			atq_esp: 85,
-			def_esp: 130,
-			vel: 50,
+			ps:		 	100,
+			atq:	 	165,
+			def:	 	150,
+			atq_esp: 	85,
+			def_esp: 	130,
+			vel: 		50,
 		},
 		descricao:
 			"Dizem que este Pokémon uma vez moveu uma grande floresta, e todos os Pokémon vivendo lá, para um novo local da noite para o dia.", // considerando a dex da primeira geração que apareceu
@@ -28543,12 +28543,12 @@ const pkmnDisponiveis = [
 		altura: 2.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 85,
-			def: 80,
-			atq_esp: 165,
-			def_esp: 100,
-			vel: 150,
+			ps:		 	100,
+			atq:	 	85,
+			def:	 	80,
+			atq_esp: 	165,
+			def_esp: 	100,
+			vel: 		150,
 		},
 		descricao:
 			"Lendas contam que ao usar seu poder para ver todos os eventos do passado e do futuro, este Pokémon salvou as criaturas de uma floresta da queda de um meteorito.", // considerando a dex da primeira geração que apareceu
@@ -28571,12 +28571,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 103,
-			atq: 105,
-			def: 72,
-			atq_esp: 105,
-			def_esp: 75,
-			vel: 65,
+			ps:		 	103,
+			atq:	 	105,
+			def:	 	72,
+			atq_esp: 	105,
+			def_esp: 	75,
+			vel: 		65,
 		},
 		descricao:
 			"As esferas negras brilham com uma luz misteriosa quando o Pokémon está erguendo barreias invisíveis. O pelo que cai de sua barba retém bem o calor e é um material altamente útil pra roupas de inverno.", // considerando a dex da primeira geração que apareceu
@@ -28599,12 +28599,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 135,
-			def: 95,
-			atq_esp: 45,
-			def_esp: 70,
-			vel: 85,
+			ps:		 	70,
+			atq:	 	135,
+			def:	 	95,
+			atq_esp: 	45,
+			def_esp: 	70,
+			vel: 		85,
 		},
 		descricao:
 			"Uma criatura violenta que derruba árvores altas com seus machados brutos e se protege com pedras duras. Caso alguém encontre esse Pokémon na natureza, seu único recurso é fugir.", // considerando a dex da primeira geração que apareceu
@@ -28627,12 +28627,12 @@ const pkmnDisponiveis = [
 		altura: 2.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 130,
-			atq: 140,
-			def: 105,
-			atq_esp: 45,
-			def_esp: 80,
-			vel: 50,
+			ps:		 	130,
+			atq:	 	140,
+			def:	 	105,
+			atq_esp: 	45,
+			def_esp: 	80,
+			vel: 		50,
 		},
 		descricao:
 			"Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.", // considerando a dex da primeira geração que apareceu
@@ -28655,12 +28655,12 @@ const pkmnDisponiveis = [
 		altura: 2.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 113,
-			atq: 70,
-			def: 120,
-			atq_esp: 135,
-			def_esp: 65,
-			vel: 52,
+			ps:		 	113,
+			atq:	 	70,
+			def:	 	120,
+			atq_esp: 	135,
+			def_esp: 	65,
+			vel: 		52,
 		},
 		descricao:
 			"Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.", // considerando a dex da primeira geração que apareceu
@@ -28683,12 +28683,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 120,
-			atq: 112,
-			def: 65,
-			atq_esp: 80,
-			def_esp: 75,
-			vel: 78,
+			ps:		 	120,
+			atq:	 	112,
+			def:	 	65,
+			atq_esp: 	80,
+			def_esp: 	75,
+			vel: 		78,
 		},
 		descricao:
 			"Veste-se com as almas de camaradas que pereceram antes de cumprir seus objetivos de jornada rio acima. Nenhuma outra espécie em todos os rios da região é igual a este Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -28711,12 +28711,12 @@ const pkmnDisponiveis = [
 		altura: 3.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 120,
-			atq: 92,
-			def: 65,
-			atq_esp: 100,
-			def_esp: 75,
-			vel: 78,
+			ps:		 	120,
+			atq:	 	92,
+			def:	 	65,
+			atq_esp: 	100,
+			def_esp: 	75,
+			vel: 		78,
 		},
 		descricao:
 			"Veste-se com as almas de camaradas que pereceram antes de cumprir seus objetivos de jornada rio acima. Nenhuma outra espécie em todos os rios da região é igual a este Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -28739,12 +28739,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 130,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 80,
-			vel: 120,
+			ps:		 	80,
+			atq:	 	130,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	80,
+			vel: 		120,
 		},
 		descricao:
 			"Por causa de seu veneno virulento e de sua assustadora destreza física, nenhuma outra espécie poderia esperar superá-lo nas terras altas congeladas. Preferindo a solidão, esta espécia não forma matilhas.", // considerando a dex da primeira geração que apareceu
@@ -28767,12 +28767,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 115,
-			def: 95,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 85,
+			ps:		 	85,
+			atq:	 	115,
+			def:	 	95,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		85,
 		},
 		descricao:
 			"Seus espinhos lanceolados a lança e temperamento selvagem lhe renderam o apelido 'demônio do mar'. Sorve veneno para se nutrir.", // considerando a dex da primeira geração que apareceu
@@ -28795,12 +28795,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 74,
-			atq: 115,
-			def: 70,
-			atq_esp: 135,
-			def_esp: 80,
-			vel: 106,
+			ps:		 	74,
+			atq:	 	115,
+			def:	 	70,
+			atq_esp: 	135,
+			def_esp: 	80,
+			vel: 		106,
 		},
 		descricao:
 			"Quando voa para esta terra do outro lado do mar, o inverno amargo chega ao fim. De acordo com a lenda, o amor deste Pokémon dá origem ao surgimento de uma vida nesta região.", // considerando a dex da primeira geração que apareceu
@@ -28823,12 +28823,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 74,
-			atq: 115,
-			def: 110,
-			atq_esp: 135,
-			def_esp: 100,
-			vel: 46,
+			ps:		 	74,
+			atq:	 	115,
+			def:	 	110,
+			atq_esp: 	135,
+			def_esp: 	100,
+			vel: 		46,
 		},
 		descricao:
 			"Uma aparência diferente de sua forma humanoide feminina. Das nuvens, desce sobre aqueles que tratam qualquer forma de vida com desrespeito e distribui punição irada e implacável.", // considerando a dex da primeira geração que apareceu
@@ -28851,12 +28851,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 61,
-			def: 54,
-			atq_esp: 45,
-			def_esp: 45,
-			vel: 65,
+			ps:		 	40,
+			atq:	 	61,
+			def:	 	54,
+			atq_esp: 	45,
+			def_esp: 	45,
+			vel: 		65,
 		},
 		descricao:
 			"Seu pelo fofo é semelhante em composição às plantas. Este Pokémon frequentemente lava seu rosto para evitar que resseque.", // considerando a dex da primeira geração que apareceu
@@ -28879,12 +28879,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 61,
-			atq: 80,
-			def: 63,
-			atq_esp: 60,
-			def_esp: 63,
-			vel: 83,
+			ps:		 	61,
+			atq:	 	80,
+			def:	 	63,
+			atq_esp: 	60,
+			def_esp: 	63,
+			vel: 		83,
 		},
 		descricao:
 			"A dureza de seu pelo depende de seu humor. Quando este Pokémon está preparado para batalhar, seu pelo se torna pontiagudo e tão afiado quanto uma agulha.", // considerando a dex da primeira geração que apareceu
@@ -28907,12 +28907,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 76,
-			atq: 110,
-			def: 70,
-			atq_esp: 81,
-			def_esp: 70,
-			vel: 123,
+			ps:		 	76,
+			atq:	 	110,
+			def:	 	70,
+			atq_esp: 	81,
+			def_esp: 	70,
+			vel: 		123,
 		},
 		descricao:
 			"Este Pokémon usa seu pelo reflexivo em sua capa para camuflar o caule de sua flor, criando a ilusão de que a flor está flutuando.", // considerando a dex da primeira geração que apareceu
@@ -28935,12 +28935,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 67,
-			atq: 45,
-			def: 59,
-			atq_esp: 63,
-			def_esp: 40,
-			vel: 36,
+			ps:		 	67,
+			atq:	 	45,
+			def:	 	59,
+			atq_esp: 	63,
+			def_esp: 	40,
+			vel: 		36,
 		},
 		descricao:
 			"Fica sobre rochas quentes e usa o calor absorvido por suas escamas quadradas para criar energia de fogo.", // considerando a dex da primeira geração que apareceu
@@ -28963,12 +28963,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 81,
-			atq: 55,
-			def: 78,
-			atq_esp: 90,
-			def_esp: 58,
-			vel: 49,
+			ps:		 	81,
+			atq:	 	55,
+			def:	 	78,
+			atq_esp: 	90,
+			def_esp: 	58,
+			vel: 		49,
 		},
 		descricao:
 			"A combinação de energia de fogo e vitalidade transbordante deste Pokémon fez com que uma bola de fogo em forma de ovo aparecesse em sua cabeça.", // considerando a dex da primeira geração que apareceu
@@ -28991,12 +28991,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 104,
-			atq: 75,
-			def: 100,
-			atq_esp: 110,
-			def_esp: 75,
-			vel: 66,
+			ps:		 	104,
+			atq:	 	75,
+			def:	 	100,
+			atq_esp: 	110,
+			def_esp: 	75,
+			vel: 		66,
 		},
 		descricao:
 			"O pássaro de fogo muda de forma quando este Pokémon canta. Há rumores de que o pássaro nasceu quando a bola de fogo em sua cabeça ganhou uma alma.", // considerando a dex da primeira geração que apareceu
@@ -29019,12 +29019,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 65,
-			def: 45,
-			atq_esp: 50,
-			def_esp: 45,
-			vel: 50,
+			ps:		 	55,
+			atq:	 	65,
+			def:	 	45,
+			atq_esp: 	50,
+			def_esp: 	45,
+			vel: 		50,
 		},
 		descricao:
 			"Suas pernas fortes permitem que nade até mesmo em rios de fluxo rápido. Este Pokémon gosta de manter as coisas organizadas e é propenso a pensar demais nas coisas.", // considerando a dex da primeira geração que apareceu
@@ -29047,12 +29047,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 65,
-			atq_esp: 65,
-			def_esp: 60,
-			vel: 65,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	65,
+			atq_esp: 	65,
+			def_esp: 	60,
+			vel: 		65,
 		},
 		descricao:
 			"Este Pokémon trabalhador observa pessoas e Pokémon de várias regiões e incorpora seus movimentos em suas próprias rotinas de dança.", // considerando a dex da primeira geração que apareceu
@@ -29075,12 +29075,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 120,
-			def: 80,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 85,
+			ps:		 	85,
+			atq:	 	120,
+			def:	 	80,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		85,
 		},
 		descricao:
 			"Dançando de maneiras que evocam lugares distantes, este Pokémon hipnotiza todos que o veem. Flores de suas penas aquáticas decorativas cortam seus inimigos.", // considerando a dex da primeira geração que apareceu
@@ -29103,12 +29103,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 54,
-			atq: 45,
-			def: 40,
-			atq_esp: 35,
-			def_esp: 45,
-			vel: 35,
+			ps:		 	54,
+			atq:	 	45,
+			def:	 	40,
+			atq_esp: 	35,
+			def_esp: 	45,
+			vel: 		35,
 		},
 		descricao:
 			"Este Pokémon despreza tudo, exceto os melhores alimentos. Seu corpo exala um cheiro de erva que os Pokémon insetos detestam.", // considerando a dex da primeira geração que apareceu
@@ -29132,12 +29132,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 115,
-			atq: 90,
-			def: 70,
-			atq_esp: 59,
-			def_esp: 90,
-			vel: 65,
+			ps:		 	115,
+			atq:	 	90,
+			def:	 	70,
+			atq_esp: 	59,
+			def_esp: 	90,
+			vel: 		65,
 		},
 		descricao:
 			"Este Pokémon emite um aroma de flor flutuando por aí. Músculos bem desenvolvidos em suas pernas permitem que ele salte mais de 16 pés sem problemas.", // considerando a dex da primeira geração que apareceu
@@ -29161,12 +29161,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 110,
-			atq: 100,
-			def: 75,
-			atq_esp: 59,
-			def_esp: 80,
-			vel: 65,
+			ps:		 	110,
+			atq:	 	100,
+			def:	 	75,
+			atq_esp: 	59,
+			def_esp: 	80,
+			vel: 		65,
 		},
 		descricao:
 			"Este Pokémon é orgulhoso de sua pele fina e brilhante. Emite um perfume concentrado da ponta de sua cauda.", // considerando a dex da primeira geração que apareceu
@@ -29190,12 +29190,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 35,
-			atq: 41,
-			def: 45,
-			atq_esp: 29,
-			def_esp: 40,
-			vel: 20,
+			ps:		 	35,
+			atq:	 	41,
+			def:	 	45,
+			atq_esp: 	29,
+			def_esp: 	40,
+			vel: 		20,
 		},
 		descricao:
 			"O fio que secreta de sua parte traseira é tão forte quanto arame. O segredo por trás da força do fio é o tópico de pesquisa em andamento.", // considerando a dex da primeira geração que apareceu
@@ -29219,12 +29219,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 79,
-			def: 92,
-			atq_esp: 52,
-			def_esp: 86,
-			vel: 35,
+			ps:		 	60,
+			atq:	 	79,
+			def:	 	92,
+			atq_esp: 	52,
+			def_esp: 	86,
+			vel: 		35,
 		},
 		descricao:
 			"Este Pokémon se agarra a galhos e tetos usando seus fios e se move sem fazer barulho. Tira sua presa antes que ela perceba.", // considerando a dex da primeira geração que apareceu
@@ -29248,12 +29248,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 33,
-			atq: 46,
-			def: 40,
-			atq_esp: 21,
-			def_esp: 25,
-			vel: 45,
+			ps:		 	33,
+			atq:	 	46,
+			def:	 	40,
+			atq_esp: 	21,
+			def_esp: 	25,
+			vel: 		45,
 		},
 		descricao:
 			"Tem seu terceiro conjunto de pernas dobradas. Quando está em uma posição difícil, este Pokémon pula mais de 10 metros usando a força de suas pernas.", // considerando a dex da primeira geração que apareceu
@@ -29277,12 +29277,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 71,
-			atq: 102,
-			def: 78,
-			atq_esp: 52,
-			def_esp: 55,
-			vel: 92,
+			ps:		 	71,
+			atq:	 	102,
+			def:	 	78,
+			atq_esp: 	52,
+			def_esp: 	55,
+			vel: 		92,
 		},
 		descricao:
 			"Quando decide lutar com tudo, fica de pé sobre suas pernas previamente dobradas para entrar no Modo Showdown. Neutraliza seus inimigos em pouco tempo.", // considerando a dex da primeira geração que apareceu
@@ -29306,12 +29306,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 50,
-			def: 20,
-			atq_esp: 40,
-			def_esp: 25,
-			vel: 60,
+			ps:		 	45,
+			atq:	 	50,
+			def:	 	20,
+			atq_esp: 	40,
+			def_esp: 	25,
+			vel: 		60,
 		},
 		descricao:
 			"Possui sacos elétricos subdesenvolvidos em suas bochechas. Esses sacos podem produzir eletricidade somente se este Pokémon esfrega-los furiosamente com as almofadas em seus antebraços.", // considerando a dex da primeira geração que apareceu
@@ -29335,12 +29335,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 75,
-			def: 40,
-			atq_esp: 50,
-			def_esp: 40,
-			vel: 85,
+			ps:		 	60,
+			atq:	 	75,
+			def:	 	40,
+			atq_esp: 	50,
+			def_esp: 	40,
+			vel: 		85,
 		},
 		descricao:
 			"Quando seu grupo é atacado, este Pokémon é o primeiro a entrar na batalha, derrotando inimigos com uma técnica de luta que utiliza choques elétricos.", // considerando a dex da primeira geração que apareceu
@@ -29364,12 +29364,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 115,
-			def: 70,
-			atq_esp: 70,
-			def_esp: 60,
-			vel: 105,
+			ps:		 	70,
+			atq:	 	115,
+			def:	 	70,
+			atq_esp: 	70,
+			def_esp: 	60,
+			vel: 		105,
 		},
 		descricao:
 			"Este Pokémon é normalmente lento para reagir, mas uma vez que entra na batalha, ataca seus inimigos com movimentos rápidos como um relâmpago.", // considerando a dex da primeira geração que apareceu
@@ -29392,12 +29392,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 50,
-			def: 45,
-			atq_esp: 40,
-			def_esp: 45,
-			vel: 75,
+			ps:		 	50,
+			atq:	 	50,
+			def:	 	45,
+			atq_esp: 	40,
+			def_esp: 	45,
+			vel: 		75,
 		},
 		descricao:
 			"Exibindo ótimo trabalho em equipe, usam seus incisivos para cortar pedaços de qualquer material que possa ser útil para um ninho, depois os levam embora.", // considerando a dex da primeira geração que apareceu
@@ -29421,12 +29421,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 74,
-			atq: 75,
-			def: 70,
-			atq_esp: 65,
-			def_esp: 75,
-			vel: 111,
+			ps:		 	74,
+			atq:	 	75,
+			def:	 	70,
+			atq_esp: 	65,
+			def_esp: 	75,
+			vel: 		111,
 		},
 		descricao:
 			"Os dois pequenos simplesmente apareceram um dia. O grupo pode ser uma família de Pokémon com parentesco, mas ninguém sabe ao certo.", // considerando a dex da primeira geração que apareceu
@@ -29449,12 +29449,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 74,
-			atq: 75,
-			def: 70,
-			atq_esp: 65,
-			def_esp: 75,
-			vel: 111,
+			ps:		 	74,
+			atq:	 	75,
+			def:	 	70,
+			atq_esp: 	65,
+			def_esp: 	75,
+			vel: 		111,
 		},
 		descricao:
 			"O pequeno simplesmente apareceu um dia. Todos vivem juntos como uma família, mas a relação entre os três ainda é incerta.", // considerando a dex da primeira geração que apareceu
@@ -29477,12 +29477,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 37,
-			atq: 55,
-			def: 70,
-			atq_esp: 30,
-			def_esp: 55,
-			vel: 65,
+			ps:		 	37,
+			atq:	 	55,
+			def:	 	70,
+			atq_esp: 	30,
+			def_esp: 	55,
+			vel: 		65,
 		},
 		descricao:
 			"Este Pokémon é suave e úmido ao toque. O fermento no hálito deste Pokémon induz fermentação nas proximidades do Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -29506,12 +29506,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 57,
-			atq: 80,
-			def: 115,
-			atq_esp: 50,
-			def_esp: 80,
-			vel: 95,
+			ps:		 	57,
+			atq:	 	80,
+			def:	 	115,
+			atq_esp: 	50,
+			def_esp: 	80,
+			vel: 		95,
 		},
 		descricao:
 			"O aroma agradável que emana do corpo deste Pokémon auxilia o trigo a crescer, por isso este Pokémon tem sido valorizado pelas aldeias agrícolas.", // considerando a dex da primeira geração que apareceu
@@ -29535,12 +29535,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 41,
-			atq: 35,
-			def: 45,
-			atq_esp: 58,
-			def_esp: 51,
-			vel: 30,
+			ps:		 	41,
+			atq:	 	35,
+			def:	 	45,
+			atq_esp: 	58,
+			def_esp: 	51,
+			vel: 		30,
 		},
 		descricao:
 			"Protege a si mesmo de inimigos emitindo óleo da fruta em sua cabeça. Este óleo é amargo e adstringente o suficiente para fazer alguém estremecer.", // considerando a dex da primeira geração que apareceu
@@ -29563,12 +29563,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 52,
-			atq: 53,
-			def: 60,
-			atq_esp: 78,
-			def_esp: 78,
-			vel: 33,
+			ps:		 	52,
+			atq:	 	53,
+			def:	 	60,
+			atq_esp: 	78,
+			def_esp: 	78,
+			vel: 		33,
 		},
 		descricao:
 			"Compartilha seu óleo saboroso e fresco com outros. Esta espécie coexiste com humanos desde tempos idos.", // considerando a dex da primeira geração que apareceu
@@ -29592,12 +29592,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 78,
-			atq: 69,
-			def: 90,
-			atq_esp: 125,
-			def_esp: 109,
-			vel: 39,
+			ps:		 	78,
+			atq:	 	69,
+			def:	 	90,
+			atq_esp: 	125,
+			def_esp: 	109,
+			vel: 		39,
 		},
 		descricao:
 			"Este Pokémon calmo é muito compassivo. Compartilhará seu óleo delicioso e rico em nutrientes com Pokémon enfraquecidos.", // considerando a dex da primeira geração que apareceu
@@ -29620,12 +29620,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 82,
-			atq: 96,
-			def: 51,
-			atq_esp: 45,
-			def_esp: 51,
-			vel: 92,
+			ps:		 	82,
+			atq:	 	96,
+			def:	 	51,
+			atq_esp: 	45,
+			def_esp: 	51,
+			vel: 		92,
 		},
 		descricao:
 			"Estes Pokémon preferem viver em cidades. Formam grupos baseados na coloração de suas penas, e lutam por território.", // considerando a dex da primeira geração que apareceu
@@ -29652,12 +29652,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 55,
-			def: 75,
-			atq_esp: 35,
-			def_esp: 35,
-			vel: 25,
+			ps:		 	55,
+			atq:	 	55,
+			def:	 	75,
+			atq_esp: 	35,
+			def_esp: 	35,
+			vel: 		25,
 		},
 		descricao:
 			"Nasceu em uma camada de sal-gema bem abaixo da terra. Esta espécie era particularmente estimada antigamente, pois compartilhavam sal precioso.", // considerando a dex da primeira geração que apareceu
@@ -29681,12 +29681,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 60,
-			def: 100,
-			atq_esp: 35,
-			def_esp: 65,
-			vel: 35,
+			ps:		 	60,
+			atq:	 	60,
+			def:	 	100,
+			atq_esp: 	35,
+			def_esp: 	65,
+			vel: 		35,
 		},
 		descricao:
 			"Este Pokémon cura a seco suas presas borrifando sal sobre elas. O processo de cura rouba a água do corpo da presa.", // considerando a dex da primeira geração que apareceu
@@ -29710,12 +29710,12 @@ const pkmnDisponiveis = [
 		altura: 2.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 100,
-			def: 130,
-			atq_esp: 45,
-			def_esp: 90,
-			vel: 35,
+			ps:		 	100,
+			atq:	 	100,
+			def:	 	130,
+			atq_esp: 	45,
+			def_esp: 	90,
+			vel: 		35,
 		},
 		descricao:
 			"Este Pokémon esfregará as pontas dos dedos e polvilhará Pokémon feridos com sal. Mesmo ferimentos graves se curarão prontamente depois.", // considerando a dex da primeira geração que apareceu
@@ -29738,12 +29738,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 50,
-			def: 40,
-			atq_esp: 50,
-			def_esp: 40,
-			vel: 35,
+			ps:		 	40,
+			atq:	 	50,
+			def:	 	40,
+			atq_esp: 	50,
+			def_esp: 	40,
+			vel: 		35,
 		},
 		descricao:
 			"Um carvão queimado que veio a vida e se tornou um Pokémon. Possuindo um espírito de luta feroz, este Pokémon enfrentará até mesmo oponentes difíceis.", // considerando a dex da primeira geração que apareceu
@@ -29767,12 +29767,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 60,
-			def: 100,
-			atq_esp: 125,
-			def_esp: 80,
-			vel: 75,
+			ps:		 	85,
+			atq:	 	60,
+			def:	 	100,
+			atq_esp: 	125,
+			def_esp: 	80,
+			vel: 		75,
 		},
 		descricao:
 			"Este Pokémon se reveste de uma armadura fortificada por energia psíquica e de fogo e dispara bolas de fogo ardentes.", // considerando a dex da primeira geração que apareceu
@@ -29795,12 +29795,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 125,
-			def: 80,
-			atq_esp: 60,
-			def_esp: 100,
-			vel: 85,
+			ps:		 	75,
+			atq:	 	125,
+			def:	 	80,
+			atq_esp: 	60,
+			def_esp: 	100,
+			vel: 		85,
 		},
 		descricao:
 			"As lâminas de fogo em seus braços queimam ferozmente com o ressentimento persistente de um portador de espada que caiu antes de atingir seu objetivo.", // considerando a dex da primeira geração que apareceu
@@ -29823,12 +29823,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 61,
-			atq: 31,
-			def: 41,
-			atq_esp: 59,
-			def_esp: 35,
-			vel: 45,
+			ps:		 	61,
+			atq:	 	31,
+			def:	 	41,
+			atq_esp: 	59,
+			def_esp: 	35,
+			vel: 		45,
 		},
 		descricao:
 			"Balança sua cauda para gerar eletricidade. Caso sinta perigo, fará sua cabeça piscar para alertar seus aliados.", // considerando a dex da primeira geração que apareceu
@@ -29852,12 +29852,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 109,
-			atq: 64,
-			def: 91,
-			atq_esp: 103,
-			def_esp: 83,
-			vel: 45,
+			ps:		 	109,
+			atq:	 	64,
+			def:	 	91,
+			atq_esp: 	103,
+			def_esp: 	83,
+			vel: 		45,
 		},
 		descricao:
 			"Quando este Pokémon expande e contrai seu corpo instável, o dínamo do umbigo em seu estômago produz uma enorme quantidade de eletricidade.", // considerando a dex da primeira geração que apareceu
@@ -29881,12 +29881,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 35,
-			atq_esp: 55,
-			def_esp: 40,
-			vel: 70,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	35,
+			atq_esp: 	55,
+			def_esp: 	40,
+			vel: 		70,
 		},
 		descricao:
 			"Estes Pokémon fazem seus ninhos em penhascos costeiros. Os ninhos têm uma textura estranha e crepitante, e são uma iguaria popular.", // considerando a dex da primeira geração que apareceu
@@ -29910,12 +29910,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 70,
-			def: 60,
-			atq_esp: 105,
-			def_esp: 60,
-			vel: 125,
+			ps:		 	70,
+			atq:	 	70,
+			def:	 	60,
+			atq_esp: 	105,
+			def_esp: 	60,
+			vel: 		125,
 		},
 		descricao:
 			"Usa sua bolsa na garganta para armazenar eletricidade gerada por suas asas. Quase não há óleo em suas penas, por isso é um péssimo nadador.", // considerando a dex da primeira geração que apareceu
@@ -29939,12 +29939,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 60,
-			atq: 78,
-			def: 60,
-			atq_esp: 40,
-			def_esp: 51,
-			vel: 51,
+			ps:		 	60,
+			atq:	 	78,
+			def:	 	60,
+			atq_esp: 	40,
+			def_esp: 	51,
+			vel: 		51,
 		},
 		descricao:
 			"Suas mandíbula e presas bem desenvolvidas são fortes o suficiente para triturar qualquer rocha, e sua gordura espessa o torna uma excelente defesa.", // considerando a dex da primeira geração que apareceu
@@ -29968,12 +29968,12 @@ const pkmnDisponiveis = [
 		altura: 1.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 90,
-			atq_esp: 60,
-			def_esp: 70,
-			vel: 85,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	90,
+			atq_esp: 	60,
+			def_esp: 	70,
+			vel: 		85,
 		},
 		descricao:
 			"Este Pokémon gosta de brincar com crianças. Apesar de geralmente ser gentil, tem uma aparência intimidadora quando está protegendo sua família.", // considerando a dex da primeira geração que apareceu
@@ -29997,12 +29997,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 65,
-			def: 35,
-			atq_esp: 40,
-			def_esp: 35,
-			vel: 75,
+			ps:		 	40,
+			atq:	 	65,
+			def:	 	35,
+			atq_esp: 	40,
+			def_esp: 	35,
+			vel: 		75,
 		},
 		descricao:
 			"Para manter inimigos longe de seu território, pinta marcações em volta de seu ninho usando um líquido venenoso que tem um odor acre.", // considerando a dex da primeira geração que apareceu
@@ -30026,12 +30026,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 63,
-			atq: 95,
-			def: 65,
-			atq_esp: 80,
-			def_esp: 72,
-			vel: 110,
+			ps:		 	63,
+			atq:	 	95,
+			def:	 	65,
+			atq_esp: 	80,
+			def_esp: 	72,
+			vel: 		110,
 		},
 		descricao:
 			"Cada indivíduo desta espécie pinta seu próprio padrão individual, e pintará o mesmo padrão repetidamente ao longo de sua vida.", // considerando a dex da primeira geração que apareceu
@@ -30055,12 +30055,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 65,
-			def: 30,
-			atq_esp: 45,
-			def_esp: 35,
-			vel: 60,
+			ps:		 	40,
+			atq:	 	65,
+			def:	 	30,
+			atq_esp: 	45,
+			def_esp: 	35,
+			vel: 		60,
 		},
 		descricao:
 			"Uma alma incapaz de seguir para o pós-vida foi levada pelo vento até se enroscar na grama seca e se tornar um Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -30083,12 +30083,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 115,
-			def: 70,
-			atq_esp: 80,
-			def_esp: 70,
-			vel: 90,
+			ps:		 	55,
+			atq:	 	115,
+			def:	 	70,
+			atq_esp: 	80,
+			def_esp: 	70,
+			vel: 		90,
 		},
 		descricao:
 			"Este Pokémon vaga por regiões áridas. Em raras ocasiões, surtos em massa desses Pokémon enterrarão uma cidade inteira.", // considerando a dex da primeira geração que apareceu
@@ -30111,12 +30111,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 40,
-			def: 35,
-			atq_esp: 50,
-			def_esp: 100,
-			vel: 70,
+			ps:		 	40,
+			atq:	 	40,
+			def:	 	35,
+			atq_esp: 	50,
+			def_esp: 	100,
+			vel: 		70,
 		},
 		descricao:
 			"Vive em florestas úmidas. As abas que caem de seu corpo são mastigáveis e muito deliciosas.", // considerando a dex da primeira geração que apareceu
@@ -30140,12 +30140,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 70,
-			def: 65,
-			atq_esp: 80,
-			def_esp: 120,
-			vel: 100,
+			ps:		 	80,
+			atq:	 	70,
+			def:	 	65,
+			atq_esp: 	80,
+			def_esp: 	120,
+			vel: 		100,
 		},
 		descricao:
 			"Enrola seus dez tentáculos em volta da presa e suga seus nutrientes, causando dor à presa. As dobras ao longo da borda de sua cabeça são uma iguaria popular.", // considerando a dex da primeira geração que apareceu
@@ -30169,12 +30169,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 100,
-			def: 115,
-			atq_esp: 35,
-			def_esp: 55,
-			vel: 75,
+			ps:		 	70,
+			atq:	 	100,
+			def:	 	115,
+			atq_esp: 	35,
+			def_esp: 	55,
+			vel: 		75,
 		},
 		descricao:
 			"Vive em penhascos íngremes. Desvia dos ataques dos oponentes e então ataca seus pontos fracos com suas garras.", // considerando a dex da primeira geração que apareceu
@@ -30197,12 +30197,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 62,
-			def: 40,
-			atq_esp: 62,
-			def_esp: 40,
-			vel: 50,
+			ps:		 	50,
+			atq:	 	62,
+			def:	 	40,
+			atq_esp: 	62,
+			def_esp: 	40,
+			vel: 		50,
 		},
 		descricao:
 			"Pratos tradicionais da região podem ser extremamente picantes por usarem os dentes da frente deste Pokémon entre seus ingredientes.", // considerando a dex da primeira geração que apareceu
@@ -30226,12 +30226,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 108,
-			def: 65,
-			atq_esp: 108,
-			def_esp: 65,
-			vel: 75,
+			ps:		 	65,
+			atq:	 	108,
+			def:	 	65,
+			atq_esp: 	108,
+			def_esp: 	65,
+			vel: 		75,
 		},
 		descricao:
 			"A cabeça vermelha converte produtos químicos apimentados em energia de fogo e explode a área ao redor com um jato de chamas superpicantes.", // considerando a dex da primeira geração que apareceu
@@ -30255,12 +30255,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 41,
-			atq: 50,
-			def: 60,
-			atq_esp: 31,
-			def_esp: 58,
-			vel: 30,
+			ps:		 	41,
+			atq:	 	50,
+			def:	 	60,
+			atq_esp: 	31,
+			def_esp: 	58,
+			vel: 		30,
 		},
 		descricao:
 			"Este Pokémon cria uma bola de lama misturando area e terra com energia psíquica. Valoriza sua bola de lama mais do que sua própria vida.", // considerando a dex da primeira geração que apareceu
@@ -30283,12 +30283,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 75,
-			atq: 50,
-			def: 85,
-			atq_esp: 115,
-			def_esp: 100,
-			vel: 45,
+			ps:		 	75,
+			atq:	 	50,
+			def:	 	85,
+			atq_esp: 	115,
+			def_esp: 	100,
+			vel: 		45,
 		},
 		descricao:
 			"Uma criança dorme dentro da bola. Este Pokémon rola a bola suavemente com suas pernas para garantir que a criança durma confortavelmente.", // considerando a dex da primeira geração que apareceu
@@ -30311,12 +30311,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 30,
-			atq: 35,
-			def: 30,
-			atq_esp: 55,
-			def_esp: 30,
-			vel: 75,
+			ps:		 	30,
+			atq:	 	35,
+			def:	 	30,
+			atq_esp: 	55,
+			def_esp: 	30,
+			vel: 		75,
 		},
 		descricao:
 			"Os dedos de suas patas levitam cerca de um centímetro acima do chão por causa do poder psíquico emitido pelos babados na barriga do Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -30340,12 +30340,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 60,
-			def: 60,
-			atq_esp: 101,
-			def_esp: 60,
-			vel: 105,
+			ps:		 	95,
+			atq:	 	60,
+			def:	 	60,
+			atq_esp: 	101,
+			def_esp: 	60,
+			vel: 		105,
 		},
 		descricao:
 			"Imobiliza oponentes banhando-os em poder psíquico de seus grandes olhos. Apesar de sua aparência, possui um temperamento cruel.", // considerando a dex da primeira geração que apareceu
@@ -30369,12 +30369,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 45,
-			def: 45,
-			atq_esp: 35,
-			def_esp: 64,
-			vel: 58,
+			ps:		 	50,
+			atq:	 	45,
+			def:	 	45,
+			atq_esp: 	35,
+			def_esp: 	64,
+			vel: 		58,
 		},
 		descricao:
 			"Balança sua marreta artesanal para si proteger, mas a marreta é geralmente roubada por Pokémon que comem metal.", // considerando a dex da primeira geração que apareceu
@@ -30398,12 +30398,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 55,
-			def: 55,
-			atq_esp: 45,
-			def_esp: 82,
-			vel: 78,
+			ps:		 	65,
+			atq:	 	55,
+			def:	 	55,
+			atq_esp: 	45,
+			def_esp: 	82,
+			vel: 		78,
 		},
 		descricao:
 			"Esses Pokémon fazem seus lares em pilhas de sucata. Testam a força das marretas uns dos outros esmagando-os juntos.", // considerando a dex da primeira geração que apareceu
@@ -30427,12 +30427,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 75,
-			def: 77,
-			atq_esp: 70,
-			def_esp: 105,
-			vel: 94,
+			ps:		 	85,
+			atq:	 	75,
+			def:	 	77,
+			atq_esp: 	70,
+			def_esp: 	105,
+			vel: 		94,
 		},
 		descricao:
 			"A marreta pesa mais de 100 kg, mas é facilmente manipulada por este Pokémon, que rouba o que quer e leva o que quer e leva para casa.", // considerando a dex da primeira geração que apareceu
@@ -30455,12 +30455,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 10,
-			atq: 55,
-			def: 25,
-			atq_esp: 35,
-			def_esp: 25,
-			vel: 95,
+			ps:		 	10,
+			atq:	 	55,
+			def:	 	25,
+			atq_esp: 	35,
+			def_esp: 	25,
+			vel: 		95,
 		},
 		descricao:
 			"Este Pokémon consegue sentir o cheiro de uma Veluza a mais de 20 metros de distância e se esconderá na areia.", // considerando a dex da primeira geração que apareceu
@@ -30484,12 +30484,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 35,
-			atq: 100,
-			def: 50,
-			atq_esp: 50,
-			def_esp: 70,
-			vel: 120,
+			ps:		 	35,
+			atq:	 	100,
+			def:	 	50,
+			atq_esp: 	50,
+			def_esp: 	70,
+			vel: 		120,
 		},
 		descricao:
 			"Possui um temperamento cruel, ao contrário do que sua aparência pode sugerir. Envolve seus longos corpos em volta da presa e então a arrasta para sua toca.", // considerando a dex da primeira geração que apareceu
@@ -30513,12 +30513,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 103,
-			def: 85,
-			atq_esp: 60,
-			def_esp: 85,
-			vel: 82,
+			ps:		 	70,
+			atq:	 	103,
+			def:	 	85,
+			atq_esp: 	60,
+			def_esp: 	85,
+			vel: 		82,
 		},
 		descricao:
 			"Usa o avental em seu peito para embrulhar comida, que carrega de volta para seu ninho. Gosta de derrubar coisas que fazem barulhos altos.", // considerando a dex da primeira geração que apareceu
@@ -30542,12 +30542,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 45,
-			def: 40,
-			atq_esp: 45,
-			def_esp: 40,
-			vel: 75,
+			ps:		 	70,
+			atq:	 	45,
+			def:	 	40,
+			atq_esp: 	45,
+			def_esp: 	40,
+			vel: 		75,
 		},
 		descricao:
 			"Gosta de brincar com outros de sua espécie suando os anéis de água em sua cauda. Usa ondas ultrassônicas para sentir as emoções de outros seres-vivos.", // considerando a dex da primeira geração que apareceu
@@ -30571,12 +30571,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 70,
-			def: 72,
-			atq_esp: 53,
-			def_esp: 62,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	70,
+			def:	 	72,
+			atq_esp: 	53,
+			def_esp: 	62,
+			vel: 		100,
 		},
 		descricao:
 			"Este Pokémon muda sua aparência caso ouça seus aliados pedindo por ajuda. Nunca mostrará a alguém seu momento de transformação.", // considerando a dex da primeira geração que apareceu
@@ -30599,12 +30599,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 160,
-			def: 97,
-			atq_esp: 106,
-			def_esp: 87,
-			vel: 100,
+			ps:		 	100,
+			atq:	 	160,
+			def:	 	97,
+			atq_esp: 	106,
+			def_esp: 	87,
+			vel: 		100,
 		},
 		descricao:
 			"Os genes ancestrais deste Pokémon despertaram. Agora é tão extraordinariamente forte que pode facilmente levantar um navio de cruzeiro com uma barbatana.", // considerando a dex da primeira geração que apareceu
@@ -30627,12 +30627,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 70,
-			def: 63,
-			atq_esp: 30,
-			def_esp: 45,
-			vel: 47,
+			ps:		 	45,
+			atq:	 	70,
+			def:	 	63,
+			atq_esp: 	30,
+			def_esp: 	45,
+			vel: 		47,
 		},
 		descricao:
 			"Dizem que este Pokémon nasceu quando um Pokémon veneno desconhecido entrou e inspirou um motor deixado em uma fábrica de processamento de sucata.", // considerando a dex da primeira geração que apareceu
@@ -30655,12 +30655,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 119,
-			def: 90,
-			atq_esp: 54,
-			def_esp: 67,
-			vel: 90,
+			ps:		 	80,
+			atq:	 	119,
+			def:	 	90,
+			atq_esp: 	54,
+			def_esp: 	67,
+			vel: 		90,
 		},
 		descricao:
 			"Ameaça cruelmente os outros com o som de seu escapamento. Coloca sua língua para fora de sua boca cilíndrica e borrifa fluidos tóxicos.", // considerando a dex da primeira geração que apareceu
@@ -30684,12 +30684,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 95,
-			def: 65,
-			atq_esp: 85,
-			def_esp: 65,
-			vel: 121,
+			ps:		 	70,
+			atq:	 	95,
+			def:	 	65,
+			atq_esp: 	85,
+			def_esp: 	65,
+			vel: 		121,
 		},
 		descricao:
 			"Aparentemente, tem permitido que as pessoas andem em suas costas desde os tempos antigos. Representações disso foram encontradas em murais de 10'000 anos.", // considerando a dex da primeira geração que apareceu
@@ -30713,12 +30713,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 70,
-			atq: 85,
-			def: 145,
-			atq_esp: 60,
-			def_esp: 55,
-			vel: 65,
+			ps:		 	70,
+			atq:	 	85,
+			def:	 	145,
+			atq_esp: 	60,
+			def_esp: 	55,
+			vel: 		65,
 		},
 		descricao:
 			"Este Pokémon vive em desertos áridos. Mantém seu corpo metálico consumindo ferro do solo.", // considerando a dex da primeira geração que apareceu
@@ -30741,12 +30741,12 @@ const pkmnDisponiveis = [
 		altura: 0.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 48,
-			atq: 35,
-			def: 42,
-			atq_esp: 105,
-			def_esp: 60,
-			vel: 60,
+			ps:		 	48,
+			atq:	 	35,
+			def:	 	42,
+			atq_esp: 	105,
+			def_esp: 	60,
+			vel: 		60,
 		},
 		descricao:
 			"Absorve nutrientes de paredes das cavernas. As pétalas que usa são feitas de veneno cristalizado.", // considerando a dex da primeira geração que apareceu
@@ -30770,12 +30770,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 83,
-			atq: 55,
-			def: 90,
-			atq_esp: 130,
-			def_esp: 81,
-			vel: 86,
+			ps:		 	83,
+			atq:	 	55,
+			def:	 	90,
+			atq_esp: 	130,
+			def_esp: 	81,
+			vel: 		86,
 		},
 		descricao:
 			"Quando este Pokémon detecta perigo, abre suas pétalas cristalinas e dispara raios de seu corpo cônico.", // considerando a dex da primeira geração que apareceu
@@ -30799,12 +30799,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 50,
-			atq: 61,
-			def: 60,
-			atq_esp: 30,
-			def_esp: 55,
-			vel: 34,
+			ps:		 	50,
+			atq:	 	61,
+			def:	 	60,
+			atq_esp: 	30,
+			def_esp: 	55,
+			vel: 		34,
 		},
 		descricao:
 			"Dizem que um Pokémon cão que morreu na natureza sem nunca interagir com um humano renasceu como este Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -30828,12 +30828,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 72,
-			atq: 101,
-			def: 100,
-			atq_esp: 50,
-			def_esp: 97,
-			vel: 68,
+			ps:		 	72,
+			atq:	 	101,
+			def:	 	100,
+			atq_esp: 	50,
+			def_esp: 	97,
+			vel: 		68,
 		},
 		descricao:
 			"Um Pokémon lamentado amorosamente renasceu como este Pokémon. Não gosta que ninguém toque na protuberância em cima de sua cabeça.", // considerando a dex da primeira geração que apareceu
@@ -30857,12 +30857,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 82,
-			atq: 115,
-			def: 74,
-			atq_esp: 75,
-			def_esp: 65,
-			vel: 90,
+			ps:		 	82,
+			atq:	 	115,
+			def:	 	74,
+			atq_esp: 	75,
+			def_esp: 	65,
+			vel: 		90,
 		},
 		descricao:
 			"Este Pokémon aparentemente dá um nó na base do pescoço para que a energia armazenada em sua barriga não escape pelo bico.", // considerando a dex da primeira geração que apareceu
@@ -30886,12 +30886,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 108,
-			atq: 68,
-			def: 45,
-			atq_esp: 30,
-			def_esp: 40,
-			vel: 43,
+			ps:		 	108,
+			atq:	 	68,
+			def:	 	45,
+			atq_esp: 	30,
+			def_esp: 	40,
+			vel: 		43,
 		},
 		descricao:
 			"Vive em regiões geladas em grupos de cinco ou mais indivíduos. Adora os minerais encontrados na neve e no gelo.", // considerando a dex da primeira geração que apareceu
@@ -30915,12 +30915,12 @@ const pkmnDisponiveis = [
 		altura: 4.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 170,
-			atq: 113,
-			def: 65,
-			atq_esp: 45,
-			def_esp: 55,
-			vel: 73,
+			ps:		 	170,
+			atq:	 	113,
+			def:	 	65,
+			atq_esp: 	45,
+			def_esp: 	55,
+			vel: 		73,
 		},
 		descricao:
 			"Este Pokémon vagueia por áreas nevadas e geladas. Protege seu corpo com músculos poderosos e uma espessa camada de gordura sob sua pele.", // considerando a dex da primeira geração que apareceu
@@ -30943,12 +30943,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 102,
-			def: 73,
-			atq_esp: 78,
-			def_esp: 65,
-			vel: 70,
+			ps:		 	90,
+			atq:	 	102,
+			def:	 	73,
+			atq_esp: 	78,
+			def_esp: 	65,
+			vel: 		70,
 		},
 		descricao:
 			"Quando este Pokémon descarta carne desnecessária, sua mente se torna afiada e seu poder psíquico aumenta. A carne sobrante tem um sabor suave, mais delicioso.", // considerando a dex da primeira geração que apareceu
@@ -30972,12 +30972,12 @@ const pkmnDisponiveis = [
 		altura: 12.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 150,
-			atq: 100,
-			def: 115,
-			atq_esp: 65,
-			def_esp: 65,
-			vel: 35,
+			ps:		 	150,
+			atq:	 	100,
+			def:	 	115,
+			atq_esp: 	65,
+			def_esp: 	65,
+			vel: 		35,
 		},
 		descricao:
 			"Este Pokémon é um glutão, mas é ruim em conseguir comida. Ele se junta a outra espécie para capturar presas.", // considerando a dex da primeira geração que apareceu
@@ -31000,12 +31000,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 68,
-			atq: 50,
-			def: 60,
-			atq_esp: 120,
-			def_esp: 95,
-			vel: 82,
+			ps:		 	68,
+			atq:	 	50,
+			def:	 	60,
+			atq_esp: 	120,
+			def_esp: 	95,
+			vel: 		82,
 		},
 		descricao:
 			"As diferentes cores e padrões desta espécie são aparentemente o resultado deste Pokémon se modificar para se adequar às preferências das presas que atrai.", // considerando a dex da primeira geração que apareceu
@@ -31030,12 +31030,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 110,
-			atq: 115,
-			def: 80,
-			atq_esp: 50,
-			def_esp: 90,
-			vel: 90,
+			ps:		 	110,
+			atq:	 	115,
+			def:	 	80,
+			atq_esp: 	50,
+			def_esp: 	90,
+			vel: 		90,
 		},
 		descricao:
 			"Quando sua raiva ultrapassou um ponto crítico, este Pokémon ganhou um poder que não é restringido pelos limites de seu corpo físico.", // considerando a dex da primeira geração que apareceu
@@ -31058,12 +31058,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 130,
-			atq: 75,
-			def: 60,
-			atq_esp: 45,
-			def_esp: 100,
-			vel: 20,
+			ps:		 	130,
+			atq:	 	75,
+			def:	 	60,
+			atq_esp: 	45,
+			def_esp: 	100,
+			vel: 		20,
 		},
 		descricao:
 			"Quando atacado, este Pokémon retaliará projetando espinhos grossos para fora do corpo. É um movimento arriscado que coloca tudo em jogo.", // considerando a dex da primeira geração que apareceu
@@ -31087,12 +31087,12 @@ const pkmnDisponiveis = [
 		altura: 3.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 120,
-			atq: 90,
-			def: 70,
-			atq_esp: 110,
-			def_esp: 70,
-			vel: 60,
+			ps:		 	120,
+			atq:	 	90,
+			def:	 	70,
+			atq_esp: 	110,
+			def_esp: 	70,
+			vel: 		60,
 		},
 		descricao:
 			"A cabeça endurecida da cauda protege a cabeça do corpo principal enquanto este Pokémon gira seu longo pescoço para dar cabeçadas nos inimigos.", // considerando a dex da primeira geração que apareceu
@@ -31115,12 +31115,12 @@ const pkmnDisponiveis = [
 		altura: 3.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 125,
-			atq: 100,
-			def: 80,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 55,
+			ps:		 	125,
+			atq:	 	100,
+			def:	 	80,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		55,
 		},
 		descricao:
 			"Este Pokémon usa sua dura cauda para fazer seu ninho, perfurando buracos no leito rochoso bem fundo no subsolo. O ninho pode atingir comprimentos de quase dez quilômetros.", // considerando a dex da primeira geração que apareceu
@@ -31144,12 +31144,12 @@ const pkmnDisponiveis = [
 		altura: 4.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 125,
-			atq: 100,
-			def: 80,
-			atq_esp: 85,
-			def_esp: 75,
-			vel: 55,
+			ps:		 	125,
+			atq:	 	100,
+			def:	 	80,
+			atq_esp: 	85,
+			def_esp: 	75,
+			vel: 		55,
 		},
 		descricao:
 			"Este gentil Pokémon coloca os Pokémon que entram em seu ninho em suas costas e os carrega até a entrada.", // considerando a dex da primeira geração que apareceu
@@ -31173,12 +31173,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 135,
-			def: 120,
-			atq_esp: 60,
-			def_esp: 85,
-			vel: 50,
+			ps:		 	100,
+			atq:	 	135,
+			def:	 	120,
+			atq_esp: 	60,
+			def_esp: 	85,
+			vel: 		50,
 		},
 		descricao:
 			"Apesar de comandar um exército massivo em batalha, este Pokémon não é habilidoso em elaborar estratégias complexas. Apenas usa força bruta para continuar empurrando.", // considerando a dex da primeira geração que apareceu
@@ -31201,12 +31201,12 @@ const pkmnDisponiveis = [
 		altura: 2.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 115,
-			atq: 131,
-			def: 131,
-			atq_esp: 53,
-			def_esp: 53,
-			vel: 87,
+			ps:		 	115,
+			atq:	 	131,
+			def:	 	131,
+			atq_esp: 	53,
+			def_esp: 	53,
+			vel: 		87,
 		},
 		descricao:
 			"Avistamentos deste Pokémon acorreram nos últimos anos. O nome foi tirado de uma criatura listada em um certo livro.", // considerando a dex da primeira geração que apareceu
@@ -31229,12 +31229,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 115,
-			atq: 65,
-			def: 99,
-			atq_esp: 65,
-			def_esp: 115,
-			vel: 111,
+			ps:		 	115,
+			atq:	 	65,
+			def:	 	99,
+			atq_esp: 	65,
+			def_esp: 	115,
+			vel: 		111,
 		},
 		descricao:
 			"Houve apenas um avistamento relatado deste Pokémon. Ele se assemelha a uma criatura misteriosa retratada em um antigo diário de expedição.", // considerando a dex da primeira geração que apareceu
@@ -31257,12 +31257,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 111,
-			atq: 127,
-			def: 99,
-			atq_esp: 79,
-			def_esp: 99,
-			vel: 55,
+			ps:		 	111,
+			atq:	 	127,
+			def:	 	99,
+			atq_esp: 	79,
+			def_esp: 	99,
+			vel: 		55,
 		},
 		descricao:
 			"Carrega uma leve semelhança com um Pokémon descrito, em uma revista duvidosa, como um cruzamento entre um dinossauro e um Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -31285,12 +31285,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 55,
-			def: 55,
-			atq_esp: 135,
-			def_esp: 135,
-			vel: 135,
+			ps:		 	55,
+			atq:	 	55,
+			def:	 	55,
+			atq_esp: 	135,
+			def_esp: 	135,
+			vel: 		135,
 		},
 		descricao:
 			"Possui características similares a um pterossauro fantasmagórico que foi abordado em uma revista paranormal, mas os dois têm pouco em comum.", // considerando a dex da primeira geração que apareceu
@@ -31313,12 +31313,12 @@ const pkmnDisponiveis = [
 		altura: 3.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 135,
-			def: 79,
-			atq_esp: 85,
-			def_esp: 105,
-			vel: 81,
+			ps:		 	85,
+			atq:	 	135,
+			def:	 	79,
+			atq_esp: 	85,
+			def_esp: 	105,
+			vel: 		81,
 		},
 		descricao:
 			"Este misterioso Pokémon possui algumas similaridades com uma criatura que um livro velho introduziu.", // considerando a dex da primeira geração que apareceu
@@ -31341,12 +31341,12 @@ const pkmnDisponiveis = [
 		altura: 2.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 81,
-			def: 97,
-			atq_esp: 121,
-			def_esp: 85,
-			vel: 101,
+			ps:		 	85,
+			atq:	 	81,
+			def:	 	97,
+			atq_esp: 	121,
+			def_esp: 	85,
+			vel: 		101,
 		},
 		descricao:
 			"Não há registros de que Pokémon tenha sido capturado. Faltam dados, mas as características deste Pokémon correspondem a uma criatura mostrada em um diário de expedição.", // considerando a dex da primeira geração que apareceu
@@ -31369,12 +31369,12 @@ const pkmnDisponiveis = [
 		altura: 0.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 112,
-			def: 120,
-			atq_esp: 72,
-			def_esp: 70,
-			vel: 106,
+			ps:		 	90,
+			atq:	 	112,
+			def:	 	120,
+			atq_esp: 	72,
+			def_esp: 	70,
+			vel: 		106,
 		},
 		descricao:
 			"Avistamentos deste Pokémon ocorreram nos últimos anos. Ele se assemelha a um objeto misterioso descrito em um antigo diário de expedição.", // considerando a dex da primeira geração que apareceu
@@ -31397,12 +31397,12 @@ const pkmnDisponiveis = [
 		altura: 0.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 56,
-			atq: 80,
-			def: 114,
-			atq_esp: 124,
-			def_esp: 60,
-			vel: 136,
+			ps:		 	56,
+			atq:	 	80,
+			def:	 	114,
+			atq_esp: 	124,
+			def_esp: 	60,
+			vel: 		136,
 		},
 		descricao:
 			"Seu formato é similar ao de um robô apresentado em um artigo de revista paranormal. Dizem que o robô foi criado por uma civilização antiga.", // considerando a dex da primeira geração que apareceu
@@ -31425,12 +31425,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 154,
-			atq: 140,
-			def: 108,
-			atq_esp: 50,
-			def_esp: 68,
-			vel: 50,
+			ps:		 	154,
+			atq:	 	140,
+			def:	 	108,
+			atq_esp: 	50,
+			def_esp: 	68,
+			vel: 		50,
 		},
 		descricao:
 			"É muito similar a um ciborgue coberto exclusivamente por uma revista paranormal. O ciborgue era dito ser a forma modificada de um certo atleta.", // considerando a dex da primeira geração que apareceu
@@ -31453,12 +31453,12 @@ const pkmnDisponiveis = [
 		altura: 1.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 94,
-			atq: 80,
-			def: 86,
-			atq_esp: 122,
-			def_esp: 80,
-			vel: 108,
+			ps:		 	94,
+			atq:	 	80,
+			def:	 	86,
+			atq_esp: 	122,
+			def_esp: 	80,
+			vel: 		108,
 		},
 		descricao:
 			"Tem semelhanças com um certo Pokémon introduzido em uma revista paranormal, descrito como filho de um Pokémon que se apaixonou por um robô.", // considerando a dex da primeira geração que apareceu
@@ -31481,12 +31481,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 70,
-			def: 60,
-			atq_esp: 140,
-			def_esp: 110,
-			vel: 110,
+			ps:		 	80,
+			atq:	 	70,
+			def:	 	60,
+			atq_esp: 	140,
+			def_esp: 	110,
+			vel: 		110,
 		},
 		descricao:
 			"Este Pokémon se assemelha a um objeto desconhecido descrito em uma revista paranormal como um OVNI enviado para observar a humanidade.", // considerando a dex da primeira geração que apareceu
@@ -31509,12 +31509,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 134,
-			def: 110,
-			atq_esp: 70,
-			def_esp: 84,
-			vel: 72,
+			ps:		 	100,
+			atq:	 	134,
+			def:	 	110,
+			atq_esp: 	70,
+			def_esp: 	84,
+			vel: 		72,
 		},
 		descricao:
 			"Possui algumas similaridades com um Pokémon introduzido em uma revista duvidosa como uma versão de um bilhão de anos no futuro.", // considerando a dex da primeira geração que apareceu
@@ -31537,12 +31537,12 @@ const pkmnDisponiveis = [
 		altura: 0.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 65,
-			atq: 75,
-			def: 45,
-			atq_esp: 35,
-			def_esp: 45,
-			vel: 55,
+			ps:		 	65,
+			atq:	 	75,
+			def:	 	45,
+			atq_esp: 	35,
+			def_esp: 	45,
+			vel: 		55,
 		},
 		descricao:
 			"Absorve calor por sua barbatana dorsal e converte o calor em energia de gelo. Quanto maior a temperatura, mais energia este Pokémon armazena.", // considerando a dex da primeira geração que apareceu
@@ -31565,12 +31565,12 @@ const pkmnDisponiveis = [
 		altura: 0.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 95,
-			def: 66,
-			atq_esp: 45,
-			def_esp: 65,
-			vel: 62,
+			ps:		 	90,
+			atq:	 	95,
+			def:	 	66,
+			atq_esp: 	45,
+			def_esp: 	65,
+			vel: 		62,
 		},
 		descricao:
 			"Congela o ar ao seu redor, protegendo seu rosto com uma máscara de gelo e transformando sua barbatana dorsal em uma lâmina de gelo.", // considerando a dex da primeira geração que apareceu
@@ -31593,12 +31593,12 @@ const pkmnDisponiveis = [
 		altura: 2.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 115,
-			atq: 145,
-			def: 92,
-			atq_esp: 75,
-			def_esp: 86,
-			vel: 87,
+			ps:		 	115,
+			atq:	 	145,
+			def:	 	92,
+			atq_esp: 	75,
+			def_esp: 	86,
+			vel: 		87,
 		},
 		descricao:
 			"Este Pokémon expele ar criogênico de sua boca. Este ar pode congelar instantaneamente até lava líquida quente.", // considerando a dex da primeira geração que apareceu
@@ -31621,12 +31621,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 30,
-			def: 70,
-			atq_esp: 75,
-			def_esp: 70,
-			vel: 10,
+			ps:		 	45,
+			atq:	 	30,
+			def:	 	70,
+			atq_esp: 	75,
+			def_esp: 	70,
+			vel: 		10,
 		},
 		descricao:
 			"Este Pokémon nasceu dentro de um baú de tesouro em torno de 1'500 anos atrás. Suga a força vital de quem tentar roubar o tesouro.", // considerando a dex da primeira geração que apareceu
@@ -31650,12 +31650,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 45,
-			atq: 30,
-			def: 25,
-			atq_esp: 75,
-			def_esp: 45,
-			vel: 80,
+			ps:		 	45,
+			atq:	 	30,
+			def:	 	25,
+			atq_esp: 	75,
+			def_esp: 	45,
+			vel: 		80,
 		},
 		descricao:
 			"Este Pokémon nasceu da paixão que se infiltrou em uma moeda. Vagueia, aparentemente buscando retornar ao baú de tesouro que uma vez habitou.", // considerando a dex da primeira geração que apareceu
@@ -31678,12 +31678,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 87,
-			atq: 60,
-			def: 95,
-			atq_esp: 133,
-			def_esp: 91,
-			vel: 84,
+			ps:		 	87,
+			atq:	 	60,
+			def:	 	95,
+			atq_esp: 	133,
+			def_esp: 	91,
+			vel: 		84,
 		},
 		descricao:
 			"Seu corpo parece ser feito de 1'000 moedas. Este Pokémon se dá bem com os outros e é rápido em fazer amizades com qualquer um.", // considerando a dex da primeira geração que apareceu
@@ -31706,12 +31706,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 85,
-			atq: 85,
-			def: 100,
-			atq_esp: 95,
-			def_esp: 135,
-			vel: 70,
+			ps:		 	85,
+			atq:	 	85,
+			def:	 	100,
+			atq_esp: 	95,
+			def_esp: 	135,
+			vel: 		70,
 		},
 		descricao:
 			"O rancor de uma pessoa punida por escrever as más ações do rei em tábuas de madeira se revestiu de folhas mortas para se tornar um Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -31734,12 +31734,12 @@ const pkmnDisponiveis = [
 		altura: 1.9, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 80,
-			atq_esp: 90,
-			def_esp: 65,
-			vel: 135,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	80,
+			atq_esp: 	90,
+			def_esp: 	65,
+			vel: 		135,
 		},
 		descricao:
 			"O ódio daqueles que pereceram pela espada há muito tempo se revestiu de neve e se tornou um Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -31762,12 +31762,12 @@ const pkmnDisponiveis = [
 		altura: 2.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 155,
-			atq: 110,
-			def: 125,
-			atq_esp: 55,
-			def_esp: 80,
-			vel: 45,
+			ps:		 	155,
+			atq:	 	110,
+			def:	 	125,
+			atq_esp: 	55,
+			def_esp: 	80,
+			vel: 		45,
 		},
 		descricao:
 			"O medo derramado em um antigo recipiente de ritual se revestiu de pedras e terra para se tornar um Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -31790,12 +31790,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 55,
-			atq: 80,
-			def: 80,
-			atq_esp: 135,
-			def_esp: 120,
-			vel: 100,
+			ps:		 	55,
+			atq:	 	80,
+			def:	 	80,
+			atq_esp: 	135,
+			def_esp: 	120,
+			vel: 		100,
 		},
 		descricao:
 			"A inveja acumulada dentro de contas curvas que desencadeou múltiplos conflitos se revestiu de fogo e se tornou um Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -31818,12 +31818,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 105,
-			atq: 139,
-			def: 71,
-			atq_esp: 55,
-			def_esp: 101,
-			vel: 119,
+			ps:		 	105,
+			atq:	 	139,
+			def:	 	71,
+			atq_esp: 	55,
+			def_esp: 	101,
+			vel: 		119,
 		},
 		descricao:
 			"De acordo com um artigo de uma revista duvidosa, este Pokémon tem alguma conexão com um fenômeno que ocorre uma certa região.", // considerando a dex da primeira geração que apareceu
@@ -31846,12 +31846,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 74,
-			atq: 130,
-			def: 90,
-			atq_esp: 120,
-			def_esp: 60,
-			vel: 116,
+			ps:		 	74,
+			atq:	 	130,
+			def:	 	90,
+			atq_esp: 	120,
+			def_esp: 	60,
+			vel: 		116,
 		},
 		descricao:
 			"Possui algumas semelhanças com a invenção de um cientista louco publicada em uma revista paranormal.", // considerando a dex da primeira geração que apareceu
@@ -31874,12 +31874,12 @@ const pkmnDisponiveis = [
 		altura: 2.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 135,
-			def: 115,
-			atq_esp: 85,
-			def_esp: 100,
-			vel: 135,
+			ps:		 	100,
+			atq:	 	135,
+			def:	 	115,
+			atq_esp: 	85,
+			def_esp: 	100,
+			vel: 		135,
 		},
 		descricao:
 			"Isto parece ser o Winged King mencionado em um antigo diário de expedição. Dizia-se que havia dividido a terra com seus punhos nus.", // considerando a dex da primeira geração que apareceu
@@ -31902,12 +31902,12 @@ const pkmnDisponiveis = [
 		altura: 3.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 100,
-			atq: 85,
-			def: 100,
-			atq_esp: 135,
-			def_esp: 115,
-			vel: 135,
+			ps:		 	100,
+			atq:	 	85,
+			def:	 	100,
+			atq_esp: 	135,
+			def_esp: 	115,
+			vel: 		135,
 		},
 		descricao:
 			"Isto parece ser a Iron Serpent mencionada em um antigo livro. Dizem que a Iron Serpent transformou a terra em cinzas com seus raios.", // considerando a dex da primeira geração que apareceu
@@ -31930,12 +31930,12 @@ const pkmnDisponiveis = [
 		altura: 3.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 99,
-			atq: 83,
-			def: 91,
-			atq_esp: 125,
-			def_esp: 83,
-			vel: 109,
+			ps:		 	99,
+			atq:	 	83,
+			def:	 	91,
+			atq_esp: 	125,
+			def_esp: 	83,
+			vel: 		109,
 		},
 		descricao:
 			"Esta criatura feroz está envolta em mistério. Seu nome é uma homenagem a um monstro aquático mencionado em um antigo diário de expedição.", // considerando a dex da primeira geração que apareceu
@@ -31958,12 +31958,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 130,
-			def: 88,
-			atq_esp: 70,
-			def_esp: 108,
-			vel: 104,
+			ps:		 	90,
+			atq:	 	130,
+			def:	 	88,
+			atq_esp: 	70,
+			def_esp: 	108,
+			vel: 		104,
 		},
 		descricao:
 			"De acordo com os poucos relatos de testemunhas oculares existentes, usava suas lâminas brilhantes para cortar grandes árvores e pedras em juliana.", // considerando a dex da primeira geração que apareceu
@@ -31986,12 +31986,12 @@ const pkmnDisponiveis = [
 		altura: 0.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 80,
-			def: 110,
-			atq_esp: 95,
-			def_esp: 80,
-			vel: 40,
+			ps:		 	80,
+			atq:	 	80,
+			def:	 	110,
+			atq_esp: 	95,
+			def_esp: 	80,
+			vel: 		40,
 		},
 		descricao:
 			"A cabeça que se projeta pertence ao wyrm externo, enquanto a cauda pertence ao wyrm central. Os dois compartilham uma maçã e ajudam um ao outro.", // considerando a dex da primeira geração que apareceu
@@ -32014,12 +32014,12 @@ const pkmnDisponiveis = [
 		altura: 0.1, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 40,
-			atq: 45,
-			def: 45,
-			atq_esp: 74,
-			def_esp: 54,
-			vel: 50,
+			ps:		 	40,
+			atq:	 	45,
+			def:	 	45,
+			atq_esp: 	74,
+			def_esp: 	54,
+			vel: 		50,
 		},
 		descricao:
 			"Supostamente, os arrependimentos de um mestre da cerimônia do chá que morreu antes de aperfeiçoar sua arte permaneceram em um pouco de matcha e se tornaram um Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -32043,12 +32043,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 71,
-			atq: 60,
-			def: 106,
-			atq_esp: 121,
-			def_esp: 80,
-			vel: 70,
+			ps:		 	71,
+			atq:	 	60,
+			def:	 	106,
+			atq_esp: 	121,
+			def_esp: 	80,
+			vel: 		70,
 		},
 		descricao:
 			"Finge ser chá, tentando enganar as pessoas para que o bebam, para que possa drenas sua força vital. Seu estratagema geralmente não tem sucesso.", // considerando a dex da primeira geração que apareceu
@@ -32072,12 +32072,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 128,
-			def: 115,
-			atq_esp: 58,
-			def_esp: 86,
-			vel: 80,
+			ps:		 	88,
+			atq:	 	128,
+			def:	 	115,
+			atq_esp: 	58,
+			def_esp: 	86,
+			vel: 		80,
 		},
 		descricao:
 			"Depois que todos os seus músculos foram estimulados pela corrente tóxica em volta do seu pescoço, este Pokémon se transformou e ganhou um físico poderoso.", // considerando a dex da primeira geração que apareceu
@@ -32100,12 +32100,12 @@ const pkmnDisponiveis = [
 		altura: 1.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 75,
-			def: 66,
-			atq_esp: 130,
-			def_esp: 90,
-			vel: 106,
+			ps:		 	88,
+			atq:	 	75,
+			def:	 	66,
+			atq_esp: 	130,
+			def_esp: 	90,
+			vel: 		106,
 		},
 		descricao:
 			"A corrente é feita de toxina que aperfeiçoa capacidades. Ela estimulou o cérebro deste Pokémon e causou o florescer dos poderes psíquicos deste Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -32128,12 +32128,12 @@ const pkmnDisponiveis = [
 		altura: 1.4, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 91,
-			def: 82,
-			atq_esp: 70,
-			def_esp: 125,
-			vel: 99,
+			ps:		 	88,
+			atq:	 	91,
+			def:	 	82,
+			atq_esp: 	70,
+			def_esp: 	125,
+			vel: 		99,
 		},
 		descricao:
 			"Este Pokémon bate suas asas brilhantes para espalhar feromônios que cativam pessoas e Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -32156,12 +32156,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 84,
-			atq_esp: 60,
-			def_esp: 96,
-			vel: 110,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	84,
+			atq_esp: 	60,
+			def_esp: 	96,
+			vel: 		110,
 		},
 		descricao:
 			"Este Pokémon amante de travessuras é cheio de curiosidade. Batalha extraindo a energia baseada em tipo contida em suas máscaras.", // considerando a dex da primeira geração que apareceu
@@ -32184,12 +32184,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 84,
-			atq_esp: 60,
-			def_esp: 96,
-			vel: 110,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	84,
+			atq_esp: 	60,
+			def_esp: 	96,
+			vel: 		110,
 		},
 		descricao:
 			"Esta forma se destaca tanto no ataque quanto na defesa. Ela libera movimentos incessantemente como uma fonte jorra água.", // considerando a dex da primeira geração que apareceu
@@ -32212,12 +32212,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 84,
-			atq_esp: 60,
-			def_esp: 96,
-			vel: 110,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	84,
+			atq_esp: 	60,
+			def_esp: 	96,
+			vel: 		110,
 		},
 		descricao:
 			"Esta forma é a mais agressiva bombardeando os inimigos com a intensidade das chamas queimando dentro de uma lareira.", // considerando a dex da primeira geração que apareceu
@@ -32240,12 +32240,12 @@ const pkmnDisponiveis = [
 		altura: 1.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 80,
-			atq: 120,
-			def: 84,
-			atq_esp: 60,
-			def_esp: 96,
-			vel: 110,
+			ps:		 	80,
+			atq:	 	120,
+			def:	 	84,
+			atq_esp: 	60,
+			def_esp: 	96,
+			vel: 		110,
 		},
 		descricao:
 			"Esta forma tem excelentes defesas, absorvendo impactos solidamente como as pedras angulares que sustentam as casas.", // considerando a dex da primeira geração que apareceu
@@ -32268,12 +32268,12 @@ const pkmnDisponiveis = [
 		altura: 2.0, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 105,
-			def: 130,
-			atq_esp: 125,
-			def_esp: 65,
-			vel: 85,
+			ps:		 	90,
+			atq:	 	105,
+			def:	 	130,
+			atq_esp: 	125,
+			def_esp: 	65,
+			vel: 		85,
 		},
 		descricao:
 			"Este Pokémon reúne eletricidade estática de seus arredores. Os raios que ele lança quando está de quatro são tremendamente poderosos.", // considerando a dex da primeira geração que apareceu
@@ -32296,12 +32296,12 @@ const pkmnDisponiveis = [
 		altura: 1.8, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 106,
-			atq: 80,
-			def: 110,
-			atq_esp: 120,
-			def_esp: 80,
-			vel: 44,
+			ps:		 	106,
+			atq:	 	80,
+			def:	 	110,
+			atq_esp: 	120,
+			def_esp: 	80,
+			vel: 		44,
 		},
 		descricao:
 			"Sete syrpents vivem dentro de uma maçã feita de xarope. A syrpent no centro é o comandante.", // considerando a dex da primeira geração que apareceu
@@ -32324,12 +32324,12 @@ const pkmnDisponiveis = [
 		altura: 3.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 105,
-			atq: 115,
-			def: 121,
-			atq_esp: 65,
-			def_esp: 93,
-			vel: 91,
+			ps:		 	105,
+			atq:	 	115,
+			def:	 	121,
+			atq_esp: 	65,
+			def_esp: 	93,
+			vel: 		91,
 		},
 		descricao:
 			"Há poucos relatos de que essa criatura foi avistada. Um vídeo curto mostra ela se enfurecendo e cuspindo colunas de fogo.", // considerando a dex da primeira geração que apareceu
@@ -32352,12 +32352,12 @@ const pkmnDisponiveis = [
 		altura: 5.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 125,
-			atq: 73,
-			def: 91,
-			atq_esp: 137,
-			def_esp: 89,
-			vel: 75,
+			ps:		 	125,
+			atq:	 	73,
+			def:	 	91,
+			atq_esp: 	137,
+			def_esp: 	89,
+			vel: 		75,
 		},
 		descricao:
 			"Dizem que este Pokémon incinera tudo ao redor com raios lançados de seu pelo. Muito pouco se sabe sobre essa criatura.", // considerando a dex da primeira geração que apareceu
@@ -32380,12 +32380,12 @@ const pkmnDisponiveis = [
 		altura: 1.5, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 120,
-			def: 80,
-			atq_esp: 68,
-			def_esp: 108,
-			vel: 124,
+			ps:		 	90,
+			atq:	 	120,
+			def:	 	80,
+			atq_esp: 	68,
+			def_esp: 	108,
+			vel: 		124,
 		},
 		descricao:
 			"Foi nomeado em homenagem a um objeto misterioso registrado em um livro antigo. Seu corpo parece ser metálico.", // considerando a dex da primeira geração que apareceu
@@ -32408,12 +32408,12 @@ const pkmnDisponiveis = [
 		altura: 1.6, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 72,
-			def: 100,
-			atq_esp: 122,
-			def_esp: 108,
-			vel: 98,
+			ps:		 	90,
+			atq:	 	72,
+			def:	 	100,
+			atq_esp: 	122,
+			def_esp: 	108,
+			vel: 		98,
 		},
 		descricao:
 			"Supostamente, houve um incidente em que lançou lâminas brilhantes para cortar tudo ao redor em pedaços. Pouco mais se sabe sobre este Pokémon.", // considerando a dex da primeira geração que apareceu
@@ -32436,12 +32436,12 @@ const pkmnDisponiveis = [
 		altura: 0.2, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 90,
-			atq: 65,
-			def: 85,
-			atq_esp: 65,
-			def_esp: 85,
-			vel: 60,
+			ps:		 	90,
+			atq:	 	65,
+			def:	 	85,
+			atq_esp: 	65,
+			def_esp: 	85,
+			vel: 		60,
 		},
 		descricao:
 			"Este Pokémon se protege usando seu poder de transformar energia em cristais duros. Este Pokémon é a fonte do fenômeno Terastal.", // considerando a dex da primeira geração que apareceu
@@ -32464,12 +32464,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 95,
-			atq: 95,
-			def: 110,
-			atq_esp: 105,
-			def_esp: 110,
-			vel: 85,
+			ps:		 	95,
+			atq:	 	95,
+			def:	 	110,
+			atq_esp: 	105,
+			def_esp: 	110,
+			vel: 		85,
 		},
 		descricao:
 			"Ao sentir o perigo, este Pokémon se prepara para a batalha criando uma casca resistente de energia Terastal cristalizada.", // considerando a dex da primeira geração que apareceu
@@ -32492,12 +32492,12 @@ const pkmnDisponiveis = [
 		altura: 1.7, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 160,
-			atq: 105,
-			def: 110,
-			atq_esp: 130,
-			def_esp: 110,
-			vel: 85,
+			ps:		 	160,
+			atq:	 	105,
+			def:	 	110,
+			atq_esp: 	130,
+			def_esp: 	110,
+			vel: 		85,
 		},
 		descricao:
 			"Nessa forma, este Pokémon se assemelha ao mundo como os antigos o viam, e sua energia Terastal é anormalmente amplificada.", // considerando a dex da primeira geração que apareceu
@@ -32520,12 +32520,12 @@ const pkmnDisponiveis = [
 		altura: 0.3, // em metros
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
-			ps: 88,
-			atq: 88,
-			def: 160,
-			atq_esp: 88,
-			def_esp: 88,
-			vel: 88,
+			ps:		 	88,
+			atq:	 	88,
+			def:	 	160,
+			atq_esp: 	88,
+			def_esp: 	88,
+			vel: 		88,
 		},
 		descricao:
 			"Sua concha em formato de pêssego serve como armazenamento para um veneno potente. Faz mochi venenoso e os serve para pessoas e Pokémon.", // considerando a dex da primeira geração que apareceu

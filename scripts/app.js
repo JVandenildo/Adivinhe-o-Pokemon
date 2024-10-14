@@ -96,7 +96,9 @@ function desistir() {
 			escolhido[0].link
 		}" target="_blank">Mais informações sobre ${
 			escolhido[0].nome
-		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+		}</a>.</p><a href="${
+			escolhido[0].link
+		}" target="_blank"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 		}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
 			escolhido[0].nome
@@ -109,7 +111,9 @@ function desistir() {
 			escolhido[0].link
 		}" target="_blank">Mais informações sobre ${
 			escolhido[0].nome
-		}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+		}</a>.</p><a href="${
+			escolhido[0].link
+		}" target="_blank"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 		}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
 			escolhido[0].nome
@@ -231,7 +235,7 @@ function palpitar() {
 	const listaDiscas = [
 		/* primeira dica */
 		`<tr><th scope="col" colspan="1">Pegada</th></tr>
-		<tr><td><div class="pegada"><img src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Dica pegada" /></div></td></tr>`,
+		<tr><td><div class="pegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Dica pegada" /></div></td></tr>`,
 		/* segunda dica */
 		`<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
 		<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>`,
@@ -269,7 +273,7 @@ function palpitar() {
 		<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>`,
 		/* oitava e última dica */
 		`<tr><th scope="col" colspan="1">Silhueta</th></tr>
-		<tr><td class="silhueta"><img src="${
+		<tr><td class="silhueta"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 		}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>`,
 	];
@@ -297,7 +301,9 @@ function palpitar() {
 					escolhido[0].link
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
-				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+				}</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
@@ -309,7 +315,9 @@ function palpitar() {
 					escolhido[0].link
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
-				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+				}</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
@@ -334,7 +342,9 @@ function palpitar() {
 					escolhido[0].link
 				}" target="_blank">Mais informações sobre ${
 					escolhido[0].nome
-				}</a>.</p><a href="${escolhido[0].link}" target="_blank"><img src="${
+				}</a>.</p><a href="${
+					escolhido[0].link
+				}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
