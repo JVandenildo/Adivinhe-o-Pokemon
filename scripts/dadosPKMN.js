@@ -26531,7 +26531,7 @@ const pkmnDisponiveis = [
 			atq:	 	40,
 			def:	 	80,
 			atq_esp: 	40,
-			def_esp: 	50,
+			def_esp: 	40,
 			vel: 		20,
 		},
 		descricao:
@@ -26663,7 +26663,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cramorant",
-		numero: 845.1, // considerando a national dex
+		numero: 845, // considerando a national dex
 		tipo: ["Voador", " Água"],
 		massa: 18.0, // em kg
 		altura: 0.8, // em metros
@@ -26683,68 +26683,10 @@ const pkmnDisponiveis = [
 			"Rota 9; Bridge Field; Lake of Outrage; Stony Wilderness; Axew's Eye; Challenge Beach; Forest of Focus; e Training Lowlands",
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/845Cramorant_Dream_3.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Cramorant (Forma Engolidora)",
-		numero: 845.2, // considerando a national dex
-		tipo: ["Voador", " Água"],
-		massa: 18.0, // em kg
-		altura: 0.8, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps:		 	70,
-			atq:	 	85,
-			def:	 	55,
-			atq_esp: 	85,
-			def_esp: 	95,
-			vel: 		85,
-		},
-		descricao:
-			"Sua gula o levou a tentar engolir um Arrokuda inteiro, o que por sua vez fez com que ficasse com um Arrokuda preso na garganta.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Engolir",
-		obtencao:
-			"Rota 9; Bridge Field; Lake of Outrage; Stony Wilderness; Axew's Eye; Challenge Beach; Forest of Focus; Training Lowlands; e, quando usa Surfar ou Mergulho, estar acima dos 50% de PS",
-		estagio: 1,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d7/0845Cramorant-Gulping.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Cramorant (Forma Devoradora)",
-		numero: 845.3, // considerando a national dex
-		tipo: ["Voador", " Água"],
-		massa: 18.0, // em kg
-		altura: 0.8, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps:		 	70,
-			atq:	 	85,
-			def:	 	55,
-			atq_esp: 	85,
-			def_esp: 	95,
-			vel: 		85,
-		},
-		descricao:
-			"Este Pokémon acidentalmente prendeu um Pikachu em sua garganta. Está engasgando um pouco, mas não está realmente incomodado.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Engolir",
-		obtencao:
-			"Rota 9; Bridge Field; Lake of Outrage; Stony Wilderness; Axew's Eye; Challenge Beach; Forest of Focus; Training Lowlands; e, quando usa Surfar ou Mergulho, estar abaixo dos 50% de PS",
-		estagio: 1,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/78/0845Cramorant-Gorging.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)",
 	},
@@ -27005,8 +26947,8 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grapploct_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Sinistea (Forma Falsificada)",
-		numero: 854.1, // considerando a national dex
+		nome: "Sinistea",
+		numero: 854, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.2, // em kg
 		altura: 0.1, // em metros
@@ -27020,49 +26962,22 @@ const pkmnDisponiveis = [
 			vel: 		50,
 		},
 		descricao:
-			"Dizem que este Pokémon nasceu quando um espírito solitário possuiu os restos de uma xícara de chá frio.", // considerando a dex da primeira geração que apareceu
+			"A xícara de chá que este Pokémon mora é uma famosa peça de louça antiga. Muitas falsificações estão em circulação.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chá Preto",
 		obtencao: "Bosque Glimwood; e Cemitério Antigo",
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bd/854Sinistea-Phony_Dream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Sinistea_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Sinistea (Forma Autêntica)",
-		numero: 854.2, // considerando a national dex
-		tipo: ["Fantasma"],
-		massa: 0.2, // em kg
-		altura: 0.1, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps:		 	40,
-			atq:	 	45,
-			def:	 	45,
-			atq_esp: 	74,
-			def_esp: 	54,
-			vel: 		50,
-		},
-		descricao:
-			"O padrão redemoinho no corpo deste Pokémon é sua fraqueza. Caso seja mexido, o redemoinho perde sua forma, e fica tonto.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chá Preto",
-		obtencao: "Bosque Glimwood; e Cemitério Antigo",
-		estagio: 1,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/71/854Sinistea-Antique_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sinistea_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Polteageist (Forma Falsificada)",
-		numero: 855.1, // considerando a national dex
+		nome: "Polteageist",
+		numero: 855, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.4, // em kg
 		altura: 0.2, // em metros
@@ -27081,37 +26996,10 @@ const pkmnDisponiveis = [
 		obtencao: "Cemitério Antigo; e por evolução",
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d0/855Polteageist_Phony_Dream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Polteageist_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Polteageist (Forma Autêntica)",
-		numero: 855.2, // considerando a national dex
-		tipo: ["Fantasma"],
-		massa: 0.4, // em kg
-		altura: 0.2, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps:		 	60,
-			atq:	 	65,
-			def:	 	65,
-			atq_esp: 	134,
-			def_esp: 	114,
-			vel: 		70,
-		},
-		descricao:
-			"Os Treinadores que este Pokémon confia serão permitidos a experimentar seu sabor e aroma diferenciados em primeira mão, experimentando apenas uma pequena quantidade de seu chá.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Chá Preto",
-		obtencao: "Por evolução",
-		estagio: 2,
-		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/71/855Polteageist-Antique_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Polteageist_(Pok%C3%A9mon)",
