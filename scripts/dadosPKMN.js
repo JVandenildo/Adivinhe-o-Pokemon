@@ -29291,7 +29291,7 @@ const pkmnDisponiveis = [
 			"Exibindo ótimo trabalho em equipe, usam seus incisivos para cortar pedaços de qualquer material que possa ser útil para um ninho, depois os levam embora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casal",
 		obtencao:
-			"South Province: Pokémon League; East Province: Área Um, Área Dois, e Área Três; e West Province: Área Dois, e Área Três",
+			"South Province: Pokémon League; East Province: Área Um, Área Dois, e Área Três; West Province: Área Dois, e Área Três; Kitakami Road; Apple Hills; Reveler's Road; Oni Mountain; Oni's Maw; Wistful Fields; Paradise Barrens; e Kitakami Wilds",
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30412,7 +30412,7 @@ const pkmnDisponiveis = [
 			"Usa o avental em seu peito para embrulhar comida, que carrega de volta para seu ninho. Gosta de derrubar coisas que fazem barulhos altos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Derruba-item",
 		obtencao:
-			"South Province: Área Seis; e West Province: Área Um, Área Três, e West Paldean Sea",
+			"South Province: Área Seis; West Province: Área Um, Área Três, e West Paldean Sea; Fellhorn Gorge; Oni Mountain; Wistful Fields; Paradise Barrens; Kitakami Wilds; e Timeless Woods",
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30611,7 +30611,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon vive em desertos áridos. Mantém seu corpo metálico consumindo ferro do solo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca Terrestre",
-		obtencao: "East Province: Área Três; e West Province: Asado Desert",
+		obtencao: "East Province: Área Três; West Province: Asado Desert; Apple Hills; Reveler's Road; Oni Mountain; Oni's Maw; Wistful Fields; Paradise Barrens; e Kitakami Wilds",
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30640,7 +30640,7 @@ const pkmnDisponiveis = [
 			"Absorve nutrientes de paredes das cavernas. As pétalas que usa são feitas de veneno cristalizado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minério",
 		obtencao:
-			"South Province: Alfornada Cavern; East Province: Área Três; West Province: Área Dois; e North Province: Área Um, Área Dois, e Montanha Glaseado; e Área Zero",
+			"South Province: Alfornada Cavern; East Province: Área Três; West Province: Área Dois; North Province: Área Um, Área Dois, e Montanha Glaseado; Área Zero; Oni Mountain; Infernal Pass; e Crystal Pool",
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30668,14 +30668,13 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando este Pokémon detecta perigo, abre suas pétalas cristalinas e dispara raios de seu corpo cônico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minério",
-		obtencao: "Área Zero; Oni Mountain; Crystal Pool; e por evolução",
+		obtencao: "Área Zero; Oni Mountain; Crystal Pool; Abismo da Área Zero; e por evolução",
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/68/970Glimmora_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/d/d8/970Glimmora_Dream_3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glimmora_(Pok%C3%A9mon)",
 	},
@@ -30749,7 +30748,7 @@ const pkmnDisponiveis = [
 			atq:	 	115,
 			def:	 	74,
 			atq_esp: 	75,
-			def_esp: 	65,
+			def_esp: 	64,
 			vel: 		90,
 		},
 		descricao:
@@ -30842,7 +30841,7 @@ const pkmnDisponiveis = [
 			"Quando este Pokémon descarta carne desnecessária, sua mente se torna afiada e seu poder psíquico aumenta. A carne sobrante tem um sabor suave, mais delicioso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Descarte",
 		obtencao:
-			"East Province: Área Um; West Province: West Paldean Sea; a North Province: North Paldean Sea, Casseroya Lake, e Socarrat Trail",
+			"East Province: Área Um; West Province: West Paldean Sea; e North Province: North Paldean Sea, Casseroya Lake, e Socarrat Trail",
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30928,7 +30927,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando sua raiva ultrapassou um ponto crítico, este Pokémon ganhou um poder que não é restringido pelos limites de seu corpo físico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Raivoso",
-		obtencao: "Por evolução",
+		obtencao: "Kitakami Wilds; Timeless Woods; e por evolução",
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31237,7 +31236,7 @@ const pkmnDisponiveis = [
 			vel: 		101,
 		},
 		descricao:
-			"Não há registros de que Pokémon tenha sido capturado. Faltam dados, mas as características deste Pokémon correspondem a uma criatura mostrada em um diário de expedição.", // considerando a dex da primeira geração que apareceu
+			"Não há registros de que este Pokémon tenha sido capturado. Faltam dados, mas as características deste Pokémon correspondem a uma criatura mostrada em um diário de expedição.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
 		obtencao: "Área Zero; e Union Circle",
 		estagio: 1,
@@ -31632,7 +31631,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O ódio daqueles que pereceram pela espada há muito tempo se revestiu de neve e se tornou um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ruína",
-		obtencao: "West Province: Iceland Shrine",
+		obtencao: "West Province: Icerend Shrine",
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,

@@ -5,4 +5,4 @@
 **/node_modules
 
 # ignorar dados
-**/dadosPKMN.*
+**/dadosPKMN.js
