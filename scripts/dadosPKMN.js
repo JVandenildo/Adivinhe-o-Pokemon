@@ -16984,7 +16984,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venipede_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Whirlpede",
+		nome: "Whirlipede",
 		numero: 544, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 58.5, // em kg
@@ -18825,7 +18825,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Klang_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Klingklang",
+		nome: "Klinklang",
 		numero: 601, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 81.0, // em kg

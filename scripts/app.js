@@ -235,7 +235,7 @@ function palpitar() {
 	const listaDiscas = [
 		/* primeira dica */
 		`<tr><th scope="col" colspan="1">Pegada</th></tr>
-		<tr><td><div class="pegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Dica pegada" /></div></td></tr>`,
+		<tr><td><div class="pegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>`,
 		/* segunda dica */
 		`<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
 		<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>`,
