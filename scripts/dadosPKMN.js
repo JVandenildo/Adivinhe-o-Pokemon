@@ -15496,7 +15496,7 @@ const pkmnDisponiveis = [
 			vel: 		127,
 		},
 		descricao:
-			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.", // considerando a dex da primeira geração que apareceu
+			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.",
 		categoria: "Pokémon Gratidão",
 		obtencao: "Paraíso das Flores",
 		estagio: 1,
@@ -32429,55 +32429,54 @@ const pkmnDisponiveis = [
 	},
 ];
 
-const nomesUnicos = [...new Set(pkmnDisponiveis.map((x) => x.nome))];
-const numerosUnicos = [
-	...new Set(pkmnDisponiveis.map((x) => x.numero.toFixed())),
-];
-
-/* geração de Kanto; 1-151 */
+/* 1ª geração, região de Kanto; 1-151 */
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
 const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
-const nomesPrimeira = [...new Set(primeiraGeracao.map((x) => x.nome))];
+const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
 
-/* geração de Johto; 152-251; 100 novos */
+/* 2ª geração, região de Johto; 152-251; 100 novos */
 const segundaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 2);
 const numerosSegunda = segundaGeracao.map((X) => X.numero);
-const nomesSegunda = [...new Set(segundaGeracao.map((x) => x.nome))];
+const nomesSegunda = segundaGeracao.map((x) => x.nome);
 
-/* geração de Hoenn; 252-386; 135 novos */
+/* 3ª geração, região de Hoenn; 252-386; 135 novos */
 const terceiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 3);
 const numerosTerceira = terceiraGeracao.map((x) => x.numero);
-const nomesTerceira = [...new Set(terceiraGeracao.map((x) => x.nome))];
+const nomesTerceira = terceiraGeracao.map((x) => x.nome);
 
-/* geração de Sinnoh; 387-493; 107 novos */
+/* 4ª geração, região de Sinnoh; 387-493; 107 novos */
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
-const nomesQuarta = [...new Set(quartaGeracao.map((x) => x.nome))];
+const nomesQuarta = quartaGeracao.map((x) => x.nome);
 
-/* geração de Unova; 494-649; 156 novos */
+/* 5ª geração, região de Unova; 494-649; 156 novos */
 const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
 const numerosQuinta = quintaGeracao.map((x) => x.numero);
-const nomesQuinta = [...new Set(quintaGeracao.map((x) => x.nome))];
+const nomesQuinta = quintaGeracao.map((x) => x.nome);
 
-/* geração de Kalos; 650-721; 72 novos */
+/* 6ª geração, região de Kalos; 650-721; 72 novos */
 const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
 const numerosSexta = sextaGeracao.map((x) => x.numero);
-const nomesSexta = [...new Set(sextaGeracao.map((x) => x.nome))];
+const nomesSexta = sextaGeracao.map((x) => x.nome);
 
-/* geração de Alola; 722-809; 88 novos */
+/* 7ª geração, região de Alola; 722-809; 88 novos */
 const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
 const numerosSetima = setimaGeracao.map((x) => x.numero);
-const nomesSetima = [...new Set(setimaGeracao.map((x) => x.nome))];
+const nomesSetima = setimaGeracao.map((x) => x.nome);
 
-/* geração de Galar e Hisui; 810-905; 96 novos */
+/* 8ª geração, região de Galar e Hisui; 810-905; 96 novos */
 const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
 const numerosOitava = oitavaGeracao.map((x) => x.numero);
-const nomesOitava = [...new Set(oitavaGeracao.map((x) => x.nome))];
+const nomesOitava = oitavaGeracao.map((x) => x.nome);
 
-/* geração de Paldea e Kikatami; 906-1025; 120 novos */
+/* 9ª geração, região de Paldea e Kikatami; 906-1025; 120 novos */
 const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
 const numerosNona = nonaGeracao.map((x) => x.numero);
-const nomesNona = [...new Set(nonaGeracao.map((x) => x.nome))];
+const nomesNona = nonaGeracao.map((x) => x.nome);
+
+/* todas gerações */
+const nomesGerais = pkmnDisponiveis.map((x) => x.nome);
+const numerosGerais = pkmnDisponiveis.map((x) => x.numero);
 
 console.info(
 	"# GERAÇÕES #",

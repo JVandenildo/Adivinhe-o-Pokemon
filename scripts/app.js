@@ -383,7 +383,7 @@ function procurarNomes() {
 			opcoesNomes.classList.add("opcoesNomesShow");
 			nomesGeral.classList.add("nomesGeralShow");
 
-			const nomes = nomesUnicos.filter(
+			const nomes = nomesGerais.filter(
 				/**
 				 * @param {string} nome
 				 * @returns {string}
