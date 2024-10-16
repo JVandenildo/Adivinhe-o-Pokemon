@@ -187,7 +187,7 @@ button {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 22rem;
+	top: 21.65rem;
 }
 
 .nomePalpite {
@@ -203,7 +203,6 @@ button {
 	font-weight: bolder;
 }
 
-form,
 #campoDicas {
 	display: flex;
 }
