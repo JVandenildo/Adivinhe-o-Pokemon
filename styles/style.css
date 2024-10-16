@@ -203,17 +203,12 @@ button {
 	font-weight: bolder;
 }
 
-#campoDicas {
-	display: flex;
-}
-
 #maquina {
 	margin: 0.2rem;
-	flex-direction: column;
-	align-items: center;
-	align-content: center;
-	justify-items: start;
-	justify-content: start;
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	align-content: start;
 }
 #dicas {
 	margin: auto;
@@ -254,6 +249,11 @@ table {
 	filter: contrast(1%) brightness(1%) invert(99%) !important;
 }
 
+#palpites {
+	width: 11rem;
+	height: fit-content;
+}
+
 #ultimosPalpites {
 	color: var(--dark-font-color);
 	font-family: "Chakra Petch", monospace;
@@ -261,15 +261,16 @@ table {
 	background-color: var(--light-bg);
 	border: solid 2px var(--filling-color);
 	border-radius: calc(10px + 0.3rem);
-	width: 9rem;
-	height: fit-content;
 }
 #ultimosPalpites p {
 	margin: 0.5rem;
 }
 
 #ultimato {
+	width: inherit;
+	height: fit-content;
 	text-align: center;
+	font-size: small;
 }
 #ultimato img {
 	/* não altere o tamanho das imagens

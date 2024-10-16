@@ -92,30 +92,26 @@ function desistir() {
 
 	if (palpites === 1) {
 		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite!<br />
-		Era ${escolhido[0].nome}!<br><a href="${
+		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
 			escolhido[0].link
-		}" target="_blank">Mais informações sobre ${
-			escolhido[0].nome
-		}</a>.</p><a href="${
+		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
 			escolhido[0].link
 		}" target="_blank"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+		}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
 			escolhido[0].nome
 		}" /></a>`;
 
 		return false;
 	} else {
 		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites!<br />
-		Era ${escolhido[0].nome}!<br><a href="${
+		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
 			escolhido[0].link
-		}" target="_blank">Mais informações sobre ${
-			escolhido[0].nome
-		}</a>.</p><a href="${
+		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
 			escolhido[0].link
 		}" target="_blank"><img loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+		}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
 			escolhido[0].nome
 		}" /></a>`;
 
@@ -297,29 +293,19 @@ function palpitar() {
 			btnPalpite.style.cursor = "not-allowed";
 
 			if (palpites === 1) {
-				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!<br><a href="${
-					escolhido[0].link
-				}" target="_blank">Mais informações sobre ${
-					escolhido[0].nome
-				}</a>.</p><a href="${
-					escolhido[0].link
-				}" target="_blank"><img loading="eager" src="${
+				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!</p>
+				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+				}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
 				}" /></a>`;
 
 				return true;
 			} else {
-				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!<br><a href="${
-					escolhido[0].link
-				}" target="_blank">Mais informações sobre ${
-					escolhido[0].nome
-				}</a>.</p><a href="${
-					escolhido[0].link
-				}" target="_blank"><img loading="eager" src="${
+				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!</p>
+				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+				}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
 				}" /></a>`;
 
@@ -338,15 +324,12 @@ function palpitar() {
 				btnPalpite.style.cursor = "not-allowed";
 
 				ultimato.innerHTML = `<p>Você errou!<br />
-				Era ${escolhido[0].nome}!<br><a href="${
+				Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
 					escolhido[0].link
-				}" target="_blank">Mais informações sobre ${
-					escolhido[0].nome
-				}</a>.</p><a href="${
-					escolhido[0].link
-				}" target="_blank"><img loading="eager" src="${
+				}" target="_blank">${escolhido[0].nome}!</a>.</p>
+				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Sprite de ${escolhido[0].nome}" alt="Sprite de ${
+				}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
 				}" /></a>`;
 
