@@ -260,9 +260,12 @@ table {
 	color: var(--dark-font-color);
 	font-family: "Chakra Petch", monospace;
 	font-size: smaller !important;
+	font-weight: normal;
 	background-color: var(--light-bg);
 	border: solid 2px var(--filling-color);
 	border-radius: calc(10px + 0.3rem);
+	max-height: 25rem;
+	overflow-y: hidden;
 }
 #ultimosPalpites p {
 	margin: 0.5rem;
@@ -273,6 +276,8 @@ table {
 	height: fit-content;
 	text-align: center;
 	font-size: small;
+	font-weight: bolder;
+	font-family: "Chakra Petch", monospace;
 }
 #ultimato img {
 	/* não altere o tamanho das imagens

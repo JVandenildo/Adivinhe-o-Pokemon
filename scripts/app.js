@@ -338,12 +338,8 @@ function procurarNomes() {
 			opcoesNomes.classList.add("opcoesNomesShow");
 			nomesGeral.classList.add("nomesGeralShow");
 
-			const nomes = nomesGerais.filter(
-				/**
-				 * @param {string} nome
-				 * @returns {string}
-				 */
-				(nome) => nome.toLowerCase().includes(campoPalpite.value.toLowerCase())
+			const nomes = nomesGerais.filter((nome) =>
+				nome.toLowerCase().includes(campoPalpite.value.toLowerCase())
 			);
 
 			for (let i in nomes) {
