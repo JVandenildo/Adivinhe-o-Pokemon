@@ -236,17 +236,19 @@ table {
 
 .pegada {
 	margin: 0rem auto;
-	width: 20px !important;
-	height: 20px !important;
+	width: 1.5rem !important;
+	height: 1.5rem !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: x-small;
-	text-align: center;
-	vertical-align: middle;
 	background-color: var(--dark-bg2);
 	border-radius: 49%;
 }
 .pegada img {
 	max-height: 1rem;
 	filter: contrast(1%) brightness(1%) invert(99%) !important;
+	margin: auto !important;
 }
 
 #palpites {
@@ -267,7 +269,7 @@ table {
 }
 
 #ultimato {
-	width: inherit;
+	width: max-content;
 	height: fit-content;
 	text-align: center;
 	font-size: small;
@@ -275,5 +277,6 @@ table {
 #ultimato img {
 	/* não altere o tamanho das imagens
 	algumas chegam a exatamente 150px */
+	max-width: max-content;
 	max-height: 150px;
 }

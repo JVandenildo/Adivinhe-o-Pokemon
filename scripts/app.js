@@ -18,38 +18,6 @@ const checkOitava = document.querySelector("#checkOitava");
 const checkNona = document.querySelector("#checkNona");
 const checkTodas = document.querySelector("#checkTodas");
 
-/**
- * Função que lida com a escolha de todas gerações de uma vez.
- * @returns boolean apenas para retornar algo.
- */
-function geracoesSelecionadas() {
-	if (checkTodas.checked) {
-		checkPrimeira.checked = true;
-		checkSegunda.checked = true;
-		checkTerceira.checked = true;
-		checkQuarta.checked = true;
-		checkQuinta.checked = true;
-		checkSexta.checked = true;
-		checkSetima.checked = true;
-		checkOitava.checked = true;
-		checkNona.checked = true;
-
-		return true;
-	} else {
-		checkPrimeira.checked = false;
-		checkSegunda.checked = false;
-		checkTerceira.checked = false;
-		checkQuarta.checked = false;
-		checkQuinta.checked = false;
-		checkSexta.checked = false;
-		checkSetima.checked = false;
-		checkOitava.checked = false;
-		checkNona.checked = false;
-
-		return false;
-	}
-}
-
 let escolhido = {
 	nome: "MissingNo.",
 	numero: 0, // considerando a national dex
@@ -73,51 +41,13 @@ let escolhido = {
 	variante: false,
 	lendario: true,
 	sprite: [
+		"https://archives.bulbagarden.net/media/upload/8/86/Ketsuban.png",
 		"https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
 		"https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png",
 	],
 	link: "https://bulbapedia.bulbagarden.net/wiki/MissingNo",
 };
 let palpites = 0;
-
-function desistir() {
-	campoPalpite.value = "";
-	opcoesNomes.classList.remove("opcoesNomesShow");
-	nomesGeral.classList.remove("nomesGeralShow");
-	btnPalpite.removeEventListener("click", palpitar);
-	btnDesistencia.removeEventListener("click", desistir);
-	btnDesistencia.style.cursor = "not-allowed";
-	btnPalpite.removeEventListener("click", palpitar);
-	btnPalpite.style.cursor = "not-allowed";
-
-	if (palpites === 1) {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite!<br />
-		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
-			escolhido[0].link
-		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
-			escolhido[0].link
-		}" target="_blank"><img loading="eager" src="${
-			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
-			escolhido[0].nome
-		}" /></a>`;
-
-		return false;
-	} else {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites!<br />
-		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
-			escolhido[0].link
-		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
-			escolhido[0].link
-		}" target="_blank"><img loading="eager" src="${
-			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
-			escolhido[0].nome
-		}" /></a>`;
-
-		return false;
-	}
-}
 
 /**
  * Gera um novo PKMN para começar um novo jogo.
@@ -143,6 +73,7 @@ function novaTentativa() {
 		btnPalpite.style.cursor = "pointer";
 		btnDesistencia.addEventListener("click", desistir);
 		btnDesistencia.style.cursor = "pointer";
+		document.addEventListener("keydown", gerenciarEnter);
 
 		const data = new Date();
 		const ticket = Math.floor(
@@ -161,7 +92,7 @@ function novaTentativa() {
 			(x) => x.numero === selecaoGeracao(ticket)
 		);
 
-		// console.info(`Ticket: ${ticket}\n${escolhido[0].nome}`);
+		// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`);
 
 		dicas.insertAdjacentHTML(
 			"beforeend",
@@ -217,6 +148,46 @@ function selecaoGeracao(numero) {
 	}
 
 	return numerosDisponiveis[numero];
+}
+
+function desistir() {
+	campoPalpite.value = "";
+	opcoesNomes.classList.remove("opcoesNomesShow");
+	nomesGeral.classList.remove("nomesGeralShow");
+	btnPalpite.removeEventListener("click", palpitar);
+	btnDesistencia.removeEventListener("click", desistir);
+	btnDesistencia.style.cursor = "not-allowed";
+	btnPalpite.removeEventListener("click", palpitar);
+	btnPalpite.style.cursor = "not-allowed";
+	document.removeEventListener("keydown", gerenciarEnter);
+
+	if (palpites === 1) {
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite!<br />
+		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
+			escolhido[0].link
+		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
+			escolhido[0].link
+		}" target="_blank"><img loading="eager" src="${
+			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+		}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
+			escolhido[0].nome
+		}" /></a>`;
+
+		return false;
+	} else {
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites!<br />
+		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
+			escolhido[0].link
+		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
+			escolhido[0].link
+		}" target="_blank"><img loading="eager" src="${
+			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+		}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
+			escolhido[0].nome
+		}" /></a>`;
+
+		return false;
+	}
 }
 
 /**
@@ -291,12 +262,13 @@ function palpitar() {
 			btnDesistencia.style.cursor = "not-allowed";
 			btnPalpite.removeEventListener("click", palpitar);
 			btnPalpite.style.cursor = "not-allowed";
+			document.removeEventListener("keydown", gerenciarEnter);
 
 			if (palpites === 1) {
 				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!</p>
 				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
+				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
 				}" /></a>`;
 
@@ -305,7 +277,7 @@ function palpitar() {
 				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!</p>
 				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
+				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
 				}" /></a>`;
 
@@ -326,10 +298,10 @@ function palpitar() {
 				ultimato.innerHTML = `<p>Você errou!<br />
 				Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
 					escolhido[0].link
-				}" target="_blank">${escolhido[0].nome}!</a>.</p>
+				}" target="_blank">${escolhido[0].nome}</a>!</p>
 				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Mais informações de ${escolhido[0].nome}" alt="Sprite de ${
+				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
 					escolhido[0].nome
 				}" /></a>`;
 
@@ -403,6 +375,7 @@ function selecaoPalpite(palpite) {
  * @returns {boolean} nada.
  */
 function resetar() {
+	document.removeEventListener("keydown", gerenciarEnter);
 	campoPalpite.value = "";
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
@@ -422,4 +395,43 @@ function indiceAleatorio(array) {
 	const data = new Date();
 
 	return Math.floor(Math.random(data) * array.length);
+}
+
+/**
+ * Função que lida com a escolha de todas gerações de uma vez.
+ * @returns {boolean} apenas para retornar algo.
+ */
+function geracoesSelecionadas() {
+	if (checkTodas.checked) {
+		checkPrimeira.checked = true;
+		checkSegunda.checked = true;
+		checkTerceira.checked = true;
+		checkQuarta.checked = true;
+		checkQuinta.checked = true;
+		checkSexta.checked = true;
+		checkSetima.checked = true;
+		checkOitava.checked = true;
+		checkNona.checked = true;
+
+		return true;
+	} else {
+		checkPrimeira.checked = false;
+		checkSegunda.checked = false;
+		checkTerceira.checked = false;
+		checkQuarta.checked = false;
+		checkQuinta.checked = false;
+		checkSexta.checked = false;
+		checkSetima.checked = false;
+		checkOitava.checked = false;
+		checkNona.checked = false;
+
+		return false;
+	}
+}
+
+function gerenciarEnter(e) {
+	if (e.key === "Enter") {
+		e.preventDefault();
+		btnPalpite.click();
+	}
 }
