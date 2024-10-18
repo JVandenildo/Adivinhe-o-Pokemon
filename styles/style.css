@@ -285,10 +285,10 @@ table p {
 #ultimato img {
 	/* não altere o tamanho das imagens
 	algumas chegam a exatamente 150px */
-	max-width: max-content;
-	max-height: 150px;
+	max-width: 150px;
 	-webkit-filter: drop-shadow(1px 1px 1px var(--light-bg2))
 		drop-shadow(calc(-1 * 1px) calc(-1 1px) 1px var(--light-bg2));
 	filter: drop-shadow(1px 1px 1px var(--light-bg2))
 		drop-shadow(calc(-1 * 1px) calc(-1 * 1px) 1px var(--light-bg2));
+	color: var(--dark-font-color);
 }
