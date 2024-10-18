@@ -232,6 +232,7 @@ button {
 table {
 	border-radius: calc(10px);
 	border-spacing: 5px;
+	margin: 0.5rem auto;
 }
 table p {
 	margin: 0px 3px;

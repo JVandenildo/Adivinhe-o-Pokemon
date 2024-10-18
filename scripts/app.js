@@ -96,7 +96,7 @@ function novaTentativa() {
 
 		dicas.insertAdjacentHTML(
 			"beforeend",
-			`<table>
+			`<table style="margin: 0px auto !important;">
 				<tr>
 					<th scope="col" colspan="1">Massa</th>
 					<th scope="col" colspan="1">Altura</th>
@@ -249,7 +249,7 @@ function palpitar() {
 		/* sétima dica */
 		`<table>
 			<tr><th scope="col" colspan="1">Número</th></tr>
-			<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
+			<tr><td style="hyphens: auto;">${Math.floor(escolhido[0].numero)}</td></tr>
 		</table>`,
 		/* oitava e última dica */
 		`<table>
