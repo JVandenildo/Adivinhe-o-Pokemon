@@ -17,7 +17,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma semente estranha foi plantada nas suas costas em seu nascimento. A planta brota e cresce com esse Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
-		obtencao: "Laboratório do Prof. Carvalho",
+		obtencao: ["Laboratório do Prof. Carvalho"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -45,7 +45,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando o bulbo nas suas costas cresce, aparenta perder a capacidade de ficar em pé nas patas traseiras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -73,7 +73,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A planta floresce quando absorve energia solar. Permanece se movimentando em busca de luz solar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -101,7 +101,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Obviamente prefere lugares quentes. Dizem que quando chove, sai vapor da ponta de sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagarto",
-		obtencao: "Laboratório do Prof. Carvalho",
+		obtencao: ["Laboratório do Prof. Carvalho"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -129,7 +129,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando balança sua cauda em chamas, a temperatura é elevada a níveis insuportavelmente altos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -157,7 +157,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cospe fogo quente o suficiente para derreter rochas. É conhecido por causar incêndio florestal não intencionalmente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -185,7 +185,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Após seu nascimento, suas costas incham e endurecem em uma carapaça. Espalha poderosamente uma espuma de sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tartaruguinha",
-		obtencao: "Laboratório do Prof. Carvalho",
+		obtencao: ["Laboratório do Prof. Carvalho"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -213,7 +213,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Comumente esconde-se na água para perseguir presa desavisada. Para um nado rápido, movimenta suas orelhas para manter estabilidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tartaruga",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -241,7 +241,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon brutal com jatos de água pressurizada em seu casco. São usados em investidas de alta velocidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -269,7 +269,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus pés curtos são dotados de ventosas que lhe permitem escalar encostas e paredes sem cansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca",
-		obtencao: "Rotas 2, 24, e 25; e Floresta de Viridiana",
+		obtencao: ["Rotas 2, 24, e 25", "Floresta de Viridiana"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -297,7 +297,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É vulnerável a ataques enquanto seu casulo está mole, expondo seu corpo fraco e frágil.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Rotas 24, e 25; Floresta de Viridiana; e por evolução",
+		obtencao: ["Rotas 24, e 25", "Floresta de Viridiana", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -325,7 +325,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Em batalha, bate suas asas em alta velocidade para liberar poeira altamente tóxico no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Borboleta",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -353,7 +353,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Comumente encontrado em florestas, comendo folhas. Possui um ferrão afiado e venenoso em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto Peludo",
-		obtencao: "Rotas 2, 24, e 25; e Floresta de Viridiana",
+		obtencao: ["Rotas 2, 24, e 25", "Floresta de Viridiana"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -381,7 +381,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quase incapaz de se mover, este Pokémon consegue só endurecer seu casulo para proteger a si mesmo de predadores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Rotas 24, e 25; Floresta de Viridiana; e por evolução",
+		obtencao: ["Rotas 24, e 25", "Floresta de Viridiana", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -409,7 +409,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa em alta velocidade e ataca usando seus ferrões venenosos localizados nas patas dianteiras e cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abelha Venenosa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -437,7 +437,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Comum ser visto em florestas e bosques. Bate as asas próximo ao chão para levantar poeira ofuscante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
-		obtencao: "Rotas 1, 2, 3, e outras; e Floresta de Viridiana",
+		obtencao: ["Rotas 1, 2, 3, e outras", "Floresta de Viridiana"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -465,7 +465,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Muito protetor de sua extensa área territorial, este Pokémon irá bicar ferozmente qualquer intruso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro",
-		obtencao: "Rotas 5, 6, 7, e outras; Floresta de Viridiana; e por evolução",
+		obtencao: ["Rotas 5, 6, 7, e outras", "Floresta de Viridiana", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -493,7 +493,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando caça, desliza na superfície da água em alta velocidade para pegar presas desavisadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -521,7 +521,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Morde qualquer coisa quando ataca. Pequeno e muito rápido, é comum ser visto em vários lugares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Rotas 1, 2, 3, e outras; e Mansão Pokémon",
+		obtencao: ["Rotas 1, 2, 3, e outras", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -550,7 +550,7 @@ const pkmnDisponiveis = [
 			"Quando o sol se põe, este Pokémon se torna ativo. Corre pela cidade a procura de boa comida para o líder de seu ninho.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao:
-			"Rotas 1, 2, 3, e outras; Hau'oli City; Kala'e Bay; e Verdant Cavern",
+			["Rotas 1, 2, 3, e outras", "Hau'oli City", "Kala'e Bay", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -579,7 +579,7 @@ const pkmnDisponiveis = [
 			"Usa seus bigodes para manter o equilíbrio. Aparentemente fica mais lento quando são cortados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao:
-			"Rotas 9, 10, 11, e outras; Mansão Pokémon; Caverna de Cerulean; e por evolução",
+			["Rotas 9, 10, 11, e outras", "Mansão Pokémon", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -608,7 +608,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon gourmet é exigente sobre o gosto e o frescor de sua comida. Restaurantes onde vive possui uma boa reputação.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao:
-			"Rotas 10, 11, 15, e outras; Akala Outskirts; Ancient Poni Path; Poni Gauntlet; Poni Grove; Poni Plains; Poni Wilds; Tapu Village; e por evolução",
+			["Rotas 10, 11, 15, e outras", "Akala Outskirts", "Ancient Poni Path", "Poni Gauntlet", "Poni Grove", "Poni Plains", "Poni Wilds", "Tapu Village", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -636,7 +636,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Come insetos em áreas gramadas. Tem que bater suas curtas asas em alta velocidade para se manter no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
-		obtencao: "Rotas 3, 4, 9, e outras",
+		obtencao: ["Rotas 3, 4, 9, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -664,7 +664,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com suas imensas e magnificas asas, consegue permanecer no ar sem pousar para descansar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bico",
-		obtencao: "Rotas 9, 16, 17, e outras; e por evolução",
+		obtencao: ["Rotas 9, 16, 17, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -692,7 +692,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Move-se de maneira silenciosa e furtiva. Come ovos de pássaros, como Pidgey e Spearow.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente",
-		obtencao: "Rotas 4, 8, 9, e outras",
+		obtencao: ["Rotas 4, 8, 9, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -720,7 +720,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rumores dizem que as marcas de sua barriga mudam de área para área.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cobra",
-		obtencao: "Rota 23; Caverna de Cerulean; e por evolução",
+		obtencao: ["Rota 23", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -748,7 +748,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mantém sua cauda erguida para monitorar seus arredores. Caso você tente puxar o rabo, este Pokémon tentará mordê-lo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Floresta de Viridiana; e Usina Elétrica Abandonada",
+		obtencao: ["Floresta de Viridiana", "Usina Elétrica Abandonada"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -776,7 +776,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando a eletricidade se acumula dentro de seu corpo, ela se torna agressiva. Este Pokémon também brilha no escuro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Usina Elétrica Abandonada; Caverna de Cerulean; e por evolução",
+		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -804,7 +804,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa psicocinese para controlar eletricidade. Pula em sua própria cauda, usa poderes psíquicos para levantar a cauda e se mover enquanto a cavalga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -832,7 +832,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Escava profundamente na terra em lugares áridos e distantes de água. Só sai para caçar comida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Rotas 3, 4, 8, e outras; e Monte da Lua",
+		obtencao: ["Rotas 3, 4, 8, e outras", "Monte da Lua"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -860,7 +860,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em montanhas nevadas. Sua carapaça metálica é muito dura, tão dura que não consegue se enrolar em uma bola.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Mount Lanakila; e Tapu Village",
+		obtencao: ["Mount Lanakila", "Tapu Village"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -888,7 +888,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enrola-se em uma bola espinhosa quando se sente ameaçado. Pode rolar para atacar ou escapar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Rota 23; Caverna de Cerulean; e por evolução",
+		obtencao: ["Rota 23", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -916,7 +916,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Fugindo de uma erupção vulcânica, se estabeleceu em uma montanha nevada. Enquanto corre pelos campos de neve, envia um jato de neve.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -944,7 +944,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de pequenos, seus espinhos venenosos tornam este Pokémon perigoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Rotas 2, 9, 10, e outra; e Zona Safari",
+		obtencao: ["Rotas 2, 9, 10, e outra", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -972,7 +972,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O chifre da fêmea desenvolve devagar. Prefere ataques físicos como mordida e patadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Rotas 9, e 23; Zona Safari; e por evolução",
+		obtencao: ["Rotas 9, e 23", "Zona Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1000,7 +1000,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas duras escamas lhe dão uma forte proteção. Usa seu grande volume para executar ataques poderosos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1028,7 +1028,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enrijece suas orelhas para sentir perigo. Quanto maior seus chifres, mais poderoso é seu veneno secretado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Rotas 2, 9, 10, e outra; e Zona Safari",
+		obtencao: ["Rotas 2, 9, 10, e outra", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1056,7 +1056,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon agressivo que é rápido para atacar. O chifre em sua cabeça secreta um poderoso veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Rotas 9, e 23; Zona Safari; e por evolução",
+		obtencao: ["Rotas 9, e 23", "Zona Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1084,7 +1084,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa sua poderosa cauda para golpear, imobilizar, e então quebrar os ossos de sua presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1112,7 +1112,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência mágica e fofa possui muitos admiradores. É raro e encontrado somente em certas áreas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
-		obtencao: "Monte da Lua; e Caverna de Cerulean",
+		obtencao: ["Monte da Lua", "Caverna de Cerulean"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1140,7 +1140,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon fada tímido que é raramente visto. Corre e se esconde no momento que sente uma pessoa por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1168,7 +1168,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"No momento do nascimento, só possui uma cauda. A cauda se divide a partir da ponta a medida que envelhece.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Rotas 7, e 8; e Mansão Pokémon",
+		obtencao: ["Rotas 7, e 8", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1196,7 +1196,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Em climas quentes, este Pokémon cria cacos de gelo com suas seis caudas e os espalha para se refrescar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Tapu Village; e Mount Lanakila",
+		obtencao: ["Tapu Village", "Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1224,7 +1224,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Muito inteligente e vingativo. Agarrar uma de suas várias caldas poderia resultar um uma maldição de 1'000 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1252,7 +1252,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cria gotas de gelo em seu pelo e as joga sobre seus inimigos. Qualquer um que o irrite ficará congelado em um instante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1280,7 +1280,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando seus grandes olhos se iluminam, canta uma melodia misteriosamente suave que embala seus inimigos para dormir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
-		obtencao: "Rotas 3, 5, 6, e outras",
+		obtencao: ["Rotas 3, 5, 6, e outras"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1308,7 +1308,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é macio e emborrachado. Quando atiçado, suga ar e infla-se a um tamanho enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
-		obtencao: "Caverna de Cerulean; e por evolução",
+		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1337,7 +1337,7 @@ const pkmnDisponiveis = [
 			"Forma colônias em lugares escuros. Usa ondas ultrassônicas para identificar e se aproximar de alvos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
 		obtencao:
-			"Monte da Lua; Túnel de Rocha; Ilhas Espuma; e Estrada da Vitória",
+			["Monte da Lua", "Túnel de Rocha", "Ilhas Espuma", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1366,7 +1366,7 @@ const pkmnDisponiveis = [
 			"Uma vez que ataca, não para de drenar a energia de suas vítimas mesmo que fique pesado demais para voar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
 		obtencao:
-			"Ilhas Espuma; Estrada da Vitória; Caverna de Cerulean; e por evolução",
+			["Ilhas Espuma", "Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1394,7 +1394,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Durante o dia, mantém seu rosto enterrado no chão. Durante a noite, vagueia semeando suas sementes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
-		obtencao: "Rotas 5, 6, 7, e outras",
+		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1422,7 +1422,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O fluido que escorre de sua boca não é baba. É um néctar usado para atrair suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva Daninha",
-		obtencao: "Rotas 12, 13, 14, e outra; Caverna de Cerulean; e por evolução",
+		obtencao: ["Rotas 12, 13, 14, e outra", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1450,7 +1450,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quanto maior suas pétalas, mais pólen tóxico contém. Sua cabeça grande é pesada e difícil de segurar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1478,7 +1478,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Escava para se alimentar de raízes. Os cogumelos em suas costas crescem extraindo nutrientes do inseto hospedeiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
-		obtencao: "Monte da Lua; e Zona Safari",
+		obtencao: ["Monte da Lua", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1506,7 +1506,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um par hospedeiro-parasita no qual o cogumelo parasita assumiu o controle do inseto hospedeiro. Prefere lugares úmidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
-		obtencao: "Zona Safari; Caverna de Cerulean; e por evolução",
+		obtencao: ["Zona Safari", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1534,7 +1534,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive nas sombras de árvores altas onde come insetos. É atraído por luzes durante a noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inseto",
-		obtencao: "Rotas 12, 13, 14, e outras; e Zona Safari",
+		obtencao: ["Rotas 12, 13, 14, e outras", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1563,7 +1563,7 @@ const pkmnDisponiveis = [
 			"As escamas semelhantes a poeira que cobrem suas asas são codificadas por cor para indicar os tipos de veneno que possui.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa Venenosa",
 		obtencao:
-			"Zona Safari; Estrada da Vitória; Caverna de Cerulean; e por evolução",
+			["Zona Safari", "Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1591,7 +1591,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em torno de um metro abaixo da superfície onde se alimente de raízes. Aparece ocasionalmente acima da superfície.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
-		obtencao: "Túnel dos Diglett",
+		obtencao: ["Túnel dos Diglett"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1620,7 +1620,7 @@ const pkmnDisponiveis = [
 			"Seus pelos dourados funcionam como sensores. Os coloca para fora de sua toca para monitorar os arredores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
 		obtencao:
-			"Rotas 5, e 7; Diglett's Tunnel; Lush Jungle (Cave); Seaward Cave; Ten Carat Hill; e Verdant Cavern",
+			["Rotas 5, e 7", "Diglett's Tunnel", "Lush Jungle (Cave)", "Seaward Cave", "Ten Carat Hill", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1647,7 +1647,7 @@ const pkmnDisponiveis = [
 		},
 		descricao: "Desencadeia grandes terremotos ao cavar 100km no subsolo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
-		obtencao: "Túnel dos Diglett; e por evolução",
+		obtencao: ["Túnel dos Diglett", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1676,7 +1676,7 @@ const pkmnDisponiveis = [
 			"Seus pelos dourados brilhantes lhe fornecem proteção. Dizem que guardar qualquer um de seu cabelo caído trará azar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
 		obtencao:
-			"Haina Desert; Poni Coast; Resolution Cave; Vast Poni Canyon; e por evolução",
+			["Haina Desert", "Poni Coast", "Resolution Cave", "Vast Poni Canyon", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1704,7 +1704,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gosta de objetos redondos. Vaga pelas ruas todas as noites procurando por trocados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arranha Gato",
-		obtencao: "Rotas 5, 6, 7, e outra",
+		obtencao: ["Rotas 5, 6, 7, e outra"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1732,7 +1732,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando seu delicado orgulho é ferido, ou quando a moeda dourada em sua testa é suja, corre em fúria histérica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arranha Gato",
-		obtencao: "Rota 2; Trainer's School; Hau'oli City; e Malie Garden",
+		obtencao: ["Rota 2", "Trainer's School", "Hau'oli City", "Malie Garden"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1760,7 +1760,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esses Pokémon ousados têm moedas em suas testas. Moedas mais escuras são mais duras, e moedas mais duras ganham mais respeito entre os de sua espécie.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arranha Gato",
-		obtencao: "Rota 4",
+		obtencao: ["Rota 4"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1788,7 +1788,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de seu pelo possuir muitos admiradores, é difícil de criar como animal de estimação por sua maldade inconstante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato de Luxo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1816,7 +1816,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Olha com desdém para todos, exceto para si. Suas táticas preferidas são socos e ataques surpresa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato de Luxo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1844,7 +1844,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enquanto engana seus oponentes com seu olhar distraído, este astuto Pokémon usa seus poderes psicocinéticos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
-		obtencao: "Rotas 6, 24, e 25; Ilhas Espuma; e Zona Safari",
+		obtencao: ["Rotas 6, 24, e 25", "Ilhas Espuma", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1872,7 +1872,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Frequentemente visto nadando elegantemente às marges de lagos. Muitas vezes confundido com a criatura japonesa, Kappa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato",
-		obtencao: "Rota 6; Ilhas Espuma; e por evolução",
+		obtencao: ["Rota 6", "Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1900,7 +1900,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Extremamente rápido em se irritar. Pode ser dócil em um momento e logo depois se debater.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Porco",
-		obtencao: "Rotas 3, 4, 5, e outras",
+		obtencao: ["Rotas 3, 4, 5, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1928,7 +1928,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Só deixa de estar raivoso quando mais ninguém está por perto. Não deixará de perseguir sua presa até que seja pega.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Porco",
-		obtencao: "Rota 23; e por evolução",
+		obtencao: ["Rota 23", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -1956,7 +1956,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Muito protetor de seu território. Late e morde para repelir invasores de seu espaço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
-		obtencao: "Rotas 7, e 8; e Mansão Pokémon",
+		obtencao: ["Rotas 7, e 8", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -1984,7 +1984,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Patrulham seu território em pares. Acredito que os componentes de rocha ígnea no pelo desta espécie são o resultado de atividade vulcânica em seu habitat.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escoteiro",
-		obtencao: "Cobalt: Coastlands: Windbreak Stand, e Veilstone Cape",
+		obtencao: ["Cobalt: Coastlands: Windbreak Stand, e Veilstone Cape"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2012,7 +2012,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon que tem sido admirado por sua beleza. Corre com agilidade como se tivesse asas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lendário",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2040,7 +2040,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ataca seus inimigos com presas envoltas em chamas ardentes. Apesar do tamanho, engana seus oponentes com movimentos rápidos em todas as direções, levando-os a uma perseguição enquanto dança ao redor deles.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lendário",
-		obtencao: "Cobalt Coastlands; e por evolução",
+		obtencao: ["Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2069,7 +2069,7 @@ const pkmnDisponiveis = [
 			"Suas pernas recém crescidas o previnem de correr. Aparenta preferir nadar a tentar ficar de pé.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
 		obtencao:
-			"Rotas 6, 10, 11, e outras; Caverna de Cerulean; Zona Safari; Ilhas Espuma; e Planalto Índigo",
+			["Rotas 6, 10, 11, e outras", "Caverna de Cerulean", "Zona Safari", "Ilhas Espuma", "Planalto Índigo"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2097,7 +2097,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Capaz de viver dentro e fora d'água. Quando está fora da água, transpira para manter seu corpo viscoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
-		obtencao: "Rotas 10, 22, e 23; e por evolução",
+		obtencao: ["Rotas 10, 22, e 23", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2125,7 +2125,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um hábil nadador dos nado crawl e nado peito. Facilmente ultrapassa os melhores nadadores humanos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2153,7 +2153,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usando sua habilidade de ler mentes, identifica o perigo iminente e teleporta para um local seguro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
-		obtencao: "Rotas 5, 6, 7, e outras",
+		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2181,7 +2181,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Emite ondas alfas especiais de seu corpo que induzem dores de cabeça apenas por estar por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
-		obtencao: "Rota 8; Caverna de Cerulean; e por evolução",
+		obtencao: ["Rota 8", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2209,7 +2209,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu cérebro consegue superar um super-computador. É dito que seu QI é de 5'000.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Psi",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2237,7 +2237,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gosta de construir seu músculos. Treina em todos os estilos de artes marciais para se tornar mais forte.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
-		obtencao: "Rota 10; Túnel de Rocha; e Estrada da Vitória",
+		obtencao: ["Rota 10", "Túnel de Rocha", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2265,7 +2265,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo musculoso é tão poderoso, deve usar um cinto regulador de energia para.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
-		obtencao: "Estrada da Vitória; e por evolução",
+		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2293,7 +2293,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usando seus pesados músculos, lança poderosos socos que conseguem mandar a vítima para o horizonte.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Superpoder",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2321,7 +2321,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon carnívoro que prende e come insetos. Usa seus pés raiz para sugar a umidade necessária.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
-		obtencao: "Rotas 5, 6, 7, e outras",
+		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2349,7 +2349,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Expele Pó de Veneno para imobilizar seu adversário e então finaliza com um spray de Ácido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mata-Moscas",
-		obtencao: "Rotas 12, 13, 14, e outra; Caverna de Cerulean; e por evolução",
+		obtencao: ["Rotas 12, 13, 14, e outra", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2377,7 +2377,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito viver em grandes colônias nas profundezas das selvas, embora ninguém tenha retornando de lá.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mata-Moscas",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2405,7 +2405,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Deriva em mares rasos. Pescadores que os fisgam por acidente são frequentemente punidos por seu Ácido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Água-Viva",
-		obtencao: "Rotas 11, 12, 13, e outras",
+		obtencao: ["Rotas 11, 12, 13, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2433,7 +2433,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os tentáculos são normalmente mantidos curtos. Nas caçadas, os tentáculos são estendidos para enredar e imobilizar presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Água-Viva",
-		obtencao: "Rotas 19, 20, e 21; e por evolução",
+		obtencao: ["Rotas 19, 20, e 21", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2461,7 +2461,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Encontrado em campos e montanhas. Pessoas, por confundi-los com pedras, pisam ou tropeçam neles.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
-		obtencao: "Monte da Lua; Túnel de Rocha; e Estrada da Vitória",
+		obtencao: ["Monte da Lua", "Túnel de Rocha", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2489,7 +2489,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é uma rocha magnética. Areia de ferro se prende firmemente as partes de seu corpo que são particularmente magnéticas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
-		obtencao: "Rota 12; e Blush Mountain",
+		obtencao: ["Rota 12", "Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2517,7 +2517,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rola para se mover. Rola sobre qualquer obstáculo sem diminuir a velocidade ou muda sua direção.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
-		obtencao: "Estrada da Vitória; Caverna de Cerulean; e por evolução",
+		obtencao: ["Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2545,7 +2545,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua comida preferida é dravita. Após ter comido esse mineral, cristais se formam dentro do Pokémon, subindo para a superfície de parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha",
-		obtencao: "Rota 17; e por evolução",
+		obtencao: ["Rota 17", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2573,7 +2573,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo semelhante a uma pedra é extremamente duro. Consegue facilmente aguentar explosões de dinamite sem dano algum.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Megaton",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2601,7 +2601,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atira rochas carregas com eletricidade. Mesmo se a rocha não for atirada com tanta precisão, apenas arranhar o oponente causará dormência e desmaio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Megaton",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2629,7 +2629,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus cascos são dez vezes mais duros que diamantes. Consegue atropelar qualquer coisa completamente plana em pouco tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo de Fogo",
-		obtencao: "Rota 17; e Mansão Pokémon",
+		obtencao: ["Rota 17", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2657,7 +2657,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu pequeno chifre esconde um poder de cura. Com algumas esfregadas do chifre deste Pokémon, qualquer ferimento leve que você tenha será curado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chifre Único",
-		obtencao: "Bosque Glimwood; e Cemitério Antigo",
+		obtencao: ["Bosque Glimwood", "Cemitério Antigo"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2685,7 +2685,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Muito competitivo, este Pokémon persegue qualquer coisa que se mova rápido na esperança de competir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo de Fogo",
-		obtencao: "Caverna de Cerulean; e por evolução",
+		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2713,7 +2713,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Corajoso e orgulhoso, este Pokémon corre velozmente pela floresta, com seus passos auxiliados pelo poder psíquico armazenado no pelo dos seus boletos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chifre Único",
-		obtencao: "Cemitério Antigo",
+		obtencao: ["Cemitério Antigo"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2741,7 +2741,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Incrivelmente lento. Demora cinco segundos para sentir dor quando atacado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atordoado",
-		obtencao: "Rotas 10, 12, e 13; Ilhas Espuma; e Zona Safari",
+		obtencao: ["Rotas 10, 12, e 13", "Ilhas Espuma", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2769,7 +2769,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de normalmente ser um Pokémon desorientado, sua expressão abruptamente se aguça dependendo da ocasião. A causa disso parece estar em sua dieta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atordoado",
-		obtencao: "Wedgehurst Station; e Fields of Honor",
+		obtencao: ["Wedgehurst Station", "Fields of Honor"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2798,7 +2798,7 @@ const pkmnDisponiveis = [
 			"É dito que o Shellder que está preso à sua cauda se alimenta dos restos que sobraram do hospedeiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo Eremita",
 		obtencao:
-			"Rotas 12, 13, e 23; Caverna de Cerulean; Ilhas Espuma; e por evolução",
+			["Rotas 12, 13, e 23", "Caverna de Cerulean", "Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2826,7 +2826,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma mordida de Shellder desencadeou uma reação química com os temperos dentro de seu corpo, fazendo com que ele se tornasse um Pokémon do tipo Veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo Eremita",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2854,7 +2854,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa anti-gravidade para permanecer suspenso. Aparece sem qualquer aviso e usa Onda-Trovão e movimentos similares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Magnético",
-		obtencao: "Rota 10; e Usina Elétrica Abandonada",
+		obtencao: ["Rota 10", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2882,7 +2882,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gera estranhas ondas de rádio. Aumenta a temperatura em dois graus Célsius dentro de um quilômetro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Magnético",
-		obtencao: "Usina Elétrica Abandonada; Caverna de Cerulean; e por evolução",
+		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2910,7 +2910,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O ramo de cebolinha que segura é sua arma. É usado como uma espada de metal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato Selvagem",
-		obtencao: "Rotas 12, e 13",
+		obtencao: ["Rotas 12, e 13"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2938,7 +2938,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"São guerreiros corajosos e usam alhos-porós grossos e resistentes na batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato Selvagem",
-		obtencao: "Rota 5; e Giant's Mirror",
+		obtencao: ["Rota 5", "Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -2966,7 +2966,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um pássaro que compensa por seu vôo ruim com sua alta velocidade de patas. Deixa pegadas gigantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Gêmeo",
-		obtencao: "Rotas 16, 17, e 18; e Zona Safari",
+		obtencao: ["Rotas 16, 17, e 18", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -2994,7 +2994,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa seus três cérebros para executar planos complexos. Enquanto duas cabeças dormem, uma cabeça permanece acordada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Triplo",
-		obtencao: "Rota 17; Caverna de Cerulean; e por evolução",
+		obtencao: ["Rota 17", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3022,7 +3022,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O chifre protuberante em sua cabeça é muito duro. É usado para bater em gelo espesso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leão Marinho",
-		obtencao: "Ilhas Espuma",
+		obtencao: ["Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3050,7 +3050,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena calor em seu corpo. Nada a 8 nós constantes, mesmo em águas intensamente frias.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leão Marinho",
-		obtencao: "Ilhas Espuma; e por evolução",
+		obtencao: ["Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3078,7 +3078,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparece em áreas imundas. Prospera consumindo lodo poluído que é bombeado para fora das fábricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
-		obtencao: "Mansão Pokémon; e Usina Elétrica Abandonada",
+		obtencao: ["Mansão Pokémon", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3106,7 +3106,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os cristais em seu corpo são pedaços de toxinas. Se um deles cair, venenos letais vazam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
-		obtencao: "Trainers' School; Hau'oli City; e Malie City",
+		obtencao: ["Trainers' School", "Hau'oli City", "Malie City"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3134,7 +3134,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Coberto por uma camada grossa de lama imunda e vil. É tão tóxico, mesmo suas pegadas contém veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
-		obtencao: "Mansão Pokémon; Usina Elétrica Abandonada; e por evolução",
+		obtencao: ["Mansão Pokémon", "Usina Elétrica Abandonada", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3162,7 +3162,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O lixo que come causa mudanças químicas constantes em seu corpo, o que produz sua coloração excessivamente vívida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lodo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3190,7 +3190,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua carapaça dura repele qualquer tipo de ataque. É vulnerável somente quando abre sua carapaça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
-		obtencao: "Rotas 6, 11, 19, e outras; e Ilhas Espuma",
+		obtencao: ["Rotas 6, 11, 19, e outras", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3218,7 +3218,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando atacado, lança seus chifres em voleios rápidos. Seu interior nunca foi visto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3246,7 +3246,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quase invisível, este Pokémon gasoso envolve o alvo e o põe para dormir sem que perceba.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás",
-		obtencao: "Torre Pokémon",
+		obtencao: ["Torre Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3274,7 +3274,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por causa de sua habilidade de atravessar paredes, é dito ser de outra dimensão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás",
-		obtencao: "Torre Pokémon; e por evolução",
+		obtencao: ["Torre Pokémon", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3302,7 +3302,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sob a lua cheia, este Pokémon imita as sombras das pessoas e ri do medo delas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sombra",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3330,7 +3330,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A medida que cresce, as porções de rocha de seu corpo endurecem para se tornarem semelhante a diamante, mas de cor preta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Pedra",
-		obtencao: "Túnel de Rocha; e Estrada da Vitória",
+		obtencao: ["Túnel de Rocha", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3358,7 +3358,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Põe os adversários para dormir então come seus sonhos. Ocasionalmente fica doente por comer sonhos ruins.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hipnose",
-		obtencao: "Rota 11",
+		obtencao: ["Rota 11"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3386,7 +3386,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando trava os olhos em um oponente, usa uma mistura de movimentos psíquicos, como Hipnose e Confusão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hipnose",
-		obtencao: "Caverna de Cerulean; e por evolução",
+		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3414,7 +3414,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas pinças não são só poderosas armas, são usadas para equilíbrio quando está andando de lado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo de Rio",
-		obtencao: "Rotas 6, 10, 11, e outras; Zona Safari; e Ilhas Espuma",
+		obtencao: ["Rotas 6, 10, 11, e outras", "Zona Safari", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3443,7 +3443,7 @@ const pkmnDisponiveis = [
 			"A pinça maior possui 10'000 cv em poder de esmagamento. Contudo, seu tamanho o torna difícil de usar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinça",
 		obtencao:
-			"Rotas 10, 23, e 25; Caverna de Cerulean; Ilhas Espuma; e por evolução",
+			["Rotas 10, 23, e 25", "Caverna de Cerulean", "Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3471,7 +3471,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Normalmente encontrado em usinas elétricas. Facilmente confundido com uma Poké Bola, já eletrocutaram muitas pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola",
-		obtencao: "Rota 10; e Usina Elétrica Abandonada",
+		obtencao: ["Rota 10", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3499,7 +3499,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon enigmático que, por acaso, tem uma semelhança com uma Pokébola. Quando animado, descarrega a corrente elétrica que armazenou em sua barriga e então solta uma grande e estrondosa risada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Esfera",
-		obtencao: "Coronet Highlands: Celestica Ruins, e Sacred Plaza",
+		obtencao: ["Coronet Highlands: Celestica Ruins, e Sacred Plaza"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3527,7 +3527,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena energia elétrica sob pressão muito alta. Geralmente explode com pouca ou nenhuma provocação.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola",
-		obtencao: "Usina Elétrica Abandonada; Caverna de Cerulean; e por evolução",
+		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3555,7 +3555,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O tecido na superfície de seu corpo é curiosamente semelhante a composição de uma Bolota. Quando irritado, este Pokémon libera uma corrente elétrica igual a 20 raios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Esfera",
-		obtencao: "Coronet Highlands; e por evolução",
+		obtencao: ["Coronet Highlands", "Por evolução"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3583,7 +3583,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Comumente confundido por ovos. Quando perturbados, rapidamente se reúnem e atacam em bando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ovo",
-		obtencao: "Zona Safari",
+		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3611,7 +3611,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus gritos são muito barulhentos. Isso ocorre porque cada uma das três cabeças pensa no que quiser.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coco",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3639,7 +3639,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"À medida que crescia mais e mais, sua dependência de poderes psíquicos aumentava, enquanto dentro de si despertava o poder do dragão adormecido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coco",
-		obtencao: "Exeggutor Island; e por evolução",
+		obtencao: ["Exeggutor Island", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3667,7 +3667,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por nunca remover seu capacete, ninguém nunca viu o real rosto deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Solitário",
-		obtencao: "Torre Pokémon; e Zona Safari",
+		obtencao: ["Torre Pokémon", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3696,7 +3696,7 @@ const pkmnDisponiveis = [
 			"O osso que segura é sua arma principal. Lança o osso com destreza como um boomerang para nocautear os alvos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Acumulador de Ossos",
 		obtencao:
-			"Zona Safari; Estrada da Vitória; Caverna de Cerulean; e por evolução",
+			["Zona Safari", "Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3724,7 +3724,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os ossos que possui já foram de sua mãe. Os arrependimentos de sua mãe se tornaram como um espírito vingativo protegendo este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Acumulador de Ossos",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3752,7 +3752,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando está com pressa, o comprimento de suas pernas aumenta progressivamente. Corre suavemente com passadas longas e inclinadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chutador",
-		obtencao: "Dojo de tipo Lutador",
+		obtencao: ["Dojo de tipo Lutador"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3780,7 +3780,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Embora aparente fazer nada, dispara socos em voleios rápidos impossíveis de ver.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Socador",
-		obtencao: "Dojo de tipo Lutador",
+		obtencao: ["Dojo de tipo Lutador"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3808,7 +3808,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua língua pode ser estendida como a de um camaleão. Deixa uma sensação de formigamento quando lambe inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lambedor",
-		obtencao: "Zona Safari; e Caverna de Cerulean",
+		obtencao: ["Zona Safari", "Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3836,7 +3836,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por armazenar vários tipos de gases tóxicos em seu corpo, é propenso a explodir sem aviso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás Venenoso",
-		obtencao: "Mansão Pokémon",
+		obtencao: ["Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3864,7 +3864,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive e cresce absorvendo poeira, germes e gases venenosos contidos em resíduos tóxicos e lixo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás Venenoso",
-		obtencao: "Mansão Pokémon; e por evolução",
+		obtencao: ["Mansão Pokémon", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3893,7 +3893,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon consome partículas que contaminam o ar. Em vez de deixar fezes, expele ar limpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gás Venenoso",
 		obtencao:
-			"East Lake Axewell; Lake of Outrage; Slumbering Weald; e por evolução",
+			["East Lake Axewell", "Lake of Outrage", "Slumbering Weald", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -3921,7 +3921,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus ossos maciços são 1'000 vezes mais duros que os ossos de humanos. Consegue facilmente mandar um trailer voando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espigão",
-		obtencao: "Zona Safari; e Caverna Cerulean",
+		obtencao: ["Zona Safari", "Caverna Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3949,7 +3949,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Protegido por um couro semelhante a uma armadura, é capaz de viver em lava derretida de 2'000° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
-		obtencao: "Caverna de Cerulean; e por evolução",
+		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -3977,7 +3977,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon raro e indescritível que dizem trazer felicidade àqueles que conseguem obtê-la.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ovo",
-		obtencao: "Zona Safari; e Caverna de Cerulean",
+		obtencao: ["Zona Safari", "Caverna de Cerulean"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4005,7 +4005,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Todo seu corpo é coberto por trepadeiras largas que são semelhantes a algas marinhas. Suas vinhas tremem enquanto caminha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trepadeira",
-		obtencao: "Rota 21; e Zona Safari",
+		obtencao: ["Rota 21", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4033,7 +4033,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A criança raramente sai da bolsa protetora da mãe antes dos três anos de idade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Materno",
-		obtencao: "Zona Safari",
+		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4061,7 +4061,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Conhecido por abater insetos voadores com jatos de tintas precisos da superfície da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Rotas 10, 11, 12, e outras; e Ilhas Espuma",
+		obtencao: ["Rotas 10, 11, 12, e outras", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4090,7 +4090,7 @@ const pkmnDisponiveis = [
 			"Capaz de nadar para trás, batendo rapidamente a cauda robusta e suas barbatanas peitorais em forma de asa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
 		obtencao:
-			"Rotas 12, 13, e 23; Ilhas Espuma; Caverna de Cerulean; e por evolução",
+			["Rotas 12, 13, e 23", "Ilhas Espuma", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4119,7 +4119,7 @@ const pkmnDisponiveis = [
 			"Sua barbatana caudal ondula como um elegante vestido de baile, dando-lhe o apelido de 'Rainha da Água'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Dourado",
 		obtencao:
-			"Rotas 6, 10, 11, e outras; Zona Safari; Ilhas Espuma; Planalto Índigo e Caverna de Cerulean",
+			["Rotas 6, 10, 11, e outras", "Zona Safari", "Ilhas Espuma", "Planalto Índigo e Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4147,7 +4147,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Na temporada de desova de outono, podem ser vistos nadando majestosamente em rios e riachos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Dourado",
-		obtencao: "Rota 23; Caverna de Cerulean; e por evolução",
+		obtencao: ["Rota 23", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4175,7 +4175,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon enigmático que regenera sem esforço qualquer apêndice que perca em batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Estrelada",
-		obtencao: "Rotas 19, 20, e 21; e Ilhas Espuma",
+		obtencao: ["Rotas 19, 20, e 21", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4203,7 +4203,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu núcleo central brilha com as sete cores do arco-íris. Algumas pessoas valorizam o núcleo como uma gema.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Misterioso",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4231,7 +4231,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso seja interrompido enquanto faz sua mímica, dá um tapa em quem interrompeu com suas mão abertas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Barreira",
-		obtencao: "Por troca na rota 2",
+		obtencao: ["Por troca na rota 2"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -4259,7 +4259,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu talento é o sapateado. Consegue manipular temperaturas para criar um piso de gelo, que este Pokémon pode levantar para usar como barreira.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dançante",
-		obtencao: "Rota 10; Lake of Outrage; e por evolução",
+		obtencao: ["Rota 10", "Lake of Outrage", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -4287,7 +4287,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com agilidade e velocidade semelhantes a de um ninja, consegue criar a ilusão de que há mais de um.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mantídeo",
-		obtencao: "Zona Safari",
+		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4315,7 +4315,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mexe os quadris de maneira sedutora enquanto caminha. Pode fazer as pessoas dançarem em uníssono.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Humana",
-		obtencao: "Ilhas Espuma",
+		obtencao: ["Ilhas Espuma"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4343,7 +4343,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Normalmente encontrado próximo a usinas de energia, podem se afastar e causar grandes apagões nas cidades.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétrico",
-		obtencao: "Usina Elétrica Abandonada",
+		obtencao: ["Usina Elétrica Abandonada"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4371,7 +4371,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo sempre queima com um brilho laranja que o permite se esconder em meio a chamas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cospe-fogo",
-		obtencao: "Mansão Pokémon",
+		obtencao: ["Mansão Pokémon"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4399,7 +4399,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso falhe em esmagar sua vítima com suas pinças, balança e joga a vítima com força.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lucanídeo",
-		obtencao: "Zona Safari",
+		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4427,7 +4427,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando mira em um inimigo, investe furiosamente enquanto chicoteia seu corpo com suas longas caudas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Touro Selvagem",
-		obtencao: "Zona Safari",
+		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -4455,7 +4455,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon possui um corpo musculoso e se desta em comate corpo a corpo. Usa seus chifres curtos para atacar os pontos fracos do oponente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Touro Selvagem",
-		obtencao: "East Province: Área Um, e Área Dois; e West Province: Área Dois",
+		obtencao: ["East Province: Área Um, e Área Dois", "West Province: Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -4484,7 +4484,7 @@ const pkmnDisponiveis = [
 			"Quando está aquecido pela energia do fogo, seus chifres podem chegar a mais de 1'000° Celsius. Aqueles que forem chifrados por eles sofrerão ferimentos e queimaduras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Touro Selvagem",
 		obtencao:
-			"East Province: Área Dois; West Province: Área Dois; e Union circle",
+			["East Province: Área Dois", "West Province: Área Dois", "Union circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -4513,7 +4513,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon lança água de buracos nas pontas de seus chifres, os jatos de alta pressão perfuram seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Touro Selvagem",
 		obtencao:
-			"East Province: Área Dois; West Province: Área Dois; e Union Circle",
+			["East Province: Área Dois", "West Province: Área Dois", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -4542,7 +4542,7 @@ const pkmnDisponiveis = [
 			"Em um passado distante, de alguma maneira já foi mais forte que seus descendentes terrivelmente fracos que existem hoje.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe",
 		obtencao:
-			"Rotas 6, 10, 11, e outras; Zona Safari; Ilhas Espuma; Caverna de Cerulean; e Planalto Índigo",
+			["Rotas 6, 10, 11, e outras", "Zona Safari", "Ilhas Espuma", "Caverna de Cerulean", "Planalto Índigo"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4570,7 +4570,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Raramente visto na natureza. Enorme e cruel, é capaz de destruir cidades inteiras em um ataque de raiva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atrocidade",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4598,7 +4598,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon que tem sido caçado até a quase extinção. Consegue transportar pessoas através de água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Transporte",
-		obtencao: "Recebido na Companhia Silph",
+		obtencao: ["Recebido na Companhia Silph"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4627,7 +4627,7 @@ const pkmnDisponiveis = [
 			"Capaz de copiar o código genético do oponente para instantaneamente si transformar em uma duplicada do oponente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Transformação",
 		obtencao:
-			"Rotas 13, 14, 15, e outra; Túnel de Rocha; Mansão Pokémon; e Caverna de Cerulean",
+			["Rotas 13, 14, 15, e outra", "Túnel de Rocha", "Mansão Pokémon", "Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4655,7 +4655,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu código genético é irregular. Pode sofrer mutação caso seja exposto a radiação de Pedras elementais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Evolução",
-		obtencao: "Recebido na Mansão Celadon",
+		obtencao: ["Recebido na Mansão Celadon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4683,7 +4683,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive próximo a água. Sua longa cauda é estriada com uma barbatana que muitas vezes confundida com a de uma sereia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jato de Bolha",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4711,7 +4711,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Acumula íons negativos na atmosfera para lançar raios de 10'000 volts.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raios",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4739,7 +4739,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando armazena energia térmica em seu corpo, sua temperatura poderia superar os 900° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4767,7 +4767,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon que consiste inteiramente de código de programação. Capaz de se mover livremente no espaço cibernético.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
-		obtencao: "Casino Rocket",
+		obtencao: ["Casino Rocket"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4795,7 +4795,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mesmo há muito extinto, em casos raros, pode ser ressuscitado a partir de fósseis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espiral",
-		obtencao: "Revivido a partir de fóssil",
+		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4823,7 +4823,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon pré-histórico que morreu quando sua pesada carapaça tornou impossível de caçar suas presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espiral",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4851,7 +4851,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon que foi ressuscitado a partir de um fóssil encontrado no que já foi o fundo do oceano, eras atrás.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
-		obtencao: "Revivido a partir de fóssil",
+		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4879,7 +4879,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu formato peculiar é perfeito para nadar. Fatia sua presa com suas garras e drena os fluidos corporais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marisco",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4907,7 +4907,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon pré-histórico feroz que morreu em tempos antigos. Foi ressuscitado usando DNA pego de âmbar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fóssil",
-		obtencao: "Revivido a partir do Âmbar Antigo",
+		obtencao: ["Revivido a partir do Âmbar Antigo"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4935,7 +4935,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Muito preguiçoso. Só come e dorme. À medida que seu corpo redondo aumenta, se torna cada vez mais preguiçoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dorminhoco",
-		obtencao: "Rotas 12, e 16",
+		obtencao: ["Rotas 12, e 16"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -4963,7 +4963,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um pássaro lendário que supostamente aparece a pessoas condenadas que estão perdidas em montanhas geladas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Congelamento",
-		obtencao: "Ilhas Espuma",
+		obtencao: ["Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -4991,7 +4991,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas lâminas semelhantes a penas são compostas de energia psíquica e podem cortar grossas folhas de ferro como se fossem papel.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cruel",
-		obtencao: "Vagando por Crown Tundra",
+		obtencao: ["Vagando por Crown Tundra"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -5019,7 +5019,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um pássaro lendário que supostamente surge das nuvens enquanto solta raios enormes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétrico",
-		obtencao: "Usina Elétrica Abandonada",
+		obtencao: ["Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -5047,7 +5047,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um chute de suas pernas poderosas pulveriza um caminhão de lixo. Supostamente, corre pelas montanhas a mais de 300 km/h.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pernas Fortes",
-		obtencao: "Vagando por Wild Area",
+		obtencao: ["Vagando por Wild Area"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -5075,7 +5075,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Conhecido como o pássaro lendário de fogo. Cada bater de suas asas cria um deslumbrante clarão de chamas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
-		obtencao: "Estrada da Vitória",
+		obtencao: ["Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: true,
@@ -5103,7 +5103,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A aura sinistra e flamejante deste Pokémon consumirá o espírito de qualquer criatura que atingir. As vítimas se tornam sombras queimadas de si mesmas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Malevolente",
-		obtencao: "Vagando por Isle of Armor",
+		obtencao: ["Vagando por Isle of Armor"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -5131,7 +5131,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Há muito considerado um Pokémon mítico até que, recentemente, foi descoberta uma colônia vivendo debaixo da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Zona Safari",
+		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5159,7 +5159,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon místico que exala uma aura gentil. Possui a habilidade de mudar condições climáticas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Zona Safari; e por evolução",
+		obtencao: ["Zona Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5187,7 +5187,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon marinho raramente visto. É dito que sua inteligência é comparada a de seres humanos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5215,7 +5215,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi criado por um cientista depois anos de experimentos de engenharia genética.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Genético",
-		obtencao: "Caverna de Cerulean",
+		obtencao: ["Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5243,7 +5243,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É tão raro que ainda é dito ser uma miragem por vários especialistas. Somente algumas pessoas o viram ao redor do mundo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nova Espécie",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5271,7 +5271,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Adora aproveitar a luz do sol. Usa a folha na cabeça para procurar lugares quentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
-		obtencao: "Laboratório do Prof. Elm",
+		obtencao: ["Laboratório do Prof. Elm"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5299,7 +5299,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um aroma picante emana de seu pescoço. O aroma age como um estimulante para restaurar saúde.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folha",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5327,7 +5327,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O aroma que sobe de suas pétalas contém uma substância que acalma sentimentos agressivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5355,7 +5355,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Geralmente fica curvado. Quando está com raiva ou surpreso, atira chamas de suas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato de Fogo",
-		obtencao: "Laboratório do Prof. Elm",
+		obtencao: ["Laboratório do Prof. Elm"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5383,7 +5383,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É coberto totalmente por pelo não inflamável. Consegue aguentar qualquer tipo de ataque de fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5411,7 +5411,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando sua raiva atinge seu ápice, fica tão quente que qualquer coisa que toque imediatamente pega fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: true,
@@ -5439,7 +5439,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que purifica almas perdidas e abandonadas com suas chamas e as guias para a vida após a morte. Acredito que sua forma foi influenciada pela energia da montanha sagrada que se eleva no centro da região.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fogo Fantasma",
-		obtencao: "Crimson Mirelands: Space-time distortions; e por evolução",
+		obtencao: ["Crimson Mirelands: Space-time distortions", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -5467,7 +5467,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas presas bem desenvolvidas são poderosas e capazes de esmagar qualquer coisa. Mesmo seu treinador deve ter cuidado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Grande",
-		obtencao: "Laboratório do Prof. Elm",
+		obtencao: ["Laboratório do Prof. Elm"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5495,7 +5495,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando perde uma presa, uma nova cresce em seu lugar. Sempre há 48 presas revestindo na boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Grande",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5523,7 +5523,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando morde com suas mandíbulas grandes e poderosas, balança sua cabeça e estraçalha sua vítima com selvageria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Grande",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5551,7 +5551,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon muito precavido, se levanta usando sua cauda para conseguir uma melhor visão de seus arredores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escoteiro",
-		obtencao: "Rotas 1, 29, e 43",
+		obtencao: ["Rotas 1, 29, e 43"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5579,7 +5579,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Constrói um ninho para caber seu corpo longo e esguio. O ninho é impossível de se entrar para outros Pokémon entrarem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Corpo-longo",
-		obtencao: "Rotas 1, e 43; e por evolução",
+		obtencao: ["Rotas 1, e 43", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5608,7 +5608,7 @@ const pkmnDisponiveis = [
 			"Sempre fica em um pé só. Muda de pé tão rápido, o movimento raramente é visto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coruja",
 		obtencao:
-			"Rotas 1, 2, 5, e outras; Floresta de Ilex; Parque National; e Lago da Fúria",
+			["Rotas 1, 2, 5, e outras", "Floresta de Ilex", "Parque National", "Lago da Fúria"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5636,7 +5636,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus olhos são especialmente adaptados. Concentram mesmo até mesmo a luz fraca e permitem que veja no escuro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coruja",
-		obtencao: "Rotas 2, 8, 13, e outras; Floresta de Ilex; e por Evolução",
+		obtencao: ["Rotas 2, 8, 13, e outras", "Floresta de Ilex", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5664,7 +5664,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É muito tímido. Tem medo de se mover caso esteja sozinho. Mas será ativo caso esteja em grupo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cinco Estrelas",
-		obtencao: "Rotas 2, 29, 30, e outras; e Parque National",
+		obtencao: ["Rotas 2, 29, 30, e outras", "Parque National"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5692,7 +5692,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando as estrelas piscam no céu noturno, esvoaça e espalha um pó brilhante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cinco Estrelas",
-		obtencao: "Rotas 2, e 37; e por evolução",
+		obtencao: ["Rotas 2, e 37", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5720,7 +5720,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Permanece parado na mesma pose por dias em sua teia, esperando que sua presa desavisada se aproxime.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fio de Saliva",
-		obtencao: "Rotas 2, 29, 30, e outras; e Parque National",
+		obtencao: ["Rotas 2, 29, 30, e outras", "Parque National"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5748,7 +5748,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tece seus fios não apenas por trás, mas também pela boca. É difícil dizer qual parte é qual.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perna-longa",
-		obtencao: "Rotas 2, e 37; e por evolução",
+		obtencao: ["Rotas 2, e 37", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5776,7 +5776,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu vôo na escuridão é tão silencioso que pode não ser notado mesmo quando está próximo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5804,7 +5804,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Na escuridão do chão oceânico, sua única maneira de comunicação é piscar suas luzes constantemente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pescador",
-		obtencao: "Rotas 20, 21, 26, e outras",
+		obtencao: ["Rotas 20, 21, 26, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5832,7 +5832,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A luz que emite é tão brilhante que consegue iluminar a superfície do mar de uma profundidade maior que cinco quilômetros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luz",
-		obtencao: "Rotas 20, 21, 26, e outras; e por evolução",
+		obtencao: ["Rotas 20, 21, 26, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5860,7 +5860,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ainda não é capaz de armazenar eletricidade. Consegue soltar uma faísca se for assustado ou divertido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ratinho",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5888,7 +5888,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por sua silhueta incomum, semelhante a uma estrela, pessoas acreditam que veio de um meteoro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Forma Estrelada",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5916,7 +5916,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tem um corpo muito macio. Quando começa a rolar, irá saltar por toda parte e será impossível parar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5944,7 +5944,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A casca aparenta estar cheia de alegria. É dito que compartilhará boa sorte quando tratado com gentileza.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola de Espinhos",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -5972,7 +5972,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito que aparece diante de pessoas carinhosas, de bom coração e as cobrirá de felicidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Felicidade",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6000,7 +6000,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por suas asas não estarem completamente crescidas, tem que pular para se locomover. Sempre está encarando algo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
-		obtencao: "Ruínas de Alfa",
+		obtencao: ["Ruínas de Alfa"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6028,7 +6028,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito que permanece parado e quieto por ver o passado e o futuro ao mesmo tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Místico",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6056,7 +6056,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso a eletricidade estática acumule em seu corpo, seu velo dobra de volume. Tocá-lo causa um choque elétrico em quem tocou.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lã",
-		obtencao: "Rotas 32, 42, e 43",
+		obtencao: ["Rotas 32, 42, e 43"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6084,7 +6084,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Como resultado de armazenar muita eletricidade, desenvolveu manchas onde nem mesmo a lã felpuda cresce.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lã",
-		obtencao: "Rotas 42, e 43; e por evolução",
+		obtencao: ["Rotas 42, e 43", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6112,7 +6112,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A ponta de sua cauda brilha intensamente e pode ser ser vista de longe. Atua como um farol para pessoas perdidas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luz",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6140,7 +6140,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Abundante nos trópicos. Quando dança, suas pétalas se esfregam e emitem um som agradável de toque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flor",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6168,7 +6168,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A ponta de sua cauda, que contém óleo mais leve que água, o permite nadar sem se afogar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato de Água",
-		obtencao: "Rota 42; e Monte Mortar",
+		obtencao: ["Rota 42", "Monte Mortar"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6196,7 +6196,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando está quieto e ouvindo atentamente, consegue dizer o que está em rios turbulentos e rápidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho de Água",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6224,7 +6224,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de sempre fingir ser uma árvore, sua composição aparenta se aproximar mais a de uma rocha do que a de uma árvore.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Imitação",
-		obtencao: "Rota 36",
+		obtencao: ["Rota 36"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6252,7 +6252,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sempre que três ou mais deles se reúnem, cantam em alto volume e acaba soando como um grito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sapo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6280,7 +6280,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Para evitar que seja levado pelo vento, se reúne em grupos. Gostam de brizas leves, no entanto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Algodão",
-		obtencao: "Rotas 11, 13, 14, e outras",
+		obtencao: ["Rotas 11, 13, 14, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6308,7 +6308,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A flor no topo de sua cabeça abre e fecha à medida que a temperatura aumenta ou diminui.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Algodão",
-		obtencao: "Rota 14; e por evolução",
+		obtencao: ["Rota 14", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6336,7 +6336,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma vez que pega o vento, habilmente controla seus esporos de algodão para flutuar, mesmo ao redor do mundo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Algodão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6364,7 +6364,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua cauda é tão poderosa que consegue usá-la para agarrar um galho de árvore e se manter no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cauda Longa",
-		obtencao: "Rotas 29, 30, 31, e outras",
+		obtencao: ["Rotas 29, 30, 31, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6392,7 +6392,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive bebendo apenas gotas de orvalho debaixo das plantas. Dizem que não come nada além disso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente",
-		obtencao: "Rota 24; e Parque Nacional",
+		obtencao: ["Rota 24", "Parque Nacional"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6420,7 +6420,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Converte luz solar em energia. Na escuridão depois do por-do-sol, fecha suas pétalas e permanece parado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sol",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6448,7 +6448,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando bate suas asas muito rápido, consegue gerar ondas de choque que quebrarão janelas próximas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Asa Clara",
-		obtencao: "Rota 35",
+		obtencao: ["Rota 35"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6476,7 +6476,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon vive em água fria. Deixa a água para procurar comida quando fica frio do lado de fora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Água",
-		obtencao: "Rota 32; Ruínas de Alfa; e Caverna da União",
+		obtencao: ["Rota 32", "Ruínas de Alfa", "Caverna da União"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: true,
@@ -6505,7 +6505,7 @@ const pkmnDisponiveis = [
 			"Após perder uma disputa territorial, começou a viver em terra. O Pokémon mudou ao longo do tempo, desenvolvendo uma película venenosa para proteger seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Venenoso",
 		obtencao:
-			"South Province: Área Um, Área Quatro, Área Cinco, Área Seis, e Alfornada Cavern; East Province: Área Três, e Tagtree Thicket; West Province: Área Três; e North Province: Área Um, e Montanha Glaseado",
+			["South Province: Área Um, Área Quatro, Área Cinco, Área Seis, e Alfornada Cavern", "East Province: Área Três, e Tagtree Thicket", "West Province: Área Três", "North Province: Área Um, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -6534,7 +6534,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon despreocupado tem uma natureza descontraída. Enquanto nada, sempre esbarra nos cascos dos barcos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Água",
 		obtencao:
-			"Rota 10, 12, 13, e outras; Caverna do Monte Prata; Ruínas de Alfa; Caverna da União; e por evolução",
+			["Rota 10, 12, 13, e outras", "Caverna do Monte Prata", "Ruínas de Alfa", "Caverna da União", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6562,7 +6562,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa o fino cabelo que cobre seu corpo para sentir correntes de ar e prever as ações de seu oponente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sol",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6590,7 +6590,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando a escuridão cai, os anéis em seu corpo começam a brilhar, causando medo no coração de qualquer um próximo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luar",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6618,7 +6618,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Temido e odiado por muitos, acredita-se que traga infortúnio a todos aqueles que o veem à noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuridão",
-		obtencao: "Rotas 7, e 16",
+		obtencao: ["Rotas 7, e 16"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6646,7 +6646,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui inteligência e intuição incríveis. Seja qual for a situação, permanece calmo e controlado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Real",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: true,
@@ -6674,7 +6674,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enquanto entoa feitiços estranhos, este Pokémon combina suas toxinas internas com o que come, criando poções estranhas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bruxão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -6702,7 +6702,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gosta de aplicar trotes travessos, como gritar e lamentar para assustar as pessoas à noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pio",
-		obtencao: "Caverna do Monte Prata",
+		obtencao: ["Caverna do Monte Prata"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6730,7 +6730,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo plano e fino está sempre preso em paredes. Seu formato aparenta ter algum significado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Símbolo",
-		obtencao: "Dentro das Ruínas de Alfa",
+		obtencao: ["Dentro das Ruínas de Alfa"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6785,7 +6785,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Odeia luz e choque. Quando atacado, infla seu corpo para aumentar seu contra-ataque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paciente",
-		obtencao: "Caverna Escura",
+		obtencao: ["Caverna Escura"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6813,7 +6813,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua cauda possui um pequeno cérebro próprio. Caso alguém se aproxime, pode reagir ao cheiro e morder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pescoço Longo",
-		obtencao: "Rota 43",
+		obtencao: ["Rota 43"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6841,7 +6841,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gosta de fazer sua casca mais espessa adicionando camadas de casca de árvores. O peso adicional não lhe incomoda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
-		obtencao: "Rotas 26, 27, 29, e outras; Floresta de Ilex; e Lago da Fúria",
+		obtencao: ["Rotas 26, 27, 29, e outras", "Floresta de Ilex", "Lago da Fúria"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6869,7 +6869,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo inteiro é protegido por uma concha tão dura quanto aço. O que se esconde dentro da armadura é um total mistério.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6897,7 +6897,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando avistado, este Pokémon escapa para trás perfurando furiosamente o chão com sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Terra",
-		obtencao: "Caverna Escura",
+		obtencao: ["Caverna Escura"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6925,7 +6925,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa direto ao rosto do alvo e depois agarra a vítima assustada para injetar veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião Voador",
-		obtencao: "Rota 45",
+		obtencao: ["Rota 45"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6953,7 +6953,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo tem sido comprimido profundamente sob o solo. Como resultado, é mais duro do que um diamante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Ferro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -6981,7 +6981,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de parecer assustador, é, na verdade, bondoso e afetuoso. É muito popular entre mulheres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
-		obtencao: "Rotas 5, 6, 7, e outras",
+		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7009,7 +7009,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Na verdade, é tímido e facilmente assustado. Quando atacado, se agita para afastar seu agressor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fada",
-		obtencao: "Rota 6; e por evolução",
+		obtencao: ["Rota 6", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7037,7 +7037,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Para disparar seus espinhos venenosos, deve inflar seu corpo bebendo mais de 10 litros de água de uma vez.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
-		obtencao: "Rotas 12, 13, e 32",
+		obtencao: ["Rotas 12, 13, e 32"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: true,
@@ -7066,7 +7066,7 @@ const pkmnDisponiveis = [
 			"Pescadores detestam este Pokémon problemático por borrifar veneno de seus espinhos, pegando em todo lugar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
 		obtencao:
-			"Obsidian Fieldlands: próximo a Ramanas Island; e Cobalt Coastlands: próximo a Bather's Lagoon, próximo a Hideaway Bay, próximo a Tombolo Walk, próximo a Sand's Reach, Tranquility Cove, Islespy Shore e próximo, Lunker's Lair, próximo a Seagrass Haven, e próximo a Firespit Island",
+			["Obsidian Fieldlands: próximo a Ramanas Island", "Cobalt Coastlands: próximo a Bather's Lagoon, próximo a Hideaway Bay, próximo a Tombolo Walk, próximo a Sand's Reach, Tranquility Cove, Islespy Shore e próximo, Lunker's Lair, próximo a Seagrass Haven, e próximo a Firespit Island"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -7094,7 +7094,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Balança suas pinças com padrão de olho para assustar seus inimigos. Isso faz com que pareça que tenha três cabeças.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinça",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7122,7 +7122,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As frutas que armazena em sua concha semelhante a um caso, se decompõem e se tornam um líquido pegajoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mofo",
-		obtencao: "Rota 40; Torre Queimada; e Caverna Escura",
+		obtencao: ["Rota 40", "Torre Queimada", "Caverna Escura"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7150,7 +7150,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este poderoso Pokémon empurra seu chifre premiado sob a barriga de seus inimigos, depois os levanta e os joga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Unicórnio",
-		obtencao: "Rotas 29, 30, 31, e outras",
+		obtencao: ["Rotas 29, 30, 31, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7178,7 +7178,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas patas escondem garras afiadas. Se atacado, de repente estende as garras e assusta seu inimigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Garra Afiada",
-		obtencao: "Rota 28; Monte Prata; e Caminho Gelado",
+		obtencao: ["Rota 28", "Monte Prata", "Caminho Gelado"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: true,
@@ -7207,7 +7207,7 @@ const pkmnDisponiveis = [
 			"Suas garras robustas e curvas são ideais para atravessar penhascos íngremes. Das pontas dessas garras escorre um veneno que se infiltra nos nervos de qualquer presa capturada nas garras deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Garra Afiada",
 		obtencao:
-			"Coronet Highlands: próximo a Celestica Trail, e próximo a Primeval Grotto; e Alabaster Icelands: próximo a Avalugg's Legacy, Glacier Terrace, e próximo a Pearl Settlement",
+			["Coronet Highlands: próximo a Celestica Trail, e próximo a Primeval Grotto", "Alabaster Icelands: próximo a Avalugg's Legacy, Glacier Terrace, e próximo a Pearl Settlement"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -7235,7 +7235,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso encontre mel, sua marca crescente brilha. Sempre lambe suas patas por sempre estarem encharcadas com mel.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ursinho",
-		obtencao: "Rota 45; e Caverna Escura",
+		obtencao: ["Rota 45", "Caverna Escura"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7264,7 +7264,7 @@ const pkmnDisponiveis = [
 			"Apesar de ser um bom escalador, prefere quebrar árvores com suas patas dianteiras e comer Frutas caídas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hibernador",
 		obtencao:
-			"Rota 28; Caverna Escura; Estrada da Vitória; Monte Prata; Caverna do Monte Prata; e por evolução",
+			["Rota 28", "Caverna Escura", "Estrada da Vitória", "Monte Prata", "Caverna do Monte Prata", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7292,7 +7292,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nunca dorme. Tem que continuar em movimento porque, se parar, seu corpo de magma esfriaria e endureceria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lava",
-		obtencao: "Rotas 16, 17, e 18",
+		obtencao: ["Rotas 16, 17, e 18"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7320,7 +7320,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A concha em suas costas é apenas pele que esfriou e endureceu. Quebra facilmente com um leve toque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lava",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7348,7 +7348,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esfrega o focinho no chão para encontrar e desenterrar comida. Às vezes, descobre fonte termal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Porco",
-		obtencao: "Caminho Gelado",
+		obtencao: ["Caminho Gelado"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7376,7 +7376,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por causa de seu longo pelo por todo corpo obscurecer sua visão, continua investindo repetidamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Suíno",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7404,7 +7404,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Em uma nação dos mares do sul, as pessoas vivem em comunidades construídas em grupos desses Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coral",
-		obtencao: "Rotas 19, 34, e 40; e Caverna da União",
+		obtencao: ["Rotas 19, 34, e 40", "Caverna da União"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: true,
@@ -7432,7 +7432,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cuidado onde pisa ao vagar por áreas que os oceanos antes cobriam. O que parece uma pedra pode ser este Pokémon, e vai te amaldiçoar se você chutá-lo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coral",
-		obtencao: "Giant's Mirror",
+		obtencao: ["Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -7460,7 +7460,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui uma precisão soberba. A água que atira pode atingir até mesmo presa em movimento a mais de cem metros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jato",
-		obtencao: "Rota 44",
+		obtencao: ["Rota 44"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7488,7 +7488,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Prende seus inimigos com seus tentáculos com ventosas depois esmaga-os com sua cabeça dura como rocha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jato",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7516,7 +7516,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Carrega comida o dia todo. Há contos sobre pessoas perdidas que foram salvas pela comida que tinha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Entrega",
-		obtencao: "Caminho Gelado",
+		obtencao: ["Caminho Gelado"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7544,7 +7544,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enquanto nada livremente em mares abertos, pode voar fora da água e sobre as ondas se conseguir velocidade o suficiente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pipa",
-		obtencao: "Rota 41",
+		obtencao: ["Rota 41"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7572,7 +7572,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas asas resistentes parecem pesadas, mas são ocas e leves, permitindo que voe livremente no céu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro com Armadura",
-		obtencao: "Rota 45",
+		obtencao: ["Rota 45"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7600,7 +7600,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa diferentes tipos de sons para se comunicar com outros de sua espécie e perseguir sua presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuro",
-		obtencao: "Rota 7",
+		obtencao: ["Rota 7"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7628,7 +7628,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso você seja queimado pelas chamas que este Pokémon lança pela boca, a dor nunca irá embora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7656,7 +7656,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que este Pokémon se esconde em cavernas subaquáticas. Consegue criar redemoinhos ao bocejar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7684,7 +7684,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Balança seu longo focinho alegremente por aí, mas, por ser muito forte, isso pode ser perigoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nariz Longo",
-		obtencao: "Rotas 45, e 46",
+		obtencao: ["Rotas 45, e 46"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7713,7 +7713,7 @@ const pkmnDisponiveis = [
 			"Possui presas duras, afiadas e um couro áspero. Sua Investida é forte o suficiente para derrubar uma casa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura",
 		obtencao:
-			"Rotas 28, e 45; Monte Prata; Caverna do Monte Prata; Estrada da Vitória; e por evolução",
+			["Rotas 28, e 45", "Monte Prata", "Caverna do Monte Prata", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7741,7 +7741,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Pesquisas posteriores aperfeiçoaram suas habilidades. Algumas vezes, pode exibir movimentos que não foram programados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7769,7 +7769,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os chifres curvos mudam sutilmente o fluxo de ar para criar um espaço estranho onde a realidade é distorcida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chifrudo",
-		obtencao: "Rotas 36, e 37",
+		obtencao: ["Rotas 36, e 37"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7797,7 +7797,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma vez que se torna adulto, tem a tendencia de deixar seus companheiros marcarem suas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pintor",
-		obtencao: "Ruínas de Alfa",
+		obtencao: ["Ruínas de Alfa"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7825,7 +7825,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mesmo sendo pequeno, não pode ser ignorado, pois pode atingir qualquer alvo próximo sem aviso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Briga",
-		obtencao: "Recebido no Monte Mortar",
+		obtencao: ["Recebido no Monte Mortar"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7853,7 +7853,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Lança seus chutes enquanto gira. Se girar em alta velocidade, pode perfurar o chão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Parada de Mão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7881,7 +7881,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sempre balança a cabeça lentamente para frente e para trás como se estivesse tentando beijar alguém.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Beijo",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7909,7 +7909,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gira seus braços para gerar eletricidade, mas se cansa rapidamente, então carrega apenas um pouco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétrico",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7937,7 +7937,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cada e toda vez que inspira e expira, brasas quentes pingam de sua boca e narinas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carvão Vivo",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7965,7 +7965,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu leite é rico em nutrientes, tornando-o a bebida ideal para os doentes ou cansados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vaca Leiteira",
-		obtencao: "Rotas 38, e 39",
+		obtencao: ["Rotas 38, e 39"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -7993,7 +7993,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tem uma natureza compassiva. Caso veja um Pokémon doente, irá cuidar do indivíduo até que fique saudável.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Felicidade",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8021,7 +8021,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As nuvens de chuva que carrega permitem que dispare raios à vontade. É dito que descendeu com raio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trovão",
-		obtencao: "Vagando por Johto",
+		obtencao: ["Vagando por Johto"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8049,7 +8049,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vulcões entram em erupção quando late. Incapaz de restringir seu extremo poder, corre pela terra.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vulcão",
-		obtencao: "Vagando por Johto",
+		obtencao: ["Vagando por Johto"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8077,7 +8077,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon divino voa pelo mundo, sempre em busca de um reservatório puro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aurora",
-		obtencao: "Torre dos Sinos; ou vagando por Johto",
+		obtencao: ["Torre dos Sinos", "ou vagando por Johto"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8105,7 +8105,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua alimentação vem do solo. Depois de ter comido uma grande montanha, cairá em um sono para conseguir crescer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pele de Rocha",
-		obtencao: "Caverna do Monte Prata",
+		obtencao: ["Caverna do Monte Prata"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8133,7 +8133,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua casca é tão dura quanto um pedaço de rocha, e também é muito forte. Consegue derrubar uma montanha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casco Duro",
-		obtencao: "Caverna do Monte Prata; e por evolução",
+		obtencao: ["Caverna do Monte Prata", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8161,7 +8161,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo não pode ser machucado por nenhum tipo de ataque, por isso é muito ansioso para fazer desafios contra inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8189,7 +8189,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que é o guardião dos mares. Há rumores de que foi visto na noite de uma tempestade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mergulho",
-		obtencao: "Ilhas Redemoinho",
+		obtencao: ["Ilhas Redemoinho"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8217,7 +8217,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Segundo as lendas, este Pokémon voa pelos céus do planeta continuamente em suas magnificas asas de sete cores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arco-Íris",
-		obtencao: "Torre dos Sinos",
+		obtencao: ["Torre dos Sinos"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8245,7 +8245,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon vaga pelo tempo. A grama e as árvores floresce nas florestas em que apareceu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viagem no Tempo",
-		obtencao: "Floresta de Ilex",
+		obtencao: ["Floresta de Ilex"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8273,7 +8273,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui pequenos ganchos na sola de suas patas que o permite escalar paredes verticais. Este Pokémon ataca batendo nos inimigos com sua cauda grossa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagartixa de Madeira",
-		obtencao: "Rota 101",
+		obtencao: ["Rota 101"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8301,7 +8301,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As folhas que crescem em seu corpo são convenientes para camuflá-lo de seus inimigos em florestas. Este Pokémon é um mestre em escalar árvores em selvas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagartixa de Madeira",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8329,7 +8329,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As folhas que crescem em seu corpo são muito afiadas nas pontas. Este Pokémon é muito ágil, salta sobre os galhos das árvores e ataca seus inimigos por cima ou por trás.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Floresta",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8357,7 +8357,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon possui um local dentro de seu corpo onde mantém sua chama. É todo coberto por uma pelagem fofa de plumas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pintinho",
-		obtencao: "Rota 101",
+		obtencao: ["Rota 101"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8385,7 +8385,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Batalha com as chamas intensamente quentes que cospe de seu bico e com chutes excepcionalmente destrutivos. O som deste Pokémon é muito alto e perturbador.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ave Jovem",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8413,7 +8413,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui pernas incrivelmente forte, pode facilmente passar por um prédio de trina andares em único salto. Os socos flamejantes deste Pokémon deixam seus inimigos queimados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Labareda",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8441,7 +8441,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A barbatana em sua cabeça age como um radar altamente sensível. Usando esta barbatana para sentir os movimentos da água e do ar, este Pokémon consegue determinar o que está acontecendo ao seu redor sem usar os olhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
-		obtencao: "Rota 101",
+		obtencao: ["Rota 101"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8469,7 +8469,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É mais rápido viajando pela lama do que nadando. Os membros inferiores deste Pokémon exibem óbvio desenvolvimento, dando uma habilidade de andar com as patas traseiras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8497,7 +8497,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue prever tempestades sentindo mudanças sutis nas ondas sonoras e ventos de maré com suas barbatanas. Caso uma tempestade esteja se aproximando, empilha pedras para se proteger.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe de Lama",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8525,7 +8525,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é onívoro, come qualquer coisa. Uma característica distinta é quão grande são suas presas comparadas a seu corpo. Este Pokémon tenta intimidar seus inimigos fazendo os pelos de sua cauda se arrepiarem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mordida",
-		obtencao: "Rotas 101, 102, 103, e outras; e Floresta de Petalburg",
+		obtencao: ["Rotas 101, 102, 103, e outras", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8553,7 +8553,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dá sinais óbvios quando está se preparando para atacar. Começa a rosnar profundamente e então achata seu corpo. Este Pokémon morderá selvagemente com usas presas afiadas e pontudas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mordida",
-		obtencao: "Rotas 120, 121, e 123; e por evolução",
+		obtencao: ["Rotas 120, 121, e 123", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8581,7 +8581,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vagueia incansavelmente por todos lugar o tempo todo. Este Pokémon faz isso por ser muito curioso. Ele se interessa por qualquer coisa que veja.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guaxinim",
-		obtencao: "Rotas 101, 102, 103, e outras; e Floresta de Petalburg",
+		obtencao: ["Rotas 101, 102, 103, e outras", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -8609,7 +8609,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua inquietação o faz correr constantemente por aí. Se ele vir outro Pokémon, irá propositalmente correr para cima dele para começar uma briga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guaxinim",
-		obtencao: "Rotas 2, e 3; Bridge Field; Giant's Cap; e Stony Wilderness",
+		obtencao: ["Rotas 2, e 3", "Bridge Field", "Giant's Cap", "Stony Wilderness"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -8637,7 +8637,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sempre corre a toda velocidade e apenas em linhas retas. Quando estiver diante de um obstáculo, faz uma curva em ângulo reto para evitá-lo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Apressado",
-		obtencao: "Rotas 118, 119, 120, e outras; e por evolução",
+		obtencao: ["Rotas 118, 119, 120, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -8666,7 +8666,7 @@ const pkmnDisponiveis = [
 			"Usa sua longa língua para provocar oponentes. Uma vez que a oposição esteja enfurecida, este Pokémon se arremessa contra o oponente, derrubado-o com força.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Apressado",
 		obtencao:
-			"Giant's Cap; Giant's Bed; Bridge Field; Ballimere Lake; e por evolução",
+			["Giant's Cap", "Giant's Bed", "Bridge Field", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -8694,7 +8694,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gruda em galhos de árvores e come folhas. O fio que cospe de sua boca, que fica pegajoso ao tocar o ar, retarda o movimento de seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca",
-		obtencao: "Rotas 101, 102, e 104; e Floresta de Petalburg",
+		obtencao: ["Rotas 101, 102, e 104", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8722,7 +8722,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Acreditava-se que suportava a fome e não consumia nada. No tentando, agora acredita-se que este Pokémon sacia sede bebendo água da chuva que se acumula em sua seda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Floresta de Petalburg; e por evolução",
+		obtencao: ["Floresta de Petalburg", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8750,7 +8750,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua comida favorita é o doce pólen das flores. Caso queira ver este Pokémon, deixe uma flor em vaso perto de uma janela aberta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Borboleta",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8778,7 +8778,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso seja atacado, permanece imóvel, independente do quão grave esteja ferido. Não esquece a dor que suportou.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casulo",
-		obtencao: "Floresta de Petalburg; e por evolução",
+		obtencao: ["Floresta de Petalburg", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8806,7 +8806,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando bate suas asas, um pó fino é espalhado. Esse pó é, na verdade, um poderoso veneno que fará até mesmo um lutador profissional doente. Este Pokémon procura por comida usando suas antenas como um radar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa Venenosa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8834,7 +8834,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon vive em lagoas com água limpa. É conhecido por transportar pequenos Pokémon através de lagoas carregando-os na folha larga em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erva de Água",
-		obtencao: "Rotas 102, e 114",
+		obtencao: ["Rotas 102, e 114"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8862,7 +8862,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"À noite, tem grande prazer em sair dos rios e assustar as pessoas. Se alimenta de musgo aquático que cresce nas pedras do leito do rio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Contente",
-		obtencao: "Rota 114; e por evolução",
+		obtencao: ["Rota 114", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8890,7 +8890,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao ouvir um ritmo alegre e otimista, as células de seu corpo se tornam muito energéticas e ativas. Mesmo em batalha, este Pokémon exibirá uma quantidade incrível de poder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Descuidado",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8918,7 +8918,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se pendura em galho e absorve nutrientes. Quando termina de comer, seu corpo fica tão pesado que ele cai no chão com um baque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bolota",
-		obtencao: "Rotas 102, 114, 117, e outra",
+		obtencao: ["Rotas 102, 114, 117, e outra"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8946,7 +8946,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em florestas densamente cobertas de vegetação. Ocasionalmente se aventuram para fora da floresta para assustar as pessoas. Este Pokémon não gosta que seu nariz logo seja beliscado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ardiloso",
-		obtencao: "Rota 114; e por evolução",
+		obtencao: ["Rota 114", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -8974,7 +8974,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que chega em ventos frios e invernais. Temido desde muito tempo como o guardião das florestas, este Pokémon vive em uma floresta profunda onde as pessoas não se aventuram.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Malvado",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9002,7 +9002,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de ser pequeno, é muito corajoso. Encara Skarmory maiores em pé de igualdade. Contudo, enfraquece quando está com fome.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pequena Andorinha",
-		obtencao: "Rotas 104, 115, e 116; e Floresta de Petalburg",
+		obtencao: ["Rotas 104, 115, e 116", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9030,7 +9030,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mergulha em cima de uma presa de muito alto. Nunca erra seus alvos. Sobe aos céus em busca de terras com clima quente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gaivota",
-		obtencao: "Rota 115; e por evolução",
+		obtencao: ["Rota 115", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9058,7 +9058,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Constrói seu ninho em penhasco íngreme na beira do mar. Tem dificuldade em manter suas asas batendo durante o voo. Em vez disso, ele plana em correntes de ar ascendentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gaivota",
-		obtencao: "Rotas 103, 104, 105, e outras; e lado de fora do Monte da Pira",
+		obtencao: ["Rotas 103, 104, 105, e outras", "lado de fora do Monte da Pira"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9086,7 +9086,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Desliza sobre o topo das ondas enquanto voa. Quando avista uma presa, usa seu bico grande paa pegar a vítima com água. Protege seus ovos em seu bico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro de Água",
-		obtencao: "Rotas 103, 104, 105, e outras; e por evolução",
+		obtencao: ["Rotas 103, 104, 105, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9114,7 +9114,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sente as emoções das pessoas usando os chifres em sua cabeça. Este Pokémon raramente aparece para pessoas. Mas quando aparece, se aproxima caso sinta que a pessoa tem uma energia positiva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sentimento",
-		obtencao: "Rota 102",
+		obtencao: ["Rota 102"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9142,7 +9142,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa os chifres em sua cabeça para amplificar seu poder psicocinético. Quando usa seu poder, o ar em sua volta se torna distorcido, criando miragens de cenários não existentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emoção",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9170,7 +9170,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui a habilidade de ver o futuro. Caso sinta perigo iminente ao seu treinador, diz-se que este Pokémon libera sua energia psicocinética com força total.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abraço",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9198,7 +9198,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Das pontas de suas patas, secreta um óleo que o permite andar sobre água como se estivesse patinando. Este Pokémon se alimenta de organismos microscópicos em lagoas e lagos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Patinador",
-		obtencao: "Rotas 102, 111, 114, e outras",
+		obtencao: ["Rotas 102, 111, 114, e outras"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9226,7 +9226,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Intimida inimigos com os padrões semelhantes a olhos em suas antenas. Este Pokémon bate suas quatro asas para voar livremente em qualquer direção, até mesmo para os lados e para trás, como se fosse um helicóptero.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Globo Ocular",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9254,7 +9254,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em solo úmido nas profundezas escuras de florestas. São frequentemente encontrados parados sob folhas caídas. Este Pokémon se alimenta de composto feito de folhas caídas e podres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
-		obtencao: "Floresta de Petalburg",
+		obtencao: ["Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9282,7 +9282,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Espalha esporos de buracos no chapéu em sua cabeça. Ama climas quentes e úmidos. Se alimenta de árvores e plantas em campos e florestas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9310,7 +9310,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dorme praticamente o dia todo e a noite toda. Não muda seu ninho sua vida inteira, mas algumas vezes viaja grandes distâncias nadando em rios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandrião",
-		obtencao: "Floresta de Petalburg",
+		obtencao: ["Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9338,7 +9338,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É simplesmente incapaz de permanecer parado. Mesmo quando tenta dormir, o sangue suas veias se agita, obrigando este Pokémon a correr solto pela selva antes que possa se acalmar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Selvagem",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9366,7 +9366,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Passa todo o dia deitado e relaxando. Come a grama que cresce ao seu alcance. Caso coma toda a grama que puder alcançar, relutantemente se move para outro lugar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Preguiçoso",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9394,7 +9394,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive no subsolo por muitos anos em completa escuridão. Este Pokémon absorbe nutrientes das raízes de árvores. Permanece parado como se esperasse por algo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estagiário",
-		obtencao: "Rota 116",
+		obtencao: ["Rota 116"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9422,7 +9422,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso não seja treinado adequadamente, recusará obedecer o treinado e chora continuamente. Por causa disso, é dito que este Pokémon coloca as habilidades do treinador a teste.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ninja",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9450,7 +9450,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo duro não move, nem mesmo um tique. Na verdade, seu corpo aparenta ser meramente uma casca vazia. Acredita-se que este Pokémon roubará o espírito de qualquer um que espie seu corpo oco pelas costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tosado",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9478,7 +9478,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Normalmente, sua voz é muito baixa, é quase inaudível mesmo se estiver prestando bastante atenção. Contudo, caso pressinta perigo, começa a chorar em um volume ensurdecedor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sussurro",
-		obtencao: "Rota 116; Gruta do Deserto; Túnel Rusturf; e Estrada da Vitória",
+		obtencao: ["Rota 116", "Gruta do Deserto", "Túnel Rusturf", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9506,7 +9506,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu berro pode dizimar completamente uma casa de madeira. Ele usa sua voz para punir seus inimigos. As orelhas redondas deste Pokémon servem como alto-falantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vozeirão",
-		obtencao: "Estrada da Vitória; Gruta do Deserto; e por evolução",
+		obtencao: ["Estrada da Vitória", "Gruta do Deserto", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9534,7 +9534,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Desencadeia terremotos com os tremores que cria ao berrar. Caso este Pokémon inalar violentamente pelas aberturas em seu corpo, é um sinal de que está se preparando para soltar um enorme berro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Barulhão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9562,7 +9562,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Continuará se levantando e atacando seu inimigo, não importa quantas vezes seja derrubado. Toda vez que se levanta, este Pokémon armazena mais energia em seu corpo para evoluir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bravura",
-		obtencao: "Caverna de Granito; e Estrada da Vitória",
+		obtencao: ["Caverna de Granito", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9590,7 +9590,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo grosso pode parecer gordo, mas na verdade é um pedaço de músculo sólido. Caso se esforce para contrais todos os seus músculos, seu corpo se torna duro como uma rocha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Propulsão de Braço",
-		obtencao: "Estrada da Vitória; e por evolução",
+		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9618,7 +9618,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gira sua cauda como se fosse um laço, então a arremessa para longe. O impulso do arremesso também faz seu corpo voar. Usando essa única ação, um desses Pokémon conseguiu se arremessar a uma distância recorde de 10 metros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Poá",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9646,7 +9646,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu nariz magnético está sempre apontando para o norte. Caso dois desses Pokémon se encontrem, não poderão virar o rostos para o outro quando estiverem próximos porque seus narizes magnéticos se repelem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bússola",
-		obtencao: "Caverna de Granito",
+		obtencao: ["Caverna de Granito"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9674,7 +9674,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui o hábito de se fascinar por objetos em movimento e persegui-los. Este Pokémon é conhecido por perseguir sua própria cauda e ficar tonto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bichano",
-		obtencao: "Rota 116",
+		obtencao: ["Rota 116"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9702,7 +9702,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Prefere viver uma existência irrestrita por conseguir fazer o lhe agrada no seu próprio tempo. Por comer e dormir quando decide, suas rotinas diárias são completamente randômicas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prim",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9731,7 +9731,7 @@ const pkmnDisponiveis = [
 			"Levam suas vidas tranquilas nas profundezas das cavernas. São temidos, no entanto, porque acredita-se que roubam os espíritos das pessoas quando seus olhos queimam com um brilho sinistro na escuridão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuridão",
 		obtencao:
-			"Caverna de Granito; Caverna da Origem; Pilar Celeste; e Estrada da Vitória",
+			["Caverna de Granito", "Caverna da Origem", "Pilar Celeste", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9760,7 +9760,7 @@ const pkmnDisponiveis = [
 			"Não se engane pelo rosto fofo deste Pokémon, é muito perigoso. Este Pokémon engana o adversário para que baixe a guarda e então o morde com suas grandes presas. As presas metálicas são, na verdade, chifres que tem sido transformados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Enganador",
 		obtencao:
-			"Caverna de Granito; Caverna da Origem; Estrada da Vitória; e Pilar Celeste",
+			["Caverna de Granito", "Caverna da Origem", "Estrada da Vitória", "Pilar Celeste"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9788,7 +9788,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon possui um corpo de metal. Para construir seu corpo, se alimenta de minério de ferro que escava das montanhas. Ocasionalmente, causa problemas por comer pontes e trilhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura de Ferro",
-		obtencao: "Caverna de Granito; e Estrada da Vitória",
+		obtencao: ["Caverna de Granito", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9816,7 +9816,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tempera seu corpo metálico bebendo água mineral altamente nutritiva de nascente até ficar inchado. Este Pokémon faz seu ninho perto de fontes de água deliciosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura de Ferro",
-		obtencao: "Estrada da Vitória; e por evolução",
+		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9844,7 +9844,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Reivindica uma montanha inteira como seu território. Bate impiedosamente em qualquer coisa que viole seu ambiente. Este Pokémon patrulha seu território todo o tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura de Ferro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9872,7 +9872,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Realiza um treinamento mental rigoroso nas profundezas das montanhas. No entanto, sempre que medita, sempre perde sua concentração e foco. Como resultado, seu treinamento nunca termina.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meditação",
-		obtencao: "Monte da Pira; e Estrada da Vitória",
+		obtencao: ["Monte da Pira", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9900,7 +9900,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que, por meio de meditação, este Pokémon aumenta a energia dentro de seu corpo e afia seu sexto sentido. Esconde sua presença unindo a si próprio com campos e montanhas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meditação",
-		obtencao: "Estrada da Vitória",
+		obtencao: ["Estrada da Vitória"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9928,7 +9928,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena eletricidade em seu longo pelo corporal. Este Pokémon estimula seu músculo das pernas com cargas elétricas. Esses choques dão às suas pernas um desempenho de aceleração explosivo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raios",
-		obtencao: "Rotas 110, e 118",
+		obtencao: ["Rotas 110, e 118"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9956,7 +9956,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Descarrega eletricidade constantemente de sua juba. Algumas vezes, as faíscas iniciam incêndios florestais. Quando entra em uma batalha, cria nuvens de tempestade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Descarga",
-		obtencao: "Rota 118; e por evolução",
+		obtencao: ["Rota 118", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -9984,7 +9984,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sempre age como um torcedor para seus companheiros. Toda vez que um companheiro de equipe faz um bom esforço na batalha, este Pokémon dá um curto-circuito em seu corpo para criar ruídos de faíscas para mostrar sua alegria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aplausos",
-		obtencao: "Rota 110",
+		obtencao: ["Rota 110"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10012,7 +10012,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Está mais preocupado em torcer para seus companheiros do que em sua própria segurança. Este Pokémon dá um curto-circuito em seu corpo para criar faíscas brilhantes torcer por seu companheiros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aplausos",
-		obtencao: "Rota 110",
+		obtencao: ["Rota 110"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10040,7 +10040,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com a chegada da noite, emite luz de sua cauda. Sua comunicação com outros se baseia em ajustar a intensidade e o piscar de sua luz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vaga-lume",
-		obtencao: "Rota 117",
+		obtencao: ["Rota 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10068,7 +10068,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon noturno que se torna ativo ao cair da noite. Lidera um enxame que desenha padrões no céu escuro. Mais de 200 padrões escuros foram confirmados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vaga-lume",
-		obtencao: "Rota 117",
+		obtencao: ["Rota 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10096,7 +10096,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atira espinhos afiados como projéteis em qualquer oponente que tente roubar as flores em seus braços. O aroma deste Pokémon traz serenidade aos vivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho",
-		obtencao: "Rota 117",
+		obtencao: ["Rota 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10124,7 +10124,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Teoricamente, todo seu corpo é seu estomago. Como resultado, consegue engolir algo de seu próprio tamanho. O estomago deste Pokémon contém um fluido especial que digere qualquer coisa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estômago",
-		obtencao: "Rota 110",
+		obtencao: ["Rota 110"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10152,7 +10152,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando localiza uma presa, expele um fluido terrivelmente tóxico de seus poros e pulveriza o alvo. Uma vez que a presa tenha enfraquecido, este Pokémon a engole inteira com sua boca cavernosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Saco de Veneno",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10180,7 +10180,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas mandíbulas fortemente desenvolvidas e suas pontiagudas e afiadas têm o poder destrutivo de arrancar cascos de barcos. Muitos barcos foram atacados e afundados por este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Selvagem",
-		obtencao: "Rotas 118, e 119",
+		obtencao: ["Rotas 118, e 119"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10208,7 +10208,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apelidado de 'o valentão dos mares', este Pokémon é amplamente temido. Suas cruéis presas crescem de volta imediatamente após quebrarem. Apenas um desses Pokémon pode destruir completamente um superpetroleiro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brutal",
-		obtencao: "Rotas 103, 118, 122, e outras",
+		obtencao: ["Rotas 103, 118, 122, e outras"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10237,7 +10237,7 @@ const pkmnDisponiveis = [
 			"Suas narinas são localizadas acima de seus olhos. Este Pokémon brincalhão gosta de assustar as pessoas expelindo com força a água do mar que armazena dentro do corpo pelas narinas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baleia Esférica",
 		obtencao:
-			"Rotas 103, 105, 106, e outras; Caverna do Fundo do Mar; e Gruta Cardume",
+			["Rotas 103, 105, 106, e outras", "Caverna do Fundo do Mar", "Gruta Cardume"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10265,7 +10265,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É o maior de todos Pokémon identificados até agora. Este Pokémon gigante nada languidamente no vasto mar aberto, comendo quantidades gigantescas de comida de uma vez com sua boca enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baleia Flutuante",
-		obtencao: "Rota 129; e por evolução",
+		obtencao: ["Rota 129", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10293,7 +10293,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena magma de quase 1'200° Celsius dentro de seu corpo. Caso se molhe, o magma esfria e endurece. Nesse caso, o corpo do Pokémon aumenta de peso e seus movimentos se tornam lentos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dormente",
-		obtencao: "Rota 112; Caminho Ardente; e Passo Pontudo",
+		obtencao: ["Rota 112", "Caminho Ardente", "Passo Pontudo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10321,7 +10321,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui um vulcão dentro de seu corpo. Magma de 10'000° Celsius percorre seu corpo. Ocasionalmente, as saliências em suas costas entram em erupção, expelindo magma superaquecido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Erupção",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10349,7 +10349,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cava pelas montanhas em procura de carvão. Caso encontre algum, preenche o espaço oco em seu casco com carvão e o queima. Caso seja atacado, este Pokémon solta uma fumaça preta e espessa para bater em retirada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carvão",
-		obtencao: "Caminho Ardente; e Esconderijo Magma",
+		obtencao: ["Caminho Ardente", "Esconderijo Magma"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10377,7 +10377,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mantém uma pérola no topo de sua cabeça. A pérola tem o propósito de amplificar os poderes psicocinéticos deste Pokémon. Portanto, está em procura constante por uma pérola maior.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ricochete",
-		obtencao: "Passo Pontudo",
+		obtencao: ["Passo Pontudo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10405,7 +10405,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa as pérolas negras em seu corpo para amplificar suas ondas psíquicas e obter controle total sobre seu inimigo. Quando usa seu poder especial, sua respiração ofegante torna-se difícil.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Manipulação",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10433,7 +10433,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito que cada indivíduo de sua espécie possui padrões de manchas totalmente únicos. Os passos trêmulos e cambaleantes deste Pokémon dão a ele aparência de uma dança.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Panda Manchado",
-		obtencao: "Rota 113",
+		obtencao: ["Rota 113"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10461,7 +10461,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É um caçador paciente. Cava um buraco inescapável em um deserto e espera que sua presa caia. Pode passar uma semana inteira sem acesso a água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Formigueiro",
-		obtencao: "Rota 111; e Torre Miragem",
+		obtencao: ["Rota 111", "Torre Miragem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10489,7 +10489,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas asas ainda não completaram o processo de crescimento. Ao invés de voar longas distâncias, são mais úteis criando ondas ultrassônicas pela vibração.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vibração",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10517,7 +10517,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É apelidado de 'o espírito elemental do deserto'. Como suas asas batendo levantam uma nuvem de areia, este Pokémon está sempre envolto em uma tempestade areia enquanto voa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Místico",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10545,7 +10545,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em locais áridos como desertos. Libera um forte aroma de sua flor para atrair presa. Quando a presa se aproxima, este Pokémon atira espinhos afiados de seu corpo para abater a vítima.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cacto",
-		obtencao: "Rota 111",
+		obtencao: ["Rota 111"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10573,7 +10573,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Durante o dia, este Pokémon permanece imóvel para que não perca umidade para o forte sol do deserto. Este Pokémon se torna ativo durante a noite quando a temperatura cai.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espantalho",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10601,7 +10601,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui asas leves e fofas que são como nuvens de algodão. Este Pokémon não se assusta com pessoas. Aterrissa em cabeças de pessoas e senta como um chapéu de algodão fofo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro de Algodão",
-		obtencao: "Rotas 114, e 115",
+		obtencao: ["Rotas 114, e 115"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10629,7 +10629,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dança e gira pelo céu entre nuvens ondulantes, como algodão. Ao cantar melodias com sua voz cristalina, este Pokémon faz seus ouvintes experimentarem maravilhas oníricas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Canto",
-		obtencao: "Pilar Celeste; e por evolução",
+		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10657,7 +10657,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando batalha, fica em pé sobre as patas traseiras e ataca com as patas dianteiras com garras afiadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Furão",
-		obtencao: "Rota 114",
+		obtencao: ["Rota 114"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10685,7 +10685,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua cauda em forma de espada serve a dois propósitos, corta os inimigos e os encharca com veneno secretado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente com Presas",
-		obtencao: "Rota 114",
+		obtencao: ["Rota 114"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10713,7 +10713,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi descoberto em um local onde um meteorito caiu. Como resultado, algumas pessoas teorizam que esse Pokémon veio do espaço. Contudo, ninguém conseguiu provar essa teoria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meteorito",
-		obtencao: "Cachoeira do Meteoro",
+		obtencao: ["Cachoeira do Meteoro"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10741,7 +10741,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É uma nova espécie de Pokémon que dizem ter caído do espaço. Flutua no ar e se move silenciosamente. Em batalha, este Pokémon libera luz que brilha intensamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meteorito",
-		obtencao: "Cachoeira do Meteoro",
+		obtencao: ["Cachoeira do Meteoro"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10770,7 +10770,7 @@ const pkmnDisponiveis = [
 			"Seus bigodes sensíveis servem como um excelente sistema de radar. Esse Pokémon se esconde em lama, deixando somente seus dois bigodes expostos enquanto espera pela presa chegar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bigodudo",
 		obtencao:
-			"Rotas 111, 114, e 120; Cachoeira do Meteoro; e Estrada da Vitória",
+			["Rotas 111, 114, e 120", "Cachoeira do Meteoro", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10798,7 +10798,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É extremamente territorialista. Só um destes Pokémon reivindicará um grande lago como seu território exclusivo. Se um inimigo se aproxima, se debate e desencadeia um grade terremoto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bigodudo",
-		obtencao: "Cachoeira do Meteoro; Estrada da Vitória; e por evolução",
+		obtencao: ["Cachoeira do Meteoro", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10826,7 +10826,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Era originalmente um Pokémon estrangeiro que foi importado como animal doméstico. Acabaram aparecendo na natureza. Este Pokémon é muito resistente e aumentou muito sua população.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baderneiro",
-		obtencao: "Rotas 102, e 117",
+		obtencao: ["Rotas 102, e 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10854,7 +10854,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui uma natureza extremamente violenta que o obriga a desafiar outros seres vivos para batalha. Outras formas de vida se recusam a viver em lagoas habitadas por este Pokémon, tornando-as lugares desolados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Patife",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10882,7 +10882,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se move enquanto gira em seu único pé. Pinturas de parede primitivas retratando este Pokémon vivendo entre as pessoas foram descobertas em algumas ruínas antigas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boneco de Argila",
-		obtencao: "Rota 111",
+		obtencao: ["Rota 111"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10910,7 +10910,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rumores dizem que são bonecas de lama feitas por humanos primitivos e trazidos a vida pela exposição a um raio misterioso. Este Pokémon se move enquanto levita.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boneco de Argila",
-		obtencao: "Pilar Celeste; e por evolução",
+		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10938,7 +10938,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É um Pokémon antigo que foi regenerado a partir de um fóssil. Permanece permanentemente ancorado a uma rocha. De seu poleira imóvel, este Pokémon procura atentamente por presas com seus dois olhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lírio-do-Mar",
-		obtencao: "Revivido a partir de fóssil",
+		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10966,7 +10966,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vagueia pelo fundo do oceano a procura de comida. Este Pokémon estende livremente seu pescoço semelhante a um tronco de árvore e captura presas incautos usando seus oito tentáculos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Percevejo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -10994,7 +10994,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito ser que é um tipo de predecessor de Pokémon, com oito asas nas laterais do corpo. Este Pokémon nadou no mar primordial ondulando essas oito asas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Camarão",
-		obtencao: "Revivido a partir de fóssil",
+		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11022,7 +11022,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua armadura dura faz todos os ataques ricochetearem. As duas enormes garras deste Pokémon podem ser estendidas ou contraídas livremente. Tem o poder de perfurar uma laje de aço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carapaça",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11050,7 +11050,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas barbatanas são esfarrapadas desde o início de sua vida. Por causa de sua aparência de má qualidade, este Pokémon é amplamente ignorado. É capaz de viver tanto em mar quanto em rios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe",
-		obtencao: "Rota 119",
+		obtencao: ["Rota 119"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11078,7 +11078,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem ser um dos Pokémon mais bonitos que existe. Possui o poder de acalmar emoções como raiva e hostilidade para reprimir rixas amargas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meigo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11107,7 +11107,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			"Laboratório de Meteorologia; e, durante a batalha, o tempo estar limpo, com neblina, com tempestade de areia, ou com shadowy aura",
+			["Laboratório de Meteorologia", "Durante a batalha, o tempo estar limpo, com neblina, com tempestade de areia, ou com shadowy aura"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -11136,7 +11136,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			"Laboratório de Meteorologia; e, durante a batalha, o clima ser de sol forte",
+			["Laboratório de Meteorologia", "Durante a batalha, o clima ser de sol forte"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -11165,7 +11165,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			"Laboratório de Meteorologia; e, durante a batalha, estar chovendo",
+			["Laboratório de Meteorologia", "Durante a batalha, estar chovendo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -11194,7 +11194,7 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			"Laboratório de Meteorologia; e, durante a batalha; estar chovendo granizo",
+			["Laboratório de Meteorologia", "Durante a batalha", "estar chovendo granizo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -11222,7 +11222,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é capaz de alterar a coloração de seu corpo à vontade para se misturar com os ambiente. Existe uma exceção, não consegue alterar o padrão zigue-zague em sua barriga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Troca-cor",
-		obtencao: "Rotas 118, 119, 120, e outras",
+		obtencao: ["Rotas 118, 119, 120, e outras"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11250,7 +11250,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cresce se alimentando de emoções negativas, como vingança e inveja, nos corações das pessoas. Vagueia pelas cidades a procura de rancores que mancham as pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fantoche",
-		obtencao: "Rotas 121, e 123; e Monte da Pira",
+		obtencao: ["Rotas 121, e 123", "Monte da Pira"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11278,7 +11278,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma energia amaldiçoada permeou o enchimento de uma boneca de pelúcia descartada e esquecida, dando-lhe uma nova vida como este Pokémon. A energia do Pokémon escaparia caso abrisse a boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Marionete",
-		obtencao: "Pilar Celeste; e por evolução",
+		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11306,7 +11306,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue atravessar qualquer parede não importando quão grossa possa ser. Uma vez que escolhe um alvo, persegue obstinadamente a vítima até o amanhecer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Réquiem",
-		obtencao: "Rotas 121, e 123; e Monte da Pira",
+		obtencao: ["Rotas 121, e 123", "Monte da Pira"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11334,7 +11334,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é completamente oco, não há nada dentro. Dizem que seu corpo é como um buraco negro. Este Pokémon absorverá qualquer coisa em seu corpo, mas jamais retornará.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aceno",
-		obtencao: "Pilar Celeste; e por evolução",
+		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11362,7 +11362,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os cachos de frutas ao redor de seu pescoço são muito populares entre as crianças. Este Pokémon gosta de frutas, e come continuamente. Aparentemente, seu gosto por frutas resultou em seu próprio crescimento de frutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fruta",
-		obtencao: "Rota 119",
+		obtencao: ["Rota 119"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11390,7 +11390,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Faz seus sons ecoarem dentro de seu corpo oco. Quando este Pokémon fica enfurecido, seus sons resultam em ondas ultrassônicas que têm o poder de derrubar os inimigos voando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mensageiro dos Ventos",
-		obtencao: "Monte da Pira",
+		obtencao: ["Monte da Pira"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11418,7 +11418,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Toda vez que aparece diante das pessoas, é seguido por desastre como um terremoto ou um maremoto. Como resultado, veio a ser conhecido como o Pokémon desastre.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Desastre",
-		obtencao: "Rota 120",
+		obtencao: ["Rota 120"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11446,7 +11446,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sempre pode visto com um grande sorriso feliz no rosto. Olhe para a cauda determinar se está bravo. Quando bravo, este Pokémon baterá no chão com sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brilhante",
-		obtencao: "Por ovo; e Ilha Miragem",
+		obtencao: ["Por ovo", "Ilha Miragem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11474,7 +11474,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em regiões com muita neve. Em estações sem neve, como primavera e verão, este Pokémon foge para viver silenciosamente entre estalactites e estalagmites nas profundezas de cavernas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gorro de Neve",
-		obtencao: "Gruta Cardume",
+		obtencao: ["Gruta Cardume"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11502,7 +11502,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui um corpo feito de rocha, o qual endurece com uma armadura de gelo. Este Pokémon tem a habilidade de congelar umidade na atmosfera em qualquer formato que desejar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rosto",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11530,7 +11530,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É muito mais rápido rolando do que caminhando para se locomover. Quando grupos deste Pokémon comem, todos batem palma ao mesmo tempo para mostrar seu prazer. Por causa disso, suas refeições são barulhentas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bater Palmas",
-		obtencao: "Gruta Cardume",
+		obtencao: ["Gruta Cardume"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11558,7 +11558,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tem o hábito de sempre fazer malabarismos na ponta do nariz com qualquer coisa que vê pela primeira vez. Este Pokémon ocasionalmente se diverte equilibrando e rolando um Spheal no nariz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rolo Bola",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11586,7 +11586,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas duas presas massivamente desenvolvidas podem destruir totalmente blocos de gelo pesando dez toneladas com um golpe. A espessa camada de gordura deste Pokémon o isola de temperaturas abaixo de zero.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Quebra-gelo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11614,7 +11614,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua concha resistente não é boa apenas para proteção, é usada também para prender e capturar presas. A concha deste Pokémon totalmente crescido será marcada com cortes e arranhões por todo o corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bivalve",
-		obtencao: "Rotas submersas 124, e 126",
+		obtencao: ["Rotas submersas 124, e 126"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11642,7 +11642,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua presença passou despercebida pelas pessoas por um longo tempo por viver em profundidades extremas do mar. Os olhos deste Pokémon podem ver claramente até mesmo nas profundezas escuras e turvas do oceano.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fundo do Mar",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11670,7 +11670,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive nos mares do sul em profundezas extremas. Seu corpo é construído para suportar a enorme pressão exercida pela água em incríveis profundezas. Por isso, o corpo deste Pokémon não é afetado por ataques comuns.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mar do Sul",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11698,7 +11698,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua espécie viveu por cem milhões de anos sem mudar sua forma. Este antigo Pokémon se alimenta de organismos microscópico com sua boca sem dentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Longevidade",
-		obtencao: "Rotas submersas 124, e 126",
+		obtencao: ["Rotas submersas 124, e 126"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11726,7 +11726,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo do formato de um coração é um símbolo de amor e romance. Dizem que qualquer casal que encontre este Pokémon terá a promessa de um relacionamento amoroso que nunca termina.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Encontro",
-		obtencao: "Rota 128",
+		obtencao: ["Rota 128"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11754,7 +11754,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tem um sonho de algum dia voar alto no céu. Em seus esforços condenados de voo, este Pokémon se atira de penhascos. Como resultado de seus mergulhos sua cabeça ficou e tão resistente quanto aço temperado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cabeça de Pedra",
-		obtencao: "Cachoeira do Meteoro",
+		obtencao: ["Cachoeira do Meteoro"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11782,7 +11782,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dentro de seu casco, que se assemelha a uma armadura, células estão em meio à transformação ara criar um corpo inteiramente novo. O casco deste Pokémon é extremamente pesado, tornando seus movimentos lentos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Resistência",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11810,7 +11810,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Depois de vários anos, sua estrutura celular sofreu uma mutação repentina de crescimento de asas. Quando irritado, perde todo o raciocínio e o controle.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11838,7 +11838,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao invés de sangue, uma poderosa força magnética corre pelo seu corpo. Este Pokémon se comunica com outros enviando pulsos controlados de magnetismo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola de Ferro",
-		obtencao: "Recebido na Cidade de Mossdeep",
+		obtencao: ["Recebido na Cidade de Mossdeep"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11866,7 +11866,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As garras que inclinam seus braços têm o poder destrutivo de rasgar grossas folhas de ferro como se fossem seda. Voa a mais de 100 quilômetros por hora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Garra de Ferro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11894,7 +11894,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui quatro cérebros no total. Cominados, os quatro cérebros conseguem passar por cálculos difíceis mais rápido que um supercomputador. Este Pokémon consegue flutuar no ar dobrando suas quatro pernas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perna de Ferro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11922,7 +11922,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi selado por pessoas há muito tempo. É dito que, caso o corpo deste Pokémon seja danificado em batalha, buscará por rochas adequadas para se reparar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pico de Rocha",
-		obtencao: "Ruínas do Deserto",
+		obtencao: ["Ruínas do Deserto"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11950,7 +11950,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo foi feito durante uma era glacial. O corpo profundamente congelado não pode ser derretido, nem mesmo por fogo. Este Pokémon controla ar gelado de -200° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Iceberg",
-		obtencao: "Gruta Insular",
+		obtencao: ["Gruta Insular"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -11978,7 +11978,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui um corpo mais duro que qualquer tipo de metal. Seu corpo é aparentemente oco. Ninguém tem ideia do que este Pokémon come.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ferro",
-		obtencao: "Tumba Antiga",
+		obtencao: ["Tumba Antiga"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12006,7 +12006,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É altamente sensível às emoções de pessoas. Caso sinta qualquer hostilidade, este Pokémon eriça as penas de todo o corpo e grita estridentemente para intimidar o inimigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Eternidade",
-		obtencao: "Ilha Sul; ou Vagando por Hoenn",
+		obtencao: ["Ilha Sul", "ou Vagando por Hoenn"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12034,7 +12034,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui a habilidade de fazer seu oponente ver uma imagem do que tem visto ou imagina em sua cabeça. Este Pokémon é inteligente e entende a fala humana.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Eternidade",
-		obtencao: "Ilha Sul; ou Vagando por Hoenn",
+		obtencao: ["Ilha Sul", "ou Vagando por Hoenn"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12062,7 +12062,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é nomeado na mitologia como o Pokémon que expandiu o mar cobrindo a terra com chuvas torrenciais e ondas gigantescas. Este Pokémon adormeceu após uma batalha cataclísmica..", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bacia Marinha",
-		obtencao: "Caverna da Origem; ou Caverna Marinha",
+		obtencao: ["Caverna da Origem", "ou Caverna Marinha"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12090,7 +12090,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é descrito há muito tempo na mitologia como o Pokémon que ergueu terras e expandiu continentes. Este Pokémon adormeceu após uma batalha cataclísmica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Continente",
-		obtencao: "Caverna da Origem; ou Caverna Terrena",
+		obtencao: ["Caverna da Origem", "ou Caverna Terrena"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12118,7 +12118,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Viveu por centenas de milhões de anos na camada de ozônio da Terra, nunca descendo para o chão. Sua existência tem sido completamente desconhecida por viver tão alto no céu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Celeste",
-		obtencao: "Pilar Celeste",
+		obtencao: ["Pilar Celeste"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12146,7 +12146,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma lenda afirma que este Pokémon realizará qualquer desejo escrito em notas presas à sua cabeça quando acordar. Caso este Pokémon sinta perigo, lutará sem acordar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Desejo",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12174,7 +12174,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O DNA de um vírus espacial sofreu uma mutação repentina ao ser exposto a um raio laser e resultou neste Pokémon. O órgão cristalino no peito deste Pokémon aparenta ser seu cérebro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
-		obtencao: "Ilha da Origem",
+		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -12202,7 +12202,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se transformou em seu disfarce agressivo. Pode enganar inimigos alterado sua aparência.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
-		obtencao: "Ilha da Origem",
+		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -12230,7 +12230,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando muda de forma, uma aurora aparece. Absorve ataque alterando sua estrutura molecular.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
-		obtencao: "Ilha da Origem",
+		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -12258,7 +12258,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon que sofreu mutação de um vírus extraterrestre exposto a um raio lase. Seu corpo é configurado para agilidade e velocidade superiores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon DNA",
-		obtencao: "Ilha da Origem",
+		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
@@ -12286,7 +12286,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Feito de solo, o casco em suas costas endurece quando bebe água. Vive próximo a lagos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folhinha",
-		obtencao: "Rota 201; ou Lago Verdade",
+		obtencao: ["Rota 201", "ou Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12314,7 +12314,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive próximo a fontes de água em florestas. Durante o dia, deixa a floresta para dar banho de sol em seu casco arborizado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bosque",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12342,7 +12342,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ocasionalmente, pequenos Pokémon se reúnem em suas costas para começar a construir seus ninhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Continente",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12370,7 +12370,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua traseira flamejante é alimentada por gás produzido em sua barriga. Nem chuva pode apagar o fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chimpanzé",
-		obtencao: "Rota 201; ou Lago Verdade",
+		obtencao: ["Rota 201", "ou Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12398,7 +12398,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Para intimidar agressores, estica o fogo em sua cauda para parecer maior.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brincalhão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12426,7 +12426,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa um tipo diferente de arte marcial envolvendo todo os seus membros. Seu fogo nunca se apaga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chamas",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12454,7 +12454,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem espessa protege do frio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinguim",
-		obtencao: "Rota 201; ou Lago Verdade",
+		obtencao: ["Rota 201", "ou Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12482,7 +12482,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive sozinho, longe de outros. Aparentemente, cada um de sua espécie acredita ser o mais importante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinguim",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12510,7 +12510,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os três chifres que se estendem de seu bico atestam seu poder. O líder possui os maiores chifres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Imperador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12538,7 +12538,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus grupos são em grandes números. Embora pequenos, eles batem suas asas com grande poder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estorninho",
-		obtencao: "Rotas 201, 202, 203, e outras; Lago Verdade; e Grande Pântano",
+		obtencao: ["Rotas 201, 202, 203, e outras", "Lago Verdade", "Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12567,7 +12567,7 @@ const pkmnDisponiveis = [
 			"Voa por a florestas e campos em procura de Pokémon insetos. Fica dentro de um bando enorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estorninho",
 		obtencao:
-			"Rotas 209, 210, 212, e outra; Jardim Troféu; Lago Valor; Fonte da Despedida; Grande Pântano; Arredores do Lago Valor; e por evolução",
+			["Rotas 209, 210, 212, e outra", "Jardim Troféu", "Lago Valor", "Fonte da Despedida", "Grande Pântano", "Arredores do Lago Valor", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12595,7 +12595,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui uma natureza selvagem. Desafia corajosamente adversários muito maiores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Predador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12624,7 +12624,7 @@ const pkmnDisponiveis = [
 			"Com nervos de aço, nada consegue perturbá-lo. Mais ágil e ativo do que parece.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato Gorducho",
 		obtencao:
-			"Rotas 201, 202, 203, e outras; Lago Verdade; Floresta de Eterna; Grande Pântano; e Usina do Vale.",
+			["Rotas 201, 202, 203, e outras", "Lago Verdade", "Floresta de Eterna", "Grande Pântano", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12653,7 +12653,7 @@ const pkmnDisponiveis = [
 			"Constrói seu ninho represando riachos com casca e lama. É conhecido como um trabalhador industrial.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Castor",
 		obtencao:
-			"Rotas 208, 209, 210, e outra; Lago Valor; Fonte da Despedida; Grande Pântano; Lago Perspicácia; Arredores do Lago Valor; e por evolução",
+			["Rotas 208, 209, 210, e outra", "Lago Valor", "Fonte da Despedida", "Grande Pântano", "Lago Perspicácia", "Arredores do Lago Valor", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12681,7 +12681,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Balança a cabeça de trás para frente, fazendo com que suas antenas batam uma na outra e soem como um xilofone.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Grilo",
-		obtencao: "Rotas 202, 203, 204, e outras; e Floresta de Eterna",
+		obtencao: ["Rotas 202, 203, 204, e outras", "Floresta de Eterna"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12710,7 +12710,7 @@ const pkmnDisponiveis = [
 			"Cruza seu braços semelhantes a uma faca na frente de seu peito quando emite sons. Consegue compor melodias no improviso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Grilo",
 		obtencao:
-			"Rotas 206, 210, 212, e outras; Jardim Troféu; Arredores do Lago Valor; e por evolução",
+			["Rotas 206, 210, 212, e outras", "Jardim Troféu", "Arredores do Lago Valor", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12738,7 +12738,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Todo seu pelo deslumbra quando sente perigo. Foge enquanto o oponente está momentaneamente cego.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lampejante",
-		obtencao: "Rotas 202, 203, e 204; Usina do Vale; e Fuego de Ferro",
+		obtencao: ["Rotas 202, 203, e 204", "Usina do Vale", "Fuego de Ferro"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12766,7 +12766,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas garras liberam eletricidade com amperagem o suficiente para causar desmaio. Vivem em pequenos grupos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fagulha",
-		obtencao: "Rota 222; Fuego de Ferro; e por evolução",
+		obtencao: ["Rota 222", "Fuego de Ferro", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12794,7 +12794,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando seus olhos brilham dourados, consegue localizar presas escondidas, mesmo aquelas abrigadas atrás de uma parede.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Olhos Fulgurantes",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12823,7 +12823,7 @@ const pkmnDisponiveis = [
 			"Durante o inverno, fecha o botão e perdura o frio. Na primavera, o botão se abre e libera pólen.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Broto",
 		obtencao:
-			"Rotas 204, 205, 208, e outra; Floresta de Eterna; e Grande Pântano",
+			["Rotas 204, 205, 208, e outra", "Floresta de Eterna", "Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12851,7 +12851,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atrai a presa com um aroma adocicado para derruba-la com chicotes espinhosos escondidos em seus braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Buquê",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12879,7 +12879,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Viveu em selvas por volta de cem milhões de anos atrás. Seu crânio é tão duro quanto ferro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cabeçada",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12907,7 +12907,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua poderosa cabeçada possui poder suficiente para quebrar até mesmo as coisas mais duráveis com o impacto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cabeçada",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12935,7 +12935,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon que viveu nas selvas por volta de cem milhões de anos atrás. Seu couro facial é extremamente duro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escudo",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12963,7 +12963,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Qualquer ataque frontal é repelido. É um Pokémon dócil que se alimenta de grama e frutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escudo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12992,7 +12992,7 @@ const pkmnDisponiveis = [
 			"Para se proteger dos ventos frios do inverno, se cobre com uma capa feita de materiais como folhas, galhos, areia, e restos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
 		obtencao:
-			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; e Usina do Vale",
+			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13022,7 +13022,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -13050,7 +13050,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -13078,7 +13078,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua aparência muda dependendo de onde tenha evoluído. Os materiais disponíveis se tornam parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bicho-de-cesto",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -13106,7 +13106,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Não mantém um ninho. Voa sobre campos e montanhas em procura constante de mel floral.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13135,7 +13135,7 @@ const pkmnDisponiveis = [
 			"Coleta e entrega mel para sua colônia. À noite, se agrupam para formar uma colmeia e dormem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abelhinha",
 		obtencao:
-			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; e Usina do Vale",
+			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13163,7 +13163,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando ameaçadas, larvas de seu favo de mel de seis células revidam. Há apenas uma em uma colônia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Colmeia",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13191,7 +13191,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Faz bolas de pelo que estalam com eletricidade estática. As armazena com frutas em buracos de árvores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Esquilo Elétrico",
-		obtencao: "Rota 205; Fuego de Ferro; e Usina do Vale",
+		obtencao: ["Rota 205", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13219,7 +13219,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui um saco de flutuação que se assemelha a uma coleira inflável. Flutua na água com a cabeça para fora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Doninha do Mar",
-		obtencao: "Rotas 205, 212, 213, e outra; e Usina do Vale",
+		obtencao: ["Rotas 205, 212, 213, e outra", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13248,7 +13248,7 @@ const pkmnDisponiveis = [
 			"Flutua usando seus saco de flutuação bem desenvolvido. Auxilia no resgate de pessoas que estão se afogando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Doninha do Mar",
 		obtencao:
-			"Rotas 213, 218, 221, e outras; Fuego de Ferro; Estrada da Vitória; e por evolução",
+			["Rotas 213, 218, 221, e outras", "Fuego de Ferro", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13277,7 +13277,7 @@ const pkmnDisponiveis = [
 			"A bola pequena não é só cheia de nutrientes, também é saborosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cereja",
 		obtencao:
-			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; Usina do Vale",
+			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13305,7 +13305,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Floresce em épocas de forte luz solar. Tenta compensar tudo o que suportou como broto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Floreado",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13334,7 +13334,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas cores e formas diferem de região para região. Na região de Sinnoh, estão confirmados dois tipos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma do Mar",
-		obtencao: "Rotas 205, 212, 213, e outras; Fuego de Ferro; e Usina do Vale",
+		obtencao: ["Rotas 205, 212, 213, e outras", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13363,7 +13363,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui um corpo flexível sem ossos. Caso qualquer parte de seu corpo for arrancada, ela cresce de volta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma do Mar",
-		obtencao: "Rotas 205, 213, 218, e outras; Fuego de Ferro; e Usina do Vale",
+		obtencao: ["Rotas 205, 213, 218, e outras", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13392,7 +13392,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Para comer, habilmente descasca nozes com suas duas caudas. Raramente usa seus braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cauda Longa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13420,7 +13420,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon formado por espíritos de pessoas e Pokémon. Gosta de estações úmidas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Balão",
-		obtencao: "Usina do Vale",
+		obtencao: ["Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13448,7 +13448,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É sonolento durante o dia, voa à noite em grandes grupos. Ninguém sabe para onde vão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dirigível",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13476,7 +13476,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Bate em seus inimigos desenrolando bruscamente suas orelhas enroladas. Pica o suficiente para fazer um adulto chorar de dor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho",
-		obtencao: "Floresta de Eterna",
+		obtencao: ["Floresta de Eterna"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13504,7 +13504,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon extremamente cauteloso. Cobre seu corpo com sua orelha fofa quando sente perigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13532,7 +13532,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os sons que emite soam como encantações. Quem ouve são atormentados por dores de cabeça e alucinações.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mágico",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13560,7 +13560,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Caso algum soltar um grito profundo, vários subordinados reúnem-se rapidamente. Por isso, é chamado de 'Invocador da Noite'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chefão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13588,7 +13588,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Arranha quando está insatisfeito e ronrona quando afetuoso. Sua inconstância é muito popular entre alguns.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vingativo",
-		obtencao: "Rotas 218, e 222",
+		obtencao: ["Rotas 218, e 222"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13616,7 +13616,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É um bruto descarado que invade o ninho de outro Pokémon e o reivindica como seu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato-tigre",
-		obtencao: "Rotas 222, e 229; e por evolução",
+		obtencao: ["Rotas 222, e 229", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13645,7 +13645,7 @@ const pkmnDisponiveis = [
 			"Emite sons ao agitar uma orbe no fundo da gargante. Se move com pulos agitados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sino",
 		obtencao:
-			"Rota 211; Lago Valor; Monte Coronet; Lago da Perspicácia; Fonte da Despedida; e Caverna do Retorno",
+			["Rota 211", "Lago Valor", "Monte Coronet", "Lago da Perspicácia", "Fonte da Despedida", "Caverna do Retorno"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13673,7 +13673,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Protege a si mesmo borrifando um fluido nocivo de sua parte traseira. O fedor permanece por 24 horas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gambá",
-		obtencao: "Rotas 206, 214, e 221",
+		obtencao: ["Rotas 206, 214, e 221"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13701,7 +13701,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Borrifa um fluido de cheiro horrível da ponta da cauda para atacar. Seu alcance é de 50 metros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato-tigre",
-		obtencao: "Rotas 221, e 225; e por evolução",
+		obtencao: ["Rotas 221, e 225", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13730,7 +13730,7 @@ const pkmnDisponiveis = [
 			"Fotos de raio-X foram tiradas para verificar a estrutura de seu corpo. Contudo, nada apareceu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bronze",
 		obtencao:
-			"Rotas 206, e 211; Caverna Extravio; Caverna do Retorno; e Monte Coronet",
+			["Rotas 206, e 211", "Caverna Extravio", "Caverna do Retorno", "Monte Coronet"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13758,7 +13758,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue invocar nuvens de chuva. Pessoas há muito tempo o reverenciavam como o portado de colheitas abundantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sino de Bronze",
-		obtencao: "Caverna do Retorno; Monte Coronet; e por evolução",
+		obtencao: ["Caverna do Retorno", "Monte Coronet", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13786,7 +13786,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparenta sempre estar chorando. Na verdade, está ajustando os níveis de fluidos corporais eliminando o excesso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bonsai",
-		obtencao: "Rotas 209, e 210; e Jardim Troféu",
+		obtencao: ["Rotas 209, e 210", "Jardim Troféu"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13814,7 +13814,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Habitualmente imita os inimigos. Uma vez imitado, o inimigo não consegue tirar os olhos deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mímico",
-		obtencao: "Rotas 209, e 210; e Jardim Troféu",
+		obtencao: ["Rotas 209, e 210", "Jardim Troféu"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13842,7 +13842,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gosta de carregar uma rocha pequena. Pode vagar pelos pés dos outros e fazê-los tropeçar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brincar de Casinha",
-		obtencao: "Jardim Troféu",
+		obtencao: ["Jardim Troféu"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13870,7 +13870,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue aprender e falar palavras humanas. Quando se juntam, todos aprenderão o mesmo ditado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nota Musical",
-		obtencao: "Rotas 213, 218, 222, e outra",
+		obtencao: ["Rotas 213, 218, 222, e outra"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13898,7 +13898,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi preso a uma fissura em uma pedra sagrada como punição por delitos cometidos há 500 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Proibido",
-		obtencao: "Torre Sagrada",
+		obtencao: ["Torre Sagrada"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13926,7 +13926,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nidifica em pequenos buracos horizontais nas paredes de cavernas. Ataca para capturar presas que se aproximam demais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tubarão Terrestre",
-		obtencao: "Caverna Extravio",
+		obtencao: ["Caverna Extravio"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13954,7 +13954,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Há uma crença antiga que remédios feitos com suas escamas curam até doenças incuráveis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gruta",
-		obtencao: "Estrada da Vitória; e por evolução",
+		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -13982,7 +13982,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando curva seu corpo e estende suas asas, se assemelha a um jato. Voa em velocidade sônica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Supersônico",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14011,7 +14011,7 @@ const pkmnDisponiveis = [
 			"Devora seu peso em comida uma vez por dia, engolindo a comida inteira quase sem mastigar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Comilão",
 		obtencao:
-			"Rotas 205, 206, 207, e outras; Floresta de Eterna; Prado de Floaroma; Fuego de Ferro; e Usina do Vale",
+			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14039,7 +14039,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A aura que emana de seu corpo intensifica para alertar outros caso esteja assustado ou triste.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emanação",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14067,7 +14067,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui a habilidade de sentir as auras de todas as coisas. Compreende a fala humana.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aura",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14095,7 +14095,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em lugares áridos. Em vez de transpirar, expele areia granulada do corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hipopótamo",
-		obtencao: "Túnel do Maníaco",
+		obtencao: ["Túnel do Maníaco"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14123,7 +14123,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Expele areia que armazena internamente através de aberturas em seu corpo para criar um tornado gigante para ataque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peso Pesado",
-		obtencao: "Rota 228; e por evolução",
+		obtencao: ["Rota 228", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14151,7 +14151,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Agarra a presa com suas garras da cauda e injeta veneno. Tenazmente se agarra até o veneno fazer efeito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião",
-		obtencao: "Grande Pântano",
+		obtencao: ["Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14179,7 +14179,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui força em suas garras para fazer sucata de um carro. As pontas de suas garras liberam veneno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião Ogro",
-		obtencao: "Grande Pântano; e por evolução",
+		obtencao: ["Grande Pântano", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14207,7 +14207,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas bochechas contêm sacos de veneno. Tenta pegar os inimigos desprevenidos para acertá-los com dedos tóxicos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boca Tóxica",
-		obtencao: "Rota 212; e Grande Pântano",
+		obtencao: ["Rota 212", "Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14235,7 +14235,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas garras secretam uma toxina tão vil que até mesmo um arranhão pode ser fatal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boca Tóxica",
-		obtencao: "Grande Pântano; e por evolução",
+		obtencao: ["Grande Pântano", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14263,7 +14263,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atrai a presa com sua saliva de cheiro doce, então a mastiga. Demora um dia inteiro para comer a presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pegador de Insetos",
-		obtencao: "Grande Pântano",
+		obtencao: ["Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14292,7 +14292,7 @@ const pkmnDisponiveis = [
 			"Depois de uma longa exposição a luz solar, os padrões em sua barbatana caudal brilha vividamente quando chega a escuridão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Alado",
 		obtencao:
-			"Rotas 205, 218, 219, e outras; Fuego de Ferro; Ilha Iron; e Usina do Vale",
+			["Rotas 205, 218, 219, e outras", "Fuego de Ferro", "Ilha Iron", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14321,7 +14321,7 @@ const pkmnDisponiveis = [
 			"Vive no fundo do mar profundo. Atrai presas exibindo os padrões em suas quatro nadadeiras caudais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Neon",
 		obtencao:
-			"Rotas 205, 218, 219, e outras; Fuego de Ferro; Ilha Iron; Usina do Vale; e por evolução",
+			["Rotas 205, 218, 219, e outras", "Fuego de Ferro", "Ilha Iron", "Usina do Vale", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14349,7 +14349,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon amigável que captura fluxos sutis da água do mar usando suas duas antenas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pipa",
-		obtencao: "Rota 223",
+		obtencao: ["Rota 223"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14378,7 +14378,7 @@ const pkmnDisponiveis = [
 			"Vive em montanhas nevadas. Tendo tipo pouco contato com humanos, é ousadamente curioso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Árvore Congelante",
 		obtencao:
-			"Rotas 216, e 217; Arredores do Lago Perspicácia; Lago Perspicácia; e Monte Coronet",
+			["Rotas 216, e 217", "Arredores do Lago Perspicácia", "Lago Perspicácia", "Monte Coronet"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14406,7 +14406,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Provoca nevascas em montanhas que estão sempre enterradas na neve. É o abominável homem das neves.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Árvore Congelante",
-		obtencao: "Monte Coronet; e por evolução",
+		obtencao: ["Monte Coronet", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14434,7 +14434,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vivem em regiões frias, formando grupos de quatro ou cinco que caçam presas com coordenação impressionante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Garra Afiada",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14462,7 +14462,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um grupo tentou usar meios científicos para fazê-lo evoluir, mas seus esforços fracassaram.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Área Magnética",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14490,7 +14490,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Envolve coisas com sua língua extensível. Chegar muito perto dele deixará você encharcado de baba.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lambedor",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14518,7 +14518,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue lançar uma rocha segurada na mão como um míssil, contraindo e expandido os músculos instantaneamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfurador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14546,7 +14546,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus braços são feitos de plantas que se prendem a coisas. Crescem de volta imediatamente se cortados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trepadeira",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14574,7 +14574,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Empurra a ponta de suas duas caudas contra o oponente, então libera mais de 20'000 volts de energia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Relâmpago",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14602,7 +14602,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atira bolas de fogo de mais de 2'000° Celsius das pontas dos braços. Vive em crateras vulcânicas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Explosão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14630,7 +14630,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nunca aparece onde há conflito. Seus avistamentos se tornaram raros recentemente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jubileu",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14658,7 +14658,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao bater suas asas, cria ondas de choque que causam ferimentos internos críticos aos inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Libélula Ogro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14686,7 +14686,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Assim como uma planta, realiza fotossíntese. Como resultado, está sempre envolta em ar limpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Verdejante",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14714,7 +14714,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Como técnica protetiva, consegue congelar completamente seu pelo, fazendo com que seus pelos fiquem eriçados como agulhas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Neve Fresca",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14742,7 +14742,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Observa presa enquanto está de cabeça para baixo em galhos. Quando a chance se apresenta, ataca!.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escorpião com Presas",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14770,7 +14770,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas presas impressionantes são feitas de gelo. A população diminuiu quando o clima esquentou após a era glacial.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa Gêmea",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14798,7 +14798,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Software adicional foi instalado para torna-lo um Pokémon melhor. No entanto, começou a agir de forma estranha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Virtual",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14826,7 +14826,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um mestre da cortesia e da esgrima, luta usando espadas extensíveis nos cotovelos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâmina",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14854,7 +14854,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Exala magnetismo forte de todo lugar. Controla três pequenas unidades chamadas 'Mini-Narizes'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bússola",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14882,7 +14882,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A antena em sua cabeça captura ondas de rádio do mundo dos espíritos que lhe ordena levar pessoas até lá.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Agarrador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14910,7 +14910,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Congela os inimigos com um sopro gelado de quase -50° Celsius. O que parece ser ser corpo é, na verdade, oco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Terra Gelada",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -14938,7 +14938,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
-		obtencao: "Mansão da Floresta e possuir nada, ou uma lâmpada",
+		obtencao: ["Mansão da Floresta e possuir nada, ou uma lâmpada"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -14966,7 +14966,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
-		obtencao: "Mansão da Floresta e possuir um forno de micro-ondas",
+		obtencao: ["Mansão da Floresta e possuir um forno de micro-ondas"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -14994,7 +14994,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
-		obtencao: "Mansão da Floresta e possuir uma máquina-de-lavar",
+		obtencao: ["Mansão da Floresta e possuir uma máquina-de-lavar"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15022,7 +15022,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
-		obtencao: "Mansão da Floresta e possuir um refrigerador",
+		obtencao: ["Mansão da Floresta e possuir um refrigerador"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15050,7 +15050,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
-		obtencao: "Mansão da Floresta e possuir um ventilador",
+		obtencao: ["Mansão da Floresta e possuir um ventilador"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15078,7 +15078,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de plasma. É conhecido por infiltrar dispositivos eletrônicos e causar estragos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plasma",
-		obtencao: "Mansão da Floresta e possuir um cortador de grama",
+		obtencao: ["Mansão da Floresta e possuir um cortador de grama"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15106,7 +15106,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rumores dizem que seu surgimento deu aos humanos a inteligência para melhorar sua qualidade de vida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Conhecimento",
-		obtencao: "Lago da Perspicácia",
+		obtencao: ["Lago da Perspicácia"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15134,7 +15134,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dorme no fundo de um lago. É dito que seu espírito deixa seu corpo para voar na superfície do lago.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emoção",
-		obtencao: "Vagando por Sinnoh",
+		obtencao: ["Vagando por Sinnoh"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15162,7 +15162,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando voou, as pessoas ganharam determinação para fazer as coisas. Foi o nascimento da força de vontade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Força de Vontade",
-		obtencao: "Lago Valor",
+		obtencao: ["Lago Valor"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15190,7 +15190,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui o poder de controlar o tempo. Aparece nos mitos da região de Sinnoh como uma deidade antiga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Temporal",
-		obtencao: "Pilar da Lança",
+		obtencao: ["Pilar da Lança"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15218,7 +15218,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui a habilidade de distorcer o espaço. É descrito como uma deidade na mitologia da região de Sinnoh.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espacial",
-		obtencao: "Pilar da Lança",
+		obtencao: ["Pilar da Lança"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15246,7 +15246,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Habita cavernas vulcânicas. Cava com seus pés em forma de cruz para rastejar em tetos e paredes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casco de Lava",
-		obtencao: "Montanha Dura",
+		obtencao: ["Montanha Dura"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15274,7 +15274,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma lenda antiga afirma que esse Pokémon rebocou continentes com cordas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Colossal",
-		obtencao: "Templo de Snowpoint",
+		obtencao: ["Templo de Snowpoint"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15302,7 +15302,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi banido por sua violência. Silenciosamente olhou para o velho mundo do Mundo Distorcido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Renegado",
-		obtencao: "Mundo Distorcido",
+		obtencao: ["Mundo Distorcido"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15330,7 +15330,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi banido por sua violência. Silenciosamente olhou para o velho mundo do Mundo Distorcido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Renegado",
-		obtencao: "Mundo Distorcido e segurar Griseous Orb",
+		obtencao: ["Mundo Distorcido e segurar Griseous Orb"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15358,7 +15358,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Partículas brilhantes são liberadas de suas asas como um véu. Dizem que representa a lua crescente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lua",
-		obtencao: "Vagando por Sinnoh",
+		obtencao: ["Vagando por Sinnoh"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15386,7 +15386,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um Pokémon que vive em mares quentes. Infla o saco de flutuação em sua cabeça para flutuar e procurar comida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon À Deriva",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15414,7 +15414,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nascido no frio chão marítimo, nadará grandes distâncias para retornar ao local de nascimento.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viagem Marítima",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15442,7 +15442,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue por pessoas a dormir e fazê-las sonhar. É ativo durante noites de lua cheia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escuridão Total",
-		obtencao: "Ilha Lua Nova",
+		obtencao: ["Ilha Lua Nova"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15470,7 +15470,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gratidão",
-		obtencao: "Paraíso das Flores",
+		obtencao: ["Paraíso das Flores"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15498,7 +15498,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.",
 		categoria: "Pokémon Gratidão",
-		obtencao: "Paraíso das Flores",
+		obtencao: ["Paraíso das Flores"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15526,7 +15526,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É descrito na mitologia como o Pokémon que moldou o universo com seus 1'000 braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gratidão",
-		obtencao: "Salão da Origem",
+		obtencao: ["Salão da Origem"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15554,7 +15554,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cria um suprimento ilimitado de energia dentro de seu corpo, o qual é compartilhado com àqueles que o tocam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vitória",
-		obtencao: "Jardim da Liberdade",
+		obtencao: ["Jardim da Liberdade"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15582,7 +15582,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É muito inteligente e calmo. Ficar exposto a muita luz solar torna seus movimentos mais rápidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Grama",
-		obtencao: "Laboratório da Professora Juniper",
+		obtencao: ["Laboratório da Professora Juniper"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15610,7 +15610,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Evitam ataques afundando-se nas sombras de folhagem espessa. Retaliam com técnicas magistrais de chicotadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Grama",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15638,7 +15638,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue parar os movimentos de seus oponentes com apenas um olhar. Absorve energia solar e se impulsiona internamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Real",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15666,7 +15666,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue desviar agilmente dos ataques de seu oponente enquanto dispara bolas de fogo de seu nariz. Tosta frutas antes de comê-las.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Porco de Fogo",
-		obtencao: "Laboratório da Professora Juniper",
+		obtencao: ["Laboratório da Professora Juniper"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15694,7 +15694,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando sua chama interna acende, seus movimentos ficam mais rápidos e precisos. Quando está em apuros, emite fumaça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Porco de Fogo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15722,7 +15722,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue dar socos de fogo incendiando seus punhos com seu queixo em chamas. Se preocupa profundamente com seus amigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mega Porco de Fogo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15750,7 +15750,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Luta usando a concha em seu estomago. Em resposta a um ataque, retalia imediatamente cortando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lontra Marinha",
-		obtencao: "Laboratório da Professora Juniper",
+		obtencao: ["Laboratório da Professora Juniper"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15778,7 +15778,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O treinamento rigoroso é como aprende suas técnicas com concha dupla.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Disciplina",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15806,7 +15806,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Parte da armadura em suas patas anteriores se torna uma espada gigante. O som que emite sozinho é suficiente para intimidar a maior parte de seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Formidável",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15834,7 +15834,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Duro de coração e hábil com a lâmina, este raro Pokémon é um produto de sua região. Seus golpes turbulentos atingem os inimigos como ondas incessantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Formidável",
-		obtencao: "Alabaster Icelands: Space-time distortions",
+		obtencao: ["Alabaster Icelands: Space-time distortions"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -15863,7 +15863,7 @@ const pkmnDisponiveis = [
 			"Usando comida armazenada nas bolsas das bochechas, consegue ficar de guarda por dias. Usa sua cauda para se comunicar com outros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escoteiro",
 		obtencao:
-			"Rotas 1, 2, 3, e outras; Jardim dos Sonhos; Rancho Floccesy; e Complexo de Virbank",
+			["Rotas 1, 2, 3, e outras", "Jardim dos Sonhos", "Rancho Floccesy", "Complexo de Virbank"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15892,7 +15892,7 @@ const pkmnDisponiveis = [
 			"Quando avistam um inimigo, suas caudas ficam de erguidas, e cospem as sementes das frutas armazenadas nas bolsas de suas bochechas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vigia",
 		obtencao:
-			"Rotas 1, 2, 3, e outras; Jardim dos Sonhos; Laboratório P2; e por evolução",
+			["Rotas 1, 2, 3, e outras", "Jardim dos Sonhos", "Laboratório P2", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15920,7 +15920,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Encara fortes oponentes com grande coragem. Mas, quando em desvantagem em uma luta, este inteligente Pokémon foge.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
-		obtencao: "Rotas 1, 2, e 3; e Rancho Floccesy",
+		obtencao: ["Rotas 1, 2, e 3", "Rancho Floccesy"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15949,7 +15949,7 @@ const pkmnDisponiveis = [
 			"Possui um pelo preto, semelhante a uma capa que é muito duro e diminui a quantidade de dano que recebe.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cão Leal",
 		obtencao:
-			"Rotas 1, 2, 3, e outra; Câmara Frigorífica; Laboratório P2; Rancho Floccesy; e por evolução",
+			["Rotas 1, 2, 3, e outra", "Câmara Frigorífica", "Laboratório P2", "Rancho Floccesy", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -15978,7 +15978,7 @@ const pkmnDisponiveis = [
 			"Resgata pessoas presas por nevascas nas montanhas. Sua pelagem peluda o protege do frio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bom Coração",
 		obtencao:
-			"Rotas 1, 2, 3, e outra; Câmara Frigorífica; Laboratório P2; e por evolução",
+			["Rotas 1, 2, 3, e outra", "Câmara Frigorífica", "Laboratório P2", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16006,7 +16006,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Roubam de pessoas por diversão, mas suas vítimas não podem deixar de perdoá-los. Seu jeito fofo engana perfeitamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Malandro",
-		obtencao: "Rotas 2, 3, 19, e outra; e Jardim dos Sonhos",
+		obtencao: ["Rotas 2, 3, 19, e outra", "Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16034,7 +16034,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Estes Pokémon desaparecem e aparecem inesperadamente. Muitos treinadores são atraídos por sua bela forma e pelo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cruel",
-		obtencao: "Rotas 2, 5, 9, e outra; Jardim dos Sonhos; e por evolução",
+		obtencao: ["Rotas 2, 5, 9, e outra", "Jardim dos Sonhos", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16063,7 +16063,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon mora nas profundezas da floresta. Comer uma folha de sua cabeça afasta o cansaço como que por mágica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco de Grama",
 		obtencao:
-			"Floresta Pinwheel; Lostlorn Forest; e recebido em Jardim dos Sonhos",
+			["Floresta Pinwheel", "Lostlorn Forest", "Recebido em Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16091,7 +16091,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mal-humorado, luta balançando sua cauda farpada descontroladamente. A folha que cresce em sua cabeça é muito amarga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco de Espinhos",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16120,7 +16120,7 @@ const pkmnDisponiveis = [
 			"Quando fica irritado, a temperatura do tufo da cabeça chega a 300° C. Usa seu tufo para assar frutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Alta Temperatura",
 		obtencao:
-			"Floresta Pinwheel; Lostlorn Forest; e recebido em Jardim dos Sonhos",
+			["Floresta Pinwheel", "Lostlorn Forest", "Recebido em Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16148,7 +16148,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Gosta de doces por se transformarem em energia para o fogo que queima dentro de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brasa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16177,7 +16177,7 @@ const pkmnDisponiveis = [
 			"A água armazenada dentro do tufo em sua cabeça é cheia de nutrientes. Plantas que recebem sua água crescem muito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Spray",
 		obtencao:
-			"Floresta Pinwheel; Lostlorn Forest; e recebido em Jardim dos Sonhos",
+			["Floresta Pinwheel", "Lostlorn Forest", "Recebido em Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16205,7 +16205,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O tufo em sua cabeça retém água. Quando o nível está baixo, repõe o tufo sifonando água com sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gêiser",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16233,7 +16233,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon sempre flutua no ar. Pessoas cujos sonhos foram devorados por este Pokémon esquecem sobre o que o sonho era.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Devorador de Sonhos",
-		obtencao: "Jardim dos Sonhos",
+		obtencao: ["Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16261,7 +16261,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A névoa que emana de sua testa está repleta de sonhos de pessoas e Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cochilando",
-		obtencao: "Jardim dos Sonhos; e por evolução",
+		obtencao: ["Jardim dos Sonhos", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16290,7 +16290,7 @@ const pkmnDisponiveis = [
 			"Vivem em cidades. Estão acostumados com pessoas. Os bandos geralmente se reúnem em parques e praças.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pombinho",
 		obtencao:
-			"Rotas 3, e 20; Floresta Pinwheel; Rancho Floccesy; e Complexo de Virbank",
+			["Rotas 3, e 20", "Floresta Pinwheel", "Rancho Floccesy", "Complexo de Virbank"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16319,7 +16319,7 @@ const pkmnDisponiveis = [
 			"Consegue retornar à localização de seu treinador independente da distância que os separa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pombo Selvagem",
 		obtencao:
-			"Rotas 3, 6, 7, e outra; Floresta Pinwheel; Lostlorn Forest; Estrada da Vitória; Dragonspiral Tower; e por evolução",
+			["Rotas 3, 6, 7, e outra", "Floresta Pinwheel", "Lostlorn Forest", "Estrada da Vitória", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16348,7 +16348,7 @@ const pkmnDisponiveis = [
 			"Os machos balançam a plumagem da cabeça para ameaçar os oponentes. As habilidades de voo das fêmeas superam as dos machos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Orgulhoso",
 		obtencao:
-			"Rotas 3, 6, 7, e outra; Floresta Longlorn; Dragonspiral Tower; Estrada da Vitória; e por evolução",
+			["Rotas 3, 6, 7, e outra", "Floresta Longlorn", "Dragonspiral Tower", "Estrada da Vitória", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16377,7 +16377,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua crina brilha quando descarrega eletricidade. Usa sua crina brilhante para se comunicar outros de sua espécie.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Eletrificado",
-		obtencao: "Rota 3",
+		obtencao: ["Rota 3"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16405,7 +16405,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon mal-humorado é perigoso por atirar raios de sua crina em todas as direções quando está irritado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Relâmpago",
-		obtencao: "Rotas 3, e 7; e por evolução",
+		obtencao: ["Rotas 3, e 7", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16433,7 +16433,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foram descobertos cem anos atrás em uma fissura de terremoto. Dentro de cada um está um núcleo de energia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Manto",
-		obtencao: "Wellspring Cave; e Relic Passage",
+		obtencao: ["Wellspring Cave", "Relic Passage"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16462,7 +16462,7 @@ const pkmnDisponiveis = [
 			"Sua energia era muito grande para ser contida, a energia vazou e formou cristais alaranjados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minério",
 		obtencao:
-			"Relic Passage; Wellspring Cave; Caverna da Rocha Elétrica; Caverna de Mistralton; Clay Tunnel; Montanha Trançada; Reversal Mountain; Seaside Cave; Challenger's Cave; Estrada da Vitória; Underground Ruins; Giant Chasm; e por evolução",
+			["Relic Passage", "Wellspring Cave", "Caverna da Rocha Elétrica", "Caverna de Mistralton", "Clay Tunnel", "Montanha Trançada", "Reversal Mountain", "Seaside Cave", "Challenger's Cave", "Estrada da Vitória", "Underground Ruins", "Giant Chasm", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16490,7 +16490,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A energia solar absorvida pelos cristais alaranjados de seu corpo é aumentada internamente e disparada por sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Comprimido",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16519,7 +16519,7 @@ const pkmnDisponiveis = [
 			"Seu habitat são florestas escuras e cavernas. Emite ondas ultrassônicas do nariz para aprender sobre os arredores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morcego",
 		obtencao:
-			"Rota 6; Wellspring Cave; Caverna de Mistralton; Montanha Trançada; Challenger's Cave; Estrada da Vitória; Reversal Mountain; Clay Tunnerl; Relic Passage; Underground Ruins; Seaside Cave",
+			["Rota 6", "Wellspring Cave", "Caverna de Mistralton", "Montanha Trançada", "Challenger's Cave", "Estrada da Vitória", "Reversal Mountain", "Clay Tunnerl", "Relic Passage", "Underground Ruins", "Seaside Cave"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16547,7 +16547,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Emite ondas sonoras de várias frequências do seu nariz, incluindo algumas poderosas o suficiente para destruir rochas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Galanteador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16576,7 +16576,7 @@ const pkmnDisponiveis = [
 			"Consegue cavar o chão a uma velocidade de 50 km/h. Poderia dar a um carro na superfície uma boa corrida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toupeira",
 		obtencao:
-			"Wellspring Cave; Relic Passage; Caverna da Rocha Elétrica; Caverna de Mistralton; Montanha Trançada",
+			["Wellspring Cave", "Relic Passage", "Caverna da Rocha Elétrica", "Caverna de Mistralton", "Montanha Trançada"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16605,7 +16605,7 @@ const pkmnDisponiveis = [
 			"Pode ajudar em construção de túneis. Sua broca evoluiu para aço forte o suficiente para perfurar placas de ferro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Subterrâneo",
 		obtencao:
-			"Challenger's Cave; Clay Tunnel; Montanha Trançada; Estrada da Vitória; Reversal Mountain; Wellspring Cave; Seaside Cave; Giant Chasm; Underground Ruins; e por evolução",
+			["Challenger's Cave", "Clay Tunnel", "Montanha Trançada", "Estrada da Vitória", "Reversal Mountain", "Wellspring Cave", "Seaside Cave", "Giant Chasm", "Underground Ruins", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16634,7 +16634,7 @@ const pkmnDisponiveis = [
 			"Toca os outros com os sensores em suas orelhas, usando o som dos batimentos cardíacos para dizer como estão se sentindo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atencioso",
 		obtencao:
-			"Rotas 1, 2, 3, e outras; Rancho Floccesy; Complexo de Virbank; Laboratório P2; Jardim dos Sonhos; Floresta Pinwheel; Lostlorn Forest; Dragonspiral Tower; Vila da Ponte; Giant Chasm; Abundant Shrine; Câmara Frigorífica; Estrada da Vitória; Reversal Mountain; e Nature Preserve",
+			["Rotas 1, 2, 3, e outras", "Rancho Floccesy", "Complexo de Virbank", "Laboratório P2", "Jardim dos Sonhos", "Floresta Pinwheel", "Lostlorn Forest", "Dragonspiral Tower", "Vila da Ponte", "Giant Chasm", "Abundant Shrine", "Câmara Frigorífica", "Estrada da Vitória", "Reversal Mountain", "Nature Preserve"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16662,7 +16662,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esses Pokémon aparecem em canteiros de obras e ajudam na construção. Sempre carregam toras quadradas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Muscular",
-		obtencao: "Floresta Pinwheel; Câmara Frigorífica; e Relic Passage",
+		obtencao: ["Floresta Pinwheel", "Câmara Frigorífica", "Relic Passage"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16691,7 +16691,7 @@ const pkmnDisponiveis = [
 			"Fortalecem seus corpos carregando vigas de aço. Exibem seus grandes músculos para os amigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Muscular",
 		obtencao:
-			"Relic Passage; Montanha Trançada; Floresta Pinwheel; Estrada da Vitória; e por evolução",
+			["Relic Passage", "Montanha Trançada", "Floresta Pinwheel", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16719,7 +16719,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usam pilares de concreto como bengalas. Conhecem movimentos que os permite balançar os pilares livremente em batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Muscular",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16747,7 +16747,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Alertam outros do perigo vibrando suas bochechas para criar um som de alta frequência.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino",
-		obtencao: "Floresta Pinwheel",
+		obtencao: ["Floresta Pinwheel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16775,7 +16775,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando vibram as saliências em suas cabeças, podem fazer ondas na água ou vibrações semelhantes a terremotos na terra.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vibração",
-		obtencao: "Rota 8; Floresta Pinwheel; Moor of Icirrus; e por evolução",
+		obtencao: ["Rota 8", "Floresta Pinwheel", "Moor of Icirrus", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16803,7 +16803,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atiram líquido paralisante das saliências de suas cabeças. Usam para machucar seus oponentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vibração",
-		obtencao: "Rota 8; Moor of Icirrus; Floresta de Pinwheel; e por evolução",
+		obtencao: ["Rota 8", "Moor of Icirrus", "Floresta de Pinwheel", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16832,7 +16832,7 @@ const pkmnDisponiveis = [
 			"Quando aperta seu cinto, se torna mais forte. Espécimes selvagens deste Pokémon usam videiras para tecer os próprios cintos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Judô",
 		obtencao:
-			"Rotas 10, 15, 18, e outra; Floresta Pinwheel; e Estrada da Vitória",
+			["Rotas 10, 15, 18, e outra", "Floresta Pinwheel", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16861,7 +16861,7 @@ const pkmnDisponiveis = [
 			"O som deste Pokémon socando rochas e árvores pode ser ouvido desde as montanhas onde treinam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caratê",
 		obtencao:
-			"Rotas 10, 15, 18, e outra; Floresta Pinwheel; e Estrada da Vitória",
+			["Rotas 10, 15, 18, e outra", "Floresta Pinwheel", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16889,7 +16889,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon faz roupas para si mesmo. Mastiga folhas e as costura com linha pegajosa expelida de sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Costura",
-		obtencao: "Rotas 12, e 20; e Floresta de Pinwheel",
+		obtencao: ["Rotas 12, e 20", "Floresta de Pinwheel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16917,7 +16917,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Protege a si mesmo do frio se enrolando em folhas. Fica em movimento, comendo folhas em florestas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Embrulho de Folhas",
-		obtencao: "Rota 6; Lostlorn Forest; Floresta Pinwheel; e por evolução",
+		obtencao: ["Rota 6", "Lostlorn Forest", "Floresta Pinwheel", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16945,7 +16945,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao encontrar um pequeno Pokémon, ece roupas para ele com folhas, usando os cortadores em seus braços e seda pegajosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Alimentador",
-		obtencao: "Rotas 6, e 12; Lostlorn Forest; e por evolução",
+		obtencao: ["Rotas 6, e 12", "Lostlorn Forest", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -16973,7 +16973,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua mordida injeta um veneno potente, suficiente para paralisar grandes pássaros que tentem fazê-lo de presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Centípede",
-		obtencao: "Rota 20; Floresta de Pinwheel; e Lostlorn Forest",
+		obtencao: ["Rota 20", "Floresta de Pinwheel", "Lostlorn Forest"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17001,7 +17001,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Protegido por uma carapaça dura, gira seu corpo como uma roda e colide furiosamente com seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Curlipede",
-		obtencao: "Lostlorn Forest; Floresta Pinwheel; e por evolução",
+		obtencao: ["Lostlorn Forest", "Floresta Pinwheel", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17029,7 +17029,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com movimentos rápidos, persegue seus adversários, atacando implacavelmente com seus chifres até que prevaleça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Megapede",
-		obtencao: "Floresta Pinwheel; e por evolução",
+		obtencao: ["Floresta Pinwheel", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17058,7 +17058,7 @@ const pkmnDisponiveis = [
 			"Quando atacado, escapa atirando algodão de seu corpo. O algodão serve como uma distração para o atacante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Almofada de Algodão",
 		obtencao:
-			"Lostlorn Forest; Floresta Pinwheel; Abundant Shrine; e Estrada da Vitória",
+			["Lostlorn Forest", "Floresta Pinwheel", "Abundant Shrine", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17087,7 +17087,7 @@ const pkmnDisponiveis = [
 			"Assim como o vento, consegue passar por qualquer brecha, não importa quão pequena. Deixa bolas de penugem branca para trás.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Véu de Vento",
 		obtencao:
-			"Floresta Pinwheel; Lostlorn Forest; Abundant Shrine; e por evolução",
+			["Floresta Pinwheel", "Lostlorn Forest", "Abundant Shrine", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17116,7 +17116,7 @@ const pkmnDisponiveis = [
 			"As folhas em sua cabeça são muito amargas. É conhecido que comer uma dessas folhas por refrescar um corpo cansado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bulbo",
 		obtencao:
-			"Floresta Pinwheel; Lostlorn Forest; Abundant Shrine; e Estrada da Vitória",
+			["Floresta Pinwheel", "Lostlorn Forest", "Abundant Shrine", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17145,7 +17145,7 @@ const pkmnDisponiveis = [
 			"Até mesmo treinadores veteranos enfrentam o desafio de fazer sua linda flor florescer. Este Pokémon é popular com celebridades.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Florescer",
 		obtencao:
-			"Floresta Pinwheel; Lostlorn Forest; Abundant Shrine; e por evolução",
+			["Floresta Pinwheel", "Lostlorn Forest", "Abundant Shrine", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17173,7 +17173,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suspeito que suas pernas bem desenvolvidas são o resultado de uma vida passada em montanhas cobertas de neve profunda. O perfume que exala de sua coroa de flores anima aqueles que estão por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pirueta",
-		obtencao: "Crimson Mirelands; e por evolução",
+		obtencao: ["Crimson Mirelands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17202,7 +17202,7 @@ const pkmnDisponiveis = [
 			"Suas variações vermelha e azul se dão tão mal que começam a brigar imediatamente. Esses Pokemon são muito hostis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hostil ou Pokémon Manso (depende da variação)",
 		obtencao:
-			"Rotas 1, 3, 6, e outras; Wellspring Cave; Floresta Pinwheel; Dragonspiral Tower; Challenger's Cave; Rancho Floccesy; Relic Passage; Clay Tunnel; Estrada da Vitória; Vila da Ponte; Giant Chasm; Abundant Shrine; Nature Preserve; e Lostlorn Forest",
+			["Rotas 1, 3, 6, e outras", "Wellspring Cave", "Floresta Pinwheel", "Dragonspiral Tower", "Challenger's Cave", "Rancho Floccesy", "Relic Passage", "Clay Tunnel", "Estrada da Vitória", "Vila da Ponte", "Giant Chasm", "Abundant Shrine", "Nature Preserve", "Lostlorn Forest"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17232,7 +17232,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vivem enterrados em areias do deserto. As areias aquecidas pelo sol evitam que a temperatura de seus corpos de caia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Crocodilo do Deserto",
-		obtencao: "Rota 4; Resort do Deserto; e Castelo Relíquia",
+		obtencao: ["Rota 4", "Resort do Deserto", "Castelo Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17260,7 +17260,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vivem em grupos de alguns indivíduos. Membranas protetoras protegem seus olhos de tempestades de areia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Crocodilo do Deserto",
-		obtencao: "Castelo Relíquia; e por evolução",
+		obtencao: ["Castelo Relíquia", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17288,7 +17288,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nunca permitem a presa que escape. Suas mandíbulas são tão poderosas que conseguem esmagar a carroceria de um automóvel.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Intimidação",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17316,7 +17316,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando seu fogo interno está queimando, não consegue se acalmar e corre por aí. Quando o fogo diminui, adormece.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Charme Zen",
-		obtencao: "Rota 4; e Resort do Deserto",
+		obtencao: ["Rota 4", "Resort do Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17344,7 +17344,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Viveu em áreas nevadas por tanto tempo que seu saco de fogo esfriou e atrofiou. Agora possui um órgão que gera frio no lugar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Charme Zen",
-		obtencao: "Rotas 8, e 10; e Snowslide Slope",
+		obtencao: ["Rotas 8, e 10", "Snowslide Slope"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17372,7 +17372,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu fogo interno queima a 1'400° Celsius, gerando energia suficiente para destruir um caminhão de lixo com um só soco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flamejante",
-		obtencao: "Resort do Deserto; e por evolução",
+		obtencao: ["Resort do Deserto", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17400,7 +17400,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu fogo interno queima a 1'400° Celsius, gerando energia suficiente para destruir um caminhão de lixo com um só soco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flamejante",
-		obtencao: "Resort do Deserto; por evolução; e estar abaixo dos 50% de PS",
+		obtencao: ["Resort do Deserto", "Por evolução", "estar abaixo dos 50% de PS"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17428,7 +17428,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Em dias quando nevascas passam, tudo se resume a onde as pessoas vivem. Este Pokémon guarda comida na bola de neve em sua cabeça, levando-a para casa mais tarde.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Charme Zen",
-		obtencao: "Snowslide Slope; e por evolução",
+		obtencao: ["Snowslide Slope", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17456,7 +17456,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Raiva reacendeu seu saco de fogo atrofiado. Este Pokémon cospe fogo em todos os lugares enquanto ataca indiscriminadamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flamejante",
-		obtencao: "Snowslide Slope; por evolução; e estar abaixo dos 50% de PS",
+		obtencao: ["Snowslide Slope", "Por evolução", "estar abaixo dos 50% de PS"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17484,7 +17484,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa uma música acelerada e dança para afastar os Pokémon pássaros que atacam suas sementes de flores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cacto",
-		obtencao: "Resort de Deserto",
+		obtencao: ["Resort de Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17512,7 +17512,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon consegue facilmente derreter buracos em rochas duras com um líquido secretado de sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rochoso",
-		obtencao: "Rota 18; e Resort do Deserto",
+		obtencao: ["Rota 18", "Resort do Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17540,7 +17540,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando compete por território, este Pokémon luta ferozmente. Aquele cuja pedra é quebrada é o perdedor da batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casa de Pedra",
-		obtencao: "Rota 18; Seaside Cave; e por evolução",
+		obtencao: ["Rota 18", "Seaside Cave", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17568,7 +17568,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua pele tem uma elasticidade emborrachada, por isso consegue reduzir os danos puxando defensivamente a pele até o pescoço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perda",
-		obtencao: "Rotas 1, 4, e 18; Resort do Deserto; e Laboratório P2",
+		obtencao: ["Rotas 1, 4, e 18", "Resort do Deserto", "Laboratório P2"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17596,7 +17596,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Grupos deste Pokémon batem em qualquer coisa que entre em seu território. Cada um consegue cuspir líquido ácido de sua boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bandido",
-		obtencao: "Rotas 1, 15, e 18; Laboratório P2; e por evolução",
+		obtencao: ["Rotas 1, 15, e 18", "Laboratório P2", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17624,7 +17624,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nunca variam a rota que voam, porque suas memórias de guardar uma cidade antiga permanecem firmes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Avianóide",
-		obtencao: "Resort do Deserto",
+		obtencao: ["Resort do Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17652,7 +17652,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Carrega uma máscara que costumava ser sua face quando era humano. Algumas vezes olham para ela e choram.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espírito",
-		obtencao: "Castelo Relíquia",
+		obtencao: ["Castelo Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17680,7 +17680,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que este Pokémon foi formado quando uma antiga tábua de argila foi atraída por um espírito vingativo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espírito",
-		obtencao: "Rota 6",
+		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17708,7 +17708,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que engolem aqueles que chegam perto demais e os transforma em múmias. Gostam de comer pepitas de ouro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caixão",
-		obtencao: "Castelo Relíquia; e por evolução",
+		obtencao: ["Castelo Relíquia", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17736,7 +17736,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Restaurado de um fóssil, este Pokémon consegue mergulhar profundidades maiores que meio quilômetro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prototartaruga",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17764,7 +17764,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Conseguem viver tanto no oceano quanto em terra. Um tapa seu é suficiente para abrir um buraco no fundo de um navio-tanque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prototartaruga",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17792,7 +17792,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Revivido de um fóssil, acredita-se que este Pokémon seja o ancestral de todos Pokémon pássaros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Primeiro Pássaro",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17820,7 +17820,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"São inteligentes e cooperam para capturar presas. Do chão, usam uma corrida inicial para alçar voo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Primeiro Pássaro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17848,7 +17848,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Inalar o gás que arrotam fará você dormir por uma semana. Preferem lugares insalubres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Saco de Lixo",
-		obtencao: "Rotas 4, 5, e 16",
+		obtencao: ["Rotas 4, 5, e 16"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17876,7 +17876,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Agarra os oponentes com o braço esquerdo e os finaliza com um gás venenoso de odor fétido expelido pela boca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Monte de Lixo",
-		obtencao: "Rota 9; e por evolução",
+		obtencao: ["Rota 9", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17904,7 +17904,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se transforma nas formas dos outros para surpreende-los. Aparentemente, frequentemente se transforma em uma criança silenciosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa Ardilosa",
-		obtencao: "Cidade de Castelia; ou recebido em Cidade de Driftveil",
+		obtencao: ["Cidade de Castelia", "ou recebido em Cidade de Driftveil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17933,7 +17933,7 @@ const pkmnDisponiveis = [
 			"Uma alma que já partiu, retornou à vida. Deriva poder do ressentimento, que sobe como energia no topo de sua cabeça e assume as formas de inimigos. Dessa forma, este Pokémon desabafa malícia persistente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa Vingativa",
 		obtencao:
-			"Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, e Icepeak Cavern",
+			["Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, e Icepeak Cavern"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17961,7 +17961,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os laços entre esses Pokémon são muito fortes. Protege a segurança de sua matilha enganando seus oponentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa Ilusionista",
-		obtencao: "Lostlorn Forest; ou por evolução",
+		obtencao: ["Lostlorn Forest", "ou Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17990,7 +17990,7 @@ const pkmnDisponiveis = [
 			"Com seu pelo branco desgrenhado, parece uma personificação da morte. Descuidado com sua própria segurança. este Pokémon ataca seus inimigos com uma energia amarga tão intensa que dilacera o próprio corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa Nefasta",
 		obtencao:
-			"Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, Icepeak Cavern, e Lake Acuity",
+			["Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, Icepeak Cavern, e Lake Acuity"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -18018,7 +18018,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cumprimentam-se esfregando-se com suas caudas, que estão sempre bem cuidadas e limpas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chinchila",
-		obtencao: "Rotas 4, 5, 9 e outra; e Câmara Frigorífica",
+		obtencao: ["Rotas 4, 5, 9 e outra", "Câmara Frigorífica"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18046,7 +18046,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu pelo branco é revestido por um óleo especial que facilida a defesa contra ataques.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cachecol",
-		obtencao: "Rotas 5, 9, e 16; Câmara Frigorífica; e por evolução",
+		obtencao: ["Rotas 5, 9, e 16", "Câmara Frigorífica", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18074,7 +18074,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas antenas em forma de fitas aumentam seu poder psíquico. Estão sempre encarando alguma coisa ou alguém.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fixação",
-		obtencao: "Rotas 5, e 16; e Strange House",
+		obtencao: ["Rotas 5, e 16", "Strange House"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18102,7 +18102,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usam a hipnose para controlar pessoas e Pokémon. Contos sobre este Pokémon levando pessoas ao erro são contadas em todos os cantos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Manipulação",
-		obtencao: "Rota 9; Strange House; e por evolução",
+		obtencao: ["Rota 9", "Strange House", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18130,7 +18130,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Céus estrelados a milhares de anos-luz de distância são visíveis no espaço distorcido por seu intenso poder psíquico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Corpo Atral",
-		obtencao: "Rota 9; e por evolução",
+		obtencao: ["Rota 9", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18158,7 +18158,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por seu corpo ser envelopado por um líquido especial, consegue sobreviver em qualquer ambiente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Célula",
-		obtencao: "Rotas 5, e 16; e Strange House",
+		obtencao: ["Rotas 5, e 16", "Strange House"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18186,7 +18186,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por ter dois cérebros divididos, as vezes tentam, de repente, relizar duas ações diferentes ao mesmo tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mitose",
-		obtencao: "Rota 9; Strange House; e por evolução",
+		obtencao: ["Rota 9", "Strange House", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18214,7 +18214,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esses Pokémon notavelmente inteligentes lutam controlando braços que podem agarrar com força suficiente para esmagar rochas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Multiplicação",
-		obtencao: "Rota 9; e por evolução",
+		obtencao: ["Rota 9", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18242,7 +18242,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esse Pokémon é um excelente mergulhador. Nadam na água comendo sua comida favorita: turfa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro de Água",
-		obtencao: "Ponte Levadiça de Driftveil",
+		obtencao: ["Ponte Levadiça de Driftveil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18270,7 +18270,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon começa a dançar ao anoitecer. O que dança no meio é o líder do grupo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pássaro Branco",
-		obtencao: "Ponte Marvelous; e por evolução",
+		obtencao: ["Ponte Marvelous", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18298,7 +18298,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A temperatura da respiração deles é de -50° Celsius. Criam cristais de neve e fazem neve cair nas áreas ao redor deles.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Neve Fresca",
-		obtencao: "Rota 6; Câmara Frigorífica; e Dragonspiral Tower",
+		obtencao: ["Rota 6", "Câmara Frigorífica", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18326,7 +18326,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Montanhas nevadas são o habitat deste Pokémon. Durante uma antiga era glacial, se deslocaram para áreas ao sul.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Neve Congelada",
-		obtencao: "Giant Chasm; Dragonspiral Tower; e por evolução",
+		obtencao: ["Giant Chasm", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18354,7 +18354,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao engolir grandes quantidades de água, formam nuvens de neve dentro de seus corpos e atacam seus inimigos com nevascas violentas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nevasca",
-		obtencao: "Giant Chasm; Dragonspiral Tower; e por evolução",
+		obtencao: ["Giant Chasm", "Dragonspiral Tower", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18382,7 +18382,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A cor e o cheiro de seus pelos mudam para combinar com a grama da montanha. Quando sentem hostilidade, escondem-se na grama.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estação",
-		obtencao: "Rotas 6, e 7; Dragonspiral Tower",
+		obtencao: ["Rotas 6, e 7", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18413,7 +18413,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Migram de acordo com as estações do ano. Pessoas conseguem dizer a estação só olhando para os chifres deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estação",
-		obtencao: "Dragonspiral Tower; e por evolução",
+		obtencao: ["Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18445,7 +18445,7 @@ const pkmnDisponiveis = [
 			"A energia gerada nas elétricas de suas bochechas é armazenada dentro de sua membrana e liberada enquanto está planando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Esquilo do Céu",
 		obtencao:
-			"Rotas 5, 6, 7, e outras; Dragonspiral Tower; Vila da Ponte; Giant Chasm; Abundant Shrine; Lostlorn Forest",
+			["Rotas 5, 6, 7, e outras", "Dragonspiral Tower", "Vila da Ponte", "Giant Chasm", "Abundant Shrine", "Lostlorn Forest"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18473,7 +18473,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando se sentem ameaçados, cospem um líquido ácido para afastar os agressores.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pregador",
-		obtencao: "Rotas 6, 8, e 11; e Moor of Icirrus",
+		obtencao: ["Rotas 6, 8, e 11", "Moor of Icirrus"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18501,7 +18501,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voam em alta velocidade, atacando com suas lanças pontudas. Mesmo quando está em perigo, enfrentam os oponentes bravamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalaria",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18529,7 +18529,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atrai pessoas com seu padrão de Pokébola, depois libera esporos venenosos. O motivo de parecer uma Pokébola é desconhecido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
-		obtencao: "Rotas 5, 6, 7, e outras",
+		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18558,7 +18558,7 @@ const pkmnDisponiveis = [
 			"Atrai presas para perto dançando e balançando suas capas de braços, que lembram Pokébolas, em um movimento oscilante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cogumelo",
 		obtencao:
-			"Rotas 10, 11, 22, e outra; Abundant Shrine; Floresta Pinwheel; e por evolução",
+			["Rotas 10, 11, 22, e outra", "Abundant Shrine", "Floresta Pinwheel", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18587,7 +18587,7 @@ const pkmnDisponiveis = [
 			"Com seus braços finos, semelhantes a véus, envolvendo o corpo do oponente, afunda no fundo do oceano.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flutuante",
 		obtencao:
-			"Rotas 4, 13, 17, e outras; Laboratório P2; Complexo de Virbank; Undella Bay; e Seaside Cave",
+			["Rotas 4, 13, 17, e outras", "Laboratório P2", "Complexo de Virbank", "Undella Bay", "Seaside Cave"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18617,7 +18617,7 @@ const pkmnDisponiveis = [
 			"O destino dos navios e da tribulação que vagam pelo habitat deste Pokémon: todos afundados, todos perdidos, todos desaparecidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flutuante",
 		obtencao:
-			"Rotas 4, 13, 17, e outras; Laboratório P2; Complexo de Virbank; Seaside Cave; Undella Bay; e por evolução",
+			["Rotas 4, 13, 17, e outras", "Laboratório P2", "Complexo de Virbank", "Seaside Cave", "Undella Bay", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18646,7 +18646,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A membrana especial envolvendo este Pokémon tem a habilidade de curar feridas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Afetuoso",
-		obtencao: "Rotas 4, 17, 18, e outra; Complexo de Virbank; e Laboratório P2",
+		obtencao: ["Rotas 4, 17, 18, e outra", "Complexo de Virbank", "Laboratório P2"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18674,7 +18674,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Espécimes deste Pokémon que vivem em cidades, aprenderam uma técnica para sugar eletricidade das tomadas das casas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Conector",
-		obtencao: "Caverna da Rocha Elétrica",
+		obtencao: ["Caverna da Rocha Elétrica"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18702,7 +18702,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando atacados, criam uma barreira elétrica ao cuspir vários fios carregados eletricamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon EletroAranha",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18730,7 +18730,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando ameaçados, ataca atirando uma barragem de espinhos, o que lhe dá uma chance de escapar rolando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Semente Espinhosa",
-		obtencao: "Caverna da Rocha Elétrica",
+		obtencao: ["Caverna da Rocha Elétrica"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18758,7 +18758,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Luta balançando em torno de seus três tentáculos pontiagudos. Um golpe desses espinhos de aço pode reduzir uma rocha a escombros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vagem Espinhosa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18786,7 +18786,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Entrelaçar dois corpos e girar gera a energia de que precisam para viver.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Engrenagem",
-		obtencao: "Caverna da Rocha Elétrica; e Laboratório P2",
+		obtencao: ["Caverna da Rocha Elétrica", "Laboratório P2"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18814,7 +18814,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao mudar a direção em que gira, comunica seus sentidmentos aos outros. Quando está com raiva, gira mais rápido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Engrenagem",
-		obtencao: "Laboratório P2; e por evolução",
+		obtencao: ["Laboratório P2", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18842,7 +18842,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu núcleo vermelho funciona como um tanque de energia. Dispara a energia carregada através de seus espinhos em uma área.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Engrenagem",
-		obtencao: "Laboratório P2; e por evolução",
+		obtencao: ["Laboratório P2", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18870,7 +18870,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enquanto um sozinho não tem muito poder, vários espécimes em corrente pode ser tão poderosa quanto um raio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elepeixe",
-		obtencao: "Caverna da Rocha Elétrica; e Seaside Cave",
+		obtencao: ["Caverna da Rocha Elétrica", "Seaside Cave"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18898,7 +18898,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possuem grande apetite. Quando avistam sua presa, atacam e paralizam o alvo com eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elepeixe",
-		obtencao: "Seaside Cave; e por evolução",
+		obtencao: ["Seaside Cave", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18926,7 +18926,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Rastejam para fora do oceano usando seus braços. Atacarão sua presa na costa e imediatamente a arrastarão para o oceano.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elepeixe",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18954,7 +18954,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa seu forte poder psíquico para apertar o cérebro de seu oponente, causando dores de cabeças insuportáveis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cerebral",
-		obtencao: "Torre Celestial",
+		obtencao: ["Torre Celestial"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -18982,7 +18982,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue manipular uma memória do oponente. Aparentemente, se comunica piscando seus três dedos de cores diferentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cerebral",
-		obtencao: "Rota 14; e por evolução",
+		obtencao: ["Rota 14", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19010,7 +19010,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Emite uma luz que a energia vital de pessoas e Pokémon, que se torna o combustível que queima.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vela",
-		obtencao: "Torre Celestial; e Strange House",
+		obtencao: ["Torre Celestial", "Strange House"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19038,7 +19038,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon sinistro é temido. Pelas cidades, vagueia, procurando os espíritos dos caídos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâmpada",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19066,7 +19066,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Absorve um espírito, que então queima. Ao agitar as chamas em seu braços, coloca seus inimigos em um transe hipnótico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ilusão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19094,7 +19094,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usam suas presas para esmagar as frutas que comem. O crescimento repetido torna suas presas fortes e afiadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Presa",
-		obtencao: "Caverna de Mistralton",
+		obtencao: ["Caverna de Mistralton"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19122,7 +19122,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Como uma presa quebrada não volta a crescer, afia diligentemente suas presas nas rochas do rio depois de lutarem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandíbula de Machado",
-		obtencao: "Estrada da Vitória; e por evolução",
+		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19150,7 +19150,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"São gentis, mas podem ser implacáveis ao defender seu território. Desafiam os inimigos com presas que conseguem cortar aço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mandíbula de Machado",
-		obtencao: "Nature Preserve; e por evolução",
+		obtencao: ["Nature Preserve", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19178,7 +19178,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando não está se sentindo bem, seu muco fica aquoso e o poder de seus movimentos do tipo gelo diminui.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Frio",
-		obtencao: "Rota 7; Montanhar Trançada; e Dragonspiral Tower",
+		obtencao: ["Rota 7", "Montanhar Trançada", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19206,7 +19206,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue congelar sua respiração à vontade. Muito hávil na água, nada em mores do norte e captura presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Congelante",
-		obtencao: "Montanha Trançada; Dragonspiral Tower; e por evolução",
+		obtencao: ["Montanha Trançada", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19234,7 +19234,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando a temperatura de seu corpo sobe, se transforma em vapor e some. Quando sua temperatura diminui, retorna ao gelo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cristalização",
-		obtencao: "Montanha Trançada",
+		obtencao: ["Montanha Trançada"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19262,7 +19262,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando atacado, se defende fechando a tampa de sua concha. Pode cuspir um líquido pegajoso e venenoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma",
-		obtencao: "Rota 6, 8, e 11; e Moor of Icirrus",
+		obtencao: ["Rota 6, 8, e 11", "Moor of Icirrus"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19290,7 +19290,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando seu corpo seca, enfraquece. Para prevenir a desidratação, se enrolaem várias camadas de membrana fina.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Concha Fora",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19318,7 +19318,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua pele é muito dura, não se machuca mesmo quando pisado por lutadores de sumo. Sorri quando está transmitindo eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadilha",
-		obtencao: "Rota 8; e Moor of Icirrus",
+		obtencao: ["Rota 8", "Moor of Icirrus"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -19347,7 +19347,7 @@ const pkmnDisponiveis = [
 			"Viver na lama com um alto conteúdo de ferro deu a este Pokémon um corpo de metal forte.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadilha",
 		obtencao:
-			"Arvoredo Adormecido; Galar Mine No. 2; Dusty Bowl; e Lake of Outrage",
+			["Arvoredo Adormecido", "Galar Mine No. 2", "Dusty Bowl", "Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -19375,7 +19375,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Em lutas, dominam com investidas de ataques contínuos e fluidos. Com suas garras afiadas, cortam os inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Artes Marciais",
-		obtencao: "Rotas 14, 22, e 23; Dragonspiral Tower; e Estrada da Vitória",
+		obtencao: ["Rotas 14, 22, e 23", "Dragonspiral Tower", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19403,7 +19403,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Empunha a pele dos braços como um chicote. Seus ataques de braço vêm com tanta rapidez que nem podem ser vistos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Artes Marciais",
-		obtencao: "Rotas 14, e 23; Dragonspiral Tower; e por evolução",
+		obtencao: ["Rotas 14, e 23", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19431,7 +19431,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aquece seu corpo absorvendo luz solar com suas asas. Quando a temperatura de seu corpo cai, não consegue se mover.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gruta",
-		obtencao: "Dragonspiral Tower; e Estrada da Vitória",
+		obtencao: ["Dragonspiral Tower", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19459,7 +19459,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A energia que queima dentro o permite se locomover, mas ninguém foi capaz de identificar essa energia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Autômato",
-		obtencao: "Dragonspiral Tower",
+		obtencao: ["Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19487,7 +19487,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa pelo céu em velocidades Mach. Remover o selo em seu peito faz sua energia interna sair do controle.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Autômato",
-		obtencao: "Dragonspiral Tower; Estrada da Vitória; e por evolução",
+		obtencao: ["Dragonspiral Tower", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19515,7 +19515,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Lâminas compõe o corpo inteiro deste Pokémon. Se batalhas deixam as lâminas cegas, são afiadas em pedras perto do rio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâmina Afiada",
-		obtencao: "Rotas 9, e 11",
+		obtencao: ["Rotas 9, e 11"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19543,7 +19543,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Batalha para se tornar o chefe do grupo, mas será expulso do grupo se perder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâmina de Espada",
-		obtencao: "Rota 11; e por evolução",
+		obtencao: ["Rota 11", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19571,7 +19571,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu pelo fofo absorve dano, mesmo quando acertam os inimigos com uma cabeçada feroz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pancada Búfalo",
-		obtencao: "Rotas 9, 10, e 23",
+		obtencao: ["Rotas 9, 10, e 23"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19599,7 +19599,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esmagam frutas com suas garra. Corajosamente enfrentam qualquer oponente, não importa quão forte seja.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ave de Rapina",
-		obtencao: "Rotas 10, 11, e 23; Estrada da Vitória; e Vila da Ponte",
+		obtencao: ["Rotas 10, 11, e 23", "Estrada da Vitória", "Vila da Ponte"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19627,7 +19627,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Lutam por seus amigos sem pensar em perigo para si mesmos. Um indivíduo consegue carregar um carro enquanto está voando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Valente",
-		obtencao: "Rotas 4, e 11; Vila da Ponte; e por evolução",
+		obtencao: ["Rotas 4, e 11", "Vila da Ponte", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -19655,7 +19655,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Emitindo um grito de guerra de gelar o sangue, este enorme e feroz Pokémon pássaro sai para caçar. Explode lagos com ondas de choque e, em seguida, pega qualquer presa que fuluta na superfície da água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Grito de Guerra",
-		obtencao: "Alabaster Icelands: próximo ao Lago Perspicácia; e por evolução",
+		obtencao: ["Alabaster Icelands: próximo ao Lago Perspicácia", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -19683,7 +19683,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tendem proteger seus membros posteriores com ossos adequados que encontram. Perseguem Pokémon fracos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fraldado",
-		obtencao: "Rotas 10, 11, e 23; Estrada da Vitória; e Via da Ponte",
+		obtencao: ["Rotas 10, 11, e 23", "Estrada da Vitória", "Via da Ponte"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19711,7 +19711,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Faz um ninho com os ossos que encontra. Agarra presas enfraquecidas em suas garras e as arrasta para seu ninho de ossos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abutre de Ossos",
-		obtencao: "Rotas 4, e 11; Vila da Ponte; e por evolução",
+		obtencao: ["Rotas 4, e 11", "Vila da Ponte", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19739,7 +19739,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Respira por um buraco na cauda enquanto queima com um fogo interno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tamanduá",
-		obtencao: "Estrada da Vitória; e Montanha Trançada",
+		obtencao: ["Estrada da Vitória", "Montanha Trançada"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19768,7 +19768,7 @@ const pkmnDisponiveis = [
 			"Escava ninhos em montanhas. Constroem seus túneis complicados e interconectados em labirintos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Formiga de Ferro",
 		obtencao:
-			"Estrada da Vitória; Montanha Trançada; Clay Tunnel; e Underground Tunnel",
+			["Estrada da Vitória", "Montanha Trançada", "Clay Tunnel", "Underground Tunnel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19796,7 +19796,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tende a morder tudo e não é um comedor exigente. Aproximar-se deste Pokémon descuidadamente é perigoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Irado",
-		obtencao: "Estrada da Vitória",
+		obtencao: ["Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19824,7 +19824,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Depois de ter comido toda a comida em seu território, se muda para outra área. Suas duas cabeças não se dão bem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Hostil",
-		obtencao: "Estrada da Vitória; e por evolução",
+		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19852,7 +19852,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon brutal viaja pelos céus em suas seis asas. Qualquer coisa que se mova parece um inimigo para este Pokémon, desencadeando seu ataque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brutal",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19880,7 +19880,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A base de vulcões é onde fazem seus lares. Atiram fogo de seus cinco chifres para repelir ataques inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Torcha",
-		obtencao: "Por ovo",
+		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19908,7 +19908,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que quando cinzas vulcânicas escureceram a atmosfera, o fogo deste Pokémon substituiu o sol.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sol",
-		obtencao: "Castelo Relíquia; e por evolução",
+		obtencao: ["Castelo Relíquia", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19936,7 +19936,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este lendário Pokémon batalhou contra humanos para proteger Pokémon. Sua personalidade é calma e composta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vontade de Ferro",
-		obtencao: "Rota 13; ou Caverna de Mistralton",
+		obtencao: ["Rota 13", "ou Caverna de Mistralton"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19964,7 +19964,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon veio em defesa dos Pokémon que perderam seus lares em uma guerra entre humanos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caverna",
-		obtencao: "Rota 22; ou Estrada da Vitória",
+		obtencao: ["Rota 22", "ou Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19992,7 +19992,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon lutou contra humanos para proteger seus amigos. Lendas sobre isso continuam a ser contadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pradaria",
-		obtencao: "Rota 11; ou Floresta Pinwheel",
+		obtencao: ["Rota 11", "ou Floresta Pinwheel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20020,7 +20020,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa em todas as direções, criando ventos tão poderosos que levam tudo para longe.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ciclone",
-		obtencao: "Vagando por Unova",
+		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20048,7 +20048,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa em todas as direções, criando ventos tão poderosos que levam tudo para longe.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ciclone",
-		obtencao: "Vagando por Unova e ativar o Espelho Revelador",
+		obtencao: ["Vagando por Unova e ativar o Espelho Revelador"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20076,7 +20076,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Incontáveis restos carbonizados marcam a paisagem dos lugares por onde passou.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ataque de Raio",
-		obtencao: "Vagando por Unova",
+		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20104,7 +20104,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Incontáveis restos carbonizados marcam a paisagem dos lugares por onde passou.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ataque de Raio e ativar o Espelho Revelador",
-		obtencao: "Vagando por Unova",
+		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20132,7 +20132,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon aparece em lendas. Lança chamas no ar de sua cauda, queimando tudo ao redor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vastidão Branca",
-		obtencao: "O Castelo de N; ou Dragonspiral Tower",
+		obtencao: ["O Castelo de N", "ou Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20160,7 +20160,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon aparece em lendas. Em sua cauda, possui um gerador gigante que cria eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Preto Intenso",
-		obtencao: "O Castelo de N; ou Dragonspiral Tower",
+		obtencao: ["O Castelo de N", "ou Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20188,7 +20188,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Terras visitadas por este Pokémon proporcionam colheitas tão abundantes que foi aclamado como 'O Guadião dos Campos'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abundância",
-		obtencao: "Abundant Shrine",
+		obtencao: ["Abundant Shrine"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20216,7 +20216,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Terras visitadas por este Pokémon proporcionam colheitas tão abundantes que foi aclamado como 'O Guadião dos Campos'.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abundância",
-		obtencao: "Abundant Shrine e ativar o Espelho Revelador",
+		obtencao: ["Abundant Shrine e ativar o Espelho Revelador"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20244,7 +20244,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fronteira",
-		obtencao: "Giant Chasm",
+		obtencao: ["Giant Chasm"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20272,7 +20272,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fronteira",
-		obtencao: "Giant Chasm e ativar Ponta de DNA com Reshiram",
+		obtencao: ["Giant Chasm e ativar Ponta de DNA com Reshiram"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20300,7 +20300,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fronteira",
-		obtencao: "Giant Chasm e ativar Ponta de DNA com Zekrom",
+		obtencao: ["Giant Chasm e ativar Ponta de DNA com Zekrom"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20328,7 +20328,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao lançar água de seus cascos, consegue deslizar pela água. Se destaca em usar movimentos de pernas enquanto luta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Potro",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20357,7 +20357,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas melodias são cantadas com um método de vocalização especial que consegue controlar os sentimentos daqueles que o escuta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Melodia",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20386,7 +20386,7 @@ const pkmnDisponiveis = [
 			"Suas melodias são cantadas com um método de vocalização especial que conseuge controlar os sentimentos daqueles que o escuta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Melodia",
 		obtencao:
-			"Por evento e, quando em batalha, usa o movimento Canção da Relíquia",
+			["Por evento e, quando em batalha, usa o movimento Canção da Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -20414,7 +20414,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mais de trezentos milhões de anos atrás, era temido como o mais forte dos caçadores. Foi modificado pela Equipe Plasma.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Era Paleozoica",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20446,7 +20446,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As penas em sua cabeça são geralmente macias. Quando as flexiona, as pontas se tornam tão duras e afiadas que podem perfurar uma rocha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Noz Espinhosa",
-		obtencao: "Aquacorde Town",
+		obtencao: ["Aquacorde Town"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20474,7 +20474,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Depende de seu casco robusto para desviar os ataques de predadores. Contra-ataca com seus penas afiadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura Espinhosa",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20502,7 +20502,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua Investida é potente o suficiente para virar um tanque de cinquenta toneladas. Protege seus aliados do perigo com seu próprio corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadura Espinhosa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20530,7 +20530,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Comer um galho enche este Pokémon de energia, e suas orelhas espaçosas liberam ar com temperatura superior a 200° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Aquacorde Town",
+		obtencao: ["Aquacorde Town"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20558,7 +20558,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tem um galho preso na cauda. Com o atrito do pelo da cauda, incendeia o galho e se lança na batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20586,7 +20586,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Olha fixamente a chama na ponta de seu galho para alcançar um estado de foco, o que lhe permite enxergar o futuro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20614,7 +20614,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Secreta bolha flexíveis de seu peito e das costas. As bolhas reduzem o dano que receberia quando atacado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sapo Bolha",
-		obtencao: "Aquacorde Town",
+		obtencao: ["Aquacorde Town"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20642,7 +20642,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue lançar pedras cobertas por bolhas com controle preciso, acertando latas vazias a até trinta metros de distância.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sapo Bolha",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20670,7 +20670,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cria estrelas de arremesso a partir de água comprimida. Quando as gira e as arremessa em alta velocidade, essas estrelas podem dividir metal em dois.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ninja",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20698,7 +20698,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usam suas grandes orelhas para cavar tocas. Cavarão a noite toda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escavador",
-		obtencao: "Rotas 2, 3, 5, e outra",
+		obtencao: ["Rotas 2, 3, 5, e outra"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20726,7 +20726,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com suas poderosas orelhas, conseguem levantar rochas de uma tonelada ou mais pesadas com facilidade. Podem ser de grande ajuda em canteiros de obras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escavador",
-		obtencao: "Rota 22; Friend Safari; e por evolução",
+		obtencao: ["Rota 22", "Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20754,7 +20754,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar da beleza de sua voz cadenciada, é implacável com intrusos que entram em seu território.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pintarroxinho",
-		obtencao: "Rotas 2, e 3; Santalune Forest",
+		obtencao: ["Rotas 2, e 3", "Santalune Forest"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20782,7 +20782,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quanto mais quente a bolsa de chamas em sua barriga, mais rápido consegue voar, mas leva algum tempo para acender o fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brasa",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20810,7 +20810,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando ataca presas, pode alcançar velocidades de até 500 km/h. Finaliza sua presa com um poderoso chute.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ardente",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20838,7 +20838,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando está sob ataque de algum Pokémon pássaro, cospe um pó preto venenoso que causa paralisia no contato.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Poeira Dispersa",
-		obtencao: "Rota 2; e Santalune Forest",
+		obtencao: ["Rota 2", "Santalune Forest"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20866,7 +20866,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive escondido em sombras de arbustos. Quando predadores atacam, rapidamente eriça o pelo que cobre seu corpo em um esforço para ameaçá-los.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Poeira Dispersa",
-		obtencao: "Berry Fields; e por evolução",
+		obtencao: ["Berry Fields", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20894,7 +20894,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os padrões nas asas deste Pokémon dependem do clima e da topografia de seu habitat. Espalha escamas coloridas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escama",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20941,7 +20941,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quanto mais forte o oponente que enfrenta, mais calor surge de sua crina e mais poder fluirá por seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote de Leão",
-		obtencao: "Rota 22",
+		obtencao: ["Rota 22"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20969,7 +20969,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com um hálito ardente de mais de 6'000° Celsius, ameaçam ferozmente qualquer desafiante. As fêmeas protegem os filhotes do bando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Real",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20998,7 +20998,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Extrai e controla o poder oculto das flores. A flor que segura é provavelmente parte de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Florescimento Simples",
-		obtencao: "Rotas 4, e 7",
+		obtencao: ["Rotas 4, e 7"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21030,7 +21030,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa em torno de campos de flores e cuida das flores que estão começando a murchar. Extrai o poder oculto das flores para a batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Florescimento Simples",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21062,7 +21062,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Reivindica jardins floridos requintados como seu território e obtém poder ao se aquecer na energia emitida pelas plantas floridas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jardim",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21094,7 +21094,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Considerado um dos primeiros Pokémon a viver em harmonia com os humanos, tem uma disposição plácida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Monte",
-		obtencao: "Rota 5",
+		obtencao: ["Rota 5"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21122,7 +21122,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue diferenciar os sentimentos de seu Treinador pelas mudanças sutis na pegada de seus chifres. Esse senso empático permite que corram como se fossem um ser.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Monte",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21150,7 +21150,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Faz seu melhor para ser levado a sério por seus inimigos, mas seu olhar não é suficientemente intimidante. Mastigar uma folha é sua marca registrada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Brincalhão",
-		obtencao: "Rota 5; e Friend Safari",
+		obtencao: ["Rota 5", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21178,7 +21178,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de possuir um temperamento violento, não tolera o bullying. Usa a folha em sua boca para sentir os movimentos de seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Atemorizante",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21206,7 +21206,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparar seu pelo fofo não apenas o torna mais elegante, mas também aumenta a rapidez de seus movimentos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Poodle",
-		obtencao: "Rota 5",
+		obtencao: ["Rota 5"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21234,7 +21234,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O órgão que emite seu intenso poder psíquico é protegido por seus ouvidos para evitar que o poder vaze.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Retenção",
-		obtencao: "Rota 6; e Friend Safari",
+		obtencao: ["Rota 6", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21262,7 +21262,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando está em perigo, ergue suas orelhas e libera poder psíquico suficiente para transformar um caminhão de dez toneladas em pó.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Restrição",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21291,7 +21291,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparentemente, este Pokémon nasce quando um espírito que partiu habita uma espada. Este Pokémon se liga às pessoas e bebe sua força vital.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada",
-		obtencao: "Rota 6",
+		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21319,7 +21319,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os complexos padrões de ataque dessas duas espadas são imparáveis, mesmo para um oponente altamente versado em esgrima.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21347,7 +21347,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparentemente, consegue detectar as qualidades inatas da liderança. De acordo com lendas, quer quer que reconheça está destinado a se tornar rei.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada Real",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -21375,7 +21375,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparentemente, consegue detectar as qualidades inatas da liderança. De acordo com lendas, quer quer que reconheça está destinado a se tornar rei.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada Real",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -21404,7 +21404,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Emite um cheiro que arrebata aqueles que o cheiram. Esta fragrância muda dependendo do que comeu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perfume",
-		obtencao: "Rota 7; e Friend Safari",
+		obtencao: ["Rota 7", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21432,7 +21432,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Inventa vários aromas, agradáveis e desagradáveis, e emite aromas que seus inimigos não gostam para ganhar vantagem na batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fragrância",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21460,7 +21460,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Para enredar seus oponentes na batalha, extruda fios brancos tão doces e pegajosos quanto algodão doce.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Algodão-doce",
-		obtencao: "Rota 7; e Friend Safari",
+		obtencao: ["Rota 7", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21488,7 +21488,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue distinguir o mais fraco dos cheiros. Coloca seu olfato sensível em uso, ajudando os confeiteiros em seu trabalho.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Suspiro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21516,7 +21516,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os oponentes que olham fixamente para o brilho dos pontos emissores de luz em seu corpo ficam atordoados e perdem a vontade de lutar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Orbitante",
-		obtencao: "Rota 8; Azure Bay; e Friend Safari",
+		obtencao: ["Rota 8", "Azure Bay", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21544,7 +21544,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Atrai suas presas para perto com movimentos hipnóticos, depois envolve seus tentáculos ao redor dela antes de finalizá-la com fluidos digestivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Capotador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21572,7 +21572,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esticam e depois contraem, puxando suas rochas junto em saltos ousados. Comem algas marinhas que aparecem na costa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Duas Mãos",
-		obtencao: "Rotas 8, e 12; e Azure Bay",
+		obtencao: ["Rotas 8, e 12", "Azure Bay"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21600,7 +21600,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As pernas e mãos deste Pokémon possuem mentes próprias, e se movem independentemente. Mas normalmente seguem as ordens da cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coletivo",
-		obtencao: "Friend Safari; e por evolução",
+		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21628,7 +21628,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Camuflado como alga podre, este Pokémon borrifa veneno líquido na presa que se aproxima desprevenida e depois acabam com ela.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Alga Falsa",
-		obtencao: "Rota 8",
+		obtencao: ["Rota 8"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21656,7 +21656,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu veneno é forte o suficiente para comer o casco de um navio-tanque, e eles cospem indiscriminadamente em qualquer coisa que entre em seu território.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Alga Falsa",
-		obtencao: "Rota 8; e por evolução",
+		obtencao: ["Rota 8", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21684,7 +21684,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Abatem presas voadoras atirando água comprimida de suas grandes garras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Revólver d'Água",
-		obtencao: "Rota 8",
+		obtencao: ["Rota 8"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21712,7 +21712,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas enormes garras lançam balas de canhão de água poderosas o suficiente para perfurar cascos de navio-tanque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Obuseiro",
-		obtencao: "Rota 8; e por evolução",
+		obtencao: ["Rota 8", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21740,7 +21740,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Fazem seus lares em desertos. Conseguem gerar sua energia ao se aquecer ao sol, portanto, comer alimentos não é um requisito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gerador",
-		obtencao: "Rota 9; e Friend Safari",
+		obtencao: ["Rota 9", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21768,7 +21768,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Estimula seus músculos com eletricidade, aumentando a força em suas pernas e permitindo correr 90 metros em cinco segundos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gerador",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21796,7 +21796,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon foi restaurado a partir de um fóssil. Caso algo aconteça que não goste, faz birra e corre solto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Herdeiro Real",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21824,7 +21824,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nada poderia parar este Pokémon cem milhões de anos atrás, portanto, se comportava como um rei.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Déspota",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21852,7 +21852,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este antigo Pokémon foi restaurado de parte de seu corpo que havia sido congelada no gelo por mais de cem milhões de anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tundra",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21880,7 +21880,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usando seus cristais do formato de diamante, consegue instantaneamente criar uma parede de gelo para bloquear um ataque do oponente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tundra",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21908,7 +21908,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Envia uma aura calmante de suas antenas semelhantes a fita para acalmar lutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Entrelaçamento",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21936,7 +21936,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Com suas asas, controla sua posição no ar. Gosta de ataca de cima, uma manobra difícil de ser defendida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Luta Livre",
-		obtencao: "Rota 10; e Friend Safari",
+		obtencao: ["Rota 10", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21964,7 +21964,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus bigodes servem como antenas. Ao enviar e receber ondas elétricas, consegue se comunicar com outros a grandes distâncias.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Antena",
-		obtencao: "Rota 11; e Friend Safari",
+		obtencao: ["Rota 11", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -21992,7 +21992,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nascido das temperaturas e pressões do subsolo, dispara raios da rocha em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Joia",
-		obtencao: "Caverna dos Reflexos",
+		obtencao: ["Caverna dos Reflexos"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22020,7 +22020,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É coberto por uma membrana viscosa que faz com que qualquer soco ou chute deslize sem causar danos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tecido Mole",
-		obtencao: "Rota 14",
+		obtencao: ["Rota 14"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22048,7 +22048,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foge dos oponentes excretando um líquido pegajoso que pode dissolver qualquer coisa. Seus olhos retrocederam, então não consegue ver nada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tecido Mole",
-		obtencao: "Rota 19; Friend Safari; e por evolução",
+		obtencao: ["Rota 19", "Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22077,7 +22077,7 @@ const pkmnDisponiveis = [
 			"Uma criatura dada à melancolia. Suspeito que sua concha metálica desenvolveu como resultado do muco em sua pele reagindo com o ferro na água da região.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma",
 		obtencao:
-			"Crimson Mirelands: Holm of Trials, Ursa's Ring; Coronet Highlands: próximo a Ancient Quarry; e por evolução",
+			["Crimson Mirelands: Holm of Trials, Ursa's Ring", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22105,7 +22105,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ataca com chifres retráteis. Lança um soco que é o equivalente à força de uma centena de boxeadores profissionais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22134,7 +22134,7 @@ const pkmnDisponiveis = [
 			"Capaz de controlar livremente a dureza de sua concha metálica. Detesta a solidão e é extremamente pegajoso, vai fumegar e correr solto se aqueles mais queridos a ele um dia saírem do seu lado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abrigo de Concha",
 		obtencao:
-			"Obsidian Fieldlands: Lake Verity; Crimson Mirelands; Coronet Highlands: próximo a Ancient Quarry; e por evolução",
+			["Obsidian Fieldlands: Lake Verity", "Crimson Mirelands", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22162,7 +22162,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esses colecionadores de chave ameaçam qualquer invasor balançando suas chaves ferozmente para eles.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chaveiro",
-		obtencao: "Rotas 15, e 16; Lost Hotel; e Friend Safari",
+		obtencao: ["Rotas 15, e 16", "Lost Hotel", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22190,7 +22190,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"São criados quando espíritos possuem tocos de árvores podres. Preferem viver em florestas abandonadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Toco",
-		obtencao: "Rota 16; e Friend Safari",
+		obtencao: ["Rota 16", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22218,7 +22218,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Pode controlar árvores à vontade. Irá capturar pessoas que danificam a floresta, para que nunca possam sair.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Árvore Anciã",
-		obtencao: "Rota 20; e por evolução",
+		obtencao: ["Rota 20", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22246,7 +22246,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Rota 16",
+		obtencao: ["Rota 16"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22274,7 +22274,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Rota 16; e Friend Safari",
+		obtencao: ["Rota 16", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22302,7 +22302,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Rota 16",
+		obtencao: ["Rota 16"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22330,7 +22330,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O corpo da abóbora é habitado por um espírito preso neste mundo. Conforme o sol se põe, se torna inquieto e ativo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Rota 16",
+		obtencao: ["Rota 16"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22358,7 +22358,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22386,7 +22386,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22414,7 +22414,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22442,7 +22442,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cantando com vozes assustadoras, vagam pelas ruas da cidade na noite da lua nova. Qualquer um que ouça sua canção é amaldiçoado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abóbora",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22470,7 +22470,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Bloqueia ataques do oponente com o gelo que protege seu corpo. Usa ar frio para consertar quaisquer rachaduras com novo gelo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pedaço de Gelo",
-		obtencao: "Caverna Congelada; e Friend Safari",
+		obtencao: ["Caverna Congelada", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22498,7 +22498,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo coberto de gelo é tão duro quanto aço. Sua estrutura pesada esmaga qualquer coisa que fique em seu caminho.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Iceberg",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22526,7 +22526,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A armadura de gelo que cobre sua mandíbula inferior envergonha o aço e pode quebrar pedras com facilidade. Este Pokémon corre por trilhas íngremes nas montanhas, cortando a neve profunda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Iceberg",
-		obtencao: "Alabaster Icelands: Avalugg's Legacy; e por evolução",
+		obtencao: ["Alabaster Icelands: Avalugg's Legacy", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22554,7 +22554,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vivem em caverna escuras como breu. Seus ouvidos enormes podem emitir ondas ultrassônicas de 200'000 hertz.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Onda Sonora",
-		obtencao: "Caverna Terminus; Estrada da Vitória; e Friend Safari",
+		obtencao: ["Caverna Terminus", "Estrada da Vitória", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22582,7 +22582,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voam por aí em noites sem lua e atacam presas descuidadas. Nada pode vencê-los em uma batalha no escuro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Onda Sonora",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22610,7 +22610,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Lendas contam que pode compartilhar vida eterna. Dormiu por mil anos na forma de uma árvore antes de seu renascimento.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vida",
-		obtencao: "Team Flare Secret HQ",
+		obtencao: ["Team Flare Secret HQ"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22638,7 +22638,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando sua vida chega ao fim, absorve a energia vital de todas as coisa vivas e se transforma em um casulo novamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Destruição",
-		obtencao: "Team Flare Secret HQ",
+		obtencao: ["Team Flare Secret HQ"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22666,7 +22666,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando o ecossistema de sua região entra em desordem, aparece e revela seu poder secreto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Equilíbrio",
-		obtencao: "Caverna Terminus",
+		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22694,7 +22694,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando o ecossistema de sua região entra em desordem, aparece e revela seu poder secreto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Equilíbrio",
-		obtencao: "Caverna Terminus",
+		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22722,7 +22722,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando o ecossistema de sua região entra em desordem, aparece e revela seu poder secreto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Equilíbrio",
-		obtencao: "Caverna Terminus",
+		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22750,7 +22750,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Pode criar instantaneamente vários diamantes comprimindo o carbono no ar entre suas mãos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Joia",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22778,7 +22778,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este encrenqueiro envia tudo e qualquer coisa para lugares distantes usando seu laço, o que pode distorcer o espaço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Travessura",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22806,7 +22806,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este encrenqueiro envia tudo e qualquer coisa para lugares distantes usando seu laço, o que pode distorcer o espaço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gênio",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22834,7 +22834,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Solta nuvens de vapor e desaparece na névoa densa. Dizem que vive em montanhas onde os humanos não pisam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vapor",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22862,7 +22862,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon cauteloso usa a fotossíntese para armazenar energia durante o dia, enquanto se torna ativo à noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pluma de Folha",
-		obtencao: "Cidade de Iki; ou Rota 1",
+		obtencao: ["Cidade de Iki", "ou Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22890,7 +22890,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um pouco dândi, passa seu tempo livre alisando suas asas. Sua preocupação com qualquer sujeira em sua plumagem pode deixá-lo incapaz de lutar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâmina de Pluma",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22918,7 +22918,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dispara flechas de suas asas com tanta precisão que elas podem perfurar uma pedra a distância de mais de noventa metros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flecha de Pluma",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22946,7 +22946,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O ar armazenado dentro das ráquis de suas penas isola o Pokémon contra o frio extremo da região.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Flecha de Pluma",
-		obtencao: "Coronet Highlands: Space-time distortions; e por evolução",
+		obtencao: ["Coronet Highlands: Space-time distortions", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -22974,7 +22974,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enquanto se limpa, acumula pelos dentro do estômago. Incendeia os pelos e cospe ataques de fogo, que mudam com base em como tosse.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato de Fogo",
-		obtencao: "Cidade de Iki; ou Rota 1",
+		obtencao: ["Cidade de Iki", "ou Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23002,7 +23002,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Em sua garganta, carrega um sino de fogo. O sino toca brilhantemente sempre que este Pokémon cospe fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato de Fogo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23030,7 +23030,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon tem uma disposição violenta e egoísta. Caso não esteja com vontade de ouvir, irá ignorar as ordens de seu Treinador com total indiferença.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Salto",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23058,7 +23058,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon cheira fluidos corporais de seu nariz, soprando balões para esmagar seus inimigos. É famoso por ser um trabalhador esforçado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leão do Mar",
-		obtencao: "Cidade de Iki; ou Rota 1",
+		obtencao: ["Cidade de Iki", "ou Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23086,7 +23086,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um dançarino habilidoso, este Pokémon cria uma sequência de balões de água enquanto dança, e bombardeia rapidamente seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estrela do Pop",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23114,7 +23114,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Controla seus balões de água com música. A melodia é aprendida de outras de sua espécie e é transmitida de uma geração para a outra.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Solista",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23142,7 +23142,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Consegue bicar a uma taxa de 16 vezes por segundo para perfurar buracos em árvores. Usa os buracos para armazenar comida e para ninhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pica-pau",
-		obtencao: "Rotas 1, 4, 5, e outras; e Poké Pelago",
+		obtencao: ["Rotas 1, 4, 5, e outras", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23171,7 +23171,7 @@ const pkmnDisponiveis = [
 			"Come frutas e armazena as sementes em seu bico. Quando encontra inimigos ou presas, dispara todas as sementes de uma só vez.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bico de Corneta",
 		obtencao:
-			"Rotas 5, 8, e 11; Selva Exuberante; Poni Grove; Poni Plains; e por evolução",
+			["Rotas 5, 8, e 11", "Selva Exuberante", "Poni Grove", "Poni Plains", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23199,7 +23199,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando batalha, seu bico aquece. A temperatura pode facilmente exceder 100 graus Celsius, causando queimaduras severas quando atinge.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Canhão",
-		obtencao: "Rota 11; Poni Grove; Poni Plains; e por evolução",
+		obtencao: ["Rota 11", "Poni Grove", "Poni Plains", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23227,7 +23227,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vagueia em uma busca incessante por comida. Ao anoitecer, desmaia de exaustão e adormece no local.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Enrolão",
-		obtencao: "Rotas 1, 2, 3, e outras; Kala'e Bay; e Verdant Cavern",
+		obtencao: ["Rotas 1, 2, 3, e outras", "Kala'e Bay", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23256,7 +23256,7 @@ const pkmnDisponiveis = [
 			"Quando encontra um traço de sua presa, pacientemente vigia o local... mas está sempre cochilando ao cair da noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vigilante",
 		obtencao:
-			"Rotas 10, 11, 15, e outras; Akala Outskirts; Ancient Poni Path; Poni Gauntlet; Poni Grove; Poni Plains; Poni Plains; Mount Lanakila; Tapu Village; e por evolução",
+			["Rotas 10, 11, 15, e outras", "Akala Outskirts", "Ancient Poni Path", "Poni Gauntlet", "Poni Grove", "Poni Plains", "Poni Plains", "Mount Lanakila", "Tapu Village", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23284,7 +23284,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua forte mandíbula permite este Pokémon raspe árvores e sorva a seiva. Normalmente vive no subsolo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Larva",
-		obtencao: "Rotas 1, 2, 3, e outra; e Blush Mountain",
+		obtencao: ["Rotas 1, 2, 3, e outra", "Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23312,7 +23312,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é capaz de armazenar eletricidade. Em acampamentos, pessoas ficam gratas por ter um por perto.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bateria",
-		obtencao: "Blush Mountain; e por evolução",
+		obtencao: ["Blush Mountain", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23340,7 +23340,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Produz eletricidade por meio de um órgão elétrico em seu abdomen. Sobrecarrega Pokémon pássaros com raios chocantes de energia elétrica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lucanídeo",
-		obtencao: "Blush Mountain; e por evolução",
+		obtencao: ["Blush Mountain", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23369,7 +23369,7 @@ const pkmnDisponiveis = [
 			"Enquanto protege seus pontos fracos com suas pinças, procura por uma abertura e desfere socos. Quando perde, espuma pela boca e desmaia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boxeador",
 		obtencao:
-			"Rotas 2, 3, 4, e outras; Secluded Shore; Ula'ula Beach; Poni Wilds; e Poni Plains",
+			["Rotas 2, 3, 4, e outras", "Secluded Shore", "Ula'ula Beach", "Poni Wilds", "Poni Plains"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23397,7 +23397,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mirou o topo, mas se perdeu e terminou em uma montanha nevada. Sendo forçado a resistir o frio, este Pokémon evoluiu e cresceu pelo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caranguejo de Lã",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23425,7 +23425,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Bate suas asas para criar fogo. Conforme se move nos passos de sua linda dança, banha seus oponentes em chamas intensas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dançante",
-		obtencao: "Ula'ula Meadow",
+		obtencao: ["Ula'ula Meadow"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23453,7 +23453,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cria uma carga elétrica ao esfregar suas penas. Dança em direção aos seus inimigos e dá chocantes socos elétricos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dançante",
-		obtencao: "Jardim de Melemele",
+		obtencao: ["Jardim de Melemele"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23481,7 +23481,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon relaxa balançando gentilmente. Isso aumenta sua energia psíquica, que então dispara em seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dançante",
-		obtencao: "Rota 6",
+		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23509,7 +23509,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Convoca os mortos com sua dança sonhadora. De sua malícia, extrai poder com o qual amaldiçoa seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dançante",
-		obtencao: "Poni Meadow",
+		obtencao: ["Poni Meadow"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23537,7 +23537,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Alimenta-se do néctar e do pólen das flores. Por ser capaz de sentir auras, consegue identificar quais flores estão próximas de florescer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abelha Voadora",
-		obtencao: "Rotas 2, e 3; Jardim de Melemele; e Poké Pelago",
+		obtencao: ["Rotas 2, e 3", "Jardim de Melemele", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23565,7 +23565,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enrola pólen em tufos. Produz muitas variedades diferentes, algumas usadas como alimento e outras usadas em batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Abelha Voadora",
-		obtencao: "Ula'ula Meadow; Poni Meadow; e por evolução",
+		obtencao: ["Ula'ula Meadow", "Poni Meadow", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23593,7 +23593,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É considerado ser um bom Pokémon para iniciantes por ser amigável, mas seu temperamento fica mais rude à medida que cresce.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
-		obtencao: "Rota 1; e Colina Dez Quilates",
+		obtencao: ["Rota 1", "Colina Dez Quilates"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23621,7 +23621,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus movimentos rápidos confundem seus inimigos. Bem equipado com garras e presas, também usa as rochas afiadas em sua juba como armas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lobo",
-		obtencao: "Grande Cânion de Poni; e por evolução",
+		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23649,7 +23649,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quanto mais intimidador for o oponente que enfrenta, mais o sangue deste Pokémon ferve. Atacará sem se importar com sua própria segurança.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lobo",
-		obtencao: "Grande Cânion de Poni; e por evolução",
+		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23677,7 +23677,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Debaixo de sua calma aparente está um intenso espírito de luta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lobo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23706,7 +23706,7 @@ const pkmnDisponiveis = [
 			"Quando está em perigo, seus olhos se umedecem e começam a brilhar. A luz do brilho atrai seus companheiros, e se unem contra seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixinho",
 		obtencao:
-			"Rotas 7, 8, 9, e outras; Melemele Sea; Kala'e Bay; Ladeira Brooklet; Akala Outskirts; Ula'ula Beach; e, durante batalhas, estar abaixo dos 25% de PS",
+			["Rotas 7, 8, 9, e outras", "Melemele Sea", "Kala'e Bay", "Ladeira Brooklet", "Akala Outskirts", "Ula'ula Beach", "Durante batalhas, estar abaixo dos 25% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23735,7 +23735,7 @@ const pkmnDisponiveis = [
 			"Com a aparição deles, até Pokémon grandes fugirão. Quando se unem para usar seu Revólver d'Água, seu poder excede o de Hidro-Bomba.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixinho",
 		obtencao:
-			"Rotas 7, 8, 9, e outras; Melemele Sea; Kala'e Bay; Ladeira Brooklet; Akala Outskirts; Ula'ula Beach; e, durante batalhas, estar acima dos 25% de PS",
+			["Rotas 7, 8, 9, e outras", "Melemele Sea", "Kala'e Bay", "Ladeira Brooklet", "Akala Outskirts", "Ula'ula Beach", "Durante batalhas, estar acima dos 25% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -23763,7 +23763,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Mergulha o espinho de veneno em sua cabeça em sua presa. Quando a presa enfraquece, dá o golpe final com seus dez tentáculos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estrela Brutal",
-		obtencao: "Rota 9; e Melemele Sea",
+		obtencao: ["Rota 9", "Melemele Sea"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23791,7 +23791,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aqueles atacados pelo veneno deste Pokémon sofrerão dor intensa por três dias e três noites. Após a recuperação, haverá alguns efeitos colaterais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Estrela Brutal",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23819,7 +23819,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A lama grudada em seus cascos melhora sua aderência e seu poderoso passo de corrida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Teimoso",
-		obtencao: "Rotas 4, 6, e 12; Paniola Ranch; e Blush Mountain",
+		obtencao: ["Rotas 4, 6, e 12", "Paniola Ranch", "Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23847,7 +23847,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cospe uma lama que oferece resistência tanto ao vento quanto à chuva, por isso as paredes das casas antigas eram frequentemente cobertas com ela.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo de Tração",
-		obtencao: "Rota 12; Blush Mountain; Poni Plains; e por evolução",
+		obtencao: ["Rota 12", "Blush Mountain", "Poni Plains", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23875,7 +23875,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando se depara com inimigos ou presas em potencial, este Pokémon ataca-os com sua cabeça coberta de bolhas de água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bolha de Água",
-		obtencao: "Ladeira Brooklet",
+		obtencao: ["Ladeira Brooklet"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23903,7 +23903,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cabeceia com a bolha de água em sua cabeça. Pequenos Pokémon são sugados para sua bolha, onde se afogam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bolha de Água",
-		obtencao: "Jardim de Malie; e por evolução",
+		obtencao: ["Jardim de Malie", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23931,7 +23931,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Durante o dia, dorme e absorve luz. Quando a noite cai, anda por aí procurando um lugar mais seguro para dormir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Foice de Folha",
-		obtencao: "Rota 5; e Selva exuberante",
+		obtencao: ["Rota 5", "Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23959,7 +23959,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É preciso muito esforço para manter suas cores vivas, mas alguns colecionadores gostam desse trabalho e o tratam como um hobby.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Foice Florescida",
-		obtencao: "Recebido em Heahea Beach; e por evolução",
+		obtencao: ["Recebido em Heahea Beach", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23987,7 +23987,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Espalha esporos que piscam e brilham. Qualquer um que veja essas luzes cai em um sono profundo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Iluminador",
-		obtencao: "Rota 11; Ladeira Brooklet; e Selva exuberante",
+		obtencao: ["Rota 11", "Ladeira Brooklet", "Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24015,7 +24015,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Florestas onde estes Pokémon vivem são traiçoeiras para entrar à noite. Pessoas confusas com suas luzes estranhas nunca mais conseguem encontrar o caminho de casa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Iluminador",
-		obtencao: "Rota 11; e por evolução",
+		obtencao: ["Rota 11", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24043,7 +24043,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Queima seu fluido corporal para criar um gás venenoso. Quando seus inimigos se tornam desorientados pelo gás inalado, este Pokémon os ataca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagarto Tóxico",
-		obtencao: "Rota 8; Vulcão Wela; e caverna da Selva exuberante",
+		obtencao: ["Rota 8", "Vulcão Wela", "caverna da Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24072,7 +24072,7 @@ const pkmnDisponiveis = [
 			"Cheia de feromônios, seu gás venenoso pode ser diluído para uso na produção de perfumes deliciosos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagarto Tóxico",
 		obtencao:
-			"Vulcão Wela; Selva exuberante; recebido em Heahea Beach; e por evolução",
+			["Vulcão Wela", "Selva exuberante", "Recebido em Heahea Beach", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24100,7 +24100,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de sua aparência adorável, quando fica bravo e se debate, seus braços e pernas poderiam derrubar um lutador profissional.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Agitado",
-		obtencao: "Rota 8; e Akala Outskirts",
+		obtencao: ["Rota 8", "Akala Outskirts"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24128,7 +24128,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este imensamente perigoso Pokémon possui uma força física avassaladora. Seu habitat é geralmente proibido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Braço Forte",
-		obtencao: "Poni Gauntlet; e por evolução",
+		obtencao: ["Poni Gauntlet", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24156,7 +24156,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um aroma delicioso jorra de seu corpo. São frequentemente engolidos inteiros por Pokémon pássaros atraídos por aquela delícia flutuante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fruta",
-		obtencao: "Selva exuberante",
+		obtencao: ["Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24184,7 +24184,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As sépalas em sua cabeça se desenvolveram para proteger seu corpo. São bem duras, então mesmo se bicadas por Pokémon pássaros, esse Pokémon fica totalmente bem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fruta",
-		obtencao: "Selva exuberante; e por evolução",
+		obtencao: ["Selva exuberante", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24212,7 +24212,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua pernas longas e marcantes não são apenas para exibição, mas para serem usadas para chutar com habilidade. Na vitória, se exibe chutando os derrotados, rindo ruidosamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fruta",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24240,7 +24240,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Prende flores à sua videira altamente nutritiva. Isso revitaliza as flores, e elas exalam um cheiro aromático.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Colhedor de Flores",
-		obtencao: "Selva exuberante; e Poké Pelago",
+		obtencao: ["Selva exuberante", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24268,7 +24268,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Conhecido por sua inteligência extrema, este Pokémon desprezará qualquer Treinador inexperientes, por isso é mais adequado para Treinadores veteranos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sábio",
-		obtencao: "Selva exuberante",
+		obtencao: ["Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24296,7 +24296,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Formam grupos de quase vinte indivíduos. O vínculo mútuo deles é notável, nunca decepcionam um camarada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trabalho em Equipe",
-		obtencao: "Selva exuberante",
+		obtencao: ["Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24325,7 +24325,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon é um covarde. Enquanto dispara em fuga desesperadamente, o bater de suas muitas pernas deixa um rastro limpo e brilhante em seu rastro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escapada",
 		obtencao:
-			"Rota 8; Prado da Ilha Poni; Dividing Peak Tunnel; Poni Breaker Coast",
+			["Rota 8", "Prado da Ilha Poni", "Dividing Peak Tunnel", "Poni Breaker Coast"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24353,7 +24353,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Luta habilmente com seus seis braços, mas passa a maior parte de seu tempo meditando pacificamente em cavernas nas profundezas do mar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escama Dura",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24381,7 +24381,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nascido de um monte de areia construído por uma criança, este Pokémon personifica os rancores dos que partiram.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Monte de Areia",
-		obtencao: "Rota 15; e Hano Beach",
+		obtencao: ["Rota 15", "Hano Beach"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24409,7 +24409,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enterrado sob o castelo estão massas de ossos secos daqueles cuja vitalidade foi drenada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Castelo de Areia",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24437,7 +24437,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em mares rasos, como áreas próximas a uma praia. Pode ejetar seus órgãos internos, que usa para engolir sua presa ou lutar contra inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pepino-do-mar",
-		obtencao: "Rota 7; Hano Beach; e Poké Pelago",
+		obtencao: ["Rota 7", "Hano Beach", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24465,7 +24465,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Devido ao perigo que este Pokémon sintético pode causar descontrole, usa uma máscara de controle para restringir seu poder.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sintético",
-		obtencao: "Recebido em Paraíso Aether",
+		obtencao: ["Recebido em Paraíso Aether"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24493,7 +24493,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua confiança em seu parceiro é o que o desperta. Este Pokémon é capaz de alterar sua tipagem, uma flexibilidade que é bem exibida em batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sintético",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24521,7 +24521,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Originalmente criado na camada de ozônio, cai no chão quando a concha que envolve seu corpo fica muito pesada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meteoro",
-		obtencao: "Mount Hokulani",
+		obtencao: ["Mount Hokulani"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -24549,7 +24549,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Come poeira na atmosfera. A composição da poeira determina a cor de seu núcleo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Meteoro",
-		obtencao: "Mount Hokulani e, durante a batalha, estar abaixo dos 50% de PS",
+		obtencao: ["Mount Hokulani e, durante a batalha, estar abaixo dos 50% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -24583,7 +24583,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nasce dormindo e morre dormindo. Todos seus movimentos, aparentemente, não são mais do que resultados dos movimentos em seus sonhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cochilando",
-		obtencao: "Rota 11",
+		obtencao: ["Rota 11"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24611,7 +24611,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O casco em suas costas é quimicamente instável e explode violentamente se golpeado. O buraco em seu estomago é seu ponto fraco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tartaruga Explosiva",
-		obtencao: "Blush Mountain",
+		obtencao: ["Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24639,7 +24639,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os longos pelos em suas costas agem como para-raios. Os raios que atrai são armazenados como energia em seu saco elétrico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fofinho",
-		obtencao: "Blush Mountain",
+		obtencao: ["Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24667,7 +24667,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua verdadeira aparência é desconhecida. Um estudioso que viu o que havia sob o trapo ficou tomado de terror e morreu devido ao choque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Disfarce",
-		obtencao: "Mercado Megabarato abandonado",
+		obtencao: ["Mercado Megabarato abandonado"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -24696,7 +24696,7 @@ const pkmnDisponiveis = [
 			"Depois de todo o esforço de se disfarçar, seu pescoço foi quebrado. O que quer que esteja dentro provavelmente está ileso, mas ainda está se sentindo triste.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Disfarce",
 		obtencao:
-			"Mercado Megabarato abandonado e, durante a batalha, receber dano",
+			["Mercado Megabarato abandonado e, durante a batalha, receber dano"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -24724,7 +24724,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando libera seu pode psíquico da protuberância em sua cabeça, o som áspero de dentes rangendo ecoa pela área.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ranger Dentes",
-		obtencao: "Rotas 13, 14, e 15; e Secluded Shore",
+		obtencao: ["Rotas 13, 14, e 15", "Secluded Shore"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24752,7 +24752,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui uma personalidade compassiva, mas caso seja enfurecido, destrói completamente seus arredores com sua baforada intensa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Plácido",
-		obtencao: "Mount Lanakila",
+		obtencao: ["Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24780,7 +24780,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A alma das algas à deriva nas ondas renasceu como este Pokémon. Ela se mantém viva com novas infusões de detritos do fundo do mar e algas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Alga Sinistra",
-		obtencao: "Seafolk Village",
+		obtencao: ["Seafolk Village"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24808,7 +24808,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Expressa seus sentimentos estalando suas escamas. Sons metálicos ecoam pelas altas montanhas onde este Pokémon vive.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escamoso",
-		obtencao: "Grande Cânion de Poni",
+		obtencao: ["Grande Cânion de Poni"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24836,7 +24836,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Salta sobre sua presa com um grito corajoso. Seus socos escamosos destroem seus oponentes em pedaços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escamoso",
-		obtencao: "Grande Cânion de Poni; e por evolução",
+		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24864,7 +24864,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando avista inimigos, ameaça-os balançando as escamas em sua cauda. Oponentes fracos irão rachar e fugir em pânico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escamoso",
-		obtencao: "Grande Cânion de Poni; e por evolução",
+		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24892,7 +24892,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta deidade guardiã de Melemele está cheia de curiosidade. Invoca nuvens de trovão e armazena seus raios dentro de seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espírito Nativo",
-		obtencao: "Ruínas do Conflito",
+		obtencao: ["Ruínas do Conflito"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24920,7 +24920,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta deidade guardiã de Akala é cruelmente inocente. O aroma fragrante das flores é a fonte de sua energia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espírito Nativo",
-		obtencao: "Ruins of Life",
+		obtencao: ["Ruins of Life"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24948,7 +24948,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A deidade guardiã de Ula'ula é um Pokémon preguiçoso. Comanda plantas para imobilizar seu adversários e então lhes desfere um golpe violento com seus chifres.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espírito Nativo",
-		obtencao: "Ruínas da Abundância",
+		obtencao: ["Ruínas da Abundância"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -24976,7 +24976,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A deidade guardiã de Poni, consegue controlar água. Pessoas dize que consegue criar água pura que limpará qualquer impureza.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espírito Nativo",
-		obtencao: "Ruínas da Esperança",
+		obtencao: ["Ruínas da Esperança"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25004,7 +25004,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é gasoso e frágil. Cresce devagar enquanto coleta poeira da atmosfera.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Nebulosa",
-		obtencao: "Lake of the Sunne, ou Lake of the Moone",
+		obtencao: ["Lake of the Sunne, ou Lake of the Moone"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25032,7 +25032,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Imóvel como se estivesse morto, seu corpo é levemente morno ao toque. No passado distante, era chamado de casulo das estrelas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Protoestrela",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25060,7 +25060,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito que vive em outro mundo. A luz intensa que irradia da superfície de seu corpo pode tornar a mais escura das noites iluminar-se como o meio-dia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Solar",
-		obtencao: "Altar Solar, ou Trilha Mahalo; e por evolução",
+		obtencao: ["Altar Solar, ou Trilha Mahalo", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25088,7 +25088,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É dito que vive em outro mundo, este Pokémon devora a luz, cobrindo o brilho do dia com o véu escuro e sem luar da noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lunar",
-		obtencao: "Altar Lunar, ou Trilha Mahalo; e por evolução",
+		obtencao: ["Altar Lunar, ou Trilha Mahalo", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25100,6 +25100,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nihilego",
+		codinome: "UB-01 Symbiont",
 		numero: 793, // considerando a national dex
 		tipo: ["Rocha", " Veneno"],
 		massa: 55.5, // em kg
@@ -25116,7 +25117,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma de várias Ultracriaturas. Pessoas na rua relatam observar aqueles que estão infestados por este Pokémon repentinamente se tornarem violentos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Parasita",
-		obtencao: "Diglett's Tunnel, ou Vulcão Wela; e Ultra Deep Sea",
+		obtencao: ["Diglett's Tunnel, ou Vulcão Wela", "Ultra Deep Sea"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25128,6 +25129,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Buzzwole",
+		codinome: "UB-02 Absortion",
 		numero: 794, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
 		massa: 333.6, // em kg
@@ -25144,7 +25146,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta Ultracriatura apareceu de outro mundo. Exibe seu corpo, mas não está claro se essa exibição é uma ostentação ou uma ameaça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Inchado",
-		obtencao: "Jardim Melele; e Ultra Jungle",
+		obtencao: ["Jardim Melele", "Ultra Jungle"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25156,6 +25158,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pheromosa",
+		codinome: "UB-02 Beauty",
 		numero: 795, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
 		massa: 25.0, // em kg
@@ -25172,7 +25175,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma das perigosas Ultracriaturas, tem sido avistada correndo pela região em velocidades assustadoras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elegância",
-		obtencao: "Verdant Cavern; e Ultra Desert",
+		obtencao: ["Verdant Cavern", "Ultra Desert"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25184,6 +25187,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Xurkitree",
+		codinome: "UB-03 Lighting",
 		numero: 796, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 100.0, // em kg
@@ -25200,7 +25204,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma das misteriosas formas de vida conhecidas como Ultracriaturas. De acordo com testemunhas, choques elétricos surpreendentes emanam de todo o seu corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cintilante",
-		obtencao: "Selva exuberante, ou Memorial Hill; e Ultra Plant",
+		obtencao: ["Selva exuberante, ou Memorial Hill", "Ultra Plant"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25212,6 +25216,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Celesteela",
+		codinome: "UB-04 Blaster",
 		numero: 797, // considerando a national dex
 		tipo: ["Metal", " Voador"],
 		massa: 999.9, // em kg
@@ -25228,7 +25233,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um tipo de Ultracriatura. Testemunhas a viram queimar uma floresta expelindo gás de seus dois braços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lançamento",
-		obtencao: "Deserto de Haina, ou Jardim de Malie; e Ultra Crater",
+		obtencao: ["Deserto de Haina, ou Jardim de Malie", "Ultra Crater"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25240,6 +25245,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kartana",
+		codinome: "UB-04 Blade",
 		numero: 798, // considerando a national dex
 		tipo: ["Planta", " Metal"],
 		massa: 0.1, // em kg
@@ -25256,7 +25262,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma das formas de vida conhecidas como Ultracriatura, foi observada cortando uma gigantesca torre de aço com um golpe de sua lâmina.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada Sacada",
-		obtencao: "Rota 17, ou Jardim de Malie; e Ultra Forest",
+		obtencao: ["Rota 17, ou Jardim de Malie", "Ultra Forest"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25268,6 +25274,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Guzzlord",
+		codinome: "UB-05 Glutton",
 		numero: 799, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
 		massa: 888.0, // em kg
@@ -25284,7 +25291,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Engoliu montanhas e prédios inteiros, segundo relatos. É uma das Ultracriaturas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Papa-porcaria",
-		obtencao: "Resolution Cave; e Ultra Ruin",
+		obtencao: ["Resolution Cave", "Ultra Ruin"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25312,7 +25319,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Lembrando as Ultracriaturas, acredita-se que essa forma de vida, aparentemente adormecida no subsolo, tenha vindo de outro mundo em tempos antigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prisma",
-		obtencao: "Colina Dez Quilates; e Mount Lanakila",
+		obtencao: ["Colina Dez Quilates", "Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -25341,7 +25348,7 @@ const pkmnDisponiveis = [
 			"Esta é a sua forma enquanto devora a luz de Solgaleo. Ataca os inimigos e então os corta com as garras em seus quatro membros e costas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prisma",
 		obtencao:
-			"Colina Dez Quilates; Mount Lanakila; e fundir com Solgaleo usando N-Solarizer",
+			["Colina Dez Quilates", "Mount Lanakila", "fundir com Solgaleo usando N-Solarizer"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -25370,7 +25377,7 @@ const pkmnDisponiveis = [
 			"Esta é sua forma enquanto devora a luz de Lunala. Agarra os inimigos com suas garras gigantes e os despedaça com força bruta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prisma",
 		obtencao:
-			"Colina Dez Quilates; Mount Lanakila; e fundir com Lunala usando N-Lunarizer",
+			["Colina Dez Quilates", "Mount Lanakila", "fundir com Lunala usando N-Lunarizer"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -25399,7 +25406,7 @@ const pkmnDisponiveis = [
 			"Esta é sua forma quando absorve energia de luz avassaladora. Dispara raios laser de todo o corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Prisma",
 		obtencao:
-			"Colina Dez Quilates; Mount Lanakila; e quando Necrozma Juba Crepúsculo ou Necrozma Asas Alvorada está segurando Ultranecrozium Z e usa Ultraexplosão",
+			["Colina Dez Quilates", "Mount Lanakila", "quando Necrozma Juba Crepúsculo ou Necrozma Asas Alvorada está segurando Ultranecrozium Z e usa Ultraexplosão"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
@@ -25427,7 +25434,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon artificial, construído há mais de 500 anos, consegue entender fala humana bas não consegue falar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Artificial",
-		obtencao: "Hau'oli City",
+		obtencao: ["Hau'oli City"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25455,7 +25462,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Capaz de se esconder nas sombras, nunca aparece diante humanos, portanto sua própria existência era considerada um mito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Morador das Sombras",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25467,6 +25474,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poipole",
+		codinome: "UB Adhersive",
 		numero: 803, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 1.8, // em kg
@@ -25483,7 +25491,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta Ultracriatura é querida o suficiente para ser escolhida como primeira parceira em seu próprio mundo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Recebido em Megalo Tower ou Ultra Megalopolis",
+		obtencao: ["Recebido em Megalo Tower ou Ultra Megalopolis"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25495,6 +25503,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Naganadel",
+		codinome: "UB Stinger",
 		numero: 804, // considerando a national dex
 		tipo: ["Veneno", " Dragão"],
 		massa: 150.0, // em kg
@@ -25511,7 +25520,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena centenas de litros de líquido venenoso dentro de seu corpo. É um dos organismos conhecidos como Ultracriaturas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinho Venenoso",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25523,6 +25532,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stakataka",
+		codinome: "UB Assembly",
 		numero: 805, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
 		massa: 820.0, // em kg
@@ -25539,7 +25549,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando paredes de pedra começaram a se mover e atacar, a verdadeira identidade do bruto era essa misteriosa forma de vida, que lembra uma Ultracriatura.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Muralha",
-		obtencao: "Poni Grove",
+		obtencao: ["Poni Grove"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25551,6 +25561,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blacephalon",
+		codinome: "UB Burst",
 		numero: 806, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
 		massa: 13.0, // em kg
@@ -25567,7 +25578,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Desliza em direção às pessoas. Então, sem aviso, dispara a explosão de sua própria cabeça. Aparentemente, é um tipo de Ultracriatura.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fogos de Artifício",
-		obtencao: "Poni Grove",
+		obtencao: ["Poni Grove"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25595,7 +25606,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se aproxima de seus inimigos na velocidade da luz, depois os despedaça membro a membro com suas garras afiadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Trovoada",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25623,7 +25634,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Derrete partículas de ferro e outros metais que encontra no subsolo, para que possa absorvê-los em seu corpo de aço fundido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Porca",
-		obtencao: "Capturado em Pokémon GO",
+		obtencao: ["Capturado em Pokémon GO"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25651,7 +25662,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Reverenciado há muito tempo por sua capacidade de criar ferro do nada, por alguma razão voltou à vida depois de 3'000 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Porca",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25680,7 +25691,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando usa seu graveto especial para fazer uma batida, as ondas sonoras produzidas carregam energia revitalizadora para as plantas e flores na área.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chimpanzé",
-		obtencao: "Postwick",
+		obtencao: ["Postwick"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25708,7 +25719,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quanto mais rápido este Pokémon consegue marcar um ritmo com sua duas baquetas, mais respeito ganha de seus pares.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Batida",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25736,7 +25747,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao tocar seu tambor, explora o poder de seu toco de árvore especial. As raízes do toco seguem sua direção na batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Percussionista",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25764,7 +25775,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui almofadas especiais nas costas dos pés e uma no nariz. Quando está ansioso para lutar, essas almofadas irradiam um calor tremendo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho",
-		obtencao: "Postwick",
+		obtencao: ["Postwick"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25792,7 +25803,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Chuta frutas dos galhos das árvores e depois as balança com os pés, praticando seu jogo de pés.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coelho",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25820,7 +25831,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É habilidoso tanto no ataque quanto na defesa, e fica animado quando é aplaudido. Mas se começar a se exibir, pode se colocar em uma situação difícil.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Artilheiro",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25848,7 +25859,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando assustado, este Pokémon chora. Suas lágrimas têm o impacto químico de cem cebolas, e agressores não conseguirão resistir ao choro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagarto d'Água",
-		obtencao: "Postwick",
+		obtencao: ["Postwick"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25876,7 +25887,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Um combatente astuto, este Pokémon batalha usando balões d'água criados com a umidade secretada de suas palmas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lagarto d'Água",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25904,7 +25915,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui muitas capacidades escondidas, como as pontas dos dedos que atiram água e uma membrana nas costas que o possibilita planar no ar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Agente Secreto",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25933,7 +25944,7 @@ const pkmnDisponiveis = [
 			"Come frutas sem parar, um hábito que o tornou mais resiliente do que parece. Aparecerá em fazendas procurando por mais frutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sem-vergonha",
 		obtencao:
-			"Rotas 1, 2, 3, e outras; Arvoredo Adormecido; Rolling Fields; Motostoke Riverbank; North Lake Miloch; Dappled Grove; Watchtower Ruins; Stepping-Stone Sea; Ballimere Lake; Fields of Honor; Soothing Wetlands; Challenge Beach; Forest of Focus; Training Lowlands; Workout Sea; Loop Lagoon; Insular Sea; Slippery Slope; Frostpoint Field; Giant's Bed; e Giant's Foot",
+			["Rotas 1, 2, 3, e outras", "Arvoredo Adormecido", "Rolling Fields", "Motostoke Riverbank", "North Lake Miloch", "Dappled Grove", "Watchtower Ruins", "Stepping-Stone Sea", "Ballimere Lake", "Fields of Honor", "Soothing Wetlands", "Challenge Beach", "Forest of Focus", "Training Lowlands", "Workout Sea", "Loop Lagoon", "Insular Sea", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25962,7 +25973,7 @@ const pkmnDisponiveis = [
 			"Armazena frutas em sua cauda, tantas frutas que elas caem constantemente. Mas este Pokémon é um pouco lento, então não percebe a perda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fominha",
 		obtencao:
-			"Rotas 6, 7, e 9; Axew's Eye; Bridge Field; Giant's Cap; Giant's Mirror; Giant's Seat; Hammerlocke Hills; Lake of Outrage; Motostoke Riverbank; Slippery Slope; Frostpoint Field; Giant's Bed; Giant's Foot; Ballimere Lake; Dyna Tree Hill; e por evolução",
+			["Rotas 6, 7, e 9", "Axew's Eye", "Bridge Field", "Giant's Cap", "Giant's Mirror", "Giant's Seat", "Hammerlocke Hills", "Lake of Outrage", "Motostoke Riverbank", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Giant's Foot", "Ballimere Lake", "Dyna Tree Hill", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -25990,7 +26001,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Corajosamente desafiará qualquer oponente, não importa quão forte. Este Pokémon se beneficia de toda batalha, mesmo a derrota aumenta sua força um pouco.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Passarinho",
-		obtencao: "Rotas 1, 2, e 3; Motostoke Riverbank; e Slumbering Weald",
+		obtencao: ["Rotas 1, 2, e 3", "Motostoke Riverbank", "Slumbering Weald"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26019,7 +26030,7 @@ const pkmnDisponiveis = [
 			"Inteligente o suficiente para usar ferramentas em batalha, esse Pokémon tem sido visto pegando rochas e atirando-as ou usando cordas para envolver inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Corvo",
 		obtencao:
-			"Rota 3; Giant's Mirror; Hammerlocke Hills; Motostoke Riverbank; Ballimere Lake; e por evolução",
+			["Rota 3", "Giant's Mirror", "Hammerlocke Hills", "Motostoke Riverbank", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26048,7 +26059,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon reina supremo nos céus da região. O brilho negro de seu corpo de aço poderia aterrorizar o coração de qualquer inimigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Corvo",
 		obtencao:
-			"Rota 7; Dusty Bowl; Lake of Outrage; Slumbering Weald; Giant's Cap; Hammerlocke Hills; Motostoke Riverbank; North Lake Miloch; Watchtower Ruins; e por evolução",
+			["Rota 7", "Dusty Bowl", "Lake of Outrage", "Slumbering Weald", "Giant's Cap", "Hammerlocke Hills", "Motostoke Riverbank", "North Lake Miloch", "Watchtower Ruins", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26077,7 +26088,7 @@ const pkmnDisponiveis = [
 			"Um constante colecionador de informação, este Pokémon é muito inteligente. Muito forte e o que não é.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Larva",
 		obtencao:
-			"Rotas 1, e 2; Giant's Cap; Slumbering Weald; Fields of Honor; Challenge Beach; Training Lowlands; Challenge Road; Workout Sea; Loop Lagoon; Stepping-Stone Sea; Insular Sea; Honeycalm Island",
+			["Rotas 1, e 2", "Giant's Cap", "Slumbering Weald", "Fields of Honor", "Challenge Beach", "Training Lowlands", "Challenge Road", "Workout Sea", "Loop Lagoon", "Stepping-Stone Sea", "Insular Sea", "Honeycalm Island"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26106,7 +26117,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon mal se move, mas ainda está vivo. Esconder-se em sua concha sem comida ou água parece ter despertado seus poderes psíquicos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Redoma",
 		obtencao:
-			"Rota 5; Giant's Cap; Giant's Mirror; Stony Wilderness; Fields of Honor; e por evolução",
+			["Rota 5", "Giant's Cap", "Giant's Mirror", "Stony Wilderness", "Fields of Honor", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26135,7 +26146,7 @@ const pkmnDisponiveis = [
 			"É famoso por seu alto nível de inteligência, e o grande tamanho de seu cérebro é prova que também possui imenso poder psíquico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sete Pintas",
 		obtencao:
-			"Giant's Cap; Lake of Outrage; Slumbering Weald; Dappled Grove; e por evolução",
+			["Giant's Cap", "Lake of Outrage", "Slumbering Weald", "Dappled Grove", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26163,7 +26174,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Auxiliado pelas almofadas macias em seus pés, silenciosamente ataca os estoques de comida de outros Pokémon. Sobrevive de ganhos ilícitos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
-		obtencao: "Rotas 1, e 2; Dusty Bowl; Giant's Mirror; e Stony Wilderness",
+		obtencao: ["Rotas 1, e 2", "Dusty Bowl", "Giant's Mirror", "Stony Wilderness"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26192,7 +26203,7 @@ const pkmnDisponiveis = [
 			"Marca secretamente alvos em potencial com um aroma. Ao seguir esse aroma, persegue seu alvo e rouba algo quando menos espera.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa",
 		obtencao:
-			"Rotas 7, e 9; Bridge Field; Hammerlocke Hills; Stony Wilderness; e por evolução",
+			["Rotas 7, e 9", "Bridge Field", "Hammerlocke Hills", "Stony Wilderness", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26220,7 +26231,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ancora a si mesmo ao chão com sua única perna, depois se aquece no sol. Após absorver luz solar suficiente, suas pétalas se espalham enquanto ela floresce brilhantemente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Florescer",
-		obtencao: "Rotas 2, e 3; e Motostoke Riverbank",
+		obtencao: ["Rotas 2, e 3", "Motostoke Riverbank"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26249,7 +26260,7 @@ const pkmnDisponiveis = [
 			"O algodão na cabeça deste Pokémon pode ser fiado em um fio brilhante e lindo, uma especialidade regional.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Florescimento de Algodão",
 		obtencao:
-			"Rota 5; Motostoke Riverbank; Dusty Bowl; Giant's Cap; Stony Wilderness; Ballimere Lake; e por evolução",
+			["Rota 5", "Motostoke Riverbank", "Dusty Bowl", "Giant's Cap", "Stony Wilderness", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26278,7 +26289,7 @@ const pkmnDisponiveis = [
 			"Seu pelo encaracolado é uma proteção tão eficaz que este Pokémon poderia cair de um penhasco e se levantar imediatamente, ileso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ovelha",
 		obtencao:
-			"Rotas 1, e 4; Motostoke Riverbank; Slippery Slope; Frostpoint Field; Giant's Bed; Snowslide Slope; e Three-Point Pass",
+			["Rotas 1, e 4", "Motostoke Riverbank", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Snowslide Slope", "Three-Point Pass"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26307,7 +26318,7 @@ const pkmnDisponiveis = [
 			"Teça um tapete com sua lã elástica, e você acabará com algo próximo de um trampolim. Você começará a pular no momento em que pisar nele.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ovelha",
 		obtencao:
-			"Dusty Bowl; Hammerlocke Hills; Motostoke Riverbank; Rolling Fields; Slippery Slope; Frostpoint Field; Giant's Bed; Snowslide Slope; Three-Point Pass; e por evolução",
+			["Dusty Bowl", "Hammerlocke Hills", "Motostoke Riverbank", "Rolling Fields", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Snowslide Slope", "Three-Point Pass", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26336,7 +26347,7 @@ const pkmnDisponiveis = [
 			"Aparentemente, a coceira causada pela dentição o impede a estalar as mandíbulas em qualquer coisa que esteja na sua frente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mordedor",
 		obtencao:
-			"Rotas 2, 4, e 5; Galar Mine No. 2; Giant's Cap; Giant's Mirror; Motostoke Outskirts; Motostoke Riverbank; Courageous Cavern; e Soothing Wetlands",
+			["Rotas 2, 4, e 5", "Galar Mine No. 2", "Giant's Cap", "Giant's Mirror", "Motostoke Outskirts", "Motostoke Riverbank", "Courageous Cavern", "Soothing Wetlands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26365,7 +26376,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon estende rapidamente seu pescoço retrátil para cravar suas presas afiadas em inimigos distantes e derrotá-los.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mordida",
 		obtencao:
-			"Rotas 2, e 6; Bridge Field; Dusty Bowl; Giant's Cap; Giant's Mirror; Lake of Outrange; Galar Mine No. 2; Fields of Honor; Soothing Wetlands; Loop Lagoon; e por evolução",
+			["Rotas 2, e 6", "Bridge Field", "Dusty Bowl", "Giant's Cap", "Giant's Mirror", "Lake of Outrange", "Galar Mine No. 2", "Fields of Honor", "Soothing Wetlands", "Loop Lagoon", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26394,7 +26405,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon glutão só ajuda as pessoas com o trabalho delas porque quer guloseimas. Enquanto corre, crepita com eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
 		obtencao:
-			"Rotas 2, e 4; Giant's Mirror; Motorstoke Riverbank; Stony Wilderness; e Ballimere Lake",
+			["Rotas 2, e 4", "Giant's Mirror", "Motorstoke Riverbank", "Stony Wilderness", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26423,7 +26434,7 @@ const pkmnDisponiveis = [
 			"Envia eletricidade através de suas pernas para aumenta sua força. Correndo em velocidade máxima, facilmente ultrapassa 80 km/h.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cão",
 		obtencao:
-			"Dusty Bowl; Lake of Outrage; Motostoke Riverbank; North Lake Miloch; Ballimere Lake; e por evolução",
+			["Dusty Bowl", "Lake of Outrage", "Motostoke Riverbank", "North Lake Miloch", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26451,7 +26462,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A maior parte de seu corpo possui a mesma composição do carvão. Apropriadamente, este Pokémon foi descoberto pela primeira vez em minas de carvão há cerca de 400 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carvão",
-		obtencao: "Rota 3; Gala Mine; Giant's Cap; e Motostoke Riverbank",
+		obtencao: ["Rota 3", "Gala Mine", "Giant's Cap", "Motostoke Riverbank"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26480,7 +26491,7 @@ const pkmnDisponiveis = [
 			"Ao girar rapidamente suas pernas, pode viajar a mais de 30 km/h. A temperatura as chamas que ele respira excede 1'000° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carvão",
 		obtencao:
-			"Bridge Field; Stony Wilderness; Giant's Cap; Galar Mine; Ballimere Lake; Lakeside Cave; e por evolução",
+			["Bridge Field", "Stony Wilderness", "Giant's Cap", "Galar Mine", "Ballimere Lake", "Lakeside Cave", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26509,7 +26520,7 @@ const pkmnDisponiveis = [
 			"Enquanto estiver em batalha, sua montanha de carvão queimará em vermelho brilhante, soltando faíscas que queimarão a área ao redor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Carvão",
 		obtencao:
-			"Dusty Bowl; Lake of Outrage; Giant's Cap; Ballimere Lake; Lakeside Cave; e por evolução",
+			["Dusty Bowl", "Lake of Outrage", "Giant's Cap", "Ballimere Lake", "Lakeside Cave", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26538,7 +26549,7 @@ const pkmnDisponiveis = [
 			"Passa toda sua vida dentro de uma maçã. Esconde-se de seus inimigos naturais, Pokémon pássaros, fingindo que é apenas uma maçã e nada mais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caroço de Maçã",
 		obtencao:
-			"Rota 5; Dusty Bowl; Giant's Mirror; Stony Wilderness; Fields of Honor; Soothing Wetlands; Challenge Beach; Forest of Focus; Training Lowlands; Workout Sea; Loop Lagoon; Stepping-Stone Sea; e Insular Sea",
+			["Rota 5", "Dusty Bowl", "Giant's Mirror", "Stony Wilderness", "Fields of Honor", "Soothing Wetlands", "Challenge Beach", "Forest of Focus", "Training Lowlands", "Workout Sea", "Loop Lagoon", "Stepping-Stone Sea", "Insular Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26566,7 +26577,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Voa em asas de casca de maçã e cospe um ácido poderoso. Também pode mudar sua forma para a de uma maçã.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Asa de Maçã",
-		obtencao: "Stepping-Stone Sea; e por evolução",
+		obtencao: ["Stepping-Stone Sea", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26594,7 +26605,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é coberto por um doce néctar, e a casca em suas costas é especialmente saborosa. Crianças costumavam tê-lo como um lanche.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Néctar de Maçã",
-		obtencao: "Stepping-Stone Sea; e por evolução",
+		obtencao: ["Stepping-Stone Sea", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26623,7 +26634,7 @@ const pkmnDisponiveis = [
 			"Enquanto cava, engole areia e armazena na bolsa de seu pescoço. A bolsa consegue armazenar até 8 kg de areia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Areia",
 		obtencao:
-			"Rota 6; Forest of Focus; Training Lowlands; Challenge road; e Potbottom Desert",
+			["Rota 6", "Forest of Focus", "Training Lowlands", "Challenge road", "Potbottom Desert"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26651,7 +26662,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando contrai seu corpo, mais de 100 kg de areia são espirradas de seu nariz. Caso fique sem areia, fica desanimado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Areia",
-		obtencao: "Rota 8; Lake of Outrage; e por evolução",
+		obtencao: ["Rota 8", "Lake of Outrage", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26680,7 +26691,7 @@ const pkmnDisponiveis = [
 			"É tão forte que consegue nocautear alguns oponentes em um único golpe, mas também pode esquecer que está lutando durante a luta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Engolir",
 		obtencao:
-			"Rota 9; Bridge Field; Lake of Outrage; Stony Wilderness; Axew's Eye; Challenge Beach; Forest of Focus; e Training Lowlands",
+			["Rota 9", "Bridge Field", "Lake of Outrage", "Stony Wilderness", "Axew's Eye", "Challenge Beach", "Forest of Focus", "Training Lowlands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26709,7 +26720,7 @@ const pkmnDisponiveis = [
 			"Caso veja qualquer movimento ao seu redor, este Pokémon ataca imediatamente, liderando com sua mandíbula pontiaguda. Tem muito orgulho dessa mandíbula.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Arremetida",
 		obtencao:
-			"Rota 2; Motostoke Riverbank; Challenge Beach; Forest of Focus; e Training Lowlands",
+			["Rota 2", "Motostoke Riverbank", "Challenge Beach", "Forest of Focus", "Training Lowlands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26738,7 +26749,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon tem uma mandíbula tão afiada quanto uma lança e tão forte quanto aço. Aparentemente, a carne deste Pokémon também é surpreendentemente saborosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espeto",
 		obtencao:
-			"Rota 2; Motostoke Riverbank; Dusty Bowl; Lake of Outrage; Training Lowlands; e por evolução",
+			["Rota 2", "Motostoke Riverbank", "Dusty Bowl", "Lake of Outrage", "Training Lowlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26767,7 +26778,7 @@ const pkmnDisponiveis = [
 			"Armazena veneno em uma bolsa de veneno interna e secreta esse neno por sua pele. Caso toque este Pokémon, sentirá uma sensação de formigamento.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bebê",
 		obtencao:
-			"Rota 7; Hammerlocke Hills; Giant's Cap; Stony Wilderness; Bridge Field; e Motostoke Riverbank",
+			["Rota 7", "Hammerlocke Hills", "Giant's Cap", "Stony Wilderness", "Bridge Field", "Motostoke Riverbank"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26795,7 +26806,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando este Pokémon soa como se estivesse dedilhando uma guitarra, na verdade está arranhando as saliências em seu peito para gerar eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Punk",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -26823,7 +26834,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui um órgão elétrico no peito. Enquanto gera eletricidade, preenche seus arredores com o que soa como o dedilha de um baixo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Punk",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -26851,7 +26862,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Armazena gás inflamável em seu corpo e usa para gerar calor. As seções amarelas em sua barriga ficam particularmente quentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Radiador",
-		obtencao: "Rota 3; Motostoke Stadium; e Giant's Foot",
+		obtencao: ["Rota 3", "Motostoke Stadium", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26879,7 +26890,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando aquece, sua temperatura corporal alcança em torno de 800° Celsius. Chicoteia seu corpo como um chicote e lança a si mesmo em seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Radiador",
-		obtencao: "Giant's Foot; e por evolução",
+		obtencao: ["Giant's Foot", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26907,7 +26918,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É muito curioso, mas seus meios de investigar coisas é tentar soca-las com seus tentáculos. A procura por comida é o que o traz a terra firme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Birrento",
-		obtencao: "Rota 9; Courageous Cavern; e Loop Lagoon",
+		obtencao: ["Rota 9", "Courageous Cavern", "Loop Lagoon"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26936,7 +26947,7 @@ const pkmnDisponiveis = [
 			"Um corpo feito apenas de músculos torna os movimentos de luta que este Pokémon realiza com seus tentáculos tremendamente poderosos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Jiu-jitsu",
 		obtencao:
-			"Rota 9; Lake of Courage; West Lake Axewell; Loop Lagoon; e por evolução",
+			["Rota 9", "Lake of Courage", "West Lake Axewell", "Loop Lagoon", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26964,7 +26975,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A xícara de chá que este Pokémon mora é uma famosa peça de louça antiga. Muitas falsificações estão em circulação.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chá Preto",
-		obtencao: "Bosque Glimwood; e Cemitério Antigo",
+		obtencao: ["Bosque Glimwood", "Cemitério Antigo"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -26993,7 +27004,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta espécie vive em bules antigos. A maioria dos bules são falsificados, mas em raras ocasiões, uma obra autêntica é encontrada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chá Preto",
-		obtencao: "Cemitério Antigo; e por evolução",
+		obtencao: ["Cemitério Antigo", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27023,7 +27034,7 @@ const pkmnDisponiveis = [
 			"Por meio da protrusão em sua cabeça, sente as emoções de outras criaturas. Caso você não tiver uma disposição calma, ela nunca se aquecerá com você.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Calmo",
 		obtencao:
-			"Hammerlocke Hill; Motostoke Outskirts; Stony Wilderness; Slippery Slope; Frostpoint Field; Giant's Bed; Cemitério Antigo; Giant's Foot; Frigid Sea; Three-Point Pass; e Ballimere Lake",
+			["Hammerlocke Hill", "Motostoke Outskirts", "Stony Wilderness", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Cemitério Antigo", "Giant's Foot", "Frigid Sea", "Three-Point Pass", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27052,7 +27063,7 @@ const pkmnDisponiveis = [
 			"Não importa quem você seja, se trazer fortes emoções próximo a este Pokémon, você será silenciado violentamente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sereno",
 		obtencao:
-			"Dusty Bowl; Bosque Glimwood; Frostpoint Field; Giant's Bed; Cemitério Antigo; Giant's Foot; Frigid Sea; Three-Point Pass; Ballimere Lake; Slippery Slope; e por evolução",
+			["Dusty Bowl", "Bosque Glimwood", "Frostpoint Field", "Giant's Bed", "Cemitério Antigo", "Giant's Foot", "Frigid Sea", "Three-Point Pass", "Ballimere Lake", "Slippery Slope", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27081,7 +27092,7 @@ const pkmnDisponiveis = [
 			"Emite poder psíquico forte o suficiente para causar dores de cabeça e impedir a aproximação de outras pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Silencioso",
 		obtencao:
-			"Lake of Outrage; Frostpoint Field; Giant's Bed; Frigid Sea; Ballimere Lake; e por evolução",
+			["Lake of Outrage", "Frostpoint Field", "Giant's Bed", "Frigid Sea", "Ballimere Lake", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27110,7 +27121,7 @@ const pkmnDisponiveis = [
 			"Por seu nariz, suga as emanações produzidas por pessoas e Pokémon quando se sentem incomodados. Prospera dessa energia negativa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ardiloso",
 		obtencao:
-			"Giant's Mirror; Hammerlocke Hills; Motostoke Outskirts; Stony Wilderness; Bosque Glimwood; e Slippery Slope",
+			["Giant's Mirror", "Hammerlocke Hills", "Motostoke Outskirts", "Stony Wilderness", "Bosque Glimwood", "Slippery Slope"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27139,7 +27150,7 @@ const pkmnDisponiveis = [
 			"Quando fica de quatro, como se implorasse por perdão, está tentando atrais os oponentes para conseguir esfaqueá-los com seu cabelo em forma de lança.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Malandro",
 		obtencao:
-			"Bosque Glimwood; Giant's Bed; Snowslide Slope; Giant's Foot; e por evolução",
+			["Bosque Glimwood", "Giant's Bed", "Snowslide Slope", "Giant's Foot", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27168,7 +27179,7 @@ const pkmnDisponiveis = [
 			"Seu cabelo funciona como fibras musculares. Quando se desenrolam, eles se prendem aos oponentes, enredando-os como tentáculos fariam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Maromba",
 		obtencao:
-			"Lake of Outrage; Stony Wilderness; Slippery Slope; Giant's Bed; Snowslide Slope; e por evolução",
+			["Lake of Outrage", "Stony Wilderness", "Slippery Slope", "Giant's Bed", "Snowslide Slope", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27197,7 +27208,7 @@ const pkmnDisponiveis = [
 			"Sua voz é impressionante em volume. Este Pokémon tem uma tendência a assumir uma postura ameaçadora e gritar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bloqueador",
 		obtencao:
-			"Rota 2; Lake of Outrage; Bridge Field; Giant's Bed; Ballimere Lake; e por evolução",
+			["Rota 2", "Lake of Outrage", "Bridge Field", "Giant's Bed", "Ballimere Lake", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27225,7 +27236,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O que aparenta ser um capacete de ferro é na verdade seu pelo endurecido. Este Pokémon vive pela adrenalina da batalha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Viking",
-		obtencao: "Rotas 7, e 9; Giant's Mirror; Lake of Outrage; e por evolução",
+		obtencao: ["Rotas 7, e 9", "Giant's Mirror", "Lake of Outrage", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27253,7 +27264,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tenha cuidado com o corpo ectoplasmático que cerca a alma deste Pokémon. Você ficará duro como pedra se tocá-lo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Coral",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27281,7 +27292,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Após desviar de ataques com seu escudo de folhas duras, contra-ataca com seu talo afiado de alho-poró. O talo de alho-poró é tanto arma quanto alimento.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pato Selvagem",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27309,7 +27320,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É altamente habilidoso em sapateado. Balança sua bengala de gelo em sincronia com seus movimentos graciosos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Comediante",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27337,7 +27348,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nunca toque em seu corpo sombrio, ou você verá as memórias horríveis por trás da imagem esculpida nele.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ressentimento",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27365,7 +27376,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon nasceu de partículas de cheiro doce no ar. Seu corpo é feito de chantili.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chantili",
-		obtencao: "Rota 4; Bridge Field; e Giant's Mirror",
+		obtencao: ["Rota 4", "Bridge Field", "Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27393,7 +27404,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando confia em um Treinador, este Pokémon o presenteia com frutas decoradas com creme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chantili",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27429,7 +27440,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Cinco deles são soldados e um é o chefe. As ordens do chefe são absolutas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Formação",
-		obtencao: "Rota 8; e Lake of Outrage",
+		obtencao: ["Rota 8", "Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27457,7 +27468,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se alimenta de algas marinhas, usando seus dentes para raspá-las de rochas. Corrente elétrica flui das pontas de seus espinhos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ouriço-do-mar",
-		obtencao: "Rota 9; Courageous Cavern; Loop Lagoon; e Frigid Sea",
+		obtencao: ["Rota 9", "Courageous Cavern", "Loop Lagoon", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27486,7 +27497,7 @@ const pkmnDisponiveis = [
 			"Cospe fios imbuídos de uma espécie de energia gélida e os usa para amarrar seu corpo aos galhos; disfarçando-se de pingente de gelo enquanto dorme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca",
 		obtencao:
-			"Rotas 8, e 10; Lake of Outrage; Slippery Slope; Snowslide Slope; e Path to the Peak",
+			["Rotas 8, e 10", "Lake of Outrage", "Slippery Slope", "Snowslide Slope", "Path to the Peak"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27514,7 +27525,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Escamas geladas caem de suas asas como neve enquanto voa pelos campos e montanhas. A temperatura de suas asas são menores que -180° Celsius.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mariposa de Gelo",
-		obtencao: "Trilha para o Cume; e por evolução",
+		obtencao: ["Trilha para o Cume", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27542,7 +27553,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma vez por ano, em uma data e hora específicas, se reúnem do nada e formam um círculo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rocha Grande",
-		obtencao: "Rota 10; Lake of Outrage; Giant's Bed; e Giant's Foot",
+		obtencao: ["Rota 10", "Lake of Outrage", "Giant's Bed", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27570,7 +27581,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Veio à deriva no fluxo das águas do oceano de um lugar gelado. Mantém sua cabeça gelada constantemente para garantir que ela fique agradável e fria.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinguim",
-		obtencao: "Rota 10; Lake of Outrage; e Frigid Sea",
+		obtencao: ["Rota 10", "Lake of Outrage", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -27598,7 +27609,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O gelo que cobria o rosto deste Pokémon se quebrou, revelando uma expressão levemente preocupada que encantou várias pessoas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinguim",
-		obtencao: "Rota 10; Lake of Outrage; e Frigid Sea",
+		obtencao: ["Rota 10", "Lake of Outrage", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -27626,7 +27637,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Usa os chifres em sua cabeça para sentir as emoções dos outros. Os machos agirão como valetes para aqueles a quem servem, cuidando de todas as suas necessidades.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emoção",
-		obtencao: "Bosque Glimwood; Lake of Outrage; e Ballimere Lake",
+		obtencao: ["Bosque Glimwood", "Lake of Outrage", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -27654,7 +27665,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Servem diligentemente pessoas e Pokémon para que possam reunis sentimentos de gratidão. As fêmeas são particularmente boas em cuidar de crianças.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emoção",
-		obtencao: "Bosque Glimwood; Lake of Outrage; e Ballimere Lake",
+		obtencao: ["Bosque Glimwood", "Lake of Outrage", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -27683,7 +27694,7 @@ const pkmnDisponiveis = [
 			"Ao comer as sementes armazenadas em suas bolsas semelhantes a bolsos, este Pokémon não está apenas satisfazendo sua fome constante. Também está gerando eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bilateral",
 		obtencao:
-			"Rotas 7, e 9; Lake of Outrage; Challenge Beach; e Ballimere Lake",
+			["Rotas 7, e 9", "Lake of Outrage", "Challenge Beach", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -27712,7 +27723,7 @@ const pkmnDisponiveis = [
 			"A fome intensa o leva a extremos de violência, e a eletricidade em suas bochechas se converteu em energia do tipo Noturno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bilateral",
 		obtencao:
-			"Rotas 7, e 9; Lake of Outrage; Challenge Beach; e Ballimere Lake",
+			["Rotas 7, e 9", "Lake of Outrage", "Challenge Beach", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -27740,7 +27751,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Escava o chão com sua tromba. Também é muito forte, sendo capaz de carregar cargas de mais de cinco toneladas sem problema algum.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cobrederme",
-		obtencao: "Bridge Field; e Giant's Foot",
+		obtencao: ["Bridge Field", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27769,7 +27780,7 @@ const pkmnDisponiveis = [
 			"Vieram de outra região ha muito tempo e trabalharam junto com humanos. Sua pele esverdeada é resistente a água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cobrederme",
 		obtencao:
-			"Lake of Outrage; Hammerlocke Hills; Giant's Foot; e por evolução",
+			["Lake of Outrage", "Hammerlocke Hills", "Giant's Foot", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27797,7 +27808,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Em tempos antigos, era imbatível graças à sua poderosa parte inferior do corpo, mas mesmo assim foi extinto depois de esgotar todas as suas fontes de alimento de origem vegetal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fóssil",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27825,7 +27836,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O tremor de sua metade superior congelada é o que gera sua eletricidade. Tem dificuldade para andar por aí.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fóssil",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27853,7 +27864,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Pernas e mandíbulas poderosas fizeram este Pokémon o predador de ponta de seu tempo. Sua própria caça excessiva de suas presas foi o que o levou à extinção.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fóssil",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27881,7 +27892,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de ser capaz de capturar presas congelando o ambiente ao redor, tem dificuldade de comê-las porque sua boca fica no topo da cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fóssil",
-		obtencao: "Revivido a partir de um fóssil",
+		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27909,7 +27920,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O metal especial que compõe seu corpo é muito leve, por isso este Pokémon possui agilidade considerável. Vive em cavernas por não gosta de chuva.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Liga Metálica",
-		obtencao: "Rota 10; Giant's Seat; e Lake of Outrage",
+		obtencao: ["Rota 10", "Giant's Seat", "Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27937,7 +27948,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Após renascer como um Pokémon fantasma, vaga pelas áreas que costumava habitar quando estava vivo nos mares pré-históricos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Perdurante",
-		obtencao: "Lake of Outrage",
+		obtencao: ["Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27965,7 +27976,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É capaz de voar mais rápido que 200 km/h. Batalha ao lado de Dreepy e os mima até que eles evoluam com sucesso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cuidador",
-		obtencao: "Lake of Outrage; Cemitério Antigo; e por evolução",
+		obtencao: ["Lake of Outrage", "Cemitério Antigo", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -27993,7 +28004,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparentemente, o Pokémon dentro dos chifres deste Pokémon espera ansiosamente para ser lançado em velocidades Mach.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Furtivo",
-		obtencao: "Cemitério Antigo; Three-Point Pass; e por evolução",
+		obtencao: ["Cemitério Antigo", "Three-Point Pass", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28021,7 +28032,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Conhecido como um lendário herói, este Pokémon absorve partículas de metal, transformando-as em uma arma que usa para batalhar.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guerreiro",
-		obtencao: "Tower Summit",
+		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28049,7 +28060,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Agora armado com uma arma que usava em tempos antigos, este Pokémon precisa de um único golpe para derrubar até mesmo Pokémon Gigamax.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guerreiro",
-		obtencao: "Tower Summit e segurando o item Espada Enferrujada",
+		obtencao: ["Tower Summit e segurando o item Espada Enferrujada"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28077,7 +28088,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon dormiu por eras enquanto estava na forma de uma estátua. Dormiu por tanto tempo que as pessoas esqueceram que existiu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guerreiro",
-		obtencao: "Tower Summit",
+		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28105,7 +28116,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Agora que está equipado com seu escudo, consegue resistir a golpes impressionantes, incluindo os ataques de Pokémon Dinamax.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guerreiro",
-		obtencao: "Tower Summit e segurando o item Escudo Enferrujado",
+		obtencao: ["Tower Summit e segurando o item Escudo Enferrujado"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28133,7 +28144,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Estava dentro de um meteorito que caiu há 20'000 anos. Parece haver uma conexão entre este Pokémon e o fenômeno Dinamax.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gigantesco",
-		obtencao: "Tower Summit",
+		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28161,7 +28172,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon treina duro para aperfeiçoar seus movimentos. Os movimentos que domina determinarão qual forma tomará quando evoluir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Wushu",
-		obtencao: "Recebido em Master Dojo",
+		obtencao: ["Recebido em Master Dojo"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28189,7 +28200,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta forma deste Pokémon acredita fortemente no nocaute de um golpe. Sua estratégia é salta para perto dos inimigos e desferir um golpe devastador com um punho endurecido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Wushu",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28217,7 +28228,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta forma deste Pokémon acredita fortemente em derrotar inimigos desferindo muitos golpes sobre eles. Seus golpes são ininterruptos, fluidos como um rio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Wushu",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28245,7 +28256,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dentro de florestas densas, este Pokémon vive em grupos com outros de sua espécie. É incrivelmente agressivo, e os outros Pokémon da floresta o teme.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Malandro",
-		obtencao: "Por evento",
+		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28273,7 +28284,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo inteiro é feito de um único órgão que gera energia elétrica. Este Pokémon é capaz de criar toda a eletricidade da região.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Elétron",
-		obtencao: "Ruínas das Escolhas",
+		obtencao: ["Ruínas das Escolhas"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28301,7 +28312,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo é composto de energia de dragão cristalizada. Dizem que este Pokémon tem os poderes de todos os Pokémon dragão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Esfera de Dragão",
-		obtencao: "Ruínas das Escolhas",
+		obtencao: ["Ruínas das Escolhas"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28329,7 +28340,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Emite frio intenso de seus cascos. Também é um Pokémon beligerante, pega à força tudo o que quer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo Selvagem",
-		obtencao: "Crown Shrine",
+		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28357,7 +28368,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enquanto corre pela noite, este Pokémon absorve a força vital de criaturas adormecidas. Anseia por silêncio e solidão.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cavalo Ligeiro",
-		obtencao: "Crown Shrine",
+		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28385,7 +28396,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon conhecido nas lendas como um rei que reinou a região em tempos antigos. Possui o poder de fazer com que corações se curem e plantas brotem.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rei",
-		obtencao: "Crown Shrine",
+		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28413,7 +28424,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que este Pokémon uma vez moveu uma grande floresta, e todos os Pokémon vivendo lá, para um novo local da noite para o dia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rei Supremo",
-		obtencao: "Crown Shrine",
+		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28441,7 +28452,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Lendas contam que ao usar seu poder para ver todos os eventos do passado e do futuro, este Pokémon salvou as criaturas de uma floresta da queda de um meteorito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rei Supremo",
-		obtencao: "Crown Shrine",
+		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28469,7 +28480,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As esferas negras brilham com uma luz misteriosa quando o Pokémon está erguendo barreias invisíveis. O pelo que cai de sua barba retém bem o calor e é um material altamente útil pra roupas de inverno.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chifrudo",
-		obtencao: "Obsidian Fieldlands; e por evolução",
+		obtencao: ["Obsidian Fieldlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28497,7 +28508,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma criatura violenta que derruba árvores altas com seus machados brutos e se protege com pedras duras. Caso alguém encontre esse Pokémon na natureza, seu único recurso é fugir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Machado",
-		obtencao: "Obsidian Fieldlands; e por evolução",
+		obtencao: ["Obsidian Fieldlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28525,7 +28536,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Turfa",
-		obtencao: "Crimson Mirelands; e por evolução",
+		obtencao: ["Crimson Mirelands", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28553,7 +28564,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Turfa",
-		obtencao: "Crimson Mirelands; e por evolução",
+		obtencao: ["Crimson Mirelands", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28581,7 +28592,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Veste-se com as almas de camaradas que pereceram antes de cumprir seus objetivos de jornada rio acima. Nenhuma outra espécie em todos os rios da região é igual a este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Grande",
-		obtencao: "Cobalt Coastlands; e por evolução",
+		obtencao: ["Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28609,7 +28620,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Veste-se com as almas de camaradas que pereceram antes de cumprir seus objetivos de jornada rio acima. Nenhuma outra espécie em todos os rios da região é igual a este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Grande",
-		obtencao: "Cobalt Coastlands; e por evolução",
+		obtencao: ["Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28637,7 +28648,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por causa de seu veneno virulento e de sua assustadora destreza física, nenhuma outra espécie poderia esperar superá-lo nas terras altas congeladas. Preferindo a solidão, esta espécia não forma matilhas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Escalada",
-		obtencao: "Coronet Highlands; e por evolução",
+		obtencao: ["Coronet Highlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28665,7 +28676,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seus espinhos lanceolados a lança e temperamento selvagem lhe renderam o apelido 'demônio do mar'. Sorve veneno para se nutrir.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espinhoso",
-		obtencao: "Crimson Mirelands; Cobalt Coastlands; e por evolução",
+		obtencao: ["Crimson Mirelands", "Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28693,7 +28704,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando voa para esta terra do outro lado do mar, o inverno amargo chega ao fim. De acordo com a lenda, o amor deste Pokémon dá origem ao surgimento de uma vida nesta região.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Amor e Ódio",
-		obtencao: "Crimson Mirelands",
+		obtencao: ["Crimson Mirelands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28721,7 +28732,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma aparência diferente de sua forma humanoide feminina. Das nuvens, desce sobre aqueles que tratam qualquer forma de vida com desrespeito e distribui punição irada e implacável.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Amor e Ódio",
-		obtencao: "Crimson Mirelands e usar o item Espelho Revelador",
+		obtencao: ["Crimson Mirelands e usar o item Espelho Revelador"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
@@ -28749,7 +28760,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu pelo fofo é semelhante em composição às plantas. Este Pokémon frequentemente lava seu rosto para evitar que resseque.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato-do-mato",
-		obtencao: "Cabo Poco",
+		obtencao: ["Cabo Poco"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28777,7 +28788,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A dureza de seu pelo depende de seu humor. Quando este Pokémon está preparado para batalhar, seu pelo se torna pontiagudo e tão afiado quanto uma agulha.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato-do-mato",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28805,7 +28816,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon usa seu pelo reflexivo em sua capa para camuflar o caule de sua flor, criando a ilusão de que a flor está flutuando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ilusionista",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28833,7 +28844,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Fica sobre rochas quentes e usa o calor absorvido por suas escamas quadradas para criar energia de fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Crocodilo de Fogo",
-		obtencao: "Cabo Poco",
+		obtencao: ["Cabo Poco"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28861,7 +28872,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A combinação de energia de fogo e vitalidade transbordante deste Pokémon fez com que uma bola de fogo em forma de ovo aparecesse em sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Crocodilo de Fogo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28889,7 +28900,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O pássaro de fogo muda de forma quando este Pokémon canta. Há rumores de que o pássaro nasceu quando a bola de fogo em sua cabeça ganhou uma alma.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cantor",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28917,7 +28928,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas pernas fortes permitem que nade até mesmo em rios de fluxo rápido. Este Pokémon gosta de manter as coisas organizadas e é propenso a pensar demais nas coisas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Patinho",
-		obtencao: "Cabo Poco",
+		obtencao: ["Cabo Poco"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28945,7 +28956,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon trabalhador observa pessoas e Pokémon de várias regiões e incorpora seus movimentos em suas próprias rotinas de dança.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ensaio",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -28973,7 +28984,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dançando de maneiras que evocam lugares distantes, este Pokémon hipnotiza todos que o veem. Flores de suas penas aquáticas decorativas cortam seus inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dançarino",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29002,7 +29013,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon despreza tudo, exceto os melhores alimentos. Seu corpo exala um cheiro de erva que os Pokémon insetos detestam.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leitão",
 		obtencao:
-			"South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Poco Path, e Pokémon League; e East Province: Área Um, e Área Dois",
+			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Poco Path, e Pokémon League", "East Province: Área Um, e Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29031,7 +29042,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon emite um aroma de flor flutuando por aí. Músculos bem desenvolvidos em suas pernas permitem que ele salte mais de 16 pés sem problemas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leitão",
 		obtencao:
-			"South Province: Área Três, e Área Cinco; East Province: Área Um, Área Dois, e Tagtree Thicket; West Province: Área Dois, e Área Três; e por evolução",
+			["South Province: Área Três, e Área Cinco", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -29060,7 +29071,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon é orgulhoso de sua pele fina e brilhante. Emite um perfume concentrado da ponta de sua cauda.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leitão",
 		obtencao:
-			"South Province: Área Três, e Área Cinco; East Province: Área Um, Área Dois, e Tagtree Thicket; West Province: Área Dois, e Área Três; e por evolução",
+			["South Province: Área Três, e Área Cinco", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -29089,7 +29100,7 @@ const pkmnDisponiveis = [
 			"O fio que secreta de sua parte traseira é tão forte quanto arame. O segredo por trás da força do fio é o tópico de pesquisa em andamento.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Novelo",
 		obtencao:
-			"South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Cabo Poco, Poco Path, e Pokémon League; e North Province: Socarrat Trail",
+			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Cabo Poco, Poco Path, e Pokémon League", "North Province: Socarrat Trail"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29118,7 +29129,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon se agarra a galhos e tetos usando seus fios e se move sem fazer barulho. Tira sua presa antes que ela perceba.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Armadilha",
 		obtencao:
-			"East Province: Área Um, Área Dois, e Tagtree Thicket; West Province: Área Três; North Province: Área Dois, e Socarrat Trail; e por evolução",
+			["East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Três", "North Province: Área Dois, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29147,7 +29158,7 @@ const pkmnDisponiveis = [
 			"Tem seu terceiro conjunto de pernas dobradas. Quando está em uma posição difícil, este Pokémon pula mais de 10 metros usando a força de suas pernas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gafanhoto",
 		obtencao:
-			"South Province: Área Dois, Área Três, e Área Seis; e West Province: Área Um",
+			["South Province: Área Dois, Área Três, e Área Seis", "West Province: Área Um"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29176,7 +29187,7 @@ const pkmnDisponiveis = [
 			"Quando decide lutar com tudo, fica de pé sobre suas pernas previamente dobradas para entrar no Modo Showdown. Neutraliza seus inimigos em pouco tempo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gafanhoto",
 		obtencao:
-			"South Province: Área Três, Área Quatro, Área Cinco, Área Seis, Alfornada Cavern, e Pokémon League; East Province: Área Um, Área Um, Área Dois, e Área Três; West Province: Área Dois, Área Três, e Asado Desert; North Province: Área Um, Área Dois, Área Três, Casseroya Lake, Dalizapa Passage, e Montanha Glaseado; Área Zero; e por evolução",
+			["South Province: Área Três, Área Quatro, Área Cinco, Área Seis, Alfornada Cavern, e Pokémon League", "East Province: Área Um, Área Um, Área Dois, e Área Três", "West Province: Área Dois, Área Três, e Asado Desert", "North Province: Área Um, Área Dois, Área Três, Casseroya Lake, Dalizapa Passage, e Montanha Glaseado", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29205,7 +29216,7 @@ const pkmnDisponiveis = [
 			"Possui sacos elétricos subdesenvolvidos em suas bochechas. Esses sacos podem produzir eletricidade somente se este Pokémon esfrega-los furiosamente com as almofadas em seus antebraços.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao:
-			"South Province: Área Um, Área Dois, Área Três, Área Cinco, e Poco Path; West Province: Área Um; e Área Zero",
+			["South Province: Área Um, Área Dois, Área Três, Área Cinco, e Poco Path", "West Province: Área Um", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29234,7 +29245,7 @@ const pkmnDisponiveis = [
 			"Quando seu grupo é atacado, este Pokémon é o primeiro a entrar na batalha, derrotando inimigos com uma técnica de luta que utiliza choques elétricos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato",
 		obtencao:
-			"South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Área Seis, e Pokémon League; East Province: Área Um, Área Dois, e Área Três; West Province: Área Um, Área Dois, Área Três, e Asado Desert; North Province: Área Um, Área Três, e Montanha Glaseado; Área Zero; e por evolução",
+			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Área Seis, e Pokémon League", "East Province: Área Um, Área Dois, e Área Três", "West Province: Área Um, Área Dois, Área Três, e Asado Desert", "North Province: Área Um, Área Três, e Montanha Glaseado", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29262,7 +29273,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é normalmente lento para reagir, mas uma vez que entra na batalha, ataca seus inimigos com movimentos rápidos como um relâmpago.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mão na Massa",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29291,7 +29302,7 @@ const pkmnDisponiveis = [
 			"Exibindo ótimo trabalho em equipe, usam seus incisivos para cortar pedaços de qualquer material que possa ser útil para um ninho, depois os levam embora.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Casal",
 		obtencao:
-			"South Province: Pokémon League; East Province: Área Um, Área Dois, e Área Três; West Province: Área Dois, e Área Três; Kitakami Road; Apple Hills; Reveler's Road; Oni Mountain; Oni's Maw; Wistful Fields; Paradise Barrens; e Kitakami Wilds",
+			["South Province: Pokémon League", "East Province: Área Um, Área Dois, e Área Três", "West Province: Área Dois, e Área Três", "Kitakami Road", "Apple Hills", "Reveler's Road", "Oni Mountain", "Oni's Maw", "Wistful Fields", "Paradise Barrens", "Kitakami Wilds"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29319,7 +29330,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os dois pequenos simplesmente apareceram um dia. O grupo pode ser uma família de Pokémon com parentesco, mas ninguém sabe ao certo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Família",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -29347,7 +29358,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O pequeno simplesmente apareceu um dia. Todos vivem juntos como uma família, mas a relação entre os três ainda é incerta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Família",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -29376,7 +29387,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon é suave e úmido ao toque. O fermento no hálito deste Pokémon induz fermentação nas proximidades do Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Filhote",
 		obtencao:
-			"South Province: Área Um, Área Dois, Área Três, Área Seis, e Pokémon League; East Province: Área Três; e West Province: Área Três",
+			["South Province: Área Um, Área Dois, Área Três, Área Seis, e Pokémon League", "East Province: Área Três", "West Province: Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29405,7 +29416,7 @@ const pkmnDisponiveis = [
 			"O aroma agradável que emana do corpo deste Pokémon auxilia o trigo a crescer, por isso este Pokémon tem sido valorizado pelas aldeias agrícolas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cão",
 		obtencao:
-			"South Province: Área Seis; East Province: Área Três; West Province: Área Três; e por evolução",
+			["South Province: Área Seis", "East Province: Área Três", "West Province: Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29433,7 +29444,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Protege a si mesmo de inimigos emitindo óleo da fruta em sua cabeça. Este óleo é amargo e adstringente o suficiente para fazer alguém estremecer.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Azeitona",
-		obtencao: "South Province: Área Dois",
+		obtencao: ["South Province: Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29462,7 +29473,7 @@ const pkmnDisponiveis = [
 			"Compartilha seu óleo saboroso e fresco com outros. Esta espécie coexiste com humanos desde tempos idos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Azeitona",
 		obtencao:
-			"East Province: East Paldean Sea, e Tagtree Thicket; North Province: Área Três; e por evolução",
+			["East Province: East Paldean Sea, e Tagtree Thicket", "North Province: Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29490,7 +29501,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon calmo é muito compassivo. Compartilhará seu óleo delicioso e rico em nutrientes com Pokémon enfraquecidos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Azeitona",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29519,7 +29530,7 @@ const pkmnDisponiveis = [
 			"Estes Pokémon preferem viver em cidades. Formam grupos baseados na coloração de suas penas, e lutam por território.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Papagaio",
 		obtencao:
-			"South Province: Cabo Poco; East Province: Área Um, Área Dois, e Área Três; e West Province: Áre Um",
+			["South Province: Cabo Poco", "East Province: Área Um, Área Dois, e Área Três", "West Province: Áre Um"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29551,7 +29562,7 @@ const pkmnDisponiveis = [
 			"Nasceu em uma camada de sal-gema bem abaixo da terra. Esta espécie era particularmente estimada antigamente, pois compartilhavam sal precioso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sal Grosso",
 		obtencao:
-			"South Province: Área Dois, Área Três, Área Quatro, Área Cinco, Área Seis, e Pokémon League; East Province: Área Um, Área Dois, Área Três, e East Paldean Sea; West Province: Área Um, Área Dois, Área Três, e Asado Desert; North Province: Área Um, Área Dois, Área Três, Casseroya Lake, e Montanha Glaseado; e Área Zero",
+			["South Province: Área Dois, Área Três, Área Quatro, Área Cinco, Área Seis, e Pokémon League", "East Province: Área Um, Área Dois, Área Três, e East Paldean Sea", "West Province: Área Um, Área Dois, Área Três, e Asado Desert", "North Province: Área Um, Área Dois, Área Três, Casseroya Lake, e Montanha Glaseado", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29580,7 +29591,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon cura a seco suas presas borrifando sal sobre elas. O processo de cura rouba a água do corpo da presa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sal Grosso",
 		obtencao:
-			"South Province: Área Seis; West Province: Área Dois, e Área Três; North Province: Área Um, Área Dois, Área Três, Casseroya Lake, e Montanha Glaseado; Área Zero; e por evolução",
+			["South Province: Área Seis", "West Province: Área Dois, e Área Três", "North Province: Área Um, Área Dois, Área Três, Casseroya Lake, e Montanha Glaseado", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29608,7 +29619,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon esfregará as pontas dos dedos e polvilhará Pokémon feridos com sal. Mesmo ferimentos graves se curarão prontamente depois.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sal Grosso",
-		obtencao: "Área Zero; e por evolução",
+		obtencao: ["Área Zero", "Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29637,7 +29648,7 @@ const pkmnDisponiveis = [
 			"Um carvão queimado que veio a vida e se tornou um Pokémon. Possuindo um espírito de luta feroz, este Pokémon enfrentará até mesmo oponentes difíceis.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Criança de Fogo",
 		obtencao:
-			"South Province: Área Três, Área Quatro, e Área Cinco; East Province: Área Um, Área Dois, Área Três, e Tagtree Thicket; e West Province: Área Um, Área Dois, Área Três, e Asado Desert",
+			["South Province: Área Três, Área Quatro, e Área Cinco", "East Province: Área Um, Área Dois, Área Três, e Tagtree Thicket", "West Province: Área Um, Área Dois, Área Três, e Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29665,7 +29676,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se reveste de uma armadura fortificada por energia psíquica e de fogo e dispara bolas de fogo ardentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Guerreiro de Fogo",
-		obtencao: "South Province: Área Dois; Union Circle; e por evolução",
+		obtencao: ["South Province: Área Dois", "Union Circle", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29693,7 +29704,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As lâminas de fogo em seus braços queimam ferozmente com o ressentimento persistente de um portador de espada que caiu antes de atingir seu objetivo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâminas de Fogo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29722,7 +29733,7 @@ const pkmnDisponiveis = [
 			"Balança sua cauda para gerar eletricidade. Caso sinta perigo, fará sua cabeça piscar para alertar seus aliados.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Girino Elétrico",
 		obtencao:
-			"South Province: Área Um, Área Dois, Área Três, Área Quatro, e Área Cinco; East Province: Área Um, Área Dois, e Área Três; West Province: Área Dois; e North Province: Montanha Glaseado",
+			["South Province: Área Um, Área Dois, Área Três, Área Quatro, e Área Cinco", "East Province: Área Um, Área Dois, e Área Três", "West Province: Área Dois", "North Province: Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29751,7 +29762,7 @@ const pkmnDisponiveis = [
 			"Quando este Pokémon expande e contrai seu corpo instável, o dínamo do umbigo em seu estômago produz uma enorme quantidade de eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sapo Elétrico",
 		obtencao:
-			"South Province: Área Quatro, e Área Seis; East Province: Área Três, e Tagtree Thicket; West Province: Área Dois, e Área Três; North Province: Área Três, Montanha Glaseado, e Casseroya Lake; e por evolução",
+			["South Province: Área Quatro, e Área Seis", "East Province: Área Três, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "North Province: Área Três, Montanha Glaseado, e Casseroya Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29780,7 +29791,7 @@ const pkmnDisponiveis = [
 			"Estes Pokémon fazem seus ninhos em penhascos costeiros. Os ninhos têm uma textura estranha e crepitante, e são uma iguaria popular.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Petrel Tempestade",
 		obtencao:
-			"South Province: South Paldean Sea; East Province: Área Dois, e East Paldean Sea; e West Province: Área Um, e West Paldean Sea",
+			["South Province: South Paldean Sea", "East Province: Área Dois, e East Paldean Sea", "West Province: Área Um, e West Paldean Sea"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29809,7 +29820,7 @@ const pkmnDisponiveis = [
 			"Usa sua bolsa na garganta para armazenar eletricidade gerada por suas asas. Quase não há óleo em suas penas, por isso é um péssimo nadador.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fragatarinho",
 		obtencao:
-			"South Province: Área Um, Área Quatro, Área Cinco, Área Seis, e South Paldean Sea; East Province: Área Um, Área Dois, Área Três, e East Paldean Sea; West Province: Área Um, Área Dois, e West Paldean Sea; North Province: Área Um, Área Três, North Paldean Sea, e Casseroya Lake; e por evolução",
+			["South Province: Área Um, Área Quatro, Área Cinco, Área Seis, e South Paldean Sea", "East Province: Área Um, Área Dois, Área Três, e East Paldean Sea", "West Province: Área Um, Área Dois, e West Paldean Sea", "North Province: Área Um, Área Três, North Paldean Sea, e Casseroya Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29838,7 +29849,7 @@ const pkmnDisponiveis = [
 			"Suas mandíbula e presas bem desenvolvidas são fortes o suficiente para triturar qualquer rocha, e sua gordura espessa o torna uma excelente defesa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Traiçoeiro",
 		obtencao:
-			"South Province: Área Um, Área Dois, e Área Quatro; e West Province: Área Dois, e Área Três",
+			["South Province: Área Um, Área Dois, e Área Quatro", "West Province: Área Dois, e Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29867,7 +29878,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon gosta de brincar com crianças. Apesar de geralmente ser gentil, tem uma aparência intimidadora quando está protegendo sua família.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chefe",
 		obtencao:
-			"West Province: Área Três; North Province: Área Dois, Casseroya Lake, e Socarrat Trail; e por evolução",
+			["West Province: Área Três", "North Province: Área Dois, Casseroya Lake, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29896,7 +29907,7 @@ const pkmnDisponiveis = [
 			"Para manter inimigos longe de seu território, pinta marcações em volta de seu ninho usando um líquido venenoso que tem um odor acre.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rato Tóxico",
 		obtencao:
-			"South Province: Área Um, e Área Dois; East Province: Área Um, Área Dois, e Tagtree Thicket; e West Province: Área Três",
+			["South Province: Área Um, e Área Dois", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29925,7 +29936,7 @@ const pkmnDisponiveis = [
 			"Cada indivíduo desta espécie pinta seu próprio padrão individual, e pintará o mesmo padrão repetidamente ao longo de sua vida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Tóxico",
 		obtencao:
-			"East Province: Tagtree Thicket; North Province: Área Dois, e Casseroya Lake; East Province: Tagtree Thicket; e por evolução",
+			["East Province: Tagtree Thicket", "North Province: Área Dois, e Casseroya Lake", "East Province: Tagtree Thicket", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29953,7 +29964,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma alma incapaz de seguir para o pós-vida foi levada pelo vento até se enroscar na grama seca e se tornar um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola de Feno",
-		obtencao: "East Province: Área Três; e West Province: Asado Desert",
+		obtencao: ["East Province: Área Três", "West Province: Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -29981,7 +29992,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon vaga por regiões áridas. Em raras ocasiões, surtos em massa desses Pokémon enterrarão uma cidade inteira.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bola de Feno",
-		obtencao: "North Province: Área Um, e Socarrat Trail; e por evolução",
+		obtencao: ["North Province: Área Um, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30010,7 +30021,7 @@ const pkmnDisponiveis = [
 			"Vive em florestas úmidas. As abas que caem de seu corpo são mastigáveis e muito deliciosas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Orelha-de-madeira",
 		obtencao:
-			"South Province: Área Um, Área Três, Área Quatro, e Área Cinco; East Province: Área Um, Área Dois, e Tagtree Thicket; West Province: Área Dois, e Área Três; North Province: Socarrat Trail; Reveler's Road; Kitakami Hall; Mossfell Confluence; Fellhorn Gorge; Oni Mountain; Kitakami Wilds; e Timeless Woods",
+			["South Province: Área Um, Área Três, Área Quatro, e Área Cinco", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "North Province: Socarrat Trail", "Reveler's Road", "Kitakami Hall", "Mossfell Confluence", "Fellhorn Gorge", "Oni Mountain", "Kitakami Wilds", "Timeless Woods"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30039,7 +30050,7 @@ const pkmnDisponiveis = [
 			"Enrola seus dez tentáculos em volta da presa e suga seus nutrientes, causando dor à presa. As dobras ao longo da borda de sua cabeça são uma iguaria popular.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Orelha-de-madeira",
 		obtencao:
-			"North Province: Socarrat Trail; Kitakami Wilds; Timeless Woods; e por evolução",
+			["North Province: Socarrat Trail", "Kitakami Wilds", "Timeless Woods", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30067,7 +30078,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em penhascos íngremes. Desvia dos ataques dos oponentes e então ataca seus pontos fracos com suas garras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Emboscada",
-		obtencao: "South Province: Área Três",
+		obtencao: ["South Province: Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30096,7 +30107,7 @@ const pkmnDisponiveis = [
 			"Pratos tradicionais da região podem ser extremamente picantes por usarem os dentes da frente deste Pokémon entre seus ingredientes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pimenta Ardida",
 		obtencao:
-			"South Province: Área Dois; e West Province: Área Um, e Asado Desert",
+			["South Province: Área Dois", "West Province: Área Um, e Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30125,7 +30136,7 @@ const pkmnDisponiveis = [
 			"A cabeça vermelha converte produtos químicos apimentados em energia de fogo e explode a área ao redor com um jato de chamas superpicantes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pimenta Ardida",
 		obtencao:
-			"South Province: Área Seis; North Province: Área Um, Área Três, e Dalizapa Passage; e por evolução",
+			["South Province: Área Seis", "North Province: Área Um, Área Três, e Dalizapa Passage", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30153,7 +30164,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon cria uma bola de lama misturando area e terra com energia psíquica. Valoriza sua bola de lama mais do que sua própria vida.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rolante",
-		obtencao: "West Province: Asado Desert; e Savanna Biome",
+		obtencao: ["West Province: Asado Desert", "Savanna Biome"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30181,7 +30192,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Uma criança dorme dentro da bola. Este Pokémon rola a bola suavemente com suas pernas para garantir que a criança durma confortavelmente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rolante",
-		obtencao: "Savanna Biome; e por evolução",
+		obtencao: ["Savanna Biome", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30210,7 +30221,7 @@ const pkmnDisponiveis = [
 			"Os dedos de suas patas levitam cerca de um centímetro acima do chão por causa do poder psíquico emitido pelos babados na barriga do Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Babado",
 		obtencao:
-			"South Province: Área Um, Área Quatro, Área Cinco, e Área Seis; East Province: Área Dois; West Province: Área Um, e Asado Desert; e North Province: Área Um, e Dalizapa Passage",
+			["South Province: Área Um, Área Quatro, Área Cinco, e Área Seis", "East Province: Área Dois", "West Province: Área Um, e Asado Desert", "North Province: Área Um, e Dalizapa Passage"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30239,7 +30250,7 @@ const pkmnDisponiveis = [
 			"Imobiliza oponentes banhando-os em poder psíquico de seus grandes olhos. Apesar de sua aparência, possui um temperamento cruel.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Avestruz",
 		obtencao:
-			"South Province: Área Seis; West Province: Asado Desert; North Province: Área Um, e Dalizapa Passage; Área Zero; e por evolução",
+			["South Province: Área Seis", "West Province: Asado Desert", "North Province: Área Um, e Dalizapa Passage", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30268,7 +30279,7 @@ const pkmnDisponiveis = [
 			"Balança sua marreta artesanal para si proteger, mas a marreta é geralmente roubada por Pokémon que comem metal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Metalurgia",
 		obtencao:
-			"South Province: Área Dois, e Área Três; East Province: Área Dois; e West Province: Área Um, e Asado Desert",
+			["South Province: Área Dois, e Área Três", "East Province: Área Dois", "West Province: Área Um, e Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30297,7 +30308,7 @@ const pkmnDisponiveis = [
 			"Esses Pokémon fazem seus lares em pilhas de sucata. Testam a força das marretas uns dos outros esmagando-os juntos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Martelo",
 		obtencao:
-			"South Province: Área Seis; East Province: Área Dois; West Province: Área Dois, e Asado Desert; North Province: Área Um, Área Três, Dalizapa Passage, e Casseroya Lake; e por evolução",
+			["South Province: Área Seis", "East Province: Área Dois", "West Province: Área Dois, e Asado Desert", "North Province: Área Um, Área Três, Dalizapa Passage, e Casseroya Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30325,7 +30336,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A marreta pesa mais de 100 kg, mas é facilmente manipulada por este Pokémon, que rouba o que quer e leva o que quer e leva para casa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Martelo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30354,7 +30365,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon consegue sentir o cheiro de uma Veluza a mais de 20 metros de distância e se esconderá na areia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Enguia de Jardim",
 		obtencao:
-			"South Province: Área Um, e Área Cinco; East Province: Área Dois; West Province: Área Um, e Área Dois; e North Province: Área Um",
+			["South Province: Área Um, e Área Cinco", "East Province: Área Dois", "West Province: Área Um, e Área Dois", "North Province: Área Um"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30383,7 +30394,7 @@ const pkmnDisponiveis = [
 			"Possui um temperamento cruel, ao contrário do que sua aparência pode sugerir. Envolve seus longos corpos em volta da presa e então a arrasta para sua toca.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Enguia de Jardim",
 		obtencao:
-			"West Province: Área Dois; North Province: Área Um, e Área Três; e por evolução",
+			["West Province: Área Dois", "North Province: Área Um, e Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30412,7 +30423,7 @@ const pkmnDisponiveis = [
 			"Usa o avental em seu peito para embrulhar comida, que carrega de volta para seu ninho. Gosta de derrubar coisas que fazem barulhos altos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Derruba-item",
 		obtencao:
-			"South Province: Área Seis; West Province: Área Um, Área Três, e West Paldean Sea; Fellhorn Gorge; Oni Mountain; Wistful Fields; Paradise Barrens; Kitakami Wilds; e Timeless Woods",
+			["South Province: Área Seis", "West Province: Área Um, Área Três, e West Paldean Sea", "Fellhorn Gorge", "Oni Mountain", "Wistful Fields", "Paradise Barrens", "Kitakami Wilds", "Timeless Woods"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30441,7 +30452,7 @@ const pkmnDisponiveis = [
 			"Gosta de brincar com outros de sua espécie suando os anéis de água em sua cauda. Usa ondas ultrassônicas para sentir as emoções de outros seres-vivos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Golfinho",
 		obtencao:
-			"South Province: South Paldean Sea; East Province: East Paldean Sea; West Province: Área Dois, e West Paldean Sea; e North Province: North Paldean Sea",
+			["South Province: South Paldean Sea", "East Province: East Paldean Sea", "West Province: Área Dois, e West Paldean Sea", "North Province: North Paldean Sea"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30469,7 +30480,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon muda sua aparência caso ouça seus aliados pedindo por ajuda. Nunca mostrará a alguém seu momento de transformação.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Golfinho",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -30497,7 +30508,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os genes ancestrais deste Pokémon despertaram. Agora é tão extraordinariamente forte que pode facilmente levantar um navio de cruzeiro com uma barbatana.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Herói",
-		obtencao: "Por evolução e estar fora de batalha",
+		obtencao: ["Por evolução e estar fora de batalha"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -30525,7 +30536,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que este Pokémon nasceu quando um Pokémon veneno desconhecido entrou e inspirou um motor deixado em uma fábrica de processamento de sucata.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cilindrúnico",
-		obtencao: "East Province: Área Três; e West Province: Área Dois",
+		obtencao: ["East Province: Área Três", "West Province: Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30554,7 +30565,7 @@ const pkmnDisponiveis = [
 			"Ameaça cruelmente os outros com o som de seu escapamento. Coloca sua língua para fora de sua boca cilíndrica e borrifa fluidos tóxicos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cilindrúltiplo",
 		obtencao:
-			"East Province: Área Três; North Province: Área Um, Área Dois, e Dalizapa Passage; e por evolução",
+			["East Province: Área Três", "North Province: Área Um, Área Dois, e Dalizapa Passage", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30583,7 +30594,7 @@ const pkmnDisponiveis = [
 			"Aparentemente, tem permitido que as pessoas andem em suas costas desde os tempos antigos. Representações disso foram encontradas em murais de 10'000 anos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Monte",
 		obtencao:
-			"East Province: Área Um, e Área Dois; e West Province: Área Um, Área Dois, e Área Três",
+			["East Province: Área Um, e Área Dois", "West Province: Área Um, Área Dois, e Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30611,7 +30622,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon vive em desertos áridos. Mantém seu corpo metálico consumindo ferro do solo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minhoca Terrestre",
-		obtencao: "East Province: Área Três; West Province: Asado Desert; Apple Hills; Reveler's Road; Oni Mountain; Oni's Maw; Wistful Fields; Paradise Barrens; e Kitakami Wilds",
+		obtencao: ["East Province: Área Três", "West Province: Asado Desert", "Apple Hills", "Reveler's Road", "Oni Mountain", "Oni's Maw", "Wistful Fields", "Paradise Barrens", "Kitakami Wilds"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30640,7 +30651,7 @@ const pkmnDisponiveis = [
 			"Absorve nutrientes de paredes das cavernas. As pétalas que usa são feitas de veneno cristalizado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minério",
 		obtencao:
-			"South Province: Alfornada Cavern; East Province: Área Três; West Province: Área Dois; North Province: Área Um, Área Dois, e Montanha Glaseado; Área Zero; Oni Mountain; Infernal Pass; e Crystal Pool",
+			["South Province: Alfornada Cavern", "East Province: Área Três", "West Province: Área Dois", "North Province: Área Um, Área Dois, e Montanha Glaseado", "Área Zero", "Oni Mountain", "Infernal Pass", "Crystal Pool"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30668,7 +30679,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando este Pokémon detecta perigo, abre suas pétalas cristalinas e dispara raios de seu corpo cônico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Minério",
-		obtencao: "Área Zero; Oni Mountain; Crystal Pool; Abismo da Área Zero; e por evolução",
+		obtencao: ["Área Zero", "Oni Mountain", "Crystal Pool", "Abismo da Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30697,7 +30708,7 @@ const pkmnDisponiveis = [
 			"Dizem que um Pokémon cão que morreu na natureza sem nunca interagir com um humano renasceu como este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cão Fantasma",
 		obtencao:
-			"West Province: Área Três; e North Province: Dalizapa Passage, e Montanha Glaseado",
+			["West Province: Área Três", "North Province: Dalizapa Passage, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30726,7 +30737,7 @@ const pkmnDisponiveis = [
 			"Um Pokémon lamentado amorosamente renasceu como este Pokémon. Não gosta que ninguém toque na protuberância em cima de sua cabeça.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Cão Fantasma",
 		obtencao:
-			"North Province: Área Um, Dalizapa Passage, Montanha Glaseado, Casseroya Lake, e Socarrat Trail; e por evolução",
+			["North Province: Área Um, Dalizapa Passage, Montanha Glaseado, Casseroya Lake, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30755,7 +30766,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon aparentemente dá um nó na base do pescoço para que a energia armazenada em sua barriga não escape pelo bico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Sincronizar",
 		obtencao:
-			"South Province: Área Um, Área Quatro, e Área Cinco; East Province: Área Dois, e Área Três; West Province: Área Dois, e Área Três; North Province: Área Um, Casseroya Lake, e Montanha Glaseado; e Área Zero",
+			["South Province: Área Um, Área Quatro, e Área Cinco", "East Province: Área Dois, e Área Três", "West Province: Área Dois, e Área Três", "North Province: Área Um, Casseroya Lake, e Montanha Glaseado", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30784,7 +30795,7 @@ const pkmnDisponiveis = [
 			"Vive em regiões geladas em grupos de cinco ou mais indivíduos. Adora os minerais encontrados na neve e no gelo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baleia Terrestre",
 		obtencao:
-			"West Province: Área Três; e North Province: Dalizapa Passage, e Montanha Glaseado",
+			["West Province: Área Três", "North Province: Dalizapa Passage, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30812,7 +30823,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon vagueia por áreas nevadas e geladas. Protege seu corpo com músculos poderosos e uma espessa camada de gordura sob sua pele.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baleia Terrestre",
-		obtencao: "North Province: Montanha Glaseado; e por evolução",
+		obtencao: ["North Province: Montanha Glaseado", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30841,7 +30852,7 @@ const pkmnDisponiveis = [
 			"Quando este Pokémon descarta carne desnecessária, sua mente se torna afiada e seu poder psíquico aumenta. A carne sobrante tem um sabor suave, mais delicioso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Descarte",
 		obtencao:
-			"East Province: Área Um; West Province: West Paldean Sea; e North Province: North Paldean Sea, Casseroya Lake, e Socarrat Trail",
+			["East Province: Área Um", "West Province: West Paldean Sea", "North Province: North Paldean Sea, Casseroya Lake, e Socarrat Trail"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30869,7 +30880,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é um glutão, mas é ruim em conseguir comida. Ele se junta a outra espécie para capturar presas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bagre Grande",
-		obtencao: "North Province: Casseroya Lake",
+		obtencao: ["North Province: Casseroya Lake"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30897,7 +30908,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"As diferentes cores e padrões desta espécie são aparentemente o resultado deste Pokémon se modificar para se adequar às preferências das presas que atrai.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Mímica",
-		obtencao: "North Province: Casseroya Lake",
+		obtencao: ["North Province: Casseroya Lake"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30927,7 +30938,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Quando sua raiva ultrapassou um ponto crítico, este Pokémon ganhou um poder que não é restringido pelos limites de seu corpo físico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Macaco Raivoso",
-		obtencao: "Kitakami Wilds; Timeless Woods; e por evolução",
+		obtencao: ["Kitakami Wilds", "Timeless Woods", "Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30956,7 +30967,7 @@ const pkmnDisponiveis = [
 			"Quando atacado, este Pokémon retaliará projetando espinhos grossos para fora do corpo. É um movimento arriscado que coloca tudo em jogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Peixe Espinhoso",
 		obtencao:
-			"South Province: Área Cinco, e Área Seis; East Province: Área Três; West Province: Área Três; North Province: Área Um, e Montanha Glaseado; e por evolução",
+			["South Province: Área Cinco, e Área Seis", "East Province: Área Três", "West Province: Área Três", "North Province: Área Um, e Montanha Glaseado", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -30984,7 +30995,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A cabeça endurecida da cauda protege a cabeça do corpo principal enquanto este Pokémon gira seu longo pescoço para dar cabeçadas nos inimigos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pescoço Longo",
-		obtencao: "Área Zero; Savanna Biome; e por evolução",
+		obtencao: ["Área Zero", "Savanna Biome", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31013,7 +31024,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon usa sua dura cauda para fazer seu ninho, perfurando buracos no leito rochoso bem fundo no subsolo. O ninho pode atingir comprimentos de quase dez quilômetros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Terra",
 		obtencao:
-			"Área Zero; Oni Mountains; Chilling Waterhead; Timeless Woods; e por evolução",
+			["Área Zero", "Oni Mountains", "Chilling Waterhead", "Timeless Woods", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -31042,7 +31053,7 @@ const pkmnDisponiveis = [
 			"Este gentil Pokémon coloca os Pokémon que entram em seu ninho em suas costas e os carrega até a entrada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente de Terra",
 		obtencao:
-			"Oni Mountains; Chilling Waterhead; Timeless Woods; e por evolução",
+			["Oni Mountains", "Chilling Waterhead", "Timeless Woods", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -31070,7 +31081,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Apesar de comandar um exército massivo em batalha, este Pokémon não é habilidoso em elaborar estratégias complexas. Apenas usa força bruta para continuar empurrando.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lâmina Grande",
-		obtencao: "Timeless Woods; e por evolução",
+		obtencao: ["Timeless Woods", "Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31098,7 +31109,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Avistamentos deste Pokémon acorreram nos últimos anos. O nome foi tirado de uma criatura listada em um certo livro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; West Province: Asado Desert; e Union Circle",
+		obtencao: ["Área Zero", "West Province: Asado Desert", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31126,7 +31137,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Houve apenas um avistamento relatado deste Pokémon. Ele se assemelha a uma criatura misteriosa retratada em um antigo diário de expedição.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; e Union Circle",
+		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31154,7 +31165,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Carrega uma leve semelhança com um Pokémon descrito, em uma revista duvidosa, como um cruzamento entre um dinossauro e um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; e Union Circle",
+		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31182,7 +31193,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui características similares a um pterossauro fantasmagórico que foi abordado em uma revista paranormal, mas os dois têm pouco em comum.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; e Union Circle",
+		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31210,7 +31221,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este misterioso Pokémon possui algumas similaridades com uma criatura que um livro velho introduziu.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; Union Circle; e Poké Portal News",
+		obtencao: ["Área Zero", "Union Circle", "Poké Portal News"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31238,7 +31249,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Não há registros de que este Pokémon tenha sido capturado. Faltam dados, mas as características deste Pokémon correspondem a uma criatura mostrada em um diário de expedição.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; e Union Circle",
+		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31266,7 +31277,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Avistamentos deste Pokémon ocorreram nos últimos anos. Ele se assemelha a um objeto misterioso descrito em um antigo diário de expedição.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Union Circle; West Province: Asado Desert; e Área Zero",
+		obtencao: ["Union Circle", "West Province: Asado Desert", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31294,7 +31305,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu formato é similar ao de um robô apresentado em um artigo de revista paranormal. Dizem que o robô foi criado por uma civilização antiga.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Union Circle; Poké Portal News; e Área Zero",
+		obtencao: ["Union Circle", "Poké Portal News", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31322,7 +31333,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É muito similar a um ciborgue coberto exclusivamente por uma revista paranormal. O ciborgue era dito ser a forma modificada de um certo atleta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Union Circle; e Área Zero",
+		obtencao: ["Union Circle", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31350,7 +31361,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Tem semelhanças com um certo Pokémon introduzido em uma revista paranormal, descrito como filho de um Pokémon que se apaixonou por um robô.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Union Circle; e Área Zero",
+		obtencao: ["Union Circle", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31378,7 +31389,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se assemelha a um objeto desconhecido descrito em uma revista paranormal como um OVNI enviado para observar a humanidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Union Circle; Poké Portal News; e Área Zero",
+		obtencao: ["Union Circle", "Poké Portal News", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31406,7 +31417,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui algumas similaridades com um Pokémon introduzido em uma revista duvidosa como uma versão de um bilhão de anos no futuro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Union Circle; e Área Zero",
+		obtencao: ["Union Circle", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31434,7 +31445,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Absorve calor por sua barbatana dorsal e converte o calor em energia de gelo. Quanto maior a temperatura, mais energia este Pokémon armazena.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Barbatana de Gelo",
-		obtencao: "North Province: Dalizapa Passage, e Montanha Glaseado",
+		obtencao: ["North Province: Dalizapa Passage, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31462,7 +31473,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Congela o ar ao seu redor, protegendo seu rosto com uma máscara de gelo e transformando sua barbatana dorsal em uma lâmina de gelo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Barbatana de Gelo",
-		obtencao: "North Province: Montanha Glaseado; e por evolução",
+		obtencao: ["North Province: Montanha Glaseado", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31490,7 +31501,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon expele ar criogênico de sua boca. Este ar pode congelar instantaneamente até lava líquida quente.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Dragão de Gelo",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31519,7 +31530,7 @@ const pkmnDisponiveis = [
 			"Este Pokémon nasceu dentro de um baú de tesouro em torno de 1'500 anos atrás. Suga a força vital de quem tentar roubar o tesouro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Baú de Moeda",
 		obtencao:
-			"South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, e Área Seis; East Province: Área Um, e Área Três; West Province: Área Um, Área Dois, West Paldean Sea, e Asado Desert; e North Province: Área Um, Área Dois, Casseroya Lake, e Montanha Glaseado",
+			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, e Área Seis", "East Province: Área Um, e Área Três", "West Province: Área Um, Área Dois, West Paldean Sea, e Asado Desert", "North Province: Área Um, Área Dois, Casseroya Lake, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -31547,7 +31558,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon nasceu da paixão que se infiltrou em uma moeda. Vagueia, aparentemente buscando retornar ao baú de tesouro que uma vez habitou.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caçador de Moeda",
-		obtencao: "Capturando no Pokémon GO",
+		obtencao: ["Capturando no Pokémon GO"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -31575,7 +31586,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Seu corpo parece ser feito de 1'000 moedas. Este Pokémon se dá bem com os outros e é rápido em fazer amizades com qualquer um.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Entidade de Moeda",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31603,7 +31614,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O rancor de uma pessoa punida por escrever as más ações do rei em tábuas de madeira se revestiu de folhas mortas para se tornar um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ruína",
-		obtencao: "South Province: Grasswither Shrine",
+		obtencao: ["South Province: Grasswither Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31631,7 +31642,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O ódio daqueles que pereceram pela espada há muito tempo se revestiu de neve e se tornou um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ruína",
-		obtencao: "West Province: Icerend Shrine",
+		obtencao: ["West Province: Icerend Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31659,7 +31670,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"O medo derramado em um antigo recipiente de ritual se revestiu de pedras e terra para se tornar um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ruína",
-		obtencao: "North Province: Groundblight Shrine",
+		obtencao: ["North Province: Groundblight Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31687,7 +31698,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A inveja acumulada dentro de contas curvas que desencadeou múltiplos conflitos se revestiu de fogo e se tornou um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Ruína",
-		obtencao: "North Province: Firescourge Shrine",
+		obtencao: ["North Province: Firescourge Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31715,7 +31726,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"De acordo com um artigo de uma revista duvidosa, este Pokémon tem alguma conexão com um fenômeno que ocorre uma certa região.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; e Union Circle",
+		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31743,7 +31754,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui algumas semelhanças com a invenção de um cientista louco publicada em uma revista paranormal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero; e Union Circle",
+		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31771,7 +31782,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Isto parece ser o Winged King mencionado em um antigo diário de expedição. Dizia-se que havia dividido a terra com seus punhos nus.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Poco Path; ou Área Zero",
+		obtencao: ["Poco Path", "ou Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31799,7 +31810,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Isto parece ser a Iron Serpent mencionada em um antigo livro. Dizem que a Iron Serpent transformou a terra em cinzas com seus raios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Poco Path; ou Área Zero",
+		obtencao: ["Poco Path", "ou Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31827,7 +31838,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta criatura feroz está envolta em mistério. Seu nome é uma homenagem a um monstro aquático mencionado em um antigo diário de expedição.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Poké Portal News",
+		obtencao: ["Poké Portal News"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31855,7 +31866,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"De acordo com os poucos relatos de testemunhas oculares existentes, usava suas lâminas brilhantes para cortar grandes árvores e pedras em juliana.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Poké Portal News",
+		obtencao: ["Poké Portal News"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31883,7 +31894,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A cabeça que se projeta pertence ao wyrm externo, enquanto a cauda pertence ao wyrm central. Os dois compartilham uma maçã e ajudam um ao outro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Maçã do Amor",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31911,7 +31922,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Supostamente, os arrependimentos de um mestre da cerimônia do chá que morreu antes de aperfeiçoar sua arte permaneceram em um pouco de matcha e se tornaram um Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Matcha",
-		obtencao: "Reveler's Road; e Mossfell Confluence",
+		obtencao: ["Reveler's Road", "Mossfell Confluence"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31940,7 +31951,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Finge ser chá, tentando enganar as pessoas para que o bebam, para que possa drenas sua força vital. Seu estratagema geralmente não tem sucesso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Matcha",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31969,7 +31980,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Depois que todos os seus músculos foram estimulados pela corrente tóxica em volta do seu pescoço, este Pokémon se transformou e ganhou um físico poderoso.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serviçal",
-		obtencao: "Paradise Barrens",
+		obtencao: ["Paradise Barrens"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31997,7 +32008,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"A corrente é feita de toxina que aperfeiçoa capacidades. Ela estimulou o cérebro deste Pokémon e causou o florescer dos poderes psíquicos deste Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serviçal",
-		obtencao: "Wistful Fields",
+		obtencao: ["Wistful Fields"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32025,7 +32036,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon bate suas asas brilhantes para espalhar feromônios que cativam pessoas e Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serviçal",
-		obtencao: "Oni Mountain",
+		obtencao: ["Oni Mountain"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32053,7 +32064,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon amante de travessuras é cheio de curiosidade. Batalha extraindo a energia baseada em tipo contida em suas máscaras.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Máscara",
-		obtencao: "Dreaded Den",
+		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -32081,7 +32092,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta forma se destaca tanto no ataque quanto na defesa. Ela libera movimentos incessantemente como uma fonte jorra água.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Máscara",
-		obtencao: "Dreaded Den",
+		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -32109,7 +32120,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta forma é a mais agressiva bombardeando os inimigos com a intensidade das chamas queimando dentro de uma lareira.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Máscara",
-		obtencao: "Dreaded Den",
+		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -32137,7 +32148,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Esta forma tem excelentes defesas, absorvendo impactos solidamente como as pedras angulares que sustentam as casas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Máscara",
-		obtencao: "Dreaded Den",
+		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -32165,7 +32176,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon reúne eletricidade estática de seus arredores. Os raios que ele lança quando está de quatro são tremendamente poderosos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Liga Metálica",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32193,7 +32204,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sete syrpents vivem dentro de uma maçã feita de xarope. A syrpent no centro é o comandante.", // considerando a dex da primeira geração que apareceu
 		categoria: "Apple Hydra Pokémon",
-		obtencao: "Por evolução",
+		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32221,7 +32232,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Há poucos relatos de que essa criatura foi avistada. Um vídeo curto mostra ela se enfurecendo e cuspindo colunas de fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero",
+		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32249,7 +32260,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que este Pokémon incinera tudo ao redor com raios lançados de seu pelo. Muito pouco se sabe sobre essa criatura.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero",
+		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32277,7 +32288,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi nomeado em homenagem a um objeto misterioso registrado em um livro antigo. Seu corpo parece ser metálico.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero",
+		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32305,7 +32316,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Supostamente, houve um incidente em que lançou lâminas brilhantes para cortar tudo ao redor em pedaços. Pouco mais se sabe sobre este Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: "Área Zero",
+		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32333,7 +32344,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se protege usando seu poder de transformar energia em cristais duros. Este Pokémon é a fonte do fenômeno Terastal.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tera",
-		obtencao: "Abismo da Área Zero",
+		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -32361,7 +32372,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Ao sentir o perigo, este Pokémon se prepara para a batalha criando uma casca resistente de energia Terastal cristalizada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tera",
-		obtencao: "Abismo da Área Zero",
+		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -32389,7 +32400,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Nessa forma, este Pokémon se assemelha ao mundo como os antigos o viam, e sua energia Terastal é anormalmente amplificada.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Tera",
-		obtencao: "Abismo da Área Zero",
+		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
@@ -32417,7 +32428,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua concha em formato de pêssego serve como armazenamento para um veneno potente. Faz mochi venenoso e os serve para pessoas e Pokémon.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Subjugação",
-		obtencao: "Loyalty Plaza",
+		obtencao: ["Loyalty Plaza"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -32429,54 +32440,55 @@ const pkmnDisponiveis = [
 	},
 ];
 
-/* 1ª geração, região de Kanto; 1-151 */
+/* 1ª geração, região de Kanto", "1-151 */
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
 const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
 const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
 
-/* 2ª geração, região de Johto; 152-251; 100 novos */
+/* 2ª geração, região de Johto", "152-251", "100 novos */
 const segundaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 2);
 const numerosSegunda = segundaGeracao.map((X) => X.numero);
 const nomesSegunda = segundaGeracao.map((x) => x.nome);
 
-/* 3ª geração, região de Hoenn; 252-386; 135 novos */
+/* 3ª geração, região de Hoenn", "252-386", "135 novos */
 const terceiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 3);
 const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 const nomesTerceira = terceiraGeracao.map((x) => x.nome);
 
-/* 4ª geração, região de Sinnoh; 387-493; 107 novos */
+/* 4ª geração, região de Sinnoh", "387-493", "107 novos */
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
 const nomesQuarta = quartaGeracao.map((x) => x.nome);
 
-/* 5ª geração, região de Unova; 494-649; 156 novos */
+/* 5ª geração, região de Unova", "494-649", "156 novos */
 const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
 const numerosQuinta = quintaGeracao.map((x) => x.numero);
 const nomesQuinta = quintaGeracao.map((x) => x.nome);
 
-/* 6ª geração, região de Kalos; 650-721; 72 novos */
+/* 6ª geração, região de Kalos", "650-721", "72 novos */
 const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
 const numerosSexta = sextaGeracao.map((x) => x.numero);
 const nomesSexta = sextaGeracao.map((x) => x.nome);
 
-/* 7ª geração, região de Alola; 722-809; 88 novos */
+/* 7ª geração, região de Alola", "722-809", "88 novos */
 const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
 const numerosSetima = setimaGeracao.map((x) => x.numero);
 const nomesSetima = setimaGeracao.map((x) => x.nome);
 
-/* 8ª geração, região de Galar e Hisui; 810-905; 96 novos */
+/* 8ª geração, região de Galar e Hisui", "810-905", "96 novos */
 const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
 const numerosOitava = oitavaGeracao.map((x) => x.numero);
 const nomesOitava = oitavaGeracao.map((x) => x.nome);
 
-/* 9ª geração, região de Paldea e Kikatami; 906-1025; 120 novos */
+/* 9ª geração, região de Paldea e Kikatami", "906-1025", "120 novos */
 const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
 const numerosNona = nonaGeracao.map((x) => x.numero);
 const nomesNona = nonaGeracao.map((x) => x.nome);
 
 /* todas gerações */
-const nomesGerais = pkmnDisponiveis.map((x) => x.nome);
-const numerosGerais = pkmnDisponiveis.map((x) => x.numero);
+const numerosGeracoes = pkmnDisponiveis.map((x) => x.numero);
+const codinomesGeracoes = pkmnDisponiveis.filter((x) => x.codinome !== undefined).map((x) => x.codinome);
+const nomesGeracoes = pkmnDisponiveis.map((x) => x.nome).concat(codinomesGeracoes);
 
 console.info(
 	"# GERAÇÕES #",

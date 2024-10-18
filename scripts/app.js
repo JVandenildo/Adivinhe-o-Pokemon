@@ -96,10 +96,10 @@ function novaTentativa() {
 
 		dicas.insertAdjacentHTML(
 			"beforeend",
-			`<table id="tabelaDicas">
+			`<table>
 				<tr>
-					<th scope="col">Massa</th>
-					<th scope="col">Altura</th>
+					<th scope="col" colspan="1">Massa</th>
+					<th scope="col" colspan="1">Altura</th>
 				</tr>
 				<tr>
 					<td style="text-align:center !important">${escolhido[0].massa} kg</td>
@@ -195,54 +195,69 @@ function desistir() {
  * @returns {boolean} Retorna nada.
  */
 function palpitar() {
-	const tabelaDicas = document.querySelector("#tabelaDicas");
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
 
 	const listaDiscas = [
 		/* primeira dica */
-		`<tr><th scope="col" colspan="1">Pegada</th></tr>
-		<tr><td><div class="pegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>`,
+		`<table>
+			<tr><th scope="col" colspan="1">Pegada</th></tr>
+			<tr><td><div class="pegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
+		</table>`,
 		/* segunda dica */
-		`<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
-		<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>`,
+		`<table>
+			<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
+			<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
+		</table>`,
 		/* terceira dica */
-		`<tr><th scope="col" colspan="1">Obtenção</th></tr>
-		<tr><td>${escolhido[0].obtencao}</td></tr>`,
+		`<table>
+			<tr><th scope="col" colspan="1">Obtenção</th></tr>
+			<tr><td>${escolhido[0].obtencao.map((x) => `<p>${x}</p>`)}</td></tr>
+		</table>`,
 		/* quarta diga */
-		`<tr><th scope="col" colspan="2">Estatísticas Base</th></tr>
+		`<table>
+			<tr><th scope="col" colspan="2">Estatísticas Base</th></tr>
 
-		<tr><th scope="row" style="text-align:left !important">PS</th>
-		<td>${escolhido[0].estatistica.ps}</td></tr>
+			<tr><th scope="row" style="text-align:left !important">PS</th>
+			<td>${escolhido[0].estatistica.ps}</td></tr>
+				
+			<tr><th scope="row" style="text-align:left !important">Ataque</th>
+			<td>${escolhido[0].estatistica.atq}</td></tr>
+				
+			<tr><th scope="row" style="text-align:left !important">Defesa</th>
+			<td>${escolhido[0].estatistica.def}</td></tr>
 			
-		<tr><th scope="row" style="text-align:left !important">Ataque</th>
-		<td>${escolhido[0].estatistica.atq}</td></tr>
+			<tr><th scope="row" style="text-align:left !important">Ataque Especial</th>
+			<td>${escolhido[0].estatistica.atq_esp}</td></tr>
 			
-		<tr><th scope="row" style="text-align:left !important">Defesa</th>
-		<td>${escolhido[0].estatistica.def}</td></tr>
-		
-		<tr><th scope="row" style="text-align:left !important">Ataque Especial</th>
-		<td>${escolhido[0].estatistica.atq_esp}</td></tr>
-		
-		<tr><th scope="row" style="text-align:left !important">Defesa Especial</th>
-		<td>${escolhido[0].estatistica.def_esp}</td></tr>
-		
-		<tr><th scope="row" style="text-align:left !important">Velocidade</th>
-		<td>${escolhido[0].estatistica.vel}</td></tr>`,
+			<tr><th scope="row" style="text-align:left !important">Defesa Especial</th>
+			<td>${escolhido[0].estatistica.def_esp}</td></tr>
+			
+			<tr><th scope="row" style="text-align:left !important">Velocidade</th>
+			<td>${escolhido[0].estatistica.vel}</td></tr>
+		</table>`,
 		/* quinta dica */
-		`<tr><th scope="col" colspan="1">Descrição</th></tr>
-			<tr><td>${escolhido[0].descricao}</td></tr>`,
+		`<table>
+			<tr><th scope="col" colspan="1">Descrição</th></tr>
+			<tr><td>${escolhido[0].descricao}</td></tr>
+		</table>`,
 		/* sexta dica */
-		`<tr><th scope="col" colspan="1">Categoria</th></tr>
-		<tr><td>${escolhido[0].categoria}</td></tr>`,
+		`<table>
+			<tr><th scope="col" colspan="1">Categoria</th></tr>
+			<tr><td>${escolhido[0].categoria}</td></tr>
+		</table>`,
 		/* sétima dica */
-		`<tr><th scope="col" colspan="1">Número</th></tr>
-		<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>`,
+		`<table>
+			<tr><th scope="col" colspan="1">Número</th></tr>
+			<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
+		</table>`,
 		/* oitava e última dica */
-		`<tr><th scope="col" colspan="1">Silhueta</th></tr>
-		<tr><td class="silhueta"><img loading="eager" src="${
-			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>`,
+		`<table>
+			<tr><th scope="col" colspan="1">Silhueta</th></tr>
+			<tr><td class="silhueta"><img loading="eager" src="${
+				escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+			}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
+		</table>`,
 	];
 
 	switch (campoPalpite.value.toLowerCase()) {
@@ -265,7 +280,9 @@ function palpitar() {
 			document.removeEventListener("keydown", gerenciarEnter);
 
 			if (palpites === 1) {
-				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpite!</p>
+				ultimato.innerHTML = `<p>Você acertou ${
+					escolhido[0].nome
+				} com ${palpites} palpite!</p>
 				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
@@ -274,7 +291,9 @@ function palpitar() {
 
 				return true;
 			} else {
-				ultimato.innerHTML = `<p>Você acertou com ${palpites} palpites!</p>
+				ultimato.innerHTML = `<p>Você acertou ${
+					escolhido[0].nome
+				} com ${palpites} palpites!</p>
 				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
@@ -294,6 +313,7 @@ function palpitar() {
 				btnDesistencia.style.cursor = "not-allowed";
 				btnPalpite.removeEventListener("click", palpitar);
 				btnPalpite.style.cursor = "not-allowed";
+				document.removeEventListener("keydown", gerenciarEnter);
 
 				ultimato.innerHTML = `<p>Você errou!<br />
 				Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
@@ -309,7 +329,7 @@ function palpitar() {
 			} else {
 				/* ainda existem dicas */
 
-				tabelaDicas.insertAdjacentHTML("beforeend", `${listaDiscas[palpites]}`);
+				dicas.insertAdjacentHTML("beforeend", `${listaDiscas[palpites]}`);
 				ultimosPalpites.insertAdjacentHTML(
 					"beforeend",
 					`<p>${campoPalpite.value}</p>`
@@ -332,24 +352,24 @@ function procurarNomes() {
 			opcoesNomes.classList.remove("opcoesNomesShow");
 			nomesGeral.classList.remove("nomesGeralShow");
 
-			break;
+			return;
 		default:
 			opcoesNomes.innerHTML = "";
 			opcoesNomes.classList.add("opcoesNomesShow");
 			nomesGeral.classList.add("nomesGeralShow");
 
-			const nomes = nomesGerais.filter((nome) =>
+			const nomes = nomesGeracoes.filter((nome) =>
 				nome.toLowerCase().includes(campoPalpite.value.toLowerCase())
 			);
 
 			for (let i in nomes) {
 				opcoesNomes.insertAdjacentHTML(
 					"beforeend",
-					`<div class="nomePalpite" onclick="selecaoPalpite('${nomes[i]}')">${nomes[i]}</div>`
+					`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${nomes[i]}')">${nomes[i]}</div>`
 				);
 			}
 
-			break;
+			return;
 	}
 }
 
@@ -425,6 +445,9 @@ function geracoesSelecionadas() {
 	}
 }
 
+/**
+ * @param {KeyboardEvent} e
+ */
 function gerenciarEnter(e) {
 	if (e.key === "Enter") {
 		e.preventDefault();

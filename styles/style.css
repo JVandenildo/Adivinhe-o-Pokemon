@@ -199,7 +199,7 @@ button {
 	padding: 0.1rem 0.5rem;
 }
 .nomePalpite:hover {
-	background-color: var(--light-bg2);
+	background-color: var(--light-bg2) !important;
 	font-weight: bolder;
 }
 
@@ -232,6 +232,9 @@ button {
 table {
 	border-radius: calc(10px);
 	border-spacing: 5px;
+}
+table p {
+	margin: 0px 3px;
 }
 
 .pegada {
@@ -272,7 +275,7 @@ table {
 }
 
 #ultimato {
-	width: max-content;
+	max-width: 12rem;
 	height: fit-content;
 	text-align: center;
 	font-size: small;
@@ -284,4 +287,8 @@ table {
 	algumas chegam a exatamente 150px */
 	max-width: max-content;
 	max-height: 150px;
+	-webkit-filter: drop-shadow(1px 1px 1px var(--light-bg2))
+		drop-shadow(calc(-1 * 1px) calc(-1 1px) 1px var(--light-bg2));
+	filter: drop-shadow(1px 1px 1px var(--light-bg2))
+		drop-shadow(calc(-1 * 1px) calc(-1 * 1px) 1px var(--light-bg2));
 }
