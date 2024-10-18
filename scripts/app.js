@@ -202,7 +202,7 @@ function palpitar() {
 		/* primeira dica */
 		`<table>
 			<tr><th scope="col" colspan="1">Pegada</th></tr>
-			<tr><td><div class="pegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
+			<tr><td><div id="dicaPegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
 		</table>`,
 		/* segunda dica */
 		`<table>
@@ -212,7 +212,7 @@ function palpitar() {
 		/* terceira dica */
 		`<table>
 			<tr><th scope="col" colspan="1">Obtenção</th></tr>
-			<tr><td>${escolhido[0].obtencao.map((x) => `<p>${x}</p>`)}</td></tr>
+			<tr><td id="dicaObtencao"></td></tr>
 		</table>`,
 		/* quarta diga */
 		`<table>
@@ -239,7 +239,7 @@ function palpitar() {
 		/* quinta dica */
 		`<table>
 			<tr><th scope="col" colspan="1">Descrição</th></tr>
-			<tr><td>${escolhido[0].descricao}</td></tr>
+			<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
 		</table>`,
 		/* sexta dica */
 		`<table>
@@ -249,12 +249,12 @@ function palpitar() {
 		/* sétima dica */
 		`<table>
 			<tr><th scope="col" colspan="1">Número</th></tr>
-			<tr><td style="hyphens: auto;">${Math.floor(escolhido[0].numero)}</td></tr>
+			<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
 		</table>`,
 		/* oitava e última dica */
 		`<table>
 			<tr><th scope="col" colspan="1">Silhueta</th></tr>
-			<tr><td class="silhueta"><img loading="eager" src="${
+			<tr><td id="dicaSilhueta"><img loading="eager" src="${
 				escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 			}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
 		</table>`,
@@ -334,6 +334,19 @@ function palpitar() {
 					"beforeend",
 					`<p>${campoPalpite.value}</p>`
 				);
+
+				if (palpites === 2) {
+					const dicaObtencao = document.getElementById("dicaObtencao");
+					for (let i in escolhido[0].obtencao) {
+						dicaObtencao.insertAdjacentHTML(
+							"beforeend",
+							`<p>${escolhido[0].obtencao[i]}</p>`
+						);
+					}
+				} else if (palpites > 3) {
+					dicaObtencao.insertAdjacentHTML("beforeend", "");
+				}
+
 				campoPalpite.value = "";
 				palpites = palpites + 1;
 

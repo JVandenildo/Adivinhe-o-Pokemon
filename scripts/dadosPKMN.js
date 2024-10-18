@@ -8077,7 +8077,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon divino voa pelo mundo, sempre em busca de um reservatório puro.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Aurora",
-		obtencao: ["Torre dos Sinos", "ou vagando por Johto"],
+		obtencao: ["Torre dos Sinos", "Vagando por Johto"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12006,7 +12006,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"É altamente sensível às emoções de pessoas. Caso sinta qualquer hostilidade, este Pokémon eriça as penas de todo o corpo e grita estridentemente para intimidar o inimigo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Eternidade",
-		obtencao: ["Ilha Sul", "ou Vagando por Hoenn"],
+		obtencao: ["Ilha Sul", "Vagando por Hoenn"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12034,7 +12034,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui a habilidade de fazer seu oponente ver uma imagem do que tem visto ou imagina em sua cabeça. Este Pokémon é inteligente e entende a fala humana.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Eternidade",
-		obtencao: ["Ilha Sul", "ou Vagando por Hoenn"],
+		obtencao: ["Ilha Sul", "Vagando por Hoenn"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12062,7 +12062,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é nomeado na mitologia como o Pokémon que expandiu o mar cobrindo a terra com chuvas torrenciais e ondas gigantescas. Este Pokémon adormeceu após uma batalha cataclísmica..", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Bacia Marinha",
-		obtencao: ["Caverna da Origem", "ou Caverna Marinha"],
+		obtencao: ["Caverna da Origem", "Caverna Marinha"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12090,7 +12090,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon é descrito há muito tempo na mitologia como o Pokémon que ergueu terras e expandiu continentes. Este Pokémon adormeceu após uma batalha cataclísmica.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Continente",
-		obtencao: ["Caverna da Origem", "ou Caverna Terrena"],
+		obtencao: ["Caverna da Origem", "Caverna Terrena"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12286,7 +12286,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Feito de solo, o casco em suas costas endurece quando bebe água. Vive próximo a lagos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Folhinha",
-		obtencao: ["Rota 201", "ou Lago Verdade"],
+		obtencao: ["Rota 201", "Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12370,7 +12370,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Sua traseira flamejante é alimentada por gás produzido em sua barriga. Nem chuva pode apagar o fogo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Chimpanzé",
-		obtencao: ["Rota 201", "ou Lago Verdade"],
+		obtencao: ["Rota 201", "Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -12454,7 +12454,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Por ser muito orgulhoso, odeia aceitar comida de pessoas. Sua penugem espessa protege do frio.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pinguim",
-		obtencao: ["Rota 201", "ou Lago Verdade"],
+		obtencao: ["Rota 201", "Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
@@ -17904,7 +17904,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon se transforma nas formas dos outros para surpreende-los. Aparentemente, frequentemente se transforma em uma criança silenciosa.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa Ardilosa",
-		obtencao: ["Cidade de Castelia", "ou recebido em Cidade de Driftveil"],
+		obtencao: ["Cidade de Castelia", "Recebido em Cidade de Driftveil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -17961,7 +17961,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Os laços entre esses Pokémon são muito fortes. Protege a segurança de sua matilha enganando seus oponentes.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Raposa Ilusionista",
-		obtencao: ["Lostlorn Forest", "ou Por evolução"],
+		obtencao: ["Lostlorn Forest", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
@@ -19936,7 +19936,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este lendário Pokémon batalhou contra humanos para proteger Pokémon. Sua personalidade é calma e composta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vontade de Ferro",
-		obtencao: ["Rota 13", "ou Caverna de Mistralton"],
+		obtencao: ["Rota 13", "Caverna de Mistralton"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19964,7 +19964,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon veio em defesa dos Pokémon que perderam seus lares em uma guerra entre humanos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Caverna",
-		obtencao: ["Rota 22", "ou Estrada da Vitória"],
+		obtencao: ["Rota 22", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -19992,7 +19992,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon lutou contra humanos para proteger seus amigos. Lendas sobre isso continuam a ser contadas.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pradaria",
-		obtencao: ["Rota 11", "ou Floresta Pinwheel"],
+		obtencao: ["Rota 11", "Floresta Pinwheel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20132,7 +20132,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon aparece em lendas. Lança chamas no ar de sua cauda, queimando tudo ao redor.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Vastidão Branca",
-		obtencao: ["O Castelo de N", "ou Dragonspiral Tower"],
+		obtencao: ["O Castelo de N", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -20160,7 +20160,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon aparece em lendas. Em sua cauda, possui um gerador gigante que cria eletricidade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Preto Intenso",
-		obtencao: ["O Castelo de N", "ou Dragonspiral Tower"],
+		obtencao: ["O Castelo de N", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22862,7 +22862,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon cauteloso usa a fotossíntese para armazenar energia durante o dia, enquanto se torna ativo à noite.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Pluma de Folha",
-		obtencao: ["Cidade de Iki", "ou Rota 1"],
+		obtencao: ["Cidade de Iki", "Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -22974,7 +22974,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Enquanto se limpa, acumula pelos dentro do estômago. Incendeia os pelos e cospe ataques de fogo, que mudam com base em como tosse.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Gato de Fogo",
-		obtencao: ["Cidade de Iki", "ou Rota 1"],
+		obtencao: ["Cidade de Iki", "Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -23058,7 +23058,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este Pokémon cheira fluidos corporais de seu nariz, soprando balões para esmagar seus inimigos. É famoso por ser um trabalhador esforçado.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Leão do Mar",
-		obtencao: ["Cidade de Iki", "ou Rota 1"],
+		obtencao: ["Cidade de Iki", "Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31782,7 +31782,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Isto parece ser o Winged King mencionado em um antigo diário de expedição. Dizia-se que havia dividido a terra com seus punhos nus.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: ["Poco Path", "ou Área Zero"],
+		obtencao: ["Poco Path", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
@@ -31810,7 +31810,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Isto parece ser a Iron Serpent mencionada em um antigo livro. Dizem que a Iron Serpent transformou a terra em cinzas com seus raios.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Paradoxo",
-		obtencao: ["Poco Path", "ou Área Zero"],
+		obtencao: ["Poco Path", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,

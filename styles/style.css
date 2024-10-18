@@ -215,7 +215,7 @@ button {
 	margin-top: 0px !important;
 	width: 20rem;
 }
-.silhueta {
+#dicaSilhueta {
 	background-color: var(--light-bg);
 	border-radius: 49%;
 	text-align: center;
@@ -223,7 +223,7 @@ button {
 	height: 150px;
 	width: 150px;
 }
-.silhueta img {
+#dicaSilhueta img {
 	max-height: 100px;
 	max-width: 100px;
 	filter: contrast(1%) blur(5px);
@@ -235,10 +235,10 @@ table {
 	margin: 0.5rem auto;
 }
 table p {
-	margin: 0px 3px;
+	margin: 2.5px 0rem;
 }
 
-.pegada {
+#dicaPegada {
 	margin: 0rem auto;
 	width: 1.5rem !important;
 	height: 1.5rem !important;
@@ -249,7 +249,7 @@ table p {
 	background-color: var(--dark-bg2);
 	border-radius: 49%;
 }
-.pegada img {
+#dicaPegada img {
 	max-height: 1rem;
 	filter: contrast(1%) brightness(1%) invert(99%) !important;
 	margin: auto !important;
