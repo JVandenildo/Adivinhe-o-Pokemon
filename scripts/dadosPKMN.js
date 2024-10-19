@@ -21,6 +21,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/001Bulbasaur_Dream_5.png",
@@ -49,6 +50,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/36/002Ivysaur_Dream_2.png",
@@ -77,6 +79,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b2/003Venusaur_Dream.png",
@@ -105,6 +108,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b9/004Charmander_Dream.png",
@@ -133,6 +137,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/005Charmeleon_Dream.png",
@@ -161,6 +166,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/006Charizard_Dream_2.png",
@@ -189,6 +195,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9a/007Squirtle_Dream_7.png",
@@ -217,6 +224,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/21/008Wartortle_Dream.png",
@@ -245,6 +253,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2e/009Blastoise_Dream.png",
@@ -273,6 +282,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/89/010Caterpie_Dream.png",
@@ -301,6 +311,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8c/011Metapod_Dream.png",
@@ -329,6 +340,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6f/012Butterfree_Dream_2.png",
@@ -357,6 +369,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/64/013Weedle_Dream.png",
@@ -385,6 +398,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/014Kakuna_Dream_2.png",
@@ -413,6 +427,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ae/015Beedrill_Dream.png",
@@ -441,6 +456,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/05/016Pidgey_Dream_2.png",
@@ -469,6 +485,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/017Pidgeotto_Dream_2.png",
@@ -497,6 +514,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/018Pidgeot_Dream_2.png",
@@ -524,7 +542,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 2, 3, e outras", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2b/019Rattata_Dream.png",
@@ -553,7 +572,8 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outras", "Hau'oli City", "Kala'e Bay", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/33/019Rattata_Alola_Dream.png",
@@ -582,7 +602,8 @@ const pkmnDisponiveis = [
 			["Rotas 9, 10, 11, e outras", "Mansão Pokémon", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b1/020Raticate_Dream.png",
@@ -611,7 +632,8 @@ const pkmnDisponiveis = [
 			["Rotas 10, 11, 15, e outras", "Akala Outskirts", "Ancient Poni Path", "Poni Gauntlet", "Poni Grove", "Poni Plains", "Poni Wilds", "Tapu Village", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/020Raticate_Alola_Dream.png",
@@ -640,6 +662,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/021Spearow_Dream.png",
@@ -668,6 +691,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/022Fearow_Dream.png",
@@ -696,6 +720,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7e/023Ekans_Dream.png",
@@ -724,6 +749,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/22/024Arbok_Dream.png",
@@ -752,6 +778,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4d/025Pikachu_Dream_3.png",
@@ -779,7 +806,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/98/026Raichu_Dream_2.png",
@@ -807,7 +835,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/03/026Raichu_Alola_Dream.png",
@@ -835,7 +864,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 3, 4, 8, e outras", "Monte da Lua"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/027Sandshrew_Dream.png",
@@ -863,7 +893,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mount Lanakila", "Tapu Village"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e0/027Sandshrew_Alola_Dream.png",
@@ -891,7 +922,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 23", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/eb/028Sandslash_Dream.png",
@@ -919,7 +951,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/01/028Sandslash_Alola_Dream.png",
@@ -948,6 +981,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5b/029Nidoran_Dream_2.png",
@@ -976,6 +1010,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ea/030Nidorina_Dream_2.png",
@@ -1004,6 +1039,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/031Nidoqueen_Dream.png",
@@ -1032,6 +1068,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/15/032Nidoran_Dream_2.png",
@@ -1060,6 +1097,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/033Nidorino_Dream_2.png",
@@ -1088,6 +1126,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a3/034Nidoking_Dream.png",
@@ -1116,6 +1155,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e8/035Clefairy_Dream.png",
@@ -1144,6 +1184,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/036Clefable_Dream.png",
@@ -1171,7 +1212,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 7, e 8", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/72/037Vulpix_Dream_2.png",
@@ -1199,7 +1241,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Tapu Village", "Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c4/037Vulpix_Alola_Dream.png",
@@ -1227,7 +1270,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a4/038Ninetales_Dream.png",
@@ -1255,7 +1299,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cc/038Ninetales_Alola_Dream.png",
@@ -1284,6 +1329,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/039Jigglypuff_Dream.png",
@@ -1312,6 +1358,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/040Wigglytuff_Dream.png",
@@ -1341,6 +1388,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d9/041Zubat_Dream.png",
@@ -1370,6 +1418,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/042Golbat_Dream.png",
@@ -1398,6 +1447,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/43/043Oddish_Dream.png",
@@ -1426,6 +1476,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/044Gloom_Dream.png",
@@ -1454,6 +1505,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/045Vileplume_Dream.png",
@@ -1482,6 +1534,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/046Paras_Dream.png",
@@ -1510,6 +1563,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0e/047Parasect_Dream.png",
@@ -1538,6 +1592,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9f/048Venonat_Dream.png",
@@ -1567,6 +1622,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f3/049Venomoth_Dream.png",
@@ -1594,7 +1650,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Túnel dos Diglett"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a6/050Diglett_Dream_3.png",
@@ -1623,7 +1680,8 @@ const pkmnDisponiveis = [
 			["Rotas 5, e 7", "Diglett's Tunnel", "Lush Jungle (Cave)", "Seaward Cave", "Ten Carat Hill", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/80/050Diglett_Alola_Dream.png",
@@ -1650,7 +1708,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Túnel dos Diglett", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/26/051Dugtrio_Dream.png",
@@ -1679,7 +1738,8 @@ const pkmnDisponiveis = [
 			["Haina Desert", "Poni Coast", "Resolution Cave", "Vast Poni Canyon", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7d/051Dugtrio_Alola_Dream.png",
@@ -1707,7 +1767,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outra"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/84/052Meowth_Dream.png",
@@ -1735,7 +1796,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 2", "Trainer's School", "Hau'oli City", "Malie Garden"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a6/052Meowth_Alola_Dream.png",
@@ -1763,7 +1825,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 4"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7d/052Meowth_Galar_Dream.png",
@@ -1791,7 +1854,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/053Persian_Dream.png",
@@ -1819,7 +1883,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/053Persian_Alola_Dream.png",
@@ -1848,6 +1913,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/72/054Psyduck_Dream.png",
@@ -1876,6 +1942,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/04/055Golduck_Dream.png",
@@ -1904,6 +1971,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6f/056Mankey_Dream.png",
@@ -1932,6 +2000,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/24/057Primeape_Dream.png",
@@ -1959,7 +2028,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 7, e 8", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b0/058Growlithe_Dream_2.png",
@@ -1987,7 +2057,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Cobalt: Coastlands: Windbreak Stand, e Veilstone Cape"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/058Growlithe-Hisui_Dream_2.png",
@@ -2015,7 +2086,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b5/059Arcanine_Dream_2.png",
@@ -2043,7 +2115,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/059Arcanine_Hisui_Dream.png",
@@ -2073,6 +2146,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/39/060Poliwag_Dream.png",
@@ -2101,6 +2175,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d0/061Poliwhirl_Dream.png",
@@ -2129,6 +2204,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f0/062Poliwrath_Dream.png",
@@ -2157,6 +2233,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d6/063Abra_Dream.png",
@@ -2185,6 +2262,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e9/064Kadabra_Dream.png",
@@ -2213,6 +2291,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/065Alakazam_Dream_2.png",
@@ -2241,6 +2320,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/87/066Machop_Dream.png",
@@ -2269,6 +2349,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/47/067Machoke_Dream.png",
@@ -2297,6 +2378,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/77/068Machamp_Dream_2.png",
@@ -2325,6 +2407,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ac/069Bellsprout_Dream.png",
@@ -2353,6 +2436,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/070Weepinbell_Dream.png",
@@ -2381,6 +2465,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/22/071Victreebel_Dream.png",
@@ -2409,6 +2494,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/da/072Tentacool_Dream.png",
@@ -2437,6 +2523,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f5/073Tentacruel_Dream.png",
@@ -2464,7 +2551,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Monte da Lua", "Túnel de Rocha", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5e/074Geodude_Dream.png",
@@ -2492,7 +2580,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 12", "Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/eb/074Geodude_Alola_Dream.png",
@@ -2520,7 +2609,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/72/075Graveler_Dream.png",
@@ -2548,7 +2638,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 17", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1d/075Graveler_Alola_Dream.png",
@@ -2576,7 +2667,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/be/076Golem_Dream.png",
@@ -2604,7 +2696,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/13/076Golem_Alola_Dream.png",
@@ -2632,7 +2725,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 17", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/da/077Ponyta_Dream.png",
@@ -2660,7 +2754,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Bosque Glimwood", "Cemitério Antigo"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b2/077Ponyta_Galar_Dream.png",
@@ -2688,7 +2783,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d0/078Rapidash_Dream.png",
@@ -2716,7 +2812,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Cemitério Antigo"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c1/078Rapidash_Galar_Dream.png",
@@ -2744,7 +2841,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 10, 12, e 13", "Ilhas Espuma", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b7/079Slowpoke_Dream.png",
@@ -2772,7 +2870,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Wedgehurst Station", "Fields of Honor"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a6/079Slowpoke_Galar_Dream.png",
@@ -2801,7 +2900,8 @@ const pkmnDisponiveis = [
 			["Rotas 12, 13, e 23", "Caverna de Cerulean", "Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ef/080Slowbro_Dream.png",
@@ -2829,7 +2929,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ea/080Slowbro_Galar_Dream.png",
@@ -2858,6 +2959,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/59/081Magnemite_Dream.png",
@@ -2886,6 +2988,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/082Magneton_Dream.png",
@@ -2913,7 +3016,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, e 13"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/21/083Farfetch%27d_Dream.png",
@@ -2941,7 +3045,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 5", "Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8b/083Farfetch%27d_Galar_Dream.png",
@@ -2970,6 +3075,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/88/084Doduo_Dream.png",
@@ -2998,6 +3104,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f2/085Dodrio_Dream.png",
@@ -3026,6 +3133,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0d/086Seel_Dream.png",
@@ -3054,6 +3162,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/087Dewgong_Dream.png",
@@ -3081,7 +3190,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0e/088Grimer_Dream.png",
@@ -3109,7 +3219,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Trainers' School", "Hau'oli City", "Malie City"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/088Grimer_Alola_Dream.png",
@@ -3137,7 +3248,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon", "Usina Elétrica Abandonada", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a0/089Muk_Dream.png",
@@ -3165,7 +3277,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/089Muk_Alola_Dream.png",
@@ -3194,6 +3307,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/62/090Shellder_Dream_2.png",
@@ -3222,6 +3336,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/091Cloyster_Dream_2.png",
@@ -3250,6 +3365,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/aa/092Gastly_Dream.png",
@@ -3278,6 +3394,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/093Haunter_Dream.png",
@@ -3306,6 +3423,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/094Gengar_Dream_2.png",
@@ -3334,6 +3452,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7a/095Onix_Dream.png",
@@ -3362,6 +3481,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2f/096Drowzee_Dream.png",
@@ -3390,6 +3510,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8d/097Hypno_Dream.png",
@@ -3418,6 +3539,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cf/098Krabby_Dream.png",
@@ -3447,6 +3569,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1f/099Kingler_Dream.png",
@@ -3474,7 +3597,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/100Voltorb_Dream.png",
@@ -3502,7 +3626,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Coronet Highlands: Celestica Ruins, e Sacred Plaza"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4f/100Voltorb-Hisui_Dream.png",
@@ -3530,7 +3655,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/ca/101Electrode_Dream.png",
@@ -3558,7 +3684,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Coronet Highlands", "Por evolução"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/101Electrode-Hisui_Dream.png",
@@ -3587,6 +3714,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/74/102Exeggcute_Dream.png",
@@ -3614,7 +3742,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7f/103Exeggutor_Dream.png",
@@ -3642,7 +3771,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Exeggutor Island", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e3/103Exeggutor_Alola_Dream.png",
@@ -3671,6 +3801,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3a/104Cubone_Dream_2.png",
@@ -3699,7 +3830,8 @@ const pkmnDisponiveis = [
 			["Zona Safari", "Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c9/105Marowak_Dream_2.png",
@@ -3727,7 +3859,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/105Marowak_Alola_Dream.png",
@@ -3756,6 +3889,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/106Hitmonlee_Dream.png",
@@ -3784,6 +3918,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b3/107Hitmonchan_Dream.png",
@@ -3812,6 +3947,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f5/108Lickitung_Dream_2.png",
@@ -3840,6 +3976,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/89/109Koffing_Dream_2.png",
@@ -3867,7 +4004,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/43/110Weezing_Dream_2.png",
@@ -3896,7 +4034,8 @@ const pkmnDisponiveis = [
 			["East Lake Axewell", "Lake of Outrage", "Slumbering Weald", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/da/110Weezing_Galar_Dream.png",
@@ -3925,6 +4064,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/111Rhyhorn_Dream.png",
@@ -3953,6 +4093,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/112Rhydon_Dream.png",
@@ -3981,6 +4122,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2a/113Chansey_Dream.png",
@@ -4009,6 +4151,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ef/114Tangela_Dream.png",
@@ -4037,6 +4180,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/115Kangaskhan_Dream.png",
@@ -4065,6 +4209,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/de/116Horsea_Dream.png",
@@ -4094,6 +4239,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/59/117Seadra_Dream.png",
@@ -4123,6 +4269,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/af/118Goldeen_Dream.png",
@@ -4151,6 +4298,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c9/119Seaking_Dream.png",
@@ -4179,6 +4327,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/120Staryu_Dream.png",
@@ -4207,6 +4356,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/121Starmie_Dream.png",
@@ -4234,7 +4384,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por troca na rota 2"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/122Mr._Mime_Dream.png",
@@ -4262,7 +4413,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Lake of Outrage", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e0/122Mr._Mime_Galar_Dream.png",
@@ -4291,6 +4443,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1f/123Scyther_Dream_3.png",
@@ -4319,6 +4472,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e5/124Jynx_Dream.png",
@@ -4347,6 +4501,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bf/125Electabuzz_Dream.png",
@@ -4375,6 +4530,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/52/126Magmar_Dream.png",
@@ -4403,6 +4559,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/127Pinsir_Dream.png",
@@ -4410,7 +4567,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pinsir_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Tauros",
+		nome: "Tauros de Kanto",
 		numero: 128.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 88.4, // em kg
@@ -4430,7 +4587,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/99/128Tauros_Dream.png",
@@ -4438,7 +4596,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Tauros (Variedade Combativa)",
+		nome: "Tauros de Paldea (Variedade Combativa)",
 		numero: 128.2, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 115.0, // em kg
@@ -4459,6 +4617,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/0128Tauros-Paldea_Combat_Dream.png",
@@ -4466,7 +4625,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Tauros (Variedade Ardente)",
+		nome: "Tauros de Paldea (Variedade Ardente)",
 		numero: 128.3, // considerando a national dex
 		tipo: ["Lutador", " Fogo"],
 		massa: 85.0, // em kg
@@ -4488,6 +4647,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cd/0128Tauros-Paldea_Blaze_Dream_2.png",
@@ -4495,7 +4655,7 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Tauros (Variedade Aquática)",
+		nome: "Tauros de Paldea (Variedade Aquática)",
 		numero: 128.4, // considerando a national dex
 		tipo: ["Lutador", " Água"],
 		massa: 110.0, // em kg
@@ -4517,6 +4677,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/0128Tauros-Paldea_Aqua_Dream_2.png",
@@ -4546,6 +4707,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f7/129Magikarp_Dream_2.png",
@@ -4574,6 +4736,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2a/130Gyarados_Dream_2.png",
@@ -4602,6 +4765,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/74/131Lapras_Dream_6.png",
@@ -4631,6 +4795,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/132Ditto_Dream_6.png",
@@ -4659,6 +4824,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b0/133Eevee_Dream_2.png",
@@ -4687,6 +4853,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/93/134Vaporeon_Dream_2.png",
@@ -4715,6 +4882,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/135Jolteon_Dream_2.png",
@@ -4743,6 +4911,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/136Flareon_Dream_2.png",
@@ -4771,6 +4940,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/60/137Porygon_Dream.png",
@@ -4799,6 +4969,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/138Omanyte_Dream.png",
@@ -4827,6 +4998,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/37/139Omastar_Dream.png",
@@ -4855,6 +5027,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/88/140Kabuto_Dream.png",
@@ -4883,6 +5056,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/83/141Kabutops_Dream.png",
@@ -4911,6 +5085,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c6/142Aerodactyl_Dream.png",
@@ -4939,6 +5114,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/20/143Snorlax_Dream.png",
@@ -4966,7 +5142,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/46/144Articuno_Dream_3.png",
@@ -4994,7 +5171,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Crown Tundra"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/93/144Articuno_Galar_Dream.png",
@@ -5022,7 +5200,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/145Zapdos_Dream.png",
@@ -5050,7 +5229,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Wild Area"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/96/145Zapdos_Galar_Dream.png",
@@ -5078,7 +5258,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/146Moltres_Dream.png",
@@ -5106,7 +5287,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Isle of Armor"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/88/146Moltres_Galar_Dream.png",
@@ -5135,6 +5317,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/147Dratini_Dream_2.png",
@@ -5163,6 +5346,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/148Dragonair_Dream.png",
@@ -5191,6 +5375,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0c/149Dragonite_Dream_2.png",
@@ -5219,6 +5404,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/49/150Mewtwo_Dream.png",
@@ -5247,6 +5433,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/60/151Mew_Dream_2.png",
@@ -5275,6 +5462,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/52/152Chikorita_Dream.png",
@@ -5303,6 +5491,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/82/153Bayleef_Dream.png",
@@ -5331,6 +5520,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e8/154Meganium_Dream.png",
@@ -5359,6 +5549,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f0/155Cyndaquil_Dream.png",
@@ -5387,6 +5578,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/31/156Quilava_Dream.png",
@@ -5414,7 +5606,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/157Typhlosion_Dream.png",
@@ -5442,7 +5635,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands: Space-time distortions", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a2/157Typhlosion-Hisui_Dream.png",
@@ -5471,6 +5665,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/47/158Totodile_Dream.png",
@@ -5499,6 +5694,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/22/159Croconaw_Dream.png",
@@ -5527,6 +5723,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/160Feraligatr_Dream.png",
@@ -5555,6 +5752,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/55/161Sentret_Dream.png",
@@ -5583,6 +5781,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/de/162Furret_Dream.png",
@@ -5612,6 +5811,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/163Hoothoot_Dream.png",
@@ -5640,6 +5840,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/da/164Noctowl_Dream.png",
@@ -5668,6 +5869,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e6/165Ledyba_Dream.png",
@@ -5696,6 +5898,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ad/166Ledian_Dream.png",
@@ -5724,6 +5927,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/167Spinarak_Dream.png",
@@ -5752,6 +5956,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/db/168Ariados_Dream.png",
@@ -5780,6 +5985,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/86/169Crobat_Dream.png",
@@ -5808,6 +6014,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/170Chinchou_Dream.png",
@@ -5836,6 +6043,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0b/171Lanturn_Dream.png",
@@ -5864,6 +6072,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/79/172Pichu_Dream.png",
@@ -5892,6 +6101,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/91/173Cleffa_Dream.png",
@@ -5920,6 +6130,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/174Igglybuff_Dream.png",
@@ -5948,6 +6159,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/87/175Togepi_Dream.png",
@@ -5976,6 +6188,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f8/176Togetic_Dream.png",
@@ -6004,6 +6217,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7e/177Natu_Dream.png",
@@ -6032,6 +6246,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c8/178Xatu_Dream.png",
@@ -6060,6 +6275,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5f/179Mareep_Dream.png",
@@ -6088,6 +6304,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/180Flaaffy_Dream.png",
@@ -6116,6 +6333,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/181Ampharos_Dream.png",
@@ -6144,6 +6362,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/ba/182Bellossom_Dream.png",
@@ -6172,6 +6391,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dd/183Marill_Dream.png",
@@ -6200,6 +6420,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5d/184Azumarill_Dream.png",
@@ -6228,6 +6449,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0d/185Sudowoodo_Dream.png",
@@ -6256,6 +6478,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3f/186Politoed_Dream.png",
@@ -6284,6 +6507,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f4/187Hoppip_Dream.png",
@@ -6312,6 +6536,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d4/188Skiploom_Dream.png",
@@ -6340,6 +6565,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/189Jumpluff_Dream.png",
@@ -6368,6 +6594,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/ca/190Aipom_Dream_2.png",
@@ -6396,6 +6623,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2f/191Sunkern_Dream.png",
@@ -6424,6 +6652,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/71/192Sunflora_Dream.png",
@@ -6452,6 +6681,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/193Yanma_Dream.png",
@@ -6479,7 +6709,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 32", "Ruínas de Alfa", "Caverna da União"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d9/194Wooper_Dream.png",
@@ -6508,7 +6739,8 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Quatro, Área Cinco, Área Seis, e Alfornada Cavern", "East Province: Área Três, e Tagtree Thicket", "West Province: Área Três", "North Province: Área Um, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/194Wooper_Paldea_Dream.png",
@@ -6538,6 +6770,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/80/195Quagsire_Dream.png",
@@ -6566,6 +6799,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/53/196Espeon_Dream_2.png",
@@ -6594,6 +6828,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4b/197Umbreon_Dream_2.png",
@@ -6622,6 +6857,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7e/198Murkrow_Dream.png",
@@ -6649,7 +6885,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/199Slowking_Dream.png",
@@ -6677,7 +6914,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/72/199Slowking_Galar_Dream.png",
@@ -6706,6 +6944,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/94/200Misdreavus_Dream_2.png",
@@ -6734,6 +6973,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/201Unown_A_Dream.png",
@@ -6789,6 +7029,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a9/202Wobbuffet_Dream.png",
@@ -6817,6 +7058,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/91/203Girafarig_Dream.png",
@@ -6845,6 +7087,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9d/204Pineco_Dream.png",
@@ -6873,6 +7116,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8b/205Forretress_Dream.png",
@@ -6901,6 +7145,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/206Dunsparce_Dream.png",
@@ -6929,6 +7174,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f8/207Gligar_Dream.png",
@@ -6957,6 +7203,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a5/208Steelix_Dream.png",
@@ -6985,6 +7232,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c2/209Snubbull_Dream.png",
@@ -7013,6 +7261,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ef/210Granbull_Dream.png",
@@ -7040,7 +7289,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, 13, e 32"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b3/211Qwilfish_Dream.png",
@@ -7069,7 +7319,8 @@ const pkmnDisponiveis = [
 			["Obsidian Fieldlands: próximo a Ramanas Island", "Cobalt Coastlands: próximo a Bather's Lagoon, próximo a Hideaway Bay, próximo a Tombolo Walk, próximo a Sand's Reach, Tranquility Cove, Islespy Shore e próximo, Lunker's Lair, próximo a Seagrass Haven, e próximo a Firespit Island"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/19/211Qwilfish-Hisui_Dream.png",
@@ -7098,6 +7349,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5e/212Scizor_Dream_2.png",
@@ -7126,6 +7378,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/87/213Shuckle_Dream.png",
@@ -7154,6 +7407,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/28/214Heracross_Dream.png",
@@ -7181,7 +7435,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 28", "Monte Prata", "Caminho Gelado"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/215Sneasel_Dream.png",
@@ -7210,7 +7465,8 @@ const pkmnDisponiveis = [
 			["Coronet Highlands: próximo a Celestica Trail, e próximo a Primeval Grotto", "Alabaster Icelands: próximo a Avalugg's Legacy, Glacier Terrace, e próximo a Pearl Settlement"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/30/215Sneasel-Hisui_Dream.png",
@@ -7239,6 +7495,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/216Teddiursa_Dream.png",
@@ -7268,6 +7525,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/12/217Ursaring_Dream.png",
@@ -7296,6 +7554,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/218Slugma_Dream.png",
@@ -7324,6 +7583,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e3/219Magcargo_Dream.png",
@@ -7352,6 +7612,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/220Swinub_Dream.png",
@@ -7380,6 +7641,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5d/221Piloswine_Dream.png",
@@ -7407,7 +7669,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 19, 34, e 40", "Caverna da União"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c7/222Corsola_Dream.png",
@@ -7435,7 +7698,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9f/222Corsola_Galar_Dream.png",
@@ -7464,6 +7728,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b7/223Remoraid_Dream.png",
@@ -7492,6 +7757,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6f/224Octillery_Dream.png",
@@ -7520,6 +7786,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/40/225Delibird_Dream.png",
@@ -7548,6 +7815,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2e/226Mantine_Dream.png",
@@ -7576,6 +7844,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2b/227Skarmory_Dream.png",
@@ -7604,6 +7873,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4f/228Houndour_Dream.png",
@@ -7632,6 +7902,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9a/229Houndoom_Dream.png",
@@ -7660,6 +7931,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b1/230Kingdra_Dream.png",
@@ -7688,6 +7960,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cd/231Phanpy_Dream.png",
@@ -7717,6 +7990,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fd/232Donphan_Dream.png",
@@ -7745,6 +8019,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/31/233Porygon2_Dream.png",
@@ -7773,6 +8048,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/05/234Stantler_Dream_2.png",
@@ -7801,6 +8077,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/235Smeargle_Dream.png",
@@ -7829,6 +8106,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7e/236Tyrogue_Dream.png",
@@ -7857,6 +8135,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/73/237Hitmontop_Dream.png",
@@ -7885,6 +8164,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/76/238Smoochum_Dream.png",
@@ -7913,6 +8193,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/51/239Elekid_Dream.png",
@@ -7941,6 +8222,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9a/240Magby_Dream_2.png",
@@ -7969,6 +8251,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/29/241Miltank_Dream_2.png",
@@ -7997,6 +8280,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1d/242Blissey_Dream.png",
@@ -8025,6 +8309,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/da/243Raikou_Dream.png",
@@ -8053,6 +8338,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/ca/244Entei_Dream.png",
@@ -8081,6 +8367,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/245Suicune_Dream_2.png",
@@ -8109,6 +8396,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b5/246Larvitar_Dream.png",
@@ -8137,6 +8425,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/be/247Pupitar_Dream.png",
@@ -8165,6 +8454,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4b/248Tyranitar_Dream.png",
@@ -8193,6 +8483,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bd/249Lugia_Dream.png",
@@ -8221,6 +8512,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5f/250Ho-Oh_Dream.png",
@@ -8249,6 +8541,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/af/251Celebi_Dream_3.png",
@@ -8277,6 +8570,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/252Treecko_Dream.png",
@@ -8305,6 +8599,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4e/253Grovyle_Dream.png",
@@ -8333,6 +8628,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6d/254Sceptile_Dream.png",
@@ -8361,6 +8657,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/54/255Torchic_Dream.png",
@@ -8389,6 +8686,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/ce/256Combusken_Dream.png",
@@ -8417,6 +8715,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/257Blaziken_Dream.png",
@@ -8445,6 +8744,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/258Mudkip_Dream.png",
@@ -8473,6 +8773,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/259Marshtomp_Dream.png",
@@ -8501,6 +8802,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/260Swampert_Dream.png",
@@ -8529,6 +8831,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/53/261Poochyena_Dream.png",
@@ -8557,6 +8860,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/47/262Mightyena_Dream.png",
@@ -8584,7 +8888,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 101, 102, 103, e outras", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/27/263Zigzagoon_Dream.png",
@@ -8612,7 +8917,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, e 3", "Bridge Field", "Giant's Cap", "Stony Wilderness"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/86/263Zigzagoon_Galar_Dream.png",
@@ -8640,7 +8946,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 118, 119, 120, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9e/264Linoone_Dream.png",
@@ -8669,7 +8976,8 @@ const pkmnDisponiveis = [
 			["Giant's Cap", "Giant's Bed", "Bridge Field", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3d/264Linoone_Galar_Dream.png",
@@ -8698,6 +9006,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ef/265Wurmple_Dream.png",
@@ -8726,6 +9035,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bc/266Silcoon_Dream.png",
@@ -8754,6 +9064,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/267Beautifly_Dream.png",
@@ -8782,6 +9093,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5b/268Cascoon_Dream.png",
@@ -8810,6 +9122,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6a/269Dustox_Dream.png",
@@ -8838,6 +9151,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/86/270Lotad_Dream.png",
@@ -8866,6 +9180,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e9/271Lombre_Dream.png",
@@ -8894,6 +9209,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/30/272Ludicolo_Dream.png",
@@ -8922,6 +9238,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c0/273Seedot_Dream.png",
@@ -8950,6 +9267,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/274Nuzleaf_Dream.png",
@@ -8978,6 +9296,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/22/275Shiftry_Dream.png",
@@ -9006,6 +9325,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/276Taillow_Dream_2.png",
@@ -9034,6 +9354,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/50/277Swellow_Dream_2.png",
@@ -9062,6 +9383,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/278Wingull_Dream.png",
@@ -9090,6 +9412,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/279Pelipper_Dream.png",
@@ -9118,6 +9441,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/53/280Ralts_Dream.png",
@@ -9146,6 +9470,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/51/281Kirlia_Dream.png",
@@ -9174,6 +9499,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b6/282Gardevoir_Dream.png",
@@ -9202,6 +9528,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b8/283Surskit_Dream.png",
@@ -9230,6 +9557,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/284Masquerain_Dream.png",
@@ -9258,6 +9586,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/02/285Shroomish_Dream.png",
@@ -9286,6 +9615,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/286Breloom_Dream.png",
@@ -9314,6 +9644,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c8/287Slakoth_Dream.png",
@@ -9342,6 +9673,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9a/288Vigoroth_Dream.png",
@@ -9370,6 +9702,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4e/289Slaking_Dream.png",
@@ -9398,6 +9731,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c4/290Nincada_Dream.png",
@@ -9426,6 +9760,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/291Ninjask_Dream.png",
@@ -9454,6 +9789,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/292Shedinja_Dream.png",
@@ -9482,6 +9818,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/293Whismur_Dream.png",
@@ -9510,6 +9847,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/78/294Loudred_Dream.png",
@@ -9538,6 +9876,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/19/295Exploud_Dream.png",
@@ -9566,6 +9905,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e4/296Makuhita_Dream_2.png",
@@ -9594,6 +9934,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/297Hariyama_Dream.png",
@@ -9622,6 +9963,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/31/298Azurill_Dream.png",
@@ -9650,6 +9992,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/299Nosepass_Dream.png",
@@ -9678,6 +10021,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/37/300Skitty_Dream.png",
@@ -9706,6 +10050,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2a/301Delcatty_Dream.png",
@@ -9735,6 +10080,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/302Sableye_Dream.png",
@@ -9764,6 +10110,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3f/303Mawile_Dream.png",
@@ -9792,6 +10139,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/13/304Aron_Dream.png",
@@ -9820,6 +10168,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/09/305Lairon_Dream.png",
@@ -9848,6 +10197,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/69/306Aggron_Dream.png",
@@ -9876,6 +10226,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a2/307Meditite_Dream.png",
@@ -9904,6 +10255,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e9/308Medicham_Dream.png",
@@ -9932,6 +10284,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/309Electrike_Dream.png",
@@ -9960,6 +10313,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/310Manectric_Dream.png",
@@ -9988,6 +10342,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4a/311Plusle_Dream.png",
@@ -10016,6 +10371,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/be/312Minun_Dream.png",
@@ -10044,6 +10400,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0c/313Volbeat_Dream.png",
@@ -10072,6 +10429,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/71/314Illumise_Dream.png",
@@ -10100,6 +10458,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/87/315Roselia_Dream.png",
@@ -10128,6 +10487,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8e/316Gulpin_Dream.png",
@@ -10156,6 +10516,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/317Swalot_Dream.png",
@@ -10184,6 +10545,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/50/318Carvanha_Dream.png",
@@ -10212,6 +10574,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2f/319Sharpedo_Dream.png",
@@ -10241,6 +10604,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/85/320Wailmer_Dream.png",
@@ -10269,6 +10633,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/66/321Wailord_Dream.png",
@@ -10297,6 +10662,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4a/322Numel_Dream.png",
@@ -10325,6 +10691,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0e/323Camerupt_Dream.png",
@@ -10353,6 +10720,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/15/324Torkoal_Dream.png",
@@ -10381,6 +10749,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/325Spoink_Dream.png",
@@ -10409,6 +10778,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8a/326Grumpig_Dream.png",
@@ -10437,6 +10807,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6b/327Spinda_Dream.png",
@@ -10465,6 +10836,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ae/328Trapinch_Dream.png",
@@ -10493,6 +10865,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/51/329Vibrava_Dream.png",
@@ -10521,6 +10894,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a8/330Flygon_Dream.png",
@@ -10549,6 +10923,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/331Cacnea_Dream.png",
@@ -10577,6 +10952,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/26/332Cacturne_Dream.png",
@@ -10605,6 +10981,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a1/333Swablu_Dream.png",
@@ -10633,6 +11010,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/334Altaria_Dream.png",
@@ -10661,6 +11039,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/03/335Zangoose_Dream.png",
@@ -10689,6 +11068,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/03/336Seviper_Dream.png",
@@ -10717,6 +11097,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/337Lunatone_Dream.png",
@@ -10745,6 +11126,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7f/338Solrock_Dream.png",
@@ -10774,6 +11156,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/00/339Barboach_Dream.png",
@@ -10802,6 +11185,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/af/340Whiscash_Dream.png",
@@ -10830,6 +11214,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/43/341Corphish_Dream.png",
@@ -10858,6 +11243,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/92/342Crawdaunt_Dream.png",
@@ -10886,6 +11272,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/28/343Baltoy_Dream.png",
@@ -10914,6 +11301,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/344Claydol_Dream.png",
@@ -10942,6 +11330,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f6/345Lileep_Dream.png",
@@ -10970,6 +11359,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/84/346Cradily_Dream.png",
@@ -10998,6 +11388,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/347Anorith_Dream.png",
@@ -11026,6 +11417,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e3/348Armaldo_Dream.png",
@@ -11054,6 +11446,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/23/349Feebas_Dream.png",
@@ -11082,6 +11475,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f8/350Milotic_Dream.png",
@@ -11107,10 +11501,11 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			["Laboratório de Meteorologia", "Durante a batalha, o tempo estar limpo, com neblina, com tempestade de areia, ou com shadowy aura"],
+			["Laboratório de Meteorologia e, durante a batalha, o tempo estar limpo, com neblina, com tempestade de areia, ou com shadowy aura"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/14/351Castform_Normal_Dream.png",
@@ -11136,10 +11531,11 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			["Laboratório de Meteorologia", "Durante a batalha, o clima ser de sol forte"],
+			["Laboratório de Meteorologia e, durante a batalha, o clima ser de sol forte"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7a/351Castform_Sunny_Form_Dream.png",
@@ -11165,10 +11561,11 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			["Laboratório de Meteorologia", "Durante a batalha, estar chovendo"],
+			["Laboratório de Meteorologia e, durante a batalha, estar chovendo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b2/351Castform_Rainy_Form_Dream.png",
@@ -11194,10 +11591,11 @@ const pkmnDisponiveis = [
 			"Sua aparência muda com o clima. Este Pokémon ganhou a habilidade de usar o vasto poder da natureza para proteger minúsculo corpo.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Clima",
 		obtencao:
-			["Laboratório de Meteorologia", "Durante a batalha", "estar chovendo granizo"],
+			["Laboratório de Meteorologia e, durante a batalha, estar chovendo granizo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3d/351Castform_Snowy_Form_Dream.png",
@@ -11226,6 +11624,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/80/352Kecleon_Dream.png",
@@ -11254,6 +11653,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/74/353Shuppet_Dream.png",
@@ -11282,6 +11682,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/53/354Banette_Dream.png",
@@ -11310,6 +11711,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/37/355Duskull_Dream.png",
@@ -11338,6 +11740,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c2/356Dusclops_Dream.png",
@@ -11366,6 +11769,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fe/357Tropius_Dream.png",
@@ -11394,6 +11798,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f0/358Chimecho_Dream.png",
@@ -11422,6 +11827,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/aa/359Absol_Dream.png",
@@ -11450,6 +11856,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/42/360Wynaut_Dream.png",
@@ -11478,6 +11885,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/88/361Snorunt_Dream.png",
@@ -11506,6 +11914,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dc/362Glalie_Dream.png",
@@ -11534,6 +11943,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/94/363Spheal_Dream.png",
@@ -11562,6 +11972,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7d/364Sealeo_Dream.png",
@@ -11590,6 +12001,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/83/365Walrein_Dream.png",
@@ -11618,6 +12030,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d6/366Clamperl_Dream.png",
@@ -11646,6 +12059,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/05/367Huntail_Dream.png",
@@ -11674,6 +12088,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6f/368Gorebyss_Dream.png",
@@ -11702,6 +12117,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f2/369Relicanth_Dream.png",
@@ -11730,6 +12146,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/370Luvdisc_Dream.png",
@@ -11758,6 +12175,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/49/371Bagon_Dream.png",
@@ -11786,6 +12204,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/40/372Shelgon_Dream.png",
@@ -11814,6 +12233,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/373Salamence_Dream.png",
@@ -11842,6 +12262,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4e/374Beldum_Dream.png",
@@ -11870,6 +12291,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3a/375Metang_Dream.png",
@@ -11898,6 +12320,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/376Metagross_Dream.png",
@@ -11926,6 +12349,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b2/377Regirock_Dream.png",
@@ -11954,6 +12378,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/58/378Regice_Dream.png",
@@ -11982,6 +12407,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/51/379Registeel_Dream.png",
@@ -12010,6 +12436,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9f/380Latias_Dream.png",
@@ -12038,6 +12465,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/86/381Latios_Dream.png",
@@ -12066,6 +12494,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dc/382Kyogre_Dream_5.png",
@@ -12094,6 +12523,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/15/383Groudon_Dream_5.png",
@@ -12122,6 +12552,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b3/384Rayquaza_Dream.png",
@@ -12150,6 +12581,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fc/385Jirachi_Dream_2.png",
@@ -12178,6 +12610,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8b/386Deoxys_Normal_Forme_Dream.png",
@@ -12206,6 +12639,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1f/386Deoxys_Attack_Forme_Dream.png",
@@ -12234,6 +12668,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b9/386Deoxys_Defense_Forme_Dream.png",
@@ -12262,6 +12697,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/28/386Deoxys_Speed_Forme_Dream.png",
@@ -12290,6 +12726,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d5/387Turtwig_Dream.png",
@@ -12318,6 +12755,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/40/388Grotle_Dream.png",
@@ -12346,6 +12784,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cb/389Torterra_Dream.png",
@@ -12374,6 +12813,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/390Chimchar_Dream.png",
@@ -12402,6 +12842,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c4/391Monferno_Dream.png",
@@ -12430,6 +12871,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3f/392Infernape_Dream.png",
@@ -12458,6 +12900,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3b/393Piplup_Dream.png",
@@ -12486,6 +12929,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9e/394Prinplup_Dream.png",
@@ -12514,6 +12958,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a0/395Empoleon_Dream.png",
@@ -12542,6 +12987,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/396Starly_Dream.png",
@@ -12571,6 +13017,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/18/397Staravia_Dream.png",
@@ -12599,6 +13046,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e7/398Staraptor_Dream.png",
@@ -12628,6 +13076,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8d/399Bidoof_Dream.png",
@@ -12657,6 +13106,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/400Bibarel_Dream.png",
@@ -12685,6 +13135,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4a/401Kricketot_Dream.png",
@@ -12714,6 +13165,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/402Kricketune_Dream.png",
@@ -12742,6 +13194,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/58/403Shinx_Dream.png",
@@ -12770,6 +13223,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/66/404Luxio_Dream.png",
@@ -12798,6 +13252,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/405Luxray_Dream.png",
@@ -12827,6 +13282,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3f/406Budew_Dream.png",
@@ -12855,6 +13311,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/52/407Roserade_Dream.png",
@@ -12883,6 +13340,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e3/408Cranidos_Dream.png",
@@ -12911,6 +13369,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/39/409Rampardos_Dream.png",
@@ -12939,6 +13398,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/52/410Shieldon_Dream.png",
@@ -12967,6 +13427,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a8/411Bastiodon_Dream.png",
@@ -12996,6 +13457,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3a/412Burmy_Plant_Cloak_Dream.png",
@@ -13026,6 +13488,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/413Wormadam_Plant_Cloak_Dream.png",
@@ -13054,6 +13517,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bd/413Wormadam_Sandy_Cloak_Dream.png",
@@ -13082,6 +13546,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/30/413Wormadam_Trash_Cloak_Dream.png",
@@ -13110,6 +13575,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6d/414Mothim_Dream.png",
@@ -13139,6 +13605,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8c/415Combee_Dream.png",
@@ -13167,6 +13634,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1d/416Vespiquen_Dream.png",
@@ -13195,6 +13663,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7a/417Pachirisu_Dream.png",
@@ -13223,6 +13692,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/28/418Buizel_Dream.png",
@@ -13252,6 +13722,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/419Floatzel_Dream.png",
@@ -13281,6 +13752,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/420Cherubi_Dream.png",
@@ -13309,6 +13781,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/421Cherrim_Overcast_Form_Dream.png",
@@ -13338,6 +13811,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d7/422Shellos_East_Sea_Dream.png",
@@ -13367,6 +13841,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/423Gastrodon_East_Sea_Dream.png",
@@ -13396,6 +13871,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/02/424Ambipom_Dream.png",
@@ -13424,6 +13900,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/45/425Drifloon_Dream.png",
@@ -13452,6 +13929,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0c/426Drifblim_Dream.png",
@@ -13480,6 +13958,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ab/427Buneary_Dream.png",
@@ -13508,6 +13987,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0a/428Lopunny_Dream.png",
@@ -13536,6 +14016,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f9/429Mismagius_Dream.png",
@@ -13564,6 +14045,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4a/430Honchkrow_Dream.png",
@@ -13592,6 +14074,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ae/431Glameow_Dream.png",
@@ -13620,6 +14103,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/432Purugly_Dream.png",
@@ -13649,6 +14133,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dc/433Chingling_Dream.png",
@@ -13677,6 +14162,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/27/434Stunky_Dream.png",
@@ -13705,6 +14191,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/435Skuntank_Dream.png",
@@ -13734,6 +14221,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/af/436Bronzor_Dream.png",
@@ -13762,6 +14250,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a5/437Bronzong_Dream.png",
@@ -13790,6 +14279,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/thumb/4/47/0438Bonsly.png/375px-0438Bonsly.png",
@@ -13818,6 +14308,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/80/439Mime_Jr._Dream.png",
@@ -13846,6 +14337,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/50/440Happiny_Dream.png",
@@ -13874,6 +14366,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/11/441Chatot_Dream.png",
@@ -13902,6 +14395,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/84/442Spiritomb_Dream.png",
@@ -13930,6 +14424,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0d/443Gible_Dream.png",
@@ -13958,6 +14453,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a0/444Gabite_Dream.png",
@@ -13986,6 +14482,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/58/445Garchomp_Dream.png",
@@ -14015,6 +14512,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/53/446Munchlax_Dream.png",
@@ -14043,6 +14541,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/447Riolu_Dream.png",
@@ -14071,6 +14570,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/44/448Lucario_Dream.png",
@@ -14099,6 +14599,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/28/449Hippopotas_Dream.png",
@@ -14127,6 +14628,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c8/450Hippowdon_Dream.png",
@@ -14155,6 +14657,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0b/451Skorupi_Dream.png",
@@ -14183,6 +14686,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/78/452Drapion_Dream.png",
@@ -14211,6 +14715,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/75/453Croagunk_Dream.png",
@@ -14239,6 +14744,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c4/454Toxicroak_Dream.png",
@@ -14267,6 +14773,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5b/455Carnivine_Dream.png",
@@ -14296,6 +14803,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dc/456Finneon_Dream.png",
@@ -14325,6 +14833,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/94/457Lumineon_Dream.png",
@@ -14353,6 +14862,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0d/458Mantyke_Dream.png",
@@ -14382,6 +14892,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/85/459Snover_Dream.png",
@@ -14410,6 +14921,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/77/460Abomasnow_Dream.png",
@@ -14438,6 +14950,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c6/461Weavile_Dream.png",
@@ -14466,6 +14979,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/462Magnezone_Dream.png",
@@ -14494,6 +15008,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b8/463Lickilicky_Dream.png",
@@ -14522,6 +15037,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/02/464Rhyperior_Dream.png",
@@ -14550,6 +15066,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/42/465Tangrowth_Dream.png",
@@ -14578,6 +15095,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/35/466Electivire_Dream.png",
@@ -14606,6 +15124,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8e/467Magmortar_Dream.png",
@@ -14634,6 +15153,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4b/468Togekiss_Dream.png",
@@ -14662,6 +15182,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7a/469Yanmega_Dream.png",
@@ -14690,6 +15211,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/41/470Leafeon_Dream.png",
@@ -14718,6 +15240,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/24/471Glaceon_Dream_2.png",
@@ -14746,6 +15269,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2f/472Gliscor_Dream.png",
@@ -14774,6 +15298,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/51/473Mamoswine_Dream.png",
@@ -14802,6 +15327,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8a/474Porygon-Z_Dream.png",
@@ -14830,6 +15356,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/475Gallade_Dream.png",
@@ -14858,6 +15385,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a5/476Probopass_Dream.png",
@@ -14886,6 +15414,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/477Dusknoir_Dream.png",
@@ -14914,6 +15443,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/78/478Froslass_Dream.png",
@@ -14942,6 +15472,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/01/479Rotom_Normal_Forme_Dream.png",
@@ -14970,6 +15501,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4a/479Rotom_Heat_Rotom_Dream.png",
@@ -14998,6 +15530,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/52/479Rotom_Wash_Rotom_Dream.png",
@@ -15026,6 +15559,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a9/479Rotom_Frost_Rotom_Dream.png",
@@ -15054,6 +15588,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9e/479Rotom_Fan_Rotom_Dream.png",
@@ -15082,6 +15617,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/06/479Rotom_Mow_Rotom_Dream.png",
@@ -15110,6 +15646,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b2/480Uxie_Dream.png",
@@ -15138,6 +15675,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/04/481Mesprit_Dream.png",
@@ -15166,6 +15704,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d5/482Azelf_Dream.png",
@@ -15194,6 +15733,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c9/483Dialga_Dream_2.png",
@@ -15222,6 +15762,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/43/484Palkia_Dream_2.png",
@@ -15250,6 +15791,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/41/485Heatran_Dream.png",
@@ -15278,6 +15820,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/eb/486Regigigas_Dream.png",
@@ -15306,6 +15849,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e9/487Giratina_Altered_Forme_Dream.png",
@@ -15330,10 +15874,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Foi banido por sua violência. Silenciosamente olhou para o velho mundo do Mundo Distorcido.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Renegado",
-		obtencao: ["Mundo Distorcido e segurar Griseous Orb"],
+		obtencao: ["Mundo Distorcido e segurar o item 'Griseous Orb'"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9c/487Giratina_Origin_Forme_Dream.png",
@@ -15362,6 +15907,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/12/488Cresselia_Dream.png",
@@ -15390,6 +15936,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/489Phione_Dream.png",
@@ -15418,6 +15965,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/490Manaphy_Dream.png",
@@ -15446,6 +15994,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e5/491Darkrai_Dream.png",
@@ -15474,6 +16023,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6d/492Shaymin_Land_Forme_Dream.png",
@@ -15498,10 +16048,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Vive em canteiros de flores e evita ser detectada, enrolando-se para parecer uma planta com flores.",
 		categoria: "Pokémon Gratidão",
-		obtencao: ["Paraíso das Flores"],
+		obtencao: ["Paraíso das Flores e usar o item 'Glacídea' durante o dia"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bc/492Shaymin_Sky_Forme_Dream.png",
@@ -15530,6 +16081,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/40/493Arceus_Normal_Dream.png",
@@ -15558,6 +16110,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/be/494Victini_Dream_2.png",
@@ -15586,6 +16139,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/495Snivy_Dream.png",
@@ -15614,6 +16168,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/496Servine_Dream.png",
@@ -15642,6 +16197,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a0/497Serperior_Dream.png",
@@ -15670,6 +16226,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/498Tepig_Dream.png",
@@ -15698,6 +16255,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/72/499Pignite_Dream.png",
@@ -15726,6 +16284,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/12/500Emboar_Dream.png",
@@ -15754,6 +16313,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e3/501Oshawott_Dream.png",
@@ -15782,6 +16342,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9f/502Dewott_Dream.png",
@@ -15809,7 +16370,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7a/503Samurott_Dream.png",
@@ -15837,7 +16399,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Alabaster Icelands: Space-time distortions"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/503Samurott_Hisui_Dream.png",
@@ -15867,6 +16430,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/24/504Patrat_Dream.png",
@@ -15896,6 +16460,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/33/505Watchog_Dream.png",
@@ -15924,6 +16489,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/58/506Lillipup_Dream.png",
@@ -15953,6 +16519,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/49/507Herdier_Dream.png",
@@ -15982,6 +16549,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e0/508Stoutland_Dream.png",
@@ -16010,6 +16578,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4b/509Purrloin_Dream.png",
@@ -16038,6 +16607,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f8/510Liepard_Dream.png",
@@ -16067,6 +16637,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2f/511Pansage_Dream.png",
@@ -16095,6 +16666,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/18/512Simisage_Dream.png",
@@ -16124,6 +16696,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a0/513Pansear_Dream.png",
@@ -16152,6 +16725,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/514Simisear_Dream.png",
@@ -16181,6 +16755,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d0/515Panpour_Dream.png",
@@ -16209,6 +16784,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/516Simipour_Dream.png",
@@ -16237,6 +16813,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f2/517Munna_Dream.png",
@@ -16265,6 +16842,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8e/518Musharna_Dream.png",
@@ -16294,6 +16872,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9c/519Pidove_Dream.png",
@@ -16323,6 +16902,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/96/520Tranquill_Dream.png",
@@ -16352,6 +16932,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2e/0521Unfezant-Male.png",
@@ -16381,6 +16962,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/522Blitzle_Dream.png",
@@ -16409,6 +16991,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/523Zebstrika_Dream.png",
@@ -16437,6 +17020,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/92/524Roggenrola_Dream.png",
@@ -16466,6 +17050,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9d/525Boldore_Dream.png",
@@ -16494,6 +17079,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/526Gigalith_Dream.png",
@@ -16523,6 +17109,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/35/527Woobat_Dream.png",
@@ -16551,6 +17138,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/36/528Swoobat_Dream.png",
@@ -16580,6 +17168,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/529Drilbur_Dream.png",
@@ -16609,6 +17198,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/78/530Excadrill_Dream.png",
@@ -16638,6 +17228,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/98/531Audino_Dream.png",
@@ -16666,6 +17257,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/532Timburr_Dream.png",
@@ -16695,6 +17287,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/46/533Gurdurr_Dream.png",
@@ -16723,6 +17316,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/89/534Conkeldurr_Dream.png",
@@ -16751,6 +17345,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/22/535Tympole_Dream.png",
@@ -16779,6 +17374,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/47/536Palpitoad_Dream.png",
@@ -16807,6 +17403,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/af/537Seismitoad_Dream.png",
@@ -16836,6 +17433,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6d/538Throh_Dream.png",
@@ -16865,6 +17463,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/93/539Sawk_Dream.png",
@@ -16893,6 +17492,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b5/540Sewaddle_Dream.png",
@@ -16921,6 +17521,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a3/541Swadloon_Dream.png",
@@ -16949,6 +17550,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5a/542Leavanny_Dream.png",
@@ -16977,6 +17579,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/25/543Venipede_Dream.png",
@@ -17005,6 +17608,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c2/544Whirlipede_Dream.png",
@@ -17033,6 +17637,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/09/545Scolipede_Dream.png",
@@ -17062,6 +17667,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dc/546Cottonee_Dream.png",
@@ -17091,6 +17697,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/547Whimsicott_Dream.png",
@@ -17120,6 +17727,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b2/548Petilil_Dream.png",
@@ -17148,7 +17756,8 @@ const pkmnDisponiveis = [
 			["Floresta Pinwheel", "Lostlorn Forest", "Abundant Shrine", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/41/549Lilligant_Dream.png",
@@ -17176,7 +17785,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/549Lilligant-Hisui_Dream.png",
@@ -17206,6 +17816,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9c/550Basculin_Blue_Stripe_Form_Dream.png",
@@ -17236,6 +17847,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5f/551Sandile_Dream.png",
@@ -17264,6 +17876,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e5/552Krokorok_Dream.png",
@@ -17292,6 +17905,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/553Krookodile_Dream.png",
@@ -17319,7 +17933,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 4", "Resort do Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/554Darumaka_Dream.png",
@@ -17347,7 +17962,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 8, e 10", "Snowslide Slope"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/554Darumaka_Galar_Dream.png",
@@ -17376,6 +17992,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/555Darmanitan_Dream.png",
@@ -17404,6 +18021,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6b/555Darmanitan_Zen_Mode_Dream.png",
@@ -17432,6 +18050,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/32/555Darmanitan_Galar_Dream.png",
@@ -17460,6 +18079,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/88/555Darmanitan-Galar-Zen_Dream.png",
@@ -17488,6 +18108,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/87/556Maractus_Dream.png",
@@ -17516,6 +18137,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/557Dwebble_Dream.png",
@@ -17544,6 +18166,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/558Crustle_Dream.png",
@@ -17572,6 +18195,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/559Scraggy_Dream.png",
@@ -17600,6 +18224,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/560Scrafty_Dream.png",
@@ -17628,6 +18253,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/561Sigilyph_Dream.png",
@@ -17655,7 +18281,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Castelo Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/562Yamask_Dream.png",
@@ -17683,7 +18310,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cb/562Yamask_Galar_Dream.png",
@@ -17712,6 +18340,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b1/563Cofagrigus_Dream.png",
@@ -17740,6 +18369,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/28/564Tirtouga_Dream.png",
@@ -17768,6 +18398,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/565Carracosta_Dream.png",
@@ -17796,6 +18427,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/12/566Archen_Dream.png",
@@ -17824,6 +18456,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9f/567Archeops_Dream.png",
@@ -17852,6 +18485,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e5/568Trubbish_Dream.png",
@@ -17880,6 +18514,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/85/569Garbodor_Dream.png",
@@ -17907,7 +18542,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Cidade de Castelia", "Recebido em Cidade de Driftveil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/570Zorua_Dream.png",
@@ -17936,7 +18572,8 @@ const pkmnDisponiveis = [
 			["Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, e Icepeak Cavern"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/570Zorua_Hisui_Dream.png",
@@ -17964,7 +18601,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Lostlorn Forest", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/571Zoroark_Dream.png",
@@ -17993,7 +18631,8 @@ const pkmnDisponiveis = [
 			["Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, Icepeak Cavern, e Lake Acuity"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/75/571Zoroark-Hisui_Dream.png",
@@ -18022,6 +18661,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/572Minccino_Dream.png",
@@ -18050,6 +18690,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/573Cinccino_Dream.png",
@@ -18078,6 +18719,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4f/574Gothita_Dream.png",
@@ -18106,6 +18748,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/27/575Gothorita_Dream.png",
@@ -18134,6 +18777,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/72/576Gothitelle_Dream.png",
@@ -18162,6 +18806,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0f/577Solosis_Dream.png",
@@ -18190,6 +18835,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c6/578Duosion_Dream.png",
@@ -18218,6 +18864,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5a/579Reuniclus_Dream.png",
@@ -18246,6 +18893,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c7/580Ducklett_Dream.png",
@@ -18274,6 +18922,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/581Swanna_Dream.png",
@@ -18302,6 +18951,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/582Vanillite_Dream.png",
@@ -18330,6 +18980,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/47/583Vanillish_Dream.png",
@@ -18358,6 +19009,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d4/584Vanilluxe_Dream.png",
@@ -18386,6 +19038,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/585Deerling_Autumn_Form_Dream.png",
@@ -18417,6 +19070,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d5/586Sawsbuck_Autumn_Form_Dream.png",
@@ -18449,6 +19103,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/87/587Emolga_Dream.png",
@@ -18477,6 +19132,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/588Karrablast_Dream.png",
@@ -18505,6 +19161,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c0/589Escavalier_Dream.png",
@@ -18533,6 +19190,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ea/590Foongus_Dream.png",
@@ -18562,6 +19220,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6d/591Amoonguss_Dream.png",
@@ -18591,6 +19250,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/aa/592Frillish_Female_Dream.png",
@@ -18621,6 +19281,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/74/593Jellicent_Female_Dream.png",
@@ -18650,6 +19311,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5b/594Alomomola_Dream.png",
@@ -18678,6 +19340,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/de/595Joltik_Dream.png",
@@ -18706,6 +19369,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d5/596Galvantula_Dream.png",
@@ -18734,6 +19398,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9f/597Ferroseed_Dream.png",
@@ -18762,6 +19427,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dc/598Ferrothorn_Dream.png",
@@ -18790,6 +19456,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/23/599Klink_Dream.png",
@@ -18818,6 +19485,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a2/600Klang_Dream.png",
@@ -18846,6 +19514,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/601Klinklang_Dream.png",
@@ -18874,6 +19543,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/602Tynamo_Dream.png",
@@ -18902,6 +19572,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/94/603Eelektrik_Dream.png",
@@ -18930,6 +19601,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6a/604Eelektross_Dream.png",
@@ -18958,6 +19630,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/605Elgyem_Dream.png",
@@ -18986,6 +19659,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1d/606Beheeyem_Dream.png",
@@ -19014,6 +19688,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/73/607Litwick_Dream.png",
@@ -19042,6 +19717,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/608Lampent_Dream.png",
@@ -19070,6 +19746,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/609Chandelure_Dream.png",
@@ -19098,6 +19775,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a1/610Axew_Dream.png",
@@ -19126,6 +19804,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b0/611Fraxure_Dream.png",
@@ -19154,6 +19833,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ac/612Haxorus_Dream.png",
@@ -19182,6 +19862,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b3/613Cubchoo_Dream.png",
@@ -19210,6 +19891,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/eb/614Beartic_Dream.png",
@@ -19238,6 +19920,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5d/615Cryogonal_Dream.png",
@@ -19266,6 +19949,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/af/616Shelmet_Dream.png",
@@ -19294,6 +19978,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0a/617Accelgor_Dream.png",
@@ -19321,7 +20006,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Moor of Icirrus"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/618Stunfisk_Dream.png",
@@ -19350,7 +20036,8 @@ const pkmnDisponiveis = [
 			["Arvoredo Adormecido", "Galar Mine No. 2", "Dusty Bowl", "Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/618Stunfisk_Galar_Dream.png",
@@ -19379,6 +20066,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/96/619Mienfoo_Dream.png",
@@ -19407,6 +20095,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/48/620Mienshao_Dream.png",
@@ -19435,6 +20124,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9a/621Druddigon_Dream.png",
@@ -19463,6 +20153,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5b/622Golett_Dream.png",
@@ -19491,6 +20182,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cd/623Golurk_Dream.png",
@@ -19519,6 +20211,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/20/624Pawniard_Dream.png",
@@ -19547,6 +20240,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6e/625Bisharp_Dream.png",
@@ -19575,6 +20269,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/50/626Bouffalant_Dream.png",
@@ -19603,6 +20298,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/62/627Rufflet_Dream.png",
@@ -19630,7 +20326,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, e 11", "Vila da Ponte", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/21/628Braviary_Dream.png",
@@ -19658,7 +20355,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Alabaster Icelands: próximo ao Lago Perspicácia", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a4/628Braviary-Hisui_Dream.png",
@@ -19687,6 +20385,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6c/629Vullaby_Dream.png",
@@ -19715,6 +20414,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/630Mandibuzz_Dream.png",
@@ -19743,6 +20443,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c8/631Heatmor_Dream.png",
@@ -19772,6 +20473,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/632Durant_Dream.png",
@@ -19800,6 +20502,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/57/633Deino_Dream.png",
@@ -19828,6 +20531,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6d/634Zweilous_Dream.png",
@@ -19856,6 +20560,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2d/635Hydreigon_Dream.png",
@@ -19884,6 +20589,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e4/636Larvesta_Dream.png",
@@ -19912,6 +20618,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/62/637Volcarona_Dream.png",
@@ -19940,6 +20647,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a9/638Cobalion_Dream.png",
@@ -19968,6 +20676,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/639Terrakion_Dream.png",
@@ -19996,6 +20705,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/04/640Virizion_Dream.png",
@@ -20024,6 +20734,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/94/641Tornadus_Dream.png",
@@ -20052,6 +20763,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/30/641Tornadus_Therian_Dream.png",
@@ -20080,6 +20792,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8d/642Thundurus_Dream.png",
@@ -20108,6 +20821,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c2/642Thundurus_Therian_Dream.png",
@@ -20136,6 +20850,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4c/643Reshiram_Dream.png",
@@ -20164,6 +20879,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/18/644Zekrom_Dream.png",
@@ -20192,6 +20908,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/77/645Landorus_Dream.png",
@@ -20220,6 +20937,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b8/645Landorus_Therian_Dream.png",
@@ -20248,6 +20966,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/646Kyurem_Dream.png",
@@ -20276,6 +20995,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/646Kyurem_White_Dream.png",
@@ -20304,6 +21024,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dc/646Kyurem_Black_Dream.png",
@@ -20332,6 +21053,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6f/647Keldeo_Dream.png",
@@ -20361,6 +21083,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4e/648Meloetta_Dream.png",
@@ -20390,6 +21113,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/648Meloetta_P_Dream.png",
@@ -20418,6 +21142,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f3/649Genesect_Dream.png",
@@ -20450,6 +21175,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/650Chespin_Dream.png",
@@ -20478,6 +21204,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/79/651Quilladin_Dream.png",
@@ -20506,6 +21233,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d3/652Chesnaught_Dream.png",
@@ -20534,6 +21262,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1f/653Fennekin_Dream.png",
@@ -20562,6 +21291,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ab/654Braixen_Dream.png",
@@ -20590,6 +21320,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/94/655Delphox_Dream.png",
@@ -20618,6 +21349,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/27/656Froakie_Dream.png",
@@ -20646,6 +21378,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8f/657Frogadier_Dream.png",
@@ -20674,6 +21407,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e0/658Greninja_Dream.png",
@@ -20702,6 +21436,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f3/659Bunnelby_Dream.png",
@@ -20730,6 +21465,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d9/660Diggersby_Dream.png",
@@ -20758,6 +21494,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e4/661Fletchling_Dream.png",
@@ -20786,6 +21523,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/20/662Fletchinder_Dream.png",
@@ -20814,6 +21552,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f6/663Talonflame_Dream.png",
@@ -20842,6 +21581,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b3/664Scatterbug_Dream.png",
@@ -20870,6 +21610,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/20/665Spewpa_Dream.png",
@@ -20898,6 +21639,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/02/666Vivillon_Archipelago_Dream.png",
@@ -20945,6 +21687,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a8/667Litleo_Dream.png",
@@ -20973,6 +21716,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/04/668Pyroar_Female_WF.png",
@@ -21002,6 +21746,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/39/669Flab%C3%A9b%C3%A9_Blue_Flower_Dream.png",
@@ -21034,6 +21779,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/670Floette_Blue_Flower_Dream.png",
@@ -21066,6 +21812,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bc/671Florges_Blue_Flower_Dream.png",
@@ -21098,6 +21845,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/89/672Skiddo_Dream.png",
@@ -21126,6 +21874,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/673Gogoat_Dream.png",
@@ -21154,6 +21903,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4f/674Pancham_Dream.png",
@@ -21182,6 +21932,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/675Pangoro_Dream.png",
@@ -21210,6 +21961,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/676Furfrou_Dream.png",
@@ -21238,6 +21990,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/33/677Espurr_Dream.png",
@@ -21266,6 +22019,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6a/678Meowstic_Female_Dream.png",
@@ -21295,6 +22049,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/78/679Honedge_Dream.png",
@@ -21323,6 +22078,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/32/680Doublade_Dream.png",
@@ -21351,6 +22107,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5b/681Aegislash_Shield_Forme_Dream.png",
@@ -21379,6 +22136,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4e/681Aegislash_Blade_Forme_Dream.png",
@@ -21408,6 +22166,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/682Spritzee_Dream.png",
@@ -21436,6 +22195,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/683Aromatisse_Dream.png",
@@ -21464,6 +22224,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f5/684Swirlix_Dream.png",
@@ -21492,6 +22253,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a1/685Slurpuff_Dream.png",
@@ -21520,6 +22282,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/686Inkay_Dream.png",
@@ -21548,6 +22311,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2b/687Malamar_Dream.png",
@@ -21576,6 +22340,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/51/688Binacle_Dream.png",
@@ -21604,6 +22369,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/52/689Barbaracle_Dream.png",
@@ -21632,6 +22398,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/02/690Skrelp_Dream.png",
@@ -21660,6 +22427,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/39/691Dragalge_Dream.png",
@@ -21688,6 +22456,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/30/692Clauncher_Dream.png",
@@ -21716,6 +22485,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ec/693Clawitzer_Dream.png",
@@ -21744,6 +22514,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/20/694Helioptile_Dream.png",
@@ -21772,6 +22543,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cf/695Heliolisk_Dream.png",
@@ -21800,6 +22572,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/02/696Tyrunt_Dream.png",
@@ -21828,6 +22601,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e0/697Tyrantrum_Dream.png",
@@ -21856,6 +22630,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ef/698Amaura_Dream.png",
@@ -21884,6 +22659,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/699Aurorus_Dream.png",
@@ -21912,6 +22688,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/42/700Sylveon_Dream_2.png",
@@ -21940,6 +22717,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/701Hawlucha_Dream.png",
@@ -21968,6 +22746,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/702Dedenne_Dream.png",
@@ -21996,6 +22775,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/703Carbink_Dream.png",
@@ -22024,6 +22804,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/17/704Goomy_Dream.png",
@@ -22051,7 +22832,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 19", "Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/34/705Sliggoo_Dream.png",
@@ -22080,7 +22862,8 @@ const pkmnDisponiveis = [
 			["Crimson Mirelands: Holm of Trials, Ursa's Ring", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/97/705Sliggoo-Hisui_Dream_2.png",
@@ -22108,7 +22891,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a5/706Goodra_Dream.png",
@@ -22137,7 +22921,8 @@ const pkmnDisponiveis = [
 			["Obsidian Fieldlands: Lake Verity", "Crimson Mirelands", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/706Goodra_Hisui_Dream.png",
@@ -22166,6 +22951,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/707Klefki_Dream.png",
@@ -22194,6 +22980,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b5/708Phantump_Dream.png",
@@ -22222,6 +23009,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/709Trevenant_Dream.png",
@@ -22250,6 +23038,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3b/Menu_HOME_0710-Small.png",
@@ -22278,6 +23067,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b7/Menu_HOME_0710.png",
@@ -22306,6 +23096,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e8/Menu_HOME_0710-Large.png",
@@ -22334,6 +23125,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4d/Menu_HOME_0710-Super.png",
@@ -22362,6 +23154,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9e/Menu_HOME_0711-Small.png",
@@ -22390,6 +23183,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/db/Menu_HOME_0711.png",
@@ -22418,6 +23212,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/Menu_HOME_0711-Large.png",
@@ -22446,6 +23241,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f3/Menu_HOME_0711-Super.png",
@@ -22474,6 +23270,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/27/712Bergmite_Dream.png",
@@ -22501,7 +23298,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/713Avalugg_Dream.png",
@@ -22529,7 +23327,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Alabaster Icelands: Avalugg's Legacy", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/00/713Avalugg_Hisui_Dream.png",
@@ -22558,6 +23357,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c2/714Noibat_Dream.png",
@@ -22586,6 +23386,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/98/715Noivern_Dream.png",
@@ -22614,6 +23415,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/716Xerneas_Dream.png",
@@ -22642,6 +23444,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/98/717Yveltal_Dream.png",
@@ -22670,6 +23473,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f2/718Zygarde_10_Percent_Dream.png",
@@ -22698,6 +23502,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b1/718Zygarde_Dream.png",
@@ -22726,6 +23531,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/05/718Zygarde_Complete_Dream.png",
@@ -22754,6 +23560,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cf/719Diancie_Dream.png",
@@ -22782,6 +23589,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9b/720Hoopa-Confined_Dream.png",
@@ -22810,6 +23618,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f2/720Hoopa-Unbound_Dream.png",
@@ -22838,6 +23647,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/21/721Volcanion_Dream.png",
@@ -22866,6 +23676,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/26/722Rowlet_Dream.png",
@@ -22894,6 +23705,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e6/723Dartrix_Dream.png",
@@ -22921,7 +23733,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f7/724Decidueye_Dream.png",
@@ -22949,7 +23762,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Coronet Highlands: Space-time distortions", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/40/724Decidueye-Hisui_Dream.png",
@@ -22978,6 +23792,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/725Litten_Dream.png",
@@ -23006,6 +23821,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dd/726Torracat_Dream.png",
@@ -23034,6 +23850,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/727Incineroar_Dream.png",
@@ -23062,6 +23879,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0a/728Popplio_Dream.png",
@@ -23090,6 +23908,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/53/729Brionne_Dream.png",
@@ -23118,6 +23937,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ea/730Primarina_Dream.png",
@@ -23146,6 +23966,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a1/731Pikipek_Dream.png",
@@ -23175,6 +23996,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9c/732Trumbeak_Dream.png",
@@ -23203,6 +24025,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e6/733Toucannon_Dream.png",
@@ -23231,6 +24054,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3d/734Yungoos_Dream.png",
@@ -23260,6 +24084,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b8/735Gumshoos_Dream.png",
@@ -23288,6 +24113,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/57/736Grubbin_Dream.png",
@@ -23316,6 +24142,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/35/737Charjabug_Dream.png",
@@ -23344,6 +24171,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d4/738Vikavolt_Dream.png",
@@ -23373,6 +24201,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/91/739Crabrawler_Dream.png",
@@ -23401,6 +24230,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/37/740Crabominable_Dream.png",
@@ -23429,6 +24259,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/741Oricorio_Baile_Dream.png",
@@ -23457,6 +24288,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fc/741Oricorio_Pom-Pom_Dream.png",
@@ -23485,6 +24317,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e6/741Oricorio_Pa%27u_Dream.png",
@@ -23513,6 +24346,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/14/741Oricorio_Sensu_Dream.png",
@@ -23541,6 +24375,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7f/742Cutiefly_Dream.png",
@@ -23569,6 +24404,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fe/743Ribombee_Dream.png",
@@ -23597,6 +24433,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f9/744Rockruff_Dream.png",
@@ -23625,6 +24462,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f1/745Lycanroc_Midday_Dream.png",
@@ -23653,6 +24491,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cf/745Lycanroc_Midnight_Dream.png",
@@ -23681,6 +24520,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5e/745Lycanroc_Dusk_Dream.png",
@@ -23710,6 +24550,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/75/746Wishiwashi_Solo_Dream.png",
@@ -23739,6 +24580,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cd/746Wishiwashi_School_Dream.png",
@@ -23767,6 +24609,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/97/747Mareanie_Dream.png",
@@ -23795,6 +24638,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/748Toxapex_Dream.png",
@@ -23823,6 +24667,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6e/749Mudbray_Dream.png",
@@ -23851,6 +24696,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/750Mudsdale_Dream.png",
@@ -23879,6 +24725,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fd/751Dewpider_Dream.png",
@@ -23907,6 +24754,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/84/752Araquanid_Dream.png",
@@ -23935,6 +24783,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bf/753Fomantis_Dream.png",
@@ -23963,6 +24812,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7b/754Lurantis_Dream.png",
@@ -23991,6 +24841,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/75/755Morelull_Dream.png",
@@ -24019,6 +24870,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0f/756Shiinotic_Dream.png",
@@ -24047,6 +24899,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/757Salandit_Dream.png",
@@ -24076,6 +24929,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/44/758Salazzle_Dream.png",
@@ -24104,6 +24958,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d9/759Stufful_Dream.png",
@@ -24132,6 +24987,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a6/760Bewear_Dream.png",
@@ -24160,6 +25016,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/be/761Bounsweet_Dream.png",
@@ -24188,6 +25045,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d4/762Steenee_Dream.png",
@@ -24216,6 +25074,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ac/763Tsareena_Dream.png",
@@ -24244,6 +25103,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6f/764Comfey_Dream.png",
@@ -24272,6 +25132,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4c/765Oranguru_Dream.png",
@@ -24300,6 +25161,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b7/766Passimian_Dream.png",
@@ -24329,6 +25191,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/78/767Wimpod_Dream.png",
@@ -24357,6 +25220,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e7/768Golisopod_Dream.png",
@@ -24385,6 +25249,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3d/769Sandygast_Dream.png",
@@ -24413,6 +25278,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/38/770Palossand_Dream.png",
@@ -24441,6 +25307,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/98/771Pyukumuku_Dream.png",
@@ -24469,6 +25336,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/be/772Type_Null_Dream.png",
@@ -24497,6 +25365,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/773Silvally_Normal_Dream.png",
@@ -24525,6 +25394,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/774Minior_Dream.png",
@@ -24553,6 +25423,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/774Minior_Blue_Dream.png",
@@ -24587,6 +25458,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/14/775Komala_Dream.png",
@@ -24615,6 +25487,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/99/776Turtonator_Dream.png",
@@ -24643,6 +25516,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/06/777Togedemaru_Dream.png",
@@ -24650,8 +25524,8 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togedemaru_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Mimikyu (Forma Disfarçada)",
-		numero: 778.1, // considerando a national dex
+		nome: "Mimikyu",
+		numero: 778, // considerando a national dex
 		tipo: ["Fantasma", " Fada"],
 		massa: 0.7, // em kg
 		altura: 0.2, // em metros
@@ -24670,38 +25544,11 @@ const pkmnDisponiveis = [
 		obtencao: ["Mercado Megabarato abandonado"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/778Mimikyu_Dream.png",
-		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)",
-	},
-	{
-		nome: "Mimikyu (Forma Descoberta)",
-		numero: 778.2, // considerando a national dex
-		tipo: ["Fantasma", " Fada"],
-		massa: 0.7, // em kg
-		altura: 0.2, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps:		 	55,
-			atq:	 	90,
-			def:	 	80,
-			atq_esp: 	50,
-			def_esp: 	105,
-			vel: 		96,
-		},
-		descricao:
-			"Depois de todo o esforço de se disfarçar, seu pescoço foi quebrado. O que quer que esteja dentro provavelmente está ileso, mas ainda está se sentindo triste.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Disfarce",
-		obtencao:
-			["Mercado Megabarato abandonado e, durante a batalha, receber dano"],
-		estagio: 1,
-		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
-		lendario: false,
-		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3a/778Mimikyu_Busted_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)",
@@ -24728,6 +25575,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c4/779Bruxish_Dream.png",
@@ -24756,6 +25604,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/59/780Drampa_Dream.png",
@@ -24784,6 +25633,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/14/781Dhelmise_Dream.png",
@@ -24812,6 +25662,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/03/782Jangmo-o_Dream.png",
@@ -24840,6 +25691,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d4/783Hakamo-o_Dream.png",
@@ -24868,6 +25720,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8c/784Kommo-o_Dream.png",
@@ -24896,6 +25749,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/785Tapu_Koko_Dream.png",
@@ -24924,6 +25778,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7d/786Tapu_Lele_Dream.png",
@@ -24952,6 +25807,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ea/787Tapu_Bulu_Dream.png",
@@ -24980,6 +25836,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/788Tapu_Fini_Dream.png",
@@ -25008,6 +25865,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/789Cosmog_Dream.png",
@@ -25036,6 +25894,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/790Cosmoem_Dream.png",
@@ -25064,6 +25923,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/92/791Solgaleo_Dream.png",
@@ -25092,6 +25952,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0a/792Lunala_Dream.png",
@@ -25121,6 +25982,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3b/793Nihilego_Dream.png",
@@ -25150,6 +26012,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a5/794Buzzwole_Dream.png",
@@ -25179,6 +26042,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a8/795Pheromosa_Dream.png",
@@ -25208,6 +26072,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/43/796Xurkitree_Dream.png",
@@ -25237,6 +26102,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a8/797Celesteela_Dream.png",
@@ -25266,6 +26132,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/798Kartana_Dream.png",
@@ -25295,6 +26162,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0b/799Guzzlord_Dream.png",
@@ -25323,6 +26191,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ef/800Necrozma_Dream.png",
@@ -25352,6 +26221,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/db/800Necrozma_Dusk_Mane_Dream.png",
@@ -25381,6 +26251,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/88/800Necrozma_Dawn_Wings_Dream.png",
@@ -25410,6 +26281,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/800Necrozma_Ultra_Dream.png",
@@ -25438,6 +26310,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4e/801Magearna_Dream.png",
@@ -25466,6 +26339,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d9/802Marshadow_Dream.png",
@@ -25495,6 +26369,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/60/803Poipole_Dream.png",
@@ -25524,6 +26399,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/82/804Naganadel_Dream.png",
@@ -25553,6 +26429,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/97/805Stakataka_Dream.png",
@@ -25582,6 +26459,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e8/806Blacephalon_Dream.png",
@@ -25610,6 +26488,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/25/807Zeraora_Dream.png",
@@ -25638,6 +26517,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8f/808Meltan_Dream.png",
@@ -25666,6 +26546,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f7/809Melmetal_Dream.png",
@@ -25695,6 +26576,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2f/810Grookey_Dream.png",
@@ -25723,6 +26605,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/36/811Thwackey_Dream.png",
@@ -25751,6 +26634,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/812Rillaboom_Dream.png",
@@ -25779,6 +26663,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a3/813Scorbunny_Dream.png",
@@ -25807,6 +26692,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/814Raboot_Dream.png",
@@ -25835,6 +26721,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/815Cinderace_WF.png",
@@ -25863,6 +26750,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/77/816Sobble_Dream.png",
@@ -25891,6 +26779,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d8/817Drizzile_Dream.png",
@@ -25919,6 +26808,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/66/818Inteleon_Dream.png",
@@ -25948,6 +26838,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fc/819Skwovet_Dream.png",
@@ -25977,6 +26868,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/aa/820Greedent_Dream.png",
@@ -26005,6 +26897,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7a/821Rookidee_Dream.png",
@@ -26034,6 +26927,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/11/822Corvisquire_Dream.png",
@@ -26063,6 +26957,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/41/823Corviknight_Dream.png",
@@ -26092,6 +26987,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/10/824Blipbug_Dream.png",
@@ -26121,6 +27017,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0d/825Dottler_WF.png",
@@ -26150,6 +27047,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/24/826Orbeetle_Dream.png",
@@ -26178,6 +27076,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3f/827Nickit_Dream.png",
@@ -26207,6 +27106,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/49/828Thievul_Dream.png",
@@ -26235,6 +27135,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/23/829Gossifleur_Dream.png",
@@ -26264,6 +27165,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/830Eldegoss_Dream.png",
@@ -26293,6 +27195,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bd/831Wooloo_Dream.png",
@@ -26322,6 +27225,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3e/832Dubwool_WF.png",
@@ -26351,6 +27255,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1b/833Chewtle_Dream.png",
@@ -26380,6 +27285,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d9/834Drednaw_Dream.png",
@@ -26409,6 +27315,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/835Yamper_Dream.png",
@@ -26438,6 +27345,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/06/836Boltund_Dream.png",
@@ -26466,6 +27374,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/37/837Rolycoly_Dream.png",
@@ -26495,6 +27404,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/838Carkol_Dream.png",
@@ -26524,6 +27434,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/839Coalossal_Dream.png",
@@ -26553,6 +27464,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6d/840Applin_Dream.png",
@@ -26581,6 +27493,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/78/841Flapple_Dream.png",
@@ -26609,6 +27522,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fe/0842Appletun.png",
@@ -26638,6 +27552,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/843Silicobra_Dream.png",
@@ -26666,6 +27581,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/38/844Sandaconda_Dream.png",
@@ -26695,6 +27611,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/845Cramorant_Dream_3.png",
@@ -26724,6 +27641,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b9/846Arrokuda_Dream.png",
@@ -26753,6 +27671,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/847Barraskewda_WF.png",
@@ -26782,6 +27701,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/12/848Toxel_Dream.png",
@@ -26810,6 +27730,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6e/849Toxtricity_Dream.png",
@@ -26838,6 +27759,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2d/849Toxtricity_Dream_-_Low_Key_Form.png",
@@ -26866,6 +27788,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/42/850Sizzlipede_Dream.png",
@@ -26894,6 +27817,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c0/851Centiskorch_Dream.png",
@@ -26922,6 +27846,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f4/852Clobbopus_Dream.png",
@@ -26951,6 +27876,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/22/853Grapploct_Dream.png",
@@ -26979,6 +27905,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bd/854Sinistea-Phony_Dream.png",
@@ -27008,6 +27935,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d0/855Polteageist_Phony_Dream.png",
@@ -27038,6 +27966,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b2/856Hatenna_Dream.png",
@@ -27067,6 +27996,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d4/857Hattrem_Dream.png",
@@ -27096,6 +28026,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/858Hatterene_Dream.png",
@@ -27125,6 +28056,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cf/859Impidimp_Dream.png",
@@ -27154,6 +28086,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ab/860Morgrem_Dream.png",
@@ -27183,6 +28116,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f2/861Grimmsnarl_Dream.png",
@@ -27212,6 +28146,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5c/862Obstagoon_Dream.png",
@@ -27240,6 +28175,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cc/863Perrserker_Dream.png",
@@ -27268,6 +28204,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7e/864Cursola_Dream.png",
@@ -27296,6 +28233,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a4/865Sirfetch%27d_Dream.png",
@@ -27324,6 +28262,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9d/866Mr._Rime_Dream_2.png",
@@ -27352,6 +28291,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7a/867Runerigus_Dream.png",
@@ -27380,6 +28320,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/37/868Milcery_Dream_2.png",
@@ -27408,6 +28349,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/67/869Alcremie_Dream_-_Vanilla_Cream.png",
@@ -27444,6 +28386,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/24/870Falinks_Dream.png",
@@ -27472,6 +28415,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/57/871Pincurchin_Dream.png",
@@ -27501,6 +28445,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/56/872Snom_Dream.png",
@@ -27529,6 +28474,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f2/873Frosmoth_Dream.png",
@@ -27557,6 +28503,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/874Stonjourner_Dream.png",
@@ -27585,6 +28532,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7d/875Eiscue_Dream.png",
@@ -27613,6 +28561,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/29/875Eiscue_Dream_-_Noice_2.png",
@@ -27641,6 +28590,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f3/876Indeedee_Dream.png",
@@ -27669,6 +28619,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7c/876Indeedee_Female_WF.png",
@@ -27698,6 +28649,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a0/877Morpeko_Full_Belly_Mode_WF.png",
@@ -27727,6 +28679,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d5/877Morpeko_Hangry_Mode_WF.png",
@@ -27755,6 +28708,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/80/878Cufant_Dream.png",
@@ -27784,6 +28738,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8b/879Copperajah_Dream.png",
@@ -27812,6 +28767,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a8/880Dracozolt_Dream.png",
@@ -27840,6 +28796,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b3/881Arctozolt_Dream.png",
@@ -27868,6 +28825,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/82/882Dracovish_Dream.png",
@@ -27896,6 +28854,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/58/883Arctovish_Dream.png",
@@ -27924,6 +28883,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fe/884Duraludon_Dream.png",
@@ -27952,6 +28912,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bf/885Dreepy_Dream.png",
@@ -27980,6 +28941,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/34/886Drakloak_Dream.png",
@@ -28008,6 +28970,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8e/887Dragapult_Dream.png",
@@ -28036,6 +28999,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/16/888Zacian_Hero_of_Many_Battles_WF.png",
@@ -28064,6 +29028,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/24/888Zacian_Crowned_Sword_WF.png",
@@ -28092,6 +29057,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c8/889Zamazenta_Hero_of_Many_Battles_Dream.png",
@@ -28120,6 +29086,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/45/889Zamazenta_Crowned_Shield_WF.png",
@@ -28148,6 +29115,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/890Eternatus_Dream.png",
@@ -28176,6 +29144,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f5/891Kubfu_Dream_2.png",
@@ -28204,6 +29173,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0d/892Urshifu_Dream.png",
@@ -28232,6 +29202,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4c/892Urshifu_Rapid_Strike_Style_WF.png",
@@ -28260,6 +29231,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/893Zarude_Dream.png",
@@ -28288,6 +29260,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/894Regieleki_Dream_2.png",
@@ -28316,6 +29289,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/42/895Regidrago_Dream.png",
@@ -28344,6 +29318,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/896Glastrier_Dream.png",
@@ -28372,6 +29347,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9e/897Spectrier_Dream.png",
@@ -28400,6 +29376,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/27/898Calyrex_Dream.png",
@@ -28424,10 +29401,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Dizem que este Pokémon uma vez moveu uma grande floresta, e todos os Pokémon vivendo lá, para um novo local da noite para o dia.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rei Supremo",
-		obtencao: ["Crown Shrine"],
+		obtencao: ["Crown Shrine e usar o item 'Reins of Unity' em Glastrier"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1c/898Calyrex_Dream_-_Glastrier.png",
@@ -28452,10 +29430,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Lendas contam que ao usar seu poder para ver todos os eventos do passado e do futuro, este Pokémon salvou as criaturas de uma floresta da queda de um meteorito.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Rei Supremo",
-		obtencao: ["Crown Shrine"],
+		obtencao: ["Crown Shrine e usar o item 'Reins of Unity' em Spectrier"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ab/898Calyrex_Dream_-_Spectrier.png",
@@ -28484,6 +29463,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d3/899Wyrdeer_Dream_2.png",
@@ -28512,6 +29492,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/85/900Kleavor_Dream.png",
@@ -28539,7 +29520,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a0/901Ursaluna_Dream.png",
@@ -28564,10 +29546,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Turfa",
-		obtencao: ["Crimson Mirelands", "Por evolução"],
+		obtencao: ["Timeless Woods", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		regional: true,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b8/901Ursaluna_Bloodmoon_Dream_2.png",
@@ -28596,6 +29579,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5a/902Basculegion_Dream.png",
@@ -28624,6 +29608,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fe/902Basculegion_-_Female_Dream.png",
@@ -28652,6 +29637,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a3/0903Sneasler.png",
@@ -28680,6 +29666,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/02/0904Overqwil.png",
@@ -28708,6 +29695,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/38/905Enamorus_Dream.png",
@@ -28736,6 +29724,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/80/905Enamorus_-_Therian_Dream.png",
@@ -28764,6 +29753,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8e/906Sprigatito_Dream.png",
@@ -28792,6 +29782,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/49/907Floragato_Dream_3.png",
@@ -28820,6 +29811,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/908Meowscarada_Dream_2.png",
@@ -28848,6 +29840,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e1/909Fuecoco_Dream.png",
@@ -28876,6 +29869,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fa/910Crocalor_Dream_3.png",
@@ -28904,6 +29898,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/14/911Skeledirge_Dream.png",
@@ -28932,6 +29927,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/912Quaxly_Dream_6.png",
@@ -28960,6 +29956,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/49/0913Quaxwell_HZ_anime.png",
@@ -28988,6 +29985,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/7e/914Quaquaval_Dream.png",
@@ -29017,6 +30015,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cd/915Lechonk_Dream.png",
@@ -29046,6 +30045,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f4/916Oinkologne_Female_Dream_2.png",
@@ -29075,6 +30075,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/916Oinkologne_Dream.png",
@@ -29104,6 +30105,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e4/0917Tarountula.png",
@@ -29133,6 +30135,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f3/0918Spidops.png",
@@ -29162,6 +30165,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f6/919Nymble_Dream_2.png",
@@ -29191,6 +30195,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/32/0920Lokix.png",
@@ -29220,6 +30225,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0a/921Pawmi_Dream_2.png",
@@ -29249,6 +30255,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/18/922Pawmo_Dream.png",
@@ -29277,6 +30284,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/dd/923Pawmot_Dream_2.png",
@@ -29306,6 +30314,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f8/924Tandemaus_Dream_2.png",
@@ -29334,6 +30343,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/69/925Maushold_Dream_-_Four.png",
@@ -29362,6 +30372,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6a/925Maushold_Dream.png",
@@ -29391,6 +30402,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/30/926Fidough_Dream_2.png",
@@ -29420,6 +30432,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/81/0927Dachsbun.png",
@@ -29448,6 +30461,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6f/928Smoliv_Dream.png",
@@ -29477,6 +30491,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ef/929Dolliv_Dream.png",
@@ -29505,6 +30520,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/69/930Arboliva_Dream.png",
@@ -29534,6 +30550,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a2/931Squawkabilly_Blue_Dream_2.png",
@@ -29566,6 +30583,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f5/0932Nacli.png",
@@ -29595,6 +30613,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c8/933Naclstack_Dream.png",
@@ -29623,6 +30642,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/99/934Garganacl_Dream_2.png",
@@ -29652,6 +30672,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e6/0935Charcadet.png",
@@ -29680,6 +30701,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/15/936Armarouge_Dream.png",
@@ -29708,6 +30730,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a3/937Ceruledge_Dream.png",
@@ -29737,6 +30760,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/87/0938Tadbulb.png",
@@ -29766,6 +30790,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c0/939Bellibolt_Dream_2.png",
@@ -29795,6 +30820,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/0940Wattrel.png",
@@ -29824,6 +30850,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ee/0941Kilowattrel.png",
@@ -29853,6 +30880,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/60/942Maschiff_Dream.png",
@@ -29882,6 +30910,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/943Mabosstiff_Dream.png",
@@ -29911,6 +30940,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/45/944Shroodle_Dream.png",
@@ -29940,6 +30970,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/53/945Grafaiai_Dream.png",
@@ -29968,6 +30999,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/0946Bramblin.png",
@@ -29996,6 +31028,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2f/0947Brambleghast.png",
@@ -30025,6 +31058,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/55/948Toedscool_Dream.png",
@@ -30054,6 +31088,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/8c/0949Toedscruel.png",
@@ -30082,6 +31117,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/24/950Klawf_Dream.png",
@@ -30111,6 +31147,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c5/0951Capsakid.png",
@@ -30140,6 +31177,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f7/0952Scovillain.png",
@@ -30168,6 +31206,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ae/953Rellor_Dream.png",
@@ -30196,6 +31235,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4b/954Rabsca_Dream.png",
@@ -30225,6 +31265,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0a/955Flittle_Dream.png",
@@ -30254,6 +31295,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0e/0956Espathra.png",
@@ -30283,6 +31325,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/93/0957Tinkatink.png",
@@ -30312,6 +31355,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9b/958Tinkatuff_Dream.png",
@@ -30340,6 +31384,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/959Tinkaton_Dream.png",
@@ -30369,6 +31414,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/63/960Wiglett_Dream.png",
@@ -30398,6 +31444,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b5/0961Wugtrio.png",
@@ -30427,6 +31474,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/36/0962Bombirdier.png",
@@ -30456,6 +31504,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/95/963Finizen_Dream.png",
@@ -30484,6 +31533,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f5/964Palafin_Dream.png",
@@ -30512,6 +31562,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/65/964Palafin-Hero_Dream.png",
@@ -30540,6 +31591,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d1/0965Varoom.png",
@@ -30569,6 +31621,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/18/0966Revavroom.png",
@@ -30598,6 +31651,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/44/967Cyclizar_Dream.png",
@@ -30626,6 +31680,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/968Orthworm_Dream_2.png",
@@ -30655,6 +31710,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/70/969Glimmet_Dream.png",
@@ -30683,6 +31739,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/68/970Glimmora_Dream.png",
@@ -30712,6 +31769,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/86/971Greavard_Dream.png",
@@ -30741,6 +31799,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/85/0972Houndstone.png",
@@ -30770,6 +31829,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/0973Flamigo.png",
@@ -30799,6 +31859,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6e/974Cetoddle_Dream.png",
@@ -30827,6 +31888,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/97/975Cetitan_Dream.png",
@@ -30856,6 +31918,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/ff/0976Veluza.png",
@@ -30884,6 +31947,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b8/0977Dondozo.png",
@@ -30912,6 +31976,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/ad/978Tatsugiri-Droopy_Dream_3.png",
@@ -30942,6 +32007,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/979Annihilape_Dream.png",
@@ -30971,6 +32037,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/77/0980Clodsire.png",
@@ -30999,6 +32066,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/61/981Farigiraf_Dream.png",
@@ -31028,6 +32096,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ec/982Dudunsparce_Dream_2.png",
@@ -31057,6 +32126,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/982Dudunsparce_Dream_3.png",
@@ -31085,6 +32155,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/59/983Kingambit_Dream.png",
@@ -31113,6 +32184,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/984Great_Tusk_Dream_2.png",
@@ -31141,6 +32213,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d7/985Scream_Tail_Dream.png",
@@ -31169,6 +32242,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/4f/0986Brute_Bonnet.png",
@@ -31197,6 +32271,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/cf/987Flutter_Mane_Dream.png",
@@ -31225,6 +32300,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3d/0988Slither_Wing.png",
@@ -31253,6 +32329,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bd/989Sandy_Shocks_Dream.png",
@@ -31281,6 +32358,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/33/990Iron_Treads_Dream.png",
@@ -31309,6 +32387,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6b/991Iron_Bundle_Dream.png",
@@ -31337,6 +32416,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/25/0992Iron_Hands.png",
@@ -31365,6 +32445,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ec/993Iron_Jugulis_Dream.png",
@@ -31393,6 +32474,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9f/994Iron_Moth_Dream.png",
@@ -31421,6 +32503,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fb/0995Iron_Thorns.png",
@@ -31449,6 +32532,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ec/996Frigibax_Dream_2.png",
@@ -31477,6 +32561,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3c/997Arctibax_Dream.png",
@@ -31505,6 +32590,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/9/9a/998Baxcalibur_Dream.png",
@@ -31534,6 +32620,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/46/999Gimmighoul_Chest_Dream.png",
@@ -31562,6 +32649,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/e7/999Gimmighoul_Dream.png",
@@ -31590,6 +32678,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/1000Gholdengo_Dream.png",
@@ -31618,6 +32707,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d5/1001Wo-Chien_Dream.png",
@@ -31646,6 +32736,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0b/1002Chien-Pao_Dream.png",
@@ -31674,6 +32765,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/5b/1003Ting-Lu_Dream.png",
@@ -31702,6 +32794,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/1004Chi-Yu_Dream.png",
@@ -31730,6 +32823,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/3/3a/1005Roaring_Moon_Dream.png",
@@ -31758,6 +32852,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/bb/1006Iron_Valiant_Dream.png",
@@ -31786,6 +32881,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/e/ed/1007Koraidon_Dream_2.png",
@@ -31814,6 +32910,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/7/76/1008Miraidon_Dream_2.png",
@@ -31842,6 +32939,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/0a/1009Walking_Wake_Dream_2.png",
@@ -31870,6 +32968,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/db/1010Iron_Leaves_Dream.png",
@@ -31898,6 +32997,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/5/54/1011Dipplin_Dream.png",
@@ -31926,6 +33026,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/8/80/1012Poltchageist-Masterpiece_Dream.png",
@@ -31955,6 +33056,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1e/1013Sinistcha-Masterpiece_Dream.png",
@@ -31984,6 +33086,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a6/1014Okidogi_Dream_2.png",
@@ -32012,6 +33115,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f6/1015Munkidori_Dream_2.png",
@@ -32040,6 +33144,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/2/2c/1016Fezandipiti_Dream_2.png",
@@ -32068,6 +33173,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/fe/1017Ogerpon-Teal_Dream_2.png",
@@ -32096,6 +33202,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/6e/1017Ogerpon-Wellspring_Dream.png",
@@ -32124,6 +33231,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/6/64/1017Ogerpon-Hearthflame_Dream.png",
@@ -32152,6 +33260,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a7/1017Ogerpon-Cornerstone_Dream.png",
@@ -32180,6 +33289,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/4/40/1018Archaludon_Dream.png",
@@ -32208,6 +33318,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/df/1019Hydrapple_Dream.png",
@@ -32236,6 +33347,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/aa/1020Gouging_Fire_Dream.png",
@@ -32264,6 +33376,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/1/1a/1021Raging_Bolt_Dream.png",
@@ -32292,6 +33405,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/c4/1022Iron_Boulder_Dream.png",
@@ -32320,6 +33434,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/de/1023Iron_Crown_Dream.png",
@@ -32348,6 +33463,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/1024Terapagos_Dream.png",
@@ -32376,6 +33492,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/b/b6/1024Terapagos-Terastal_Dream.png",
@@ -32404,6 +33521,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/c/ca/HOME1024S.png",
@@ -32432,6 +33550,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		regional: false,
 		lendario: true,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/f/f9/1025Pecharunt_Dream.png",

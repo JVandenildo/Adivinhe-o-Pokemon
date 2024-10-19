@@ -280,9 +280,11 @@ function palpitar() {
 			document.removeEventListener("keydown", gerenciarEnter);
 
 			if (palpites === 1) {
-				ultimato.innerHTML = `<p>Você acertou ${
+				ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
 					escolhido[0].nome
-				} com ${palpites} palpite!</p>
+				}" href="${escolhido[0].link}" target="_blank">${
+					escolhido[0].nome
+				}</a> com ${palpites} palpite!</p>
 				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
@@ -291,9 +293,11 @@ function palpitar() {
 
 				return true;
 			} else {
-				ultimato.innerHTML = `<p>Você acertou ${
+				ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
 					escolhido[0].nome
-				} com ${palpites} palpites!</p>
+				}" href="${escolhido[0].link}" target="_blank">${
+					escolhido[0].nome
+				}</a> com ${palpites} palpites!</p>
 				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
 					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
