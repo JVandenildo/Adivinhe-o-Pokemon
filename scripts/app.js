@@ -20,6 +20,7 @@ const checkTodas = document.querySelector("#checkTodas");
 
 let escolhido = {
 	nome: "MissingNo.",
+	codinome: "MissingNumber",
 	numero: 0, // considerando a national dex
 	tipo: ["Normal"],
 	massa: 1590.8, // em kg
@@ -269,6 +270,7 @@ function palpitar() {
 			return false;
 
 		case escolhido[0].nome.toLowerCase():
+		case escolhido[0].codinome.toLowerCase():
 			/* caso acerte o nome do Pokémon */
 
 			palpites = palpites + 1;

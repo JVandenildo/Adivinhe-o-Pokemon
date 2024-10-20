@@ -270,6 +270,7 @@ table p {
 	border-radius: calc(10px + 0.3rem);
 	max-height: 25rem;
 	overflow-y: hidden;
+	text-overflow: ellipsis;
 }
 #ultimosPalpites p {
 	margin: 0.5rem;
@@ -284,12 +285,13 @@ table p {
 	font-family: "Chakra Petch", monospace;
 }
 #ultimato img {
-	/* não altere o tamanho das imagens
-	algumas chegam a exatamente 150px */
+	color: var(--dark-font-color);
+	/* não altere o tamanho da imagem
+	alguns sprites chegam a exatamente 150px */
 	max-width: 150px;
+	height: auto;
 	-webkit-filter: drop-shadow(1px 1px 1px var(--light-bg2))
 		drop-shadow(calc(-1 * 1px) calc(-1 1px) 1px var(--light-bg2));
 	filter: drop-shadow(1px 1px 1px var(--light-bg2))
 		drop-shadow(calc(-1 * 1px) calc(-1 * 1px) 1px var(--light-bg2));
-	color: var(--dark-font-color);
 }

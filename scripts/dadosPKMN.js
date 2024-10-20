@@ -1,6 +1,7 @@
 const pkmnDisponiveis = [
 	{
 		nome: "Bulbasaur",
+		codinome: "",
 		numero: 1, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 6.9, // em kg
@@ -30,6 +31,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ivysaur",
+		codinome: "",
 		numero: 2, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 13.0, // em kg
@@ -59,6 +61,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venusaur",
+		codinome: "",
 		numero: 3, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 100.0, // em kg
@@ -88,6 +91,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charmander",
+		codinome: "",
 		numero: 4, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 8.5, // em kg
@@ -117,6 +121,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charmeleon",
+		codinome: "",
 		numero: 5, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
@@ -146,6 +151,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charizard",
+		codinome: "",
 		numero: 6, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 90.5, // em kg
@@ -175,6 +181,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Squirtle",
+		codinome: "",
 		numero: 7, // considerando a national dex
 		tipo: ["Água"],
 		massa: 9.0, // em kg
@@ -204,6 +211,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wartortle",
+		codinome: "",
 		numero: 8, // considerando a national dex
 		tipo: ["Água"],
 		massa: 22.5, // em kg
@@ -233,6 +241,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blastoise",
+		codinome: "",
 		numero: 9, // considerando a national dex
 		tipo: ["Água"],
 		massa: 85.5, // em kg
@@ -262,6 +271,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Caterpie",
+		codinome: "",
 		numero: 10, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 2.9, // em kg
@@ -291,6 +301,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Metapod",
+		codinome: "",
 		numero: 11, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 9.9, // em kg
@@ -320,6 +331,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Butterfree",
+		codinome: "",
 		numero: 12, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 32.0, // em kg
@@ -349,6 +361,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weedle",
+		codinome: "",
 		numero: 13, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 3.2, // em kg
@@ -378,6 +391,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kakuna",
+		codinome: "",
 		numero: 14, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 10.0, // em kg
@@ -407,6 +421,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beedrill",
+		codinome: "",
 		numero: 15, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 29.5, // em kg
@@ -436,6 +451,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidgey",
+		codinome: "",
 		numero: 16, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.8, // em kg
@@ -465,6 +481,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidgeotto",
+		codinome: "",
 		numero: 17, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 30.0, // em kg
@@ -494,6 +511,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidgeot",
+		codinome: "",
 		numero: 18, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 39.5, // em kg
@@ -523,6 +541,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rattata de Kanto",
+		codinome: "",
 		numero: 19.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 3.5, // em kg
@@ -552,6 +571,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rattata de Alola",
+		codinome: "",
 		numero: 19.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
 		massa: 3.8, // em kg
@@ -582,6 +602,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raticate de Kanto",
+		codinome: "",
 		numero: 20.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 18.5, // em kg
@@ -612,6 +633,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raticate de Alola",
+		codinome: "",
 		numero: 20.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
 		massa: 25.5, // em kg
@@ -642,6 +664,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spearow",
+		codinome: "",
 		numero: 21, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
@@ -671,6 +694,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fearow",
+		codinome: "",
 		numero: 22, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 38.0, // em kg
@@ -700,6 +724,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ekans",
+		codinome: "",
 		numero: 23, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 6.9, // em kg
@@ -729,6 +754,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arbok",
+		codinome: "",
 		numero: 24, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 65.0, // em kg
@@ -758,6 +784,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pikachu",
+		codinome: "",
 		numero: 25, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 6.0, // em kg
@@ -787,6 +814,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raichu de Kanto",
+		codinome: "",
 		numero: 26.1, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
@@ -816,6 +844,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raichu de Alola",
+		codinome: "",
 		numero: 26.2, // considerando a national dex
 		tipo: ["Elétrico", " Psíquico"],
 		massa: 21.0, // em kg
@@ -845,6 +874,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandshrew de Kanto",
+		codinome: "",
 		numero: 27.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 12.0, // em kg
@@ -874,6 +904,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandshrew de Alola",
+		codinome: "",
 		numero: 27.2, // considerando a national dex
 		tipo: ["Gelo", " Metal"],
 		massa: 40.0, // em kg
@@ -903,6 +934,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandslash de Kanto",
+		codinome: "",
 		numero: 28.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 29.5, // em kg
@@ -932,6 +964,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandslash de Alola",
+		codinome: "",
 		numero: 28.2, // considerando a national dex
 		tipo: ["Gelo", " Metal"],
 		massa: 55.0, // em kg
@@ -961,6 +994,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoran♀",
+		codinome: "",
 		numero: 29, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 7.0, // em kg
@@ -990,6 +1024,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidorina",
+		codinome: "",
 		numero: 30, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 20.0, // em kg
@@ -1019,6 +1054,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoqueen",
+		codinome: "",
 		numero: 31, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
 		massa: 60.0, // em kg
@@ -1048,6 +1084,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoran♂",
+		codinome: "",
 		numero: 32, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 9.0, // em kg
@@ -1077,6 +1114,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidorino",
+		codinome: "",
 		numero: 33, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 19.5, // em kg
@@ -1106,6 +1144,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoking",
+		codinome: "",
 		numero: 34, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
 		massa: 62.0, // em kg
@@ -1135,6 +1174,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clefairy",
+		codinome: "",
 		numero: 35, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 7.5, // em kg
@@ -1164,6 +1204,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clefable",
+		codinome: "",
 		numero: 36, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 40.0, // em kg
@@ -1193,6 +1234,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vulpix de Kanto",
+		codinome: "",
 		numero: 37.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 9.9, // em kg
@@ -1222,6 +1264,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vulpix de Alola",
+		codinome: "",
 		numero: 37.2, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 9.9, // em kg
@@ -1251,6 +1294,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ninetales de Kanto",
+		codinome: "",
 		numero: 38.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.9, // em kg
@@ -1280,6 +1324,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ninetales de Alola",
+		codinome: "",
 		numero: 38.2, // considerando a national dex
 		tipo: ["Gelo", " Fada"],
 		massa: 19.9, // em kg
@@ -1309,6 +1354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jigglypuff",
+		codinome: "",
 		numero: 39, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 5.5, // em kg
@@ -1338,6 +1384,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wigglytuff",
+		codinome: "",
 		numero: 40, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 12.0, // em kg
@@ -1367,6 +1414,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zubat",
+		codinome: "",
 		numero: 41, // considerando a national dex
 		tipo: ["Veneno", " Voador"],
 		massa: 7.5, // em kg
@@ -1397,6 +1445,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golbat",
+		codinome: "",
 		numero: 42, // considerando a national dex
 		tipo: ["Veneno", " Voador"],
 		massa: 55.0, // em kg
@@ -1427,6 +1476,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oddish",
+		codinome: "",
 		numero: 43, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 5.4, // em kg
@@ -1456,6 +1506,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gloom",
+		codinome: "",
 		numero: 44, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 8.6, // em kg
@@ -1485,6 +1536,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vileplume",
+		codinome: "",
 		numero: 45, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 18.6, // em kg
@@ -1514,6 +1566,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Paras",
+		codinome: "",
 		numero: 46, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 5.4, // em kg
@@ -1543,6 +1596,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Parasect",
+		codinome: "",
 		numero: 47, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 29.5, // em kg
@@ -1572,6 +1626,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venonat",
+		codinome: "",
 		numero: 48, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 30.0, // em kg
@@ -1601,6 +1656,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venomoth",
+		codinome: "",
 		numero: 49, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 12.5, // em kg
@@ -1631,6 +1687,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diglett de Kanto",
+		codinome: "",
 		numero: 50.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 0.8, // em kg
@@ -1660,6 +1717,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diglett de Alola",
+		codinome: "",
 		numero: 50.2, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 1.0, // em kg
@@ -1690,6 +1748,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dugtrio de Kanto",
+		codinome: "",
 		numero: 51.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 33.3, // em kg
@@ -1718,6 +1777,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dugtrio de Alola",
+		codinome: "",
 		numero: 51.2, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 66.6, // em kg
@@ -1748,6 +1808,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowth de Kanto",
+		codinome: "",
 		numero: 52.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 4.2, // em kg
@@ -1777,6 +1838,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowth de Alola",
+		codinome: "",
 		numero: 52.2, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 4.2, // em kg
@@ -1806,6 +1868,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowth de Galar",
+		codinome: "",
 		numero: 52.3, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 7.5, // em kg
@@ -1835,6 +1898,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Persian de Kanto",
+		codinome: "",
 		numero: 53.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.0, // em kg
@@ -1864,6 +1928,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Persian de Alola",
+		codinome: "",
 		numero: 53.2, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 33.0, // em kg
@@ -1893,6 +1958,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Psyduck",
+		codinome: "",
 		numero: 54, // considerando a national dex
 		tipo: ["Água"],
 		massa: 19.6, // em kg
@@ -1922,6 +1988,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golduck",
+		codinome: "",
 		numero: 55, // considerando a national dex
 		tipo: ["Água"],
 		massa: 76.6, // em kg
@@ -1951,6 +2018,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mankey",
+		codinome: "",
 		numero: 56, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 28.0, // em kg
@@ -1980,6 +2048,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Primeape",
+		codinome: "",
 		numero: 57, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 32.0, // em kg
@@ -2009,6 +2078,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Growlithe de Kanto",
+		codinome: "",
 		numero: 58.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
@@ -2038,6 +2108,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Growlithe de Hisui",
+		codinome: "",
 		numero: 58.2, // considerando a national dex
 		tipo: ["Fogo", " Rocha"],
 		massa: 22.7, // em kg
@@ -2067,6 +2138,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arcanine de Kanto",
+		codinome: "",
 		numero: 59.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 155.0, // em kg
@@ -2096,6 +2168,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arcanine de Hisui",
+		codinome: "",
 		numero: 59.2, // considerando a national dex
 		tipo: ["Fogo", " Rocha"],
 		massa: 168.0, // em kg
@@ -2125,6 +2198,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poliwag",
+		codinome: "",
 		numero: 60, // considerando a national dex
 		tipo: ["Água"],
 		massa: 12.4, // em kg
@@ -2155,6 +2229,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poliwhirl",
+		codinome: "",
 		numero: 61, // considerando a national dex
 		tipo: ["Água"],
 		massa: 20.0, // em kg
@@ -2184,6 +2259,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poliwrath",
+		codinome: "",
 		numero: 62, // considerando a national dex
 		tipo: ["Água", " Lutador"],
 		massa: 54.0, // em kg
@@ -2213,6 +2289,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Abra",
+		codinome: "",
 		numero: 63, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 19.5, // em kg
@@ -2242,6 +2319,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kadabra",
+		codinome: "",
 		numero: 64, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 56.5, // em kg
@@ -2271,6 +2349,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Alakazam",
+		codinome: "",
 		numero: 65, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 48.0, // em kg
@@ -2300,6 +2379,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Machop",
+		codinome: "",
 		numero: 66, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 19.5, // em kg
@@ -2329,6 +2409,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Machoke",
+		codinome: "",
 		numero: 67, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 70.5, // em kg
@@ -2358,6 +2439,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Machamp",
+		codinome: "",
 		numero: 68, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 130.0, // em kg
@@ -2387,6 +2469,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bellsprout",
+		codinome: "",
 		numero: 69, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 4.0, // em kg
@@ -2416,6 +2499,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weepinbell",
+		codinome: "",
 		numero: 70, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 6.4, // em kg
@@ -2445,6 +2529,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Victreebel",
+		codinome: "",
 		numero: 71, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 15.5, // em kg
@@ -2474,6 +2559,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tentacool",
+		codinome: "",
 		numero: 72, // considerando a national dex
 		tipo: ["Água", " Veneno"],
 		massa: 45.5, // em kg
@@ -2503,6 +2589,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tentacruel",
+		codinome: "",
 		numero: 73, // considerando a national dex
 		tipo: ["Água", " Veneno"],
 		massa: 55.5, // em kg
@@ -2532,6 +2619,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Geodude de Kanto",
+		codinome: "",
 		numero: 74.1, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 20.0, // em kg
@@ -2561,6 +2649,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Geodude de Alola",
+		codinome: "",
 		numero: 74.2, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 20.3, // em kg
@@ -2590,6 +2679,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Graveler de Kanto",
+		codinome: "",
 		numero: 75.1, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 105.0, // em kg
@@ -2619,6 +2709,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Graveler de Alola",
+		codinome: "",
 		numero: 75.2, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 110.0, // em kg
@@ -2648,6 +2739,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golem de Kanto",
+		codinome: "",
 		numero: 76.1, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 300.0, // em kg
@@ -2677,6 +2769,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golem de Alola",
+		codinome: "",
 		numero: 76.2, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 316.0, // em kg
@@ -2706,6 +2799,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ponyta de Kanto",
+		codinome: "",
 		numero: 77.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 30.0, // em kg
@@ -2735,6 +2829,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ponyta de Galar",
+		codinome: "",
 		numero: 77.2, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 24.0, // em kg
@@ -2764,6 +2859,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rapidash de Kanto",
+		codinome: "",
 		numero: 78.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 95.0, // em kg
@@ -2793,6 +2889,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rapidash de Galar",
+		codinome: "",
 		numero: 78.2, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 80.0, // em kg
@@ -2822,6 +2919,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowpoke de Kanto",
+		codinome: "",
 		numero: 79.1, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 36.0, // em kg
@@ -2851,6 +2949,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowpoke de Galar",
+		codinome: "",
 		numero: 79.2, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 36.0, // em kg
@@ -2880,6 +2979,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowbro de Kanto",
+		codinome: "",
 		numero: 80.1, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 78.5, // em kg
@@ -2910,6 +3010,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowbro de Galar",
+		codinome: "",
 		numero: 80.2, // considerando a national dex
 		tipo: ["Veneno", " Psíquico"],
 		massa: 70.5, // em kg
@@ -2939,6 +3040,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magnemite",
+		codinome: "",
 		numero: 81, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
 		massa: 6.0, // em kg
@@ -2968,6 +3070,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magneton",
+		codinome: "",
 		numero: 82, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
 		massa: 60.0, // em kg
@@ -2997,6 +3100,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Farfetch'd de Kanto",
+		codinome: "",
 		numero: 83.1, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 15.0, // em kg
@@ -3026,6 +3130,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Farfetch'd de Galar",
+		codinome: "",
 		numero: 83.2, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 42.0, // em kg
@@ -3055,6 +3160,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Doduo",
+		codinome: "",
 		numero: 84, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 39.2, // em kg
@@ -3084,6 +3190,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dodrio",
+		codinome: "",
 		numero: 85, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 85.2, // em kg
@@ -3113,6 +3220,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seel",
+		codinome: "",
 		numero: 86, // considerando a national dex
 		tipo: ["Água"],
 		massa: 90.0, // em kg
@@ -3142,6 +3250,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dewgong",
+		codinome: "",
 		numero: 87, // considerando a national dex
 		tipo: ["Água", " Gelo"],
 		massa: 120.0, // em kg
@@ -3171,6 +3280,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grimer de Kanto",
+		codinome: "",
 		numero: 88.1, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
@@ -3200,6 +3310,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grimer de Alola",
+		codinome: "",
 		numero: 88.2, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 42.0, // em kg
@@ -3229,6 +3340,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Muk de Kanto",
+		codinome: "",
 		numero: 89.1, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
@@ -3258,6 +3370,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Muk de Alola",
+		codinome: "",
 		numero: 89.2, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 52.0, // em kg
@@ -3287,6 +3400,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shellder",
+		codinome: "",
 		numero: 90, // considerando a national dex
 		tipo: ["Água"],
 		massa: 4.0, // em kg
@@ -3316,6 +3430,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cloyster",
+		codinome: "",
 		numero: 91, // considerando a national dex
 		tipo: ["Água", " Gelo"],
 		massa: 132.5, // em kg
@@ -3345,6 +3460,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gastly",
+		codinome: "",
 		numero: 92, // considerando a national dex
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
@@ -3374,6 +3490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Haunter",
+		codinome: "",
 		numero: 93, // considerando a national dex
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
@@ -3403,6 +3520,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gengar",
+		codinome: "",
 		numero: 94, // considerando a national dex
 		tipo: ["Fantasma", " Veneno"],
 		massa: 40.5, // em kg
@@ -3432,6 +3550,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Onix",
+		codinome: "",
 		numero: 95, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 210.0, // em kg
@@ -3461,6 +3580,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drowzee",
+		codinome: "",
 		numero: 96, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 32.4, // em kg
@@ -3490,6 +3610,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hypno",
+		codinome: "",
 		numero: 97, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 75.6, // em kg
@@ -3519,6 +3640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Krabby",
+		codinome: "",
 		numero: 98, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.5, // em kg
@@ -3548,6 +3670,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kingler",
+		codinome: "",
 		numero: 99, // considerando a national dex
 		tipo: ["Água"],
 		massa: 60.0, // em kg
@@ -3578,6 +3701,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Voltorb de Kanto",
+		codinome: "",
 		numero: 100.1, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 10.4, // em kg
@@ -3607,6 +3731,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Voltorb de Hisui",
+		codinome: "",
 		numero: 100.2, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
 		massa: 13.0, // em kg
@@ -3636,6 +3761,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electrode de Kanto",
+		codinome: "",
 		numero: 101.1, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 66.6, // em kg
@@ -3665,6 +3791,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electrode de Hisui",
+		codinome: "",
 		numero: 101.2, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
 		massa: 71.0, // em kg
@@ -3694,6 +3821,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exeggcute",
+		codinome: "",
 		numero: 102, // considerando a national dex
 		tipo: ["Planta", " Psíquico"],
 		massa: 2.5, // em kg
@@ -3723,6 +3851,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exeggutor de Kanto",
+		codinome: "",
 		numero: 103.1, // considerando a national dex
 		tipo: ["Planta", " Psíquico"],
 		massa: 120.0, // em kg
@@ -3752,6 +3881,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exeggutor de Alola",
+		codinome: "",
 		numero: 103.2, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
 		massa: 415.6, // em kg
@@ -3781,6 +3911,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cubone",
+		codinome: "",
 		numero: 104, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 6.5, // em kg
@@ -3810,6 +3941,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marowak de Kanto",
+		codinome: "",
 		numero: 105.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 45.0, // em kg
@@ -3840,6 +3972,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marowak de Alola",
+		codinome: "",
 		numero: 105.2, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
 		massa: 34.0, // em kg
@@ -3869,6 +4002,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hitmonlee",
+		codinome: "",
 		numero: 106, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 49.8, // em kg
@@ -3898,6 +4032,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hitmonchan",
+		codinome: "",
 		numero: 107, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 50.2, // em kg
@@ -3927,6 +4062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lickitung",
+		codinome: "",
 		numero: 108, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 65.5, // em kg
@@ -3956,6 +4092,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Koffing",
+		codinome: "",
 		numero: 109, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 1.0, // em kg
@@ -3985,6 +4122,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weezing de Kanto",
+		codinome: "",
 		numero: 110.1, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 9.5, // em kg
@@ -4014,6 +4152,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weezing de Galar",
+		codinome: "",
 		numero: 110.2, // considerando a national dex
 		tipo: ["Veneno", " Fada"],
 		massa: 16.0, // em kg
@@ -4044,6 +4183,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rhyhorn",
+		codinome: "",
 		numero: 111, // considerando a national dex
 		tipo: ["Terra", " Rocha"],
 		massa: 115.0, // em kg
@@ -4073,6 +4213,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rhydon",
+		codinome: "",
 		numero: 112, // considerando a national dex
 		tipo: ["Terra", " Rocha"],
 		massa: 120.0, // em kg
@@ -4102,6 +4243,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chansey",
+		codinome: "",
 		numero: 113, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 34.6, // em kg
@@ -4131,6 +4273,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tangela",
+		codinome: "",
 		numero: 114, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 35.0, // em kg
@@ -4160,6 +4303,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kangaskhan",
+		codinome: "",
 		numero: 115, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 80.0, // em kg
@@ -4189,6 +4333,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Horsea",
+		codinome: "",
 		numero: 116, // considerando a national dex
 		tipo: ["Água"],
 		massa: 8.0, // em kg
@@ -4218,6 +4363,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seadra",
+		codinome: "",
 		numero: 117, // considerando a national dex
 		tipo: ["Água"],
 		massa: 25.0, // em kg
@@ -4248,6 +4394,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goldeen",
+		codinome: "",
 		numero: 118, // considerando a national dex
 		tipo: ["Água"],
 		massa: 15.0, // em kg
@@ -4278,6 +4425,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seaking",
+		codinome: "",
 		numero: 119, // considerando a national dex
 		tipo: ["Água"],
 		massa: 39.0, // em kg
@@ -4307,6 +4455,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Staryu",
+		codinome: "",
 		numero: 120, // considerando a national dex
 		tipo: ["Água"],
 		massa: 34.5, // em kg
@@ -4336,6 +4485,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Starmie",
+		codinome: "",
 		numero: 121, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 80.0, // em kg
@@ -4365,6 +4515,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mr. Mime de Kanto",
+		codinome: "",
 		numero: 122.1, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 54.5, // em kg
@@ -4394,6 +4545,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mr. Mime de Galar",
+		codinome: "",
 		numero: 122.2, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
 		massa: 56.8, // em kg
@@ -4423,6 +4575,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scyther",
+		codinome: "",
 		numero: 123, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 56.0, // em kg
@@ -4452,6 +4605,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jynx",
+		codinome: "",
 		numero: 124, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
 		massa: 40.6, // em kg
@@ -4481,6 +4635,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electabuzz",
+		codinome: "",
 		numero: 125, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
@@ -4510,6 +4665,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magmar",
+		codinome: "",
 		numero: 126, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 44.5, // em kg
@@ -4539,6 +4695,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pinsir",
+		codinome: "",
 		numero: 127, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 55.0, // em kg
@@ -4568,6 +4725,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Kanto",
+		codinome: "",
 		numero: 128.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 88.4, // em kg
@@ -4597,6 +4755,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Combativa)",
+		codinome: "",
 		numero: 128.2, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 115.0, // em kg
@@ -4626,6 +4785,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Ardente)",
+		codinome: "",
 		numero: 128.3, // considerando a national dex
 		tipo: ["Lutador", " Fogo"],
 		massa: 85.0, // em kg
@@ -4656,6 +4816,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Aquática)",
+		codinome: "",
 		numero: 128.4, // considerando a national dex
 		tipo: ["Lutador", " Água"],
 		massa: 110.0, // em kg
@@ -4686,6 +4847,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magikarp",
+		codinome: "",
 		numero: 129, // considerando a national dex
 		tipo: ["Água"],
 		massa: 10.0, // em kg
@@ -4716,6 +4878,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gyarados",
+		codinome: "",
 		numero: 130, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 235.0, // em kg
@@ -4745,6 +4908,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lapras",
+		codinome: "",
 		numero: 131, // considerando a national dex
 		tipo: ["Água", " Gelo"],
 		massa: 220.0, // em kg
@@ -4774,6 +4938,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ditto",
+		codinome: "",
 		numero: 132, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 4.0, // em kg
@@ -4804,6 +4969,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eevee",
+		codinome: "",
 		numero: 133, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.5, // em kg
@@ -4833,6 +4999,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vaporeon",
+		codinome: "",
 		numero: 134, // considerando a national dex
 		tipo: ["Água"],
 		massa: 29.0, // em kg
@@ -4862,6 +5029,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jolteon",
+		codinome: "",
 		numero: 135, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 24.5, // em kg
@@ -4891,6 +5059,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flareon",
+		codinome: "",
 		numero: 136, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 25.0, // em kg
@@ -4920,6 +5089,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Porygon",
+		codinome: "",
 		numero: 137, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 36.5, // em kg
@@ -4949,6 +5119,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Omanyte",
+		codinome: "",
 		numero: 138, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 7.5, // em kg
@@ -4978,6 +5149,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Omastar",
+		codinome: "",
 		numero: 139, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 35.0, // em kg
@@ -5007,6 +5179,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kabuto",
+		codinome: "",
 		numero: 140, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 11.5, // em kg
@@ -5036,6 +5209,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kabutops",
+		codinome: "",
 		numero: 141, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 40.5, // em kg
@@ -5065,6 +5239,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aerodactyl",
+		codinome: "",
 		numero: 142, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 59.0, // em kg
@@ -5094,6 +5269,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snorlax",
+		codinome: "",
 		numero: 143, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 460.0, // em kg
@@ -5123,6 +5299,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Articuno de Kanto",
+		codinome: "",
 		numero: 144.1, // considerando a national dex
 		tipo: ["Gelo", " Voador"],
 		massa: 55.4, // em kg
@@ -5152,6 +5329,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Articuno de Galar",
+		codinome: "",
 		numero: 144.2, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 50.9, // em kg
@@ -5181,6 +5359,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zapdos de Kanto",
+		codinome: "",
 		numero: 145.1, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 52.6, // em kg
@@ -5210,6 +5389,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zapdos de Galar",
+		codinome: "",
 		numero: 145.2, // considerando a national dex
 		tipo: ["Lutador", " Voador"],
 		massa: 58.2, // em kg
@@ -5239,6 +5419,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Moltres de Kanto",
+		codinome: "",
 		numero: 146.1, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 60.0, // em kg
@@ -5268,6 +5449,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Moltres de Galar",
+		codinome: "",
 		numero: 146.2, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 66.0, // em kg
@@ -5297,6 +5479,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dratini",
+		codinome: "",
 		numero: 147, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 3.3, // em kg
@@ -5326,6 +5509,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragonair",
+		codinome: "",
 		numero: 148, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 16.5, // em kg
@@ -5355,6 +5539,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragonite",
+		codinome: "",
 		numero: 149, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 210.0, // em kg
@@ -5384,6 +5569,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mewtwo",
+		codinome: "",
 		numero: 150, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 122.0, // em kg
@@ -5413,6 +5599,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mew",
+		codinome: "",
 		numero: 151, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 4.0, // em kg
@@ -5442,6 +5629,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chikorita",
+		codinome: "",
 		numero: 152, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 6.4, // em kg
@@ -5471,6 +5659,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bayleef",
+		codinome: "",
 		numero: 153, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 15.8, // em kg
@@ -5500,6 +5689,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meganium",
+		codinome: "",
 		numero: 154, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 100.5, // em kg
@@ -5529,6 +5719,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cyndaquil",
+		codinome: "",
 		numero: 155, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 7.9, // em kg
@@ -5558,6 +5749,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quilava",
+		codinome: "",
 		numero: 156, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
@@ -5587,6 +5779,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Typhlosion de Johto",
+		codinome: "",
 		numero: 157.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 79.5, // em kg
@@ -5616,6 +5809,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Typhlosion de Hisui",
+		codinome: "",
 		numero: 157.2, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
 		massa: 69.8, // em kg
@@ -5645,6 +5839,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Totodile",
+		codinome: "",
 		numero: 158, // considerando a national dex
 		tipo: ["Água"],
 		massa: 9.5, // em kg
@@ -5674,6 +5869,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Croconaw",
+		codinome: "",
 		numero: 159, // considerando a national dex
 		tipo: ["Água"],
 		massa: 25.0, // em kg
@@ -5703,6 +5899,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Feraligatr",
+		codinome: "",
 		numero: 160, // considerando a national dex
 		tipo: ["Água"],
 		massa: 88.8, // em kg
@@ -5732,6 +5929,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sentret",
+		codinome: "",
 		numero: 161, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
@@ -5761,6 +5959,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Furret",
+		codinome: "",
 		numero: 162, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
@@ -5790,6 +5989,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoothoot",
+		codinome: "",
 		numero: 163, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 21.2, // em kg
@@ -5820,6 +6020,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Noctowl",
+		codinome: "",
 		numero: 164, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 40.8, // em kg
@@ -5849,6 +6050,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ledyba",
+		codinome: "",
 		numero: 165, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 10.8, // em kg
@@ -5878,6 +6080,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ledian",
+		codinome: "",
 		numero: 166, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 35.6, // em kg
@@ -5907,6 +6110,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spinarak",
+		codinome: "",
 		numero: 167, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 8.5, // em kg
@@ -5936,6 +6140,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ariados",
+		codinome: "",
 		numero: 168, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 33.5, // em kg
@@ -5965,6 +6170,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crobat",
+		codinome: "",
 		numero: 169, // considerando a national dex
 		tipo: ["Veneno", " Voador"],
 		massa: 75.0, // em kg
@@ -5994,6 +6200,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chinchou",
+		codinome: "",
 		numero: 170, // considerando a national dex
 		tipo: ["Água", " Elétrico"],
 		massa: 12.0, // em kg
@@ -6023,6 +6230,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lanturn",
+		codinome: "",
 		numero: 171, // considerando a national dex
 		tipo: ["Água", " Elétrico"],
 		massa: 22.5, // em kg
@@ -6052,6 +6260,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pichu",
+		codinome: "",
 		numero: 172, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 2.0, // em kg
@@ -6081,6 +6290,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cleffa",
+		codinome: "",
 		numero: 173, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 3.0, // em kg
@@ -6110,6 +6320,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Igglybuff",
+		codinome: "",
 		numero: 174, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 1.0, // em kg
@@ -6139,6 +6350,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Togepi",
+		codinome: "",
 		numero: 175, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 1.5, // em kg
@@ -6168,6 +6380,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Togetic",
+		codinome: "",
 		numero: 176, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 3.2, // em kg
@@ -6197,6 +6410,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Natu",
+		codinome: "",
 		numero: 177, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 2.0, // em kg
@@ -6226,6 +6440,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Xatu",
+		codinome: "",
 		numero: 178, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 15.0, // em kg
@@ -6255,6 +6470,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mareep",
+		codinome: "",
 		numero: 179, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 7.8, // em kg
@@ -6284,6 +6500,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flaaffy",
+		codinome: "",
 		numero: 180, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 13.3, // em kg
@@ -6313,6 +6530,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ampharos",
+		codinome: "",
 		numero: 181, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 61.5, // em kg
@@ -6342,6 +6560,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bellossom",
+		codinome: "",
 		numero: 182, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 5.8, // em kg
@@ -6371,6 +6590,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marill",
+		codinome: "",
 		numero: 183, // considerando a national dex
 		tipo: ["Água", " Fada"],
 		massa: 8.5, // em kg
@@ -6400,6 +6620,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Azumarill",
+		codinome: "",
 		numero: 184, // considerando a national dex
 		tipo: ["Água", " Fada"],
 		massa: 28.5, // em kg
@@ -6429,6 +6650,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sudowoodo",
+		codinome: "",
 		numero: 185, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 38.0, // em kg
@@ -6458,6 +6680,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Politoed",
+		codinome: "",
 		numero: 186, // considerando a national dex
 		tipo: ["Água"],
 		massa: 33.9, // em kg
@@ -6487,6 +6710,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoppip",
+		codinome: "",
 		numero: 187, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 0.5, // em kg
@@ -6516,6 +6740,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skiploom",
+		codinome: "",
 		numero: 188, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 1.0, // em kg
@@ -6545,6 +6770,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jumpluff",
+		codinome: "",
 		numero: 189, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 3.0, // em kg
@@ -6574,6 +6800,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aipom",
+		codinome: "",
 		numero: 190, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 11.5, // em kg
@@ -6603,6 +6830,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sunkern",
+		codinome: "",
 		numero: 191, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 1.8, // em kg
@@ -6632,6 +6860,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sunflora",
+		codinome: "",
 		numero: 192, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 8.5, // em kg
@@ -6661,6 +6890,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yanma",
+		codinome: "",
 		numero: 193, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 38.0, // em kg
@@ -6690,6 +6920,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wooper de Johto",
+		codinome: "",
 		numero: 194.1, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 8.5, // em kg
@@ -6719,6 +6950,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wooper de Paldea",
+		codinome: "",
 		numero: 194.2, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
 		massa: 11.0, // em kg
@@ -6749,6 +6981,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quagsire",
+		codinome: "",
 		numero: 195, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 75.0, // em kg
@@ -6779,6 +7012,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Espeon",
+		codinome: "",
 		numero: 196, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 26.5, // em kg
@@ -6808,6 +7042,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Umbreon",
+		codinome: "",
 		numero: 197, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 27.0, // em kg
@@ -6837,6 +7072,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Murkrow",
+		codinome: "",
 		numero: 198, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 2.1, // em kg
@@ -6866,6 +7102,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowking de Johto",
+		codinome: "",
 		numero: 199.1, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 79.5, // em kg
@@ -6895,6 +7132,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowking de Galar",
+		codinome: "",
 		numero: 199.2, // considerando a national dex
 		tipo: ["Veneno", " Psíquico"],
 		massa: 79.5, // em kg
@@ -6924,6 +7162,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Misdreavus",
+		codinome: "",
 		numero: 200, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 1.0, // em kg
@@ -6953,6 +7192,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Unown",
+		codinome: "",
 		numero: 201, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 5.0, // em kg
@@ -7009,6 +7249,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wobbuffet",
+		codinome: "",
 		numero: 202, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 28.5, // em kg
@@ -7038,6 +7279,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Girafarig",
+		codinome: "",
 		numero: 203, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
 		massa: 41.5, // em kg
@@ -7067,6 +7309,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pineco",
+		codinome: "",
 		numero: 204, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 7.2, // em kg
@@ -7096,6 +7339,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Forretress",
+		codinome: "",
 		numero: 205, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 125.8, // em kg
@@ -7125,6 +7369,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dunsparce",
+		codinome: "",
 		numero: 206, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 14.0, // em kg
@@ -7154,6 +7399,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gligar",
+		codinome: "",
 		numero: 207, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 64.8, // em kg
@@ -7183,6 +7429,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Steelix",
+		codinome: "",
 		numero: 208, // considerando a national dex
 		tipo: ["Metal", " Terra"],
 		massa: 400.0, // em kg
@@ -7212,6 +7459,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snubbull",
+		codinome: "",
 		numero: 209, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 7.8, // em kg
@@ -7241,6 +7489,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Granbull",
+		codinome: "",
 		numero: 210, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 48.7, // em kg
@@ -7270,6 +7519,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Qwilfish de Johto",
+		codinome: "",
 		numero: 211.1, // considerando a national dex
 		tipo: ["Água", " Veneno"],
 		massa: 3.9, // em kg
@@ -7299,6 +7549,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Qwilfish de Hisui",
+		codinome: "",
 		numero: 211.2, // considerando a national dex
 		tipo: ["Noturno", " Veneno"],
 		massa: 3.9, // em kg
@@ -7329,6 +7580,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scizor",
+		codinome: "",
 		numero: 212, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 118.0, // em kg
@@ -7358,6 +7610,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shuckle",
+		codinome: "",
 		numero: 213, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
 		massa: 20.5, // em kg
@@ -7387,6 +7640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Heracross",
+		codinome: "",
 		numero: 214, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
 		massa: 54.0, // em kg
@@ -7416,6 +7670,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sneasel de Johto",
+		codinome: "",
 		numero: 215.1, // considerando a national dex
 		tipo: ["Noturno", " Gelo"],
 		massa: 28.0, // em kg
@@ -7445,6 +7700,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sneasel de Hisui",
+		codinome: "",
 		numero: 215.2, // considerando a national dex
 		tipo: ["Lutador", " Veneno"],
 		massa: 27.0, // em kg
@@ -7475,6 +7731,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Teddiursa",
+		codinome: "",
 		numero: 216, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 8.8, // em kg
@@ -7504,6 +7761,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ursaring",
+		codinome: "",
 		numero: 217, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 125.8, // em kg
@@ -7534,6 +7792,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slugma",
+		codinome: "",
 		numero: 218, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 35.0, // em kg
@@ -7563,6 +7822,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magcargo",
+		codinome: "",
 		numero: 219, // considerando a national dex
 		tipo: ["Fogo", " Rocha"],
 		massa: 55.0, // em kg
@@ -7592,6 +7852,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swinub",
+		codinome: "",
 		numero: 220, // considerando a national dex
 		tipo: ["Gelo", " Terra"],
 		massa: 6.5, // em kg
@@ -7621,6 +7882,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Piloswine",
+		codinome: "",
 		numero: 221, // considerando a national dex
 		tipo: ["Gelo", " Terra"],
 		massa: 55.8, // em kg
@@ -7650,6 +7912,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corsola de Johto",
+		codinome: "",
 		numero: 222.1, // considerando a national dex
 		tipo: ["Água", " Rocha"],
 		massa: 5.0, // em kg
@@ -7679,6 +7942,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corsola de Galar",
+		codinome: "",
 		numero: 222.2, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.5, // em kg
@@ -7708,6 +7972,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Remoraid",
+		codinome: "",
 		numero: 223, // considerando a national dex
 		tipo: ["Água"],
 		massa: 12.0, // em kg
@@ -7737,6 +8002,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Octillery",
+		codinome: "",
 		numero: 224, // considerando a national dex
 		tipo: ["Água"],
 		massa: 28.5, // em kg
@@ -7766,6 +8032,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Delibird",
+		codinome: "",
 		numero: 225, // considerando a national dex
 		tipo: ["Gelo", " Voador"],
 		massa: 16.0, // em kg
@@ -7795,6 +8062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mantine",
+		codinome: "",
 		numero: 226, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 220.0, // em kg
@@ -7824,6 +8092,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skarmory",
+		codinome: "",
 		numero: 227, // considerando a national dex
 		tipo: ["Metal", " Voador"],
 		massa: 50.5, // em kg
@@ -7853,6 +8122,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Houndour",
+		codinome: "",
 		numero: 228, // considerando a national dex
 		tipo: ["Noturno", " Fogo"],
 		massa: 10.8, // em kg
@@ -7882,6 +8152,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Houndoom",
+		codinome: "",
 		numero: 229, // considerando a national dex
 		tipo: ["Noturno", " Fogo"],
 		massa: 35.0, // em kg
@@ -7911,6 +8182,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kingdra",
+		codinome: "",
 		numero: 230, // considerando a national dex
 		tipo: ["Água", " Dragão"],
 		massa: 152.0, // em kg
@@ -7940,6 +8212,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Phanpy",
+		codinome: "",
 		numero: 231, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 33.5, // em kg
@@ -7969,6 +8242,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Donphan",
+		codinome: "",
 		numero: 232, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 120.0, // em kg
@@ -7999,6 +8273,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Porygon2",
+		codinome: "",
 		numero: 233, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
@@ -8028,6 +8303,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stantler",
+		codinome: "",
 		numero: 234, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 71.2, // em kg
@@ -8057,6 +8333,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Smeargle",
+		codinome: "",
 		numero: 235, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 58.0, // em kg
@@ -8086,6 +8363,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tyrogue",
+		codinome: "",
 		numero: 236, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 21.0, // em kg
@@ -8115,6 +8393,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hitmontop",
+		codinome: "",
 		numero: 237, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 48.0, // em kg
@@ -8144,6 +8423,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Smoochum",
+		codinome: "",
 		numero: 238, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
 		massa: 6.0, // em kg
@@ -8173,6 +8453,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Elekid",
+		codinome: "",
 		numero: 239, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 23.5, // em kg
@@ -8202,6 +8483,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magby",
+		codinome: "",
 		numero: 240, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 21.4, // em kg
@@ -8231,6 +8513,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Miltank",
+		codinome: "",
 		numero: 241, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 75.5, // em kg
@@ -8260,6 +8543,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blissey",
+		codinome: "",
 		numero: 242, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 46.8, // em kg
@@ -8289,6 +8573,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raikou",
+		codinome: "",
 		numero: 243, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 178.0, // em kg
@@ -8318,6 +8603,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Entei",
+		codinome: "",
 		numero: 244, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 198.0, // em kg
@@ -8347,6 +8633,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Suicune",
+		codinome: "",
 		numero: 245, // considerando a national dex
 		tipo: ["Água"],
 		massa: 187.0, // em kg
@@ -8376,6 +8663,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Larvitar",
+		codinome: "",
 		numero: 246, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 72.0, // em kg
@@ -8405,6 +8693,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pupitar",
+		codinome: "",
 		numero: 247, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 152.0, // em kg
@@ -8434,6 +8723,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tyranitar",
+		codinome: "",
 		numero: 248, // considerando a national dex
 		tipo: ["Rocha", " Noturno"],
 		massa: 202.0, // em kg
@@ -8463,6 +8753,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lugia",
+		codinome: "",
 		numero: 249, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 216.0, // em kg
@@ -8492,6 +8783,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ho-Oh",
+		codinome: "",
 		numero: 250, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 199.0, // em kg
@@ -8521,6 +8813,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Celebi",
+		codinome: "",
 		numero: 251, // considerando a national dex
 		tipo: ["Psíquico", " Planta"],
 		massa: 5.0, // em kg
@@ -8550,6 +8843,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Treecko",
+		codinome: "",
 		numero: 252, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 5.0, // em kg
@@ -8579,6 +8873,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grovyle",
+		codinome: "",
 		numero: 253, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 21.6, // em kg
@@ -8608,6 +8903,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sceptile",
+		codinome: "",
 		numero: 254, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 52.2, // em kg
@@ -8637,6 +8933,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torchic",
+		codinome: "",
 		numero: 255, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 2.5, // em kg
@@ -8666,6 +8963,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Combusken",
+		codinome: "",
 		numero: 256, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 19.5, // em kg
@@ -8695,6 +8993,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blaziken",
+		codinome: "",
 		numero: 257, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 52.0, // em kg
@@ -8724,6 +9023,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mudkip",
+		codinome: "",
 		numero: 258, // considerando a national dex
 		tipo: ["Água"],
 		massa: 7.6, // em kg
@@ -8753,6 +9053,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marshtomp",
+		codinome: "",
 		numero: 259, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 28.0, // em kg
@@ -8782,6 +9083,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swampert",
+		codinome: "",
 		numero: 260, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 81.9, // em kg
@@ -8811,6 +9113,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poochyena",
+		codinome: "",
 		numero: 261, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 13.6, // em kg
@@ -8840,6 +9143,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mightyena",
+		codinome: "",
 		numero: 262, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 37.0, // em kg
@@ -8869,6 +9173,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zigzagoon de Hoenn",
+		codinome: "",
 		numero: 263.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 17.5, // em kg
@@ -8898,6 +9203,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zigzagoon de Galar",
+		codinome: "",
 		numero: 263.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
 		massa: 17.5, // em kg
@@ -8927,6 +9233,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Linoone de Hoenn",
+		codinome: "",
 		numero: 264.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
@@ -8956,6 +9263,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Linoone de Galar",
+		codinome: "",
 		numero: 264.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
 		massa: 32.5, // em kg
@@ -8986,6 +9294,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wurmple",
+		codinome: "",
 		numero: 265, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 3.6, // em kg
@@ -9015,6 +9324,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Silcoon",
+		codinome: "",
 		numero: 266, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 10.0, // em kg
@@ -9044,6 +9354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beautifly",
+		codinome: "",
 		numero: 267, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 28.4, // em kg
@@ -9073,6 +9384,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cascoon",
+		codinome: "",
 		numero: 268, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 11.5, // em kg
@@ -9102,6 +9414,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dustox",
+		codinome: "",
 		numero: 269, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 31.6, // em kg
@@ -9131,6 +9444,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lotad",
+		codinome: "",
 		numero: 270, // considerando a national dex
 		tipo: ["Água", " Planta"],
 		massa: 2.6, // em kg
@@ -9160,6 +9474,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lombre",
+		codinome: "",
 		numero: 271, // considerando a national dex
 		tipo: ["Água", " Planta"],
 		massa: 32.5, // em kg
@@ -9189,6 +9504,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ludicolo",
+		codinome: "",
 		numero: 272, // considerando a national dex
 		tipo: ["Água", " Planta"],
 		massa: 55.0, // em kg
@@ -9218,6 +9534,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seedot",
+		codinome: "",
 		numero: 273, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 4.0, // em kg
@@ -9247,6 +9564,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nuzleaf",
+		codinome: "",
 		numero: 274, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 28.0, // em kg
@@ -9276,6 +9594,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shiftry",
+		codinome: "",
 		numero: 275, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 59.6, // em kg
@@ -9305,6 +9624,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Taillow",
+		codinome: "",
 		numero: 276, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.3, // em kg
@@ -9334,6 +9654,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swellow",
+		codinome: "",
 		numero: 277, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 19.8, // em kg
@@ -9363,6 +9684,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wingull",
+		codinome: "",
 		numero: 278, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 9.5, // em kg
@@ -9392,6 +9714,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pelipper",
+		codinome: "",
 		numero: 279, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 28.0, // em kg
@@ -9421,6 +9744,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ralts",
+		codinome: "",
 		numero: 280, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 6.6, // em kg
@@ -9450,6 +9774,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kirlia",
+		codinome: "",
 		numero: 281, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 20.2, // em kg
@@ -9479,6 +9804,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gardevoir",
+		codinome: "",
 		numero: 282, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 48.4, // em kg
@@ -9508,6 +9834,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Surskit",
+		codinome: "",
 		numero: 283, // considerando a national dex
 		tipo: ["Inseto", " Água"],
 		massa: 1.7, // em kg
@@ -9537,6 +9864,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Masquerain",
+		codinome: "",
 		numero: 284, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 3.6, // em kg
@@ -9566,6 +9894,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shroomish",
+		codinome: "",
 		numero: 285, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 4.5, // em kg
@@ -9595,6 +9924,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Breloom",
+		codinome: "",
 		numero: 286, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
 		massa: 39.2, // em kg
@@ -9624,6 +9954,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slakoth",
+		codinome: "",
 		numero: 287, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 24.0, // em kg
@@ -9653,6 +9984,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vigoroth",
+		codinome: "",
 		numero: 288, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 46.5, // em kg
@@ -9682,6 +10014,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slaking",
+		codinome: "",
 		numero: 289, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 130.5, // em kg
@@ -9711,6 +10044,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nincada",
+		codinome: "",
 		numero: 290, // considerando a national dex
 		tipo: ["Inseto", " Terra"],
 		massa: 5.5, // em kg
@@ -9740,6 +10074,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ninjask",
+		codinome: "",
 		numero: 291, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 12.0, // em kg
@@ -9769,6 +10104,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shedinja",
+		codinome: "",
 		numero: 292, // considerando a national dex
 		tipo: ["Inseto", " Fantasma"],
 		massa: 1.2, // em kg
@@ -9798,6 +10134,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whismur",
+		codinome: "",
 		numero: 293, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 16.3, // em kg
@@ -9827,6 +10164,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Loudred",
+		codinome: "",
 		numero: 294, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 40.5, // em kg
@@ -9856,6 +10194,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exploud",
+		codinome: "",
 		numero: 295, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 84.0, // em kg
@@ -9885,6 +10224,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Makuhita",
+		codinome: "",
 		numero: 296, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 86.4, // em kg
@@ -9914,6 +10254,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hariyama",
+		codinome: "",
 		numero: 297, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 253.8, // em kg
@@ -9943,6 +10284,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Azurill",
+		codinome: "",
 		numero: 298, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 2.0, // em kg
@@ -9972,6 +10314,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nosepass",
+		codinome: "",
 		numero: 299, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 97.0, // em kg
@@ -10001,6 +10344,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skitty",
+		codinome: "",
 		numero: 300, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 11.0, // em kg
@@ -10030,6 +10374,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Decaltty",
+		codinome: "",
 		numero: 301, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.6, // em kg
@@ -10059,6 +10404,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sableye",
+		codinome: "",
 		numero: 302, // considerando a national dex
 		tipo: ["Noturno", " Fantasma"],
 		massa: 11.0, // em kg
@@ -10089,6 +10435,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mawile",
+		codinome: "",
 		numero: 303, // considerando a national dex
 		tipo: ["Metal", " Fada"],
 		massa: 11.5, // em kg
@@ -10119,6 +10466,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aron",
+		codinome: "",
 		numero: 304, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
 		massa: 60.0, // em kg
@@ -10148,6 +10496,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lairon",
+		codinome: "",
 		numero: 305, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
 		massa: 120.0, // em kg
@@ -10177,6 +10526,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aggron",
+		codinome: "",
 		numero: 306, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
 		massa: 360.0, // em kg
@@ -10206,6 +10556,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meditite",
+		codinome: "",
 		numero: 307, // considerando a national dex
 		tipo: ["Lutador", " Psíquico"],
 		massa: 11.2, // em kg
@@ -10235,6 +10586,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Medicham",
+		codinome: "",
 		numero: 308, // considerando a national dex
 		tipo: ["Lutador", " Psíquico"],
 		massa: 31.5, // em kg
@@ -10264,6 +10616,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electrike",
+		codinome: "",
 		numero: 309, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 15.2, // em kg
@@ -10293,6 +10646,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Manectric",
+		codinome: "",
 		numero: 310, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 40.2, // em kg
@@ -10322,6 +10676,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Plusle",
+		codinome: "",
 		numero: 311, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
@@ -10351,6 +10706,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minun",
+		codinome: "",
 		numero: 312, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
@@ -10380,6 +10736,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Volbeat",
+		codinome: "",
 		numero: 313, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
@@ -10409,6 +10766,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Illumise",
+		codinome: "",
 		numero: 314, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
@@ -10438,6 +10796,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roselia",
+		codinome: "",
 		numero: 315, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 2.0, // em kg
@@ -10467,6 +10826,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gulpin",
+		codinome: "",
 		numero: 316, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 10.3, // em kg
@@ -10496,6 +10856,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swalot",
+		codinome: "",
 		numero: 317, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 80.0, // em kg
@@ -10525,6 +10886,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carvanha",
+		codinome: "",
 		numero: 318, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 20.8, // em kg
@@ -10554,6 +10916,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sharpedo",
+		codinome: "",
 		numero: 319, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 88.8, // em kg
@@ -10583,6 +10946,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wailmer",
+		codinome: "",
 		numero: 320, // considerando a national dex
 		tipo: ["Água"],
 		massa: 130.0, // em kg
@@ -10613,6 +10977,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wailord",
+		codinome: "",
 		numero: 321, // considerando a national dex
 		tipo: ["Água"],
 		massa: 398.0, // em kg
@@ -10642,6 +11007,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Numel",
+		codinome: "",
 		numero: 322, // considerando a national dex
 		tipo: ["Fogo", " Terra"],
 		massa: 24.0, // em kg
@@ -10671,6 +11037,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Camerupt",
+		codinome: "",
 		numero: 323, // considerando a national dex
 		tipo: ["Fogo", " Terra"],
 		massa: 220.0, // em kg
@@ -10700,6 +11067,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torkoal",
+		codinome: "",
 		numero: 324, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 80.4, // em kg
@@ -10729,6 +11097,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spoink",
+		codinome: "",
 		numero: 325, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 30.6, // em kg
@@ -10758,6 +11127,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grumpig",
+		codinome: "",
 		numero: 326, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 71.5, // em kg
@@ -10787,6 +11157,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spinda",
+		codinome: "",
 		numero: 327, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 5.0, // em kg
@@ -10816,6 +11187,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trapinch",
+		codinome: "",
 		numero: 328, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 15.0, // em kg
@@ -10845,6 +11217,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vibrava",
+		codinome: "",
 		numero: 329, // considerando a national dex
 		tipo: ["Terra", " Dragão"],
 		massa: 15.3, // em kg
@@ -10874,6 +11247,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flygon",
+		codinome: "",
 		numero: 330, // considerando a national dex
 		tipo: ["Terra", " Dragão"],
 		massa: 82.0, // em kg
@@ -10903,6 +11277,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cacnea",
+		codinome: "",
 		numero: 331, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 51.3, // em kg
@@ -10932,6 +11307,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cacturne",
+		codinome: "",
 		numero: 332, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 77.4, // em kg
@@ -10961,6 +11337,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swablu",
+		codinome: "",
 		numero: 333, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.2, // em kg
@@ -10990,6 +11367,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Altaria",
+		codinome: "",
 		numero: 334, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 20.6, // em kg
@@ -11019,6 +11397,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zangoose",
+		codinome: "",
 		numero: 335, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 40.3, // em kg
@@ -11048,6 +11427,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seviper",
+		codinome: "",
 		numero: 336, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 52.5, // em kg
@@ -11077,6 +11457,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lunatone",
+		codinome: "",
 		numero: 337, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
 		massa: 168.0, // em kg
@@ -11106,6 +11487,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Solrock",
+		codinome: "",
 		numero: 338, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
 		massa: 154.0, // em kg
@@ -11135,6 +11517,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Barboach",
+		codinome: "",
 		numero: 339, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 1.9, // em kg
@@ -11165,6 +11548,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whishcash",
+		codinome: "",
 		numero: 340, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 23.6, // em kg
@@ -11194,6 +11578,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corphish",
+		codinome: "",
 		numero: 341, // considerando a national dex
 		tipo: ["Água"],
 		massa: 11.5, // em kg
@@ -11223,6 +11608,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crawdaunt",
+		codinome: "",
 		numero: 342, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 32.8, // em kg
@@ -11252,6 +11638,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Baltoy",
+		codinome: "",
 		numero: 343, // considerando a national dex
 		tipo: ["Terra", " Psíquico"],
 		massa: 21.5, // em kg
@@ -11281,6 +11668,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Claydol",
+		codinome: "",
 		numero: 344, // considerando a national dex
 		tipo: ["Terra", " Psíquico"],
 		massa: 108.0, // em kg
@@ -11310,6 +11698,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lileep",
+		codinome: "",
 		numero: 345, // considerando a national dex
 		tipo: ["Rocha", " Planta"],
 		massa: 23.8, // em kg
@@ -11339,6 +11728,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cradily",
+		codinome: "",
 		numero: 346, // considerando a national dex
 		tipo: ["Rocha", " Planta"],
 		massa: 60.4, // em kg
@@ -11368,6 +11758,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Anorith",
+		codinome: "",
 		numero: 347, // considerando a national dex
 		tipo: ["Rocha", " Inseto"],
 		massa: 12.5, // em kg
@@ -11397,6 +11788,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Armaldo",
+		codinome: "",
 		numero: 348, // considerando a national dex
 		tipo: ["Rocha", " Inseto"],
 		massa: 68.2, // em kg
@@ -11426,6 +11818,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Feebas",
+		codinome: "",
 		numero: 349, // considerando a national dex
 		tipo: ["Água"],
 		massa: 7.4, // em kg
@@ -11455,6 +11848,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Milotic",
+		codinome: "",
 		numero: 350, // considerando a national dex
 		tipo: ["Água"],
 		massa: 162.0, // em kg
@@ -11484,6 +11878,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Normal)",
+		codinome: "",
 		numero: 351.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 0.8, // em kg
@@ -11514,6 +11909,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Ensolarada)",
+		codinome: "",
 		numero: 351.2, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 0.8, // em kg
@@ -11544,6 +11940,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Chuvosa)",
+		codinome: "",
 		numero: 351.3, // considerando a national dex
 		tipo: ["Água"],
 		massa: 0.8, // em kg
@@ -11574,6 +11971,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Nevada)",
+		codinome: "",
 		numero: 351.4, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 0.8, // em kg
@@ -11604,6 +12002,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kecleon",
+		codinome: "",
 		numero: 352, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 22.0, // em kg
@@ -11633,6 +12032,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shuppet",
+		codinome: "",
 		numero: 353, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 2.3, // em kg
@@ -11662,6 +12062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Banette",
+		codinome: "",
 		numero: 354, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 12.5, // em kg
@@ -11691,6 +12092,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Duskull",
+		codinome: "",
 		numero: 355, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 15.0, // em kg
@@ -11720,6 +12122,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dusclops",
+		codinome: "",
 		numero: 356, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 30.6, // em kg
@@ -11749,6 +12152,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tropius",
+		codinome: "",
 		numero: 357, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 100.0, // em kg
@@ -11778,6 +12182,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chimecho",
+		codinome: "",
 		numero: 358, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 1.0, // em kg
@@ -11807,6 +12212,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Absol",
+		codinome: "",
 		numero: 359, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 47.0, // em kg
@@ -11836,6 +12242,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wynaut",
+		codinome: "",
 		numero: 360, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 14.0, // em kg
@@ -11865,6 +12272,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snorunt",
+		codinome: "",
 		numero: 361, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 16.8, // em kg
@@ -11894,6 +12302,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glalie",
+		codinome: "",
 		numero: 362, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 256.5, // em kg
@@ -11923,6 +12332,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spheal",
+		codinome: "",
 		numero: 363, // considerando a national dex
 		tipo: ["Gelo", " Água"],
 		massa: 39.5, // em kg
@@ -11952,6 +12362,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sealeo",
+		codinome: "",
 		numero: 364, // considerando a national dex
 		tipo: ["Gelo", " Água"],
 		massa: 87.6, // em kg
@@ -11981,6 +12392,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Walrein",
+		codinome: "",
 		numero: 365, // considerando a national dex
 		tipo: ["Gelo", " Água"],
 		massa: 150.6, // em kg
@@ -12010,6 +12422,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clamperl",
+		codinome: "",
 		numero: 366, // considerando a national dex
 		tipo: ["Água"],
 		massa: 52.5, // em kg
@@ -12039,6 +12452,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Huntail",
+		codinome: "",
 		numero: 367, // considerando a national dex
 		tipo: ["Água"],
 		massa: 27.0, // em kg
@@ -12068,6 +12482,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gorebyss",
+		codinome: "",
 		numero: 368, // considerando a national dex
 		tipo: ["Água"],
 		massa: 22.6, // em kg
@@ -12097,6 +12512,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Relicanth",
+		codinome: "",
 		numero: 369, // considerando a national dex
 		tipo: ["Água", " Rocha"],
 		massa: 23.4, // em kg
@@ -12126,6 +12542,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luvdisc",
+		codinome: "",
 		numero: 370, // considerando a national dex
 		tipo: ["Água"],
 		massa: 8.7, // em kg
@@ -12155,6 +12572,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bagon",
+		codinome: "",
 		numero: 371, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 42.1, // em kg
@@ -12184,6 +12602,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shelgon",
+		codinome: "",
 		numero: 372, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 110.5, // em kg
@@ -12213,6 +12632,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Salamance",
+		codinome: "",
 		numero: 373, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 102.6, // em kg
@@ -12242,6 +12662,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beldum",
+		codinome: "",
 		numero: 374, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 95.2, // em kg
@@ -12271,6 +12692,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Metang",
+		codinome: "",
 		numero: 375, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 202.5, // em kg
@@ -12300,6 +12722,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Metagross",
+		codinome: "",
 		numero: 376, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 550.0, // em kg
@@ -12329,6 +12752,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regirock",
+		codinome: "",
 		numero: 377, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 230.0, // em kg
@@ -12358,6 +12782,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regice",
+		codinome: "",
 		numero: 378, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 175.0, // em kg
@@ -12387,6 +12812,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Registeel",
+		codinome: "",
 		numero: 379, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 205.0, // em kg
@@ -12416,6 +12842,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Latias",
+		codinome: "",
 		numero: 380, // considerando a national dex
 		tipo: ["Dragão", " Psíquico"],
 		massa: 40.0, // em kg
@@ -12445,6 +12872,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Latios",
+		codinome: "",
 		numero: 381, // considerando a national dex
 		tipo: ["Dragão", " Psíquico"],
 		massa: 60.0, // em kg
@@ -12474,6 +12902,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyogre",
+		codinome: "",
 		numero: 382, // considerando a national dex
 		tipo: ["Água"],
 		massa: 352.0, // em kg
@@ -12503,6 +12932,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Groudon",
+		codinome: "",
 		numero: 383, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 950.0, // em kg
@@ -12532,6 +12962,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rayquaza",
+		codinome: "",
 		numero: 384, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 	206.5, // em kg
@@ -12561,6 +12992,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jirachi",
+		codinome: "",
 		numero: 385, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 1.1, // em kg
@@ -12590,6 +13022,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Normal)",
+		codinome: "",
 		numero: 386.1, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -12619,6 +13052,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Ataque)",
+		codinome: "",
 		numero: 386.2, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -12648,6 +13082,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Defesa)",
+		codinome: "",
 		numero: 386.3, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -12677,6 +13112,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Velocidade)",
+		codinome: "",
 		numero: 386.4, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -12706,6 +13142,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Turtwig",
+		codinome: "",
 		numero: 387, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 10.2, // em kg
@@ -12735,6 +13172,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grotle",
+		codinome: "",
 		numero: 388, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 97.0, // em kg
@@ -12764,6 +13202,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torterra",
+		codinome: "",
 		numero: 389, // considerando a national dex
 		tipo: ["Planta", " Terra"],
 		massa: 310.0, // em kg
@@ -12793,6 +13232,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chimchar",
+		codinome: "",
 		numero: 390, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 6.2, // em kg
@@ -12822,6 +13262,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Monferno",
+		codinome: "",
 		numero: 391, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 22.0, // em kg
@@ -12851,6 +13292,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Infernape",
+		codinome: "",
 		numero: 392, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 55.0, // em kg
@@ -12880,6 +13322,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Piplup",
+		codinome: "",
 		numero: 393, // considerando a national dex
 		tipo: ["Água"],
 		massa: 5.2, // em kg
@@ -12909,6 +13352,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Prinplup",
+		codinome: "",
 		numero: 394, // considerando a national dex
 		tipo: ["Água"],
 		massa: 23.0, // em kg
@@ -12938,6 +13382,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Empoleon",
+		codinome: "",
 		numero: 395, // considerando a national dex
 		tipo: ["Água", " Metal"],
 		massa: 84.5, // em kg
@@ -12967,6 +13412,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Starly",
+		codinome: "",
 		numero: 396, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
@@ -12996,6 +13442,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Staravia",
+		codinome: "",
 		numero: 397, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 15.5, // em kg
@@ -13026,6 +13473,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Staraptor",
+		codinome: "",
 		numero: 398, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 24.9, // em kg
@@ -13055,6 +13503,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bidoof",
+		codinome: "",
 		numero: 399, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 20.0, // em kg
@@ -13085,6 +13534,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bibarel",
+		codinome: "",
 		numero: 400, // considerando a national dex
 		tipo: ["Normal", " Água"],
 		massa: 31.5, // em kg
@@ -13115,6 +13565,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kricketot",
+		codinome: "",
 		numero: 401, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 2.2, // em kg
@@ -13144,6 +13595,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kricketune",
+		codinome: "",
 		numero: 402, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 25.5, // em kg
@@ -13174,6 +13626,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shinx",
+		codinome: "",
 		numero: 403, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 9.5, // em kg
@@ -13203,6 +13656,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luxio",
+		codinome: "",
 		numero: 404, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 30.5, // em kg
@@ -13232,6 +13686,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luxray",
+		codinome: "",
 		numero: 405, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 42.0, // em kg
@@ -13261,6 +13716,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Budew",
+		codinome: "",
 		numero: 406, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 1.2, // em kg
@@ -13291,6 +13747,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roserade",
+		codinome: "",
 		numero: 407, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 14.5, // em kg
@@ -13320,6 +13777,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cranidos",
+		codinome: "",
 		numero: 408, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 31.5, // em kg
@@ -13349,6 +13807,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rampardos",
+		codinome: "",
 		numero: 409, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 102.5, // em kg
@@ -13378,6 +13837,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shieldon",
+		codinome: "",
 		numero: 410, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
 		massa: 57.0, // em kg
@@ -13407,6 +13867,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bastiodon",
+		codinome: "",
 		numero: 411, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
 		massa: 149.5, // em kg
@@ -13436,6 +13897,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Burmy",
+		codinome: "",
 		numero: 412, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 3.4, // em kg
@@ -13468,6 +13930,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto Vegetal)",
+		codinome: "",
 		numero: 413.1, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 6.5, // em kg
@@ -13497,6 +13960,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto Arenoso)",
+		codinome: "",
 		numero: 413.2, // considerando a national dex
 		tipo: ["Inseto", " Terra"],
 		massa: 6.5, // em kg
@@ -13526,6 +13990,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto de Lixo)",
+		codinome: "",
 		numero: 413.3, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 6.5, // em kg
@@ -13555,6 +14020,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mothim",
+		codinome: "",
 		numero: 414, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 23.3, // em kg
@@ -13584,6 +14050,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Combee",
+		codinome: "",
 		numero: 415, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 5.5, // em kg
@@ -13614,6 +14081,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vespiquen",
+		codinome: "",
 		numero: 416, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 38.5, // em kg
@@ -13643,6 +14111,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pachirisu",
+		codinome: "",
 		numero: 417, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 3.9, // em kg
@@ -13672,6 +14141,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Buizel",
+		codinome: "",
 		numero: 418, // considerando a national dex
 		tipo: ["Água"],
 		massa: 29.5, // em kg
@@ -13701,6 +14171,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Floatzel",
+		codinome: "",
 		numero: 419, // considerando a national dex
 		tipo: ["Água"],
 		massa: 33.5, // em kg
@@ -13731,6 +14202,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cherubi",
+		codinome: "",
 		numero: 420, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 3.3, // em kg
@@ -13761,6 +14233,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cherrim",
+		codinome: "",
 		numero: 421, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 9.3, // em kg
@@ -13791,6 +14264,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shellos",
+		codinome: "",
 		numero: 422, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.3, // em kg
@@ -13821,6 +14295,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gastrodon",
+		codinome: "",
 		numero: 423, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
@@ -13851,6 +14326,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ambipom",
+		codinome: "",
 		numero: 424, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 20.3, // em kg
@@ -13880,6 +14356,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drifloon",
+		codinome: "",
 		numero: 425, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
 		massa: 1.2, // em kg
@@ -13909,6 +14386,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drifblim",
+		codinome: "",
 		numero: 426, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
 		massa: 15.0, // em kg
@@ -13938,6 +14416,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Buneary",
+		codinome: "",
 		numero: 427, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 5.5, // em kg
@@ -13967,6 +14446,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luponny",
+		codinome: "",
 		numero: 428, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 33.3, // em kg
@@ -13996,6 +14476,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mismagius",
+		codinome: "",
 		numero: 429, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 4.4, // em kg
@@ -14025,6 +14506,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Honchkrow",
+		codinome: "",
 		numero: 430, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 27.3, // em kg
@@ -14054,6 +14536,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glameow",
+		codinome: "",
 		numero: 431, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 3.9, // em kg
@@ -14083,6 +14566,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Purugly",
+		codinome: "",
 		numero: 432, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 43.8, // em kg
@@ -14112,6 +14596,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chingling",
+		codinome: "",
 		numero: 433, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.6, // em kg
@@ -14142,6 +14627,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stunky",
+		codinome: "",
 		numero: 434, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 19.2, // em kg
@@ -14171,6 +14657,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skuntank",
+		codinome: "",
 		numero: 435, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 38.0, // em kg
@@ -14200,6 +14687,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bronzor",
+		codinome: "",
 		numero: 436, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 60.5, // em kg
@@ -14230,6 +14718,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bronzong",
+		codinome: "",
 		numero: 437, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 187.0, // em kg
@@ -14259,6 +14748,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bonsly",
+		codinome: "",
 		numero: 438, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 15.0, // em kg
@@ -14288,6 +14778,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mime Jr.",
+		codinome: "",
 		numero: 439, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 13.0, // em kg
@@ -14317,6 +14808,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Happiny",
+		codinome: "",
 		numero: 440, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 24.4, // em kg
@@ -14346,6 +14838,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chatot",
+		codinome: "",
 		numero: 441, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.9, // em kg
@@ -14375,6 +14868,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spiritomb",
+		codinome: "",
 		numero: 442, // considerando a national dex
 		tipo: ["Fantasma", " Noturno"],
 		massa: 108.0, // em kg
@@ -14404,6 +14898,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gible",
+		codinome: "",
 		numero: 443, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 20.5, // em kg
@@ -14433,6 +14928,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gabite",
+		codinome: "",
 		numero: 444, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 56.0, // em kg
@@ -14462,6 +14958,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Garchomp",
+		codinome: "",
 		numero: 445, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 95.0, // em kg
@@ -14491,6 +14988,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Munchlax",
+		codinome: "",
 		numero: 446, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 105.0, // em kg
@@ -14521,6 +15019,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Riolu",
+		codinome: "",
 		numero: 447, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 20.2, // em kg
@@ -14550,6 +15049,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lucario",
+		codinome: "",
 		numero: 448, // considerando a national dex
 		tipo: ["Lutador", " Metal"],
 		massa: 54.0, // em kg
@@ -14579,6 +15079,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hippopotas",
+		codinome: "",
 		numero: 449, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 49.5, // em kg
@@ -14608,6 +15109,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hippowdon",
+		codinome: "",
 		numero: 450, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 300.0, // em kg
@@ -14637,6 +15139,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skorupi",
+		codinome: "",
 		numero: 451, // considerando a national dex
 		tipo: ["Veneno", " Inseto"],
 		massa: 12.0, // em kg
@@ -14666,6 +15169,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drapion",
+		codinome: "",
 		numero: 452, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 61.5, // em kg
@@ -14695,6 +15199,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Croagunk",
+		codinome: "",
 		numero: 453, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
 		massa: 23.0, // em kg
@@ -14724,6 +15229,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxicroak",
+		codinome: "",
 		numero: 454, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
 		massa: 44.4, // em kg
@@ -14753,6 +15259,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carnivine",
+		codinome: "",
 		numero: 455, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 27.0, // em kg
@@ -14782,6 +15289,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Finneon",
+		codinome: "",
 		numero: 456, // considerando a national dex
 		tipo: ["Água"],
 		massa: 7.0, // em kg
@@ -14812,6 +15320,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lumineon",
+		codinome: "",
 		numero: 457, // considerando a national dex
 		tipo: ["Água"],
 		massa: 24.0, // em kg
@@ -14842,6 +15351,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mantyke",
+		codinome: "",
 		numero: 458, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 65.0, // em kg
@@ -14871,6 +15381,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snover",
+		codinome: "",
 		numero: 459, // considerando a national dex
 		tipo: ["Planta", " Gelo"],
 		massa: 50.5, // em kg
@@ -14901,6 +15412,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Abomasnow",
+		codinome: "",
 		numero: 460, // considerando a national dex
 		tipo: ["Planta", " Gelo"],
 		massa: 135.5, // em kg
@@ -14930,6 +15442,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weavile",
+		codinome: "",
 		numero: 461, // considerando a national dex
 		tipo: ["Noturno", " Gelo"],
 		massa: 34.0, // em kg
@@ -14959,6 +15472,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magnezone",
+		codinome: "",
 		numero: 462, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
 		massa: 180.0, // em kg
@@ -14988,6 +15502,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lickilicky",
+		codinome: "",
 		numero: 463, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 140.0, // em kg
@@ -15017,6 +15532,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rhyperior",
+		codinome: "",
 		numero: 464, // considerando a national dex
 		tipo: ["Terra", " Rocha"],
 		massa: 282.8, // em kg
@@ -15046,6 +15562,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tangrowth",
+		codinome: "",
 		numero: 465, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 128.6, // em kg
@@ -15075,6 +15592,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electivire",
+		codinome: "",
 		numero: 466, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 138.6, // em kg
@@ -15104,6 +15622,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magmortar",
+		codinome: "",
 		numero: 467, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 68.0, // em kg
@@ -15133,6 +15652,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Togekiss",
+		codinome: "",
 		numero: 468, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 38.0, // em kg
@@ -15162,6 +15682,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yanmega",
+		codinome: "",
 		numero: 469, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 51.5, // em kg
@@ -15191,6 +15712,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Leafeon",
+		codinome: "",
 		numero: 470, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 25.5, // em kg
@@ -15220,6 +15742,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glaceon",
+		codinome: "",
 		numero: 471, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 25.9, // em kg
@@ -15249,6 +15772,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gliscor",
+		codinome: "",
 		numero: 472, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 42.5, // em kg
@@ -15278,6 +15802,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mamoswine",
+		codinome: "",
 		numero: 473, // considerando a national dex
 		tipo: ["Gelo", " Terra"],
 		massa: 291.0, // em kg
@@ -15307,6 +15832,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Porygon-Z",
+		codinome: "",
 		numero: 474, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 34.0, // em kg
@@ -15336,6 +15862,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gallade",
+		codinome: "",
 		numero: 475, // considerando a national dex
 		tipo: ["Psíquico", " Lutador"],
 		massa: 52.0, // em kg
@@ -15365,6 +15892,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Probopass",
+		codinome: "",
 		numero: 476, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
 		massa: 340.0, // em kg
@@ -15394,6 +15922,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dusknoir",
+		codinome: "",
 		numero: 477, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 106.6, // em kg
@@ -15423,6 +15952,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Froslass",
+		codinome: "",
 		numero: 478, // considerando a national dex
 		tipo: ["Gelo", " Fantasma"],
 		massa: 26.6, // em kg
@@ -15452,6 +15982,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom",
+		codinome: "",
 		numero: 479.1, // considerando a national dex
 		tipo: ["Elétrico", " Fantasma"],
 		massa: 0.3, // em kg
@@ -15481,6 +16012,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Calor",
+		codinome: "",
 		numero: 479.2, // considerando a national dex
 		tipo: ["Elétrico", " Fogo"],
 		massa: 0.3, // em kg
@@ -15510,6 +16042,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Lavagem",
+		codinome: "",
 		numero: 479.3, // considerando a national dex
 		tipo: ["Elétrico", " Água"],
 		massa: 0.3, // em kg
@@ -15539,6 +16072,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Congelante",
+		codinome: "",
 		numero: 479.4, // considerando a national dex
 		tipo: ["Elétrico", " Gelo"],
 		massa: 0.3, // em kg
@@ -15568,6 +16102,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Ventilador",
+		codinome: "",
 		numero: 479.5, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 0.3, // em kg
@@ -15597,6 +16132,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Corte",
+		codinome: "",
 		numero: 479.6, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
 		massa: 0.3, // em kg
@@ -15626,6 +16162,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Uxie",
+		codinome: "",
 		numero: 480, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
@@ -15655,6 +16192,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mesprit",
+		codinome: "",
 		numero: 481, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
@@ -15684,6 +16222,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Azelf",
+		codinome: "",
 		numero: 482, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
@@ -15713,6 +16252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dialga",
+		codinome: "",
 		numero: 483, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
 		massa: 683.0, // em kg
@@ -15742,6 +16282,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palkia",
+		codinome: "",
 		numero: 484, // considerando a national dex
 		tipo: ["Água", " Dragão"],
 		massa: 336.0, // em kg
@@ -15771,6 +16312,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Heatran",
+		codinome: "",
 		numero: 485, // considerando a national dex
 		tipo: ["Fogo", " Metal"],
 		massa: 430.0, // em kg
@@ -15800,6 +16342,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regigigas",
+		codinome: "",
 		numero: 486, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 420.0, // em kg
@@ -15829,6 +16372,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Giratina (Forma Alterada)",
+		codinome: "",
 		numero: 487.1, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
 		massa: 750.0, // em kg
@@ -15858,6 +16402,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Giratina (Forma Origem)",
+		codinome: "",
 		numero: 487.2, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
 		massa: 650.0, // em kg
@@ -15887,6 +16432,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cresselia",
+		codinome: "",
 		numero: 488, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 85.6, // em kg
@@ -15916,6 +16462,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Phione",
+		codinome: "",
 		numero: 489, // considerando a national dex
 		tipo: ["Água"],
 		massa: 3.1, // em kg
@@ -15945,6 +16492,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Manaphy",
+		codinome: "",
 		numero: 490, // considerando a national dex
 		tipo: ["Água"],
 		massa: 1.4, // em kg
@@ -15974,6 +16522,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darkrai",
+		codinome: "",
 		numero: 491, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 50.5, // em kg
@@ -16003,6 +16552,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shaymin (Forma Terrestre)",
+		codinome: "",
 		numero: 492.1, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 2.1, // em kg
@@ -16032,6 +16582,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shaymin (Forma Céu)",
+		codinome: "",
 		numero: 492.2, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 5.2, // em kg
@@ -16061,6 +16612,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arceus",
+		codinome: "",
 		numero: 493, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 320.0, // em kg
@@ -16090,6 +16642,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Victini",
+		codinome: "",
 		numero: 494, // considerando a national dex
 		tipo: ["Psíquico", " Fogo"],
 		massa: 4.0, // em kg
@@ -16119,6 +16672,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snivy",
+		codinome: "",
 		numero: 495, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 8.1, // em kg
@@ -16148,6 +16702,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Servine",
+		codinome: "",
 		numero: 496, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 16.0, // em kg
@@ -16177,6 +16732,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Serperior",
+		codinome: "",
 		numero: 497, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 63.0, // em kg
@@ -16206,6 +16762,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tepig",
+		codinome: "",
 		numero: 498, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 9.9, // em kg
@@ -16235,6 +16792,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pignite",
+		codinome: "",
 		numero: 499, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 55.5, // em kg
@@ -16264,6 +16822,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Emboar",
+		codinome: "",
 		numero: 500, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 150.0, // em kg
@@ -16293,6 +16852,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oshawott",
+		codinome: "",
 		numero: 501, // considerando a national dex
 		tipo: ["Água"],
 		massa: 5.9, // em kg
@@ -16322,6 +16882,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dewott",
+		codinome: "",
 		numero: 502, // considerando a national dex
 		tipo: ["Água"],
 		massa: 24.5, // em kg
@@ -16351,6 +16912,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Samurott de Unova",
+		codinome: "",
 		numero: 503.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 94.6, // em kg
@@ -16380,6 +16942,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Samurott de Hisui",
+		codinome: "",
 		numero: 503.2, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 58.2, // em kg
@@ -16409,6 +16972,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Patrat",
+		codinome: "",
 		numero: 504, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 11.6, // em kg
@@ -16439,6 +17003,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Watchog",
+		codinome: "",
 		numero: 505, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 27.0, // em kg
@@ -16469,6 +17034,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lillipup",
+		codinome: "",
 		numero: 506, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 4.1, // em kg
@@ -16498,6 +17064,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Herdier",
+		codinome: "",
 		numero: 507, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 14.7, // em kg
@@ -16528,6 +17095,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stoutland",
+		codinome: "",
 		numero: 508, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 61.0, // em kg
@@ -16558,6 +17126,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Purrloin",
+		codinome: "",
 		numero: 509, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 10.1, // em kg
@@ -16587,6 +17156,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Liepard",
+		codinome: "",
 		numero: 510, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 37.5, // em kg
@@ -16616,6 +17186,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pansage",
+		codinome: "",
 		numero: 511, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 10.5, // em kg
@@ -16646,6 +17217,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Simisage",
+		codinome: "",
 		numero: 512, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 30.5, // em kg
@@ -16675,6 +17247,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pansear",
+		codinome: "",
 		numero: 513, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 11.0, // em kg
@@ -16705,6 +17278,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Simisear",
+		codinome: "",
 		numero: 514, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 28.0, // em kg
@@ -16734,6 +17308,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Panpour",
+		codinome: "",
 		numero: 515, // considerando a national dex
 		tipo: ["Água"],
 		massa: 13.5, // em kg
@@ -16764,6 +17339,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Simipour",
+		codinome: "",
 		numero: 516, // considerando a national dex
 		tipo: ["Água"],
 		massa: 29.0, // em kg
@@ -16793,6 +17369,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Munna",
+		codinome: "",
 		numero: 517, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 23.3, // em kg
@@ -16822,6 +17399,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Musharna",
+		codinome: "",
 		numero: 518, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.5, // em kg
@@ -16851,6 +17429,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidove",
+		codinome: "",
 		numero: 519, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.1, // em kg
@@ -16881,6 +17460,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tranquill",
+		codinome: "",
 		numero: 520, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 15.0, // em kg
@@ -16911,6 +17491,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Unfezant",
+		codinome: "",
 		numero: 521, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 29.0, // em kg
@@ -16942,6 +17523,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blitzle",
+		codinome: "",
 		numero: 522, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 29.8, // em kg
@@ -16971,6 +17553,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zebstrika",
+		codinome: "",
 		numero: 523, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 79.5, // em kg
@@ -17000,6 +17583,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roggenrola",
+		codinome: "",
 		numero: 524, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 18.0, // em kg
@@ -17029,6 +17613,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Boldore",
+		codinome: "",
 		numero: 525, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 102.0, // em kg
@@ -17059,6 +17644,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gigalith",
+		codinome: "",
 		numero: 526, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 260.0, // em kg
@@ -17088,6 +17674,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Woobat",
+		codinome: "",
 		numero: 527, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 2.1, // em kg
@@ -17118,6 +17705,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swoobat",
+		codinome: "",
 		numero: 528, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 10.5, // em kg
@@ -17147,6 +17735,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drilbur",
+		codinome: "",
 		numero: 529, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 8.5, // em kg
@@ -17177,6 +17766,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Excadrill",
+		codinome: "",
 		numero: 530, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 40.4, // em kg
@@ -17207,6 +17797,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Audino",
+		codinome: "",
 		numero: 531, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 31.0, // em kg
@@ -17237,6 +17828,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Timburr",
+		codinome: "",
 		numero: 532, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 12.5, // em kg
@@ -17266,6 +17858,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gurdurr",
+		codinome: "",
 		numero: 533, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 40.0, // em kg
@@ -17296,6 +17889,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Conkeldurr",
+		codinome: "",
 		numero: 534, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 87.0, // em kg
@@ -17325,6 +17919,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tympole",
+		codinome: "",
 		numero: 535, // considerando a national dex
 		tipo: ["Água"],
 		massa: 4.5, // em kg
@@ -17354,6 +17949,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palpitoad",
+		codinome: "",
 		numero: 536, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 17.0, // em kg
@@ -17383,6 +17979,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seismitoad",
+		codinome: "",
 		numero: 537, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 62.0, // em kg
@@ -17412,6 +18009,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Throh",
+		codinome: "",
 		numero: 538, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 55.5, // em kg
@@ -17442,6 +18040,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sawk",
+		codinome: "",
 		numero: 539, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 51.0, // em kg
@@ -17472,6 +18071,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sewaddle",
+		codinome: "",
 		numero: 540, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 2.5, // em kg
@@ -17501,6 +18101,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swadloon",
+		codinome: "",
 		numero: 541, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 7.3, // em kg
@@ -17530,6 +18131,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Leavanny",
+		codinome: "",
 		numero: 542, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 20.5, // em kg
@@ -17559,6 +18161,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venipede",
+		codinome: "",
 		numero: 543, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 5.3, // em kg
@@ -17588,6 +18191,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whirlipede",
+		codinome: "",
 		numero: 544, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 58.5, // em kg
@@ -17617,6 +18221,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scolipede",
+		codinome: "",
 		numero: 545, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 200.5, // em kg
@@ -17646,6 +18251,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cottonee",
+		codinome: "",
 		numero: 546, // considerando a national dex
 		tipo: ["Planta", " Fada"],
 		massa: 0.6, // em kg
@@ -17676,6 +18282,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whimsicott",
+		codinome: "",
 		numero: 547, // considerando a national dex
 		tipo: ["Planta", " Fada"],
 		massa: 6.6, // em kg
@@ -17706,6 +18313,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Petilil",
+		codinome: "",
 		numero: 548, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 6.6, // em kg
@@ -17736,6 +18344,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lilligant de Unova",
+		codinome: "",
 		numero: 549.1, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 1.1, // em kg
@@ -17766,6 +18375,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lilligant de Hisui",
+		codinome: "",
 		numero: 549.2, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
 		massa: 19.2, // em kg
@@ -17795,6 +18405,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculin",
+		codinome: "",
 		numero: 550, // considerando a national dex
 		tipo: ["Água"],
 		massa: 18.0, // em kg
@@ -17827,6 +18438,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandile",
+		codinome: "",
 		numero: 551, // considerando a national dex
 		tipo: ["Terra", " Noturno"],
 		massa: 15.2, // em kg
@@ -17856,6 +18468,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Krokorok",
+		codinome: "",
 		numero: 552, // considerando a national dex
 		tipo: ["Terra", " Noturno"],
 		massa: 33.4, // em kg
@@ -17885,6 +18498,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Krookodile",
+		codinome: "",
 		numero: 553, // considerando a national dex
 		tipo: ["Terra", " Noturno"],
 		massa: 96.3, // em kg
@@ -17914,6 +18528,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darumaka de Unova",
+		codinome: "",
 		numero: 554.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 37.5, // em kg
@@ -17943,6 +18558,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darumaka de Galar",
+		codinome: "",
 		numero: 554.2, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 40.0, // em kg
@@ -17972,6 +18588,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Unova (Modo Padrão)",
+		codinome: "",
 		numero: 555.11, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 92.9, // em kg
@@ -18001,6 +18618,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Unova (Modo Zen)",
+		codinome: "",
 		numero: 555.12, // considerando a national dex
 		tipo: ["Fogo", " Psíquico"],
 		massa: 92.9, // em kg
@@ -18030,6 +18648,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Galar (Modo Padrão)",
+		codinome: "",
 		numero: 555.21, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 120.0, // em kg
@@ -18059,6 +18678,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Galar (Modo Zen)",
+		codinome: "",
 		numero: 555.22, // considerando a national dex
 		tipo: ["Gelo", " Fogo"],
 		massa: 120.0, // em kg
@@ -18088,6 +18708,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maractus",
+		codinome: "",
 		numero: 556, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 28.0, // em kg
@@ -18117,6 +18738,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dwebble",
+		codinome: "",
 		numero: 557, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
 		massa: 14.5, // em kg
@@ -18146,6 +18768,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crustle",
+		codinome: "",
 		numero: 558, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
 		massa: 200.0, // em kg
@@ -18175,6 +18798,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scraggy",
+		codinome: "",
 		numero: 559, // considerando a national dex
 		tipo: ["Noturno", " Lutador"],
 		massa: 11.8, // em kg
@@ -18204,6 +18828,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scrafty",
+		codinome: "",
 		numero: 560, // considerando a national dex
 		tipo: ["Noturno", " Lutador"],
 		massa: 30.0, // em kg
@@ -18233,6 +18858,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sigilyph",
+		codinome: "",
 		numero: 561, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 14.0, // em kg
@@ -18262,6 +18888,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yamask de Unova",
+		codinome: "",
 		numero: 562.1, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 1.5, // em kg
@@ -18291,6 +18918,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yamask de Galar",
+		codinome: "",
 		numero: 562.2, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
 		massa: 1.5, // em kg
@@ -18320,6 +18948,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cofagrigus",
+		codinome: "",
 		numero: 563, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 76.5, // em kg
@@ -18349,6 +18978,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tirtouga",
+		codinome: "",
 		numero: 564, // considerando a national dex
 		tipo: ["Água", " Rocha"],
 		massa: 16.5, // em kg
@@ -18378,6 +19008,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carracosta",
+		codinome: "",
 		numero: 565, // considerando a national dex
 		tipo: ["Água", " Rocha"],
 		massa: 81.0, // em kg
@@ -18407,6 +19038,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Archen",
+		codinome: "",
 		numero: 566, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 9.5, // em kg
@@ -18436,6 +19068,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Archeops",
+		codinome: "",
 		numero: 567, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 32.0, // em kg
@@ -18465,6 +19098,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trubbish",
+		codinome: "",
 		numero: 568, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 31.0, // em kg
@@ -18494,6 +19128,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Garbodor",
+		codinome: "",
 		numero: 569, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 107.3, // em kg
@@ -18523,6 +19158,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zorua de Unova",
+		codinome: "",
 		numero: 570.1, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 12.5, // em kg
@@ -18552,6 +19188,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zorua de Hisui",
+		codinome: "",
 		numero: 570.2, // considerando a national dex
 		tipo: ["Normal", " Fantasma"],
 		massa: 12.5, // em kg
@@ -18582,6 +19219,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zoroark de Unova",
+		codinome: "",
 		numero: 571.1, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 81.1, // em kg
@@ -18611,6 +19249,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zoroark de Hisui",
+		codinome: "",
 		numero: 571.2, // considerando a national dex
 		tipo: ["Normal", " Fantasma"],
 		massa: 73.0, // em kg
@@ -18641,6 +19280,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minccino",
+		codinome: "",
 		numero: 572, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 5.8, // em kg
@@ -18670,6 +19310,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cinccino",
+		codinome: "",
 		numero: 573, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 7.5, // em kg
@@ -18699,6 +19340,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gothita",
+		codinome: "",
 		numero: 574, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 5.8, // em kg
@@ -18728,6 +19370,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gothorita",
+		codinome: "",
 		numero: 575, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 18.0, // em kg
@@ -18757,6 +19400,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gothitelle",
+		codinome: "",
 		numero: 576, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 44.0, // em kg
@@ -18786,6 +19430,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Solosis",
+		codinome: "",
 		numero: 577, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 1.0, // em kg
@@ -18815,6 +19460,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Duosion",
+		codinome: "",
 		numero: 578, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 8.0, // em kg
@@ -18844,6 +19490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Reuniclus",
+		codinome: "",
 		numero: 579, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 20.1, // em kg
@@ -18873,6 +19520,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ducklett",
+		codinome: "",
 		numero: 580, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 5.5, // em kg
@@ -18902,6 +19550,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swanna",
+		codinome: "",
 		numero: 581, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 24.2, // em kg
@@ -18931,6 +19580,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vanillite",
+		codinome: "",
 		numero: 582, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 5.7, // em kg
@@ -18960,6 +19610,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vanillish",
+		codinome: "",
 		numero: 583, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 41.0, // em kg
@@ -18989,6 +19640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vanilluxe",
+		codinome: "",
 		numero: 584, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 57.5, // em kg
@@ -19018,6 +19670,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deerling",
+		codinome: "",
 		numero: 585, // considerando a national dex
 		tipo: ["Normal", " Planta"],
 		massa: 19.5, // em kg
@@ -19050,6 +19703,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sawsbuck",
+		codinome: "",
 		numero: 586, // considerando a national dex
 		tipo: ["Normal", " Planta"],
 		massa: 92.5, // em kg
@@ -19082,6 +19736,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Emolga",
+		codinome: "",
 		numero: 587, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 5.0, // em kg
@@ -19112,6 +19767,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Karrablast",
+		codinome: "",
 		numero: 588, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 5.9, // em kg
@@ -19141,6 +19797,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Escavalier",
+		codinome: "",
 		numero: 589, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 33.0, // em kg
@@ -19170,6 +19827,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Foongus",
+		codinome: "",
 		numero: 590, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 1.0, // em kg
@@ -19199,6 +19857,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Amoonguss",
+		codinome: "",
 		numero: 591, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 10.5, // em kg
@@ -19229,6 +19888,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frillish",
+		codinome: "",
 		numero: 592, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
 		massa: 33.0, // em kg
@@ -19260,6 +19920,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jellicent",
+		codinome: "",
 		numero: 593, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
 		massa: 135.0, // em kg
@@ -19291,6 +19952,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Alomomola",
+		codinome: "",
 		numero: 594, // considerando a national dex
 		tipo: ["Água"],
 		massa: 31.6, // em kg
@@ -19320,6 +19982,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Joltik",
+		codinome: "",
 		numero: 595, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
 		massa: 0.6, // em kg
@@ -19349,6 +20012,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Galvantula",
+		codinome: "",
 		numero: 596, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
 		massa: 14.3, // em kg
@@ -19378,6 +20042,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ferroseed",
+		codinome: "",
 		numero: 597, // considerando a national dex
 		tipo: ["Planta", " Metal"],
 		massa: 18.8, // em kg
@@ -19407,6 +20072,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ferrothorn",
+		codinome: "",
 		numero: 598, // considerando a national dex
 		tipo: ["Planta", " Metal"],
 		massa: 110.0, // em kg
@@ -19436,6 +20102,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klink",
+		codinome: "",
 		numero: 599, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 21.0, // em kg
@@ -19465,6 +20132,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klang",
+		codinome: "",
 		numero: 600, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 51.0, // em kg
@@ -19494,6 +20162,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klinklang",
+		codinome: "",
 		numero: 601, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 81.0, // em kg
@@ -19523,6 +20192,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tynamo",
+		codinome: "",
 		numero: 602, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 0.3, // em kg
@@ -19552,6 +20222,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eelektrik",
+		codinome: "",
 		numero: 603, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 22.0, // em kg
@@ -19581,6 +20252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eelektross",
+		codinome: "",
 		numero: 604, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 80.5, // em kg
@@ -19610,6 +20282,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Elgyem",
+		codinome: "",
 		numero: 605, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 9.0, // em kg
@@ -19639,6 +20312,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beheeyem",
+		codinome: "",
 		numero: 606, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 34.5, // em kg
@@ -19668,6 +20342,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Litwick",
+		codinome: "",
 		numero: 607, // considerando a national dex
 		tipo: ["Fantasma", " Fogo"],
 		massa: 3.1, // em kg
@@ -19697,6 +20372,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lampent",
+		codinome: "",
 		numero: 608, // considerando a national dex
 		tipo: ["Fantasma", " Fogo"],
 		massa: 13.0, // em kg
@@ -19726,6 +20402,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chandelure",
+		codinome: "",
 		numero: 609, // considerando a national dex
 		tipo: ["Fantasma", " Fogo"],
 		massa: 34.3, // em kg
@@ -19755,6 +20432,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Axew",
+		codinome: "",
 		numero: 610, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 18.0, // em kg
@@ -19784,6 +20462,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fraxure",
+		codinome: "",
 		numero: 611, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 36.0, // em kg
@@ -19813,6 +20492,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Haxorus",
+		codinome: "",
 		numero: 612, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 105.5, // em kg
@@ -19842,6 +20522,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cubchoo",
+		codinome: "",
 		numero: 613, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 8.5, // em kg
@@ -19871,6 +20552,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beartic",
+		codinome: "",
 		numero: 614, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 260.0, // em kg
@@ -19900,6 +20582,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cryogonal",
+		codinome: "",
 		numero: 615, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 148.0, // em kg
@@ -19929,6 +20612,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shelmet",
+		codinome: "",
 		numero: 616, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 7.7, // em kg
@@ -19958,6 +20642,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Accelgor",
+		codinome: "",
 		numero: 617, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 25.3, // em kg
@@ -19987,6 +20672,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stunfisk de Unova",
+		codinome: "",
 		numero: 618.1, // considerando a national dex
 		tipo: ["Terra", " Elétrico"],
 		massa: 11.0, // em kg
@@ -20016,6 +20702,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stunfisk de Galar",
+		codinome: "",
 		numero: 618.2, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 20.5, // em kg
@@ -20046,6 +20733,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mienfoo",
+		codinome: "",
 		numero: 619, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 20.0, // em kg
@@ -20075,6 +20763,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mienshao",
+		codinome: "",
 		numero: 620, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 35.5, // em kg
@@ -20104,6 +20793,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Druddigon",
+		codinome: "",
 		numero: 621, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 139.0, // em kg
@@ -20133,6 +20823,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golett",
+		codinome: "",
 		numero: 622, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
 		massa: 92.0, // em kg
@@ -20162,6 +20853,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golurk",
+		codinome: "",
 		numero: 623, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
 		massa: 330.0, // em kg
@@ -20191,6 +20883,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawniard",
+		codinome: "",
 		numero: 624, // considerando a national dex
 		tipo: ["Noturno", " Metal"],
 		massa: 10.2, // em kg
@@ -20220,6 +20913,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bisharp",
+		codinome: "",
 		numero: 625, // considerando a national dex
 		tipo: ["Noturno", " Metal"],
 		massa: 70.0, // em kg
@@ -20249,6 +20943,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bouffalant",
+		codinome: "",
 		numero: 626, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 94.6, // em kg
@@ -20278,6 +20973,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rufflet",
+		codinome: "",
 		numero: 627, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 10.5, // em kg
@@ -20307,6 +21003,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Braviary de Unova",
+		codinome: "",
 		numero: 628.1, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 41.0, // em kg
@@ -20336,6 +21033,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Braviary de Hisui",
+		codinome: "",
 		numero: 628.2, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 43.4, // em kg
@@ -20365,6 +21063,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vullaby",
+		codinome: "",
 		numero: 629, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 9.0, // em kg
@@ -20394,6 +21093,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mandibuzz",
+		codinome: "",
 		numero: 630, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 39.5, // em kg
@@ -20423,6 +21123,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Heatmor",
+		codinome: "",
 		numero: 631, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 58.0, // em kg
@@ -20452,6 +21153,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Durant",
+		codinome: "",
 		numero: 632, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 33.0, // em kg
@@ -20482,6 +21184,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deino",
+		codinome: "",
 		numero: 633, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
 		massa: 17.3, // em kg
@@ -20511,6 +21214,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zweilous",
+		codinome: "",
 		numero: 634, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
 		massa: 50.0, // em kg
@@ -20540,6 +21244,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hydreigon",
+		codinome: "",
 		numero: 635, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
 		massa: 160.0, // em kg
@@ -20569,6 +21274,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Larvesta",
+		codinome: "",
 		numero: 636, // considerando a national dex
 		tipo: ["Inseto", " Fogo"],
 		massa: 28.8, // em kg
@@ -20598,6 +21304,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Volcarona",
+		codinome: "",
 		numero: 637, // considerando a national dex
 		tipo: ["Inseto", " Fogo"],
 		massa: 46.0, // em kg
@@ -20627,6 +21334,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cobalion",
+		codinome: "",
 		numero: 638, // considerando a national dex
 		tipo: ["Metal", " Lutador"],
 		massa: 250.0, // em kg
@@ -20656,6 +21364,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terrakion",
+		codinome: "",
 		numero: 639, // considerando a national dex
 		tipo: ["Rocha", " Lutador"],
 		massa: 260.0, // em kg
@@ -20685,6 +21394,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Virizion",
+		codinome: "",
 		numero: 640, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
 		massa: 200.0, // em kg
@@ -20714,6 +21424,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tornadus (Forma Materializada)",
+		codinome: "",
 		numero: 641.1, // considerando a national dex
 		tipo: ["Voador"],
 		massa: 63.0, // em kg
@@ -20743,6 +21454,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tornadus (Forma Therian)",
+		codinome: "",
 		numero: 641.2, // considerando a national dex
 		tipo: ["Voador"],
 		massa: 63.0, // em kg
@@ -20772,6 +21484,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thundurus (Forma Materializada)",
+		codinome: "",
 		numero: 642.1, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 61.0, // em kg
@@ -20801,6 +21514,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thundurus (Forma Therian)",
+		codinome: "",
 		numero: 642.2, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 61.0, // em kg
@@ -20830,6 +21544,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Reshiram",
+		codinome: "",
 		numero: 643, // considerando a national dex
 		tipo: ["Dragão", " Fogo"],
 		massa: 330.0, // em kg
@@ -20859,6 +21574,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zekrom",
+		codinome: "",
 		numero: 644, // considerando a national dex
 		tipo: ["Dragão", " Elétrico"],
 		massa: 345.0, // em kg
@@ -20888,6 +21604,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Landorus (Forma Materializada)",
+		codinome: "",
 		numero: 645.1, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 68.0, // em kg
@@ -20917,6 +21634,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Landorus (Forma Therian)",
+		codinome: "",
 		numero: 645.2, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 68.0, // em kg
@@ -20946,6 +21664,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem",
+		codinome: "",
 		numero: 646.1, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
@@ -20975,6 +21694,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem Branco",
+		codinome: "",
 		numero: 646.2, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
@@ -21004,6 +21724,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem Preto",
+		codinome: "",
 		numero: 646.3, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
@@ -21033,6 +21754,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Keldeo",
+		codinome: "",
 		numero: 647, // considerando a national dex
 		tipo: ["Água", " Lutador"],
 		massa: 48.5, // em kg
@@ -21063,6 +21785,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meloetta (Forma Ária)",
+		codinome: "",
 		numero: 648.1, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
 		massa: 6.5, // em kg
@@ -21092,6 +21815,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meloetta (Forma Pirueta)",
+		codinome: "",
 		numero: 648.2, // considerando a national dex
 		tipo: ["Normal", " Lutador"],
 		massa: 6.5, // em kg
@@ -21122,6 +21846,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Genesect",
+		codinome: "",
 		numero: 649, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 82.5, // em kg
@@ -21155,6 +21880,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chespin",
+		codinome: "",
 		numero: 650, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 9.0, // em kg
@@ -21184,6 +21910,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quilladin",
+		codinome: "",
 		numero: 651, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 29.0, // em kg
@@ -21213,6 +21940,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chesnaught",
+		codinome: "",
 		numero: 652, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
 		massa: 90.0, // em kg
@@ -21242,6 +21970,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fennekin",
+		codinome: "",
 		numero: 653, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 9.4, // em kg
@@ -21271,6 +22000,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Braixen",
+		codinome: "",
 		numero: 654, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 14.5, // em kg
@@ -21300,6 +22030,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Delphox",
+		codinome: "",
 		numero: 655, // considerando a national dex
 		tipo: ["Fogo", " Psíquico"],
 		massa: 39.0, // em kg
@@ -21329,6 +22060,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Froakie",
+		codinome: "",
 		numero: 656, // considerando a national dex
 		tipo: ["Água"],
 		massa: 7.0, // em kg
@@ -21358,6 +22090,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frogadier",
+		codinome: "",
 		numero: 657, // considerando a national dex
 		tipo: ["Água"],
 		massa: 10.9, // em kg
@@ -21387,6 +22120,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Greninja",
+		codinome: "",
 		numero: 658, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 40.0, // em kg
@@ -21416,6 +22150,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bunnelby",
+		codinome: "",
 		numero: 659, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 5.0, // em kg
@@ -21445,6 +22180,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diggersby",
+		codinome: "",
 		numero: 660, // considerando a national dex
 		tipo: ["Normal", " Terra"],
 		massa: 42.4, // em kg
@@ -21474,6 +22210,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fletchling",
+		codinome: "",
 		numero: 661, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.7, // em kg
@@ -21503,6 +22240,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fletchinder",
+		codinome: "",
 		numero: 662, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 16.0, // em kg
@@ -21532,6 +22270,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Talonflame",
+		codinome: "",
 		numero: 663, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 24.5, // em kg
@@ -21561,6 +22300,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scatterbug",
+		codinome: "",
 		numero: 664, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 2.5, // em kg
@@ -21590,6 +22330,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spewpa",
+		codinome: "",
 		numero: 665, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 8.4, // em kg
@@ -21619,6 +22360,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vivillon",
+		codinome: "",
 		numero: 666, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 17.0, // em kg
@@ -21667,6 +22409,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Litleo",
+		codinome: "",
 		numero: 667, // considerando a national dex
 		tipo: ["Fogo", " Normal"],
 		massa: 13.5, // em kg
@@ -21696,6 +22439,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pyroar",
+		codinome: "",
 		numero: 668, // considerando a national dex
 		tipo: ["Fogo", " Normal"],
 		massa: 81.5, // em kg
@@ -21726,6 +22470,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flabébé",
+		codinome: "",
 		numero: 669, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 0.1, // em kg
@@ -21759,6 +22504,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Floette",
+		codinome: "",
 		numero: 670, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 0.9, // em kg
@@ -21792,6 +22538,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Florges",
+		codinome: "",
 		numero: 671, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 10.0, // em kg
@@ -21825,6 +22572,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skiddo",
+		codinome: "",
 		numero: 672, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 31.0, // em kg
@@ -21854,6 +22602,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gogoat",
+		codinome: "",
 		numero: 673, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 91.0, // em kg
@@ -21883,6 +22632,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pancham",
+		codinome: "",
 		numero: 674, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 8.0, // em kg
@@ -21912,6 +22662,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pangoro",
+		codinome: "",
 		numero: 675, // considerando a national dex
 		tipo: ["Lutador", " Noturno"],
 		massa: 136.0, // em kg
@@ -21941,6 +22692,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Furfrou",
+		codinome: "",
 		numero: 676, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 28.0, // em kg
@@ -21970,6 +22722,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Espurr",
+		codinome: "",
 		numero: 677, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 3.5, // em kg
@@ -21999,6 +22752,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowstic",
+		codinome: "",
 		numero: 678, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 8.5, // em kg
@@ -22029,6 +22783,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Honedge",
+		codinome: "",
 		numero: 679, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
 		massa: 2.0, // em kg
@@ -22058,6 +22813,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Doublade",
+		codinome: "",
 		numero: 680, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
 		massa: 4.5, // em kg
@@ -22087,6 +22843,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aegislash (Forma Escudo)",
+		codinome: "",
 		numero: 681.1, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
 		massa: 53.0, // em kg
@@ -22116,6 +22873,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aegislash (Forma Lâmina)",
+		codinome: "",
 		numero: 681.2, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
 		massa: 53.0, // em kg
@@ -22146,6 +22904,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spritzee",
+		codinome: "",
 		numero: 682, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 0.5, // em kg
@@ -22175,6 +22934,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aromatisse",
+		codinome: "",
 		numero: 683, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 15.5, // em kg
@@ -22204,6 +22964,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swirlix",
+		codinome: "",
 		numero: 684, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 3.5, // em kg
@@ -22233,6 +22994,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slurpuff",
+		codinome: "",
 		numero: 685, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 5.0, // em kg
@@ -22262,6 +23024,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Inkay",
+		codinome: "",
 		numero: 686, // considerando a national dex
 		tipo: ["Noturno", " Psíquico"],
 		massa: 3.5, // em kg
@@ -22291,6 +23054,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Malamar",
+		codinome: "",
 		numero: 687, // considerando a national dex
 		tipo: ["Noturno", " Psíquico"],
 		massa: 47.0, // em kg
@@ -22320,6 +23084,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Binacle",
+		codinome: "",
 		numero: 688, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 31.0, // em kg
@@ -22349,6 +23114,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Barbaracle",
+		codinome: "",
 		numero: 689, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 96.0, // em kg
@@ -22378,6 +23144,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skrelp",
+		codinome: "",
 		numero: 690, // considerando a national dex
 		tipo: ["Veneno", " Água"],
 		massa: 7.3, // em kg
@@ -22407,6 +23174,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragalge",
+		codinome: "",
 		numero: 691, // considerando a national dex
 		tipo: ["Veneno", " Dragão"],
 		massa: 81.5, // em kg
@@ -22436,6 +23204,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clauncher",
+		codinome: "",
 		numero: 692, // considerando a national dex
 		tipo: ["Água"],
 		massa: 8.3, // em kg
@@ -22465,6 +23234,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clawitzer",
+		codinome: "",
 		numero: 693, // considerando a national dex
 		tipo: ["Água"],
 		massa: 35.3, // em kg
@@ -22494,6 +23264,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Helioptile",
+		codinome: "",
 		numero: 694, // considerando a national dex
 		tipo: ["Elétrico", " Normal"],
 		massa: 6.0, // em kg
@@ -22523,6 +23294,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Heliolisk",
+		codinome: "",
 		numero: 695, // considerando a national dex
 		tipo: ["Elétrico", " Normal"],
 		massa: 21.0, // em kg
@@ -22552,6 +23324,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tyrunt",
+		codinome: "",
 		numero: 696, // considerando a national dex
 		tipo: ["Rocha", " Dragão"],
 		massa: 26.0, // em kg
@@ -22581,6 +23354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tyrantrum",
+		codinome: "",
 		numero: 697, // considerando a national dex
 		tipo: ["Rocha", " Dragão"],
 		massa: 270.0, // em kg
@@ -22610,6 +23384,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Amaura",
+		codinome: "",
 		numero: 698, // considerando a national dex
 		tipo: ["Rocha", " Gelo"],
 		massa: 25.2, // em kg
@@ -22639,6 +23414,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aurorus",
+		codinome: "",
 		numero: 699, // considerando a national dex
 		tipo: ["Rocha", " Gelo"],
 		massa: 225.0, // em kg
@@ -22668,6 +23444,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sylveon",
+		codinome: "",
 		numero: 700, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 23.5, // em kg
@@ -22697,6 +23474,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hawlucha",
+		codinome: "",
 		numero: 701, // considerando a national dex
 		tipo: ["Lutador", " Voador"],
 		massa: 21.5, // em kg
@@ -22726,6 +23504,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dedenne",
+		codinome: "",
 		numero: 702, // considerando a national dex
 		tipo: ["Elétrico", " Fada"],
 		massa: 2.2, // em kg
@@ -22755,6 +23534,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carbink",
+		codinome: "",
 		numero: 703, // considerando a national dex
 		tipo: ["Rocha", " Fada"],
 		massa: 5.7, // em kg
@@ -22784,6 +23564,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goomy",
+		codinome: "",
 		numero: 704, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 2.8, // em kg
@@ -22813,6 +23594,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sliggoo de Kalos",
+		codinome: "",
 		numero: 705.1, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 17.5, // em kg
@@ -22842,6 +23624,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sliggoo de Hisui",
+		codinome: "",
 		numero: 705.2, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
 		massa: 68.5, // em kg
@@ -22872,6 +23655,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goodra de Kalos",
+		codinome: "",
 		numero: 706.1, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 150.5, // em kg
@@ -22901,6 +23685,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goodra de Hisui",
+		codinome: "",
 		numero: 706.2, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
 		massa: 334.1, // em kg
@@ -22931,6 +23716,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klefki",
+		codinome: "",
 		numero: 707, // considerando a national dex
 		tipo: ["Metal", " Fada"],
 		massa: 3.0, // em kg
@@ -22960,6 +23746,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Phantump",
+		codinome: "",
 		numero: 708, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 7.0, // em kg
@@ -22989,6 +23776,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trevenant",
+		codinome: "",
 		numero: 709, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 71.0, // em kg
@@ -23018,6 +23806,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Pequeno)",
+		codinome: "",
 		numero: 710.1, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 3.5, // em kg
@@ -23047,6 +23836,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Normal)",
+		codinome: "",
 		numero: 710.2, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 5.0, // em kg
@@ -23076,6 +23866,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Grande)",
+		codinome: "",
 		numero: 710.3, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 7.5, // em kg
@@ -23105,6 +23896,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Extra Grande)",
+		codinome: "",
 		numero: 710.4, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 15.0, // em kg
@@ -23134,6 +23926,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Pequeno)",
+		codinome: "",
 		numero: 711.1, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 9.5, // em kg
@@ -23163,6 +23956,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Normal)",
+		codinome: "",
 		numero: 711.2, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 12.5, // em kg
@@ -23192,6 +23986,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Grande)",
+		codinome: "",
 		numero: 711.3, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 14.0, // em kg
@@ -23221,6 +24016,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Extra Grande)",
+		codinome: "",
 		numero: 711.4, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 39.0, // em kg
@@ -23250,6 +24046,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bergmite",
+		codinome: "",
 		numero: 712, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 99.5, // em kg
@@ -23279,6 +24076,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Avalugg de Kalos",
+		codinome: "",
 		numero: 713.1, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 505.0, // em kg
@@ -23308,6 +24106,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Avalugg de Hisui",
+		codinome: "",
 		numero: 713.2, // considerando a national dex
 		tipo: ["Gelo", " Rocha"],
 		massa: 262.4, // em kg
@@ -23337,6 +24136,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Noibat",
+		codinome: "",
 		numero: 714, // considerando a national dex
 		tipo: ["Voador", " Dragão"],
 		massa: 8.0, // em kg
@@ -23366,6 +24166,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Noivern",
+		codinome: "",
 		numero: 715, // considerando a national dex
 		tipo: ["Voador", " Dragão"],
 		massa: 85.0, // em kg
@@ -23395,6 +24196,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Xerneas",
+		codinome: "",
 		numero: 716, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 215.0, // em kg
@@ -23424,6 +24226,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yveltal",
+		codinome: "",
 		numero: 717, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 203.0, // em kg
@@ -23453,6 +24256,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma 10%",
+		codinome: "",
 		numero: 718.1, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 33.5, // em kg
@@ -23482,6 +24286,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma 50%",
+		codinome: "",
 		numero: 718.2, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 305.0, // em kg
@@ -23511,6 +24316,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma Completa",
+		codinome: "",
 		numero: 718.3, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 610.0, // em kg
@@ -23540,6 +24346,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diancie",
+		codinome: "",
 		numero: 719, // considerando a national dex
 		tipo: ["Rocha", " Fada"],
 		massa: 8.8, // em kg
@@ -23569,6 +24376,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoopa Contido",
+		codinome: "",
 		numero: 720.1, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 9.0, // em kg
@@ -23598,6 +24406,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoopa Libertado",
+		codinome: "",
 		numero: 720.2, // considerando a national dex
 		tipo: ["Psíquico", " Noturno"],
 		massa: 490.0, // em kg
@@ -23627,6 +24436,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Volcanion",
+		codinome: "",
 		numero: 721, // considerando a national dex
 		tipo: ["Fogo", " Água"],
 		massa: 195.0, // em kg
@@ -23656,6 +24466,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rowlet",
+		codinome: "",
 		numero: 722, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 1.5, // em kg
@@ -23685,6 +24496,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dartrix",
+		codinome: "",
 		numero: 723, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 16.0, // em kg
@@ -23714,6 +24526,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Decidueye de Alola",
+		codinome: "",
 		numero: 724.1, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
 		massa: 36.6, // em kg
@@ -23743,6 +24556,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Decidueye de Hisui",
+		codinome: "",
 		numero: 724.2, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
 		massa: 37.0, // em kg
@@ -23772,6 +24586,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Litten",
+		codinome: "",
 		numero: 725, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 4.3, // em kg
@@ -23801,6 +24616,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torracat",
+		codinome: "",
 		numero: 726, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 25.0, // em kg
@@ -23830,6 +24646,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Incineroar",
+		codinome: "",
 		numero: 727, // considerando a national dex
 		tipo: ["Fogo", " Noturno"],
 		massa: 83.0, // em kg
@@ -23859,6 +24676,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Popplio",
+		codinome: "",
 		numero: 728, // considerando a national dex
 		tipo: ["Água"],
 		massa: 7.5, // em kg
@@ -23888,6 +24706,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Brionne",
+		codinome: "",
 		numero: 729, // considerando a national dex
 		tipo: ["Água"],
 		massa: 17.5, // em kg
@@ -23917,6 +24736,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Primarina",
+		codinome: "",
 		numero: 730, // considerando a national dex
 		tipo: ["Água", " Fada"],
 		massa: 44.0, // em kg
@@ -23946,6 +24766,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pikipek",
+		codinome: "",
 		numero: 731, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.2, // em kg
@@ -23975,6 +24796,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trumbeak",
+		codinome: "",
 		numero: 732, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 14.8, // em kg
@@ -24005,6 +24827,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toucannon",
+		codinome: "",
 		numero: 733, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 26.0, // em kg
@@ -24034,6 +24857,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yungoos",
+		codinome: "",
 		numero: 734, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
@@ -24063,6 +24887,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gumshoos",
+		codinome: "",
 		numero: 735, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 14.2, // em kg
@@ -24093,6 +24918,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grubbin",
+		codinome: "",
 		numero: 736, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 4.4, // em kg
@@ -24122,6 +24948,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charjabug",
+		codinome: "",
 		numero: 737, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
 		massa: 10.5, // em kg
@@ -24151,6 +24978,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vikavolt",
+		codinome: "",
 		numero: 738, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
 		massa: 45.0, // em kg
@@ -24180,6 +25008,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crabrawler",
+		codinome: "",
 		numero: 739, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 7.0, // em kg
@@ -24210,6 +25039,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crabominable",
+		codinome: "",
 		numero: 740, // considerando a national dex
 		tipo: ["Lutador", " Gelo"],
 		massa: 180.0, // em kg
@@ -24239,6 +25069,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Flamenco)",
+		codinome: "",
 		numero: 741.1, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 3.4, // em kg
@@ -24268,6 +25099,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Pompom)",
+		codinome: "",
 		numero: 741.2, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 3.4, // em kg
@@ -24297,6 +25129,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Hula)",
+		codinome: "",
 		numero: 741.3, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 3.4, // em kg
@@ -24326,6 +25159,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Leque)",
+		codinome: "",
 		numero: 741.4, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
 		massa: 3.4, // em kg
@@ -24355,6 +25189,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cutiefly",
+		codinome: "",
 		numero: 742, // considerando a national dex
 		tipo: ["Inseto", " Fada"],
 		massa: 0.2, // em kg
@@ -24384,6 +25219,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ribombee",
+		codinome: "",
 		numero: 743, // considerando a national dex
 		tipo: ["Inseto", " Fada"],
 		massa: 0.5, // em kg
@@ -24413,6 +25249,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rockruff",
+		codinome: "",
 		numero: 744, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 9.2, // em kg
@@ -24442,6 +25279,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Diurna)",
+		codinome: "",
 		numero: 745.1, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
@@ -24471,6 +25309,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Noturna)",
+		codinome: "",
 		numero: 745.2, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
@@ -24500,6 +25339,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Crepúsculo)",
+		codinome: "",
 		numero: 745.3, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
@@ -24529,6 +25369,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wishiwashi (Forma Individual)",
+		codinome: "",
 		numero: 746.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 0.3, // em kg
@@ -24559,6 +25400,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wishiwashi (Forma Cardume)",
+		codinome: "",
 		numero: 746.2, // considerando a national dex
 		tipo: ["Água"],
 		massa: 78.6, // em kg
@@ -24589,6 +25431,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mareanie",
+		codinome: "",
 		numero: 747, // considerando a national dex
 		tipo: ["Veneno", " Água"],
 		massa: 8.0, // em kg
@@ -24618,6 +25461,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxapex",
+		codinome: "",
 		numero: 748, // considerando a national dex
 		tipo: ["Veneno", " Água"],
 		massa: 14.5, // em kg
@@ -24647,6 +25491,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mudbray",
+		codinome: "",
 		numero: 749, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 110.0, // em kg
@@ -24676,6 +25521,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mudsdale",
+		codinome: "",
 		numero: 750, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 920.0, // em kg
@@ -24705,6 +25551,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dewpider",
+		codinome: "",
 		numero: 751, // considerando a national dex
 		tipo: ["Água", " Inseto"],
 		massa: 4.0, // em kg
@@ -24734,6 +25581,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Araquanid",
+		codinome: "",
 		numero: 752, // considerando a national dex
 		tipo: ["Água", " Inseto"],
 		massa: 82.0, // em kg
@@ -24763,6 +25611,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fomantis",
+		codinome: "",
 		numero: 753, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 1.5, // em kg
@@ -24792,6 +25641,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lurantis",
+		codinome: "",
 		numero: 754, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 18.5, // em kg
@@ -24821,6 +25671,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morelull",
+		codinome: "",
 		numero: 755, // considerando a national dex
 		tipo: ["Planta", " Fada"],
 		massa: 1.5, // em kg
@@ -24850,6 +25701,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shiinotic",
+		codinome: "",
 		numero: 756, // considerando a national dex
 		tipo: ["Planta", " Fada"],
 		massa: 11.5, // em kg
@@ -24879,6 +25731,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Salandit",
+		codinome: "",
 		numero: 757, // considerando a national dex
 		tipo: ["Veneno", " Fogo"],
 		massa: 4.8, // em kg
@@ -24908,6 +25761,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Salazzle",
+		codinome: "",
 		numero: 758, // considerando a national dex
 		tipo: ["Veneno", " Fogo"],
 		massa: 22.2, // em kg
@@ -24938,6 +25792,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stufful",
+		codinome: "",
 		numero: 759, // considerando a national dex
 		tipo: ["Normal", " Lutador"],
 		massa: 6.8, // em kg
@@ -24967,6 +25822,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bewear",
+		codinome: "",
 		numero: 760, // considerando a national dex
 		tipo: ["Normal", " Lutador"],
 		massa: 135.0, // em kg
@@ -24996,6 +25852,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bounsweet",
+		codinome: "",
 		numero: 761, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 3.2, // em kg
@@ -25025,6 +25882,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Steenee",
+		codinome: "",
 		numero: 762, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 8.2, // em kg
@@ -25054,6 +25912,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tsareena",
+		codinome: "",
 		numero: 763, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 21.4, // em kg
@@ -25083,6 +25942,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Comfey",
+		codinome: "",
 		numero: 764, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 0.3, // em kg
@@ -25112,6 +25972,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oranguru",
+		codinome: "",
 		numero: 765, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
 		massa: 76.0, // em kg
@@ -25141,6 +26002,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Passimian",
+		codinome: "",
 		numero: 766, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 82.8, // em kg
@@ -25170,6 +26032,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wimpod",
+		codinome: "",
 		numero: 767, // considerando a national dex
 		tipo: ["Inseto", " Água"],
 		massa: 12.0, // em kg
@@ -25200,6 +26063,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golisopod",
+		codinome: "",
 		numero: 768, // considerando a national dex
 		tipo: ["Inseto", " Água"],
 		massa: 108.0, // em kg
@@ -25229,6 +26093,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandygast",
+		codinome: "",
 		numero: 769, // considerando a national dex
 		tipo: ["Fantasma", " Terra"],
 		massa: 70.0, // em kg
@@ -25258,6 +26123,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palossand",
+		codinome: "",
 		numero: 770, // considerando a national dex
 		tipo: ["Fantasma", " Terra"],
 		massa: 250.0, // em kg
@@ -25287,6 +26153,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pyukumuku",
+		codinome: "",
 		numero: 771, // considerando a national dex
 		tipo: ["Água"],
 		massa: 1.2, // em kg
@@ -25316,6 +26183,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Type: Null",
+		codinome: "",
 		numero: 772, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 120.5, // em kg
@@ -25345,6 +26213,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Silvally",
+		codinome: "",
 		numero: 773, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 100.5, // em kg
@@ -25374,6 +26243,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minior (Forma Meteoro)",
+		codinome: "",
 		numero: 774.1, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 40.0, // em kg
@@ -25403,6 +26273,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minior (Forma Núcleo)",
+		codinome: "",
 		numero: 774.2, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 0.3, // em kg
@@ -25438,6 +26309,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Komala",
+		codinome: "",
 		numero: 775, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 19.9, // em kg
@@ -25467,6 +26339,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Turtonator",
+		codinome: "",
 		numero: 776, // considerando a national dex
 		tipo: ["Fogo", " Dragão"],
 		massa: 212.0, // em kg
@@ -25496,6 +26369,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Togedemaru",
+		codinome: "",
 		numero: 777, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
 		massa: 3.3, // em kg
@@ -25525,6 +26399,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mimikyu",
+		codinome: "",
 		numero: 778, // considerando a national dex
 		tipo: ["Fantasma", " Fada"],
 		massa: 0.7, // em kg
@@ -25555,6 +26430,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bruxish",
+		codinome: "",
 		numero: 779, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 19.0, // em kg
@@ -25584,6 +26460,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drampa",
+		codinome: "",
 		numero: 780, // considerando a national dex
 		tipo: ["Normal", " Dragão"],
 		massa: 185.0, // em kg
@@ -25613,6 +26490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dhelmise",
+		codinome: "",
 		numero: 781, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 210.0, // em kg
@@ -25642,6 +26520,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jangmo-o",
+		codinome: "",
 		numero: 782, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 29.7, // em kg
@@ -25671,6 +26550,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hakamo-o",
+		codinome: "",
 		numero: 783, // considerando a national dex
 		tipo: ["Dragão", " Lutador"],
 		massa: 47.0, // em kg
@@ -25700,6 +26580,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kommo-o",
+		codinome: "",
 		numero: 784, // considerando a national dex
 		tipo: ["Dragão", " Lutador"],
 		massa: 78.2, // em kg
@@ -25729,6 +26610,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Koko",
+		codinome: "",
 		numero: 785, // considerando a national dex
 		tipo: ["Elétrico", " Fada"],
 		massa: 20.5, // em kg
@@ -25758,6 +26640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Lele",
+		codinome: "",
 		numero: 786, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 18.6, // em kg
@@ -25787,6 +26670,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Bulu",
+		codinome: "",
 		numero: 787, // considerando a national dex
 		tipo: ["Planta", " Fada"],
 		massa: 45.5, // em kg
@@ -25816,6 +26700,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Fini",
+		codinome: "",
 		numero: 788, // considerando a national dex
 		tipo: ["Água", " Fada"],
 		massa: 21.2, // em kg
@@ -25845,6 +26730,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cosmog",
+		codinome: "",
 		numero: 789, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.1, // em kg
@@ -25874,6 +26760,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cosmoem",
+		codinome: "",
 		numero: 790, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 999.9, // em kg
@@ -25903,6 +26790,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Solgaleo",
+		codinome: "",
 		numero: 791, // considerando a national dex
 		tipo: ["Psíquico", " Metal"],
 		massa: 230.0, // em kg
@@ -25932,6 +26820,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lunala",
+		codinome: "",
 		numero: 792, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 120.0, // em kg
@@ -25961,7 +26850,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nihilego",
-		codinome: "UB-01 Symbiont",
+		codinome: "UC-01 Parasita",
 		numero: 793, // considerando a national dex
 		tipo: ["Rocha", " Veneno"],
 		massa: 55.5, // em kg
@@ -26171,6 +27060,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma",
+		codinome: "",
 		numero: 800.1, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 230.0, // em kg
@@ -26200,6 +27090,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma Juba Crepúsculo",
+		codinome: "",
 		numero: 800.2, // considerando a national dex
 		tipo: ["Psíquico", " Metal"],
 		massa: 460.0, // em kg
@@ -26230,6 +27121,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma Asas Alvorada",
+		codinome: "",
 		numero: 800.3, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 350.0, // em kg
@@ -26260,6 +27152,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ultra Necrozma",
+		codinome: "",
 		numero: 800.4, // considerando a national dex
 		tipo: ["Psíquico", " Dragão"],
 		massa: 230.0, // em kg
@@ -26290,6 +27183,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magearna",
+		codinome: "",
 		numero: 801, // considerando a national dex
 		tipo: ["Metal", " Fada"],
 		massa: 80.5, // em kg
@@ -26319,6 +27213,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marshadow",
+		codinome: "",
 		numero: 802, // considerando a national dex
 		tipo: ["Lutador", " Fantasma"],
 		massa: 22.2, // em kg
@@ -26468,6 +27363,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zeraora",
+		codinome: "",
 		numero: 807, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 44.5, // em kg
@@ -26497,6 +27393,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meltan",
+		codinome: "",
 		numero: 808, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 8.0, // em kg
@@ -26526,6 +27423,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Melmetal",
+		codinome: "",
 		numero: 809, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 800.0, // em kg
@@ -26556,6 +27454,7 @@ const pkmnDisponiveis = [
 
 	{
 		nome: "Grookey",
+		codinome: "",
 		numero: 810, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 5.0, // em kg
@@ -26585,6 +27484,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thwackey",
+		codinome: "",
 		numero: 811, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 14.0, // em kg
@@ -26614,6 +27514,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rillaboom",
+		codinome: "",
 		numero: 812, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 90.0, // em kg
@@ -26643,6 +27544,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scorbunny",
+		codinome: "",
 		numero: 813, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 4.5, // em kg
@@ -26672,6 +27574,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raboot",
+		codinome: "",
 		numero: 814, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 9.0, // em kg
@@ -26701,6 +27604,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cinderace",
+		codinome: "",
 		numero: 815, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 33.0, // em kg
@@ -26730,6 +27634,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sobble",
+		codinome: "",
 		numero: 816, // considerando a national dex
 		tipo: ["Água"],
 		massa: 4.0, // em kg
@@ -26759,6 +27664,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drizzile",
+		codinome: "",
 		numero: 817, // considerando a national dex
 		tipo: ["Água"],
 		massa: 11.5, // em kg
@@ -26788,6 +27694,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Inteleon",
+		codinome: "",
 		numero: 818, // considerando a national dex
 		tipo: ["Água"],
 		massa: 45.2, // em kg
@@ -26817,6 +27724,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skwovet",
+		codinome: "",
 		numero: 819, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 2.5, // em kg
@@ -26847,6 +27755,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Greedent",
+		codinome: "",
 		numero: 820, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
@@ -26877,6 +27786,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rookidee",
+		codinome: "",
 		numero: 821, // considerando a national dex
 		tipo: ["Voador"],
 		massa: 1.8, // em kg
@@ -26906,6 +27816,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corvisquire",
+		codinome: "",
 		numero: 822, // considerando a national dex
 		tipo: ["Voador"],
 		massa: 16.0, // em kg
@@ -26936,6 +27847,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corviknight",
+		codinome: "",
 		numero: 823, // considerando a national dex
 		tipo: ["Voador", " Metal"],
 		massa: 75.0, // em kg
@@ -26966,6 +27878,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blipbug",
+		codinome: "",
 		numero: 824, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 8.0, // em kg
@@ -26996,6 +27909,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dottler",
+		codinome: "",
 		numero: 825, // considerando a national dex
 		tipo: ["Inseto", " Psíquico"],
 		massa: 19.5, // em kg
@@ -27026,6 +27940,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Orbeetle",
+		codinome: "",
 		numero: 826, // considerando a national dex
 		tipo: ["Inseto", " Psíquico"],
 		massa: 40.8, // em kg
@@ -27056,6 +27971,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nickit",
+		codinome: "",
 		numero: 827, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 8.9, // em kg
@@ -27085,6 +28001,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thievul",
+		codinome: "",
 		numero: 828, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 19.9, // em kg
@@ -27115,6 +28032,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gossifleur",
+		codinome: "",
 		numero: 829, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 2.2, // em kg
@@ -27144,6 +28062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eldegoss",
+		codinome: "",
 		numero: 830, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 2.5, // em kg
@@ -27174,6 +28093,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wooloo",
+		codinome: "",
 		numero: 831, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
@@ -27204,6 +28124,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dubwool",
+		codinome: "",
 		numero: 832, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 43.0, // em kg
@@ -27234,6 +28155,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chewtle",
+		codinome: "",
 		numero: 833, // considerando a national dex
 		tipo: ["Água"],
 		massa: 8.5, // em kg
@@ -27264,6 +28186,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drednaw",
+		codinome: "",
 		numero: 834, // considerando a national dex
 		tipo: ["Água", " Rocha"],
 		massa: 115.5, // em kg
@@ -27294,6 +28217,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yamper",
+		codinome: "",
 		numero: 835, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 13.5, // em kg
@@ -27324,6 +28248,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Boltund",
+		codinome: "",
 		numero: 836, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 34.0, // em kg
@@ -27354,6 +28279,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rolycoly",
+		codinome: "",
 		numero: 837, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 12.0, // em kg
@@ -27383,6 +28309,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carkol",
+		codinome: "",
 		numero: 838, // considerando a national dex
 		tipo: ["Rocha", " Fogo"],
 		massa: 78.0, // em kg
@@ -27413,6 +28340,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Coalossal",
+		codinome: "",
 		numero: 839, // considerando a national dex
 		tipo: ["Rocha", " Fogo"],
 		massa: 310.5, // em kg
@@ -27443,6 +28371,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Applin",
+		codinome: "",
 		numero: 840, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
 		massa: 0.5, // em kg
@@ -27473,6 +28402,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flapple",
+		codinome: "",
 		numero: 841, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
 		massa: 1.0, // em kg
@@ -27502,6 +28432,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Appletun",
+		codinome: "",
 		numero: 842, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
 		massa: 13.0, // em kg
@@ -27531,6 +28462,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Silicobra",
+		codinome: "",
 		numero: 843, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 7.6, // em kg
@@ -27561,6 +28493,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandaconda",
+		codinome: "",
 		numero: 844, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 65.5, // em kg
@@ -27590,6 +28523,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cramorant",
+		codinome: "",
 		numero: 845, // considerando a national dex
 		tipo: ["Voador", " Água"],
 		massa: 18.0, // em kg
@@ -27620,6 +28554,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arrokuda",
+		codinome: "",
 		numero: 846, // considerando a national dex
 		tipo: ["Água"],
 		massa: 1.0, // em kg
@@ -27650,6 +28585,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Barraskewda",
+		codinome: "",
 		numero: 847, // considerando a national dex
 		tipo: ["Água"],
 		massa: 30.0, // em kg
@@ -27680,6 +28616,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxel",
+		codinome: "",
 		numero: 848, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
 		massa: 11.0, // em kg
@@ -27710,6 +28647,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxtricity (Forma Aguda)",
+		codinome: "",
 		numero: 849.1, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
 		massa: 40.0, // em kg
@@ -27739,6 +28677,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxtricity (Forma Grave)",
+		codinome: "",
 		numero: 849.2, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
 		massa: 40.0, // em kg
@@ -27768,6 +28707,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sizzlipede",
+		codinome: "",
 		numero: 850, // considerando a national dex
 		tipo: ["Fogo", " Inseto"],
 		massa: 1.0, // em kg
@@ -27797,6 +28737,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Centiskorch",
+		codinome: "",
 		numero: 851, // considerando a national dex
 		tipo: ["Fogo", " Inseto"],
 		massa: 120.0, // em kg
@@ -27826,6 +28767,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clobbopus",
+		codinome: "",
 		numero: 852, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 4.0, // em kg
@@ -27855,6 +28797,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grapploct",
+		codinome: "",
 		numero: 853, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 39.0, // em kg
@@ -27885,6 +28828,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sinistea",
+		codinome: "",
 		numero: 854, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.2, // em kg
@@ -27915,6 +28859,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Polteageist",
+		codinome: "",
 		numero: 855, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.4, // em kg
@@ -27945,6 +28890,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hatenna",
+		codinome: "",
 		numero: 856, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 3.4, // em kg
@@ -27975,6 +28921,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hattrem",
+		codinome: "",
 		numero: 857, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 4.8, // em kg
@@ -28005,6 +28952,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hatterene",
+		codinome: "",
 		numero: 858, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 5.1, // em kg
@@ -28035,6 +28983,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Impidimp",
+		codinome: "",
 		numero: 859, // considerando a national dex
 		tipo: ["Noturno", " Fada"],
 		massa: 5.5, // em kg
@@ -28065,6 +29014,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morgrem",
+		codinome: "",
 		numero: 860, // considerando a national dex
 		tipo: ["Noturno", " Fada"],
 		massa: 12.5, // em kg
@@ -28095,6 +29045,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grimmsnarl",
+		codinome: "",
 		numero: 861, // considerando a national dex
 		tipo: ["Noturno", " Fada"],
 		massa: 61.0, // em kg
@@ -28125,6 +29076,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Obstagoon",
+		codinome: "",
 		numero: 862, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
 		massa: 46.0, // em kg
@@ -28155,6 +29107,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Perrserker",
+		codinome: "",
 		numero: 863, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 28.0, // em kg
@@ -28184,6 +29137,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cursola",
+		codinome: "",
 		numero: 864, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.4, // em kg
@@ -28213,6 +29167,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sirfetch'd",
+		codinome: "",
 		numero: 865, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 117.0, // em kg
@@ -28242,6 +29197,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mr. Rime",
+		codinome: "",
 		numero: 866, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
 		massa: 58.2, // em kg
@@ -28271,6 +29227,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Runerigus",
+		codinome: "",
 		numero: 867, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
 		massa: 66.6, // em kg
@@ -28300,6 +29257,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Milcery",
+		codinome: "",
 		numero: 868, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 0.3, // em kg
@@ -28329,6 +29287,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Alcremie",
+		codinome: "",
 		numero: 869, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 0.5, // em kg
@@ -28366,6 +29325,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Falinks",
+		codinome: "",
 		numero: 870, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 62.0, // em kg
@@ -28395,6 +29355,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pincurchin",
+		codinome: "",
 		numero: 871, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 1.0, // em kg
@@ -28424,6 +29385,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snom",
+		codinome: "",
 		numero: 872, // considerando a national dex
 		tipo: ["Gelo", " Inseto"],
 		massa: 3.8, // em kg
@@ -28454,6 +29416,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frosmoth",
+		codinome: "",
 		numero: 873, // considerando a national dex
 		tipo: ["Gelo", " Inseto"],
 		massa: 42.0, // em kg
@@ -28483,6 +29446,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stonjourner",
+		codinome: "",
 		numero: 874, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 520.0, // em kg
@@ -28512,6 +29476,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eiscue (Cara de Gelo)",
+		codinome: "",
 		numero: 875.1, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 89.0, // em kg
@@ -28541,6 +29506,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eiscue (Cara Degelada)",
+		codinome: "",
 		numero: 875.2, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 89.0, // em kg
@@ -28570,6 +29536,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Indeedee Macho",
+		codinome: "",
 		numero: 876.1, // considerando a national dex
 		tipo: ["Psíquico", " Normal"],
 		massa: 28.0, // em kg
@@ -28599,6 +29566,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Indeedee Fêmea",
+		codinome: "",
 		numero: 876.2, // considerando a national dex
 		tipo: ["Psíquico", " Normal"],
 		massa: 28.0, // em kg
@@ -28628,6 +29596,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morpeko (Forma Saciada)",
+		codinome: "",
 		numero: 877.1, // considerando a national dex
 		tipo: ["Elétrico", " Noturno"],
 		massa: 3.0, // em kg
@@ -28658,6 +29627,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morpeko (Forma Voraz)",
+		codinome: "",
 		numero: 877.2, // considerando a national dex
 		tipo: ["Elétrico", " Noturno"],
 		massa: 3.0, // em kg
@@ -28688,6 +29658,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cufant",
+		codinome: "",
 		numero: 878, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 100.0, // em kg
@@ -28717,6 +29688,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Copperajah",
+		codinome: "",
 		numero: 879, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 650.0, // em kg
@@ -28747,6 +29719,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dracozolt",
+		codinome: "",
 		numero: 880, // considerando a national dex
 		tipo: ["Elétrico", " Dragão"],
 		massa: 190.0, // em kg
@@ -28776,6 +29749,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arctozolt",
+		codinome: "",
 		numero: 881, // considerando a national dex
 		tipo: ["Elétrico", " Gelo"],
 		massa: 150.0, // em kg
@@ -28805,6 +29779,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dracovish",
+		codinome: "",
 		numero: 882, // considerando a national dex
 		tipo: ["Água", " Dragão"],
 		massa: 215.0, // em kg
@@ -28834,6 +29809,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arctovish",
+		codinome: "",
 		numero: 883, // considerando a national dex
 		tipo: ["Água", " Gelo"],
 		massa: 175.0, // em kg
@@ -28863,6 +29839,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Duraludon",
+		codinome: "",
 		numero: 884, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
 		massa: 40.0, // em kg
@@ -28892,6 +29869,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dreepy",
+		codinome: "",
 		numero: 885, // considerando a national dex
 		tipo: ["Dragão", " Fantasma"],
 		massa: 2.0, // em kg
@@ -28921,6 +29899,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drakloak",
+		codinome: "",
 		numero: 886, // considerando a national dex
 		tipo: ["Dragão", " Fantasma"],
 		massa: 11.0, // em kg
@@ -28950,6 +29929,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragapult",
+		codinome: "",
 		numero: 887, // considerando a national dex
 		tipo: ["Dragão", " Fantasma"],
 		massa: 50.0, // em kg
@@ -28979,6 +29959,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zacian (Herói Veterano)",
+		codinome: "",
 		numero: 888.1, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 110.0, // em kg
@@ -29008,6 +29989,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zacian (Espada Coroada)",
+		codinome: "",
 		numero: 888.2, // considerando a national dex
 		tipo: ["Fada", " Metal"],
 		massa: 355.0, // em kg
@@ -29037,6 +30019,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zamazenta (Herói Veterano)",
+		codinome: "",
 		numero: 889.1, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 210.0, // em kg
@@ -29066,6 +30049,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zamazenta (Escudo Coroado)",
+		codinome: "",
 		numero: 889.2, // considerando a national dex
 		tipo: ["Lutador", " Metal"],
 		massa: 785.0, // em kg
@@ -29095,6 +30079,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eternatus",
+		codinome: "",
 		numero: 890, // considerando a national dex
 		tipo: ["Veneno", " Dragão"],
 		massa: 950.0, // em kg
@@ -29124,6 +30109,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kubfu",
+		codinome: "",
 		numero: 891, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 12.0, // em kg
@@ -29153,6 +30139,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Urshifu (Estilo Golpe Decisivo)",
+		codinome: "",
 		numero: 892.1, // considerando a national dex
 		tipo: ["Lutador", " Noturno"],
 		massa: 105.0, // em kg
@@ -29182,6 +30169,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Urshifu (Estilo Golpe Fluido)",
+		codinome: "",
 		numero: 892.2, // considerando a national dex
 		tipo: ["Lutador", " Água"],
 		massa: 105.0, // em kg
@@ -29211,6 +30199,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zarude",
+		codinome: "",
 		numero: 893, // considerando a national dex
 		tipo: ["Noturno", " Planta"],
 		massa: 70.0, // em kg
@@ -29240,6 +30229,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regieleki",
+		codinome: "",
 		numero: 894, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 145.0, // em kg
@@ -29269,6 +30259,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regidrago",
+		codinome: "",
 		numero: 895, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 200.0, // em kg
@@ -29298,6 +30289,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glastrier",
+		codinome: "",
 		numero: 896, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 800.0, // em kg
@@ -29327,6 +30319,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spectrier",
+		codinome: "",
 		numero: 897, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 44.5, // em kg
@@ -29356,6 +30349,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex",
+		codinome: "",
 		numero: 898.1, // considerando a national dex
 		tipo: ["Psíquico", " Planta"],
 		massa: 7.7, // em kg
@@ -29385,6 +30379,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex (Cavaleiro Glacial)",
+		codinome: "",
 		numero: 898.2, // considerando a national dex
 		tipo: ["Psíquico", " Gelo"],
 		massa: 809.1, // em kg
@@ -29414,6 +30409,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex (Cavaleiro Espectral)",
+		codinome: "",
 		numero: 898.3, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 53.6, // em kg
@@ -29443,6 +30439,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wyrdeer",
+		codinome: "",
 		numero: 899, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
 		massa: 95.1, // em kg
@@ -29472,6 +30469,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kleavor",
+		codinome: "",
 		numero: 900, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
 		massa: 89.0, // em kg
@@ -29501,6 +30499,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ursaluna",
+		codinome: "",
 		numero: 901.1, // considerando a national dex
 		tipo: ["Terra", " Normal"],
 		massa: 290.0, // em kg
@@ -29530,6 +30529,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ursaluna (Lua Sangrenta)",
+		codinome: "",
 		numero: 901.2, // considerando a national dex
 		tipo: ["Terra", " Normal"],
 		massa: 333.0, // em kg
@@ -29548,7 +30548,7 @@ const pkmnDisponiveis = [
 		categoria: "Pokémon Turfa",
 		obtencao: ["Timeless Woods", "Por evolução"],
 		estagio: 3,
-		geracao: 8, // considerando em qual geração foi introduzido
+		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
 		regional: true,
 		lendario: false,
@@ -29559,6 +30559,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculegion Macho",
+		codinome: "",
 		numero: 902.1, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
 		massa: 110.0, // em kg
@@ -29588,6 +30589,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculegion Fêmea",
+		codinome: "",
 		numero: 902.2, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
 		massa: 110.0, // em kg
@@ -29617,6 +30619,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sneasler",
+		codinome: "",
 		numero: 903, // considerando a national dex
 		tipo: ["Lutador", " Veneno"],
 		massa: 43.0, // em kg
@@ -29646,6 +30649,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Overqwil",
+		codinome: "",
 		numero: 904, // considerando a national dex
 		tipo: ["Noturno", " Veneno"],
 		massa: 60.5, // em kg
@@ -29675,6 +30679,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Enamorus (Forma Materializada)",
+		codinome: "",
 		numero: 905.1, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 48.0, // em kg
@@ -29704,6 +30709,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Enamorus (Forma Therian)",
+		codinome: "",
 		numero: 905.2, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 48.0, // em kg
@@ -29733,6 +30739,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sprigatito",
+		codinome: "",
 		numero: 906, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 4.1, // em kg
@@ -29762,6 +30769,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Floragato",
+		codinome: "",
 		numero: 907, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 12.2, // em kg
@@ -29791,6 +30799,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowscarada",
+		codinome: "",
 		numero: 908, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 31.2, // em kg
@@ -29820,6 +30829,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fuecoco",
+		codinome: "",
 		numero: 909, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 9.8, // em kg
@@ -29849,6 +30859,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crocalor",
+		codinome: "",
 		numero: 910, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 30.7, // em kg
@@ -29878,6 +30889,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skeledirge",
+		codinome: "",
 		numero: 911, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
 		massa: 326.5, // em kg
@@ -29907,6 +30919,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quaxly",
+		codinome: "",
 		numero: 912, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.1, // em kg
@@ -29936,6 +30949,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quaxwell",
+		codinome: "",
 		numero: 913, // considerando a national dex
 		tipo: ["Água"],
 		massa: 21.5, // em kg
@@ -29965,6 +30979,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quaquaval",
+		codinome: "",
 		numero: 914, // considerando a national dex
 		tipo: ["Água", " Lutador"],
 		massa: 61.9, // em kg
@@ -29994,6 +31009,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lechonk",
+		codinome: "",
 		numero: 915, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 10.2, // em kg
@@ -30024,6 +31040,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oinkologne Fêmea",
+		codinome: "",
 		numero: 916.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 120.0, // em kg
@@ -30054,6 +31071,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oinkologne Macho",
+		codinome: "",
 		numero: 916.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 120.0, // em kg
@@ -30084,6 +31102,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tarountula",
+		codinome: "",
 		numero: 917, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 4.0, // em kg
@@ -30114,6 +31133,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spidops",
+		codinome: "",
 		numero: 918, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 16.5, // em kg
@@ -30144,6 +31164,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nymble",
+		codinome: "",
 		numero: 919, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 1.0, // em kg
@@ -30174,6 +31195,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lokix",
+		codinome: "",
 		numero: 920, // considerando a national dex
 		tipo: ["Inseto", " Noturno"],
 		massa: 17.5, // em kg
@@ -30204,6 +31226,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawmi",
+		codinome: "",
 		numero: 921, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 2.5, // em kg
@@ -30234,6 +31257,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawmo",
+		codinome: "",
 		numero: 922, // considerando a national dex
 		tipo: ["Elétrico", " Lutador"],
 		massa: 6.5, // em kg
@@ -30264,6 +31288,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawmot",
+		codinome: "",
 		numero: 923, // considerando a national dex
 		tipo: ["Elétrico", " Lutador"],
 		massa: 41.0, // em kg
@@ -30293,6 +31318,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tandemaus",
+		codinome: "",
 		numero: 924, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 1.8, // em kg
@@ -30323,6 +31349,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maushold (Família Quádrupla)",
+		codinome: "",
 		numero: 925.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 2.8, // em kg
@@ -30352,6 +31379,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maushold (Família Tripla)",
+		codinome: "",
 		numero: 925.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 2.3, // em kg
@@ -30381,6 +31409,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fidough",
+		codinome: "",
 		numero: 926, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 10.9, // em kg
@@ -30411,6 +31440,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dachsbun",
+		codinome: "",
 		numero: 927, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 14.9, // em kg
@@ -30441,6 +31471,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Smoliv",
+		codinome: "",
 		numero: 928, // considerando a national dex
 		tipo: ["Planta", " Normal"],
 		massa: 6.5, // em kg
@@ -30470,6 +31501,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dolliv",
+		codinome: "",
 		numero: 929, // considerando a national dex
 		tipo: ["Planta", " Normal"],
 		massa: 11.9, // em kg
@@ -30500,6 +31532,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arboliva",
+		codinome: "",
 		numero: 930, // considerando a national dex
 		tipo: ["Planta", " Normal"],
 		massa: 48.2, // em kg
@@ -30529,6 +31562,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Squawkabilly",
+		codinome: "",
 		numero: 931, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.4, // em kg
@@ -30562,6 +31596,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nacli",
+		codinome: "",
 		numero: 932, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 16.0, // em kg
@@ -30592,6 +31627,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Naclstack",
+		codinome: "",
 		numero: 933, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 105.0, // em kg
@@ -30622,6 +31658,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Garganacl",
+		codinome: "",
 		numero: 934, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 240.0, // em kg
@@ -30651,6 +31688,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charcadet",
+		codinome: "",
 		numero: 935, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 10.5, // em kg
@@ -30681,6 +31719,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Armarouge",
+		codinome: "",
 		numero: 936, // considerando a national dex
 		tipo: ["Fogo", " Psíquico"],
 		massa: 85.0, // em kg
@@ -30710,6 +31749,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ceruledge",
+		codinome: "",
 		numero: 937, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
 		massa: 62.0, // em kg
@@ -30739,6 +31779,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tadbulb",
+		codinome: "",
 		numero: 938, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 0.4, // em kg
@@ -30769,6 +31810,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bellibolt",
+		codinome: "",
 		numero: 939, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 113.0, // em kg
@@ -30799,6 +31841,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wattrel",
+		codinome: "",
 		numero: 940, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 3.6, // em kg
@@ -30829,6 +31872,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kilowattrel",
+		codinome: "",
 		numero: 941, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 38.6, // em kg
@@ -30859,6 +31903,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maschiff",
+		codinome: "",
 		numero: 942, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 16.0, // em kg
@@ -30889,6 +31934,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mabosstiff",
+		codinome: "",
 		numero: 943, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 61.0, // em kg
@@ -30919,6 +31965,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shroodle",
+		codinome: "",
 		numero: 944, // considerando a national dex
 		tipo: ["Veneno", " Normal"],
 		massa: 0.7, // em kg
@@ -30949,6 +31996,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grafaiai",
+		codinome: "",
 		numero: 945, // considerando a national dex
 		tipo: ["Veneno", " Normal"],
 		massa: 27.2, // em kg
@@ -30979,6 +32027,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bramblin",
+		codinome: "",
 		numero: 946, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
 		massa: 0.6, // em kg
@@ -31008,6 +32057,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Brambleghast",
+		codinome: "",
 		numero: 947, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
 		massa: 6.0, // em kg
@@ -31037,6 +32087,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toedscool",
+		codinome: "",
 		numero: 948, // considerando a national dex
 		tipo: ["Terra", " Planta"],
 		massa: 33.0, // em kg
@@ -31067,6 +32118,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toedscruel",
+		codinome: "",
 		numero: 949, // considerando a national dex
 		tipo: ["Terra", " Planta"],
 		massa: 58.0, // em kg
@@ -31097,6 +32149,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klawf",
+		codinome: "",
 		numero: 950, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 79.0, // em kg
@@ -31126,6 +32179,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Capsakid",
+		codinome: "",
 		numero: 951, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 3.0, // em kg
@@ -31156,6 +32210,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scovillain",
+		codinome: "",
 		numero: 952, // considerando a national dex
 		tipo: ["Planta", " Fogo"],
 		massa: 15.0, // em kg
@@ -31186,6 +32241,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rellor",
+		codinome: "",
 		numero: 953, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 1.0, // em kg
@@ -31215,6 +32271,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rabsca",
+		codinome: "",
 		numero: 954, // considerando a national dex
 		tipo: ["Inseto", " Psíquico"],
 		massa: 3.5, // em kg
@@ -31244,6 +32301,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flittle",
+		codinome: "",
 		numero: 955, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 1.5, // em kg
@@ -31274,6 +32332,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Espathra",
+		codinome: "",
 		numero: 956, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 90.0, // em kg
@@ -31304,6 +32363,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tinkatink",
+		codinome: "",
 		numero: 957, // considerando a national dex
 		tipo: ["Fada", " Metal"],
 		massa: 8.9, // em kg
@@ -31334,6 +32394,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tinkatuff",
+		codinome: "",
 		numero: 958, // considerando a national dex
 		tipo: ["Fada", " Metal"],
 		massa: 59.1, // em kg
@@ -31364,6 +32425,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tinkaton",
+		codinome: "",
 		numero: 959, // considerando a national dex
 		tipo: ["Fada", " Metal"],
 		massa: 112.8, // em kg
@@ -31393,6 +32455,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wiglett",
+		codinome: "",
 		numero: 960, // considerando a national dex
 		tipo: ["Água"],
 		massa: 1.8, // em kg
@@ -31423,6 +32486,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wugtrio",
+		codinome: "",
 		numero: 961, // considerando a national dex
 		tipo: ["Água"],
 		massa: 5.4, // em kg
@@ -31453,6 +32517,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bombirdier",
+		codinome: "",
 		numero: 962, // considerando a national dex
 		tipo: ["Voador", " Noturno"],
 		massa: 42.9, // em kg
@@ -31483,6 +32548,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Finizen",
+		codinome: "",
 		numero: 963, // considerando a national dex
 		tipo: ["Água"],
 		massa: 60.2, // em kg
@@ -31513,6 +32579,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palafin (Forma Zero)",
+		codinome: "",
 		numero: 964.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 60.2, // em kg
@@ -31542,6 +32609,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palafin (Forma Heroica)",
+		codinome: "",
 		numero: 964.2, // considerando a national dex
 		tipo: ["Água"],
 		massa: 97.4, // em kg
@@ -31571,6 +32639,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Varoom",
+		codinome: "",
 		numero: 965, // considerando a national dex
 		tipo: ["Metal", " Veneno"],
 		massa: 35.0, // em kg
@@ -31600,6 +32669,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Revavroom",
+		codinome: "",
 		numero: 966, // considerando a national dex
 		tipo: ["Metal", " Veneno"],
 		massa: 120.0, // em kg
@@ -31630,6 +32700,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cyclizar",
+		codinome: "",
 		numero: 967, // considerando a national dex
 		tipo: ["Dragão", " Normal"],
 		massa: 63.0, // em kg
@@ -31660,6 +32731,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Orthworm",
+		codinome: "",
 		numero: 968, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 310.0, // em kg
@@ -31689,6 +32761,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glimmet",
+		codinome: "",
 		numero: 969, // considerando a national dex
 		tipo: ["Rocha", " Veneno"],
 		massa: 8.0, // em kg
@@ -31719,6 +32792,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glimmora",
+		codinome: "",
 		numero: 970, // considerando a national dex
 		tipo: ["Rocha", " Veneno"],
 		massa: 45.0, // em kg
@@ -31748,6 +32822,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Greavard",
+		codinome: "",
 		numero: 971, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 35.0, // em kg
@@ -31778,6 +32853,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Houndstone",
+		codinome: "",
 		numero: 972, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 15.0, // em kg
@@ -31808,6 +32884,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flamigo",
+		codinome: "",
 		numero: 973, // considerando a national dex
 		tipo: ["Voador", " Lutador"],
 		massa: 37.0, // em kg
@@ -31838,6 +32915,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cetoddle",
+		codinome: "",
 		numero: 974, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 45.0, // em kg
@@ -31868,6 +32946,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cetitan",
+		codinome: "",
 		numero: 975, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 700.0, // em kg
@@ -31897,6 +32976,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Veluza",
+		codinome: "",
 		numero: 976, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 90.0, // em kg
@@ -31927,6 +33007,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dondozo",
+		codinome: "",
 		numero: 977, // considerando a national dex
 		tipo: ["Água"],
 		massa: 220.0, // em kg
@@ -31956,6 +33037,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tatsugiri",
+		codinome: "",
 		numero: 978, // considerando a national dex
 		tipo: ["Dragão", " Água"],
 		massa: 8.0, // em kg
@@ -31987,6 +33069,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Annihilape",
+		codinome: "",
 		numero: 979, // considerando a national dex
 		tipo: ["Lutador", " Fantasma"],
 		massa: 56.0, // em kg
@@ -32016,6 +33099,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clodsire",
+		codinome: "",
 		numero: 980, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
 		massa: 223.0, // em kg
@@ -32046,6 +33130,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Farigiraf",
+		codinome: "",
 		numero: 981, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
 		massa: 160.0, // em kg
@@ -32075,6 +33160,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dudunsparce (Forma Bissegmentada)",
+		codinome: "",
 		numero: 982.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 39.2, // em kg
@@ -32105,6 +33191,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dudunsparce (Forma Trissegmentada)",
+		codinome: "",
 		numero: 982.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 47.4, // em kg
@@ -32135,6 +33222,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kingambit",
+		codinome: "",
 		numero: 983, // considerando a national dex
 		tipo: ["Noturno", " Metal"],
 		massa: 120.0, // em kg
@@ -32164,6 +33252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Great Tusk",
+		codinome: "",
 		numero: 984, // considerando a national dex
 		tipo: ["Terra", " Lutador"],
 		massa: 320.0, // em kg
@@ -32193,6 +33282,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scream Tail",
+		codinome: "",
 		numero: 985, // considerando a national dex
 		tipo: ["Fada", " Psíquico"],
 		massa: 8.0, // em kg
@@ -32222,6 +33312,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Brute Bonnet",
+		codinome: "",
 		numero: 986, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 21.0, // em kg
@@ -32251,6 +33342,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flutter Mane",
+		codinome: "",
 		numero: 987, // considerando a national dex
 		tipo: ["Fantasma", " Fada"],
 		massa: 4.0, // em kg
@@ -32280,6 +33372,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slither Wing",
+		codinome: "",
 		numero: 988, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
 		massa: 92.0, // em kg
@@ -32309,6 +33402,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandy Shocks",
+		codinome: "",
 		numero: 989, // considerando a national dex
 		tipo: ["Elétrico", " Terra"],
 		massa: 60.0, // em kg
@@ -32338,6 +33432,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Treads",
+		codinome: "",
 		numero: 990, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 240.0, // em kg
@@ -32367,6 +33462,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Bundle",
+		codinome: "",
 		numero: 991, // considerando a national dex
 		tipo: ["Gelo", " Água"],
 		massa: 11.0, // em kg
@@ -32396,6 +33492,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Hands",
+		codinome: "",
 		numero: 992, // considerando a national dex
 		tipo: ["Lutador", " Elétrico"],
 		massa: 380.7, // em kg
@@ -32425,6 +33522,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Jugulis",
+		codinome: "",
 		numero: 993, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 111.0, // em kg
@@ -32454,6 +33552,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Moth",
+		codinome: "",
 		numero: 994, // considerando a national dex
 		tipo: ["Fogo", " Veneno"],
 		massa: 36.0, // em kg
@@ -32483,6 +33582,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Thorns",
+		codinome: "",
 		numero: 995, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 303.0, // em kg
@@ -32512,6 +33612,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frigibax",
+		codinome: "",
 		numero: 996, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 17.0, // em kg
@@ -32541,6 +33642,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arctibax",
+		codinome: "",
 		numero: 997, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 30.0, // em kg
@@ -32570,6 +33672,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Baxcalibur",
+		codinome: "",
 		numero: 998, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 210.0, // em kg
@@ -32599,6 +33702,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gimmighoul (Forma Baú)",
+		codinome: "",
 		numero: 999.1, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 5.0, // em kg
@@ -32629,6 +33733,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gimmighoul (Forma Perambulante)",
+		codinome: "",
 		numero: 999.2, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.1, // em kg
@@ -32658,6 +33763,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gholdengo",
+		codinome: "",
 		numero: 1000, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
 		massa: 30.0, // em kg
@@ -32687,6 +33793,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wo-Chien",
+		codinome: "",
 		numero: 1001, // considerando a national dex
 		tipo: ["Noturno", " Planta"],
 		massa: 74.2, // em kg
@@ -32716,6 +33823,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chien-Pao",
+		codinome: "",
 		numero: 1002, // considerando a national dex
 		tipo: ["Noturno", " Gelo"],
 		massa: 152.2, // em kg
@@ -32745,6 +33853,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ting-Lu",
+		codinome: "",
 		numero: 1003, // considerando a national dex
 		tipo: ["Noturno", " Terra"],
 		massa: 699.7, // em kg
@@ -32774,6 +33883,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chi-Yu",
+		codinome: "",
 		numero: 1004, // considerando a national dex
 		tipo: ["Noturno", " Fogo"],
 		massa: 4.9, // em kg
@@ -32803,6 +33913,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roaring Moon",
+		codinome: "",
 		numero: 1005, // considerando a national dex
 		tipo: ["Dragão", " Noturno"],
 		massa: 380.0, // em kg
@@ -32832,6 +33943,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Valiant",
+		codinome: "",
 		numero: 1006, // considerando a national dex
 		tipo: ["Fada", " Lutador"],
 		massa: 35.0, // em kg
@@ -32861,6 +33973,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Koraidon",
+		codinome: "",
 		numero: 1007, // considerando a national dex
 		tipo: ["Lutador", " Dragão"],
 		massa: 303.0, // em kg
@@ -32890,6 +34003,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Miraidon",
+		codinome: "",
 		numero: 1008, // considerando a national dex
 		tipo: ["Elétrico", " Dragão"],
 		massa: 240.0, // em kg
@@ -32919,6 +34033,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Walking Wake",
+		codinome: "",
 		numero: 1009, // considerando a national dex
 		tipo: ["Água", " Dragão"],
 		massa: 280.0, // em kg
@@ -32948,6 +34063,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Leaves",
+		codinome: "",
 		numero: 1010, // considerando a national dex
 		tipo: ["Planta", " Psíquico"],
 		massa: 125.0, // em kg
@@ -32977,6 +34093,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dipplin",
+		codinome: "",
 		numero: 1011, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
 		massa: 4.4, // em kg
@@ -33006,6 +34123,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poltchageist",
+		codinome: "",
 		numero: 1012, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
 		massa: 1.1, // em kg
@@ -33036,6 +34154,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sinistcha",
+		codinome: "",
 		numero: 1013, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
 		massa: 2.2, // em kg
@@ -33066,6 +34185,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Okidogi",
+		codinome: "",
 		numero: 1014, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
 		massa: 92.2, // em kg
@@ -33095,6 +34215,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Munkidori",
+		codinome: "",
 		numero: 1015, // considerando a national dex
 		tipo: ["Veneno", " Psíquico"],
 		massa: 12.2, // em kg
@@ -33124,6 +34245,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fezandipiti",
+		codinome: "",
 		numero: 1016, // considerando a national dex
 		tipo: ["Veneno", " Fada"],
 		massa: 30.1, // em kg
@@ -33153,6 +34275,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Turquesa)",
+		codinome: "",
 		numero: 1017.1, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 39.8, // em kg
@@ -33182,6 +34305,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Nascente)",
+		codinome: "",
 		numero: 1017.2, // considerando a national dex
 		tipo: ["Planta", " Água"],
 		massa: 39.8, // em kg
@@ -33211,6 +34335,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Fornalha)",
+		codinome: "",
 		numero: 1017.3, // considerando a national dex
 		tipo: ["Planta", " Fogo"],
 		massa: 39.8, // em kg
@@ -33240,6 +34365,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Alicerce)",
+		codinome: "",
 		numero: 1017.4, // considerando a national dex
 		tipo: ["Planta", " Rocha"],
 		massa: 39.8, // em kg
@@ -33269,6 +34395,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Archaludon",
+		codinome: "",
 		numero: 1018, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
 		massa: 60.0, // em kg
@@ -33298,6 +34425,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hydrapple",
+		codinome: "",
 		numero: 1019, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
 		massa: 93.0, // em kg
@@ -33327,6 +34455,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gouging Fire",
+		codinome: "",
 		numero: 1020, // considerando a national dex
 		tipo: ["Fogo", " Dragão"],
 		massa: 590.0, // em kg
@@ -33356,6 +34485,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raging Bolt",
+		codinome: "",
 		numero: 1021, // considerando a national dex
 		tipo: ["Elétrico", " Dragão"],
 		massa: 480.0, // em kg
@@ -33385,6 +34515,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Boulder",
+		codinome: "",
 		numero: 1022, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
 		massa: 162.5, // em kg
@@ -33414,6 +34545,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Crown",
+		codinome: "",
 		numero: 1023, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 156.0, // em kg
@@ -33443,6 +34575,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Normal)",
+		codinome: "",
 		numero: 1024.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.5, // em kg
@@ -33472,6 +34605,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Terastal)",
+		codinome: "",
 		numero: 1024.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 16.0, // em kg
@@ -33501,6 +34635,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Estelar)",
+		codinome: "",
 		numero: 1024.3, // considerando a national dex
 		tipo: ["Estelar"],
 		massa: 77.0, // em kg
@@ -33530,6 +34665,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pecharunt",
+		codinome: "",
 		numero: 1025, // considerando a national dex
 		tipo: ["Veneno", " Fantasma"],
 		massa: 0.3, // em kg
@@ -33559,117 +34695,60 @@ const pkmnDisponiveis = [
 	},
 ];
 
-/* 1ª geração, região de Kanto", "1-151 */
+/* 1ª geração, região de Kanto, 1-151 */
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
 const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
 const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
 
-/* 2ª geração, região de Johto", "152-251", "100 novos */
+/* 2ª geração, região de Johto, 152-251, 100 novos */
 const segundaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 2);
 const numerosSegunda = segundaGeracao.map((X) => X.numero);
 const nomesSegunda = segundaGeracao.map((x) => x.nome);
 
-/* 3ª geração, região de Hoenn", "252-386", "135 novos */
+/* 3ª geração, região de Hoenn, 252-386, 135 novos */
 const terceiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 3);
 const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 const nomesTerceira = terceiraGeracao.map((x) => x.nome);
 
-/* 4ª geração, região de Sinnoh", "387-493", "107 novos */
+/* 4ª geração, região de Sinnoh, 387-493, 107 novos */
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
 const nomesQuarta = quartaGeracao.map((x) => x.nome);
 
-/* 5ª geração, região de Unova", "494-649", "156 novos */
+/* 5ª geração, região de Unova, 494-649, 156 novos */
 const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
 const numerosQuinta = quintaGeracao.map((x) => x.numero);
 const nomesQuinta = quintaGeracao.map((x) => x.nome);
 
-/* 6ª geração, região de Kalos", "650-721", "72 novos */
+/* 6ª geração, região de Kalos, 650-721, 72 novos */
 const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
 const numerosSexta = sextaGeracao.map((x) => x.numero);
 const nomesSexta = sextaGeracao.map((x) => x.nome);
 
-/* 7ª geração, região de Alola", "722-809", "88 novos */
+/* 7ª geração, região de Alola, 722-809, 88 novos */
 const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
 const numerosSetima = setimaGeracao.map((x) => x.numero);
 const nomesSetima = setimaGeracao.map((x) => x.nome);
 
-/* 8ª geração, região de Galar e Hisui", "810-905", "96 novos */
+/* 8ª geração, região de Galar e Hisui, 810-905, 96 novos */
 const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
 const numerosOitava = oitavaGeracao.map((x) => x.numero);
 const nomesOitava = oitavaGeracao.map((x) => x.nome);
 
-/* 9ª geração, região de Paldea e Kikatami", "906-1025", "120 novos */
+/* 9ª geração, região de Paldea e Kikatami, 906-1025, 120 novos */
 const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
 const numerosNona = nonaGeracao.map((x) => x.numero);
 const nomesNona = nonaGeracao.map((x) => x.nome);
 
 /* todas gerações */
 const numerosGeracoes = pkmnDisponiveis.map((x) => x.numero);
-const codinomesGeracoes = pkmnDisponiveis.filter((x) => x.codinome !== undefined).map((x) => x.codinome);
+const codinomesGeracoes = pkmnDisponiveis.map((x) => x.codinome);
 const nomesGeracoes = pkmnDisponiveis.map((x) => x.nome).concat(codinomesGeracoes);
 
-console.info(
-	"# GERAÇÕES #",
-	`\n##Primeira## ${
-		[...new Set(numerosPrimeira.map((x) => x.toFixed()))].length
-	}/151 | ${(
-		([...new Set(numerosPrimeira.map((x) => x.toFixed()))].length / 151) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Segunda## ${
-		[...new Set(numerosSegunda.map((x) => x.toFixed()))].length
-	}/100 | ${(
-		([...new Set(numerosSegunda.map((x) => x.toFixed()))].length / 100) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Terceira## ${
-		[...new Set(numerosTerceira.map((x) => x.toFixed()))].length
-	}/135 | ${(
-		([...new Set(numerosTerceira.map((x) => x.toFixed()))].length / 135) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Quarta## ${
-		[...new Set(numerosQuarta.map((x) => x.toFixed()))].length
-	}/107 | ${(
-		([...new Set(numerosQuarta.map((x) => x.toFixed()))].length / 107) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Quinta## ${
-		[...new Set(numerosQuinta.map((x) => x.toFixed()))].length
-	}/156 | ${(
-		([...new Set(numerosQuinta.map((x) => x.toFixed()))].length / 156) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Sexta## ${
-		[...new Set(numerosSexta.map((x) => x.toFixed()))].length
-	}/72 | ${(
-		([...new Set(numerosSexta.map((x) => x.toFixed()))].length / 72) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Sétima## ${
-		[...new Set(numerosSetima.map((x) => x.toFixed()))].length
-	}/88 | ${(
-		([...new Set(numerosSetima.map((x) => x.toFixed()))].length / 88) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Oitava## ${
-		[...new Set(numerosOitava.map((x) => x.toFixed()))].length
-	}/96 | ${(
-		([...new Set(numerosOitava.map((x) => x.toFixed()))].length / 96) *
-		100
-	).toFixed(2)}%;`,
-	`\n##Nona## ${
-		[...new Set(numerosNona.map((x) => x.toFixed()))].length
-	}/120 | ${(
-		([...new Set(numerosNona.map((x) => x.toFixed()))].length / 120) *
-		100
-	).toFixed(2)}%.`,
-	`\n\n#Total# ${
-		[...new Set(pkmnDisponiveis.map((x) => x.numero.toFixed()))].length
-	}/1025 | ${(
-		([...new Set(pkmnDisponiveis.map((x) => x.numero.toFixed()))].length /
-			1025) *
-		100
-	).toFixed(2)}%.`
-);
+const contagem = new Map();
+numerosGeracoes.forEach(item => {
+    contagem.set(item, (contagem.get(item) || 0) + 1);
+});
+for (const [chave, valor] of contagem) {
+	valor > 1 ? console.info(`O número ${chave} é repetido!`) : false;
+};
