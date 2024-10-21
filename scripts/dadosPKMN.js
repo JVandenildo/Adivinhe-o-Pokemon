@@ -22,6 +22,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -52,6 +53,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -82,6 +84,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -112,6 +115,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -142,6 +146,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -172,6 +177,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -202,6 +208,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -232,6 +239,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -262,6 +270,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -292,6 +301,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -322,6 +332,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -352,6 +363,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -382,6 +394,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -412,6 +425,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -442,6 +456,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -472,6 +487,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -502,6 +518,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -532,6 +549,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -562,6 +580,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -593,6 +612,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -624,6 +644,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -655,6 +676,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -685,6 +707,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -715,6 +738,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -745,6 +769,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -775,6 +800,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -805,6 +831,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -835,6 +862,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -865,6 +893,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -895,6 +924,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -925,6 +955,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -955,6 +986,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -985,6 +1017,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1015,6 +1048,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1045,6 +1079,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1075,6 +1110,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1105,6 +1141,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1135,6 +1172,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1165,6 +1203,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1195,6 +1234,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1225,6 +1265,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1255,6 +1296,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1285,6 +1327,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1315,6 +1358,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1345,6 +1389,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1375,6 +1420,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1405,6 +1451,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1436,6 +1483,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1467,6 +1515,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1497,6 +1546,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1527,6 +1577,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1557,6 +1608,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1587,6 +1639,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1617,6 +1670,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1647,6 +1701,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1678,6 +1733,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1708,6 +1764,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1739,6 +1796,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1768,6 +1826,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1799,6 +1858,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1829,6 +1889,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1859,6 +1920,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1889,6 +1951,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1919,6 +1982,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1949,6 +2013,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1979,6 +2044,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2009,6 +2075,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2039,6 +2106,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2069,6 +2137,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2099,6 +2168,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2129,6 +2199,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2159,6 +2230,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2189,6 +2261,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2220,6 +2293,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2250,6 +2324,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2280,6 +2355,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2310,6 +2386,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2340,6 +2417,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2370,6 +2448,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2400,6 +2479,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2430,6 +2510,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2460,6 +2541,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2490,6 +2572,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2520,6 +2603,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2550,6 +2634,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2580,6 +2665,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2610,6 +2696,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2640,6 +2727,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2670,6 +2758,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2700,6 +2789,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2730,6 +2820,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2760,6 +2851,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2790,6 +2882,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2820,6 +2913,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2850,6 +2944,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2880,6 +2975,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2910,6 +3006,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2940,6 +3037,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2970,6 +3068,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3001,6 +3100,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3031,6 +3131,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3061,6 +3162,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3091,6 +3193,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3121,6 +3224,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3151,6 +3255,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3181,6 +3286,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3211,6 +3317,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3241,6 +3348,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3271,6 +3379,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3301,6 +3410,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3331,6 +3441,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3361,6 +3472,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3391,6 +3503,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3421,6 +3534,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3451,6 +3565,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3481,6 +3596,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3511,6 +3627,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3541,6 +3658,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3571,6 +3689,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3601,6 +3720,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3631,6 +3751,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3661,6 +3782,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3692,6 +3814,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3722,6 +3845,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3752,6 +3876,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3782,6 +3907,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3812,6 +3938,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3842,6 +3969,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3872,6 +4000,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3902,6 +4031,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3932,6 +4062,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3963,6 +4094,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3993,6 +4125,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4023,6 +4156,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4053,6 +4187,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4083,6 +4218,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4113,6 +4249,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4143,6 +4280,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4174,6 +4312,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4204,6 +4343,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4234,6 +4374,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4264,6 +4405,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4294,6 +4436,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4324,6 +4467,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4354,6 +4498,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4385,6 +4530,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4416,6 +4562,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4446,6 +4593,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4476,6 +4624,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4506,6 +4655,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4536,6 +4686,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4566,6 +4717,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4596,6 +4748,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4626,6 +4779,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4656,6 +4810,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4686,6 +4841,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4716,6 +4872,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4746,6 +4903,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4776,6 +4934,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4807,6 +4966,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4838,6 +4998,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4869,6 +5030,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4899,6 +5061,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4929,6 +5092,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4960,6 +5124,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4990,6 +5155,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5020,6 +5186,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5050,6 +5217,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5080,6 +5248,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5110,6 +5279,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5140,6 +5310,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5170,6 +5341,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5200,6 +5372,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5230,6 +5403,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5260,6 +5434,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5290,6 +5465,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5320,6 +5496,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5350,6 +5527,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5380,6 +5558,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5410,6 +5589,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5440,6 +5620,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5470,6 +5651,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5500,6 +5682,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5530,6 +5713,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5560,6 +5744,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5590,6 +5775,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -5620,6 +5806,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -5650,6 +5837,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5680,6 +5868,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5710,6 +5899,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5740,6 +5930,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5770,6 +5961,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5800,6 +5992,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5830,6 +6023,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5860,6 +6054,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5890,6 +6085,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5920,6 +6116,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5950,6 +6147,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5980,6 +6178,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6011,6 +6210,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6041,6 +6241,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6071,6 +6272,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6101,6 +6303,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6131,6 +6334,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6161,6 +6365,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6191,6 +6396,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6221,6 +6427,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6251,6 +6458,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6281,6 +6489,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6311,6 +6520,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6341,6 +6551,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6371,6 +6582,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6401,6 +6613,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6431,6 +6644,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6461,6 +6675,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6491,6 +6706,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6521,6 +6737,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6551,6 +6768,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6581,6 +6799,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6611,6 +6830,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6641,6 +6861,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6671,6 +6892,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6701,6 +6923,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6731,6 +6954,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6761,6 +6985,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6791,6 +7016,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6821,6 +7047,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6851,6 +7078,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6881,6 +7109,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6911,6 +7140,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6941,6 +7171,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -6972,6 +7203,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7003,6 +7235,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7033,6 +7266,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7063,6 +7297,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7093,6 +7328,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7123,6 +7359,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7153,6 +7390,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7183,6 +7421,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7213,6 +7452,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7270,6 +7510,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7300,6 +7541,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7330,6 +7572,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7360,6 +7603,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7390,6 +7634,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7420,6 +7665,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7450,6 +7696,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7480,6 +7727,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7510,6 +7758,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7540,6 +7789,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7571,6 +7821,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7601,6 +7852,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7631,6 +7883,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7661,6 +7914,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7691,6 +7945,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7722,6 +7977,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7752,6 +8008,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7783,6 +8040,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7813,6 +8071,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7843,6 +8102,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7873,6 +8133,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7903,6 +8164,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7933,6 +8195,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7963,6 +8226,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7993,6 +8257,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8023,6 +8288,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8053,6 +8319,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8083,6 +8350,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8113,6 +8381,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8143,6 +8412,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8173,6 +8443,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8203,6 +8474,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8233,6 +8505,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8264,6 +8537,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8294,6 +8568,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8324,6 +8599,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8354,6 +8630,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8384,6 +8661,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8414,6 +8692,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8444,6 +8723,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8474,6 +8754,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8504,6 +8785,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8534,6 +8816,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8564,6 +8847,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8594,6 +8878,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8624,6 +8909,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8654,6 +8940,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8684,6 +8971,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8714,6 +9002,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8744,6 +9033,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8774,6 +9064,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8804,6 +9095,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8834,6 +9126,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8864,6 +9157,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8894,6 +9188,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8924,6 +9219,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8954,6 +9250,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8984,6 +9281,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9014,6 +9312,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9044,6 +9343,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9074,6 +9374,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9104,6 +9405,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9134,6 +9436,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9164,6 +9467,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9194,6 +9498,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9224,6 +9529,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9254,6 +9560,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9285,6 +9592,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9315,6 +9623,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9345,6 +9654,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9375,6 +9685,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9405,6 +9716,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9435,6 +9747,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9465,6 +9778,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9495,6 +9809,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9525,6 +9840,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9555,6 +9871,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9585,6 +9902,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9615,6 +9933,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9645,6 +9964,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9675,6 +9995,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9705,6 +10026,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9735,6 +10057,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9765,6 +10088,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9795,6 +10119,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9825,6 +10150,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9855,6 +10181,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9885,6 +10212,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9915,6 +10243,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9945,6 +10274,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9975,6 +10305,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10005,6 +10336,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10035,6 +10367,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10065,6 +10398,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10095,6 +10429,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10125,6 +10460,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10155,6 +10491,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10185,6 +10522,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10215,6 +10553,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10245,6 +10584,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10275,6 +10615,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10305,6 +10646,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10335,6 +10677,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10365,6 +10708,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10395,6 +10739,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10426,6 +10771,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10457,6 +10803,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10487,6 +10834,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10517,6 +10865,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10547,6 +10896,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10577,6 +10927,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10607,6 +10958,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10637,6 +10989,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10667,6 +11020,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10697,6 +11051,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10727,6 +11082,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10757,6 +11113,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10787,6 +11144,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10817,6 +11175,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10847,6 +11206,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10877,6 +11237,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10907,6 +11268,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10937,6 +11299,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10968,6 +11331,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10998,6 +11362,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11028,6 +11393,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11058,6 +11424,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11088,6 +11455,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11118,6 +11486,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11148,6 +11517,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11178,6 +11548,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11208,6 +11579,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11238,6 +11610,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11268,6 +11641,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11298,6 +11672,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11328,6 +11703,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11358,6 +11734,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11388,6 +11765,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11418,6 +11796,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11448,6 +11827,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11478,6 +11858,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11508,6 +11889,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11539,6 +11921,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11569,6 +11952,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11599,6 +11983,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11629,6 +12014,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11659,6 +12045,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11689,6 +12076,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11719,6 +12107,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11749,6 +12138,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11779,6 +12169,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11809,6 +12200,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11839,6 +12231,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11869,6 +12262,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11899,7 +12293,8 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, o tempo estar limpo, com neblina, com tempestade de areia, ou com shadowy aura"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11930,7 +12325,8 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, o clima ser de sol forte"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11961,7 +12357,8 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, estar chovendo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11992,7 +12389,8 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, estar chovendo granizo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12023,6 +12421,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12053,6 +12452,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12083,6 +12483,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12113,6 +12514,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12143,6 +12545,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12173,6 +12576,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12203,6 +12607,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12233,6 +12638,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12263,6 +12669,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12293,6 +12700,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12323,6 +12731,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12353,6 +12762,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12383,6 +12793,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12413,6 +12824,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12443,6 +12855,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12473,6 +12886,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12503,6 +12917,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12533,6 +12948,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12563,6 +12979,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12593,6 +13010,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12623,6 +13041,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12653,6 +13072,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12683,6 +13103,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12713,6 +13134,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12743,6 +13165,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12773,6 +13196,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -12803,6 +13227,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -12833,6 +13258,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -12863,6 +13289,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -12893,6 +13320,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -12923,6 +13351,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -12953,6 +13382,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -12983,6 +13413,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13013,6 +13444,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13042,7 +13474,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13072,7 +13505,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13102,7 +13536,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13132,7 +13567,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13163,6 +13599,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13193,6 +13630,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13223,6 +13661,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13253,6 +13692,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13283,6 +13723,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13313,6 +13754,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13343,6 +13785,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13373,6 +13816,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13403,6 +13847,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13433,6 +13878,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13464,6 +13910,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13494,6 +13941,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13525,6 +13973,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13556,6 +14005,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13586,6 +14036,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13617,6 +14068,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13647,6 +14099,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13677,6 +14130,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13707,6 +14161,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13738,6 +14193,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13768,6 +14224,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13798,6 +14255,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13828,6 +14286,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13858,6 +14317,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13888,6 +14348,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13919,6 +14380,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13951,6 +14413,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13981,6 +14444,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14011,6 +14475,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14041,6 +14506,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14072,6 +14538,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14102,6 +14569,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14132,6 +14600,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14162,6 +14631,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14193,6 +14663,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14224,6 +14695,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14254,6 +14726,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14263,9 +14736,9 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Shellos",
+		nome: "Shellos (Mar Leste)",
 		codinome: "",
-		numero: 422, // considerando a national dex
+		numero: 422.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.3, // em kg
 		altura: 0.3, // em metros
@@ -14281,22 +14754,53 @@ const pkmnDisponiveis = [
 		descricao:
 			"Suas cores e formas diferem de região para região. Na região de Sinnoh, estão confirmados dois tipos.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma do Mar",
-		obtencao: ["Rotas 205, 212, 213, e outras", "Fuego de Ferro", "Usina do Vale"],
+		obtencao: ["Rotas 212, 213, e 224"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d7/422Shellos_East_Sea_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Shellos (Mar Oeste)",
+		codinome: "",
+		numero: 422.2, // considerando a national dex
+		tipo: ["Água"],
+		massa: 6.3, // em kg
+		altura: 0.3, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0422.png",
+		estatistica: {
+			ps:		 	76,
+			atq:	 	48,
+			def:	 	48,
+			atq_esp: 	57,
+			def_esp: 	62,
+			vel: 		34,
+		},
+		descricao:
+			"Suas cores e formas diferem de região para região. Na região de Sinnoh, estão confirmados dois tipos.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lesma do Mar",
+		obtencao: ["Rotas 205, 218, e 221", "Fuego de Ferro", "Usina do Vale"],
+		estagio: 1,
+		geracao: 4, // considerando em qual geração foi introduzido
+		variante: true,
+		forma: false,
+		regional: false,
+		lendario: false,
+		sprite: [
 			"https://archives.bulbagarden.net/media/upload/0/07/422Shellos_West_Sea_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Gastrodon",
+		nome: "Gastrodon (Mar Leste)",
 		codinome: "",
-		numero: 423, // considerando a national dex
+		numero: 423.1, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
 		altura: 0.9, // em metros
@@ -14312,14 +14816,45 @@ const pkmnDisponiveis = [
 		descricao:
 			"Possui um corpo flexível sem ossos. Caso qualquer parte de seu corpo for arrancada, ela cresce de volta.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma do Mar",
-		obtencao: ["Rotas 205, 213, 218, e outras", "Fuego de Ferro", "Usina do Vale"],
+		obtencao: ["Rotas 212, 213, 222, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
 			"https://archives.bulbagarden.net/media/upload/d/d2/423Gastrodon_East_Sea_Dream.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)",
+	},
+	{
+		nome: "Gastrodon (Mar Oeste)",
+		codinome: "",
+		numero: 423.2, // considerando a national dex
+		tipo: ["Água", " Terra"],
+		massa: 29.9, // em kg
+		altura: 0.9, // em metros
+		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0423.png",
+		estatistica: {
+			ps:		 	111,
+			atq:	 	83,
+			def:	 	68,
+			atq_esp: 	92,
+			def_esp: 	82,
+			vel: 		39,
+		},
+		descricao:
+			"Possui um corpo flexível sem ossos. Caso qualquer parte de seu corpo for arrancada, ela cresce de volta.", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon Lesma do Mar",
+		obtencao: ["Rotas 205, 218, e 221", "Fuego de Ferro", "Usina do Vale", "Por evolução"],
+		estagio: 2,
+		geracao: 4, // considerando em qual geração foi introduzido
+		variante: true,
+		forma: false,
+		regional: false,
+		lendario: false,
+		sprite: [
 			"https://archives.bulbagarden.net/media/upload/a/a2/423Gastrodon_West_Sea_Dream.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)",
@@ -14347,6 +14882,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14377,6 +14913,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14407,6 +14944,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14437,6 +14975,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14467,6 +15006,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14497,6 +15037,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14527,6 +15068,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14557,6 +15099,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14587,6 +15130,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14618,6 +15162,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14648,6 +15193,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14678,6 +15224,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14709,6 +15256,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14739,6 +15287,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14769,6 +15318,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14799,6 +15349,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14829,6 +15380,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14859,6 +15411,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14889,6 +15442,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14919,6 +15473,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14949,6 +15504,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14979,6 +15535,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15010,6 +15567,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15040,6 +15598,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15070,6 +15629,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15100,6 +15660,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15130,6 +15691,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15160,6 +15722,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15190,6 +15753,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15220,6 +15784,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15250,6 +15815,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15280,6 +15846,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15311,6 +15878,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15342,6 +15910,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15372,6 +15941,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15403,6 +15973,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15433,6 +16004,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15463,6 +16035,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15493,6 +16066,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15523,6 +16097,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15553,6 +16128,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15583,6 +16159,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15613,6 +16190,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15643,6 +16221,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15673,6 +16252,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15703,6 +16283,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15733,6 +16314,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15763,6 +16345,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15793,6 +16376,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15823,6 +16407,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15853,6 +16438,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15883,6 +16469,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15913,6 +16500,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15943,6 +16531,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15973,6 +16562,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16002,7 +16592,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir nada, ou uma lâmpada"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16032,7 +16623,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um forno de micro-ondas"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16062,7 +16654,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir uma máquina-de-lavar"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16092,7 +16685,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um refrigerador"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16122,7 +16716,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um ventilador"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16152,7 +16747,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um cortador de grama"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16183,6 +16779,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16213,6 +16810,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16243,6 +16841,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16273,6 +16872,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16303,6 +16903,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16333,6 +16934,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16363,6 +16965,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16392,7 +16995,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mundo Distorcido"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16422,7 +17026,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mundo Distorcido e segurar o item 'Griseous Orb'"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16453,6 +17058,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16483,6 +17089,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16513,6 +17120,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16543,6 +17151,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16572,7 +17181,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Paraíso das Flores"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16602,7 +17212,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Paraíso das Flores e usar o item 'Glacídea' durante o dia"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16633,6 +17244,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16663,6 +17275,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16693,6 +17306,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16723,6 +17337,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16753,6 +17368,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16783,6 +17399,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16813,6 +17430,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16843,6 +17461,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16873,6 +17492,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16903,6 +17523,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16933,6 +17554,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -16963,6 +17585,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -16994,6 +17617,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17025,6 +17649,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17055,6 +17680,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17086,6 +17712,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17117,6 +17744,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17147,6 +17775,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17177,6 +17806,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17208,6 +17838,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17238,6 +17869,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17269,6 +17901,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17299,6 +17932,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17330,6 +17964,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17360,6 +17995,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17390,6 +18026,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17420,6 +18057,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17451,6 +18089,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17482,6 +18121,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17513,6 +18153,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17544,6 +18185,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17574,6 +18216,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17604,6 +18247,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17635,6 +18279,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17665,6 +18310,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17696,6 +18342,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17726,6 +18373,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17757,6 +18405,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17788,6 +18437,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17819,6 +18469,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17849,6 +18500,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17880,6 +18532,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17910,6 +18563,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17940,6 +18594,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17970,6 +18625,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18000,6 +18656,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18031,6 +18688,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18062,6 +18720,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18092,6 +18751,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18122,6 +18782,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18152,6 +18813,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18182,6 +18844,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18212,6 +18875,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18242,6 +18906,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18273,6 +18938,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18304,6 +18970,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18335,6 +19002,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18366,6 +19034,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18396,6 +19065,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18427,6 +19097,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18459,6 +19130,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18489,6 +19161,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18519,6 +19192,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18549,6 +19223,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18579,6 +19254,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18608,7 +19284,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Resort do Deserto", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18638,7 +19315,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Resort do Deserto", "Por evolução", "estar abaixo dos 50% de PS"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18668,7 +19346,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Snowslide Slope", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18698,7 +19377,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Snowslide Slope", "Por evolução", "estar abaixo dos 50% de PS"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18729,6 +19409,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18759,6 +19440,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18789,6 +19471,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18819,6 +19502,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18849,6 +19533,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18879,6 +19564,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18909,6 +19595,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18939,6 +19626,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18969,6 +19657,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18999,6 +19688,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19029,6 +19719,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19059,6 +19750,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19089,6 +19781,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19119,6 +19812,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19149,6 +19843,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19179,6 +19874,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19210,6 +19906,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19240,6 +19937,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19271,6 +19969,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19301,6 +20000,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19331,6 +20031,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19361,6 +20062,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19391,6 +20093,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19421,6 +20124,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19451,6 +20155,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19481,6 +20186,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19511,6 +20217,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19541,6 +20248,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19571,6 +20279,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19601,6 +20310,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19631,6 +20341,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19661,6 +20372,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19691,6 +20403,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19724,6 +20437,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19758,6 +20472,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19788,6 +20503,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19818,6 +20534,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19848,6 +20565,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19879,6 +20597,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19910,6 +20629,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19942,6 +20662,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19973,6 +20694,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20003,6 +20725,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20033,6 +20756,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20063,6 +20787,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20093,6 +20818,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20123,6 +20849,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20153,6 +20880,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20183,6 +20911,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20213,6 +20942,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20243,6 +20973,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20273,6 +21004,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20303,6 +21035,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20333,6 +21066,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20363,6 +21097,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20393,6 +21128,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20423,6 +21159,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20453,6 +21190,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20483,6 +21221,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20513,6 +21252,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20543,6 +21283,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20573,6 +21314,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20603,6 +21345,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20633,6 +21376,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20663,6 +21407,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20693,6 +21438,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20724,6 +21470,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20754,6 +21501,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20784,6 +21532,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20814,6 +21563,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20844,6 +21594,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20874,6 +21625,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20904,6 +21656,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20934,6 +21687,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20964,6 +21718,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20994,6 +21749,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21024,6 +21780,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21054,6 +21811,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21084,6 +21842,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21114,6 +21873,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21144,6 +21904,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21175,6 +21936,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21205,6 +21967,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21235,6 +21998,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21265,6 +22029,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21295,6 +22060,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21325,6 +22091,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21355,6 +22122,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21385,6 +22153,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21415,6 +22184,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21444,7 +22214,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21474,7 +22245,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova e ativar o Espelho Revelador"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21504,7 +22276,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21534,7 +22307,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21565,6 +22339,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21595,6 +22370,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21624,7 +22400,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Abundant Shrine"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21654,7 +22431,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Abundant Shrine e ativar o Espelho Revelador"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21684,7 +22462,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant Chasm"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21711,10 +22490,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fronteira",
-		obtencao: ["Giant Chasm e ativar Ponta de DNA com Reshiram"],
+		obtencao: ["Giant Chasm e ativar o item 'Ponta de DNA' com Reshiram"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21741,10 +22521,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este lendário Pokémon de gelo espera por um herói que preencha as partes faltantes em seu corpo com verdade ou ideais.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Fronteira",
-		obtencao: ["Giant Chasm e ativar Ponta de DNA com Zekrom"],
+		obtencao: ["Giant Chasm e ativar o item 'Ponta de DNA' com Zekrom"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21775,6 +22556,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21805,7 +22587,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21836,7 +22619,8 @@ const pkmnDisponiveis = [
 			["Por evento e, quando em batalha, usa o movimento Canção da Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21867,6 +22651,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -21901,6 +22686,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21931,6 +22717,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21961,6 +22748,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21991,6 +22779,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22021,6 +22810,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22051,6 +22841,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22081,6 +22872,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22111,6 +22903,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22141,6 +22934,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22171,6 +22965,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22201,6 +22996,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22231,6 +23027,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22261,6 +23058,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22291,6 +23089,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22321,6 +23120,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22351,6 +23151,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22381,6 +23182,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22430,6 +23232,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22460,6 +23263,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22491,6 +23295,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22525,6 +23330,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22559,6 +23365,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22593,6 +23400,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22623,6 +23431,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22653,6 +23462,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22683,6 +23493,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22713,6 +23524,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22743,6 +23555,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22773,6 +23586,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22804,6 +23618,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22834,6 +23649,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22863,7 +23679,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22893,7 +23710,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22925,6 +23743,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22955,6 +23774,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22985,6 +23805,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23015,6 +23836,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23045,6 +23867,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23075,6 +23898,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23105,6 +23929,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23135,6 +23960,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23165,6 +23991,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23195,6 +24022,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23225,6 +24053,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23255,6 +24084,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23285,6 +24115,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23315,6 +24146,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23345,6 +24177,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23375,6 +24208,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23405,6 +24239,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23435,6 +24270,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23465,6 +24301,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23495,6 +24332,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23525,6 +24363,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23555,6 +24394,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23585,6 +24425,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23615,6 +24456,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -23642,10 +24484,11 @@ const pkmnDisponiveis = [
 			"Uma criatura dada à melancolia. Suspeito que sua concha metálica desenvolveu como resultado do muco em sua pele reagindo com o ferro na água da região.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Lesma",
 		obtencao:
-			["Crimson Mirelands: Holm of Trials, Ursa's Ring", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
+			["Crimson Mirelands: Holm of Trials, e Ursa's Ring", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -23676,6 +24519,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -23707,6 +24551,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -23737,6 +24582,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23767,6 +24613,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23797,6 +24644,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23827,6 +24675,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23857,6 +24706,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23887,6 +24737,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23917,6 +24768,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23947,6 +24799,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23977,6 +24830,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24007,6 +24861,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24037,6 +24892,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24067,6 +24923,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24097,6 +24954,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24127,6 +24985,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24157,6 +25016,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24187,6 +25047,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24217,6 +25078,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24247,6 +25109,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24276,7 +25139,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24306,7 +25170,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24336,7 +25201,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24367,6 +25233,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24393,10 +25260,11 @@ const pkmnDisponiveis = [
 		descricao:
 			"Este encrenqueiro envia tudo e qualquer coisa para lugares distantes usando seu laço, o que pode distorcer o espaço.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Travessura",
-		obtencao: ["Por evento"],
+		obtencao: ["Por evento e ter usado o item 'Garrafa Prisão'"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24426,7 +25294,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24457,6 +25326,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24487,6 +25357,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24517,6 +25388,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24547,6 +25419,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24577,6 +25450,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24607,6 +25481,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24637,6 +25512,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24667,6 +25543,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24697,6 +25574,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24727,6 +25605,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24757,6 +25636,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24787,6 +25667,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24818,6 +25699,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24848,6 +25730,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24878,6 +25761,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24909,6 +25793,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24939,6 +25824,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24969,6 +25855,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24999,6 +25886,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25030,6 +25918,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25060,6 +25949,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25089,7 +25979,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Ula'ula Meadow"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25119,7 +26010,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim de Melemele"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25149,7 +26041,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25179,7 +26072,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Poni Meadow"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25210,6 +26104,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25240,6 +26135,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25270,6 +26166,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25300,6 +26197,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25330,6 +26228,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25360,6 +26259,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25390,7 +26290,8 @@ const pkmnDisponiveis = [
 			["Rotas 7, 8, 9, e outras", "Melemele Sea", "Kala'e Bay", "Ladeira Brooklet", "Akala Outskirts", "Ula'ula Beach", "Durante batalhas, estar abaixo dos 25% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25421,7 +26322,8 @@ const pkmnDisponiveis = [
 			["Rotas 7, 8, 9, e outras", "Melemele Sea", "Kala'e Bay", "Ladeira Brooklet", "Akala Outskirts", "Ula'ula Beach", "Durante batalhas, estar acima dos 25% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25452,6 +26354,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25482,6 +26385,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25512,6 +26416,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25542,6 +26447,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25572,6 +26478,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25602,6 +26509,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25632,6 +26540,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25662,6 +26571,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25692,6 +26602,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25722,6 +26633,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25752,6 +26664,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25783,6 +26696,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25813,6 +26727,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25843,6 +26758,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25873,6 +26789,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25903,6 +26820,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25933,6 +26851,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25963,6 +26882,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25993,6 +26913,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26023,6 +26944,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26054,6 +26976,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26084,6 +27007,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26114,6 +27038,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26144,6 +27069,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26174,6 +27100,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26204,6 +27131,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26234,6 +27162,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26263,7 +27192,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mount Hokulani"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26293,7 +27223,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Mount Hokulani e, durante a batalha, estar abaixo dos 50% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26330,6 +27261,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26360,6 +27292,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26390,6 +27323,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26420,6 +27354,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26451,6 +27386,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26481,6 +27417,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26511,6 +27448,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26541,6 +27479,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26571,6 +27510,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26601,6 +27541,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26631,6 +27572,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26661,6 +27603,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26691,6 +27634,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26721,6 +27665,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26751,6 +27696,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26781,6 +27727,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26811,6 +27758,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26841,6 +27789,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26871,6 +27820,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26901,6 +27851,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26931,6 +27882,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26961,6 +27913,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26991,6 +27944,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27021,6 +27975,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27051,6 +28006,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27080,7 +28036,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Colina Dez Quilates", "Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27111,7 +28068,8 @@ const pkmnDisponiveis = [
 			["Colina Dez Quilates", "Mount Lanakila", "fundir com Solgaleo usando N-Solarizer"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27142,7 +28100,8 @@ const pkmnDisponiveis = [
 			["Colina Dez Quilates", "Mount Lanakila", "fundir com Lunala usando N-Lunarizer"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27173,7 +28132,8 @@ const pkmnDisponiveis = [
 			["Colina Dez Quilates", "Mount Lanakila", "quando Necrozma Juba Crepúsculo ou Necrozma Asas Alvorada está segurando Ultranecrozium Z e usa Ultraexplosão"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27204,6 +28164,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27234,6 +28195,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27264,6 +28226,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27294,6 +28257,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27324,6 +28288,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27354,6 +28319,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27384,6 +28350,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27414,6 +28381,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27444,6 +28412,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27475,6 +28444,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27505,6 +28475,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27535,6 +28506,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27565,6 +28537,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27595,6 +28568,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27625,6 +28599,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27655,6 +28630,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27685,6 +28661,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27715,6 +28692,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27746,6 +28724,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27777,6 +28756,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27807,6 +28787,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27838,6 +28819,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27869,6 +28851,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27900,6 +28883,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27931,6 +28915,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27962,6 +28947,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27992,6 +28978,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28023,6 +29010,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28053,6 +29041,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28084,6 +29073,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28115,6 +29105,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28146,6 +29137,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28177,6 +29169,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28208,6 +29201,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28239,6 +29233,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28270,6 +29265,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28300,6 +29296,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28331,6 +29328,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28362,6 +29360,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28393,6 +29392,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28423,6 +29423,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28453,6 +29454,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28484,6 +29486,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28514,6 +29517,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28545,6 +29549,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28576,6 +29581,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28607,6 +29613,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28638,6 +29645,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28668,6 +29676,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28698,6 +29707,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28728,6 +29738,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28758,6 +29769,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28788,6 +29800,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28819,6 +29832,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28849,6 +29863,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28880,6 +29895,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28912,6 +29928,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28943,6 +29960,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28974,6 +29992,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29005,6 +30024,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29036,6 +30056,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29067,6 +30088,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29098,6 +30120,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29128,6 +30151,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29158,6 +30182,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29188,6 +30213,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29218,6 +30244,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29248,6 +30275,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29278,6 +30306,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29308,6 +30337,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29346,6 +30376,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29376,6 +30407,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29407,6 +30439,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29437,6 +30470,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29467,6 +30501,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29496,7 +30531,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Lake of Outrage", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29526,7 +30562,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Lake of Outrage", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29557,6 +30594,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29587,6 +30625,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29617,7 +30656,8 @@ const pkmnDisponiveis = [
 			["Rotas 7, e 9", "Lake of Outrage", "Challenge Beach", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29648,7 +30688,8 @@ const pkmnDisponiveis = [
 			["Rotas 7, e 9", "Lake of Outrage", "Challenge Beach", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29679,6 +30720,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29710,6 +30752,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29740,6 +30783,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29770,6 +30814,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29800,6 +30845,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29830,6 +30876,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29860,6 +30907,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29890,6 +30938,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29920,6 +30969,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29950,6 +31000,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29979,7 +31030,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30009,7 +31061,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit e segurando o item Espada Enferrujada"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30039,7 +31092,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30069,7 +31123,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit e segurando o item Escudo Enferrujado"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30100,6 +31155,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30130,6 +31186,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30160,6 +31217,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30190,6 +31248,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30220,6 +31279,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30250,6 +31310,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30280,6 +31341,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30310,6 +31372,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30340,6 +31403,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30369,7 +31433,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30399,7 +31464,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine e usar o item 'Reins of Unity' em Glastrier"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30429,7 +31495,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine e usar o item 'Reins of Unity' em Spectrier"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30460,6 +31527,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30490,6 +31558,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30520,6 +31589,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -30528,34 +31598,34 @@ const pkmnDisponiveis = [
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Ursaluna (Lua Sangrenta)",
-		codinome: "",
-		numero: 901.2, // considerando a national dex
-		tipo: ["Terra", " Normal"],
-		massa: 333.0, // em kg
-		altura: 2.7, // em metros
-		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
-		estatistica: {
-			ps:		 	113,
-			atq:	 	70,
-			def:	 	120,
-			atq_esp: 	135,
-			def_esp: 	65,
-			vel: 		52,
+		"nome": "Ursaluna (Lua Sangrenta)",
+		"codinome": "",
+		"numero": 901.2,
+		"tipo": ["Terra", " Normal"],
+		"massa": 333.0,
+		"altura": 2.7,
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 113,
+			"atq": 70,
+			"def": 120,
+			"atq_esp": 135,
+			"def_esp": 65,
+			"vel": 52
 		},
-		descricao:
-			"Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.", // considerando a dex da primeira geração que apareceu
-		categoria: "Pokémon Turfa",
-		obtencao: ["Timeless Woods", "Por evolução"],
-		estagio: 3,
-		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
-		regional: true,
-		lendario: false,
-		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b8/901Ursaluna_Bloodmoon_Dream_2.png",
+		"descricao": "Acredito que o terreno pantanoso da região que deu à este Pokémon seu físico robusto e sua nova capacidade de manipular turfa à vontade.",
+		"categoria": "Pokémon Turfa",
+		"obtencao": ["Timeless Woods", "Por evolução"],
+		"estagio": 3,
+		"geracao": 9,
+		"variante": false,
+		"forma": false,
+		"regional": true,
+		"lendario": false,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/b/b8/901Ursaluna_Bloodmoon_Dream_2.png"
 		],
-		link: "https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pok%C3%A9mon)",
+		"link": "https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pok%C3%A9mon)"
 	},
 	{
 		nome: "Basculegion Macho",
@@ -30580,6 +31650,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30610,6 +31681,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30640,6 +31712,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30670,6 +31743,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30699,7 +31773,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30729,7 +31804,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands e usar o item Espelho Revelador"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30760,6 +31836,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30790,6 +31867,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30820,6 +31898,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30850,6 +31929,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30880,6 +31960,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30910,6 +31991,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30940,6 +32022,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30970,6 +32053,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31000,6 +32084,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31031,6 +32116,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31062,6 +32148,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31093,6 +32180,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31124,6 +32212,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31155,6 +32244,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31186,6 +32276,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31217,6 +32308,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31248,6 +32340,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31279,6 +32372,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31309,6 +32403,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31340,6 +32435,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31370,6 +32466,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31400,6 +32497,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31431,6 +32529,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31462,6 +32561,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31492,6 +32592,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31523,6 +32624,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31553,6 +32655,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31584,6 +32687,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31618,6 +32722,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31649,6 +32754,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31679,6 +32785,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31710,6 +32817,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31740,6 +32848,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31770,6 +32879,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31801,6 +32911,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31832,6 +32943,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31863,6 +32975,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31894,6 +33007,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31925,6 +33039,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31956,6 +33071,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31987,6 +33103,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32018,6 +33135,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32048,6 +33166,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32078,6 +33197,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32109,6 +33229,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32140,6 +33261,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32170,6 +33292,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32201,6 +33324,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32232,6 +33356,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32262,6 +33387,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32292,6 +33418,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32323,6 +33450,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32354,6 +33482,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32385,6 +33514,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32416,6 +33546,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32446,6 +33577,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32477,6 +33609,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32508,6 +33641,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32539,6 +33673,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32570,6 +33705,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32599,7 +33735,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32629,7 +33766,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução e estar fora de batalha"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32660,6 +33798,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32691,6 +33830,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32722,6 +33862,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32752,6 +33893,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32783,6 +33925,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32813,6 +33956,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32844,6 +33988,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32875,6 +34020,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32906,6 +34052,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32937,6 +34084,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32967,6 +34115,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32998,6 +34147,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33028,6 +34178,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33058,6 +34209,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33090,6 +34242,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33121,6 +34274,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33151,6 +34305,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33182,6 +34337,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33213,6 +34369,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33243,6 +34400,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33273,6 +34431,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33303,6 +34462,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33333,6 +34493,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33363,6 +34524,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33393,6 +34555,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33423,6 +34586,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33453,6 +34617,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33483,6 +34648,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33513,6 +34679,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33543,6 +34710,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33573,6 +34741,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33603,6 +34772,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33633,6 +34803,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33663,6 +34834,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33693,6 +34865,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33724,6 +34897,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33754,6 +34928,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: true,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33784,6 +34959,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33814,6 +34990,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33844,6 +35021,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33874,6 +35052,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33904,6 +35083,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33934,6 +35114,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33964,6 +35145,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33994,6 +35176,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34024,6 +35207,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34054,6 +35238,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34084,6 +35269,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34114,6 +35300,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34144,6 +35331,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34175,6 +35363,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34206,6 +35395,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34236,6 +35426,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34266,6 +35457,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34295,7 +35487,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34325,7 +35518,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34355,7 +35549,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34385,7 +35580,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34416,6 +35612,7 @@ const pkmnDisponiveis = [
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34446,6 +35643,7 @@ const pkmnDisponiveis = [
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34476,6 +35674,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34506,6 +35705,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34536,6 +35736,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34566,6 +35767,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34595,7 +35797,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34625,7 +35828,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34655,7 +35859,8 @@ const pkmnDisponiveis = [
 		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		variante: false,
+		forma: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34686,6 +35891,7 @@ const pkmnDisponiveis = [
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
 		variante: false,
+		forma: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -34695,60 +35901,252 @@ const pkmnDisponiveis = [
 	},
 ];
 
-/* 1ª geração, região de Kanto, 1-151 */
+/* 1ª geração, região de Kanto, 1-151, 0 variantes, 0 formas, 33 regionais */
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
 const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
 const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
+const variantesPrimeira = primeiraGeracao.filter((x) => x.variante === true);
+const formasPrimeira = primeiraGeracao.filter((x) => x.forma === true);
+const regionaisPrimeira = primeiraGeracao.filter((x) => x.regional === true);
+const regionaisInternosPrimeira = [... new Set(regionaisPrimeira.filter((x) => x.numero <= 151 && x.numero >= 1).map((x) => x.numero.toFixed()))];
+const regionaisExternosPrimeira = [... new Set(regionaisPrimeira.filter((x) => x.numero > 151 && x.numero < 1).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(primeiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosPrimeira.length !== 151 ||
+	variantesPrimeira.length !== 0 ||
+	formasPrimeira.length !== 0 ||
+	regionaisPrimeira.length !== 33)
+{
+	console.info("Algo de errado não está certo na primeira geração!", `Quantidades: ${
+		[... new Set(primeiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosPrimeira.length
+	} novos, ${
+		variantesPrimeira.length
+	} variantes, ${
+		formasPrimeira.length
+	} formas, ${
+		regionaisPrimeira.length
+	} regionais.`);
+};
 
-/* 2ª geração, região de Johto, 152-251, 100 novos */
+/* 2ª geração, região de Johto, 152-251, 100 novos, 0 variantes, 0 formas, 6 regionais */
 const segundaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 2);
 const numerosSegunda = segundaGeracao.map((X) => X.numero);
 const nomesSegunda = segundaGeracao.map((x) => x.nome);
+const variantesSegunda = segundaGeracao.filter((x) => x.variante === true);
+const formasSegunda = segundaGeracao.filter((x) => x.forma === true);
+const regionaisSegunda = segundaGeracao.filter((x) => x.regional === true);
+const regionaisInternosSegunda = [... new Set(regionaisSegunda.filter((x) => x.numero <= 251 && x.numero >= 152).map((x) => x.numero.toFixed()))];
+const regionaisExternosSegunda = [... new Set(regionaisSegunda.filter((x) => x.numero > 251 && x.numero < 152).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(segundaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSegunda.length !== 100 ||
+	variantesSegunda.length !== 0 ||
+	formasSegunda.length !== 0 ||
+	regionaisSegunda.length !== 6)
+{
+	console.info("Algo de errado não está certo na segunda geração!", `Quantidades: ${
+		[... new Set(segundaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSegunda.length
+	} novos, ${
+		variantesSegunda.length
+	} variantes, ${
+		formasSegunda.length
+	} formas, ${
+		regionaisSegunda.length
+	} regionais.`);
+};
 
-/* 3ª geração, região de Hoenn, 252-386, 135 novos */
+/* 3ª geração, região de Hoenn, 252-386, 135 novos, 0 variantes, 8 formas, 2 regionais */
 const terceiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 3);
 const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 const nomesTerceira = terceiraGeracao.map((x) => x.nome);
+const variantesTerceira = terceiraGeracao.filter((x) => x.variante === true);
+const formasTerceira = terceiraGeracao.filter((x) => x.forma === true);
+const regionaisTerceira = terceiraGeracao.filter((x) => x.regional === true);
+const regionaisInternosTerceira = [... new Set(regionaisTerceira.filter((x) => x.numero <= 386 && x.numero >= 252).map((x) => x.numero.toFixed()))];
+const regionaisExternosTerceira = [... new Set(regionaisTerceira.filter((x) => x.numero > 386 && x.numero < 252).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(terceiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosTerceira.length !== 135 ||
+	variantesTerceira.length !== 0 ||
+	formasTerceira.length !== 8 ||
+	regionaisTerceira.length !== 2)
+{
+	console.info("Algo de errado não está certo na terceira geração!", `Quantidades: Geral ${
+		[... new Set(terceiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosTerceira.length
+	} novos, ${
+		variantesTerceira.length
+	} variantes, ${
+		formasTerceira.length
+	} formas, ${
+		regionaisTerceira.length
+	} regionais.`);
+};
 
-/* 4ª geração, região de Sinnoh, 387-493, 107 novos */
+/* 4ª geração, região de Sinnoh, 387-493, 107 novos, 7 variantes, 10 formas, 0 regionais */
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
 const nomesQuarta = quartaGeracao.map((x) => x.nome);
+const variantesQuarta = quartaGeracao.filter((x) => x.variante === true);
+const formasQuarta = quartaGeracao.filter((x) => x.forma === true);
+const regionaisQuarta = quartaGeracao.filter((x) => x.regional === true);
+const regionaisInternosQuarta = [... new Set(regionaisQuarta.filter((x) => x.numero <= 493 && x.numero >= 387).map((x) => x.numero.toFixed()))];
+const regionaisExternosQuarta = [... new Set(regionaisQuarta.filter((x) => x.numero > 493 && x.numero < 387).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(quartaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuarta.length !== 107 ||
+	variantesQuarta.length !== 7 ||
+	formasQuarta.length !== 10 ||
+	regionaisQuarta.length !== 0)
+{
+	console.info("Algo de errado não está certo na quarta geração!", `Quantidades: ${
+		[... new Set(quartaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuarta.length
+	} novos, ${
+		variantesQuarta.length
+	} variantes, ${
+		formasQuarta.length
+	} formas, ${
+		regionaisQuarta.length
+	} regionais.`);
+};
 
-/* 5ª geração, região de Unova, 494-649, 156 novos */
+/* 5ª geração, região de Unova, 494-649, 156 novos, 0 variantes, 13 formas, 10 regionais */
 const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
 const numerosQuinta = quintaGeracao.map((x) => x.numero);
 const nomesQuinta = quintaGeracao.map((x) => x.nome);
+const variantesQuinta = quintaGeracao.filter((x) => x.variante === true);
+const formasQuinta = quintaGeracao.filter((x) => x.forma === true);
+const regionaisQuinta = quintaGeracao.filter((x) => x.regional === true);
+const regionaisInternosQuinta = [... new Set(regionaisQuinta.filter((x) => x.numero <= 649 && x.numero >= 494).map((x) => x.numero.toFixed()))];
+const regionaisExternosQuinta = [... new Set(regionaisQuinta.filter((x) => x.numero > 649 && x.numero < 494).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(quintaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuinta.length !== 156 ||
+	variantesQuinta.length !== 0 ||
+	formasQuinta.length !== 13 ||
+	regionaisQuinta.length !== 10)
+{
+	console.info("Algo de errado não está certo na quinta geração!", `Quantidades: ${
+		[... new Set(quintaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuinta.length
+	} novos, ${
+		variantesQuinta.length
+	} variantes, ${
+		formasQuinta.length
+	} formas, ${
+		regionaisQuinta.length
+	} regionais.`);
+};
 
-/* 6ª geração, região de Kalos, 650-721, 72 novos */
+/* 6ª geração, região de Kalos, 650-721, 72 novos, 8 variantes, 7 formas, 3 regionais */
 const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
 const numerosSexta = sextaGeracao.map((x) => x.numero);
 const nomesSexta = sextaGeracao.map((x) => x.nome);
+const variantesSexta = sextaGeracao.filter((x) => x.variante === true);
+const formasSexta = sextaGeracao.filter((x) => x.forma === true);
+const regionaisSexta = sextaGeracao.filter((x) => x.regional === true);
+const regionaisInternosSexta = [... new Set(regionaisSexta.filter((x) => x.numero <= 721 && x.numero >= 650).map((x) => x.numero.toFixed()))];
+const regionaisExternosSexta = [... new Set(regionaisSexta.filter((x) => x.numero > 721 && x.numero < 650).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(sextaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSexta.length !== 72 ||
+	variantesSexta.length !== 8 ||
+	formasSexta.length !== 7 ||
+	regionaisSexta.length !== 3)
+{
+	console.info("Algo de errado não está certo na sexta geração!", `Quantidades: ${
+		[... new Set(sextaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSexta.length
+	} novos, ${
+		variantesSexta.length
+	} variantes, ${
+		formasSexta.length
+	} formas, ${
+		regionaisSexta.length
+	} regionais.`);
+};
 
-/* 7ª geração, região de Alola, 722-809, 88 novos */
+/* 7ª geração, região de Alola, 722-809, 88 novos, 3 variantes, 12 formas, 19 regionais */
 const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
 const numerosSetima = setimaGeracao.map((x) => x.numero);
 const nomesSetima = setimaGeracao.map((x) => x.nome);
+const variantesSetima = setimaGeracao.filter((x) => x.variante === true);
+const formasSetima = setimaGeracao.filter((x) => x.forma === true);
+const regionaisSetima = setimaGeracao.filter((x) => x.regional === true);
+const regionaisInternosSetima = [... new Set(regionaisSetima.filter((x) => x.numero <= 809 && x.numero >= 722).map((x) => x.numero.toFixed()))];
+const regionaisExternosSetima = [... new Set(regionaisSetima.filter((x) => x.numero > 809 && x.numero < 722).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(setimaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSetima.length !== 88 ||
+	variantesSetima.length !== 3 ||
+	formasSetima.length !== 12 ||
+	regionaisSetima.length !== 19)
+{
+	console.info("Algo de errado não está certo na sétima geração!", `Quantidades: ${
+		[... new Set(setimaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSetima.length
+	} novos, ${
+		variantesSetima.length
+	} variantes, ${
+		formasSetima.length
+	} formas, ${
+		regionaisSetima.length
+	} regionais.`);
+};
 
-/* 8ª geração, região de Galar e Hisui, 810-905, 96 novos */
+/* 8ª geração, região de Galar e Hisui, 810-905, 96 novos, 8 variantes, 15 formas, 37 regionais */
 const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
 const numerosOitava = oitavaGeracao.map((x) => x.numero);
 const nomesOitava = oitavaGeracao.map((x) => x.nome);
+const variantesOitava = oitavaGeracao.filter((x) => x.variante === true);
+const formasOitava = oitavaGeracao.filter((x) => x.forma === true);
+const regionaisOitava = oitavaGeracao.filter((x) => x.regional === true);
+const regionaisInternosOitava = [... new Set(regionaisOitava.filter((x) => x.numero <= 905 && x.numero >= 810).map((x) => x.numero.toFixed()))];
+const regionaisExternosOitava = [... new Set(regionaisOitava.filter((x) => x.numero > 905 && x.numero < 810).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(oitavaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosOitava.length !== 96 ||
+	variantesOitava.length !== 8 ||
+	formasOitava.length !== 15 ||
+	regionaisOitava.length !== 37)
+{
+	console.info("Algo de errado não está certo na oitava geração!", `Quantidades: ${
+		[... new Set(oitavaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosOitava.length
+	} novos, ${
+		variantesOitava.length
+	} variantes, ${
+		formasOitava.length
+	} formas, ${
+		regionaisOitava.length
+	} regionais.`);
+};
 
-/* 9ª geração, região de Paldea e Kikatami, 906-1025, 120 novos */
+/* 9ª geração, região de Paldea e Kikatami, 906-1025, 120 novos, 11 variantes, 9 formas, 5 regionais */
 const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
 const numerosNona = nonaGeracao.map((x) => x.numero);
 const nomesNona = nonaGeracao.map((x) => x.nome);
+const variantesNona = nonaGeracao.filter((x) => x.variante === true);
+const formasNona = nonaGeracao.filter((x) => x.forma === true);
+const regionaisNona = nonaGeracao.filter((x) => x.regional === true);
+const regionaisInternosNona = [... new Set(regionaisNona.filter((x) => x.numero <= 1025 && x.numero >= 906).map((x) => x.numero.toFixed()))];
+const regionaisExternosNona = [... new Set(regionaisNona.filter((x) => x.numero > 1025 && x.numero < 906).map((x) => x.numero.toFixed()))];
+if(
+	[... new Set(nonaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosNona.length !== 120 ||
+	variantesNona.length !== 11 ||
+	formasNona.length !== 9 ||
+	regionaisNona.length !== 5)
+{
+	console.info("Algo de errado não está certo na nona geração!", `Quantidades: ${
+		[... new Set(nonaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosNona.length
+	} novos, ${
+		variantesNona.length
+	} variantes, ${
+		formasNona.length
+	} formas, ${
+		regionaisNona.length
+	} regionais.`);
+};
 
 /* todas gerações */
 const numerosGeracoes = pkmnDisponiveis.map((x) => x.numero);
 const codinomesGeracoes = pkmnDisponiveis.map((x) => x.codinome);
-const nomesGeracoes = pkmnDisponiveis.map((x) => x.nome).concat(codinomesGeracoes);
+const nomesGeracoes = pkmnDisponiveis
+	.map((x) => x.nome)
+	.concat(codinomesGeracoes);	
 
+/* verificar repetição de números */
 const contagem = new Map();
-numerosGeracoes.forEach(item => {
-    contagem.set(item, (contagem.get(item) || 0) + 1);
+numerosGeracoes.forEach((item) => {
+	contagem.set(item, (contagem.get(item) || 0) + 1);
 });
 for (const [chave, valor] of contagem) {
 	valor > 1 ? console.info(`O número ${chave} é repetido!`) : false;
-};
+}
