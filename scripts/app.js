@@ -110,7 +110,7 @@ function novaTentativa() {
 					</table>`
 				);
 
-				console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
 
 				return escolhido;
 			case "Média":
@@ -123,7 +123,7 @@ function novaTentativa() {
 						<tr><td>${escolhido[0].categoria}</td></tr>
 					</table>`
 				);
-				console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
 
 				return escolhido;
 			case "Difícil":
@@ -140,7 +140,7 @@ function novaTentativa() {
 								</tr>
 							</table>`
 				);
-				console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
 
 				return escolhido;
 		}
