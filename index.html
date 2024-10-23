@@ -11,155 +11,285 @@
 		<link rel="stylesheet" href="styles/style.css" />
 		<title>Adivinhe o Pokémon</title>
 	</head>
-	<body onload="resetar()">
+	<body onload="reset('hard')">
 		<header><h1>Consegue adivinhar o Pokémon?</h1></header>
 		<main>
-			<section id="geracoes">
-				Selecione uma ou mais gerações abaixo para participar!<br />
-				<div>
+			<article id="sobreJogo">
+				<h2>Sobre o jogo</h2>
+				Os Pokémon podem ser divididos em pelo menos três tipos de variantes.
+				<ul>
+					<li>
+						Regionais (Ex.:
+						<a
+							href="https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)#Forms"
+							target="_blank"
+							>Rattata de Alola</a
+						>);
+					</li>
+					<li>
+						Formas (Ex.:
+						<a
+							href="https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)#Forms"
+							target="_blank"
+							>Deoxys (Forma Defesa)</a
+						>);
+					</li>
+					<li>
+						Versões (Ex.:
+						<a
+							href="https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)#Forms"
+							target="_blank"
+							>Wormadam (Manto Vegetal)</a
+						>).
+					</li>
+				</ul>
+				Em cada dificuldade tanto as dicas quanto essas variantes de Pokémon
+				mudam.<br />
+				O palpite pode ser específico ou não para as variantes que não estão
+				inclusas. Exemplos:<br />
+				Caso seja Rattata de Alola, o palpite "Rattata" não acertará. Caso não
+				tenha as variantes de forma e um seja Deoxys (Forma Defesa), o palpite
+				"Deoxys" acertará.
+				<ul>
+					<li>
+						Dificuldade Fácil;
+						<ol>
+							Variante incluída
+							<li>Regionais.</li>
+						</ol>
+						<ol style="padding-bottom: 0.5rem">
+							Dicas
+							<li>Silhueta;</li>
+							<li>Tipo(s);</li>
+							<li>Descrição.</li>
+						</ol>
+					</li>
+					<li>
+						Dificuldade Média;
+						<ol>
+							Variantes incluídas
+							<li>Regionais;</li>
+							<li>Versão.</li>
+						</ol>
+						<ol style="padding-bottom: 0.5rem">
+							Dicas
+							<li>Categoria;</li>
+							<li>Massa e Altura;</li>
+							<li>Pegada;</li>
+							<li>Tipo(s);</li>
+							<li>Descrição(s);</li>
+							<li>Número;</li>
+							<li>Silhueta.</li>
+						</ol>
+					</li>
+					<li>
+						Dificuldade Difícil.
+						<ol>
+							Variantes incluídas
+							<li>Regionais;</li>
+							<li>Versão;</li>
+							<li>Forma.</li>
+						</ol>
+						<ol style="padding-bottom: 0.5rem">
+							Dicas
+							<li>Massa e Altura;</li>
+							<li>Pegada;</li>
+							<li>Tipo(s);</li>
+							<li>Obtenção;</li>
+							<li>Estatísticas Base;</li>
+							<li>Descrição(s);</li>
+							<li>Categoria;</li>
+							<li>Número;</li>
+							<li>Silhueta.</li>
+						</ol>
+					</li>
+				</ul>
+			</article>
+			<section id="jogo">
+				<section id="dificuldades">
+					<h3 style="margin: 0.5rem">Dificuldades</h3>
 					<input
-						type="checkbox"
-						id="checkTodas"
-						class="checkGen"
-						value="todasGeracoes"
-						name="geracao"
-						title="Atalho para todas gerações"
-						onclick="geracoesSelecionadas()"
-					/><label for="checkTodas" title="Atalho para todas gerações"
-						>Todas Gerações</label
+						type="radio"
+						name="dificuldades"
+						class="dificuldade"
+						id="dificuldadeFacil"
+						value="Fácil"
+						title="Dificuldade Fácil"
+						checked
+					/><label for="dificuldadeFacil" title="Dificuldade Fácil"
+						>Fácil</label
 					>
-				</div>
-				<div>
 					<input
-						type="checkbox"
-						id="checkPrimeira"
-						class="checkGen"
-						value="primeiraGeracao"
-						name="geracao"
-						title="Geração da região de Kanto"
-					/><label for="checkPrimeira" title="Geração da região de Kanto"
-						>Primeira Geração</label
+						type="radio"
+						name="dificuldades"
+						class="dificuldade"
+						id="dificuldadeMedia"
+						value="Média"
+						title="Dificuldade Média"
+					/><label for="dificuldadeMedia" title="Dificuldade Média"
+						>Média</label
 					>
 					<input
-						type="checkbox"
-						id="checkSegunda"
-						class="checkGen"
-						value="segundaGeracao"
-						name="geracao"
-						title="Geração da região de Johto"
-					/><label for="checkSegunda" title="Geração da região de Johto"
-						>Segunda Geração</label
+						type="radio"
+						name="dificuldades"
+						class="dificuldade"
+						id="dificuldadeDificil"
+						value="Difícil"
+						title="Dificuldade Difícil"
+					/><label for="dificuldadeDifícil" title="Dificuldade Difícil"
+						>Difícil</label
 					>
-					<input
-						type="checkbox"
-						id="checkTerceira"
-						class="checkGen"
-						value="terceiraGeracao"
-						name="geracao"
-						title="Geração da região de Hoenn"
-					/><label for="checkTerceira" title="Geração da região de Hoenn"
-						>Terceira Geração</label
+					<br /><strong
+						style="background-color: red; border-radius: 0.3rem; padding: 2px"
+						>Ao iniciar uma tentativa não altere a dificuldade</strong
 					>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						id="checkQuarta"
-						class="checkGen"
-						value="quartaGeracao"
-						name="geracao"
-						title="Geração da região de Sinnoh"
-					/><label for="checkQuarta" title="Geração da região de Sinnoh"
-						>Quarta Geração</label
-					>
-					<input
-						type="checkbox"
-						id="checkQuinta"
-						class="checkGen"
-						value="quintaGeracao"
-						name="geracao"
-						title="Geração da região de Unova"
-					/><label for="checkQuinta" title="Geração da região de Unova"
-						>Quinta Geração</label
-					>
-					<input
-						type="checkbox"
-						id="checkSexta"
-						class="checkGen"
-						value="sextaGeracao"
-						name="geracao"
-						title="Geração da região de Kalos"
-					/><label for="checkSexta" title="Geração da região de Kalos"
-						>Sexta Geração</label
-					>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						id="checkSetima"
-						class="checkGen"
-						value="setimaGeracao"
-						name="geracao"
-						title="Geração da região de Alola"
-					/><label for="checkSetima" title="Geração da região de Alola"
-						>Sétima Geração</label
-					>
-					<input
-						type="checkbox"
-						id="checkOitava"
-						class="checkGen"
-						value="oitavaGeracao"
-						name="geracao"
-						title="Geração das regiões de Galar e Hisui"
-					/><label
-						for="checkOitava"
-						title="Geração das regiões de Galar e Hisui"
-						>Oitava Geração</label
-					>
-					<input
-						type="checkbox"
-						id="checkNona"
-						class="checkGen"
-						value="nonaGeracao"
-						name="geracao"
-						title="Geração das regiões de Paldea e Kikatami"
-					/><label
-						for="checkNona"
-						title="Geração das regiões de Paldea e Kikatami"
-						>Nona Geração</label
-					>
-				</div>
-				<article style="font-size: small">
-					Cada geração segue alguns dados dos jogos em que foi lançada; por
-					exemplo: a terceira geração segue alguns dados dos jogos Ruby,
-					Sapphire, e Emerald.
-				</article>
-			</section>
-			<button id="btnDesistencia">DESISTÊNCIA</button>
-			<section id="usuario">
-				<button id="btnTentativa" onclick="novaTentativa()">
-					NOVA TENTATIVA
-				</button>
-				<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
-				<div class="nomesGeral">
-					<div class="opcoesNomes"></div>
-					<input
-						type="text"
-						translate="no"
-						spellcheck="false"
-						placeholder="Digite palpite aqui"
-						id="campoPalpite"
-						oninput="procurarNomes()"
-					/>
-				</div>
-				<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
-				<button id="btnPalpite">PALPITAR</button>
-			</section>
-			<section id="maquina">
-				<section id="dicas"></section>
-				<section id="palpites">
-					<section id="ultimosPalpites"><h4>Últimos Palpites</h4></section>
-					<section id="ultimato"></section>
+				</section>
+				<section id="geracoes">
+					<h3 style="margin: 0.5rem">Gerações</h3>
+					<div>
+						<input
+							type="checkbox"
+							id="checkTodas"
+							class="checkGen"
+							value="todasGeracoes"
+							title="Atalho para todas gerações"
+							onclick="geracoesSelecionadas()"
+						/><label for="checkTodas" title="Atalho para todas gerações"
+							>Todas Gerações</label
+						>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							id="checkPrimeira"
+							class="checkGen"
+							value="primeiraGeracao"
+							name="geracao"
+							title="Geração da região de Kanto"
+						/><label for="checkPrimeira" title="Geração da região de Kanto"
+							>Primeira Geração</label
+						>
+						<input
+							type="checkbox"
+							id="checkSegunda"
+							class="checkGen"
+							value="segundaGeracao"
+							name="geracao"
+							title="Geração da região de Johto"
+						/><label for="checkSegunda" title="Geração da região de Johto"
+							>Segunda Geração</label
+						>
+						<input
+							type="checkbox"
+							id="checkTerceira"
+							class="checkGen"
+							value="terceiraGeracao"
+							name="geracao"
+							title="Geração da região de Hoenn"
+						/><label for="checkTerceira" title="Geração da região de Hoenn"
+							>Terceira Geração</label
+						>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							id="checkQuarta"
+							class="checkGen"
+							value="quartaGeracao"
+							name="geracao"
+							title="Geração da região de Sinnoh"
+						/><label for="checkQuarta" title="Geração da região de Sinnoh"
+							>Quarta Geração</label
+						>
+						<input
+							type="checkbox"
+							id="checkQuinta"
+							class="checkGen"
+							value="quintaGeracao"
+							name="geracao"
+							title="Geração da região de Unova"
+						/><label for="checkQuinta" title="Geração da região de Unova"
+							>Quinta Geração</label
+						>
+						<input
+							type="checkbox"
+							id="checkSexta"
+							class="checkGen"
+							value="sextaGeracao"
+							name="geracao"
+							title="Geração da região de Kalos"
+						/><label for="checkSexta" title="Geração da região de Kalos"
+							>Sexta Geração</label
+						>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							id="checkSetima"
+							class="checkGen"
+							value="setimaGeracao"
+							name="geracao"
+							title="Geração da região de Alola"
+						/><label for="checkSetima" title="Geração da região de Alola"
+							>Sétima Geração</label
+						>
+						<input
+							type="checkbox"
+							id="checkOitava"
+							class="checkGen"
+							value="oitavaGeracao"
+							name="geracao"
+							title="Geração das regiões de Galar e Hisui"
+						/><label
+							for="checkOitava"
+							title="Geração das regiões de Galar e Hisui"
+							>Oitava Geração</label
+						>
+						<input
+							type="checkbox"
+							id="checkNona"
+							class="checkGen"
+							value="nonaGeracao"
+							name="geracao"
+							title="Geração das regiões de Paldea e Kikatami"
+						/><label
+							for="checkNona"
+							title="Geração das regiões de Paldea e Kikatami"
+							>Nona Geração</label
+						>
+					</div>
+					<article style="font-size: small">
+						Cada geração segue alguns dados dos jogos em que foi lançada; por
+						exemplo: a terceira geração segue alguns dados dos jogos Ruby,
+						Sapphire, e Emerald.
+					</article>
+				</section>
+				<button id="btnDesistencia">DESISTÊNCIA</button>
+				<section id="usuario">
+					<button id="btnTentativa" onclick="novaTentativa()">
+						NOVA TENTATIVA
+					</button>
+					<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
+					<div class="nomesGeral">
+						<div class="opcoesNomes"></div>
+						<input
+							type="text"
+							translate="no"
+							spellcheck="false"
+							placeholder="Digite palpite aqui"
+							id="campoPalpite"
+							oninput="procurarNomes()"
+						/>
+					</div>
+					<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
+					<button id="btnPalpite">PALPITAR</button>
+				</section>
+				<section id="maquina">
+					<section id="dicas"></section>
+					<section id="palpites">
+						<section id="ultimosPalpites"><h4>Últimos Palpites</h4></section>
+						<section id="ultimato"></section>
+					</section>
 				</section>
 			</section>
 		</main>

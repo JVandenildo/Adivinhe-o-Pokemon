@@ -21,7 +21,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório do Prof. Carvalho"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -52,7 +52,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -83,7 +83,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -114,7 +114,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório do Prof. Carvalho"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -145,7 +145,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -176,7 +176,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -207,7 +207,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório do Prof. Carvalho"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -238,7 +238,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -269,7 +269,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -300,7 +300,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 24, e 25", "Floresta de Viridiana"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -331,7 +331,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 24, e 25", "Floresta de Viridiana", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -362,7 +362,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -393,7 +393,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 24, e 25", "Floresta de Viridiana"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -424,7 +424,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 24, e 25", "Floresta de Viridiana", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -455,7 +455,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -486,7 +486,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 2, 3, e outras", "Floresta de Viridiana"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -517,7 +517,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outras", "Floresta de Viridiana", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -548,7 +548,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -579,7 +579,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 2, 3, e outras", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -611,7 +611,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outras", "Hau'oli City", "Kala'e Bay", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -643,7 +643,7 @@ const pkmnDisponiveis = [
 			["Rotas 9, 10, 11, e outras", "Mansão Pokémon", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -675,7 +675,7 @@ const pkmnDisponiveis = [
 			["Rotas 10, 11, 15, e outras", "Akala Outskirts", "Ancient Poni Path", "Poni Gauntlet", "Poni Grove", "Poni Plains", "Poni Wilds", "Tapu Village", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -706,7 +706,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 3, 4, 9, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -737,7 +737,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 9, 16, 17, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -768,7 +768,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, 8, 9, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -799,7 +799,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 23", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -830,7 +830,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta de Viridiana", "Usina Elétrica Abandonada"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -861,7 +861,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -892,7 +892,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -923,7 +923,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 3, 4, 8, e outras", "Monte da Lua"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -954,7 +954,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mount Lanakila", "Tapu Village"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -985,7 +985,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 23", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1016,7 +1016,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1027,7 +1027,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoran♀",
-		codinome: "",
+		codinome: "Nidoran Fêmea",
 		numero: 29, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 7.0, // em kg
@@ -1047,7 +1047,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 9, 10, e outra", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1078,7 +1078,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 9, e 23", "Zona Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1109,7 +1109,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1120,7 +1120,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoran♂",
-		codinome: "",
+		codinome: "Nidoran Macho",
 		numero: 32, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 9.0, // em kg
@@ -1140,7 +1140,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 9, 10, e outra", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1171,7 +1171,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 9, e 23", "Zona Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1202,7 +1202,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1233,7 +1233,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Monte da Lua", "Caverna de Cerulean"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1264,7 +1264,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1295,7 +1295,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 7, e 8", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1326,7 +1326,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Tapu Village", "Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1357,7 +1357,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1388,7 +1388,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1419,7 +1419,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 3, 5, 6, e outras"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1450,7 +1450,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1482,7 +1482,7 @@ const pkmnDisponiveis = [
 			["Monte da Lua", "Túnel de Rocha", "Ilhas Espuma", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1514,7 +1514,7 @@ const pkmnDisponiveis = [
 			["Ilhas Espuma", "Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1545,7 +1545,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1576,7 +1576,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, 13, 14, e outra", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1607,7 +1607,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1638,7 +1638,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Monte da Lua", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1669,7 +1669,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1700,7 +1700,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, 13, 14, e outras", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1732,7 +1732,7 @@ const pkmnDisponiveis = [
 			["Zona Safari", "Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -1763,7 +1763,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Túnel dos Diglett"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1795,7 +1795,7 @@ const pkmnDisponiveis = [
 			["Rotas 5, e 7", "Diglett's Tunnel", "Lush Jungle (Cave)", "Seaward Cave", "Ten Carat Hill", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1825,7 +1825,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Túnel dos Diglett", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1857,7 +1857,7 @@ const pkmnDisponiveis = [
 			["Haina Desert", "Poni Coast", "Resolution Cave", "Vast Poni Canyon", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1888,7 +1888,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outra"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1919,7 +1919,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 2", "Trainer's School", "Hau'oli City", "Malie Garden"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1950,7 +1950,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 4"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -1981,7 +1981,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2012,7 +2012,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2043,7 +2043,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 6, 24, e 25", "Ilhas Espuma", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2074,7 +2074,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6", "Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2105,7 +2105,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 3, 4, 5, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2136,7 +2136,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 23", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2167,7 +2167,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 7, e 8", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2198,7 +2198,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cobalt: Coastlands: Windbreak Stand, e Veilstone Cape"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2229,7 +2229,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2260,7 +2260,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2292,7 +2292,7 @@ const pkmnDisponiveis = [
 			["Rotas 6, 10, 11, e outras", "Caverna de Cerulean", "Zona Safari", "Ilhas Espuma", "Planalto Índigo"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2323,7 +2323,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 10, 22, e 23", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2354,7 +2354,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2385,7 +2385,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2416,7 +2416,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2447,7 +2447,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2478,7 +2478,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Túnel de Rocha", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2509,7 +2509,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2540,7 +2540,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2571,7 +2571,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2602,7 +2602,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, 13, 14, e outra", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2633,7 +2633,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2664,7 +2664,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 11, 12, 13, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2695,7 +2695,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 19, 20, e 21", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -2726,7 +2726,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Monte da Lua", "Túnel de Rocha", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2757,7 +2757,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 12", "Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2788,7 +2788,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2819,7 +2819,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 17", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2850,7 +2850,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2881,7 +2881,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2912,7 +2912,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 17", "Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2943,7 +2943,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Bosque Glimwood", "Cemitério Antigo"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -2974,7 +2974,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3005,7 +3005,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cemitério Antigo"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3036,7 +3036,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 10, 12, e 13", "Ilhas Espuma", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3067,7 +3067,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Wedgehurst Station", "Fields of Honor"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3099,7 +3099,7 @@ const pkmnDisponiveis = [
 			["Rotas 12, 13, e 23", "Caverna de Cerulean", "Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3130,7 +3130,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3161,7 +3161,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3192,7 +3192,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3223,7 +3223,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, e 13"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3254,7 +3254,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 5", "Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3285,7 +3285,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 16, 17, e 18", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3316,7 +3316,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 17", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3347,7 +3347,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3378,7 +3378,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3409,7 +3409,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3440,7 +3440,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Trainers' School", "Hau'oli City", "Malie City"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3471,7 +3471,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon", "Usina Elétrica Abandonada", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3502,7 +3502,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3533,7 +3533,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 6, 11, 19, e outras", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3564,7 +3564,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3595,7 +3595,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3626,7 +3626,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre Pokémon", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3657,7 +3657,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3688,7 +3688,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Túnel de Rocha", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3719,7 +3719,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3750,7 +3750,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3781,7 +3781,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 6, 10, 11, e outras", "Zona Safari", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3813,7 +3813,7 @@ const pkmnDisponiveis = [
 			["Rotas 10, 23, e 25", "Caverna de Cerulean", "Ilhas Espuma", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3844,7 +3844,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3875,7 +3875,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Coronet Highlands: Celestica Ruins, e Sacred Plaza"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3906,7 +3906,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3937,7 +3937,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Coronet Highlands", "Por evolução"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -3968,7 +3968,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -3999,7 +3999,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4030,7 +4030,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Exeggutor Island", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4061,7 +4061,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre Pokémon", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4093,7 +4093,7 @@ const pkmnDisponiveis = [
 			["Zona Safari", "Estrada da Vitória", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4124,7 +4124,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4155,7 +4155,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dojo de tipo Lutador"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4186,7 +4186,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dojo de tipo Lutador"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4217,7 +4217,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari", "Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4248,7 +4248,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4279,7 +4279,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4311,7 +4311,7 @@ const pkmnDisponiveis = [
 			["East Lake Axewell", "Lake of Outrage", "Slumbering Weald", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4342,7 +4342,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari", "Caverna Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4373,7 +4373,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4404,7 +4404,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari", "Caverna de Cerulean"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4435,7 +4435,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 21", "Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4466,7 +4466,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4497,7 +4497,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 10, 11, 12, e outras", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4529,7 +4529,7 @@ const pkmnDisponiveis = [
 			["Rotas 12, 13, e 23", "Ilhas Espuma", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4561,7 +4561,7 @@ const pkmnDisponiveis = [
 			["Rotas 6, 10, 11, e outras", "Zona Safari", "Ilhas Espuma", "Planalto Índigo e Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4592,7 +4592,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 23", "Caverna de Cerulean", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4623,7 +4623,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 19, 20, e 21", "Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4654,7 +4654,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4685,7 +4685,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por troca na rota 2"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4716,7 +4716,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Lake of Outrage", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4747,7 +4747,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4778,7 +4778,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilhas Espuma"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4809,7 +4809,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4840,7 +4840,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão Pokémon"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4871,7 +4871,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -4902,7 +4902,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4913,7 +4913,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Combativa)",
-		codinome: "",
+		codinome: "Tauros de Paldea",
 		numero: 128.2, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 115.0, // em kg
@@ -4933,7 +4933,7 @@ const pkmnDisponiveis = [
 		obtencao: ["East Province: Área Um, e Área Dois", "West Province: Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4944,7 +4944,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Ardente)",
-		codinome: "",
+		codinome: "Tauros de Paldea",
 		numero: 128.3, // considerando a national dex
 		tipo: ["Lutador", " Fogo"],
 		massa: 85.0, // em kg
@@ -4965,7 +4965,7 @@ const pkmnDisponiveis = [
 			["East Province: Área Dois", "West Province: Área Dois", "Union circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -4976,7 +4976,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Aquática)",
-		codinome: "",
+		codinome: "Tauros de Paldea",
 		numero: 128.4, // considerando a national dex
 		tipo: ["Lutador", " Água"],
 		massa: 110.0, // em kg
@@ -4997,7 +4997,7 @@ const pkmnDisponiveis = [
 			["East Province: Área Dois", "West Province: Área Dois", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -5029,7 +5029,7 @@ const pkmnDisponiveis = [
 			["Rotas 6, 10, 11, e outras", "Zona Safari", "Ilhas Espuma", "Caverna de Cerulean", "Planalto Índigo"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5060,7 +5060,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5091,7 +5091,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido na Companhia Silph"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5123,7 +5123,7 @@ const pkmnDisponiveis = [
 			["Rotas 13, 14, 15, e outra", "Túnel de Rocha", "Mansão Pokémon", "Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5154,7 +5154,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido na Mansão Celadon"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5185,7 +5185,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5216,7 +5216,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5247,7 +5247,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5278,7 +5278,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Casino Rocket"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5309,7 +5309,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5340,7 +5340,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5371,7 +5371,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5402,7 +5402,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5433,7 +5433,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir do Âmbar Antigo"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5464,7 +5464,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, e 16"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5495,7 +5495,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilhas Espuma"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: true,
@@ -5526,7 +5526,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Crown Tundra"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: true,
@@ -5557,7 +5557,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina Elétrica Abandonada"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: true,
@@ -5588,7 +5588,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Wild Area"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: true,
@@ -5619,7 +5619,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: true,
@@ -5650,7 +5650,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Isle of Armor"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: true,
@@ -5681,7 +5681,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5712,7 +5712,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Zona Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5743,7 +5743,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5774,7 +5774,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Cerulean"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -5805,7 +5805,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -5836,7 +5836,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório do Prof. Elm"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5867,7 +5867,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5898,7 +5898,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5929,7 +5929,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório do Prof. Elm"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5960,7 +5960,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -5991,7 +5991,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -6022,7 +6022,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands: Space-time distortions", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -6053,7 +6053,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório do Prof. Elm"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6084,7 +6084,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6115,7 +6115,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6146,7 +6146,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 29, e 43"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6177,7 +6177,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, e 43", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6209,7 +6209,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 5, e outras", "Floresta de Ilex", "Parque National", "Lago da Fúria"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6240,7 +6240,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 8, 13, e outras", "Floresta de Ilex", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6271,7 +6271,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 29, 30, e outras", "Parque National"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6302,7 +6302,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, e 37", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6333,7 +6333,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 29, 30, e outras", "Parque National"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6364,7 +6364,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, e 37", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6395,7 +6395,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6426,7 +6426,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 20, 21, 26, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6457,7 +6457,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 20, 21, 26, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6488,7 +6488,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6519,7 +6519,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6550,7 +6550,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6581,7 +6581,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6612,7 +6612,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6643,7 +6643,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas de Alfa"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6674,7 +6674,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6705,7 +6705,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 32, 42, e 43"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6736,7 +6736,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 42, e 43", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6767,7 +6767,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6798,7 +6798,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6829,7 +6829,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 42", "Monte Mortar"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6860,7 +6860,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6891,7 +6891,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 36"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6922,7 +6922,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6953,7 +6953,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 11, 13, 14, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -6984,7 +6984,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 14", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7015,7 +7015,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7046,7 +7046,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 29, 30, 31, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7077,7 +7077,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 24", "Parque Nacional"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7108,7 +7108,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7139,7 +7139,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 35"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7170,7 +7170,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 32", "Ruínas de Alfa", "Caverna da União"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -7202,7 +7202,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Quatro, Área Cinco, Área Seis, e Alfornada Cavern", "East Province: Área Três, e Tagtree Thicket", "West Province: Área Três", "North Province: Área Um, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -7234,7 +7234,7 @@ const pkmnDisponiveis = [
 			["Rota 10, 12, 13, e outras", "Caverna do Monte Prata", "Ruínas de Alfa", "Caverna da União", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7265,7 +7265,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7296,7 +7296,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7327,7 +7327,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 7, e 16"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7358,7 +7358,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -7389,7 +7389,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -7420,7 +7420,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna do Monte Prata"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7451,7 +7451,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dentro das Ruínas de Alfa"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7509,7 +7509,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Escura"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7540,7 +7540,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 43"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7571,7 +7571,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 26, 27, 29, e outras", "Floresta de Ilex", "Lago da Fúria"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7602,7 +7602,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7633,7 +7633,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Escura"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7664,7 +7664,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 45"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7695,7 +7695,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7726,7 +7726,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7757,7 +7757,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7788,7 +7788,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, 13, e 32"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -7820,7 +7820,7 @@ const pkmnDisponiveis = [
 			["Obsidian Fieldlands: próximo a Ramanas Island", "Cobalt Coastlands: próximo a Bather's Lagoon, próximo a Hideaway Bay, próximo a Tombolo Walk, próximo a Sand's Reach, Tranquility Cove, Islespy Shore e próximo, Lunker's Lair, próximo a Seagrass Haven, e próximo a Firespit Island"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -7851,7 +7851,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7882,7 +7882,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 40", "Torre Queimada", "Caverna Escura"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7913,7 +7913,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 29, 30, 31, e outras"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -7944,7 +7944,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 28", "Monte Prata", "Caminho Gelado"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -7976,7 +7976,7 @@ const pkmnDisponiveis = [
 			["Coronet Highlands: próximo a Celestica Trail, e próximo a Primeval Grotto", "Alabaster Icelands: próximo a Avalugg's Legacy, Glacier Terrace, e próximo a Pearl Settlement"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -8007,7 +8007,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 45", "Caverna Escura"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8039,7 +8039,7 @@ const pkmnDisponiveis = [
 			["Rota 28", "Caverna Escura", "Estrada da Vitória", "Monte Prata", "Caverna do Monte Prata", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8070,7 +8070,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 16, 17, e 18"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8101,7 +8101,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8132,7 +8132,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caminho Gelado"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8163,7 +8163,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8194,7 +8194,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 19, 34, e 40", "Caverna da União"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -8225,7 +8225,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -8256,7 +8256,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 44"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8287,7 +8287,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8318,7 +8318,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caminho Gelado"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8349,7 +8349,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 41"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8380,7 +8380,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 45"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8411,7 +8411,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 7"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8442,7 +8442,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8473,7 +8473,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8504,7 +8504,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 45, e 46"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8536,7 +8536,7 @@ const pkmnDisponiveis = [
 			["Rotas 28, e 45", "Monte Prata", "Caverna do Monte Prata", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8567,7 +8567,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8598,7 +8598,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 36, e 37"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8629,7 +8629,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas de Alfa"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8660,7 +8660,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido no Monte Mortar"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8691,7 +8691,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8722,7 +8722,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8753,7 +8753,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8784,7 +8784,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8815,7 +8815,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 38, e 39"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8846,7 +8846,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -8877,7 +8877,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Johto"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -8908,7 +8908,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Johto"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -8939,7 +8939,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre dos Sinos", "Vagando por Johto"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -8970,7 +8970,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna do Monte Prata"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9001,7 +9001,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna do Monte Prata", "Por evolução"],
 		estagio: 2,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9032,7 +9032,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9063,7 +9063,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilhas Redemoinho"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -9094,7 +9094,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre dos Sinos"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -9125,7 +9125,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta de Ilex"],
 		estagio: 1,
 		geracao: 2, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -9156,7 +9156,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 101"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9187,7 +9187,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9218,7 +9218,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9249,7 +9249,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 101"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9280,7 +9280,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9311,7 +9311,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9342,7 +9342,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 101"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9373,7 +9373,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9404,7 +9404,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9435,7 +9435,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 101, 102, 103, e outras", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9466,7 +9466,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 120, 121, e 123", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9497,7 +9497,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 101, 102, 103, e outras", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -9528,7 +9528,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, e 3", "Bridge Field", "Giant's Cap", "Stony Wilderness"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -9559,7 +9559,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 118, 119, 120, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -9591,7 +9591,7 @@ const pkmnDisponiveis = [
 			["Giant's Cap", "Giant's Bed", "Bridge Field", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -9622,7 +9622,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 101, 102, e 104", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9653,7 +9653,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta de Petalburg", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9684,7 +9684,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9715,7 +9715,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta de Petalburg", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9746,7 +9746,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9777,7 +9777,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 102, e 114"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9808,7 +9808,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 114", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9839,7 +9839,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9870,7 +9870,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 102, 114, 117, e outra"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9901,7 +9901,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 114", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9932,7 +9932,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9963,7 +9963,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 104, 115, e 116", "Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -9994,7 +9994,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 115", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10025,7 +10025,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 103, 104, 105, e outras", "lado de fora do Monte da Pira"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10056,7 +10056,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 103, 104, 105, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10087,7 +10087,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 102"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10118,7 +10118,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10149,7 +10149,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10180,7 +10180,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 102, 111, 114, e outras"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10211,7 +10211,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10242,7 +10242,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10273,7 +10273,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10304,7 +10304,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta de Petalburg"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10335,7 +10335,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10366,7 +10366,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10397,7 +10397,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 116"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10428,7 +10428,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10459,7 +10459,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10490,7 +10490,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 116", "Gruta do Deserto", "Túnel Rusturf", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10521,7 +10521,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Gruta do Deserto", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10552,7 +10552,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10583,7 +10583,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Granito", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10614,7 +10614,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10645,7 +10645,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10676,7 +10676,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Granito"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10707,7 +10707,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 116"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10738,7 +10738,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10770,7 +10770,7 @@ const pkmnDisponiveis = [
 			["Caverna de Granito", "Caverna da Origem", "Pilar Celeste", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10802,7 +10802,7 @@ const pkmnDisponiveis = [
 			["Caverna de Granito", "Caverna da Origem", "Estrada da Vitória", "Pilar Celeste"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10833,7 +10833,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Granito", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10864,7 +10864,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10895,7 +10895,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10926,7 +10926,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Monte da Pira", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10957,7 +10957,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -10988,7 +10988,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 110, e 118"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11019,7 +11019,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 118", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11050,7 +11050,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 110"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11081,7 +11081,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 110"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11112,7 +11112,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11143,7 +11143,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11174,7 +11174,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11205,7 +11205,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 110"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11236,7 +11236,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11267,7 +11267,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 118, e 119"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11298,7 +11298,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 103, 118, 122, e outras"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11330,7 +11330,7 @@ const pkmnDisponiveis = [
 			["Rotas 103, 105, 106, e outras", "Caverna do Fundo do Mar", "Gruta Cardume"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11361,7 +11361,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 129", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11392,7 +11392,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 112", "Caminho Ardente", "Passo Pontudo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11423,7 +11423,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11454,7 +11454,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caminho Ardente", "Esconderijo Magma"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11485,7 +11485,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Passo Pontudo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11516,7 +11516,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11547,7 +11547,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 113"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11578,7 +11578,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 111", "Torre Miragem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11609,7 +11609,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11640,7 +11640,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11671,7 +11671,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 111"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11702,7 +11702,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11733,7 +11733,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 114, e 115"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11764,7 +11764,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11795,7 +11795,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 114"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11826,7 +11826,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 114"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11857,7 +11857,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cachoeira do Meteoro"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11888,7 +11888,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cachoeira do Meteoro"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11920,7 +11920,7 @@ const pkmnDisponiveis = [
 			["Rotas 111, 114, e 120", "Cachoeira do Meteoro", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11951,7 +11951,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cachoeira do Meteoro", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -11982,7 +11982,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 102, e 117"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12013,7 +12013,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12044,7 +12044,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 111"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12075,7 +12075,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12106,7 +12106,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12137,7 +12137,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12168,7 +12168,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de fóssil"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12199,7 +12199,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12230,7 +12230,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 119"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12261,7 +12261,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12272,7 +12272,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Normal)",
-		codinome: "",
+		codinome: "Castform",
 		numero: 351.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 0.8, // em kg
@@ -12293,7 +12293,7 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, o tempo estar limpo, com neblina, com tempestade de areia, ou com shadowy aura"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -12304,7 +12304,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Ensolarada)",
-		codinome: "",
+		codinome: "Castform",
 		numero: 351.2, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 0.8, // em kg
@@ -12325,7 +12325,7 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, o clima ser de sol forte"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -12336,7 +12336,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Chuvosa)",
-		codinome: "",
+		codinome: "Castform",
 		numero: 351.3, // considerando a national dex
 		tipo: ["Água"],
 		massa: 0.8, // em kg
@@ -12357,7 +12357,7 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, estar chovendo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -12368,7 +12368,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Nevada)",
-		codinome: "",
+		codinome: "Castform",
 		numero: 351.4, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 0.8, // em kg
@@ -12389,7 +12389,7 @@ const pkmnDisponiveis = [
 			["Laboratório de Meteorologia e, durante a batalha, estar chovendo granizo"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -12420,7 +12420,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 118, 119, 120, e outras"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12451,7 +12451,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 121, e 123", "Monte da Pira"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12482,7 +12482,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12513,7 +12513,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 121, e 123", "Monte da Pira"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12544,7 +12544,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12575,7 +12575,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 119"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12606,7 +12606,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Monte da Pira"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12637,7 +12637,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 120"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12668,7 +12668,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo", "Ilha Miragem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12699,7 +12699,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Gruta Cardume"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12730,7 +12730,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12761,7 +12761,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Gruta Cardume"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12792,7 +12792,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12823,7 +12823,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12854,7 +12854,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas submersas 124, e 126"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12885,7 +12885,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12916,7 +12916,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12947,7 +12947,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas submersas 124, e 126"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -12978,7 +12978,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 128"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13009,7 +13009,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cachoeira do Meteoro"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13040,7 +13040,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13071,7 +13071,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13102,7 +13102,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido na Cidade de Mossdeep"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13133,7 +13133,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13164,7 +13164,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13195,7 +13195,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas do Deserto"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13226,7 +13226,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Gruta Insular"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13257,7 +13257,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Tumba Antiga"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13288,7 +13288,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha Sul", "Vagando por Hoenn"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13319,7 +13319,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha Sul", "Vagando por Hoenn"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13350,7 +13350,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna da Origem", "Caverna Marinha"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13381,7 +13381,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna da Origem", "Caverna Terrena"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13412,7 +13412,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Pilar Celeste"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13443,7 +13443,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -13454,7 +13454,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Normal)",
-		codinome: "",
+		codinome: "Deoxys",
 		numero: 386.1, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -13474,7 +13474,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -13485,7 +13485,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Ataque)",
-		codinome: "",
+		codinome: "Deoxys",
 		numero: 386.2, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -13505,7 +13505,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -13516,7 +13516,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Defesa)",
-		codinome: "",
+		codinome: "Deoxys",
 		numero: 386.3, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -13536,7 +13536,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -13547,7 +13547,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Velocidade)",
-		codinome: "",
+		codinome: "Deoxys",
 		numero: 386.4, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
@@ -13567,7 +13567,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha da Origem"],
 		estagio: 1,
 		geracao: 3, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -13598,7 +13598,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 201", "Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13629,7 +13629,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13660,7 +13660,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13691,7 +13691,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 201", "Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13722,7 +13722,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13753,7 +13753,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13784,7 +13784,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 201", "Lago Verdade"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13815,7 +13815,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13846,7 +13846,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13877,7 +13877,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 201, 202, 203, e outras", "Lago Verdade", "Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13909,7 +13909,7 @@ const pkmnDisponiveis = [
 			["Rotas 209, 210, 212, e outra", "Jardim Troféu", "Lago Valor", "Fonte da Despedida", "Grande Pântano", "Arredores do Lago Valor", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13940,7 +13940,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -13972,7 +13972,7 @@ const pkmnDisponiveis = [
 			["Rotas 201, 202, 203, e outras", "Lago Verdade", "Floresta de Eterna", "Grande Pântano", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14004,7 +14004,7 @@ const pkmnDisponiveis = [
 			["Rotas 208, 209, 210, e outra", "Lago Valor", "Fonte da Despedida", "Grande Pântano", "Lago Perspicácia", "Arredores do Lago Valor", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14035,7 +14035,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 202, 203, 204, e outras", "Floresta de Eterna"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14067,7 +14067,7 @@ const pkmnDisponiveis = [
 			["Rotas 206, 210, 212, e outras", "Jardim Troféu", "Arredores do Lago Valor", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14098,7 +14098,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 202, 203, e 204", "Usina do Vale", "Fuego de Ferro"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14129,7 +14129,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 222", "Fuego de Ferro", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14160,7 +14160,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14192,7 +14192,7 @@ const pkmnDisponiveis = [
 			["Rotas 204, 205, 208, e outra", "Floresta de Eterna", "Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14223,7 +14223,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14254,7 +14254,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14285,7 +14285,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14316,7 +14316,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14347,7 +14347,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14379,7 +14379,7 @@ const pkmnDisponiveis = [
 			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14392,7 +14392,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto Vegetal)",
-		codinome: "",
+		codinome: "Wormadam",
 		numero: 413.1, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 6.5, // em kg
@@ -14412,7 +14412,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14423,7 +14423,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto Arenoso)",
-		codinome: "",
+		codinome: "Wormadam",
 		numero: 413.2, // considerando a national dex
 		tipo: ["Inseto", " Terra"],
 		massa: 6.5, // em kg
@@ -14443,7 +14443,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14454,7 +14454,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto de Lixo)",
-		codinome: "",
+		codinome: "Wormadam",
 		numero: 413.3, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 6.5, // em kg
@@ -14474,7 +14474,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14505,7 +14505,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14537,7 +14537,7 @@ const pkmnDisponiveis = [
 			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14568,7 +14568,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14599,7 +14599,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 205", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14630,7 +14630,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 205, 212, 213, e outra", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14662,7 +14662,7 @@ const pkmnDisponiveis = [
 			["Rotas 213, 218, 221, e outras", "Fuego de Ferro", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14694,7 +14694,7 @@ const pkmnDisponiveis = [
 			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14725,7 +14725,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14737,7 +14737,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shellos (Mar Leste)",
-		codinome: "",
+		codinome: "Shellos",
 		numero: 422.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.3, // em kg
@@ -14757,7 +14757,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 212, 213, e 224"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14768,7 +14768,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shellos (Mar Oeste)",
-		codinome: "",
+		codinome: "Shellos",
 		numero: 422.2, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.3, // em kg
@@ -14788,7 +14788,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 205, 218, e 221", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14799,7 +14799,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gastrodon (Mar Leste)",
-		codinome: "",
+		codinome: "Gastrodon",
 		numero: 423.1, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
@@ -14819,7 +14819,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 212, 213, 222, e outras", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14830,7 +14830,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gastrodon (Mar Oeste)",
-		codinome: "",
+		codinome: "Gastrodon",
 		numero: 423.2, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
@@ -14850,7 +14850,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 205, 218, e 221", "Fuego de Ferro", "Usina do Vale", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14881,7 +14881,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14912,7 +14912,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14943,7 +14943,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -14974,7 +14974,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta de Eterna"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15005,7 +15005,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15036,7 +15036,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15067,7 +15067,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15098,7 +15098,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 218, e 222"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15129,7 +15129,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 222, e 229", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15161,7 +15161,7 @@ const pkmnDisponiveis = [
 			["Rota 211", "Lago Valor", "Monte Coronet", "Lago da Perspicácia", "Fonte da Despedida", "Caverna do Retorno"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15192,7 +15192,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 206, 214, e 221"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15223,7 +15223,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 221, e 225", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15255,7 +15255,7 @@ const pkmnDisponiveis = [
 			["Rotas 206, e 211", "Caverna Extravio", "Caverna do Retorno", "Monte Coronet"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15286,7 +15286,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna do Retorno", "Monte Coronet", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15317,7 +15317,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 209, e 210", "Jardim Troféu"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15348,7 +15348,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 209, e 210", "Jardim Troféu"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15379,7 +15379,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim Troféu"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15410,7 +15410,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 213, 218, 222, e outra"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15441,7 +15441,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre Sagrada"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15472,7 +15472,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Extravio"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15503,7 +15503,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15534,7 +15534,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15566,7 +15566,7 @@ const pkmnDisponiveis = [
 			["Rotas 205, 206, 207, e outras", "Floresta de Eterna", "Prado de Floaroma", "Fuego de Ferro", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15597,7 +15597,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15628,7 +15628,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15659,7 +15659,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Túnel do Maníaco"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15690,7 +15690,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 228", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15721,7 +15721,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15752,7 +15752,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Pântano", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15783,7 +15783,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 212", "Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15814,7 +15814,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Pântano", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15845,7 +15845,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Pântano"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15877,7 +15877,7 @@ const pkmnDisponiveis = [
 			["Rotas 205, 218, 219, e outras", "Fuego de Ferro", "Ilha Iron", "Usina do Vale"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15909,7 +15909,7 @@ const pkmnDisponiveis = [
 			["Rotas 205, 218, 219, e outras", "Fuego de Ferro", "Ilha Iron", "Usina do Vale", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15940,7 +15940,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 223"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -15972,7 +15972,7 @@ const pkmnDisponiveis = [
 			["Rotas 216, e 217", "Arredores do Lago Perspicácia", "Lago Perspicácia", "Monte Coronet"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16003,7 +16003,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Monte Coronet", "Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16034,7 +16034,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16065,7 +16065,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16096,7 +16096,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16127,7 +16127,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16158,7 +16158,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16189,7 +16189,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16220,7 +16220,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16251,7 +16251,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16282,7 +16282,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16313,7 +16313,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16344,7 +16344,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16375,7 +16375,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16406,7 +16406,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16437,7 +16437,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16468,7 +16468,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16499,7 +16499,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16530,7 +16530,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16561,7 +16561,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -16572,7 +16572,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom",
-		codinome: "",
+		codinome: "Rotom",
 		numero: 479.1, // considerando a national dex
 		tipo: ["Elétrico", " Fantasma"],
 		massa: 0.3, // em kg
@@ -16592,7 +16592,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir nada, ou uma lâmpada"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -16603,7 +16603,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Calor",
-		codinome: "",
+		codinome: "Rotom",
 		numero: 479.2, // considerando a national dex
 		tipo: ["Elétrico", " Fogo"],
 		massa: 0.3, // em kg
@@ -16623,7 +16623,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um forno de micro-ondas"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -16634,7 +16634,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Lavagem",
-		codinome: "",
+		codinome: "Rotom",
 		numero: 479.3, // considerando a national dex
 		tipo: ["Elétrico", " Água"],
 		massa: 0.3, // em kg
@@ -16654,7 +16654,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir uma máquina-de-lavar"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -16665,7 +16665,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Congelante",
-		codinome: "",
+		codinome: "Rotom",
 		numero: 479.4, // considerando a national dex
 		tipo: ["Elétrico", " Gelo"],
 		massa: 0.3, // em kg
@@ -16685,7 +16685,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um refrigerador"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -16696,7 +16696,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Ventilador",
-		codinome: "",
+		codinome: "Rotom",
 		numero: 479.5, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 0.3, // em kg
@@ -16716,7 +16716,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um ventilador"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -16727,7 +16727,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Corte",
-		codinome: "",
+		codinome: "Rotom",
 		numero: 479.6, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
 		massa: 0.3, // em kg
@@ -16747,7 +16747,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mansão da Floresta e possuir um cortador de grama"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -16778,7 +16778,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Lago da Perspicácia"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -16809,7 +16809,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Sinnoh"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -16840,7 +16840,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Lago Valor"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -16871,7 +16871,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Pilar da Lança"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -16902,7 +16902,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Pilar da Lança"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -16933,7 +16933,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Montanha Dura"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -16964,7 +16964,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Templo de Snowpoint"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -16975,7 +16975,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Giratina (Forma Alterada)",
-		codinome: "",
+		codinome: "Giratina",
 		numero: 487.1, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
 		massa: 750.0, // em kg
@@ -16995,7 +16995,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mundo Distorcido"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -17006,7 +17006,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Giratina (Forma Origem)",
-		codinome: "",
+		codinome: "Giratina",
 		numero: 487.2, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
 		massa: 650.0, // em kg
@@ -17026,7 +17026,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mundo Distorcido e segurar o item 'Griseous Orb'"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -17057,7 +17057,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Sinnoh"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -17088,7 +17088,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -17119,7 +17119,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -17150,7 +17150,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ilha Lua Nova"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -17161,7 +17161,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shaymin (Forma Terrestre)",
-		codinome: "",
+		codinome: "Shaymin",
 		numero: 492.1, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 2.1, // em kg
@@ -17181,7 +17181,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Paraíso das Flores"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -17192,7 +17192,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shaymin (Forma Céu)",
-		codinome: "",
+		codinome: "Shaymin",
 		numero: 492.2, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 5.2, // em kg
@@ -17212,7 +17212,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Paraíso das Flores e usar o item 'Glacídea' durante o dia"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -17243,7 +17243,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Salão da Origem"],
 		estagio: 1,
 		geracao: 4, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -17274,7 +17274,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim da Liberdade"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -17305,7 +17305,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório da Professora Juniper"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17336,7 +17336,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17367,7 +17367,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17398,7 +17398,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório da Professora Juniper"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17429,7 +17429,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17460,7 +17460,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17491,7 +17491,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório da Professora Juniper"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17522,7 +17522,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17553,7 +17553,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -17584,7 +17584,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Alabaster Icelands: Space-time distortions"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -17616,7 +17616,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outras", "Jardim dos Sonhos", "Rancho Floccesy", "Complexo de Virbank"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17648,7 +17648,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outras", "Jardim dos Sonhos", "Laboratório P2", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17679,7 +17679,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 2, e 3", "Rancho Floccesy"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17711,7 +17711,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outra", "Câmara Frigorífica", "Laboratório P2", "Rancho Floccesy", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17743,7 +17743,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outra", "Câmara Frigorífica", "Laboratório P2", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17774,7 +17774,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 3, 19, e outra", "Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17805,7 +17805,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 5, 9, e outra", "Jardim dos Sonhos", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17837,7 +17837,7 @@ const pkmnDisponiveis = [
 			["Floresta Pinwheel", "Lostlorn Forest", "Recebido em Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17868,7 +17868,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17900,7 +17900,7 @@ const pkmnDisponiveis = [
 			["Floresta Pinwheel", "Lostlorn Forest", "Recebido em Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17931,7 +17931,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17963,7 +17963,7 @@ const pkmnDisponiveis = [
 			["Floresta Pinwheel", "Lostlorn Forest", "Recebido em Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -17994,7 +17994,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18025,7 +18025,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim dos Sonhos"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18056,7 +18056,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim dos Sonhos", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18088,7 +18088,7 @@ const pkmnDisponiveis = [
 			["Rotas 3, e 20", "Floresta Pinwheel", "Rancho Floccesy", "Complexo de Virbank"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18120,7 +18120,7 @@ const pkmnDisponiveis = [
 			["Rotas 3, 6, 7, e outra", "Floresta Pinwheel", "Lostlorn Forest", "Estrada da Vitória", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18152,7 +18152,7 @@ const pkmnDisponiveis = [
 			["Rotas 3, 6, 7, e outra", "Floresta Longlorn", "Dragonspiral Tower", "Estrada da Vitória", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18184,7 +18184,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 3"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18215,7 +18215,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 3, e 7", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18246,7 +18246,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Wellspring Cave", "Relic Passage"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18278,7 +18278,7 @@ const pkmnDisponiveis = [
 			["Relic Passage", "Wellspring Cave", "Caverna da Rocha Elétrica", "Caverna de Mistralton", "Clay Tunnel", "Montanha Trançada", "Reversal Mountain", "Seaside Cave", "Challenger's Cave", "Estrada da Vitória", "Underground Ruins", "Giant Chasm", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18309,7 +18309,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18341,7 +18341,7 @@ const pkmnDisponiveis = [
 			["Rota 6", "Wellspring Cave", "Caverna de Mistralton", "Montanha Trançada", "Challenger's Cave", "Estrada da Vitória", "Reversal Mountain", "Clay Tunnerl", "Relic Passage", "Underground Ruins", "Seaside Cave"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18372,7 +18372,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18404,7 +18404,7 @@ const pkmnDisponiveis = [
 			["Wellspring Cave", "Relic Passage", "Caverna da Rocha Elétrica", "Caverna de Mistralton", "Montanha Trançada"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18436,7 +18436,7 @@ const pkmnDisponiveis = [
 			["Challenger's Cave", "Clay Tunnel", "Montanha Trançada", "Estrada da Vitória", "Reversal Mountain", "Wellspring Cave", "Seaside Cave", "Giant Chasm", "Underground Ruins", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18468,7 +18468,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outras", "Rancho Floccesy", "Complexo de Virbank", "Laboratório P2", "Jardim dos Sonhos", "Floresta Pinwheel", "Lostlorn Forest", "Dragonspiral Tower", "Vila da Ponte", "Giant Chasm", "Abundant Shrine", "Câmara Frigorífica", "Estrada da Vitória", "Reversal Mountain", "Nature Preserve"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18499,7 +18499,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta Pinwheel", "Câmara Frigorífica", "Relic Passage"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18531,7 +18531,7 @@ const pkmnDisponiveis = [
 			["Relic Passage", "Montanha Trançada", "Floresta Pinwheel", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18562,7 +18562,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18593,7 +18593,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta Pinwheel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18624,7 +18624,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Floresta Pinwheel", "Moor of Icirrus", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18655,7 +18655,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Moor of Icirrus", "Floresta de Pinwheel", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18687,7 +18687,7 @@ const pkmnDisponiveis = [
 			["Rotas 10, 15, 18, e outra", "Floresta Pinwheel", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18719,7 +18719,7 @@ const pkmnDisponiveis = [
 			["Rotas 10, 15, 18, e outra", "Floresta Pinwheel", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18750,7 +18750,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 12, e 20", "Floresta de Pinwheel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18781,7 +18781,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6", "Lostlorn Forest", "Floresta Pinwheel", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18812,7 +18812,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 6, e 12", "Lostlorn Forest", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18843,7 +18843,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 20", "Floresta de Pinwheel", "Lostlorn Forest"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18874,7 +18874,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Lostlorn Forest", "Floresta Pinwheel", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18905,7 +18905,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Floresta Pinwheel", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18937,7 +18937,7 @@ const pkmnDisponiveis = [
 			["Lostlorn Forest", "Floresta Pinwheel", "Abundant Shrine", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -18969,7 +18969,7 @@ const pkmnDisponiveis = [
 			["Floresta Pinwheel", "Lostlorn Forest", "Abundant Shrine", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19001,7 +19001,7 @@ const pkmnDisponiveis = [
 			["Floresta Pinwheel", "Lostlorn Forest", "Abundant Shrine", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19033,7 +19033,7 @@ const pkmnDisponiveis = [
 			["Floresta Pinwheel", "Lostlorn Forest", "Abundant Shrine", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19064,7 +19064,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19096,7 +19096,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 3, 6, e outras", "Wellspring Cave", "Floresta Pinwheel", "Dragonspiral Tower", "Challenger's Cave", "Rancho Floccesy", "Relic Passage", "Clay Tunnel", "Estrada da Vitória", "Vila da Ponte", "Giant Chasm", "Abundant Shrine", "Nature Preserve", "Lostlorn Forest"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19129,7 +19129,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 4", "Resort do Deserto", "Castelo Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19160,7 +19160,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Castelo Relíquia", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19191,7 +19191,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19222,7 +19222,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 4", "Resort do Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19253,7 +19253,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 8, e 10", "Snowslide Slope"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19264,7 +19264,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Unova (Modo Padrão)",
-		codinome: "",
+		codinome: "Darmanitan de Unova",
 		numero: 555.11, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 92.9, // em kg
@@ -19284,7 +19284,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Resort do Deserto", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: true,
 		lendario: false,
@@ -19295,7 +19295,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Unova (Modo Zen)",
-		codinome: "",
+		codinome: "Darmanitan de Unova",
 		numero: 555.12, // considerando a national dex
 		tipo: ["Fogo", " Psíquico"],
 		massa: 92.9, // em kg
@@ -19315,7 +19315,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Resort do Deserto", "Por evolução", "estar abaixo dos 50% de PS"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: true,
 		lendario: false,
@@ -19326,7 +19326,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Galar (Modo Padrão)",
-		codinome: "",
+		codinome: "Darmanitan de Galar",
 		numero: 555.21, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 120.0, // em kg
@@ -19346,7 +19346,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Snowslide Slope", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: true,
 		lendario: false,
@@ -19357,7 +19357,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Galar (Modo Zen)",
-		codinome: "",
+		codinome: "Darmanitan de Galar",
 		numero: 555.22, // considerando a national dex
 		tipo: ["Gelo", " Fogo"],
 		massa: 120.0, // em kg
@@ -19377,7 +19377,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Snowslide Slope", "Por evolução", "estar abaixo dos 50% de PS"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: true,
 		lendario: false,
@@ -19408,7 +19408,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Resort de Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19439,7 +19439,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 18", "Resort do Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19470,7 +19470,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 18", "Seaside Cave", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19501,7 +19501,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 4, e 18", "Resort do Deserto", "Laboratório P2"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19532,7 +19532,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 15, e 18", "Laboratório P2", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19563,7 +19563,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Resort do Deserto"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19594,7 +19594,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Castelo Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19625,7 +19625,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19656,7 +19656,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Castelo Relíquia", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19687,7 +19687,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19718,7 +19718,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19749,7 +19749,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19780,7 +19780,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19811,7 +19811,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, 5, e 16"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19842,7 +19842,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -19873,7 +19873,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cidade de Castelia", "Recebido em Cidade de Driftveil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19905,7 +19905,7 @@ const pkmnDisponiveis = [
 			["Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, e Icepeak Cavern"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19936,7 +19936,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Lostlorn Forest", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19968,7 +19968,7 @@ const pkmnDisponiveis = [
 			["Alabaster Icelands: próximo a Avalugg's Legacy, próximo a Glacier Terrace, Icepeak Cavern, e Lake Acuity"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -19999,7 +19999,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, 5, 9 e outra", "Câmara Frigorífica"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20030,7 +20030,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 9, e 16", "Câmara Frigorífica", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20061,7 +20061,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, e 16", "Strange House"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20092,7 +20092,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Strange House", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20123,7 +20123,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20154,7 +20154,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, e 16", "Strange House"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20185,7 +20185,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Strange House", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20216,7 +20216,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20247,7 +20247,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ponte Levadiça de Driftveil"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20278,7 +20278,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ponte Marvelous", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20309,7 +20309,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6", "Câmara Frigorífica", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20340,7 +20340,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant Chasm", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20371,7 +20371,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant Chasm", "Dragonspiral Tower", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20402,7 +20402,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 6, e 7", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20436,7 +20436,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20471,7 +20471,7 @@ const pkmnDisponiveis = [
 			["Rotas 5, 6, 7, e outras", "Dragonspiral Tower", "Vila da Ponte", "Giant Chasm", "Abundant Shrine", "Lostlorn Forest"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20502,7 +20502,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 6, 8, e 11", "Moor of Icirrus"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20533,7 +20533,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20564,7 +20564,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 5, 6, 7, e outras"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20596,7 +20596,7 @@ const pkmnDisponiveis = [
 			["Rotas 10, 11, 22, e outra", "Abundant Shrine", "Floresta Pinwheel", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20628,7 +20628,7 @@ const pkmnDisponiveis = [
 			["Rotas 4, 13, 17, e outras", "Laboratório P2", "Complexo de Virbank", "Undella Bay", "Seaside Cave"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20661,7 +20661,7 @@ const pkmnDisponiveis = [
 			["Rotas 4, 13, 17, e outras", "Laboratório P2", "Complexo de Virbank", "Seaside Cave", "Undella Bay", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20693,7 +20693,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, 17, 18, e outra", "Complexo de Virbank", "Laboratório P2"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20724,7 +20724,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna da Rocha Elétrica"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20755,7 +20755,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20786,7 +20786,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna da Rocha Elétrica"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20817,7 +20817,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20848,7 +20848,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna da Rocha Elétrica", "Laboratório P2"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20879,7 +20879,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório P2", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20910,7 +20910,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Laboratório P2", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20941,7 +20941,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna da Rocha Elétrica", "Seaside Cave"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -20972,7 +20972,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Seaside Cave", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21003,7 +21003,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21034,7 +21034,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre Celestial"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21065,7 +21065,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 14", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21096,7 +21096,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Torre Celestial", "Strange House"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21127,7 +21127,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21158,7 +21158,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21189,7 +21189,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna de Mistralton"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21220,7 +21220,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21251,7 +21251,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Nature Preserve", "Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21282,7 +21282,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 7", "Montanhar Trançada", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21313,7 +21313,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Montanha Trançada", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21344,7 +21344,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Montanha Trançada"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21375,7 +21375,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6, 8, e 11", "Moor of Icirrus"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21406,7 +21406,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21437,7 +21437,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Moor of Icirrus"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -21469,7 +21469,7 @@ const pkmnDisponiveis = [
 			["Arvoredo Adormecido", "Galar Mine No. 2", "Dusty Bowl", "Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -21500,7 +21500,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 14, 22, e 23", "Dragonspiral Tower", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21531,7 +21531,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 14, e 23", "Dragonspiral Tower", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21562,7 +21562,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dragonspiral Tower", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21593,7 +21593,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21624,7 +21624,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dragonspiral Tower", "Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21655,7 +21655,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 9, e 11"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21686,7 +21686,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21717,7 +21717,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 9, 10, e 23"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21748,7 +21748,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 10, 11, e 23", "Estrada da Vitória", "Vila da Ponte"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21779,7 +21779,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, e 11", "Vila da Ponte", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -21810,7 +21810,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Alabaster Icelands: próximo ao Lago Perspicácia", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -21841,7 +21841,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 10, 11, e 23", "Estrada da Vitória", "Via da Ponte"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21872,7 +21872,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, e 11", "Vila da Ponte", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21903,7 +21903,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Montanha Trançada"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21935,7 +21935,7 @@ const pkmnDisponiveis = [
 			["Estrada da Vitória", "Montanha Trançada", "Clay Tunnel", "Underground Tunnel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21966,7 +21966,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -21997,7 +21997,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Estrada da Vitória", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22028,7 +22028,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22059,7 +22059,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por ovo"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22090,7 +22090,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Castelo Relíquia", "Por evolução"],
 		estagio: 2,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22121,7 +22121,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 13", "Caverna de Mistralton"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -22152,7 +22152,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 22", "Estrada da Vitória"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -22183,7 +22183,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11", "Floresta Pinwheel"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -22194,7 +22194,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tornadus (Forma Materializada)",
-		codinome: "",
+		codinome: "Tornadus",
 		numero: 641.1, // considerando a national dex
 		tipo: ["Voador"],
 		massa: 63.0, // em kg
@@ -22214,7 +22214,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22225,7 +22225,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tornadus (Forma Therian)",
-		codinome: "",
+		codinome: "Tornadus",
 		numero: 641.2, // considerando a national dex
 		tipo: ["Voador"],
 		massa: 63.0, // em kg
@@ -22245,7 +22245,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova e ativar o Espelho Revelador"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22256,7 +22256,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thundurus (Forma Materializada)",
-		codinome: "",
+		codinome: "Thundurus",
 		numero: 642.1, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 61.0, // em kg
@@ -22276,7 +22276,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22287,7 +22287,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thundurus (Forma Therian)",
-		codinome: "",
+		codinome: "Thundurus",
 		numero: 642.2, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 61.0, // em kg
@@ -22307,7 +22307,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Vagando por Unova"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22338,7 +22338,7 @@ const pkmnDisponiveis = [
 		obtencao: ["O Castelo de N", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -22369,7 +22369,7 @@ const pkmnDisponiveis = [
 		obtencao: ["O Castelo de N", "Dragonspiral Tower"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -22380,7 +22380,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Landorus (Forma Materializada)",
-		codinome: "",
+		codinome: "Landorus",
 		numero: 645.1, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 68.0, // em kg
@@ -22400,7 +22400,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Abundant Shrine"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22411,7 +22411,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Landorus (Forma Therian)",
-		codinome: "",
+		codinome: "Landorus",
 		numero: 645.2, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 68.0, // em kg
@@ -22431,7 +22431,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Abundant Shrine e ativar o Espelho Revelador"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22442,7 +22442,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem",
-		codinome: "",
+		codinome: "Kyurem",
 		numero: 646.1, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
@@ -22462,7 +22462,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant Chasm"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22473,7 +22473,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem Branco",
-		codinome: "",
+		codinome: "Kyurem",
 		numero: 646.2, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
@@ -22493,7 +22493,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant Chasm e ativar o item 'Ponta de DNA' com Reshiram"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22504,7 +22504,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem Preto",
-		codinome: "",
+		codinome: "Kyurem",
 		numero: 646.3, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
@@ -22524,7 +22524,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant Chasm e ativar o item 'Ponta de DNA' com Zekrom"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22555,7 +22555,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -22567,7 +22567,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meloetta (Forma Ária)",
-		codinome: "",
+		codinome: "Meloetta",
 		numero: 648.1, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
 		massa: 6.5, // em kg
@@ -22587,7 +22587,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22598,7 +22598,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meloetta (Forma Pirueta)",
-		codinome: "",
+		codinome: "Meloetta",
 		numero: 648.2, // considerando a national dex
 		tipo: ["Normal", " Lutador"],
 		massa: 6.5, // em kg
@@ -22619,7 +22619,7 @@ const pkmnDisponiveis = [
 			["Por evento e, quando em batalha, usa o movimento Canção da Relíquia"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -22650,7 +22650,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 5, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -22685,7 +22685,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Aquacorde Town"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22716,7 +22716,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22747,7 +22747,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22778,7 +22778,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Aquacorde Town"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22809,7 +22809,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22840,7 +22840,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22871,7 +22871,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Aquacorde Town"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22902,7 +22902,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22933,7 +22933,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22964,7 +22964,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, 3, 5, e outra"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -22995,7 +22995,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 22", "Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23026,7 +23026,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, e 3", "Santalune Forest"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23057,7 +23057,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23088,7 +23088,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23119,7 +23119,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 2", "Santalune Forest"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23150,7 +23150,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Berry Fields", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23181,7 +23181,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23231,7 +23231,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 22"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23262,7 +23262,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23294,7 +23294,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, e 7"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23329,7 +23329,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23364,7 +23364,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23399,7 +23399,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 5"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23430,7 +23430,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23461,7 +23461,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 5", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23492,7 +23492,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23523,7 +23523,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 5"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23554,7 +23554,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23585,7 +23585,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23617,7 +23617,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23648,7 +23648,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23659,7 +23659,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aegislash (Forma Escudo)",
-		codinome: "",
+		codinome: "Aegislash",
 		numero: 681.1, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
 		massa: 53.0, // em kg
@@ -23679,7 +23679,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -23690,7 +23690,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aegislash (Forma Lâmina)",
-		codinome: "",
+		codinome: "Aegislash",
 		numero: 681.2, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
 		massa: 53.0, // em kg
@@ -23710,7 +23710,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -23742,7 +23742,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 7", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23773,7 +23773,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23804,7 +23804,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 7", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23835,7 +23835,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23866,7 +23866,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Azure Bay", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23897,7 +23897,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23928,7 +23928,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 8, e 12", "Azure Bay"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23959,7 +23959,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -23990,7 +23990,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24021,7 +24021,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24052,7 +24052,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24083,7 +24083,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24114,7 +24114,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24145,7 +24145,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24176,7 +24176,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24207,7 +24207,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24238,7 +24238,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24269,7 +24269,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24300,7 +24300,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24331,7 +24331,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24362,7 +24362,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24393,7 +24393,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna dos Reflexos"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24424,7 +24424,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 14"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24455,7 +24455,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 19", "Friend Safari", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -24487,7 +24487,7 @@ const pkmnDisponiveis = [
 			["Crimson Mirelands: Holm of Trials, e Ursa's Ring", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -24518,7 +24518,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -24550,7 +24550,7 @@ const pkmnDisponiveis = [
 			["Obsidian Fieldlands: Lake Verity", "Crimson Mirelands", "Coronet Highlands: próximo a Ancient Quarry", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -24581,7 +24581,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 15, e 16", "Lost Hotel", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24612,7 +24612,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 16", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24643,7 +24643,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 20", "Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24654,7 +24654,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Pequeno)",
-		codinome: "",
+		codinome: "Pumpkaboo",
 		numero: 710.1, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 3.5, // em kg
@@ -24674,7 +24674,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 16"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24685,7 +24685,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Normal)",
-		codinome: "",
+		codinome: "Pumpkaboo",
 		numero: 710.2, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 5.0, // em kg
@@ -24705,7 +24705,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 16", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24716,7 +24716,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Grande)",
-		codinome: "",
+		codinome: "Pumpkaboo",
 		numero: 710.3, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 7.5, // em kg
@@ -24736,7 +24736,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 16"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24747,7 +24747,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Extra Grande)",
-		codinome: "",
+		codinome: "Pumpkaboo",
 		numero: 710.4, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 15.0, // em kg
@@ -24767,7 +24767,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 16"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24778,7 +24778,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Pequeno)",
-		codinome: "",
+		codinome: "Gourgeist",
 		numero: 711.1, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 9.5, // em kg
@@ -24798,7 +24798,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24809,7 +24809,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Normal)",
-		codinome: "",
+		codinome: "Gourgeist",
 		numero: 711.2, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 12.5, // em kg
@@ -24829,7 +24829,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24840,7 +24840,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Grande)",
-		codinome: "",
+		codinome: "Gourgeist",
 		numero: 711.3, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 14.0, // em kg
@@ -24860,7 +24860,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24871,7 +24871,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Extra Grande)",
-		codinome: "",
+		codinome: "Gourgeist",
 		numero: 711.4, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
 		massa: 39.0, // em kg
@@ -24891,7 +24891,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24922,7 +24922,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Congelada", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -24953,7 +24953,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -24984,7 +24984,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Alabaster Icelands: Avalugg's Legacy", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -25015,7 +25015,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Terminus", "Estrada da Vitória", "Friend Safari"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25046,7 +25046,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25077,7 +25077,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Team Flare Secret HQ"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -25108,7 +25108,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Team Flare Secret HQ"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -25119,7 +25119,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma 10%",
-		codinome: "",
+		codinome: "Zygarde",
 		numero: 718.1, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 33.5, // em kg
@@ -25139,7 +25139,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -25150,7 +25150,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma 50%",
-		codinome: "",
+		codinome: "Zygarde",
 		numero: 718.2, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 305.0, // em kg
@@ -25170,7 +25170,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -25181,7 +25181,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma Completa",
-		codinome: "",
+		codinome: "Zygarde",
 		numero: 718.3, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 610.0, // em kg
@@ -25201,7 +25201,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Caverna Terminus"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -25232,7 +25232,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -25243,7 +25243,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoopa Contido",
-		codinome: "",
+		codinome: "Hoopa",
 		numero: 720.1, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 9.0, // em kg
@@ -25263,7 +25263,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento e ter usado o item 'Garrafa Prisão'"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -25274,7 +25274,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoopa Libertado",
-		codinome: "",
+		codinome: "Hoopa",
 		numero: 720.2, // considerando a national dex
 		tipo: ["Psíquico", " Noturno"],
 		massa: 490.0, // em kg
@@ -25294,7 +25294,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -25325,7 +25325,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 6, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -25356,7 +25356,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cidade de Iki", "Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25387,7 +25387,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25418,7 +25418,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -25449,7 +25449,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Coronet Highlands: Space-time distortions", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -25480,7 +25480,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cidade de Iki", "Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25511,7 +25511,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25542,7 +25542,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25573,7 +25573,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cidade de Iki", "Rota 1"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25604,7 +25604,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25635,7 +25635,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25666,7 +25666,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 4, 5, e outras", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25698,7 +25698,7 @@ const pkmnDisponiveis = [
 			["Rotas 5, 8, e 11", "Selva Exuberante", "Poni Grove", "Poni Plains", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25729,7 +25729,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11", "Poni Grove", "Poni Plains", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25760,7 +25760,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 2, 3, e outras", "Kala'e Bay", "Verdant Cavern"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25792,7 +25792,7 @@ const pkmnDisponiveis = [
 			["Rotas 10, 11, 15, e outras", "Akala Outskirts", "Ancient Poni Path", "Poni Gauntlet", "Poni Grove", "Poni Plains", "Poni Plains", "Mount Lanakila", "Tapu Village", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25823,7 +25823,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 2, 3, e outra", "Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25854,7 +25854,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Blush Mountain", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25885,7 +25885,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Blush Mountain", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25917,7 +25917,7 @@ const pkmnDisponiveis = [
 			["Rotas 2, 3, 4, e outras", "Secluded Shore", "Ula'ula Beach", "Poni Wilds", "Poni Plains"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25948,7 +25948,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -25959,7 +25959,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Flamenco)",
-		codinome: "",
+		codinome: "Oricorio",
 		numero: 741.1, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 3.4, // em kg
@@ -25979,7 +25979,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ula'ula Meadow"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -25990,7 +25990,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Pompom)",
-		codinome: "",
+		codinome: "Oricorio",
 		numero: 741.2, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 3.4, // em kg
@@ -26010,7 +26010,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim de Melemele"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -26021,7 +26021,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Hula)",
-		codinome: "",
+		codinome: "Oricorio",
 		numero: 741.3, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 3.4, // em kg
@@ -26041,7 +26041,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 6"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -26052,7 +26052,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Leque)",
-		codinome: "",
+		codinome: "Oricorio",
 		numero: 741.4, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
 		massa: 3.4, // em kg
@@ -26072,7 +26072,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poni Meadow"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -26103,7 +26103,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, e 3", "Jardim de Melemele", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26134,7 +26134,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ula'ula Meadow", "Poni Meadow", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26165,7 +26165,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 1", "Colina Dez Quilates"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26176,7 +26176,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Diurna)",
-		codinome: "",
+		codinome: "Lycanroc",
 		numero: 745.1, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
@@ -26196,7 +26196,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26207,7 +26207,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Noturna)",
-		codinome: "",
+		codinome: "Lycanroc",
 		numero: 745.2, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
@@ -26227,7 +26227,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26238,7 +26238,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Crepúsculo)",
-		codinome: "",
+		codinome: "Lycanroc",
 		numero: 745.3, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
@@ -26258,7 +26258,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26269,7 +26269,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wishiwashi (Forma Individual)",
-		codinome: "",
+		codinome: "Wishiwashi",
 		numero: 746.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 0.3, // em kg
@@ -26290,7 +26290,7 @@ const pkmnDisponiveis = [
 			["Rotas 7, 8, 9, e outras", "Melemele Sea", "Kala'e Bay", "Ladeira Brooklet", "Akala Outskirts", "Ula'ula Beach", "Durante batalhas, estar abaixo dos 25% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -26301,7 +26301,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wishiwashi (Forma Cardume)",
-		codinome: "",
+		codinome: "Wishiwashi",
 		numero: 746.2, // considerando a national dex
 		tipo: ["Água"],
 		massa: 78.6, // em kg
@@ -26322,7 +26322,7 @@ const pkmnDisponiveis = [
 			["Rotas 7, 8, 9, e outras", "Melemele Sea", "Kala'e Bay", "Ladeira Brooklet", "Akala Outskirts", "Ula'ula Beach", "Durante batalhas, estar acima dos 25% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -26353,7 +26353,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Melemele Sea"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26384,7 +26384,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26415,7 +26415,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 4, 6, e 12", "Paniola Ranch", "Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26446,7 +26446,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 12", "Blush Mountain", "Poni Plains", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26477,7 +26477,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ladeira Brooklet"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26508,7 +26508,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim de Malie", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26539,7 +26539,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 5", "Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26570,7 +26570,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido em Heahea Beach", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26601,7 +26601,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11", "Ladeira Brooklet", "Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26632,7 +26632,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26663,7 +26663,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Vulcão Wela", "caverna da Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26695,7 +26695,7 @@ const pkmnDisponiveis = [
 			["Vulcão Wela", "Selva exuberante", "Recebido em Heahea Beach", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26726,7 +26726,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Akala Outskirts"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26757,7 +26757,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poni Gauntlet", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26788,7 +26788,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26819,7 +26819,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Selva exuberante", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26850,7 +26850,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26881,7 +26881,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Selva exuberante", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26912,7 +26912,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26943,7 +26943,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Selva exuberante"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -26975,7 +26975,7 @@ const pkmnDisponiveis = [
 			["Rota 8", "Prado da Ilha Poni", "Dividing Peak Tunnel", "Poni Breaker Coast"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27006,7 +27006,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27037,7 +27037,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 15", "Hano Beach"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27068,7 +27068,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27099,7 +27099,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 7", "Hano Beach", "Poké Pelago"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27130,7 +27130,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido em Paraíso Aether"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27161,7 +27161,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27172,7 +27172,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minior (Forma Meteoro)",
-		codinome: "",
+		codinome: "Minior",
 		numero: 774.1, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 40.0, // em kg
@@ -27192,7 +27192,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mount Hokulani"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -27203,7 +27203,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minior (Forma Núcleo)",
-		codinome: "",
+		codinome: "Minior",
 		numero: 774.2, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 0.3, // em kg
@@ -27223,7 +27223,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mount Hokulani e, durante a batalha, estar abaixo dos 50% de PS"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -27260,7 +27260,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 11"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27291,7 +27291,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27322,7 +27322,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Blush Mountain"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27353,7 +27353,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mercado Megabarato abandonado"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27385,7 +27385,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 13, 14, e 15", "Secluded Shore"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27416,7 +27416,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27447,7 +27447,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Seafolk Village"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27478,7 +27478,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Cânion de Poni"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27509,7 +27509,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27540,7 +27540,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Grande Cânion de Poni", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -27571,7 +27571,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas do Conflito"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27602,7 +27602,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruins of Life"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27633,7 +27633,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas da Abundância"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27664,7 +27664,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas da Esperança"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27695,7 +27695,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Lake of the Sunne, ou Lake of the Moone"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27726,7 +27726,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27757,7 +27757,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Altar Solar, ou Trilha Mahalo", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27788,7 +27788,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Altar Lunar, ou Trilha Mahalo", "Por evolução"],
 		estagio: 3,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27819,7 +27819,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Diglett's Tunnel, ou Vulcão Wela", "Ultra Deep Sea"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27850,7 +27850,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Jardim Melele", "Ultra Jungle"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27881,7 +27881,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Verdant Cavern", "Ultra Desert"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27912,7 +27912,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Selva exuberante, ou Memorial Hill", "Ultra Plant"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27943,7 +27943,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Deserto de Haina, ou Jardim de Malie", "Ultra Crater"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -27974,7 +27974,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 17, ou Jardim de Malie", "Ultra Forest"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28005,7 +28005,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Resolution Cave", "Ultra Ruin"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28016,7 +28016,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma",
-		codinome: "",
+		codinome: "Necrozma",
 		numero: 800.1, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 230.0, // em kg
@@ -28036,7 +28036,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Colina Dez Quilates", "Mount Lanakila"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -28047,7 +28047,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma Juba Crepúsculo",
-		codinome: "",
+		codinome: "Necrozma",
 		numero: 800.2, // considerando a national dex
 		tipo: ["Psíquico", " Metal"],
 		massa: 460.0, // em kg
@@ -28068,7 +28068,7 @@ const pkmnDisponiveis = [
 			["Colina Dez Quilates", "Mount Lanakila", "fundir com Solgaleo usando N-Solarizer"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -28079,7 +28079,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma Asas Alvorada",
-		codinome: "",
+		codinome: "Necrozma",
 		numero: 800.3, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 350.0, // em kg
@@ -28100,7 +28100,7 @@ const pkmnDisponiveis = [
 			["Colina Dez Quilates", "Mount Lanakila", "fundir com Lunala usando N-Lunarizer"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -28111,7 +28111,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ultra Necrozma",
-		codinome: "",
+		codinome: "Necrozma",
 		numero: 800.4, // considerando a national dex
 		tipo: ["Psíquico", " Dragão"],
 		massa: 230.0, // em kg
@@ -28132,7 +28132,7 @@ const pkmnDisponiveis = [
 			["Colina Dez Quilates", "Mount Lanakila", "quando Necrozma Juba Crepúsculo ou Necrozma Asas Alvorada está segurando Ultranecrozium Z e usa Ultraexplosão"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -28163,7 +28163,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Hau'oli City"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28194,7 +28194,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28225,7 +28225,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido em Megalo Tower ou Ultra Megalopolis"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28256,7 +28256,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28287,7 +28287,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poni Grove"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28318,7 +28318,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poni Grove"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28349,7 +28349,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -28380,7 +28380,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Capturado em Pokémon GO"],
 		estagio: 1,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28411,7 +28411,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 7, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28443,7 +28443,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Postwick"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28474,7 +28474,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28505,7 +28505,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28536,7 +28536,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Postwick"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28567,7 +28567,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28598,7 +28598,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28629,7 +28629,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Postwick"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28660,7 +28660,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28691,7 +28691,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28723,7 +28723,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, 2, 3, e outras", "Arvoredo Adormecido", "Rolling Fields", "Motostoke Riverbank", "North Lake Miloch", "Dappled Grove", "Watchtower Ruins", "Stepping-Stone Sea", "Ballimere Lake", "Fields of Honor", "Soothing Wetlands", "Challenge Beach", "Forest of Focus", "Training Lowlands", "Workout Sea", "Loop Lagoon", "Insular Sea", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28755,7 +28755,7 @@ const pkmnDisponiveis = [
 			["Rotas 6, 7, e 9", "Axew's Eye", "Bridge Field", "Giant's Cap", "Giant's Mirror", "Giant's Seat", "Hammerlocke Hills", "Lake of Outrage", "Motostoke Riverbank", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Giant's Foot", "Ballimere Lake", "Dyna Tree Hill", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28786,7 +28786,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, 2, e 3", "Motostoke Riverbank", "Slumbering Weald"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28818,7 +28818,7 @@ const pkmnDisponiveis = [
 			["Rota 3", "Giant's Mirror", "Hammerlocke Hills", "Motostoke Riverbank", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28850,7 +28850,7 @@ const pkmnDisponiveis = [
 			["Rota 7", "Dusty Bowl", "Lake of Outrage", "Slumbering Weald", "Giant's Cap", "Hammerlocke Hills", "Motostoke Riverbank", "North Lake Miloch", "Watchtower Ruins", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28882,7 +28882,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, e 2", "Giant's Cap", "Slumbering Weald", "Fields of Honor", "Challenge Beach", "Training Lowlands", "Challenge Road", "Workout Sea", "Loop Lagoon", "Stepping-Stone Sea", "Insular Sea", "Honeycalm Island"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28914,7 +28914,7 @@ const pkmnDisponiveis = [
 			["Rota 5", "Giant's Cap", "Giant's Mirror", "Stony Wilderness", "Fields of Honor", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28946,7 +28946,7 @@ const pkmnDisponiveis = [
 			["Giant's Cap", "Lake of Outrage", "Slumbering Weald", "Dappled Grove", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -28977,7 +28977,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 1, e 2", "Dusty Bowl", "Giant's Mirror", "Stony Wilderness"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29009,7 +29009,7 @@ const pkmnDisponiveis = [
 			["Rotas 7, e 9", "Bridge Field", "Hammerlocke Hills", "Stony Wilderness", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29040,7 +29040,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 2, e 3", "Motostoke Riverbank"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29072,7 +29072,7 @@ const pkmnDisponiveis = [
 			["Rota 5", "Motostoke Riverbank", "Dusty Bowl", "Giant's Cap", "Stony Wilderness", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29104,7 +29104,7 @@ const pkmnDisponiveis = [
 			["Rotas 1, e 4", "Motostoke Riverbank", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Snowslide Slope", "Three-Point Pass"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29136,7 +29136,7 @@ const pkmnDisponiveis = [
 			["Dusty Bowl", "Hammerlocke Hills", "Motostoke Riverbank", "Rolling Fields", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Snowslide Slope", "Three-Point Pass", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29168,7 +29168,7 @@ const pkmnDisponiveis = [
 			["Rotas 2, 4, e 5", "Galar Mine No. 2", "Giant's Cap", "Giant's Mirror", "Motostoke Outskirts", "Motostoke Riverbank", "Courageous Cavern", "Soothing Wetlands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29200,7 +29200,7 @@ const pkmnDisponiveis = [
 			["Rotas 2, e 6", "Bridge Field", "Dusty Bowl", "Giant's Cap", "Giant's Mirror", "Lake of Outrange", "Galar Mine No. 2", "Fields of Honor", "Soothing Wetlands", "Loop Lagoon", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29232,7 +29232,7 @@ const pkmnDisponiveis = [
 			["Rotas 2, e 4", "Giant's Mirror", "Motorstoke Riverbank", "Stony Wilderness", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29264,7 +29264,7 @@ const pkmnDisponiveis = [
 			["Dusty Bowl", "Lake of Outrage", "Motostoke Riverbank", "North Lake Miloch", "Ballimere Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29295,7 +29295,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 3", "Gala Mine", "Giant's Cap", "Motostoke Riverbank"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29327,7 +29327,7 @@ const pkmnDisponiveis = [
 			["Bridge Field", "Stony Wilderness", "Giant's Cap", "Galar Mine", "Ballimere Lake", "Lakeside Cave", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29359,7 +29359,7 @@ const pkmnDisponiveis = [
 			["Dusty Bowl", "Lake of Outrage", "Giant's Cap", "Ballimere Lake", "Lakeside Cave", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29391,7 +29391,7 @@ const pkmnDisponiveis = [
 			["Rota 5", "Dusty Bowl", "Giant's Mirror", "Stony Wilderness", "Fields of Honor", "Soothing Wetlands", "Challenge Beach", "Forest of Focus", "Training Lowlands", "Workout Sea", "Loop Lagoon", "Stepping-Stone Sea", "Insular Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29422,7 +29422,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Stepping-Stone Sea", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29453,7 +29453,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Stepping-Stone Sea", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29485,7 +29485,7 @@ const pkmnDisponiveis = [
 			["Rota 6", "Forest of Focus", "Training Lowlands", "Challenge road", "Potbottom Desert"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29516,7 +29516,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Lake of Outrage", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29548,7 +29548,7 @@ const pkmnDisponiveis = [
 			["Rota 9", "Bridge Field", "Lake of Outrage", "Stony Wilderness", "Axew's Eye", "Challenge Beach", "Forest of Focus", "Training Lowlands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29580,7 +29580,7 @@ const pkmnDisponiveis = [
 			["Rota 2", "Motostoke Riverbank", "Challenge Beach", "Forest of Focus", "Training Lowlands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29612,7 +29612,7 @@ const pkmnDisponiveis = [
 			["Rota 2", "Motostoke Riverbank", "Dusty Bowl", "Lake of Outrage", "Training Lowlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29644,7 +29644,7 @@ const pkmnDisponiveis = [
 			["Rota 7", "Hammerlocke Hills", "Giant's Cap", "Stony Wilderness", "Bridge Field", "Motostoke Riverbank"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29655,7 +29655,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxtricity (Forma Aguda)",
-		codinome: "",
+		codinome: "Toxtricity",
 		numero: 849.1, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
 		massa: 40.0, // em kg
@@ -29675,7 +29675,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29686,7 +29686,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxtricity (Forma Grave)",
-		codinome: "",
+		codinome: "Toxtricity",
 		numero: 849.2, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
 		massa: 40.0, // em kg
@@ -29706,7 +29706,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29737,7 +29737,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 3", "Motostoke Stadium", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29768,7 +29768,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Giant's Foot", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29799,7 +29799,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Courageous Cavern", "Loop Lagoon"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29831,7 +29831,7 @@ const pkmnDisponiveis = [
 			["Rota 9", "Lake of Courage", "West Lake Axewell", "Loop Lagoon", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29862,7 +29862,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Bosque Glimwood", "Cemitério Antigo"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29894,7 +29894,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cemitério Antigo", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29927,7 +29927,7 @@ const pkmnDisponiveis = [
 			["Hammerlocke Hill", "Motostoke Outskirts", "Stony Wilderness", "Slippery Slope", "Frostpoint Field", "Giant's Bed", "Cemitério Antigo", "Giant's Foot", "Frigid Sea", "Three-Point Pass", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29959,7 +29959,7 @@ const pkmnDisponiveis = [
 			["Dusty Bowl", "Bosque Glimwood", "Frostpoint Field", "Giant's Bed", "Cemitério Antigo", "Giant's Foot", "Frigid Sea", "Three-Point Pass", "Ballimere Lake", "Slippery Slope", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -29991,7 +29991,7 @@ const pkmnDisponiveis = [
 			["Lake of Outrage", "Frostpoint Field", "Giant's Bed", "Frigid Sea", "Ballimere Lake", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30023,7 +30023,7 @@ const pkmnDisponiveis = [
 			["Giant's Mirror", "Hammerlocke Hills", "Motostoke Outskirts", "Stony Wilderness", "Bosque Glimwood", "Slippery Slope"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30055,7 +30055,7 @@ const pkmnDisponiveis = [
 			["Bosque Glimwood", "Giant's Bed", "Snowslide Slope", "Giant's Foot", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30087,7 +30087,7 @@ const pkmnDisponiveis = [
 			["Lake of Outrage", "Stony Wilderness", "Slippery Slope", "Giant's Bed", "Snowslide Slope", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30119,7 +30119,7 @@ const pkmnDisponiveis = [
 			["Rota 2", "Lake of Outrage", "Bridge Field", "Giant's Bed", "Ballimere Lake", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30150,7 +30150,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rotas 7, e 9", "Giant's Mirror", "Lake of Outrage", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30181,7 +30181,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30212,7 +30212,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30243,7 +30243,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30274,7 +30274,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30305,7 +30305,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 4", "Bridge Field", "Giant's Mirror"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30336,7 +30336,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30375,7 +30375,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 8", "Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30406,7 +30406,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 9", "Courageous Cavern", "Loop Lagoon", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30438,7 +30438,7 @@ const pkmnDisponiveis = [
 			["Rotas 8, e 10", "Lake of Outrage", "Slippery Slope", "Snowslide Slope", "Path to the Peak"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30469,7 +30469,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Trilha para o Cume", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30500,7 +30500,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Lake of Outrage", "Giant's Bed", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30511,7 +30511,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eiscue (Cara de Gelo)",
-		codinome: "",
+		codinome: "Eiscue",
 		numero: 875.1, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 89.0, // em kg
@@ -30531,7 +30531,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Lake of Outrage", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -30542,7 +30542,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eiscue (Cara Degelada)",
-		codinome: "",
+		codinome: "Eiscue",
 		numero: 875.2, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 89.0, // em kg
@@ -30562,7 +30562,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Lake of Outrage", "Frigid Sea"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -30573,7 +30573,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Indeedee Macho",
-		codinome: "",
+		codinome: "Indeedee",
 		numero: 876.1, // considerando a national dex
 		tipo: ["Psíquico", " Normal"],
 		massa: 28.0, // em kg
@@ -30593,7 +30593,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Bosque Glimwood", "Lake of Outrage", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30604,7 +30604,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Indeedee Fêmea",
-		codinome: "",
+		codinome: "Indeedee",
 		numero: 876.2, // considerando a national dex
 		tipo: ["Psíquico", " Normal"],
 		massa: 28.0, // em kg
@@ -30624,7 +30624,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Bosque Glimwood", "Lake of Outrage", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30635,7 +30635,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morpeko (Forma Saciada)",
-		codinome: "",
+		codinome: "Morpeko",
 		numero: 877.1, // considerando a national dex
 		tipo: ["Elétrico", " Noturno"],
 		massa: 3.0, // em kg
@@ -30656,7 +30656,7 @@ const pkmnDisponiveis = [
 			["Rotas 7, e 9", "Lake of Outrage", "Challenge Beach", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -30667,7 +30667,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morpeko (Forma Voraz)",
-		codinome: "",
+		codinome: "Morpeko",
 		numero: 877.2, // considerando a national dex
 		tipo: ["Elétrico", " Noturno"],
 		massa: 3.0, // em kg
@@ -30688,7 +30688,7 @@ const pkmnDisponiveis = [
 			["Rotas 7, e 9", "Lake of Outrage", "Challenge Beach", "Ballimere Lake"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -30719,7 +30719,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Bridge Field", "Giant's Foot"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30751,7 +30751,7 @@ const pkmnDisponiveis = [
 			["Lake of Outrage", "Hammerlocke Hills", "Giant's Foot", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30782,7 +30782,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30813,7 +30813,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30844,7 +30844,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30875,7 +30875,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Revivido a partir de um fóssil"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30906,7 +30906,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Rota 10", "Giant's Seat", "Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30937,7 +30937,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Lake of Outrage"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30968,7 +30968,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Lake of Outrage", "Cemitério Antigo", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -30999,7 +30999,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cemitério Antigo", "Three-Point Pass", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31010,7 +31010,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zacian (Herói Veterano)",
-		codinome: "",
+		codinome: "Zacian",
 		numero: 888.1, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 110.0, // em kg
@@ -31030,7 +31030,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31041,7 +31041,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zacian (Espada Coroada)",
-		codinome: "",
+		codinome: "Zacian",
 		numero: 888.2, // considerando a national dex
 		tipo: ["Fada", " Metal"],
 		massa: 355.0, // em kg
@@ -31061,7 +31061,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit e segurando o item Espada Enferrujada"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31072,7 +31072,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zamazenta (Herói Veterano)",
-		codinome: "",
+		codinome: "Zamazenta",
 		numero: 889.1, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 210.0, // em kg
@@ -31092,7 +31092,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31103,7 +31103,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zamazenta (Escudo Coroado)",
-		codinome: "",
+		codinome: "Zamazenta",
 		numero: 889.2, // considerando a national dex
 		tipo: ["Lutador", " Metal"],
 		massa: 785.0, // em kg
@@ -31123,7 +31123,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit e segurando o item Escudo Enferrujado"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31154,7 +31154,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Tower Summit"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31185,7 +31185,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Recebido em Master Dojo"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31196,7 +31196,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Urshifu (Estilo Golpe Decisivo)",
-		codinome: "",
+		codinome: "Urshifu",
 		numero: 892.1, // considerando a national dex
 		tipo: ["Lutador", " Noturno"],
 		massa: 105.0, // em kg
@@ -31216,7 +31216,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31227,7 +31227,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Urshifu (Estilo Golpe Fluido)",
-		codinome: "",
+		codinome: "Urshifu",
 		numero: 892.2, // considerando a national dex
 		tipo: ["Lutador", " Água"],
 		massa: 105.0, // em kg
@@ -31247,7 +31247,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31278,7 +31278,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evento"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31309,7 +31309,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas das Escolhas"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31340,7 +31340,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Ruínas das Escolhas"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31371,7 +31371,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31402,7 +31402,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -31413,7 +31413,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex",
-		codinome: "",
+		codinome: "Calyrex",
 		numero: 898.1, // considerando a national dex
 		tipo: ["Psíquico", " Planta"],
 		massa: 7.7, // em kg
@@ -31433,7 +31433,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31444,7 +31444,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex (Cavaleiro Glacial)",
-		codinome: "",
+		codinome: "Calyrex",
 		numero: 898.2, // considerando a national dex
 		tipo: ["Psíquico", " Gelo"],
 		massa: 809.1, // em kg
@@ -31464,7 +31464,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine e usar o item 'Reins of Unity' em Glastrier"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31475,7 +31475,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex (Cavaleiro Espectral)",
-		codinome: "",
+		codinome: "Calyrex",
 		numero: 898.3, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 53.6, // em kg
@@ -31495,7 +31495,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crown Shrine e usar o item 'Reins of Unity' em Spectrier"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31526,7 +31526,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Obsidian Fieldlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31557,7 +31557,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Obsidian Fieldlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31588,7 +31588,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands", "Por evolução"],
 		estagio: 3,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: true,
 		lendario: false,
@@ -31618,7 +31618,7 @@ const pkmnDisponiveis = [
 		"obtencao": ["Timeless Woods", "Por evolução"],
 		"estagio": 3,
 		"geracao": 9,
-		"variante": false,
+		"versao": false,
 		"forma": false,
 		"regional": true,
 		"lendario": false,
@@ -31629,7 +31629,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculegion Macho",
-		codinome: "",
+		codinome: "Basculegion",
 		numero: 902.1, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
 		massa: 110.0, // em kg
@@ -31649,7 +31649,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31660,7 +31660,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculegion Fêmea",
-		codinome: "",
+		codinome: "Basculegion",
 		numero: 902.2, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
 		massa: 110.0, // em kg
@@ -31680,7 +31680,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31711,7 +31711,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Coronet Highlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31742,7 +31742,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands", "Cobalt Coastlands", "Por evolução"],
 		estagio: 2,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31753,7 +31753,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Enamorus (Forma Materializada)",
-		codinome: "",
+		codinome: "Enamorus",
 		numero: 905.1, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 48.0, // em kg
@@ -31773,7 +31773,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31784,7 +31784,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Enamorus (Forma Therian)",
-		codinome: "",
+		codinome: "Enamorus",
 		numero: 905.2, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 48.0, // em kg
@@ -31804,7 +31804,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Crimson Mirelands e usar o item Espelho Revelador"],
 		estagio: 1,
 		geracao: 8, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -31835,7 +31835,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cabo Poco"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31866,7 +31866,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31897,7 +31897,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31928,7 +31928,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cabo Poco"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31959,7 +31959,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -31990,7 +31990,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32021,7 +32021,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Cabo Poco"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32052,7 +32052,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32083,7 +32083,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32115,7 +32115,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Poco Path, e Pokémon League", "East Province: Área Um, e Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32126,7 +32126,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oinkologne Fêmea",
-		codinome: "",
+		codinome: "Oinkologne",
 		numero: 916.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 120.0, // em kg
@@ -32147,7 +32147,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Três, e Área Cinco", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32158,7 +32158,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oinkologne Macho",
-		codinome: "",
+		codinome: "Oinkologne",
 		numero: 916.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 120.0, // em kg
@@ -32179,7 +32179,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Três, e Área Cinco", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32211,7 +32211,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Cabo Poco, Poco Path, e Pokémon League", "North Province: Socarrat Trail"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32243,7 +32243,7 @@ const pkmnDisponiveis = [
 			["East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Três", "North Province: Área Dois, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32275,7 +32275,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Dois, Área Três, e Área Seis", "West Province: Área Um"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32307,7 +32307,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Três, Área Quatro, Área Cinco, Área Seis, Alfornada Cavern, e Pokémon League", "East Province: Área Um, Área Um, Área Dois, e Área Três", "West Province: Área Dois, Área Três, e Asado Desert", "North Province: Área Um, Área Dois, Área Três, Casseroya Lake, Dalizapa Passage, e Montanha Glaseado", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32339,7 +32339,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, Área Três, Área Cinco, e Poco Path", "West Province: Área Um", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32371,7 +32371,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, Área Seis, e Pokémon League", "East Province: Área Um, Área Dois, e Área Três", "West Province: Área Um, Área Dois, Área Três, e Asado Desert", "North Province: Área Um, Área Três, e Montanha Glaseado", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32402,7 +32402,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32434,7 +32434,7 @@ const pkmnDisponiveis = [
 			["South Province: Pokémon League", "East Province: Área Um, Área Dois, e Área Três", "West Province: Área Dois, e Área Três", "Kitakami Road", "Apple Hills", "Reveler's Road", "Oni Mountain", "Oni's Maw", "Wistful Fields", "Paradise Barrens", "Kitakami Wilds"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32445,7 +32445,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maushold (Família Quádrupla)",
-		codinome: "",
+		codinome: "Maushold",
 		numero: 925.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 2.8, // em kg
@@ -32465,7 +32465,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32476,7 +32476,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maushold (Família Tripla)",
-		codinome: "",
+		codinome: "Maushold",
 		numero: 925.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 2.3, // em kg
@@ -32496,7 +32496,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32528,7 +32528,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, Área Três, Área Seis, e Pokémon League", "East Province: Área Três", "West Province: Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32560,7 +32560,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Seis", "East Province: Área Três", "West Province: Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32591,7 +32591,7 @@ const pkmnDisponiveis = [
 		obtencao: ["South Province: Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32623,7 +32623,7 @@ const pkmnDisponiveis = [
 			["East Province: East Paldean Sea, e Tagtree Thicket", "North Province: Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32654,7 +32654,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32686,7 +32686,7 @@ const pkmnDisponiveis = [
 			["South Province: Cabo Poco", "East Province: Área Um, Área Dois, e Área Três", "West Province: Áre Um"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32721,7 +32721,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Dois, Área Três, Área Quatro, Área Cinco, Área Seis, e Pokémon League", "East Province: Área Um, Área Dois, Área Três, e East Paldean Sea", "West Province: Área Um, Área Dois, Área Três, e Asado Desert", "North Province: Área Um, Área Dois, Área Três, Casseroya Lake, e Montanha Glaseado", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32753,7 +32753,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Seis", "West Province: Área Dois, e Área Três", "North Province: Área Um, Área Dois, Área Três, Casseroya Lake, e Montanha Glaseado", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32784,7 +32784,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32816,7 +32816,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Três, Área Quatro, e Área Cinco", "East Province: Área Um, Área Dois, Área Três, e Tagtree Thicket", "West Province: Área Um, Área Dois, Área Três, e Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32847,7 +32847,7 @@ const pkmnDisponiveis = [
 		obtencao: ["South Province: Área Dois", "Union Circle", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32878,7 +32878,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32910,7 +32910,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, Área Três, Área Quatro, e Área Cinco", "East Province: Área Um, Área Dois, e Área Três", "West Province: Área Dois", "North Province: Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32942,7 +32942,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Quatro, e Área Seis", "East Province: Área Três, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "North Province: Área Três, Montanha Glaseado, e Casseroya Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -32974,7 +32974,7 @@ const pkmnDisponiveis = [
 			["South Province: South Paldean Sea", "East Province: Área Dois, e East Paldean Sea", "West Province: Área Um, e West Paldean Sea"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33006,7 +33006,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Quatro, Área Cinco, Área Seis, e South Paldean Sea", "East Province: Área Um, Área Dois, Área Três, e East Paldean Sea", "West Province: Área Um, Área Dois, e West Paldean Sea", "North Province: Área Um, Área Três, North Paldean Sea, e Casseroya Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33038,7 +33038,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, e Área Quatro", "West Province: Área Dois, e Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33070,7 +33070,7 @@ const pkmnDisponiveis = [
 			["West Province: Área Três", "North Province: Área Dois, Casseroya Lake, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33102,7 +33102,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, e Área Dois", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33134,7 +33134,7 @@ const pkmnDisponiveis = [
 			["East Province: Tagtree Thicket", "North Province: Área Dois, e Casseroya Lake", "East Province: Tagtree Thicket", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33165,7 +33165,7 @@ const pkmnDisponiveis = [
 		obtencao: ["East Province: Área Três", "West Province: Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33196,7 +33196,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Área Um, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33228,7 +33228,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Três, Área Quatro, e Área Cinco", "East Province: Área Um, Área Dois, e Tagtree Thicket", "West Province: Área Dois, e Área Três", "North Province: Socarrat Trail", "Reveler's Road", "Kitakami Hall", "Mossfell Confluence", "Fellhorn Gorge", "Oni Mountain", "Kitakami Wilds", "Timeless Woods"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33260,7 +33260,7 @@ const pkmnDisponiveis = [
 			["North Province: Socarrat Trail", "Kitakami Wilds", "Timeless Woods", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33291,7 +33291,7 @@ const pkmnDisponiveis = [
 		obtencao: ["South Province: Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33323,7 +33323,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Dois", "West Province: Área Um, e Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33355,7 +33355,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Seis", "North Province: Área Um, Área Três, e Dalizapa Passage", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33386,7 +33386,7 @@ const pkmnDisponiveis = [
 		obtencao: ["West Province: Asado Desert", "Savanna Biome"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33417,7 +33417,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Savanna Biome", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33449,7 +33449,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Quatro, Área Cinco, e Área Seis", "East Province: Área Dois", "West Province: Área Um, e Asado Desert", "North Province: Área Um, e Dalizapa Passage"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33481,7 +33481,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Seis", "West Province: Asado Desert", "North Province: Área Um, e Dalizapa Passage", "Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33513,7 +33513,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Dois, e Área Três", "East Province: Área Dois", "West Province: Área Um, e Asado Desert"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33545,7 +33545,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Seis", "East Province: Área Dois", "West Province: Área Dois, e Asado Desert", "North Province: Área Um, Área Três, Dalizapa Passage, e Casseroya Lake", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33576,7 +33576,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33608,7 +33608,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, e Área Cinco", "East Province: Área Dois", "West Province: Área Um, e Área Dois", "North Province: Área Um"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33640,7 +33640,7 @@ const pkmnDisponiveis = [
 			["West Province: Área Dois", "North Province: Área Um, e Área Três", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33672,7 +33672,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Seis", "West Province: Área Um, Área Três, e West Paldean Sea", "Fellhorn Gorge", "Oni Mountain", "Wistful Fields", "Paradise Barrens", "Kitakami Wilds", "Timeless Woods"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33704,7 +33704,7 @@ const pkmnDisponiveis = [
 			["South Province: South Paldean Sea", "East Province: East Paldean Sea", "West Province: Área Dois, e West Paldean Sea", "North Province: North Paldean Sea"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33715,7 +33715,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palafin (Forma Zero)",
-		codinome: "",
+		codinome: "Palafin",
 		numero: 964.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 60.2, // em kg
@@ -33735,7 +33735,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -33746,7 +33746,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palafin (Forma Heroica)",
-		codinome: "",
+		codinome: "Palafin",
 		numero: 964.2, // considerando a national dex
 		tipo: ["Água"],
 		massa: 97.4, // em kg
@@ -33766,7 +33766,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução e estar fora de batalha"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: false,
@@ -33797,7 +33797,7 @@ const pkmnDisponiveis = [
 		obtencao: ["East Province: Área Três", "West Province: Área Dois"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33829,7 +33829,7 @@ const pkmnDisponiveis = [
 			["East Province: Área Três", "North Province: Área Um, Área Dois, e Dalizapa Passage", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33861,7 +33861,7 @@ const pkmnDisponiveis = [
 			["East Province: Área Um, e Área Dois", "West Province: Área Um, Área Dois, e Área Três"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33892,7 +33892,7 @@ const pkmnDisponiveis = [
 		obtencao: ["East Province: Área Três", "West Province: Asado Desert", "Apple Hills", "Reveler's Road", "Oni Mountain", "Oni's Maw", "Wistful Fields", "Paradise Barrens", "Kitakami Wilds"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33924,7 +33924,7 @@ const pkmnDisponiveis = [
 			["South Province: Alfornada Cavern", "East Province: Área Três", "West Province: Área Dois", "North Province: Área Um, Área Dois, e Montanha Glaseado", "Área Zero", "Oni Mountain", "Infernal Pass", "Crystal Pool"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33955,7 +33955,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Oni Mountain", "Crystal Pool", "Abismo da Área Zero", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -33987,7 +33987,7 @@ const pkmnDisponiveis = [
 			["West Province: Área Três", "North Province: Dalizapa Passage, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34019,7 +34019,7 @@ const pkmnDisponiveis = [
 			["North Province: Área Um, Dalizapa Passage, Montanha Glaseado, Casseroya Lake, e Socarrat Trail", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34051,7 +34051,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Quatro, e Área Cinco", "East Province: Área Dois, e Área Três", "West Province: Área Dois, e Área Três", "North Province: Área Um, Casseroya Lake, e Montanha Glaseado", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34083,7 +34083,7 @@ const pkmnDisponiveis = [
 			["West Province: Área Três", "North Province: Dalizapa Passage, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34114,7 +34114,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Montanha Glaseado", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34146,7 +34146,7 @@ const pkmnDisponiveis = [
 			["East Province: Área Um", "West Province: West Paldean Sea", "North Province: North Paldean Sea, Casseroya Lake, e Socarrat Trail"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34177,7 +34177,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Casseroya Lake"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34208,7 +34208,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Casseroya Lake"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34241,7 +34241,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Kitakami Wilds", "Timeless Woods", "Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34273,7 +34273,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Cinco, e Área Seis", "East Province: Área Três", "West Province: Área Três", "North Province: Área Um, e Montanha Glaseado", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34304,7 +34304,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Savanna Biome", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34315,7 +34315,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dudunsparce (Forma Bissegmentada)",
-		codinome: "",
+		codinome: "Dudunsparce",
 		numero: 982.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 39.2, // em kg
@@ -34336,7 +34336,7 @@ const pkmnDisponiveis = [
 			["Área Zero", "Oni Mountains", "Chilling Waterhead", "Timeless Woods", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34347,7 +34347,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dudunsparce (Forma Trissegmentada)",
-		codinome: "",
+		codinome: "Dudunsparce",
 		numero: 982.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 47.4, // em kg
@@ -34368,7 +34368,7 @@ const pkmnDisponiveis = [
 			["Oni Mountains", "Chilling Waterhead", "Timeless Woods", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34399,7 +34399,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Timeless Woods", "Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34430,7 +34430,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "West Province: Asado Desert", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34461,7 +34461,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34492,7 +34492,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34523,7 +34523,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34554,7 +34554,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Union Circle", "Poké Portal News"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34585,7 +34585,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34616,7 +34616,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Union Circle", "West Province: Asado Desert", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34647,7 +34647,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Union Circle", "Poké Portal News", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34678,7 +34678,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Union Circle", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34709,7 +34709,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Union Circle", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34740,7 +34740,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Union Circle", "Poké Portal News", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34771,7 +34771,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Union Circle", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34802,7 +34802,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Dalizapa Passage, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34833,7 +34833,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Montanha Glaseado", "Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34864,7 +34864,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34875,7 +34875,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gimmighoul (Forma Baú)",
-		codinome: "",
+		codinome: "Gimmighoul",
 		numero: 999.1, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 5.0, // em kg
@@ -34896,7 +34896,7 @@ const pkmnDisponiveis = [
 			["South Province: Área Um, Área Dois, Área Três, Área Quatro, Área Cinco, e Área Seis", "East Province: Área Um, e Área Três", "West Province: Área Um, Área Dois, West Paldean Sea, e Asado Desert", "North Province: Área Um, Área Dois, Casseroya Lake, e Montanha Glaseado"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34907,7 +34907,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gimmighoul (Forma Perambulante)",
-		codinome: "",
+		codinome: "Gimmighoul",
 		numero: 999.2, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.1, // em kg
@@ -34927,7 +34927,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Capturando no Pokémon GO"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: true,
+		versao: true,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34958,7 +34958,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -34989,7 +34989,7 @@ const pkmnDisponiveis = [
 		obtencao: ["South Province: Grasswither Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35020,7 +35020,7 @@ const pkmnDisponiveis = [
 		obtencao: ["West Province: Icerend Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35051,7 +35051,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Groundblight Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35082,7 +35082,7 @@ const pkmnDisponiveis = [
 		obtencao: ["North Province: Firescourge Shrine"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35113,7 +35113,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35144,7 +35144,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero", "Union Circle"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35175,7 +35175,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poco Path", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35206,7 +35206,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poco Path", "Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35237,7 +35237,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poké Portal News"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35268,7 +35268,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Poké Portal News"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35299,7 +35299,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35330,7 +35330,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Reveler's Road", "Mossfell Confluence"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35362,7 +35362,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35394,7 +35394,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Paradise Barrens"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35425,7 +35425,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Wistful Fields"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35456,7 +35456,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Oni Mountain"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35467,7 +35467,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Turquesa)",
-		codinome: "",
+		codinome: "Ogerpon",
 		numero: 1017.1, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 39.8, // em kg
@@ -35487,7 +35487,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -35498,7 +35498,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Nascente)",
-		codinome: "",
+		codinome: "Ogerpon",
 		numero: 1017.2, // considerando a national dex
 		tipo: ["Planta", " Água"],
 		massa: 39.8, // em kg
@@ -35518,7 +35518,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -35529,7 +35529,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Fornalha)",
-		codinome: "",
+		codinome: "Ogerpon",
 		numero: 1017.3, // considerando a national dex
 		tipo: ["Planta", " Fogo"],
 		massa: 39.8, // em kg
@@ -35549,7 +35549,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -35560,7 +35560,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Alicerce)",
-		codinome: "",
+		codinome: "Ogerpon",
 		numero: 1017.4, // considerando a national dex
 		tipo: ["Planta", " Rocha"],
 		massa: 39.8, // em kg
@@ -35580,7 +35580,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Dreaded Den"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -35611,7 +35611,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 2,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35642,7 +35642,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Por evolução"],
 		estagio: 3,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35673,7 +35673,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35704,7 +35704,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35735,7 +35735,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35766,7 +35766,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: false,
@@ -35777,7 +35777,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Normal)",
-		codinome: "",
+		codinome: "Terapagos",
 		numero: 1024.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.5, // em kg
@@ -35797,7 +35797,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -35808,7 +35808,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Terastal)",
-		codinome: "",
+		codinome: "Terapagos",
 		numero: 1024.2, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 16.0, // em kg
@@ -35828,7 +35828,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -35839,7 +35839,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Estelar)",
-		codinome: "",
+		codinome: "Terapagos",
 		numero: 1024.3, // considerando a national dex
 		tipo: ["Estelar"],
 		massa: 77.0, // em kg
@@ -35859,7 +35859,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Abismo da Área Zero"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: true,
 		regional: false,
 		lendario: true,
@@ -35890,7 +35890,7 @@ const pkmnDisponiveis = [
 		obtencao: ["Loyalty Plaza"],
 		estagio: 1,
 		geracao: 9, // considerando em qual geração foi introduzido
-		variante: false,
+		versao: false,
 		forma: false,
 		regional: false,
 		lendario: true,
@@ -35901,234 +35901,234 @@ const pkmnDisponiveis = [
 	},
 ];
 
-/* 1ª geração, região de Kanto, 1-151, 0 variantes, 0 formas, 33 regionais */
+/* 1ª geração, região de Kanto, 1-151, 0 versões, 0 formas, 33 regionais */
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
 const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
 const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
-const variantesPrimeira = primeiraGeracao.filter((x) => x.variante === true);
+const versoesPrimeira = primeiraGeracao.filter((x) => x.versao === true);
 const formasPrimeira = primeiraGeracao.filter((x) => x.forma === true);
 const regionaisPrimeira = primeiraGeracao.filter((x) => x.regional === true);
 const regionaisInternosPrimeira = [... new Set(regionaisPrimeira.filter((x) => x.numero <= 151 && x.numero >= 1).map((x) => x.numero.toFixed()))];
 const regionaisExternosPrimeira = [... new Set(regionaisPrimeira.filter((x) => x.numero > 151 && x.numero < 1).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(primeiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosPrimeira.length !== 151 ||
-	variantesPrimeira.length !== 0 ||
+	versoesPrimeira.length !== 0 ||
 	formasPrimeira.length !== 0 ||
 	regionaisPrimeira.length !== 33)
 {
 	console.info("Algo de errado não está certo na primeira geração!", `Quantidades: ${
 		[... new Set(primeiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosPrimeira.length
 	} novos, ${
-		variantesPrimeira.length
-	} variantes, ${
+		versoesPrimeira.length
+	} versao, ${
 		formasPrimeira.length
 	} formas, ${
 		regionaisPrimeira.length
 	} regionais.`);
 };
 
-/* 2ª geração, região de Johto, 152-251, 100 novos, 0 variantes, 0 formas, 6 regionais */
+/* 2ª geração, região de Johto, 152-251, 100 versões, 0 versao, 0 formas, 6 regionais */
 const segundaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 2);
 const numerosSegunda = segundaGeracao.map((X) => X.numero);
 const nomesSegunda = segundaGeracao.map((x) => x.nome);
-const variantesSegunda = segundaGeracao.filter((x) => x.variante === true);
+const versoesSegunda = segundaGeracao.filter((x) => x.versao === true);
 const formasSegunda = segundaGeracao.filter((x) => x.forma === true);
 const regionaisSegunda = segundaGeracao.filter((x) => x.regional === true);
 const regionaisInternosSegunda = [... new Set(regionaisSegunda.filter((x) => x.numero <= 251 && x.numero >= 152).map((x) => x.numero.toFixed()))];
 const regionaisExternosSegunda = [... new Set(regionaisSegunda.filter((x) => x.numero > 251 && x.numero < 152).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(segundaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSegunda.length !== 100 ||
-	variantesSegunda.length !== 0 ||
+	versoesSegunda.length !== 0 ||
 	formasSegunda.length !== 0 ||
 	regionaisSegunda.length !== 6)
 {
 	console.info("Algo de errado não está certo na segunda geração!", `Quantidades: ${
 		[... new Set(segundaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSegunda.length
 	} novos, ${
-		variantesSegunda.length
-	} variantes, ${
+		versoesSegunda.length
+	} versao, ${
 		formasSegunda.length
 	} formas, ${
 		regionaisSegunda.length
 	} regionais.`);
 };
 
-/* 3ª geração, região de Hoenn, 252-386, 135 novos, 0 variantes, 8 formas, 2 regionais */
+/* 3ª geração, região de Hoenn, 252-386, 135 novos, 0 versões, 8 formas, 2 regionais */
 const terceiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 3);
 const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 const nomesTerceira = terceiraGeracao.map((x) => x.nome);
-const variantesTerceira = terceiraGeracao.filter((x) => x.variante === true);
+const versoesTerceira = terceiraGeracao.filter((x) => x.versao === true);
 const formasTerceira = terceiraGeracao.filter((x) => x.forma === true);
 const regionaisTerceira = terceiraGeracao.filter((x) => x.regional === true);
 const regionaisInternosTerceira = [... new Set(regionaisTerceira.filter((x) => x.numero <= 386 && x.numero >= 252).map((x) => x.numero.toFixed()))];
 const regionaisExternosTerceira = [... new Set(regionaisTerceira.filter((x) => x.numero > 386 && x.numero < 252).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(terceiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosTerceira.length !== 135 ||
-	variantesTerceira.length !== 0 ||
+	versoesTerceira.length !== 0 ||
 	formasTerceira.length !== 8 ||
 	regionaisTerceira.length !== 2)
 {
 	console.info("Algo de errado não está certo na terceira geração!", `Quantidades: Geral ${
 		[... new Set(terceiraGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosTerceira.length
 	} novos, ${
-		variantesTerceira.length
-	} variantes, ${
+		versoesTerceira.length
+	} versao, ${
 		formasTerceira.length
 	} formas, ${
 		regionaisTerceira.length
 	} regionais.`);
 };
 
-/* 4ª geração, região de Sinnoh, 387-493, 107 novos, 7 variantes, 10 formas, 0 regionais */
+/* 4ª geração, região de Sinnoh, 387-493, 107 novos, 7 versões, 10 formas, 0 regionais */
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
 const nomesQuarta = quartaGeracao.map((x) => x.nome);
-const variantesQuarta = quartaGeracao.filter((x) => x.variante === true);
+const versoesQuarta = quartaGeracao.filter((x) => x.versao === true);
 const formasQuarta = quartaGeracao.filter((x) => x.forma === true);
 const regionaisQuarta = quartaGeracao.filter((x) => x.regional === true);
 const regionaisInternosQuarta = [... new Set(regionaisQuarta.filter((x) => x.numero <= 493 && x.numero >= 387).map((x) => x.numero.toFixed()))];
 const regionaisExternosQuarta = [... new Set(regionaisQuarta.filter((x) => x.numero > 493 && x.numero < 387).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(quartaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuarta.length !== 107 ||
-	variantesQuarta.length !== 7 ||
+	versoesQuarta.length !== 7 ||
 	formasQuarta.length !== 10 ||
 	regionaisQuarta.length !== 0)
 {
 	console.info("Algo de errado não está certo na quarta geração!", `Quantidades: ${
 		[... new Set(quartaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuarta.length
 	} novos, ${
-		variantesQuarta.length
-	} variantes, ${
+		versoesQuarta.length
+	} versao, ${
 		formasQuarta.length
 	} formas, ${
 		regionaisQuarta.length
 	} regionais.`);
 };
 
-/* 5ª geração, região de Unova, 494-649, 156 novos, 0 variantes, 13 formas, 10 regionais */
+/* 5ª geração, região de Unova, 494-649, 156 novos, 0 versões, 13 formas, 10 regionais */
 const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
 const numerosQuinta = quintaGeracao.map((x) => x.numero);
 const nomesQuinta = quintaGeracao.map((x) => x.nome);
-const variantesQuinta = quintaGeracao.filter((x) => x.variante === true);
+const versoesQuinta = quintaGeracao.filter((x) => x.versao === true);
 const formasQuinta = quintaGeracao.filter((x) => x.forma === true);
 const regionaisQuinta = quintaGeracao.filter((x) => x.regional === true);
 const regionaisInternosQuinta = [... new Set(regionaisQuinta.filter((x) => x.numero <= 649 && x.numero >= 494).map((x) => x.numero.toFixed()))];
 const regionaisExternosQuinta = [... new Set(regionaisQuinta.filter((x) => x.numero > 649 && x.numero < 494).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(quintaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuinta.length !== 156 ||
-	variantesQuinta.length !== 0 ||
+	versoesQuinta.length !== 0 ||
 	formasQuinta.length !== 13 ||
 	regionaisQuinta.length !== 10)
 {
 	console.info("Algo de errado não está certo na quinta geração!", `Quantidades: ${
 		[... new Set(quintaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosQuinta.length
 	} novos, ${
-		variantesQuinta.length
-	} variantes, ${
+		versoesQuinta.length
+	} versao, ${
 		formasQuinta.length
 	} formas, ${
 		regionaisQuinta.length
 	} regionais.`);
 };
 
-/* 6ª geração, região de Kalos, 650-721, 72 novos, 8 variantes, 7 formas, 3 regionais */
+/* 6ª geração, região de Kalos, 650-721, 72 novos, 8 versões, 7 formas, 3 regionais */
 const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
 const numerosSexta = sextaGeracao.map((x) => x.numero);
 const nomesSexta = sextaGeracao.map((x) => x.nome);
-const variantesSexta = sextaGeracao.filter((x) => x.variante === true);
+const versoesSexta = sextaGeracao.filter((x) => x.versao === true);
 const formasSexta = sextaGeracao.filter((x) => x.forma === true);
 const regionaisSexta = sextaGeracao.filter((x) => x.regional === true);
 const regionaisInternosSexta = [... new Set(regionaisSexta.filter((x) => x.numero <= 721 && x.numero >= 650).map((x) => x.numero.toFixed()))];
 const regionaisExternosSexta = [... new Set(regionaisSexta.filter((x) => x.numero > 721 && x.numero < 650).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(sextaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSexta.length !== 72 ||
-	variantesSexta.length !== 8 ||
+	versoesSexta.length !== 8 ||
 	formasSexta.length !== 7 ||
 	regionaisSexta.length !== 3)
 {
 	console.info("Algo de errado não está certo na sexta geração!", `Quantidades: ${
 		[... new Set(sextaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSexta.length
 	} novos, ${
-		variantesSexta.length
-	} variantes, ${
+		versoesSexta.length
+	} versao, ${
 		formasSexta.length
 	} formas, ${
 		regionaisSexta.length
 	} regionais.`);
 };
 
-/* 7ª geração, região de Alola, 722-809, 88 novos, 3 variantes, 12 formas, 19 regionais */
+/* 7ª geração, região de Alola, 722-809, 88 novos, 3 versões, 12 formas, 19 regionais */
 const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
 const numerosSetima = setimaGeracao.map((x) => x.numero);
 const nomesSetima = setimaGeracao.map((x) => x.nome);
-const variantesSetima = setimaGeracao.filter((x) => x.variante === true);
+const versoesSetima = setimaGeracao.filter((x) => x.versao === true);
 const formasSetima = setimaGeracao.filter((x) => x.forma === true);
 const regionaisSetima = setimaGeracao.filter((x) => x.regional === true);
 const regionaisInternosSetima = [... new Set(regionaisSetima.filter((x) => x.numero <= 809 && x.numero >= 722).map((x) => x.numero.toFixed()))];
 const regionaisExternosSetima = [... new Set(regionaisSetima.filter((x) => x.numero > 809 && x.numero < 722).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(setimaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSetima.length !== 88 ||
-	variantesSetima.length !== 3 ||
+	versoesSetima.length !== 3 ||
 	formasSetima.length !== 12 ||
 	regionaisSetima.length !== 19)
 {
 	console.info("Algo de errado não está certo na sétima geração!", `Quantidades: ${
 		[... new Set(setimaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosSetima.length
 	} novos, ${
-		variantesSetima.length
-	} variantes, ${
+		versoesSetima.length
+	} versao, ${
 		formasSetima.length
 	} formas, ${
 		regionaisSetima.length
 	} regionais.`);
 };
 
-/* 8ª geração, região de Galar e Hisui, 810-905, 96 novos, 8 variantes, 15 formas, 37 regionais */
+/* 8ª geração, região de Galar e Hisui, 810-905, 96 novos, 8 versões, 15 formas, 37 regionais */
 const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
 const numerosOitava = oitavaGeracao.map((x) => x.numero);
 const nomesOitava = oitavaGeracao.map((x) => x.nome);
-const variantesOitava = oitavaGeracao.filter((x) => x.variante === true);
+const versoesOitava = oitavaGeracao.filter((x) => x.versao === true);
 const formasOitava = oitavaGeracao.filter((x) => x.forma === true);
 const regionaisOitava = oitavaGeracao.filter((x) => x.regional === true);
 const regionaisInternosOitava = [... new Set(regionaisOitava.filter((x) => x.numero <= 905 && x.numero >= 810).map((x) => x.numero.toFixed()))];
 const regionaisExternosOitava = [... new Set(regionaisOitava.filter((x) => x.numero > 905 && x.numero < 810).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(oitavaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosOitava.length !== 96 ||
-	variantesOitava.length !== 8 ||
+	versoesOitava.length !== 8 ||
 	formasOitava.length !== 15 ||
 	regionaisOitava.length !== 37)
 {
 	console.info("Algo de errado não está certo na oitava geração!", `Quantidades: ${
 		[... new Set(oitavaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosOitava.length
 	} novos, ${
-		variantesOitava.length
-	} variantes, ${
+		versoesOitava.length
+	} versao, ${
 		formasOitava.length
 	} formas, ${
 		regionaisOitava.length
 	} regionais.`);
 };
 
-/* 9ª geração, região de Paldea e Kikatami, 906-1025, 120 novos, 11 variantes, 9 formas, 5 regionais */
+/* 9ª geração, região de Paldea e Kikatami, 906-1025, 120 novos, 11 versões, 9 formas, 5 regionais */
 const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
 const numerosNona = nonaGeracao.map((x) => x.numero);
 const nomesNona = nonaGeracao.map((x) => x.nome);
-const variantesNona = nonaGeracao.filter((x) => x.variante === true);
+const versoesNona = nonaGeracao.filter((x) => x.versao === true);
 const formasNona = nonaGeracao.filter((x) => x.forma === true);
 const regionaisNona = nonaGeracao.filter((x) => x.regional === true);
 const regionaisInternosNona = [... new Set(regionaisNona.filter((x) => x.numero <= 1025 && x.numero >= 906).map((x) => x.numero.toFixed()))];
 const regionaisExternosNona = [... new Set(regionaisNona.filter((x) => x.numero > 1025 && x.numero < 906).map((x) => x.numero.toFixed()))];
 if(
 	[... new Set(nonaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosNona.length !== 120 ||
-	variantesNona.length !== 11 ||
+	versoesNona.length !== 11 ||
 	formasNona.length !== 9 ||
 	regionaisNona.length !== 5)
 {
 	console.info("Algo de errado não está certo na nona geração!", `Quantidades: ${
 		[... new Set(nonaGeracao.filter((x) => x.regional === false).map((x) => x.numero.toFixed()))].length + regionaisInternosNona.length
 	} novos, ${
-		variantesNona.length
-	} variantes, ${
+		versoesNona.length
+	} versao, ${
 		formasNona.length
 	} formas, ${
 		regionaisNona.length
@@ -36138,9 +36138,9 @@ if(
 /* todas gerações */
 const numerosGeracoes = pkmnDisponiveis.map((x) => x.numero);
 const codinomesGeracoes = pkmnDisponiveis.map((x) => x.codinome);
-const nomesGeracoes = pkmnDisponiveis
-	.map((x) => x.nome)
-	.concat(codinomesGeracoes);	
+const nomesGeracoes = pkmnDisponiveis.map((x) => x.nome);
+const formasGeracoes = pkmnDisponiveis.filter((x) => x.forma === true);
+const versoesGeracoes = pkmnDisponiveis.filter((x) => x.versao === true);
 
 /* verificar repetição de números */
 const contagem = new Map();

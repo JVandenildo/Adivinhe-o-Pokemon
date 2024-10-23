@@ -42,14 +42,12 @@ button {
 }
 h1,
 h2,
-h3 {
-	color: var(--light-font-color);
-}
+h3,
 h4,
 h4,
 h5,
 h6 {
-	color: var(--dark-font-color);
+	color: var(--light-font-color);
 	margin: 0.5rem;
 	outline: 0;
 }
@@ -61,22 +59,17 @@ a:hover {
 	text-decoration: none;
 }
 
+header {
+	margin-bottom: 2rem;
+}
+
 main {
-	top: 0;
-	right: 0;
-	padding: 0;
-	margin: 0 auto;
 	display: flex;
-	flex-direction: column;
-	min-height: 80vh;
-	width: fit-content;
 }
 
 footer {
 	background-color: var(--footer-bg);
 	padding: 0.5rem;
-	margin-top: 1rem;
-	height: fit-content;
 	right: 0px;
 	bottom: 0px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -114,6 +107,34 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#jogo {
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 70vh;
+	width: fit-content;
+}
+#sobreJogo {
+	max-width: 19rem;
+	padding: 0.5rem;
+	font-size: smaller;
+	text-justify: newspaper;
+	hyphens: auto;
+	margin-right: 0.5rem;
+}
+#sobreJogo ul,
+#sobreJogo ol {
+	padding: 0.5rem 0rem 0rem 1rem;
+}
+
+#dificuldades {
+	margin: 0px auto;
+	text-align: center;
 }
 
 #geracoes {
@@ -187,7 +208,7 @@ button {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 21.65rem;
+	top: 26.75rem;
 }
 
 .nomePalpite {
@@ -220,13 +241,13 @@ button {
 	border-radius: 49%;
 	text-align: center;
 	vertical-align: middle;
-	height: 150px;
-	width: 150px;
+	height: 120px;
+	width: 120px;
 }
 #dicaSilhueta img {
 	max-height: 100px;
 	max-width: 100px;
-	filter: contrast(1%) blur(5px);
+	filter: contrast(1%) blur(1px);
 }
 
 table {
@@ -262,6 +283,7 @@ table p {
 
 #ultimosPalpites {
 	color: var(--dark-font-color);
+	-webkit-text-fill-color: var(--dark-font-color);
 	font-family: "Chakra Petch", monospace;
 	font-size: smaller !important;
 	font-weight: normal;

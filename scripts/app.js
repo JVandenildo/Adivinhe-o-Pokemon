@@ -7,6 +7,7 @@ const btnPalpite = document.getElementById("btnPalpite");
 const btnDesistencia = document.querySelector("#btnDesistencia");
 const nomesGeral = document.querySelector(".nomesGeral");
 const opcoesNomes = document.querySelector(".opcoesNomes");
+const checkGeracoes = document.querySelectorAll("input[name=geracao]");
 const checkPrimeira = document.querySelector("#checkPrimeira");
 const checkSegunda = document.querySelector("#checkSegunda");
 const checkTerceira = document.querySelector("#checkTerceira");
@@ -16,7 +17,9 @@ const checkSexta = document.querySelector("#checkSexta");
 const checkSetima = document.querySelector("#checkSetima");
 const checkOitava = document.querySelector("#checkOitava");
 const checkNona = document.querySelector("#checkNona");
-const checkTodas = document.querySelector("#checkTodas");
+const dificuldadeRadio = document.querySelectorAll("input[name=dificuldades]");
+
+let dificuldade = "Fácil";
 
 let escolhido = {
 	nome: "MissingNo.",
@@ -69,12 +72,14 @@ function novaTentativa() {
 	) {
 		return alert("Escolha alguma geração antes!");
 	} else {
-		resetar();
+		reset("soft");
 		btnPalpite.addEventListener("click", palpitar);
 		btnPalpite.style.cursor = "pointer";
 		btnDesistencia.addEventListener("click", desistir);
 		btnDesistencia.style.cursor = "pointer";
 		document.addEventListener("keydown", gerenciarEnter);
+
+		dificuldade = dificuldadeSecionada();
 
 		const data = new Date();
 		const ticket = Math.floor(
@@ -93,11 +98,182 @@ function novaTentativa() {
 			(x) => x.numero === selecaoGeracao(ticket)
 		);
 
-		// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`);
+		switch (dificuldade) {
+			case "Fácil":
+				dicas.insertAdjacentHTML(
+					"beforeend",
+					`<table style="margin: 0px auto !important;">
+						<tr><th scope="col" colspan="1">Silhueta</th></tr>
+						<tr><td id="dicaSilhueta"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
+					</table>`
+				);
 
-		dicas.insertAdjacentHTML(
-			"beforeend",
-			`<table style="margin: 0px auto !important;">
+				console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+
+				return escolhido;
+			case "Média":
+				escolhido[0].forma === true ? (escolhido[0].codinome = "") : false;
+
+				dicas.insertAdjacentHTML(
+					"beforeend",
+					`<table style="margin: 0px auto !important;">
+						<tr><th scope="col" colspan="1">Categoria</th></tr>
+						<tr><td>${escolhido[0].categoria}</td></tr>
+					</table>`
+				);
+				console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+
+				return escolhido;
+			case "Difícil":
+				dicas.insertAdjacentHTML(
+					"beforeend",
+					`<table style="margin: 0px auto !important;">
+								<tr>
+									<th scope="col" colspan="1">Massa</th>
+									<th scope="col" colspan="1">Altura</th>
+								</tr>
+								<tr>
+									<td style="text-align:center !important">${escolhido[0].massa} kg</td>
+									<td style="text-align:center !important">${escolhido[0].altura} m</td>
+								</tr>
+							</table>`
+				);
+				console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+
+				return escolhido;
+		}
+	}
+}
+
+/**
+ * Verifica se o palpite do usuário está correto.
+ * @returns {boolean} Retorna nada.
+ */
+function palpitar() {
+	opcoesNomes.classList.remove("opcoesNomesShow");
+	nomesGeral.classList.remove("nomesGeralShow");
+
+	switch (dificuldade) {
+		case "Fácil":
+			const dicasFacil = [
+				/* primeira dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
+					<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
+				</table>`,
+				/* segunda dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Descrição</th></tr>
+					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
+				</table>`,
+			];
+
+			switch (campoPalpite.value.toLowerCase()) {
+				case "":
+					/* caso não tenha palpite */
+
+					alert("Calma lá! Tente algum nome!");
+
+					return false;
+
+				case escolhido[0].nome.toLowerCase():
+				case escolhido[0].codinome.toLowerCase():
+					/* caso acerte o nome do Pokémon */
+
+					palpites = palpites + 1;
+					campoPalpite.value = "";
+					btnDesistencia.removeEventListener("click", desistir);
+					btnDesistencia.style.cursor = "not-allowed";
+					btnPalpite.removeEventListener("click", palpitar);
+					btnPalpite.style.cursor = "not-allowed";
+					document.removeEventListener("keydown", gerenciarEnter);
+
+					if (palpites === 1) {
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a> com ${palpites} palpite!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return true;
+					} else {
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a> com ${palpites} palpites!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return true;
+					}
+
+				default:
+					/* caso erre o nome do Pokémon */
+					if (palpites >= dicasFacil.length) {
+						/* caso as dicas esgotem */
+
+						campoPalpite.value = "";
+						btnDesistencia.removeEventListener("click", desistir);
+						btnDesistencia.style.cursor = "not-allowed";
+						btnPalpite.removeEventListener("click", palpitar);
+						btnPalpite.style.cursor = "not-allowed";
+						document.removeEventListener("keydown", gerenciarEnter);
+
+						ultimato.innerHTML = `<p>Você errou!<br />
+						Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
+							escolhido[0].link
+						}" target="_blank">${escolhido[0].nome}</a>!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return false;
+					} else {
+						/* ainda existem dicas */
+
+						dicas.insertAdjacentHTML("beforeend", `${dicasFacil[palpites]}`);
+						ultimosPalpites.insertAdjacentHTML(
+							"beforeend",
+							`<p>${campoPalpite.value}</p>`
+						);
+
+						if (palpites === 2) {
+							const dicaObtencao = document.getElementById("dicaObtencao");
+							for (let i in escolhido[0].obtencao) {
+								dicaObtencao.insertAdjacentHTML(
+									"beforeend",
+									`<p>${escolhido[0].obtencao[i]}</p>`
+								);
+							}
+						} else if (palpites > 3) {
+							dicaObtencao.insertAdjacentHTML("beforeend", "");
+						}
+
+						campoPalpite.value = "";
+						palpites = palpites + 1;
+
+						return false;
+					}
+			}
+
+			break;
+		case "Média":
+			const dicasMedio = [
+				/* primeira dica */
+				`<table>
 				<tr>
 					<th scope="col" colspan="1">Massa</th>
 					<th scope="col" colspan="1">Altura</th>
@@ -106,10 +282,295 @@ function novaTentativa() {
 					<td style="text-align:center !important">${escolhido[0].massa} kg</td>
 					<td style="text-align:center !important">${escolhido[0].altura} m</td>
 				</tr>
-			</table>`
-		);
+				</table>`,
+				/* segunda dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Pegada</th></tr>
+					<tr><td><div id="dicaPegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
+				</table>`,
+				/* terceira dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
+					<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
+				</table>`,
+				/* quarta diga */
+				`<table>
+					<tr><th scope="col" colspan="1">Descrição</th></tr>
+					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
+				</table>`,
+				/* quinta dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Número</th></tr>
+					<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
+				</table>`,
+				/* sexta e última dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Silhueta</th></tr>
+					<tr><td id="dicaSilhueta"><img loading="eager" src="${
+						escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+					}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
+				</table>`,
+			];
 
-		return escolhido;
+			switch (campoPalpite.value.toLowerCase()) {
+				case "":
+					/* caso não tenha palpite */
+
+					alert("Calma lá! Tente algum nome!");
+
+					return false;
+
+				case escolhido[0].nome.toLowerCase():
+				case escolhido[0].codinome.toLowerCase():
+					/* caso acerte o nome do Pokémon */
+
+					palpites = palpites + 1;
+					campoPalpite.value = "";
+					btnDesistencia.removeEventListener("click", desistir);
+					btnDesistencia.style.cursor = "not-allowed";
+					btnPalpite.removeEventListener("click", palpitar);
+					btnPalpite.style.cursor = "not-allowed";
+					document.removeEventListener("keydown", gerenciarEnter);
+
+					if (palpites === 1) {
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a> com ${palpites} palpite!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return true;
+					} else {
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a> com ${palpites} palpites!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return true;
+					}
+
+				default:
+					/* caso erre o nome do Pokémon */
+					if (palpites >= dicasMedio.length) {
+						/* caso as dicas esgotem */
+
+						campoPalpite.value = "";
+						btnDesistencia.removeEventListener("click", desistir);
+						btnDesistencia.style.cursor = "not-allowed";
+						btnPalpite.removeEventListener("click", palpitar);
+						btnPalpite.style.cursor = "not-allowed";
+						document.removeEventListener("keydown", gerenciarEnter);
+
+						ultimato.innerHTML = `<p>Você errou!<br />
+						Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
+							escolhido[0].link
+						}" target="_blank">${escolhido[0].nome}</a>!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return false;
+					} else {
+						/* ainda existem dicas */
+
+						dicas.insertAdjacentHTML("beforeend", `${dicasMedio[palpites]}`);
+						ultimosPalpites.insertAdjacentHTML(
+							"beforeend",
+							`<p>${campoPalpite.value}</p>`
+						);
+
+						if (palpites === 2) {
+							const dicaObtencao = document.getElementById("dicaObtencao");
+							for (let i in escolhido[0].obtencao) {
+								dicaObtencao.insertAdjacentHTML(
+									"beforeend",
+									`<p>${escolhido[0].obtencao[i]}</p>`
+								);
+							}
+						} else if (palpites > 3) {
+							dicaObtencao.insertAdjacentHTML("beforeend", "");
+						}
+
+						campoPalpite.value = "";
+						palpites = palpites + 1;
+
+						return false;
+					}
+			}
+
+		case "Difícil":
+			const dicasDificil = [
+				/* primeira dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Pegada</th></tr>
+					<tr><td><div id="dicaPegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
+				</table>`,
+				/* segunda dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
+					<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
+				</table>`,
+				/* terceira dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Obtenção</th></tr>
+					<tr><td id="dicaObtencao"></td></tr>
+				</table>`,
+				/* quarta diga */
+				`<table>
+					<tr><th scope="col" colspan="2">Estatísticas Base</th></tr>
+		
+					<tr><th scope="row" style="text-align:left !important">PS</th>
+					<td>${escolhido[0].estatistica.ps}</td></tr>
+						
+					<tr><th scope="row" style="text-align:left !important">Ataque</th>
+					<td>${escolhido[0].estatistica.atq}</td></tr>
+						
+					<tr><th scope="row" style="text-align:left !important">Defesa</th>
+					<td>${escolhido[0].estatistica.def}</td></tr>
+					
+					<tr><th scope="row" style="text-align:left !important">Ataque Especial</th>
+					<td>${escolhido[0].estatistica.atq_esp}</td></tr>
+					
+					<tr><th scope="row" style="text-align:left !important">Defesa Especial</th>
+					<td>${escolhido[0].estatistica.def_esp}</td></tr>
+					
+					<tr><th scope="row" style="text-align:left !important">Velocidade</th>
+					<td>${escolhido[0].estatistica.vel}</td></tr>
+				</table>`,
+				/* quinta dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Descrição</th></tr>
+					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
+				</table>`,
+				/* sexta dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Categoria</th></tr>
+					<tr><td>${escolhido[0].categoria}</td></tr>
+				</table>`,
+				/* sétima dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Número</th></tr>
+					<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
+				</table>`,
+				/* oitava e última dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Silhueta</th></tr>
+					<tr><td id="dicaSilhueta"><img loading="eager" src="${
+						escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+					}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
+				</table>`,
+			];
+
+			switch (campoPalpite.value.toLowerCase()) {
+				case "":
+					/* caso não tenha palpite */
+
+					alert("Calma lá! Tente algum nome!");
+
+					return false;
+
+				case escolhido[0].nome.toLowerCase():
+					/* caso acerte o nome do Pokémon */
+
+					palpites = palpites + 1;
+					campoPalpite.value = "";
+					btnDesistencia.removeEventListener("click", desistir);
+					btnDesistencia.style.cursor = "not-allowed";
+					btnPalpite.removeEventListener("click", palpitar);
+					btnPalpite.style.cursor = "not-allowed";
+					document.removeEventListener("keydown", gerenciarEnter);
+
+					if (palpites === 1) {
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a> com ${palpites} palpite!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return true;
+					} else {
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a> com ${palpites} palpites!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return true;
+					}
+
+				default:
+					/* caso erre o nome do Pokémon */
+					if (palpites >= dicasDificil.length) {
+						/* caso as dicas esgotem */
+
+						campoPalpite.value = "";
+						btnDesistencia.removeEventListener("click", desistir);
+						btnDesistencia.style.cursor = "not-allowed";
+						btnPalpite.removeEventListener("click", palpitar);
+						btnPalpite.style.cursor = "not-allowed";
+						document.removeEventListener("keydown", gerenciarEnter);
+
+						ultimato.innerHTML = `<p>Você errou!<br />
+						Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
+							escolhido[0].link
+						}" target="_blank">${escolhido[0].nome}</a>!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
+							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
+						}" title="Mais informações sobre ${
+							escolhido[0].nome
+						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+
+						return false;
+					} else {
+						/* ainda existem dicas */
+
+						dicas.insertAdjacentHTML("beforeend", `${dicasDificil[palpites]}`);
+						ultimosPalpites.insertAdjacentHTML(
+							"beforeend",
+							`<p>${campoPalpite.value}</p>`
+						);
+
+						if (palpites === 2) {
+							const dicaObtencao = document.getElementById("dicaObtencao");
+							for (let i in escolhido[0].obtencao) {
+								dicaObtencao.insertAdjacentHTML(
+									"beforeend",
+									`<p>${escolhido[0].obtencao[i]}</p>`
+								);
+							}
+						} else if (palpites > 3) {
+							dicaObtencao.insertAdjacentHTML("beforeend", "");
+						}
+
+						campoPalpite.value = "";
+						palpites = palpites + 1;
+
+						return false;
+					}
+			}
 	}
 }
 
@@ -192,176 +653,6 @@ function desistir() {
 }
 
 /**
- * Verifica se o palpite do usuário está correto.
- * @returns {boolean} Retorna nada.
- */
-function palpitar() {
-	opcoesNomes.classList.remove("opcoesNomesShow");
-	nomesGeral.classList.remove("nomesGeralShow");
-
-	const listaDiscas = [
-		/* primeira dica */
-		`<table>
-			<tr><th scope="col" colspan="1">Pegada</th></tr>
-			<tr><td><div id="dicaPegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
-		</table>`,
-		/* segunda dica */
-		`<table>
-			<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
-			<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
-		</table>`,
-		/* terceira dica */
-		`<table>
-			<tr><th scope="col" colspan="1">Obtenção</th></tr>
-			<tr><td id="dicaObtencao"></td></tr>
-		</table>`,
-		/* quarta diga */
-		`<table>
-			<tr><th scope="col" colspan="2">Estatísticas Base</th></tr>
-
-			<tr><th scope="row" style="text-align:left !important">PS</th>
-			<td>${escolhido[0].estatistica.ps}</td></tr>
-				
-			<tr><th scope="row" style="text-align:left !important">Ataque</th>
-			<td>${escolhido[0].estatistica.atq}</td></tr>
-				
-			<tr><th scope="row" style="text-align:left !important">Defesa</th>
-			<td>${escolhido[0].estatistica.def}</td></tr>
-			
-			<tr><th scope="row" style="text-align:left !important">Ataque Especial</th>
-			<td>${escolhido[0].estatistica.atq_esp}</td></tr>
-			
-			<tr><th scope="row" style="text-align:left !important">Defesa Especial</th>
-			<td>${escolhido[0].estatistica.def_esp}</td></tr>
-			
-			<tr><th scope="row" style="text-align:left !important">Velocidade</th>
-			<td>${escolhido[0].estatistica.vel}</td></tr>
-		</table>`,
-		/* quinta dica */
-		`<table>
-			<tr><th scope="col" colspan="1">Descrição</th></tr>
-			<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
-		</table>`,
-		/* sexta dica */
-		`<table>
-			<tr><th scope="col" colspan="1">Categoria</th></tr>
-			<tr><td>${escolhido[0].categoria}</td></tr>
-		</table>`,
-		/* sétima dica */
-		`<table>
-			<tr><th scope="col" colspan="1">Número</th></tr>
-			<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
-		</table>`,
-		/* oitava e última dica */
-		`<table>
-			<tr><th scope="col" colspan="1">Silhueta</th></tr>
-			<tr><td id="dicaSilhueta"><img loading="eager" src="${
-				escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-			}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
-		</table>`,
-	];
-
-	switch (campoPalpite.value.toLowerCase()) {
-		case "":
-			/* caso não tenha palpite */
-
-			alert("Calma lá! Tente algum nome!");
-
-			return false;
-
-		case escolhido[0].nome.toLowerCase():
-		case escolhido[0].codinome.toLowerCase():
-			/* caso acerte o nome do Pokémon */
-
-			palpites = palpites + 1;
-			campoPalpite.value = "";
-			btnDesistencia.removeEventListener("click", desistir);
-			btnDesistencia.style.cursor = "not-allowed";
-			btnPalpite.removeEventListener("click", palpitar);
-			btnPalpite.style.cursor = "not-allowed";
-			document.removeEventListener("keydown", gerenciarEnter);
-
-			if (palpites === 1) {
-				ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-					escolhido[0].nome
-				}" href="${escolhido[0].link}" target="_blank">${
-					escolhido[0].nome
-				}</a> com ${palpites} palpite!</p>
-				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
-					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
-					escolhido[0].nome
-				}" /></a>`;
-
-				return true;
-			} else {
-				ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-					escolhido[0].nome
-				}" href="${escolhido[0].link}" target="_blank">${
-					escolhido[0].nome
-				}</a> com ${palpites} palpites!</p>
-				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
-					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
-					escolhido[0].nome
-				}" /></a>`;
-
-				return true;
-			}
-
-		default:
-			/* caso erre o nome do Pokémon */
-			if (palpites >= listaDiscas.length) {
-				/* caso as dicas esgotem */
-
-				campoPalpite.value = "";
-				btnDesistencia.removeEventListener("click", desistir);
-				btnDesistencia.style.cursor = "not-allowed";
-				btnPalpite.removeEventListener("click", palpitar);
-				btnPalpite.style.cursor = "not-allowed";
-				document.removeEventListener("keydown", gerenciarEnter);
-
-				ultimato.innerHTML = `<p>Você errou!<br />
-				Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
-					escolhido[0].link
-				}" target="_blank">${escolhido[0].nome}</a>!</p>
-				<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${
-					escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-				}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
-					escolhido[0].nome
-				}" /></a>`;
-
-				return false;
-			} else {
-				/* ainda existem dicas */
-
-				dicas.insertAdjacentHTML("beforeend", `${listaDiscas[palpites]}`);
-				ultimosPalpites.insertAdjacentHTML(
-					"beforeend",
-					`<p>${campoPalpite.value}</p>`
-				);
-
-				if (palpites === 2) {
-					const dicaObtencao = document.getElementById("dicaObtencao");
-					for (let i in escolhido[0].obtencao) {
-						dicaObtencao.insertAdjacentHTML(
-							"beforeend",
-							`<p>${escolhido[0].obtencao[i]}</p>`
-						);
-					}
-				} else if (palpites > 3) {
-					dicaObtencao.insertAdjacentHTML("beforeend", "");
-				}
-
-				campoPalpite.value = "";
-				palpites = palpites + 1;
-
-				return false;
-			}
-	}
-}
-
-/**
  * Função para auxiliar o usuário no palpite, filtrando os nomes dos Pokémon
  * @returns {void}
  */
@@ -407,19 +698,26 @@ function selecaoPalpite(palpite) {
 
 /**
  * Coloca propriedades relevantes para os valores iniciais.
+ * @param {string} mode Pode ser "soft" ou "hard"
  * @returns {boolean} nada.
  */
-function resetar() {
-	document.removeEventListener("keydown", gerenciarEnter);
-	campoPalpite.value = "";
-	opcoesNomes.classList.remove("opcoesNomesShow");
-	nomesGeral.classList.remove("nomesGeralShow");
-	ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
-	dicas.innerHTML = "";
-	ultimato.innerHTML = "";
-	palpites = 0;
+function reset(mode) {
+	switch (mode) {
+		case "hard":
+			geracoesSelecionadas(false);
+			dificuldadeRadio.item(0).checked = true;
+		case "soft":
+			document.removeEventListener("keydown", gerenciarEnter);
+			campoPalpite.value = "";
+			opcoesNomes.classList.remove("opcoesNomesShow");
+			nomesGeral.classList.remove("nomesGeralShow");
+			ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
+			dicas.innerHTML = "";
+			ultimato.innerHTML = "";
+			palpites = 0;
 
-	return true;
+			return true;
+	}
 }
 
 /**
@@ -434,33 +732,32 @@ function indiceAleatorio(array) {
 
 /**
  * Função que lida com a escolha de todas gerações de uma vez.
+ * @param {boolean} verificador
  * @returns {boolean} apenas para retornar algo.
  */
-function geracoesSelecionadas() {
-	if (checkTodas.checked) {
-		checkPrimeira.checked = true;
-		checkSegunda.checked = true;
-		checkTerceira.checked = true;
-		checkQuarta.checked = true;
-		checkQuinta.checked = true;
-		checkSexta.checked = true;
-		checkSetima.checked = true;
-		checkOitava.checked = true;
-		checkNona.checked = true;
+function geracoesSelecionadas(verificador) {
+	switch (verificador) {
+		case true:
+		case false:
+			document.querySelector("#checkTodas").checked = verificador;
+			checkGeracoes.forEach((x) => (x.checked = verificador));
 
-		return true;
-	} else {
-		checkPrimeira.checked = false;
-		checkSegunda.checked = false;
-		checkTerceira.checked = false;
-		checkQuarta.checked = false;
-		checkQuinta.checked = false;
-		checkSexta.checked = false;
-		checkSetima.checked = false;
-		checkOitava.checked = false;
-		checkNona.checked = false;
+			return verificador;
+		default:
+			checkGeracoes.forEach((x) => (x.checked = checkTodas.checked));
 
-		return false;
+			return verificador;
+	}
+}
+
+/**
+ * @returns {string} Retorna a dificuldade em formato de string
+ */
+function dificuldadeSecionada() {
+	for (let i = 0; i <= dificuldadeRadio.length; i++) {
+		if (dificuldadeRadio.item(i).checked === true) {
+			return dificuldadeRadio.item(i).value;
+		}
 	}
 }
 
