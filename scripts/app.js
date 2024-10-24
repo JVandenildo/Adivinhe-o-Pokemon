@@ -278,15 +278,10 @@ function palpitar() {
 				</table>`,
 				/* terceira dica */
 				`<table>
-					<tr><th scope="col" colspan="1">Pegada</th></tr>
-					<tr><td><div id="dicaPegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
-				</table>`,
-				/* quarta diga */
-				`<table>
 					<tr><th scope="col" colspan="1">Descrição</th></tr>
 					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
 				</table>`,
-				/* quinta e última dica */
+				/* quarta e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
 					<tr><td id="dicaSilhueta"><img loading="eager" src="${
@@ -386,20 +381,15 @@ function palpitar() {
 			const dicasDificil = [
 				/* primeira dica */
 				`<table>
-					<tr><th scope="col" colspan="1">Pegada</th></tr>
-					<tr><td><div id="dicaPegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
-				</table>`,
-				/* segunda dica */
-				`<table>
 					<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
 					<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
 				</table>`,
-				/* terceira dica */
+				/* segunda dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Obtenção</th></tr>
 					<tr><td id="dicaObtencao"></td></tr>
 				</table>`,
-				/* quarta diga */
+				/* terceira diga */
 				`<table>
 					<tr><th scope="col" colspan="2">Estatísticas Base</th></tr>
 		
@@ -421,22 +411,22 @@ function palpitar() {
 					<tr><th scope="row" style="text-align:left !important">Velocidade</th>
 					<td>${escolhido[0].estatistica.vel}</td></tr>
 				</table>`,
-				/* quinta dica */
+				/* quarta dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Descrição</th></tr>
 					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
 				</table>`,
-				/* sexta dica */
+				/* quinta dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Categoria</th></tr>
 					<tr><td>${escolhido[0].categoria}</td></tr>
 				</table>`,
-				/* sétima dica */
+				/* sexta dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Número</th></tr>
 					<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
 				</table>`,
-				/* oitava e última dica */
+				/* sétima e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
 					<tr><td id="dicaSilhueta"><img loading="eager" src="${
