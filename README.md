@@ -8,7 +8,8 @@ As informações dos Pokémon são traduzidas dos sites abaixo.
 - [bulbapedia.bulbagarden.net](https://bulbapedia.bulbagarden.net/);
 - [pokemon.com](https://www.pokemon.com);
 - [serebii.net](https://serebii.net/);
-- [pokemondb.net](https://pokemondb.net/).
+- [pokemondb.net](https://pokemondb.net/);
+- [pokeapi.co](https://pokeapi.co/).
 
 ## Sobre o jogo de adivinhação
 
@@ -29,5 +30,4 @@ Caso o jogador desista, acerte o Pokémon ou as dicas esgotem, aparecerá a mens
 
 Os próximos passos que planejo para o jogo são:
 
-1. Incluir dificuldade (fácil/médio/difícil);
-2. Inserir navegação pelas setas do teclado na lista de sugestões de palpite.
+1. Inserir navegação pelas setas do teclado na lista de sugestões de palpite.

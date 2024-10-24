@@ -6,6 +6,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 6.9, // em kg
 		altura: 0.7, // em metros
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0001.png",
 		estatistica: {
 			ps:		 	45,
@@ -23,10 +24,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fb/001Bulbasaur_Dream_5.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)",
 	},
@@ -37,6 +39,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 13.0, // em kg
 		altura: 1.0, // em metros
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/2.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0002.png",
 		estatistica: {
 			ps:		 	60,
@@ -54,10 +57,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/36/002Ivysaur_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ivysaur_(Pok%C3%A9mon)",
 	},
@@ -68,6 +72,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0003.png",
 		estatistica: {
 			ps:		 	80,
@@ -85,10 +90,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b2/003Venusaur_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pok%C3%A9mon)",
 	},
@@ -99,6 +105,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 8.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8c/F0004.png",
 		estatistica: {
 			ps:		 	39,
@@ -116,10 +123,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b9/004Charmander_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)",
 	},
@@ -130,6 +138,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0005.png",
 		estatistica: {
 			ps:		 	58,
@@ -147,10 +156,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/df/005Charmeleon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon)",
 	},
@@ -161,6 +171,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 90.5, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/05/F0006.png",
 		estatistica: {
 			ps:		 	78,
@@ -178,10 +189,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/65/006Charizard_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)",
 	},
@@ -192,6 +204,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0007.png",
 		estatistica: {
 			ps:		 	44,
@@ -209,10 +222,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9a/007Squirtle_Dream_7.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)",
 	},
@@ -223,6 +237,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 22.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0008.png",
 		estatistica: {
 			ps:		 	59,
@@ -240,10 +255,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/21/008Wartortle_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon)",
 	},
@@ -254,6 +270,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 85.5, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0009.png",
 		estatistica: {
 			ps:		 	79,
@@ -271,10 +288,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2e/009Blastoise_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)",
 	},
@@ -285,6 +303,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 2.9, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0010.png",
 		estatistica: {
 			ps:		 	45,
@@ -302,10 +321,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/89/010Caterpie_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)",
 	},
@@ -316,6 +336,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 9.9, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0011.png",
 		estatistica: {
 			ps:		 	50,
@@ -333,10 +354,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8c/011Metapod_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon)",
 	},
@@ -347,6 +369,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 32.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0012.png",
 		estatistica: {
 			ps:		 	60,
@@ -364,10 +387,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6f/012Butterfree_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Butterfree_(Pok%C3%A9mon)",
 	},
@@ -378,6 +402,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 3.2, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0013.png",
 		estatistica: {
 			ps:		 	40,
@@ -395,10 +420,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/64/013Weedle_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon)",
 	},
@@ -409,6 +435,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0014.png",
 		estatistica: {
 			ps:		 	45,
@@ -426,10 +453,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/07/014Kakuna_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon)",
 	},
@@ -440,6 +468,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cc/F0015.png",
 		estatistica: {
 			ps:		 	65,
@@ -457,10 +486,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/ae/015Beedrill_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon)",
 	},
@@ -471,6 +501,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0016.png",
 		estatistica: {
 			ps:		 	40,
@@ -488,10 +519,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/05/016Pidgey_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)",
 	},
@@ -502,6 +534,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0017.png",
 		estatistica: {
 			ps:		 	63,
@@ -519,10 +552,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3c/017Pidgeotto_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)",
 	},
@@ -533,6 +567,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 39.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b7/F0018.png",
 		estatistica: {
 			ps:		 	83,
@@ -550,10 +585,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ed/018Pidgeot_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeot_(Pok%C3%A9mon)",
 	},
@@ -564,6 +600,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 3.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0019.png",
 		estatistica: {
 			ps:		 	30,
@@ -581,10 +618,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2b/019Rattata_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
 	},
@@ -595,6 +633,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Normal"],
 		massa: 3.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0019.png",
 		estatistica: {
 			ps:		 	30,
@@ -613,10 +652,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/33/019Rattata_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10091.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
 	},
@@ -627,6 +667,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 18.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0020.png",
 		estatistica: {
 			ps:		 	55,
@@ -645,10 +686,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b1/020Raticate_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
 	},
@@ -659,6 +701,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Normal"],
 		massa: 25.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0020.png",
 		estatistica: {
 			ps:		 	75,
@@ -677,10 +720,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2c/020Raticate_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10092.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
 	},
@@ -691,6 +735,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0021.png",
 		estatistica: {
 			ps:		 	40,
@@ -708,10 +753,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/67/021Spearow_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)",
 	},
@@ -722,6 +768,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0022.png",
 		estatistica: {
 			ps:		 	65,
@@ -739,10 +786,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/56/022Fearow_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)",
 	},
@@ -753,6 +801,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 6.9, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0023.png",
 		estatistica: {
 			ps:		 	35,
@@ -763,17 +812,18 @@ const pkmnDisponiveis = [
 			vel: 		55,
 		},
 		descricao:
-			"Move-se de maneira silenciosa e furtiva. Come ovos de pássaros, como Pidgey e Spearow.", // considerando a dex da primeira geração que apareceu
+			"Move-se de maneira silenciosa e furtiva. Come ovos de Pokémon pássaros.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Serpente",
 		obtencao: ["Rotas 4, 8, 9, e outras"],
 		estagio: 1,
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7e/023Ekans_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)",
 	},
@@ -784,6 +834,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 65.0, // em kg
 		altura: 3.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0024.png",
 		estatistica: {
 			ps:		 	60,
@@ -801,10 +852,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/22/024Arbok_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)",
 	},
@@ -815,6 +867,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c4/F0025.png",
 		estatistica: {
 			ps:		 	35,
@@ -832,10 +885,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4d/025Pikachu_Dream_3.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)",
 	},
@@ -846,6 +900,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0026.png",
 		estatistica: {
 			ps:		 	60,
@@ -863,10 +918,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/98/026Raichu_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
 	},
@@ -877,6 +933,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Psíquico"],
 		massa: 21.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0026.png",
 		estatistica: {
 			ps:		 	60,
@@ -894,10 +951,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/03/026Raichu_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10100.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
 	},
@@ -908,6 +966,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0027.png",
 		estatistica: {
 			ps:		 	50,
@@ -925,10 +984,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/81/027Sandshrew_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
 	},
@@ -939,6 +999,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Metal"],
 		massa: 40.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0027.png",
 		estatistica: {
 			ps:		 	50,
@@ -956,10 +1017,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e0/027Sandshrew_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10101.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
 	},
@@ -970,6 +1032,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0028.png",
 		estatistica: {
 			ps:		 	75,
@@ -987,10 +1050,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/eb/028Sandslash_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
@@ -1001,6 +1065,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Metal"],
 		massa: 55.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0028.png",
 		estatistica: {
 			ps:		 	75,
@@ -1018,10 +1083,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/01/028Sandslash_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10102.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
@@ -1032,6 +1098,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0029.png",
 		estatistica: {
 			ps:		 	55,
@@ -1049,10 +1116,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5b/029Nidoran_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%80_(Pok%C3%A9mon)",
 	},
@@ -1063,6 +1131,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 20.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0030.png",
 		estatistica: {
 			ps:		 	70,
@@ -1080,10 +1149,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ea/030Nidorina_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorina_(Pok%C3%A9mon)",
 	},
@@ -1094,6 +1164,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Terra"],
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0031.png",
 		estatistica: {
 			ps:		 	90,
@@ -1111,10 +1182,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1b/031Nidoqueen_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoqueen_(Pok%C3%A9mon)",
 	},
@@ -1125,6 +1197,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0032.png",
 		estatistica: {
 			ps:		 	46,
@@ -1142,10 +1215,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/15/032Nidoran_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%82_(Pok%C3%A9mon)",
 	},
@@ -1156,6 +1230,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/20/F0033.png",
 		estatistica: {
 			ps:		 	61,
@@ -1173,10 +1248,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/56/033Nidorino_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorino_(Pok%C3%A9mon)",
 	},
@@ -1187,6 +1263,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Terra"],
 		massa: 62.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0034.png",
 		estatistica: {
 			ps:		 	81,
@@ -1204,10 +1281,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a3/034Nidoking_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoking_(Pok%C3%A9mon)",
 	},
@@ -1218,6 +1296,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 7.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0035.png",
 		estatistica: {
 			ps:		 	70,
@@ -1235,10 +1314,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e8/035Clefairy_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)",
 	},
@@ -1249,6 +1329,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 40.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0036.png",
 		estatistica: {
 			ps:		 	95,
@@ -1266,10 +1347,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fb/036Clefable_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefable_(Pok%C3%A9mon)",
 	},
@@ -1280,6 +1362,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 9.9, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0037.png",
 		estatistica: {
 			ps:		 	38,
@@ -1297,10 +1380,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/72/037Vulpix_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
 	},
@@ -1311,6 +1395,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 9.9, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0037.png",
 		estatistica: {
 			ps:		 	38,
@@ -1328,10 +1413,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c4/037Vulpix_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10103.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
 	},
@@ -1342,6 +1428,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.9, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0038.png",
 		estatistica: {
 			ps:		 	73,
@@ -1359,10 +1446,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a4/038Ninetales_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
 	},
@@ -1373,6 +1461,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Fada"],
 		massa: 19.9, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0038.png",
 		estatistica: {
 			ps:		 	73,
@@ -1390,10 +1479,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/cc/038Ninetales_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10104.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
 	},
@@ -1404,6 +1494,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0039.png",
 		estatistica: {
 			ps:		 	115,
@@ -1421,10 +1512,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ed/039Jigglypuff_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon)",
 	},
@@ -1435,6 +1527,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 12.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0040.png",
 		estatistica: {
 			ps:		 	140,
@@ -1452,10 +1545,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d8/040Wigglytuff_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wigglytuff_(Pok%C3%A9mon)",
 	},
@@ -1466,6 +1560,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Voador"],
 		massa: 7.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6d/F0041.png",
 		estatistica: {
 			ps:		 	40,
@@ -1484,10 +1579,12 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d9/041Zubat_Dream.png",
+			
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zubat_(Pok%C3%A9mon)",
 	},
@@ -1498,6 +1595,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Voador"],
 		massa: 55.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0042.png",
 		estatistica: {
 			ps:		 	75,
@@ -1516,10 +1614,12 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/ff/042Golbat_Dream.png",
+			
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)",
 	},
@@ -1530,6 +1630,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 5.4, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0043.png",
 		estatistica: {
 			ps:		 	45,
@@ -1547,10 +1648,12 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/43/043Oddish_Dream.png",
+			
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Oddish_(Pok%C3%A9mon)",
 	},
@@ -1561,6 +1664,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 8.6, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0044.png",
 		estatistica: {
 			ps:		 	60,
@@ -1578,10 +1682,12 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/81/044Gloom_Dream.png",
+			
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon)",
 	},
@@ -1592,6 +1698,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 18.6, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0045.png",
 		estatistica: {
 			ps:		 	75,
@@ -1609,10 +1716,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a7/045Vileplume_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vileplume_(Pok%C3%A9mon)",
 	},
@@ -1623,6 +1731,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 5.4, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0046.png",
 		estatistica: {
 			ps:		 	35,
@@ -1640,10 +1749,12 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1c/046Paras_Dream.png",
+			
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)",
 	},
@@ -1654,6 +1765,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0047.png",
 		estatistica: {
 			ps:		 	60,
@@ -1671,10 +1783,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0e/047Parasect_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)",
 	},
@@ -1685,6 +1798,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0048.png",
 		estatistica: {
 			ps:		 	60,
@@ -1702,10 +1816,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9f/048Venonat_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venonat_(Pok%C3%A9mon)",
 	},
@@ -1716,6 +1831,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 12.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0049.png",
 		estatistica: {
 			ps:		 	70,
@@ -1734,10 +1850,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f3/049Venomoth_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)",
 	},
@@ -1748,6 +1865,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 0.8, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0050.png",
 		estatistica: {
 			ps:		 	10,
@@ -1765,10 +1883,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a6/050Diglett_Dream_3.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
 	},
@@ -1779,6 +1898,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Metal"],
 		massa: 1.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0050.png",
 		estatistica: {
 			ps:		 	10,
@@ -1797,10 +1917,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/80/050Diglett_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10105.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
 	},
@@ -1811,6 +1932,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 33.3, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0051.png",
 		estatistica: {
 			ps:		 	35,
@@ -1827,10 +1949,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/26/051Dugtrio_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)",
 	},
@@ -1841,6 +1964,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Metal"],
 		massa: 66.6, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0051.png",
 		estatistica: {
 			ps:		 	35,
@@ -1859,10 +1983,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7d/051Dugtrio_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10106.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)",
 	},
@@ -1873,6 +1998,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
 			ps:		 	40,
@@ -1890,10 +2016,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/84/052Meowth_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -1904,6 +2031,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
 			ps:		 	40,
@@ -1921,10 +2049,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a6/052Meowth_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10107.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -1935,6 +2064,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
 			ps:		 	50,
@@ -1952,10 +2082,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7d/052Meowth_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10161.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -1966,6 +2097,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0053.png",
 		estatistica: {
 			ps:		 	65,
@@ -1983,10 +2115,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/65/053Persian_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon)",
 	},
@@ -1997,6 +2130,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 33.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0053.png",
 		estatistica: {
 			ps:		 	65,
@@ -2014,10 +2148,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/95/053Persian_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10108.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon)",
 	},
@@ -2028,6 +2163,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 19.6, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0054.png",
 		estatistica: {
 			ps:		 	50,
@@ -2045,10 +2181,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/72/054Psyduck_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)",
 	},
@@ -2059,6 +2196,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 76.6, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0055.png",
 		estatistica: {
 			ps:		 	80,
@@ -2076,10 +2214,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/04/055Golduck_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon)",
 	},
@@ -2090,6 +2229,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 28.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0056.png",
 		estatistica: {
 			ps:		 	40,
@@ -2107,10 +2247,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6f/056Mankey_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mankey_(Pok%C3%A9mon)",
 	},
@@ -2121,6 +2262,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0057.png",
 		estatistica: {
 			ps:		 	65,
@@ -2138,10 +2280,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/24/057Primeape_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Primeape_(Pok%C3%A9mon)",
 	},
@@ -2152,6 +2295,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0058.png",
 		estatistica: {
 			ps:		 	55,
@@ -2169,10 +2313,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b0/058Growlithe_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
 	},
@@ -2183,6 +2328,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Rocha"],
 		massa: 22.7, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0058.png",
 		estatistica: {
 			ps:		 	60,
@@ -2200,10 +2346,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/ff/058Growlithe-Hisui_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10229.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
 	},
@@ -2214,6 +2361,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 155.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0059.png",
 		estatistica: {
 			ps:		 	90,
@@ -2231,10 +2379,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b5/059Arcanine_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon)",
 	},
@@ -2245,6 +2394,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Rocha"],
 		massa: 168.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0059.png",
 		estatistica: {
 			ps:		 	95,
@@ -2262,10 +2412,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ee/059Arcanine_Hisui_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon)",
 	},
@@ -2276,6 +2427,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 12.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0060.png",
 		estatistica: {
 			ps:		 	40,
@@ -2294,10 +2446,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/39/060Poliwag_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon)",
 	},
@@ -2308,6 +2461,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 20.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0061.png",
 		estatistica: {
 			ps:		 	65,
@@ -2325,10 +2479,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d0/061Poliwhirl_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwhirl_(Pok%C3%A9mon)",
 	},
@@ -2339,6 +2494,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0062.png",
 		estatistica: {
 			ps:		 	90,
@@ -2356,10 +2512,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f0/062Poliwrath_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwrath_(Pok%C3%A9mon)",
 	},
@@ -2370,6 +2527,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0063.png",
 		estatistica: {
 			ps:		 	25,
@@ -2387,10 +2545,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d6/063Abra_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Abra_(Pok%C3%A9mon)",
 	},
@@ -2401,6 +2560,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 56.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0064.png",
 		estatistica: {
 			ps:		 	40,
@@ -2418,10 +2578,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e9/064Kadabra_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kadabra_(Pok%C3%A9mon)",
 	},
@@ -2432,6 +2593,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 48.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0065.png",
 		estatistica: {
 			ps:		 	55,
@@ -2449,10 +2611,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/63/065Alakazam_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon)",
 	},
@@ -2463,6 +2626,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 19.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/F0066.png",
 		estatistica: {
 			ps:		 	70,
@@ -2480,10 +2644,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/87/066Machop_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machop_(Pok%C3%A9mon)",
 	},
@@ -2494,6 +2659,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 70.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0067.png",
 		estatistica: {
 			ps:		 	80,
@@ -2511,10 +2677,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/47/067Machoke_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machoke_(Pok%C3%A9mon)",
 	},
@@ -2525,6 +2692,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 130.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0068.png",
 		estatistica: {
 			ps:		 	90,
@@ -2542,10 +2710,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/77/068Machamp_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machamp_(Pok%C3%A9mon)",
 	},
@@ -2556,6 +2725,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 4.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0069.png",
 		estatistica: {
 			ps:		 	50,
@@ -2573,10 +2743,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/ac/069Bellsprout_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellsprout_(Pok%C3%A9mon)",
 	},
@@ -2587,6 +2758,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 6.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a1/F0070.png",
 		estatistica: {
 			ps:		 	65,
@@ -2604,10 +2776,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1e/070Weepinbell_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weepinbell_(Pok%C3%A9mon)",
 	},
@@ -2618,6 +2791,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 15.5, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0071.png",
 		estatistica: {
 			ps:		 	80,
@@ -2635,10 +2809,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/22/071Victreebel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Victreebel_(Pok%C3%A9mon)",
 	},
@@ -2649,6 +2824,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Veneno"],
 		massa: 45.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0072.png",
 		estatistica: {
 			ps:		 	40,
@@ -2666,10 +2842,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/da/072Tentacool_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacool_(Pok%C3%A9mon)",
 	},
@@ -2680,6 +2857,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Veneno"],
 		massa: 55.5, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0073.png",
 		estatistica: {
 			ps:		 	80,
@@ -2697,10 +2875,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f5/073Tentacruel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacruel_(Pok%C3%A9mon)",
 	},
@@ -2711,6 +2890,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 20.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0074.png",
 		estatistica: {
 			ps:		 	40,
@@ -2728,10 +2908,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5e/074Geodude_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
 	},
@@ -2742,6 +2923,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Elétrico"],
 		massa: 20.3, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0074.png",
 		estatistica: {
 			ps:		 	40,
@@ -2759,10 +2941,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/eb/074Geodude_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10109.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
 	},
@@ -2773,6 +2956,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 105.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0075.png",
 		estatistica: {
 			ps:		 	55,
@@ -2790,10 +2974,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/72/075Graveler_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
 	},
@@ -2804,6 +2989,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Elétrico"],
 		massa: 110.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0075.png",
 		estatistica: {
 			ps:		 	55,
@@ -2821,10 +3007,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1d/075Graveler_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10110.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
 	},
@@ -2835,6 +3022,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 300.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/11/F0076.png",
 		estatistica: {
 			ps:		 	80,
@@ -2852,10 +3040,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/be/076Golem_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)",
 	},
@@ -2866,6 +3055,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Elétrico"],
 		massa: 316.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/11/F0076.png",
 		estatistica: {
 			ps:		 	80,
@@ -2883,10 +3073,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/13/076Golem_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10111.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)",
 	},
@@ -2897,6 +3088,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0077.png",
 		estatistica: {
 			ps:		 	50,
@@ -2914,10 +3106,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/da/077Ponyta_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
 	},
@@ -2928,6 +3121,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 24.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0077.png",
 		estatistica: {
 			ps:		 	50,
@@ -2945,10 +3139,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b2/077Ponyta_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10162.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
 	},
@@ -2959,6 +3154,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 95.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0078.png",
 		estatistica: {
 			ps:		 	65,
@@ -2976,10 +3172,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d0/078Rapidash_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon)",
 	},
@@ -2990,6 +3187,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 80.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0078.png",
 		estatistica: {
 			ps:		 	65,
@@ -3007,10 +3205,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c1/078Rapidash_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10163.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon)",
 	},
@@ -3021,6 +3220,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0079.png",
 		estatistica: {
 			ps:		 	90,
@@ -3038,10 +3238,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b7/079Slowpoke_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
 	},
@@ -3052,6 +3253,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0079.png",
 		estatistica: {
 			ps:		 	90,
@@ -3069,10 +3271,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a6/079Slowpoke_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10164.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
 	},
@@ -3083,6 +3286,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 78.5, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0080.png",
 		estatistica: {
 			ps:		 	95,
@@ -3101,10 +3305,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ef/080Slowbro_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
 	},
@@ -3115,6 +3320,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Psíquico"],
 		massa: 70.5, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0080.png",
 		estatistica: {
 			ps:		 	95,
@@ -3132,10 +3338,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ea/080Slowbro_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
 	},
@@ -3146,6 +3353,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Metal"],
 		massa: 6.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0081.png",
 		estatistica: {
 			ps:		 	25,
@@ -3163,10 +3371,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/59/081Magnemite_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon)",
 	},
@@ -3177,6 +3386,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Metal"],
 		massa: 60.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0082.png",
 		estatistica: {
 			ps:		 	50,
@@ -3194,10 +3404,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d8/082Magneton_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)",
 	},
@@ -3208,6 +3419,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0083.png",
 		estatistica: {
 			ps:		 	52,
@@ -3225,10 +3437,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/21/083Farfetch%27d_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
 	},
@@ -3239,6 +3452,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 42.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0083.png",
 		estatistica: {
 			ps:		 	52,
@@ -3256,10 +3470,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8b/083Farfetch%27d_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10166.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
 	},
@@ -3270,6 +3485,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 39.2, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0084.png",
 		estatistica: {
 			ps:		 	35,
@@ -3287,10 +3503,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/88/084Doduo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon)",
 	},
@@ -3301,6 +3518,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 85.2, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0085.png",
 		estatistica: {
 			ps:		 	60,
@@ -3318,10 +3536,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f2/085Dodrio_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)",
 	},
@@ -3332,6 +3551,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 90.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0086.png",
 		estatistica: {
 			ps:		 	65,
@@ -3349,10 +3569,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0d/086Seel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seel_(Pok%C3%A9mon)",
 	},
@@ -3363,6 +3584,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Gelo"],
 		massa: 120.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0087.png",
 		estatistica: {
 			ps:		 	90,
@@ -3380,10 +3602,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d2/087Dewgong_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dewgong_(Pok%C3%A9mon)",
 	},
@@ -3394,6 +3617,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0088.png",
 		estatistica: {
 			ps:		 	80,
@@ -3411,10 +3635,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0e/088Grimer_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon)",
 	},
@@ -3425,6 +3650,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 42.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0088.png",
 		estatistica: {
 			ps:		 	80,
@@ -3442,10 +3668,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fb/088Grimer_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10112.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon)",
 	},
@@ -3456,6 +3683,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0089.png",
 		estatistica: {
 			ps:		 	105,
@@ -3473,10 +3701,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a0/089Muk_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon)",
 	},
@@ -3487,6 +3716,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 52.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0089.png",
 		estatistica: {
 			ps:		 	105,
@@ -3504,10 +3734,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d1/089Muk_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon)",
 	},
@@ -3518,6 +3749,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0090.png",
 		estatistica: {
 			ps:		 	30,
@@ -3535,10 +3767,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/62/090Shellder_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon)",
 	},
@@ -3549,6 +3782,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Gelo"],
 		massa: 132.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0091.png",
 		estatistica: {
 			ps:		 	50,
@@ -3566,10 +3800,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5c/091Cloyster_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cloyster_(Pok%C3%A9mon)",
 	},
@@ -3580,6 +3815,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0092.png",
 		estatistica: {
 			ps:		 	30,
@@ -3597,10 +3833,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/aa/092Gastly_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gastly_(Pok%C3%A9mon)",
 	},
@@ -3611,6 +3848,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0093.png",
 		estatistica: {
 			ps:		 	45,
@@ -3628,10 +3866,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d1/093Haunter_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)",
 	},
@@ -3642,6 +3881,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Veneno"],
 		massa: 40.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0094.png",
 		estatistica: {
 			ps:		 	60,
@@ -3659,10 +3899,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ed/094Gengar_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)",
 	},
@@ -3673,6 +3914,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 210.0, // em kg
 		altura: 8.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0095.png",
 		estatistica: {
 			ps:		 	35,
@@ -3690,10 +3932,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7a/095Onix_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon)",
 	},
@@ -3704,6 +3947,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 32.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0096.png",
 		estatistica: {
 			ps:		 	60,
@@ -3721,10 +3965,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2f/096Drowzee_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drowzee_(Pok%C3%A9mon)",
 	},
@@ -3735,6 +3980,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 75.6, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0097.png",
 		estatistica: {
 			ps:		 	85,
@@ -3752,10 +3998,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8d/097Hypno_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hypno_(Pok%C3%A9mon)",
 	},
@@ -3766,6 +4013,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0098.png",
 		estatistica: {
 			ps:		 	30,
@@ -3783,10 +4031,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/cf/098Krabby_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Krabby_(Pok%C3%A9mon)",
 	},
@@ -3797,6 +4046,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0099.png",
 		estatistica: {
 			ps:		 	55,
@@ -3815,10 +4065,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1f/099Kingler_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)",
 	},
@@ -3829,6 +4080,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 10.4, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0100.png",
 		estatistica: {
 			ps:		 	40,
@@ -3846,10 +4098,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/63/100Voltorb_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
 	},
@@ -3860,6 +4113,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Planta"],
 		massa: 13.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0100.png",
 		estatistica: {
 			ps:		 	40,
@@ -3877,10 +4131,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4f/100Voltorb-Hisui_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
 	},
@@ -3891,6 +4146,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 66.6, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0101.png",
 		estatistica: {
 			ps:		 	60,
@@ -3908,10 +4164,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/ca/101Electrode_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
 	},
@@ -3922,6 +4179,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Planta"],
 		massa: 71.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0101.png",
 		estatistica: {
 			ps:		 	60,
@@ -3939,10 +4197,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6c/101Electrode-Hisui_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10232.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
 	},
@@ -3953,6 +4212,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Psíquico"],
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0102.png",
 		estatistica: {
 			ps:		 	60,
@@ -3970,10 +4230,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/74/102Exeggcute_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggcute_(Pok%C3%A9mon)",
 	},
@@ -3984,6 +4245,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Psíquico"],
 		massa: 120.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0103.png",
 		estatistica: {
 			ps:		 	95,
@@ -4001,10 +4263,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7f/103Exeggutor_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)",
 	},
@@ -4015,6 +4278,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Dragão"],
 		massa: 415.6, // em kg
 		altura: 10.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0103.png",
 		estatistica: {
 			ps:		 	95,
@@ -4032,10 +4296,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e3/103Exeggutor_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10114.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)",
 	},
@@ -4046,6 +4311,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0104.png",
 		estatistica: {
 			ps:		 	50,
@@ -4063,10 +4329,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3a/104Cubone_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cubone_(Pok%C3%A9mon)",
 	},
@@ -4077,6 +4344,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 45.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0105.png",
 		estatistica: {
 			ps:		 	60,
@@ -4095,10 +4363,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c9/105Marowak_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
 	},
@@ -4109,6 +4378,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Fantasma"],
 		massa: 34.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0105.png",
 		estatistica: {
 			ps:		 	60,
@@ -4126,10 +4396,11 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/61/105Marowak_Alola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10115.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
 	},
@@ -4140,6 +4411,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 49.8, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0106.png",
 		estatistica: {
 			ps:		 	50,
@@ -4157,10 +4429,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3c/106Hitmonlee_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmonlee_(Pok%C3%A9mon)",
 	},
@@ -4171,6 +4444,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 50.2, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/13/F0107.png",
 		estatistica: {
 			ps:		 	50,
@@ -4188,10 +4462,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b3/107Hitmonchan_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmonchan_(Pok%C3%A9mon)",
 	},
@@ -4202,6 +4477,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 65.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/74/F0108.png",
 		estatistica: {
 			ps:		 	90,
@@ -4219,10 +4495,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f5/108Lickitung_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lickitung_(Pok%C3%A9mon)",
 	},
@@ -4233,6 +4510,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0109.png",
 		estatistica: {
 			ps:		 	40,
@@ -4250,10 +4528,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/89/109Koffing_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Koffing_(Pok%C3%A9mon)",
 	},
@@ -4264,6 +4543,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 9.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0110.png",
 		estatistica: {
 			ps:		 	65,
@@ -4281,10 +4561,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/43/110Weezing_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)",
 	},
@@ -4295,6 +4576,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Fada"],
 		massa: 16.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0110.png",
 		estatistica: {
 			ps:		 	65,
@@ -4313,10 +4595,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/da/110Weezing_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10167.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)",
 	},
@@ -4327,6 +4610,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Rocha"],
 		massa: 115.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0111.png",
 		estatistica: {
 			ps:		 	80,
@@ -4344,10 +4628,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/63/111Rhyhorn_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhyhorn_(Pok%C3%A9mon)",
 	},
@@ -4358,6 +4643,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Rocha"],
 		massa: 120.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0112.png",
 		estatistica: {
 			ps:		 	105,
@@ -4375,10 +4661,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/ff/112Rhydon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon)",
 	},
@@ -4389,6 +4676,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 34.6, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0113.png",
 		estatistica: {
 			ps:		 	250,
@@ -4406,10 +4694,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2a/113Chansey_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)",
 	},
@@ -4420,6 +4709,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0114.png",
 		estatistica: {
 			ps:		 	65,
@@ -4437,10 +4727,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ef/114Tangela_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon)",
 	},
@@ -4451,6 +4742,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 80.0, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0115.png",
 		estatistica: {
 			ps:		 	105,
@@ -4468,10 +4760,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3c/115Kangaskhan_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon)",
 	},
@@ -4482,6 +4775,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 8.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0116.png",
 		estatistica: {
 			ps:		 	30,
@@ -4499,10 +4793,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/de/116Horsea_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Horsea_(Pok%C3%A9mon)",
 	},
@@ -4513,6 +4808,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 25.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0117.png",
 		estatistica: {
 			ps:		 	55,
@@ -4531,10 +4827,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/59/117Seadra_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)",
 	},
@@ -4545,6 +4842,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 15.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0118.png",
 		estatistica: {
 			ps:		 	45,
@@ -4563,10 +4861,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/af/118Goldeen_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)",
 	},
@@ -4577,6 +4876,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 39.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0119.png",
 		estatistica: {
 			ps:		 	80,
@@ -4594,10 +4894,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c9/119Seaking_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon)",
 	},
@@ -4608,6 +4909,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 34.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0120.png",
 		estatistica: {
 			ps:		 	30,
@@ -4625,10 +4927,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/10/120Staryu_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staryu_(Pok%C3%A9mon)",
 	},
@@ -4639,6 +4942,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 80.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0121.png",
 		estatistica: {
 			ps:		 	60,
@@ -4656,10 +4960,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d8/121Starmie_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon)",
 	},
@@ -4670,6 +4975,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 54.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0122.png",
 		estatistica: {
 			ps:		 	40,
@@ -4687,10 +4993,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/10/122Mr._Mime_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon)",
 	},
@@ -4701,6 +5008,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Psíquico"],
 		massa: 56.8, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0122.png",
 		estatistica: {
 			ps:		 	50,
@@ -4718,10 +5026,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e0/122Mr._Mime_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10168.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon)",
 	},
@@ -4732,6 +5041,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 56.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/49/F0123.png",
 		estatistica: {
 			ps:		 	70,
@@ -4749,10 +5059,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1f/123Scyther_Dream_3.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scyther_(Pok%C3%A9mon)",
 	},
@@ -4763,6 +5074,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Psíquico"],
 		massa: 40.6, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0124.png",
 		estatistica: {
 			ps:		 	65,
@@ -4780,10 +5092,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e5/124Jynx_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jynx_(Pok%C3%A9mon)",
 	},
@@ -4794,6 +5107,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0125.png",
 		estatistica: {
 			ps:		 	65,
@@ -4811,10 +5125,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bf/125Electabuzz_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electabuzz_(Pok%C3%A9mon)",
 	},
@@ -4825,6 +5140,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 44.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0126.png",
 		estatistica: {
 			ps:		 	65,
@@ -4842,10 +5158,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/52/126Magmar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magmar_(Pok%C3%A9mon)",
 	},
@@ -4856,6 +5173,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/62/F0127.png",
 		estatistica: {
 			ps:		 	65,
@@ -4873,10 +5191,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c5/127Pinsir_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pinsir_(Pok%C3%A9mon)",
 	},
@@ -4887,6 +5206,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 88.4, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -4904,10 +5224,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/99/128Tauros_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -4918,6 +5239,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 115.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -4935,10 +5257,11 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6c/0128Tauros-Paldea_Combat_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10250.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -4949,6 +5272,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Fogo"],
 		massa: 85.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -4967,10 +5291,11 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/cd/0128Tauros-Paldea_Blaze_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10251.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -4981,6 +5306,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Água"],
 		massa: 110.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -4999,10 +5325,11 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2c/0128Tauros-Paldea_Aqua_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10252.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -5013,6 +5340,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 10.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0129.png",
 		estatistica: {
 			ps:		 	20,
@@ -5031,10 +5359,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f7/129Magikarp_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)",
 	},
@@ -5045,6 +5374,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 235.0, // em kg
 		altura: 6.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0130.png",
 		estatistica: {
 			ps:		 	95,
@@ -5062,10 +5392,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2a/130Gyarados_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)",
 	},
@@ -5076,6 +5407,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Gelo"],
 		massa: 220.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0131.png",
 		estatistica: {
 			ps:		 	130,
@@ -5093,10 +5425,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/74/131Lapras_Dream_6.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)",
 	},
@@ -5107,6 +5440,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/ff/F0132.png",
 		estatistica: {
 			ps:		 	48,
@@ -5125,10 +5459,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d1/132Ditto_Dream_6.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)",
 	},
@@ -5139,6 +5474,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0133.png",
 		estatistica: {
 			ps:		 	55,
@@ -5156,10 +5492,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b0/133Eevee_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)",
 	},
@@ -5170,6 +5507,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 29.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0134.png",
 		estatistica: {
 			ps:		 	130,
@@ -5187,10 +5525,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/93/134Vaporeon_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vaporeon_(Pok%C3%A9mon)",
 	},
@@ -5201,6 +5540,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 24.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0135.png",
 		estatistica: {
 			ps:		 	65,
@@ -5218,10 +5558,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/67/135Jolteon_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jolteon_(Pok%C3%A9mon)",
 	},
@@ -5232,6 +5573,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 25.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0136.png",
 		estatistica: {
 			ps:		 	65,
@@ -5249,10 +5591,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ee/136Flareon_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flareon_(Pok%C3%A9mon)",
 	},
@@ -5263,6 +5606,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 36.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d4/F0137.png",
 		estatistica: {
 			ps:		 	65,
@@ -5280,10 +5624,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/60/137Porygon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon_(Pok%C3%A9mon)",
 	},
@@ -5294,6 +5639,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0138.png",
 		estatistica: {
 			ps:		 	35,
@@ -5311,10 +5657,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/95/138Omanyte_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omanyte_(Pok%C3%A9mon)",
 	},
@@ -5325,6 +5672,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0139.png",
 		estatistica: {
 			ps:		 	70,
@@ -5342,10 +5690,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/37/139Omastar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omastar_(Pok%C3%A9mon)",
 	},
@@ -5356,6 +5705,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 11.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0140.png",
 		estatistica: {
 			ps:		 	30,
@@ -5373,10 +5723,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/88/140Kabuto_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabuto_(Pok%C3%A9mon)",
 	},
@@ -5387,6 +5738,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 40.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0141.png",
 		estatistica: {
 			ps:		 	60,
@@ -5404,10 +5756,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/83/141Kabutops_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon)",
 	},
@@ -5418,6 +5771,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Voador"],
 		massa: 59.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0142.png",
 		estatistica: {
 			ps:		 	80,
@@ -5435,10 +5789,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c6/142Aerodactyl_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon)",
 	},
@@ -5449,6 +5804,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 460.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0143.png",
 		estatistica: {
 			ps:		 	160,
@@ -5466,10 +5822,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/20/143Snorlax_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)",
 	},
@@ -5480,6 +5837,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Voador"],
 		massa: 55.4, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0144.png",
 		estatistica: {
 			ps:		 	90,
@@ -5497,10 +5855,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/46/144Articuno_Dream_3.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
 	},
@@ -5511,6 +5870,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 50.9, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0144.png",
 		estatistica: {
 			ps:		 	90,
@@ -5528,10 +5888,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/93/144Articuno_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10169.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
 	},
@@ -5542,6 +5903,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 52.6, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/36/F0145.png",
 		estatistica: {
 			ps:		 	90,
@@ -5559,10 +5921,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/65/145Zapdos_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
 	},
@@ -5573,6 +5936,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Voador"],
 		massa: 58.2, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/36/F0145.png",
 		estatistica: {
 			ps:		 	90,
@@ -5590,10 +5954,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/96/145Zapdos_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10170.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
 	},
@@ -5604,6 +5969,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0146.png",
 		estatistica: {
 			ps:		 	90,
@@ -5621,10 +5987,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/10/146Moltres_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
 	},
@@ -5635,6 +6002,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 66.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0146.png",
 		estatistica: {
 			ps:		 	90,
@@ -5652,10 +6020,11 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/88/146Moltres_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10171.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
 	},
@@ -5666,6 +6035,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 3.3, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0147.png",
 		estatistica: {
 			ps:		 	41,
@@ -5683,10 +6053,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/67/147Dratini_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)",
 	},
@@ -5697,6 +6068,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 16.5, // em kg
 		altura: 4.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0148.png",
 		estatistica: {
 			ps:		 	61,
@@ -5714,10 +6086,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/07/148Dragonair_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)",
 	},
@@ -5728,6 +6101,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 210.0, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0149.png",
 		estatistica: {
 			ps:		 	91,
@@ -5745,10 +6119,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0c/149Dragonite_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)",
 	},
@@ -5759,6 +6134,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 122.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0150.png",
 		estatistica: {
 			ps:		 	106,
@@ -5776,10 +6152,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/49/150Mewtwo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)",
 	},
@@ -5790,6 +6167,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 4.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ad/F0151.png",
 		estatistica: {
 			ps:		 	100,
@@ -5807,10 +6185,11 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/60/151Mew_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)",
 	},
@@ -5821,6 +6200,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 6.4, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0152.png",
 		estatistica: {
 			ps:		 	45,
@@ -5838,6 +6218,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5852,6 +6233,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 15.8, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5c/F0153.png",
 		estatistica: {
 			ps:		 	60,
@@ -5869,6 +6251,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5883,6 +6266,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 100.5, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0154.png",
 		estatistica: {
 			ps:		 	80,
@@ -5900,6 +6284,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5914,6 +6299,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 7.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0155.png",
 		estatistica: {
 			ps:		 	39,
@@ -5931,6 +6317,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5945,6 +6332,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/88/F0156.png",
 		estatistica: {
 			ps:		 	58,
@@ -5962,6 +6350,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5976,6 +6365,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 79.5, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/19/F0157.png",
 		estatistica: {
 			ps:		 	78,
@@ -5993,6 +6383,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -6007,6 +6398,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Fantasma"],
 		massa: 69.8, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/19/F0157.png",
 		estatistica: {
 			ps:		 	73,
@@ -6024,6 +6416,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -6038,6 +6431,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0158.png",
 		estatistica: {
 			ps:		 	50,
@@ -6055,6 +6449,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6069,6 +6464,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 25.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
 			ps:		 	65,
@@ -6086,6 +6482,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6100,6 +6497,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 88.8, // em kg
 		altura: 2.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
 			ps:		 	85,
@@ -6117,6 +6515,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6131,6 +6530,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c8/F0161.png",
 		estatistica: {
 			ps:		 	35,
@@ -6148,6 +6548,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6162,6 +6563,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0162.png",
 		estatistica: {
 			ps:		 	85,
@@ -6179,6 +6581,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6193,6 +6596,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 21.2, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0163.png",
 		estatistica: {
 			ps:		 	60,
@@ -6211,6 +6615,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6225,6 +6630,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 40.8, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0164.png",
 		estatistica: {
 			ps:		 	100,
@@ -6242,6 +6648,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6256,6 +6663,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 10.8, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0165.png",
 		estatistica: {
 			ps:		 	40,
@@ -6273,6 +6681,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6287,6 +6696,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 35.6, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0166.png",
 		estatistica: {
 			ps:		 	55,
@@ -6304,6 +6714,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6318,6 +6729,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 8.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0167.png",
 		estatistica: {
 			ps:		 	40,
@@ -6335,6 +6747,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6349,6 +6762,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0168.png",
 		estatistica: {
 			ps:		 	70,
@@ -6366,6 +6780,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6380,6 +6795,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Voador"],
 		massa: 75.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0169.png",
 		estatistica: {
 			ps:		 	85,
@@ -6397,6 +6813,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6411,6 +6828,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Elétrico"],
 		massa: 12.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0170.png",
 		estatistica: {
 			ps:		 	75,
@@ -6428,6 +6846,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6442,6 +6861,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Elétrico"],
 		massa: 22.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0171.png",
 		estatistica: {
 			ps:		 	125,
@@ -6459,6 +6879,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6473,6 +6894,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0172.png",
 		estatistica: {
 			ps:		 	20,
@@ -6490,6 +6912,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6504,6 +6927,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 3.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0173.png",
 		estatistica: {
 			ps:		 	50,
@@ -6521,6 +6945,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6535,6 +6960,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0174.png",
 		estatistica: {
 			ps:		 	90,
@@ -6552,6 +6978,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6566,6 +6993,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 1.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0175.png",
 		estatistica: {
 			ps:		 	35,
@@ -6583,6 +7011,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6597,6 +7026,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Voador"],
 		massa: 3.2, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0176.png",
 		estatistica: {
 			ps:		 	55,
@@ -6614,6 +7044,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6628,6 +7059,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0177.png",
 		estatistica: {
 			ps:		 	40,
@@ -6645,6 +7077,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6659,6 +7092,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 15.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0178.png",
 		estatistica: {
 			ps:		 	65,
@@ -6676,6 +7110,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6690,6 +7125,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1f/F0179.png",
 		estatistica: {
 			ps:		 	55,
@@ -6707,6 +7143,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6721,6 +7158,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 13.3, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0180.png",
 		estatistica: {
 			ps:		 	70,
@@ -6738,6 +7176,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6752,6 +7191,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 61.5, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0181.png",
 		estatistica: {
 			ps:		 	90,
@@ -6769,6 +7209,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6783,6 +7224,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 5.8, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0182.png",
 		estatistica: {
 			ps:		 	75,
@@ -6800,6 +7242,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6814,6 +7257,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fada"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0183.png",
 		estatistica: {
 			ps:		 	70,
@@ -6831,6 +7275,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6845,6 +7290,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fada"],
 		massa: 28.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0184.png",
 		estatistica: {
 			ps:		 	100,
@@ -6862,6 +7308,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6876,6 +7323,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0185.png",
 		estatistica: {
 			ps:		 	70,
@@ -6893,6 +7341,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6907,6 +7356,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 33.9, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0186.png",
 		estatistica: {
 			ps:		 	90,
@@ -6924,6 +7374,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6938,6 +7389,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 0.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0187.png",
 		estatistica: {
 			ps:		 	35,
@@ -6955,6 +7407,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6969,6 +7422,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0188.png",
 		estatistica: {
 			ps:		 	55,
@@ -6986,6 +7440,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7000,6 +7455,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 3.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0189.png",
 		estatistica: {
 			ps:		 	75,
@@ -7017,6 +7473,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7031,6 +7488,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 11.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0190.png",
 		estatistica: {
 			ps:		 	55,
@@ -7048,6 +7506,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7062,6 +7521,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a3/F0191.png",
 		estatistica: {
 			ps:		 	30,
@@ -7079,6 +7539,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7093,6 +7554,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 8.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0192.png",
 		estatistica: {
 			ps:		 	75,
@@ -7110,6 +7572,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7124,6 +7587,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0193.png",
 		estatistica: {
 			ps:		 	65,
@@ -7141,6 +7605,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7155,6 +7620,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0194.png",
 		estatistica: {
 			ps:		 	55,
@@ -7172,6 +7638,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7186,6 +7653,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Terra"],
 		massa: 11.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0194.png",
 		estatistica: {
 			ps:		 	55,
@@ -7204,6 +7672,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7218,6 +7687,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 75.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0195.png",
 		estatistica: {
 			ps:		 	95,
@@ -7236,6 +7706,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7250,6 +7721,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 26.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0196.png",
 		estatistica: {
 			ps:		 	65,
@@ -7267,6 +7739,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7281,6 +7754,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 27.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0197.png",
 		estatistica: {
 			ps:		 	95,
@@ -7298,6 +7772,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7312,6 +7787,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 2.1, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0198.png",
 		estatistica: {
 			ps:		 	60,
@@ -7329,6 +7805,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7343,6 +7820,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 79.5, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/28/F0199.png",
 		estatistica: {
 			ps:		 	95,
@@ -7360,6 +7838,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7374,6 +7853,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Psíquico"],
 		massa: 79.5, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/28/F0199.png",
 		estatistica: {
 			ps:		 	95,
@@ -7391,6 +7871,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7405,6 +7886,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 1.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0200.png",
 		estatistica: {
 			ps:		 	60,
@@ -7422,6 +7904,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7436,6 +7919,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0201.png",
 		estatistica: {
 			ps:		 	48,
@@ -7453,6 +7937,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7494,6 +7979,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 28.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0202.png",
 		estatistica: {
 			ps:		 	190,
@@ -7511,6 +7997,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7525,6 +8012,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Psíquico"],
 		massa: 41.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0203.png",
 		estatistica: {
 			ps:		 	70,
@@ -7542,6 +8030,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7556,6 +8045,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 7.2, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0204.png",
 		estatistica: {
 			ps:		 	50,
@@ -7573,6 +8063,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7587,6 +8078,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 125.8, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0205.png",
 		estatistica: {
 			ps:		 	75,
@@ -7604,6 +8096,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7618,6 +8111,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 14.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/91/F0206.png",
 		estatistica: {
 			ps:		 	100,
@@ -7635,6 +8129,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7649,6 +8144,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Voador"],
 		massa: 64.8, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0207.png",
 		estatistica: {
 			ps:		 	65,
@@ -7666,6 +8162,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7680,6 +8177,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Terra"],
 		massa: 400.0, // em kg
 		altura: 9.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0208.png",
 		estatistica: {
 			ps:		 	75,
@@ -7697,6 +8195,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7711,6 +8210,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0209.png",
 		estatistica: {
 			ps:		 	60,
@@ -7728,6 +8228,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7742,6 +8243,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 48.7, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e3/F0210.png",
 		estatistica: {
 			ps:		 	90,
@@ -7759,6 +8261,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7773,6 +8276,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Veneno"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0211.png",
 		estatistica: {
 			ps:		 	65,
@@ -7790,6 +8294,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7804,6 +8309,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Veneno"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0211.png",
 		estatistica: {
 			ps:		 	65,
@@ -7822,6 +8328,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7836,6 +8343,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 118.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0212.png",
 		estatistica: {
 			ps:		 	70,
@@ -7853,6 +8361,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7867,6 +8376,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Rocha"],
 		massa: 20.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0213.png",
 		estatistica: {
 			ps:		 	20,
@@ -7884,6 +8394,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7898,6 +8409,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0214.png",
 		estatistica: {
 			ps:		 	80,
@@ -7915,6 +8427,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -7929,6 +8442,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Gelo"],
 		massa: 28.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0215.png",
 		estatistica: {
 			ps:		 	55,
@@ -7946,6 +8460,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7960,6 +8475,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Veneno"],
 		massa: 27.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0215.png",
 		estatistica: {
 			ps:		 	55,
@@ -7978,6 +8494,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -7992,6 +8509,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 8.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b5/F0216.png",
 		estatistica: {
 			ps:		 	60,
@@ -8009,6 +8527,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8023,6 +8542,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 125.8, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0217.png",
 		estatistica: {
 			ps:		 	90,
@@ -8041,6 +8561,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8055,6 +8576,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 35.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0218.png",
 		estatistica: {
 			ps:		 	40,
@@ -8072,6 +8594,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8086,6 +8609,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Rocha"],
 		massa: 55.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0219.png",
 		estatistica: {
 			ps:		 	60,
@@ -8103,6 +8627,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8117,6 +8642,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0220.png",
 		estatistica: {
 			ps:		 	50,
@@ -8134,6 +8660,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8148,6 +8675,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Terra"],
 		massa: 55.8, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0221.png",
 		estatistica: {
 			ps:		 	100,
@@ -8165,6 +8693,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8179,6 +8708,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Rocha"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0222.png",
 		estatistica: {
 			ps:		 	65,
@@ -8196,6 +8726,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -8210,6 +8741,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 0.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0222.png",
 		estatistica: {
 			ps:		 	60,
@@ -8227,6 +8759,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -8241,6 +8774,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0223.png",
 		estatistica: {
 			ps:		 	35,
@@ -8258,6 +8792,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8272,6 +8807,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 28.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0224.png",
 		estatistica: {
 			ps:		 	75,
@@ -8289,6 +8825,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8303,6 +8840,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Voador"],
 		massa: 16.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0225.png",
 		estatistica: {
 			ps:		 	45,
@@ -8320,6 +8858,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8334,6 +8873,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 220.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0226.png",
 		estatistica: {
 			ps:		 	85,
@@ -8351,6 +8891,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8365,6 +8906,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Voador"],
 		massa: 50.5, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0227.png",
 		estatistica: {
 			ps:		 	65,
@@ -8382,6 +8924,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8396,6 +8939,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fogo"],
 		massa: 10.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0228.png",
 		estatistica: {
 			ps:		 	45,
@@ -8413,6 +8957,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8427,6 +8972,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fogo"],
 		massa: 35.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0229.png",
 		estatistica: {
 			ps:		 	75,
@@ -8444,6 +8990,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8458,6 +9005,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Dragão"],
 		massa: 152.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0230.png",
 		estatistica: {
 			ps:		 	75,
@@ -8475,6 +9023,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8489,6 +9038,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 33.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0231.png",
 		estatistica: {
 			ps:		 	90,
@@ -8506,6 +9056,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8520,6 +9071,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 120.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0232.png",
 		estatistica: {
 			ps:		 	90,
@@ -8538,6 +9090,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8552,6 +9105,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6a/F0233.png",
 		estatistica: {
 			ps:		 	85,
@@ -8569,6 +9123,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8583,6 +9138,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 71.2, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0234.png",
 		estatistica: {
 			ps:		 	73,
@@ -8600,6 +9156,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8614,6 +9171,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 58.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0235.png",
 		estatistica: {
 			ps:		 	55,
@@ -8631,6 +9189,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8645,6 +9204,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 21.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0236.png",
 		estatistica: {
 			ps:		 	35,
@@ -8662,6 +9222,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8676,6 +9237,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 48.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0237.png",
 		estatistica: {
 			ps:		 	50,
@@ -8693,6 +9255,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8707,6 +9270,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Psíquico"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7c/F0238.png",
 		estatistica: {
 			ps:		 	45,
@@ -8724,6 +9288,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8738,6 +9303,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 23.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8a/F0239.png",
 		estatistica: {
 			ps:		 	45,
@@ -8755,6 +9321,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8769,6 +9336,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 21.4, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0240.png",
 		estatistica: {
 			ps:		 	45,
@@ -8786,6 +9354,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8800,6 +9369,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 75.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0241.png",
 		estatistica: {
 			ps:		 	95,
@@ -8817,6 +9387,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8831,6 +9402,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 46.8, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0242.png",
 		estatistica: {
 			ps:		 	255,
@@ -8848,6 +9420,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8862,6 +9435,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 178.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0243.png",
 		estatistica: {
 			ps:		 	90,
@@ -8879,6 +9453,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8893,6 +9468,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 198.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0244.png",
 		estatistica: {
 			ps:		 	115,
@@ -8910,6 +9486,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8924,6 +9501,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 187.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0245.png",
 		estatistica: {
 			ps:		 	100,
@@ -8941,6 +9519,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -8955,6 +9534,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 72.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0246.png",
 		estatistica: {
 			ps:		 	50,
@@ -8972,6 +9552,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -8986,6 +9567,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Terra"],
 		massa: 152.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/80/F0247.png",
 		estatistica: {
 			ps:		 	70,
@@ -9003,6 +9585,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9017,6 +9600,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Noturno"],
 		massa: 202.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0248.png",
 		estatistica: {
 			ps:		 	100,
@@ -9034,6 +9618,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9048,6 +9633,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 216.0, // em kg
 		altura: 5.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0249.png",
 		estatistica: {
 			ps:		 	106,
@@ -9065,6 +9651,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -9079,6 +9666,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 199.0, // em kg
 		altura: 3.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0250.png",
 		estatistica: {
 			ps:		 	106,
@@ -9096,6 +9684,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -9110,6 +9699,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Planta"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0251.png",
 		estatistica: {
 			ps:		 	100,
@@ -9127,6 +9717,7 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -9141,6 +9732,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0252.png",
 		estatistica: {
 			ps:		 	40,
@@ -9158,6 +9750,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9172,6 +9765,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 21.6, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/69/F0253.png",
 		estatistica: {
 			ps:		 	50,
@@ -9189,6 +9783,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9203,6 +9798,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 52.2, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0254.png",
 		estatistica: {
 			ps:		 	70,
@@ -9220,6 +9816,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9234,6 +9831,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0255.png",
 		estatistica: {
 			ps:		 	45,
@@ -9251,6 +9849,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9265,6 +9864,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0256.png",
 		estatistica: {
 			ps:		 	60,
@@ -9282,6 +9882,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9296,6 +9897,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 52.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a7/F0257.png",
 		estatistica: {
 			ps:		 	80,
@@ -9313,6 +9915,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9327,6 +9930,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.6, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0258.png",
 		estatistica: {
 			ps:		 	50,
@@ -9344,6 +9948,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9358,6 +9963,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 28.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ee/F0259.png",
 		estatistica: {
 			ps:		 	70,
@@ -9375,6 +9981,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9389,6 +9996,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 81.9, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0260.png",
 		estatistica: {
 			ps:		 	100,
@@ -9406,6 +10014,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9420,6 +10029,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 13.6, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0261.png",
 		estatistica: {
 			ps:		 	35,
@@ -9437,6 +10047,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9451,6 +10062,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 37.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e5/F0262.png",
 		estatistica: {
 			ps:		 	70,
@@ -9468,6 +10080,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9482,6 +10095,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 17.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/50/F0263.png",
 		estatistica: {
 			ps:		 	38,
@@ -9499,6 +10113,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9513,6 +10128,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Normal"],
 		massa: 17.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/50/F0263.png",
 		estatistica: {
 			ps:		 	38,
@@ -9530,6 +10146,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9544,6 +10161,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0264.png",
 		estatistica: {
 			ps:		 	78,
@@ -9561,6 +10179,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9575,6 +10194,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Normal"],
 		massa: 32.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0264.png",
 		estatistica: {
 			ps:		 	78,
@@ -9593,6 +10213,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -9607,6 +10228,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 3.6, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1c/F0265.png",
 		estatistica: {
 			ps:		 	45,
@@ -9624,6 +10246,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9638,6 +10261,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0266.png",
 		estatistica: {
 			ps:		 	50,
@@ -9655,6 +10279,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9669,6 +10294,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 28.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0267.png",
 		estatistica: {
 			ps:		 	60,
@@ -9686,6 +10312,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9700,6 +10327,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 11.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0268.png",
 		estatistica: {
 			ps:		 	50,
@@ -9717,6 +10345,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9731,6 +10360,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 31.6, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0269.png",
 		estatistica: {
 			ps:		 	60,
@@ -9748,6 +10378,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9762,6 +10393,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Planta"],
 		massa: 2.6, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0270.png",
 		estatistica: {
 			ps:		 	40,
@@ -9779,6 +10411,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9793,6 +10426,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Planta"],
 		massa: 32.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0271.png",
 		estatistica: {
 			ps:		 	60,
@@ -9810,6 +10444,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9824,6 +10459,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Planta"],
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0272.png",
 		estatistica: {
 			ps:		 	80,
@@ -9841,6 +10477,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9855,6 +10492,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 4.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/22/F0273.png",
 		estatistica: {
 			ps:		 	40,
@@ -9872,6 +10510,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9886,6 +10525,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 28.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0274.png",
 		estatistica: {
 			ps:		 	70,
@@ -9903,6 +10543,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9917,6 +10558,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 59.6, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0275.png",
 		estatistica: {
 			ps:		 	90,
@@ -9934,6 +10576,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9948,6 +10591,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0276.png",
 		estatistica: {
 			ps:		 	40,
@@ -9965,6 +10609,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9979,6 +10624,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 19.8, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0277.png",
 		estatistica: {
 			ps:		 	60,
@@ -9996,6 +10642,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10010,6 +10657,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0278.png",
 		estatistica: {
 			ps:		 	40,
@@ -10027,6 +10675,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10041,6 +10690,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 28.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0279.png",
 		estatistica: {
 			ps:		 	60,
@@ -10058,6 +10708,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10072,6 +10723,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 6.6, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0280.png",
 		estatistica: {
 			ps:		 	28,
@@ -10089,6 +10741,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10103,6 +10756,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 20.2, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0281.png",
 		estatistica: {
 			ps:		 	38,
@@ -10120,6 +10774,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10134,6 +10789,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 48.4, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0282.png",
 		estatistica: {
 			ps:		 	68,
@@ -10151,6 +10807,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10165,6 +10822,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Água"],
 		massa: 1.7, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e7/F0283.png",
 		estatistica: {
 			ps:		 	40,
@@ -10182,6 +10840,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10196,6 +10855,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 3.6, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0284.png",
 		estatistica: {
 			ps:		 	70,
@@ -10213,6 +10873,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10227,6 +10888,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 4.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0285.png",
 		estatistica: {
 			ps:		 	60,
@@ -10244,6 +10906,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10258,6 +10921,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Lutador"],
 		massa: 39.2, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0286.png",
 		estatistica: {
 			ps:		 	60,
@@ -10275,6 +10939,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10289,6 +10954,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 24.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0287.png",
 		estatistica: {
 			ps:		 	60,
@@ -10306,6 +10972,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10320,6 +10987,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 46.5, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0288.png",
 		estatistica: {
 			ps:		 	80,
@@ -10337,6 +11005,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10351,6 +11020,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 130.5, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0289.png",
 		estatistica: {
 			ps:		 	150,
@@ -10368,6 +11038,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10382,6 +11053,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Terra"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0290.png",
 		estatistica: {
 			ps:		 	31,
@@ -10399,6 +11071,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10413,6 +11086,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0291.png",
 		estatistica: {
 			ps:		 	61,
@@ -10430,6 +11104,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10444,6 +11119,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fantasma"],
 		massa: 1.2, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0292.png",
 		estatistica: {
 			ps:		 	1,
@@ -10461,6 +11137,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10475,6 +11152,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 16.3, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0293.png",
 		estatistica: {
 			ps:		 	64,
@@ -10492,6 +11170,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10506,6 +11185,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 40.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0294.png",
 		estatistica: {
 			ps:		 	84,
@@ -10523,6 +11203,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10537,6 +11218,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 84.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/73/F0295.png",
 		estatistica: {
 			ps:		 	104,
@@ -10554,6 +11236,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10568,6 +11251,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 86.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0296.png",
 		estatistica: {
 			ps:		 	72,
@@ -10585,6 +11269,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10599,6 +11284,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 253.8, // em kg
 		altura: 2.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0297.png",
 		estatistica: {
 			ps:		 	144,
@@ -10616,6 +11302,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10630,6 +11317,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fada"],
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0298.png",
 		estatistica: {
 			ps:		 	50,
@@ -10647,6 +11335,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10661,6 +11350,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 97.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f0/F0299.png",
 		estatistica: {
 			ps:		 	30,
@@ -10678,6 +11368,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10692,6 +11383,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 11.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0300.png",
 		estatistica: {
 			ps:		 	50,
@@ -10709,6 +11401,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10723,6 +11416,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 32.6, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0301.png",
 		estatistica: {
 			ps:		 	70,
@@ -10740,6 +11434,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10754,6 +11449,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fantasma"],
 		massa: 11.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0302.png",
 		estatistica: {
 			ps:		 	50,
@@ -10772,6 +11468,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10786,6 +11483,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fada"],
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0303.png",
 		estatistica: {
 			ps:		 	50,
@@ -10804,6 +11502,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10818,6 +11517,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Rocha"],
 		massa: 60.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0304.png",
 		estatistica: {
 			ps:		 	50,
@@ -10835,6 +11535,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10849,6 +11550,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Rocha"],
 		massa: 120.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0305.png",
 		estatistica: {
 			ps:		 	60,
@@ -10866,6 +11568,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10880,6 +11583,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Rocha"],
 		massa: 360.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0306.png",
 		estatistica: {
 			ps:		 	70,
@@ -10897,6 +11601,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10911,6 +11616,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Psíquico"],
 		massa: 11.2, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0307.png",
 		estatistica: {
 			ps:		 	30,
@@ -10928,6 +11634,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10942,6 +11649,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Psíquico"],
 		massa: 31.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a9/F0308.png",
 		estatistica: {
 			ps:		 	60,
@@ -10959,6 +11667,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10973,6 +11682,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 15.2, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0309.png",
 		estatistica: {
 			ps:		 	40,
@@ -10990,6 +11700,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11004,6 +11715,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 40.2, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0310.png",
 		estatistica: {
 			ps:		 	70,
@@ -11021,6 +11733,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11035,6 +11748,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0311.png",
 		estatistica: {
 			ps:		 	60,
@@ -11052,6 +11766,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11066,6 +11781,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0312.png",
 		estatistica: {
 			ps:		 	60,
@@ -11083,6 +11799,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11097,6 +11814,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0313.png",
 		estatistica: {
 			ps:		 	65,
@@ -11114,6 +11832,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11128,6 +11847,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/31/F0314.png",
 		estatistica: {
 			ps:		 	65,
@@ -11145,6 +11865,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11159,6 +11880,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0315.png",
 		estatistica: {
 			ps:		 	50,
@@ -11176,6 +11898,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11190,6 +11913,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 10.3, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0316.png",
 		estatistica: {
 			ps:		 	70,
@@ -11207,6 +11931,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11221,6 +11946,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 80.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0317.png",
 		estatistica: {
 			ps:		 	100,
@@ -11238,6 +11964,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11252,6 +11979,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 20.8, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0318.png",
 		estatistica: {
 			ps:		 	45,
@@ -11269,6 +11997,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11283,6 +12012,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 88.8, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0319.png",
 		estatistica: {
 			ps:		 	70,
@@ -11300,6 +12030,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11314,6 +12045,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 130.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6c/F0320.png",
 		estatistica: {
 			ps:		 	130,
@@ -11332,6 +12064,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11346,6 +12079,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 398.0, // em kg
 		altura: 14.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0321.png",
 		estatistica: {
 			ps:		 	170,
@@ -11363,6 +12097,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11377,6 +12112,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Terra"],
 		massa: 24.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2c/F0322.png",
 		estatistica: {
 			ps:		 	60,
@@ -11394,6 +12130,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11408,6 +12145,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Terra"],
 		massa: 220.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0323.png",
 		estatistica: {
 			ps:		 	70,
@@ -11425,6 +12163,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11439,6 +12178,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 80.4, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0324.png",
 		estatistica: {
 			ps:		 	70,
@@ -11456,6 +12196,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11470,6 +12211,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 30.6, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0325.png",
 		estatistica: {
 			ps:		 	60,
@@ -11487,6 +12229,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11501,6 +12244,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 71.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0326.png",
 		estatistica: {
 			ps:		 	80,
@@ -11518,6 +12262,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11532,6 +12277,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 5.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0327.png",
 		estatistica: {
 			ps:		 	60,
@@ -11549,6 +12295,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11563,6 +12310,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 15.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0328.png",
 		estatistica: {
 			ps:		 	45,
@@ -11580,6 +12328,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11594,6 +12343,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Dragão"],
 		massa: 15.3, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0329.png",
 		estatistica: {
 			ps:		 	50,
@@ -11611,6 +12361,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11625,6 +12376,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Dragão"],
 		massa: 82.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0330.png",
 		estatistica: {
 			ps:		 	80,
@@ -11642,6 +12394,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11656,6 +12409,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 51.3, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0331.png",
 		estatistica: {
 			ps:		 	50,
@@ -11673,6 +12427,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11687,6 +12442,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 77.4, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0332.png",
 		estatistica: {
 			ps:		 	70,
@@ -11704,6 +12460,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11718,6 +12475,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0333.png",
 		estatistica: {
 			ps:		 	45,
@@ -11735,6 +12493,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11749,6 +12508,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 20.6, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/89/F0334.png",
 		estatistica: {
 			ps:		 	75,
@@ -11766,6 +12526,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11780,6 +12541,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 40.3, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0335.png",
 		estatistica: {
 			ps:		 	73,
@@ -11797,6 +12559,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11811,6 +12574,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 52.5, // em kg
 		altura: 2.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0336.png",
 		estatistica: {
 			ps:		 	73,
@@ -11828,6 +12592,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11842,6 +12607,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Psíquico"],
 		massa: 168.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0337.png",
 		estatistica: {
 			ps:		 	90,
@@ -11859,6 +12625,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11873,6 +12640,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Psíquico"],
 		massa: 154.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0338.png",
 		estatistica: {
 			ps:		 	90,
@@ -11890,6 +12658,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11904,6 +12673,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 1.9, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/da/F0339.png",
 		estatistica: {
 			ps:		 	50,
@@ -11922,6 +12692,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11936,6 +12707,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 23.6, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6b/F0340.png",
 		estatistica: {
 			ps:		 	110,
@@ -11953,6 +12725,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11967,6 +12740,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0341.png",
 		estatistica: {
 			ps:		 	43,
@@ -11984,6 +12758,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11998,6 +12773,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 32.8, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0342.png",
 		estatistica: {
 			ps:		 	63,
@@ -12015,6 +12791,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12029,6 +12806,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Psíquico"],
 		massa: 21.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0343.png",
 		estatistica: {
 			ps:		 	40,
@@ -12046,6 +12824,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12060,6 +12839,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Psíquico"],
 		massa: 108.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0344.png",
 		estatistica: {
 			ps:		 	60,
@@ -12070,13 +12850,14 @@ const pkmnDisponiveis = [
 			vel: 		75,
 		},
 		descricao:
-			"Rumores dizem que são bonecas de lama feitas por humanos primitivos e trazidos a vida pela exposição a um raio misterioso. Este Pokémon se move enquanto levita.", // considerando a dex da primeira geração que apareceu
+			"Rumores dizem que são bonecas de lama feitas por humanos primitivos e trazidas a vida pela exposição a um raio misterioso. Este Pokémon se move enquanto levita.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Boneco de Argila",
 		obtencao: ["Pilar Celeste", "Por evolução"],
 		estagio: 2,
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12091,6 +12872,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Planta"],
 		massa: 23.8, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0345.png",
 		estatistica: {
 			ps:		 	66,
@@ -12108,6 +12890,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12122,6 +12905,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Planta"],
 		massa: 60.4, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0346.png",
 		estatistica: {
 			ps:		 	86,
@@ -12139,6 +12923,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12153,6 +12938,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Inseto"],
 		massa: 12.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0347.png",
 		estatistica: {
 			ps:		 	45,
@@ -12170,6 +12956,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12184,6 +12971,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Inseto"],
 		massa: 68.2, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0348.png",
 		estatistica: {
 			ps:		 	75,
@@ -12201,6 +12989,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12215,6 +13004,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0349.png",
 		estatistica: {
 			ps:		 	20,
@@ -12232,6 +13022,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12246,6 +13037,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 162.0, // em kg
 		altura: 6.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0350.png",
 		estatistica: {
 			ps:		 	95,
@@ -12263,6 +13055,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12277,6 +13070,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -12295,6 +13089,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12309,6 +13104,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -12327,6 +13123,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12341,6 +13138,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -12359,6 +13157,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12373,6 +13172,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -12391,6 +13191,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12405,6 +13206,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 22.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0352.png",
 		estatistica: {
 			ps:		 	60,
@@ -12422,6 +13224,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12436,6 +13239,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 2.3, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0353.png",
 		estatistica: {
 			ps:		 	44,
@@ -12453,6 +13257,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12467,6 +13272,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 12.5, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8b/F0354.png",
 		estatistica: {
 			ps:		 	64,
@@ -12484,6 +13290,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12498,6 +13305,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0355.png",
 		estatistica: {
 			ps:		 	20,
@@ -12515,6 +13323,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12529,6 +13338,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 30.6, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0356.png",
 		estatistica: {
 			ps:		 	40,
@@ -12546,6 +13356,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12560,6 +13371,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0357.png",
 		estatistica: {
 			ps:		 	99,
@@ -12577,6 +13389,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12591,6 +13404,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0358.png",
 		estatistica: {
 			ps:		 	75,
@@ -12608,6 +13422,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12622,6 +13437,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 47.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0359.png",
 		estatistica: {
 			ps:		 	65,
@@ -12639,6 +13455,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12653,6 +13470,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 14.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0360.png",
 		estatistica: {
 			ps:		 	95,
@@ -12670,6 +13488,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12684,6 +13503,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 16.8, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0361.png",
 		estatistica: {
 			ps:		 	50,
@@ -12701,6 +13521,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12715,6 +13536,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 256.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0362.png",
 		estatistica: {
 			ps:		 	80,
@@ -12732,6 +13554,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12746,6 +13569,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Água"],
 		massa: 39.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0363.png",
 		estatistica: {
 			ps:		 	70,
@@ -12763,6 +13587,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12777,6 +13602,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Água"],
 		massa: 87.6, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0364.png",
 		estatistica: {
 			ps:		 	90,
@@ -12794,6 +13620,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12808,6 +13635,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Água"],
 		massa: 150.6, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3c/F0365.png",
 		estatistica: {
 			ps:		 	110,
@@ -12825,6 +13653,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12839,6 +13668,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 52.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fc/F0366.png",
 		estatistica: {
 			ps:		 	35,
@@ -12856,6 +13686,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12870,6 +13701,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 27.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0367.png",
 		estatistica: {
 			ps:		 	55,
@@ -12887,6 +13719,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12901,6 +13734,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 22.6, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0368.png",
 		estatistica: {
 			ps:		 	55,
@@ -12918,6 +13752,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12932,6 +13767,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Rocha"],
 		massa: 23.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0369.png",
 		estatistica: {
 			ps:		 	100,
@@ -12949,6 +13785,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12963,6 +13800,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 8.7, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0370.png",
 		estatistica: {
 			ps:		 	43,
@@ -12980,6 +13818,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12994,6 +13833,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 42.1, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0371.png",
 		estatistica: {
 			ps:		 	45,
@@ -13011,6 +13851,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13025,6 +13866,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 110.5, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0372.png",
 		estatistica: {
 			ps:		 	65,
@@ -13042,6 +13884,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13056,6 +13899,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 102.6, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0373.png",
 		estatistica: {
 			ps:		 	95,
@@ -13073,6 +13917,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13087,6 +13932,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 95.2, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0374.png",
 		estatistica: {
 			ps:		 	40,
@@ -13104,6 +13950,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13118,6 +13965,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 202.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0375.png",
 		estatistica: {
 			ps:		 	60,
@@ -13135,6 +13983,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13149,6 +13998,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 550.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0376.png",
 		estatistica: {
 			ps:		 	80,
@@ -13166,6 +14016,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13180,6 +14031,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 230.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0377.png",
 		estatistica: {
 			ps:		 	80,
@@ -13197,6 +14049,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13211,6 +14064,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 175.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0378.png",
 		estatistica: {
 			ps:		 	80,
@@ -13228,6 +14082,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13242,6 +14097,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 205.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0379.png",
 		estatistica: {
 			ps:		 	80,
@@ -13259,6 +14115,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13273,6 +14130,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Psíquico"],
 		massa: 40.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0380.png",
 		estatistica: {
 			ps:		 	80,
@@ -13290,6 +14148,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13304,6 +14163,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Psíquico"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0381.png",
 		estatistica: {
 			ps:		 	80,
@@ -13321,6 +14181,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13335,6 +14196,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 352.0, // em kg
 		altura: 4.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0382.png",
 		estatistica: {
 			ps:		 	100,
@@ -13352,6 +14214,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13366,6 +14229,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 950.0, // em kg
 		altura: 3.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0383.png",
 		estatistica: {
 			ps:		 	100,
@@ -13383,6 +14247,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13397,6 +14262,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Voador"],
 		massa: 	206.5, // em kg
 		altura: 7.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0384.png",
 		estatistica: {
 			ps:		 	105,
@@ -13414,6 +14280,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13428,6 +14295,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 1.1, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0385.png",
 		estatistica: {
 			ps:		 	100,
@@ -13445,6 +14313,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13459,6 +14328,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -13476,6 +14346,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13490,6 +14361,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -13507,6 +14379,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13521,6 +14394,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -13538,6 +14412,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13552,6 +14427,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -13569,6 +14445,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -13583,6 +14460,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 10.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0387.png",
 		estatistica: {
 			ps:		 	55,
@@ -13600,6 +14478,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13614,6 +14493,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 97.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0388.png",
 		estatistica: {
 			ps:		 	75,
@@ -13631,6 +14511,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13645,6 +14526,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Terra"],
 		massa: 310.0, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0389.png",
 		estatistica: {
 			ps:		 	95,
@@ -13662,6 +14544,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13676,6 +14559,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 6.2, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0390.png",
 		estatistica: {
 			ps:		 	44,
@@ -13693,6 +14577,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13707,6 +14592,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 22.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/41/F0391.png",
 		estatistica: {
 			ps:		 	64,
@@ -13724,6 +14610,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13738,6 +14625,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 55.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0392.png",
 		estatistica: {
 			ps:		 	76,
@@ -13755,6 +14643,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13769,6 +14658,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0393.png",
 		estatistica: {
 			ps:		 	53,
@@ -13786,6 +14676,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13800,6 +14691,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 23.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0394.png",
 		estatistica: {
 			ps:		 	64,
@@ -13817,6 +14709,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13831,6 +14724,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Metal"],
 		massa: 84.5, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0395.png",
 		estatistica: {
 			ps:		 	84,
@@ -13848,6 +14742,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13862,6 +14757,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0396.png",
 		estatistica: {
 			ps:		 	40,
@@ -13879,6 +14775,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13893,6 +14790,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 15.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0397.png",
 		estatistica: {
 			ps:		 	55,
@@ -13911,6 +14809,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13925,6 +14824,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 24.9, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0398.png",
 		estatistica: {
 			ps:		 	85,
@@ -13942,6 +14842,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13956,6 +14857,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 20.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0399.png",
 		estatistica: {
 			ps:		 	59,
@@ -13974,6 +14876,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13988,6 +14891,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Água"],
 		massa: 31.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0400.png",
 		estatistica: {
 			ps:		 	79,
@@ -14006,6 +14910,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14020,6 +14925,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 2.2, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0401.png",
 		estatistica: {
 			ps:		 	37,
@@ -14037,6 +14943,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14051,6 +14958,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0402.png",
 		estatistica: {
 			ps:		 	77,
@@ -14069,6 +14977,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14083,6 +14992,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 9.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0403.png",
 		estatistica: {
 			ps:		 	45,
@@ -14100,6 +15010,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14114,6 +15025,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 30.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0404.png",
 		estatistica: {
 			ps:		 	60,
@@ -14131,6 +15043,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14145,6 +15058,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 42.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0405.png",
 		estatistica: {
 			ps:		 	80,
@@ -14162,6 +15076,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14176,6 +15091,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 1.2, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0406.png",
 		estatistica: {
 			ps:		 	40,
@@ -14194,6 +15110,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14208,6 +15125,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 14.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0407.png",
 		estatistica: {
 			ps:		 	60,
@@ -14225,6 +15143,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14239,6 +15158,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 31.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0408.png",
 		estatistica: {
 			ps:		 	67,
@@ -14256,6 +15176,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14270,6 +15191,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 102.5, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0409.png",
 		estatistica: {
 			ps:		 	97,
@@ -14287,6 +15209,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14301,6 +15224,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Metal"],
 		massa: 57.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0410.png",
 		estatistica: {
 			ps:		 	30,
@@ -14318,6 +15242,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14332,6 +15257,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Metal"],
 		massa: 149.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0411.png",
 		estatistica: {
 			ps:		 	60,
@@ -14349,6 +15275,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14363,6 +15290,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 3.4, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0412.png",
 		estatistica: {
 			ps:		 	40,
@@ -14381,6 +15309,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14397,6 +15326,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps:		 	60,
@@ -14414,6 +15344,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14428,6 +15359,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps:		 	60,
@@ -14445,6 +15377,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14459,6 +15392,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps:		 	60,
@@ -14476,6 +15410,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14490,6 +15425,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 23.3, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/48/F0414.png",
 		estatistica: {
 			ps:		 	70,
@@ -14507,6 +15443,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14521,6 +15458,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 5.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/95/F0415.png",
 		estatistica: {
 			ps:		 	30,
@@ -14539,6 +15477,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14553,6 +15492,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 38.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0416.png",
 		estatistica: {
 			ps:		 	70,
@@ -14570,6 +15510,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14584,6 +15525,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 3.9, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0417.png",
 		estatistica: {
 			ps:		 	60,
@@ -14601,6 +15543,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14615,6 +15558,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 29.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0418.png",
 		estatistica: {
 			ps:		 	55,
@@ -14632,6 +15576,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14646,6 +15591,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0419.png",
 		estatistica: {
 			ps:		 	85,
@@ -14664,6 +15610,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14678,6 +15625,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 3.3, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0420.png",
 		estatistica: {
 			ps:		 	45,
@@ -14696,6 +15644,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14710,6 +15659,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 9.3, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0421.png",
 		estatistica: {
 			ps:		 	70,
@@ -14727,6 +15677,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14742,6 +15693,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 6.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0422.png",
 		estatistica: {
 			ps:		 	76,
@@ -14759,6 +15711,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14773,6 +15726,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 6.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0422.png",
 		estatistica: {
 			ps:		 	76,
@@ -14790,6 +15744,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14804,6 +15759,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0423.png",
 		estatistica: {
 			ps:		 	111,
@@ -14821,6 +15777,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14835,6 +15792,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0423.png",
 		estatistica: {
 			ps:		 	111,
@@ -14852,6 +15810,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14866,6 +15825,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 20.3, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0424.png",
 		estatistica: {
 			ps:		 	75,
@@ -14883,6 +15843,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14897,6 +15858,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Voador"],
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0425.png",
 		estatistica: {
 			ps:		 	90,
@@ -14914,6 +15876,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14928,6 +15891,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Voador"],
 		massa: 15.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0426.png",
 		estatistica: {
 			ps:		 	150,
@@ -14945,6 +15909,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14959,6 +15924,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 5.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0427.png",
 		estatistica: {
 			ps:		 	55,
@@ -14976,6 +15942,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14990,6 +15957,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 33.3, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0428.png",
 		estatistica: {
 			ps:		 	65,
@@ -15007,6 +15975,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15021,6 +15990,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 4.4, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0429.png",
 		estatistica: {
 			ps:		 	60,
@@ -15038,6 +16008,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15052,6 +16023,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 27.3, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0430.png",
 		estatistica: {
 			ps:		 	100,
@@ -15069,6 +16041,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15083,6 +16056,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0431.png",
 		estatistica: {
 			ps:		 	49,
@@ -15100,6 +16074,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15114,6 +16089,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 43.8, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0432.png",
 		estatistica: {
 			ps:		 	71,
@@ -15131,6 +16107,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15145,6 +16122,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.6, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0433.png",
 		estatistica: {
 			ps:		 	45,
@@ -15163,6 +16141,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15177,6 +16156,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 19.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0434.png",
 		estatistica: {
 			ps:		 	63,
@@ -15194,6 +16174,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15208,6 +16189,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 38.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0435.png",
 		estatistica: {
 			ps:		 	103,
@@ -15225,6 +16207,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15239,6 +16222,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 60.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0436.png",
 		estatistica: {
 			ps:		 	57,
@@ -15257,6 +16241,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15271,6 +16256,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 187.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c2/F0437.png",
 		estatistica: {
 			ps:		 	67,
@@ -15288,6 +16274,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15302,6 +16289,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 15.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0438.png",
 		estatistica: {
 			ps:		 	50,
@@ -15319,6 +16307,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15333,6 +16322,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 13.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0439.png",
 		estatistica: {
 			ps:		 	20,
@@ -15350,6 +16340,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15364,6 +16355,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 24.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0440.png",
 		estatistica: {
 			ps:		 	100,
@@ -15381,6 +16373,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15395,6 +16388,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/79/F0441.png",
 		estatistica: {
 			ps:		 	76,
@@ -15412,6 +16406,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15426,6 +16421,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Noturno"],
 		massa: 108.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0442.png",
 		estatistica: {
 			ps:		 	50,
@@ -15443,6 +16439,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15457,6 +16454,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 20.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0443.png",
 		estatistica: {
 			ps:		 	58,
@@ -15474,6 +16472,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15488,6 +16487,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 56.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0444.png",
 		estatistica: {
 			ps:		 	68,
@@ -15505,6 +16505,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15519,6 +16520,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 95.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0445.png",
 		estatistica: {
 			ps:		 	108,
@@ -15536,6 +16538,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15550,6 +16553,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 105.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0446.png",
 		estatistica: {
 			ps:		 	135,
@@ -15568,6 +16572,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15582,6 +16587,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 20.2, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0447.png",
 		estatistica: {
 			ps:		 	40,
@@ -15599,6 +16605,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15613,6 +16620,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Metal"],
 		massa: 54.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0448.png",
 		estatistica: {
 			ps:		 	70,
@@ -15630,6 +16638,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15644,6 +16653,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 49.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0449.png",
 		estatistica: {
 			ps:		 	68,
@@ -15661,6 +16671,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15675,6 +16686,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 300.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0450.png",
 		estatistica: {
 			ps:		 	108,
@@ -15692,6 +16704,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15706,6 +16719,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Inseto"],
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0451.png",
 		estatistica: {
 			ps:		 	40,
@@ -15723,6 +16737,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15737,6 +16752,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Noturno"],
 		massa: 61.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0452.png",
 		estatistica: {
 			ps:		 	70,
@@ -15754,6 +16770,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15768,6 +16785,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Lutador"],
 		massa: 23.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0453.png",
 		estatistica: {
 			ps:		 	48,
@@ -15785,6 +16803,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15799,6 +16818,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Lutador"],
 		massa: 44.4, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0454.png",
 		estatistica: {
 			ps:		 	83,
@@ -15816,6 +16836,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15830,6 +16851,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 27.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0455.png",
 		estatistica: {
 			ps:		 	74,
@@ -15847,6 +16869,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15861,6 +16884,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0456.png",
 		estatistica: {
 			ps:		 	49,
@@ -15879,6 +16903,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15893,6 +16918,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 24.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0457.png",
 		estatistica: {
 			ps:		 	69,
@@ -15911,6 +16937,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15925,6 +16952,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 65.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/43/F0458.png",
 		estatistica: {
 			ps:		 	45,
@@ -15942,6 +16970,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15956,6 +16985,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Gelo"],
 		massa: 50.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0459.png",
 		estatistica: {
 			ps:		 	60,
@@ -15974,6 +17004,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15988,6 +17019,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Gelo"],
 		massa: 135.5, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0460.png",
 		estatistica: {
 			ps:		 	90,
@@ -16005,6 +17037,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16019,6 +17052,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Gelo"],
 		massa: 34.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0461.png",
 		estatistica: {
 			ps:		 	70,
@@ -16036,6 +17070,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16050,6 +17085,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Metal"],
 		massa: 180.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0462.png",
 		estatistica: {
 			ps:		 	70,
@@ -16067,6 +17103,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16081,6 +17118,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 140.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0463.png",
 		estatistica: {
 			ps:		 	110,
@@ -16098,6 +17136,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16112,6 +17151,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Rocha"],
 		massa: 282.8, // em kg
 		altura: 2.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0464.png",
 		estatistica: {
 			ps:		 	115,
@@ -16129,6 +17169,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16143,6 +17184,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 128.6, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0465.png",
 		estatistica: {
 			ps:		 	100,
@@ -16160,6 +17202,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16174,6 +17217,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 138.6, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ae/F0466.png",
 		estatistica: {
 			ps:		 	75,
@@ -16191,6 +17235,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16205,6 +17250,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 68.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0467.png",
 		estatistica: {
 			ps:		 	75,
@@ -16222,6 +17268,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16236,6 +17283,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c9/F0468.png",
 		estatistica: {
 			ps:		 	85,
@@ -16253,6 +17301,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16267,6 +17316,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 51.5, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9d/F0469.png",
 		estatistica: {
 			ps:		 	86,
@@ -16284,6 +17334,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16298,6 +17349,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0470.png",
 		estatistica: {
 			ps:		 	65,
@@ -16315,6 +17367,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16329,6 +17382,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 25.9, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0471.png",
 		estatistica: {
 			ps:		 	65,
@@ -16346,6 +17400,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16360,6 +17415,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Voador"],
 		massa: 42.5, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0472.png",
 		estatistica: {
 			ps:		 	75,
@@ -16377,6 +17433,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16391,6 +17448,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Terra"],
 		massa: 291.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/04/F0473.png",
 		estatistica: {
 			ps:		 	110,
@@ -16408,6 +17466,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16422,6 +17481,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 34.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0474.png",
 		estatistica: {
 			ps:		 	85,
@@ -16439,6 +17499,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16453,6 +17514,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Lutador"],
 		massa: 52.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0475.png",
 		estatistica: {
 			ps:		 	68,
@@ -16470,6 +17532,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16484,6 +17547,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Metal"],
 		massa: 340.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0476.png",
 		estatistica: {
 			ps:		 	60,
@@ -16501,6 +17565,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16515,6 +17580,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 106.6, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0477.png",
 		estatistica: {
 			ps:		 	45,
@@ -16532,6 +17598,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16546,6 +17613,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Fantasma"],
 		massa: 26.6, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0478.png",
 		estatistica: {
 			ps:		 	70,
@@ -16563,6 +17631,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16577,6 +17646,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Fantasma"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -16594,6 +17664,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16608,6 +17679,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Fogo"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -16625,6 +17697,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16639,6 +17712,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Água"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -16656,6 +17730,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16670,6 +17745,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Gelo"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -16687,6 +17763,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16701,6 +17778,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -16718,6 +17796,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16732,6 +17811,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Planta"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -16749,6 +17829,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16763,6 +17844,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0480.png",
 		estatistica: {
 			ps:		 	75,
@@ -16780,6 +17862,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16794,6 +17877,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0481.png",
 		estatistica: {
 			ps:		 	80,
@@ -16811,6 +17895,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16825,6 +17910,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0482.png",
 		estatistica: {
 			ps:		 	75,
@@ -16842,6 +17928,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16856,6 +17943,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Dragão"],
 		massa: 683.0, // em kg
 		altura: 5.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0483.png",
 		estatistica: {
 			ps:		 	100,
@@ -16873,6 +17961,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16887,6 +17976,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Dragão"],
 		massa: 336.0, // em kg
 		altura: 4.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0484.png",
 		estatistica: {
 			ps:		 	90,
@@ -16904,6 +17994,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16918,6 +18009,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Metal"],
 		massa: 430.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0485.png",
 		estatistica: {
 			ps:		 	91,
@@ -16935,6 +18027,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16949,6 +18042,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 420.0, // em kg
 		altura: 3.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0486.png",
 		estatistica: {
 			ps:		 	110,
@@ -16966,6 +18060,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -16980,6 +18075,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Dragão"],
 		massa: 750.0, // em kg
 		altura: 4.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0487.png",
 		estatistica: {
 			ps:		 	150,
@@ -16997,6 +18093,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17011,6 +18108,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Dragão"],
 		massa: 650.0, // em kg
 		altura: 6.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0487O.png",
 		estatistica: {
 			ps:		 	150,
@@ -17028,6 +18126,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17042,6 +18141,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 85.6, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0488.png",
 		estatistica: {
 			ps:		 	120,
@@ -17059,6 +18159,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17073,6 +18174,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 3.1, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0489.png",
 		estatistica: {
 			ps:		 	80,
@@ -17090,6 +18192,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17104,6 +18207,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 1.4, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0490.png",
 		estatistica: {
 			ps:		 	100,
@@ -17121,6 +18225,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17135,6 +18240,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 50.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0491.png",
 		estatistica: {
 			ps:		 	70,
@@ -17152,6 +18258,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17166,6 +18273,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 2.1, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
 			ps:		 	100,
@@ -17183,6 +18291,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17197,6 +18306,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
 			ps:		 	100,
@@ -17214,6 +18324,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17228,6 +18339,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 320.0, // em kg
 		altura: 3.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0493.png",
 		estatistica: {
 			ps:		 	120,
@@ -17245,6 +18357,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17259,6 +18372,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fogo"],
 		massa: 4.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c2/F0494.png",
 		estatistica: {
 			ps:		 	100,
@@ -17276,6 +18390,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17290,6 +18405,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 8.1, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0495.png",
 		estatistica: {
 			ps:		 	45,
@@ -17307,6 +18423,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17321,6 +18438,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 16.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0496.png",
 		estatistica: {
 			ps:		 	60,
@@ -17338,6 +18456,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17352,6 +18471,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 63.0, // em kg
 		altura: 3.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0497.png",
 		estatistica: {
 			ps:		 	75,
@@ -17369,6 +18489,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17383,6 +18504,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 9.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1d/F0498.png",
 		estatistica: {
 			ps:		 	65,
@@ -17400,6 +18522,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17414,6 +18537,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 55.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0499.png",
 		estatistica: {
 			ps:		 	90,
@@ -17431,6 +18555,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17445,6 +18570,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Lutador"],
 		massa: 150.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0500.png",
 		estatistica: {
 			ps:		 	110,
@@ -17462,6 +18588,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17476,6 +18603,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 5.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0501.png",
 		estatistica: {
 			ps:		 	55,
@@ -17493,6 +18621,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17507,6 +18636,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 24.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0502.png",
 		estatistica: {
 			ps:		 	75,
@@ -17524,6 +18654,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17538,6 +18669,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 94.6, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0503.png",
 		estatistica: {
 			ps:		 	95,
@@ -17555,6 +18687,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -17569,6 +18702,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 58.2, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0503.png",
 		estatistica: {
 			ps:		 	90,
@@ -17586,6 +18720,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -17600,6 +18735,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 11.6, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0504.png",
 		estatistica: {
 			ps:		 	45,
@@ -17618,6 +18754,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17632,6 +18769,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 27.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0505.png",
 		estatistica: {
 			ps:		 	60,
@@ -17650,6 +18788,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17664,6 +18803,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 4.1, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0506.png",
 		estatistica: {
 			ps:		 	45,
@@ -17681,6 +18821,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17695,6 +18836,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 14.7, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0507.png",
 		estatistica: {
 			ps:		 	65,
@@ -17713,6 +18855,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17727,6 +18870,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 61.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0508.png",
 		estatistica: {
 			ps:		 	85,
@@ -17745,6 +18889,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17759,6 +18904,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 10.1, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0509.png",
 		estatistica: {
 			ps:		 	41,
@@ -17776,6 +18922,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17790,6 +18937,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 37.5, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0510.png",
 		estatistica: {
 			ps:		 	64,
@@ -17807,6 +18955,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17821,6 +18970,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 10.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0511.png",
 		estatistica: {
 			ps:		 	50,
@@ -17839,6 +18989,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17853,6 +19004,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 30.5, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/da/F0512.png",
 		estatistica: {
 			ps:		 	75,
@@ -17870,6 +19022,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17884,6 +19037,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 11.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0513.png",
 		estatistica: {
 			ps:		 	50,
@@ -17902,6 +19056,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17916,6 +19071,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 28.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0514.png",
 		estatistica: {
 			ps:		 	75,
@@ -17933,6 +19089,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17947,6 +19104,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 13.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/22/F0515.png",
 		estatistica: {
 			ps:		 	50,
@@ -17965,6 +19123,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17979,6 +19138,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 29.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0516.png",
 		estatistica: {
 			ps:		 	75,
@@ -17996,6 +19156,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18010,6 +19171,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 23.3, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0517.png",
 		estatistica: {
 			ps:		 	76,
@@ -18027,6 +19189,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18041,6 +19204,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.5, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/63/F0518.png",
 		estatistica: {
 			ps:		 	116,
@@ -18058,6 +19222,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18072,6 +19237,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.1, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0519.png",
 		estatistica: {
 			ps:		 	50,
@@ -18090,6 +19256,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18104,6 +19271,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 15.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0520.png",
 		estatistica: {
 			ps:		 	62,
@@ -18122,6 +19290,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18136,6 +19305,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 29.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0521.png",
 		estatistica: {
 			ps:		 	80,
@@ -18154,6 +19324,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18169,6 +19340,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 29.8, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0522.png",
 		estatistica: {
 			ps:		 	45,
@@ -18186,6 +19358,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18200,6 +19373,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 79.5, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0523.png",
 		estatistica: {
 			ps:		 	75,
@@ -18217,6 +19391,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18231,6 +19406,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 18.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a2/F0524.png",
 		estatistica: {
 			ps:		 	55,
@@ -18248,6 +19424,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18262,6 +19439,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 102.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0525.png",
 		estatistica: {
 			ps:		 	70,
@@ -18280,6 +19458,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18294,6 +19473,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 260.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0526.png",
 		estatistica: {
 			ps:		 	85,
@@ -18311,6 +19491,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18325,6 +19506,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 2.1, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0527.png",
 		estatistica: {
 			ps:		 	65,
@@ -18343,6 +19525,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18357,6 +19540,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 10.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c9/F0528.png",
 		estatistica: {
 			ps:		 	67,
@@ -18374,6 +19558,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18388,6 +19573,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 8.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0b/F0529.png",
 		estatistica: {
 			ps:		 	60,
@@ -18406,6 +19592,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18420,6 +19607,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Metal"],
 		massa: 40.4, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3a/F0530.png",
 		estatistica: {
 			ps:		 	110,
@@ -18438,6 +19626,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18452,6 +19641,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 31.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0531.png",
 		estatistica: {
 			ps:		 	103,
@@ -18470,6 +19660,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18484,6 +19675,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 12.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0532.png",
 		estatistica: {
 			ps:		 	75,
@@ -18501,6 +19693,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18515,6 +19708,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 40.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0533.png",
 		estatistica: {
 			ps:		 	85,
@@ -18533,6 +19727,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18547,6 +19742,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 87.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0534.png",
 		estatistica: {
 			ps:		 	105,
@@ -18564,6 +19760,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18578,6 +19775,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 4.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0b/F0535.png",
 		estatistica: {
 			ps:		 	50,
@@ -18595,6 +19793,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18609,6 +19808,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 17.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0536.png",
 		estatistica: {
 			ps:		 	75,
@@ -18626,6 +19826,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18640,6 +19841,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Terra"],
 		massa: 62.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0537.png",
 		estatistica: {
 			ps:		 	105,
@@ -18657,6 +19859,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18671,6 +19874,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 55.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0538.png",
 		estatistica: {
 			ps:		 	120,
@@ -18689,6 +19893,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18703,6 +19908,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 51.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0539.png",
 		estatistica: {
 			ps:		 	75,
@@ -18721,6 +19927,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18735,6 +19942,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 2.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0540.png",
 		estatistica: {
 			ps:		 	45,
@@ -18752,6 +19960,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18766,6 +19975,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 7.3, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b2/F0541.png",
 		estatistica: {
 			ps:		 	55,
@@ -18783,6 +19993,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18797,6 +20008,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Planta"],
 		massa: 20.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c7/F0542.png",
 		estatistica: {
 			ps:		 	75,
@@ -18814,6 +20026,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18828,6 +20041,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 5.3, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b2/F0543.png",
 		estatistica: {
 			ps:		 	30,
@@ -18845,6 +20059,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18859,6 +20074,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 58.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0544.png",
 		estatistica: {
 			ps:		 	40,
@@ -18876,6 +20092,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18890,6 +20107,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Veneno"],
 		massa: 200.5, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0545.png",
 		estatistica: {
 			ps:		 	60,
@@ -18907,6 +20125,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18921,6 +20140,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fada"],
 		massa: 0.6, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ee/F0546.png",
 		estatistica: {
 			ps:		 	40,
@@ -18939,6 +20159,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18953,6 +20174,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fada"],
 		massa: 6.6, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0547.png",
 		estatistica: {
 			ps:		 	60,
@@ -18971,6 +20193,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18985,6 +20208,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 6.6, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0548.png",
 		estatistica: {
 			ps:		 	45,
@@ -19003,6 +20227,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19017,6 +20242,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 1.1, // em kg
 		altura: 16.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0549.png",
 		estatistica: {
 			ps:		 	70,
@@ -19035,6 +20261,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19049,6 +20276,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Lutador"],
 		massa: 19.2, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0549.png",
 		estatistica: {
 			ps:		 	70,
@@ -19066,6 +20294,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19080,6 +20309,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 18.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/48/F0550.png",
 		estatistica: {
 			ps:		 	70,
@@ -19098,6 +20328,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19114,6 +20345,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Noturno"],
 		massa: 15.2, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0551.png",
 		estatistica: {
 			ps:		 	50,
@@ -19131,6 +20363,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19145,6 +20378,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Noturno"],
 		massa: 33.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0552.png",
 		estatistica: {
 			ps:		 	60,
@@ -19162,6 +20396,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19176,6 +20411,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Noturno"],
 		massa: 96.3, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0553.png",
 		estatistica: {
 			ps:		 	95,
@@ -19193,6 +20429,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19207,6 +20444,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 37.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0554.png",
 		estatistica: {
 			ps:		 	70,
@@ -19224,6 +20462,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19238,6 +20477,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 40.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0554.png",
 		estatistica: {
 			ps:		 	70,
@@ -19255,6 +20495,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19269,6 +20510,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 92.9, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
 			ps:		 	105,
@@ -19286,6 +20528,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19300,6 +20543,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Psíquico"],
 		massa: 92.9, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
 			ps:		 	105,
@@ -19317,6 +20561,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19331,6 +20576,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 120.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
 			ps:		 	105,
@@ -19348,6 +20594,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19362,6 +20609,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Fogo"],
 		massa: 120.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0555.png",
 		estatistica: {
 			ps:		 	105,
@@ -19379,6 +20627,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19393,6 +20642,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 28.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0556.png",
 		estatistica: {
 			ps:		 	75,
@@ -19410,6 +20660,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19424,6 +20675,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Rocha"],
 		massa: 14.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/78/F0557.png",
 		estatistica: {
 			ps:		 	50,
@@ -19441,6 +20693,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19455,6 +20708,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Rocha"],
 		massa: 200.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0558.png",
 		estatistica: {
 			ps:		 	70,
@@ -19472,6 +20726,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19486,6 +20741,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Lutador"],
 		massa: 11.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/05/F0559.png",
 		estatistica: {
 			ps:		 	50,
@@ -19503,6 +20759,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19517,6 +20774,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Lutador"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a7/F0560.png",
 		estatistica: {
 			ps:		 	65,
@@ -19534,6 +20792,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19548,6 +20807,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 14.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0561.png",
 		estatistica: {
 			ps:		 	72,
@@ -19565,6 +20825,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19579,6 +20840,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 1.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0562.png",
 		estatistica: {
 			ps:		 	38,
@@ -19596,6 +20858,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19610,6 +20873,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Fantasma"],
 		massa: 1.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0562.png",
 		estatistica: {
 			ps:		 	38,
@@ -19627,6 +20891,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19641,6 +20906,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 76.5, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0563.png",
 		estatistica: {
 			ps:		 	58,
@@ -19658,6 +20924,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19672,6 +20939,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Rocha"],
 		massa: 16.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0564.png",
 		estatistica: {
 			ps:		 	54,
@@ -19689,6 +20957,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19703,6 +20972,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Rocha"],
 		massa: 81.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6c/F0565.png",
 		estatistica: {
 			ps:		 	74,
@@ -19720,6 +20990,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19734,6 +21005,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Voador"],
 		massa: 9.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/34/F0566.png",
 		estatistica: {
 			ps:		 	55,
@@ -19751,6 +21023,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19765,6 +21038,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Voador"],
 		massa: 32.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0567.png",
 		estatistica: {
 			ps:		 	75,
@@ -19782,6 +21056,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19796,6 +21071,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 31.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1d/F0568.png",
 		estatistica: {
 			ps:		 	50,
@@ -19813,6 +21089,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19827,6 +21104,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 107.3, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0569.png",
 		estatistica: {
 			ps:		 	80,
@@ -19844,6 +21122,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19858,6 +21137,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 12.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0570.png",
 		estatistica: {
 			ps:		 	40,
@@ -19875,6 +21155,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19889,6 +21170,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fantasma"],
 		massa: 12.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0570.png",
 		estatistica: {
 			ps:		 	35,
@@ -19907,6 +21189,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19921,6 +21204,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 81.1, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ea/F0571.png",
 		estatistica: {
 			ps:		 	60,
@@ -19938,6 +21222,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19952,6 +21237,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Fantasma"],
 		massa: 73.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ea/F0571.png",
 		estatistica: {
 			ps:		 	55,
@@ -19970,6 +21256,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -19984,6 +21271,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 5.8, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0572.png",
 		estatistica: {
 			ps:		 	55,
@@ -20001,6 +21289,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20015,6 +21304,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 7.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0573.png",
 		estatistica: {
 			ps:		 	75,
@@ -20032,6 +21322,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20046,6 +21337,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 5.8, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0574.png",
 		estatistica: {
 			ps:		 	45,
@@ -20063,6 +21355,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20077,6 +21370,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 18.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0575.png",
 		estatistica: {
 			ps:		 	60,
@@ -20094,6 +21388,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20108,6 +21403,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 44.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/aa/F0576.png",
 		estatistica: {
 			ps:		 	70,
@@ -20125,6 +21421,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20139,6 +21436,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d2/F0577.png",
 		estatistica: {
 			ps:		 	45,
@@ -20156,6 +21454,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20170,6 +21469,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 8.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0578.png",
 		estatistica: {
 			ps:		 	65,
@@ -20187,6 +21487,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20201,6 +21502,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 20.1, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/94/F0579.png",
 		estatistica: {
 			ps:		 	110,
@@ -20218,6 +21520,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20232,6 +21535,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e3/F0580.png",
 		estatistica: {
 			ps:		 	62,
@@ -20249,6 +21553,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20263,6 +21568,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Voador"],
 		massa: 24.2, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0581.png",
 		estatistica: {
 			ps:		 	75,
@@ -20280,6 +21586,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20294,6 +21601,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 5.7, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c0/F0582.png",
 		estatistica: {
 			ps:		 	36,
@@ -20311,6 +21619,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20325,6 +21634,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 41.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0583.png",
 		estatistica: {
 			ps:		 	51,
@@ -20342,6 +21652,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20356,6 +21667,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 57.5, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0584.png",
 		estatistica: {
 			ps:		 	71,
@@ -20373,6 +21685,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20387,6 +21700,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Planta"],
 		massa: 19.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0585.png",
 		estatistica: {
 			ps:		 	60,
@@ -20404,6 +21718,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20421,6 +21736,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Planta"],
 		massa: 92.5, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0586.png",
 		estatistica: {
 			ps:		 	80,
@@ -20438,6 +21754,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20455,6 +21772,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 5.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0587.png",
 		estatistica: {
 			ps:		 	55,
@@ -20473,6 +21791,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20487,6 +21806,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 5.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/34/F0588.png",
 		estatistica: {
 			ps:		 	50,
@@ -20504,6 +21824,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20518,6 +21839,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 33.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/aa/F0589.png",
 		estatistica: {
 			ps:		 	70,
@@ -20535,6 +21857,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20549,6 +21872,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 1.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/23/F0590.png",
 		estatistica: {
 			ps:		 	69,
@@ -20566,6 +21890,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20580,6 +21905,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Veneno"],
 		massa: 10.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/54/F0591.png",
 		estatistica: {
 			ps:		 	114,
@@ -20598,6 +21924,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20612,6 +21939,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fantasma"],
 		massa: 33.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0592.png",
 		estatistica: {
 			ps:		 	55,
@@ -20630,6 +21958,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20645,6 +21974,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fantasma"],
 		massa: 135.0, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0593.png",
 		estatistica: {
 			ps:		 	100,
@@ -20663,6 +21993,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20678,6 +22009,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 31.6, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0594.png",
 		estatistica: {
 			ps:		 	165,
@@ -20695,6 +22027,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20709,6 +22042,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Elétrico"],
 		massa: 0.6, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0595.png",
 		estatistica: {
 			ps:		 	50,
@@ -20726,6 +22060,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20740,6 +22075,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Elétrico"],
 		massa: 14.3, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/42/F0596.png",
 		estatistica: {
 			ps:		 	70,
@@ -20757,6 +22093,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20771,6 +22108,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Metal"],
 		massa: 18.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0597.png",
 		estatistica: {
 			ps:		 	44,
@@ -20788,6 +22126,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20802,6 +22141,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Metal"],
 		massa: 110.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0598.png",
 		estatistica: {
 			ps:		 	74,
@@ -20819,6 +22159,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20833,6 +22174,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 21.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0599.png",
 		estatistica: {
 			ps:		 	40,
@@ -20850,6 +22192,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20864,6 +22207,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 51.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0600.png",
 		estatistica: {
 			ps:		 	60,
@@ -20881,6 +22225,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20895,6 +22240,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 81.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0601.png",
 		estatistica: {
 			ps:		 	60,
@@ -20912,6 +22258,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20926,6 +22273,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 0.3, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0602.png",
 		estatistica: {
 			ps:		 	35,
@@ -20943,6 +22291,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20957,6 +22306,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 22.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b5/F0603.png",
 		estatistica: {
 			ps:		 	65,
@@ -20974,6 +22324,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20988,6 +22339,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 80.5, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/86/F0604.png",
 		estatistica: {
 			ps:		 	85,
@@ -21005,6 +22357,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21019,6 +22372,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0605.png",
 		estatistica: {
 			ps:		 	55,
@@ -21036,6 +22390,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21050,6 +22405,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 34.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0606.png",
 		estatistica: {
 			ps:		 	75,
@@ -21067,6 +22423,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21081,6 +22438,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Fogo"],
 		massa: 3.1, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/89/F0607.png",
 		estatistica: {
 			ps:		 	50,
@@ -21098,6 +22456,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21112,6 +22471,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Fogo"],
 		massa: 13.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0608.png",
 		estatistica: {
 			ps:		 	60,
@@ -21129,6 +22489,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21143,6 +22504,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Fogo"],
 		massa: 34.3, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/92/F0609.png",
 		estatistica: {
 			ps:		 	60,
@@ -21160,6 +22522,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21174,6 +22537,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 18.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8a/F0610.png",
 		estatistica: {
 			ps:		 	46,
@@ -21191,6 +22555,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21205,6 +22570,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 36.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0611.png",
 		estatistica: {
 			ps:		 	66,
@@ -21222,6 +22588,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21236,6 +22603,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 105.5, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fc/F0612.png",
 		estatistica: {
 			ps:		 	76,
@@ -21253,6 +22621,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21267,6 +22636,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 8.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0613.png",
 		estatistica: {
 			ps:		 	55,
@@ -21284,6 +22654,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21298,6 +22669,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 260.0, // em kg
 		altura: 2.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0614.png",
 		estatistica: {
 			ps:		 	95,
@@ -21315,6 +22687,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21329,6 +22702,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 148.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b7/F0615.png",
 		estatistica: {
 			ps:		 	80,
@@ -21346,6 +22720,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21360,6 +22735,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 7.7, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0616.png",
 		estatistica: {
 			ps:		 	50,
@@ -21377,6 +22753,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21391,6 +22768,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 25.3, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0617.png",
 		estatistica: {
 			ps:		 	80,
@@ -21408,6 +22786,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21422,6 +22801,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Elétrico"],
 		massa: 11.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0618.png",
 		estatistica: {
 			ps:		 	109,
@@ -21439,6 +22819,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21453,6 +22834,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Metal"],
 		massa: 20.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0618.png",
 		estatistica: {
 			ps:		 	109,
@@ -21471,6 +22853,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21485,6 +22868,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 20.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0619.png",
 		estatistica: {
 			ps:		 	45,
@@ -21502,6 +22886,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21516,6 +22901,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 35.5, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0620.png",
 		estatistica: {
 			ps:		 	65,
@@ -21533,6 +22919,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21547,6 +22934,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 139.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5c/F0621.png",
 		estatistica: {
 			ps:		 	77,
@@ -21564,6 +22952,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21578,6 +22967,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Fantasma"],
 		massa: 92.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0622.png",
 		estatistica: {
 			ps:		 	59,
@@ -21595,6 +22985,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21609,6 +23000,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Fantasma"],
 		massa: 330.0, // em kg
 		altura: 2.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/17/F0623.png",
 		estatistica: {
 			ps:		 	89,
@@ -21626,6 +23018,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21640,6 +23033,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Metal"],
 		massa: 10.2, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c5/F0624.png",
 		estatistica: {
 			ps:		 	45,
@@ -21657,6 +23051,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21671,6 +23066,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Metal"],
 		massa: 70.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/94/F0625.png",
 		estatistica: {
 			ps:		 	65,
@@ -21688,6 +23084,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21702,6 +23099,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 94.6, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/88/F0626.png",
 		estatistica: {
 			ps:		 	95,
@@ -21719,6 +23117,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21733,6 +23132,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 10.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0627.png",
 		estatistica: {
 			ps:		 	70,
@@ -21750,6 +23150,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21764,6 +23165,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 41.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0628.png",
 		estatistica: {
 			ps:		 	100,
@@ -21781,6 +23183,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21795,6 +23198,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 43.4, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0628.png",
 		estatistica: {
 			ps:		 	110,
@@ -21812,6 +23216,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21826,6 +23231,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/80/F0629.png",
 		estatistica: {
 			ps:		 	70,
@@ -21843,6 +23249,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21857,6 +23264,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 39.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c4/F0630.png",
 		estatistica: {
 			ps:		 	110,
@@ -21874,6 +23282,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21888,6 +23297,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 58.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0631.png",
 		estatistica: {
 			ps:		 	85,
@@ -21905,6 +23315,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21919,6 +23330,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 33.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0632.png",
 		estatistica: {
 			ps:		 	58,
@@ -21937,6 +23349,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21951,6 +23364,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Dragão"],
 		massa: 17.3, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0633.png",
 		estatistica: {
 			ps:		 	52,
@@ -21968,6 +23382,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21982,6 +23397,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Dragão"],
 		massa: 50.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bc/F0634.png",
 		estatistica: {
 			ps:		 	72,
@@ -21999,6 +23415,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22013,6 +23430,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Dragão"],
 		massa: 160.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0635.png",
 		estatistica: {
 			ps:		 	92,
@@ -22030,6 +23448,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22044,6 +23463,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fogo"],
 		massa: 28.8, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0636.png",
 		estatistica: {
 			ps:		 	55,
@@ -22061,6 +23481,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22075,6 +23496,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fogo"],
 		massa: 46.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/49/F0637.png",
 		estatistica: {
 			ps:		 	85,
@@ -22092,6 +23514,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22106,6 +23529,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Lutador"],
 		massa: 250.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0638.png",
 		estatistica: {
 			ps:		 	91,
@@ -22123,6 +23547,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22137,6 +23562,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Lutador"],
 		massa: 260.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c8/F0639.png",
 		estatistica: {
 			ps:		 	91,
@@ -22154,6 +23580,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22168,6 +23595,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Lutador"],
 		massa: 200.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7d/F0640.png",
 		estatistica: {
 			ps:		 	91,
@@ -22185,6 +23613,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22199,6 +23628,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador"],
 		massa: 63.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/75/F0641.png",
 		estatistica: {
 			ps:		 	79,
@@ -22216,6 +23646,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22230,6 +23661,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador"],
 		massa: 63.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/75/F0641.png",
 		estatistica: {
 			ps:		 	79,
@@ -22247,6 +23679,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22261,6 +23694,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 61.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0642.png",
 		estatistica: {
 			ps:		 	79,
@@ -22278,6 +23712,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22292,6 +23727,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 61.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0642.png",
 		estatistica: {
 			ps:		 	79,
@@ -22309,6 +23745,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22323,6 +23760,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Fogo"],
 		massa: 330.0, // em kg
 		altura: 3.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a3/F0643.png",
 		estatistica: {
 			ps:		 	100,
@@ -22340,6 +23778,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22354,6 +23793,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Elétrico"],
 		massa: 345.0, // em kg
 		altura: 2.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ee/F0644.png",
 		estatistica: {
 			ps:		 	100,
@@ -22371,6 +23811,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22385,6 +23826,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Voador"],
 		massa: 68.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0645.png",
 		estatistica: {
 			ps:		 	89,
@@ -22402,6 +23844,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22416,6 +23859,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Voador"],
 		massa: 68.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0645.png",
 		estatistica: {
 			ps:		 	89,
@@ -22433,6 +23877,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22447,6 +23892,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0646.png",
 		estatistica: {
 			ps:		 	125,
@@ -22464,6 +23910,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22478,6 +23925,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
 		altura: 3.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0646.png",
 		estatistica: {
 			ps:		 	125,
@@ -22495,6 +23943,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22509,6 +23958,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Gelo"],
 		massa: 325.0, // em kg
 		altura: 3.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0646.png",
 		estatistica: {
 			ps:		 	125,
@@ -22526,6 +23976,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22540,6 +23991,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Lutador"],
 		massa: 48.5, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0647.png",
 		estatistica: {
 			ps:		 	91,
@@ -22557,6 +24009,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22572,6 +24025,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Psíquico"],
 		massa: 6.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0648.png",
 		estatistica: {
 			ps:		 	100,
@@ -22589,6 +24043,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22603,6 +24058,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Lutador"],
 		massa: 6.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0648.png",
 		estatistica: {
 			ps:		 	100,
@@ -22621,6 +24077,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22635,6 +24092,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Metal"],
 		massa: 82.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0649.png",
 		estatistica: {
 			ps:		 	71,
@@ -22652,6 +24110,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -22670,6 +24129,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 9.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	56,
@@ -22687,6 +24147,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22701,6 +24162,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 29.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	61,
@@ -22718,6 +24180,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22732,6 +24195,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Lutador"],
 		massa: 90.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -22749,6 +24213,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22763,6 +24228,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 9.4, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -22780,6 +24246,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22794,6 +24261,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 14.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	59,
@@ -22811,6 +24279,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22825,6 +24294,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Psíquico"],
 		massa: 39.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -22842,6 +24312,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22856,6 +24327,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	41,
@@ -22873,6 +24345,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22887,6 +24360,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 10.9, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	54,
@@ -22904,6 +24378,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22918,6 +24393,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Noturno"],
 		massa: 40.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	72,
@@ -22935,6 +24411,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22949,6 +24426,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 5.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	38,
@@ -22966,6 +24444,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22980,6 +24459,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Terra"],
 		massa: 42.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -22997,6 +24477,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23011,6 +24492,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.7, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -23028,6 +24510,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23042,6 +24525,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 16.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	62,
@@ -23059,6 +24543,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23073,6 +24558,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 24.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -23090,6 +24576,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23104,6 +24591,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 2.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	38,
@@ -23121,6 +24609,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23135,6 +24624,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 8.4, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -23152,6 +24642,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23166,6 +24657,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Voador"],
 		massa: 17.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -23183,6 +24675,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23216,6 +24709,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Normal"],
 		massa: 13.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	62,
@@ -23233,6 +24727,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23247,6 +24742,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Normal"],
 		massa: 81.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	86,
@@ -23264,6 +24760,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23279,6 +24776,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 0.1, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	44,
@@ -23296,6 +24794,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23314,6 +24813,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 0.9, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	54,
@@ -23331,6 +24831,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23349,6 +24850,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 10.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -23366,6 +24868,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23384,6 +24887,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 31.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	66,
@@ -23401,6 +24905,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23415,6 +24920,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 91.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	123,
@@ -23432,6 +24938,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23446,6 +24953,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 8.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	67,
@@ -23463,6 +24971,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23477,6 +24986,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Noturno"],
 		massa: 136.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -23494,6 +25004,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23508,6 +25019,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 28.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -23525,6 +25037,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23539,6 +25052,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 3.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	62,
@@ -23556,6 +25070,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23570,6 +25085,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 8.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	74,
@@ -23587,6 +25103,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23602,6 +25119,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fantasma"],
 		massa: 2.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -23619,6 +25137,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23633,6 +25152,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fantasma"],
 		massa: 4.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	59,
@@ -23650,6 +25170,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23664,6 +25185,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fantasma"],
 		massa: 53.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -23681,6 +25203,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23695,6 +25218,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fantasma"],
 		massa: 53.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -23712,6 +25236,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23727,6 +25252,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 0.5, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -23744,6 +25270,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23758,6 +25285,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 15.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	101,
@@ -23775,6 +25303,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23789,6 +25318,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 3.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	62,
@@ -23806,6 +25336,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23820,6 +25351,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 5.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	82,
@@ -23837,6 +25369,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23851,6 +25384,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Psíquico"],
 		massa: 3.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	53,
@@ -23868,6 +25402,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23882,6 +25417,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Psíquico"],
 		massa: 47.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	86,
@@ -23899,6 +25435,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23913,6 +25450,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 31.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	42,
@@ -23930,6 +25468,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23944,6 +25483,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Água"],
 		massa: 96.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	72,
@@ -23961,6 +25501,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23975,6 +25516,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Água"],
 		massa: 7.3, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -23992,6 +25534,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24006,6 +25549,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Dragão"],
 		massa: 81.5, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -24023,6 +25567,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24037,6 +25582,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 8.3, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -24054,6 +25600,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24068,6 +25615,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 35.3, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	71,
@@ -24085,6 +25633,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24099,6 +25648,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Normal"],
 		massa: 6.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	44,
@@ -24116,6 +25666,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24130,6 +25681,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Normal"],
 		massa: 21.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	62,
@@ -24147,6 +25699,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24161,6 +25714,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Dragão"],
 		massa: 26.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	58,
@@ -24178,6 +25732,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24192,6 +25747,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Dragão"],
 		massa: 270.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	82,
@@ -24209,6 +25765,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24223,6 +25780,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Gelo"],
 		massa: 25.2, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	77,
@@ -24240,6 +25798,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24254,6 +25813,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Gelo"],
 		massa: 225.0, // em kg
 		altura: 2.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	123,
@@ -24271,6 +25831,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24285,6 +25846,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 23.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -24302,6 +25864,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24316,6 +25879,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Voador"],
 		massa: 21.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -24333,6 +25897,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24347,6 +25912,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Fada"],
 		massa: 2.2, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	67,
@@ -24364,6 +25930,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24378,6 +25945,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Fada"],
 		massa: 5.7, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -24395,6 +25963,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24409,6 +25978,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 2.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -24426,6 +25996,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24440,6 +26011,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 17.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -24457,6 +26029,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24471,6 +26044,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Dragão"],
 		massa: 68.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	58,
@@ -24489,6 +26063,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24503,6 +26078,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 150.5, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -24520,6 +26096,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24534,6 +26111,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Dragão"],
 		massa: 334.1, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -24552,6 +26130,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24566,6 +26145,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fada"],
 		massa: 3.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	57,
@@ -24583,6 +26163,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24597,6 +26178,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	43,
@@ -24614,6 +26196,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24628,6 +26211,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 71.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -24645,6 +26229,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24659,6 +26244,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 3.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	44,
@@ -24676,6 +26262,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24690,6 +26277,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 5.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	49,
@@ -24707,6 +26295,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24721,6 +26310,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 7.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	54,
@@ -24738,6 +26328,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24752,6 +26343,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	59,
@@ -24769,6 +26361,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24783,6 +26376,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 9.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -24800,6 +26394,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24814,6 +26409,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 12.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -24831,6 +26427,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24845,6 +26442,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 14.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -24862,6 +26460,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24876,6 +26475,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 39.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -24893,6 +26493,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24907,6 +26508,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 99.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -24924,6 +26526,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24938,6 +26541,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 505.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -24955,6 +26559,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -24969,6 +26574,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Rocha"],
 		massa: 262.4, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -24986,6 +26592,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -25000,6 +26607,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador", " Dragão"],
 		massa: 8.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -25017,6 +26625,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25031,6 +26640,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador", " Dragão"],
 		massa: 85.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -25048,6 +26658,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25062,6 +26673,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 215.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	126,
@@ -25079,6 +26691,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25093,6 +26706,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 203.0, // em kg
 		altura: 5.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	126,
@@ -25110,6 +26724,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25124,6 +26739,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 33.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	54,
@@ -25141,6 +26757,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25155,6 +26772,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 305.0, // em kg
 		altura: 5.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	108,
@@ -25172,6 +26790,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25186,6 +26805,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Terra"],
 		massa: 610.0, // em kg
 		altura: 4.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	216,
@@ -25203,6 +26823,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25217,6 +26838,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Fada"],
 		massa: 8.8, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -25234,6 +26856,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25248,6 +26871,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -25265,6 +26889,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25279,6 +26904,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Noturno"],
 		massa: 490.0, // em kg
 		altura: 6.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -25296,6 +26922,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25310,6 +26937,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Água"],
 		massa: 195.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -25327,6 +26955,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -25341,6 +26970,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 1.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -25358,6 +26988,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25372,6 +27003,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Voador"],
 		massa: 16.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -25389,6 +27021,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25403,6 +27036,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fantasma"],
 		massa: 36.6, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -25420,6 +27054,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -25434,6 +27069,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Lutador"],
 		massa: 37.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -25451,6 +27087,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -25465,6 +27102,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 4.3, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -25482,6 +27120,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25496,6 +27135,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 25.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -25513,6 +27153,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25527,6 +27168,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Noturno"],
 		massa: 83.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -25544,6 +27186,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25558,6 +27201,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -25575,6 +27219,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25589,6 +27234,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 17.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -25606,6 +27252,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25620,6 +27267,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fada"],
 		massa: 44.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -25637,6 +27285,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25651,6 +27300,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 1.2, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	35,
@@ -25668,6 +27318,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25682,6 +27333,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 14.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -25700,6 +27352,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25714,6 +27367,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 26.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -25731,6 +27385,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25745,6 +27400,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	48,
@@ -25762,6 +27418,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25776,6 +27433,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 14.2, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -25794,6 +27452,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25808,6 +27467,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 4.4, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	47,
@@ -25825,6 +27485,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25839,6 +27500,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Elétrico"],
 		massa: 10.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	57,
@@ -25856,6 +27518,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25870,6 +27533,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Elétrico"],
 		massa: 45.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	77,
@@ -25887,6 +27551,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25901,6 +27566,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 7.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	47,
@@ -25919,6 +27585,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25933,6 +27600,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Gelo"],
 		massa: 180.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	97,
@@ -25950,6 +27618,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25964,6 +27633,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Voador"],
 		massa: 3.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -25981,6 +27651,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25995,6 +27666,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 3.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -26012,6 +27684,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26026,6 +27699,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Voador"],
 		massa: 3.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -26043,6 +27717,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26057,6 +27732,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Voador"],
 		massa: 3.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -26074,6 +27750,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26088,6 +27765,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fada"],
 		massa: 0.2, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -26105,6 +27783,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26119,6 +27798,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Fada"],
 		massa: 0.5, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -26136,6 +27816,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26150,6 +27831,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 9.2, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -26167,6 +27849,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26181,6 +27864,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -26198,6 +27882,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26212,6 +27897,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -26229,6 +27915,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26243,6 +27930,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 25.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -26260,6 +27948,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26274,6 +27963,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 0.3, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -26292,6 +27982,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26306,6 +27997,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 78.6, // em kg
 		altura: 8.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -26324,6 +28016,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26338,6 +28031,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Água"],
 		massa: 8.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -26355,6 +28049,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26369,6 +28064,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Água"],
 		massa: 14.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -26386,6 +28082,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26400,6 +28097,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 110.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -26417,6 +28115,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26431,6 +28130,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 920.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -26448,6 +28148,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26462,6 +28163,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Inseto"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	38,
@@ -26479,6 +28181,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26493,6 +28196,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Inseto"],
 		massa: 82.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -26510,6 +28214,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26524,6 +28229,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 1.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -26541,6 +28247,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26555,6 +28262,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 18.5, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -26572,6 +28280,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26586,6 +28295,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fada"],
 		massa: 1.5, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -26603,6 +28313,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26617,6 +28328,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fada"],
 		massa: 11.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -26634,6 +28346,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26648,6 +28361,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Fogo"],
 		massa: 4.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	48,
@@ -26665,6 +28379,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26679,6 +28394,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Fogo"],
 		massa: 22.2, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -26697,6 +28413,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26711,6 +28428,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Lutador"],
 		massa: 6.8, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -26728,6 +28446,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26742,6 +28461,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Lutador"],
 		massa: 135.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	120,
@@ -26759,6 +28479,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26773,6 +28494,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 3.2, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	42,
@@ -26790,6 +28512,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26804,6 +28527,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 8.2, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	52,
@@ -26821,6 +28545,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26835,6 +28560,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 21.4, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	72,
@@ -26852,6 +28578,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26866,6 +28593,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 0.3, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	51,
@@ -26883,6 +28611,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26897,6 +28626,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Psíquico"],
 		massa: 76.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -26914,6 +28644,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26928,6 +28659,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 82.8, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -26945,6 +28677,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26959,6 +28692,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Água"],
 		massa: 12.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	25,
@@ -26977,6 +28711,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26991,6 +28726,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Água"],
 		massa: 108.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -27008,6 +28744,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27022,6 +28759,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Terra"],
 		massa: 70.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -27039,6 +28777,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27053,6 +28792,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Terra"],
 		massa: 250.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -27070,6 +28810,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27084,6 +28825,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 1.2, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -27101,6 +28843,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27115,6 +28858,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 120.5, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -27132,6 +28876,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27146,6 +28891,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 100.5, // em kg
 		altura: 2.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -27163,6 +28909,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27177,6 +28924,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Voador"],
 		massa: 40.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -27194,6 +28942,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27208,6 +28957,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Voador"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -27225,6 +28975,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27245,6 +28996,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 19.9, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -27262,6 +29014,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27276,6 +29029,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Dragão"],
 		massa: 212.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -27293,6 +29047,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27307,6 +29062,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Metal"],
 		massa: 3.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -27324,6 +29080,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27338,6 +29095,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Fada"],
 		massa: 0.7, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -27355,6 +29113,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27370,6 +29129,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 19.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -27387,6 +29147,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27401,6 +29162,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Dragão"],
 		massa: 185.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -27418,6 +29180,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27432,6 +29195,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Planta"],
 		massa: 210.0, // em kg
 		altura: 3.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -27449,6 +29213,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27463,6 +29228,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 29.7, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -27480,6 +29246,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27494,6 +29261,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Lutador"],
 		massa: 47.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -27511,6 +29279,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27525,6 +29294,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Lutador"],
 		massa: 78.2, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -27542,6 +29312,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27556,6 +29327,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Fada"],
 		massa: 20.5, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -27573,6 +29345,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27587,6 +29360,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 18.6, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -27604,6 +29378,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27618,6 +29393,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fada"],
 		massa: 45.5, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -27635,6 +29411,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27649,6 +29426,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fada"],
 		massa: 21.2, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -27666,6 +29444,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27680,6 +29459,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 0.1, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	43,
@@ -27697,6 +29477,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27711,6 +29492,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 999.9, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	43,
@@ -27728,6 +29510,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27742,6 +29525,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Metal"],
 		massa: 230.0, // em kg
 		altura: 3.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	137,
@@ -27759,6 +29543,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27773,6 +29558,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 120.0, // em kg
 		altura: 4.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	137,
@@ -27790,6 +29576,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27804,6 +29591,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Veneno"],
 		massa: 55.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	109,
@@ -27821,6 +29609,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27835,6 +29624,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Lutador"],
 		massa: 333.6, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	107,
@@ -27852,6 +29642,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27866,6 +29657,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Lutador"],
 		massa: 25.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	71,
@@ -27883,6 +29675,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27897,6 +29690,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 100.0, // em kg
 		altura: 3.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	83,
@@ -27914,6 +29708,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27928,6 +29723,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Voador"],
 		massa: 999.9, // em kg
 		altura: 9.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	97,
@@ -27945,6 +29741,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27959,6 +29756,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Metal"],
 		massa: 0.1, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	59,
@@ -27976,6 +29774,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -27990,6 +29789,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Dragão"],
 		massa: 888.0, // em kg
 		altura: 5.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	223,
@@ -28007,6 +29807,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28021,6 +29822,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 230.0, // em kg
 		altura: 2.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	97,
@@ -28038,6 +29840,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28052,6 +29855,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Metal"],
 		massa: 460.0, // em kg
 		altura: 3.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	97,
@@ -28070,6 +29874,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28084,6 +29889,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 350.0, // em kg
 		altura: 4.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	97,
@@ -28102,6 +29908,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28116,6 +29923,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Dragão"],
 		massa: 230.0, // em kg
 		altura: 7.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	97,
@@ -28134,6 +29942,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28148,6 +29957,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fada"],
 		massa: 80.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -28165,6 +29975,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28179,6 +29990,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Fantasma"],
 		massa: 22.2, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -28196,6 +30008,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28210,6 +30023,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno"],
 		massa: 1.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	67,
@@ -28227,6 +30041,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28241,6 +30056,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Dragão"],
 		massa: 150.0, // em kg
 		altura: 3.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	73,
@@ -28258,6 +30074,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28272,6 +30089,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Metal"],
 		massa: 820.0, // em kg
 		altura: 5.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	61,
@@ -28289,6 +30107,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28303,6 +30122,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Fantasma"],
 		massa: 13.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	53,
@@ -28320,6 +30140,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28334,6 +30155,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 44.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -28351,6 +30173,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28365,6 +30188,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 8.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	46,
@@ -28382,6 +30206,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28396,6 +30221,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 800.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	135,
@@ -28413,6 +30239,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28428,6 +30255,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 5.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -28445,6 +30273,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28459,6 +30288,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 14.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -28476,6 +30306,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28490,6 +30321,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 90.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -28507,6 +30339,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28521,6 +30354,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 4.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -28538,6 +30372,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28552,6 +30387,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 9.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -28569,6 +30405,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28583,6 +30420,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 33.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -28600,6 +30438,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28614,6 +30453,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -28631,6 +30471,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28645,6 +30486,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 11.5, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -28662,6 +30504,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28676,6 +30519,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 45.2, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -28693,6 +30537,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28707,6 +30552,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 2.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -28725,6 +30571,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28739,6 +30586,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	120,
@@ -28757,6 +30605,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28771,6 +30620,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador"],
 		massa: 1.8, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	38,
@@ -28788,6 +30638,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28802,6 +30653,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador"],
 		massa: 16.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -28820,6 +30672,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28834,6 +30687,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador", " Metal"],
 		massa: 75.0, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	98,
@@ -28852,6 +30706,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28866,6 +30721,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 8.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	25,
@@ -28884,6 +30740,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28898,6 +30755,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Psíquico"],
 		massa: 19.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -28916,6 +30774,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28930,6 +30789,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Psíquico"],
 		massa: 40.8, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -28948,6 +30808,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28962,6 +30823,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 8.9, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -28979,6 +30841,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28993,6 +30856,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 19.9, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -29011,6 +30875,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29025,6 +30890,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 2.2, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -29042,6 +30908,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29056,6 +30923,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 2.5, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -29074,6 +30942,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29088,6 +30957,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	42,
@@ -29106,6 +30976,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29120,6 +30991,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 43.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	72,
@@ -29138,6 +31010,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29152,6 +31025,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 8.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -29170,6 +31044,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29184,6 +31059,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Rocha"],
 		massa: 115.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -29202,6 +31078,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29216,6 +31093,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 13.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	59,
@@ -29234,6 +31112,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29248,6 +31127,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 34.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	69,
@@ -29266,6 +31146,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29280,6 +31161,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 12.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	30,
@@ -29297,6 +31179,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29311,6 +31194,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Fogo"],
 		massa: 78.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -29329,6 +31213,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29343,6 +31228,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Fogo"],
 		massa: 310.5, // em kg
 		altura: 2.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	110,
@@ -29361,6 +31247,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29375,6 +31262,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Dragão"],
 		massa: 0.5, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -29393,6 +31281,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29407,6 +31296,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Dragão"],
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -29424,6 +31314,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29438,6 +31329,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Dragão"],
 		massa: 13.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	110,
@@ -29455,6 +31347,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29469,6 +31362,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 7.6, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	52,
@@ -29487,6 +31381,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29501,6 +31396,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra"],
 		massa: 65.5, // em kg
 		altura: 3.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	72,
@@ -29518,6 +31414,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29532,6 +31429,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador", " Água"],
 		massa: 18.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -29550,6 +31448,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29564,6 +31463,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 1.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	41,
@@ -29582,6 +31482,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29596,6 +31497,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 30.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	61,
@@ -29614,6 +31516,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29628,6 +31531,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Veneno"],
 		massa: 11.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -29646,6 +31550,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29660,6 +31565,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Veneno"],
 		massa: 40.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -29677,6 +31583,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29691,6 +31598,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Veneno"],
 		massa: 40.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -29708,6 +31616,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29722,6 +31631,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Inseto"],
 		massa: 1.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -29739,6 +31649,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29753,6 +31664,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Inseto"],
 		massa: 120.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -29770,6 +31682,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29784,6 +31697,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 4.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -29801,6 +31715,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29815,6 +31730,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 39.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -29833,6 +31749,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29847,6 +31764,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 0.2, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -29864,6 +31782,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29879,6 +31798,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 0.4, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -29896,6 +31816,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29911,6 +31832,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 3.4, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	42,
@@ -29929,6 +31851,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29943,6 +31866,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 4.8, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	57,
@@ -29961,6 +31885,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29975,6 +31900,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fada"],
 		massa: 5.1, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	57,
@@ -29993,6 +31919,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30007,6 +31934,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fada"],
 		massa: 5.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -30025,6 +31953,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30039,6 +31968,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fada"],
 		massa: 12.5, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -30057,6 +31987,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30071,6 +32002,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fada"],
 		massa: 61.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -30089,6 +32021,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30103,6 +32036,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Normal"],
 		massa: 46.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	93,
@@ -30121,6 +32055,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30135,6 +32070,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 28.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -30152,6 +32088,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30166,6 +32103,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 0.4, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -30183,6 +32121,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30197,6 +32136,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 117.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	62,
@@ -30214,6 +32154,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30228,6 +32169,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Psíquico"],
 		massa: 58.2, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -30245,6 +32187,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30259,6 +32202,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Fantasma"],
 		massa: 66.6, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	58,
@@ -30276,6 +32220,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30290,6 +32235,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 0.3, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -30307,6 +32253,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30321,6 +32268,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 0.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -30338,6 +32286,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30360,6 +32309,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 62.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -30377,6 +32327,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30391,6 +32342,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	48,
@@ -30408,6 +32360,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30422,6 +32375,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Inseto"],
 		massa: 3.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	30,
@@ -30440,6 +32394,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30454,6 +32409,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Inseto"],
 		massa: 42.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -30471,6 +32427,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30485,6 +32442,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 520.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -30502,6 +32460,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30516,6 +32475,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 89.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -30533,6 +32493,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30547,6 +32508,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 89.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -30564,6 +32526,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30578,6 +32541,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Normal"],
 		massa: 28.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -30595,6 +32559,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30609,6 +32574,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Normal"],
 		massa: 28.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -30626,6 +32592,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30640,6 +32607,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Noturno"],
 		massa: 3.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	58,
@@ -30658,6 +32626,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30672,6 +32641,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Noturno"],
 		massa: 3.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	58,
@@ -30690,6 +32660,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30704,6 +32675,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 100.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	72,
@@ -30721,6 +32693,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30735,6 +32708,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 650.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	122,
@@ -30753,6 +32727,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30767,6 +32742,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Dragão"],
 		massa: 190.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -30784,6 +32760,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30798,6 +32775,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Gelo"],
 		massa: 150.0, // em kg
 		altura: 2.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -30815,6 +32793,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30829,6 +32808,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Dragão"],
 		massa: 215.0, // em kg
 		altura: 2.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -30846,6 +32826,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30860,6 +32841,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Gelo"],
 		massa: 175.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -30877,6 +32859,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30891,6 +32874,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Dragão"],
 		massa: 40.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -30908,6 +32892,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30922,6 +32907,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Fantasma"],
 		massa: 2.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	28,
@@ -30939,6 +32925,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30953,6 +32940,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Fantasma"],
 		massa: 11.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -30970,6 +32958,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30984,6 +32973,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Fantasma"],
 		massa: 50.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -31001,6 +32991,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31015,6 +33006,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 110.0, // em kg
 		altura: 2.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	92,
@@ -31032,6 +33024,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31046,6 +33039,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Metal"],
 		massa: 355.0, // em kg
 		altura: 2.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	92,
@@ -31063,6 +33057,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31077,6 +33072,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 210.0, // em kg
 		altura: 2.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	92,
@@ -31094,6 +33090,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31108,6 +33105,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Metal"],
 		massa: 785.0, // em kg
 		altura: 2.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	92,
@@ -31125,6 +33123,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31139,6 +33138,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Dragão"],
 		massa: 950.0, // em kg
 		altura: 20.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	140,
@@ -31156,6 +33156,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31170,6 +33171,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador"],
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -31187,6 +33189,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31201,6 +33204,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Noturno"],
 		massa: 105.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -31218,6 +33222,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31232,6 +33237,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Água"],
 		massa: 105.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -31249,6 +33255,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31263,6 +33270,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Planta"],
 		massa: 70.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	105,
@@ -31280,6 +33288,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31294,6 +33303,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 145.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -31311,6 +33321,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31325,6 +33336,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão"],
 		massa: 200.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	200,
@@ -31342,6 +33354,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31356,6 +33369,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 800.0, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -31373,6 +33387,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31387,6 +33402,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 44.5, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -31404,6 +33420,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31418,6 +33435,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Planta"],
 		massa: 7.7, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -31435,6 +33453,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31449,6 +33468,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Gelo"],
 		massa: 809.1, // em kg
 		altura: 2.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -31466,6 +33486,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31480,6 +33501,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico", " Fantasma"],
 		massa: 53.6, // em kg
 		altura: 2.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -31497,6 +33519,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31511,6 +33534,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Psíquico"],
 		massa: 95.1, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	103,
@@ -31528,6 +33552,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31542,6 +33567,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Rocha"],
 		massa: 89.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -31559,6 +33585,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31573,6 +33600,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Normal"],
 		massa: 290.0, // em kg
 		altura: 2.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	130,
@@ -31590,6 +33618,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -31634,6 +33663,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fantasma"],
 		massa: 110.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	120,
@@ -31651,6 +33681,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31665,6 +33696,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Fantasma"],
 		massa: 110.0, // em kg
 		altura: 3.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	120,
@@ -31682,6 +33714,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31696,6 +33729,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Veneno"],
 		massa: 43.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -31713,6 +33747,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31727,6 +33762,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Veneno"],
 		massa: 60.5, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -31744,6 +33780,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31758,6 +33795,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Voador"],
 		massa: 48.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	74,
@@ -31775,6 +33813,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31789,6 +33828,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Voador"],
 		massa: 48.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	74,
@@ -31806,6 +33846,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -31820,6 +33861,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 4.1, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -31837,6 +33879,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31851,6 +33894,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 12.2, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	61,
@@ -31868,6 +33912,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31882,6 +33927,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 31.2, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	76,
@@ -31899,6 +33945,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31913,6 +33960,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 9.8, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	67,
@@ -31930,6 +33978,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31944,6 +33993,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 30.7, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	81,
@@ -31961,6 +34011,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31975,6 +34026,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Fantasma"],
 		massa: 326.5, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	104,
@@ -31992,6 +34044,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32006,6 +34059,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 6.1, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -32023,6 +34077,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32037,6 +34092,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 21.5, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -32054,6 +34110,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32068,6 +34125,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Lutador"],
 		massa: 61.9, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -32085,6 +34143,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32099,6 +34158,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 10.2, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	54,
@@ -32117,6 +34177,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32131,6 +34192,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 120.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	115,
@@ -32149,6 +34211,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32163,6 +34226,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 120.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	110,
@@ -32181,6 +34245,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32195,6 +34260,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	35,
@@ -32213,6 +34279,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32227,6 +34294,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 16.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -32245,6 +34313,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32259,6 +34328,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 1.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	33,
@@ -32277,6 +34347,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32291,6 +34362,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Noturno"],
 		massa: 17.5, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	71,
@@ -32309,6 +34381,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32323,6 +34396,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 2.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -32341,6 +34415,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32355,6 +34430,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Lutador"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -32373,6 +34449,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32387,6 +34464,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Lutador"],
 		massa: 41.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -32404,6 +34482,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32418,6 +34497,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -32436,6 +34516,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32450,6 +34531,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 2.8, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	74,
@@ -32467,6 +34549,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32481,6 +34564,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 2.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	74,
@@ -32498,6 +34582,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32512,6 +34597,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 10.9, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	37,
@@ -32530,6 +34616,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32544,6 +34631,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada"],
 		massa: 14.9, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	57,
@@ -32562,6 +34650,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32576,6 +34665,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Normal"],
 		massa: 6.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	41,
@@ -32593,6 +34683,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32607,6 +34698,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Normal"],
 		massa: 11.9, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	52,
@@ -32625,6 +34717,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32639,6 +34732,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Normal"],
 		massa: 48.2, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	78,
@@ -32656,6 +34750,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32670,6 +34765,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Voador"],
 		massa: 2.4, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	82,
@@ -32688,6 +34784,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32705,6 +34802,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 16.0, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -32723,6 +34821,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32737,6 +34836,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 105.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -32755,6 +34855,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32769,6 +34870,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 240.0, // em kg
 		altura: 2.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -32786,6 +34888,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32800,6 +34903,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo"],
 		massa: 10.5, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -32818,6 +34922,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32832,6 +34937,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Psíquico"],
 		massa: 85.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -32849,6 +34955,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32863,6 +34970,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Fantasma"],
 		massa: 62.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -32880,6 +34988,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32894,6 +35003,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 0.4, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	61,
@@ -32912,6 +35022,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32926,6 +35037,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico"],
 		massa: 113.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	109,
@@ -32944,6 +35056,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32958,6 +35071,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 3.6, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -32976,6 +35090,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32990,6 +35105,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Voador"],
 		massa: 38.6, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -33008,6 +35124,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33022,6 +35139,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 16.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	60,
@@ -33040,6 +35158,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33054,6 +35173,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno"],
 		massa: 61.0, // em kg
 		altura: 1.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -33072,6 +35192,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33086,6 +35207,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Normal"],
 		massa: 0.7, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -33104,6 +35226,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33118,6 +35241,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Normal"],
 		massa: 27.2, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	63,
@@ -33136,6 +35260,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33150,6 +35275,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fantasma"],
 		massa: 0.6, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -33167,6 +35293,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33181,6 +35308,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fantasma"],
 		massa: 6.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -33198,6 +35326,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33212,6 +35341,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Planta"],
 		massa: 33.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -33230,6 +35360,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33244,6 +35375,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Planta"],
 		massa: 58.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -33262,6 +35394,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33276,6 +35409,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha"],
 		massa: 79.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -33293,6 +35427,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33307,6 +35442,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 3.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -33325,6 +35461,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33339,6 +35476,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fogo"],
 		massa: 15.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -33357,6 +35495,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33371,6 +35510,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto"],
 		massa: 1.0, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	41,
@@ -33388,6 +35528,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33402,6 +35543,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Psíquico"],
 		massa: 3.5, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	75,
@@ -33419,6 +35561,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33433,6 +35576,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 1.5, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	30,
@@ -33451,6 +35595,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33465,6 +35610,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 90.0, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -33483,6 +35629,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33497,6 +35644,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Metal"],
 		massa: 8.9, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -33515,6 +35663,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33529,6 +35678,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Metal"],
 		massa: 59.1, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -33547,6 +35697,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33561,6 +35712,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Metal"],
 		massa: 112.8, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -33578,6 +35730,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33592,6 +35745,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 1.8, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	10,
@@ -33610,6 +35764,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33624,6 +35779,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 5.4, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	35,
@@ -33642,6 +35798,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33656,6 +35813,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador", " Noturno"],
 		massa: 42.9, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -33674,6 +35832,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33688,6 +35847,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 60.2, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -33706,6 +35866,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33720,6 +35881,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 60.2, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -33737,6 +35899,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33751,6 +35914,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 97.4, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -33768,6 +35932,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33782,6 +35947,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Veneno"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -33799,6 +35965,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33813,6 +35980,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Veneno"],
 		massa: 120.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -33831,6 +35999,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33845,6 +36014,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Normal"],
 		massa: 63.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -33863,6 +36033,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33877,6 +36048,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal"],
 		massa: 310.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	70,
@@ -33894,6 +36066,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33908,6 +36081,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Veneno"],
 		massa: 8.0, // em kg
 		altura: 0.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	48,
@@ -33926,6 +36100,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33940,6 +36115,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Veneno"],
 		massa: 45.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	83,
@@ -33957,6 +36133,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33971,6 +36148,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 35.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	50,
@@ -33989,6 +36167,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34003,6 +36182,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 15.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	72,
@@ -34021,6 +36201,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34035,6 +36216,7 @@ const pkmnDisponiveis = [
 		tipo: ["Voador", " Lutador"],
 		massa: 37.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	82,
@@ -34053,6 +36235,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34067,6 +36250,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 45.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	108,
@@ -34085,6 +36269,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34099,6 +36284,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo"],
 		massa: 700.0, // em kg
 		altura: 4.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	170,
@@ -34116,6 +36302,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34130,6 +36317,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Psíquico"],
 		massa: 90.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -34148,6 +36336,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34162,6 +36351,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água"],
 		massa: 220.0, // em kg
 		altura: 12.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	150,
@@ -34179,6 +36369,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34193,6 +36384,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Água"],
 		massa: 8.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	68,
@@ -34210,6 +36402,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34226,6 +36419,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Fantasma"],
 		massa: 56.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	110,
@@ -34243,6 +36437,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34257,6 +36452,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Terra"],
 		massa: 223.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	130,
@@ -34275,6 +36471,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34289,6 +36486,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal", " Psíquico"],
 		massa: 160.0, // em kg
 		altura: 3.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	120,
@@ -34306,6 +36504,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34320,6 +36519,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 39.2, // em kg
 		altura: 3.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	125,
@@ -34338,6 +36538,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34352,6 +36553,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 47.4, // em kg
 		altura: 4.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	125,
@@ -34370,6 +36572,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34384,6 +36587,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Metal"],
 		massa: 120.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -34401,6 +36605,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34415,6 +36620,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Lutador"],
 		massa: 320.0, // em kg
 		altura: 2.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	115,
@@ -34432,6 +36638,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34446,6 +36653,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Psíquico"],
 		massa: 8.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	115,
@@ -34463,6 +36671,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34477,6 +36686,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Noturno"],
 		massa: 21.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	111,
@@ -34494,6 +36704,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34508,6 +36719,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma", " Fada"],
 		massa: 4.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -34525,6 +36737,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34539,6 +36752,7 @@ const pkmnDisponiveis = [
 		tipo: ["Inseto", " Lutador"],
 		massa: 92.0, // em kg
 		altura: 3.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -34556,6 +36770,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34570,6 +36785,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Terra"],
 		massa: 60.0, // em kg
 		altura: 2.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -34587,6 +36803,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34601,6 +36818,7 @@ const pkmnDisponiveis = [
 		tipo: ["Terra", " Metal"],
 		massa: 240.0, // em kg
 		altura: 0.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -34618,6 +36836,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34632,6 +36851,7 @@ const pkmnDisponiveis = [
 		tipo: ["Gelo", " Água"],
 		massa: 11.0, // em kg
 		altura: 0.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	56,
@@ -34649,6 +36869,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34663,6 +36884,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Elétrico"],
 		massa: 380.7, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	154,
@@ -34680,6 +36902,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34694,6 +36917,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Voador"],
 		massa: 111.0, // em kg
 		altura: 1.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	94,
@@ -34711,6 +36935,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34725,6 +36950,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Veneno"],
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -34742,6 +36968,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34756,6 +36983,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Elétrico"],
 		massa: 303.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -34773,6 +37001,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34787,6 +37016,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Gelo"],
 		massa: 17.0, // em kg
 		altura: 0.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	65,
@@ -34804,6 +37034,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34818,6 +37049,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Gelo"],
 		massa: 30.0, // em kg
 		altura: 0.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -34835,6 +37067,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34849,6 +37082,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Gelo"],
 		massa: 210.0, // em kg
 		altura: 2.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	115,
@@ -34866,6 +37100,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34880,6 +37115,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 5.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -34898,6 +37134,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34912,6 +37149,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fantasma"],
 		massa: 0.1, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	45,
@@ -34929,6 +37167,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34943,6 +37182,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Fantasma"],
 		massa: 30.0, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	87,
@@ -34960,6 +37200,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34974,6 +37215,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Planta"],
 		massa: 74.2, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	85,
@@ -34991,6 +37233,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35005,6 +37248,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Gelo"],
 		massa: 152.2, // em kg
 		altura: 1.9, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -35022,6 +37266,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35036,6 +37281,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Terra"],
 		massa: 699.7, // em kg
 		altura: 2.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	155,
@@ -35053,6 +37299,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35067,6 +37314,7 @@ const pkmnDisponiveis = [
 		tipo: ["Noturno", " Fogo"],
 		massa: 4.9, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	55,
@@ -35084,6 +37332,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35098,6 +37347,7 @@ const pkmnDisponiveis = [
 		tipo: ["Dragão", " Noturno"],
 		massa: 380.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	105,
@@ -35115,6 +37365,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35129,6 +37380,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fada", " Lutador"],
 		massa: 35.0, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	74,
@@ -35146,6 +37398,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35160,6 +37413,7 @@ const pkmnDisponiveis = [
 		tipo: ["Lutador", " Dragão"],
 		massa: 303.0, // em kg
 		altura: 2.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -35177,6 +37431,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35191,6 +37446,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Dragão"],
 		massa: 240.0, // em kg
 		altura: 3.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	100,
@@ -35208,6 +37464,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35222,6 +37479,7 @@ const pkmnDisponiveis = [
 		tipo: ["Água", " Dragão"],
 		massa: 280.0, // em kg
 		altura: 3.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	99,
@@ -35239,6 +37497,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35253,6 +37512,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Psíquico"],
 		massa: 125.0, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -35270,6 +37530,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35284,6 +37545,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Dragão"],
 		massa: 4.4, // em kg
 		altura: 0.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -35301,6 +37563,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35315,6 +37578,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fantasma"],
 		massa: 1.1, // em kg
 		altura: 0.1, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	40,
@@ -35332,6 +37596,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35347,6 +37612,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fantasma"],
 		massa: 2.2, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	71,
@@ -35364,6 +37630,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35379,6 +37646,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Lutador"],
 		massa: 92.2, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -35396,6 +37664,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35410,6 +37679,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Psíquico"],
 		massa: 12.2, // em kg
 		altura: 1.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -35427,6 +37697,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35441,6 +37712,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Fada"],
 		massa: 30.1, // em kg
 		altura: 1.4, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -35458,6 +37730,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35472,6 +37745,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta"],
 		massa: 39.8, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -35489,6 +37763,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35503,6 +37778,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Água"],
 		massa: 39.8, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -35520,6 +37796,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35534,6 +37811,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Fogo"],
 		massa: 39.8, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -35551,6 +37829,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35565,6 +37844,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Rocha"],
 		massa: 39.8, // em kg
 		altura: 1.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	80,
@@ -35582,6 +37862,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35596,6 +37877,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Dragão"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -35613,6 +37895,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35627,6 +37910,7 @@ const pkmnDisponiveis = [
 		tipo: ["Planta", " Dragão"],
 		massa: 93.0, // em kg
 		altura: 1.8, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	106,
@@ -35644,6 +37928,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35658,6 +37943,7 @@ const pkmnDisponiveis = [
 		tipo: ["Fogo", " Dragão"],
 		massa: 590.0, // em kg
 		altura: 3.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	105,
@@ -35675,6 +37961,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35689,6 +37976,7 @@ const pkmnDisponiveis = [
 		tipo: ["Elétrico", " Dragão"],
 		massa: 480.0, // em kg
 		altura: 5.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	125,
@@ -35706,6 +37994,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35720,6 +38009,7 @@ const pkmnDisponiveis = [
 		tipo: ["Rocha", " Psíquico"],
 		massa: 162.5, // em kg
 		altura: 1.5, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -35737,6 +38027,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35751,6 +38042,7 @@ const pkmnDisponiveis = [
 		tipo: ["Metal", " Psíquico"],
 		massa: 156.0, // em kg
 		altura: 1.6, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -35768,6 +38060,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35782,6 +38075,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 6.5, // em kg
 		altura: 0.2, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	90,
@@ -35799,6 +38093,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35813,6 +38108,7 @@ const pkmnDisponiveis = [
 		tipo: ["Normal"],
 		massa: 16.0, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	95,
@@ -35830,6 +38126,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35844,6 +38141,7 @@ const pkmnDisponiveis = [
 		tipo: ["Estelar"],
 		massa: 77.0, // em kg
 		altura: 1.7, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	160,
@@ -35861,6 +38159,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -35875,6 +38174,7 @@ const pkmnDisponiveis = [
 		tipo: ["Veneno", " Fantasma"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
+		som: "",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		estatistica: {
 			ps:		 	88,
@@ -35892,6 +38192,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [

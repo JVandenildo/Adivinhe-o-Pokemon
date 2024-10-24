@@ -1,5 +1,5 @@
 const campoPalpite = document.getElementById("campoPalpite");
-const ultimosPalpites = document.getElementById("ultimosPalpites");
+const palpitesErrados = document.getElementById("palpitesErrados");
 const dicas = document.getElementById("dicas");
 const ultimato = document.getElementById("ultimato");
 const btnTentativa = document.getElementById("btnTentativa");
@@ -119,8 +119,8 @@ function novaTentativa() {
 				dicas.insertAdjacentHTML(
 					"beforeend",
 					`<table style="margin: 0px auto !important;">
-						<tr><th scope="col" colspan="1">Categoria</th></tr>
-						<tr><td>${escolhido[0].categoria}</td></tr>
+						<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
+						<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
 					</table>`
 				);
 				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
@@ -245,22 +245,10 @@ function palpitar() {
 						/* ainda existem dicas */
 
 						dicas.insertAdjacentHTML("beforeend", `${dicasFacil[palpites]}`);
-						ultimosPalpites.insertAdjacentHTML(
+						palpitesErrados.insertAdjacentHTML(
 							"beforeend",
 							`<p>${campoPalpite.value}</p>`
 						);
-
-						if (palpites === 2) {
-							const dicaObtencao = document.getElementById("dicaObtencao");
-							for (let i in escolhido[0].obtencao) {
-								dicaObtencao.insertAdjacentHTML(
-									"beforeend",
-									`<p>${escolhido[0].obtencao[i]}</p>`
-								);
-							}
-						} else if (palpites > 3) {
-							dicaObtencao.insertAdjacentHTML("beforeend", "");
-						}
 
 						campoPalpite.value = "";
 						palpites = palpites + 1;
@@ -274,6 +262,11 @@ function palpitar() {
 			const dicasMedio = [
 				/* primeira dica */
 				`<table>
+					<tr><th scope="col" colspan="1">Categoria</th></tr>
+					<tr><td>${escolhido[0].categoria}</td></tr>
+				</table>`,
+				/* segunda dica */
+				`<table>
 				<tr>
 					<th scope="col" colspan="1">Massa</th>
 					<th scope="col" colspan="1">Altura</th>
@@ -283,27 +276,17 @@ function palpitar() {
 					<td style="text-align:center !important">${escolhido[0].altura} m</td>
 				</tr>
 				</table>`,
-				/* segunda dica */
+				/* terceira dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Pegada</th></tr>
 					<tr><td><div id="dicaPegada"><img loading="eager" src="${escolhido[0].pegada}" title="Pegada misteriosa" alt="Pegada misteriosa" /></div></td></tr>
-				</table>`,
-				/* terceira dica */
-				`<table>
-					<tr><th scope="col" colspan="1">Tipo(s)</th></tr>
-					<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
 				</table>`,
 				/* quarta diga */
 				`<table>
 					<tr><th scope="col" colspan="1">Descrição</th></tr>
 					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
 				</table>`,
-				/* quinta dica */
-				`<table>
-					<tr><th scope="col" colspan="1">Número</th></tr>
-					<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
-				</table>`,
-				/* sexta e última dica */
+				/* quinta e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
 					<tr><td id="dicaSilhueta"><img loading="eager" src="${
@@ -387,22 +370,10 @@ function palpitar() {
 						/* ainda existem dicas */
 
 						dicas.insertAdjacentHTML("beforeend", `${dicasMedio[palpites]}`);
-						ultimosPalpites.insertAdjacentHTML(
+						palpitesErrados.insertAdjacentHTML(
 							"beforeend",
 							`<p>${campoPalpite.value}</p>`
 						);
-
-						if (palpites === 2) {
-							const dicaObtencao = document.getElementById("dicaObtencao");
-							for (let i in escolhido[0].obtencao) {
-								dicaObtencao.insertAdjacentHTML(
-									"beforeend",
-									`<p>${escolhido[0].obtencao[i]}</p>`
-								);
-							}
-						} else if (palpites > 3) {
-							dicaObtencao.insertAdjacentHTML("beforeend", "");
-						}
 
 						campoPalpite.value = "";
 						palpites = palpites + 1;
@@ -548,7 +519,7 @@ function palpitar() {
 						/* ainda existem dicas */
 
 						dicas.insertAdjacentHTML("beforeend", `${dicasDificil[palpites]}`);
-						ultimosPalpites.insertAdjacentHTML(
+						palpitesErrados.insertAdjacentHTML(
 							"beforeend",
 							`<p>${campoPalpite.value}</p>`
 						);
@@ -711,7 +682,7 @@ function reset(mode) {
 			campoPalpite.value = "";
 			opcoesNomes.classList.remove("opcoesNomesShow");
 			nomesGeral.classList.remove("nomesGeralShow");
-			ultimosPalpites.innerHTML = "<h4>Últimos Palpites</h4>";
+			palpitesErrados.innerHTML = "<h4>Últimos Palpites</h4>";
 			dicas.innerHTML = "";
 			ultimato.innerHTML = "";
 			palpites = 0;
