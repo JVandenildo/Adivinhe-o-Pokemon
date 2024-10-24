@@ -514,7 +514,7 @@ function palpitar() {
 							`<p>${campoPalpite.value}</p>`
 						);
 
-						if (palpites === 2) {
+						if (palpites === 1) {
 							const dicaObtencao = document.getElementById("dicaObtencao");
 							for (let i in escolhido[0].obtencao) {
 								dicaObtencao.insertAdjacentHTML(
@@ -522,7 +522,7 @@ function palpitar() {
 									`<p>${escolhido[0].obtencao[i]}</p>`
 								);
 							}
-						} else if (palpites > 3) {
+						} else if (palpites > 2) {
 							dicaObtencao.insertAdjacentHTML("beforeend", "");
 						}
 

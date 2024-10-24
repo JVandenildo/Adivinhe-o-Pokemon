@@ -1,6 +1,7 @@
 const pkmnDisponiveis = [
 	{
 		nome: "Bulbasaur",
+		especie: "Bulbasaur",
 		codinome: "",
 		numero: 1, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
@@ -24,7 +25,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34,6 +35,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ivysaur",
+		especie: "Ivysaur",
 		codinome: "",
 		numero: 2, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
@@ -57,7 +59,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -67,12 +69,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venusaur",
+		especie: "Venusaur",
 		codinome: "",
 		numero: 3, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/3.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0003.png",
 		estatistica: {
 			ps:		 	80,
@@ -90,7 +93,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -100,12 +103,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charmander",
+		especie: "Charmander",
 		codinome: "",
 		numero: 4, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 8.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/4.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8c/F0004.png",
 		estatistica: {
 			ps:		 	39,
@@ -123,7 +127,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -133,12 +137,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charmeleon",
+		especie: "Charmeleon",
 		codinome: "",
 		numero: 5, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/5.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0005.png",
 		estatistica: {
 			ps:		 	58,
@@ -156,7 +161,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -166,12 +171,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charizard",
+		especie: "Charizard",
 		codinome: "",
 		numero: 6, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 90.5, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/6.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/05/F0006.png",
 		estatistica: {
 			ps:		 	78,
@@ -189,7 +195,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -199,12 +205,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Squirtle",
+		especie: "Squirtle",
 		codinome: "",
 		numero: 7, // considerando a national dex
 		tipo: ["Água"],
 		massa: 9.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/7.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0007.png",
 		estatistica: {
 			ps:		 	44,
@@ -222,7 +229,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -232,12 +239,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wartortle",
+		especie: "Wartortle",
 		codinome: "",
 		numero: 8, // considerando a national dex
 		tipo: ["Água"],
 		massa: 22.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/8.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0008.png",
 		estatistica: {
 			ps:		 	59,
@@ -255,7 +263,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -265,12 +273,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blastoise",
+		especie: "Blastoise",
 		codinome: "",
 		numero: 9, // considerando a national dex
 		tipo: ["Água"],
 		massa: 85.5, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/9.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0009.png",
 		estatistica: {
 			ps:		 	79,
@@ -288,7 +297,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -298,12 +307,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Caterpie",
+		especie: "Caterpie",
 		codinome: "",
 		numero: 10, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 2.9, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0010.png",
 		estatistica: {
 			ps:		 	45,
@@ -321,7 +331,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -331,12 +341,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Metapod",
+		especie: "Metapod",
 		codinome: "",
 		numero: 11, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 9.9, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/11.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0011.png",
 		estatistica: {
 			ps:		 	50,
@@ -354,7 +365,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -364,12 +375,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Butterfree",
+		especie: "Butterfree",
 		codinome: "",
 		numero: 12, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 32.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/12.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0012.png",
 		estatistica: {
 			ps:		 	60,
@@ -387,7 +399,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -397,12 +409,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weedle",
+		especie: "Weedle",
 		codinome: "",
 		numero: 13, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 3.2, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/13.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0013.png",
 		estatistica: {
 			ps:		 	40,
@@ -420,7 +433,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -430,12 +443,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kakuna",
+		especie: "Kakuna",
 		codinome: "",
 		numero: 14, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/14.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0014.png",
 		estatistica: {
 			ps:		 	45,
@@ -453,7 +467,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -463,12 +477,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beedrill",
+		especie: "Beedrill",
 		codinome: "",
 		numero: 15, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/15.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cc/F0015.png",
 		estatistica: {
 			ps:		 	65,
@@ -486,7 +501,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -496,12 +511,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidgey",
+		especie: "Pidgey",
 		codinome: "",
 		numero: 16, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/16.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0016.png",
 		estatistica: {
 			ps:		 	40,
@@ -519,7 +535,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -529,12 +545,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidgeotto",
+		especie: "Pidgeotto",
 		codinome: "",
 		numero: 17, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/17.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0017.png",
 		estatistica: {
 			ps:		 	63,
@@ -552,7 +569,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -562,12 +579,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidgeot",
+		especie: "Pidgeot",
 		codinome: "",
 		numero: 18, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 39.5, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/18.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b7/F0018.png",
 		estatistica: {
 			ps:		 	83,
@@ -585,7 +603,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -595,12 +613,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rattata de Kanto",
+		especie: "Rattata",
 		codinome: "",
 		numero: 19.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 3.5, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/19.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0019.png",
 		estatistica: {
 			ps:		 	30,
@@ -618,7 +637,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -628,12 +647,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rattata de Alola",
+		especie: "Rattata",
 		codinome: "",
 		numero: 19.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
 		massa: 3.8, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10091.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0019.png",
 		estatistica: {
 			ps:		 	30,
@@ -652,7 +672,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -662,12 +682,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raticate de Kanto",
+		especie: "Raticate",
 		codinome: "",
 		numero: 20.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 18.5, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/20.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0020.png",
 		estatistica: {
 			ps:		 	55,
@@ -686,7 +707,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -696,12 +717,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raticate de Alola",
+		especie: "Raticate",
 		codinome: "",
 		numero: 20.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
 		massa: 25.5, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10092.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0020.png",
 		estatistica: {
 			ps:		 	75,
@@ -720,7 +742,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -730,12 +752,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spearow",
+		especie: "Spearow",
 		codinome: "",
 		numero: 21, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/21.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0021.png",
 		estatistica: {
 			ps:		 	40,
@@ -753,7 +776,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -763,12 +786,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fearow",
+		especie: "Fearow",
 		codinome: "",
 		numero: 22, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/22.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0022.png",
 		estatistica: {
 			ps:		 	65,
@@ -786,7 +810,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -796,12 +820,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ekans",
+		especie: "Ekans",
 		codinome: "",
 		numero: 23, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 6.9, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/23.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0023.png",
 		estatistica: {
 			ps:		 	35,
@@ -819,7 +844,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -829,12 +854,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arbok",
+		especie: "Arbok",
 		codinome: "",
 		numero: 24, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 65.0, // em kg
 		altura: 3.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/24.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0024.png",
 		estatistica: {
 			ps:		 	60,
@@ -852,7 +878,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -862,12 +888,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pikachu",
+		especie: "Pikachu",
 		codinome: "",
 		numero: 25, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/25.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c4/F0025.png",
 		estatistica: {
 			ps:		 	35,
@@ -885,7 +912,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -895,12 +922,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raichu de Kanto",
+		especie: "Raichu",
 		codinome: "",
 		numero: 26.1, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/26.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0026.png",
 		estatistica: {
 			ps:		 	60,
@@ -918,7 +946,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -928,12 +956,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raichu de Alola",
+		especie: "Raichu",
 		codinome: "",
 		numero: 26.2, // considerando a national dex
 		tipo: ["Elétrico", " Psíquico"],
 		massa: 21.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10100.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0026.png",
 		estatistica: {
 			ps:		 	60,
@@ -951,7 +980,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -961,12 +990,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandshrew de Kanto",
+		especie: "Sandshrew",
 		codinome: "",
 		numero: 27.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/27.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0027.png",
 		estatistica: {
 			ps:		 	50,
@@ -984,7 +1014,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -994,12 +1024,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandshrew de Alola",
+		especie: "Sandshrew",
 		codinome: "",
 		numero: 27.2, // considerando a national dex
 		tipo: ["Gelo", " Metal"],
 		massa: 40.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10101.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0027.png",
 		estatistica: {
 			ps:		 	50,
@@ -1017,7 +1048,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1027,12 +1058,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandslash de Kanto",
+		especie: "Sandslash",
 		codinome: "",
 		numero: 28.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/28.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0028.png",
 		estatistica: {
 			ps:		 	75,
@@ -1050,7 +1082,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1060,12 +1092,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandslash de Alola",
+		especie: "Sandslash",
 		codinome: "",
 		numero: 28.2, // considerando a national dex
 		tipo: ["Gelo", " Metal"],
 		massa: 55.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10102.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0028.png",
 		estatistica: {
 			ps:		 	75,
@@ -1083,7 +1116,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1093,12 +1126,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoran♀",
-		codinome: "Nidoran Fêmea",
+		especie: "Nidoran♀",
+		codinome: "",
 		numero: 29, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/29.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0029.png",
 		estatistica: {
 			ps:		 	55,
@@ -1116,7 +1150,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1126,12 +1160,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidorina",
+		especie: "Nidorina",
 		codinome: "",
 		numero: 30, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 20.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/30.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0030.png",
 		estatistica: {
 			ps:		 	70,
@@ -1149,7 +1184,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1159,12 +1194,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoqueen",
+		especie: "Nidoqueen",
 		codinome: "",
 		numero: 31, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/31.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0031.png",
 		estatistica: {
 			ps:		 	90,
@@ -1182,7 +1218,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1192,7 +1228,8 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoran♂",
-		codinome: "Nidoran Macho",
+		especie: "Nidoran♂",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/32.ogg",
 		numero: 32, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 9.0, // em kg
@@ -1215,7 +1252,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1225,12 +1262,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidorino",
+		especie: "Nidorino",
 		codinome: "",
 		numero: 33, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/33.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/20/F0033.png",
 		estatistica: {
 			ps:		 	61,
@@ -1248,7 +1286,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1258,12 +1296,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nidoking",
+		especie: "Nidoking",
 		codinome: "",
 		numero: 34, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
 		massa: 62.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/34.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0034.png",
 		estatistica: {
 			ps:		 	81,
@@ -1281,7 +1320,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1291,12 +1330,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clefairy",
+		especie: "Clefairy",
 		codinome: "",
 		numero: 35, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 7.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/35.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0035.png",
 		estatistica: {
 			ps:		 	70,
@@ -1314,7 +1354,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1324,12 +1364,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clefable",
+		especie: "Clefable",
 		codinome: "",
 		numero: 36, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 40.0, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/36.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0036.png",
 		estatistica: {
 			ps:		 	95,
@@ -1347,7 +1388,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1357,12 +1398,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vulpix de Kanto",
+		especie: "Vulpix",
 		codinome: "",
 		numero: 37.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 9.9, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/37.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0037.png",
 		estatistica: {
 			ps:		 	38,
@@ -1380,7 +1422,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1390,12 +1432,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vulpix de Alola",
+		especie: "Vulpix",
 		codinome: "",
 		numero: 37.2, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 9.9, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10103.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0037.png",
 		estatistica: {
 			ps:		 	38,
@@ -1413,7 +1456,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1423,12 +1466,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ninetales de Kanto",
+		especie: "Ninetales",
 		codinome: "",
 		numero: 38.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.9, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/38.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0038.png",
 		estatistica: {
 			ps:		 	73,
@@ -1446,7 +1490,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1456,12 +1500,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ninetales de Alola",
+		especie: "Ninetales",
 		codinome: "",
 		numero: 38.2, // considerando a national dex
 		tipo: ["Gelo", " Fada"],
 		massa: 19.9, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10104.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0038.png",
 		estatistica: {
 			ps:		 	73,
@@ -1479,7 +1524,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1489,12 +1534,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jigglypuff",
+		especie: "Jigglypuff",
 		codinome: "",
 		numero: 39, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/39.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0039.png",
 		estatistica: {
 			ps:		 	115,
@@ -1512,7 +1558,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1522,12 +1568,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wigglytuff",
+		especie: "Wigglytuff",
 		codinome: "",
 		numero: 40, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 12.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/39.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d1/F0040.png",
 		estatistica: {
 			ps:		 	140,
@@ -1545,7 +1592,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1555,12 +1602,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zubat",
+		especie: "Zubat",
 		codinome: "",
 		numero: 41, // considerando a national dex
 		tipo: ["Veneno", " Voador"],
 		massa: 7.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/41.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6d/F0041.png",
 		estatistica: {
 			ps:		 	40,
@@ -1579,7 +1627,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1590,12 +1638,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golbat",
+		especie: "Golbat",
 		codinome: "",
 		numero: 42, // considerando a national dex
 		tipo: ["Veneno", " Voador"],
 		massa: 55.0, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/42.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0042.png",
 		estatistica: {
 			ps:		 	75,
@@ -1614,7 +1663,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1625,12 +1674,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oddish",
+		especie: "Oddish",
 		codinome: "",
 		numero: 43, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 5.4, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/43.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0043.png",
 		estatistica: {
 			ps:		 	45,
@@ -1648,7 +1698,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1659,12 +1709,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gloom",
+		especie: "Gloom",
 		codinome: "",
 		numero: 44, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 8.6, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/44.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0044.png",
 		estatistica: {
 			ps:		 	60,
@@ -1682,7 +1733,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1693,12 +1744,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vileplume",
+		especie: "Vileplume",
 		codinome: "",
 		numero: 45, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 18.6, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/45.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0045.png",
 		estatistica: {
 			ps:		 	75,
@@ -1716,7 +1768,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1726,12 +1778,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Paras",
+		especie: "Paras",
 		codinome: "",
 		numero: 46, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 5.4, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/46.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f6/F0046.png",
 		estatistica: {
 			ps:		 	35,
@@ -1749,7 +1802,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1760,12 +1813,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Parasect",
+		especie: "Parasect",
 		codinome: "",
 		numero: 47, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 29.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/47.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0047.png",
 		estatistica: {
 			ps:		 	60,
@@ -1783,7 +1837,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1793,12 +1847,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venonat",
+		especie: "Venonat",
 		codinome: "",
 		numero: 48, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/48.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0048.png",
 		estatistica: {
 			ps:		 	60,
@@ -1816,7 +1871,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1826,12 +1881,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venomoth",
+		especie: "Venomoth",
 		codinome: "",
 		numero: 49, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 12.5, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/49.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0049.png",
 		estatistica: {
 			ps:		 	70,
@@ -1850,7 +1906,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -1860,12 +1916,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diglett de Kanto",
+		especie: "Diglett",
 		codinome: "",
 		numero: 50.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 0.8, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/50.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0050.png",
 		estatistica: {
 			ps:		 	10,
@@ -1883,7 +1940,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1893,12 +1950,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diglett de Alola",
+		especie: "Diglett",
 		codinome: "",
 		numero: 50.2, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 1.0, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10105.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0050.png",
 		estatistica: {
 			ps:		 	10,
@@ -1917,7 +1975,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1927,12 +1985,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dugtrio de Kanto",
+		especie: "Dugtrio",
 		codinome: "",
 		numero: 51.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 33.3, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/51.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0051.png",
 		estatistica: {
 			ps:		 	35,
@@ -1949,7 +2008,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1959,12 +2018,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dugtrio de Alola",
+		especie: "Dugtrio",
 		codinome: "",
 		numero: 51.2, // considerando a national dex
 		tipo: ["Terra", " Metal"],
 		massa: 66.6, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10106.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0051.png",
 		estatistica: {
 			ps:		 	35,
@@ -1983,7 +2043,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -1993,12 +2053,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowth de Kanto",
+		especie: "Meowth",
 		codinome: "",
 		numero: 52.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/52.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
 			ps:		 	40,
@@ -2016,7 +2077,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2026,12 +2087,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowth de Alola",
+		especie: "Meowth",
 		codinome: "",
 		numero: 52.2, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10107.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
 			ps:		 	40,
@@ -2049,7 +2111,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2059,12 +2121,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowth de Galar",
+		especie: "Meowth",
 		codinome: "",
 		numero: 52.3, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10161.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/df/F0052.png",
 		estatistica: {
 			ps:		 	50,
@@ -2082,7 +2145,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2092,12 +2155,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Persian de Kanto",
+		especie: "Persian",
 		codinome: "",
 		numero: 53.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/53.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0053.png",
 		estatistica: {
 			ps:		 	65,
@@ -2115,7 +2179,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2125,12 +2189,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Persian de Alola",
+		especie: "Persian",
 		codinome: "",
 		numero: 53.2, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 33.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10188.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0053.png",
 		estatistica: {
 			ps:		 	65,
@@ -2148,7 +2213,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2158,12 +2223,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Psyduck",
+		especie: "Psyduck",
 		codinome: "",
 		numero: 54, // considerando a national dex
 		tipo: ["Água"],
 		massa: 19.6, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/54.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0054.png",
 		estatistica: {
 			ps:		 	50,
@@ -2181,7 +2247,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2191,12 +2257,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golduck",
+		especie: "Golduck",
 		codinome: "",
 		numero: 55, // considerando a national dex
 		tipo: ["Água"],
 		massa: 76.6, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/55.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0055.png",
 		estatistica: {
 			ps:		 	80,
@@ -2214,7 +2281,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2224,12 +2291,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mankey",
+		especie: "Mankey",
 		codinome: "",
 		numero: 56, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 28.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/56.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0056.png",
 		estatistica: {
 			ps:		 	40,
@@ -2247,7 +2315,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2257,12 +2325,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Primeape",
+		especie: "Primeape",
 		codinome: "",
 		numero: 57, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 32.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/57.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0057.png",
 		estatistica: {
 			ps:		 	65,
@@ -2280,7 +2349,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2290,12 +2359,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Growlithe de Kanto",
+		especie: "Growlithe",
 		codinome: "",
 		numero: 58.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/58.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0058.png",
 		estatistica: {
 			ps:		 	55,
@@ -2313,7 +2383,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2323,12 +2393,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Growlithe de Hisui",
+		especie: "Growlithe",
 		codinome: "",
 		numero: 58.2, // considerando a national dex
 		tipo: ["Fogo", " Rocha"],
 		massa: 22.7, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10229.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0058.png",
 		estatistica: {
 			ps:		 	60,
@@ -2346,7 +2417,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2356,12 +2427,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arcanine de Kanto",
+		especie: "Arcanine",
 		codinome: "",
 		numero: 59.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 155.0, // em kg
 		altura: 1.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/59.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0059.png",
 		estatistica: {
 			ps:		 	90,
@@ -2379,7 +2451,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2389,12 +2461,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arcanine de Hisui",
+		especie: "Arcanine",
 		codinome: "",
 		numero: 59.2, // considerando a national dex
 		tipo: ["Fogo", " Rocha"],
 		massa: 168.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10230.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0059.png",
 		estatistica: {
 			ps:		 	95,
@@ -2412,7 +2485,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2422,12 +2495,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poliwag",
+		especie: "Poliwag",
 		codinome: "",
 		numero: 60, // considerando a national dex
 		tipo: ["Água"],
 		massa: 12.4, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/60.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0060.png",
 		estatistica: {
 			ps:		 	40,
@@ -2446,7 +2520,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2456,12 +2530,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poliwhirl",
+		especie: "Poliwhirl",
 		codinome: "",
 		numero: 61, // considerando a national dex
 		tipo: ["Água"],
 		massa: 20.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/61.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0061.png",
 		estatistica: {
 			ps:		 	65,
@@ -2479,7 +2554,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2489,12 +2564,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poliwrath",
+		especie: "Poliwrath",
 		codinome: "",
 		numero: 62, // considerando a national dex
 		tipo: ["Água", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/62.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0062.png",
 		estatistica: {
 			ps:		 	90,
@@ -2512,7 +2588,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2522,12 +2598,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Abra",
+		especie: "Abra",
 		codinome: "",
 		numero: 63, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 19.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/63.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0063.png",
 		estatistica: {
 			ps:		 	25,
@@ -2545,7 +2622,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2555,12 +2632,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kadabra",
+		especie: "Kadabra",
 		codinome: "",
 		numero: 64, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 56.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/64.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0064.png",
 		estatistica: {
 			ps:		 	40,
@@ -2578,7 +2656,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2588,12 +2666,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Alakazam",
+		especie: "Alakazam",
 		codinome: "",
 		numero: 65, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 48.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/65.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0065.png",
 		estatistica: {
 			ps:		 	55,
@@ -2611,7 +2690,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2621,12 +2700,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Machop",
+		especie: "Machop",
 		codinome: "",
 		numero: 66, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 19.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/66.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/84/F0066.png",
 		estatistica: {
 			ps:		 	70,
@@ -2644,7 +2724,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2654,6 +2734,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Machoke",
+		especie: "Machoke",
 		codinome: "",
 		numero: 67, // considerando a national dex
 		tipo: ["Lutador"],
@@ -2677,7 +2758,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2687,12 +2768,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Machamp",
+		especie: "Machamp",
 		codinome: "",
 		numero: 68, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 130.0, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/68.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0068.png",
 		estatistica: {
 			ps:		 	90,
@@ -2710,7 +2792,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2720,12 +2802,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bellsprout",
+		especie: "Bellsprout",
 		codinome: "",
 		numero: 69, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 4.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/69.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0069.png",
 		estatistica: {
 			ps:		 	50,
@@ -2743,7 +2826,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2753,12 +2836,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weepinbell",
+		especie: "Weepinbell",
 		codinome: "",
 		numero: 70, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 6.4, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/70.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a1/F0070.png",
 		estatistica: {
 			ps:		 	65,
@@ -2776,7 +2860,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2786,12 +2870,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Victreebel",
+		especie: "Victreebel",
 		codinome: "",
 		numero: 71, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 15.5, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/71.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8d/F0071.png",
 		estatistica: {
 			ps:		 	80,
@@ -2809,7 +2894,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2819,12 +2904,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tentacool",
+		especie: "Tentacool",
 		codinome: "",
 		numero: 72, // considerando a national dex
 		tipo: ["Água", " Veneno"],
 		massa: 45.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/72.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0072.png",
 		estatistica: {
 			ps:		 	40,
@@ -2842,7 +2928,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2852,12 +2938,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tentacruel",
+		especie: "Tentacruel",
 		codinome: "",
 		numero: 73, // considerando a national dex
 		tipo: ["Água", " Veneno"],
 		massa: 55.5, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/73.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0073.png",
 		estatistica: {
 			ps:		 	80,
@@ -2875,7 +2962,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -2885,12 +2972,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Geodude de Kanto",
+		especie: "Geodude",
 		codinome: "",
 		numero: 74.1, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 20.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/74.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0074.png",
 		estatistica: {
 			ps:		 	40,
@@ -2908,7 +2996,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2918,12 +3006,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Geodude de Alola",
+		especie: "Geodude",
 		codinome: "",
 		numero: 74.2, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 20.3, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10109.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0074.png",
 		estatistica: {
 			ps:		 	40,
@@ -2941,7 +3030,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2951,12 +3040,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Graveler de Kanto",
+		especie: "Graveler",
 		codinome: "",
 		numero: 75.1, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 105.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/75.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0075.png",
 		estatistica: {
 			ps:		 	55,
@@ -2974,7 +3064,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -2984,12 +3074,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Graveler de Alola",
+		especie: "Graveler",
 		codinome: "",
 		numero: 75.2, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 110.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10110.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/26/F0075.png",
 		estatistica: {
 			ps:		 	55,
@@ -3007,7 +3098,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3017,12 +3108,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golem de Kanto",
+		especie: "Golem",
 		codinome: "",
 		numero: 76.1, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 300.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/76.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/11/F0076.png",
 		estatistica: {
 			ps:		 	80,
@@ -3040,7 +3132,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3050,12 +3142,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golem de Alola",
+		especie: "Golem",
 		codinome: "",
 		numero: 76.2, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
 		massa: 316.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10111.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/11/F0076.png",
 		estatistica: {
 			ps:		 	80,
@@ -3073,7 +3166,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3083,12 +3176,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ponyta de Kanto",
+		especie: "Ponyta",
 		codinome: "",
 		numero: 77.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 30.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/77.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0077.png",
 		estatistica: {
 			ps:		 	50,
@@ -3106,7 +3200,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3116,12 +3210,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ponyta de Galar",
+		especie: "Ponyta",
 		codinome: "",
 		numero: 77.2, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 24.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10162.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0077.png",
 		estatistica: {
 			ps:		 	50,
@@ -3139,7 +3234,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3149,12 +3244,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rapidash de Kanto",
+		especie: "Rapidash",
 		codinome: "",
 		numero: 78.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 95.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/78.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0078.png",
 		estatistica: {
 			ps:		 	65,
@@ -3172,7 +3268,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3182,12 +3278,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rapidash de Galar",
+		especie: "Rapidash",
 		codinome: "",
 		numero: 78.2, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 80.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10163.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0078.png",
 		estatistica: {
 			ps:		 	65,
@@ -3205,7 +3302,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3215,12 +3312,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowpoke de Kanto",
+		especie: "Slowpoke",
 		codinome: "",
 		numero: 79.1, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/79.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0079.png",
 		estatistica: {
 			ps:		 	90,
@@ -3238,7 +3336,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3248,12 +3346,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowpoke de Galar",
+		especie: "Slowpoke",
 		codinome: "",
 		numero: 79.2, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 36.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10164.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0079.png",
 		estatistica: {
 			ps:		 	90,
@@ -3271,7 +3370,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3281,12 +3380,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowbro de Kanto",
+		especie: "Slowbro",
 		codinome: "",
 		numero: 80.1, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 78.5, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/80.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0080.png",
 		estatistica: {
 			ps:		 	95,
@@ -3305,7 +3405,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3315,12 +3415,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slowbro de Galar",
+		especie: "Slowbro",
 		codinome: "",
 		numero: 80.2, // considerando a national dex
 		tipo: ["Veneno", " Psíquico"],
 		massa: 70.5, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10165.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0080.png",
 		estatistica: {
 			ps:		 	95,
@@ -3338,7 +3439,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3348,12 +3449,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magnemite",
+		especie: "Magnemite",
 		codinome: "",
 		numero: 81, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
 		massa: 6.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/81.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0081.png",
 		estatistica: {
 			ps:		 	25,
@@ -3371,7 +3473,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3381,12 +3483,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magneton",
+		especie: "Magneton",
 		codinome: "",
 		numero: 82, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
 		massa: 60.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/82.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0082.png",
 		estatistica: {
 			ps:		 	50,
@@ -3404,7 +3507,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3414,12 +3517,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Farfetch'd de Kanto",
+		especie: "Farfetch'd",
 		codinome: "",
 		numero: 83.1, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/83.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0083.png",
 		estatistica: {
 			ps:		 	52,
@@ -3437,7 +3541,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3447,12 +3551,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Farfetch'd de Galar",
+		especie: "Farfetch'd",
 		codinome: "",
 		numero: 83.2, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 42.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10166.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0083.png",
 		estatistica: {
 			ps:		 	52,
@@ -3470,7 +3575,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3480,12 +3585,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Doduo",
+		especie: "Doduo",
 		codinome: "",
 		numero: 84, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 39.2, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/84.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0084.png",
 		estatistica: {
 			ps:		 	35,
@@ -3503,7 +3609,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3513,12 +3619,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dodrio",
+		especie: "Dodrio",
 		codinome: "",
 		numero: 85, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 85.2, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/85.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0085.png",
 		estatistica: {
 			ps:		 	60,
@@ -3536,7 +3643,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3546,12 +3653,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seel",
+		especie: "Seel",
 		codinome: "",
 		numero: 86, // considerando a national dex
 		tipo: ["Água"],
 		massa: 90.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/86.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0086.png",
 		estatistica: {
 			ps:		 	65,
@@ -3569,7 +3677,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3579,12 +3687,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dewgong",
+		especie: "Dewgong",
 		codinome: "",
 		numero: 87, // considerando a national dex
 		tipo: ["Água", " Gelo"],
 		massa: 120.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/87.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0087.png",
 		estatistica: {
 			ps:		 	90,
@@ -3602,7 +3711,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3612,12 +3721,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grimer de Kanto",
+		especie: "Grimer",
 		codinome: "",
 		numero: 88.1, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/88.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0088.png",
 		estatistica: {
 			ps:		 	80,
@@ -3635,7 +3745,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3645,12 +3755,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grimer de Alola",
+		especie: "Grimer",
 		codinome: "",
 		numero: 88.2, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 42.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10112.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0088.png",
 		estatistica: {
 			ps:		 	80,
@@ -3668,7 +3779,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3678,12 +3789,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Muk de Kanto",
+		especie: "Muk",
 		codinome: "",
 		numero: 89.1, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 30.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/89.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0089.png",
 		estatistica: {
 			ps:		 	105,
@@ -3701,7 +3813,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3711,12 +3823,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Muk de Alola",
+		especie: "Muk",
 		codinome: "",
 		numero: 89.2, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 52.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10113.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0089.png",
 		estatistica: {
 			ps:		 	105,
@@ -3734,7 +3847,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -3744,12 +3857,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shellder",
+		especie: "Shellder",
 		codinome: "",
 		numero: 90, // considerando a national dex
 		tipo: ["Água"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/90.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0090.png",
 		estatistica: {
 			ps:		 	30,
@@ -3767,7 +3881,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3777,12 +3891,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cloyster",
+		especie: "Cloyster",
 		codinome: "",
 		numero: 91, // considerando a national dex
 		tipo: ["Água", " Gelo"],
 		massa: 132.5, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/91.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0091.png",
 		estatistica: {
 			ps:		 	50,
@@ -3800,7 +3915,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3810,12 +3925,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gastly",
+		especie: "Gastly",
 		codinome: "",
 		numero: 92, // considerando a national dex
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/92.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0092.png",
 		estatistica: {
 			ps:		 	30,
@@ -3833,7 +3949,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3843,12 +3959,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Haunter",
+		especie: "Haunter",
 		codinome: "",
 		numero: 93, // considerando a national dex
 		tipo: ["Fantasma", " Veneno"],
 		massa: 0.1, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/93.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0093.png",
 		estatistica: {
 			ps:		 	45,
@@ -3866,7 +3983,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3876,12 +3993,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gengar",
+		especie: "Gengar",
 		codinome: "",
 		numero: 94, // considerando a national dex
 		tipo: ["Fantasma", " Veneno"],
 		massa: 40.5, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/94.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0094.png",
 		estatistica: {
 			ps:		 	60,
@@ -3899,7 +4017,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3909,12 +4027,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Onix",
+		especie: "Onix",
 		codinome: "",
 		numero: 95, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 210.0, // em kg
 		altura: 8.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/95.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0095.png",
 		estatistica: {
 			ps:		 	35,
@@ -3932,7 +4051,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3942,12 +4061,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drowzee",
+		especie: "Drowzee",
 		codinome: "",
 		numero: 96, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 32.4, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/96.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0096.png",
 		estatistica: {
 			ps:		 	60,
@@ -3965,7 +4085,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -3975,12 +4095,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hypno",
+		especie: "Hypno",
 		codinome: "",
 		numero: 97, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 75.6, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/97.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0097.png",
 		estatistica: {
 			ps:		 	85,
@@ -3998,7 +4119,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4008,12 +4129,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Krabby",
+		especie: "Krabby",
 		codinome: "",
 		numero: 98, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/98.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0098.png",
 		estatistica: {
 			ps:		 	30,
@@ -4031,7 +4153,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4041,12 +4163,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kingler",
+		especie: "Kingler",
 		codinome: "",
 		numero: 99, // considerando a national dex
 		tipo: ["Água"],
 		massa: 60.0, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/99.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0099.png",
 		estatistica: {
 			ps:		 	55,
@@ -4065,7 +4188,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4075,12 +4198,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Voltorb de Kanto",
+		especie: "Voltorb",
 		codinome: "",
 		numero: 100.1, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 10.4, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/100.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0100.png",
 		estatistica: {
 			ps:		 	40,
@@ -4098,7 +4222,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4108,12 +4232,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Voltorb de Hisui",
+		especie: "Voltorb",
 		codinome: "",
 		numero: 100.2, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
 		massa: 13.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10231.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0100.png",
 		estatistica: {
 			ps:		 	40,
@@ -4131,7 +4256,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4141,12 +4266,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electrode de Kanto",
+		especie: "Electrode",
 		codinome: "",
 		numero: 101.1, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 66.6, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/101.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0101.png",
 		estatistica: {
 			ps:		 	60,
@@ -4164,7 +4290,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4174,12 +4300,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electrode de Hisui",
+		especie: "Electrode",
 		codinome: "",
 		numero: 101.2, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
 		massa: 71.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10232.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0101.png",
 		estatistica: {
 			ps:		 	60,
@@ -4197,7 +4324,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4207,12 +4334,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exeggcute",
+		especie: "Exeggcute",
 		codinome: "",
 		numero: 102, // considerando a national dex
 		tipo: ["Planta", " Psíquico"],
 		massa: 2.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/102.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0102.png",
 		estatistica: {
 			ps:		 	60,
@@ -4230,7 +4358,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4240,12 +4368,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exeggutor de Kanto",
+		especie: "Exeggutor",
 		codinome: "",
 		numero: 103.1, // considerando a national dex
 		tipo: ["Planta", " Psíquico"],
 		massa: 120.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/103.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0103.png",
 		estatistica: {
 			ps:		 	95,
@@ -4263,7 +4392,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4273,12 +4402,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exeggutor de Alola",
+		especie: "Exeggutor",
 		codinome: "",
 		numero: 103.2, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
 		massa: 415.6, // em kg
 		altura: 10.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10114.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0103.png",
 		estatistica: {
 			ps:		 	95,
@@ -4296,7 +4426,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4306,12 +4436,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cubone",
+		especie: "Cubone",
 		codinome: "",
 		numero: 104, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/104.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0104.png",
 		estatistica: {
 			ps:		 	50,
@@ -4329,7 +4460,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4339,12 +4470,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marowak de Kanto",
+		especie: "Marowak",
 		codinome: "",
 		numero: 105.1, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 45.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/105.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0105.png",
 		estatistica: {
 			ps:		 	60,
@@ -4363,7 +4495,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4373,12 +4505,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marowak de Alola",
+		especie: "Marowak",
 		codinome: "",
 		numero: 105.2, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
 		massa: 34.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10115.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0105.png",
 		estatistica: {
 			ps:		 	60,
@@ -4396,7 +4529,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4406,12 +4539,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hitmonlee",
+		especie: "Hitmonlee",
 		codinome: "",
 		numero: 106, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 49.8, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/106.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0106.png",
 		estatistica: {
 			ps:		 	50,
@@ -4429,7 +4563,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4439,12 +4573,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hitmonchan",
+		especie: "Hitmonchan",
 		codinome: "",
 		numero: 107, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 50.2, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/107.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/13/F0107.png",
 		estatistica: {
 			ps:		 	50,
@@ -4462,7 +4597,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4472,12 +4607,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lickitung",
+		especie: "Lickitung",
 		codinome: "",
 		numero: 108, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 65.5, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/108.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/74/F0108.png",
 		estatistica: {
 			ps:		 	90,
@@ -4495,7 +4631,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4505,12 +4641,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Koffing",
+		especie: "Koffing",
 		codinome: "",
 		numero: 109, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/109.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0109.png",
 		estatistica: {
 			ps:		 	40,
@@ -4528,7 +4665,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4538,12 +4675,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weezing de Kanto",
+		especie: "Weezing",
 		codinome: "",
 		numero: 110.1, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 9.5, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/110.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0110.png",
 		estatistica: {
 			ps:		 	65,
@@ -4561,7 +4699,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4571,12 +4709,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weezing de Galar",
+		especie: "Weezing",
 		codinome: "",
 		numero: 110.2, // considerando a national dex
 		tipo: ["Veneno", " Fada"],
 		massa: 16.0, // em kg
 		altura: 3.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10167.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0110.png",
 		estatistica: {
 			ps:		 	65,
@@ -4595,7 +4734,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -4605,12 +4744,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rhyhorn",
+		especie: "Rhyhorn",
 		codinome: "",
 		numero: 111, // considerando a national dex
 		tipo: ["Terra", " Rocha"],
 		massa: 115.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/111.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0111.png",
 		estatistica: {
 			ps:		 	80,
@@ -4628,7 +4768,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4638,12 +4778,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rhydon",
+		especie: "Rhydon",
 		codinome: "",
 		numero: 112, // considerando a national dex
 		tipo: ["Terra", " Rocha"],
 		massa: 120.0, // em kg
 		altura: 1.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/112.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0112.png",
 		estatistica: {
 			ps:		 	105,
@@ -4661,7 +4802,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4671,12 +4812,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chansey",
+		especie: "Chansey",
 		codinome: "",
 		numero: 113, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 34.6, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/113.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/de/F0113.png",
 		estatistica: {
 			ps:		 	250,
@@ -4694,7 +4836,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4704,12 +4846,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tangela",
+		especie: "Tangela",
 		codinome: "",
 		numero: 114, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/114.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0114.png",
 		estatistica: {
 			ps:		 	65,
@@ -4727,7 +4870,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4737,12 +4880,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kangaskhan",
+		especie: "Kangaskhan",
 		codinome: "",
 		numero: 115, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 80.0, // em kg
 		altura: 2.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/115.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/87/F0115.png",
 		estatistica: {
 			ps:		 	105,
@@ -4760,7 +4904,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4770,12 +4914,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Horsea",
+		especie: "Horsea",
 		codinome: "",
 		numero: 116, // considerando a national dex
 		tipo: ["Água"],
 		massa: 8.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/116.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0116.png",
 		estatistica: {
 			ps:		 	30,
@@ -4793,7 +4938,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4803,12 +4948,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seadra",
+		especie: "Seadra",
 		codinome: "",
 		numero: 117, // considerando a national dex
 		tipo: ["Água"],
 		massa: 25.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/117.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/35/F0117.png",
 		estatistica: {
 			ps:		 	55,
@@ -4827,7 +4973,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4837,12 +4983,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goldeen",
+		especie: "Goldeen",
 		codinome: "",
 		numero: 118, // considerando a national dex
 		tipo: ["Água"],
 		massa: 15.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/118.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0118.png",
 		estatistica: {
 			ps:		 	45,
@@ -4861,7 +5008,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4871,12 +5018,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seaking",
+		especie: "Seaking",
 		codinome: "",
 		numero: 119, // considerando a national dex
 		tipo: ["Água"],
 		massa: 39.0, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/119.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0119.png",
 		estatistica: {
 			ps:		 	80,
@@ -4894,7 +5042,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4904,12 +5052,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Staryu",
+		especie: "Staryu",
 		codinome: "",
 		numero: 120, // considerando a national dex
 		tipo: ["Água"],
 		massa: 34.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/120.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0120.png",
 		estatistica: {
 			ps:		 	30,
@@ -4927,7 +5076,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4937,12 +5086,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Starmie",
+		especie: "Starmie",
 		codinome: "",
 		numero: 121, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 80.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/121.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0121.png",
 		estatistica: {
 			ps:		 	60,
@@ -4960,7 +5110,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -4970,12 +5120,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mr. Mime de Kanto",
+		especie: "Mr. Mime",
 		codinome: "",
 		numero: 122.1, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 54.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/122.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0122.png",
 		estatistica: {
 			ps:		 	40,
@@ -4993,7 +5144,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5003,12 +5154,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mr. Mime de Galar",
+		especie: "Mr. Mime",
 		codinome: "",
 		numero: 122.2, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
 		massa: 56.8, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10168.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4d/F0122.png",
 		estatistica: {
 			ps:		 	50,
@@ -5026,7 +5178,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5036,12 +5188,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scyther",
+		especie: "Scyther",
 		codinome: "",
 		numero: 123, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 56.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/123.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/49/F0123.png",
 		estatistica: {
 			ps:		 	70,
@@ -5059,7 +5212,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5069,12 +5222,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jynx",
+		especie: "Jynx",
 		codinome: "",
 		numero: 124, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
 		massa: 40.6, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/124.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0124.png",
 		estatistica: {
 			ps:		 	65,
@@ -5092,7 +5246,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5102,12 +5256,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electabuzz",
+		especie: "Electabuzz",
 		codinome: "",
 		numero: 125, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 30.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/125.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0125.png",
 		estatistica: {
 			ps:		 	65,
@@ -5125,7 +5280,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5135,12 +5290,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magmar",
+		especie: "Magmar",
 		codinome: "",
 		numero: 126, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 44.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/126.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/76/F0126.png",
 		estatistica: {
 			ps:		 	65,
@@ -5158,7 +5314,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5168,12 +5324,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pinsir",
+		especie: "Pinsir",
 		codinome: "",
 		numero: 127, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/127.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/62/F0127.png",
 		estatistica: {
 			ps:		 	65,
@@ -5191,7 +5348,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5201,12 +5358,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Kanto",
+		especie: "Tauros",
 		codinome: "",
 		numero: 128.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 88.4, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/128.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -5224,7 +5382,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5234,12 +5392,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Combativa)",
-		codinome: "Tauros de Paldea",
+		especie: "Tauros",
+		codinome: "",
 		numero: 128.2, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 115.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10250.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -5257,7 +5416,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5267,12 +5426,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Ardente)",
-		codinome: "Tauros de Paldea",
+		especie: "Tauros",
+		codinome: "",
 		numero: 128.3, // considerando a national dex
 		tipo: ["Lutador", " Fogo"],
 		massa: 85.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10251.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -5291,7 +5451,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5301,12 +5461,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tauros de Paldea (Variedade Aquática)",
-		codinome: "Tauros de Paldea",
+		especie: "Tauros",
+		codinome: "",
 		numero: 128.4, // considerando a national dex
 		tipo: ["Lutador", " Água"],
 		massa: 110.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10252.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0128.png",
 		estatistica: {
 			ps:		 	75,
@@ -5325,7 +5486,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5335,12 +5496,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magikarp",
+		especie: "Magikarp",
 		codinome: "",
 		numero: 129, // considerando a national dex
 		tipo: ["Água"],
 		massa: 10.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/129.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0129.png",
 		estatistica: {
 			ps:		 	20,
@@ -5359,7 +5521,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5369,12 +5531,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gyarados",
+		especie: "Gyarados",
 		codinome: "",
 		numero: 130, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 235.0, // em kg
 		altura: 6.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/130.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0130.png",
 		estatistica: {
 			ps:		 	95,
@@ -5392,7 +5555,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5402,12 +5565,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lapras",
+		especie: "Lapras",
 		codinome: "",
 		numero: 131, // considerando a national dex
 		tipo: ["Água", " Gelo"],
 		massa: 220.0, // em kg
 		altura: 2.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/131.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0131.png",
 		estatistica: {
 			ps:		 	130,
@@ -5425,7 +5589,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5435,12 +5599,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ditto",
+		especie: "Ditto",
 		codinome: "",
 		numero: 132, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 4.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/132.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/ff/F0132.png",
 		estatistica: {
 			ps:		 	48,
@@ -5459,7 +5624,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5469,12 +5634,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eevee",
+		especie: "Eevee",
 		codinome: "",
 		numero: 133, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.5, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/133.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0133.png",
 		estatistica: {
 			ps:		 	55,
@@ -5492,7 +5658,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5502,12 +5668,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vaporeon",
+		especie: "Vaporeon",
 		codinome: "",
 		numero: 134, // considerando a national dex
 		tipo: ["Água"],
 		massa: 29.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/134.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/72/F0134.png",
 		estatistica: {
 			ps:		 	130,
@@ -5525,7 +5692,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5535,12 +5702,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jolteon",
+		especie: "Jolteon",
 		codinome: "",
 		numero: 135, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 24.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/135.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0135.png",
 		estatistica: {
 			ps:		 	65,
@@ -5558,7 +5726,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5568,12 +5736,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flareon",
+		especie: "Flareon",
 		codinome: "",
 		numero: 136, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 25.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/136.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0136.png",
 		estatistica: {
 			ps:		 	65,
@@ -5591,7 +5760,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5601,12 +5770,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Porygon",
+		especie: "Porygon",
 		codinome: "",
 		numero: 137, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 36.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/137.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d4/F0137.png",
 		estatistica: {
 			ps:		 	65,
@@ -5624,7 +5794,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5634,12 +5804,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Omanyte",
+		especie: "Omanyte",
 		codinome: "",
 		numero: 138, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 7.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/138.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0138.png",
 		estatistica: {
 			ps:		 	35,
@@ -5657,7 +5828,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5667,12 +5838,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Omastar",
+		especie: "Omastar",
 		codinome: "",
 		numero: 139, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 35.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/139.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3b/F0139.png",
 		estatistica: {
 			ps:		 	70,
@@ -5690,7 +5862,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5700,12 +5872,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kabuto",
+		especie: "Kabuto",
 		codinome: "",
 		numero: 140, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 11.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/140.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0140.png",
 		estatistica: {
 			ps:		 	30,
@@ -5723,7 +5896,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5733,12 +5906,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kabutops",
+		especie: "Kabutops",
 		codinome: "",
 		numero: 141, // considerando a national dex
 		tipo: ["Rocha", " Água"],
 		massa: 40.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/141.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0141.png",
 		estatistica: {
 			ps:		 	60,
@@ -5756,7 +5930,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5766,12 +5940,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aerodactyl",
+		especie: "Aerodactyl",
 		codinome: "",
 		numero: 142, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
 		massa: 59.0, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/142.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0142.png",
 		estatistica: {
 			ps:		 	80,
@@ -5789,7 +5964,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5799,12 +5974,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snorlax",
+		especie: "Snorlax",
 		codinome: "",
 		numero: 143, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 460.0, // em kg
 		altura: 2.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/143.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0143.png",
 		estatistica: {
 			ps:		 	160,
@@ -5822,7 +5998,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -5832,12 +6008,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Articuno de Kanto",
+		especie: "Articuno",
 		codinome: "",
 		numero: 144.1, // considerando a national dex
 		tipo: ["Gelo", " Voador"],
 		massa: 55.4, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/144.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0144.png",
 		estatistica: {
 			ps:		 	90,
@@ -5855,7 +6032,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5865,12 +6042,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Articuno de Galar",
+		especie: "Articuno",
 		codinome: "",
 		numero: 144.2, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 50.9, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10169.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0144.png",
 		estatistica: {
 			ps:		 	90,
@@ -5888,7 +6066,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5898,12 +6076,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zapdos de Kanto",
+		especie: "Zapdos",
 		codinome: "",
 		numero: 145.1, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 52.6, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/145.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/36/F0145.png",
 		estatistica: {
 			ps:		 	90,
@@ -5921,7 +6100,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5931,12 +6110,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zapdos de Galar",
+		especie: "Zapdos",
 		codinome: "",
 		numero: 145.2, // considerando a national dex
 		tipo: ["Lutador", " Voador"],
 		massa: 58.2, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10170.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/36/F0145.png",
 		estatistica: {
 			ps:		 	90,
@@ -5954,7 +6134,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5964,12 +6144,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Moltres de Kanto",
+		especie: "Moltres",
 		codinome: "",
 		numero: 146.1, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/146.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0146.png",
 		estatistica: {
 			ps:		 	90,
@@ -5987,7 +6168,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -5997,12 +6178,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Moltres de Galar",
+		especie: "Moltres",
 		codinome: "",
 		numero: 146.2, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 66.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10171.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0146.png",
 		estatistica: {
 			ps:		 	90,
@@ -6020,7 +6202,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: true,
 		sprite: [
@@ -6030,12 +6212,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dratini",
+		especie: "Dratini",
 		codinome: "",
 		numero: 147, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 3.3, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/147.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0147.png",
 		estatistica: {
 			ps:		 	41,
@@ -6053,7 +6236,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6063,12 +6246,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragonair",
+		especie: "Dragonair",
 		codinome: "",
 		numero: 148, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 16.5, // em kg
 		altura: 4.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/148.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0148.png",
 		estatistica: {
 			ps:		 	61,
@@ -6086,7 +6270,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6096,12 +6280,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragonite",
+		especie: "Dragonite",
 		codinome: "",
 		numero: 149, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 210.0, // em kg
 		altura: 2.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/149.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0149.png",
 		estatistica: {
 			ps:		 	91,
@@ -6119,7 +6304,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -6129,12 +6314,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mewtwo",
+		especie: "Mewtwo",
 		codinome: "",
 		numero: 150, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 122.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/150.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2f/F0150.png",
 		estatistica: {
 			ps:		 	106,
@@ -6152,7 +6338,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -6162,12 +6348,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mew",
+		especie: "Mew",
 		codinome: "",
 		numero: 151, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 4.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/151.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ad/F0151.png",
 		estatistica: {
 			ps:		 	100,
@@ -6185,7 +6372,7 @@ const pkmnDisponiveis = [
 		geracao: 1, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -6195,12 +6382,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chikorita",
+		especie: "Chikorita",
 		codinome: "",
 		numero: 152, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 6.4, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/152.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0152.png",
 		estatistica: {
 			ps:		 	45,
@@ -6218,22 +6406,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/52/152Chikorita_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chikorita_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bayleef",
+		especie: "Bayleef",
 		codinome: "",
 		numero: 153, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 15.8, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/153.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5c/F0153.png",
 		estatistica: {
 			ps:		 	60,
@@ -6251,22 +6440,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/82/153Bayleef_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bayleef_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Meganium",
+		especie: "Meganium",
 		codinome: "",
 		numero: 154, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 100.5, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/153.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0154.png",
 		estatistica: {
 			ps:		 	80,
@@ -6284,22 +6474,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e8/154Meganium_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meganium_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cyndaquil",
+		especie: "Cyndaquil",
 		codinome: "",
 		numero: 155, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 7.9, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/155.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0155.png",
 		estatistica: {
 			ps:		 	39,
@@ -6317,22 +6508,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f0/155Cyndaquil_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cyndaquil_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Quilava",
+		especie: "Quilava",
 		codinome: "",
 		numero: 156, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 19.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/156.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/88/F0156.png",
 		estatistica: {
 			ps:		 	58,
@@ -6350,22 +6542,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/31/156Quilava_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Quilava_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Typhlosion de Johto",
+		especie: "Typhlosion",
 		codinome: "",
 		numero: 157.1, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 79.5, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/157.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/19/F0157.png",
 		estatistica: {
 			ps:		 	78,
@@ -6383,22 +6576,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/65/157Typhlosion_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Typhlosion de Hisui",
+		especie: "Typhlosion",
 		codinome: "",
 		numero: 157.2, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
 		massa: 69.8, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10233.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/19/F0157.png",
 		estatistica: {
 			ps:		 	73,
@@ -6416,22 +6610,23 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a2/157Typhlosion-Hisui_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10233.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Totodile",
+		especie: "Totodile",
 		codinome: "",
 		numero: 158, // considerando a national dex
 		tipo: ["Água"],
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/158.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0158.png",
 		estatistica: {
 			ps:		 	50,
@@ -6449,22 +6644,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/47/158Totodile_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Totodile_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Croconaw",
+		especie: "Croconaw",
 		codinome: "",
 		numero: 159, // considerando a national dex
 		tipo: ["Água"],
 		massa: 25.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/159.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
 			ps:		 	65,
@@ -6482,22 +6678,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/22/159Croconaw_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Croconaw_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Feraligatr",
+		especie: "Feraligatr",
 		codinome: "",
 		numero: 160, // considerando a national dex
 		tipo: ["Água"],
 		massa: 88.8, // em kg
 		altura: 2.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/160.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a6/F0160.png",
 		estatistica: {
 			ps:		 	85,
@@ -6515,22 +6712,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/63/160Feraligatr_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sentret",
+		especie: "Sentret",
 		codinome: "",
 		numero: 161, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 6.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/161.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c8/F0161.png",
 		estatistica: {
 			ps:		 	35,
@@ -6548,22 +6746,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/55/161Sentret_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sentret_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Furret",
+		especie: "Furret",
 		codinome: "",
 		numero: 162, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/162.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0162.png",
 		estatistica: {
 			ps:		 	85,
@@ -6581,22 +6780,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/de/162Furret_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/162.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Furret_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Hoothoot",
+		especie: "Hoothoot",
 		codinome: "",
 		numero: 163, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 21.2, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/163.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0163.png",
 		estatistica: {
 			ps:		 	60,
@@ -6615,22 +6815,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/56/163Hoothoot_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Noctowl",
+		especie: "Noctowl",
 		codinome: "",
 		numero: 164, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 40.8, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/164.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0164.png",
 		estatistica: {
 			ps:		 	100,
@@ -6648,22 +6849,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/da/164Noctowl_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/164.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Noctowl_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ledyba",
+		especie: "Ledyba",
 		codinome: "",
 		numero: 165, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 10.8, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/165.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0165.png",
 		estatistica: {
 			ps:		 	40,
@@ -6681,22 +6883,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e6/165Ledyba_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/165.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ledyba_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ledian",
+		especie: "Ledian",
 		codinome: "",
 		numero: 166, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 35.6, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/166.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0166.png",
 		estatistica: {
 			ps:		 	55,
@@ -6714,22 +6917,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/ad/166Ledian_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ledian_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Spinarak",
+		especie: "Spinarak",
 		codinome: "",
 		numero: 167, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 8.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/167.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0167.png",
 		estatistica: {
 			ps:		 	40,
@@ -6747,22 +6951,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ed/167Spinarak_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spinarak_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ariados",
+		especie: "Ariados",
 		codinome: "",
 		numero: 168, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/168.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e2/F0168.png",
 		estatistica: {
 			ps:		 	70,
@@ -6780,22 +6985,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/db/168Ariados_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ariados_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Crobat",
+		especie: "Crobat",
 		codinome: "",
 		numero: 169, // considerando a national dex
 		tipo: ["Veneno", " Voador"],
 		massa: 75.0, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/169.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0169.png",
 		estatistica: {
 			ps:		 	85,
@@ -6813,22 +7019,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/86/169Crobat_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/169.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Crobat_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Chinchou",
+		especie: "Chinchou",
 		codinome: "",
 		numero: 170, // considerando a national dex
 		tipo: ["Água", " Elétrico"],
 		massa: 12.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/170.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0170.png",
 		estatistica: {
 			ps:		 	75,
@@ -6846,22 +7053,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e1/170Chinchou_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/170.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chinchou_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lanturn",
+		especie: "Lanturn",
 		codinome: "",
 		numero: 171, // considerando a national dex
 		tipo: ["Água", " Elétrico"],
 		massa: 22.5, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/171.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0171.png",
 		estatistica: {
 			ps:		 	125,
@@ -6879,22 +7087,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0b/171Lanturn_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/171.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lanturn_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Pichu",
+		especie: "Pichu",
 		codinome: "",
 		numero: 172, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/172.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fe/F0172.png",
 		estatistica: {
 			ps:		 	20,
@@ -6912,22 +7121,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/79/172Pichu_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pichu_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cleffa",
+		especie: "Cleffa",
 		codinome: "",
 		numero: 173, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 3.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/173.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0173.png",
 		estatistica: {
 			ps:		 	50,
@@ -6945,22 +7155,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/91/173Cleffa_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cleffa_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Igglybuff",
+		especie: "Igglybuff",
 		codinome: "",
 		numero: 174, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 1.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/174.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0174.png",
 		estatistica: {
 			ps:		 	90,
@@ -6978,22 +7189,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/df/174Igglybuff_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/174.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Togepi",
+		especie: "Togepi",
 		codinome: "",
 		numero: 175, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 1.5, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/175.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b1/F0175.png",
 		estatistica: {
 			ps:		 	35,
@@ -7011,22 +7223,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/87/175Togepi_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togepi_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Togetic",
+		especie: "Togetic",
 		codinome: "",
 		numero: 176, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 3.2, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/176.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0176.png",
 		estatistica: {
 			ps:		 	55,
@@ -7044,22 +7257,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f8/176Togetic_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togetic_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Natu",
+		especie: "Natu",
 		codinome: "",
 		numero: 177, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/177.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0177.png",
 		estatistica: {
 			ps:		 	40,
@@ -7077,22 +7291,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7e/177Natu_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/177.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Natu_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Xatu",
+		especie: "Xatu",
 		codinome: "",
 		numero: 178, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 15.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/178.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0178.png",
 		estatistica: {
 			ps:		 	65,
@@ -7110,22 +7325,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c8/178Xatu_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/178.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Xatu_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mareep",
+		especie: "Mareep",
 		codinome: "",
 		numero: 179, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/179.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1f/F0179.png",
 		estatistica: {
 			ps:		 	55,
@@ -7143,22 +7359,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5f/179Mareep_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mareep_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Flaaffy",
+		especie: "Flaaffy",
 		codinome: "",
 		numero: 180, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 13.3, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/180.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0180.png",
 		estatistica: {
 			ps:		 	70,
@@ -7176,22 +7393,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1e/180Flaaffy_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flaaffy_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ampharos",
+		especie: "Ampharos",
 		codinome: "",
 		numero: 181, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 61.5, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/181.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0181.png",
 		estatistica: {
 			ps:		 	90,
@@ -7209,22 +7427,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/61/181Ampharos_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ampharos_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bellossom",
+		especie: "Bellossom",
 		codinome: "",
 		numero: 182, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 5.8, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/182.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0182.png",
 		estatistica: {
 			ps:		 	75,
@@ -7242,22 +7461,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/ba/182Bellossom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellossom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Marill",
+		especie: "Marill",
 		codinome: "",
 		numero: 183, // considerando a national dex
 		tipo: ["Água", " Fada"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/183.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0183.png",
 		estatistica: {
 			ps:		 	70,
@@ -7275,22 +7495,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/dd/183Marill_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marill_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Azumarill",
+		especie: "Azumarill",
 		codinome: "",
 		numero: 184, // considerando a national dex
 		tipo: ["Água", " Fada"],
 		massa: 28.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/184.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0184.png",
 		estatistica: {
 			ps:		 	100,
@@ -7308,22 +7529,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5d/184Azumarill_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azumarill_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sudowoodo",
+		especie: "Sudowoodo",
 		codinome: "",
 		numero: 185, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/185.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0185.png",
 		estatistica: {
 			ps:		 	70,
@@ -7341,22 +7563,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0d/185Sudowoodo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Politoed",
+		especie: "Politoed",
 		codinome: "",
 		numero: 186, // considerando a national dex
 		tipo: ["Água"],
 		massa: 33.9, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/186.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0186.png",
 		estatistica: {
 			ps:		 	90,
@@ -7374,22 +7597,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3f/186Politoed_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/186.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Politoed_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Hoppip",
+		especie: "Hoppip",
 		codinome: "",
 		numero: 187, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 0.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/187.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0187.png",
 		estatistica: {
 			ps:		 	35,
@@ -7407,22 +7631,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f4/187Hoppip_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoppip_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Skiploom",
+		especie: "Skiploom",
 		codinome: "",
 		numero: 188, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/188.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/77/F0188.png",
 		estatistica: {
 			ps:		 	55,
@@ -7440,22 +7665,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d4/188Skiploom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skiploom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Jumpluff",
+		especie: "Jumpluff",
 		codinome: "",
 		numero: 189, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 3.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/189.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0189.png",
 		estatistica: {
 			ps:		 	75,
@@ -7473,22 +7699,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/95/189Jumpluff_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/189.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jumpluff_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Aipom",
+		especie: "Aipom",
 		codinome: "",
 		numero: 190, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 11.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/190.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/ba/F0190.png",
 		estatistica: {
 			ps:		 	55,
@@ -7506,22 +7733,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/ca/190Aipom_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aipom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sunkern",
+		especie: "Sunkern",
 		codinome: "",
 		numero: 191, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 1.8, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/191.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a3/F0191.png",
 		estatistica: {
 			ps:		 	30,
@@ -7539,22 +7767,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2f/191Sunkern_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/191.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sunkern_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sunflora",
+		especie: "Sunflora",
 		codinome: "",
 		numero: 192, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 8.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/192.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0192.png",
 		estatistica: {
 			ps:		 	75,
@@ -7572,22 +7801,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/71/192Sunflora_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/192.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sunflora_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Yanma",
+		especie: "Yanma",
 		codinome: "",
 		numero: 193, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/193.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0193.png",
 		estatistica: {
 			ps:		 	65,
@@ -7605,22 +7835,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/70/193Yanma_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/193.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yanma_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wooper de Johto",
+		especie: "Wooper",
 		codinome: "",
 		numero: 194.1, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 8.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/194.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0194.png",
 		estatistica: {
 			ps:		 	55,
@@ -7638,22 +7869,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d9/194Wooper_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wooper de Paldea",
+		especie: "Wooper",
 		codinome: "",
 		numero: 194.2, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
 		massa: 11.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10253.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0194.png",
 		estatistica: {
 			ps:		 	55,
@@ -7672,22 +7904,23 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/70/194Wooper_Paldea_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10253.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Quagsire",
+		especie: "Quagsire",
 		codinome: "",
 		numero: 195, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 75.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/195.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0195.png",
 		estatistica: {
 			ps:		 	95,
@@ -7706,22 +7939,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/80/195Quagsire_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Quagsire_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Espeon",
+		especie: "Espeon",
 		codinome: "",
 		numero: 196, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 26.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/195.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5f/F0196.png",
 		estatistica: {
 			ps:		 	65,
@@ -7739,22 +7973,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/53/196Espeon_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Umbreon",
+		especie: "Umbreon",
 		codinome: "",
 		numero: 197, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 27.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/197.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0197.png",
 		estatistica: {
 			ps:		 	95,
@@ -7772,22 +8007,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4b/197Umbreon_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Murkrow",
+		especie: "Murkrow",
 		codinome: "",
 		numero: 198, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 2.1, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/198.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/af/F0198.png",
 		estatistica: {
 			ps:		 	60,
@@ -7805,22 +8041,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7e/198Murkrow_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Slowking de Johto",
+		especie: "Slowking",
 		codinome: "",
 		numero: 199.1, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
 		massa: 79.5, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/199.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/28/F0199.png",
 		estatistica: {
 			ps:		 	95,
@@ -7838,22 +8075,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1e/199Slowking_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Slowking de Galar",
+		especie: "Slowking",
 		codinome: "",
 		numero: 199.2, // considerando a national dex
 		tipo: ["Veneno", " Psíquico"],
 		massa: 79.5, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10172.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/28/F0199.png",
 		estatistica: {
 			ps:		 	95,
@@ -7871,22 +8109,23 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/72/199Slowking_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10172.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Misdreavus",
+		especie: "Misdreavus",
 		codinome: "",
 		numero: 200, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 1.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/200.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0200.png",
 		estatistica: {
 			ps:		 	60,
@@ -7904,22 +8143,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/94/200Misdreavus_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Misdreavus_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Unown",
+		especie: "Unown",
 		codinome: "",
 		numero: 201, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 5.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/201.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0201.png",
 		estatistica: {
 			ps:		 	48,
@@ -7937,49 +8177,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d8/201Unown_A_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/0/0d/201Unown_B_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/f/fc/201Unown_C_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/4/44/201Unown_D_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/c/ce/201Unown_E_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/3/3b/201Unown_F_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/7/76/201Unown_G_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/2/2e/201Unown_H_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/7/72/201Unown_I_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/a/ad/201Unown_J_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/2/28/201Unown_K_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/b/b3/201Unown_L_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/d/df/201Unown_M_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/0/0b/201Unown_N_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/3/3b/201Unown_O_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/9/9d/201Unown_P_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/d/de/201Unown_Q_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/2/2a/201Unown_R_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/7/7b/201Unown_S_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/0/08/201Unown_T_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/2/28/201Unown_U_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/3/3b/201Unown_V_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/0/05/201Unown_W_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/c/c6/201Unown_X_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/1/14/201Unown_Y_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/0/0e/201Unown_Z_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/a/a0/201Unown_Exclamation_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/0/0d/201Unown_Question_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wobbuffet",
+		especie: "Wobbuffet",
 		codinome: "",
 		numero: 202, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 28.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/202.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3e/F0202.png",
 		estatistica: {
 			ps:		 	190,
@@ -7997,22 +8211,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a9/202Wobbuffet_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Girafarig",
+		especie: "Girafarig",
 		codinome: "",
 		numero: 203, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
 		massa: 41.5, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/203.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e6/F0203.png",
 		estatistica: {
 			ps:		 	70,
@@ -8030,22 +8245,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/91/203Girafarig_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Pineco",
+		especie: "Pineco",
 		codinome: "",
 		numero: 204, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 7.2, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/204.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0204.png",
 		estatistica: {
 			ps:		 	50,
@@ -8063,22 +8279,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9d/204Pineco_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/204.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pineco_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Forretress",
+		especie: "Forretress",
 		codinome: "",
 		numero: 205, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 125.8, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/205.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f1/F0205.png",
 		estatistica: {
 			ps:		 	75,
@@ -8096,22 +8313,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8b/205Forretress_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Forretress_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Dunsparce",
+		especie: "Dunsparce",
 		codinome: "",
 		numero: 206, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 14.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/206.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/91/F0206.png",
 		estatistica: {
 			ps:		 	100,
@@ -8129,22 +8347,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/07/206Dunsparce_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/206.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dunsparce_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gligar",
+		especie: "Gligar",
 		codinome: "",
 		numero: 207, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 64.8, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/207.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0207.png",
 		estatistica: {
 			ps:		 	65,
@@ -8162,22 +8381,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f8/207Gligar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gligar_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Steelix",
+		especie: "Steelix",
 		codinome: "",
 		numero: 208, // considerando a national dex
 		tipo: ["Metal", " Terra"],
 		massa: 400.0, // em kg
 		altura: 9.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/208.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0208.png",
 		estatistica: {
 			ps:		 	75,
@@ -8195,22 +8415,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a5/208Steelix_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Snubbull",
+		especie: "Snubbull",
 		codinome: "",
 		numero: 209, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 7.8, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/209.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/96/F0209.png",
 		estatistica: {
 			ps:		 	60,
@@ -8228,22 +8449,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c2/209Snubbull_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/209.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snubbull_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Granbull",
+		especie: "Granbull",
 		codinome: "",
 		numero: 210, // considerando a national dex
 		tipo: ["Fada"],
 		massa: 48.7, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/210.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e3/F0210.png",
 		estatistica: {
 			ps:		 	90,
@@ -8261,22 +8483,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ef/210Granbull_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/210.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Granbull_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Qwilfish de Johto",
+		especie: "Qwilfish",
 		codinome: "",
 		numero: 211.1, // considerando a national dex
 		tipo: ["Água", " Veneno"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/211.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0211.png",
 		estatistica: {
 			ps:		 	65,
@@ -8294,22 +8517,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b3/211Qwilfish_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Qwilfish de Hisui",
+		especie: "Qwilfish",
 		codinome: "",
 		numero: 211.2, // considerando a national dex
 		tipo: ["Noturno", " Veneno"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10234.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0211.png",
 		estatistica: {
 			ps:		 	65,
@@ -8328,22 +8552,23 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/19/211Qwilfish-Hisui_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10234.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Scizor",
+		especie: "Scizor",
 		codinome: "",
 		numero: 212, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 118.0, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/212.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0212.png",
 		estatistica: {
 			ps:		 	70,
@@ -8361,22 +8586,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5e/212Scizor_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shuckle",
+		especie: "Shuckle",
 		codinome: "",
 		numero: 213, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
 		massa: 20.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/213.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0213.png",
 		estatistica: {
 			ps:		 	20,
@@ -8394,22 +8620,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/87/213Shuckle_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Heracross",
+		especie: "Heracross",
 		codinome: "",
 		numero: 214, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
 		massa: 54.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/214.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0214.png",
 		estatistica: {
 			ps:		 	80,
@@ -8427,22 +8654,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/28/214Heracross_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sneasel de Johto",
+		especie: "Sneasel",
 		codinome: "",
 		numero: 215.1, // considerando a national dex
 		tipo: ["Noturno", " Gelo"],
 		massa: 28.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/215.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0215.png",
 		estatistica: {
 			ps:		 	55,
@@ -8460,22 +8688,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1e/215Sneasel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sneasel de Hisui",
+		especie: "Sneasel",
 		codinome: "",
 		numero: 215.2, // considerando a national dex
 		tipo: ["Lutador", " Veneno"],
 		massa: 27.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10235.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0215.png",
 		estatistica: {
 			ps:		 	55,
@@ -8494,22 +8723,23 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/30/215Sneasel-Hisui_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10235.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Teddiursa",
+		especie: "Teddiursa",
 		codinome: "",
 		numero: 216, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 8.8, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/216.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b5/F0216.png",
 		estatistica: {
 			ps:		 	60,
@@ -8527,22 +8757,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6c/216Teddiursa_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/216.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ursaring",
+		especie: "Ursaring",
 		codinome: "",
 		numero: 217, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 125.8, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/217.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0217.png",
 		estatistica: {
 			ps:		 	90,
@@ -8561,22 +8792,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/12/217Ursaring_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ursaring_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Slugma",
+		especie: "Slugma",
 		codinome: "",
 		numero: 218, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 35.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/218.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e8/F0218.png",
 		estatistica: {
 			ps:		 	40,
@@ -8594,22 +8826,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5c/218Slugma_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Magcargo",
+		especie: "Magcargo",
 		codinome: "",
 		numero: 219, // considerando a national dex
 		tipo: ["Fogo", " Rocha"],
 		massa: 55.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/219.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b6/F0219.png",
 		estatistica: {
 			ps:		 	60,
@@ -8627,22 +8860,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e3/219Magcargo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Swinub",
+		especie: "Swinub",
 		codinome: "",
 		numero: 220, // considerando a national dex
 		tipo: ["Gelo", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/220.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0220.png",
 		estatistica: {
 			ps:		 	50,
@@ -8660,22 +8894,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2c/220Swinub_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/220.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swinub_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Piloswine",
+		especie: "Piloswine",
 		codinome: "",
 		numero: 221, // considerando a national dex
 		tipo: ["Gelo", " Terra"],
 		massa: 55.8, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/221.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/15/F0221.png",
 		estatistica: {
 			ps:		 	100,
@@ -8693,22 +8928,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5d/221Piloswine_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/221.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Piloswine_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Corsola de Johto",
+		especie: "Corsola",
 		codinome: "",
 		numero: 222.1, // considerando a national dex
 		tipo: ["Água", " Rocha"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/222.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0222.png",
 		estatistica: {
 			ps:		 	65,
@@ -8726,22 +8962,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c7/222Corsola_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Corsola de Galar",
+		especie: "Corsola",
 		codinome: "",
 		numero: 222.2, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 0.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10173.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0222.png",
 		estatistica: {
 			ps:		 	60,
@@ -8759,22 +8996,23 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9f/222Corsola_Galar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10173.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Remoraid",
+		especie: "Remoraid",
 		codinome: "",
 		numero: 223, // considerando a national dex
 		tipo: ["Água"],
 		massa: 12.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/223.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dc/F0223.png",
 		estatistica: {
 			ps:		 	35,
@@ -8792,22 +9030,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b7/223Remoraid_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/223.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Remoraid_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Octillery",
+		especie: "Octillery",
 		codinome: "",
 		numero: 224, // considerando a national dex
 		tipo: ["Água"],
 		massa: 28.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/224.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0224.png",
 		estatistica: {
 			ps:		 	75,
@@ -8825,22 +9064,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6f/224Octillery_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/224.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Octillery_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Delibird",
+		especie: "Delibird",
 		codinome: "",
 		numero: 225, // considerando a national dex
 		tipo: ["Gelo", " Voador"],
 		massa: 16.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/225.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0225.png",
 		estatistica: {
 			ps:		 	45,
@@ -8858,22 +9098,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/40/225Delibird_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mantine",
+		especie: "Mantine",
 		codinome: "",
 		numero: 226, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 220.0, // em kg
 		altura: 2.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/226.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0226.png",
 		estatistica: {
 			ps:		 	85,
@@ -8891,22 +9132,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2e/226Mantine_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/226.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mantine_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Skarmory",
+		especie: "Skarmory",
 		codinome: "",
 		numero: 227, // considerando a national dex
 		tipo: ["Metal", " Voador"],
 		massa: 50.5, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/227.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0227.png",
 		estatistica: {
 			ps:		 	65,
@@ -8924,22 +9166,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2b/227Skarmory_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Houndour",
+		especie: "Houndour",
 		codinome: "",
 		numero: 228, // considerando a national dex
 		tipo: ["Noturno", " Fogo"],
 		massa: 10.8, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/228.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0228.png",
 		estatistica: {
 			ps:		 	45,
@@ -8957,22 +9200,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4f/228Houndour_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Houndour_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Houndoom",
+		especie: "Houndoom",
 		codinome: "",
 		numero: 229, // considerando a national dex
 		tipo: ["Noturno", " Fogo"],
 		massa: 35.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/229.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/dd/F0229.png",
 		estatistica: {
 			ps:		 	75,
@@ -8990,22 +9234,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9a/229Houndoom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Kingdra",
+		especie: "Kingdra",
 		codinome: "",
 		numero: 230, // considerando a national dex
 		tipo: ["Água", " Dragão"],
 		massa: 152.0, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/230.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0230.png",
 		estatistica: {
 			ps:		 	75,
@@ -9023,22 +9268,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b1/230Kingdra_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kingdra_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Phanpy",
+		especie: "Phanpy",
 		codinome: "",
 		numero: 231, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 33.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/231.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0231.png",
 		estatistica: {
 			ps:		 	90,
@@ -9056,22 +9302,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/cd/231Phanpy_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/231.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Phanpy_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Donphan",
+		especie: "Donphan",
 		codinome: "",
 		numero: 232, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 120.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/232.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ca/F0232.png",
 		estatistica: {
 			ps:		 	90,
@@ -9090,22 +9337,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fd/232Donphan_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Donphan_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Porygon2",
+		especie: "Porygon2",
 		codinome: "",
 		numero: 233, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/233.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6a/F0233.png",
 		estatistica: {
 			ps:		 	85,
@@ -9123,22 +9371,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/31/233Porygon2_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/233.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon2_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Stantler",
+		especie: "Stantler",
 		codinome: "",
 		numero: 234, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 71.2, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/234.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/24/F0234.png",
 		estatistica: {
 			ps:		 	73,
@@ -9156,22 +9405,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/05/234Stantler_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/234.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stantler_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Smeargle",
+		especie: "Smeargle",
 		codinome: "",
 		numero: 235, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 58.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/235.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/14/F0235.png",
 		estatistica: {
 			ps:		 	55,
@@ -9189,22 +9439,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d1/235Smeargle_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Tyrogue",
+		especie: "Tyrogue",
 		codinome: "",
 		numero: 236, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 21.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/236.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0236.png",
 		estatistica: {
 			ps:		 	35,
@@ -9222,23 +9473,24 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7e/236Tyrogue_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/236.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyrogue_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Hitmontop",
+		especie: "Hitmontop",
 		codinome: "",
 		numero: 237, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 48.0, // em kg
 		altura: 1.4, // em metros
 		som: "",
-		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0237.png",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/237.ogg",
 		estatistica: {
 			ps:		 	50,
 			atq:	 	95,
@@ -9255,22 +9507,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/73/237Hitmontop_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/237.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmontop_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Smoochum",
+		especie: "Smoochum",
 		codinome: "",
 		numero: 238, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
 		massa: 6.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/238.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7c/F0238.png",
 		estatistica: {
 			ps:		 	45,
@@ -9288,22 +9541,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/76/238Smoochum_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/238.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Smoochum_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Elekid",
+		especie: "Elekid",
 		codinome: "",
 		numero: 239, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 23.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/239.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8a/F0239.png",
 		estatistica: {
 			ps:		 	45,
@@ -9321,22 +9575,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/51/239Elekid_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/239.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Elekid_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Magby",
+		especie: "Magby",
 		codinome: "",
 		numero: 240, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 21.4, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/240.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0240.png",
 		estatistica: {
 			ps:		 	45,
@@ -9354,22 +9609,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9a/240Magby_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/240.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magby_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Miltank",
+		especie: "Miltank",
 		codinome: "",
 		numero: 241, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 75.5, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/241.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0241.png",
 		estatistica: {
 			ps:		 	95,
@@ -9387,22 +9643,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/29/241Miltank_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/241.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Miltank_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Blissey",
+		especie: "Blissey",
 		codinome: "",
 		numero: 242, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 46.8, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/242.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0242.png",
 		estatistica: {
 			ps:		 	255,
@@ -9420,22 +9677,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1d/242Blissey_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blissey_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Raikou",
+		especie: "Raikou",
 		codinome: "",
 		numero: 243, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 178.0, // em kg
 		altura: 1.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/243.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f8/F0243.png",
 		estatistica: {
 			ps:		 	90,
@@ -9453,22 +9711,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/da/243Raikou_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/243.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Entei",
+		especie: "Entei",
 		codinome: "",
 		numero: 244, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 198.0, // em kg
 		altura: 2.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/244.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0244.png",
 		estatistica: {
 			ps:		 	115,
@@ -9486,22 +9745,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/ca/244Entei_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/244.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Entei_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Suicune",
+		especie: "Suicune",
 		codinome: "",
 		numero: 245, // considerando a national dex
 		tipo: ["Água"],
 		massa: 187.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/245.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0245.png",
 		estatistica: {
 			ps:		 	100,
@@ -9519,22 +9779,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6c/245Suicune_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/245.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Larvitar",
+		especie: "Larvitar",
 		codinome: "",
 		numero: 246, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 72.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/246.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/53/F0246.png",
 		estatistica: {
 			ps:		 	50,
@@ -9552,22 +9813,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b5/246Larvitar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Larvitar_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Pupitar",
+		especie: "Pupitar",
 		codinome: "",
 		numero: 247, // considerando a national dex
 		tipo: ["Rocha", " Terra"],
 		massa: 152.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/247.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/80/F0247.png",
 		estatistica: {
 			ps:		 	70,
@@ -9585,22 +9847,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/be/247Pupitar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pupitar_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Tyranitar",
+		especie: "Tyranitar",
 		codinome: "",
 		numero: 248, // considerando a national dex
 		tipo: ["Rocha", " Noturno"],
 		massa: 202.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/248.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0248.png",
 		estatistica: {
 			ps:		 	100,
@@ -9618,22 +9881,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4b/248Tyranitar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lugia",
+		especie: "Lugia",
 		codinome: "",
 		numero: 249, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
 		massa: 216.0, // em kg
 		altura: 5.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/249.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0249.png",
 		estatistica: {
 			ps:		 	106,
@@ -9651,22 +9915,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bd/249Lugia_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ho-Oh",
+		especie: "Ho-Oh",
 		codinome: "",
 		numero: 250, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
 		massa: 199.0, // em kg
 		altura: 3.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/250.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9f/F0250.png",
 		estatistica: {
 			ps:		 	106,
@@ -9684,22 +9949,23 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5f/250Ho-Oh_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Celebi",
+		especie: "Celebi",
 		codinome: "",
 		numero: 251, // considerando a national dex
 		tipo: ["Psíquico", " Planta"],
 		massa: 5.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/251.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9a/F0251.png",
 		estatistica: {
 			ps:		 	100,
@@ -9717,16 +9983,17 @@ const pkmnDisponiveis = [
 		geracao: 2, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/af/251Celebi_Dream_3.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/251.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Treecko",
+		especie: "Treecko",
 		codinome: "",
 		numero: 252, // considerando a national dex
 		tipo: ["Planta"],
@@ -9750,7 +10017,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9760,6 +10027,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grovyle",
+		especie: "",
 		codinome: "",
 		numero: 253, // considerando a national dex
 		tipo: ["Planta"],
@@ -9783,7 +10051,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9793,6 +10061,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sceptile",
+		especie: "",
 		codinome: "",
 		numero: 254, // considerando a national dex
 		tipo: ["Planta"],
@@ -9816,7 +10085,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9826,6 +10095,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torchic",
+		especie: "",
 		codinome: "",
 		numero: 255, // considerando a national dex
 		tipo: ["Fogo"],
@@ -9849,7 +10119,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9859,6 +10129,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Combusken",
+		especie: "",
 		codinome: "",
 		numero: 256, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
@@ -9882,7 +10153,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9892,6 +10163,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blaziken",
+		especie: "",
 		codinome: "",
 		numero: 257, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
@@ -9915,7 +10187,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9925,6 +10197,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mudkip",
+		especie: "",
 		codinome: "",
 		numero: 258, // considerando a national dex
 		tipo: ["Água"],
@@ -9948,7 +10221,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9958,6 +10231,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marshtomp",
+		especie: "",
 		codinome: "",
 		numero: 259, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -9981,7 +10255,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -9991,6 +10265,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swampert",
+		especie: "",
 		codinome: "",
 		numero: 260, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -10014,7 +10289,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10024,6 +10299,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poochyena",
+		especie: "",
 		codinome: "",
 		numero: 261, // considerando a national dex
 		tipo: ["Noturno"],
@@ -10047,7 +10323,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10057,6 +10333,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mightyena",
+		especie: "",
 		codinome: "",
 		numero: 262, // considerando a national dex
 		tipo: ["Noturno"],
@@ -10080,7 +10357,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10090,6 +10367,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zigzagoon de Hoenn",
+		especie: "",
 		codinome: "",
 		numero: 263.1, // considerando a national dex
 		tipo: ["Normal"],
@@ -10113,7 +10391,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -10123,6 +10401,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zigzagoon de Galar",
+		especie: "",
 		codinome: "",
 		numero: 263.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
@@ -10146,7 +10425,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -10156,6 +10435,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Linoone de Hoenn",
+		especie: "",
 		codinome: "",
 		numero: 264.1, // considerando a national dex
 		tipo: ["Normal"],
@@ -10179,7 +10459,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -10189,6 +10469,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Linoone de Galar",
+		especie: "",
 		codinome: "",
 		numero: 264.2, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
@@ -10213,7 +10494,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -10223,6 +10504,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wurmple",
+		especie: "",
 		codinome: "",
 		numero: 265, // considerando a national dex
 		tipo: ["Inseto"],
@@ -10246,7 +10528,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10256,6 +10538,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Silcoon",
+		especie: "",
 		codinome: "",
 		numero: 266, // considerando a national dex
 		tipo: ["Inseto"],
@@ -10279,7 +10562,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10289,6 +10572,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beautifly",
+		especie: "",
 		codinome: "",
 		numero: 267, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -10312,7 +10596,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10322,6 +10606,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cascoon",
+		especie: "",
 		codinome: "",
 		numero: 268, // considerando a national dex
 		tipo: ["Inseto"],
@@ -10345,7 +10630,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10355,6 +10640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dustox",
+		especie: "",
 		codinome: "",
 		numero: 269, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
@@ -10378,7 +10664,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10388,6 +10674,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lotad",
+		especie: "",
 		codinome: "",
 		numero: 270, // considerando a national dex
 		tipo: ["Água", " Planta"],
@@ -10411,7 +10698,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10421,6 +10708,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lombre",
+		especie: "",
 		codinome: "",
 		numero: 271, // considerando a national dex
 		tipo: ["Água", " Planta"],
@@ -10444,7 +10732,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10454,6 +10742,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ludicolo",
+		especie: "",
 		codinome: "",
 		numero: 272, // considerando a national dex
 		tipo: ["Água", " Planta"],
@@ -10477,7 +10766,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10487,6 +10776,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seedot",
+		especie: "",
 		codinome: "",
 		numero: 273, // considerando a national dex
 		tipo: ["Planta"],
@@ -10510,7 +10800,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10520,6 +10810,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nuzleaf",
+		especie: "",
 		codinome: "",
 		numero: 274, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
@@ -10543,7 +10834,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10553,6 +10844,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shiftry",
+		especie: "",
 		codinome: "",
 		numero: 275, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
@@ -10576,7 +10868,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10586,6 +10878,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Taillow",
+		especie: "",
 		codinome: "",
 		numero: 276, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -10609,7 +10902,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10619,6 +10912,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swellow",
+		especie: "",
 		codinome: "",
 		numero: 277, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -10642,7 +10936,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10652,6 +10946,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wingull",
+		especie: "",
 		codinome: "",
 		numero: 278, // considerando a national dex
 		tipo: ["Água", " Voador"],
@@ -10675,7 +10970,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10685,6 +10980,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pelipper",
+		especie: "",
 		codinome: "",
 		numero: 279, // considerando a national dex
 		tipo: ["Água", " Voador"],
@@ -10708,7 +11004,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10718,6 +11014,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ralts",
+		especie: "",
 		codinome: "",
 		numero: 280, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
@@ -10741,7 +11038,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10751,6 +11048,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kirlia",
+		especie: "",
 		codinome: "",
 		numero: 281, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
@@ -10774,7 +11072,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10784,6 +11082,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gardevoir",
+		especie: "",
 		codinome: "",
 		numero: 282, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
@@ -10807,7 +11106,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10817,6 +11116,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Surskit",
+		especie: "",
 		codinome: "",
 		numero: 283, // considerando a national dex
 		tipo: ["Inseto", " Água"],
@@ -10840,7 +11140,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10850,6 +11150,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Masquerain",
+		especie: "",
 		codinome: "",
 		numero: 284, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -10873,7 +11174,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10883,6 +11184,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shroomish",
+		especie: "",
 		codinome: "",
 		numero: 285, // considerando a national dex
 		tipo: ["Planta"],
@@ -10906,7 +11208,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10916,6 +11218,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Breloom",
+		especie: "",
 		codinome: "",
 		numero: 286, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
@@ -10939,7 +11242,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10949,6 +11252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slakoth",
+		especie: "",
 		codinome: "",
 		numero: 287, // considerando a national dex
 		tipo: ["Normal"],
@@ -10972,7 +11276,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -10982,6 +11286,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vigoroth",
+		especie: "",
 		codinome: "",
 		numero: 288, // considerando a national dex
 		tipo: ["Normal"],
@@ -11005,7 +11310,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11015,6 +11320,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slaking",
+		especie: "",
 		codinome: "",
 		numero: 289, // considerando a national dex
 		tipo: ["Normal"],
@@ -11038,7 +11344,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11048,6 +11354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nincada",
+		especie: "",
 		codinome: "",
 		numero: 290, // considerando a national dex
 		tipo: ["Inseto", " Terra"],
@@ -11071,7 +11378,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11081,6 +11388,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ninjask",
+		especie: "",
 		codinome: "",
 		numero: 291, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -11104,7 +11412,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11114,6 +11422,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shedinja",
+		especie: "",
 		codinome: "",
 		numero: 292, // considerando a national dex
 		tipo: ["Inseto", " Fantasma"],
@@ -11137,7 +11446,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11147,6 +11456,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whismur",
+		especie: "",
 		codinome: "",
 		numero: 293, // considerando a national dex
 		tipo: ["Normal"],
@@ -11170,7 +11480,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11180,6 +11490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Loudred",
+		especie: "",
 		codinome: "",
 		numero: 294, // considerando a national dex
 		tipo: ["Normal"],
@@ -11203,7 +11514,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11213,6 +11524,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Exploud",
+		especie: "",
 		codinome: "",
 		numero: 295, // considerando a national dex
 		tipo: ["Normal"],
@@ -11236,7 +11548,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11246,6 +11558,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Makuhita",
+		especie: "",
 		codinome: "",
 		numero: 296, // considerando a national dex
 		tipo: ["Lutador"],
@@ -11269,7 +11582,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11279,6 +11592,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hariyama",
+		especie: "",
 		codinome: "",
 		numero: 297, // considerando a national dex
 		tipo: ["Lutador"],
@@ -11302,7 +11616,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11312,6 +11626,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Azurill",
+		especie: "",
 		codinome: "",
 		numero: 298, // considerando a national dex
 		tipo: ["Normal", " Fada"],
@@ -11335,7 +11650,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11345,6 +11660,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nosepass",
+		especie: "",
 		codinome: "",
 		numero: 299, // considerando a national dex
 		tipo: ["Rocha"],
@@ -11368,7 +11684,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11378,6 +11694,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skitty",
+		especie: "",
 		codinome: "",
 		numero: 300, // considerando a national dex
 		tipo: ["Normal"],
@@ -11401,7 +11718,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11411,6 +11728,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Decaltty",
+		especie: "",
 		codinome: "",
 		numero: 301, // considerando a national dex
 		tipo: ["Normal"],
@@ -11434,7 +11752,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11444,6 +11762,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sableye",
+		especie: "",
 		codinome: "",
 		numero: 302, // considerando a national dex
 		tipo: ["Noturno", " Fantasma"],
@@ -11468,7 +11787,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11478,6 +11797,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mawile",
+		especie: "",
 		codinome: "",
 		numero: 303, // considerando a national dex
 		tipo: ["Metal", " Fada"],
@@ -11502,7 +11822,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11512,6 +11832,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aron",
+		especie: "",
 		codinome: "",
 		numero: 304, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
@@ -11535,7 +11856,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11545,6 +11866,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lairon",
+		especie: "",
 		codinome: "",
 		numero: 305, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
@@ -11568,7 +11890,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11578,6 +11900,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aggron",
+		especie: "",
 		codinome: "",
 		numero: 306, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
@@ -11601,7 +11924,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11611,6 +11934,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meditite",
+		especie: "",
 		codinome: "",
 		numero: 307, // considerando a national dex
 		tipo: ["Lutador", " Psíquico"],
@@ -11634,7 +11958,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11644,6 +11968,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Medicham",
+		especie: "",
 		codinome: "",
 		numero: 308, // considerando a national dex
 		tipo: ["Lutador", " Psíquico"],
@@ -11667,7 +11992,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11677,6 +12002,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electrike",
+		especie: "",
 		codinome: "",
 		numero: 309, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -11700,7 +12026,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11710,6 +12036,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Manectric",
+		especie: "",
 		codinome: "",
 		numero: 310, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -11733,7 +12060,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11743,6 +12070,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Plusle",
+		especie: "",
 		codinome: "",
 		numero: 311, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -11766,7 +12094,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11776,6 +12104,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minun",
+		especie: "",
 		codinome: "",
 		numero: 312, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -11799,7 +12128,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11809,6 +12138,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Volbeat",
+		especie: "",
 		codinome: "",
 		numero: 313, // considerando a national dex
 		tipo: ["Inseto"],
@@ -11832,7 +12162,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11842,6 +12172,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Illumise",
+		especie: "",
 		codinome: "",
 		numero: 314, // considerando a national dex
 		tipo: ["Inseto"],
@@ -11865,7 +12196,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11875,6 +12206,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roselia",
+		especie: "",
 		codinome: "",
 		numero: 315, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
@@ -11898,7 +12230,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11908,6 +12240,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gulpin",
+		especie: "",
 		codinome: "",
 		numero: 316, // considerando a national dex
 		tipo: ["Veneno"],
@@ -11931,7 +12264,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11941,6 +12274,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swalot",
+		especie: "",
 		codinome: "",
 		numero: 317, // considerando a national dex
 		tipo: ["Veneno"],
@@ -11964,7 +12298,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -11974,6 +12308,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carvanha",
+		especie: "",
 		codinome: "",
 		numero: 318, // considerando a national dex
 		tipo: ["Água", " Noturno"],
@@ -11997,7 +12332,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12007,6 +12342,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sharpedo",
+		especie: "",
 		codinome: "",
 		numero: 319, // considerando a national dex
 		tipo: ["Água", " Noturno"],
@@ -12030,7 +12366,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12040,6 +12376,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wailmer",
+		especie: "",
 		codinome: "",
 		numero: 320, // considerando a national dex
 		tipo: ["Água"],
@@ -12064,7 +12401,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12074,6 +12411,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wailord",
+		especie: "",
 		codinome: "",
 		numero: 321, // considerando a national dex
 		tipo: ["Água"],
@@ -12097,7 +12435,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12107,6 +12445,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Numel",
+		especie: "",
 		codinome: "",
 		numero: 322, // considerando a national dex
 		tipo: ["Fogo", " Terra"],
@@ -12130,7 +12469,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12140,6 +12479,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Camerupt",
+		especie: "",
 		codinome: "",
 		numero: 323, // considerando a national dex
 		tipo: ["Fogo", " Terra"],
@@ -12163,7 +12503,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12173,6 +12513,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torkoal",
+		especie: "",
 		codinome: "",
 		numero: 324, // considerando a national dex
 		tipo: ["Fogo"],
@@ -12196,7 +12537,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12206,6 +12547,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spoink",
+		especie: "",
 		codinome: "",
 		numero: 325, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -12229,7 +12571,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12239,6 +12581,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grumpig",
+		especie: "",
 		codinome: "",
 		numero: 326, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -12262,7 +12605,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12272,6 +12615,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spinda",
+		especie: "",
 		codinome: "",
 		numero: 327, // considerando a national dex
 		tipo: ["Normal"],
@@ -12295,7 +12639,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12305,6 +12649,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trapinch",
+		especie: "",
 		codinome: "",
 		numero: 328, // considerando a national dex
 		tipo: ["Terra"],
@@ -12328,7 +12673,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12338,6 +12683,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vibrava",
+		especie: "",
 		codinome: "",
 		numero: 329, // considerando a national dex
 		tipo: ["Terra", " Dragão"],
@@ -12361,7 +12707,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12371,6 +12717,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flygon",
+		especie: "",
 		codinome: "",
 		numero: 330, // considerando a national dex
 		tipo: ["Terra", " Dragão"],
@@ -12394,7 +12741,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12404,6 +12751,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cacnea",
+		especie: "",
 		codinome: "",
 		numero: 331, // considerando a national dex
 		tipo: ["Planta"],
@@ -12427,7 +12775,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12437,6 +12785,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cacturne",
+		especie: "",
 		codinome: "",
 		numero: 332, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
@@ -12460,7 +12809,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12470,6 +12819,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swablu",
+		especie: "",
 		codinome: "",
 		numero: 333, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -12493,7 +12843,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12503,6 +12853,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Altaria",
+		especie: "",
 		codinome: "",
 		numero: 334, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
@@ -12526,7 +12877,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12536,6 +12887,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zangoose",
+		especie: "",
 		codinome: "",
 		numero: 335, // considerando a national dex
 		tipo: ["Normal"],
@@ -12559,7 +12911,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12569,6 +12921,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seviper",
+		especie: "",
 		codinome: "",
 		numero: 336, // considerando a national dex
 		tipo: ["Veneno"],
@@ -12592,7 +12945,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12602,6 +12955,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lunatone",
+		especie: "",
 		codinome: "",
 		numero: 337, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
@@ -12625,7 +12979,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12635,6 +12989,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Solrock",
+		especie: "",
 		codinome: "",
 		numero: 338, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
@@ -12658,7 +13013,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12668,6 +13023,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Barboach",
+		especie: "",
 		codinome: "",
 		numero: 339, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -12692,7 +13048,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12702,6 +13058,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whishcash",
+		especie: "",
 		codinome: "",
 		numero: 340, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -12725,7 +13082,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12735,6 +13092,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corphish",
+		especie: "",
 		codinome: "",
 		numero: 341, // considerando a national dex
 		tipo: ["Água"],
@@ -12758,7 +13116,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12768,6 +13126,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crawdaunt",
+		especie: "",
 		codinome: "",
 		numero: 342, // considerando a national dex
 		tipo: ["Água", " Noturno"],
@@ -12791,7 +13150,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12801,6 +13160,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Baltoy",
+		especie: "",
 		codinome: "",
 		numero: 343, // considerando a national dex
 		tipo: ["Terra", " Psíquico"],
@@ -12824,7 +13184,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12834,6 +13194,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Claydol",
+		especie: "",
 		codinome: "",
 		numero: 344, // considerando a national dex
 		tipo: ["Terra", " Psíquico"],
@@ -12857,7 +13218,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12867,6 +13228,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lileep",
+		especie: "",
 		codinome: "",
 		numero: 345, // considerando a national dex
 		tipo: ["Rocha", " Planta"],
@@ -12890,7 +13252,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12900,6 +13262,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cradily",
+		especie: "",
 		codinome: "",
 		numero: 346, // considerando a national dex
 		tipo: ["Rocha", " Planta"],
@@ -12923,7 +13286,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12933,6 +13296,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Anorith",
+		especie: "",
 		codinome: "",
 		numero: 347, // considerando a national dex
 		tipo: ["Rocha", " Inseto"],
@@ -12956,7 +13320,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12966,6 +13330,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Armaldo",
+		especie: "",
 		codinome: "",
 		numero: 348, // considerando a national dex
 		tipo: ["Rocha", " Inseto"],
@@ -12989,7 +13354,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -12999,6 +13364,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Feebas",
+		especie: "",
 		codinome: "",
 		numero: 349, // considerando a national dex
 		tipo: ["Água"],
@@ -13022,7 +13388,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13032,6 +13398,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Milotic",
+		especie: "",
 		codinome: "",
 		numero: 350, // considerando a national dex
 		tipo: ["Água"],
@@ -13055,7 +13422,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13065,6 +13432,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Normal)",
+		especie: "",
 		codinome: "Castform",
 		numero: 351.1, // considerando a national dex
 		tipo: ["Normal"],
@@ -13089,7 +13457,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13099,6 +13467,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Ensolarada)",
+		especie: "",
 		codinome: "Castform",
 		numero: 351.2, // considerando a national dex
 		tipo: ["Fogo"],
@@ -13133,6 +13502,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Chuvosa)",
+		especie: "",
 		codinome: "Castform",
 		numero: 351.3, // considerando a national dex
 		tipo: ["Água"],
@@ -13167,6 +13537,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Castform (Forma Nevada)",
+		especie: "",
 		codinome: "Castform",
 		numero: 351.4, // considerando a national dex
 		tipo: ["Gelo"],
@@ -13201,6 +13572,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kecleon",
+		especie: "",
 		codinome: "",
 		numero: 352, // considerando a national dex
 		tipo: ["Normal"],
@@ -13224,7 +13596,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13234,6 +13606,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shuppet",
+		especie: "",
 		codinome: "",
 		numero: 353, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -13257,7 +13630,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13267,6 +13640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Banette",
+		especie: "",
 		codinome: "",
 		numero: 354, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -13290,7 +13664,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13300,6 +13674,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Duskull",
+		especie: "",
 		codinome: "",
 		numero: 355, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -13323,7 +13698,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13333,6 +13708,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dusclops",
+		especie: "",
 		codinome: "",
 		numero: 356, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -13356,7 +13732,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13366,6 +13742,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tropius",
+		especie: "",
 		codinome: "",
 		numero: 357, // considerando a national dex
 		tipo: ["Planta", " Voador"],
@@ -13389,7 +13766,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13399,6 +13776,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chimecho",
+		especie: "",
 		codinome: "",
 		numero: 358, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -13422,7 +13800,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13432,6 +13810,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Absol",
+		especie: "",
 		codinome: "",
 		numero: 359, // considerando a national dex
 		tipo: ["Noturno"],
@@ -13455,7 +13834,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13465,6 +13844,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wynaut",
+		especie: "",
 		codinome: "",
 		numero: 360, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -13488,7 +13868,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13498,6 +13878,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snorunt",
+		especie: "",
 		codinome: "",
 		numero: 361, // considerando a national dex
 		tipo: ["Gelo"],
@@ -13521,7 +13902,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13531,6 +13912,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glalie",
+		especie: "",
 		codinome: "",
 		numero: 362, // considerando a national dex
 		tipo: ["Gelo"],
@@ -13554,7 +13936,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13564,6 +13946,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spheal",
+		especie: "",
 		codinome: "",
 		numero: 363, // considerando a national dex
 		tipo: ["Gelo", " Água"],
@@ -13587,7 +13970,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13597,6 +13980,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sealeo",
+		especie: "",
 		codinome: "",
 		numero: 364, // considerando a national dex
 		tipo: ["Gelo", " Água"],
@@ -13620,7 +14004,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13630,6 +14014,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Walrein",
+		especie: "",
 		codinome: "",
 		numero: 365, // considerando a national dex
 		tipo: ["Gelo", " Água"],
@@ -13653,7 +14038,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13663,6 +14048,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clamperl",
+		especie: "",
 		codinome: "",
 		numero: 366, // considerando a national dex
 		tipo: ["Água"],
@@ -13686,7 +14072,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13696,6 +14082,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Huntail",
+		especie: "",
 		codinome: "",
 		numero: 367, // considerando a national dex
 		tipo: ["Água"],
@@ -13719,7 +14106,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13729,6 +14116,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gorebyss",
+		especie: "",
 		codinome: "",
 		numero: 368, // considerando a national dex
 		tipo: ["Água"],
@@ -13752,7 +14140,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13762,6 +14150,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Relicanth",
+		especie: "",
 		codinome: "",
 		numero: 369, // considerando a national dex
 		tipo: ["Água", " Rocha"],
@@ -13785,7 +14174,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13795,6 +14184,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luvdisc",
+		especie: "",
 		codinome: "",
 		numero: 370, // considerando a national dex
 		tipo: ["Água"],
@@ -13818,7 +14208,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13828,6 +14218,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bagon",
+		especie: "",
 		codinome: "",
 		numero: 371, // considerando a national dex
 		tipo: ["Dragão"],
@@ -13851,7 +14242,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13861,6 +14252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shelgon",
+		especie: "",
 		codinome: "",
 		numero: 372, // considerando a national dex
 		tipo: ["Dragão"],
@@ -13884,7 +14276,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13894,6 +14286,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Salamance",
+		especie: "",
 		codinome: "",
 		numero: 373, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
@@ -13917,7 +14310,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13927,6 +14320,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beldum",
+		especie: "",
 		codinome: "",
 		numero: 374, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
@@ -13950,7 +14344,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13960,6 +14354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Metang",
+		especie: "",
 		codinome: "",
 		numero: 375, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
@@ -13983,7 +14378,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -13993,6 +14388,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Metagross",
+		especie: "",
 		codinome: "",
 		numero: 376, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
@@ -14016,7 +14412,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14026,6 +14422,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regirock",
+		especie: "",
 		codinome: "",
 		numero: 377, // considerando a national dex
 		tipo: ["Rocha"],
@@ -14049,7 +14446,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14059,6 +14456,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regice",
+		especie: "",
 		codinome: "",
 		numero: 378, // considerando a national dex
 		tipo: ["Gelo"],
@@ -14082,7 +14480,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14092,6 +14490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Registeel",
+		especie: "",
 		codinome: "",
 		numero: 379, // considerando a national dex
 		tipo: ["Metal"],
@@ -14115,7 +14514,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14125,6 +14524,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Latias",
+		especie: "",
 		codinome: "",
 		numero: 380, // considerando a national dex
 		tipo: ["Dragão", " Psíquico"],
@@ -14148,7 +14548,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14158,6 +14558,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Latios",
+		especie: "",
 		codinome: "",
 		numero: 381, // considerando a national dex
 		tipo: ["Dragão", " Psíquico"],
@@ -14181,7 +14582,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14191,6 +14592,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyogre",
+		especie: "",
 		codinome: "",
 		numero: 382, // considerando a national dex
 		tipo: ["Água"],
@@ -14214,7 +14616,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14224,6 +14626,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Groudon",
+		especie: "",
 		codinome: "",
 		numero: 383, // considerando a national dex
 		tipo: ["Terra"],
@@ -14247,7 +14650,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14257,6 +14660,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rayquaza",
+		especie: "",
 		codinome: "",
 		numero: 384, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
@@ -14280,7 +14684,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14290,6 +14694,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jirachi",
+		especie: "",
 		codinome: "",
 		numero: 385, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
@@ -14313,7 +14718,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14323,6 +14728,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Normal)",
+		especie: "",
 		codinome: "Deoxys",
 		numero: 386.1, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -14346,7 +14752,7 @@ const pkmnDisponiveis = [
 		geracao: 3, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -14356,6 +14762,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Ataque)",
+		especie: "",
 		codinome: "Deoxys",
 		numero: 386.2, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -14389,6 +14796,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Defesa)",
+		especie: "",
 		codinome: "Deoxys",
 		numero: 386.3, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -14422,6 +14830,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deoxys (Forma Velocidade)",
+		especie: "",
 		codinome: "Deoxys",
 		numero: 386.4, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -14455,6 +14864,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Turtwig",
+		especie: "",
 		codinome: "",
 		numero: 387, // considerando a national dex
 		tipo: ["Planta"],
@@ -14478,7 +14888,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14488,6 +14898,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grotle",
+		especie: "",
 		codinome: "",
 		numero: 388, // considerando a national dex
 		tipo: ["Planta"],
@@ -14511,7 +14922,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14521,6 +14932,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torterra",
+		especie: "",
 		codinome: "",
 		numero: 389, // considerando a national dex
 		tipo: ["Planta", " Terra"],
@@ -14544,7 +14956,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14554,6 +14966,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chimchar",
+		especie: "",
 		codinome: "",
 		numero: 390, // considerando a national dex
 		tipo: ["Fogo"],
@@ -14577,7 +14990,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14587,6 +15000,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Monferno",
+		especie: "",
 		codinome: "",
 		numero: 391, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
@@ -14610,7 +15024,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14620,6 +15034,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Infernape",
+		especie: "",
 		codinome: "",
 		numero: 392, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
@@ -14643,7 +15058,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14653,6 +15068,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Piplup",
+		especie: "",
 		codinome: "",
 		numero: 393, // considerando a national dex
 		tipo: ["Água"],
@@ -14676,7 +15092,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14686,6 +15102,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Prinplup",
+		especie: "",
 		codinome: "",
 		numero: 394, // considerando a national dex
 		tipo: ["Água"],
@@ -14709,7 +15126,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14719,6 +15136,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Empoleon",
+		especie: "",
 		codinome: "",
 		numero: 395, // considerando a national dex
 		tipo: ["Água", " Metal"],
@@ -14742,7 +15160,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14752,6 +15170,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Starly",
+		especie: "",
 		codinome: "",
 		numero: 396, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -14775,7 +15194,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14785,6 +15204,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Staravia",
+		especie: "",
 		codinome: "",
 		numero: 397, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -14809,7 +15229,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14819,6 +15239,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Staraptor",
+		especie: "",
 		codinome: "",
 		numero: 398, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -14842,7 +15263,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14852,6 +15273,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bidoof",
+		especie: "",
 		codinome: "",
 		numero: 399, // considerando a national dex
 		tipo: ["Normal"],
@@ -14876,7 +15298,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14886,6 +15308,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bibarel",
+		especie: "",
 		codinome: "",
 		numero: 400, // considerando a national dex
 		tipo: ["Normal", " Água"],
@@ -14910,7 +15333,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14920,6 +15343,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kricketot",
+		especie: "",
 		codinome: "",
 		numero: 401, // considerando a national dex
 		tipo: ["Inseto"],
@@ -14943,7 +15367,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14953,6 +15377,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kricketune",
+		especie: "",
 		codinome: "",
 		numero: 402, // considerando a national dex
 		tipo: ["Inseto"],
@@ -14977,7 +15402,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -14987,6 +15412,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shinx",
+		especie: "",
 		codinome: "",
 		numero: 403, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -15010,7 +15436,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15020,6 +15446,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luxio",
+		especie: "",
 		codinome: "",
 		numero: 404, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -15043,7 +15470,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15053,6 +15480,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luxray",
+		especie: "",
 		codinome: "",
 		numero: 405, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -15076,7 +15504,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15086,6 +15514,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Budew",
+		especie: "",
 		codinome: "",
 		numero: 406, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
@@ -15110,7 +15539,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15120,6 +15549,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roserade",
+		especie: "",
 		codinome: "",
 		numero: 407, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
@@ -15143,7 +15573,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15153,6 +15583,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cranidos",
+		especie: "",
 		codinome: "",
 		numero: 408, // considerando a national dex
 		tipo: ["Rocha"],
@@ -15176,7 +15607,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15186,6 +15617,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rampardos",
+		especie: "",
 		codinome: "",
 		numero: 409, // considerando a national dex
 		tipo: ["Rocha"],
@@ -15209,7 +15641,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15219,6 +15651,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shieldon",
+		especie: "",
 		codinome: "",
 		numero: 410, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
@@ -15242,7 +15675,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15252,6 +15685,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bastiodon",
+		especie: "",
 		codinome: "",
 		numero: 411, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
@@ -15275,7 +15709,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15285,6 +15719,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Burmy",
+		especie: "",
 		codinome: "",
 		numero: 412, // considerando a national dex
 		tipo: ["Inseto"],
@@ -15309,7 +15744,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15321,6 +15756,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto Vegetal)",
+		especie: "",
 		codinome: "Wormadam",
 		numero: 413.1, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
@@ -15344,7 +15780,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15354,6 +15790,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto Arenoso)",
+		especie: "",
 		codinome: "Wormadam",
 		numero: 413.2, // considerando a national dex
 		tipo: ["Inseto", " Terra"],
@@ -15377,7 +15814,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15387,6 +15824,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wormadam (Manto de Lixo)",
+		especie: "",
 		codinome: "Wormadam",
 		numero: 413.3, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
@@ -15410,7 +15848,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15420,6 +15858,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mothim",
+		especie: "",
 		codinome: "",
 		numero: 414, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -15443,7 +15882,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15453,6 +15892,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Combee",
+		especie: "",
 		codinome: "",
 		numero: 415, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -15477,7 +15917,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15487,6 +15927,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vespiquen",
+		especie: "",
 		codinome: "",
 		numero: 416, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -15510,7 +15951,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15520,6 +15961,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pachirisu",
+		especie: "",
 		codinome: "",
 		numero: 417, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -15543,7 +15985,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15553,6 +15995,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Buizel",
+		especie: "",
 		codinome: "",
 		numero: 418, // considerando a national dex
 		tipo: ["Água"],
@@ -15576,7 +16019,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15586,6 +16029,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Floatzel",
+		especie: "",
 		codinome: "",
 		numero: 419, // considerando a national dex
 		tipo: ["Água"],
@@ -15610,7 +16054,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15620,6 +16064,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cherubi",
+		especie: "",
 		codinome: "",
 		numero: 420, // considerando a national dex
 		tipo: ["Planta"],
@@ -15644,7 +16089,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15654,6 +16099,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cherrim",
+		especie: "",
 		codinome: "",
 		numero: 421, // considerando a national dex
 		tipo: ["Planta"],
@@ -15677,7 +16123,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15688,6 +16134,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shellos (Mar Leste)",
+		especie: "",
 		codinome: "Shellos",
 		numero: 422.1, // considerando a national dex
 		tipo: ["Água"],
@@ -15711,7 +16158,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15721,6 +16168,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shellos (Mar Oeste)",
+		especie: "",
 		codinome: "Shellos",
 		numero: 422.2, // considerando a national dex
 		tipo: ["Água"],
@@ -15744,7 +16192,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15754,6 +16202,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gastrodon (Mar Leste)",
+		especie: "",
 		codinome: "Gastrodon",
 		numero: 423.1, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -15777,7 +16226,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15787,6 +16236,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gastrodon (Mar Oeste)",
+		especie: "",
 		codinome: "Gastrodon",
 		numero: 423.2, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -15810,7 +16260,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15820,6 +16270,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ambipom",
+		especie: "",
 		codinome: "",
 		numero: 424, // considerando a national dex
 		tipo: ["Normal"],
@@ -15843,7 +16294,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15853,6 +16304,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drifloon",
+		especie: "",
 		codinome: "",
 		numero: 425, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
@@ -15876,7 +16328,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15886,6 +16338,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drifblim",
+		especie: "",
 		codinome: "",
 		numero: 426, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
@@ -15909,7 +16362,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15919,6 +16372,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Buneary",
+		especie: "",
 		codinome: "",
 		numero: 427, // considerando a national dex
 		tipo: ["Normal"],
@@ -15942,7 +16396,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15952,6 +16406,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Luponny",
+		especie: "",
 		codinome: "",
 		numero: 428, // considerando a national dex
 		tipo: ["Normal"],
@@ -15975,7 +16430,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -15985,6 +16440,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mismagius",
+		especie: "",
 		codinome: "",
 		numero: 429, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -16008,7 +16464,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16018,6 +16474,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Honchkrow",
+		especie: "",
 		codinome: "",
 		numero: 430, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
@@ -16041,7 +16498,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16051,6 +16508,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glameow",
+		especie: "",
 		codinome: "",
 		numero: 431, // considerando a national dex
 		tipo: ["Normal"],
@@ -16074,7 +16532,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16084,6 +16542,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Purugly",
+		especie: "",
 		codinome: "",
 		numero: 432, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
@@ -16107,7 +16566,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16117,6 +16576,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chingling",
+		especie: "",
 		codinome: "",
 		numero: 433, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -16141,7 +16601,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16151,6 +16611,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stunky",
+		especie: "",
 		codinome: "",
 		numero: 434, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
@@ -16174,7 +16635,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16184,6 +16645,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skuntank",
+		especie: "",
 		codinome: "",
 		numero: 435, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
@@ -16207,7 +16669,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16217,6 +16679,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bronzor",
+		especie: "",
 		codinome: "",
 		numero: 436, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
@@ -16241,7 +16704,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16251,6 +16714,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bronzong",
+		especie: "",
 		codinome: "",
 		numero: 437, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
@@ -16274,7 +16738,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16284,6 +16748,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bonsly",
+		especie: "",
 		codinome: "",
 		numero: 438, // considerando a national dex
 		tipo: ["Rocha"],
@@ -16307,7 +16772,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16317,6 +16782,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mime Jr.",
+		especie: "",
 		codinome: "",
 		numero: 439, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
@@ -16340,7 +16806,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16350,6 +16816,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Happiny",
+		especie: "",
 		codinome: "",
 		numero: 440, // considerando a national dex
 		tipo: ["Normal"],
@@ -16373,7 +16840,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16383,6 +16850,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chatot",
+		especie: "",
 		codinome: "",
 		numero: 441, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -16406,7 +16874,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16416,6 +16884,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spiritomb",
+		especie: "",
 		codinome: "",
 		numero: 442, // considerando a national dex
 		tipo: ["Fantasma", " Noturno"],
@@ -16439,7 +16908,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16449,6 +16918,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gible",
+		especie: "",
 		codinome: "",
 		numero: 443, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
@@ -16472,7 +16942,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16482,6 +16952,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gabite",
+		especie: "",
 		codinome: "",
 		numero: 444, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
@@ -16505,7 +16976,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16515,6 +16986,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Garchomp",
+		especie: "",
 		codinome: "",
 		numero: 445, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
@@ -16538,7 +17010,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16548,6 +17020,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Munchlax",
+		especie: "",
 		codinome: "",
 		numero: 446, // considerando a national dex
 		tipo: ["Normal"],
@@ -16572,7 +17045,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16582,6 +17055,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Riolu",
+		especie: "",
 		codinome: "",
 		numero: 447, // considerando a national dex
 		tipo: ["Lutador"],
@@ -16605,7 +17079,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16615,6 +17089,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lucario",
+		especie: "",
 		codinome: "",
 		numero: 448, // considerando a national dex
 		tipo: ["Lutador", " Metal"],
@@ -16638,7 +17113,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16648,6 +17123,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hippopotas",
+		especie: "",
 		codinome: "",
 		numero: 449, // considerando a national dex
 		tipo: ["Terra"],
@@ -16671,7 +17147,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16681,6 +17157,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hippowdon",
+		especie: "",
 		codinome: "",
 		numero: 450, // considerando a national dex
 		tipo: ["Terra"],
@@ -16704,7 +17181,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16714,6 +17191,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skorupi",
+		especie: "",
 		codinome: "",
 		numero: 451, // considerando a national dex
 		tipo: ["Veneno", " Inseto"],
@@ -16737,7 +17215,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16747,6 +17225,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drapion",
+		especie: "",
 		codinome: "",
 		numero: 452, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
@@ -16770,7 +17249,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16780,6 +17259,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Croagunk",
+		especie: "",
 		codinome: "",
 		numero: 453, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
@@ -16803,7 +17283,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16813,6 +17293,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxicroak",
+		especie: "",
 		codinome: "",
 		numero: 454, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
@@ -16836,7 +17317,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16846,6 +17327,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carnivine",
+		especie: "",
 		codinome: "",
 		numero: 455, // considerando a national dex
 		tipo: ["Planta"],
@@ -16869,7 +17351,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16879,6 +17361,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Finneon",
+		especie: "",
 		codinome: "",
 		numero: 456, // considerando a national dex
 		tipo: ["Água"],
@@ -16903,7 +17386,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16913,6 +17396,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lumineon",
+		especie: "",
 		codinome: "",
 		numero: 457, // considerando a national dex
 		tipo: ["Água"],
@@ -16937,7 +17421,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16947,6 +17431,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mantyke",
+		especie: "",
 		codinome: "",
 		numero: 458, // considerando a national dex
 		tipo: ["Água", " Voador"],
@@ -16970,7 +17455,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -16980,6 +17465,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snover",
+		especie: "",
 		codinome: "",
 		numero: 459, // considerando a national dex
 		tipo: ["Planta", " Gelo"],
@@ -17004,7 +17490,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17014,6 +17500,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Abomasnow",
+		especie: "",
 		codinome: "",
 		numero: 460, // considerando a national dex
 		tipo: ["Planta", " Gelo"],
@@ -17037,7 +17524,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17047,6 +17534,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Weavile",
+		especie: "",
 		codinome: "",
 		numero: 461, // considerando a national dex
 		tipo: ["Noturno", " Gelo"],
@@ -17070,7 +17558,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17080,6 +17568,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magnezone",
+		especie: "",
 		codinome: "",
 		numero: 462, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
@@ -17103,7 +17592,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17113,6 +17602,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lickilicky",
+		especie: "",
 		codinome: "",
 		numero: 463, // considerando a national dex
 		tipo: ["Normal"],
@@ -17136,7 +17626,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17146,6 +17636,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rhyperior",
+		especie: "",
 		codinome: "",
 		numero: 464, // considerando a national dex
 		tipo: ["Terra", " Rocha"],
@@ -17169,7 +17660,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17179,6 +17670,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tangrowth",
+		especie: "",
 		codinome: "",
 		numero: 465, // considerando a national dex
 		tipo: ["Planta"],
@@ -17202,7 +17694,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17212,6 +17704,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Electivire",
+		especie: "",
 		codinome: "",
 		numero: 466, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -17235,7 +17728,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17245,6 +17738,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magmortar",
+		especie: "",
 		codinome: "",
 		numero: 467, // considerando a national dex
 		tipo: ["Fogo"],
@@ -17268,7 +17762,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17278,6 +17772,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Togekiss",
+		especie: "",
 		codinome: "",
 		numero: 468, // considerando a national dex
 		tipo: ["Fada", " Voador"],
@@ -17301,7 +17796,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17311,6 +17806,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yanmega",
+		especie: "",
 		codinome: "",
 		numero: 469, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -17334,7 +17830,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17344,6 +17840,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Leafeon",
+		especie: "",
 		codinome: "",
 		numero: 470, // considerando a national dex
 		tipo: ["Planta"],
@@ -17367,7 +17864,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17377,6 +17874,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glaceon",
+		especie: "",
 		codinome: "",
 		numero: 471, // considerando a national dex
 		tipo: ["Gelo"],
@@ -17400,7 +17898,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17410,6 +17908,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gliscor",
+		especie: "",
 		codinome: "",
 		numero: 472, // considerando a national dex
 		tipo: ["Terra", " Voador"],
@@ -17433,7 +17932,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17443,6 +17942,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mamoswine",
+		especie: "",
 		codinome: "",
 		numero: 473, // considerando a national dex
 		tipo: ["Gelo", " Terra"],
@@ -17466,7 +17966,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17476,6 +17976,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Porygon-Z",
+		especie: "",
 		codinome: "",
 		numero: 474, // considerando a national dex
 		tipo: ["Normal"],
@@ -17499,7 +18000,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17509,6 +18010,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gallade",
+		especie: "",
 		codinome: "",
 		numero: 475, // considerando a national dex
 		tipo: ["Psíquico", " Lutador"],
@@ -17532,7 +18034,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17542,6 +18044,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Probopass",
+		especie: "",
 		codinome: "",
 		numero: 476, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
@@ -17565,7 +18068,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17575,6 +18078,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dusknoir",
+		especie: "",
 		codinome: "",
 		numero: 477, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -17598,7 +18102,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17608,6 +18112,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Froslass",
+		especie: "",
 		codinome: "",
 		numero: 478, // considerando a national dex
 		tipo: ["Gelo", " Fantasma"],
@@ -17631,7 +18136,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17641,6 +18146,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom",
+		especie: "",
 		codinome: "Rotom",
 		numero: 479.1, // considerando a national dex
 		tipo: ["Elétrico", " Fantasma"],
@@ -17664,7 +18170,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -17674,6 +18180,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Calor",
+		especie: "",
 		codinome: "Rotom",
 		numero: 479.2, // considerando a national dex
 		tipo: ["Elétrico", " Fogo"],
@@ -17707,6 +18214,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Lavagem",
+		especie: "",
 		codinome: "Rotom",
 		numero: 479.3, // considerando a national dex
 		tipo: ["Elétrico", " Água"],
@@ -17740,6 +18248,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Congelante",
+		especie: "",
 		codinome: "Rotom",
 		numero: 479.4, // considerando a national dex
 		tipo: ["Elétrico", " Gelo"],
@@ -17773,6 +18282,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Ventilador",
+		especie: "",
 		codinome: "Rotom",
 		numero: 479.5, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
@@ -17806,6 +18316,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rotom Corte",
+		especie: "",
 		codinome: "Rotom",
 		numero: 479.6, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
@@ -17839,6 +18350,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Uxie",
+		especie: "",
 		codinome: "",
 		numero: 480, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -17862,7 +18374,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17872,6 +18384,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mesprit",
+		especie: "",
 		codinome: "",
 		numero: 481, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -17895,7 +18408,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17905,6 +18418,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Azelf",
+		especie: "",
 		codinome: "",
 		numero: 482, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -17928,7 +18442,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17938,6 +18452,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dialga",
+		especie: "",
 		codinome: "",
 		numero: 483, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
@@ -17961,7 +18476,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -17971,6 +18486,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palkia",
+		especie: "",
 		codinome: "",
 		numero: 484, // considerando a national dex
 		tipo: ["Água", " Dragão"],
@@ -17994,7 +18510,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18004,6 +18520,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Heatran",
+		especie: "",
 		codinome: "",
 		numero: 485, // considerando a national dex
 		tipo: ["Fogo", " Metal"],
@@ -18027,7 +18544,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18037,6 +18554,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regigigas",
+		especie: "",
 		codinome: "",
 		numero: 486, // considerando a national dex
 		tipo: ["Normal"],
@@ -18060,7 +18578,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18070,6 +18588,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Giratina (Forma Alterada)",
+		especie: "",
 		codinome: "Giratina",
 		numero: 487.1, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
@@ -18093,7 +18612,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18103,6 +18622,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Giratina (Forma Origem)",
+		especie: "",
 		codinome: "Giratina",
 		numero: 487.2, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
@@ -18126,7 +18646,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18136,6 +18656,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cresselia",
+		especie: "",
 		codinome: "",
 		numero: 488, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -18159,7 +18680,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18169,6 +18690,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Phione",
+		especie: "",
 		codinome: "",
 		numero: 489, // considerando a national dex
 		tipo: ["Água"],
@@ -18192,7 +18714,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18202,6 +18724,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Manaphy",
+		especie: "",
 		codinome: "",
 		numero: 490, // considerando a national dex
 		tipo: ["Água"],
@@ -18225,7 +18748,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18235,6 +18758,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darkrai",
+		especie: "",
 		codinome: "",
 		numero: 491, // considerando a national dex
 		tipo: ["Noturno"],
@@ -18258,7 +18782,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18268,6 +18792,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shaymin (Forma Terrestre)",
+		especie: "",
 		codinome: "Shaymin",
 		numero: 492.1, // considerando a national dex
 		tipo: ["Planta"],
@@ -18291,7 +18816,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18301,6 +18826,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shaymin (Forma Céu)",
+		especie: "",
 		codinome: "Shaymin",
 		numero: 492.2, // considerando a national dex
 		tipo: ["Planta", " Voador"],
@@ -18334,6 +18860,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arceus",
+		especie: "",
 		codinome: "",
 		numero: 493, // considerando a national dex
 		tipo: ["Normal"],
@@ -18357,7 +18884,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18367,6 +18894,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Victini",
+		especie: "",
 		codinome: "",
 		numero: 494, // considerando a national dex
 		tipo: ["Psíquico", " Fogo"],
@@ -18390,7 +18918,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -18400,6 +18928,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snivy",
+		especie: "",
 		codinome: "",
 		numero: 495, // considerando a national dex
 		tipo: ["Planta"],
@@ -18423,7 +18952,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18433,6 +18962,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Servine",
+		especie: "",
 		codinome: "",
 		numero: 496, // considerando a national dex
 		tipo: ["Planta"],
@@ -18456,7 +18986,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18466,6 +18996,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Serperior",
+		especie: "",
 		codinome: "",
 		numero: 497, // considerando a national dex
 		tipo: ["Planta"],
@@ -18489,7 +19020,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18499,6 +19030,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tepig",
+		especie: "",
 		codinome: "",
 		numero: 498, // considerando a national dex
 		tipo: ["Fogo"],
@@ -18522,7 +19054,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18532,6 +19064,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pignite",
+		especie: "",
 		codinome: "",
 		numero: 499, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
@@ -18555,7 +19088,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18565,6 +19098,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Emboar",
+		especie: "",
 		codinome: "",
 		numero: 500, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
@@ -18588,7 +19122,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18598,6 +19132,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oshawott",
+		especie: "",
 		codinome: "",
 		numero: 501, // considerando a national dex
 		tipo: ["Água"],
@@ -18621,7 +19156,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18631,6 +19166,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dewott",
+		especie: "",
 		codinome: "",
 		numero: 502, // considerando a national dex
 		tipo: ["Água"],
@@ -18654,7 +19190,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18664,6 +19200,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Samurott de Unova",
+		especie: "",
 		codinome: "",
 		numero: 503.1, // considerando a national dex
 		tipo: ["Água"],
@@ -18687,7 +19224,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18697,6 +19234,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Samurott de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 503.2, // considerando a national dex
 		tipo: ["Água", " Noturno"],
@@ -18720,7 +19258,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -18730,6 +19268,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Patrat",
+		especie: "",
 		codinome: "",
 		numero: 504, // considerando a national dex
 		tipo: ["Normal"],
@@ -18754,7 +19293,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18764,6 +19303,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Watchog",
+		especie: "",
 		codinome: "",
 		numero: 505, // considerando a national dex
 		tipo: ["Normal"],
@@ -18788,7 +19328,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18798,6 +19338,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lillipup",
+		especie: "",
 		codinome: "",
 		numero: 506, // considerando a national dex
 		tipo: ["Normal"],
@@ -18821,7 +19362,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18831,6 +19372,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Herdier",
+		especie: "",
 		codinome: "",
 		numero: 507, // considerando a national dex
 		tipo: ["Normal"],
@@ -18855,7 +19397,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18865,6 +19407,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stoutland",
+		especie: "",
 		codinome: "",
 		numero: 508, // considerando a national dex
 		tipo: ["Normal"],
@@ -18889,7 +19432,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18899,6 +19442,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Purrloin",
+		especie: "",
 		codinome: "",
 		numero: 509, // considerando a national dex
 		tipo: ["Noturno"],
@@ -18922,7 +19466,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18932,6 +19476,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Liepard",
+		especie: "",
 		codinome: "",
 		numero: 510, // considerando a national dex
 		tipo: ["Noturno"],
@@ -18955,7 +19500,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18965,6 +19510,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pansage",
+		especie: "",
 		codinome: "",
 		numero: 511, // considerando a national dex
 		tipo: ["Planta"],
@@ -18989,7 +19535,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -18999,6 +19545,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Simisage",
+		especie: "",
 		codinome: "",
 		numero: 512, // considerando a national dex
 		tipo: ["Planta"],
@@ -19022,7 +19569,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19032,6 +19579,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pansear",
+		especie: "",
 		codinome: "",
 		numero: 513, // considerando a national dex
 		tipo: ["Fogo"],
@@ -19056,7 +19604,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19066,6 +19614,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Simisear",
+		especie: "",
 		codinome: "",
 		numero: 514, // considerando a national dex
 		tipo: ["Fogo"],
@@ -19089,7 +19638,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19099,6 +19648,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Panpour",
+		especie: "",
 		codinome: "",
 		numero: 515, // considerando a national dex
 		tipo: ["Água"],
@@ -19123,7 +19673,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19133,6 +19683,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Simipour",
+		especie: "",
 		codinome: "",
 		numero: 516, // considerando a national dex
 		tipo: ["Água"],
@@ -19156,7 +19707,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19166,6 +19717,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Munna",
+		especie: "",
 		codinome: "",
 		numero: 517, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -19189,7 +19741,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19199,6 +19751,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Musharna",
+		especie: "",
 		codinome: "",
 		numero: 518, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -19222,7 +19775,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19232,6 +19785,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pidove",
+		especie: "",
 		codinome: "",
 		numero: 519, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -19256,7 +19810,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19266,6 +19820,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tranquill",
+		especie: "",
 		codinome: "",
 		numero: 520, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -19290,7 +19845,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19300,6 +19855,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Unfezant",
+		especie: "",
 		codinome: "",
 		numero: 521, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -19324,7 +19880,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19335,6 +19891,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blitzle",
+		especie: "",
 		codinome: "",
 		numero: 522, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -19358,7 +19915,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19368,6 +19925,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zebstrika",
+		especie: "",
 		codinome: "",
 		numero: 523, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -19391,7 +19949,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19401,6 +19959,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roggenrola",
+		especie: "",
 		codinome: "",
 		numero: 524, // considerando a national dex
 		tipo: ["Rocha"],
@@ -19424,7 +19983,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19434,6 +19993,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Boldore",
+		especie: "",
 		codinome: "",
 		numero: 525, // considerando a national dex
 		tipo: ["Rocha"],
@@ -19458,7 +20018,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19468,6 +20028,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gigalith",
+		especie: "",
 		codinome: "",
 		numero: 526, // considerando a national dex
 		tipo: ["Rocha"],
@@ -19491,7 +20052,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19501,6 +20062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Woobat",
+		especie: "",
 		codinome: "",
 		numero: 527, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
@@ -19525,7 +20087,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19535,6 +20097,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swoobat",
+		especie: "",
 		codinome: "",
 		numero: 528, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
@@ -19558,7 +20121,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19568,6 +20131,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drilbur",
+		especie: "",
 		codinome: "",
 		numero: 529, // considerando a national dex
 		tipo: ["Terra"],
@@ -19592,7 +20156,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19602,6 +20166,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Excadrill",
+		especie: "",
 		codinome: "",
 		numero: 530, // considerando a national dex
 		tipo: ["Terra", " Metal"],
@@ -19626,7 +20191,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19636,6 +20201,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Audino",
+		especie: "",
 		codinome: "",
 		numero: 531, // considerando a national dex
 		tipo: ["Normal"],
@@ -19660,7 +20226,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19670,6 +20236,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Timburr",
+		especie: "",
 		codinome: "",
 		numero: 532, // considerando a national dex
 		tipo: ["Lutador"],
@@ -19693,7 +20260,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19703,6 +20270,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gurdurr",
+		especie: "",
 		codinome: "",
 		numero: 533, // considerando a national dex
 		tipo: ["Lutador"],
@@ -19727,7 +20295,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19737,6 +20305,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Conkeldurr",
+		especie: "",
 		codinome: "",
 		numero: 534, // considerando a national dex
 		tipo: ["Lutador"],
@@ -19760,7 +20329,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19770,6 +20339,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tympole",
+		especie: "",
 		codinome: "",
 		numero: 535, // considerando a national dex
 		tipo: ["Água"],
@@ -19793,7 +20363,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19803,6 +20373,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palpitoad",
+		especie: "",
 		codinome: "",
 		numero: 536, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -19826,7 +20397,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19836,6 +20407,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Seismitoad",
+		especie: "",
 		codinome: "",
 		numero: 537, // considerando a national dex
 		tipo: ["Água", " Terra"],
@@ -19859,7 +20431,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19869,6 +20441,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Throh",
+		especie: "",
 		codinome: "",
 		numero: 538, // considerando a national dex
 		tipo: ["Lutador"],
@@ -19893,7 +20466,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19903,6 +20476,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sawk",
+		especie: "",
 		codinome: "",
 		numero: 539, // considerando a national dex
 		tipo: ["Lutador"],
@@ -19927,7 +20501,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19937,6 +20511,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sewaddle",
+		especie: "",
 		codinome: "",
 		numero: 540, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
@@ -19960,7 +20535,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19970,6 +20545,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swadloon",
+		especie: "",
 		codinome: "",
 		numero: 541, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
@@ -19993,7 +20569,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20003,6 +20579,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Leavanny",
+		especie: "",
 		codinome: "",
 		numero: 542, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
@@ -20026,7 +20603,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20036,6 +20613,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Venipede",
+		especie: "",
 		codinome: "",
 		numero: 543, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
@@ -20059,7 +20637,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20069,6 +20647,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whirlipede",
+		especie: "",
 		codinome: "",
 		numero: 544, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
@@ -20092,7 +20671,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20102,6 +20681,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scolipede",
+		especie: "",
 		codinome: "",
 		numero: 545, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
@@ -20125,7 +20705,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20135,6 +20715,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cottonee",
+		especie: "",
 		codinome: "",
 		numero: 546, // considerando a national dex
 		tipo: ["Planta", " Fada"],
@@ -20159,7 +20740,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20169,6 +20750,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Whimsicott",
+		especie: "",
 		codinome: "",
 		numero: 547, // considerando a national dex
 		tipo: ["Planta", " Fada"],
@@ -20193,7 +20775,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20203,6 +20785,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Petilil",
+		especie: "",
 		codinome: "",
 		numero: 548, // considerando a national dex
 		tipo: ["Planta"],
@@ -20227,7 +20810,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20237,6 +20820,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lilligant de Unova",
+		especie: "",
 		codinome: "",
 		numero: 549.1, // considerando a national dex
 		tipo: ["Planta"],
@@ -20261,7 +20845,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20271,6 +20855,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lilligant de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 549.2, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
@@ -20294,7 +20879,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20304,6 +20889,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculin",
+		especie: "",
 		codinome: "",
 		numero: 550, // considerando a national dex
 		tipo: ["Água"],
@@ -20328,7 +20914,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20340,6 +20926,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandile",
+		especie: "",
 		codinome: "",
 		numero: 551, // considerando a national dex
 		tipo: ["Terra", " Noturno"],
@@ -20363,7 +20950,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20373,6 +20960,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Krokorok",
+		especie: "",
 		codinome: "",
 		numero: 552, // considerando a national dex
 		tipo: ["Terra", " Noturno"],
@@ -20396,7 +20984,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20406,6 +20994,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Krookodile",
+		especie: "",
 		codinome: "",
 		numero: 553, // considerando a national dex
 		tipo: ["Terra", " Noturno"],
@@ -20429,7 +21018,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20439,6 +21028,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darumaka de Unova",
+		especie: "",
 		codinome: "",
 		numero: 554.1, // considerando a national dex
 		tipo: ["Fogo"],
@@ -20462,7 +21052,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20472,6 +21062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darumaka de Galar",
+		especie: "",
 		codinome: "",
 		numero: 554.2, // considerando a national dex
 		tipo: ["Gelo"],
@@ -20495,7 +21086,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20505,6 +21096,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Unova (Modo Padrão)",
+		especie: "",
 		codinome: "Darmanitan de Unova",
 		numero: 555.11, // considerando a national dex
 		tipo: ["Fogo"],
@@ -20528,7 +21120,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20538,6 +21130,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Unova (Modo Zen)",
+		especie: "",
 		codinome: "Darmanitan de Unova",
 		numero: 555.12, // considerando a national dex
 		tipo: ["Fogo", " Psíquico"],
@@ -20571,6 +21164,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Galar (Modo Padrão)",
+		especie: "",
 		codinome: "Darmanitan de Galar",
 		numero: 555.21, // considerando a national dex
 		tipo: ["Gelo"],
@@ -20594,7 +21188,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20604,6 +21198,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Darmanitan de Galar (Modo Zen)",
+		especie: "",
 		codinome: "Darmanitan de Galar",
 		numero: 555.22, // considerando a national dex
 		tipo: ["Gelo", " Fogo"],
@@ -20637,6 +21232,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maractus",
+		especie: "",
 		codinome: "",
 		numero: 556, // considerando a national dex
 		tipo: ["Planta"],
@@ -20660,7 +21256,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20670,6 +21266,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dwebble",
+		especie: "",
 		codinome: "",
 		numero: 557, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
@@ -20693,7 +21290,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20703,6 +21300,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crustle",
+		especie: "",
 		codinome: "",
 		numero: 558, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
@@ -20726,7 +21324,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20736,6 +21334,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scraggy",
+		especie: "",
 		codinome: "",
 		numero: 559, // considerando a national dex
 		tipo: ["Noturno", " Lutador"],
@@ -20759,7 +21358,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20769,6 +21368,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scrafty",
+		especie: "",
 		codinome: "",
 		numero: 560, // considerando a national dex
 		tipo: ["Noturno", " Lutador"],
@@ -20792,7 +21392,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20802,6 +21402,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sigilyph",
+		especie: "",
 		codinome: "",
 		numero: 561, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
@@ -20825,7 +21426,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20835,6 +21436,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yamask de Unova",
+		especie: "",
 		codinome: "",
 		numero: 562.1, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -20858,7 +21460,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20868,6 +21470,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yamask de Galar",
+		especie: "",
 		codinome: "",
 		numero: 562.2, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
@@ -20891,7 +21494,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -20901,6 +21504,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cofagrigus",
+		especie: "",
 		codinome: "",
 		numero: 563, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -20924,7 +21528,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20934,6 +21538,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tirtouga",
+		especie: "",
 		codinome: "",
 		numero: 564, // considerando a national dex
 		tipo: ["Água", " Rocha"],
@@ -20957,7 +21562,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -20967,6 +21572,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carracosta",
+		especie: "",
 		codinome: "",
 		numero: 565, // considerando a national dex
 		tipo: ["Água", " Rocha"],
@@ -20990,7 +21596,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21000,6 +21606,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Archen",
+		especie: "",
 		codinome: "",
 		numero: 566, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
@@ -21023,7 +21630,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21033,6 +21640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Archeops",
+		especie: "",
 		codinome: "",
 		numero: 567, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
@@ -21056,7 +21664,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21066,6 +21674,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trubbish",
+		especie: "",
 		codinome: "",
 		numero: 568, // considerando a national dex
 		tipo: ["Veneno"],
@@ -21089,7 +21698,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21099,6 +21708,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Garbodor",
+		especie: "",
 		codinome: "",
 		numero: 569, // considerando a national dex
 		tipo: ["Veneno"],
@@ -21122,7 +21732,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21132,6 +21742,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zorua de Unova",
+		especie: "",
 		codinome: "",
 		numero: 570.1, // considerando a national dex
 		tipo: ["Noturno"],
@@ -21155,7 +21766,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21165,6 +21776,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zorua de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 570.2, // considerando a national dex
 		tipo: ["Normal", " Fantasma"],
@@ -21189,7 +21801,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21199,6 +21811,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zoroark de Unova",
+		especie: "",
 		codinome: "",
 		numero: 571.1, // considerando a national dex
 		tipo: ["Noturno"],
@@ -21222,7 +21835,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21232,6 +21845,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zoroark de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 571.2, // considerando a national dex
 		tipo: ["Normal", " Fantasma"],
@@ -21256,7 +21870,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -21266,6 +21880,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minccino",
+		especie: "",
 		codinome: "",
 		numero: 572, // considerando a national dex
 		tipo: ["Normal"],
@@ -21289,7 +21904,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21299,6 +21914,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cinccino",
+		especie: "",
 		codinome: "",
 		numero: 573, // considerando a national dex
 		tipo: ["Normal"],
@@ -21322,7 +21938,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21332,6 +21948,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gothita",
+		especie: "",
 		codinome: "",
 		numero: 574, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -21355,7 +21972,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21365,6 +21982,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gothorita",
+		especie: "",
 		codinome: "",
 		numero: 575, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -21388,7 +22006,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21398,6 +22016,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gothitelle",
+		especie: "",
 		codinome: "",
 		numero: 576, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -21421,7 +22040,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21431,6 +22050,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Solosis",
+		especie: "",
 		codinome: "",
 		numero: 577, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -21454,7 +22074,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21464,6 +22084,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Duosion",
+		especie: "",
 		codinome: "",
 		numero: 578, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -21487,7 +22108,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21497,6 +22118,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Reuniclus",
+		especie: "",
 		codinome: "",
 		numero: 579, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -21520,7 +22142,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21530,6 +22152,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ducklett",
+		especie: "",
 		codinome: "",
 		numero: 580, // considerando a national dex
 		tipo: ["Água", " Voador"],
@@ -21553,7 +22176,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21563,6 +22186,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swanna",
+		especie: "",
 		codinome: "",
 		numero: 581, // considerando a national dex
 		tipo: ["Água", " Voador"],
@@ -21586,7 +22210,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21596,6 +22220,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vanillite",
+		especie: "",
 		codinome: "",
 		numero: 582, // considerando a national dex
 		tipo: ["Gelo"],
@@ -21619,7 +22244,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21629,6 +22254,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vanillish",
+		especie: "",
 		codinome: "",
 		numero: 583, // considerando a national dex
 		tipo: ["Gelo"],
@@ -21652,7 +22278,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21662,6 +22288,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vanilluxe",
+		especie: "",
 		codinome: "",
 		numero: 584, // considerando a national dex
 		tipo: ["Gelo"],
@@ -21685,7 +22312,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21695,6 +22322,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deerling",
+		especie: "",
 		codinome: "",
 		numero: 585, // considerando a national dex
 		tipo: ["Normal", " Planta"],
@@ -21718,7 +22346,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21731,6 +22359,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sawsbuck",
+		especie: "",
 		codinome: "",
 		numero: 586, // considerando a national dex
 		tipo: ["Normal", " Planta"],
@@ -21754,7 +22383,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21767,6 +22396,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Emolga",
+		especie: "",
 		codinome: "",
 		numero: 587, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
@@ -21791,7 +22421,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21801,6 +22431,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Karrablast",
+		especie: "",
 		codinome: "",
 		numero: 588, // considerando a national dex
 		tipo: ["Inseto"],
@@ -21824,7 +22455,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21834,6 +22465,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Escavalier",
+		especie: "",
 		codinome: "",
 		numero: 589, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
@@ -21857,7 +22489,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21867,6 +22499,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Foongus",
+		especie: "",
 		codinome: "",
 		numero: 590, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
@@ -21890,7 +22523,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21900,6 +22533,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Amoonguss",
+		especie: "",
 		codinome: "",
 		numero: 591, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
@@ -21924,7 +22558,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21934,6 +22568,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frillish",
+		especie: "",
 		codinome: "",
 		numero: 592, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
@@ -21958,7 +22593,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -21969,6 +22604,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jellicent",
+		especie: "",
 		codinome: "",
 		numero: 593, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
@@ -21993,7 +22629,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22004,6 +22640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Alomomola",
+		especie: "",
 		codinome: "",
 		numero: 594, // considerando a national dex
 		tipo: ["Água"],
@@ -22027,7 +22664,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22037,6 +22674,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Joltik",
+		especie: "",
 		codinome: "",
 		numero: 595, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
@@ -22060,7 +22698,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22070,6 +22708,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Galvantula",
+		especie: "",
 		codinome: "",
 		numero: 596, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
@@ -22093,7 +22732,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22103,6 +22742,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ferroseed",
+		especie: "",
 		codinome: "",
 		numero: 597, // considerando a national dex
 		tipo: ["Planta", " Metal"],
@@ -22126,7 +22766,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22136,6 +22776,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ferrothorn",
+		especie: "",
 		codinome: "",
 		numero: 598, // considerando a national dex
 		tipo: ["Planta", " Metal"],
@@ -22159,7 +22800,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22169,6 +22810,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klink",
+		especie: "",
 		codinome: "",
 		numero: 599, // considerando a national dex
 		tipo: ["Metal"],
@@ -22192,7 +22834,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22202,6 +22844,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klang",
+		especie: "",
 		codinome: "",
 		numero: 600, // considerando a national dex
 		tipo: ["Metal"],
@@ -22225,7 +22868,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22235,6 +22878,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klinklang",
+		especie: "",
 		codinome: "",
 		numero: 601, // considerando a national dex
 		tipo: ["Metal"],
@@ -22258,7 +22902,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22268,6 +22912,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tynamo",
+		especie: "",
 		codinome: "",
 		numero: 602, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -22291,7 +22936,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22301,6 +22946,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eelektrik",
+		especie: "",
 		codinome: "",
 		numero: 603, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -22324,7 +22970,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22334,6 +22980,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eelektross",
+		especie: "",
 		codinome: "",
 		numero: 604, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -22357,7 +23004,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22367,6 +23014,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Elgyem",
+		especie: "",
 		codinome: "",
 		numero: 605, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -22390,7 +23038,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22400,6 +23048,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beheeyem",
+		especie: "",
 		codinome: "",
 		numero: 606, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -22423,7 +23072,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22433,6 +23082,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Litwick",
+		especie: "",
 		codinome: "",
 		numero: 607, // considerando a national dex
 		tipo: ["Fantasma", " Fogo"],
@@ -22456,7 +23106,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22466,6 +23116,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lampent",
+		especie: "",
 		codinome: "",
 		numero: 608, // considerando a national dex
 		tipo: ["Fantasma", " Fogo"],
@@ -22489,7 +23140,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22499,6 +23150,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chandelure",
+		especie: "",
 		codinome: "",
 		numero: 609, // considerando a national dex
 		tipo: ["Fantasma", " Fogo"],
@@ -22522,7 +23174,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22532,6 +23184,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Axew",
+		especie: "",
 		codinome: "",
 		numero: 610, // considerando a national dex
 		tipo: ["Dragão"],
@@ -22555,7 +23208,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22565,6 +23218,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fraxure",
+		especie: "",
 		codinome: "",
 		numero: 611, // considerando a national dex
 		tipo: ["Dragão"],
@@ -22588,7 +23242,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22598,6 +23252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Haxorus",
+		especie: "",
 		codinome: "",
 		numero: 612, // considerando a national dex
 		tipo: ["Dragão"],
@@ -22621,7 +23276,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22631,6 +23286,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cubchoo",
+		especie: "",
 		codinome: "",
 		numero: 613, // considerando a national dex
 		tipo: ["Gelo"],
@@ -22654,7 +23310,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22664,6 +23320,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Beartic",
+		especie: "",
 		codinome: "",
 		numero: 614, // considerando a national dex
 		tipo: ["Gelo"],
@@ -22687,7 +23344,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22697,6 +23354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cryogonal",
+		especie: "",
 		codinome: "",
 		numero: 615, // considerando a national dex
 		tipo: ["Gelo"],
@@ -22720,7 +23378,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22730,6 +23388,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shelmet",
+		especie: "",
 		codinome: "",
 		numero: 616, // considerando a national dex
 		tipo: ["Inseto"],
@@ -22753,7 +23412,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22763,6 +23422,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Accelgor",
+		especie: "",
 		codinome: "",
 		numero: 617, // considerando a national dex
 		tipo: ["Inseto"],
@@ -22786,7 +23446,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22796,6 +23456,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stunfisk de Unova",
+		especie: "",
 		codinome: "",
 		numero: 618.1, // considerando a national dex
 		tipo: ["Terra", " Elétrico"],
@@ -22819,7 +23480,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -22829,6 +23490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stunfisk de Galar",
+		especie: "",
 		codinome: "",
 		numero: 618.2, // considerando a national dex
 		tipo: ["Terra", " Metal"],
@@ -22853,7 +23515,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -22863,6 +23525,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mienfoo",
+		especie: "",
 		codinome: "",
 		numero: 619, // considerando a national dex
 		tipo: ["Lutador"],
@@ -22886,7 +23549,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22896,6 +23559,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mienshao",
+		especie: "",
 		codinome: "",
 		numero: 620, // considerando a national dex
 		tipo: ["Lutador"],
@@ -22919,7 +23583,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22929,6 +23593,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Druddigon",
+		especie: "",
 		codinome: "",
 		numero: 621, // considerando a national dex
 		tipo: ["Dragão"],
@@ -22952,7 +23617,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22962,6 +23627,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golett",
+		especie: "",
 		codinome: "",
 		numero: 622, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
@@ -22985,7 +23651,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -22995,6 +23661,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golurk",
+		especie: "",
 		codinome: "",
 		numero: 623, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
@@ -23018,7 +23685,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23028,6 +23695,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawniard",
+		especie: "",
 		codinome: "",
 		numero: 624, // considerando a national dex
 		tipo: ["Noturno", " Metal"],
@@ -23051,7 +23719,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23061,6 +23729,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bisharp",
+		especie: "",
 		codinome: "",
 		numero: 625, // considerando a national dex
 		tipo: ["Noturno", " Metal"],
@@ -23084,7 +23753,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23094,6 +23763,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bouffalant",
+		especie: "",
 		codinome: "",
 		numero: 626, // considerando a national dex
 		tipo: ["Normal"],
@@ -23117,7 +23787,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23127,6 +23797,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rufflet",
+		especie: "",
 		codinome: "",
 		numero: 627, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -23150,7 +23821,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23160,6 +23831,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Braviary de Unova",
+		especie: "",
 		codinome: "",
 		numero: 628.1, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -23183,7 +23855,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -23193,6 +23865,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Braviary de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 628.2, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
@@ -23216,7 +23889,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -23226,6 +23899,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vullaby",
+		especie: "",
 		codinome: "",
 		numero: 629, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
@@ -23249,7 +23923,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23259,6 +23933,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mandibuzz",
+		especie: "",
 		codinome: "",
 		numero: 630, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
@@ -23282,7 +23957,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23292,6 +23967,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Heatmor",
+		especie: "",
 		codinome: "",
 		numero: 631, // considerando a national dex
 		tipo: ["Fogo"],
@@ -23315,7 +23991,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23325,6 +24001,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Durant",
+		especie: "",
 		codinome: "",
 		numero: 632, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
@@ -23349,7 +24026,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23359,6 +24036,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Deino",
+		especie: "",
 		codinome: "",
 		numero: 633, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
@@ -23382,7 +24060,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23392,6 +24070,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zweilous",
+		especie: "",
 		codinome: "",
 		numero: 634, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
@@ -23415,7 +24094,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23425,6 +24104,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hydreigon",
+		especie: "",
 		codinome: "",
 		numero: 635, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
@@ -23448,7 +24128,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23458,6 +24138,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Larvesta",
+		especie: "",
 		codinome: "",
 		numero: 636, // considerando a national dex
 		tipo: ["Inseto", " Fogo"],
@@ -23481,7 +24162,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23491,6 +24172,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Volcarona",
+		especie: "",
 		codinome: "",
 		numero: 637, // considerando a national dex
 		tipo: ["Inseto", " Fogo"],
@@ -23514,7 +24196,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -23524,6 +24206,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cobalion",
+		especie: "",
 		codinome: "",
 		numero: 638, // considerando a national dex
 		tipo: ["Metal", " Lutador"],
@@ -23547,7 +24230,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23557,6 +24240,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terrakion",
+		especie: "",
 		codinome: "",
 		numero: 639, // considerando a national dex
 		tipo: ["Rocha", " Lutador"],
@@ -23580,7 +24264,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23590,6 +24274,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Virizion",
+		especie: "",
 		codinome: "",
 		numero: 640, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
@@ -23613,7 +24298,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23623,6 +24308,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tornadus (Forma Materializada)",
+		especie: "",
 		codinome: "Tornadus",
 		numero: 641.1, // considerando a national dex
 		tipo: ["Voador"],
@@ -23646,7 +24332,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23656,6 +24342,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tornadus (Forma Therian)",
+		especie: "",
 		codinome: "Tornadus",
 		numero: 641.2, // considerando a national dex
 		tipo: ["Voador"],
@@ -23689,6 +24376,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thundurus (Forma Materializada)",
+		especie: "",
 		codinome: "Thundurus",
 		numero: 642.1, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
@@ -23712,7 +24400,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23722,6 +24410,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thundurus (Forma Therian)",
+		especie: "",
 		codinome: "Thundurus",
 		numero: 642.2, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
@@ -23755,6 +24444,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Reshiram",
+		especie: "",
 		codinome: "",
 		numero: 643, // considerando a national dex
 		tipo: ["Dragão", " Fogo"],
@@ -23778,7 +24468,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23788,6 +24478,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zekrom",
+		especie: "",
 		codinome: "",
 		numero: 644, // considerando a national dex
 		tipo: ["Dragão", " Elétrico"],
@@ -23811,7 +24502,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23821,6 +24512,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Landorus (Forma Materializada)",
+		especie: "",
 		codinome: "Landorus",
 		numero: 645.1, // considerando a national dex
 		tipo: ["Terra", " Voador"],
@@ -23844,7 +24536,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23854,6 +24546,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Landorus (Forma Therian)",
+		especie: "",
 		codinome: "Landorus",
 		numero: 645.2, // considerando a national dex
 		tipo: ["Terra", " Voador"],
@@ -23887,6 +24580,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem",
+		especie: "",
 		codinome: "Kyurem",
 		numero: 646.1, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
@@ -23910,7 +24604,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -23920,6 +24614,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem Branco",
+		especie: "",
 		codinome: "Kyurem",
 		numero: 646.2, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
@@ -23953,6 +24648,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kyurem Preto",
+		especie: "",
 		codinome: "Kyurem",
 		numero: 646.3, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
@@ -23986,6 +24682,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Keldeo",
+		especie: "",
 		codinome: "",
 		numero: 647, // considerando a national dex
 		tipo: ["Água", " Lutador"],
@@ -24009,7 +24706,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24020,6 +24717,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meloetta (Forma Ária)",
+		especie: "",
 		codinome: "Meloetta",
 		numero: 648.1, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
@@ -24043,7 +24741,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24053,6 +24751,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meloetta (Forma Pirueta)",
+		especie: "",
 		codinome: "Meloetta",
 		numero: 648.2, // considerando a national dex
 		tipo: ["Normal", " Lutador"],
@@ -24087,6 +24786,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Genesect",
+		especie: "",
 		codinome: "",
 		numero: 649, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
@@ -24110,7 +24810,7 @@ const pkmnDisponiveis = [
 		geracao: 5, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -24124,6 +24824,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chespin",
+		especie: "",
 		codinome: "",
 		numero: 650, // considerando a national dex
 		tipo: ["Planta"],
@@ -24147,7 +24848,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24157,6 +24858,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quilladin",
+		especie: "",
 		codinome: "",
 		numero: 651, // considerando a national dex
 		tipo: ["Planta"],
@@ -24180,7 +24882,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24190,6 +24892,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chesnaught",
+		especie: "",
 		codinome: "",
 		numero: 652, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
@@ -24213,7 +24916,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24223,6 +24926,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fennekin",
+		especie: "",
 		codinome: "",
 		numero: 653, // considerando a national dex
 		tipo: ["Fogo"],
@@ -24246,7 +24950,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24256,6 +24960,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Braixen",
+		especie: "",
 		codinome: "",
 		numero: 654, // considerando a national dex
 		tipo: ["Fogo"],
@@ -24279,7 +24984,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24289,6 +24994,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Delphox",
+		especie: "",
 		codinome: "",
 		numero: 655, // considerando a national dex
 		tipo: ["Fogo", " Psíquico"],
@@ -24312,7 +25018,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24322,6 +25028,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Froakie",
+		especie: "",
 		codinome: "",
 		numero: 656, // considerando a national dex
 		tipo: ["Água"],
@@ -24345,7 +25052,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24355,6 +25062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frogadier",
+		especie: "",
 		codinome: "",
 		numero: 657, // considerando a national dex
 		tipo: ["Água"],
@@ -24378,7 +25086,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24388,6 +25096,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Greninja",
+		especie: "",
 		codinome: "",
 		numero: 658, // considerando a national dex
 		tipo: ["Água", " Noturno"],
@@ -24411,7 +25120,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24421,6 +25130,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bunnelby",
+		especie: "",
 		codinome: "",
 		numero: 659, // considerando a national dex
 		tipo: ["Normal"],
@@ -24444,7 +25154,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24454,6 +25164,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diggersby",
+		especie: "",
 		codinome: "",
 		numero: 660, // considerando a national dex
 		tipo: ["Normal", " Terra"],
@@ -24477,7 +25188,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24487,6 +25198,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fletchling",
+		especie: "",
 		codinome: "",
 		numero: 661, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -24510,7 +25222,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24520,6 +25232,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fletchinder",
+		especie: "",
 		codinome: "",
 		numero: 662, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
@@ -24543,7 +25256,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24553,6 +25266,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Talonflame",
+		especie: "",
 		codinome: "",
 		numero: 663, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
@@ -24576,7 +25290,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24586,6 +25300,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scatterbug",
+		especie: "",
 		codinome: "",
 		numero: 664, // considerando a national dex
 		tipo: ["Inseto"],
@@ -24609,7 +25324,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24619,6 +25334,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spewpa",
+		especie: "",
 		codinome: "",
 		numero: 665, // considerando a national dex
 		tipo: ["Inseto"],
@@ -24642,7 +25358,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24652,6 +25368,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vivillon",
+		especie: "",
 		codinome: "",
 		numero: 666, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
@@ -24675,7 +25392,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24704,6 +25421,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Litleo",
+		especie: "",
 		codinome: "",
 		numero: 667, // considerando a national dex
 		tipo: ["Fogo", " Normal"],
@@ -24727,7 +25445,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24737,6 +25455,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pyroar",
+		especie: "",
 		codinome: "",
 		numero: 668, // considerando a national dex
 		tipo: ["Fogo", " Normal"],
@@ -24760,7 +25479,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24771,6 +25490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flabébé",
+		especie: "",
 		codinome: "",
 		numero: 669, // considerando a national dex
 		tipo: ["Fada"],
@@ -24794,7 +25514,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24808,6 +25528,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Floette",
+		especie: "",
 		codinome: "",
 		numero: 670, // considerando a national dex
 		tipo: ["Fada"],
@@ -24831,7 +25552,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24845,6 +25566,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Florges",
+		especie: "",
 		codinome: "",
 		numero: 671, // considerando a national dex
 		tipo: ["Fada"],
@@ -24868,7 +25590,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24882,6 +25604,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skiddo",
+		especie: "",
 		codinome: "",
 		numero: 672, // considerando a national dex
 		tipo: ["Planta"],
@@ -24905,7 +25628,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24915,6 +25638,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gogoat",
+		especie: "",
 		codinome: "",
 		numero: 673, // considerando a national dex
 		tipo: ["Planta"],
@@ -24938,7 +25662,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24948,6 +25672,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pancham",
+		especie: "",
 		codinome: "",
 		numero: 674, // considerando a national dex
 		tipo: ["Lutador"],
@@ -24971,7 +25696,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -24981,6 +25706,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pangoro",
+		especie: "",
 		codinome: "",
 		numero: 675, // considerando a national dex
 		tipo: ["Lutador", " Noturno"],
@@ -25004,7 +25730,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25014,6 +25740,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Furfrou",
+		especie: "",
 		codinome: "",
 		numero: 676, // considerando a national dex
 		tipo: ["Normal"],
@@ -25037,7 +25764,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25047,6 +25774,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Espurr",
+		especie: "",
 		codinome: "",
 		numero: 677, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -25070,7 +25798,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25080,6 +25808,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowstic",
+		especie: "",
 		codinome: "",
 		numero: 678, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -25103,7 +25832,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25114,6 +25843,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Honedge",
+		especie: "",
 		codinome: "",
 		numero: 679, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
@@ -25137,7 +25867,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25147,6 +25877,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Doublade",
+		especie: "",
 		codinome: "",
 		numero: 680, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
@@ -25170,7 +25901,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25180,6 +25911,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aegislash (Forma Escudo)",
+		especie: "",
 		codinome: "Aegislash",
 		numero: 681.1, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
@@ -25198,12 +25930,12 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparentemente, consegue detectar as qualidades inatas da liderança. De acordo com lendas, quer quer que reconheça está destinado a se tornar rei.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada Real",
-		obtencao: ["Por evolução"],
+		obtencao: ["Por evolução e, durante batalha, usar o movimento 'Escudo do Rei'"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25213,6 +25945,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aegislash (Forma Lâmina)",
+		especie: "",
 		codinome: "Aegislash",
 		numero: 681.2, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
@@ -25231,7 +25964,7 @@ const pkmnDisponiveis = [
 		descricao:
 			"Aparentemente, consegue detectar as qualidades inatas da liderança. De acordo com lendas, quer quer que reconheça está destinado a se tornar rei.", // considerando a dex da primeira geração que apareceu
 		categoria: "Pokémon Espada Real",
-		obtencao: ["Por evolução"],
+		obtencao: ["Por evolução e, durante batalha, usar algum movimento que cause dano"],
 		estagio: 3,
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
@@ -25247,6 +25980,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spritzee",
+		especie: "",
 		codinome: "",
 		numero: 682, // considerando a national dex
 		tipo: ["Fada"],
@@ -25270,7 +26004,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25280,6 +26014,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aromatisse",
+		especie: "",
 		codinome: "",
 		numero: 683, // considerando a national dex
 		tipo: ["Fada"],
@@ -25303,7 +26038,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25313,6 +26048,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Swirlix",
+		especie: "",
 		codinome: "",
 		numero: 684, // considerando a national dex
 		tipo: ["Fada"],
@@ -25336,7 +26072,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25346,6 +26082,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slurpuff",
+		especie: "",
 		codinome: "",
 		numero: 685, // considerando a national dex
 		tipo: ["Fada"],
@@ -25369,7 +26106,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25379,6 +26116,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Inkay",
+		especie: "",
 		codinome: "",
 		numero: 686, // considerando a national dex
 		tipo: ["Noturno", " Psíquico"],
@@ -25402,7 +26140,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25412,6 +26150,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Malamar",
+		especie: "",
 		codinome: "",
 		numero: 687, // considerando a national dex
 		tipo: ["Noturno", " Psíquico"],
@@ -25435,7 +26174,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25445,6 +26184,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Binacle",
+		especie: "",
 		codinome: "",
 		numero: 688, // considerando a national dex
 		tipo: ["Rocha", " Água"],
@@ -25468,7 +26208,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25478,6 +26218,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Barbaracle",
+		especie: "",
 		codinome: "",
 		numero: 689, // considerando a national dex
 		tipo: ["Rocha", " Água"],
@@ -25501,7 +26242,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25511,6 +26252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skrelp",
+		especie: "",
 		codinome: "",
 		numero: 690, // considerando a national dex
 		tipo: ["Veneno", " Água"],
@@ -25534,7 +26276,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25544,6 +26286,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragalge",
+		especie: "",
 		codinome: "",
 		numero: 691, // considerando a national dex
 		tipo: ["Veneno", " Dragão"],
@@ -25567,7 +26310,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25577,6 +26320,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clauncher",
+		especie: "",
 		codinome: "",
 		numero: 692, // considerando a national dex
 		tipo: ["Água"],
@@ -25600,7 +26344,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25610,6 +26354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clawitzer",
+		especie: "",
 		codinome: "",
 		numero: 693, // considerando a national dex
 		tipo: ["Água"],
@@ -25633,7 +26378,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25643,6 +26388,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Helioptile",
+		especie: "",
 		codinome: "",
 		numero: 694, // considerando a national dex
 		tipo: ["Elétrico", " Normal"],
@@ -25666,7 +26412,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25676,6 +26422,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Heliolisk",
+		especie: "",
 		codinome: "",
 		numero: 695, // considerando a national dex
 		tipo: ["Elétrico", " Normal"],
@@ -25699,7 +26446,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25709,6 +26456,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tyrunt",
+		especie: "",
 		codinome: "",
 		numero: 696, // considerando a national dex
 		tipo: ["Rocha", " Dragão"],
@@ -25732,7 +26480,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25742,6 +26490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tyrantrum",
+		especie: "",
 		codinome: "",
 		numero: 697, // considerando a national dex
 		tipo: ["Rocha", " Dragão"],
@@ -25765,7 +26514,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25775,6 +26524,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Amaura",
+		especie: "",
 		codinome: "",
 		numero: 698, // considerando a national dex
 		tipo: ["Rocha", " Gelo"],
@@ -25798,7 +26548,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25808,6 +26558,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Aurorus",
+		especie: "",
 		codinome: "",
 		numero: 699, // considerando a national dex
 		tipo: ["Rocha", " Gelo"],
@@ -25831,7 +26582,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25841,6 +26592,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sylveon",
+		especie: "",
 		codinome: "",
 		numero: 700, // considerando a national dex
 		tipo: ["Fada"],
@@ -25864,7 +26616,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25874,6 +26626,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hawlucha",
+		especie: "",
 		codinome: "",
 		numero: 701, // considerando a national dex
 		tipo: ["Lutador", " Voador"],
@@ -25897,7 +26650,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25907,6 +26660,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dedenne",
+		especie: "",
 		codinome: "",
 		numero: 702, // considerando a national dex
 		tipo: ["Elétrico", " Fada"],
@@ -25930,7 +26684,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25940,6 +26694,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carbink",
+		especie: "",
 		codinome: "",
 		numero: 703, // considerando a national dex
 		tipo: ["Rocha", " Fada"],
@@ -25963,7 +26718,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -25973,6 +26728,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goomy",
+		especie: "",
 		codinome: "",
 		numero: 704, // considerando a national dex
 		tipo: ["Dragão"],
@@ -25996,7 +26752,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26006,6 +26762,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sliggoo de Kalos",
+		especie: "",
 		codinome: "",
 		numero: 705.1, // considerando a national dex
 		tipo: ["Dragão"],
@@ -26029,7 +26786,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -26039,6 +26796,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sliggoo de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 705.2, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
@@ -26063,7 +26821,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -26073,6 +26831,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goodra de Kalos",
+		especie: "",
 		codinome: "",
 		numero: 706.1, // considerando a national dex
 		tipo: ["Dragão"],
@@ -26096,7 +26855,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -26106,6 +26865,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Goodra de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 706.2, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
@@ -26130,7 +26890,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -26140,6 +26900,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klefki",
+		especie: "",
 		codinome: "",
 		numero: 707, // considerando a national dex
 		tipo: ["Metal", " Fada"],
@@ -26163,7 +26924,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26173,6 +26934,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Phantump",
+		especie: "",
 		codinome: "",
 		numero: 708, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26196,7 +26958,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26206,6 +26968,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trevenant",
+		especie: "",
 		codinome: "",
 		numero: 709, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26229,7 +26992,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26239,6 +27002,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Pequeno)",
+		especie: "",
 		codinome: "Pumpkaboo",
 		numero: 710.1, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26262,7 +27026,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26272,6 +27036,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Normal)",
+		especie: "",
 		codinome: "Pumpkaboo",
 		numero: 710.2, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26295,7 +27060,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26305,6 +27070,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Grande)",
+		especie: "",
 		codinome: "Pumpkaboo",
 		numero: 710.3, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26328,7 +27094,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26338,6 +27104,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pumpkaboo (Tamanho Extra Grande)",
+		especie: "",
 		codinome: "Pumpkaboo",
 		numero: 710.4, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26361,7 +27128,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26371,6 +27138,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Pequeno)",
+		especie: "",
 		codinome: "Gourgeist",
 		numero: 711.1, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26394,7 +27162,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26404,6 +27172,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Normal)",
+		especie: "",
 		codinome: "Gourgeist",
 		numero: 711.2, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26427,7 +27196,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26437,6 +27206,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Grande)",
+		especie: "",
 		codinome: "Gourgeist",
 		numero: 711.3, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26460,7 +27230,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26470,6 +27240,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gourgeist (Tamanho Extra Grande)",
+		especie: "",
 		codinome: "Gourgeist",
 		numero: 711.4, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -26493,7 +27264,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26503,6 +27274,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bergmite",
+		especie: "",
 		codinome: "",
 		numero: 712, // considerando a national dex
 		tipo: ["Gelo"],
@@ -26526,7 +27298,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26536,6 +27308,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Avalugg de Kalos",
+		especie: "",
 		codinome: "",
 		numero: 713.1, // considerando a national dex
 		tipo: ["Gelo"],
@@ -26559,7 +27332,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -26569,6 +27342,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Avalugg de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 713.2, // considerando a national dex
 		tipo: ["Gelo", " Rocha"],
@@ -26592,7 +27366,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -26602,6 +27376,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Noibat",
+		especie: "",
 		codinome: "",
 		numero: 714, // considerando a national dex
 		tipo: ["Voador", " Dragão"],
@@ -26625,7 +27400,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26635,6 +27410,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Noivern",
+		especie: "",
 		codinome: "",
 		numero: 715, // considerando a national dex
 		tipo: ["Voador", " Dragão"],
@@ -26658,7 +27434,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26668,6 +27444,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Xerneas",
+		especie: "",
 		codinome: "",
 		numero: 716, // considerando a national dex
 		tipo: ["Fada"],
@@ -26691,7 +27468,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26701,6 +27478,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yveltal",
+		especie: "",
 		codinome: "",
 		numero: 717, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
@@ -26724,7 +27502,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26734,6 +27512,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma 10%",
+		especie: "",
 		codinome: "Zygarde",
 		numero: 718.1, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
@@ -26757,7 +27536,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26767,6 +27546,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma 50%",
+		especie: "",
 		codinome: "Zygarde",
 		numero: 718.2, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
@@ -26790,7 +27570,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26800,6 +27580,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zygarde Forma Completa",
+		especie: "",
 		codinome: "Zygarde",
 		numero: 718.3, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
@@ -26823,7 +27604,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26833,6 +27614,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Diancie",
+		especie: "",
 		codinome: "",
 		numero: 719, // considerando a national dex
 		tipo: ["Rocha", " Fada"],
@@ -26856,7 +27638,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26866,6 +27648,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoopa Contido",
+		especie: "",
 		codinome: "Hoopa",
 		numero: 720.1, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
@@ -26889,7 +27672,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26899,6 +27682,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hoopa Libertado",
+		especie: "",
 		codinome: "Hoopa",
 		numero: 720.2, // considerando a national dex
 		tipo: ["Psíquico", " Noturno"],
@@ -26932,6 +27716,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Volcanion",
+		especie: "",
 		codinome: "",
 		numero: 721, // considerando a national dex
 		tipo: ["Fogo", " Água"],
@@ -26955,7 +27740,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -26965,6 +27750,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rowlet",
+		especie: "",
 		codinome: "",
 		numero: 722, // considerando a national dex
 		tipo: ["Planta", " Voador"],
@@ -26988,7 +27774,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -26998,6 +27784,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dartrix",
+		especie: "",
 		codinome: "",
 		numero: 723, // considerando a national dex
 		tipo: ["Planta", " Voador"],
@@ -27021,7 +27808,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27031,6 +27818,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Decidueye de Alola",
+		especie: "",
 		codinome: "",
 		numero: 724.1, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
@@ -27054,7 +27842,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -27064,6 +27852,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Decidueye de Hisui",
+		especie: "",
 		codinome: "",
 		numero: 724.2, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
@@ -27087,7 +27876,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -27097,6 +27886,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Litten",
+		especie: "",
 		codinome: "",
 		numero: 725, // considerando a national dex
 		tipo: ["Fogo"],
@@ -27120,7 +27910,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27130,6 +27920,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Torracat",
+		especie: "",
 		codinome: "",
 		numero: 726, // considerando a national dex
 		tipo: ["Fogo"],
@@ -27153,7 +27944,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27163,6 +27954,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Incineroar",
+		especie: "",
 		codinome: "",
 		numero: 727, // considerando a national dex
 		tipo: ["Fogo", " Noturno"],
@@ -27186,7 +27978,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27196,6 +27988,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Popplio",
+		especie: "",
 		codinome: "",
 		numero: 728, // considerando a national dex
 		tipo: ["Água"],
@@ -27219,7 +28012,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27229,6 +28022,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Brionne",
+		especie: "",
 		codinome: "",
 		numero: 729, // considerando a national dex
 		tipo: ["Água"],
@@ -27252,7 +28046,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27262,6 +28056,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Primarina",
+		especie: "",
 		codinome: "",
 		numero: 730, // considerando a national dex
 		tipo: ["Água", " Fada"],
@@ -27285,7 +28080,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27295,6 +28090,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pikipek",
+		especie: "",
 		codinome: "",
 		numero: 731, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -27318,7 +28114,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27328,6 +28124,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Trumbeak",
+		especie: "",
 		codinome: "",
 		numero: 732, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -27352,7 +28149,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27362,6 +28159,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toucannon",
+		especie: "",
 		codinome: "",
 		numero: 733, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -27385,7 +28183,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27395,6 +28193,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yungoos",
+		especie: "",
 		codinome: "",
 		numero: 734, // considerando a national dex
 		tipo: ["Normal"],
@@ -27418,7 +28217,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27428,6 +28227,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gumshoos",
+		especie: "",
 		codinome: "",
 		numero: 735, // considerando a national dex
 		tipo: ["Normal"],
@@ -27452,7 +28252,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27462,6 +28262,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grubbin",
+		especie: "",
 		codinome: "",
 		numero: 736, // considerando a national dex
 		tipo: ["Inseto"],
@@ -27485,7 +28286,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27495,6 +28296,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charjabug",
+		especie: "",
 		codinome: "",
 		numero: 737, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
@@ -27518,7 +28320,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27528,6 +28330,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Vikavolt",
+		especie: "",
 		codinome: "",
 		numero: 738, // considerando a national dex
 		tipo: ["Inseto", " Elétrico"],
@@ -27551,7 +28354,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27561,6 +28364,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crabrawler",
+		especie: "",
 		codinome: "",
 		numero: 739, // considerando a national dex
 		tipo: ["Lutador"],
@@ -27585,7 +28389,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27595,6 +28399,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crabominable",
+		especie: "",
 		codinome: "",
 		numero: 740, // considerando a national dex
 		tipo: ["Lutador", " Gelo"],
@@ -27618,7 +28423,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27628,6 +28433,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Flamenco)",
+		especie: "",
 		codinome: "Oricorio",
 		numero: 741.1, // considerando a national dex
 		tipo: ["Fogo", " Voador"],
@@ -27651,7 +28457,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27661,6 +28467,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Pompom)",
+		especie: "",
 		codinome: "Oricorio",
 		numero: 741.2, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
@@ -27684,7 +28491,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27694,6 +28501,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Hula)",
+		especie: "",
 		codinome: "Oricorio",
 		numero: 741.3, // considerando a national dex
 		tipo: ["Psíquico", " Voador"],
@@ -27717,7 +28525,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27727,6 +28535,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oricorio (Estilo Leque)",
+		especie: "",
 		codinome: "Oricorio",
 		numero: 741.4, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
@@ -27750,7 +28559,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27760,6 +28569,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cutiefly",
+		especie: "",
 		codinome: "",
 		numero: 742, // considerando a national dex
 		tipo: ["Inseto", " Fada"],
@@ -27783,7 +28593,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27793,6 +28603,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ribombee",
+		especie: "",
 		codinome: "",
 		numero: 743, // considerando a national dex
 		tipo: ["Inseto", " Fada"],
@@ -27816,7 +28627,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27826,6 +28637,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rockruff",
+		especie: "",
 		codinome: "",
 		numero: 744, // considerando a national dex
 		tipo: ["Rocha"],
@@ -27849,7 +28661,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27859,6 +28671,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Diurna)",
+		especie: "",
 		codinome: "Lycanroc",
 		numero: 745.1, // considerando a national dex
 		tipo: ["Rocha"],
@@ -27882,7 +28695,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27892,6 +28705,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Noturna)",
+		especie: "",
 		codinome: "Lycanroc",
 		numero: 745.2, // considerando a national dex
 		tipo: ["Rocha"],
@@ -27915,7 +28729,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27925,6 +28739,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lycanroc (Forma Crepúsculo)",
+		especie: "",
 		codinome: "Lycanroc",
 		numero: 745.3, // considerando a national dex
 		tipo: ["Rocha"],
@@ -27948,7 +28763,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27958,6 +28773,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wishiwashi (Forma Individual)",
+		especie: "",
 		codinome: "Wishiwashi",
 		numero: 746.1, // considerando a national dex
 		tipo: ["Água"],
@@ -27982,7 +28798,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -27992,6 +28808,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wishiwashi (Forma Cardume)",
+		especie: "",
 		codinome: "Wishiwashi",
 		numero: 746.2, // considerando a national dex
 		tipo: ["Água"],
@@ -28026,6 +28843,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mareanie",
+		especie: "",
 		codinome: "",
 		numero: 747, // considerando a national dex
 		tipo: ["Veneno", " Água"],
@@ -28049,7 +28867,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28059,6 +28877,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxapex",
+		especie: "",
 		codinome: "",
 		numero: 748, // considerando a national dex
 		tipo: ["Veneno", " Água"],
@@ -28082,7 +28901,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28092,6 +28911,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mudbray",
+		especie: "",
 		codinome: "",
 		numero: 749, // considerando a national dex
 		tipo: ["Terra"],
@@ -28115,7 +28935,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28125,6 +28945,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mudsdale",
+		especie: "",
 		codinome: "",
 		numero: 750, // considerando a national dex
 		tipo: ["Terra"],
@@ -28148,7 +28969,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28158,6 +28979,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dewpider",
+		especie: "",
 		codinome: "",
 		numero: 751, // considerando a national dex
 		tipo: ["Água", " Inseto"],
@@ -28181,7 +29003,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28191,6 +29013,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Araquanid",
+		especie: "",
 		codinome: "",
 		numero: 752, // considerando a national dex
 		tipo: ["Água", " Inseto"],
@@ -28214,7 +29037,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28224,6 +29047,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fomantis",
+		especie: "",
 		codinome: "",
 		numero: 753, // considerando a national dex
 		tipo: ["Planta"],
@@ -28247,7 +29071,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28257,6 +29081,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lurantis",
+		especie: "",
 		codinome: "",
 		numero: 754, // considerando a national dex
 		tipo: ["Planta"],
@@ -28280,7 +29105,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28290,6 +29115,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morelull",
+		especie: "",
 		codinome: "",
 		numero: 755, // considerando a national dex
 		tipo: ["Planta", " Fada"],
@@ -28313,7 +29139,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28323,6 +29149,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shiinotic",
+		especie: "",
 		codinome: "",
 		numero: 756, // considerando a national dex
 		tipo: ["Planta", " Fada"],
@@ -28346,7 +29173,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28356,6 +29183,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Salandit",
+		especie: "",
 		codinome: "",
 		numero: 757, // considerando a national dex
 		tipo: ["Veneno", " Fogo"],
@@ -28379,7 +29207,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28389,6 +29217,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Salazzle",
+		especie: "",
 		codinome: "",
 		numero: 758, // considerando a national dex
 		tipo: ["Veneno", " Fogo"],
@@ -28413,7 +29242,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28423,6 +29252,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stufful",
+		especie: "",
 		codinome: "",
 		numero: 759, // considerando a national dex
 		tipo: ["Normal", " Lutador"],
@@ -28446,7 +29276,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28456,6 +29286,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bewear",
+		especie: "",
 		codinome: "",
 		numero: 760, // considerando a national dex
 		tipo: ["Normal", " Lutador"],
@@ -28479,7 +29310,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28489,6 +29320,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bounsweet",
+		especie: "",
 		codinome: "",
 		numero: 761, // considerando a national dex
 		tipo: ["Planta"],
@@ -28512,7 +29344,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28522,6 +29354,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Steenee",
+		especie: "",
 		codinome: "",
 		numero: 762, // considerando a national dex
 		tipo: ["Planta"],
@@ -28545,7 +29378,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28555,6 +29388,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tsareena",
+		especie: "",
 		codinome: "",
 		numero: 763, // considerando a national dex
 		tipo: ["Planta"],
@@ -28578,7 +29412,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28588,6 +29422,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Comfey",
+		especie: "",
 		codinome: "",
 		numero: 764, // considerando a national dex
 		tipo: ["Fada"],
@@ -28611,7 +29446,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28621,6 +29456,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oranguru",
+		especie: "",
 		codinome: "",
 		numero: 765, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
@@ -28644,7 +29480,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28654,6 +29490,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Passimian",
+		especie: "",
 		codinome: "",
 		numero: 766, // considerando a national dex
 		tipo: ["Lutador"],
@@ -28677,7 +29514,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28687,6 +29524,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wimpod",
+		especie: "",
 		codinome: "",
 		numero: 767, // considerando a national dex
 		tipo: ["Inseto", " Água"],
@@ -28711,7 +29549,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28721,6 +29559,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Golisopod",
+		especie: "",
 		codinome: "",
 		numero: 768, // considerando a national dex
 		tipo: ["Inseto", " Água"],
@@ -28744,7 +29583,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28754,6 +29593,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandygast",
+		especie: "",
 		codinome: "",
 		numero: 769, // considerando a national dex
 		tipo: ["Fantasma", " Terra"],
@@ -28777,7 +29617,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28787,6 +29627,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palossand",
+		especie: "",
 		codinome: "",
 		numero: 770, // considerando a national dex
 		tipo: ["Fantasma", " Terra"],
@@ -28810,7 +29651,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28820,6 +29661,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pyukumuku",
+		especie: "",
 		codinome: "",
 		numero: 771, // considerando a national dex
 		tipo: ["Água"],
@@ -28843,7 +29685,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28853,6 +29695,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Type: Null",
+		especie: "",
 		codinome: "",
 		numero: 772, // considerando a national dex
 		tipo: ["Normal"],
@@ -28876,7 +29719,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28886,6 +29729,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Silvally",
+		especie: "",
 		codinome: "",
 		numero: 773, // considerando a national dex
 		tipo: ["Normal"],
@@ -28909,7 +29753,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -28919,6 +29763,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minior (Forma Meteoro)",
+		especie: "",
 		codinome: "Minior",
 		numero: 774.1, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
@@ -28942,7 +29787,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -28952,6 +29797,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Minior (Forma Núcleo)",
+		especie: "",
 		codinome: "Minior",
 		numero: 774.2, // considerando a national dex
 		tipo: ["Rocha", " Voador"],
@@ -28991,6 +29837,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Komala",
+		especie: "",
 		codinome: "",
 		numero: 775, // considerando a national dex
 		tipo: ["Normal"],
@@ -29014,7 +29861,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29024,6 +29871,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Turtonator",
+		especie: "",
 		codinome: "",
 		numero: 776, // considerando a national dex
 		tipo: ["Fogo", " Dragão"],
@@ -29047,7 +29895,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29057,6 +29905,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Togedemaru",
+		especie: "",
 		codinome: "",
 		numero: 777, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
@@ -29080,7 +29929,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29090,6 +29939,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mimikyu",
+		especie: "",
 		codinome: "",
 		numero: 778, // considerando a national dex
 		tipo: ["Fantasma", " Fada"],
@@ -29113,7 +29963,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29124,6 +29974,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bruxish",
+		especie: "",
 		codinome: "",
 		numero: 779, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
@@ -29147,7 +29998,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29157,6 +30008,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drampa",
+		especie: "",
 		codinome: "",
 		numero: 780, // considerando a national dex
 		tipo: ["Normal", " Dragão"],
@@ -29180,7 +30032,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29190,6 +30042,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dhelmise",
+		especie: "",
 		codinome: "",
 		numero: 781, // considerando a national dex
 		tipo: ["Fantasma", " Planta"],
@@ -29213,7 +30066,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29223,6 +30076,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Jangmo-o",
+		especie: "",
 		codinome: "",
 		numero: 782, // considerando a national dex
 		tipo: ["Dragão"],
@@ -29246,7 +30100,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29256,6 +30110,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hakamo-o",
+		especie: "",
 		codinome: "",
 		numero: 783, // considerando a national dex
 		tipo: ["Dragão", " Lutador"],
@@ -29279,7 +30134,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29289,6 +30144,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kommo-o",
+		especie: "",
 		codinome: "",
 		numero: 784, // considerando a national dex
 		tipo: ["Dragão", " Lutador"],
@@ -29312,7 +30168,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -29322,6 +30178,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Koko",
+		especie: "",
 		codinome: "",
 		numero: 785, // considerando a national dex
 		tipo: ["Elétrico", " Fada"],
@@ -29345,7 +30202,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29355,6 +30212,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Lele",
+		especie: "",
 		codinome: "",
 		numero: 786, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
@@ -29378,7 +30236,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29388,6 +30246,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Bulu",
+		especie: "",
 		codinome: "",
 		numero: 787, // considerando a national dex
 		tipo: ["Planta", " Fada"],
@@ -29411,7 +30270,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29421,6 +30280,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tapu Fini",
+		especie: "",
 		codinome: "",
 		numero: 788, // considerando a national dex
 		tipo: ["Água", " Fada"],
@@ -29444,7 +30304,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29454,6 +30314,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cosmog",
+		especie: "",
 		codinome: "",
 		numero: 789, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -29477,7 +30338,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29487,6 +30348,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cosmoem",
+		especie: "",
 		codinome: "",
 		numero: 790, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -29510,7 +30372,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29520,6 +30382,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Solgaleo",
+		especie: "",
 		codinome: "",
 		numero: 791, // considerando a national dex
 		tipo: ["Psíquico", " Metal"],
@@ -29543,7 +30406,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29553,6 +30416,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lunala",
+		especie: "",
 		codinome: "",
 		numero: 792, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
@@ -29576,7 +30440,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29586,6 +30450,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nihilego",
+		especie: "",
 		codinome: "UC-01 Parasita",
 		numero: 793, // considerando a national dex
 		tipo: ["Rocha", " Veneno"],
@@ -29609,7 +30474,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29619,6 +30484,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Buzzwole",
+		especie: "",
 		codinome: "UB-02 Absortion",
 		numero: 794, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
@@ -29642,7 +30508,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29652,6 +30518,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pheromosa",
+		especie: "",
 		codinome: "UB-02 Beauty",
 		numero: 795, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
@@ -29675,7 +30542,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29685,6 +30552,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Xurkitree",
+		especie: "",
 		codinome: "UB-03 Lighting",
 		numero: 796, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -29708,7 +30576,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29718,6 +30586,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Celesteela",
+		especie: "",
 		codinome: "UB-04 Blaster",
 		numero: 797, // considerando a national dex
 		tipo: ["Metal", " Voador"],
@@ -29741,7 +30610,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29751,6 +30620,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kartana",
+		especie: "",
 		codinome: "UB-04 Blade",
 		numero: 798, // considerando a national dex
 		tipo: ["Planta", " Metal"],
@@ -29774,7 +30644,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29784,6 +30654,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Guzzlord",
+		especie: "",
 		codinome: "UB-05 Glutton",
 		numero: 799, // considerando a national dex
 		tipo: ["Noturno", " Dragão"],
@@ -29807,7 +30678,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29817,6 +30688,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma",
+		especie: "",
 		codinome: "Necrozma",
 		numero: 800.1, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -29840,7 +30712,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29850,6 +30722,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma Juba Crepúsculo",
+		especie: "",
 		codinome: "Necrozma",
 		numero: 800.2, // considerando a national dex
 		tipo: ["Psíquico", " Metal"],
@@ -29884,6 +30757,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Necrozma Asas Alvorada",
+		especie: "",
 		codinome: "Necrozma",
 		numero: 800.3, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
@@ -29918,6 +30792,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ultra Necrozma",
+		especie: "",
 		codinome: "Necrozma",
 		numero: 800.4, // considerando a national dex
 		tipo: ["Psíquico", " Dragão"],
@@ -29952,6 +30827,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Magearna",
+		especie: "",
 		codinome: "",
 		numero: 801, // considerando a national dex
 		tipo: ["Metal", " Fada"],
@@ -29975,7 +30851,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29985,6 +30861,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Marshadow",
+		especie: "",
 		codinome: "",
 		numero: 802, // considerando a national dex
 		tipo: ["Lutador", " Fantasma"],
@@ -30008,7 +30885,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30018,6 +30895,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poipole",
+		especie: "",
 		codinome: "UB Adhersive",
 		numero: 803, // considerando a national dex
 		tipo: ["Veneno"],
@@ -30041,7 +30919,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30051,6 +30929,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Naganadel",
+		especie: "",
 		codinome: "UB Stinger",
 		numero: 804, // considerando a national dex
 		tipo: ["Veneno", " Dragão"],
@@ -30074,7 +30953,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30084,6 +30963,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stakataka",
+		especie: "",
 		codinome: "UB Assembly",
 		numero: 805, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
@@ -30107,7 +30987,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30117,6 +30997,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blacephalon",
+		especie: "",
 		codinome: "UB Burst",
 		numero: 806, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
@@ -30140,7 +31021,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30150,6 +31031,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zeraora",
+		especie: "",
 		codinome: "",
 		numero: 807, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -30173,7 +31055,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30183,6 +31065,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meltan",
+		especie: "",
 		codinome: "",
 		numero: 808, // considerando a national dex
 		tipo: ["Metal"],
@@ -30206,7 +31089,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30216,6 +31099,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Melmetal",
+		especie: "",
 		codinome: "",
 		numero: 809, // considerando a national dex
 		tipo: ["Metal"],
@@ -30239,7 +31123,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30250,6 +31134,7 @@ const pkmnDisponiveis = [
 
 	{
 		nome: "Grookey",
+		especie: "",
 		codinome: "",
 		numero: 810, // considerando a national dex
 		tipo: ["Planta"],
@@ -30273,7 +31158,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30283,6 +31168,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thwackey",
+		especie: "",
 		codinome: "",
 		numero: 811, // considerando a national dex
 		tipo: ["Planta"],
@@ -30306,7 +31192,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30316,6 +31202,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rillaboom",
+		especie: "",
 		codinome: "",
 		numero: 812, // considerando a national dex
 		tipo: ["Planta"],
@@ -30339,7 +31226,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30349,6 +31236,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scorbunny",
+		especie: "",
 		codinome: "",
 		numero: 813, // considerando a national dex
 		tipo: ["Fogo"],
@@ -30372,7 +31260,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30382,6 +31270,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raboot",
+		especie: "",
 		codinome: "",
 		numero: 814, // considerando a national dex
 		tipo: ["Fogo"],
@@ -30405,7 +31294,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30415,6 +31304,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cinderace",
+		especie: "",
 		codinome: "",
 		numero: 815, // considerando a national dex
 		tipo: ["Fogo"],
@@ -30438,7 +31328,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30448,6 +31338,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sobble",
+		especie: "",
 		codinome: "",
 		numero: 816, // considerando a national dex
 		tipo: ["Água"],
@@ -30471,7 +31362,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30481,6 +31372,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drizzile",
+		especie: "",
 		codinome: "",
 		numero: 817, // considerando a national dex
 		tipo: ["Água"],
@@ -30504,7 +31396,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30514,6 +31406,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Inteleon",
+		especie: "",
 		codinome: "",
 		numero: 818, // considerando a national dex
 		tipo: ["Água"],
@@ -30537,7 +31430,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30547,6 +31440,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skwovet",
+		especie: "",
 		codinome: "",
 		numero: 819, // considerando a national dex
 		tipo: ["Normal"],
@@ -30571,7 +31465,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30581,6 +31475,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Greedent",
+		especie: "",
 		codinome: "",
 		numero: 820, // considerando a national dex
 		tipo: ["Normal"],
@@ -30605,7 +31500,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30615,6 +31510,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rookidee",
+		especie: "",
 		codinome: "",
 		numero: 821, // considerando a national dex
 		tipo: ["Voador"],
@@ -30638,7 +31534,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30648,6 +31544,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corvisquire",
+		especie: "",
 		codinome: "",
 		numero: 822, // considerando a national dex
 		tipo: ["Voador"],
@@ -30672,7 +31569,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30682,6 +31579,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Corviknight",
+		especie: "",
 		codinome: "",
 		numero: 823, // considerando a national dex
 		tipo: ["Voador", " Metal"],
@@ -30706,7 +31604,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30716,6 +31614,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Blipbug",
+		especie: "",
 		codinome: "",
 		numero: 824, // considerando a national dex
 		tipo: ["Inseto"],
@@ -30740,7 +31639,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30750,6 +31649,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dottler",
+		especie: "",
 		codinome: "",
 		numero: 825, // considerando a national dex
 		tipo: ["Inseto", " Psíquico"],
@@ -30774,7 +31674,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30784,6 +31684,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Orbeetle",
+		especie: "",
 		codinome: "",
 		numero: 826, // considerando a national dex
 		tipo: ["Inseto", " Psíquico"],
@@ -30808,7 +31709,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30818,6 +31719,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nickit",
+		especie: "",
 		codinome: "",
 		numero: 827, // considerando a national dex
 		tipo: ["Noturno"],
@@ -30841,7 +31743,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30851,6 +31753,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Thievul",
+		especie: "",
 		codinome: "",
 		numero: 828, // considerando a national dex
 		tipo: ["Noturno"],
@@ -30875,7 +31778,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30885,6 +31788,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gossifleur",
+		especie: "",
 		codinome: "",
 		numero: 829, // considerando a national dex
 		tipo: ["Planta"],
@@ -30908,7 +31812,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30918,6 +31822,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eldegoss",
+		especie: "",
 		codinome: "",
 		numero: 830, // considerando a national dex
 		tipo: ["Planta"],
@@ -30942,7 +31847,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30952,6 +31857,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wooloo",
+		especie: "",
 		codinome: "",
 		numero: 831, // considerando a national dex
 		tipo: ["Normal"],
@@ -30976,7 +31882,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -30986,6 +31892,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dubwool",
+		especie: "",
 		codinome: "",
 		numero: 832, // considerando a national dex
 		tipo: ["Normal"],
@@ -31010,7 +31917,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31020,6 +31927,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chewtle",
+		especie: "",
 		codinome: "",
 		numero: 833, // considerando a national dex
 		tipo: ["Água"],
@@ -31044,7 +31952,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31054,6 +31962,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drednaw",
+		especie: "",
 		codinome: "",
 		numero: 834, // considerando a national dex
 		tipo: ["Água", " Rocha"],
@@ -31078,7 +31987,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31088,6 +31997,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Yamper",
+		especie: "",
 		codinome: "",
 		numero: 835, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -31112,7 +32022,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31122,6 +32032,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Boltund",
+		especie: "",
 		codinome: "",
 		numero: 836, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -31146,7 +32057,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31156,6 +32067,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rolycoly",
+		especie: "",
 		codinome: "",
 		numero: 837, // considerando a national dex
 		tipo: ["Rocha"],
@@ -31179,7 +32091,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31189,6 +32101,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Carkol",
+		especie: "",
 		codinome: "",
 		numero: 838, // considerando a national dex
 		tipo: ["Rocha", " Fogo"],
@@ -31213,7 +32126,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31223,6 +32136,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Coalossal",
+		especie: "",
 		codinome: "",
 		numero: 839, // considerando a national dex
 		tipo: ["Rocha", " Fogo"],
@@ -31247,7 +32161,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31257,6 +32171,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Applin",
+		especie: "",
 		codinome: "",
 		numero: 840, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
@@ -31281,7 +32196,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31291,6 +32206,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flapple",
+		especie: "",
 		codinome: "",
 		numero: 841, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
@@ -31314,7 +32230,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31324,6 +32240,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Appletun",
+		especie: "",
 		codinome: "",
 		numero: 842, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
@@ -31347,7 +32264,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31357,6 +32274,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Silicobra",
+		especie: "",
 		codinome: "",
 		numero: 843, // considerando a national dex
 		tipo: ["Terra"],
@@ -31381,7 +32299,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31391,6 +32309,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandaconda",
+		especie: "",
 		codinome: "",
 		numero: 844, // considerando a national dex
 		tipo: ["Terra"],
@@ -31414,7 +32333,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31424,6 +32343,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cramorant",
+		especie: "",
 		codinome: "",
 		numero: 845, // considerando a national dex
 		tipo: ["Voador", " Água"],
@@ -31448,7 +32368,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31458,6 +32378,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arrokuda",
+		especie: "",
 		codinome: "",
 		numero: 846, // considerando a national dex
 		tipo: ["Água"],
@@ -31482,7 +32403,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31492,6 +32413,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Barraskewda",
+		especie: "",
 		codinome: "",
 		numero: 847, // considerando a national dex
 		tipo: ["Água"],
@@ -31516,7 +32438,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31526,6 +32448,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxel",
+		especie: "",
 		codinome: "",
 		numero: 848, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
@@ -31550,7 +32473,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31560,6 +32483,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxtricity (Forma Aguda)",
+		especie: "",
 		codinome: "Toxtricity",
 		numero: 849.1, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
@@ -31583,7 +32507,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31593,6 +32517,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toxtricity (Forma Grave)",
+		especie: "",
 		codinome: "Toxtricity",
 		numero: 849.2, // considerando a national dex
 		tipo: ["Elétrico", " Veneno"],
@@ -31616,7 +32541,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31626,6 +32551,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sizzlipede",
+		especie: "",
 		codinome: "",
 		numero: 850, // considerando a national dex
 		tipo: ["Fogo", " Inseto"],
@@ -31649,7 +32575,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31659,6 +32585,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Centiskorch",
+		especie: "",
 		codinome: "",
 		numero: 851, // considerando a national dex
 		tipo: ["Fogo", " Inseto"],
@@ -31682,7 +32609,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31692,6 +32619,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clobbopus",
+		especie: "",
 		codinome: "",
 		numero: 852, // considerando a national dex
 		tipo: ["Lutador"],
@@ -31715,7 +32643,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31725,6 +32653,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grapploct",
+		especie: "",
 		codinome: "",
 		numero: 853, // considerando a national dex
 		tipo: ["Lutador"],
@@ -31749,7 +32678,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31759,6 +32688,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sinistea",
+		especie: "",
 		codinome: "",
 		numero: 854, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -31782,7 +32712,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31793,6 +32723,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Polteageist",
+		especie: "",
 		codinome: "",
 		numero: 855, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -31816,7 +32747,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31827,6 +32758,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hatenna",
+		especie: "",
 		codinome: "",
 		numero: 856, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -31851,7 +32783,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31861,6 +32793,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hattrem",
+		especie: "",
 		codinome: "",
 		numero: 857, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -31885,7 +32818,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31895,6 +32828,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hatterene",
+		especie: "",
 		codinome: "",
 		numero: 858, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
@@ -31919,7 +32853,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31929,6 +32863,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Impidimp",
+		especie: "",
 		codinome: "",
 		numero: 859, // considerando a national dex
 		tipo: ["Noturno", " Fada"],
@@ -31953,7 +32888,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31963,6 +32898,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morgrem",
+		especie: "",
 		codinome: "",
 		numero: 860, // considerando a national dex
 		tipo: ["Noturno", " Fada"],
@@ -31987,7 +32923,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -31997,6 +32933,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grimmsnarl",
+		especie: "",
 		codinome: "",
 		numero: 861, // considerando a national dex
 		tipo: ["Noturno", " Fada"],
@@ -32021,7 +32958,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32031,6 +32968,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Obstagoon",
+		especie: "",
 		codinome: "",
 		numero: 862, // considerando a national dex
 		tipo: ["Noturno", " Normal"],
@@ -32055,7 +32993,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32065,6 +33003,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Perrserker",
+		especie: "",
 		codinome: "",
 		numero: 863, // considerando a national dex
 		tipo: ["Metal"],
@@ -32088,7 +33027,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32098,6 +33037,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cursola",
+		especie: "",
 		codinome: "",
 		numero: 864, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -32121,7 +33061,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32131,6 +33071,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sirfetch'd",
+		especie: "",
 		codinome: "",
 		numero: 865, // considerando a national dex
 		tipo: ["Lutador"],
@@ -32154,7 +33095,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32164,6 +33105,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mr. Rime",
+		especie: "",
 		codinome: "",
 		numero: 866, // considerando a national dex
 		tipo: ["Gelo", " Psíquico"],
@@ -32187,7 +33129,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32197,6 +33139,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Runerigus",
+		especie: "",
 		codinome: "",
 		numero: 867, // considerando a national dex
 		tipo: ["Terra", " Fantasma"],
@@ -32220,7 +33163,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32230,6 +33173,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Milcery",
+		especie: "",
 		codinome: "",
 		numero: 868, // considerando a national dex
 		tipo: ["Fada"],
@@ -32253,7 +33197,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32263,6 +33207,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Alcremie",
+		especie: "",
 		codinome: "",
 		numero: 869, // considerando a national dex
 		tipo: ["Fada"],
@@ -32286,7 +33231,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32304,6 +33249,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Falinks",
+		especie: "",
 		codinome: "",
 		numero: 870, // considerando a national dex
 		tipo: ["Lutador"],
@@ -32327,7 +33273,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32337,6 +33283,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pincurchin",
+		especie: "",
 		codinome: "",
 		numero: 871, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -32360,7 +33307,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32370,6 +33317,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Snom",
+		especie: "",
 		codinome: "",
 		numero: 872, // considerando a national dex
 		tipo: ["Gelo", " Inseto"],
@@ -32394,7 +33342,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32404,6 +33352,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frosmoth",
+		especie: "",
 		codinome: "",
 		numero: 873, // considerando a national dex
 		tipo: ["Gelo", " Inseto"],
@@ -32427,7 +33376,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32437,6 +33386,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Stonjourner",
+		especie: "",
 		codinome: "",
 		numero: 874, // considerando a national dex
 		tipo: ["Rocha"],
@@ -32460,7 +33410,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32470,6 +33420,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eiscue (Cara de Gelo)",
+		especie: "",
 		codinome: "Eiscue",
 		numero: 875.1, // considerando a national dex
 		tipo: ["Gelo"],
@@ -32493,7 +33444,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32503,6 +33454,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eiscue (Cara Degelada)",
+		especie: "",
 		codinome: "Eiscue",
 		numero: 875.2, // considerando a national dex
 		tipo: ["Gelo"],
@@ -32526,7 +33478,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32536,6 +33488,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Indeedee Macho",
+		especie: "",
 		codinome: "Indeedee",
 		numero: 876.1, // considerando a national dex
 		tipo: ["Psíquico", " Normal"],
@@ -32559,7 +33512,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32569,6 +33522,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Indeedee Fêmea",
+		especie: "",
 		codinome: "Indeedee",
 		numero: 876.2, // considerando a national dex
 		tipo: ["Psíquico", " Normal"],
@@ -32592,7 +33546,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32602,6 +33556,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morpeko (Forma Saciada)",
+		especie: "",
 		codinome: "Morpeko",
 		numero: 877.1, // considerando a national dex
 		tipo: ["Elétrico", " Noturno"],
@@ -32626,7 +33581,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32636,6 +33591,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Morpeko (Forma Voraz)",
+		especie: "",
 		codinome: "Morpeko",
 		numero: 877.2, // considerando a national dex
 		tipo: ["Elétrico", " Noturno"],
@@ -32670,6 +33626,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cufant",
+		especie: "",
 		codinome: "",
 		numero: 878, // considerando a national dex
 		tipo: ["Metal"],
@@ -32693,7 +33650,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32703,6 +33660,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Copperajah",
+		especie: "",
 		codinome: "",
 		numero: 879, // considerando a national dex
 		tipo: ["Metal"],
@@ -32727,7 +33685,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32737,6 +33695,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dracozolt",
+		especie: "",
 		codinome: "",
 		numero: 880, // considerando a national dex
 		tipo: ["Elétrico", " Dragão"],
@@ -32760,7 +33719,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32770,6 +33729,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arctozolt",
+		especie: "",
 		codinome: "",
 		numero: 881, // considerando a national dex
 		tipo: ["Elétrico", " Gelo"],
@@ -32793,7 +33753,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32803,6 +33763,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dracovish",
+		especie: "",
 		codinome: "",
 		numero: 882, // considerando a national dex
 		tipo: ["Água", " Dragão"],
@@ -32826,7 +33787,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32836,6 +33797,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arctovish",
+		especie: "",
 		codinome: "",
 		numero: 883, // considerando a national dex
 		tipo: ["Água", " Gelo"],
@@ -32859,7 +33821,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32869,6 +33831,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Duraludon",
+		especie: "",
 		codinome: "",
 		numero: 884, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
@@ -32892,7 +33855,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32902,6 +33865,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dreepy",
+		especie: "",
 		codinome: "",
 		numero: 885, // considerando a national dex
 		tipo: ["Dragão", " Fantasma"],
@@ -32925,7 +33889,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32935,6 +33899,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Drakloak",
+		especie: "",
 		codinome: "",
 		numero: 886, // considerando a national dex
 		tipo: ["Dragão", " Fantasma"],
@@ -32958,7 +33923,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -32968,6 +33933,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dragapult",
+		especie: "",
 		codinome: "",
 		numero: 887, // considerando a national dex
 		tipo: ["Dragão", " Fantasma"],
@@ -32991,7 +33957,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33001,6 +33967,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zacian (Herói Veterano)",
+		especie: "",
 		codinome: "Zacian",
 		numero: 888.1, // considerando a national dex
 		tipo: ["Fada"],
@@ -33024,7 +33991,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33034,6 +34001,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zacian (Espada Coroada)",
+		especie: "",
 		codinome: "Zacian",
 		numero: 888.2, // considerando a national dex
 		tipo: ["Fada", " Metal"],
@@ -33067,6 +34035,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zamazenta (Herói Veterano)",
+		especie: "",
 		codinome: "Zamazenta",
 		numero: 889.1, // considerando a national dex
 		tipo: ["Lutador"],
@@ -33090,7 +34059,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33100,6 +34069,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zamazenta (Escudo Coroado)",
+		especie: "",
 		codinome: "Zamazenta",
 		numero: 889.2, // considerando a national dex
 		tipo: ["Lutador", " Metal"],
@@ -33133,6 +34103,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Eternatus",
+		especie: "",
 		codinome: "",
 		numero: 890, // considerando a national dex
 		tipo: ["Veneno", " Dragão"],
@@ -33156,7 +34127,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33166,6 +34137,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kubfu",
+		especie: "",
 		codinome: "",
 		numero: 891, // considerando a national dex
 		tipo: ["Lutador"],
@@ -33189,7 +34161,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33199,6 +34171,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Urshifu (Estilo Golpe Decisivo)",
+		especie: "",
 		codinome: "Urshifu",
 		numero: 892.1, // considerando a national dex
 		tipo: ["Lutador", " Noturno"],
@@ -33222,7 +34195,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33232,6 +34205,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Urshifu (Estilo Golpe Fluido)",
+		especie: "",
 		codinome: "Urshifu",
 		numero: 892.2, // considerando a national dex
 		tipo: ["Lutador", " Água"],
@@ -33255,7 +34229,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33265,6 +34239,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Zarude",
+		especie: "",
 		codinome: "",
 		numero: 893, // considerando a national dex
 		tipo: ["Noturno", " Planta"],
@@ -33288,7 +34263,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33298,6 +34273,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regieleki",
+		especie: "",
 		codinome: "",
 		numero: 894, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -33321,7 +34297,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33331,6 +34307,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Regidrago",
+		especie: "",
 		codinome: "",
 		numero: 895, // considerando a national dex
 		tipo: ["Dragão"],
@@ -33354,7 +34331,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33364,6 +34341,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glastrier",
+		especie: "",
 		codinome: "",
 		numero: 896, // considerando a national dex
 		tipo: ["Gelo"],
@@ -33387,7 +34365,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33397,6 +34375,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spectrier",
+		especie: "",
 		codinome: "",
 		numero: 897, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -33420,7 +34399,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33430,6 +34409,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex",
+		especie: "",
 		codinome: "Calyrex",
 		numero: 898.1, // considerando a national dex
 		tipo: ["Psíquico", " Planta"],
@@ -33453,7 +34433,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33463,6 +34443,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex (Cavaleiro Glacial)",
+		especie: "",
 		codinome: "Calyrex",
 		numero: 898.2, // considerando a national dex
 		tipo: ["Psíquico", " Gelo"],
@@ -33496,6 +34477,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Calyrex (Cavaleiro Espectral)",
+		especie: "",
 		codinome: "Calyrex",
 		numero: 898.3, // considerando a national dex
 		tipo: ["Psíquico", " Fantasma"],
@@ -33529,6 +34511,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wyrdeer",
+		especie: "",
 		codinome: "",
 		numero: 899, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
@@ -33552,7 +34535,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33562,6 +34545,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kleavor",
+		especie: "",
 		codinome: "",
 		numero: 900, // considerando a national dex
 		tipo: ["Inseto", " Rocha"],
@@ -33585,7 +34569,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33595,6 +34579,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ursaluna",
+		especie: "",
 		codinome: "",
 		numero: 901.1, // considerando a national dex
 		tipo: ["Terra", " Normal"],
@@ -33618,7 +34603,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -33658,6 +34643,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculegion Macho",
+		especie: "",
 		codinome: "Basculegion",
 		numero: 902.1, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
@@ -33681,7 +34667,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33691,6 +34677,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Basculegion Fêmea",
+		especie: "",
 		codinome: "Basculegion",
 		numero: 902.2, // considerando a national dex
 		tipo: ["Água", " Fantasma"],
@@ -33714,7 +34701,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33724,6 +34711,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sneasler",
+		especie: "",
 		codinome: "",
 		numero: 903, // considerando a national dex
 		tipo: ["Lutador", " Veneno"],
@@ -33747,7 +34735,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33757,6 +34745,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Overqwil",
+		especie: "",
 		codinome: "",
 		numero: 904, // considerando a national dex
 		tipo: ["Noturno", " Veneno"],
@@ -33780,7 +34769,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33790,6 +34779,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Enamorus (Forma Materializada)",
+		especie: "",
 		codinome: "Enamorus",
 		numero: 905.1, // considerando a national dex
 		tipo: ["Fada", " Voador"],
@@ -33813,7 +34803,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -33823,6 +34813,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Enamorus (Forma Therian)",
+		especie: "",
 		codinome: "Enamorus",
 		numero: 905.2, // considerando a national dex
 		tipo: ["Fada", " Voador"],
@@ -33856,6 +34847,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sprigatito",
+		especie: "",
 		codinome: "",
 		numero: 906, // considerando a national dex
 		tipo: ["Planta"],
@@ -33879,7 +34871,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33889,6 +34881,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Floragato",
+		especie: "",
 		codinome: "",
 		numero: 907, // considerando a national dex
 		tipo: ["Planta"],
@@ -33912,7 +34905,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33922,6 +34915,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Meowscarada",
+		especie: "",
 		codinome: "",
 		numero: 908, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
@@ -33945,7 +34939,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33955,6 +34949,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fuecoco",
+		especie: "",
 		codinome: "",
 		numero: 909, // considerando a national dex
 		tipo: ["Fogo"],
@@ -33978,7 +34973,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -33988,6 +34983,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Crocalor",
+		especie: "",
 		codinome: "",
 		numero: 910, // considerando a national dex
 		tipo: ["Fogo"],
@@ -34011,7 +35007,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34021,6 +35017,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Skeledirge",
+		especie: "",
 		codinome: "",
 		numero: 911, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
@@ -34044,7 +35041,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34054,6 +35051,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quaxly",
+		especie: "",
 		codinome: "",
 		numero: 912, // considerando a national dex
 		tipo: ["Água"],
@@ -34077,7 +35075,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34087,6 +35085,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quaxwell",
+		especie: "",
 		codinome: "",
 		numero: 913, // considerando a national dex
 		tipo: ["Água"],
@@ -34110,7 +35109,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34120,6 +35119,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Quaquaval",
+		especie: "",
 		codinome: "",
 		numero: 914, // considerando a national dex
 		tipo: ["Água", " Lutador"],
@@ -34143,7 +35143,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34153,6 +35153,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lechonk",
+		especie: "",
 		codinome: "",
 		numero: 915, // considerando a national dex
 		tipo: ["Normal"],
@@ -34177,7 +35178,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34187,6 +35188,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oinkologne Fêmea",
+		especie: "",
 		codinome: "Oinkologne",
 		numero: 916.1, // considerando a national dex
 		tipo: ["Normal"],
@@ -34211,7 +35213,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34221,6 +35223,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Oinkologne Macho",
+		especie: "",
 		codinome: "Oinkologne",
 		numero: 916.2, // considerando a national dex
 		tipo: ["Normal"],
@@ -34245,7 +35248,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34255,6 +35258,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tarountula",
+		especie: "",
 		codinome: "",
 		numero: 917, // considerando a national dex
 		tipo: ["Inseto"],
@@ -34279,7 +35283,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34289,6 +35293,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Spidops",
+		especie: "",
 		codinome: "",
 		numero: 918, // considerando a national dex
 		tipo: ["Inseto"],
@@ -34313,7 +35318,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34323,6 +35328,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nymble",
+		especie: "",
 		codinome: "",
 		numero: 919, // considerando a national dex
 		tipo: ["Inseto"],
@@ -34347,7 +35353,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34357,6 +35363,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Lokix",
+		especie: "",
 		codinome: "",
 		numero: 920, // considerando a national dex
 		tipo: ["Inseto", " Noturno"],
@@ -34381,7 +35388,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34391,6 +35398,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawmi",
+		especie: "",
 		codinome: "",
 		numero: 921, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -34415,7 +35423,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34425,6 +35433,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawmo",
+		especie: "",
 		codinome: "",
 		numero: 922, // considerando a national dex
 		tipo: ["Elétrico", " Lutador"],
@@ -34449,7 +35458,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34459,6 +35468,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pawmot",
+		especie: "",
 		codinome: "",
 		numero: 923, // considerando a national dex
 		tipo: ["Elétrico", " Lutador"],
@@ -34482,7 +35492,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34492,6 +35502,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tandemaus",
+		especie: "",
 		codinome: "",
 		numero: 924, // considerando a national dex
 		tipo: ["Normal"],
@@ -34516,7 +35527,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34526,6 +35537,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maushold (Família Quádrupla)",
+		especie: "",
 		codinome: "Maushold",
 		numero: 925.1, // considerando a national dex
 		tipo: ["Normal"],
@@ -34549,7 +35561,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34559,6 +35571,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maushold (Família Tripla)",
+		especie: "",
 		codinome: "Maushold",
 		numero: 925.2, // considerando a national dex
 		tipo: ["Normal"],
@@ -34582,7 +35595,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34592,6 +35605,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fidough",
+		especie: "",
 		codinome: "",
 		numero: 926, // considerando a national dex
 		tipo: ["Fada"],
@@ -34616,7 +35630,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34626,6 +35640,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dachsbun",
+		especie: "",
 		codinome: "",
 		numero: 927, // considerando a national dex
 		tipo: ["Fada"],
@@ -34650,7 +35665,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34660,6 +35675,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Smoliv",
+		especie: "",
 		codinome: "",
 		numero: 928, // considerando a national dex
 		tipo: ["Planta", " Normal"],
@@ -34683,7 +35699,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34693,6 +35709,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dolliv",
+		especie: "",
 		codinome: "",
 		numero: 929, // considerando a national dex
 		tipo: ["Planta", " Normal"],
@@ -34717,7 +35734,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34727,6 +35744,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arboliva",
+		especie: "",
 		codinome: "",
 		numero: 930, // considerando a national dex
 		tipo: ["Planta", " Normal"],
@@ -34750,7 +35768,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34760,6 +35778,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Squawkabilly",
+		especie: "",
 		codinome: "",
 		numero: 931, // considerando a national dex
 		tipo: ["Normal", " Voador"],
@@ -34784,7 +35803,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34797,6 +35816,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Nacli",
+		especie: "",
 		codinome: "",
 		numero: 932, // considerando a national dex
 		tipo: ["Rocha"],
@@ -34821,7 +35841,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34831,6 +35851,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Naclstack",
+		especie: "",
 		codinome: "",
 		numero: 933, // considerando a national dex
 		tipo: ["Rocha"],
@@ -34855,7 +35876,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34865,6 +35886,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Garganacl",
+		especie: "",
 		codinome: "",
 		numero: 934, // considerando a national dex
 		tipo: ["Rocha"],
@@ -34888,7 +35910,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34898,6 +35920,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Charcadet",
+		especie: "",
 		codinome: "",
 		numero: 935, // considerando a national dex
 		tipo: ["Fogo"],
@@ -34922,7 +35945,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34932,6 +35955,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Armarouge",
+		especie: "",
 		codinome: "",
 		numero: 936, // considerando a national dex
 		tipo: ["Fogo", " Psíquico"],
@@ -34955,7 +35979,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34965,6 +35989,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ceruledge",
+		especie: "",
 		codinome: "",
 		numero: 937, // considerando a national dex
 		tipo: ["Fogo", " Fantasma"],
@@ -34988,7 +36013,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34998,6 +36023,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tadbulb",
+		especie: "",
 		codinome: "",
 		numero: 938, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -35022,7 +36048,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35032,6 +36058,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bellibolt",
+		especie: "",
 		codinome: "",
 		numero: 939, // considerando a national dex
 		tipo: ["Elétrico"],
@@ -35056,7 +36083,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35066,6 +36093,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wattrel",
+		especie: "",
 		codinome: "",
 		numero: 940, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
@@ -35090,7 +36118,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35100,6 +36128,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kilowattrel",
+		especie: "",
 		codinome: "",
 		numero: 941, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
@@ -35124,7 +36153,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35134,6 +36163,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Maschiff",
+		especie: "",
 		codinome: "",
 		numero: 942, // considerando a national dex
 		tipo: ["Noturno"],
@@ -35158,7 +36188,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35168,6 +36198,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Mabosstiff",
+		especie: "",
 		codinome: "",
 		numero: 943, // considerando a national dex
 		tipo: ["Noturno"],
@@ -35192,7 +36223,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35202,6 +36233,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Shroodle",
+		especie: "",
 		codinome: "",
 		numero: 944, // considerando a national dex
 		tipo: ["Veneno", " Normal"],
@@ -35226,7 +36258,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35236,6 +36268,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Grafaiai",
+		especie: "",
 		codinome: "",
 		numero: 945, // considerando a national dex
 		tipo: ["Veneno", " Normal"],
@@ -35260,7 +36293,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35270,6 +36303,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bramblin",
+		especie: "",
 		codinome: "",
 		numero: 946, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
@@ -35293,7 +36327,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35303,6 +36337,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Brambleghast",
+		especie: "",
 		codinome: "",
 		numero: 947, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
@@ -35326,7 +36361,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35336,6 +36371,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toedscool",
+		especie: "",
 		codinome: "",
 		numero: 948, // considerando a national dex
 		tipo: ["Terra", " Planta"],
@@ -35360,7 +36396,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35370,6 +36406,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Toedscruel",
+		especie: "",
 		codinome: "",
 		numero: 949, // considerando a national dex
 		tipo: ["Terra", " Planta"],
@@ -35394,7 +36431,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35404,6 +36441,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Klawf",
+		especie: "",
 		codinome: "",
 		numero: 950, // considerando a national dex
 		tipo: ["Rocha"],
@@ -35427,7 +36465,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35437,6 +36475,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Capsakid",
+		especie: "",
 		codinome: "",
 		numero: 951, // considerando a national dex
 		tipo: ["Planta"],
@@ -35461,7 +36500,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35471,6 +36510,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scovillain",
+		especie: "",
 		codinome: "",
 		numero: 952, // considerando a national dex
 		tipo: ["Planta", " Fogo"],
@@ -35495,7 +36535,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35505,6 +36545,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rellor",
+		especie: "",
 		codinome: "",
 		numero: 953, // considerando a national dex
 		tipo: ["Inseto"],
@@ -35528,7 +36569,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35538,6 +36579,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Rabsca",
+		especie: "",
 		codinome: "",
 		numero: 954, // considerando a national dex
 		tipo: ["Inseto", " Psíquico"],
@@ -35561,7 +36603,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35571,6 +36613,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flittle",
+		especie: "",
 		codinome: "",
 		numero: 955, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -35595,7 +36638,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35605,6 +36648,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Espathra",
+		especie: "",
 		codinome: "",
 		numero: 956, // considerando a national dex
 		tipo: ["Psíquico"],
@@ -35629,7 +36673,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35639,6 +36683,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tinkatink",
+		especie: "",
 		codinome: "",
 		numero: 957, // considerando a national dex
 		tipo: ["Fada", " Metal"],
@@ -35663,7 +36708,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35673,6 +36718,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tinkatuff",
+		especie: "",
 		codinome: "",
 		numero: 958, // considerando a national dex
 		tipo: ["Fada", " Metal"],
@@ -35697,7 +36743,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35707,6 +36753,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tinkaton",
+		especie: "",
 		codinome: "",
 		numero: 959, // considerando a national dex
 		tipo: ["Fada", " Metal"],
@@ -35730,7 +36777,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35740,6 +36787,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wiglett",
+		especie: "",
 		codinome: "",
 		numero: 960, // considerando a national dex
 		tipo: ["Água"],
@@ -35764,7 +36812,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35774,6 +36822,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wugtrio",
+		especie: "",
 		codinome: "",
 		numero: 961, // considerando a national dex
 		tipo: ["Água"],
@@ -35798,7 +36847,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35808,6 +36857,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Bombirdier",
+		especie: "",
 		codinome: "",
 		numero: 962, // considerando a national dex
 		tipo: ["Voador", " Noturno"],
@@ -35832,7 +36882,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35842,6 +36892,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Finizen",
+		especie: "",
 		codinome: "",
 		numero: 963, // considerando a national dex
 		tipo: ["Água"],
@@ -35866,7 +36917,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35876,6 +36927,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palafin (Forma Zero)",
+		especie: "",
 		codinome: "Palafin",
 		numero: 964.1, // considerando a national dex
 		tipo: ["Água"],
@@ -35899,7 +36951,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35909,6 +36961,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Palafin (Forma Heroica)",
+		especie: "",
 		codinome: "Palafin",
 		numero: 964.2, // considerando a national dex
 		tipo: ["Água"],
@@ -35942,6 +36995,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Varoom",
+		especie: "",
 		codinome: "",
 		numero: 965, // considerando a national dex
 		tipo: ["Metal", " Veneno"],
@@ -35965,7 +37019,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35975,6 +37029,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Revavroom",
+		especie: "",
 		codinome: "",
 		numero: 966, // considerando a national dex
 		tipo: ["Metal", " Veneno"],
@@ -35999,7 +37054,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36009,6 +37064,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cyclizar",
+		especie: "",
 		codinome: "",
 		numero: 967, // considerando a national dex
 		tipo: ["Dragão", " Normal"],
@@ -36033,7 +37089,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36043,6 +37099,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Orthworm",
+		especie: "",
 		codinome: "",
 		numero: 968, // considerando a national dex
 		tipo: ["Metal"],
@@ -36066,7 +37123,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36076,6 +37133,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glimmet",
+		especie: "",
 		codinome: "",
 		numero: 969, // considerando a national dex
 		tipo: ["Rocha", " Veneno"],
@@ -36100,7 +37158,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36110,6 +37168,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Glimmora",
+		especie: "",
 		codinome: "",
 		numero: 970, // considerando a national dex
 		tipo: ["Rocha", " Veneno"],
@@ -36133,7 +37192,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36143,6 +37202,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Greavard",
+		especie: "",
 		codinome: "",
 		numero: 971, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -36167,7 +37227,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36177,6 +37237,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Houndstone",
+		especie: "",
 		codinome: "",
 		numero: 972, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -36201,7 +37262,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36211,6 +37272,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flamigo",
+		especie: "",
 		codinome: "",
 		numero: 973, // considerando a national dex
 		tipo: ["Voador", " Lutador"],
@@ -36235,7 +37297,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36245,6 +37307,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cetoddle",
+		especie: "",
 		codinome: "",
 		numero: 974, // considerando a national dex
 		tipo: ["Gelo"],
@@ -36269,7 +37332,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36279,6 +37342,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Cetitan",
+		especie: "",
 		codinome: "",
 		numero: 975, // considerando a national dex
 		tipo: ["Gelo"],
@@ -36302,7 +37366,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36312,6 +37376,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Veluza",
+		especie: "",
 		codinome: "",
 		numero: 976, // considerando a national dex
 		tipo: ["Água", " Psíquico"],
@@ -36336,7 +37401,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36346,6 +37411,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dondozo",
+		especie: "",
 		codinome: "",
 		numero: 977, // considerando a national dex
 		tipo: ["Água"],
@@ -36369,7 +37435,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36379,6 +37445,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Tatsugiri",
+		especie: "",
 		codinome: "",
 		numero: 978, // considerando a national dex
 		tipo: ["Dragão", " Água"],
@@ -36402,7 +37469,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36414,6 +37481,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Annihilape",
+		especie: "",
 		codinome: "",
 		numero: 979, // considerando a national dex
 		tipo: ["Lutador", " Fantasma"],
@@ -36437,7 +37505,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36447,6 +37515,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Clodsire",
+		especie: "",
 		codinome: "",
 		numero: 980, // considerando a national dex
 		tipo: ["Veneno", " Terra"],
@@ -36471,7 +37540,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36481,6 +37550,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Farigiraf",
+		especie: "",
 		codinome: "",
 		numero: 981, // considerando a national dex
 		tipo: ["Normal", " Psíquico"],
@@ -36504,7 +37574,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36514,6 +37584,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dudunsparce (Forma Bissegmentada)",
+		especie: "",
 		codinome: "Dudunsparce",
 		numero: 982.1, // considerando a national dex
 		tipo: ["Normal"],
@@ -36538,7 +37609,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36548,6 +37619,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dudunsparce (Forma Trissegmentada)",
+		especie: "",
 		codinome: "Dudunsparce",
 		numero: 982.2, // considerando a national dex
 		tipo: ["Normal"],
@@ -36572,7 +37644,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36582,6 +37654,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Kingambit",
+		especie: "",
 		codinome: "",
 		numero: 983, // considerando a national dex
 		tipo: ["Noturno", " Metal"],
@@ -36605,7 +37678,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36615,6 +37688,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Great Tusk",
+		especie: "",
 		codinome: "",
 		numero: 984, // considerando a national dex
 		tipo: ["Terra", " Lutador"],
@@ -36638,7 +37712,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36648,6 +37722,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Scream Tail",
+		especie: "",
 		codinome: "",
 		numero: 985, // considerando a national dex
 		tipo: ["Fada", " Psíquico"],
@@ -36671,7 +37746,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36681,6 +37756,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Brute Bonnet",
+		especie: "",
 		codinome: "",
 		numero: 986, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
@@ -36704,7 +37780,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36714,6 +37790,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Flutter Mane",
+		especie: "",
 		codinome: "",
 		numero: 987, // considerando a national dex
 		tipo: ["Fantasma", " Fada"],
@@ -36737,7 +37814,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36747,6 +37824,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Slither Wing",
+		especie: "",
 		codinome: "",
 		numero: 988, // considerando a national dex
 		tipo: ["Inseto", " Lutador"],
@@ -36770,7 +37848,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36780,6 +37858,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sandy Shocks",
+		especie: "",
 		codinome: "",
 		numero: 989, // considerando a national dex
 		tipo: ["Elétrico", " Terra"],
@@ -36803,7 +37882,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36813,6 +37892,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Treads",
+		especie: "",
 		codinome: "",
 		numero: 990, // considerando a national dex
 		tipo: ["Terra", " Metal"],
@@ -36836,7 +37916,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36846,6 +37926,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Bundle",
+		especie: "",
 		codinome: "",
 		numero: 991, // considerando a national dex
 		tipo: ["Gelo", " Água"],
@@ -36869,7 +37950,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36879,6 +37960,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Hands",
+		especie: "",
 		codinome: "",
 		numero: 992, // considerando a national dex
 		tipo: ["Lutador", " Elétrico"],
@@ -36902,7 +37984,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36912,6 +37994,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Jugulis",
+		especie: "",
 		codinome: "",
 		numero: 993, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
@@ -36935,7 +38018,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36945,6 +38028,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Moth",
+		especie: "",
 		codinome: "",
 		numero: 994, // considerando a national dex
 		tipo: ["Fogo", " Veneno"],
@@ -36968,7 +38052,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36978,6 +38062,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Thorns",
+		especie: "",
 		codinome: "",
 		numero: 995, // considerando a national dex
 		tipo: ["Rocha", " Elétrico"],
@@ -37001,7 +38086,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37011,6 +38096,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Frigibax",
+		especie: "",
 		codinome: "",
 		numero: 996, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
@@ -37034,7 +38120,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37044,6 +38130,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Arctibax",
+		especie: "",
 		codinome: "",
 		numero: 997, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
@@ -37067,7 +38154,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37077,6 +38164,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Baxcalibur",
+		especie: "",
 		codinome: "",
 		numero: 998, // considerando a national dex
 		tipo: ["Dragão", " Gelo"],
@@ -37100,7 +38188,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37110,6 +38198,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gimmighoul (Forma Baú)",
+		especie: "",
 		codinome: "Gimmighoul",
 		numero: 999.1, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -37134,7 +38223,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37144,6 +38233,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gimmighoul (Forma Perambulante)",
+		especie: "",
 		codinome: "Gimmighoul",
 		numero: 999.2, // considerando a national dex
 		tipo: ["Fantasma"],
@@ -37167,7 +38257,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37177,6 +38267,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gholdengo",
+		especie: "",
 		codinome: "",
 		numero: 1000, // considerando a national dex
 		tipo: ["Metal", " Fantasma"],
@@ -37200,7 +38291,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37210,6 +38301,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wo-Chien",
+		especie: "",
 		codinome: "",
 		numero: 1001, // considerando a national dex
 		tipo: ["Noturno", " Planta"],
@@ -37233,7 +38325,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37243,6 +38335,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chien-Pao",
+		especie: "",
 		codinome: "",
 		numero: 1002, // considerando a national dex
 		tipo: ["Noturno", " Gelo"],
@@ -37266,7 +38359,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37276,6 +38369,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ting-Lu",
+		especie: "",
 		codinome: "",
 		numero: 1003, // considerando a national dex
 		tipo: ["Noturno", " Terra"],
@@ -37299,7 +38393,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37309,6 +38403,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Chi-Yu",
+		especie: "",
 		codinome: "",
 		numero: 1004, // considerando a national dex
 		tipo: ["Noturno", " Fogo"],
@@ -37332,7 +38427,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37342,6 +38437,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Roaring Moon",
+		especie: "",
 		codinome: "",
 		numero: 1005, // considerando a national dex
 		tipo: ["Dragão", " Noturno"],
@@ -37365,7 +38461,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37375,6 +38471,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Valiant",
+		especie: "",
 		codinome: "",
 		numero: 1006, // considerando a national dex
 		tipo: ["Fada", " Lutador"],
@@ -37398,7 +38495,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37408,6 +38505,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Koraidon",
+		especie: "",
 		codinome: "",
 		numero: 1007, // considerando a national dex
 		tipo: ["Lutador", " Dragão"],
@@ -37431,7 +38529,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37441,6 +38539,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Miraidon",
+		especie: "",
 		codinome: "",
 		numero: 1008, // considerando a national dex
 		tipo: ["Elétrico", " Dragão"],
@@ -37464,7 +38563,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37474,6 +38573,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Walking Wake",
+		especie: "",
 		codinome: "",
 		numero: 1009, // considerando a national dex
 		tipo: ["Água", " Dragão"],
@@ -37497,7 +38597,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37507,6 +38607,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Leaves",
+		especie: "",
 		codinome: "",
 		numero: 1010, // considerando a national dex
 		tipo: ["Planta", " Psíquico"],
@@ -37530,7 +38631,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37540,6 +38641,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Dipplin",
+		especie: "",
 		codinome: "",
 		numero: 1011, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
@@ -37563,7 +38665,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37573,6 +38675,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Poltchageist",
+		especie: "",
 		codinome: "",
 		numero: 1012, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
@@ -37596,7 +38699,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37607,6 +38710,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Sinistcha",
+		especie: "",
 		codinome: "",
 		numero: 1013, // considerando a national dex
 		tipo: ["Planta", " Fantasma"],
@@ -37630,7 +38734,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37641,6 +38745,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Okidogi",
+		especie: "",
 		codinome: "",
 		numero: 1014, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
@@ -37664,7 +38769,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37674,6 +38779,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Munkidori",
+		especie: "",
 		codinome: "",
 		numero: 1015, // considerando a national dex
 		tipo: ["Veneno", " Psíquico"],
@@ -37697,7 +38803,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37707,6 +38813,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Fezandipiti",
+		especie: "",
 		codinome: "",
 		numero: 1016, // considerando a national dex
 		tipo: ["Veneno", " Fada"],
@@ -37730,7 +38837,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37740,6 +38847,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Turquesa)",
+		especie: "",
 		codinome: "Ogerpon",
 		numero: 1017.1, // considerando a national dex
 		tipo: ["Planta"],
@@ -37763,7 +38871,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -37773,6 +38881,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Nascente)",
+		especie: "",
 		codinome: "Ogerpon",
 		numero: 1017.2, // considerando a national dex
 		tipo: ["Planta", " Água"],
@@ -37806,6 +38915,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Fornalha)",
+		especie: "",
 		codinome: "Ogerpon",
 		numero: 1017.3, // considerando a national dex
 		tipo: ["Planta", " Fogo"],
@@ -37839,6 +38949,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Ogerpon (Máscara Alicerce)",
+		especie: "",
 		codinome: "Ogerpon",
 		numero: 1017.4, // considerando a national dex
 		tipo: ["Planta", " Rocha"],
@@ -37872,6 +38983,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Archaludon",
+		especie: "",
 		codinome: "",
 		numero: 1018, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
@@ -37895,7 +39007,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37905,6 +39017,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Hydrapple",
+		especie: "",
 		codinome: "",
 		numero: 1019, // considerando a national dex
 		tipo: ["Planta", " Dragão"],
@@ -37928,7 +39041,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37938,6 +39051,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Gouging Fire",
+		especie: "",
 		codinome: "",
 		numero: 1020, // considerando a national dex
 		tipo: ["Fogo", " Dragão"],
@@ -37961,7 +39075,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37971,6 +39085,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Raging Bolt",
+		especie: "",
 		codinome: "",
 		numero: 1021, // considerando a national dex
 		tipo: ["Elétrico", " Dragão"],
@@ -37994,7 +39109,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -38004,6 +39119,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Boulder",
+		especie: "",
 		codinome: "",
 		numero: 1022, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
@@ -38027,7 +39143,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -38037,6 +39153,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Iron Crown",
+		especie: "",
 		codinome: "",
 		numero: 1023, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
@@ -38060,7 +39177,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -38070,6 +39187,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Normal)",
+		especie: "",
 		codinome: "Terapagos",
 		numero: 1024.1, // considerando a national dex
 		tipo: ["Normal"],
@@ -38093,7 +39211,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -38103,6 +39221,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Terastal)",
+		especie: "",
 		codinome: "Terapagos",
 		numero: 1024.2, // considerando a national dex
 		tipo: ["Normal"],
@@ -38136,6 +39255,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Terapagos (Forma Estelar)",
+		especie: "",
 		codinome: "Terapagos",
 		numero: 1024.3, // considerando a national dex
 		tipo: ["Estelar"],
@@ -38169,6 +39289,7 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Pecharunt",
+		especie: "",
 		codinome: "",
 		numero: 1025, // considerando a national dex
 		tipo: ["Veneno", " Fantasma"],
@@ -38192,7 +39313,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -38442,6 +39563,8 @@ const codinomesGeracoes = pkmnDisponiveis.map((x) => x.codinome);
 const nomesGeracoes = pkmnDisponiveis.map((x) => x.nome);
 const formasGeracoes = pkmnDisponiveis.filter((x) => x.forma === true);
 const versoesGeracoes = pkmnDisponiveis.filter((x) => x.versao === true);
+const especies = [... new Set(pkmnDisponiveis.map((x) => x.especie))];
+console.log(especies.length);
 
 /* verificar repetição de números */
 const contagem = new Map();
