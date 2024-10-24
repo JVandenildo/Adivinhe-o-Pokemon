@@ -154,6 +154,7 @@ function novaTentativa() {
 function palpitar() {
 	opcoesNomes.classList.remove("opcoesNomesShow");
 	nomesGeral.classList.remove("nomesGeralShow");
+	console.log(dificuldade);
 
 	switch (dificuldade) {
 		case "Fácil":

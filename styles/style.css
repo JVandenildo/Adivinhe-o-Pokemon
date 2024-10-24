@@ -144,13 +144,6 @@ button {
 	margin: 0px auto;
 	text-align: center;
 }
-#dificuldades p {
-	background-color: red;
-	border-radius: 0.3rem;
-	padding: 2px;
-	margin: 3px auto 0px;
-	font-weight: bold;
-}
 
 #geracoes {
 	text-align: center;
@@ -223,7 +216,7 @@ button {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 29rem;
+	top: 27.25rem;
 }
 
 .nomePalpite {
