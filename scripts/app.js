@@ -668,7 +668,7 @@ function reset(mode) {
 			campoPalpite.value = "";
 			opcoesNomes.classList.remove("opcoesNomesShow");
 			nomesGeral.classList.remove("nomesGeralShow");
-			palpitesErrados.innerHTML = "<h4>Últimos Palpites</h4>";
+			palpitesErrados.innerHTML = "<h4>Palpites Errados</h4>";
 			dicas.innerHTML = "";
 			ultimato.innerHTML = "";
 			palpites = 0;
