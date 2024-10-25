@@ -422,12 +422,7 @@ function palpitar() {
 					<tr><th scope="col" colspan="1">Categoria</th></tr>
 					<tr><td>${escolhido[0].categoria}</td></tr>
 				</table>`,
-				/* sexta dica */
-				`<table>
-					<tr><th scope="col" colspan="1">Número</th></tr>
-					<tr><td>${Math.floor(escolhido[0].numero)}</td></tr>
-				</table>`,
-				/* sétima e última dica */
+				/* sexta e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
 					<tr><td id="dicaSilhueta"><img loading="eager" src="${

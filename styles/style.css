@@ -320,8 +320,8 @@ table p {
 	alguns sprites chegam a exatamente 150px */
 	max-width: 150px;
 	height: auto;
-	-webkit-filter: drop-shadow(1px 1px 1px var(--light-bg2))
-		drop-shadow(calc(-1 * 1px) calc(-1 1px) 1px var(--light-bg2));
-	filter: drop-shadow(1px 1px 1px var(--light-bg2))
-		drop-shadow(calc(-1 * 1px) calc(-1 * 1px) 1px var(--light-bg2));
+	-webkit-filter: drop-shadow(2px 2px 0px var(--light-bg))
+		drop-shadow(calc(-1 * 2px) calc(-1 2px) 0px var(--light-bg));
+	filter: drop-shadow(2px 2px 0px var(--light-bg))
+		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px var(--light-bg));
 }

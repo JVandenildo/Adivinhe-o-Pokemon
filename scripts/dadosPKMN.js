@@ -10309,6 +10309,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/252.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Treecko_(Pok%C3%A9mon)",
 	},
@@ -10343,6 +10344,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/253.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grovyle_(Pok%C3%A9mon)",
 	},
@@ -10377,6 +10379,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/254.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sceptile_(Pok%C3%A9mon)",
 	},
@@ -10411,6 +10414,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/255.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon)",
 	},
@@ -10445,6 +10449,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/256.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/256.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Combusken_(Pok%C3%A9mon)",
 	},
@@ -10479,6 +10484,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/257.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blaziken_(Pok%C3%A9mon)",
 	},
@@ -10513,6 +10519,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/258.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pok%C3%A9mon)",
 	},
@@ -10547,6 +10554,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/259.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/259.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marshtomp_(Pok%C3%A9mon)",
 	},
@@ -10581,6 +10589,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/260.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon)",
 	},
@@ -10615,6 +10624,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/261.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poochyena_(Pok%C3%A9mon)",
 	},
@@ -10649,6 +10659,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/262.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/262.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mightyena_(Pok%C3%A9mon)",
 	},
@@ -10683,6 +10694,7 @@ const pkmnDisponiveis = [
 		lendario: false,
 		sprite: [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/263.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zigzagoon_(Pok%C3%A9mon)",
 	},
@@ -10794,13 +10806,13 @@ const pkmnDisponiveis = [
 	},
 	{
 		nome: "Wurmple",
-		especie: "",
+		especie: "Wurmple",
 		codinome: "",
 		numero: 265, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 3.6, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/265.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1c/F0265.png",
 		estatistica: {
 			ps:		 	45,
@@ -10822,19 +10834,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ef/265Wurmple_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/265.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wurmple_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Silcoon",
-		especie: "",
+		especie: "Silcoon",
 		codinome: "",
 		numero: 266, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 10.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/266.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/56/F0266.png",
 		estatistica: {
 			ps:		 	50,
@@ -10856,19 +10869,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bc/266Silcoon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/266.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Silcoon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Beautifly",
-		especie: "",
+		especie: "Beautifly",
 		codinome: "",
 		numero: 267, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 28.4, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/267.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0267.png",
 		estatistica: {
 			ps:		 	60,
@@ -10890,19 +10904,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a7/267Beautifly_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/267.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beautifly_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cascoon",
-		especie: "",
+		especie: "Cascoon",
 		codinome: "",
 		numero: 268, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 11.5, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/268.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0268.png",
 		estatistica: {
 			ps:		 	50,
@@ -10924,19 +10939,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5b/268Cascoon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/268.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cascoon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Dustox",
-		especie: "",
+		especie: "Dustox",
 		codinome: "",
 		numero: 269, // considerando a national dex
 		tipo: ["Inseto", " Veneno"],
 		massa: 31.6, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/269.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9e/F0269.png",
 		estatistica: {
 			ps:		 	60,
@@ -10958,19 +10974,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6a/269Dustox_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/269.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/269.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dustox_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lotad",
-		especie: "",
+		especie: "Lotad",
 		codinome: "",
 		numero: 270, // considerando a national dex
 		tipo: ["Água", " Planta"],
 		massa: 2.6, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/270.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0270.png",
 		estatistica: {
 			ps:		 	40,
@@ -10992,20 +11009,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/86/270Lotad_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/270.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/270.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lotad_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lombre",
-		especie: "",
+		especie: "Lombre",
 		codinome: "",
 		numero: 271, // considerando a national dex
 		tipo: ["Água", " Planta"],
 		massa: 32.5, // em kg
 		altura: 1.2, // em metros
-		som: "",
-		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0271.png",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/271.ogg",
 		estatistica: {
 			ps:		 	60,
 			atq:	 	50,
@@ -11026,19 +11043,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e9/271Lombre_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/271.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lombre_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ludicolo",
-		especie: "",
+		especie: "Ludicolo",
 		codinome: "",
 		numero: 272, // considerando a national dex
 		tipo: ["Água", " Planta"],
 		massa: 55.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/272.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0272.png",
 		estatistica: {
 			ps:		 	80,
@@ -11060,19 +11078,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/30/272Ludicolo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/272.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/272.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ludicolo_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Seedot",
-		especie: "",
+		especie: "Seedot",
 		codinome: "",
 		numero: 273, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 4.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/273.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/22/F0273.png",
 		estatistica: {
 			ps:		 	40,
@@ -11094,19 +11113,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c0/273Seedot_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/273.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/273.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seedot_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Nuzleaf",
-		especie: "",
+		especie: "Nuzleaf",
 		codinome: "",
 		numero: 274, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 28.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/274.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0274.png",
 		estatistica: {
 			ps:		 	70,
@@ -11128,19 +11148,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bb/274Nuzleaf_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/274.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/274.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nuzleaf_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shiftry",
-		especie: "",
+		especie: "Shiftry",
 		codinome: "",
 		numero: 275, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 59.6, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/275.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0275.png",
 		estatistica: {
 			ps:		 	90,
@@ -11162,19 +11183,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/22/275Shiftry_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/275.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shiftry_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Taillow",
-		especie: "",
+		especie: "Taillow",
 		codinome: "",
 		numero: 276, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/276.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0276.png",
 		estatistica: {
 			ps:		 	40,
@@ -11196,19 +11218,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2c/276Taillow_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/276.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/276.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Taillow_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Swellow",
-		especie: "",
+		especie: "Swellow",
 		codinome: "",
 		numero: 277, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 19.8, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/277.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0277.png",
 		estatistica: {
 			ps:		 	60,
@@ -11230,19 +11253,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/50/277Swellow_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/277.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/277.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swellow_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wingull",
-		especie: "",
+		especie: "Wingull",
 		codinome: "",
 		numero: 278, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 9.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/278.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0278.png",
 		estatistica: {
 			ps:		 	40,
@@ -11264,19 +11288,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/10/278Wingull_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/278.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wingull_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Pelipper",
-		especie: "",
+		especie: "Pelipper",
 		codinome: "",
 		numero: 279, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 28.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/279.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0279.png",
 		estatistica: {
 			ps:		 	60,
@@ -11298,19 +11323,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/ff/279Pelipper_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/279.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ralts",
-		especie: "",
+		especie: "Ralts",
 		codinome: "",
 		numero: 280, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 6.6, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/280.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e0/F0280.png",
 		estatistica: {
 			ps:		 	28,
@@ -11332,19 +11358,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/53/280Ralts_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/280.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ralts_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Kirlia",
-		especie: "",
+		especie: "Kirlia",
 		codinome: "",
 		numero: 281, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 20.2, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/281.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0281.png",
 		estatistica: {
 			ps:		 	38,
@@ -11366,19 +11393,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/51/281Kirlia_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/281.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kirlia_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gardevoir",
-		especie: "",
+		especie: "Gardevoir",
 		codinome: "",
 		numero: 282, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 48.4, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/281.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0282.png",
 		estatistica: {
 			ps:		 	68,
@@ -11400,19 +11428,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b6/282Gardevoir_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/282.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Surskit",
-		especie: "",
+		especie: "Surskit",
 		codinome: "",
 		numero: 283, // considerando a national dex
 		tipo: ["Inseto", " Água"],
 		massa: 1.7, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/283.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e7/F0283.png",
 		estatistica: {
 			ps:		 	40,
@@ -11434,19 +11463,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b8/283Surskit_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/283.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/283.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Surskit_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Masquerain",
-		especie: "",
+		especie: "Masquerain",
 		codinome: "",
 		numero: 284, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 3.6, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/284.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0284.png",
 		estatistica: {
 			ps:		 	70,
@@ -11468,19 +11498,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/56/284Masquerain_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/284.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/284.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Masquerain_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shroomish",
-		especie: "",
+		especie: "Shroomish",
 		codinome: "",
 		numero: 285, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 4.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/285.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0285.png",
 		estatistica: {
 			ps:		 	60,
@@ -11502,19 +11533,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/02/285Shroomish_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/285.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/285.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shroomish_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Breloom",
-		especie: "",
+		especie: "Breloom",
 		codinome: "",
 		numero: 286, // considerando a national dex
 		tipo: ["Planta", " Lutador"],
 		massa: 39.2, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/286.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0286.png",
 		estatistica: {
 			ps:		 	60,
@@ -11536,19 +11568,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/70/286Breloom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/286.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/286.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Breloom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Slakoth",
-		especie: "",
+		especie: "Slakoth",
 		codinome: "",
 		numero: 287, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 24.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/287.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0287.png",
 		estatistica: {
 			ps:		 	60,
@@ -11570,19 +11603,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c8/287Slakoth_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/287.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slakoth_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Vigoroth",
-		especie: "",
+		especie: "Vigoroth",
 		codinome: "",
 		numero: 288, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 46.5, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/288.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0288.png",
 		estatistica: {
 			ps:		 	80,
@@ -11604,19 +11638,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9a/288Vigoroth_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/288.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/288.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vigoroth_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Slaking",
-		especie: "",
+		especie: "Slaking",
 		codinome: "",
 		numero: 289, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 130.5, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/289.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2b/F0289.png",
 		estatistica: {
 			ps:		 	150,
@@ -11638,19 +11673,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4e/289Slaking_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/289.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slaking_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Nincada",
-		especie: "",
+		especie: "Nincada",
 		codinome: "",
 		numero: 290, // considerando a national dex
 		tipo: ["Inseto", " Terra"],
 		massa: 5.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/290.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0290.png",
 		estatistica: {
 			ps:		 	31,
@@ -11672,19 +11708,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c4/290Nincada_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/290.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nincada_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ninjask",
-		especie: "",
+		especie: "Ninjask",
 		codinome: "",
 		numero: 291, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/291.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ac/F0291.png",
 		estatistica: {
 			ps:		 	61,
@@ -11706,19 +11743,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ee/291Ninjask_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/291.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/291.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninjask_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shedinja",
-		especie: "",
+		especie: "Shedinja",
 		codinome: "",
 		numero: 292, // considerando a national dex
 		tipo: ["Inseto", " Fantasma"],
 		massa: 1.2, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/292.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0292.png",
 		estatistica: {
 			ps:		 	1,
@@ -11740,19 +11778,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a7/292Shedinja_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/292.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/292.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Whismur",
-		especie: "",
+		especie: "Whismur",
 		codinome: "",
 		numero: 293, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 16.3, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/293.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/60/F0293.png",
 		estatistica: {
 			ps:		 	64,
@@ -11774,19 +11813,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/df/293Whismur_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/293.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/293.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whismur_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Loudred",
-		especie: "",
+		especie: "Loudred",
 		codinome: "",
 		numero: 294, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 40.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/294.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f9/F0294.png",
 		estatistica: {
 			ps:		 	84,
@@ -11808,19 +11848,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/78/294Loudred_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/294.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/294.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Loudred_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Exploud",
-		especie: "",
+		especie: "Exploud",
 		codinome: "",
 		numero: 295, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 84.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/295.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/73/F0295.png",
 		estatistica: {
 			ps:		 	104,
@@ -11842,19 +11883,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/19/295Exploud_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/295.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/295.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exploud_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Makuhita",
-		especie: "",
+		especie: "Makuhita",
 		codinome: "",
 		numero: 296, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 86.4, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/296.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0296.png",
 		estatistica: {
 			ps:		 	72,
@@ -11876,19 +11918,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e4/296Makuhita_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/296.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/296.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Makuhita_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Hariyama",
-		especie: "",
+		especie: "Hariyama",
 		codinome: "",
 		numero: 297, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 253.8, // em kg
 		altura: 2.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/297.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0297.png",
 		estatistica: {
 			ps:		 	144,
@@ -11910,19 +11953,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/63/297Hariyama_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/297.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/297.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hariyama_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Azurill",
-		especie: "",
+		especie: "Azurill",
 		codinome: "",
 		numero: 298, // considerando a national dex
 		tipo: ["Normal", " Fada"],
 		massa: 2.0, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/298.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0298.png",
 		estatistica: {
 			ps:		 	50,
@@ -11944,19 +11988,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/31/298Azurill_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/298.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azurill_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Nosepass",
-		especie: "",
+		especie: "Nosepass",
 		codinome: "",
 		numero: 299, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 97.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/299.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f0/F0299.png",
 		estatistica: {
 			ps:		 	30,
@@ -11978,19 +12023,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5c/299Nosepass_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/299.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/299.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nosepass_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Skitty",
-		especie: "",
+		especie: "Skitty",
 		codinome: "",
 		numero: 300, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 11.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/300.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0300.png",
 		estatistica: {
 			ps:		 	50,
@@ -12012,19 +12058,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/37/300Skitty_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/300.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skitty_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Decaltty",
-		especie: "",
+		nome: "Delcatty",
+		especie: "Delcatty",
 		codinome: "",
 		numero: 301, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 32.6, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/301.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0301.png",
 		estatistica: {
 			ps:		 	70,
@@ -12046,19 +12093,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2a/301Delcatty_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/301.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/301.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Delcatty_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sableye",
-		especie: "",
+		especie: "Sableye",
 		codinome: "",
 		numero: 302, // considerando a national dex
 		tipo: ["Noturno", " Fantasma"],
 		massa: 11.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/302.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2d/F0302.png",
 		estatistica: {
 			ps:		 	50,
@@ -12081,19 +12129,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/ed/302Sableye_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/302.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mawile",
-		especie: "",
+		especie: "Mawile",
 		codinome: "",
 		numero: 303, // considerando a national dex
 		tipo: ["Metal", " Fada"],
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/303.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0303.png",
 		estatistica: {
 			ps:		 	50,
@@ -12116,19 +12165,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3f/303Mawile_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/303.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mawile_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Aron",
-		especie: "",
+		especie: "Aron",
 		codinome: "",
 		numero: 304, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
 		massa: 60.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/304.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0304.png",
 		estatistica: {
 			ps:		 	50,
@@ -12150,19 +12200,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/13/304Aron_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/304.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aron_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lairon",
-		especie: "",
+		especie: "Lairon",
 		codinome: "",
 		numero: 305, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
 		massa: 120.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/305.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0305.png",
 		estatistica: {
 			ps:		 	60,
@@ -12184,19 +12235,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/09/305Lairon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/305.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lairon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Aggron",
-		especie: "",
+		especie: "Aggron",
 		codinome: "",
 		numero: 306, // considerando a national dex
 		tipo: ["Metal", " Rocha"],
 		massa: 360.0, // em kg
 		altura: 2.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/306.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0306.png",
 		estatistica: {
 			ps:		 	70,
@@ -12218,19 +12270,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/69/306Aggron_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/306.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aggron_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Meditite",
-		especie: "",
+		especie: "Meditite",
 		codinome: "",
 		numero: 307, // considerando a national dex
 		tipo: ["Lutador", " Psíquico"],
 		massa: 11.2, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/307.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0307.png",
 		estatistica: {
 			ps:		 	30,
@@ -12252,19 +12305,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a2/307Meditite_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/307.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meditite_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Medicham",
-		especie: "",
+		especie: "Medicham",
 		codinome: "",
 		numero: 308, // considerando a national dex
 		tipo: ["Lutador", " Psíquico"],
 		massa: 31.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/308.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a9/F0308.png",
 		estatistica: {
 			ps:		 	60,
@@ -12286,19 +12340,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e9/308Medicham_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/308.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Medicham_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Electrike",
-		especie: "",
+		especie: "Electrike",
 		codinome: "",
 		numero: 309, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 15.2, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/309.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0309.png",
 		estatistica: {
 			ps:		 	40,
@@ -12320,19 +12375,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a7/309Electrike_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/309.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrike_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Manectric",
-		especie: "",
+		especie: "Manectric",
 		codinome: "",
 		numero: 310, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 40.2, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/310.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0310.png",
 		estatistica: {
 			ps:		 	70,
@@ -12354,19 +12410,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bb/310Manectric_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/310.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Manectric_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Plusle",
-		especie: "",
+		especie: "Plusle",
 		codinome: "",
 		numero: 311, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/311.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0311.png",
 		estatistica: {
 			ps:		 	60,
@@ -12388,19 +12445,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4a/311Plusle_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/311.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/311.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Plusle_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Minun",
-		especie: "",
+		especie: "Minun",
 		codinome: "",
 		numero: 312, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 4.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/312.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0312.png",
 		estatistica: {
 			ps:		 	60,
@@ -12422,19 +12480,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/be/312Minun_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/312.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/312.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Minun_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Volbeat",
-		especie: "",
+		especie: "Volbeat",
 		codinome: "",
 		numero: 313, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/313.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a4/F0313.png",
 		estatistica: {
 			ps:		 	65,
@@ -12456,19 +12515,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0c/313Volbeat_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/313.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/313.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Illumise",
-		especie: "",
+		especie: "Illumise",
 		codinome: "",
 		numero: 314, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 17.7, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/314.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/31/F0314.png",
 		estatistica: {
 			ps:		 	65,
@@ -12490,19 +12550,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/71/314Illumise_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/314.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/314.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Illumise_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Roselia",
-		especie: "",
+		especie: "Roselia",
 		codinome: "",
 		numero: 315, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/315.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0315.png",
 		estatistica: {
 			ps:		 	50,
@@ -12524,19 +12585,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/87/315Roselia_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/315.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Roselia_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gulpin",
-		especie: "",
+		especie: "Gulpin",
 		codinome: "",
 		numero: 316, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 10.3, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/316.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/07/F0316.png",
 		estatistica: {
 			ps:		 	70,
@@ -12558,19 +12620,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8e/316Gulpin_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/316.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gulpin_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Swalot",
-		especie: "",
+		especie: "Swalot",
 		codinome: "",
 		numero: 317, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 80.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/317.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/83/F0317.png",
 		estatistica: {
 			ps:		 	100,
@@ -12592,19 +12655,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6c/317Swalot_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/317.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swalot_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Carvanha",
-		especie: "",
+		especie: "Carvanha",
 		codinome: "",
 		numero: 318, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 20.8, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/318.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2a/F0318.png",
 		estatistica: {
 			ps:		 	45,
@@ -12626,19 +12690,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/50/318Carvanha_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/318.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carvanha_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sharpedo",
-		especie: "",
+		especie: "Sharpedo",
 		codinome: "",
 		numero: 319, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 88.8, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/319.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0319.png",
 		estatistica: {
 			ps:		 	70,
@@ -12660,19 +12725,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2f/319Sharpedo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/319.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wailmer",
-		especie: "",
+		especie: "Wailmer",
 		codinome: "",
 		numero: 320, // considerando a national dex
 		tipo: ["Água"],
 		massa: 130.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/320.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6c/F0320.png",
 		estatistica: {
 			ps:		 	130,
@@ -12695,19 +12761,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/85/320Wailmer_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/320.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/320.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wailmer_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wailord",
-		especie: "",
+		especie: "Wailord",
 		codinome: "",
 		numero: 321, // considerando a national dex
 		tipo: ["Água"],
 		massa: 398.0, // em kg
 		altura: 14.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/321.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0321.png",
 		estatistica: {
 			ps:		 	170,
@@ -12729,19 +12796,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/66/321Wailord_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/321.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/321.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wailord_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Numel",
-		especie: "",
+		especie: "Numel",
 		codinome: "",
 		numero: 322, // considerando a national dex
 		tipo: ["Fogo", " Terra"],
 		massa: 24.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/322.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/2c/F0322.png",
 		estatistica: {
 			ps:		 	60,
@@ -12763,19 +12831,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4a/322Numel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/322.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Numel_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Camerupt",
-		especie: "",
+		especie: "Camerupt",
 		codinome: "",
 		numero: 323, // considerando a national dex
 		tipo: ["Fogo", " Terra"],
 		massa: 220.0, // em kg
 		altura: 1.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/323.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/44/F0323.png",
 		estatistica: {
 			ps:		 	70,
@@ -12797,19 +12866,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0e/323Camerupt_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/323.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Camerupt_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Torkoal",
-		especie: "",
+		especie: "Torkoal",
 		codinome: "",
 		numero: 324, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 80.4, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/324.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1e/F0324.png",
 		estatistica: {
 			ps:		 	70,
@@ -12831,19 +12901,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/15/324Torkoal_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/324.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/324.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torkoal_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Spoink",
-		especie: "",
+		especie: "Spoink",
 		codinome: "",
 		numero: 325, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 30.6, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/325.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0325.png",
 		estatistica: {
 			ps:		 	60,
@@ -12865,19 +12936,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/81/325Spoink_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/325.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/325.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Grumpig",
-		especie: "",
+		especie: "Grumpig",
 		codinome: "",
 		numero: 326, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 71.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/326.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ec/F0326.png",
 		estatistica: {
 			ps:		 	80,
@@ -12899,19 +12971,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8a/326Grumpig_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/326.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/326.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grumpig_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Spinda",
-		especie: "",
+		especie: "Spinda",
 		codinome: "",
 		numero: 327, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 5.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/327.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0327.png",
 		estatistica: {
 			ps:		 	60,
@@ -12933,19 +13006,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6b/327Spinda_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/327.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/327.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spinda_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Trapinch",
-		especie: "",
+		especie: "Trapinch",
 		codinome: "",
 		numero: 328, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 15.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/328.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0328.png",
 		estatistica: {
 			ps:		 	45,
@@ -12967,19 +13041,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/ae/328Trapinch_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/328.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/328.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Trapinch_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Vibrava",
-		especie: "",
+		especie: "Vibrava",
 		codinome: "",
 		numero: 329, // considerando a national dex
 		tipo: ["Terra", " Dragão"],
 		massa: 15.3, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/329.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0329.png",
 		estatistica: {
 			ps:		 	50,
@@ -13001,19 +13076,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/51/329Vibrava_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/329.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/329.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vibrava_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Flygon",
-		especie: "",
+		especie: "Flygon",
 		codinome: "",
 		numero: 330, // considerando a national dex
 		tipo: ["Terra", " Dragão"],
 		massa: 82.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/330.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0330.png",
 		estatistica: {
 			ps:		 	80,
@@ -13035,19 +13111,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a8/330Flygon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/330.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/330.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flygon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cacnea",
-		especie: "",
+		especie: "Cacnea",
 		codinome: "",
 		numero: 331, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 51.3, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/331.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0331.png",
 		estatistica: {
 			ps:		 	50,
@@ -13069,19 +13146,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/ff/331Cacnea_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/331.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/331.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cacnea_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cacturne",
-		especie: "",
+		especie: "Cacturne",
 		codinome: "",
 		numero: 332, // considerando a national dex
 		tipo: ["Planta", " Noturno"],
 		massa: 77.4, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/332.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1b/F0332.png",
 		estatistica: {
 			ps:		 	70,
@@ -13103,19 +13181,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/26/332Cacturne_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/332.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/332.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cacturne_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Swablu",
-		especie: "",
+		especie: "Swablu",
 		codinome: "",
 		numero: 333, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/333.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/21/F0333.png",
 		estatistica: {
 			ps:		 	45,
@@ -13137,19 +13216,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a1/333Swablu_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/333.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Altaria",
-		especie: "",
+		especie: "Altaria",
 		codinome: "",
 		numero: 334, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 20.6, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/334.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/89/F0334.png",
 		estatistica: {
 			ps:		 	75,
@@ -13171,19 +13251,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e1/334Altaria_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/334.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Zangoose",
-		especie: "",
+		especie: "Zangoose",
 		codinome: "",
 		numero: 335, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 40.3, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/335.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/00/F0335.png",
 		estatistica: {
 			ps:		 	73,
@@ -13205,19 +13286,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/03/335Zangoose_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/335.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/335.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zangoose_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Seviper",
-		especie: "",
+		especie: "Seviper",
 		codinome: "",
 		numero: 336, // considerando a national dex
 		tipo: ["Veneno"],
 		massa: 52.5, // em kg
 		altura: 2.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/336.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0336.png",
 		estatistica: {
 			ps:		 	73,
@@ -13239,19 +13321,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/03/336Seviper_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/336.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/336.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seviper_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lunatone",
-		especie: "",
+		especie: "Lunatone",
 		codinome: "",
 		numero: 337, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
 		massa: 168.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/337.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c1/F0337.png",
 		estatistica: {
 			ps:		 	90,
@@ -13273,19 +13356,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/10/337Lunatone_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/337.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/337.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lunatone_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Solrock",
-		especie: "",
+		especie: "Solrock",
 		codinome: "",
 		numero: 338, // considerando a national dex
 		tipo: ["Rocha", " Psíquico"],
 		massa: 154.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/338.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0338.png",
 		estatistica: {
 			ps:		 	90,
@@ -13307,19 +13391,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7f/338Solrock_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/338.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Solrock_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Barboach",
-		especie: "",
+		especie: "Barboach",
 		codinome: "",
 		numero: 339, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 1.9, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/339.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/da/F0339.png",
 		estatistica: {
 			ps:		 	50,
@@ -13342,19 +13427,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/00/339Barboach_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/339.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/339.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Barboach_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Whishcash",
-		especie: "",
+		nome: "Whiscash",
+		especie: "Whiscash",
 		codinome: "",
 		numero: 340, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 23.6, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/340.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6b/F0340.png",
 		estatistica: {
 			ps:		 	110,
@@ -13376,19 +13462,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/af/340Whiscash_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/340.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/340.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whiscash_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Corphish",
-		especie: "",
+		especie: "Corphish",
 		codinome: "",
 		numero: 341, // considerando a national dex
 		tipo: ["Água"],
 		massa: 11.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/341.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/65/F0341.png",
 		estatistica: {
 			ps:		 	43,
@@ -13410,19 +13497,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/43/341Corphish_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/341.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/341.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corphish_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Crawdaunt",
-		especie: "",
+		especie: "Crawdaunt",
 		codinome: "",
 		numero: 342, // considerando a national dex
 		tipo: ["Água", " Noturno"],
 		massa: 32.8, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/342.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0342.png",
 		estatistica: {
 			ps:		 	63,
@@ -13444,19 +13532,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/92/342Crawdaunt_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/342.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/342.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Crawdaunt_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Baltoy",
-		especie: "",
+		especie: "Baltoy",
 		codinome: "",
 		numero: 343, // considerando a national dex
 		tipo: ["Terra", " Psíquico"],
 		massa: 21.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/343.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bf/F0343.png",
 		estatistica: {
 			ps:		 	40,
@@ -13478,19 +13567,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/28/343Baltoy_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/343.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Baltoy_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Claydol",
-		especie: "",
+		especie: "Claydol",
 		codinome: "",
 		numero: 344, // considerando a national dex
 		tipo: ["Terra", " Psíquico"],
 		massa: 108.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/344.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0344.png",
 		estatistica: {
 			ps:		 	60,
@@ -13512,19 +13602,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/81/344Claydol_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/344.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/344.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Claydol_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lileep",
-		especie: "",
+		especie: "Lileep",
 		codinome: "",
 		numero: 345, // considerando a national dex
 		tipo: ["Rocha", " Planta"],
 		massa: 23.8, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/345.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/46/F0345.png",
 		estatistica: {
 			ps:		 	66,
@@ -13546,19 +13637,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f6/345Lileep_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/345.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/345.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lileep_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cradily",
-		especie: "",
+		especie: "Cradily",
 		codinome: "",
 		numero: 346, // considerando a national dex
 		tipo: ["Rocha", " Planta"],
 		massa: 60.4, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/346.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b3/F0346.png",
 		estatistica: {
 			ps:		 	86,
@@ -13580,19 +13672,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/84/346Cradily_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/346.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/346.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cradily_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Anorith",
-		especie: "",
+		especie: "Anorith",
 		codinome: "",
 		numero: 347, // considerando a national dex
 		tipo: ["Rocha", " Inseto"],
 		massa: 12.5, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/347.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7a/F0347.png",
 		estatistica: {
 			ps:		 	45,
@@ -13614,19 +13707,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3c/347Anorith_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/347.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/347.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Anorith_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Armaldo",
-		especie: "",
+		especie: "Armaldo",
 		codinome: "",
 		numero: 348, // considerando a national dex
 		tipo: ["Rocha", " Inseto"],
 		massa: 68.2, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/348.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0348.png",
 		estatistica: {
 			ps:		 	75,
@@ -13648,19 +13742,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e3/348Armaldo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/348.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/348.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Armaldo_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Feebas",
-		especie: "",
+		especie: "Feebas",
 		codinome: "",
 		numero: 349, // considerando a national dex
 		tipo: ["Água"],
 		massa: 7.4, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/349.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3f/F0349.png",
 		estatistica: {
 			ps:		 	20,
@@ -13682,19 +13777,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/23/349Feebas_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/349.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Milotic",
-		especie: "",
+		especie: "Milotic",
 		codinome: "",
 		numero: 350, // considerando a national dex
 		tipo: ["Água"],
 		massa: 162.0, // em kg
 		altura: 6.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/350.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/ed/F0350.png",
 		estatistica: {
 			ps:		 	95,
@@ -13716,19 +13812,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f8/350Milotic_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/350.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Milotic_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Castform (Forma Normal)",
-		especie: "",
-		codinome: "Castform",
+		especie: "Castform",
+		codinome: "",
 		numero: 351.1, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/351.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -13751,19 +13848,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/14/351Castform_Normal_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/351.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Castform (Forma Ensolarada)",
-		especie: "",
-		codinome: "Castform",
+		especie: "Castform",
+		codinome: "",
 		numero: 351.2, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10013.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -13786,19 +13884,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7a/351Castform_Sunny_Form_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10013.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10013.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Castform (Forma Chuvosa)",
-		especie: "",
-		codinome: "Castform",
+		especie: "Castform",
+		codinome: "",
 		numero: 351.3, // considerando a national dex
 		tipo: ["Água"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10014.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -13821,19 +13920,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b2/351Castform_Rainy_Form_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10014.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10014.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Castform (Forma Nevada)",
-		especie: "",
-		codinome: "Castform",
+		especie: "Castform",
+		codinome: "",
 		numero: 351.4, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 0.8, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10015.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0351.png",
 		estatistica: {
 			ps:		 	70,
@@ -13856,19 +13956,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3d/351Castform_Snowy_Form_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10015.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10015.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Kecleon",
-		especie: "",
+		especie: "Kecleon",
 		codinome: "",
 		numero: 352, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 22.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/352.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6f/F0352.png",
 		estatistica: {
 			ps:		 	60,
@@ -13890,19 +13991,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/80/352Kecleon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/352.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/352.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kecleon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shuppet",
-		especie: "",
+		especie: "Shuppet",
 		codinome: "",
 		numero: 353, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 2.3, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/353.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/51/F0353.png",
 		estatistica: {
 			ps:		 	44,
@@ -13924,19 +14026,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/74/353Shuppet_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/353.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shuppet_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Banette",
-		especie: "",
+		especie: "Banette",
 		codinome: "",
 		numero: 354, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 12.5, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/354.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8b/F0354.png",
 		estatistica: {
 			ps:		 	64,
@@ -13958,19 +14061,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/53/354Banette_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/354.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Banette_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Duskull",
-		especie: "",
+		especie: "Duskull",
 		codinome: "",
 		numero: 355, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 15.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/355.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d7/F0355.png",
 		estatistica: {
 			ps:		 	20,
@@ -13992,19 +14096,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/37/355Duskull_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/355.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/355.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Duskull_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Dusclops",
-		especie: "",
+		especie: "Dusclops",
 		codinome: "",
 		numero: 356, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 30.6, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/356.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b0/F0356.png",
 		estatistica: {
 			ps:		 	40,
@@ -14026,19 +14131,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c2/356Dusclops_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/356.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/356.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dusclops_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Tropius",
-		especie: "",
+		especie: "Tropius",
 		codinome: "",
 		numero: 357, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 100.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/357.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/6e/F0357.png",
 		estatistica: {
 			ps:		 	99,
@@ -14060,19 +14166,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fe/357Tropius_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/357.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/357.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Chimecho",
-		especie: "",
+		especie: "Chimecho",
 		codinome: "",
 		numero: 358, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 1.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/358.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0358.png",
 		estatistica: {
 			ps:		 	75,
@@ -14094,19 +14201,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f0/358Chimecho_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/358.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chimecho_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Absol",
-		especie: "",
+		especie: "Absol",
 		codinome: "",
 		numero: 359, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 47.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/359.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0359.png",
 		estatistica: {
 			ps:		 	65,
@@ -14128,19 +14236,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/aa/359Absol_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/359.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wynaut",
-		especie: "",
+		especie: "Wynaut",
 		codinome: "",
 		numero: 360, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 14.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/360.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0360.png",
 		estatistica: {
 			ps:		 	95,
@@ -14162,19 +14271,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/42/360Wynaut_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/360.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/360.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Snorunt",
-		especie: "",
+		especie: "Snorunt",
 		codinome: "",
 		numero: 361, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 16.8, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/361.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c3/F0361.png",
 		estatistica: {
 			ps:		 	50,
@@ -14196,19 +14306,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/88/361Snorunt_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/361.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snorunt_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Glalie",
-		especie: "",
+		especie: "Glalie",
 		codinome: "",
 		numero: 362, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 256.5, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/362.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f4/F0362.png",
 		estatistica: {
 			ps:		 	80,
@@ -14230,19 +14341,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/dc/362Glalie_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/362.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glalie_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Spheal",
-		especie: "",
+		especie: "Spheal",
 		codinome: "",
 		numero: 363, // considerando a national dex
 		tipo: ["Gelo", " Água"],
 		massa: 39.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/363.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0363.png",
 		estatistica: {
 			ps:		 	70,
@@ -14264,19 +14376,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/94/363Spheal_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/363.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/363.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spheal_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Sealeo",
-		especie: "",
+		especie: "Sealeo",
 		codinome: "",
 		numero: 364, // considerando a national dex
 		tipo: ["Gelo", " Água"],
 		massa: 87.6, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/364.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/08/F0364.png",
 		estatistica: {
 			ps:		 	90,
@@ -14298,19 +14411,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7d/364Sealeo_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/364.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/364.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sealeo_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Walrein",
-		especie: "",
+		especie: "Walrein",
 		codinome: "",
 		numero: 365, // considerando a national dex
 		tipo: ["Gelo", " Água"],
 		massa: 150.6, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/365.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3c/F0365.png",
 		estatistica: {
 			ps:		 	110,
@@ -14332,19 +14446,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/83/365Walrein_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/365.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Walrein_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Clamperl",
-		especie: "",
+		especie: "Clamperl",
 		codinome: "",
 		numero: 366, // considerando a national dex
 		tipo: ["Água"],
 		massa: 52.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/366.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fc/F0366.png",
 		estatistica: {
 			ps:		 	35,
@@ -14366,19 +14481,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d6/366Clamperl_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/366.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/366.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clamperl_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Huntail",
-		especie: "",
+		especie: "Huntail",
 		codinome: "",
 		numero: 367, // considerando a national dex
 		tipo: ["Água"],
 		massa: 27.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/367.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0367.png",
 		estatistica: {
 			ps:		 	55,
@@ -14400,19 +14516,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/05/367Huntail_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/367.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/367.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Huntail_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gorebyss",
-		especie: "",
+		especie: "Gorebyss",
 		codinome: "",
 		numero: 368, // considerando a national dex
 		tipo: ["Água"],
 		massa: 22.6, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/368.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0368.png",
 		estatistica: {
 			ps:		 	55,
@@ -14434,19 +14551,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6f/368Gorebyss_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/368.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/368.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gorebyss_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Relicanth",
-		especie: "",
+		especie: "Relicanth",
 		codinome: "",
 		numero: 369, // considerando a national dex
 		tipo: ["Água", " Rocha"],
 		massa: 23.4, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/369.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0369.png",
 		estatistica: {
 			ps:		 	100,
@@ -14468,19 +14586,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f2/369Relicanth_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/369.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/369.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Relicanth_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Luvdisc",
-		especie: "",
+		especie: "Luvdisc",
 		codinome: "",
 		numero: 370, // considerando a national dex
 		tipo: ["Água"],
 		massa: 8.7, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/370.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0370.png",
 		estatistica: {
 			ps:		 	43,
@@ -14502,19 +14621,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c5/370Luvdisc_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/370.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/370.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Luvdisc_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bagon",
-		especie: "",
+		especie: "Bagon",
 		codinome: "",
 		numero: 371, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 42.1, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/371.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/12/F0371.png",
 		estatistica: {
 			ps:		 	45,
@@ -14536,19 +14656,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/49/371Bagon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/371.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bagon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shelgon",
-		especie: "",
+		especie: "Shelgon",
 		codinome: "",
 		numero: 372, // considerando a national dex
 		tipo: ["Dragão"],
 		massa: 110.5, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/372.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0372.png",
 		estatistica: {
 			ps:		 	65,
@@ -14570,19 +14691,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/40/372Shelgon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/372.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shelgon_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Salamance",
-		especie: "",
+		nome: "Salamence",
+		especie: "Salamence",
 		codinome: "",
 		numero: 373, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 102.6, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/373.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cf/F0373.png",
 		estatistica: {
 			ps:		 	95,
@@ -14604,19 +14726,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fb/373Salamence_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/373.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Salamence_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Beldum",
-		especie: "",
+		especie: "Beldum",
 		codinome: "",
 		numero: 374, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 95.2, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/374.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/81/F0374.png",
 		estatistica: {
 			ps:		 	40,
@@ -14638,19 +14761,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4e/374Beldum_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/374.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beldum_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Metang",
-		especie: "",
+		especie: "Metang",
 		codinome: "",
 		numero: 375, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 202.5, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/375.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0375.png",
 		estatistica: {
 			ps:		 	60,
@@ -14672,19 +14796,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3a/375Metang_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/375.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metang_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Metagross",
-		especie: "",
+		especie: "Metagross",
 		codinome: "",
 		numero: 376, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 550.0, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/376.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fb/F0376.png",
 		estatistica: {
 			ps:		 	80,
@@ -14706,19 +14831,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5c/376Metagross_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/376.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Regirock",
-		especie: "",
+		especie: "Regirock",
 		codinome: "",
 		numero: 377, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 230.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/377.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/64/F0377.png",
 		estatistica: {
 			ps:		 	80,
@@ -14740,19 +14866,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b2/377Regirock_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/377.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/377.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regirock_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Regice",
-		especie: "",
+		especie: "Regice",
 		codinome: "",
 		numero: 378, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 175.0, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/378.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0378.png",
 		estatistica: {
 			ps:		 	80,
@@ -14774,19 +14901,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/58/378Regice_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/378.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/378.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regice_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Registeel",
-		especie: "",
+		especie: "Registeel",
 		codinome: "",
 		numero: 379, // considerando a national dex
 		tipo: ["Metal"],
 		massa: 205.0, // em kg
 		altura: 1.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/379.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0379.png",
 		estatistica: {
 			ps:		 	80,
@@ -14808,19 +14936,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/51/379Registeel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/379.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/379.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Registeel_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Latias",
-		especie: "",
+		especie: "Latias",
 		codinome: "",
 		numero: 380, // considerando a national dex
 		tipo: ["Dragão", " Psíquico"],
 		massa: 40.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/380.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9c/F0380.png",
 		estatistica: {
 			ps:		 	80,
@@ -14842,19 +14971,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9f/380Latias_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/380.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/380.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Latias_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Latios",
-		especie: "",
+		especie: "Latios",
 		codinome: "",
 		numero: 381, // considerando a national dex
 		tipo: ["Dragão", " Psíquico"],
 		massa: 60.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/381.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4f/F0381.png",
 		estatistica: {
 			ps:		 	80,
@@ -14876,19 +15006,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/86/381Latios_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/381.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/381.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Kyogre",
-		especie: "",
+		especie: "Kyogre",
 		codinome: "",
 		numero: 382, // considerando a national dex
 		tipo: ["Água"],
 		massa: 352.0, // em kg
 		altura: 4.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/382.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0382.png",
 		estatistica: {
 			ps:		 	100,
@@ -14910,19 +15041,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/dc/382Kyogre_Dream_5.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/382.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Groudon",
-		especie: "",
+		especie: "Groudon",
 		codinome: "",
 		numero: 383, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 950.0, // em kg
 		altura: 3.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/383.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a8/F0383.png",
 		estatistica: {
 			ps:		 	100,
@@ -14944,19 +15076,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/15/383Groudon_Dream_5.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/383.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rayquaza",
-		especie: "",
+		especie: "Rayquaza",
 		codinome: "",
 		numero: 384, // considerando a national dex
 		tipo: ["Dragão", " Voador"],
 		massa: 	206.5, // em kg
 		altura: 7.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/384.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0384.png",
 		estatistica: {
 			ps:		 	105,
@@ -14978,19 +15111,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b3/384Rayquaza_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/384.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Jirachi",
-		especie: "",
+		especie: "Jirachi",
 		codinome: "",
 		numero: 385, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 1.1, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/385.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0385.png",
 		estatistica: {
 			ps:		 	100,
@@ -15012,19 +15146,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fc/385Jirachi_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/385.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/385.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Deoxys (Forma Normal)",
-		especie: "",
-		codinome: "Deoxys",
+		especie: "Deoxys",
+		codinome: "",
 		numero: 386.1, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/386.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -15046,7 +15181,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8b/386Deoxys_Normal_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/386.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/386.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -15058,7 +15194,7 @@ const pkmnDisponiveis = [
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10001.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -15080,19 +15216,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1f/386Deoxys_Attack_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10001.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10001.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Deoxys (Forma Defesa)",
-		especie: "",
-		codinome: "Deoxys",
+		especie: "Deoxys",
+		codinome: "",
 		numero: 386.3, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10001.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -15114,19 +15251,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b9/386Deoxys_Defense_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10002.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10002.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Deoxys (Forma Velocidade)",
-		especie: "",
-		codinome: "Deoxys",
+		especie: "Deoxys",
+		codinome: "",
 		numero: 386.4, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 60.8, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10003.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0386.png",
 		estatistica: {
 			ps:		 	50,
@@ -15148,7 +15286,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/28/386Deoxys_Speed_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10003.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10003.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
