@@ -179,7 +179,7 @@ function palpitar() {
 					return false;
 
 				case escolhido[0].nome.toLowerCase():
-				case escolhido[0].codinome.toLowerCase():
+				case escolhido[0].especie.toLowerCase():
 					/* caso acerte o nome do Pokémon */
 
 					palpites = palpites + 1;
@@ -234,13 +234,14 @@ function palpitar() {
 						btnPalpite.style.cursor = "not-allowed";
 						document.removeEventListener("keydown", gerenciarEnter);
 
-						ultimato.innerHTML = `<p>Você errou!<br />
-						Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
-							escolhido[0].link
-						}" target="_blank">${escolhido[0].nome}</a>!</p>
+						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a>!</p>
 						<a href="${
 							escolhido[0].link
-						}" target="_blank"><img onload="imagensPNG(ultimato)" loading="eager" src="${
+						}" target="_blank"><img onload="imagensPNG('ultimato')" loading="eager" src="${
 							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 						}" title="Mais informações sobre ${
 							escolhido[0].nome
@@ -360,10 +361,11 @@ function palpitar() {
 						btnPalpite.style.cursor = "not-allowed";
 						document.removeEventListener("keydown", gerenciarEnter);
 
-						ultimato.innerHTML = `<p>Você errou!<br />
-						Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
-							escolhido[0].link
-						}" target="_blank">${escolhido[0].nome}</a>!</p>
+						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a>!</p>
 						<a href="${
 							escolhido[0].link
 						}" target="_blank"><img onload="imagensPNG('ultimato')" loading="eager" src="${
@@ -505,13 +507,14 @@ function palpitar() {
 						btnPalpite.style.cursor = "not-allowed";
 						document.removeEventListener("keydown", gerenciarEnter);
 
-						ultimato.innerHTML = `<p>Você errou!<br />
-						Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
-							escolhido[0].link
-						}" target="_blank">${escolhido[0].nome}</a>!</p>
+						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${
+							escolhido[0].nome
+						}" href="${escolhido[0].link}" target="_blank">${
+							escolhido[0].nome
+						}</a>!</p>
 						<a href="${
 							escolhido[0].link
-						}" target="_blank"><img onload="imagensPNG('ultimato)" loading="eager" src="${
+						}" target="_blank"><img onload="imagensPNG('ultimato')" loading="eager" src="${
 							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 						}" title="Mais informações sobre ${
 							escolhido[0].nome
@@ -598,10 +601,10 @@ function desistir() {
 	document.removeEventListener("keydown", gerenciarEnter);
 
 	if (palpites === 1) {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite!<br />
-		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
-			escolhido[0].link
-		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era <a title="Mais informações sobre ${
+			escolhido[0].nome
+		}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
+		<a href="${
 			escolhido[0].link
 		}" target="_blank"><img onload="imagensPNG('ultimato')" loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
@@ -611,12 +614,12 @@ function desistir() {
 
 		return false;
 	} else {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpites!<br />
-		Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era <a title="Mais informações sobre ${
+			escolhido[0].nome
+		}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
+		<a href="${
 			escolhido[0].link
-		}" target="_blank">${escolhido[0].nome}</a>!</p><a href="${
-			escolhido[0].link
-		}" target="_blank"><img onload="imagensPNG('ultimato)" loading="eager" src="${
+		}" target="_blank"><img onload="imagensPNG('ultimato')" loading="eager" src="${
 			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
 		}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
 			escolhido[0].nome
