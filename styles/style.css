@@ -252,7 +252,6 @@ button {
 }
 #dicaSilhueta img {
 	width: 150px;
-	height: auto;
 	mix-blend-mode: screen;
 	filter: contrast(1%) blur(2px);
 }
@@ -316,7 +315,6 @@ table p {
 #ultimato img {
 	color: var(--dark-font-color);
 	width: 12rem;
-	height: auto;
 	-webkit-filter: drop-shadow(1px 1px 0px var(--light-bg))
 		drop-shadow(calc(-1 * 1px) calc(-1 1px) 0px var(--light-bg));
 	filter: drop-shadow(1px 1px 0px var(--light-bg))
