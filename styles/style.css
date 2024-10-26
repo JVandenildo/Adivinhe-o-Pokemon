@@ -245,17 +245,16 @@ button {
 	width: 20rem;
 }
 #dicaSilhueta {
-	background-color: var(--light-bg);
-	border-radius: 49%;
 	text-align: center;
 	vertical-align: middle;
-	height: 125px;
-	width: 125px;
+	width: 175px;
+	height: 175px;
 }
 #dicaSilhueta img {
-	max-height: 100px;
-	max-width: 100px;
-	filter: contrast(1%) blur(1px);
+	width: 150px;
+	height: auto;
+	mix-blend-mode: screen;
+	filter: contrast(1%) blur(2px);
 }
 
 table {
@@ -316,12 +315,10 @@ table p {
 }
 #ultimato img {
 	color: var(--dark-font-color);
-	/* não altere o tamanho da imagem
-	alguns sprites chegam a exatamente 150px */
-	max-width: 150px;
+	width: 12rem;
 	height: auto;
-	-webkit-filter: drop-shadow(2px 2px 0px var(--light-bg))
-		drop-shadow(calc(-1 * 2px) calc(-1 2px) 0px var(--light-bg));
-	filter: drop-shadow(2px 2px 0px var(--light-bg))
-		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px var(--light-bg));
+	-webkit-filter: drop-shadow(1px 1px 0px var(--light-bg))
+		drop-shadow(calc(-1 * 1px) calc(-1 1px) 0px var(--light-bg));
+	filter: drop-shadow(1px 1px 0px var(--light-bg))
+		drop-shadow(calc(-1 * 1px) calc(-1 * 1px) 0px var(--light-bg));
 }

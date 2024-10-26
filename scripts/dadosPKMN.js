@@ -29,8 +29,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)",
 	},
@@ -64,8 +64,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ivysaur_(Pok%C3%A9mon)",
 	},
@@ -99,8 +99,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/3.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pok%C3%A9mon)",
 	},
@@ -134,8 +134,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/4.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)",
 	},
@@ -169,8 +169,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/5.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon)",
 	},
@@ -204,8 +204,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/6.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)",
 	},
@@ -239,8 +239,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/7.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)",
 	},
@@ -274,8 +274,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/8.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon)",
 	},
@@ -309,8 +309,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/9.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/9.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)",
 	},
@@ -344,8 +344,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)",
 	},
@@ -379,8 +379,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/11.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon)",
 	},
@@ -414,8 +414,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/12.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/12.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Butterfree_(Pok%C3%A9mon)",
 	},
@@ -449,8 +449,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/13.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/13.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon)",
 	},
@@ -484,8 +484,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/14.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/14.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon)",
 	},
@@ -519,8 +519,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/15.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/15.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon)",
 	},
@@ -554,8 +554,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/16.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/16.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)",
 	},
@@ -589,8 +589,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/17.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/17.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)",
 	},
@@ -624,8 +624,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/18.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/18.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeot_(Pok%C3%A9mon)",
 	},
@@ -659,8 +659,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/19.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/19.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
 	},
@@ -695,8 +695,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10091.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10091.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10091.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10091.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)",
 	},
@@ -731,8 +731,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/20.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/20.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
 	},
@@ -767,8 +767,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10092.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10092.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10092.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)",
 	},
@@ -802,8 +802,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/21.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/21.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)",
 	},
@@ -837,8 +837,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/22.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/22.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)",
 	},
@@ -872,8 +872,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/23.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/23.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)",
 	},
@@ -907,8 +907,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/24.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/24.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)",
 	},
@@ -942,8 +942,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/25.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)",
 	},
@@ -977,8 +977,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/26.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/26.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
 	},
@@ -1012,8 +1012,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10100.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10100.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10100.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)",
 	},
@@ -1047,8 +1047,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/27.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/27.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
 	},
@@ -1082,8 +1082,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10101.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10101.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10101.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
 	},
@@ -1117,8 +1117,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/28.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/28.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
@@ -1152,8 +1152,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10102.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10102.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10102.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10102.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)",
 	},
@@ -1187,8 +1187,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/29.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/29.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%80_(Pok%C3%A9mon)",
 	},
@@ -1222,8 +1222,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/30.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/30.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorina_(Pok%C3%A9mon)",
 	},
@@ -1257,8 +1257,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/31.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/31.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoqueen_(Pok%C3%A9mon)",
 	},
@@ -1292,8 +1292,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/32.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/32.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%82_(Pok%C3%A9mon)",
 	},
@@ -1327,8 +1327,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/33.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/33.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidorino_(Pok%C3%A9mon)",
 	},
@@ -1362,8 +1362,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/34.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/34.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nidoking_(Pok%C3%A9mon)",
 	},
@@ -1397,8 +1397,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/35.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/35.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)",
 	},
@@ -1432,8 +1432,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/36.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/36.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clefable_(Pok%C3%A9mon)",
 	},
@@ -1467,8 +1467,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/37.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/37.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
 	},
@@ -1502,8 +1502,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10103.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10103.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10103.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
 	},
@@ -1537,8 +1537,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/38.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/38.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
 	},
@@ -1572,8 +1572,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10104.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10104.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10104.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
 	},
@@ -1607,8 +1607,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/39.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/39.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon)",
 	},
@@ -1642,8 +1642,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/40.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/40.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wigglytuff_(Pok%C3%A9mon)",
 	},
@@ -1678,8 +1678,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/41.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/41.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zubat_(Pok%C3%A9mon)",
 	},
@@ -1714,8 +1714,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/42.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/42.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)",
 	},
@@ -1749,8 +1749,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/43.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/43.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Oddish_(Pok%C3%A9mon)",
 	},
@@ -1784,8 +1784,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/44.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/44.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon)",
 	},
@@ -1819,8 +1819,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/45.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/45.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vileplume_(Pok%C3%A9mon)",
 	},
@@ -1854,8 +1854,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/46.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/46.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)",
 	},
@@ -1889,8 +1889,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/47.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/47.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)",
 	},
@@ -1924,8 +1924,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/48.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/48.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venonat_(Pok%C3%A9mon)",
 	},
@@ -1960,8 +1960,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/49.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/49.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)",
 	},
@@ -1995,8 +1995,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/50.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/50.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
 	},
@@ -2031,8 +2031,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10105.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10105.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10105.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10105.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
 	},
@@ -2065,8 +2065,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/51.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/51.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)",
 	},
@@ -2101,8 +2101,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10106.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10106.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10106.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon)",
 	},
@@ -2136,8 +2136,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/52.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/52.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -2171,8 +2171,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10107.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10107.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10107.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10107.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -2206,8 +2206,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10161.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10161.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10161.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10161.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)",
 	},
@@ -2241,8 +2241,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/53.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/53.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon)",
 	},
@@ -2276,8 +2276,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10108.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10108.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10108.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10108.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon)",
 	},
@@ -2311,8 +2311,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/54.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/54.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)",
 	},
@@ -2346,8 +2346,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/55.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/55.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon)",
 	},
@@ -2381,8 +2381,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/56.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/56.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mankey_(Pok%C3%A9mon)",
 	},
@@ -2416,8 +2416,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/57.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/57.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Primeape_(Pok%C3%A9mon)",
 	},
@@ -2451,8 +2451,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/58.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/58.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
 	},
@@ -2486,8 +2486,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10229.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10229.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10229.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon)",
 	},
@@ -2521,8 +2521,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/59.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/59.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon)",
 	},
@@ -2556,8 +2556,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10230.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10230.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10230.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon)",
 	},
@@ -2592,8 +2592,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/60.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/60.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon)",
 	},
@@ -2627,8 +2627,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/61.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/61.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwhirl_(Pok%C3%A9mon)",
 	},
@@ -2662,8 +2662,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/62.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/62.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poliwrath_(Pok%C3%A9mon)",
 	},
@@ -2697,8 +2697,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/63.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/63.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Abra_(Pok%C3%A9mon)",
 	},
@@ -2732,8 +2732,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/64.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/64.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kadabra_(Pok%C3%A9mon)",
 	},
@@ -2767,8 +2767,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/65.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/65.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon)",
 	},
@@ -2802,8 +2802,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/66.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/66.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machop_(Pok%C3%A9mon)",
 	},
@@ -2837,8 +2837,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/67.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/67.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machoke_(Pok%C3%A9mon)",
 	},
@@ -2872,8 +2872,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/68.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/68.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Machamp_(Pok%C3%A9mon)",
 	},
@@ -2907,8 +2907,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/69.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/69.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellsprout_(Pok%C3%A9mon)",
 	},
@@ -2942,8 +2942,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/70.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/70.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weepinbell_(Pok%C3%A9mon)",
 	},
@@ -2977,8 +2977,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/71.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/71.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Victreebel_(Pok%C3%A9mon)",
 	},
@@ -3012,8 +3012,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/72.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/72.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacool_(Pok%C3%A9mon)",
 	},
@@ -3047,8 +3047,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/73.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/73.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tentacruel_(Pok%C3%A9mon)",
 	},
@@ -3082,8 +3082,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/74.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/74.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
 	},
@@ -3117,8 +3117,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10109.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10109.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10109.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
 	},
@@ -3152,8 +3152,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/75.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/75.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
 	},
@@ -3187,8 +3187,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10110.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10110.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10110.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon)",
 	},
@@ -3222,8 +3222,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/76.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/76.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)",
 	},
@@ -3257,8 +3257,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10111.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10111.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10111.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)",
 	},
@@ -3292,8 +3292,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/77.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/77.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
 	},
@@ -3327,8 +3327,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10162.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10162.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10162.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10162.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
 	},
@@ -3362,8 +3362,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/78.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/78.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon)",
 	},
@@ -3397,8 +3397,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10163.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10163.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10163.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10163.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon)",
 	},
@@ -3432,8 +3432,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/79.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/79.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
 	},
@@ -3467,8 +3467,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10164.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10164.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10164.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10164.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
 	},
@@ -3503,8 +3503,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/80.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/80.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
 	},
@@ -3538,8 +3538,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10165.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10165.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10165.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
 	},
@@ -3573,8 +3573,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/81.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/81.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon)",
 	},
@@ -3608,8 +3608,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/82.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/82.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)",
 	},
@@ -3643,8 +3643,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/83.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/83.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
 	},
@@ -3678,8 +3678,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10166.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10166.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10166.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10166.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
 	},
@@ -3713,8 +3713,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/84.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/84.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon)",
 	},
@@ -3748,8 +3748,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/85.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/85.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)",
 	},
@@ -3783,8 +3783,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/86.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/86.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seel_(Pok%C3%A9mon)",
 	},
@@ -3818,8 +3818,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/87.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/87.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dewgong_(Pok%C3%A9mon)",
 	},
@@ -3853,8 +3853,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/88.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/88.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon)",
 	},
@@ -3888,8 +3888,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10112.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10112.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10112.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10112.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon)",
 	},
@@ -3923,8 +3923,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/89.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon)",
 	},
@@ -3958,8 +3958,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10113.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10113.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon)",
 	},
@@ -3993,8 +3993,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/90.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/90.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon)",
 	},
@@ -4028,8 +4028,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/91.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/91.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cloyster_(Pok%C3%A9mon)",
 	},
@@ -4063,8 +4063,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/92.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/92.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gastly_(Pok%C3%A9mon)",
 	},
@@ -4098,8 +4098,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/93.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/93.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)",
 	},
@@ -4133,8 +4133,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/94.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/94.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)",
 	},
@@ -4168,8 +4168,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/95.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/95.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon)",
 	},
@@ -4203,8 +4203,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/96.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/96.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drowzee_(Pok%C3%A9mon)",
 	},
@@ -4238,8 +4238,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/97.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/97.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hypno_(Pok%C3%A9mon)",
 	},
@@ -4273,8 +4273,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/98.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/98.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Krabby_(Pok%C3%A9mon)",
 	},
@@ -4309,8 +4309,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/99.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/99.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)",
 	},
@@ -4344,8 +4344,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/100.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
 	},
@@ -4379,8 +4379,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10231.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10231.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon)",
 	},
@@ -4414,8 +4414,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/101.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/101.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
 	},
@@ -4449,8 +4449,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10232.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10232.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10232.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10232.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)",
 	},
@@ -4484,8 +4484,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/102.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/102.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggcute_(Pok%C3%A9mon)",
 	},
@@ -4519,8 +4519,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/103.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/103.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)",
 	},
@@ -4554,8 +4554,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10114.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10114.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10114.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10114.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)",
 	},
@@ -4589,8 +4589,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/104.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/104.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cubone_(Pok%C3%A9mon)",
 	},
@@ -4625,8 +4625,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/105.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/105.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
 	},
@@ -4660,8 +4660,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10115.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10115.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10115.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
 	},
@@ -4695,8 +4695,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/106.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/106.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmonlee_(Pok%C3%A9mon)",
 	},
@@ -4730,8 +4730,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/107.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/107.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmonchan_(Pok%C3%A9mon)",
 	},
@@ -4765,8 +4765,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/108.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/108.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lickitung_(Pok%C3%A9mon)",
 	},
@@ -4800,8 +4800,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/109.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/109.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Koffing_(Pok%C3%A9mon)",
 	},
@@ -4835,8 +4835,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/110.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/110.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)",
 	},
@@ -4871,7 +4871,7 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10167.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10167.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)",
 	},
@@ -4905,8 +4905,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/111.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/111.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhyhorn_(Pok%C3%A9mon)",
 	},
@@ -4940,8 +4940,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/112.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/112.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon)",
 	},
@@ -4975,8 +4975,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/113.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/113.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)",
 	},
@@ -5010,8 +5010,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/114.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/114.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon)",
 	},
@@ -5045,8 +5045,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/115.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/115.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon)",
 	},
@@ -5080,8 +5080,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/116.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/116.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Horsea_(Pok%C3%A9mon)",
 	},
@@ -5116,8 +5116,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/117.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/117.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)",
 	},
@@ -5152,8 +5152,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/118.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/118.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)",
 	},
@@ -5187,8 +5187,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/119.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/119.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon)",
 	},
@@ -5222,8 +5222,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/120.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/120.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staryu_(Pok%C3%A9mon)",
 	},
@@ -5257,8 +5257,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/121.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/121.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon)",
 	},
@@ -5292,8 +5292,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/122.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/122.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon)",
 	},
@@ -5327,8 +5327,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10168.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10168.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10168.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10168.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon)",
 	},
@@ -5362,8 +5362,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/123.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/123.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scyther_(Pok%C3%A9mon)",
 	},
@@ -5397,8 +5397,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/124.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/124.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jynx_(Pok%C3%A9mon)",
 	},
@@ -5432,8 +5432,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/125.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/125.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electabuzz_(Pok%C3%A9mon)",
 	},
@@ -5467,8 +5467,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/126.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/126.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magmar_(Pok%C3%A9mon)",
 	},
@@ -5502,8 +5502,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/127.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/127.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pinsir_(Pok%C3%A9mon)",
 	},
@@ -5537,8 +5537,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/128.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/128.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -5572,8 +5572,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10250.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10250.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10250.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10250.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -5608,8 +5608,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10251.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10251.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10251.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10251.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -5644,8 +5644,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10252.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10252.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10252.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10252.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)",
 	},
@@ -5680,8 +5680,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/129.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/129.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)",
 	},
@@ -5715,8 +5715,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/130.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/130.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)",
 	},
@@ -5750,8 +5750,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/131.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/131.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)",
 	},
@@ -5786,8 +5786,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/132.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)",
 	},
@@ -5821,8 +5821,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/133.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)",
 	},
@@ -5856,8 +5856,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/134.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/134.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vaporeon_(Pok%C3%A9mon)",
 	},
@@ -5891,8 +5891,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/135.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/135.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jolteon_(Pok%C3%A9mon)",
 	},
@@ -5926,8 +5926,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/136.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/136.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flareon_(Pok%C3%A9mon)",
 	},
@@ -5961,8 +5961,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/137.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/137.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon_(Pok%C3%A9mon)",
 	},
@@ -5996,8 +5996,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/138.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/138.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omanyte_(Pok%C3%A9mon)",
 	},
@@ -6031,8 +6031,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/139.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/139.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Omastar_(Pok%C3%A9mon)",
 	},
@@ -6066,8 +6066,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/140.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/140.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabuto_(Pok%C3%A9mon)",
 	},
@@ -6101,8 +6101,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/141.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/141.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon)",
 	},
@@ -6136,8 +6136,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/142.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon)",
 	},
@@ -6171,8 +6171,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/143.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/143.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)",
 	},
@@ -6206,8 +6206,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/144.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/144.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
 	},
@@ -6241,8 +6241,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10169.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10169.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10169.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10169.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
 	},
@@ -6276,8 +6276,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/145.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/145.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
 	},
@@ -6311,8 +6311,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10170.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10170.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10170.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
 	},
@@ -6346,8 +6346,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/146.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/146.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
 	},
@@ -6381,8 +6381,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10171.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10171.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10171.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
 	},
@@ -6416,8 +6416,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/147.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/147.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)",
 	},
@@ -6451,8 +6451,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/148.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/148.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)",
 	},
@@ -6486,8 +6486,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/149.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/149.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)",
 	},
@@ -6521,8 +6521,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/150.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/150.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)",
 	},
@@ -6556,8 +6556,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/151.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/151.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)",
 	},
@@ -6591,8 +6591,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/152.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/152.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chikorita_(Pok%C3%A9mon)",
 	},
@@ -6626,8 +6626,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/153.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/153.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bayleef_(Pok%C3%A9mon)",
 	},
@@ -6661,8 +6661,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/154.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/154.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meganium_(Pok%C3%A9mon)",
 	},
@@ -6696,8 +6696,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/155.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/155.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cyndaquil_(Pok%C3%A9mon)",
 	},
@@ -6731,8 +6731,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/156.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/156.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Quilava_(Pok%C3%A9mon)",
 	},
@@ -6766,8 +6766,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/157.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/157.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)",
 	},
@@ -6801,8 +6801,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10233.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10233.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10233.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)",
 	},
@@ -6836,8 +6836,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/158.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/158.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Totodile_(Pok%C3%A9mon)",
 	},
@@ -6871,8 +6871,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/159.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/159.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Croconaw_(Pok%C3%A9mon)",
 	},
@@ -6906,8 +6906,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/160.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/160.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)",
 	},
@@ -6941,8 +6941,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/161.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/161.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sentret_(Pok%C3%A9mon)",
 	},
@@ -6976,8 +6976,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/162.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/162.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/162.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Furret_(Pok%C3%A9mon)",
 	},
@@ -7012,8 +7012,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/163.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/163.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)",
 	},
@@ -7047,8 +7047,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/164.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/164.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/164.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Noctowl_(Pok%C3%A9mon)",
 	},
@@ -7082,8 +7082,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/165.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/165.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/165.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ledyba_(Pok%C3%A9mon)",
 	},
@@ -7117,8 +7117,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/166.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/166.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ledian_(Pok%C3%A9mon)",
 	},
@@ -7152,8 +7152,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/167.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/167.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spinarak_(Pok%C3%A9mon)",
 	},
@@ -7187,8 +7187,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/168.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ariados_(Pok%C3%A9mon)",
 	},
@@ -7222,8 +7222,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/169.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/169.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/169.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Crobat_(Pok%C3%A9mon)",
 	},
@@ -7257,8 +7257,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/170.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/170.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/170.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chinchou_(Pok%C3%A9mon)",
 	},
@@ -7292,8 +7292,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/171.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/171.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/171.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lanturn_(Pok%C3%A9mon)",
 	},
@@ -7327,8 +7327,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/172.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/172.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pichu_(Pok%C3%A9mon)",
 	},
@@ -7362,8 +7362,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/173.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/173.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cleffa_(Pok%C3%A9mon)",
 	},
@@ -7397,8 +7397,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/174.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/174.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/174.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon)",
 	},
@@ -7432,8 +7432,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/175.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/175.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togepi_(Pok%C3%A9mon)",
 	},
@@ -7467,8 +7467,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/176.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/176.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togetic_(Pok%C3%A9mon)",
 	},
@@ -7502,8 +7502,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/177.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/177.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/177.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Natu_(Pok%C3%A9mon)",
 	},
@@ -7537,8 +7537,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/178.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/178.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/178.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Xatu_(Pok%C3%A9mon)",
 	},
@@ -7572,8 +7572,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/179.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/179.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mareep_(Pok%C3%A9mon)",
 	},
@@ -7607,8 +7607,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/180.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/180.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flaaffy_(Pok%C3%A9mon)",
 	},
@@ -7642,8 +7642,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/181.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/181.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ampharos_(Pok%C3%A9mon)",
 	},
@@ -7677,8 +7677,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/182.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/182.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bellossom_(Pok%C3%A9mon)",
 	},
@@ -7712,8 +7712,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/183.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/183.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marill_(Pok%C3%A9mon)",
 	},
@@ -7747,8 +7747,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/184.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/184.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azumarill_(Pok%C3%A9mon)",
 	},
@@ -7782,8 +7782,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/185.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/185.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)",
 	},
@@ -7817,8 +7817,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/186.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/186.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/186.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Politoed_(Pok%C3%A9mon)",
 	},
@@ -7852,8 +7852,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/187.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/187.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hoppip_(Pok%C3%A9mon)",
 	},
@@ -7887,8 +7887,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/188.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/188.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skiploom_(Pok%C3%A9mon)",
 	},
@@ -7922,8 +7922,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/189.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/189.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/189.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jumpluff_(Pok%C3%A9mon)",
 	},
@@ -7957,8 +7957,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/190.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/190.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aipom_(Pok%C3%A9mon)",
 	},
@@ -7992,8 +7992,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/191.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/191.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/191.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sunkern_(Pok%C3%A9mon)",
 	},
@@ -8027,8 +8027,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/192.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/192.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/192.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sunflora_(Pok%C3%A9mon)",
 	},
@@ -8062,8 +8062,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/193.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/193.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/193.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yanma_(Pok%C3%A9mon)",
 	},
@@ -8097,8 +8097,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/194.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/194.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon)",
 	},
@@ -8133,8 +8133,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10253.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10253.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10253.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon)",
 	},
@@ -8169,8 +8169,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/195.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/195.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Quagsire_(Pok%C3%A9mon)",
 	},
@@ -8204,8 +8204,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/196.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/196.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon)",
 	},
@@ -8239,8 +8239,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/197.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/197.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon)",
 	},
@@ -8274,8 +8274,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/198.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/198.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)",
 	},
@@ -8309,8 +8309,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/199.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/199.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)",
 	},
@@ -8344,8 +8344,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10172.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10172.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10172.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10172.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)",
 	},
@@ -8379,8 +8379,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/200.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/200.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Misdreavus_(Pok%C3%A9mon)",
 	},
@@ -8414,8 +8414,60 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/201.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-a.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-a.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-b.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-b.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-c.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-c.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-d.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-d.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-e.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-e.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-f.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-f.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-g.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-g.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-h.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-h.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-i.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-i.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-j.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-j.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-k.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-k.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-l.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-l.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-m.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-m.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-n.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-n.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-o.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-o.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-p.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-p.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-q.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-q.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-r.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-r.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-s.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-s.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-t.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-t.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-v.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-v.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-w.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-w.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-x.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-x.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-y.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-y.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-z.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-z.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-exclamation.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-exclamation.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-question.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201-question.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon)",
 	},
@@ -8449,8 +8501,10 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/202.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/202.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/202.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/202.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pok%C3%A9mon)",
 	},
@@ -8484,8 +8538,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/203.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/203.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon)",
 	},
@@ -8519,8 +8573,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/204.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/204.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/204.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pineco_(Pok%C3%A9mon)",
 	},
@@ -8554,8 +8608,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/205.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/205.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Forretress_(Pok%C3%A9mon)",
 	},
@@ -8589,8 +8643,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/206.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/206.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/206.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dunsparce_(Pok%C3%A9mon)",
 	},
@@ -8624,8 +8678,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/207.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/207.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gligar_(Pok%C3%A9mon)",
 	},
@@ -8659,8 +8713,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/208.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/208.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)",
 	},
@@ -8694,8 +8748,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/209.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/209.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/209.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snubbull_(Pok%C3%A9mon)",
 	},
@@ -8729,8 +8783,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/210.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/210.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/210.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Granbull_(Pok%C3%A9mon)",
 	},
@@ -8764,8 +8818,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/211.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/211.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)",
 	},
@@ -8800,8 +8854,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10234.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10234.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10234.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10234.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)",
 	},
@@ -8835,8 +8889,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/212.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/212.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pok%C3%A9mon)",
 	},
@@ -8870,8 +8924,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/213.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/213.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)",
 	},
@@ -8905,8 +8959,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/214.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/214.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon)",
 	},
@@ -8940,8 +8994,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/215.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/215.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)",
 	},
@@ -8976,8 +9030,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10235.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10235.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10235.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10235.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)",
 	},
@@ -9011,8 +9065,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/216.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/216.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/216.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon)",
 	},
@@ -9047,8 +9101,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/217.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/217.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ursaring_(Pok%C3%A9mon)",
 	},
@@ -9082,8 +9136,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/218.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/218.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)",
 	},
@@ -9117,8 +9171,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/219.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/219.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)",
 	},
@@ -9152,8 +9206,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/220.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/220.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/220.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swinub_(Pok%C3%A9mon)",
 	},
@@ -9187,8 +9241,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/221.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/221.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/221.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Piloswine_(Pok%C3%A9mon)",
 	},
@@ -9222,8 +9276,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/222.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/222.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon)",
 	},
@@ -9257,8 +9311,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10173.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10173.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10173.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon)",
 	},
@@ -9292,8 +9346,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/223.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/223.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/223.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Remoraid_(Pok%C3%A9mon)",
 	},
@@ -9327,8 +9381,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/224.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/224.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/224.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Octillery_(Pok%C3%A9mon)",
 	},
@@ -9362,8 +9416,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/225.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/225.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon)",
 	},
@@ -9397,8 +9451,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/226.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/226.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/226.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mantine_(Pok%C3%A9mon)",
 	},
@@ -9432,8 +9486,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/227.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/227.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)",
 	},
@@ -9467,8 +9521,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/228.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/228.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Houndour_(Pok%C3%A9mon)",
 	},
@@ -9502,8 +9556,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/229.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/229.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)",
 	},
@@ -9537,8 +9591,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/230.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/230.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kingdra_(Pok%C3%A9mon)",
 	},
@@ -9572,8 +9626,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/231.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/231.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/231.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Phanpy_(Pok%C3%A9mon)",
 	},
@@ -9608,8 +9662,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/232.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/232.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Donphan_(Pok%C3%A9mon)",
 	},
@@ -9643,8 +9697,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/233.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/233.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/233.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon2_(Pok%C3%A9mon)",
 	},
@@ -9678,8 +9732,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/234.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/234.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/234.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stantler_(Pok%C3%A9mon)",
 	},
@@ -9713,8 +9767,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/235.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/235.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)",
 	},
@@ -9748,8 +9802,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/236.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/236.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/236.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyrogue_(Pok%C3%A9mon)",
 	},
@@ -9783,8 +9837,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/237.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/237.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/237.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hitmontop_(Pok%C3%A9mon)",
 	},
@@ -9818,8 +9872,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/238.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/238.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/238.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Smoochum_(Pok%C3%A9mon)",
 	},
@@ -9853,8 +9907,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/239.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/239.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/239.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Elekid_(Pok%C3%A9mon)",
 	},
@@ -9888,8 +9942,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/240.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/240.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/240.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magby_(Pok%C3%A9mon)",
 	},
@@ -9923,8 +9977,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/241.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/241.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/241.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Miltank_(Pok%C3%A9mon)",
 	},
@@ -9958,8 +10012,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/242.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/242.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blissey_(Pok%C3%A9mon)",
 	},
@@ -9993,8 +10047,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/243.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/243.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/243.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pok%C3%A9mon)",
 	},
@@ -10028,8 +10082,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/244.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/244.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/244.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Entei_(Pok%C3%A9mon)",
 	},
@@ -10063,8 +10117,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/245.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/245.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/245.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)",
 	},
@@ -10098,8 +10152,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/246.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/246.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Larvitar_(Pok%C3%A9mon)",
 	},
@@ -10133,8 +10187,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/247.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/247.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pupitar_(Pok%C3%A9mon)",
 	},
@@ -10168,8 +10222,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/248.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/248.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon)",
 	},
@@ -10203,8 +10257,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/249.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/249.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
 	},
@@ -10238,8 +10292,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/250.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/250.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)",
 	},
@@ -10273,8 +10327,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/251.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/251.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/251.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)",
 	},
@@ -10308,8 +10362,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/252.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/252.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Treecko_(Pok%C3%A9mon)",
 	},
@@ -10343,8 +10397,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/253.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/253.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grovyle_(Pok%C3%A9mon)",
 	},
@@ -10378,8 +10432,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/254.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/254.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sceptile_(Pok%C3%A9mon)",
 	},
@@ -10413,8 +10467,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/255.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/255.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon)",
 	},
@@ -10448,8 +10502,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/256.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/256.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/256.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Combusken_(Pok%C3%A9mon)",
 	},
@@ -10483,8 +10537,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/257.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/257.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Blaziken_(Pok%C3%A9mon)",
 	},
@@ -10518,8 +10572,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/258.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/258.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pok%C3%A9mon)",
 	},
@@ -10553,8 +10607,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/259.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/259.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/259.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Marshtomp_(Pok%C3%A9mon)",
 	},
@@ -10588,8 +10642,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/260.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/260.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon)",
 	},
@@ -10623,8 +10677,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/261.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/261.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Poochyena_(Pok%C3%A9mon)",
 	},
@@ -10658,8 +10712,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/262.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/262.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/262.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mightyena_(Pok%C3%A9mon)",
 	},
@@ -10693,8 +10747,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/263.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/263.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zigzagoon_(Pok%C3%A9mon)",
 	},
@@ -10728,8 +10782,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10174.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10174.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10174.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zigzagoon_(Pok%C3%A9mon)",
 	},
@@ -10763,8 +10817,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/264.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/264.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/264.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Linoone_(Pok%C3%A9mon)",
 	},
@@ -10799,8 +10853,8 @@ const pkmnDisponiveis = [
 		regional: true,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10175.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10175.png"
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10175.png"
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Linoone_(Pok%C3%A9mon)",
 	},
@@ -10834,8 +10888,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/265.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/265.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wurmple_(Pok%C3%A9mon)",
 	},
@@ -10869,8 +10923,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/266.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/266.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Silcoon_(Pok%C3%A9mon)",
 	},
@@ -10904,8 +10958,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/267.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/267.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beautifly_(Pok%C3%A9mon)",
 	},
@@ -10939,8 +10993,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/268.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/268.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cascoon_(Pok%C3%A9mon)",
 	},
@@ -10974,8 +11028,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/269.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/269.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/269.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dustox_(Pok%C3%A9mon)",
 	},
@@ -11009,8 +11063,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/270.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/270.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/270.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lotad_(Pok%C3%A9mon)",
 	},
@@ -11043,8 +11097,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/271.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/271.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lombre_(Pok%C3%A9mon)",
 	},
@@ -11078,8 +11132,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/272.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/272.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/272.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ludicolo_(Pok%C3%A9mon)",
 	},
@@ -11113,8 +11167,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/273.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/273.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/273.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seedot_(Pok%C3%A9mon)",
 	},
@@ -11148,8 +11202,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/274.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/274.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/274.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nuzleaf_(Pok%C3%A9mon)",
 	},
@@ -11183,8 +11237,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/275.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/275.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shiftry_(Pok%C3%A9mon)",
 	},
@@ -11218,8 +11272,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/276.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/276.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/276.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Taillow_(Pok%C3%A9mon)",
 	},
@@ -11253,8 +11307,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/277.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/277.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/277.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swellow_(Pok%C3%A9mon)",
 	},
@@ -11288,8 +11342,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/278.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/278.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wingull_(Pok%C3%A9mon)",
 	},
@@ -11323,8 +11377,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/279.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/279.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon)",
 	},
@@ -11358,8 +11412,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/280.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/280.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ralts_(Pok%C3%A9mon)",
 	},
@@ -11393,8 +11447,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/281.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/281.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kirlia_(Pok%C3%A9mon)",
 	},
@@ -11428,8 +11482,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/282.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/282.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pok%C3%A9mon)",
 	},
@@ -11463,8 +11517,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/283.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/283.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/283.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Surskit_(Pok%C3%A9mon)",
 	},
@@ -11498,8 +11552,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/284.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/284.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/284.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Masquerain_(Pok%C3%A9mon)",
 	},
@@ -11533,8 +11587,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/285.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/285.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/285.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shroomish_(Pok%C3%A9mon)",
 	},
@@ -11568,8 +11622,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/286.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/286.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/286.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Breloom_(Pok%C3%A9mon)",
 	},
@@ -11603,8 +11657,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/287.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/287.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slakoth_(Pok%C3%A9mon)",
 	},
@@ -11638,8 +11692,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/288.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/288.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/288.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vigoroth_(Pok%C3%A9mon)",
 	},
@@ -11673,8 +11727,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/289.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/289.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Slaking_(Pok%C3%A9mon)",
 	},
@@ -11708,8 +11762,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/290.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/290.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nincada_(Pok%C3%A9mon)",
 	},
@@ -11743,8 +11797,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/291.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/291.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/291.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ninjask_(Pok%C3%A9mon)",
 	},
@@ -11778,8 +11832,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/292.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/292.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/292.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon)",
 	},
@@ -11813,8 +11867,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/293.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/293.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/293.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whismur_(Pok%C3%A9mon)",
 	},
@@ -11848,8 +11902,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/294.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/294.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/294.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Loudred_(Pok%C3%A9mon)",
 	},
@@ -11883,8 +11937,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/295.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/295.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/295.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Exploud_(Pok%C3%A9mon)",
 	},
@@ -11918,8 +11972,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/296.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/296.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/296.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Makuhita_(Pok%C3%A9mon)",
 	},
@@ -11953,8 +12007,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/297.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/297.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/297.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hariyama_(Pok%C3%A9mon)",
 	},
@@ -11988,8 +12042,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/298.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/298.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azurill_(Pok%C3%A9mon)",
 	},
@@ -12023,8 +12077,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/299.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/299.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/299.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Nosepass_(Pok%C3%A9mon)",
 	},
@@ -12058,8 +12112,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/300.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/300.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skitty_(Pok%C3%A9mon)",
 	},
@@ -12093,8 +12147,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/301.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/301.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/301.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Delcatty_(Pok%C3%A9mon)",
 	},
@@ -12129,8 +12183,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/302.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/302.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)",
 	},
@@ -12165,8 +12219,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/303.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/303.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mawile_(Pok%C3%A9mon)",
 	},
@@ -12200,8 +12254,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/304.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/304.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aron_(Pok%C3%A9mon)",
 	},
@@ -12235,8 +12289,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/305.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/305.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lairon_(Pok%C3%A9mon)",
 	},
@@ -12270,8 +12324,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/306.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/306.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Aggron_(Pok%C3%A9mon)",
 	},
@@ -12305,8 +12359,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/307.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/307.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Meditite_(Pok%C3%A9mon)",
 	},
@@ -12340,8 +12394,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/308.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/308.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Medicham_(Pok%C3%A9mon)",
 	},
@@ -12375,8 +12429,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/309.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/309.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electrike_(Pok%C3%A9mon)",
 	},
@@ -12410,8 +12464,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/310.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/310.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Manectric_(Pok%C3%A9mon)",
 	},
@@ -12445,8 +12499,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/311.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/311.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/311.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Plusle_(Pok%C3%A9mon)",
 	},
@@ -12480,8 +12534,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/312.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/312.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/312.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Minun_(Pok%C3%A9mon)",
 	},
@@ -12515,8 +12569,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/313.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/313.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/313.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
 	},
@@ -12550,8 +12604,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/314.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/314.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/314.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Illumise_(Pok%C3%A9mon)",
 	},
@@ -12585,8 +12639,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/315.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/315.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Roselia_(Pok%C3%A9mon)",
 	},
@@ -12620,8 +12674,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/316.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/316.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gulpin_(Pok%C3%A9mon)",
 	},
@@ -12655,8 +12709,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/317.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/317.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swalot_(Pok%C3%A9mon)",
 	},
@@ -12690,8 +12744,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/318.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/318.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carvanha_(Pok%C3%A9mon)",
 	},
@@ -12725,8 +12779,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/319.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/319.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon)",
 	},
@@ -12761,8 +12815,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/320.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/320.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/320.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wailmer_(Pok%C3%A9mon)",
 	},
@@ -12796,8 +12850,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/321.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/321.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/321.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wailord_(Pok%C3%A9mon)",
 	},
@@ -12831,8 +12885,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/322.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/322.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Numel_(Pok%C3%A9mon)",
 	},
@@ -12866,8 +12920,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/323.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/323.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Camerupt_(Pok%C3%A9mon)",
 	},
@@ -12901,8 +12955,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/324.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/324.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/324.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torkoal_(Pok%C3%A9mon)",
 	},
@@ -12936,8 +12990,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/325.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/325.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/325.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)",
 	},
@@ -12971,8 +13025,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/326.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/326.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/326.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grumpig_(Pok%C3%A9mon)",
 	},
@@ -13006,8 +13060,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/327.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/327.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/327.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spinda_(Pok%C3%A9mon)",
 	},
@@ -13041,8 +13095,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/328.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/328.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/328.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Trapinch_(Pok%C3%A9mon)",
 	},
@@ -13076,8 +13130,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/329.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/329.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/329.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vibrava_(Pok%C3%A9mon)",
 	},
@@ -13111,8 +13165,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/330.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/330.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/330.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Flygon_(Pok%C3%A9mon)",
 	},
@@ -13146,8 +13200,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/331.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/331.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/331.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cacnea_(Pok%C3%A9mon)",
 	},
@@ -13181,8 +13235,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/332.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/332.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/332.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cacturne_(Pok%C3%A9mon)",
 	},
@@ -13216,8 +13270,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/333.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/333.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon)",
 	},
@@ -13251,8 +13305,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/334.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/334.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)",
 	},
@@ -13286,8 +13340,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/335.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/335.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/335.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Zangoose_(Pok%C3%A9mon)",
 	},
@@ -13321,8 +13375,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/336.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/336.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/336.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Seviper_(Pok%C3%A9mon)",
 	},
@@ -13356,8 +13410,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/337.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/337.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/337.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lunatone_(Pok%C3%A9mon)",
 	},
@@ -13391,8 +13445,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/338.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/338.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Solrock_(Pok%C3%A9mon)",
 	},
@@ -13427,8 +13481,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/339.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/339.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/339.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Barboach_(Pok%C3%A9mon)",
 	},
@@ -13462,8 +13516,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/340.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/340.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/340.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Whiscash_(Pok%C3%A9mon)",
 	},
@@ -13497,8 +13551,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/341.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/341.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/341.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Corphish_(Pok%C3%A9mon)",
 	},
@@ -13532,8 +13586,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/342.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/342.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/342.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Crawdaunt_(Pok%C3%A9mon)",
 	},
@@ -13567,8 +13621,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/343.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/343.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Baltoy_(Pok%C3%A9mon)",
 	},
@@ -13602,8 +13656,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/344.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/344.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/344.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Claydol_(Pok%C3%A9mon)",
 	},
@@ -13637,8 +13691,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/345.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/345.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/345.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lileep_(Pok%C3%A9mon)",
 	},
@@ -13672,8 +13726,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/346.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/346.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/346.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cradily_(Pok%C3%A9mon)",
 	},
@@ -13707,8 +13761,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/347.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/347.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/347.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Anorith_(Pok%C3%A9mon)",
 	},
@@ -13742,8 +13796,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/348.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/348.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/348.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Armaldo_(Pok%C3%A9mon)",
 	},
@@ -13777,8 +13831,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/349.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/349.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)",
 	},
@@ -13812,8 +13866,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/350.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/350.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Milotic_(Pok%C3%A9mon)",
 	},
@@ -13848,8 +13902,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/351.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/351.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -13884,8 +13938,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10013.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10013.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10013.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10013.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -13920,8 +13974,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10014.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10014.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10014.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10014.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -13956,8 +14010,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10015.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10015.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10015.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10015.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)",
 	},
@@ -13991,8 +14045,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/352.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/352.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/352.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kecleon_(Pok%C3%A9mon)",
 	},
@@ -14026,8 +14080,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/353.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/353.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shuppet_(Pok%C3%A9mon)",
 	},
@@ -14061,8 +14115,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/354.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/354.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Banette_(Pok%C3%A9mon)",
 	},
@@ -14096,8 +14150,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/355.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/355.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/355.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Duskull_(Pok%C3%A9mon)",
 	},
@@ -14131,8 +14185,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/356.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/356.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/356.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dusclops_(Pok%C3%A9mon)",
 	},
@@ -14166,8 +14220,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/357.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/357.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/357.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon)",
 	},
@@ -14201,8 +14255,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/358.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/358.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chimecho_(Pok%C3%A9mon)",
 	},
@@ -14236,8 +14290,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/359.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/359.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)",
 	},
@@ -14271,8 +14325,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/360.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/360.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/360.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon)",
 	},
@@ -14306,8 +14360,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/361.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/361.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snorunt_(Pok%C3%A9mon)",
 	},
@@ -14341,8 +14395,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/362.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/362.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glalie_(Pok%C3%A9mon)",
 	},
@@ -14376,8 +14430,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/363.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/363.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/363.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spheal_(Pok%C3%A9mon)",
 	},
@@ -14411,8 +14465,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/364.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/364.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/364.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Sealeo_(Pok%C3%A9mon)",
 	},
@@ -14446,8 +14500,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/365.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/365.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Walrein_(Pok%C3%A9mon)",
 	},
@@ -14481,8 +14535,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/366.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/366.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/366.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Clamperl_(Pok%C3%A9mon)",
 	},
@@ -14516,8 +14570,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/367.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/367.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/367.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Huntail_(Pok%C3%A9mon)",
 	},
@@ -14551,8 +14605,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/368.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/368.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/368.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gorebyss_(Pok%C3%A9mon)",
 	},
@@ -14586,8 +14640,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/369.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/369.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/369.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Relicanth_(Pok%C3%A9mon)",
 	},
@@ -14621,8 +14675,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/370.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/370.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/370.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Luvdisc_(Pok%C3%A9mon)",
 	},
@@ -14656,8 +14710,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/371.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/371.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bagon_(Pok%C3%A9mon)",
 	},
@@ -14691,8 +14745,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/372.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/372.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shelgon_(Pok%C3%A9mon)",
 	},
@@ -14726,8 +14780,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/373.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/373.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Salamence_(Pok%C3%A9mon)",
 	},
@@ -14761,8 +14815,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/374.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/374.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Beldum_(Pok%C3%A9mon)",
 	},
@@ -14796,8 +14850,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/375.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/375.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metang_(Pok%C3%A9mon)",
 	},
@@ -14831,8 +14885,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/376.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/376.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pok%C3%A9mon)",
 	},
@@ -14866,8 +14920,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/377.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/377.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/377.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regirock_(Pok%C3%A9mon)",
 	},
@@ -14901,8 +14955,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/378.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/378.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/378.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regice_(Pok%C3%A9mon)",
 	},
@@ -14936,8 +14990,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/379.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/379.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/379.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Registeel_(Pok%C3%A9mon)",
 	},
@@ -14971,8 +15025,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/380.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/380.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/380.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Latias_(Pok%C3%A9mon)",
 	},
@@ -15006,8 +15060,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/381.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/381.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/381.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon)",
 	},
@@ -15041,8 +15095,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/382.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/382.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)",
 	},
@@ -15076,8 +15130,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/383.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/383.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)",
 	},
@@ -15111,8 +15165,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/384.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/384.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)",
 	},
@@ -15146,8 +15200,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/385.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/385.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/385.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pok%C3%A9mon)",
 	},
@@ -15181,8 +15235,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/386.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/386.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/386.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -15216,8 +15270,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10001.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10001.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10001.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10001.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -15251,8 +15305,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10002.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10002.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10002.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10002.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
@@ -15286,20 +15340,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10003.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10003.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10003.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10003.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Turtwig",
-		especie: "",
+		especie: "Turtwig",
 		codinome: "",
 		numero: 387, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 10.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/387.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/47/F0387.png",
 		estatistica: {
 			ps:		 	55,
@@ -15321,19 +15375,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d5/387Turtwig_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/387.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Grotle",
-		especie: "",
+		especie: "Grotle",
 		codinome: "",
 		numero: 388, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 97.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/388.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b4/F0388.png",
 		estatistica: {
 			ps:		 	75,
@@ -15355,19 +15410,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/40/388Grotle_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/388.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Torterra",
-		especie: "",
+		especie: "Torterra",
 		codinome: "",
 		numero: 389, // considerando a national dex
 		tipo: ["Planta", " Terra"],
 		massa: 310.0, // em kg
 		altura: 2.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/389.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0389.png",
 		estatistica: {
 			ps:		 	95,
@@ -15389,19 +15445,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/cb/389Torterra_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/389.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Chimchar",
-		especie: "",
+		especie: "Chimchar",
 		codinome: "",
 		numero: 390, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 6.2, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/390.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/32/F0390.png",
 		estatistica: {
 			ps:		 	44,
@@ -15423,19 +15480,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6c/390Chimchar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/390.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Monferno",
-		especie: "",
+		especie: "Monferno",
 		codinome: "",
 		numero: 391, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 22.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/391.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/41/F0391.png",
 		estatistica: {
 			ps:		 	64,
@@ -15457,19 +15515,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c4/391Monferno_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/391.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Monferno_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Infernape",
-		especie: "",
+		especie: "Infernape",
 		codinome: "",
 		numero: 392, // considerando a national dex
 		tipo: ["Fogo", " Lutador"],
 		massa: 55.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/392.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bd/F0392.png",
 		estatistica: {
 			ps:		 	76,
@@ -15491,19 +15550,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3f/392Infernape_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/392.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Piplup",
-		especie: "",
+		especie: "Piplup",
 		codinome: "",
 		numero: 393, // considerando a national dex
 		tipo: ["Água"],
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/393.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9b/F0393.png",
 		estatistica: {
 			ps:		 	53,
@@ -15525,19 +15585,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3b/393Piplup_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/393.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Prinplup",
-		especie: "",
+		especie: "Prinplup",
 		codinome: "",
 		numero: 394, // considerando a national dex
 		tipo: ["Água"],
 		massa: 23.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/394.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f3/F0394.png",
 		estatistica: {
 			ps:		 	64,
@@ -15559,19 +15620,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9e/394Prinplup_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/394.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Empoleon",
-		especie: "",
+		especie: "Empoleon",
 		codinome: "",
 		numero: 395, // considerando a national dex
 		tipo: ["Água", " Metal"],
 		massa: 84.5, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/395.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/30/F0395.png",
 		estatistica: {
 			ps:		 	84,
@@ -15593,19 +15655,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a0/395Empoleon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/395.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Starly",
-		especie: "",
+		especie: "Starly",
 		codinome: "",
 		numero: 396, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 2.0, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/396.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a5/F0396.png",
 		estatistica: {
 			ps:		 	40,
@@ -15627,19 +15690,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e1/396Starly_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/396.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Starly_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Staravia",
-		especie: "",
+		especie: "Staravia",
 		codinome: "",
 		numero: 397, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 15.5, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/397.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/db/F0397.png",
 		estatistica: {
 			ps:		 	55,
@@ -15662,19 +15726,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/18/397Staravia_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/397.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staravia_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Staraptor",
-		especie: "",
+		especie: "Staraptor",
 		codinome: "",
 		numero: 398, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 24.9, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/398.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0398.png",
 		estatistica: {
 			ps:		 	85,
@@ -15696,19 +15761,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e7/398Staraptor_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/398.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Staraptor_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bidoof",
-		especie: "",
+		especie: "Bidoof",
 		codinome: "",
 		numero: 399, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 20.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/399.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0399.png",
 		estatistica: {
 			ps:		 	59,
@@ -15731,19 +15797,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8d/399Bidoof_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/399.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bidoof_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bibarel",
-		especie: "",
+		especie: "Bibarel",
 		codinome: "",
 		numero: 400, // considerando a national dex
 		tipo: ["Normal", " Água"],
 		massa: 31.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/400.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0400.png",
 		estatistica: {
 			ps:		 	79,
@@ -15766,19 +15833,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/df/400Bibarel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/400.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bibarel_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Kricketot",
-		especie: "",
+		especie: "Kricketot",
 		codinome: "",
 		numero: 401, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 2.2, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/401.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0401.png",
 		estatistica: {
 			ps:		 	37,
@@ -15800,19 +15868,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4a/401Kricketot_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/401.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kricketot_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Kricketune",
-		especie: "",
+		especie: "Kricketune",
 		codinome: "",
 		numero: 402, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/402.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/58/F0402.png",
 		estatistica: {
 			ps:		 	77,
@@ -15835,19 +15904,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/df/402Kricketune_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/402.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Kricketune_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shinx",
-		especie: "",
+		especie: "Shinx",
 		codinome: "",
 		numero: 403, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 9.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/403.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/cd/F0403.png",
 		estatistica: {
 			ps:		 	45,
@@ -15869,19 +15939,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/58/403Shinx_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/403.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shinx_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Luxio",
-		especie: "",
+		especie: "Luxio",
 		codinome: "",
 		numero: 404, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 30.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/404.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/eb/F0404.png",
 		estatistica: {
 			ps:		 	60,
@@ -15903,19 +15974,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/66/404Luxio_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/404.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Luxio_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Luxray",
-		especie: "",
+		especie: "Luxray",
 		codinome: "",
 		numero: 405, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 42.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/405.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0405.png",
 		estatistica: {
 			ps:		 	80,
@@ -15937,19 +16009,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1c/405Luxray_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/405.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Luxray_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Budew",
-		especie: "",
+		especie: "Budew",
 		codinome: "",
 		numero: 406, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 1.2, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/406.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0406.png",
 		estatistica: {
 			ps:		 	40,
@@ -15972,19 +16045,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3f/406Budew_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/406.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Budew_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Roserade",
-		especie: "",
+		especie: "Roserade",
 		codinome: "",
 		numero: 407, // considerando a national dex
 		tipo: ["Planta", " Veneno"],
 		massa: 14.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/407.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0407.png",
 		estatistica: {
 			ps:		 	60,
@@ -16006,19 +16080,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/52/407Roserade_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/407.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Roserade_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cranidos",
-		especie: "",
+		especie: "Cranidos",
 		codinome: "",
 		numero: 408, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 31.5, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/408.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/68/F0408.png",
 		estatistica: {
 			ps:		 	67,
@@ -16040,19 +16115,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e3/408Cranidos_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/408.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cranidos_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rampardos",
-		especie: "",
+		especie: "Rampardos",
 		codinome: "",
 		numero: 409, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 102.5, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/409.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b9/F0409.png",
 		estatistica: {
 			ps:		 	97,
@@ -16074,19 +16150,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/39/409Rampardos_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/409.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rampardos_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shieldon",
-		especie: "",
+		especie: "Shieldon",
 		codinome: "",
 		numero: 410, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
 		massa: 57.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/410.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7b/F0410.png",
 		estatistica: {
 			ps:		 	30,
@@ -16108,19 +16185,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/52/410Shieldon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/410.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shieldon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bastiodon",
-		especie: "",
+		especie: "Bastiodon",
 		codinome: "",
 		numero: 411, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
 		massa: 149.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/411.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d5/F0411.png",
 		estatistica: {
 			ps:		 	60,
@@ -16142,19 +16220,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a8/411Bastiodon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/411.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bastiodon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Burmy",
-		especie: "",
+		especie: "Burmy",
 		codinome: "",
 		numero: 412, // considerando a national dex
 		tipo: ["Inseto"],
 		massa: 3.4, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/412.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0412.png",
 		estatistica: {
 			ps:		 	40,
@@ -16177,21 +16256,24 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3a/412Burmy_Plant_Cloak_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/6/60/412Burmy_Sandy_Cloak_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/5/51/412Burmy_Trash_Cloak_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/412.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/412-sandy.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/412-sandy.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/412-trash.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/412-trash.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wormadam (Manto Vegetal)",
-		especie: "",
-		codinome: "Wormadam",
+		especie: "Wormadam",
+		codinome: "",
 		numero: 413.1, // considerando a national dex
 		tipo: ["Inseto", " Planta"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/413.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps:		 	60,
@@ -16213,19 +16295,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bb/413Wormadam_Plant_Cloak_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/413.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wormadam (Manto Arenoso)",
-		especie: "",
-		codinome: "Wormadam",
+		especie: "Wormadam",
+		codinome: "",
 		numero: 413.2, // considerando a national dex
 		tipo: ["Inseto", " Terra"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10004.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps:		 	60,
@@ -16243,23 +16326,24 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bd/413Wormadam_Sandy_Cloak_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10004.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10004.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Wormadam (Manto de Lixo)",
-		especie: "",
-		codinome: "Wormadam",
+		especie: "Wormadam",
+		codinome: "",
 		numero: 413.3, // considerando a national dex
 		tipo: ["Inseto", " Metal"],
 		massa: 6.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10005.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/98/F0413.png",
 		estatistica: {
 			ps:		 	60,
@@ -16277,23 +16361,24 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/30/413Wormadam_Trash_Cloak_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10005.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10005.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mothim",
-		especie: "",
+		especie: "Mothim",
 		codinome: "",
 		numero: 414, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 23.3, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/414.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/48/F0414.png",
 		estatistica: {
 			ps:		 	70,
@@ -16315,19 +16400,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6d/414Mothim_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/414.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mothim_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Combee",
-		especie: "",
+		especie: "Combee",
 		codinome: "",
 		numero: 415, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 5.5, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/415.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/95/F0415.png",
 		estatistica: {
 			ps:		 	30,
@@ -16350,19 +16436,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8c/415Combee_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/415.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Combee_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Vespiquen",
-		especie: "",
+		especie: "Vespiquen",
 		codinome: "",
 		numero: 416, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 38.5, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/416.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f2/F0416.png",
 		estatistica: {
 			ps:		 	70,
@@ -16384,19 +16471,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1d/416Vespiquen_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/416.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Vespiquen_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Pachirisu",
-		especie: "",
+		especie: "Pachirisu",
 		codinome: "",
 		numero: 417, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 3.9, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/417.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0417.png",
 		estatistica: {
 			ps:		 	60,
@@ -16418,19 +16506,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7a/417Pachirisu_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/417.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Pachirisu_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Buizel",
-		especie: "",
+		especie: "Buizel",
 		codinome: "",
 		numero: 418, // considerando a national dex
 		tipo: ["Água"],
 		massa: 29.5, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/418.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/61/F0418.png",
 		estatistica: {
 			ps:		 	55,
@@ -16452,19 +16541,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/28/418Buizel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/418.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Buizel_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Floatzel",
-		especie: "",
+		especie: "Floatzel",
 		codinome: "",
 		numero: 419, // considerando a national dex
 		tipo: ["Água"],
 		massa: 33.5, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/419.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/bb/F0419.png",
 		estatistica: {
 			ps:		 	85,
@@ -16487,19 +16577,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/56/419Floatzel_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/419.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Floatzel_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cherubi",
-		especie: "",
+		especie: "Cherubi",
 		codinome: "",
 		numero: 420, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 3.3, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/420.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0420.png",
 		estatistica: {
 			ps:		 	45,
@@ -16522,19 +16613,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bb/420Cherubi_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/420.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cherubi_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cherrim",
-		especie: "",
+		especie: "Cherrim",
 		codinome: "",
 		numero: 421, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 9.3, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/421.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e9/F0421.png",
 		estatistica: {
 			ps:		 	70,
@@ -16556,20 +16648,22 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1a/421Cherrim_Overcast_Form_Dream.png",
-			"https://archives.bulbagarden.net/media/upload/5/5f/421Cherrim_Sunshine_Form_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/421.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/421-sunshine.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/421-sunshine.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shellos (Mar Leste)",
-		especie: "",
-		codinome: "Shellos",
+		especie: "Shellos",
+		codinome: "",
 		numero: 422.1, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/422.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0422.png",
 		estatistica: {
 			ps:		 	76,
@@ -16587,23 +16681,24 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d7/422Shellos_East_Sea_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422-east.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/422-east.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shellos (Mar Oeste)",
-		especie: "",
-		codinome: "Shellos",
+		especie: "Shellos",
+		codinome: "",
 		numero: 422.2, // considerando a national dex
 		tipo: ["Água"],
 		massa: 6.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/422.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/29/F0422.png",
 		estatistica: {
 			ps:		 	76,
@@ -16625,19 +16720,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/07/422Shellos_West_Sea_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/422.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gastrodon (Mar Leste)",
-		especie: "",
-		codinome: "Gastrodon",
+		especie: "Gastrodon",
+		codinome: "",
 		numero: 423.1, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/423.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0423.png",
 		estatistica: {
 			ps:		 	111,
@@ -16659,19 +16755,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d2/423Gastrodon_East_Sea_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423-east.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/423-east.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gastrodon (Mar Oeste)",
-		especie: "",
-		codinome: "Gastrodon",
+		especie: "Gastrodon",
+		codinome: "",
 		numero: 423.2, // considerando a national dex
 		tipo: ["Água", " Terra"],
 		massa: 29.9, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/423.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0423.png",
 		estatistica: {
 			ps:		 	111,
@@ -16693,19 +16790,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a2/423Gastrodon_West_Sea_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/423.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Ambipom",
-		especie: "",
+		especie: "Ambipom",
 		codinome: "",
 		numero: 424, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 20.3, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/424.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0424.png",
 		estatistica: {
 			ps:		 	75,
@@ -16727,19 +16825,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/02/424Ambipom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/424.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Ambipom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Drifloon",
-		especie: "",
+		especie: "Drifloon",
 		codinome: "",
 		numero: 425, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
 		massa: 1.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/425.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/e/e4/F0425.png",
 		estatistica: {
 			ps:		 	90,
@@ -16761,19 +16860,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/45/425Drifloon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/425.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drifloon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Drifblim",
-		especie: "",
+		especie: "Drifblim",
 		codinome: "",
 		numero: 426, // considerando a national dex
 		tipo: ["Fantasma", " Voador"],
 		massa: 15.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/426.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/7e/F0426.png",
 		estatistica: {
 			ps:		 	150,
@@ -16795,19 +16895,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0c/426Drifblim_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/426.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drifblim_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Buneary",
-		especie: "",
+		especie: "Buneary",
 		codinome: "",
 		numero: 427, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 5.5, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/427.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0427.png",
 		estatistica: {
 			ps:		 	55,
@@ -16829,19 +16930,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/ab/427Buneary_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/427.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Buneary_(Pok%C3%A9mon)",
 	},
 	{
-		nome: "Luponny",
-		especie: "",
+		nome: "Lopunny",
+		especie: "Lopunny",
 		codinome: "",
 		numero: 428, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 33.3, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/428.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/37/F0428.png",
 		estatistica: {
 			ps:		 	65,
@@ -16863,19 +16965,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0a/428Lopunny_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/428.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mismagius",
-		especie: "",
+		especie: "Mismagius",
 		codinome: "",
 		numero: 429, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 4.4, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/429.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4a/F0429.png",
 		estatistica: {
 			ps:		 	60,
@@ -16897,19 +17000,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/f9/429Mismagius_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/429.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mismagius_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Honchkrow",
-		especie: "",
+		especie: "Honchkrow",
 		codinome: "",
 		numero: 430, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 27.3, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/430.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ab/F0430.png",
 		estatistica: {
 			ps:		 	100,
@@ -16931,19 +17035,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4a/430Honchkrow_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/430.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Honchkrow_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Glameow",
-		especie: "",
+		especie: "Glameow",
 		codinome: "",
 		numero: 431, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 3.9, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/431.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0431.png",
 		estatistica: {
 			ps:		 	49,
@@ -16965,19 +17070,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/ae/431Glameow_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/431.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glameow_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Purugly",
-		especie: "",
+		especie: "Purugly",
 		codinome: "",
 		numero: 432, // considerando a national dex
 		tipo: ["Noturno", " Voador"],
 		massa: 43.8, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/432.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0432.png",
 		estatistica: {
 			ps:		 	71,
@@ -16999,19 +17105,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c5/432Purugly_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/432.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Purugly_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Chingling",
-		especie: "",
+		especie: "Chingling",
 		codinome: "",
 		numero: 433, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.6, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/433.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/57/F0433.png",
 		estatistica: {
 			ps:		 	45,
@@ -17034,19 +17141,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/dc/433Chingling_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/433.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chingling_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Stunky",
-		especie: "",
+		especie: "Stunky",
 		codinome: "",
 		numero: 434, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 19.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/434.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c6/F0434.png",
 		estatistica: {
 			ps:		 	63,
@@ -17068,19 +17176,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/27/434Stunky_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/434.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Stunky_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Skuntank",
-		especie: "",
+		especie: "Skuntank",
 		codinome: "",
 		numero: 435, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 38.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/435.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/90/F0435.png",
 		estatistica: {
 			ps:		 	103,
@@ -17102,19 +17211,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/f/fb/435Skuntank_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/435.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skuntank_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bronzor",
-		especie: "",
+		especie: "Bronzor",
 		codinome: "",
 		numero: 436, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 60.5, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/436.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/a0/F0436.png",
 		estatistica: {
 			ps:		 	57,
@@ -17137,19 +17247,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/af/436Bronzor_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/436.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bronzor_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bronzong",
-		especie: "",
+		especie: "Bronzong",
 		codinome: "",
 		numero: 437, // considerando a national dex
 		tipo: ["Metal", " Psíquico"],
 		massa: 187.0, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/437.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c2/F0437.png",
 		estatistica: {
 			ps:		 	67,
@@ -17171,19 +17282,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a5/437Bronzong_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/437.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bronzong_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Bonsly",
-		especie: "",
+		especie: "Bonsly",
 		codinome: "",
 		numero: 438, // considerando a national dex
 		tipo: ["Rocha"],
 		massa: 15.0, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/438.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8e/F0438.png",
 		estatistica: {
 			ps:		 	50,
@@ -17205,19 +17317,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/thumb/4/47/0438Bonsly.png/375px-0438Bonsly.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/438.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Bonsly_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mime Jr.",
-		especie: "",
+		especie: "Mime Jr.",
 		codinome: "",
 		numero: 439, // considerando a national dex
 		tipo: ["Psíquico", " Fada"],
 		massa: 13.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/439.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0439.png",
 		estatistica: {
 			ps:		 	20,
@@ -17239,13 +17352,14 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/80/439Mime_Jr._Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/439.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mime_Jr._(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Happiny",
-		especie: "",
+		especie: "Happiny",
 		codinome: "",
 		numero: 440, // considerando a national dex
 		tipo: ["Normal"],
@@ -17273,19 +17387,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/50/440Happiny_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/440.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Happiny_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Chatot",
-		especie: "",
+		especie: "Chatot",
 		codinome: "",
 		numero: 441, // considerando a national dex
 		tipo: ["Normal", " Voador"],
 		massa: 1.9, // em kg
 		altura: 0.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/441.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/79/F0441.png",
 		estatistica: {
 			ps:		 	76,
@@ -17307,19 +17422,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/11/441Chatot_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/441.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Chatot_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Spiritomb",
-		especie: "",
+		especie: "Spiritomb",
 		codinome: "",
 		numero: 442, // considerando a national dex
 		tipo: ["Fantasma", " Noturno"],
 		massa: 108.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/442.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/27/F0442.png",
 		estatistica: {
 			ps:		 	50,
@@ -17341,19 +17457,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/84/442Spiritomb_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/442.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Spiritomb_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gible",
-		especie: "",
+		especie: "Gible",
 		codinome: "",
 		numero: 443, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 20.5, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/443.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/1a/F0443.png",
 		estatistica: {
 			ps:		 	58,
@@ -17375,19 +17492,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0d/443Gible_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/443.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gible_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gabite",
-		especie: "",
+		especie: "Gabite",
 		codinome: "",
 		numero: 444, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 56.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/444.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/10/F0444.png",
 		estatistica: {
 			ps:		 	68,
@@ -17409,19 +17527,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a0/444Gabite_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/444.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gabite_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Garchomp",
-		especie: "",
+		especie: "Garchomp",
 		codinome: "",
 		numero: 445, // considerando a national dex
 		tipo: ["Dragão", " Terra"],
 		massa: 95.0, // em kg
 		altura: 1.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/445.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0445.png",
 		estatistica: {
 			ps:		 	108,
@@ -17443,19 +17562,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/58/445Garchomp_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/445.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Garchomp_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Munchlax",
-		especie: "",
+		especie: "Munchlax",
 		codinome: "",
 		numero: 446, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 105.0, // em kg
 		altura: 0.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/446.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/ce/F0446.png",
 		estatistica: {
 			ps:		 	135,
@@ -17478,19 +17598,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/53/446Munchlax_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/446.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Munchlax_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Riolu",
-		especie: "",
+		especie: "Riolu",
 		codinome: "",
 		numero: 447, // considerando a national dex
 		tipo: ["Lutador"],
 		massa: 20.2, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/447.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/39/F0447.png",
 		estatistica: {
 			ps:		 	40,
@@ -17512,19 +17633,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d1/447Riolu_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/447.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Riolu_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lucario",
-		especie: "",
+		especie: "Lucario",
 		codinome: "",
 		numero: 448, // considerando a national dex
 		tipo: ["Lutador", " Metal"],
 		massa: 54.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/448.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fd/F0448.png",
 		estatistica: {
 			ps:		 	70,
@@ -17546,19 +17668,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/44/448Lucario_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/448.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Hippopotas",
-		especie: "",
+		especie: "Hippopotas",
 		codinome: "",
 		numero: 449, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 49.5, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/449.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0449.png",
 		estatistica: {
 			ps:		 	68,
@@ -17580,19 +17703,22 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/28/449Hippopotas_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/449.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/449.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/449.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hippopotas_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Hippowdon",
-		especie: "",
+		especie: "Hippowdon",
 		codinome: "",
 		numero: 450, // considerando a national dex
 		tipo: ["Terra"],
 		massa: 300.0, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/450.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/f5/F0450.png",
 		estatistica: {
 			ps:		 	108,
@@ -17614,19 +17740,22 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c8/450Hippowdon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/450.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/450.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/450.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Hippowdon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Skorupi",
-		especie: "",
+		especie: "Skorupi",
 		codinome: "",
 		numero: 451, // considerando a national dex
 		tipo: ["Veneno", " Inseto"],
 		massa: 12.0, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/451.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/99/F0451.png",
 		estatistica: {
 			ps:		 	40,
@@ -17648,19 +17777,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0b/451Skorupi_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/451.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Skorupi_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Drapion",
-		especie: "",
+		especie: "Drapion",
 		codinome: "",
 		numero: 452, // considerando a national dex
 		tipo: ["Veneno", " Noturno"],
 		massa: 61.5, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/452.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0452.png",
 		estatistica: {
 			ps:		 	70,
@@ -17682,19 +17812,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/78/452Drapion_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/452.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Drapion_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Croagunk",
-		especie: "",
+		especie: "Croagunk",
 		codinome: "",
 		numero: 453, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
 		massa: 23.0, // em kg
 		altura: 0.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/453.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/b/b8/F0453.png",
 		estatistica: {
 			ps:		 	48,
@@ -17716,19 +17847,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/75/453Croagunk_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/453.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Croagunk_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Toxicroak",
-		especie: "",
+		especie: "Toxicroak",
 		codinome: "",
 		numero: 454, // considerando a national dex
 		tipo: ["Veneno", " Lutador"],
 		massa: 44.4, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/454.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/38/F0454.png",
 		estatistica: {
 			ps:		 	83,
@@ -17750,19 +17882,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c4/454Toxicroak_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/454.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Toxicroak_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Carnivine",
-		especie: "",
+		especie: "Carnivine",
 		codinome: "",
 		numero: 455, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 27.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/455.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5b/F0455.png",
 		estatistica: {
 			ps:		 	74,
@@ -17784,19 +17917,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/5b/455Carnivine_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/455.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Carnivine_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Finneon",
-		especie: "",
+		especie: "Finneon",
 		codinome: "",
 		numero: 456, // considerando a national dex
 		tipo: ["Água"],
 		massa: 7.0, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/456.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0456.png",
 		estatistica: {
 			ps:		 	49,
@@ -17819,19 +17953,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/dc/456Finneon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/456.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Finneon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lumineon",
-		especie: "",
+		especie: "Lumineon",
 		codinome: "",
 		numero: 457, // considerando a national dex
 		tipo: ["Água"],
 		massa: 24.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/457.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d8/F0457.png",
 		estatistica: {
 			ps:		 	69,
@@ -17854,19 +17989,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/94/457Lumineon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/457.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lumineon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mantyke",
-		especie: "",
+		especie: "Mantyke",
 		codinome: "",
 		numero: 458, // considerando a national dex
 		tipo: ["Água", " Voador"],
 		massa: 65.0, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/458.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/43/F0458.png",
 		estatistica: {
 			ps:		 	45,
@@ -17888,19 +18024,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/0d/458Mantyke_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/458.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mantyke_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Snover",
-		especie: "",
+		especie: "Snover",
 		codinome: "",
 		numero: 459, // considerando a national dex
 		tipo: ["Planta", " Gelo"],
 		massa: 50.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/459.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0459.png",
 		estatistica: {
 			ps:		 	60,
@@ -17923,19 +18060,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/85/459Snover_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/459.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Snover_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Abomasnow",
-		especie: "",
+		especie: "Abomasnow",
 		codinome: "",
 		numero: 460, // considerando a national dex
 		tipo: ["Planta", " Gelo"],
 		massa: 135.5, // em kg
 		altura: 2.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/460.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/01/F0460.png",
 		estatistica: {
 			ps:		 	90,
@@ -17957,19 +18095,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/77/460Abomasnow_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/460.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Weavile",
-		especie: "",
+		especie: "Weavile",
 		codinome: "",
 		numero: 461, // considerando a national dex
 		tipo: ["Noturno", " Gelo"],
 		massa: 34.0, // em kg
 		altura: 1.1, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/461.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/33/F0461.png",
 		estatistica: {
 			ps:		 	70,
@@ -17991,19 +18130,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c6/461Weavile_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/461.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Weavile_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Magnezone",
-		especie: "",
+		especie: "Magnezone",
 		codinome: "",
 		numero: 462, // considerando a national dex
 		tipo: ["Elétrico", " Metal"],
 		massa: 180.0, // em kg
 		altura: 1.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/462.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/8f/F0462.png",
 		estatistica: {
 			ps:		 	70,
@@ -18025,19 +18165,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/63/462Magnezone_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/462.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magnezone_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Lickilicky",
-		especie: "",
+		especie: "Lickilicky",
 		codinome: "",
 		numero: 463, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 140.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/463.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/82/F0463.png",
 		estatistica: {
 			ps:		 	110,
@@ -18059,19 +18200,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b8/463Lickilicky_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/463.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Lickilicky_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rhyperior",
-		especie: "",
+		especie: "Rhyperior",
 		codinome: "",
 		numero: 464, // considerando a national dex
 		tipo: ["Terra", " Rocha"],
 		massa: 282.8, // em kg
 		altura: 2.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/464.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/03/F0464.png",
 		estatistica: {
 			ps:		 	115,
@@ -18093,19 +18235,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/02/464Rhyperior_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/464.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rhyperior_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Tangrowth",
-		especie: "",
+		especie: "Tangrowth",
 		codinome: "",
 		numero: 465, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 128.6, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/465.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/8/85/F0465.png",
 		estatistica: {
 			ps:		 	100,
@@ -18127,19 +18270,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/42/465Tangrowth_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/465.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Tangrowth_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Electivire",
-		especie: "",
+		especie: "Electivire",
 		codinome: "",
 		numero: 466, // considerando a national dex
 		tipo: ["Elétrico"],
 		massa: 138.6, // em kg
 		altura: 1.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/466.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/a/ae/F0466.png",
 		estatistica: {
 			ps:		 	75,
@@ -18161,19 +18305,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/35/466Electivire_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/466.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Electivire_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Magmortar",
-		especie: "",
+		especie: "Magmortar",
 		codinome: "",
 		numero: 467, // considerando a national dex
 		tipo: ["Fogo"],
 		massa: 68.0, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/467.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0467.png",
 		estatistica: {
 			ps:		 	75,
@@ -18195,19 +18340,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8e/467Magmortar_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/467.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Magmortar_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Togekiss",
-		especie: "",
+		especie: "Togekiss",
 		codinome: "",
 		numero: 468, // considerando a national dex
 		tipo: ["Fada", " Voador"],
 		massa: 38.0, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/468.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/c/c9/F0468.png",
 		estatistica: {
 			ps:		 	85,
@@ -18229,19 +18375,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4b/468Togekiss_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/468.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Togekiss_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Yanmega",
-		especie: "",
+		especie: "Yanmega",
 		codinome: "",
 		numero: 469, // considerando a national dex
 		tipo: ["Inseto", " Voador"],
 		massa: 51.5, // em kg
 		altura: 1.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/469.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/9d/F0469.png",
 		estatistica: {
 			ps:		 	86,
@@ -18263,19 +18410,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/7a/469Yanmega_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/469.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Yanmega_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Leafeon",
-		especie: "",
+		especie: "Leafeon",
 		codinome: "",
 		numero: 470, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 25.5, // em kg
 		altura: 1.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/470.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/93/F0470.png",
 		estatistica: {
 			ps:		 	65,
@@ -18297,19 +18445,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/41/470Leafeon_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/470.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Leafeon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Glaceon",
-		especie: "",
+		especie: "Glaceon",
 		codinome: "",
 		numero: 471, // considerando a national dex
 		tipo: ["Gelo"],
 		massa: 25.9, // em kg
 		altura: 0.8, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/471.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/45/F0471.png",
 		estatistica: {
 			ps:		 	65,
@@ -18331,19 +18480,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/24/471Glaceon_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/471.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gliscor",
-		especie: "",
+		especie: "Gliscor",
 		codinome: "",
 		numero: 472, // considerando a national dex
 		tipo: ["Terra", " Voador"],
 		massa: 42.5, // em kg
 		altura: 2.0, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/472.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/4e/F0472.png",
 		estatistica: {
 			ps:		 	75,
@@ -18365,19 +18515,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/2/2f/472Gliscor_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/472.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gliscor_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mamoswine",
-		especie: "",
+		especie: "Mamoswine",
 		codinome: "",
 		numero: 473, // considerando a national dex
 		tipo: ["Gelo", " Terra"],
 		massa: 291.0, // em kg
 		altura: 2.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/473.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/04/F0473.png",
 		estatistica: {
 			ps:		 	110,
@@ -18399,19 +18550,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/51/473Mamoswine_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/473.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mamoswine_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Porygon-Z",
-		especie: "",
+		especie: "Porygon-Z",
 		codinome: "",
 		numero: 474, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 34.0, // em kg
 		altura: 0.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/474.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/55/F0474.png",
 		estatistica: {
 			ps:		 	85,
@@ -18433,19 +18585,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/8/8a/474Porygon-Z_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/474.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Porygon-Z_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Gallade",
-		especie: "",
+		especie: "Gallade",
 		codinome: "",
 		numero: 475, // considerando a national dex
 		tipo: ["Psíquico", " Lutador"],
 		massa: 52.0, // em kg
 		altura: 1.6, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/475.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/52/F0475.png",
 		estatistica: {
 			ps:		 	68,
@@ -18467,19 +18620,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e1/475Gallade_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/475.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Gallade_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Probopass",
-		especie: "",
+		especie: "Probopass",
 		codinome: "",
 		numero: 476, // considerando a national dex
 		tipo: ["Rocha", " Metal"],
 		massa: 340.0, // em kg
 		altura: 1.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/476.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d3/F0476.png",
 		estatistica: {
 			ps:		 	60,
@@ -18501,19 +18655,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a5/476Probopass_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/476.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Probopass_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Dusknoir",
-		especie: "",
+		especie: "Dusknoir",
 		codinome: "",
 		numero: 477, // considerando a national dex
 		tipo: ["Fantasma"],
 		massa: 106.6, // em kg
 		altura: 2.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/477.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/1/16/F0477.png",
 		estatistica: {
 			ps:		 	45,
@@ -18535,19 +18690,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/1a/477Dusknoir_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/477.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dusknoir_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Froslass",
-		especie: "",
+		especie: "Froslass",
 		codinome: "",
 		numero: 478, // considerando a national dex
 		tipo: ["Gelo", " Fantasma"],
 		massa: 26.6, // em kg
 		altura: 1.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/478.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/67/F0478.png",
 		estatistica: {
 			ps:		 	70,
@@ -18569,19 +18725,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/7/78/478Froslass_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rotom",
-		especie: "",
-		codinome: "Rotom",
+		especie: "Rotom",
+		codinome: "",
 		numero: 479.1, // considerando a national dex
 		tipo: ["Elétrico", " Fantasma"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/479.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -18603,19 +18760,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/01/479Rotom_Normal_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rotom Calor",
-		especie: "",
-		codinome: "Rotom",
+		especie: "Rotom",
+		codinome: "",
 		numero: 479.2, // considerando a national dex
 		tipo: ["Elétrico", " Fogo"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10008.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -18637,19 +18795,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/4a/479Rotom_Heat_Rotom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-heat.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-heat.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rotom Lavagem",
-		especie: "",
-		codinome: "Rotom",
+		especie: "Rotom",
+		codinome: "",
 		numero: 479.3, // considerando a national dex
 		tipo: ["Elétrico", " Água"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10009.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -18671,19 +18830,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/5/52/479Rotom_Wash_Rotom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-wash.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-wash.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rotom Congelante",
-		especie: "",
-		codinome: "Rotom",
+		especie: "Rotom",
+		codinome: "",
 		numero: 479.4, // considerando a national dex
 		tipo: ["Elétrico", " Gelo"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10010.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -18705,19 +18865,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/a/a9/479Rotom_Frost_Rotom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-frost.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-frost.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rotom Ventilador",
-		especie: "",
-		codinome: "Rotom",
+		especie: "Rotom",
+		codinome: "",
 		numero: 479.5, // considerando a national dex
 		tipo: ["Elétrico", " Voador"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10011.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -18739,19 +18900,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9e/479Rotom_Fan_Rotom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-fan.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-fan.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Rotom Corte",
-		especie: "",
-		codinome: "Rotom",
+		especie: "Rotom",
+		codinome: "",
 		numero: 479.6, // considerando a national dex
 		tipo: ["Elétrico", " Planta"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10012.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/6/66/F0479.png",
 		estatistica: {
 			ps:		 	50,
@@ -18773,19 +18935,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: false,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/06/479Rotom_Mow_Rotom_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-mow.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-mow.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Uxie",
-		especie: "",
+		especie: "Uxie",
 		codinome: "",
 		numero: 480, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/480.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0480.png",
 		estatistica: {
 			ps:		 	75,
@@ -18807,19 +18970,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/b2/480Uxie_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/480.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Uxie_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Mesprit",
-		especie: "",
+		especie: "Mesprit",
 		codinome: "",
 		numero: 481, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/481.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/02/F0481.png",
 		estatistica: {
 			ps:		 	80,
@@ -18841,19 +19005,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/0/04/481Mesprit_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/481.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Mesprit_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Azelf",
-		especie: "",
+		especie: "Azelf",
 		codinome: "",
 		numero: 482, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 0.3, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/482.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/59/F0482.png",
 		estatistica: {
 			ps:		 	75,
@@ -18875,19 +19040,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/d/d5/482Azelf_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/482.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Azelf_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Dialga",
-		especie: "",
+		especie: "Dialga",
 		codinome: "",
 		numero: 483, // considerando a national dex
 		tipo: ["Metal", " Dragão"],
 		massa: 683.0, // em kg
 		altura: 5.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/483.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/06/F0483.png",
 		estatistica: {
 			ps:		 	100,
@@ -18909,19 +19075,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/c/c9/483Dialga_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/483.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Palkia",
-		especie: "",
+		especie: "Palkia",
 		codinome: "",
 		numero: 484, // considerando a national dex
 		tipo: ["Água", " Dragão"],
 		massa: 336.0, // em kg
 		altura: 4.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/484.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/7/70/F0484.png",
 		estatistica: {
 			ps:		 	90,
@@ -18943,19 +19110,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/43/484Palkia_Dream_2.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/484.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Heatran",
-		especie: "",
+		especie: "Heatran",
 		codinome: "",
 		numero: 485, // considerando a national dex
 		tipo: ["Fogo", " Metal"],
 		massa: 430.0, // em kg
 		altura: 1.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/485.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/d/d6/F0485.png",
 		estatistica: {
 			ps:		 	91,
@@ -18977,19 +19145,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/41/485Heatran_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/485.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Regigigas",
-		especie: "",
+		especie: "Regigigas",
 		codinome: "",
 		numero: 486, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 420.0, // em kg
 		altura: 3.7, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/486.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/3/3d/F0486.png",
 		estatistica: {
 			ps:		 	110,
@@ -19011,19 +19180,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/eb/486Regigigas_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/486.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Giratina (Forma Alterada)",
-		especie: "",
-		codinome: "Giratina",
+		especie: "Giratina",
+		codinome: "",
 		numero: 487.1, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
 		massa: 750.0, // em kg
 		altura: 4.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/487.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/2/25/F0487.png",
 		estatistica: {
 			ps:		 	150,
@@ -19045,19 +19215,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e9/487Giratina_Altered_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/487.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Giratina (Forma Origem)",
-		especie: "",
-		codinome: "Giratina",
+		especie: "Giratina",
+		codinome: "",
 		numero: 487.2, // considerando a national dex
 		tipo: ["Fantasma", " Dragão"],
 		massa: 650.0, // em kg
 		altura: 6.9, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10007.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/4/40/F0487O.png",
 		estatistica: {
 			ps:		 	150,
@@ -19079,19 +19250,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/9c/487Giratina_Origin_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487-origin.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/487-origin.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Cresselia",
-		especie: "",
+		especie: "Cresselia",
 		codinome: "",
 		numero: 488, // considerando a national dex
 		tipo: ["Psíquico"],
 		massa: 85.6, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/488.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/5/5e/F0488.png",
 		estatistica: {
 			ps:		 	120,
@@ -19113,19 +19285,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/1/12/488Cresselia_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/488.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Cresselia_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Phione",
-		especie: "",
+		especie: "Phione",
 		codinome: "",
 		numero: 489, // considerando a national dex
 		tipo: ["Água"],
 		massa: 3.1, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/489.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0489.png",
 		estatistica: {
 			ps:		 	80,
@@ -19147,19 +19320,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/3/3c/489Phione_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/489.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Phione_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Manaphy",
-		especie: "",
+		especie: "Manaphy",
 		codinome: "",
 		numero: 490, // considerando a national dex
 		tipo: ["Água"],
 		massa: 1.4, // em kg
 		altura: 0.3, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/490.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/f/fa/F0490.png",
 		estatistica: {
 			ps:		 	100,
@@ -19181,19 +19355,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/9/95/490Manaphy_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/490.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Darkrai",
-		especie: "",
+		especie: "Darkrai",
 		codinome: "",
 		numero: 491, // considerando a national dex
 		tipo: ["Noturno"],
 		massa: 50.5, // em kg
 		altura: 1.5, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/491.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/9/97/F0491.png",
 		estatistica: {
 			ps:		 	70,
@@ -19215,19 +19390,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/e/e5/491Darkrai_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/491.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shaymin (Forma Terrestre)",
-		especie: "",
-		codinome: "Shaymin",
+		especie: "Shaymin",
+		codinome: "",
 		numero: 492.1, // considerando a national dex
 		tipo: ["Planta"],
 		massa: 2.1, // em kg
 		altura: 0.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/492.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
 			ps:		 	100,
@@ -19249,19 +19425,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/6/6d/492Shaymin_Land_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/492.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Shaymin (Forma Céu)",
-		especie: "",
-		codinome: "Shaymin",
+		especie: "Shaymin",
+		codinome: "",
 		numero: 492.2, // considerando a national dex
 		tipo: ["Planta", " Voador"],
 		massa: 5.2, // em kg
 		altura: 0.4, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10006.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0c/F0492.png",
 		estatistica: {
 			ps:		 	100,
@@ -19283,19 +19460,20 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/b/bc/492Shaymin_Sky_Forme_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492-sky.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/492-sky.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
 	},
 	{
 		nome: "Arceus",
-		especie: "",
+		especie: "Arceus",
 		codinome: "",
 		numero: 493, // considerando a national dex
 		tipo: ["Normal"],
 		massa: 320.0, // em kg
 		altura: 3.2, // em metros
-		som: "",
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/493.ogg",
 		pegada: "https://archives.bulbagarden.net/media/upload/0/0d/F0493.png",
 		estatistica: {
 			ps:		 	120,
@@ -19317,7 +19495,8 @@ const pkmnDisponiveis = [
 		regional: false,
 		lendario: true,
 		sprite: [
-			"https://archives.bulbagarden.net/media/upload/4/40/493Arceus_Normal_Dream.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/493.png",
 		],
 		link: "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
 	},
