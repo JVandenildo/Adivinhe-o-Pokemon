@@ -246,13 +246,12 @@ button {
 }
 #dicaSilhueta {
 	text-align: center;
-	vertical-align: middle;
 	width: 175px;
 	height: 175px;
 }
 #dicaSilhueta img {
 	width: 150px;
-	mix-blend-mode: screen;
+	margin: 0px auto !important;
 	filter: contrast(1%) blur(2px);
 }
 
@@ -307,16 +306,16 @@ table p {
 #ultimato {
 	max-width: 12rem;
 	height: fit-content;
+	font-family: "Chakra Petch", monospace;
 	text-align: center;
 	font-size: small;
-	font-weight: bolder;
-	font-family: "Chakra Petch", monospace;
+	font-weight: bold;
 }
 #ultimato img {
+	margin: 0px auto;
+	-webkit-filter: drop-shadow(2px 2px 0px var(--light-bg))
+		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px var(--light-bg));
+	filter: drop-shadow(2px 2px 0px var(--light-bg))
+		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px var(--light-bg));
 	color: var(--dark-font-color);
-	width: 12rem;
-	-webkit-filter: drop-shadow(1px 1px 0px var(--light-bg))
-		drop-shadow(calc(-1 * 1px) calc(-1 1px) 0px var(--light-bg));
-	filter: drop-shadow(1px 1px 0px var(--light-bg))
-		drop-shadow(calc(-1 * 1px) calc(-1 * 1px) 0px var(--light-bg));
 }
