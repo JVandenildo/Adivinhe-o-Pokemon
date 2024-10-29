@@ -20,6 +20,7 @@ const checkNona = document.querySelector("#checkNona");
 const dificuldadeRadio = document.querySelectorAll("input[name=dificuldades]");
 
 let dificuldade = "Fácil";
+let imgIndex = 0;
 
 let escolhido = {
 	nome: "MissingNo.",
@@ -79,8 +80,6 @@ function novaTentativa() {
 		btnDesistencia.style.cursor = "pointer";
 		document.addEventListener("keydown", gerenciarEnter);
 
-		dificuldade = dificuldadeSecionada();
-
 		const data = new Date();
 		const ticket = Math.floor(
 			Math.random(data) *
@@ -97,6 +96,8 @@ function novaTentativa() {
 		escolhido = pkmnDisponiveis.filter(
 			(x) => x.numero === selecaoGeracao(ticket)
 		);
+		dificuldade = dificuldadeSecionada();
+		indiceAleatorio(escolhido[0].sprite);
 
 		switch (dificuldade) {
 			case "Fácil":
@@ -104,9 +105,7 @@ function novaTentativa() {
 					"beforeend",
 					`<table style="margin: 0px auto !important;">
 						<tr><th scope="col" colspan="1">Silhueta</th></tr>
-						<tr><td id="dicaSilhueta"><img id="imgSilhueta" onload="imagensPNG('imgSilhueta')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
+						<tr><td id="dicaSilhueta"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
 					</table>`
 				);
 
@@ -114,8 +113,6 @@ function novaTentativa() {
 
 				return escolhido;
 			case "Média":
-				escolhido[0].forma === true ? (escolhido[0].codinome = "") : false;
-
 				dicas.insertAdjacentHTML(
 					"beforeend",
 					`<table style="margin: 0px auto !important;">
@@ -191,33 +188,13 @@ function palpitar() {
 					document.removeEventListener("keydown", gerenciarEnter);
 
 					if (palpites === 1) {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a> com ${palpites} palpite!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpite!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return true;
 					} else {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a> com ${palpites} palpites!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpites!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return true;
 					}
@@ -234,18 +211,8 @@ function palpitar() {
 						btnPalpite.style.cursor = "not-allowed";
 						document.removeEventListener("keydown", gerenciarEnter);
 
-						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a>!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return false;
 					} else {
@@ -289,9 +256,7 @@ function palpitar() {
 				/* quarta e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
-					<tr><td id="dicaSilhueta"><img id="imgSilhueta" onload="imagensPNG('imgSilhueta')" loading="eager" src="${
-						escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-					}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
+					<tr><td id="dicaSilhueta"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
 				</table>`,
 			];
 
@@ -316,33 +281,13 @@ function palpitar() {
 					document.removeEventListener("keydown", gerenciarEnter);
 
 					if (palpites === 1) {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a> com ${palpites} palpite!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpite!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return true;
 					} else {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a> com ${palpites} palpites!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpites!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return true;
 					}
@@ -359,18 +304,8 @@ function palpitar() {
 						btnPalpite.style.cursor = "not-allowed";
 						document.removeEventListener("keydown", gerenciarEnter);
 
-						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a>!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return false;
 					} else {
@@ -436,9 +371,7 @@ function palpitar() {
 				/* sexta e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
-					<tr><td id="dicaSilhueta"><img id="imgSilhueta" onload="imagensPNG('imgSilhueta')" loading="eager" src="${
-						escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-					}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
+					<tr><td id="dicaSilhueta"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
 				</table>`,
 			];
 
@@ -462,33 +395,13 @@ function palpitar() {
 					document.removeEventListener("keydown", gerenciarEnter);
 
 					if (palpites === 1) {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a> com ${palpites} palpite!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpite!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return true;
 					} else {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a> com ${palpites} palpites!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpites!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return true;
 					}
@@ -505,18 +418,8 @@ function palpitar() {
 						btnPalpite.style.cursor = "not-allowed";
 						document.removeEventListener("keydown", gerenciarEnter);
 
-						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${
-							escolhido[0].nome
-						}" href="${escolhido[0].link}" target="_blank">${
-							escolhido[0].nome
-						}</a>!</p>
-						<a href="${
-							escolhido[0].link
-						}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-							escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-						}" title="Mais informações sobre ${
-							escolhido[0].nome
-						}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 						return false;
 					} else {
@@ -599,29 +502,13 @@ function desistir() {
 	document.removeEventListener("keydown", gerenciarEnter);
 
 	if (palpites === 1) {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era <a title="Mais informações sobre ${
-			escolhido[0].nome
-		}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
-		<a href="${
-			escolhido[0].link
-		}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
-			escolhido[0].nome
-		}" /></a>`;
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
+		<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 		return false;
 	} else {
-		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era <a title="Mais informações sobre ${
-			escolhido[0].nome
-		}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
-		<a href="${
-			escolhido[0].link
-		}" target="_blank"><img id="imgUltimato" onload="imagensPNG('imgUltimato')" loading="eager" src="${
-			escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)]
-		}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${
-			escolhido[0].nome
-		}" /></a>`;
+		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
+		<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
 
 		return false;
 	}
@@ -701,8 +588,9 @@ function reset(mode) {
  */
 function indiceAleatorio(array) {
 	const data = new Date();
+	imgIndex = Math.floor(Math.random(data) * array.length);
 
-	return Math.floor(Math.random(data) * array.length);
+	return true;
 }
 
 /**
@@ -744,23 +632,6 @@ function gerenciarEnter(e) {
 		e.preventDefault();
 		btnPalpite.click();
 	}
-
-	return true;
-}
-
-/**
- * @param {string} lugarIMG
- * @returns
- */
-function imagensPNG(lugarIMG) {
-	const imagem = new Image();
-	imagem.src = escolhido[0].sprite[indiceAleatorio(escolhido[0].sprite)];
-
-	const lugarID = document.getElementById(lugarIMG);
-	const aspectRatio = imagem.naturalWidth / imagem.naturalHeight;
-
-	lugarID.style.width = `12rem`;
-	lugarID.style.height = `calc(12rem / ${aspectRatio}) !important`;
 
 	return true;
 }
