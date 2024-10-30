@@ -53,7 +53,7 @@
 			</article>
 			<section id="jogo">
 				<section id="dificuldades">
-					<h3 style="margin: 0.5rem">Dificuldades</h3>
+					<h3 style="margin: 0.5rem">Escolha a Dificuldade</h3>
 					<input
 						type="radio"
 						name="dificuldades"
@@ -61,6 +61,7 @@
 						id="dificuldadeFacil"
 						value="Fácil"
 						title="Dificuldade Fácil"
+						style="display: none"
 						checked
 					/><label for="dificuldadeFacil" title="Dificuldade Fácil"
 						>Fácil</label
@@ -72,6 +73,7 @@
 						id="dificuldadeMedia"
 						value="Média"
 						title="Dificuldade Média"
+						style="display: none"
 					/><label for="dificuldadeMedia" title="Dificuldade Média"
 						>Média</label
 					>
@@ -82,13 +84,14 @@
 						id="dificuldadeDificil"
 						value="Difícil"
 						title="Dificuldade Difícil"
+						style="display: none"
 					/><label for="dificuldadeDificil" title="Dificuldade Difícil"
 						>Difícil</label
 					>
 				</section>
 				<section id="geracoes">
-					<h3 style="margin: 0.5rem">Gerações</h3>
-					<div>
+					<h3 style="margin: 0.5rem">Escolha a(s) Geração(ões)</h3>
+					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkTodas"
@@ -96,11 +99,12 @@
 							value="todasGeracoes"
 							title="Atalho para todas gerações"
 							onclick="geracoesSelecionadas()"
+							style="display: none"
 						/><label for="checkTodas" title="Atalho para todas gerações"
 							>Todas Gerações</label
 						>
 					</div>
-					<div>
+					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkPrimeira"
@@ -108,6 +112,7 @@
 							value="primeiraGeracao"
 							name="geracao"
 							title="Geração da região de Kanto"
+							style="display: none"
 						/><label for="checkPrimeira" title="Geração da região de Kanto"
 							>Primeira Geração</label
 						>
@@ -118,6 +123,7 @@
 							value="segundaGeracao"
 							name="geracao"
 							title="Geração da região de Johto"
+							style="display: none"
 						/><label for="checkSegunda" title="Geração da região de Johto"
 							>Segunda Geração</label
 						>
@@ -128,11 +134,12 @@
 							value="terceiraGeracao"
 							name="geracao"
 							title="Geração da região de Hoenn"
+							style="display: none"
 						/><label for="checkTerceira" title="Geração da região de Hoenn"
 							>Terceira Geração</label
 						>
 					</div>
-					<div>
+					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkQuarta"
@@ -140,6 +147,7 @@
 							value="quartaGeracao"
 							name="geracao"
 							title="Geração da região de Sinnoh"
+							style="display: none"
 						/><label for="checkQuarta" title="Geração da região de Sinnoh"
 							>Quarta Geração</label
 						>
@@ -150,6 +158,7 @@
 							value="quintaGeracao"
 							name="geracao"
 							title="Geração da região de Unova"
+							style="display: none"
 						/><label for="checkQuinta" title="Geração da região de Unova"
 							>Quinta Geração</label
 						>
@@ -160,11 +169,12 @@
 							value="sextaGeracao"
 							name="geracao"
 							title="Geração da região de Kalos"
+							style="display: none"
 						/><label for="checkSexta" title="Geração da região de Kalos"
 							>Sexta Geração</label
 						>
 					</div>
-					<div>
+					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkSetima"
@@ -172,6 +182,7 @@
 							value="setimaGeracao"
 							name="geracao"
 							title="Geração da região de Alola"
+							style="display: none"
 						/><label for="checkSetima" title="Geração da região de Alola"
 							>Sétima Geração</label
 						>
@@ -182,6 +193,7 @@
 							value="oitavaGeracao"
 							name="geracao"
 							title="Geração das regiões de Galar e Hisui"
+							style="display: none"
 						/><label
 							for="checkOitava"
 							title="Geração das regiões de Galar e Hisui"
@@ -194,6 +206,7 @@
 							value="nonaGeracao"
 							name="geracao"
 							title="Geração das regiões de Paldea e Kikatami"
+							style="display: none"
 						/><label
 							for="checkNona"
 							title="Geração das regiões de Paldea e Kikatami"

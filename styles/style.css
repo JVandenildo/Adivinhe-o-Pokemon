@@ -147,12 +147,40 @@ button {
 	margin: 0px auto;
 	text-align: center;
 }
+.dificuldade + label {
+	padding: 2px;
+	margin: 2px 1px;
+	border-radius: 3px;
+	border-radius: 10px;
+}
+#dificuldadeFacil:checked + label {
+	background-color: lightgreen;
+	color: var(--dark-font-color);
+}
+#dificuldadeMedia:checked + label {
+	background-color: lightyellow;
+	color: var(--dark-font-color);
+}
+#dificuldadeDificil:checked + label {
+	background-color: lightsalmon;
+	color: var(--dark-font-color);
+}
 
 #geracoes {
 	text-align: center;
 	max-width: 27.5rem;
 	padding: 2px;
 	margin: 0.5rem auto;
+}
+.checkGen + label,
+.grupoGen {
+	padding: 2px;
+	margin: 2px 1px;
+	border-radius: 10px;
+}
+.checkGen:checked + label {
+	background-color: lightblue;
+	color: var(--dark-font-color);
 }
 
 #usuario {

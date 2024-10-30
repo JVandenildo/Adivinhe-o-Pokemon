@@ -41884,7 +41884,7 @@ const pkmnDisponiveis = [
 
 /* versões para dificuldades */
 const pkmnFacil = pkmnDisponiveis.filter((x) => x.padrao === true); // deve incluir as variantes regionais
-const pkmnMedia = pkmnDisponiveis.filter((x) => x.padrao === true || (x.padrao ===true && x.forma===true)); // dificuldade média deve conter regionais e versões
+const pkmnMedia = pkmnDisponiveis.filter((x) => x.padrao === true || (x.versao === true && x.padrao === false)); // dificuldade média deve conter regionais e versões
 
 /* 1ª geração, região de Kanto, 1-151, 0 versões, 0 formas, 33 regionais */
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
