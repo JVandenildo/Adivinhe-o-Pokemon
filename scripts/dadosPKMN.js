@@ -5742,7 +5742,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -5781,7 +5781,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -17129,7 +17129,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -19683,7 +19683,7 @@ const pkmnDisponiveis = [
 		geracao: 4, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -29225,7 +29225,7 @@ const pkmnDisponiveis = [
 		geracao: 6, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -30438,7 +30438,7 @@ const pkmnDisponiveis = [
 		geracao: 7, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -34609,7 +34609,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35629,7 +35629,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: true,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -35699,7 +35699,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -36414,7 +36414,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: true,
 		sprite: [
@@ -36903,7 +36903,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37436,7 +37436,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -37867,7 +37867,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -40148,7 +40148,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -40783,7 +40783,7 @@ const pkmnDisponiveis = [
 		geracao: 9, // considerando em qual geração foi introduzido
 		versao: true,
 		forma: false,
-		padrao: true,
+		padrao: false,
 		regional: false,
 		lendario: false,
 		sprite: [
@@ -42342,8 +42342,8 @@ if (
 const numerosGeracoes = pkmnDisponiveis.map((x) => x.numero);
 const codinomesGeracoes = pkmnDisponiveis.map((x) => x.codinome);
 const nomesGeracoes = pkmnDisponiveis.map((x) => x.nome);
-const formasGeracoes = pkmnDisponiveis.filter((x) => x.forma === true);
-const versoesGeracoes = pkmnDisponiveis.filter((x) => x.versao === true);
+const formasPadraoGeracoes = pkmnDisponiveis.filter((x) => x.forma === true && x.padrao === true);
+const versoesPadraoGeracoes = pkmnDisponiveis.filter((x) => x.versao === true && x.padrao === true);
 const especies = [...new Set(pkmnDisponiveis.map((x) => x.especie))];
 
 /* verificar repetição de números */

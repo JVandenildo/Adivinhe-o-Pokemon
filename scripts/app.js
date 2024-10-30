@@ -110,7 +110,6 @@ function novaTentativa() {
 				);
 
 				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
-
 				return escolhido;
 			case "Média":
 				dicas.insertAdjacentHTML(
@@ -120,8 +119,8 @@ function novaTentativa() {
 						<tr style="text-align:center !important"><td>${escolhido[0].tipo}</td></tr>
 					</table>`
 				);
-				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
 
+				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
 				return escolhido;
 			case "Difícil":
 				dicas.insertAdjacentHTML(
@@ -137,8 +136,8 @@ function novaTentativa() {
 								</tr>
 							</table>`
 				);
-				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
 
+				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
 				return escolhido;
 		}
 	}
@@ -176,6 +175,7 @@ function palpitar() {
 					return false;
 
 				case escolhido[0].nome.toLowerCase():
+				case escolhido[0].codinome.toLowerCase():
 				case escolhido[0].especie.toLowerCase():
 					/* caso acerte o nome do Pokémon */
 
@@ -188,13 +188,13 @@ function palpitar() {
 					document.removeEventListener("keydown", gerenciarEnter);
 
 					if (palpites === 1) {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpite!</p>
-						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].especie}" href="${escolhido[0].link}" target="_blank">${escolhido[0].especie}</a> com ${palpites} palpite!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].especie}" alt="Sprite de ${escolhido[0].especie}" /></a>`;
 
 						return true;
 					} else {
-						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpites!</p>
-						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
+						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].especie}" href="${escolhido[0].link}" target="_blank">${escolhido[0].especie}</a> com ${palpites} palpites!</p>
+						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].especie}" alt="Sprite de ${escolhido[0].especie}" /></a>`;
 
 						return true;
 					}
@@ -384,6 +384,7 @@ function palpitar() {
 					return false;
 
 				case escolhido[0].nome.toLowerCase():
+				case escolhido[0].codinome.toLowerCase():
 					/* caso acerte o nome do Pokémon */
 
 					palpites = palpites + 1;
@@ -459,33 +460,24 @@ function palpitar() {
 function selecaoGeracao(numero) {
 	let numerosDisponiveis = [];
 
-	if (checkPrimeira.checked) {
-		numerosPrimeira.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkSegunda.checked) {
-		numerosSegunda.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkTerceira.checked) {
-		numerosTerceira.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkQuarta.checked) {
-		numerosQuarta.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkQuinta.checked) {
-		numerosQuinta.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkSexta.checked) {
-		numerosSexta.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkSetima.checked) {
-		numerosSetima.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkOitava.checked) {
-		numerosOitava.forEach((x) => numerosDisponiveis.push(x));
-	}
-	if (checkNona.checked) {
-		numerosNona.forEach((x) => numerosDisponiveis.push(x));
-	}
+	// prettier-ignore
+	checkPrimeira.checked ? numerosPrimeira.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkSegunda.checked ? numerosSegunda.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkTerceira.checked ? numerosTerceira.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkQuarta.checked ? numerosQuarta.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkQuinta.checked ? numerosQuinta.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkSexta.checked ? numerosSexta.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkSetima.checked ? numerosSetima.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkOitava.checked ? numerosOitava.forEach((x) => numerosDisponiveis.push(x)) : false;
+	// prettier-ignore
+	checkNona.checked ? numerosNona.forEach((x) => numerosDisponiveis.push(x)) : false;
 
 	return numerosDisponiveis[numero];
 }
@@ -530,18 +522,35 @@ function procurarNomes() {
 			opcoesNomes.classList.add("opcoesNomesShow");
 			nomesGeral.classList.add("nomesGeralShow");
 
-			const nomes = nomesGeracoes.filter((nome) =>
-				nome.toLowerCase().includes(campoPalpite.value.toLowerCase())
-			);
+			switch (dificuldade) {
+				case "Fácil":
+					const especiesNomes = especies.filter((nome) =>
+						nome.toLowerCase().includes(campoPalpite.value.toLowerCase())
+					);
 
-			for (let i in nomes) {
-				opcoesNomes.insertAdjacentHTML(
-					"beforeend",
-					`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${nomes[i]}')">${nomes[i]}</div>`
-				);
+					for (let i in especiesNomes) {
+						opcoesNomes.insertAdjacentHTML(
+							"beforeend",
+							`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${especiesNomes[i]}')">${especiesNomes[i]}</div>`
+						);
+					}
+
+					return;
+				case "Média":
+				case "Difícil":
+					const nomes = nomesGeracoes.filter((nome) =>
+						nome.toLowerCase().includes(campoPalpite.value.toLowerCase())
+					);
+
+					for (let i in nomes) {
+						opcoesNomes.insertAdjacentHTML(
+							"beforeend",
+							`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${nomes[i]}')">${nomes[i]}</div>`
+						);
+					}
+
+					return;
 			}
-
-			return;
 	}
 }
 
@@ -590,7 +599,7 @@ function indiceAleatorio(array) {
 	const data = new Date();
 	imgIndex = Math.floor(Math.random(data) * array.length);
 
-	return true;
+	return imgIndex;
 }
 
 /**
