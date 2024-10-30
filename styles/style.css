@@ -219,7 +219,7 @@ button {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 27.25rem;
+	top: 26.65rem;
 	border: 2px solid var(--filling-color);
 	border-top: 2px solid var(--light-bg);
 }
