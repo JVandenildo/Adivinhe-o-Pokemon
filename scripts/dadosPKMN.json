@@ -9773,6 +9773,7 @@
 		"massa": 48.0,
 		"altura": 1.4,
 		"som": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/237.ogg",
+		"pegada": "https://archives.bulbagarden.net/media/upload/b/be/F0237.png",
 		"estatistica": {
 			"ps": 50,
 			"atq": 95,
@@ -11017,6 +11018,7 @@
 		"massa": 32.5,
 		"altura": 1.2,
 		"som": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/271.ogg",
+		"pegada": "https://archives.bulbagarden.net/media/upload/5/5a/F0271.png",
 		"estatistica": {
 			"ps": 60,
 			"atq": 50,
@@ -21597,7 +21599,7 @@
 		"geracao": 8,
 		"versao": false,
 		"forma": false,
-		"padrao": false,
+		"padrao": true,
 		"regional": true,
 		"lendario": false,
 		"sprite": [
@@ -35829,6 +35831,7 @@
 		"geracao": 9,
 		"versao": false,
 		"forma": false,
+		"padrao": true,
 		"regional": true,
 		"lendario": false,
 		"sprite": [

@@ -10046,6 +10046,7 @@ const pkmnDisponiveis = [
 		massa: 48.0, // em kg
 		altura: 1.4, // em metros
 		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/237.ogg",
+		pegada: "https://archives.bulbagarden.net/media/upload/b/be/F0237.png",
 		estatistica: {
 			ps:			50,
 			atq:		95,
@@ -11326,6 +11327,7 @@ const pkmnDisponiveis = [
 		massa: 32.5, // em kg
 		altura: 1.2, // em metros
 		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/271.ogg",
+		pegada: "https://archives.bulbagarden.net/media/upload/5/5a/F0271.png",
 		estatistica: {
 			ps:			60,
 			atq:		50,
@@ -22206,7 +22208,7 @@ const pkmnDisponiveis = [
 		geracao: 8, // considerando em qual geração foi introduzido
 		versao: false,
 		forma: false,
-		padrao: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -36834,6 +36836,7 @@ const pkmnDisponiveis = [
 		geracao: 9,
 		versao: false,
 		forma: false,
+		padrao: true,
 		regional: true,
 		lendario: false,
 		sprite: [
@@ -41879,10 +41882,18 @@ const pkmnDisponiveis = [
 	},
 ];
 
+/* versões para dificuldades */
+const pkmnFacil = pkmnDisponiveis.filter((x) => x.padrao === true); // deve incluir as variantes regionais
+const pkmnMedia = pkmnDisponiveis.filter((x) => x.padrao === true || (x.padrao ===true && x.forma===true)); // dificuldade média deve conter regionais e versões
+
 /* 1ª geração, região de Kanto, 1-151, 0 versões, 0 formas, 33 regionais */
 const primeiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 1);
-const numerosPrimeira = primeiraGeracao.map((X) => X.numero);
+const numerosPrimeira = primeiraGeracao.map((x) => x.numero);
 const nomesPrimeira = primeiraGeracao.map((x) => x.nome);
+const primeiraFacil = pkmnFacil.filter((x) => x.geracao === 1);
+const numerosPrimeiraFacil = primeiraFacil.map((x) => x.numero);
+const primeiraMedia = pkmnMedia.filter((x) => x.geracao === 1);
+const numerosPrimeiraMedia = primeiraMedia.map((x) => x.numero);
 const versoesPrimeira = primeiraGeracao.filter((x) => x.versao === true);
 const formasPrimeira = primeiraGeracao.filter((x) => x.forma === true);
 const regionaisPrimeira = primeiraGeracao.filter((x) => x.regional === true);
@@ -41914,7 +41925,7 @@ if (
 	formasPrimeira.length !== 0 ||
 	regionaisPrimeira.length !== 33
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na primeira geração!",
 		`Quantidades: ${
 			[
@@ -41932,8 +41943,12 @@ if (
 
 /* 2ª geração, região de Johto, 152-251, 100 versões, 0 versao, 0 formas, 6 regionais */
 const segundaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 2);
-const numerosSegunda = segundaGeracao.map((X) => X.numero);
+const numerosSegunda = segundaGeracao.map((x) => x.numero);
 const nomesSegunda = segundaGeracao.map((x) => x.nome);
+const segundaFacil = pkmnFacil.filter((x) => x.geracao === 2);
+const numerosSegundaFacil = segundaFacil.map((x) => x.numero);
+const segundaMedia = pkmnMedia.filter((x) => x.geracao === 2);
+const numerosSegundaMedia = segundaMedia.map((x) => x.numero);
 const versoesSegunda = segundaGeracao.filter((x) => x.versao === true);
 const formasSegunda = segundaGeracao.filter((x) => x.forma === true);
 const regionaisSegunda = segundaGeracao.filter((x) => x.regional === true);
@@ -41965,7 +41980,7 @@ if (
 	formasSegunda.length !== 0 ||
 	regionaisSegunda.length !== 6
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na segunda geração!",
 		`Quantidades: ${
 			[
@@ -41985,6 +42000,10 @@ if (
 const terceiraGeracao = pkmnDisponiveis.filter((x) => x.geracao === 3);
 const numerosTerceira = terceiraGeracao.map((x) => x.numero);
 const nomesTerceira = terceiraGeracao.map((x) => x.nome);
+const terceiraFacil = pkmnFacil.filter((x) => x.geracao === 3);
+const numerosTerceiraFacil = terceiraFacil.map((x) => x.numero);
+const terceiraMedia = pkmnMedia.filter((x) => x.geracao === 3);
+const numerosTerceiraMedia = terceiraMedia.map((x) => x.numero);
 const versoesTerceira = terceiraGeracao.filter((x) => x.versao === true);
 const formasTerceira = terceiraGeracao.filter((x) => x.forma === true);
 const regionaisTerceira = terceiraGeracao.filter((x) => x.regional === true);
@@ -42016,7 +42035,7 @@ if (
 	formasTerceira.length !== 8 ||
 	regionaisTerceira.length !== 2
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na terceira geração!",
 		`Quantidades: Geral ${
 			[
@@ -42036,6 +42055,10 @@ if (
 const quartaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 4);
 const numerosQuarta = quartaGeracao.map((x) => x.numero);
 const nomesQuarta = quartaGeracao.map((x) => x.nome);
+const quartaFacil = pkmnFacil.filter((x) => x.geracao === 4);
+const numerosQuartaFacil = quartaFacil.map((x) => x.numero);
+const quartaMedia = pkmnMedia.filter((x) => x.geracao === 4);
+const numerosQuartaMedia = quartaMedia.map((x) => x.numero);
 const versoesQuarta = quartaGeracao.filter((x) => x.versao === true);
 const formasQuarta = quartaGeracao.filter((x) => x.forma === true);
 const regionaisQuarta = quartaGeracao.filter((x) => x.regional === true);
@@ -42067,7 +42090,7 @@ if (
 	formasQuarta.length !== 10 ||
 	regionaisQuarta.length !== 0
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na quarta geração!",
 		`Quantidades: ${
 			[
@@ -42087,6 +42110,10 @@ if (
 const quintaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 5);
 const numerosQuinta = quintaGeracao.map((x) => x.numero);
 const nomesQuinta = quintaGeracao.map((x) => x.nome);
+const quintaFacil = pkmnFacil.filter((x) => x.geracao === 5);
+const numerosQuintaFacil = quintaFacil.map((x) => x.numero);
+const quintaMedia = pkmnMedia.filter((x) => x.geracao === 5);
+const numerosQuintaMedia = quintaMedia.map((x) => x.numero);
 const versoesQuinta = quintaGeracao.filter((x) => x.versao === true);
 const formasQuinta = quintaGeracao.filter((x) => x.forma === true);
 const regionaisQuinta = quintaGeracao.filter((x) => x.regional === true);
@@ -42118,7 +42145,7 @@ if (
 	formasQuinta.length !== 15 ||
 	regionaisQuinta.length !== 10
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na quinta geração!",
 		`Quantidades: ${
 			[
@@ -42138,6 +42165,10 @@ if (
 const sextaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 6);
 const numerosSexta = sextaGeracao.map((x) => x.numero);
 const nomesSexta = sextaGeracao.map((x) => x.nome);
+const sextaFacil = pkmnFacil.filter((x) => x.geracao === 6);
+const numerosSextaFacil = sextaFacil.map((x) => x.numero);
+const sextaMedia = pkmnMedia.filter((x) => x.geracao === 6);
+const numerosSextaMedia = sextaMedia.map((x) => x.numero);
 const versoesSexta = sextaGeracao.filter((x) => x.versao === true);
 const formasSexta = sextaGeracao.filter((x) => x.forma === true);
 const regionaisSexta = sextaGeracao.filter((x) => x.regional === true);
@@ -42169,7 +42200,7 @@ if (
 	formasSexta.length !== 7 ||
 	regionaisSexta.length !== 3
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na sexta geração!",
 		`Quantidades: ${
 			[
@@ -42189,6 +42220,10 @@ if (
 const setimaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 7);
 const numerosSetima = setimaGeracao.map((x) => x.numero);
 const nomesSetima = setimaGeracao.map((x) => x.nome);
+const setimaFacil = pkmnFacil.filter((x) => x.geracao === 7);
+const numerosSetimaFacil = setimaFacil.map((x) => x.numero);
+const setimaMedia = pkmnMedia.filter((x) => x.geracao === 7);
+const numerosSetimaMedia = setimaMedia.map((x) => x.numero);
 const versoesSetima = setimaGeracao.filter((x) => x.versao === true);
 const formasSetima = setimaGeracao.filter((x) => x.forma === true);
 const regionaisSetima = setimaGeracao.filter((x) => x.regional === true);
@@ -42220,7 +42255,7 @@ if (
 	formasSetima.length !== 14 ||
 	regionaisSetima.length !== 19
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na sétima geração!",
 		`Quantidades: ${
 			[
@@ -42240,6 +42275,10 @@ if (
 const oitavaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 8);
 const numerosOitava = oitavaGeracao.map((x) => x.numero);
 const nomesOitava = oitavaGeracao.map((x) => x.nome);
+const oitavaFacil = pkmnFacil.filter((x) => x.geracao === 8);
+const numerosOitavaFacil = oitavaFacil.map((x) => x.numero);
+const oitavaMedia = pkmnMedia.filter((x) => x.geracao === 8);
+const numerosOitavaMedia = oitavaMedia.map((x) => x.numero);
 const versoesOitava = oitavaGeracao.filter((x) => x.versao === true);
 const formasOitava = oitavaGeracao.filter((x) => x.forma === true);
 const regionaisOitava = oitavaGeracao.filter((x) => x.regional === true);
@@ -42271,7 +42310,7 @@ if (
 	formasOitava.length !== 15 ||
 	regionaisOitava.length !== 38
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na oitava geração!",
 		`Quantidades: ${
 			[
@@ -42291,6 +42330,10 @@ if (
 const nonaGeracao = pkmnDisponiveis.filter((x) => x.geracao === 9);
 const numerosNona = nonaGeracao.map((x) => x.numero);
 const nomesNona = nonaGeracao.map((x) => x.nome);
+const nonaFacil = pkmnFacil.filter((x) => x.geracao === 9);
+const numerosNonaFacil = nonaFacil.map((x) => x.numero);
+const nonaMedia = pkmnMedia.filter((x) => x.geracao === 9);
+const numerosNonaMedia = nonaMedia.map((x) => x.numero);
 const versoesNona = nonaGeracao.filter((x) => x.versao === true);
 const formasNona = nonaGeracao.filter((x) => x.forma === true);
 const regionaisNona = nonaGeracao.filter((x) => x.regional === true);
@@ -42322,7 +42365,7 @@ if (
 	formasNona.length !== 9 ||
 	regionaisNona.length !== 5
 ) {
-	console.info(
+	console.error(
 		"Algo de errado não está certo na nona geração!",
 		`Quantidades: ${
 			[
@@ -42340,11 +42383,9 @@ if (
 
 /* todas gerações */
 const numerosGeracoes = pkmnDisponiveis.map((x) => x.numero);
-const codinomesGeracoes = pkmnDisponiveis.map((x) => x.codinome);
 const nomesGeracoes = pkmnDisponiveis.map((x) => x.nome);
-const formasPadraoGeracoes = pkmnDisponiveis.filter((x) => x.forma === true && x.padrao === true);
-const versoesPadraoGeracoes = pkmnDisponiveis.filter((x) => x.versao === true && x.padrao === true);
-const especies = [...new Set(pkmnDisponiveis.map((x) => x.especie))];
+const especiesGeracoes = [...new Set(pkmnDisponiveis.map((x) => x.especie))];
+const codinomesGeracoes = pkmnDisponiveis.map((x) => x.codinome);
 
 /* verificar repetição de números */
 const contagem = new Map();
@@ -42352,5 +42393,5 @@ numerosGeracoes.forEach((item) => {
 	contagem.set(item, (contagem.get(item) || 0) + 1);
 });
 for (const [chave, valor] of contagem) {
-	valor > 1 ? console.info(`O número ${chave} é repetido!`) : false;
-}
+	valor > 1 ? console.error(`O número ${chave} é repetido!`) : false;
+};

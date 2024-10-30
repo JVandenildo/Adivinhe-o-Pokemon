@@ -79,28 +79,30 @@ function novaTentativa() {
 		btnDesistencia.addEventListener("click", desistir);
 		btnDesistencia.style.cursor = "pointer";
 		document.addEventListener("keydown", gerenciarEnter);
-
 		const data = new Date();
-		const ticket = Math.floor(
-			Math.random(data) *
-				(checkPrimeira.checked * primeiraGeracao.length +
-					checkSegunda.checked * segundaGeracao.length +
-					checkTerceira.checked * terceiraGeracao.length +
-					checkQuarta.checked * quartaGeracao.length +
-					checkQuinta.checked * quintaGeracao.length +
-					checkSexta.checked * sextaGeracao.length +
-					checkSetima.checked * setimaGeracao.length +
-					checkOitava.checked * oitavaGeracao.length +
-					checkNona.checked * nonaGeracao.length)
-		);
-		escolhido = pkmnDisponiveis.filter(
-			(x) => x.numero === selecaoGeracao(ticket)
-		);
+
 		dificuldade = dificuldadeSecionada();
-		indiceAleatorio(escolhido[0].sprite);
 
 		switch (dificuldade) {
 			case "Fácil":
+				const ticketFacil = Math.floor(
+					Math.random(data) *
+						(checkPrimeira.checked * primeiraFacil.length +
+							checkSegunda.checked * segundaFacil.length +
+							checkTerceira.checked * terceiraFacil.length +
+							checkQuarta.checked * quartaFacil.length +
+							checkQuinta.checked * quintaFacil.length +
+							checkSexta.checked * sextaFacil.length +
+							checkSetima.checked * setimaFacil.length +
+							checkOitava.checked * oitavaFacil.length +
+							checkNona.checked * nonaFacil.length)
+				);
+				escolhido = pkmnDisponiveis.filter(
+					(x) => x.numero === selecaoGeracao(ticketFacil)
+				);
+
+				indiceAleatorio(escolhido[0].sprite);
+
 				dicas.insertAdjacentHTML(
 					"beforeend",
 					`<table style="margin: 0px auto !important;">
@@ -109,9 +111,27 @@ function novaTentativa() {
 					</table>`
 				);
 
-				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+				// console.info(`Ticket: ${ticketFacil}`, `${escolhido[0].nome}`, dificuldade);
 				return escolhido;
 			case "Média":
+				const ticketMedia = Math.floor(
+					Math.random(data) *
+						(checkPrimeira.checked * primeiraMedia.length +
+							checkSegunda.checked * segundaMedia.length +
+							checkTerceira.checked * terceiraMedia.length +
+							checkQuarta.checked * quartaMedia.length +
+							checkQuinta.checked * quintaMedia.length +
+							checkSexta.checked * sextaMedia.length +
+							checkSetima.checked * setimaMedia.length +
+							checkOitava.checked * oitavaMedia.length +
+							checkNona.checked * nonaMedia.length)
+				);
+				escolhido = pkmnDisponiveis.filter(
+					(x) => x.numero === selecaoGeracao(ticketMedia)
+				);
+
+				indiceAleatorio(escolhido[0].sprite);
+
 				dicas.insertAdjacentHTML(
 					"beforeend",
 					`<table style="margin: 0px auto !important;">
@@ -120,9 +140,27 @@ function novaTentativa() {
 					</table>`
 				);
 
-				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+				// console.info(`Ticket: ${ticketMedia}`, `${escolhido[0].nome}`, dificuldade);
 				return escolhido;
 			case "Difícil":
+				const ticketDificil = Math.floor(
+					Math.random(data) *
+						(checkPrimeira.checked * primeiraGeracao.length +
+							checkSegunda.checked * segundaGeracao.length +
+							checkTerceira.checked * terceiraGeracao.length +
+							checkQuarta.checked * quintaGeracao.length +
+							checkQuinta.checked * quintaGeracao.length +
+							checkSexta.checked * segundaGeracao.length +
+							checkSetima.checked * setimaGeracao.length +
+							checkOitava.checked * oitavaGeracao.length +
+							checkNona.checked * nonaGeracao.length)
+				);
+				escolhido = pkmnDisponiveis.filter(
+					(x) => x.numero === selecaoGeracao(ticketDificil)
+				);
+
+				indiceAleatorio(escolhido[0].sprite);
+
 				dicas.insertAdjacentHTML(
 					"beforeend",
 					`<table style="margin: 0px auto !important;">
@@ -137,7 +175,7 @@ function novaTentativa() {
 							</table>`
 				);
 
-				// console.info(`Ticket: ${ticket}`, `${escolhido[0].nome}`, dificuldade);
+				// console.info(`Ticket: ${ticketDificil}`, `${escolhido[0].nome}`, dificuldade);
 				return escolhido;
 		}
 	}
@@ -455,31 +493,76 @@ function palpitar() {
 
 /**
  * @param {number} numero Número aleatório.
- * @returns {number} Número da PokéDex que representa o número aleatório dentro das gerações selecionadas.
+ * @returns {[]} Array com os objetos possíveis.
  */
 function selecaoGeracao(numero) {
 	let numerosDisponiveis = [];
 
-	// prettier-ignore
-	checkPrimeira.checked ? numerosPrimeira.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkSegunda.checked ? numerosSegunda.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkTerceira.checked ? numerosTerceira.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkQuarta.checked ? numerosQuarta.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkQuinta.checked ? numerosQuinta.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkSexta.checked ? numerosSexta.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkSetima.checked ? numerosSetima.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkOitava.checked ? numerosOitava.forEach((x) => numerosDisponiveis.push(x)) : false;
-	// prettier-ignore
-	checkNona.checked ? numerosNona.forEach((x) => numerosDisponiveis.push(x)) : false;
+	switch (dificuldade) {
+		case "Fácil":
+			// prettier-ignore
+			checkPrimeira.checked ? numerosPrimeiraFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSegunda.checked ? numerosSegundaFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkTerceira.checked ? numerosTerceiraFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkQuarta.checked ? numerosQuartaFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkQuinta.checked ? numerosQuintaFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSexta.checked ? numerosSextaFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSetima.checked ? numerosSetimaFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkOitava.checked ? numerosOitavaFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkNona.checked ? numerosNonaFacil.forEach((x) => numerosDisponiveis.push(x)) : false;
 
-	return numerosDisponiveis[numero];
+			return numerosDisponiveis[numero];
+		case "Média":
+			// prettier-ignore
+			checkPrimeira.checked ? numerosPrimeiraMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSegunda.checked ? numerosSegundaMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkTerceira.checked ? numerosTerceiraMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkQuarta.checked ? numerosQuartaMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkQuinta.checked ? numerosQuintaMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSexta.checked ? numerosSextaMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSetima.checked ? numerosSetimaMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkOitava.checked ? numerosOitavaMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkNona.checked ? numerosNonaMedia.forEach((x) => numerosDisponiveis.push(x)) : false;
+
+			return numerosDisponiveis[numero];
+		case "Difícil":
+			// prettier-ignore
+			checkPrimeira.checked ? numerosPrimeira.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSegunda.checked ? numerosSegunda.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkTerceira.checked ? numerosTerceira.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkQuarta.checked ? numerosQuarta.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkQuinta.checked ? numerosQuinta.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSexta.checked ? numerosSexta.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkSetima.checked ? numerosSetima.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkOitava.checked ? numerosOitava.forEach((x) => numerosDisponiveis.push(x)) : false;
+			// prettier-ignore
+			checkNona.checked ? numerosNona.forEach((x) => numerosDisponiveis.push(x)) : false;
+
+			return numerosDisponiveis[numero];
+	}
 }
 
 function desistir() {
@@ -524,14 +607,14 @@ function procurarNomes() {
 
 			switch (dificuldade) {
 				case "Fácil":
-					const especiesNomes = especies.filter((nome) =>
+					const especies = especiesGeracoes.filter((nome) =>
 						nome.toLowerCase().includes(campoPalpite.value.toLowerCase())
 					);
 
-					for (let i in especiesNomes) {
+					for (let i in especies) {
 						opcoesNomes.insertAdjacentHTML(
 							"beforeend",
-							`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${especiesNomes[i]}')">${especiesNomes[i]}</div>`
+							`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${especies[i]}')">${especies[i]}</div>`
 						);
 					}
 
