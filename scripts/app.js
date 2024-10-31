@@ -682,6 +682,10 @@ function indiceAleatorio(array) {
 	const data = new Date();
 	imgIndex = Math.floor(Math.random(data) * array.length);
 
+	if (imgIndex % 2 !== 0) {
+		imgIndex = Math.floor(Math.random(data) * array.length);
+	}
+
 	return imgIndex;
 }
 
