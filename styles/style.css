@@ -150,6 +150,7 @@ button {
 }
 .dificuldade + label {
 	background-color: var(--dark-bg2);
+	cursor: pointer;
 	padding: 6px 6px;
 	margin: 3px auto;
 	border-radius: 10px;
@@ -174,10 +175,11 @@ button {
 	width: fit-content;
 }
 .checkGen + label {
+	background-color: var(--dark-bg2);
+	cursor: pointer;
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: lighter;
-	background-color: var(--dark-bg2);
 	padding: 6px 6px;
 	margin: 0px 1px;
 	border-radius: 10px;
