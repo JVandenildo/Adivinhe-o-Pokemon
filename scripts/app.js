@@ -101,7 +101,7 @@ function novaTentativa() {
 					(x) => x.numero === selecaoGeracao(ticketFacil)
 				);
 
-				indiceAleatorio(escolhido[0].sprite);
+				indiceAleatorio(escolhido[0].sprite, 0);
 
 				dicas.insertAdjacentHTML(
 					"beforeend",
@@ -130,7 +130,7 @@ function novaTentativa() {
 					(x) => x.numero === selecaoGeracao(ticketMedia)
 				);
 
-				indiceAleatorio(escolhido[0].sprite);
+				indiceAleatorio(escolhido[0].sprite, 0);
 
 				dicas.insertAdjacentHTML(
 					"beforeend",
@@ -159,7 +159,7 @@ function novaTentativa() {
 					(x) => x.numero === selecaoGeracao(ticketDificil)
 				);
 
-				indiceAleatorio(escolhido[0].sprite);
+				indiceAleatorio(escolhido[0].sprite, 0);
 
 				dicas.insertAdjacentHTML(
 					"beforeend",
@@ -676,17 +676,18 @@ function reset(mode) {
 
 /**
  * @param {[]} array
+ * @param {number} ocorrido
  * @returns {number} Retorna um índice aleatório do parâmetro.
  */
-function indiceAleatorio(array) {
+function indiceAleatorio(array, ocorrido) {
 	const data = new Date();
 	imgIndex = Math.floor(Math.random(data) * array.length);
 
-	if (imgIndex % 2 !== 0) {
-		imgIndex = Math.floor(Math.random(data) * array.length);
+	if (ocorrido > 1) {
+		return imgIndex;
+	} else {
+		return indiceAleatorio(array, ocorrido + 1);
 	}
-
-	return imgIndex;
 }
 
 /**
