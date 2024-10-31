@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-	--dark-bg: rgb(10, 10, 10);
-	--dark-bg2: rgb(50, 50, 50);
-	--light-bg: rgb(245, 245, 245);
-	--light-bg2: rgb(205, 205, 205);
-	--footer-bg: goldenrod;
+	--dark-bg: rgb(15, 00, 15);
+	--dark-bg2: rgb(60, 00, 60);
+	--light-bg: rgb(255, 255, 245);
+	--light-bg2: rgb(215, 215, 205);
+	--footer-bg: rgb(255, 127, 0);
 
-	--light-font-color: rgb(245, 245, 245);
-	--dark-font-color: rgb(10, 10, 10);
+	--light-font-color: rgb(255, 235, 0);
+	--dark-font-color: rgb(15, 00, 15);
 
 	--filling-color: red;
 }
@@ -154,13 +154,14 @@ button {
 	padding: 0.3rem;
 	margin: 3px auto;
 	border-radius: 0.5rem;
+	color: var(--footer-bg);
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: lighter;
 }
 .dificuldade:checked + label {
-	background-color: var(--light-bg2);
-	color: var(--dark-font-color);
+	background-color: var(--footer-bg);
+	color: var(--dark-bg2);
 	font-weight: normal;
 }
 
@@ -176,6 +177,7 @@ button {
 }
 .checkGen + label {
 	background-color: var(--dark-bg2);
+	color: var(--footer-bg);
 	cursor: pointer;
 	text-transform: uppercase;
 	font-size: 10pt;
@@ -185,8 +187,8 @@ button {
 	border-radius: 0.5rem;
 }
 .checkGen:checked + label {
-	background-color: var(--light-bg2);
-	color: var(--dark-font-color);
+	background-color: var(--footer-bg);
+	color: var(--dark-bg2);
 	font-weight: normal;
 }
 
