@@ -665,7 +665,7 @@ function reset(mode) {
 			campoPalpite.value = "";
 			opcoesNomes.classList.remove("opcoesNomesShow");
 			nomesGeral.classList.remove("nomesGeralShow");
-			palpitesErrados.innerHTML = "<h4>Palpites Errados</h4>";
+			palpitesErrados.innerHTML = "<h3>Palpites Errados</h3>";
 			dicas.innerHTML = "";
 			ultimato.innerHTML = "";
 			palpites = 0;
@@ -710,7 +710,7 @@ function geracoesSelecionadas(verificador) {
  */
 function dificuldadeSecionada() {
 	for (let i = 0; i <= dificuldadeRadio.length; i++) {
-		if (dificuldadeRadio.item(i).checked === true) {
+		if (dificuldadeRadio.item(i).checked) {
 			return dificuldadeRadio.item(i).value;
 		}
 	}

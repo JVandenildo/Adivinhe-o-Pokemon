@@ -323,12 +323,14 @@ table p {
 	margin: auto !important;
 }
 
-#palpites {
+#palpites,
+#ultimato img {
 	width: 11rem;
-	height: fit-content;
 }
 
 #palpitesErrados {
+	max-height: 25rem;
+	width: inherit;
 	color: var(--dark-font-color);
 	-webkit-text-fill-color: var(--dark-font-color);
 	font-family: "Chakra Petch", monospace;
@@ -337,7 +339,6 @@ table p {
 	background-color: var(--light-bg);
 	border: solid 2px var(--filling-color);
 	border-radius: calc(10px + 0.3rem);
-	max-height: 25rem;
 	overflow-y: hidden;
 	text-overflow: ellipsis;
 }
@@ -346,16 +347,15 @@ table p {
 }
 
 #ultimato {
-	width: 12rem;
 	height: fit-content;
+	width: inherit;
 	font-family: "Chakra Petch", monospace;
 	text-align: center;
 	font-size: small;
 	font-weight: bold;
 }
 #ultimato img {
-	margin: 0px auto;
-	width: 12rem;
+	margin: 0rem auto;
 	height: auto;
 	-webkit-filter: drop-shadow(2px 2px 0px black)
 		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px black);
