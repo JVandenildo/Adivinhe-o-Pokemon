@@ -62,7 +62,7 @@ a:hover {
 
 header {
 	height: 3rem;
-	margin-bottom: 2rem;
+	margin-bottom: 0.5rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -74,7 +74,7 @@ header {
 
 main {
 	display: flex;
-	min-height: calc(100% - 9rem);
+	min-height: calc(100% - 7.5rem);
 }
 
 footer {
@@ -120,18 +120,8 @@ button {
 	justify-content: center;
 }
 
-#jogo {
-	top: 0;
-	right: 0;
-	padding: 0;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	min-height: 70vh;
-	width: fit-content;
-}
 #sobreJogo {
-	max-width: 19rem;
+	width: 19rem;
 	padding: 0.5rem;
 	font-size: smaller;
 	text-justify: newspaper;
@@ -143,44 +133,59 @@ button {
 	padding: 0.5rem 0rem 0rem 1rem;
 }
 
+#jogo {
+	top: 0;
+	left: 0;
+	padding: 0;
+	padding-right: 19rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
 #dificuldades {
 	margin: 0px auto;
 	text-align: center;
+	max-width: 37rem;
 }
 .dificuldade + label {
-	padding: 2px;
-	margin: 2px 1px;
-	border-radius: 3px;
+	background-color: var(--dark-bg2);
+	padding: 6px 6px;
+	margin: 3px auto;
 	border-radius: 10px;
+	text-transform: uppercase;
+	font-size: 10pt;
+	font-weight: lighter;
 }
-#dificuldadeFacil:checked + label {
-	background-color: lightgreen;
+.dificuldade:checked + label {
+	background-color: var(--light-bg2);
 	color: var(--dark-font-color);
-}
-#dificuldadeMedia:checked + label {
-	background-color: lightyellow;
-	color: var(--dark-font-color);
-}
-#dificuldadeDificil:checked + label {
-	background-color: lightsalmon;
-	color: var(--dark-font-color);
+	font-weight: normal;
 }
 
 #geracoes {
 	text-align: center;
-	max-width: 27.5rem;
+	max-width: 37rem;
 	padding: 2px;
 	margin: 0.5rem auto;
 }
-.checkGen + label,
 .grupoGen {
-	padding: 2px;
-	margin: 2px 1px;
+	margin: 12px auto;
+	width: fit-content;
+}
+.checkGen + label {
+	text-transform: uppercase;
+	font-size: 10pt;
+	font-weight: lighter;
+	background-color: var(--dark-bg2);
+	padding: 6px 6px;
+	margin: 0px 1px;
 	border-radius: 10px;
 }
 .checkGen:checked + label {
-	background-color: lightblue;
+	background-color: var(--light-bg2);
 	color: var(--dark-font-color);
+	font-weight: normal;
 }
 
 #usuario {
@@ -197,7 +202,7 @@ button {
 }
 
 #btnDesistencia {
-	border: solid 2px var(--dark-bg2) !important;
+	border: solid 2px var(--dark-bg) !important;
 	border-radius: calc(10px + 0.3rem);
 	background-color: var(--filling-color);
 	color: var(--light-font-color);
@@ -247,7 +252,7 @@ button {
 .opcoesNomesShow {
 	display: block;
 	position: absolute;
-	top: 27.8rem;
+	top: 24.7rem;
 	border: 2px solid var(--filling-color);
 	border-top: 2px solid var(--light-bg);
 }
