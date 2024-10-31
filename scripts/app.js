@@ -708,6 +708,25 @@ function geracoesSelecionadas(verificador) {
 			return verificador;
 	}
 }
+function geracaoSelecionada() {
+	let verificadores = 0;
+	checkGeracoes.forEach((x) => (verificadores = verificadores + x.checked));
+
+	switch (verificadores) {
+		case 0:
+			geracoesSelecionadas(false);
+
+			return verificadores;
+		case 9:
+			geracoesSelecionadas(true);
+
+			return verificadores;
+		default:
+			document.querySelector("#checkTodas").checked = false;
+
+			return verificadores;
+	}
+}
 
 /**
  * @returns {string} Retorna a dificuldade em formato de string

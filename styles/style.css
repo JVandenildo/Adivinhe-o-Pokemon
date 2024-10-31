@@ -151,9 +151,9 @@ button {
 .dificuldade + label {
 	background-color: var(--dark-bg2);
 	cursor: pointer;
-	padding: 6px 6px;
+	padding: 0.3rem;
 	margin: 3px auto;
-	border-radius: 10px;
+	border-radius: 0.5rem;
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: lighter;
@@ -180,9 +180,9 @@ button {
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: lighter;
-	padding: 6px 6px;
+	padding: 0.3rem;
 	margin: 0px 1px;
-	border-radius: 10px;
+	border-radius: 0.5rem;
 }
 .checkGen:checked + label {
 	background-color: var(--light-bg2);
