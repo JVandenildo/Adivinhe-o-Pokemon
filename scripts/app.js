@@ -56,8 +56,7 @@ let palpites = 0;
 
 /**
  * Gera um novo PKMN para começar um novo jogo.
- * @implements quando novas gerações forem adicionadas adicionar o verificadores de seleção para as novas gerações.
- * @returns Retorna um array contendo o objeto que será usado na nova sessão.
+ * @returns Retorna um array de elemento único contendo o objeto que será usado na nova sessão.
  */
 function novaTentativa() {
 	if (
@@ -215,7 +214,7 @@ function palpitar() {
 				case escolhido[0].nome.toLowerCase():
 				case escolhido[0].codinome.toLowerCase():
 				case escolhido[0].especie.toLowerCase():
-					/* caso acerte o nome do Pokémon */
+					/* caso acerte o nome do Pokémon | ganhe */
 
 					palpites = palpites + 1;
 					campoPalpite.value = "";
@@ -240,7 +239,7 @@ function palpitar() {
 				default:
 					/* caso erre o nome do Pokémon */
 					if (palpites >= dicasFacil.length) {
-						/* caso as dicas esgotem */
+						/* caso as dicas esgotem | perdeu */
 
 						campoPalpite.value = "";
 						btnDesistencia.removeEventListener("click", desistir);
@@ -308,7 +307,7 @@ function palpitar() {
 
 				case escolhido[0].nome.toLowerCase():
 				case escolhido[0].codinome.toLowerCase():
-					/* caso acerte o nome do Pokémon */
+					/* caso acerte o nome do Pokémon | ganhe */
 
 					palpites = palpites + 1;
 					campoPalpite.value = "";
@@ -333,7 +332,7 @@ function palpitar() {
 				default:
 					/* caso erre o nome do Pokémon */
 					if (palpites >= dicasMedio.length) {
-						/* caso as dicas esgotem */
+						/* caso as dicas esgotem | perdeu */
 
 						campoPalpite.value = "";
 						btnDesistencia.removeEventListener("click", desistir);
@@ -423,7 +422,7 @@ function palpitar() {
 
 				case escolhido[0].nome.toLowerCase():
 				case escolhido[0].codinome.toLowerCase():
-					/* caso acerte o nome do Pokémon */
+					/* caso acerte o nome do Pokémon | ganhe */
 
 					palpites = palpites + 1;
 					campoPalpite.value = "";
@@ -448,7 +447,7 @@ function palpitar() {
 				default:
 					/* caso erre o nome do Pokémon */
 					if (palpites >= dicasDificil.length) {
-						/* caso as dicas esgotem */
+						/* caso as dicas esgotem | perdeu */
 
 						campoPalpite.value = "";
 						btnDesistencia.removeEventListener("click", desistir);
@@ -565,6 +564,10 @@ function selecaoGeracao(numero) {
 	}
 }
 
+/**
+ * Função para lidar com a desistência do jogador.
+ * @returns {boolean}
+ */
 function desistir() {
 	campoPalpite.value = "";
 	opcoesNomes.classList.remove("opcoesNomesShow");
@@ -652,7 +655,7 @@ function selecaoPalpite(palpite) {
 
 /**
  * Coloca propriedades relevantes para os valores iniciais.
- * @param {string} mode Pode ser "soft" ou "hard"
+ * @param {string} mode Pode ser "soft" ou "hard".
  * @returns {boolean} nada.
  */
 function reset(mode) {
@@ -661,6 +664,7 @@ function reset(mode) {
 			geracoesSelecionadas(false);
 			dificuldadeRadio.item(0).checked = true;
 		case "soft":
+		default:
 			document.removeEventListener("keydown", gerenciarEnter);
 			campoPalpite.value = "";
 			opcoesNomes.classList.remove("opcoesNomesShow");
@@ -675,7 +679,7 @@ function reset(mode) {
 }
 
 /**
- * @param {[]} array
+ * @param {[]} array array dos sprites possíveis.
  * @param {number} ocorrido
  * @returns {number} Retorna um índice aleatório do parâmetro.
  */
@@ -693,7 +697,7 @@ function indiceAleatorio(array, ocorrido) {
 /**
  * Função que lida com a escolha de todas gerações de uma vez.
  * @param {boolean} verificador
- * @returns {boolean} apenas para retornar algo.
+ * @returns {boolean}
  */
 function geracoesSelecionadas(verificador) {
 	switch (verificador) {
@@ -709,6 +713,10 @@ function geracoesSelecionadas(verificador) {
 			return verificador;
 	}
 }
+/**
+ * Lida com a quantidade de gerações selecionadas.
+ * @returns
+ */
 function geracaoSelecionada() {
 	let verificadores = 0;
 	checkGeracoes.forEach((x) => (verificadores = verificadores + x.checked));
@@ -730,7 +738,7 @@ function geracaoSelecionada() {
 }
 
 /**
- * @returns {string} Retorna a dificuldade em formato de string
+ * @returns {string} Retorna a dificuldade em formato de string.
  */
 function dificuldadeSecionada() {
 	for (let i = 0; i <= dificuldadeRadio.length; i++) {
