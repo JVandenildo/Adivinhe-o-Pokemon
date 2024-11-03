@@ -1,5 +1,40 @@
 const pkmnDisponiveis = [
 	{
+		nome: "MissingNo.",
+		especie: "MissingNo.",
+		codinome: "MissingNumber",
+		numero: 0, // considerando a national dex
+		tipo: ["Normal"],
+		massa: 1590.8, // em kg
+		altura: 3.3, // em metros
+		som: "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/112.ogg",
+		pegada: "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		estatistica: {
+			ps: 178,
+			atq: 136,
+			def: 11,
+			atq_esp: 23,
+			def_esp: 23,
+			vel: 29,
+		},
+		descricao: "???", // considerando a dex da primeira geração que apareceu
+		categoria: "Pokémon ???",
+		obtencao: ["Glitch"],
+		estagio: 1,
+		geracao: 1, // considerando em qual geração foi introduzido
+		versao: false,
+		forma: false,
+		padrao: true,
+		regional: false,
+		lendario: true,
+		sprite: [
+			"https://archives.bulbagarden.net/media/upload/8/86/Ketsuban.png",
+			"https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
+			"https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png",
+		],
+		link: "https://bulbapedia.bulbagarden.net/wiki/MissingNo",
+	},
+	{
 		nome: "Bulbasaur",
 		especie: "Bulbasaur",
 		codinome: "",
@@ -14648,7 +14683,7 @@ const pkmnDisponiveis = [
 			vel:		50,
 		},
 		descricao:
-			"Vive em regiões com muita neve. Em estações sem neve, como primavera e verão, este Pokémon foge para viver silenciosamente entre estalactites e estalagmites nas profundezas de cavernas.", // considerando a dex da primeira geração que apareceu
+			"Vive em regiões com muita neve. Em estações sem neve, como primavera e verão, este Pokémon foge para viver silenciosamente entre estalactites e estalagmites nas profundezas de cavernas.",
 		categoria: "Pokémon Gorro de Neve",
 		obtencao: ["Gruta Cardume"],
 		estagio: 1,
@@ -41920,7 +41955,7 @@ if (
 		),
 	].length +
 		regionaisInternosPrimeira.length !==
-		151 ||
+		152 ||
 	versoesPrimeira.length !== 0 ||
 	formasPrimeira.length !== 0 ||
 	regionaisPrimeira.length !== 33

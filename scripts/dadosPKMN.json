@@ -1,5 +1,40 @@
 [
 	{
+		"nome": "MissingNo.",
+		"especie": "MissingNo.",
+		"codinome": "MissingNumber",
+		"numero": 0,
+		"tipo": ["Normal"],
+		"massa": 1590.8,
+		"altura": 3.3,
+		"som": "",
+		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
+		"estatistica": {
+			"ps": 178,
+			"atq": 136,
+			"def": 11,
+			"atq_esp": 23,
+			"def_esp": 23,
+			"vel": 29
+		},
+		"descricao": "???",
+		"categoria": "Pokémon ???",
+		"obtencao": ["Glitch"],
+		"estagio": 1,
+		"geracao": 1,
+		"versao": false,
+		"forma": false,
+		"padrao": true,
+		"regional": false,
+		"lendario": true,
+		"sprite": [
+			"https://archives.bulbagarden.net/media/upload/8/86/Ketsuban.png",
+			"https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
+			"https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png"
+		],
+		"link": "https://bulbapedia.bulbagarden.net/wiki/MissingNo"
+	},
+	{
 		"nome": "Bulbasaur",
 		"especie": "Bulbasaur",
 		"codinome": "",
