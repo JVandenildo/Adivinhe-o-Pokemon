@@ -108,6 +108,7 @@ function procurarNomes() {
 			opcoesNomes.innerHTML = "";
 			opcoesNomes.classList.add("opcoesNomesShow");
 			nomesGeral.classList.add("nomesGeralShow");
+			document.addEventListener("keydown", gerenciarEsc);
 
 			switch (dificuldade) {
 				case "Fácil":
@@ -118,7 +119,9 @@ function procurarNomes() {
 					for (let i in especies) {
 						opcoesNomes.insertAdjacentHTML(
 							"beforeend",
-							`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${especies[i]}')">${especies[i]}</div>`
+							`<div tabindex="0" class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${especies[
+								i
+							].replace(/'/g, "\\'")}')">${especies[i]}</div>`
 						);
 					}
 
@@ -132,7 +135,9 @@ function procurarNomes() {
 					for (let i in nomes) {
 						opcoesNomes.insertAdjacentHTML(
 							"beforeend",
-							`<div class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${nomes[i]}')">${nomes[i]}</div>`
+							`<div tabindex="0" class="nomePalpite" id="palpite${i}" onclick="selecaoPalpite('${nomes[
+								i
+							].replace(/'/g, "\\'")}')">${nomes[i]}</div>`
 						);
 					}
 
@@ -167,6 +172,7 @@ function reset(mode) {
 		case "soft":
 		default:
 			document.removeEventListener("keydown", gerenciarEnter);
+			document.removeEventListener("keydown", gerenciarEsc);
 			campoPalpite.value = "";
 			opcoesNomes.classList.remove("opcoesNomesShow");
 			nomesGeral.classList.remove("nomesGeralShow");
@@ -256,6 +262,20 @@ function gerenciarEnter(e) {
 	if (e.key === "Enter") {
 		e.preventDefault();
 		btnPalpite.click();
+	}
+
+	return true;
+}
+
+/**
+ * @param {KeyboardEvent} e
+ * @returns
+ */
+function gerenciarEsc(e) {
+	if (e.key === "Escape") {
+		e.preventDefault();
+		opcoesNomes.classList.remove("opcoesNomesShow");
+		nomesGeral.classList.remove("nomesGeralShow");
 	}
 
 	return true;

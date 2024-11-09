@@ -94,7 +94,19 @@ function novaTentativa() {
 					</table>`
 				);
 
-				// console.info(`Ticket: ${ticketFacil}`, `${escolhido[0].nome}`, dificuldade);
+				console.log(
+					`Ticket: ${ticketFacil}`,
+					dificuldade,
+					checkGeracoes.item(0).checked ? checkGeracoes.item(0).value : false,
+					checkGeracoes.item(1).checked ? checkGeracoes.item(1).value : false,
+					checkGeracoes.item(2).checked ? checkGeracoes.item(2).value : false,
+					checkGeracoes.item(3).checked ? checkGeracoes.item(3).value : false,
+					checkGeracoes.item(4).checked ? checkGeracoes.item(4).value : false,
+					checkGeracoes.item(5).checked ? checkGeracoes.item(5).value : false,
+					checkGeracoes.item(6).checked ? checkGeracoes.item(6).value : false,
+					checkGeracoes.item(7).checked ? checkGeracoes.item(7).value : false,
+					checkGeracoes.item(8).checked ? checkGeracoes.item(8).value : false
+				);
 				return escolhido;
 			case "Média":
 				const ticketMedia = Math.floor(
@@ -123,7 +135,19 @@ function novaTentativa() {
 					</table>`
 				);
 
-				// console.info(`Ticket: ${ticketMedia}`, `${escolhido[0].nome}`, dificuldade);
+				console.log(
+					`Ticket: ${ticketFacil}`,
+					dificuldade,
+					checkGeracoes.item(0).checked ? checkGeracoes.item(0).value : false,
+					checkGeracoes.item(1).checked ? checkGeracoes.item(1).value : false,
+					checkGeracoes.item(2).checked ? checkGeracoes.item(2).value : false,
+					checkGeracoes.item(3).checked ? checkGeracoes.item(3).value : false,
+					checkGeracoes.item(4).checked ? checkGeracoes.item(4).value : false,
+					checkGeracoes.item(5).checked ? checkGeracoes.item(5).value : false,
+					checkGeracoes.item(6).checked ? checkGeracoes.item(6).value : false,
+					checkGeracoes.item(7).checked ? checkGeracoes.item(7).value : false,
+					checkGeracoes.item(8).checked ? checkGeracoes.item(8).value : false
+				);
 				return escolhido;
 			case "Difícil":
 				const ticketDificil = Math.floor(
@@ -158,7 +182,7 @@ function novaTentativa() {
 							</table>`
 				);
 
-				// console.info(`Ticket: ${ticketDificil}`, `${escolhido[0].nome}`, dificuldade);
+				console.log(`Ticket: ${ticketDificil}`, dificuldade);
 				return escolhido;
 		}
 	}

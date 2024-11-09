@@ -282,6 +282,7 @@ button {
 	vertical-align: middle;
 	padding: 0.1rem 0.5rem;
 }
+.nomePalpiteSelecionado,
 .nomePalpite:hover {
 	background-color: var(--light-bg2) !important;
 	font-weight: bolder;

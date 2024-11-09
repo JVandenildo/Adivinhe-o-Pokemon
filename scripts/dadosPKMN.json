@@ -7,7 +7,7 @@
 		"tipo": ["Normal"],
 		"massa": 1590.8,
 		"altura": 3.3,
-		"som": "",
+		"som": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/112.ogg",
 		"pegada": "https://archives.bulbagarden.net/media/upload/8/84/FUnknown.png",
 		"estatistica": {
 			"ps": 178,
@@ -15177,7 +15177,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386-attack.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10001.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/386-attack.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
@@ -15211,7 +15211,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386-defense.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10002.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/386-defense.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
@@ -15245,7 +15245,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386-speed.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10003.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/386-speed.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
@@ -16264,7 +16264,7 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413-sandy.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10004.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/413-sandy.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)"
@@ -16298,7 +16298,7 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413-trash.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10005.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/413-trash.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)"
@@ -18740,7 +18740,7 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-heat.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-heat.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)"
@@ -18774,7 +18774,7 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-wash.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-wash.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)"
@@ -18808,7 +18808,7 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-frost.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10010.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-frost.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)"
@@ -18842,7 +18842,7 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-fan.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10011.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-fan.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)"
@@ -18876,7 +18876,7 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479-mow.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10012.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-mow.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)"
@@ -19182,7 +19182,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487-origin.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/487-origin.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)"
@@ -19386,7 +19386,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492-sky.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10006.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/492-sky.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)"
@@ -20676,7 +20676,7 @@
 			"Challenger's Cave",
 			"Estrada da Vitória",
 			"Reversal Mountain",
-			"Clay Tunnerl",
+			"Clay Tunnel",
 			"Relic Passage",
 			"Underground Ruins",
 			"Seaside Cave"
@@ -21876,11 +21876,11 @@
 		"geracao": 5,
 		"versao": false,
 		"forma": true,
-		"padrao": true,
+		"padrao": false,
 		"regional": true,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555-zen.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10017.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/555-zen.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon)"
@@ -21910,7 +21910,7 @@
 		"geracao": 8,
 		"versao": false,
 		"forma": true,
-		"padrao": false,
+		"padrao": true,
 		"regional": true,
 		"lendario": false,
 		"sprite": [
@@ -22659,7 +22659,7 @@
 			"def_esp": 60,
 			"vel": 115
 		},
-		"descricao": "Seu pelo branco é revestido por um óleo especial que facilida a defesa contra ataques.",
+		"descricao": "Seu pelo branco é revestido por um óleo especial que facilita a defesa contra ataques.",
 		"categoria": "Pokémon Cachecol",
 		"obtencao": ["Rotas 5, 9, e 16", "Câmara Frigorífica", "Por evolução"],
 		"estagio": 2,
@@ -22762,7 +22762,7 @@
 			"vel": 65
 		},
 		"descricao": "Céus estrelados a milhares de anos-luz de distância são visíveis no espaço distorcido por seu intenso poder psíquico.",
-		"categoria": "Pokémon Corpo Atral",
+		"categoria": "Pokémon Corpo Astral",
 		"obtencao": ["Rota 9", "Por evolução"],
 		"estagio": 3,
 		"geracao": 5,
@@ -22829,7 +22829,7 @@
 			"def_esp": 60,
 			"vel": 30
 		},
-		"descricao": "Por ter dois cérebros divididos, as vezes tentam, de repente, relizar duas ações diferentes ao mesmo tempo.",
+		"descricao": "Por ter dois cérebros divididos, as vezes tentam, de repente, realizar duas ações diferentes ao mesmo tempo.",
 		"categoria": "Pokémon Mitose",
 		"obtencao": ["Rota 9", "Strange House", "Por evolução"],
 		"estagio": 2,
@@ -23622,7 +23622,7 @@
 			"def_esp": 85,
 			"vel": 50
 		},
-		"descricao": "Ao mudar a direção em que gira, comunica seus sentidmentos aos outros. Quando está com raiva, gira mais rápido.",
+		"descricao": "Ao mudar a direção em que gira, comunica seus sentimentos aos outros. Quando está com raiva, gira mais rápido.",
 		"categoria": "Pokémon Engrenagem",
 		"obtencao": ["Laboratório P2", "Por evolução"],
 		"estagio": 2,
@@ -23724,7 +23724,7 @@
 			"def_esp": 70,
 			"vel": 40
 		},
-		"descricao": "Possuem grande apetite. Quando avistam sua presa, atacam e paralizam o alvo com eletricidade.",
+		"descricao": "Possuem grande apetite. Quando avistam sua presa, atacam e paralisam o alvo com eletricidade.",
 		"categoria": "Pokémon Elepeixe",
 		"obtencao": ["Seaside Cave", "Por evolução"],
 		"estagio": 2,
@@ -24066,7 +24066,7 @@
 		},
 		"descricao": "Quando não está se sentindo bem, seu muco fica aquoso e o poder de seus movimentos do tipo gelo diminui.",
 		"categoria": "Pokémon Frio",
-		"obtencao": ["Rota 7", "Montanhar Trançada", "Dragonspiral Tower"],
+		"obtencao": ["Rota 7", "Montanha Trançada", "Dragonspiral Tower"],
 		"estagio": 1,
 		"geracao": 5,
 		"versao": false,
@@ -24098,7 +24098,7 @@
 			"def_esp": 80,
 			"vel": 50
 		},
-		"descricao": "Consegue congelar sua respiração à vontade. Muito hávil na água, nada em mores do norte e captura presas.",
+		"descricao": "Consegue congelar sua respiração à vontade. Muito hábil na água, nada em mores do norte e captura presas.",
 		"categoria": "Pokémon Congelante",
 		"obtencao": ["Montanha Trançada", "Dragonspiral Tower", "Por evolução"],
 		"estagio": 2,
@@ -24200,7 +24200,7 @@
 			"def_esp": 60,
 			"vel": 145
 		},
-		"descricao": "Quando seu corpo seca, enfraquece. Para prevenir a desidratação, se enrolaem várias camadas de membrana fina.",
+		"descricao": "Quando seu corpo seca, enfraquece. Para prevenir a desidratação, se enrolarem várias camadas de membrana fina.",
 		"categoria": "Pokémon Concha Fora",
 		"obtencao": ["Por evolução"],
 		"estagio": 2,
@@ -24651,7 +24651,7 @@
 			"def_esp": 70,
 			"vel": 65
 		},
-		"descricao": "Emitindo um grito de guerra de gelar o sangue, este enorme e feroz Pokémon pássaro sai para caçar. Explode lagos com ondas de choque e, em seguida, pega qualquer presa que fuluta na superfície da água.",
+		"descricao": "Emitindo um grito de guerra de gelar o sangue, este enorme e feroz Pokémon pássaro sai para caçar. Explode lagos com ondas de choque e, em seguida, pega qualquer presa que flutua na superfície da água.",
 		"categoria": "Pokémon Grito de Guerra",
 		"obtencao": [
 			"Alabaster Icelands: próximo ao Lago Perspicácia",
@@ -24932,7 +24932,7 @@
 			"vel": 60
 		},
 		"descricao": "A base de vulcões é onde fazem seus lares. Atiram fogo de seus cinco chifres para repelir ataques inimigos.",
-		"categoria": "Pokémon Torcha",
+		"categoria": "Pokémon Tocha",
 		"obtencao": ["Por ovo"],
 		"estagio": 1,
 		"geracao": 5,
@@ -25146,7 +25146,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641-therian.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/641-therian.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon)"
@@ -25214,7 +25214,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642-therian.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/642-therian.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)"
@@ -25305,7 +25305,7 @@
 			"def_esp": 80,
 			"vel": 101
 		},
-		"descricao": "Terras visitadas por este Pokémon proporcionam colheitas tão abundantes que foi aclamado como 'O Guadião dos Campos'.",
+		"descricao": "Terras visitadas por este Pokémon proporcionam colheitas tão abundantes que foi aclamado como 'O Guardião dos Campos'.",
 		"categoria": "Pokémon Abundância",
 		"obtencao": ["Abundant Shrine"],
 		"estagio": 1,
@@ -25350,7 +25350,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645-therian.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/645-therian.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon)"
@@ -25418,7 +25418,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646-white.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/646-white.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)"
@@ -25452,7 +25452,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646-black.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/646-black.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)"
@@ -25520,7 +25520,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647-resolute.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10024.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/647-resolute.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)"
@@ -25577,7 +25577,7 @@
 			"def_esp": 77,
 			"vel": 128
 		},
-		"descricao": "Suas melodias são cantadas com um método de vocalização especial que conseuge controlar os sentimentos daqueles que o escuta.",
+		"descricao": "Suas melodias são cantadas com um método de vocalização especial que consegue controlar os sentimentos daqueles que o escuta.",
 		"categoria": "Pokémon Melodia",
 		"obtencao": [
 			"Por evento e, quando em batalha, usa o movimento Canção da Relíquia"
@@ -25590,7 +25590,7 @@
 		"regional": false,
 		"lendario": true,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648-pirouette.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10018.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/648-pirouette.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)"
@@ -27887,8 +27887,8 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710-small.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/710-small.png"
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10027.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10027.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Pumpkaboo_(Pok%C3%A9mon)"
 	},
@@ -27955,8 +27955,8 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710-large.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/710-large.png"
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10028.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10028.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Pumpkaboo_(Pok%C3%A9mon)"
 	},
@@ -27989,8 +27989,8 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710-super.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/710-super.png"
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10029.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10029.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Pumpkaboo_(Pok%C3%A9mon)"
 	},
@@ -28023,8 +28023,8 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711-small.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711-small.png"
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10030.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Gourgeist_(Pok%C3%A9mon)"
 	},
@@ -28091,8 +28091,8 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711-large.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711-large.png"
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10031.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Gourgeist_(Pok%C3%A9mon)"
 	},
@@ -28125,8 +28125,8 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711-super.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711-super.png"
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10032.png"
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Gourgeist_(Pok%C3%A9mon)"
 	},
@@ -30690,8 +30690,8 @@
 		"regional": false,
 		"lendario": false,
 		"sprite": [
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
-			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/774.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/774.png",
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/774.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10130.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/774-orange-meteor.png",
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10131.png",
@@ -31440,7 +31440,7 @@
 	{
 		"nome": "Buzzwole",
 		"especie": "Buzzwole",
-		"codinome": "UB-02 Absortion",
+		"codinome": "UB-02 Absorption",
 		"numero": 794,
 		"tipo": ["Inseto", " Lutador"],
 		"massa": 333.6,
@@ -31862,7 +31862,7 @@
 	{
 		"nome": "Poipole",
 		"especie": "Poipole",
-		"codinome": "UB Adhersive",
+		"codinome": "UB Adhesive",
 		"numero": 803,
 		"tipo": ["Veneno"],
 		"massa": 1.8,
@@ -32097,7 +32097,6 @@
 		],
 		"link": "https://bulbapedia.bulbagarden.net/wiki/Melmetal_(Pok%C3%A9mon)"
 	},
-
 	{
 		"nome": "Grookey",
 		"especie": "Grookey",
@@ -32428,7 +32427,7 @@
 			"Rotas 1, 2, 3, e outras",
 			"Arvoredo Adormecido",
 			"Rolling Fields",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"North Lake Miloch",
 			"Dappled Grove",
 			"Watchtower Ruins",
@@ -32489,7 +32488,7 @@
 			"Giant's Seat",
 			"Hammerlocke Hills",
 			"Lake of Outrage",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"Slippery Slope",
 			"Frostpoint Field",
 			"Giant's Bed",
@@ -32531,7 +32530,7 @@
 		},
 		"descricao": "Corajosamente desafiará qualquer oponente, não importa quão forte. Este Pokémon se beneficia de toda batalha, mesmo a derrota aumenta sua força um pouco.",
 		"categoria": "Pokémon Passarinho",
-		"obtencao": ["Rotas 1, 2, e 3", "Motostoke Riverbank", "Slumbering Weald"],
+		"obtencao": ["Rotas 1, 2, e 3", "Motorstoke Riverbank", "Slumbering Weald"],
 		"estagio": 1,
 		"geracao": 8,
 		"versao": false,
@@ -32569,7 +32568,7 @@
 			"Rota 3",
 			"Giant's Mirror",
 			"Hammerlocke Hills",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"Ballimere Lake",
 			"Por evolução"
 		],
@@ -32613,7 +32612,7 @@
 			"Slumbering Weald",
 			"Giant's Cap",
 			"Hammerlocke Hills",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"North Lake Miloch",
 			"Watchtower Ruins",
 			"Por evolução"
@@ -32858,7 +32857,7 @@
 		},
 		"descricao": "Ancora a si mesmo ao chão com sua única perna, depois se aquece no sol. Após absorver luz solar suficiente, suas pétalas se espalham enquanto ela floresce brilhantemente.",
 		"categoria": "Pokémon Florescer",
-		"obtencao": ["Rotas 2, e 3", "Motostoke Riverbank"],
+		"obtencao": ["Rotas 2, e 3", "Motorstoke Riverbank"],
 		"estagio": 1,
 		"geracao": 8,
 		"versao": false,
@@ -32894,7 +32893,7 @@
 		"categoria": "Pokémon Florescimento de Algodão",
 		"obtencao": [
 			"Rota 5",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"Dusty Bowl",
 			"Giant's Cap",
 			"Stony Wilderness",
@@ -32936,7 +32935,7 @@
 		"categoria": "Pokémon Ovelha",
 		"obtencao": [
 			"Rotas 1, e 4",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"Slippery Slope",
 			"Frostpoint Field",
 			"Giant's Bed",
@@ -32979,7 +32978,7 @@
 		"obtencao": [
 			"Dusty Bowl",
 			"Hammerlocke Hills",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"Rolling Fields",
 			"Slippery Slope",
 			"Frostpoint Field",
@@ -33026,8 +33025,8 @@
 			"Galar Mine No. 2",
 			"Giant's Cap",
 			"Giant's Mirror",
-			"Motostoke Outskirts",
-			"Motostoke Riverbank",
+			"Motorstoke Outskirts",
+			"Motorstoke Riverbank",
 			"Courageous Cavern",
 			"Soothing Wetlands"
 		],
@@ -33153,7 +33152,7 @@
 		"obtencao": [
 			"Dusty Bowl",
 			"Lake of Outrage",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"North Lake Miloch",
 			"Ballimere Lake",
 			"Por evolução"
@@ -33191,7 +33190,7 @@
 		},
 		"descricao": "A maior parte de seu corpo possui a mesma composição do carvão. Apropriadamente, este Pokémon foi descoberto pela primeira vez em minas de carvão há cerca de 400 anos.",
 		"categoria": "Pokémon Carvão",
-		"obtencao": ["Rota 3", "Gala Mine", "Giant's Cap", "Motostoke Riverbank"],
+		"obtencao": ["Rota 3", "Gala Mine", "Giant's Cap", "Motorstoke Riverbank"],
 		"estagio": 1,
 		"geracao": 8,
 		"versao": false,
@@ -33543,7 +33542,7 @@
 		"categoria": "Pokémon Arremetida",
 		"obtencao": [
 			"Rota 2",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"Challenge Beach",
 			"Forest of Focus",
 			"Training Lowlands"
@@ -33583,7 +33582,7 @@
 		"categoria": "Pokémon Espeto",
 		"obtencao": [
 			"Rota 2",
-			"Motostoke Riverbank",
+			"Motorstoke Riverbank",
 			"Dusty Bowl",
 			"Lake of Outrage",
 			"Training Lowlands",
@@ -33628,7 +33627,7 @@
 			"Giant's Cap",
 			"Stony Wilderness",
 			"Bridge Field",
-			"Motostoke Riverbank"
+			"Motorstoke Riverbank"
 		],
 		"estagio": 1,
 		"geracao": 8,
@@ -33731,7 +33730,7 @@
 		},
 		"descricao": "Armazena gás inflamável em seu corpo e usa para gerar calor. As seções amarelas em sua barriga ficam particularmente quentes.",
 		"categoria": "Pokémon Radiador",
-		"obtencao": ["Rota 3", "Motostoke Stadium", "Giant's Foot"],
+		"obtencao": ["Rota 3", "Motorstoke Stadium", "Giant's Foot"],
 		"estagio": 1,
 		"geracao": 8,
 		"versao": false,
@@ -33943,7 +33942,7 @@
 		"categoria": "Pokémon Calmo",
 		"obtencao": [
 			"Hammerlocke Hill",
-			"Motostoke Outskirts",
+			"Motorstoke Outskirts",
 			"Stony Wilderness",
 			"Slippery Slope",
 			"Frostpoint Field",
@@ -34077,7 +34076,7 @@
 		"obtencao": [
 			"Giant's Mirror",
 			"Hammerlocke Hills",
-			"Motostoke Outskirts",
+			"Motorstoke Outskirts",
 			"Stony Wilderness",
 			"Bosque Glimwood",
 			"Slippery Slope"
