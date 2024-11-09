@@ -52,6 +52,35 @@
 				</ul>
 			</article>
 			<section id="jogo">
+				<button id="btnDesistencia">DESISTIR</button>
+				<section id="usuario">
+					<button id="btnTentativa" onclick="novaTentativa()">
+						NOVA TENTATIVA
+					</button>
+					<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
+					<div class="nomesGeral">
+						<div class="opcoesNomes"></div>
+						<input
+							type="text"
+							translate="no"
+							spellcheck="false"
+							placeholder="Digite palpite aqui"
+							id="campoPalpite"
+							oninput="procurarNomes()"
+						/>
+					</div>
+					<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
+					<button id="btnPalpite">PALPITAR</button>
+				</section>
+				<section id="maquina">
+					<section id="dicas"></section>
+					<section id="palpites">
+						<section id="palpitesErrados"><h3>Palpites Errados</h3></section>
+						<section id="ultimato"></section>
+					</section>
+				</section>
+			</section>
+			<section id="selecoes">
 				<section id="dificuldades">
 					<h3 style="margin: 0.5rem">Escolha a Dificuldade</h3>
 					<input
@@ -129,6 +158,8 @@
 						/><label for="checkSegunda" title="Geração da região de Johto"
 							>Segunda Geração</label
 						>
+					</div>
+					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkTerceira"
@@ -141,8 +172,6 @@
 						/><label for="checkTerceira" title="Geração da região de Hoenn"
 							>Terceira Geração</label
 						>
-					</div>
-					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkQuarta"
@@ -155,6 +184,8 @@
 						/><label for="checkQuarta" title="Geração da região de Sinnoh"
 							>Quarta Geração</label
 						>
+					</div>
+					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkQuinta"
@@ -207,6 +238,8 @@
 							title="Geração das regiões de Galar e Hisui"
 							>Oitava Geração</label
 						>
+					</div>
+					<div class="grupoGen">
 						<input
 							type="checkbox"
 							id="checkNona"
@@ -222,33 +255,6 @@
 							>Nona Geração</label
 						>
 					</div>
-				</section>
-				<button id="btnDesistencia">DESISTÊNCIA</button>
-				<section id="usuario">
-					<button id="btnTentativa" onclick="novaTentativa()">
-						NOVA TENTATIVA
-					</button>
-					<!-- ↓↓ seção que engloba o palpite e sugestões de palpite ↓↓ -->
-					<div class="nomesGeral">
-						<div class="opcoesNomes"></div>
-						<input
-							type="text"
-							translate="no"
-							spellcheck="false"
-							placeholder="Digite palpite aqui"
-							id="campoPalpite"
-							oninput="procurarNomes()"
-						/>
-					</div>
-					<!-- ↑↑ seção que engloba o palpite e sugestões de palpite ↑↑ -->
-					<button id="btnPalpite">PALPITAR</button>
-				</section>
-				<section id="maquina">
-					<section id="dicas"></section>
-					<section id="palpites">
-						<section id="palpitesErrados"><h3>Palpites Errados</h3></section>
-						<section id="ultimato"></section>
-					</section>
 				</section>
 			</section>
 		</main>

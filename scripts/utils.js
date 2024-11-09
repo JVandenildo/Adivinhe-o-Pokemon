@@ -108,7 +108,7 @@ function procurarNomes() {
 			opcoesNomes.innerHTML = "";
 			opcoesNomes.classList.add("opcoesNomesShow");
 			nomesGeral.classList.add("nomesGeralShow");
-			document.addEventListener("keydown", gerenciarEsc);
+			document.addEventListener("keydown", gerenciarTeclas);
 
 			switch (dificuldade) {
 				case "Fácil":
@@ -171,8 +171,7 @@ function reset(mode) {
 			dificuldadeRadio.item(0).checked = true;
 		case "soft":
 		default:
-			document.removeEventListener("keydown", gerenciarEnter);
-			document.removeEventListener("keydown", gerenciarEsc);
+			document.removeEventListener("keydown", gerenciarTeclas);
 			campoPalpite.value = "";
 			opcoesNomes.classList.remove("opcoesNomesShow");
 			nomesGeral.classList.remove("nomesGeralShow");
@@ -193,6 +192,10 @@ function reset(mode) {
 function indiceAleatorio(array, ocorrido) {
 	const data = new Date();
 	imgIndex = Math.floor(Math.random(data) * array.length);
+
+	if (imgIndex % 2 !== 0 && Math.random() < 0.75) {
+		imgIndex = (imgIndex + 1) % array.length; // Change odd to even or wrap around
+	}
 
 	if (ocorrido > 1) {
 		return imgIndex;
@@ -258,25 +261,18 @@ function dificuldadeSecionada() {
 /**
  * @param {KeyboardEvent} e
  */
-function gerenciarEnter(e) {
-	if (e.key === "Enter") {
-		e.preventDefault();
-		btnPalpite.click();
+function gerenciarTeclas(e) {
+	switch (e.key) {
+		case "Enter":
+			e.preventDefault();
+			btnPalpite.click();
+
+			return true;
+		case "Escape":
+			e.preventDefault();
+			opcoesNomes.classList.remove("opcoesNomesShow");
+			nomesGeral.classList.remove("nomesGeralShow");
+
+			return false;
 	}
-
-	return true;
-}
-
-/**
- * @param {KeyboardEvent} e
- * @returns
- */
-function gerenciarEsc(e) {
-	if (e.key === "Escape") {
-		e.preventDefault();
-		opcoesNomes.classList.remove("opcoesNomesShow");
-		nomesGeral.classList.remove("nomesGeralShow");
-	}
-
-	return true;
 }

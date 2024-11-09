@@ -61,7 +61,7 @@ function novaTentativa() {
 		btnPalpite.style.cursor = "pointer";
 		btnDesistencia.addEventListener("click", desistir);
 		btnDesistencia.style.cursor = "pointer";
-		document.addEventListener("keydown", gerenciarEnter);
+		document.addEventListener("keydown", gerenciarTeclas);
 		const data = new Date();
 
 		dificuldade = dificuldadeSecionada();
@@ -230,7 +230,7 @@ function palpitar() {
 					btnDesistencia.style.cursor = "not-allowed";
 					btnPalpite.removeEventListener("click", palpitar);
 					btnPalpite.style.cursor = "not-allowed";
-					document.removeEventListener("keydown", gerenciarEnter);
+					document.removeEventListener("keydown", gerenciarTeclas);
 
 					if (palpites === 1) {
 						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].especie}" href="${escolhido[0].link}" target="_blank">${escolhido[0].especie}</a> com ${palpites} palpite!</p>
@@ -254,7 +254,7 @@ function palpitar() {
 						btnDesistencia.style.cursor = "not-allowed";
 						btnPalpite.removeEventListener("click", palpitar);
 						btnPalpite.style.cursor = "not-allowed";
-						document.removeEventListener("keydown", gerenciarEnter);
+						document.removeEventListener("keydown", gerenciarTeclas);
 
 						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
 						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
@@ -323,7 +323,7 @@ function palpitar() {
 					btnDesistencia.style.cursor = "not-allowed";
 					btnPalpite.removeEventListener("click", palpitar);
 					btnPalpite.style.cursor = "not-allowed";
-					document.removeEventListener("keydown", gerenciarEnter);
+					document.removeEventListener("keydown", gerenciarTeclas);
 
 					if (palpites === 1) {
 						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpite!</p>
@@ -347,7 +347,7 @@ function palpitar() {
 						btnDesistencia.style.cursor = "not-allowed";
 						btnPalpite.removeEventListener("click", palpitar);
 						btnPalpite.style.cursor = "not-allowed";
-						document.removeEventListener("keydown", gerenciarEnter);
+						document.removeEventListener("keydown", gerenciarTeclas);
 
 						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
 						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
@@ -438,7 +438,7 @@ function palpitar() {
 					btnDesistencia.style.cursor = "not-allowed";
 					btnPalpite.removeEventListener("click", palpitar);
 					btnPalpite.style.cursor = "not-allowed";
-					document.removeEventListener("keydown", gerenciarEnter);
+					document.removeEventListener("keydown", gerenciarTeclas);
 
 					if (palpites === 1) {
 						ultimato.innerHTML = `<p>Você acertou <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a> com ${palpites} palpite!</p>
@@ -462,7 +462,7 @@ function palpitar() {
 						btnDesistencia.style.cursor = "not-allowed";
 						btnPalpite.removeEventListener("click", palpitar);
 						btnPalpite.style.cursor = "not-allowed";
-						document.removeEventListener("keydown", gerenciarEnter);
+						document.removeEventListener("keydown", gerenciarTeclas);
 
 						ultimato.innerHTML = `<p>Você errou!<br />Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
 						<a href="${escolhido[0].link}" target="_blank"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Mais informações sobre ${escolhido[0].nome}" alt="Sprite de ${escolhido[0].nome}" /></a>`;
@@ -511,7 +511,7 @@ function desistir() {
 	btnDesistencia.style.cursor = "not-allowed";
 	btnPalpite.removeEventListener("click", palpitar);
 	btnPalpite.style.cursor = "not-allowed";
-	document.removeEventListener("keydown", gerenciarEnter);
+	document.removeEventListener("keydown", gerenciarTeclas);
 
 	if (palpites === 1) {
 		ultimato.innerHTML = `<p>Você desistiu com ${palpites} palpite! Era <a title="Mais informações sobre ${escolhido[0].nome}" href="${escolhido[0].link}" target="_blank">${escolhido[0].nome}</a>!</p>
