@@ -2,9 +2,9 @@
 
 :root {
 	--dark-bg: rgb(15, 15, 25);
-	--dark-bg2: rgb(50, 50, 60);
+	--dark-bg2: rgb(30, 30, 45);
 	--light-bg: rgb(245, 245, 235);
-	--light-bg2: rgb(205, 205, 195);
+	--light-bg2: rgb(225, 225, 215);
 	--footer-bg: rgb(185, 165, 10);
 	--footer-bg2: rgb(255, 165, 0);
 
@@ -68,11 +68,8 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: radial-gradient(
-		circle,
-		var(--footer-bg2),
-		var(--footer-bg)
-	);
+	/* prettier-ignore */
+	background-image: radial-gradient(circle, var(--footer-bg2), var(--footer-bg));
 	-webkit-text-fill-color: var(--dark-font-color);
 	color: var(--dark-font-color);
 }
@@ -88,11 +85,8 @@ footer {
 	align-items: start;
 	right: 0%;
 	bottom: 0%;
-	background-image: radial-gradient(
-		circle,
-		var(--footer-bg2),
-		var(--footer-bg)
-	);
+	/* prettier-ignore */
+	background-image: radial-gradient(circle, var(--footer-bg2), var(--footer-bg));
 	padding: 0.5rem;
 	height: 3rem;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -130,12 +124,11 @@ button {
 }
 
 #sobreJogo {
-	width: 19rem;
+	width: 20rem;
 	padding: 0.5rem;
 	font-size: smaller;
 	text-justify: newspaper;
 	hyphens: auto;
-	margin-right: 0.5rem;
 }
 #sobreJogo ul,
 #sobreJogo ol {
@@ -152,9 +145,8 @@ button {
 }
 
 #selecoes {
-	width: 19rem;
+	width: 20rem;
 	padding: 0.5rem;
-	margin-left: 0.5rem;
 }
 #dificuldades {
 	margin: 0px auto;
@@ -165,7 +157,7 @@ button {
 	cursor: pointer;
 	padding: 0.3rem;
 	margin: 3px auto;
-	border-radius: 0.5rem;
+	border-radius: 0.3rem;
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: lighter;
@@ -196,7 +188,7 @@ button {
 	padding: 0.3rem;
 	margin: 0px 1px;
 	border: 2px solid var(--dark-bg2);
-	border-radius: 0.5rem;
+	border-radius: 0.3rem;
 	transition: linear 1ms;
 }
 .checkGen:hover + label,
@@ -317,10 +309,10 @@ button {
 	width: 150px;
 	height: auto;
 	margin: 0px auto !important;
-	-webkit-filter: contrast(1%) blur(2px) drop-shadow(2px 2px 0px black)
-		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px black);
-	filter: contrast(1%) blur(2px) drop-shadow(2px 2px 0px black)
-		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px black);
+	-webkit-filter: contrast(1%) blur(2px) drop-shadow(2px 2px 0px rgb(0, 0, 0))
+		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px rgb(0, 0, 0));
+	filter: contrast(1%) blur(2px) drop-shadow(2px 2px 0px rgb(0, 0, 0))
+		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px rgb(0, 0, 0));
 }
 
 table {
@@ -383,9 +375,9 @@ table p {
 #ultimato img {
 	margin: 0rem auto;
 	height: auto;
-	-webkit-filter: drop-shadow(2px 2px 0px black)
-		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px black);
-	filter: drop-shadow(2px 2px 0px black)
-		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px black);
+	-webkit-filter: drop-shadow(2px 2px 0px rgb(0, 0, 0))
+		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px rgb(0, 0, 0));
+	filter: drop-shadow(2px 2px 0px rgb(0, 0, 0))
+		drop-shadow(calc(-1 * 2px) calc(-1 * 2px) 0px rgb(0, 0, 0));
 	color: var(--dark-font-color);
 }

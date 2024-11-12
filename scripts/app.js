@@ -298,7 +298,15 @@ function palpitar() {
 					<tr><th scope="col" colspan="1">Descrição</th></tr>
 					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
 				</table>`,
-				/* quarta e última dica */
+				/* quarta dica */
+				`<table>
+					<tr><th scope="col" colspan="1">Som</th></tr>
+					<tr><td>
+						<audio id="escolhidoSom" src="${escolhido[0].som}"></audio>
+						<button onclick="playSom()">Tocar</button>
+					</td></tr></td></tr>
+				</table>`,
+				/* quinta e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
 					<tr><td id="dicaSilhueta"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>
@@ -405,15 +413,23 @@ function palpitar() {
 				</table>`,
 				/* quarta dica */
 				`<table>
+					<tr><th scope="col" colspan="1">Som</th></tr>
+					<tr><td>
+						<audio id="escolhidoSom" src="${escolhido[0].som}"></audio>
+						<button onclick="playSom()">Tocar</button>
+					</td></tr></td></tr>
+				</table>`,
+				/* quinta dica */
+				`<table>
 					<tr><th scope="col" colspan="1">Descrição</th></tr>
 					<tr><td style="hyphens: auto;">${escolhido[0].descricao}</td></tr>
 				</table>`,
-				/* quinta dica */
+				/* sexta dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Categoria</th></tr>
 					<tr><td>${escolhido[0].categoria}</td></tr>
 				</table>`,
-				/* sexta e última dica */
+				/* sétima e última dica */
 				`<table>
 					<tr><th scope="col" colspan="1">Silhueta</th></tr>
 					<tr><td id="dicaSilhueta"><img loading="eager" src="${escolhido[0].sprite[imgIndex]}" title="Silhueta misteriosa" alt="Dica silhueta" /></td></tr>

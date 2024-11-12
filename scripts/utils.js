@@ -276,3 +276,10 @@ function gerenciarTeclas(e) {
 			return false;
 	}
 }
+
+function playSom() {
+	const escolhidoSom = document.querySelector("#escolhidoSom");
+	escolhidoSom.play();
+
+	return true;
+}
