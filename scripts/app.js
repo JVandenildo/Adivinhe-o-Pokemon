@@ -136,7 +136,7 @@ function novaTentativa() {
 				);
 
 				console.log(
-					`Ticket: ${ticketFacil}`,
+					`Ticket: ${ticketMedia}`,
 					dificuldade,
 					checkGeracoes.item(0).checked ? checkGeracoes.item(0).value : false,
 					checkGeracoes.item(1).checked ? checkGeracoes.item(1).value : false,
